@@ -18,100 +18,73 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme X. Intermezzo Dorabella.ogg"
   },
-  "intro": "Off-beat entries give this intermezzo its light, hesitant gait. Short gestures frame a more sustained inner melody, making a personal portrait out of articulation and rhythm.",
-  "question": "How can a melody seem hesitant while the dance keeps moving?",
+  "intro": "Dora Penny’s portrait dances in little hesitations, with a long viola melody hidden among the skipping notes. Elgar calls her Dorabella after the young woman in Mozart’s <i>Così fan tutte</i>.",
   "sections": [
     {
       "t": 0,
-      "label": "Light, interrupted phrases",
+      "label": "Var 10 · Dora’s skipping dance",
       "m": "Var 10",
-      "mNote": "off-beat gestures keep the texture transparent"
+      "mNote": "Muted violins hesitate over plucked bass notes"
     },
     {
       "t": 64,
-      "label": "A broader inner line",
+      "label": "Var 10 · The flute sings through",
       "m": "Var 10",
-      "mNote": "longer phrases grow within the same intermezzo"
+      "mNote": "Long flute notes above the little violin figures"
     },
     {
       "t": 104,
-      "label": "The closing phrases",
+      "label": "Var 10 · Last steps of the dance",
       "m": "Var 10",
-      "mNote": "the light articulation returns to the foreground"
+      "mNote": "Short wind replies and muted strings"
     }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "listen",
-      "title": "Hear the gaps",
-      "text": "Muted violins and short wind phrases leave small spaces inside the pulse. Listen to the gaps as part of the dance: the music’s lightness depends on what is left open as much as on what is played.",
-      "basis": "general",
+      "kind": "music",
+      "title": "Small hesitations",
+      "text": "Muted violins skip into the bar late, with little rests between their phrases. The cellos and basses pluck underneath. Dora Penny’s slight stammer is part of this affectionate portrait: Elgar makes its hesitations dance.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello pp. 57–73, rehearsal figures 38–46, show short articulated entries and light string accompaniment. Whole-variation listening point."
+      "evidence": "Novello full score, p. 57, rehearsal 38: muted violins, rests and pizzicato lower strings. The allusion to Penny’s stammer is documented by John Pickard, BBC programme note (2005): https://www.bbc.com/radio3/classical/elgar/notes/note_enigma.shtml"
     },
     {
       "t": 32,
       "kind": "world",
-      "title": "Dora Penny becomes Dorabella",
-      "text": "Dora Penny, the daughter of the rector of Wolverhampton, is a younger friend of Elgar. Her nickname borrows Dorabella’s name from Mozart’s Così fan tutte; the portrait is not an orchestration of music from that opera.",
+      "title": "Dora keeps the memories",
+      "text": "Dora is the daughter of the rector of Wolverhampton and a close friend of the Elgars. Years later, as Mrs Richard Powell, she writes <i>Edward Elgar: Memories of a Variation</i>, preserving the conversations behind this circle of musical portraits.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The Elgar Society identifies Penny; the work account supplies the Mozart-derived nickname. https://elgar.org/3enigma.htm https://en.wikipedia.org/wiki/Enigma_Variations"
+      "evidence": "Penny’s family and friendship: https://elgar.org/3enigma.htm. Her married name and memoir: https://en.wikipedia.org/wiki/Enigma_Variations, variation X."
     },
     {
-      "t": 68,
+      "t": 64,
       "kind": "music",
-      "title": "Short gestures, longer direction",
-      "text": "The middle of the intermezzo gives more space to sustained melodic shapes. Try to connect a whole phrase across the accompaniment’s small articulations instead of hearing a succession of isolated notes.",
+      "title": "A tune inside the dance",
+      "text": "The flute carries a sustained tune while the muted violins keep up their short, broken figures. Earlier the solo viola has this singing role. Elgar lets one instrument finish a sentence while the rest of the orchestra keeps interrupting.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The score includes sustained inner melodies between shorter gestures. The report’s 1:04–1:20 span has lower onset density and more sustained recorded weight; this is a broad comparison, not a solo entrance."
-    },
-    {
-      "t": 106,
-      "kind": "listen",
-      "title": "Lightness is not simply softness",
-      "text": "The closing phrases gain some recorded weight before diminishing. Listen for whether the articulated dance character survives the swell: a passage can grow louder without becoming heavy.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report has a modest rise at 1:45–1:50 and falls after 1:55 towards the end. It measures the transfer’s envelope, not instrumental articulation."
+      "evidence": "Novello full score, pp. 59–60 and 64–65: sustained viola and flute phrases. Elgar singles out these two instruments in his commentary on variation X: https://en.wikipedia.org/wiki/Enigma_Variations"
     }
   ],
   "transitions": [
     {
       "id": "broader-line",
-      "title": "A longer phrase within the dance",
-      "from": "Light, interrupted phrases",
-      "to": "A broader inner line",
+      "title": "The flute lengthens the phrase",
+      "from": "Var 10 · Dora’s skipping dance",
+      "to": "Var 10 · The flute sings through",
       "at": {
         "t": 64
       },
-      "how": "<p>The intermezzo does not need a new tempo to change character. Longer melodic notes are set against the continuing short accompaniment, so the listener can follow a broader line while the dance pulse remains in place.</p>",
+      "how": "<p>The G-major dance keeps its Allegretto pace. Over plucked cello and bass notes, the flute sustains its melody across the bar lines; oboes interject, and muted violins continue their little off-beat figures. The longer tune has room to sing without slowing the dancers.</p>",
       "devices": [
-        "texture change",
-        "motivic link"
+        "orchestration change",
+        "texture change"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello pp. 57–73 contrast short off-beat gestures with sustained inner melody. The 1:04 boundary marks the report’s move towards a less attack-dense span; passage-level placement, not a numbered-bar alignment."
-    },
-    {
-      "id": "closing-phrases",
-      "title": "The articulation comes forward again",
-      "from": "A broader inner line",
-      "to": "The closing phrases",
-      "at": {
-        "t": 104
-      },
-      "how": "<p>Shorter gestures and lighter exchanges regain attention as the intermezzo approaches its ending. The texture thins without abandoning its pulse, and the final phrases diminish rather than seeking the weight of a full orchestral climax.</p>",
-      "devices": [
-        "texture change",
-        "decrescendo"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Novello pp. 70–73 supply the light ending; the report changes at 1:44 and falls away after its modest 1:45–1:50 rise."
+      "evidence": "Novello full score, pp. 64–65: sustained flute melody, short oboe figures, muted violins and pizzicato lower strings."
     }
   ],
   "orchestra": {
@@ -138,18 +111,18 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 57–73, rehearsal figures 38–46. Whole-intermezzo passage map: the report’s changes around 0:24, 0:44, 1:04, 1:20 and 1:44 support the changing lead roles. Positions are broad, not bar-aligned."
+      "locator": "Novello full score, pp. 57–73, rehearsal figures 38–46: muted strings, the solo viola melody and its later flute counterpart."
     },
     "timeline": [
-      { "t": 0, "playing": ["violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "Muted, off-beat violin phrases begin above short viola chords and pizzicato low strings (p. 57)." },
-      { "t": 6, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "Short wind interruptions join the light string dance; the larger brass remains silent (pp. 57–58)." },
-      { "t": 22, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violas"], "note": "The solo viola supplies a longer inner line beneath the continuing articulated violin figures (pp. 59–60)." },
-      { "t": 36, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["bassoons", "violas"], "note": "Bassoon and viola figures answer within the transparent texture (pp. 61–62)." },
-      { "t": 44, "playing": ["flutes", "oboes", "clarinets", "bassoons", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "The short dance gestures return to the foreground with quiet wind punctuation (pp. 63–64)." },
-      { "t": 64, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "violins-1"], "note": "Longer upper-wind notes contrast with the short string articulations in the inner span (pp. 65–66)." },
-      { "t": 80, "playing": ["clarinets", "bassoons", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-2", "violas"], "note": "Moving inner strings gain attention while the upper winds temporarily thin out (pp. 67–68)." },
-      { "t": 94, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "flutes"], "note": "Wind fragments rejoin the articulated string phrases as the dance proceeds towards its close (pp. 69–71)." },
-      { "t": 110, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "The final exchanges keep the chamber-like balance of winds, muted strings and pizzicato bass support (pp. 72–73)." }
+      { "t": 0, "playing": ["violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "Muted violins skip off the beat above short viola chords and plucked low strings (p. 57)." },
+      { "t": 6, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "Short wind phrases interrupt the strings’ dance (pp. 57–58)." },
+      { "t": 22, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violas"], "note": "A solo viola sings a longer melody beneath the violins’ little figures (pp. 59–60)." },
+      { "t": 36, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["bassoons", "violas"], "note": "Bassoons and violas answer each other between the short violin phrases (pp. 61–62)." },
+      { "t": 44, "playing": ["flutes", "oboes", "clarinets", "bassoons", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "The violins’ skipping figures return, punctuated by quiet wind chords (pp. 63–64)." },
+      { "t": 64, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["flutes", "violins-1"], "note": "The flute holds a long melody above the strings’ short, separated notes (pp. 65–66)." },
+      { "t": 80, "playing": ["clarinets", "bassoons", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-2", "violas"], "note": "Second violins and violas keep the dance moving while the upper woodwinds rest (pp. 67–68)." },
+      { "t": 94, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "flutes"], "note": "Little wind phrases rejoin the violins as the dance nears its end (pp. 69–71)." },
+      { "t": 110, "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "Winds and muted strings exchange the final phrases over plucked bass notes (pp. 72–73)." }
     ]
   }
 };

@@ -33,9 +33,9 @@
         "from": "Folk songs and dances of the Dobrzyń land, heard at Szafarnia, summers 1824 and 1825",
         "to": "Chopin’s mazurkas, from Op. 6 and Op. 7 (composed 1830–31, published 1832)"
       },
-      "claim": "<p>[[chopin]] spent the summers of 1824 and 1825 at Szafarnia, the Dziewanowski estate, where he met authentic folk music at first hand: he wrote down songs he heard, joined in rural amusements, and in a letter home of 26 August 1825 describes accompanying a fiddler on a one-stringed cello. His first published mazurkas, Op. 6 and Op. 7, date from 1830–31 and appeared in 1832. In 1852 [[liszt]] wrote that Chopin’s mazurkas grew directly out of Polish national music, and later writers read “national” as “folk”; recent scholarship holds instead that the likelier source is the national music Chopin heard in the towns.</p>",
+      "claim": "<p>[[chopin]] spent the summers of 1824 and 1825 at Szafarnia, the Dziewanowski estate, writing down songs and joining the village musicians. In a letter home of 26 August 1825, he describes accompanying a fiddler on a one-stringed cello. His first published mazurkas, Op. 6 and Op. 7, were written in 1830–31 and appeared in 1832.</p>",
       "status": "disputed",
-      "note": "The Szafarnia summers are documented in Chopin’s own letters. Whether the mazurkas rest directly on village folk music, as Liszt’s 1852 book was read to say, or on the urban national music of Warsaw, is debated; the evidence does not settle which tunes, if any, he took from what he heard in 1824–25.",
+      "note": "Chopin’s letters document the Szafarnia summers. Liszt’s 1852 account linked the mazurkas with Polish national music; later writers understood this as village folk music, while recent scholarship emphasises urban traditions. Which tunes, if any, Chopin took from Szafarnia remains unresolved.",
       "sources": [
         {
           "title": "Szafarnia (Fryderyk Chopin, Great Composers, Narodowy Instytut Fryderyka Chopina)",
@@ -55,7 +55,7 @@
       "to": "mendelssohn",
       "kind": "depicted",
       "year": 1826,
-      "title": "Mendelssohn reads Shakespeare in German and writes an overture",
+      "title": "Shakespeare gives Mendelssohn an overture",
       "works": {
         "from": "Shakespeare, A Midsummer Night’s Dream, in the Schlegel–Tieck German translation",
         "to": "Mendelssohn, Overture, Op. 21 (finished 6 August 1826); incidental music, Op. 61 (1842–43)"
@@ -242,8 +242,9 @@
         "from": "Paganini, benefit concert at the Paris Opéra, 22 April 1832; Caprices Op. 1",
         "to": "Liszt, Études d’exécution transcendante d’après Paganini (1838); Grandes études de Paganini (1851)"
       },
-      "claim": "<p>[[liszt]], not yet twenty-one, first heard Paganini on 22 April 1832 at an Opéra benefit for victims of the cholera epidemic (some sources give 20 April). On 2 May he wrote to Pierre Wolff that he was practising exercises “four or five hours” a day and studying a long shelf of authors and composers at once. The first result was the <i>Grande fantaisie de bravoure sur La Clochette</i> (1832); the six Paganini études were published in 1838 and revised in 1851, with five of them based on Paganini’s Caprices.</p>",
+      "claim": "<p>[[liszt]], not yet twenty-one, heard Paganini on 22 April 1832 at an Opéra benefit for victims of the cholera epidemic. On 2 May he wrote to Pierre Wolff that he was practising exercises “four or five hours” a day and studying a long shelf of authors and composers at once. The first result was the <i>Grande fantaisie de bravoure sur La Clochette</i> (1832); the six Paganini études were published in 1838 and revised in 1851, with five based on Paganini’s Caprices.</p>",
       "status": "documented",
+      "note": "Some sources date the concert 20 April; this account follows 22 April.",
       "sources": [
         {
           "title": "Notes to Liszt: Grandes Études de Paganini, S141 (Hyperion)",
@@ -362,8 +363,9 @@
         "from": "Beethoven, An die ferne Geliebte, Op. 98 (1816), last song “Nimm sie hin denn, diese Lieder”",
         "to": "Schumann, Fantasie in C, Op. 17, first movement, closing bars (1836; published 1839)"
       },
-      "claim": "<p>[[schumann]] began the Fantasie in 1836 as <i>Ruines</i>, a piece written in his distress at being parted from Clara Wieck. He expanded it into a work to raise money for the Beethoven monument in Bonn, offering 100 presentation copies to the publisher Kistner. The last bars of the first movement quote the phrase “Nimm sie hin denn, diese Lieder” (“Accept, then, these songs”) from [[beethoven]]’s song cycle, a quotation Schumann did not acknowledge and which apparently went unnoticed until 1910. He dedicated the published score, of 1839, to [[liszt]].</p>",
+      "claim": "<p>[[schumann]] began the Fantasie in 1836 as <i>Ruines</i>, written in his distress at being parted from Clara Wieck. He expanded it to raise money for the Beethoven monument in Bonn, offering the publisher Kistner 100 presentation copies. At the end of the first movement he quotes Beethoven’s song <i>Nimm sie hin denn, diese Lieder</i> – ‘Accept, then, these songs’. The published score of 1839 is dedicated to [[liszt]].</p>",
       "status": "documented",
+      "note": "Schumann left the Beethoven quotation unacknowledged. The cited account dates its recognition to 1910.",
       "sources": [
         {
           "title": "Fantasie in C (Schumann) (Wikipedia): genesis, the Beethoven quotation, dedication",
@@ -383,7 +385,7 @@
       "to": "liszt",
       "kind": "copied",
       "year": 1865,
-      "title": "Liszt puts all nine Beethoven symphonies on the piano",
+      "title": "Liszt fits Beethoven’s nine symphonies under two hands",
       "thread": "ode-to-joy",
       "works": {
         "from": "Beethoven, Symphonies Nos. 1–9",
@@ -415,7 +417,7 @@
         "from": "Bellini, I puritani (1835), march “Suoni la tromba”; the bel canto vocal line",
         "to": "Chopin, Variation VI (Largo) in Hexaméron (1837); Nocturne in D♭, Op. 27 No. 2 (1835)"
       },
-      "claim": "<p>Bellini’s friendship with [[chopin]] dates from his stay in Paris, which began in 1833. On 31 March 1837 Chopin contributed the Largo sixth variation to <i>Hexaméron</i>, the set of variations on “Suoni la tromba” from <i>I puritani</i> that Princess Belgiojoso commissioned from six pianists for a benefit in her Paris salon. Chopin told pupils to study the great opera singers and to imitate them, and a programme note on the Op. 27 nocturnes hears a “bel canto melody over rippling broken chords” in the D♭ Nocturne.</p>",
+      "claim": "<p>Bellini and [[chopin]] became friends in Paris, where Bellini arrived in 1833. On 31 March 1837 Chopin contributed the Largo sixth variation to <i>Hexaméron</i>, the set on <i>Suoni la tromba</i> from <i>I puritani</i> commissioned from six pianists for Princess Belgiojoso’s salon benefit. Chopin told pupils to study the great opera singers. In his D♭ Nocturne, a singing melody floats over rippling broken chords.</p>",
       "status": "documented",
       "sources": [
         {
@@ -576,7 +578,7 @@
         "from": "Berlioz, Roméo et Juliette, third performance, Paris Conservatoire, 15 December 1839",
         "to": "Wagner’s article on Berlioz (Dresdner Abendzeitung, May 1841); Tristan inscription (1860)"
       },
-      "claim": "<p>On 15 December 1839 [[wagner]], newly arrived in Paris, was present at the third performance of <i>Roméo et Juliette</i> at the Conservatoire, conducted by [[berlioz]]; the programme also had two movements of <i>Harold en Italie</i> and a movement of the Requiem. In May 1841 Wagner published an article that had a great deal to say about Berlioz, and in early 1860 he sent Berlioz the score of <i>Tristan</i> inscribed to “the dear and great author of Romeo and Juliet”, from “the grateful author of Tristan”. The editor of the Berlioz website takes the inscription as Wagner’s open acknowledgement of Berlioz’s influence on his work.</p>",
+      "claim": "<p>On 15 December 1839 [[wagner]], newly arrived in Paris, heard [[berlioz]] conduct <i>Roméo et Juliette</i> at the Conservatoire. The programme also included two movements of <i>Harold en Italie</i> and a movement of the Requiem. In early 1860 Wagner sent Berlioz the score of <i>Tristan</i>, inscribed to “the dear and great author of Romeo and Juliet”, from “the grateful author of Tristan”.</p>",
       "status": "documented",
       "sources": [
         {
@@ -623,14 +625,14 @@
       "to": "chopin",
       "kind": "depicted",
       "year": 1841,
-      "title": "Did Mickiewicz’s poems inspire Chopin’s Ballades?",
+      "title": "Mickiewicz’s poems behind Chopin’s Ballades",
       "works": {
         "from": "Adam Mickiewicz, Ballady i romanse (1822) and Konrad Wallenrod (1828)",
         "to": "Chopin, Ballades Nos. 1–4 (No. 1, Op. 23, composed 1835–36)"
       },
-      "claim": "<p>In 1841 Robert Schumann reported in the <i>Neue Zeitschrift für Musik</i> that [[chopin]] had told him poems by the Polish poet Adam Mickiewicz inspired his ballades. Chopin left no statement of his own, and Schumann’s remark concerned the second Ballade in particular. A tradition links the first Ballade with <i>Konrad Wallenrod</i>, a poem about a Lithuanian raised among the Teutonic Knights who leads them to defeat; no document ties either piece to a particular poem. When Schumann visited Leipzig in 1836 he told Chopin that the G minor Ballade was his favourite of Chopin’s works, and Chopin replied that it was his too.</p>",
+      "claim": "<p>In 1841 Schumann wrote in the <i>Neue Zeitschrift für Musik</i> that [[chopin]] had told him Mickiewicz’s poems inspired his ballades; his discussion concerned the Second Ballade. The G-minor First was a shared favourite. In Leipzig in 1836, Schumann told Chopin he loved it best of his works, and Chopin agreed.</p>",
       "status": "disputed",
-      "note": "Schumann’s 1841 report that Mickiewicz inspired the Ballades is documented; Chopin never named a poem, Schumann’s remark was “far from specific”, and the match of Ballade No. 1 with Konrad Wallenrod is a later tradition. Which poems, if any, stand behind which Ballade is unresolved.",
+      "note": "Schumann’s account is the evidence for the literary link. Chopin left no statement naming a poem. The pairing of Ballade No. 1 with Konrad Wallenrod belongs to a later tradition; the poem-by-poem connections remain unresolved.",
       "sources": [
         {
           "title": "Notes to Chopin: Ballades (Hyperion): “a rumour based on a far from specific remark of Schumann’s”",
@@ -744,7 +746,7 @@
         "from": "Beethoven, Symphony No. 9, Op. 125",
         "to": "Wagner’s Dresden performance, Palm Sunday, 5 April 1846; Bayreuth foundation-stone concert, 1872"
       },
-      "claim": "<p>[[wagner]] made a piano transcription of Beethoven’s Ninth in 1830, aged seventeen. On Palm Sunday, 5 April 1846, he conducted it in Dresden, where Robert Schumann was living and, on Christopher Reynolds’s evidence, also studying the work: Reynolds traces a more contrapuntal, motivic style in both composers to their study of the Ninth, including Beethoven’s gradual development of the “Ode to Joy” melody. Wagner conducted the Ninth at Bayreuth’s Margravial Opera House in 1872 to mark the laying of the Festspielhaus foundation stone, not the opening of the completed theatre.</p>",
+      "claim": "<p>[[wagner]] transcribed Beethoven’s Ninth for piano in 1830, aged seventeen, and conducted it in Dresden on Palm Sunday, 5 April 1846. Schumann was living there too; Christopher Reynolds traces both composers’ contrapuntal writing to their study of the Ninth, including the gradual growth of the <i>Ode to Joy</i> tune. In 1872 Wagner conducted it at Bayreuth’s Margravial Opera House for the laying of the Festspielhaus foundation stone.</p>",
       "status": "documented",
       "sources": [
         {
@@ -839,7 +841,7 @@
         "from": "Liszt’s Weimar production, Court Theatre, 28 August 1850",
         "to": "Wagner, Lohengrin, WWV 75"
       },
-      "claim": "<p>[[wagner]] had fled Saxony after the May 1849 uprising in Dresden, in which he took part, and could not attend the first production of <i>Lohengrin</i>. [[liszt]] conducted it at Weimar on 28 August 1850, a date he chose to honour Goethe, who was born there in 1749; David Trippett’s study calls the decision politically as well as artistically risky for the Weimar court. Wagner did not see a complete performance until Vienna in 1861; in the meantime he conducted extracts in Zürich, London, Paris and Brussels.</p>",
+      "claim": "<p>[[wagner]] had fled Saxony after taking part in the Dresden uprising of May 1849. [[liszt]] conducted the first <i>Lohengrin</i> at Weimar on 28 August 1850, choosing Goethe’s birthday; David Trippett describes the risk the production posed for the Weimar court. Wagner waited until Vienna in 1861 to see a complete performance. In the meantime he conducted extracts in Zürich, London, Paris and Brussels.</p>",
       "status": "documented",
       "sources": [
         {
@@ -865,8 +867,9 @@
         "from": "Alexandre Dumas fils, La Dame aux camélias (novel 1848; play, Paris, 1852)",
         "to": "Verdi, La traviata, Venice, 6 March 1853; Act I prelude"
       },
-      "claim": "<p>In February 1852 [[verdi]] and Giuseppina Strepponi attended a performance in Paris of Alexandre Dumas fils’s <i>La Dame aux camélias</i>, a play adapted from his own 1848 novel. His biographer Mary Jane Phillips-Matz reports that he began composing at once, though Julian Budden notes that Verdi had probably read the book earlier. Francesco Maria Piave wrote the libretto, and <i>La traviata</i> was first performed at La Fenice, Venice, on 6 March 1853.</p>",
+      "claim": "<p>In February 1852 [[verdi]] and Giuseppina Strepponi saw Alexandre Dumas fils’s <i>La Dame aux camélias</i> in Paris, a play adapted from his 1848 novel. Francesco Maria Piave made the libretto for <i>La traviata</i>, first performed at La Fenice in Venice on 6 March 1853.</p>",
       "status": "documented",
+      "note": "Mary Jane Phillips-Matz dates Verdi’s first work on the opera immediately after the play; Julian Budden thinks he had probably read the novel earlier.",
       "sources": [
         {
           "title": "La traviata (Wikipedia): “Verdi sees The Lady of the Camellias play”",
@@ -881,12 +884,12 @@
       "to": "brahms",
       "kind": "reacted-against",
       "year": 1853,
-      "title": "Did Brahms fall asleep during Liszt’s B minor Sonata?",
+      "title": "Brahms dozes in Reményi’s Weimar story",
       "works": {
         "from": "Liszt, Piano Sonata in B minor, S. 178 (completed 1853), played at Weimar",
         "to": "Brahms’s visit to Weimar with Ede Reményi, June 1853"
       },
-      "claim": "<p>In 1853 [[brahms]] and the violinist Ede Reményi visited Weimar, where Brahms met [[liszt]], Peter Cornelius and Joachim Raff, and Liszt played Brahms’s Scherzo, Op. 4, at sight. Reményi later claimed that Brahms then slept while Liszt played his own B minor Sonata. This and other disagreements led Reményi and Brahms to part company; that autumn Brahms went instead to the Schumanns in Düsseldorf.</p>",
+      "claim": "<p>In 1853 [[brahms]] and the violinist Ede Reményi visited [[liszt]] in Weimar, where Liszt played Brahms’s Scherzo, Op. 4, at sight. In Reményi’s later telling, Brahms repaid him by falling asleep during Liszt’s B-minor Sonata. The travelling companions parted company; that autumn Brahms called on the Schumanns in Düsseldorf.</p>",
       "status": "disputed",
       "note": "The only source for Brahms sleeping through the Sonata is Reményi’s account, written long afterwards and given by Brahms’s biographers as a claim. Liszt’s sight-reading of the Scherzo and the Weimar meetings are recorded; the Sonata was dedicated to Schumann and published only in 1854.",
       "sources": [
@@ -913,7 +916,7 @@
         "from": "Schumann, “Neue Bahnen”, Neue Zeitschrift für Musik, 28 October 1853",
         "to": "Brahms’s first publications (Opp. 1–6) and his ties to Robert and Clara Schumann"
       },
-      "claim": "<p>In October 1853, with a letter of introduction from Joseph Joachim, the twenty-year-old [[brahms]] called on the Schumanns in Düsseldorf and played his works from memory. Robert is said to have broken off to fetch Clara, saying she must hear music “as you have never heard it before”; she noted in her diary that the visitor seemed “specially sent by God”. On 28 October [[schumann]] published “Neue Bahnen” in the <i>Neue Zeitschrift für Musik</i>, naming Brahms as the one fated to give the age its highest and most ideal expression; publishers began to take an interest at once.</p>",
+      "claim": "<p>In 1853 the twenty-year-old [[brahms]] arrived at the Schumanns’ Düsseldorf home with a letter from Joseph Joachim and played his works from memory. Clara’s diary greeted him as a musician “specially sent by God”. On 28 October [[schumann]] published <i>Neue Bahnen</i> in the <i>Neue Zeitschrift für Musik</i>, announcing Brahms as the composer who would give the age its highest expression. Publishers took an interest at once.</p>",
       "status": "documented",
       "sources": [
         {
@@ -992,8 +995,9 @@
         "from": "The New German School’s organ, Brendel’s Neue Zeitschrift für Musik; Wagner’s Vienna concerts of 1862–63",
         "to": "The 1860 manifesto, almost certainly drafted by Brahms; Brahms’s help with Wagner’s concerts"
       },
-      "claim": "<p>In 1860 a manifesto against the “pursuits of a certain party” whose organ was Brendel’s <i>Neue Zeitschrift für Musik</i> circulated with the signatures of [[brahms]], Joseph Joachim and others; its author was almost certainly Brahms. It leaked, the Neue Zeitschrift parodied it on 4 May, and it appeared in the <i>Echo</i> on 6 May with more than twenty names. Yet in Vienna Brahms helped prepare [[wagner]]’s concerts of 1862–63, was given a manuscript of part of <i>Tannhäuser</i> (Wagner demanded it back in 1875), and in January 1863 played Wagner his Handel Variations; the meeting was cordial.</p>",
+      "claim": "<p>In 1860 [[brahms]] and Joseph Joachim signed a manifesto against the “pursuits of a certain party” whose organ was Brendel’s <i>Neue Zeitschrift für Musik</i>. The text leaked, the journal parodied it on 4 May, and the <i>Echo</i> published it two days later with more than twenty names. In Vienna Brahms nevertheless helped prepare [[wagner]]’s concerts of 1862–63 and played him the Handel Variations in January 1863. Wagner gave him part of the <i>Tannhäuser</i> manuscript, then demanded it back in 1875.</p>",
       "status": "documented",
+      "note": "Brahms is the probable author of the manifesto; his signature is certain.",
       "sources": [
         {
           "title": "War of the Romantics (Wikipedia): “The conservatives’ manifesto”",
@@ -1113,9 +1117,9 @@
         "from": "Eduard Hanslick, Vienna’s leading critic (On the Musically Beautiful, 1854)",
         "to": "Wagner, Die Meistersinger von Nürnberg: the Merker, then Beckmesser (prose draft 1861; reading in Vienna, 23 November 1862)"
       },
-      "claim": "<p>When [[wagner]] turned the <i>Meistersinger</i> prose draft into a libretto in Vienna in 1861, he named the pedantic town clerk who marks the singers’ faults “Veit Hanslich”, an open allusion to the Vienna critic Eduard Hanslick. By the time Wagner first read the text aloud in Vienna on 23 November 1862, with Hanslick among the listeners, the name had become Sixtus Beckmesser. Hanslick, who championed Schumann and [[brahms]] against Wagner and [[liszt]], knew he was the target.</p>",
+      "claim": "<p>In the 1861 <i>Meistersinger</i> draft, [[wagner]] called the pedantic town clerk who marks the singers’ faults “Veit Hanslich”. The Vienna critic Eduard Hanslick’s name is barely disguised. When Wagner read the text aloud in Vienna on 23 November 1862, Hanslick was in the audience. By then the clerk had become Sixtus Beckmesser.</p>",
       "status": "inferred",
-      "note": "The draft name “Veit Hanslich” and Hanslick’s presence at the 1862 reading are documented; that the finished Beckmesser caricatures Hanslick is an interpretation, and general reference works still say only that it is “sometimes claimed”.",
+      "note": "The draft name “Veit Hanslich” and Hanslick’s presence at the 1862 reading are documented. The extent to which the finished Beckmesser caricatures Hanslick remains open to interpretation.",
       "sources": [
         {
           "title": "Sixtus Beckmesser (wagner200.com, in German): draft name and the reading of 23 November 1862",
@@ -1136,7 +1140,7 @@
       "kind": "heard",
       "year": 1863,
       "thread": "tristan-chord",
-      "title": "Tchaikovsky attends all six Wagner concerts in St Petersburg",
+      "title": "Tchaikovsky hears Wagner six times in St Petersburg",
       "works": {
         "from": "Wagner conducting in St Petersburg, 1863: Tristan prelude and Liebestod, Beethoven symphonies and others",
         "to": "Tchaikovsky’s Bayreuth reports of 1876 and his later verdict on Wagner"
@@ -1204,8 +1208,9 @@
         "from": "Pushkin, Boris Godunov (written 1825, published 1831); Karamzin, History of the Russian State",
         "to": "Mussorgsky, Boris Godunov (original version 1869; revised 1872; premiere 27 January 1874)"
       },
-      "claim": "<p>In the autumn of 1868 the historian Vladimir Nikolsky suggested to [[mussorgsky]] an opera on Pushkin’s “dramatic chronicle” <i>Boris Godunov</i>, and Lyudmila Shestakova gave him a volume of Pushkin’s plays interleaved with blank pages; he began his own libretto in October. He finished the score in December 1869, and the Imperial Theatres rejected it on 10 February 1871 by six votes to one, ostensibly for lack of a major female role. The revised version of 1872 was first performed at the Mariinsky Theatre on 27 January 1874.</p>",
+      "claim": "<p>In autumn 1868 the historian Vladimir Nikolsky proposed Pushkin’s <i>Boris Godunov</i> as an opera subject to [[mussorgsky]]. Lyudmila Shestakova gave him a volume of the plays interleaved with blank pages, and he began his libretto in October. He finished the score in December 1869. The Imperial Theatres rejected it on 10 February 1871 by six votes to one; his revised version of 1872 reached the Mariinsky stage on 27 January 1874.</p>",
       "status": "documented",
+      "note": "The lack of a major female role is the commonly given reason for the first version’s rejection.",
       "sources": [
         {
           "title": "Boris Godunov (opera) (Wikipedia): composition history; rejection of the 1869 version",
@@ -1251,8 +1256,9 @@
         "from": "Wagner, Lohengrin, Italian premiere at the Teatro Comunale, Bologna, 1 November 1871",
         "to": "Verdi’s pencilled notes in a vocal score, 9 November 1871"
       },
-      "claim": "<p>Angelo Mariani conducted the first performance of a Wagner opera in Italy, <i>Lohengrin</i> at the Teatro Comunale of Bologna, on 1 November 1871. On 9 November [[verdi]] attended and annotated a copy of the vocal score with his impressions and opinions; it was almost certainly his first exposure to Wagner’s music. In 1887 a German visitor recorded him as saying there was much to admire in <i>Tannhäuser</i> and <i>Lohengrin</i>, but that in his later operas Wagner seemed to overstep the limits of what music can express.</p>",
+      "claim": "<p>Angelo Mariani conducted Italy’s first Wagner opera at Bologna’s Teatro Comunale on 1 November 1871: <i>Lohengrin</i>. [[verdi]] came on 9 November and pencilled his opinions into a vocal score. In an 1887 conversation with a German visitor, he praised <i>Tannhäuser</i> and <i>Lohengrin</i>, while judging that the later operas overstepped what music could express.</p>",
       "status": "documented",
+      "note": "The Bologna performance is generally considered Verdi’s first encounter with Wagner’s music; earlier exposure remains uncertain.",
       "sources": [
         {
           "title": "Angelo Mariani (conductor) (Wikipedia): Lohengrin in Bologna, 1871",
@@ -1280,7 +1286,7 @@
       },
       "claim": "<p>In September 1873, before the Third Symphony was finished, [[bruckner]] visited [[wagner]], whom he had first met at the Munich premiere of <i>Tristan und Isolde</i> in 1865. He showed Wagner his Second and Third Symphonies and asked him to choose; Wagner chose the Third, and Bruckner dedicated it to him. The 1873 score quoted Wagner’s <i>Die Walküre</i> and <i>Tristan</i> in the first movement and <i>Lohengrin</i> and <i>Walküre</i> in the Adagio; after the Vienna premiere of 1877 failed, Bruckner’s revisions removed most of these quotations.</p>",
       "status": "documented",
-      "note": "This is a Tristan reception stop: the cited quotation is from the Liebestod, not a claim that the Third literally repeats the prelude’s opening four-note chord.",
+      "note": "The cited Tristan quotation comes from the Liebestod. This thread stop traces the opera’s reception beyond its opening chord.",
       "sources": [
         {
           "title": "Symphony No. 3 (Bruckner) (Wikipedia): history, dedication, revisions",
@@ -1331,8 +1337,9 @@
         "from": "Beethoven, Symphony No. 9, finale: “Ode to Joy” theme (1824)",
         "to": "Brahms, Symphony No. 1, finale: main Allegro theme (first performed 4 November 1876)"
       },
-      "claim": "<p>The broad tune that [[brahms]] gives the strings in the C-major Allegro of his First Symphony finale resembles the “Ode to Joy” theme of [[beethoven]]’s Ninth. When this was pointed out to him he is reported to have answered “Any ass can see that”. In 1877 the conductor Hans von Bülow called the symphony “Beethoven’s Tenth”; it was first played at Karlsruhe on 4 November 1876 under Felix Otto Dessoff.</p>",
+      "claim": "<p>The strings’ broad C-major tune in the finale of [[brahms]]’s First Symphony recalls the <i>Ode to Joy</i> from [[beethoven]]’s Ninth. Felix Otto Dessoff conducted the première at Karlsruhe on 4 November 1876. The following year Hans von Bülow dubbed it “Beethoven’s Tenth”.</p>",
       "status": "documented",
+      "note": "Brahms’s familiar reply to the resemblance, “Any ass can see that”, survives as a reported anecdote in the cited account.",
       "sources": [
         {
           "title": "Symphony No. 1 (Brahms) (Wikipedia): reception, “Beethoven’s Tenth”, the finale theme",
@@ -1399,7 +1406,7 @@
         "from": "Bach, Cantata Nach dir, Herr, verlanget mich, BWV 150, closing chaconne",
         "to": "Brahms, Symphony No. 4 in E minor, Op. 98, finale: passacaglia"
       },
-      "claim": "<p>The finale of [[brahms]]’s Fourth Symphony is a passacaglia on an eight-bar theme adapted from the closing chaconne of Bach’s Cantata 150, which was then unpublished. Brahms added a leading tone to Bach’s bass and regularised its rhythm into eight dotted half notes that rise from the tonic E to the dominant B, drop an octave and return. The theme is stated thirty times, always eight bars long, before the coda begins at bar 253.</p>",
+      "claim": "<p>For the finale of his Fourth Symphony, [[brahms]] borrowed the bass of the closing chaconne in Bach’s Cantata 150, then still unpublished. He added a chromatic note and made the rhythm even: eight dotted minims, one to a bar. That short theme supplies his passacaglia.</p>",
       "status": "documented",
       "sources": [
         {
@@ -1467,12 +1474,12 @@
       "to": "rimsky-korsakov",
       "kind": "depicted",
       "year": 1888,
-      "title": "Rimsky-Korsakov takes Scheherazade from the Thousand and One Nights",
+      "title": "The Thousand and One Nights reaches Rimsky-Korsakov",
       "works": {
         "from": "The Thousand and One Nights; the story of Prince Ajib",
         "to": "Rimsky-Korsakov, Scheherazade, Op. 35 (1888; premiere 28 October 1888)"
       },
-      "claim": "<p>[[rimsky-korsakov]] composed <i>Scheherazade</i> in 1888 on themes from the <i>Thousand and One Nights</i>. After weighing the opinions of Anatoly Lyadov and others, and his own dislike of a too-definite programme, he settled on thematic headings such as “The Young Prince and the Young Princess”, deliberately vague, though the finale’s epigraph does refer to the adventure of Prince Ajib. In a later edition he dropped the titles altogether, wanting listeners to hear oriental-flavoured symphonic music that suggests fairy-tale adventure.</p>",
+      "claim": "<p>[[rimsky-korsakov]] composed <i>Scheherazade</i> in 1888 from the <i>Thousand and One Nights</i>. He gave its movements headings such as <i>The Young Prince and the Young Princess</i>, and the finale’s epigraph names Prince Ajib’s adventure. In a later edition he removed the headings, leaving the fairy tales free to wander through the orchestra.</p>",
       "status": "documented",
       "sources": [
         {
@@ -1514,8 +1521,9 @@
         "from": "Wagner, Der Ring des Nibelungen, as heard by Fauré and Messager at Cologne, Munich, London and Bayreuth",
         "to": "Fauré and Messager, Souvenirs de Bayreuth, quadrille for piano four hands (c. 1888; published 1930)"
       },
-      "claim": "<p>From 1878 [[faure]] and his former pupil André Messager travelled to hear Wagner: <i>Das Rheingold</i> and <i>Die Walküre</i> at Cologne, the whole <i>Ring</i> at Munich and London, and <i>Die Meistersinger</i> and <i>Parsifal</i> at Bayreuth. Their joint <i>Souvenirs de Bayreuth</i>, a “fantasy in the form of a quadrille on favourite themes from the <i>Ring</i>”, was composed probably in 1888 and published in 1930. It grew from improvisations at Marguerite de Saint-Marceaux’s salon, which Colette recalled; Fauré admired Wagner yet is described as one of the few of his generation to escape his musical influence.</p>",
+      "claim": "<p>From 1878 [[faure]] and his former pupil André Messager travelled to hear Wagner in Cologne, Munich, London and Bayreuth. Back in Marguerite de Saint-Marceaux’s salon, their improvisations grew into <i>Souvenirs de Bayreuth</i>, a quadrille on favourite themes from the <i>Ring</i>. Colette remembered their performances; the music waited until 1930 for publication.</p>",
       "status": "documented",
+      "note": "The work is usually dated 1888; the date of composition remains uncertain.",
       "sources": [
         {
           "title": "Souvenirs de Bayreuth (Fauré et Messager) (Palazzetto Bru Zane Mediabase, in French)",
@@ -1566,9 +1574,9 @@
         "from": "Spirituals sung by Harry T. Burleigh at the National Conservatory, New York",
         "to": "Dvořák, Symphony No. 9 “From the New World”, Largo (premiere 16 December 1893)"
       },
-      "claim": "<p>While [[dvorak]] directed the National Conservatory in New York, the African-American student Harry T. Burleigh sang traditional spirituals to him; Burleigh said Dvořák absorbed their “spirit” before writing his own melodies. Dvořák is said to have given the Largo’s main theme to the cor anglais rather than the clarinet because it reminded him of Burleigh’s voice. In the <i>New York Herald</i> of 1893 he said the future music of America must be founded on what are called Negro melodies. The first movement’s closing theme resembles “Swing Low, Sweet Chariot”, but Dvořák wrote his own themes.</p>",
+      "claim": "<p>At the National Conservatory in New York, Harry T. Burleigh sang spirituals to [[dvorak]]. Burleigh remembered the composer absorbing their spirit and then writing melodies of his own. In the <i>New York Herald</i> in 1893, Dvořák urged American composers to build on African-American melodies. The closing theme of his <i>New World</i> Symphony’s first movement resembles <i>Swing Low, Sweet Chariot</i>.</p>",
       "status": "inferred",
-      "note": "Burleigh’s role as singer and Dvořák’s published statements about Negro melodies are documented; the cor anglais anecdote is reported as hearsay (“was said to have”), and Dvořák denied quoting existing tunes, so the resemblance to “Swing Low, Sweet Chariot” remains an observation, not a documented borrowing.",
+      "note": "Burleigh’s singing and Dvořák’s published advocacy are documented. The story that the Largo’s cor anglais recalls Burleigh’s voice is hearsay. Dvořák denied quoting existing tunes; the resemblance to Swing Low, Sweet Chariot establishes similarity, while direct borrowing remains unproven.",
       "sources": [
         {
           "title": "Symphony No. 9 (Dvořák) (Wikipedia): Largo; Influences; the New York Herald statements",
@@ -1610,8 +1618,8 @@
       "id":"gregorian-chant--liszt-totentanz-theme","from":"gregorian-chant","to":"liszt","kind":"quoted","year":1865,
       "title":"Liszt turns judgement into piano variations","thread":"dies-irae",
       "works":{"from":"Dies irae, the Requiem plainchant","to":"Totentanz, S. 126, for piano and orchestra"},
-      "claim":"<p>Liszt’s <i>Totentanz</i> is a set of six variations on the <i>Dies irae</i>, turning the chant into sharply etched writing for piano and orchestra. Its plainchant source is secure even though accounts differ over whether a Pisa fresco or Holbein’s woodcuts supplied the decisive visual stimulus.</p>",
-      "status":"documented","note":"The timeline dates the first public performance, The Hague, 15 April 1865. Earlier forms and revision dates are catalogued differently; the visual-inspiration stories are not treated as equally certain with the musical quotation.",
+      "claim":"<p>Liszt puts the <i>Dies irae</i> through six variations in <i>Totentanz</i>, turning the medieval chant into sharply etched writing for piano and orchestra.</p>",
+      "status":"documented","note":"The timeline dates the first public performance, The Hague, 15 April 1865. Accounts differ over the earlier versions and over the visual stimulus: the Pisa fresco and Holbein’s woodcuts are both proposed.",
       "sources":[{"title":"John Mangum, Los Angeles Philharmonic: Totentanz","url":"https://www.laphil.com/works/totentanz","locator":"Final four paragraphs: alternative visual sources, six variations on Dies irae, premiere on 15 April 1865"},{"title":"Liszt, Totentanz, S. 126: work catalogue","url":"https://imslp.org/wiki/Totentanz,_S.126_(Liszt,_Franz)","locator":"General Information: premiere in The Hague, 15 April 1865; version history"}]
     },
     {
@@ -1634,7 +1642,7 @@
       "id":"bach-signature--rimsky-korsakov-op10","from":"bach","to":"rimsky-korsakov","kind":"quoted","year":1878,
       "title":"Bach’s name enters a Russian variation cycle","thread":"bach-motif",
       "works":{"from":"The B–A–C–H musical signature","to":"Six Variations on the Theme B-A-C-H, Op. 10 (1878)"},
-      "claim":"<p>Rimsky-Korsakov’s six piano variations on B–A–C–H move through a waltz, intermezzo, scherzo, nocturne and prelude before reaching a fugue. The sequence makes Bach’s name material for contrasting character pieces, not just an invitation to imitate an organ fugue.</p>",
+      "claim":"<p>Rimsky-Korsakov takes B–A–C–H through six piano variations: a waltz, intermezzo, scherzo, nocturne and prelude, then a fugue. Bach’s four notes try on each new character.</p>",
       "status":"documented",
       "sources":[{"title":"IMSLP: List of works by Nikolay Rimsky-Korsakov","url":"https://imslp.org/wiki/List_of_works_by_Nikolay_Rimsky-Korsakov","locator":"Op. 10 and Op. 10/1–6: date 1878, piano scoring and the six movement titles"}]
     },
@@ -1642,9 +1650,285 @@
       "id":"folia-tradition--liszt-rhapsodie-espagnole","from":"folia-tradition","to":"liszt","kind":"quoted","year":1864,
       "title":"The Folia meets Liszt’s Spanish reminiscences","thread":"la-folia",
       "works":{"from":"Folies d’Espagne / La Folia","to":"Rhapsodie espagnole, S. 254, fair copy dated July 1864"},
-      "claim":"<p>Liszt’s <i>Rhapsodie espagnole</i> brings the Folia together with material from the jota aragonesa. Letters asking Bülow how to describe its two themes make the inherited sources explicit, while the surviving fair copy fixes July 1864 more securely than Liszt’s later recollection of composing it around 1863.</p>",
-      "status":"documented","note":"The timeline follows the dated fair copy, not a claim that every passage was first conceived in 1864.",
+      "claim":"<p>Liszt’s <i>Rhapsodie espagnole</i> brings the Folia together with the jota aragonesa. He wrote to Bülow asking how to describe the two themes; the surviving fair copy is dated July 1864.</p>",
+      "status":"documented","note":"The timeline follows the dated fair copy. Liszt later remembered composing the work around 1863; its earlier development is less securely dated.",
       "sources":[{"title":"Mária Eckhardt, Henle HN 1333: Rhapsodie espagnole, preface","url":"https://www.henle.de/media/1c/ee/51/1697725781/1333-1697725781-sync.pdf","locator":"English preface, pp. III–IV: dated fair copy, letters to Bülow, Folies d’Espagne and Jota aragonesa"}]
+    },
+    {
+      "id": "rossini--wagner-paris-visit-1860",
+      "from": "rossini",
+      "to": "wagner",
+      "kind": "heard",
+      "year": 1860,
+      "title": "Wagner calls on Rossini in Paris",
+      "works": {
+        "from": "Rossini’s conversation with Wagner, Paris, March 1860",
+        "to": "Wagner’s preface to the French prose translation of his opera poems"
+      },
+      "claim": "<p>After conducting extracts from his operas in Paris early in 1860, [[wagner]] found a bon mot going round the papers: when Rossini’s friend Mercadante spoke up for Wagner’s music, Rossini had supposedly served him only the sauce of a fish. Rossini denied the story in a public letter, and Wagner called on him. He was received as a friend and heard Rossini say, in a long conversation, that he might have achieved something had he been born and educated in Germany, but that Italy in his youth had left no room for serious aims in opera. Wagner left with the impression of the first truly great man worthy of reverence he had met in the art world, and never saw him again. In the preface to the French prose translation of his opera poems, he wrote, his estimate of modern Italian opera was guided largely by what Rossini had told him from his own experience.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Richard Wagner’s Prose Works, vol. 4: Art and Politics, trans. William Ashton Ellis (London: William Reeves, 1912; translator’s preface dated 1895): “A Remembrance of Rossini” (Wagner, 1868)",
+          "url": "https://archive.org/details/proseworks04wagnuoft",
+          "locator": "Notices, III, “A Remembrance of Rossini”, pp. 269–271"
+        },
+        {
+          "title": "Rossini Opera Festival: Gioachino Rossini, biographical sketch and opera chronology",
+          "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/",
+          "locator": "entry for 1860: “He is visited by Richard Wagner in March”"
+        }
+      ]
+    },
+    {
+      "id": "beethoven--rossini-vienna-visit-1822",
+      "from": "beethoven",
+      "to": "rossini",
+      "kind": "heard",
+      "year": 1822,
+      "title": "Rossini’s account of Beethoven’s advice in Vienna",
+      "works": {
+        "from": "Beethoven’s words to Rossini as Rossini reported them, Vienna, April 1822",
+        "to": "Rossini’s Vienna performances, beginning with Zelmira at the Kärntnertortheater, 13 April 1822"
+      },
+      "claim": "<p>[[rossini]] went to Vienna in the spring of 1822 for performances of his operas that began with <i>Zelmira</i> at the Kärntnertortheater on 13 April. In 1860 he told Wagner what happened when he called on [[beethoven]]: Beethoven greeted him as the author of <i>Il barbiere di Siviglia</i>, congratulated him on an excellent <i>opera buffa</i> and told him never to try anything but comic opera, since serious opera was not in the nature of Italians. Edmond Michotte wrote the conversation down and published it in 1906. The Fondazione Rossini has since examined the sources and concludes that the visit never took place: in Vienna Rossini met only Beethoven’s brother, and told him how much he wished to meet Ludwig. The story belongs with the tales Rossini circulated in old age.</p>",
+      "status": "disputed",
+      "note": "The only source for the visit is Rossini’s own recollection of 1860, written up by Edmond Michotte and published in 1906. The Fondazione Rossini (Andrea Malnati, January 2026) judges that Rossini met only Beethoven’s brother in 1822 and never met Beethoven. The edge records the legend together with the Foundation’s verdict.",
+      "sources": [
+        {
+          "title": "Rossini Opera Festival, Fondazione Rossini: “Rossini, Beethoven and the ‘opera buffa’” (Andrea Malnati, 26 January 2026)",
+          "url": "https://www.rossinioperafestival.it/en/archive-news/the-fondazione-rossini-tells-the-story/",
+          "locator": "whole article: Beethoven’s reported words, Michotte’s 1906 pamphlet, the Foundation’s conclusion"
+        },
+        {
+          "title": "Rossini Opera Festival: Gioachino Rossini, biographical sketch and opera chronology",
+          "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/",
+          "locator": "entry for 1822: Vienna, Zelmira, 13 April"
+        }
+      ]
+    },
+    {
+      "id": "schiller--rossini-guillaume-tell-1829",
+      "from": "schiller",
+      "to": "rossini",
+      "kind": "set-text",
+      "year": 1829,
+      "title": "Schiller’s Wilhelm Tell becomes Rossini’s last opera",
+      "works": {
+        "from": "Schiller, Wilhelm Tell (1804)",
+        "to": "Rossini, Guillaume Tell, Académie Royale de Musique, Paris, 3 August 1829"
+      },
+      "claim": "<p>In the spring of 1828 [[rossini]] had already chosen <i>William Tell</i> for his next opera, but he first wrote <i>Le Comte Ory</i> so as to reuse music from <i>Il viaggio a Reims</i>. Étienne de Jouy and Hippolyte Bis made the French libretto in four acts from [[schiller]]’s play <i>Wilhelm Tell</i> (1804), and <i>Guillaume Tell</i> opened at the Académie Royale de Musique in Paris on 3 August 1829. The audience gave it a succès d’estime; critics and musicians praised it, and Bellini called it his “musical bible”. It was Rossini’s last opera for the stage.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Rossini Opera Festival: Guillaume Tell (story and cast)",
+          "url": "https://www.rossinioperafestival.it/en/stories/guillaume-tell/",
+          "locator": "opening paragraph: libretto by Jouy and Bis; “The story is taken from Friedrich Schiller’s Wilhelm Tell (1804)”"
+        },
+        {
+          "title": "Rossini Opera Festival: Gioachino Rossini, biographical sketch and opera chronology",
+          "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/",
+          "locator": "entries for 1828 and 1829"
+        }
+      ]
+    },
+    {
+      "id": "rossini--verdi-messa-per-rossini-1868",
+      "from": "rossini",
+      "to": "verdi",
+      "kind": "dedicated",
+      "year": 1868,
+      "title": "Verdi proposes a requiem for Rossini by thirteen composers",
+      "works": {
+        "from": "Rossini’s death at Passy, 13 November 1868",
+        "to": "Messa per Rossini, with Verdi’s Libera me (1869)"
+      },
+      "claim": "<p>Four days after Rossini died, on 17 November 1868, [[verdi]] wrote to his publisher Ricordi proposing that “the most distinguished Italian composers” each set a section of a Requiem Mass for the anniversary of Rossini’s death, to be sealed in the archives of Bologna’s Liceo musicale once it had been performed. Verdi took the closing <i>Libera me</i> for himself. All thirteen composers delivered their movements, but the performance planned for San Petronio, Bologna, on 13 November 1869 never happened, and the <i>Messa per Rossini</i> was not heard until Helmuth Rilling conducted it at Stuttgart in September 1988. Verdi kept his <i>Libera me</i> and revised it for his own <i>Messa da Requiem</i>, first performed at Milan on 22 May 1874.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "MusicWeb International: review of Messa per Rossini, Decca 483 4084 (Chailly, La Scala), by John Quinn",
+          "url": "http://www.musicweb-international.com/classrev/2019/Feb/Mass_Rossini_4834084.htm",
+          "locator": "opening paragraphs: Verdi’s letter of 17 November 1868, the plan for San Petronio, the 1988 Stuttgart performance"
+        },
+        {
+          "title": "Ricordi: Verdi, Messa da Requiem, critical edition edited by David Rosen (1990)",
+          "url": "https://www.ricordi.com/en-US/Critical-Editions/Verdi-Giuseppe-Critical-Editions/Verdi-Giuseppe-WGV/Verdi-Messa-da-Requiem.aspx",
+          "locator": "second paragraph: original Libera me; Milan première, 22 May 1874"
+        },
+        {
+          "title": "Rossini Opera Festival: Gioachino Rossini, biographical sketch and opera chronology",
+          "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/",
+          "locator": "entry for 1868: death at Passy, 13 November"
+        }
+      ]
+    },
+    {
+      "id": "rossini--bizet-prix-de-rome-years-1857",
+      "from": "rossini",
+      "to": "bizet",
+      "kind": "heard",
+      "year": 1857,
+      "title": "Rossini’s influence on Bizet’s Prix de Rome years",
+      "works": {
+        "from": "Rossini’s operas, as Bizet knew them in Paris and at the Villa Medici",
+        "to": "Bizet, Clovis et Clotilde (1857) and the Rome envois, 1858–60"
+      },
+      "claim": "<p>The Palazzetto Bru Zane describes [[bizet]]’s Prix de Rome cantata <i>Clovis et Clotilde</i>, performed at the Institut on 3 October 1857, as nourished by the influences of Rossini, Meyerbeer and Gounod. At the Villa Medici, Hugh Macdonald writes, Bizet “had a lively taste for Italian music, especially Rossini”; he preferred Rossini, Mozart and Mendelssohn to Verdi, whose <i>Un ballo in maschera</i> he disliked. For his first Roman envoi he chose an Italian opera over the usual mass. On 25 June 1858 he wrote to his mother that he had found an Italian farce in the style of <i>Don Pasquale</i> and was “decidedly built for comic music”. The result was <i>Don Procopio</i>, an <i>opera buffa</i> wholly in the Italian manner.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Palazzetto Bru Zane: Georges Bizet et Paris (virtual exhibition)",
+          "url": "https://www.bruzanemediabase.com/exploration/expositions/georges-bizet-paris",
+          "locator": "panel on the Prix de Rome: Clovis et Clotilde, “se nourrit des influences de Rossini, Meyerbeer et Gounod”"
+        },
+        {
+          "title": "Hugh Macdonald: Bizet, Brief Biography (adapted from Grove Music Online)",
+          "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html",
+          "locator": "paragraphs on the Roman sojourn: Rossini, Mozart and Mendelssohn; Don Procopio"
+        },
+        {
+          "title": "Hugh Macdonald: Bizet catalogue, Don Procopio",
+          "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Don_Procopio.html",
+          "locator": "Letters: Bizet to his mother, 17 April, 16 May and 25 June 1858"
+        }
+      ]
+    },
+    {
+      "id": "halevy--bizet-composition-class-1853",
+      "from": "halevy",
+      "to": "bizet",
+      "kind": "studied-with",
+      "year": 1853,
+      "title": "Bizet joins Halévy’s composition class",
+      "works": {
+        "from": "Fromental Halévy’s composition class, Paris Conservatoire, from 1853",
+        "to": "Bizet, Clovis et Clotilde (1857); the completion of Halévy’s Noé (1869)"
+      },
+      "claim": "<p>[[bizet]] entered François Benoist’s organ class at the Paris Conservatoire in 1852 and a year later began taking the composition class of Fromental Halévy, whose operas were regularly staged at the Opéra and the Opéra-Comique. He was soon on intimate terms with the family. Halévy died in March 1862. In June 1869 Bizet married his younger daughter Geneviève, and straight afterwards he paid homage to his father-in-law by completing and revising Halévy’s unfinished opera <i>Noé</i>.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hugh Macdonald: Bizet, Brief Biography (adapted from Grove Music Online)",
+          "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html",
+          "locator": "Conservatoire years (Halévy’s class, 1853); Halévy’s death (1862); marriage and Noé (1869)"
+        },
+        {
+          "title": "Palazzetto Bru Zane: Georges Bizet et Paris (virtual exhibition)",
+          "url": "https://www.bruzanemediabase.com/exploration/expositions/georges-bizet-paris",
+          "locator": "panel “Fromental Halévy”: Bizet’s composition teacher; Noé; Geneviève"
+        }
+      ]
+    },
+    {
+      "id": "gounod--bizet-symphony-in-c-1855",
+      "from": "gounod",
+      "to": "bizet",
+      "kind": "modelled",
+      "year": 1855,
+      "title": "Bizet models his Symphony in C on Gounod’s",
+      "works": {
+        "from": "Gounod, Symphony No. 1 (1855), arranged by Bizet for piano duet",
+        "to": "Bizet, Symphony in C (autograph dated 29 October–November 1855)"
+      },
+      "claim": "<p>Hugh Macdonald calls Gounod “certainly the leading influence” on the young [[bizet]]. The works that impressed him most were <i>Sapho</i> (1851), the choruses for <i>Ulysse</i> (1852) and Gounod’s First Symphony (1855). That year Bizet arranged the symphony for piano duet, and just after his seventeenth birthday he wrote his own Symphony in C, which Macdonald calls “clearly” modelled on Gounod’s. The autograph is dated 29 October–November 1855. The score lay forgotten until Felix Weingartner conducted it at Basel on 26 February 1935. In October 1872 Bizet wrote to Gounod: “You were the beginning of my life as an artist. I spring from you.”</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hugh Macdonald: Bizet, Brief Biography (adapted from Grove Music Online)",
+          "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html",
+          "locator": "paragraphs on Gounod; the Symphony in C and the piano-duet arrangement"
+        },
+        {
+          "title": "Hugh Macdonald: Bizet catalogue, 1ère Symphonie",
+          "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Symphonie_No_1.html",
+          "locator": "Composition (autograph dated 29 October–November 1855); first performance, Basel, 26 February 1935, Weingartner"
+        },
+        {
+          "title": "Palazzetto Bru Zane: Georges Bizet et Paris (virtual exhibition)",
+          "url": "https://www.bruzanemediabase.com/exploration/expositions/georges-bizet-paris",
+          "locator": "panel “L’élève du Conservatoire”: letter to Gounod, October 1872"
+        }
+      ]
+    },
+    {
+      "id": "berlioz--bizet-pecheurs-de-perles-review-1863",
+      "from": "berlioz",
+      "to": "bizet",
+      "kind": "championed",
+      "year": 1863,
+      "title": "Berlioz’s last review praises Bizet’s Pêcheurs de perles",
+      "works": {
+        "from": "Berlioz, review in the Journal des débats, 8 October 1863",
+        "to": "Bizet, Les Pêcheurs de perles, Théâtre-Lyrique, 30 September 1863"
+      },
+      "claim": "<p>Bizet composed <i>Les Pêcheurs de perles</i> in the summer of 1863 for the Théâtre-Lyrique, where it opened on 30 September and ran for eighteen performances. The press condemned the libretto as absurd and the score as noisy and offensive, and Bizet counted the opera a failure. The best notice came from [[berlioz]], whose review in the <i>Journal des débats</i> on 8 October was his last feuilleton; it recognised the twenty-four-year-old as a serious talent with a great future. Bizet returned the admiration a few weeks later, when the same theatre staged Berlioz’s <i>Les Troyens à Carthage</i> and he offered to fight a duel in its defence.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Hugh Macdonald: Bizet, Brief Biography (adapted from Grove Music Online)",
+          "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html",
+          "locator": "paragraphs on Les Pêcheurs de perles: the press, Berlioz’s notice, Les Troyens à Carthage"
+        },
+        {
+          "title": "Hugh Macdonald: Bizet catalogue, Les Pêcheurs de perles",
+          "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Pecheurs_de_perles.html",
+          "locator": "Performances (30-9-1863); Reviews: Hector Berlioz, Journal des débats, 8-10-1863"
+        }
+      ]
+    },
+    {
+      "id": "bizet--tchaikovsky-carmen-letter-1880",
+      "from": "bizet",
+      "to": "tchaikovsky",
+      "kind": "heard",
+      "year": 1880,
+      "title": "Tchaikovsky plays through Carmen and predicts its fame",
+      "works": {
+        "from": "Bizet, Carmen (1875): vocal score; Opéra-Comique, 20 January 1876",
+        "to": "Tchaikovsky’s letter to Nadezhda von Meck from Simaki, 16–19 July 1880 (Old Style)"
+      },
+      "claim": "<p>Tchaikovsky was studying the vocal score of <i>Carmen</i>, sent to him by Vladimir Shilovsky, by mid-1875, and heard the opera for the first time at the Opéra-Comique in Paris on 20 January 1876, with Célestine Galli-Marié in the title role. By the start of 1878 he had learnt almost the whole of it by heart. In July 1880, staying at Nadezhda von Meck’s cottage at Simaki, he told her that to rest from his own music he had played <i>Carmen</i> through from beginning to end. To his mind it was a masterpiece “in the full sense” of the word, one of the few works fated to reflect most strongly the musical aspirations of a whole age. He was convinced that within ten years it would be the most popular opera in the world.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Tchaikovsky Research: Letter 1539, to Nadezhda von Meck, 16/28–19/31 July 1880 (Russian text)",
+          "url": "https://en.tchaikovsky-research.net/pages/Letter_1539",
+          "locator": "entry of 18 July (Old Style): the passage on Carmen"
+        },
+        {
+          "title": "Tchaikovsky Research: Georges Bizet",
+          "url": "https://en.tchaikovsky-research.net/pages/Georges_Bizet",
+          "locator": "section “Tchaikovsky and Bizet”: the vocal score of 1875, Paris on 20 January 1876, the letter of 1878"
+        }
+      ]
+    },
+    {
+      "id": "bizet--nietzsche-carmen-genoa-1881",
+      "from": "bizet",
+      "to": "nietzsche",
+      "kind": "heard",
+      "year": 1881,
+      "title": "Nietzsche hears Carmen in Genoa and takes Bizet’s side",
+      "works": {
+        "from": "Bizet, Carmen, Politeama Theatre, Genoa, 27 November 1881",
+        "to": "Nietzsche, The Case of Wagner (1888)"
+      },
+      "claim": "<p>On 27 November 1881 [[nietzsche]] heard <i>Carmen</i> for the first time, at the Politeama Theatre in Genoa. He wrote to his sister that he had been thunderstruck by an opera “so strong, so impassioned, so graceful, so Southern”, and he heard it again five days later. In <i>The Case of Wagner</i> (1888) he wrote that he had just heard Bizet’s masterpiece “for the twentieth time”, that Bizet’s orchestration was the only one he could still endure, and that this music was light and definite and free of grimaces, the opposite of Wagner’s “endless melody”.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "John W. Klein: “Nietzsche and Bizet”, The Musical Quarterly 11/4 (October 1925), pp. 482–505 (scan)",
+          "url": "https://gwern.net/doc/fiction/opera/1925-klein.pdf",
+          "locator": "pp. 482–483: Genoa, 27 November 1881; the letter to his sister; the second hearing"
+        },
+        {
+          "title": "Friedrich Nietzsche: The Case of Wagner, trans. Anthony M. Ludovici (Project Gutenberg eBook 25012)",
+          "url": "https://www.gutenberg.org/cache/epub/25012/pg25012.txt",
+          "locator": "section 1: “I heard Bizet’s masterpiece for the twentieth time”"
+        }
+      ]
     }
   ],
   "figures": [
@@ -1808,6 +2092,34 @@
       "dates": "1866–1949",
       "year": 1866,
       "kind": "performer"
+    },
+    {
+      "id": "schiller",
+      "name": "Friedrich Schiller",
+      "dates": "1759–1805",
+      "year": 1759,
+      "kind": "poet"
+    },
+    {
+      "id": "nietzsche",
+      "name": "Friedrich Nietzsche",
+      "dates": "1844–1900",
+      "year": 1844,
+      "kind": "philosopher"
+    },
+    {
+      "id": "gounod",
+      "name": "Charles Gounod",
+      "dates": "1818–1893",
+      "year": 1818,
+      "kind": "composer"
+    },
+    {
+      "id": "halevy",
+      "name": "Fromental Halévy",
+      "dates": "1799–1862",
+      "year": 1799,
+      "kind": "teacher"
     }
   ]
 }

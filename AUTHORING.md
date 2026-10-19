@@ -1,15 +1,63 @@
 # Authoring guide
 
-Contrapunctus is written for listeners with taste who want to know how the music works. The exemplar is `content/composers/mahler.mjs` — read it in full before writing anything. Match its density, its tone and its schema.
+Contrapunctus is written for people who love this music, or are about to. The reader usually has a recording playing and no obligation to keep reading. Write as a well-read friend sitting beside them: someone who knows the score, the letters and the gossip, and says what matters in plain sentences.
+
+Exemplars — read one in full before writing: `content/composers/debussy.mjs` and `content/composers/mahler.mjs` (composer pages), `content/listen/debussy-faune.mjs` (Hall notes).
 
 ## House style
 
-- **Every sentence carries a fact**: a date, a key, an instrument, a technique, a place, a person, a quotation, a bar of music. No sentence exists only to set a mood.
-- **Technical and concrete.** Name the chord, the mode, the form, the register, the instrument, the catalogue number. Explain a term once, by context, the first time it matters (or link to the Workshop).
-- **No generic praise.** Never: tapestry, delve, testament to, timeless, masterful, myriad, resonate with, journey, vibrant, breathtaking, nuanced, showcase, realm, seamless, elevate, captivating, unparalleled, profound, evocative, soundscape, “genius”, “in the world of”. `tools/validate.mjs` flags these. Avoid rhetorical questions, “Imagine …”, triplets of adjectives, and closing summaries.
-- **British spelling and typography** as in the exemplar: curly quotes ‘ ’ “ ”, en dashes for ranges (1888–94), em dashes for asides — like this, ♯ ♭ ♮ for accidentals in prose, italics for work titles that are names (<i>La Mer</i>), roman for generic titles (Symphony No. 5).
-- **Accuracy over colour.** State only what you are confident is documented. Mark legends as legends (“the story, told by …”, “probably apocryphal”). Dates, keys and catalogue numbers must be right. If you are unsure of a detail, leave it out.
-- **Quotations** only when well attested; always say who said it, to whom or where, and when.
+### What every paragraph needs
+
+At least one of these:
+
+- **A scene**: a place, a date, people in a room. “In August 1910 Mahler walked with Freud for four hours through Leiden.”
+- **A sound you could point to in the score**: a named instrument, note, chord, key, bar or marking. “A solo double bass, high and uncomfortable, plays <i>Frère Jacques</i> in the minor.”
+- **A person speaking**, in attested words: the composer, a friend, a critic. “I am a summer composer.”
+
+A paragraph made only of categories (“register, texture and density”, “the organisation of musical time”) is not finished. Facts are necessary; they are not sufficient.
+
+### Be specific, then stop
+
+- Name things: the note, the instrument, the city, the year, the catalogue number. Explain a term once, by context, the first time it matters (or link the Workshop).
+- Abstract nouns — register, texture, density, material, weight, surface, colour, resonance, gesture, contour, process — are tools for precision, not decoration. One per sentence at most, and only when no concrete word will do.
+- End a paragraph on a fact, an image or a quotation, never on a moral that restates what the reader has just read.
+- Vary sentence length. A four-word sentence is allowed. So is a joke. Opinions are allowed when they are the site’s considered view and read as such (“the place to start is …”).
+
+### Confidence in the text, doubt in the drawer
+
+- The text states the best-supported reading plainly. Sources, alternatives and caveats belong in `evidence` (Hall notes), dossiers, `sources` lists and margin notes.
+- Mention doubt in the text only when the doubt is the story, and then tell it as one: “His family kept his birthday on 1 March; the parish register says 22 February.”
+- Never defend against a misreading the reader did not make: not “an editorial comparison, not a documented source”, “their languages need not be collapsed”, “this is not a narrative”, “is not evidence of a quotation”. If a comparison is editorial, say what it shows and move on.
+- Tell a legend once, as a legend (“the story, as Freud’s biographer Ernest Jones told it”), then let it run.
+
+### Constructions to avoid
+
+`tools/validate.mjs` checks reader-facing text for these:
+
+- **Machine language** (error): decibels, “relative level”, “the level rises/falls”, “loudest window”, “the report”, “the analysis shows”, “key estimate”, confidence figures, file paths, “Wikipedia hears/says”, “according to the … note”. Audio analysis can help an author find a formal boundary; it never appears in prose, titles or “How we know”.
+- **Defensive hedging** (error): “need not”, “is not evidence”, “not a documented”, “editorial comparison”, “does not claim/establish/identify/imply”, “is claimed”, “not a measurement”.
+- **Instructions to the listener** in Hall notes and recording introductions (error): “Listen for …”, “Follow …”, “Compare …”, “Keep … in mind”, “Notice …”. Say what happens; the reader is already listening.
+- **Contrast by negation** (error above one per 250 words): “X rather than Y”, “not X but Y”, “, not a …”. One in a page is a choice; one in every paragraph is a tic.
+- “the listener”, “a different kind of”, “gives way to”, rhetorical questions, “Imagine …”, adjective triplets, and the old word list: tapestry, delve, testament to, timeless, masterful, myriad, resonate with, journey (except as the Guided Journeys feature name), vibrant, breathtaking, nuanced, showcase, realm, seamless, elevate, captivating, unparalleled, profound, evocative, soundscape, “genius”, “in the world of”.
+
+### Quotations
+
+- Prefer the composers’ own words: letters, criticism, memoirs, conversations recorded at the time. Berlioz, Schumann, Debussy, Mozart, Tchaikovsky, Stravinsky and Satie wrote constantly.
+- Attribute every quotation: who, to whom or where, and when. Quote only what you have checked against a source, and record the source: composer pages in `content/plan/research/prose/<slug>.md`, Hall notes in the cue’s `evidence`.
+- Translate non-English quotations yourself; keep them short.
+
+### Typography and accuracy
+
+- British spelling; curly quotes ‘ ’ “ ”; en dashes for ranges (1888–94); em dashes for asides — like this; ♯ ♭ ♮ for accidentals in prose; italics for work titles that are names (<i>La Mer</i>), roman for generic titles (Symphony No. 5).
+- State only what is documented. Dates, keys and catalogue numbers must be right. If you are unsure of a detail, leave it out, and leave it out silently: do not write around the gap.
+
+### The difference, in one paragraph
+
+> At the 1889 Paris Exposition he heard a Javanese gamelan and Vietnamese theatre. These performances took place within a colonial exhibition. For Debussy they demonstrated ways of organising musical time beyond European symphonic development. … Its pentatonic material, the independent speeds of the layers and the resonance left between attacks all carry the connection.
+
+> In the summer of 1889 the Exposition universelle brought a Javanese gamelan to Paris, and Debussy kept going back. Twenty-four years later he was still arguing from it: their counterpoint, he wrote, made Palestrina’s look like child’s play. <i>Pagodes</i> (1903) is what he took home.
+
+The facts are the same. The second has a summer, a man going back, and his own words.
 
 ## Files and tools
 
@@ -26,7 +74,6 @@ export default {
   born: { year, date: '7 July 1860', place: 'Kaliště, Bohemia' },
   died: { year, date, place } | null,            // null for living composers
   era,                                            // roster key
-  featured: false,                                // true only for mahler, rachmaninoff, ravel, prokofiev
   epithet: 'One plain sentence, specific to this composer.',
   portrait: { file: 'File:…', caption: 'What, by whom, when.', focus: '50% 25%' },  // focus = CSS object-position for crops
   facts: [['Trained', '…'], ['Posts', '…'], ['Output', '…']],                         // 3–4 rows, short
@@ -53,8 +100,8 @@ Origins anchors: `monochord`, `chant`, `notation`, `organum`, `ars-nova`, `polyp
 
 `src/build.mjs` builds composer pages at `composers/<slug>.html` and era pages
 at `eras/<slug>.html`. Both retain authored prose, margin notes, notation and
-sister arts. Chapter and figure numbers are generated; do not embed them in
-content. The contents map moves into the reading flow on narrow screens.
+sister arts. Pages carry no chapter or figure numbers; do not write them into
+content. The contents list moves into the reading flow on narrow screens.
 
 The composer directory keeps birth order. Site search is accent-insensitive
 and includes work titles and catalogue numbers. Without JavaScript, the

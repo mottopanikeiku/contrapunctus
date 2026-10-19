@@ -19,66 +19,69 @@ export default {
     "part": 1,
     "of": 2
   },
-  "intro": "This is the first historical side of Mengelberg’s Concertgebouw recording, not the complete first movement. Commons dates the session to 1939–40 and the first release to 1941. The source is left intact; its ending is a disc-side boundary, not Beethoven’s final cadence.",
-  "question": "How does Mengelberg shape a phrase within one disc side?",
+  "intro": "Willem Mengelberg and the Concertgebouw Orchestra take Beethoven’s four-note opening from fierce octaves to the soft exchanges of the development. This is the first of two disc sides: the movement continues after the needle reaches the end.",
   "sections": [
     {
       "t": 0,
-      "label": "Opening",
-      "m": "A"
+      "label": "A · Three Gs and a fermata",
+      "m": "A",
+      "mNote": "The opening rhythm passes through the strings"
     },
     {
       "t": 48,
-      "label": "First contrasting span",
-      "m": "B"
+      "label": "B · Horn call and violin song",
+      "m": "B",
+      "mNote": "E♭ major; repeated notes continue beneath the melody"
     },
     {
       "t": 188,
-      "label": "Strong central change",
-      "m": "C"
+      "label": "C · Fragments of the opening rhythm",
+      "m": "C",
+      "mNote": "Short phrases pass between strings and winds"
     },
     {
       "t": 246,
-      "label": "Approaching the side ending",
-      "m": "D"
+      "label": "D · Single chords across the silence",
+      "m": "D",
+      "mNote": "Winds and strings take turns before the rhythm returns"
     }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "world",
-      "title": "One historical side",
-      "text": "Only the first of the movement’s two files is used here. The player streams that original file; no joined reconstruction has been made.",
-      "basis": "documented",
+      "kind": "music",
+      "title": "Three Gs, then a hold",
+      "text": "Beethoven begins with a rest, three Gs and an E♭ held under a fermata. Three Fs fall to a longer D. Mengelberg has two written pauses to shape before the strings begin passing the rhythm between them.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://commons.wikimedia.org/wiki/File:Telefunken-sk2210-022110.ogg"
+      "evidence": "Beethoven, Symphony No. 5, I, bars 1–21; Mutopia 941, based on the Breitkopf & Härtel parts. Opening repeated notes, fermatas and subsequent string imitations."
     },
     {
       "t": 48,
-      "kind": "listen",
-      "title": "The recorded texture turns",
-      "text": "A prominent measured boundary falls here. Compare the spacing and weight of the phrase with the same passage in the other performances, rather than comparing the files’ total lengths.",
-      "basis": "audio-feature",
+      "kind": "music",
+      "title": "A horn call opens out",
+      "text": "The horns keep the three-short-note rhythm and widen its intervals: B♭–B♭–B♭, E♭, F, B♭. The violins answer with a sweet E♭-major song. Below it, the cellos continue the little repeated-note figure.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/beethoven-5-first-mengelberg-side1.txt: novelty48 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Symphony No. 5, I, bars 59–70; Mutopia 941, horns, first violins and cellos. Passage at the recording’s existing second-section boundary."
     },
     {
       "t": 188,
-      "kind": "listen",
-      "title": "The largest change",
-      "text": "This is the side’s strongest measured change in pitch content and texture. It provides a useful listening landmark, but does not establish a precise bar number.",
-      "basis": "audio-feature",
+      "kind": "world",
+      "title": "A Telefunken disc in 1941",
+      "text": "Telefunken issues this performance in 1941. The Concertgebouw Orchestra plays under Mengelberg; SK 2210 carries the first part of the opening movement. A listener at home needs the other side to finish it.",
+      "basis": "documented",
       "precision": "passage",
-      "evidence": "cache/analysis/beethoven-5-first-mengelberg-side1.txt: maximum novelty188 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Musical Heritage Organization’s catalogue for Telefunken SK 2210 identifies Mengelberg, the Concertgebouw Orchestra, recording date 1939–40, first release 1941 and first-movement Part 1: http://pool.musicalheritage.org/index.php/Telefunken-sk2210-022110."
     },
     {
-      "t": 275,
-      "kind": "listen",
-      "title": "A crest before the break",
-      "text": "The side’s loudest average five seconds lie close to its ending. Do not hear the approaching cutoff as a composed ending: Beethoven’s movement continues on another side.",
-      "basis": "audio-feature",
+      "t": 246,
+      "kind": "music",
+      "title": "One chord at a time",
+      "text": "The development pares the four-note rhythm down to slow chords. Winds and strings reply across rests, with Beethoven asking for ever softer playing. The thin exchanges eventually break open as the short repeated notes return.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/beethoven-5-first-mengelberg-side1.txt: highest five-second level window275 seconds; file283.4 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Symphony No. 5, I, bars 196–247; Mutopia 941, alternating minim chords, diminuendo, sempre più piano and returning repeated-note fragments. Passage at the existing final-section boundary."
     }
   ]
 };

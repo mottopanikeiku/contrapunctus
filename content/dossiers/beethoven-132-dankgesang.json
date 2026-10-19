@@ -67,7 +67,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Internet Archive LP digitisation; ripping operator account associate-klentjohn-postanes@archive.org",
+      "value": "Internet Archive LP digitisation",
       "status": "documented",
       "sourceIds": ["archive-data"],
       "note": "This account is explicitly credited in ripping_operator. The separate catalogue/uploader account is not credited as the audio transfer engineer. Collection membership identifies the Boston Public Library vinyl collection; it does not establish the original recording venue. No personal-name expansion or mastering credit is inferred."

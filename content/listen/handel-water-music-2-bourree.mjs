@@ -1,7 +1,5 @@
 // Score evidence: Arnold, The Celebrated Water-musick in score (London, 1788), pp. 49–50 (Commons, BnF scans, images 26–27 of 30): https://commons.wikimedia.org/wiki/File:The_celebrated_Water-musick._In_score._Composed_in_the_year_1716._By_G._F._Handel_-_btv1b10072587v_(26_of_30).jpg
 // Bar numbers and the instruction “This Air to be played 3 times over”: Hallische Händel-Ausgabe IV/13 (Redlich, Bärenreiter, 1962), Suite II, printed p. 53 (IMSLP #559922).
-// Pass boundaries: dips in the recording at 24.6 s and 48.0 s; each pass is four bars, repeated, then eight bars, repeated (24 bars in about 23.5 s, 0.98 s a bar).
-// Fine-grained measurements (pauses, level samples, curve correlations, method): cache/analysis/handel-water-music-2-bourree.txt, section “Supplementary measurements”.
 
 export default {
   id: 'handel-water-music-2-bourree',
@@ -16,47 +14,45 @@ export default {
   performers: 'Marine Chamber Orchestra of the United States Marine Band; Major Michelle Rakers, conductor',
   recorded: '29 January 2017',
   source: { file: "File:Handel's Water Music - 15. Bourree - Chamber Orchestra - United States Marine Band.opus" },
-  intro: 'The shortest dance of the suite has twelve bars: a four-bar strain and an eight-bar strain, each repeated. The edition tells the players to repeat the whole air three times over, and in this recording the third pass is noticeably louder.',
-  question: 'What can change when twelve bars are played three times?',
+  intro: 'Twelve bars are enough for this brisk D major bourrée: a short strain, a longer answer, and both repeated. Michelle Rakers and the Marine Chamber Orchestra play the whole dance three times.',
 
   sections: [
-    { t: 0, label: 'First pass', m: 'A' },
-    { t: 24.6, label: 'Second pass', m: 'A' },
-    { t: 48.1, label: 'Third pass · louder', m: 'A′', mNote: 'same strains, about six decibels louder than before' },
+    { t: 0, label: 'A · The twelve-bar dance', m: 'A', mNote: 'Four bars answered by eight, each strain repeated' },
+    { t: 24.6, label: 'A · The dance again', m: 'A', mNote: 'The upbeat starts a second round of both strains' },
+    { t: 48.1, label: 'A′ · The final round', m: 'A′', mNote: 'The same two strains lead to the last D major chord' },
   ],
 
   cues: [
-    { t: 0, kind: 'form', title: 'Twelve bars, three times', text: 'A twelve-bar dance: a four-bar strain and an eight-bar strain, each repeated, so one pass lasts about 24 seconds. The edition prints “This Air to be played 3 times over”, and the recording plays it three times, the strains ending near 0:05, 0:09, 0:16 and 0:25.', basis: 'documented', precision: 'passage', evidence: 'HHA p. 53 prints the twelve bars, the repeat signs and the instruction; IMSLP lists the movement as 12 bars (36 played three times). Brief dips to −22.6 dB at 4.78 s, −23.8 dB at 8.68–8.78 s, −24.5 dB at 16.53–16.65 s and −23.1 dB at 24.61–24.68 s mark the strains of the first pass; further dips at 24.6 s and 48.0 s divide the recording into three passes of 23.5, 23.4 and 24.8 s. Twenty-four bars in 23.5 s is 0.98 s a bar; the onset-tempo estimate is 123 beats a minute.' },
-    { t: 30, kind: 'world', title: 'A French dance among English ones', text: 'The Marine programme says Handel took the English style in a “Purcellian hornpipe” and the French style in several French dances. The Bourrée is one of the French dances, written in cut time with a one-note upbeat.', basis: 'documented', precision: 'passage', evidence: 'Programme note for the Marine Chamber Orchestra concert of 29 January 2017: https://web.archive.org/web/20251101025231id_/https://www.marineband.marines.mil/Portals/175/Docs/Programs/170129.pdf?ver=2017-01-24-094649-630 . The cut-time signature and the one-note upbeat are on HHA p. 53.' },
-    { t: 60, kind: 'music', title: 'Louder to the last chord', text: 'Since 0:48 this pass has run about six decibels above the first two, with the same printed notes; the recording does not show how the extra weight is made. The repeated eight-bar strain begins near 1:04, and a 4–3 suspension in the figured bass leads to the last held chord.', basis: 'audio-feature', precision: 'passage', evidence: 'The relative level is −18.1 dB at 48.0 s, −10.1 dB at 48.5 s and −7.3 dB at 49.5 s; its mean is −15.1 dB for 2–48 s and −9.4 dB for 49–70 s. HHA bars 11–12: the bass figures 4–3, then a final dotted minim. The relative level falls below −22 dB at 72.98 s. The third pass runs from about 48.2 to 72.5 s, so its repeated eight-bar strain starts near 64.4 s.' },
+    { t: 0, kind: 'form', title: 'An upbeat and twelve bars', text: 'One upbeat launches the dance. A four-bar phrase is repeated, then an eight-bar answer is repeated too. The tune moves in quick, even notes, with the bass keeping its own steady stride underneath.', basis: 'score-proportion', precision: 'passage', evidence: 'Samuel Arnold’s full score, The Celebrated Water-musick (1788), pp. 49–50: upbeat, four-bar and eight-bar strains with repeat signs. https://commons.wikimedia.org/wiki/File:The_celebrated_Water-musick._In_score._Composed_in_the_year_1716._By_G._F._Handel_-_btv1b10072587v_(26_of_30).jpg' },
+    { t: 48.1, kind: 'music', title: 'A catch before the cadence', text: 'The dance makes its third circuit. At the end of the longer strain, a note hangs over the bass before dropping a step: the little 4–3 suspension written beneath the stave. Then the chord settles on D major.', basis: 'score-proportion', precision: 'passage', evidence: 'Arnold’s full score (1788), p. 50: 4–3 figures before the final D major chord, bars 11–12. The established section marks the third complete pass. https://commons.wikimedia.org/wiki/File:The_celebrated_Water-musick._In_score._Composed_in_the_year_1716._By_G._F._Handel_-_btv1b10072587v_(27_of_30).jpg' },
   ],
 
   transitions: [
     {
       id: 'into-second-pass',
-      title: 'Closing cadence, then the dance restarts',
-      from: 'First pass',
-      to: 'Second pass',
+      title: 'D major, then the upbeat again',
+      from: 'A · The twelve-bar dance',
+      to: 'A · The dance again',
       at: { t: 24.6 },
       span: [20, 30],
-      how: '<p>The eight-bar strain ends its repeat on a held D with a 4–3 suspension in the figured bass before it (bars 11–12), and the dance starts again from the upbeat with no link. The recording dips only briefly, to about −23 dB for under 0.1 seconds, so the three passes run on almost without a break. The instruction “This Air to be played 3 times over” makes the restart part of the written music.</p>',
-      devices: ['perfect cadence'],
-      basis: 'audio-feature',
+      how: '<p>A 4–3 suspension delays the last cadence of the eight-bar strain. The bass reaches D and the upper parts hold the D major chord. The upbeat then starts the dance again, with no linking passage between the two rounds.</p>',
+      devices: ['perfect cadence', 'motivic link'],
+      basis: 'score-proportion',
       precision: 'passage',
-      evidence: 'The relative level dips to −23.1 dB at 24.61–24.68 s. HHA p. 53 (bars 11–12, figures 4–3, final dotted minim) and Arnold’s 1788 score, p. 50, where the strain ends.',
+      evidence: 'Arnold’s full score (1788), pp. 49–50: the closing suspension and D major chord, then the opening upbeat. The existing sections identify the three complete passes.',
     },
     {
       id: 'into-third-pass',
-      title: 'The same cadence, a louder restart',
-      from: 'Second pass',
-      to: 'Third pass',
+      title: 'One more round of the dance',
+      from: 'A · The dance again',
+      to: 'A′ · The final round',
       at: { t: 48.1 },
       span: [43, 54],
-      how: '<p>The second pass ends as the first did, with a dip to −24 dB at 48.0–48.2 seconds. The third pass then starts about eight decibels louder than the end of the second and stays about six decibels above the first two passes. The printed notes are identical; the recording does not show whether more instruments join or all of them play louder.</p>',
-      devices: ['perfect cadence'],
-      basis: 'audio-feature',
+      how: '<p>The second round closes on the same D major chord. The upbeat immediately recalls the opening, and the short and long strains make their last circuit. Both retain their repeats and the bass returns to D at the final cadence.</p>',
+      devices: ['perfect cadence', 'motivic link'],
+      basis: 'score-proportion',
       precision: 'passage',
-      evidence: 'The relative level is −18.1 dB at 48.0 s, −10.1 dB at 48.5 s and −7.3 dB at 49.5 s; mean −15.1 dB for 2–48 s and −9.4 dB for 49–70 s. HHA p. 53 prints one statement of the twelve bars for all three passes.',
+      evidence: 'Arnold’s full score (1788), pp. 49–50: the two repeated strains and their closing cadence. The established section boundary marks the third pass.',
     },
   ],
 };

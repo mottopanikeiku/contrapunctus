@@ -18,191 +18,119 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, I (Fischer-Dieskau, Kempe, 1955).ogg"
   },
-  "intro": "Rückert sets the rising sun against one parent’s private loss. Mahler answers with exposed oboe and horn lines, then lets the same small melodic cells pass between voice and orchestra.",
-  "question": "How does a repeated phrase change when its text moves from sunlight to personal grief?",
+  "intro": "The sun rises after a child’s death, as though nothing has happened. Dietrich Fischer-Dieskau sings the opening <i>Kindertotenlied</i> with Rudolf Kempe and the Berlin Philharmonic; an oboe and horn begin it alone.",
   "sections": [
     {
       "t": 0,
-      "label": "First stanza · sun and night",
+      "label": "A · Oboe, horn and sunrise",
       "m": "A",
-      "mNote": "oboe and horn establish the small melodic cells"
+      "mNote": "Two wind lines precede the baritone"
     },
     {
       "t": 84,
-      "label": "Second stanza · private loss",
+      "label": "A′ · The sun shines for everyone",
       "m": "A′",
-      "mNote": "opening outline varied for a new pair of lines"
+      "mNote": "Flute and bassoon join the returning phrases"
     },
     {
       "t": 144,
-      "label": "Middle expansion · light",
+      "label": "B · Night and eternal light",
       "m": "B",
-      "mNote": "familiar cells developed through a wider orchestral span"
+      "mNote": "Horns take the vocal tune; violins climb"
     },
     {
       "t": 232,
-      "label": "Last stanza · the extinguished lamp",
+      "label": "A″ · A lamp goes out",
       "m": "A″",
-      "mNote": "opening material returns with altered text and accompaniment"
+      "mNote": "Oboe and flute recall the opening"
     }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "form",
-      "title": "Two exposed lines",
-      "text": "The score opens with oboe and horn, not a full string chord. Their short rising steps and answering phrases provide material that the voice and other instruments can reshape throughout the song.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed p. 3; an overview of the opening scoring, not a timestamped vocal entrance."
-    },
-    {
-      "t": 35,
-      "kind": "listen",
-      "title": "A different accompaniment",
-      "text": "Across the first stanza, compare the bare wind writing with the harp and muted lower strings. The accompaniment changes colour while the vocal line continues to turn around small intervals.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 4–5. The report marks 0:36; relative level rises from −22.9 dB at 0:30 to −13.6 dB at 0:35. The instruments come from the score; placement is approximate."
-    },
-    {
-      "t": 70,
-      "kind": "world",
-      "title": "A father’s poems",
-      "text": "Friedrich Rückert wrote the poems after two of his children died in 1833–34. Mahler chooses five from a much larger collection: the speaker’s private bereavement predates the composer’s own family.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-introduction/ The cycle’s textual origin, not a claim that Mahler experienced the events in the poem."
-    },
-    {
-      "t": 105,
-      "kind": "listen",
-      "title": "Small steps, long sentences",
-      "text": "Listen across the phrases for two neighbouring notes moving by a semitone. Mahler joins these short cells into longer lines; the woodwind parts are often partners to the singer rather than a block of accompaniment.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 3–8 show the recurrent neighbouring-note figures. This is a whole-song listening suggestion, not the identification of a particular note at this time."
-    },
-    {
-      "t": 140,
-      "kind": "life",
-      "title": "Two composing summers",
-      "text": "Mahler works on the cycle in 1901 and 1904. Scholars disagree about which individual songs belong to each summer; the manuscript evidence does not justify assigning every song an exact composition date.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://www.mahlercat.org.uk/Pages/KtL/KtL.htm Completion note distinguishes competing allocations of the five songs to 1901 and 1904."
-    },
-    {
-      "t": 175,
       "kind": "music",
-      "title": "The middle grows outward",
-      "text": "The middle expansion enlarges the earlier material rather than replacing it with an unrelated tune. Higher string writing and a longer rise in intensity make the small opening figures occupy more space.",
+      "title": "Oboe above a horn",
+      "text": "The oboe edges upwards by small steps; a horn answers below it. Mahler marks the music slow and melancholy. The strings wait. Fischer-Dieskau’s first line places the rising sun inside this spare wind duet.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 10–14. The report changes at 2:58 and 3:04, then rises to its strongest windows around 3:20–3:45. The measurement supports the broad expansion, not an exact violin entrance."
+      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, p. 3: Langsam und schwermütig; nicht schleppend. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
     },
     {
-      "t": 210,
+      "t": 84,
       "kind": "form",
-      "title": "A sustained middle crest",
-      "text": "This stretch contains the recording’s strongest sustained rise. Follow the continuing phrase through its crest; a louder passage need not introduce a new melody.",
-      "basis": "audio-feature",
+      "title": "“Nur mir allein”",
+      "text": "“Das Unglück geschah nur mir allein” — the disaster happened to me alone. Rückert puts the whole distance between the father and the bright morning into those last three words. The opening tune returns, with the flute above the voice and the bassoon repeating its small upward steps.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The analysis lists 3:20, 3:40 and 3:45 among the loudest five-second windows; it measures the contour without identifying orchestral parts."
+      "evidence": "Kahnt full score, pp. 6–8, second couplet of Rückert’s poem; our translation. Geert Woltjer discusses the flute doubling and bassoon figure: https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler1.html"
     },
     {
-      "t": 245,
-      "kind": "world",
-      "title": "A baritone at the premiere",
-      "text": "Friedrich Weidemann sings the first performance in Vienna on 29 January 1905, with Mahler conducting. The venue is the Musikverein’s small hall, not its larger orchestral auditorium.",
-      "basis": "documented",
+      "t": 144,
+      "kind": "form",
+      "title": "Night inside the father",
+      "text": "The third couplet speaks to the father himself: he must sink his night into eternal light. Horns take up the earlier vocal melody, and the voice answers with a new line. The violins carry the climb onwards after the words run out.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://www.mahlercat.org.uk/Pages/KtL/KtL.htm Chronology and first-performance account identify singer, conductor, date and the Kleine Saal."
+      "evidence": "Kahnt full score, pp. 9–14. The third couplet and the exchange of oboe, horn and vocal phrases are discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler1.html"
     },
     {
-      "t": 280,
-      "kind": "listen",
-      "title": "Major does not erase minor",
-      "text": "Throughout the song, compare the minor-mode phrases with their major-mode inflections. The shift changes the colour of familiar notes without removing the poem’s opposition between a bright world and a bereaved parent.",
-      "basis": "general",
+      "t": 232,
+      "kind": "form",
+      "title": "The extinguished lamp",
+      "text": "“Ein Lämplein verlosch in meinem Zelt” — a little lamp went out in my tent. Fischer-Dieskau returns to the opening melody with this small domestic image. Oboe and flute bring back their short phrases, and the glockenspiel sounds through the gaps.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 3–17 support the D-minor/D-major contrast. No key-estimation label is used to place a chord at this cue time."
+      "evidence": "Kahnt full score, pp. 14–17, Rückert’s final couplet; our translation. Page 14 marks the orchestral return zurückkehrend."
     },
     {
       "t": 302,
-      "kind": "listen",
-      "title": "Let the close settle",
-      "text": "The last phrase gives way to a short instrumental ending. Listen for the separated attacks and remaining resonance rather than treating the end of the sung sentence as the end of the song.",
+      "kind": "music",
+      "title": "Harp and small bells",
+      "text": "The baritone’s final word is “Welt” — world. The harp keeps its little rocking figure going, with soft glockenspiel notes above it. Mahler leaves the last bar empty under a fermata.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed p. 17 supplies harp, glockenspiel and held wind tones after the final words. The report falls from −11.6 dB at 5:00 to −45.8 dB at 5:10; the precise vocal release is not aligned."
+      "evidence": "Kahnt full score, p. 17: final vocal phrase, harp, glockenspiel and the closing bar of rests with fermatas. The existing cue marks the closing passage."
     }
   ],
   "transitions": [
     {
       "id": "second-stanza",
-      "title": "The opening returns with less preparation",
-      "from": "First stanza · sun and night",
-      "to": "Second stanza · private loss",
-      "at": {
-        "t": 84
-      },
-      "span": [
-        74,
-        96
-      ],
-      "how": "<p>The first stanza’s harp figures and bell-like punctuation leave space for a shortened return of the opening wind idea. The voice resumes the same melodic family with a changed rhythm, while flute and bassoon join the sparse texture. D minor remains the reference point: renewed counterpoint and changed words, rather than a new tonic or a full orchestral chord, distinguish the second statement.</p>",
-      "devices": [
-        "motivic link",
-        "orchestration change"
-      ],
+      "title": "The oboe starts again",
+      "from": "A · Oboe, horn and sunrise",
+      "to": "A′ · The sun shines for everyone",
+      "at": { "t": 84 },
+      "span": [74, 96],
+      "how": "<p>The harp’s rocking D-minor figure and glockenspiel notes continue beneath the oboe’s return. The second couplet shortens the introduction: flute joins the vocal line, while the bassoon takes the repeated C♯–D steps below. The singer’s rhythm changes to put the stress on “mir” — me.</p>",
+      "devices": ["motivic link", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 6–8. The report marks 1:24, with a quiet 1:25 window before the renewed rise at 1:35. This is a stanza-level estimate."
+      "evidence": "Kahnt full score, pp. 6–8; Woltjer, song I, discussion of bars 22 onwards. https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler1.html"
     },
     {
       "id": "middle-expansion",
-      "title": "The small cells become a longer argument",
-      "from": "Second stanza · private loss",
-      "to": "Middle expansion · light",
-      "at": {
-        "t": 144
-      },
-      "span": [
-        134,
-        156
-      ],
-      "how": "<p>The instrumental link develops the oboe’s neighbouring-note figures and passes the earlier vocal contour into the horns. When the voice continues, its line meets this material instead of repeating the opening accompaniment unchanged. First violins and harp subsequently widen the texture; the movement between D minor and major is worked through the existing motives.</p>",
-      "devices": [
-        "motivic link",
-        "sequence",
-        "orchestration change"
-      ],
+      "title": "The horn takes the tune",
+      "from": "A′ · The sun shines for everyone",
+      "to": "B · Night and eternal light",
+      "at": { "t": 144 },
+      "span": [134, 156],
+      "how": "<p>After “allgemein”, the horn stretches the closing phrase over low clarinet and bassoon notes. The oboe answers more urgently. In the passage that follows, the horn takes the first vocal tune while the singer moves against it; D minor and D major alternate as the words turn towards eternal light.</p>",
+      "devices": ["motivic link", "sequence", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 9–13. The 2:24 change and rising onset activity from 2:35 anchor the approximate start of the expanding middle. The written development, not machine key labels, supplies the formal interpretation."
+      "evidence": "Kahnt full score, pp. 9–13; Woltjer, song I, discussion of bars 36–59. https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler1.html"
     },
     {
       "id": "last-stanza",
-      "title": "The first gestures return after the crest",
-      "from": "Middle expansion · light",
-      "to": "Last stanza · the extinguished lamp",
-      "at": {
-        "t": 232
-      },
-      "span": [
-        222,
-        244
-      ],
-      "how": "<p>The expanded middle subsides into the opening’s short wind figures. The last stanza varies the first vocal contour, then restores the harp-and-string accompaniment as the text turns from the extinguished lamp towards the world’s light. Familiar melodic shapes hold the return together, while changed rhythm and scoring prevent a literal repeat.</p>",
-      "devices": [
-        "decrescendo",
-        "retransition",
-        "motivic link"
-      ],
+      "title": "Flute and oboe find home",
+      "from": "B · Night and eternal light",
+      "to": "A″ · A lamp goes out",
+      "at": { "t": 232 },
+      "span": [222, 244],
+      "how": "<p>Marked <i>zurückkehrend</i> — returning — the flute’s running notes soften around the oboe’s opening phrase. Horns hold below; glockenspiel notes punctuate the retreat. The strings fall silent before the last couplet restores the D-minor vocal melody.</p>",
+      "devices": ["decrescendo", "retransition", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, Sibley Music Library scan: https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 Printed pp. 14–17. The report marks 3:52 after the 3:40–3:45 crest; level is −22.5 dB by 3:55. The timestamp does not identify the first syllable of the final stanza."
+      "evidence": "Kahnt full score, pp. 14–15, zurückkehrend and the final couplet. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
     }
   ],
   "orchestra": {
@@ -227,7 +155,7 @@ export default {
     "source": {
       "title": "Mahler, Kindertotenlieder, full score (C. F. Kahnt, plate 4460)",
       "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425",
-      "locator": "Song I, printed pp. 3–17; passage-level scoring, not an instantaneous list of sounding parts. Timings are provisional score proportions checked against the recording’s level changes; no bar alignment or aural verification."
+      "locator": "Song I, printed pp. 3–17: oboe and horn introduction, muted strings, the violins’ rising phrases and the final harp and glockenspiel."
     },
     "timeline": [
       {
@@ -253,7 +181,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "First-stanza passage: harp and muted lower strings replace the exposed opening duet."
+        "note": "Harp and muted violas and cellos accompany the baritone’s first stanza."
       },
       {
         "t": 84,
@@ -269,7 +197,7 @@ export default {
           "solo-voice",
           "oboes"
         ],
-        "note": "The second stanza restores the wind-led texture; woodwind phrases answer the voice."
+        "note": "The oboe’s opening phrase returns as the father names the loss that belongs to him alone."
       },
       {
         "t": 178,
@@ -284,7 +212,7 @@ export default {
           "solo-voice",
           "violins-1"
         ],
-        "note": "Middle expansion: the score introduces first violins into the upper melodic writing."
+        "note": "The first violins enter with a high melody as the voice turns towards eternal light."
       },
       {
         "t": 232,
@@ -299,7 +227,7 @@ export default {
           "solo-voice",
           "oboes"
         ],
-        "note": "Returning wind figures surround the last stanza; the instrumental lines remain distinct."
+        "note": "Flute and oboe bring back the opening phrases before the last stanza."
       },
       {
         "t": 262,
@@ -316,7 +244,7 @@ export default {
           "solo-voice",
           "violins-1"
         ],
-        "note": "In the later part of the restatement, harp and strings again carry the connected accompaniment."
+        "note": "Harp and strings accompany the father’s blessing of the world’s joyful light."
       }
     ]
   }

@@ -1,0 +1,223 @@
+{
+  "id": "satie-morceaux-poire",
+  "work": {
+    "title": "Trois morceaux en forme de poire",
+    "catalogue": null,
+    "movement": "Complete: Manière de commencement; Prolongation du même; I. Lentement; II. Enlevé; III. Brutal; En plus; Redite",
+    "version": {
+      "value": "Original version for piano four hands",
+      "status": "documented",
+      "sourceIds": [
+        "score",
+        "sleeve"
+      ],
+      "note": "All seven pieces are included. The two players’ primo and secondo assignments and their performing edition are not specified on the carrier."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Francis Poulenc",
+        "role": "piano four hands"
+      },
+      {
+        "name": "Jacques Février",
+        "role": "piano four hands"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "sleeve",
+      "ia",
+      "bnf-1962"
+    ],
+    "note": "Both are named as pianists on the transferred Musidisc LP and on the earlier Club français du disque issue."
+  },
+  "session": {
+    "date": {
+      "value": "1959-01-14",
+      "status": "documented",
+      "sourceIds": [
+        "diapason",
+        "ia"
+      ],
+      "note": "Diapason’s reissue credits give 14 January 1959 for this work and these pianists; the Archive item gives the recording year 1959.",
+      "precision": "day"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "No recording venue is given in the consulted carrier, Archive or reissue credits."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Musidisc, Collection Richesse Classique",
+      "status": "documented",
+      "sourceIds": [
+        "sleeve"
+      ],
+      "note": ""
+    },
+    "catalogue": {
+      "value": "RC 717",
+      "status": "documented",
+      "sourceIds": [
+        "sleeve",
+        "ia"
+      ],
+      "note": "The transferred LP is dated 1970 by the Archive uploader. This is a later issue: the same work and pianists are catalogued by the BnF on Club français du disque 272, legal deposit 1962."
+    },
+    "matrixTakeSides": {
+      "value": {
+        "sideA": "band II: Manière de commencement through Piece II",
+        "sideB": "band I: Piece III, En plus, Redite",
+        "matrix": null,
+        "take": null
+      },
+      "status": "documented",
+      "sourceIds": [
+        "sleeve"
+      ],
+      "note": "The transfer joins the work across the original LP side break. Matrix and take numbers are not supplied."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The transfer engineer is not named. Internet Archive hosts the uploaded transfer."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [],
+      "note": "The item’s 2025 upload date does not establish when the LP was transferred."
+    },
+    "processing": {
+      "value": "MP3 derivative of the uploaded FLAC transfer",
+      "status": "documented",
+      "sourceIds": [
+        "ia-files"
+      ],
+      "note": "The file inventory identifies the FLAC parent. Playback equipment, equalisation, side-join procedure and restoration processing are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/2-poulenc-fevrier-satie-3-morceaux-en-forme-de-poire/2%20Poulenc%2C%20F%C3%A9vrier%20-%20Satie%203%20morceaux%20en%20forme%20de%20poire.mp3",
+    "sourceChain": [
+      "bnf-1962",
+      "sleeve",
+      "ia",
+      "ia-files"
+    ],
+    "format": "VBR MP3 derived from an uploaded LP-transfer FLAC",
+    "durationSeconds": 815.5
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain under the ordinary EU life-plus-70 term; Satie died in 1925.",
+      "status": "inferred",
+      "sourceIds": [
+        "manuscript",
+        "score",
+        "eu-term"
+      ],
+      "note": "The original score was published in 1911. This is a territorial assessment, not a worldwide permission statement."
+    },
+    "recording": {
+      "value": "EU public domain on the pre-1963 lawful-publication basis: the Poulenc–Février performance was issued on Club français du disque 272 by 1962.",
+      "status": "inferred",
+      "sourceIds": [
+        "bnf-1962",
+        "ia",
+        "sleeve",
+        "diapason",
+        "eu-term",
+        "eu-extension"
+      ],
+      "note": "The BnF legal-deposit record documents the 1962 issue; the 1959 session and performer/work identity connect it to the later Musidisc RC 717 transfer. Matrix-level take identity is not established. The 1970 reissue date is not used as the first-publication date. The former 50-year term expired before the 2013 extension. No Archive Creative Commons grant or US recording clearance is claimed."
+    },
+    "creditLine": "Erik Satie: Trois morceaux en forme de poire — Francis Poulenc and Jacques Février, piano four hands (1959). Club français du disque 272, published by 1962; transferred from Musidisc RC 717, hosted by Internet Archive. Territorial EU public-domain basis; US recording status not established.",
+    "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
+  },
+  "sources": [
+    {
+      "id": "ia",
+      "title": "Internet Archive: Poulenc and Février play Satie",
+      "url": "https://archive.org/metadata/2-poulenc-fevrier-satie-3-morceaux-en-forme-de-poire/metadata",
+      "locator": "Names both pianists, recording year 1959, Musidisc RC 717 and reissue year 1970.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "ia-files",
+      "title": "Internet Archive file inventory",
+      "url": "https://archive.org/metadata/2-poulenc-fevrier-satie-3-morceaux-en-forme-de-poire/files",
+      "locator": "Complete-work MP3 and its FLAC parent; FLAC duration 815.49 seconds; sleeve image attachments.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "sleeve",
+      "title": "Musidisc RC 717: transferred LP back sleeve",
+      "url": "https://archive.org/download/2-poulenc-fevrier-satie-3-morceaux-en-forme-de-poire/Poulenc%20Fevrier%20-%20Satie%204mains%20Musidisc%20RC%20717%202.jpg",
+      "locator": "Performer names, catalogue, work and movement order, timings, and the split between sides A and B.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "bnf-1962",
+      "title": "BnF: Satie, 3 morceaux en forme de poire; Poulenc and Février",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb37818925p",
+      "locator": "Club français du disque 272, one 45-rpm 17-cm disc, legal-deposit publication date 1962.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "diapason",
+      "title": "Les Indispensables de Diapason: Erik Satie, Enregistrements 1937 à 1959",
+      "url": "https://www.qobuz.com/us-en/album/erik-satie-enregistrements-1937-a-1959-danco-bernac-markevitch-poulenc-milhaud/3770003441625",
+      "locator": "Track 3 credits: Francis Poulenc, piano; Jacques Février, piano; recorded 14 January 1959. This later commercial remaster is a documentary source, not the streamed audio.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Satie: Trois morceaux en forme de poire, R.L. & Cie. 9799",
+      "url": "https://hdl.handle.net/1802/22763",
+      "locator": "Sibley Music Library scan of the Salabert reprint of the 1911 score; all seven movements, pp. 2–31; composer dates 1866–1925. Redite, pp. 30–31: the upper part’s repeated figure precedes its bien chanté melody; the closing dynamics are piano in the upper part and pianissimo in the lower.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "manuscript",
+      "title": "BnF: Satie’s autograph, September 1903, RES-218",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb44003526t",
+      "locator": "Full title and the red-ink Recommendations on p. 30, signed 6 November 1903.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "work-history",
+      "title": "Trois morceaux en forme de poire: composition and movement sources",
+      "url": "https://en.wikipedia.org/wiki/Trois_Morceaux_en_forme_de_poire",
+      "locator": "Structure and music section identifies the reused cabaret songs, drawing on Steven Moore Whiting, Satie the Bohemian.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2006/116/EC: term of copyright and related rights",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
+      "locator": "Articles 1, 3 and 8: life-plus-70 authors’ term, former 50-year phonogram term, calendar-year calculation.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-extension",
+      "title": "Directive 2011/77/EU: extension of the phonogram term",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
+      "locator": "Article 1(2)–(3): 70-year term and application to rights still protected on 1 November 2013.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18",
+    "timingNote": "Seven movement-level sections follow the printed score and the transfer’s intervening pauses. Musical notes have passage precision; no bar-level listening review is claimed."
+  }
+}

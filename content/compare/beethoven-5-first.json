@@ -1,35 +1,35 @@
 {
   "id": "beethoven-5-first",
-  "title": "Beethoven’s Fifth through the recording horn",
+  "title": "Four ways to begin Beethoven’s Fifth",
   "composer": "beethoven",
   "work": "Symphony No. 5 in C minor, Op. 67 — first movement",
-  "question": "What changes in phrasing when acoustic pioneers and Mengelberg meet a modern orchestra?",
-  "intro": "The Odeon recording’s Kark/1910 attribution is disputed by James Hepokoski’s research, which dates the recording to August 1911 and infers Künneke as its unnamed conductor; Nikisch’s November 1913 session is securely documented. Nikisch omits the exposition repeat, so his map begins at the modern reference’s repeated exposition, 1:42.6, rather than falsely equating the two complete durations. Mengelberg is represented by one unjoined disc side, with mapping limited to the shared exposition and its repeat. Acoustic recording balances and historic transfer speeds complicate claims about original orchestral tone or exact tempo.",
+  "question": "Why do the same four notes sound so different from one conductor to another?",
+  "intro": "In November 1913, Arthur Nikisch brought the Berlin Philharmonic into the studio to play Beethoven’s Fifth into a recording horn. Odeon’s house orchestra had got there two years earlier. Mengelberg’s Concertgebouw and the Skidmore College Orchestra join them here at the first three Gs. Each conductor must decide how long the fourth note hangs in the air.",
   "group": "century",
   "recordings": [
     {
       "listen": "beethoven-5-first-odeon-1911",
-      "label": "Odeon, 1910–11 (conductor disputed)",
+      "label": "Odeon Orchestra, 1911",
       "year": 1911,
-      "note": "Early acoustic orchestra; conductor/date disputed. Follow the phrase through its narrow recorded balance."
+      "note": "Odeon’s house orchestra made the first complete recording of a symphony: Beethoven’s Fifth, in Berlin in August 1911."
     },
     {
       "listen": "beethoven-5-first-nikisch-1913",
-      "label": "Nikisch, 1913",
+      "label": "Arthur Nikisch, 1913",
       "year": 1913,
-      "note": "Exposition repeat omitted; map starts at reference 1:42.6. The shorter whole file is not a simple tempo comparison."
+      "note": "Nikisch takes an unusually broad first movement with the Berlin Philharmonic, leaving out the exposition repeat."
     },
     {
       "listen": "beethoven-5-first-mengelberg-side1",
-      "label": "Mengelberg, 1939–40 (side 1)",
+      "label": "Willem Mengelberg",
       "year": 1940,
-      "note": "One historical side only; mapped through the exposition and repeat, not the complete movement."
+      "note": "This opening side catches Mengelberg with the Concertgebouw Orchestra he had led since 1895."
     },
     {
       "listen": "beethoven-5-first",
       "label": "Skidmore College Orchestra",
       "year": null,
-      "note": "Modern Musopen reference takes the exposition repeat; use the repeated opening to include Nikisch."
+      "note": "Skidmore takes the exposition repeat, so the horns’ call and the soft E♭-major violin tune have a second hearing."
     }
   ],
   "reference": "beethoven-5-first",
@@ -37,27 +37,27 @@
     {
       "label": "Opening motto, repeated",
       "t": 102.6,
-      "note": "The reference begins its exposition repeat here. Nikisch’s unrepeated opening is matched to this occurrence, not the first."
+      "note": "Three Gs fall to E♭; three Fs answer with a held D. Beethoven’s fermatas leave the conductor in charge of the silence."
     },
     {
-      "label": "Within the repeated first group",
+      "label": "The strings climb",
       "t": 130,
-      "note": "Compare the spacing and weight of the short figure; acoustic balance is not a transparent concert-hall balance."
+      "note": "The strings climb, passing the short rhythm from part to part. Woodwinds and horns answer before the orchestra swells."
     },
     {
-      "label": "Towards the second subject",
+      "label": "The horns open a door",
       "t": 150,
-      "note": "Follow the longer phrase after the motto; the mapping is automatic rather than bar-verified."
+      "note": "A clipped chord and a pause clear the way for the horns. Their wide call opens onto the violins’ soft E♭-major tune."
     },
     {
       "label": "Development",
       "t": 203.1,
-      "note": "Nikisch and Odeon continue here; the Mengelberg excerpt’s alignment ends at the shared exposition boundary."
+      "note": "Horns call down to G; the strings strike D♭ against it. The familiar rhythm has brought Beethoven into a new argument."
     },
     {
-      "label": "Coda region",
+      "label": "The ending starts again",
       "t": 402.2,
-      "note": "Compare the later accumulation without inferring tempo from unequal repeat structures."
+      "note": "High C hangs in the violins while the bass changes beneath it. The expected ending has become the start of a long coda."
     }
   ],
   "sources": [
@@ -70,7 +70,7 @@
       "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/"
     },
     {
-      "title": "James Hepokoski, “Listen and Be Amazed!” (JAMS 76/1, 2023) — publisher-deposited abstract",
+      "title": "James Hepokoski, “Listen and Be Amazed!” (JAMS 76/1, 2023) — August 1911 sessions; attributes the unnamed Odeon conductor to Eduard Künneke",
       "url": "https://api.crossref.org/works/10.1525/jams.2023.76.1.113"
     },
     {
@@ -84,6 +84,14 @@
     {
       "title": "Modern reference — recording and musical dossier",
       "url": "../sources.html#dossier-beethoven-5-first"
+    },
+    {
+      "title": "Beethoven, Symphony No. 5, first movement — Mutopia orchestral score, bars 1–5, 29–62, 125–130 and 374 onwards",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941"
+    },
+    {
+      "title": "Concertgebouw Orchestra — Mengelberg’s tenure, 1895–1945",
+      "url": "https://www.concertgebouworkest.nl/en/orchestra/conductors/willem-mengelberg-1871-1951/"
     }
   ],
   "alignment": {

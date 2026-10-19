@@ -1,23 +1,23 @@
 {
   "id": "vivaldi-spring-two-ensembles",
-  "title": "Spring: the refrain and the birds",
+  "title": "Vivaldi: birdsong between the refrains",
   "composer": "vivaldi",
   "group": "century",
   "work": "The Four Seasons · Spring, RV 269 — I. Allegro",
-  "question": "How do two recordings separate the refrain’s grouped phrases from the violin calls between them?",
-  "intro": "John Harrison, Robert Turizziani and the Wichita State University Chamber Players recorded this movement live on 6 February 2000. Commons credits the other file to the Modena Chamber Orchestra, but its embedded author tag names Orpheus and its session date remains unknown. The uploader lowered that source by 20 cents without documenting the method, so neither original tuning nor original playback speed can be inferred from this file. The automatic map covers the complete 215.30- and 214.03-second files, with median confidence 0.950; use its provisional correspondence to compare phrase grouping rather than to resolve those provenance questions.",
+  "question": "How do the violin’s birdsong and the returning orchestral refrain change between these two performances?",
+  "intro": "Vivaldi’s <i>Spring</i> starts with strings greeting the season in E major. Bird calls interrupt them, a storm sweeps through, and the same refrain keeps returning. John Harrison recorded it live with the Wichita State University Chamber Players in 2000; the second performance comes from Musopen.",
   "recordings": [
-    { "listen": "vivaldi-spring-allegro", "label": "Harrison · Wichita State University", "year": 2000, "note": "John Harrison, violin; Wichita State University Chamber Players, Robert Turizziani. Live, unedited, 6 February 2000; CC BY-SA 4.0." },
-    { "listen": "vivaldi-spring-allegro-modena", "label": "Modena Chamber Orchestra · as credited", "year": null, "note": "Musopen source; Modena summary attribution conflicts with embedded Orpheus tag. Session unknown; pitch lowered 20 cents. Commons recording dedication." }
+    { "listen": "vivaldi-spring-allegro", "label": "John Harrison · Wichita State University Chamber Players · Robert Turizziani", "year": 2000, "note": "Harrison’s live, unedited performance at Wiedemann Recital Hall, Wichita State University, on 6 February 2000." },
+    { "listen": "vivaldi-spring-allegro-modena", "label": "Modena Chamber Orchestra", "year": null, "note": "A solo violin and chamber orchestra, issued by Musopen as part of <i>The Four Seasons</i>." }
   ],
   "reference": "vivaldi-spring-allegro",
   "passages": [
-    { "label": "The opening refrain", "t": 5, "note": "Compare the grouping and separation of the repeated phrases. Playback levels are not a calibrated measure of the ensembles’ dynamics." },
-    { "label": "Space between bird calls", "t": 48, "note": "Follow the short violin figures and the space left between them. Do not mistake a different source pitch for different written ornament." },
-    { "label": "The compact return", "t": 68, "note": "Listen for the refrain’s second phrase rather than a complete restart; compare how the players collect the separate calls into one group." },
-    { "label": "Pressure across the storm", "t": 116, "note": "Compare the sustained drive of the rapid figures with the weight of the preceding refrain, not merely the fastest isolated note." },
-    { "label": "A familiar return", "t": 166, "note": "Follow the refrain’s grouping as the music regains E major. The matching time is approximate, not an identified bar line." },
-    { "label": "Closing phrase and decay", "t": 201, "note": "Compare the withdrawal after the final grouped phrase. Reverberation and source processing limit any inference about bow releases." }
+    { "label": "The opening refrain", "t": 5, "note": "The strings announce spring with short, repeated phrases in E major." },
+    { "label": "Birds answering birds", "t": 48, "note": "The violins trade trills and short rising and falling calls, with space between one bird and the next." },
+    { "label": "Half the refrain returns", "t": 68, "note": "Only the refrain’s second phrase returns, gathering the scattered violin calls back into the orchestra." },
+    { "label": "The storm breaks", "t": 116, "note": "Rapid violin figures break into the refrain; the storm drives the music through B major towards C♯ minor." },
+    { "label": "Back towards E major", "t": 166, "note": "The refrain starts in C♯ minor and works back to E major; the strings recover the opening’s familiar tune." },
+    { "label": "The final refrain", "t": 201, "note": "The orchestra brings back the refrain in E major, rounding off the solo violin’s last flights." }
   ],
   "sources": [
     { "title": "Harrison recording: musicians, venue, live date and CC BY-SA release", "url": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga" },

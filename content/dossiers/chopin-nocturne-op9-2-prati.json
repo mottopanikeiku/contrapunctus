@@ -33,7 +33,7 @@
       "sourceIds": [
         "commons"
       ],
-      "note": "The source explicitly describes this live performance on 24 November 2015, independently of the upload date.",
+      "note": "The source explicitly describes this performance on 24 November 2015, independently of the upload date.",
       "precision": "day"
     },
     "place": {
@@ -120,7 +120,7 @@
       "sourceIds": [
         "commons"
       ],
-      "note": "Commons identifies the performer as the supplier through Wikimedia Spain and records permission ticket 2015120610013684. The licence concerns this live performance recording, not merely the historical score."
+      "note": "Commons identifies the performer as the supplier through Wikimedia Spain and records permission ticket 2015120610013684. The licence concerns this performance recording, not merely the historical score."
     },
     "creditLine": "Nocturne in E♭ major; Patrizia Prati, piano. 24 November 2015. Wikimedia Commons; CC BY-SA 4.0 — recording supplied by Patrizia Prati. No audio editing by Contrapunctus.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"

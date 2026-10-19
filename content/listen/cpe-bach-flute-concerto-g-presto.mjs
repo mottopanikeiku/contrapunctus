@@ -1,93 +1,121 @@
 export default {
-  id: 'cpe-bach-flute-concerto-g-presto',
-  composer: 'cpe-bach',
-  order: 2,
-  work: 'Flute Concerto in G major, Wq 169 / H 445',
-  movement: 'III. Presto',
-  set: { id: 'cpe-bach-flute-concerto-g', title: 'Flute Concerto in G major', part: 3, of: 3 },
-  year: '1755, original version; flute adaptation later',
-  key: 'G major',
-  forces: 'Solo flute, strings and continuo',
-  performers: 'Constance Schoepflin, flute; Advent Chamber Orchestra',
-  recorded: 'February 2008; programme dated 10 and 17 February',
-  source: { file: 'File:Carl Philipp Emanuel Bach- Flute Concerto Gmaj - 3. Presto.ogg' },
-  intro: 'Rapid flute passagework meets the collective attack of strings in the concerto’s Presto. Only the complete finale is hosted here, not the preceding Allegro di molto and Largo.',
-  question: 'How does the solo flute turn orchestral material into its own kind of motion?',
-
-  sections: [
-    { t: 0, label: 'Opening orchestral statement', m: 'A', mNote: 'ensemble states material before flute becomes an independent soloist' },
-    { t: 50, label: 'Solo and string exchanges', m: 'B', mNote: 'flute elaboration alternates with orchestral responses' },
-    { t: 150, label: 'Middle exchanges', m: 'C', mNote: 'successive episodes grouped without claiming individual ritornello boundaries' },
-    { t: 242, label: 'Quieter suspension', m: 'D', mNote: 'measured withdrawal; precise solo and fermata timing remains unaligned' },
-    { t: 262, label: 'Renewed exchanges', m: 'E', mNote: 'fuller attack resumes after the quiet stretch' },
-    { t: 340, label: 'Closing orchestral passage', m: 'A′', mNote: 'string-led material brings the movement back to G major' },
+  "id": "cpe-bach-flute-concerto-g-presto",
+  "composer": "cpe-bach",
+  "order": 2,
+  "work": "Flute Concerto in G major, Wq 169 / H 445",
+  "movement": "III. Presto",
+  "set": { "id": "cpe-bach-flute-concerto-g", "title": "Flute Concerto in G major", "part": 3, "of": 3 },
+  "year": "1755, original version; flute adaptation later",
+  "key": "G major",
+  "forces": "Solo flute, strings and continuo",
+  "performers": "Constance Schoepflin, flute; Advent Chamber Orchestra",
+  "recorded": "February 2008; programme dates 10 and 17 February",
+  "source": { "file": "File:Carl Philipp Emanuel Bach- Flute Concerto Gmaj - 3. Presto.ogg" },
+  "intro": "Constance Schoepflin and the Advent Chamber Orchestra play the quick finale of Bach’s G major Flute Concerto. The flute starts among the strings, then breaks away with trills and long runs of its own.",
+  "sections": [
+    { "t": 0, "label": "A · Flute and strings together", "m": "A", "mNote": "The whole ensemble shares the opening G major tune" },
+    { "t": 50, "label": "B · The flute takes its solo", "m": "B", "mNote": "An added trill and slur reshape the opening tune" },
+    { "t": 150, "label": "C · Flute runs and string replies", "m": "C", "mNote": "Long solo phrases alternate with shorter orchestral answers" },
+    { "t": 242, "label": "D · A fermata over D", "m": "D", "mNote": "The flute holds G above the bass’s D" },
+    { "t": 262, "label": "E · The opening tune resumes", "m": "E", "mNote": "Flute and strings recover the rising figure" },
+    { "t": 340, "label": "A′ · The ensemble closes in G", "m": "A′", "mNote": "Flute joins strings and bass for the final tutti" }
   ],
-  cues: [
-    { t: 0, kind: 'form', title: 'The concerto’s last movement', text: 'This Presto is the third movement of a concerto for flute, strings and continuo. Only the finale is hosted here. Flute and strings share the opening statement before the flute takes a more independent solo role.', basis: 'documented', precision: 'passage', evidence: 'The modern critical performing part writes out the flute’s opening tutti participation, clarifying the condensed manuscript’s blank staff. Its first solo is marked at bar 49. The work has three movements; the critical edition calls the first Allegro di molto. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf (PDF pp. 21–22)' },
-    { t: 35, kind: 'listen', title: 'Remember the shared gestures', text: 'Keep the opening gestures in mind as the flute moves from the ensemble into a more independent role. The instrument is not simply arriving for the first time: shared attacks become a reference point for its longer solo line.', basis: 'general', precision: 'passage', evidence: 'The critical performing part shows flute participation in the opening tutti and the first solo at bar 49. The report has continuous activity through 0:35–0:45 and a lower spectral balance around 0:50; the exact first solo attack is not claimed. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf (PDF pp. 21–22)' },
-    { t: 70, kind: 'life', title: 'A keyboard player at court', text: 'Bach’s official appointment as Frederick II’s court harpsichordist begins in 1740. The king plays the flute, but that does not establish him as this concerto’s intended soloist: the recipient of the flute adaptation is unknown.', basis: 'documented', precision: 'passage', evidence: 'The Complete Works chronology gives the 1740 appointment; Barthold Kuijken explicitly states that the flute version’s recipient is unknown. https://www.cpebach.org/timeline/chronology ; https://cpebach.org/pdfs/introductions/III-FS-Wq169-Intro.pdf' },
-    { t: 105, kind: 'music', title: 'Breath and continuous motion', text: 'Across the solo episodes, follow the flute’s running figures against the strings’ shorter interventions. Breath is a compositional constraint here: the line cannot continue indefinitely in the way an organ passage can.', basis: 'general', precision: 'passage', evidence: 'Kuijken’s introduction explains the adaptation of organ passages and insertion of string interventions for breathing. The manuscript confirms contrasting solo and accompanying textures; no particular breath or intervention is assigned to 1:45. https://cpebach.org/pdfs/introductions/III-FS-Wq169-Intro.pdf' },
-    { t: 140, kind: 'world', title: 'An organ concerto transformed', text: 'The secure date 1755 belongs to the original organ concerto, Wq 34. Bach later adapts it for flute as Wq 169, adjusting the range and accompaniment. The flute version’s precise year is not known.', basis: 'documented', precision: 'passage', evidence: 'Kuijken dates the working manuscript between the 1755 organ original and Bach’s departure for Hamburg in 1768. This corrects the upstream programme’s simplified 1755 attribution. https://cpebach.org/pdfs/introductions/III-FS-Wq169-Intro.pdf' },
-    { t: 175, kind: 'listen', title: 'Listen across the replies', text: 'Through the middle exchanges, distinguish the solo line’s elaboration from the orchestra’s punctuation. A short string response can organise a long stretch without stopping the underlying quick movement.', basis: 'general', precision: 'passage', evidence: 'The flute-version manuscript and Kuijken’s account document solo–string exchanges. The report has changes near 2:30, 2:40 and 2:56, but does not establish an instrument entrance at 2:55; the suggestion is deliberately passage-level.' },
-    { t: 210, kind: 'listen', title: 'Continuity beneath changing harmony', text: 'Listen to the bass underneath the solo line rather than following the flute alone. Its changing support gives direction to the rapid figures and helps distinguish an excursion from a settled arrival.', basis: 'general', precision: 'passage', evidence: 'The inspected score has a figured basso line beneath the solo episodes. The report changes strongly around 3:28, but its local key estimates are not sufficient to identify a particular cadence or bass instrument.' },
-    { t: 245, kind: 'music', title: 'A marked withdrawal', text: 'In this quieter stretch, the recorded level drops sharply and the attacks become more widely spaced. Keep the earlier quick pulse in memory while the sound leaves more room between gestures.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level falls from −11.4 dB at 3:55 to −31.9 dB at 4:05 and remains low through 4:15; detected attacks fall to roughly 1–2 per second. This does not identify the precise fermata, an improvised cadenza or individual desks.' },
-    { t: 280, kind: 'world', title: 'The arranger’s own handwriting', text: 'The surviving working score begins as a copy of the keyboard concerto with an empty upper staff. Bach adds the flute line himself and changes accompanying parts. The manuscript preserves adaptation in progress, not simply a change of instrument name.', basis: 'documented', precision: 'passage', evidence: 'Kuijken identifies the copyist as Anon. 303 and Bach’s autograph flute part in Berlin manuscript Mus. ms. Bach P 769. https://cpebach.org/pdfs/introductions/III-FS-Wq169-Intro.pdf' },
-    { t: 315, kind: 'listen', title: 'The quick motion recovers', text: 'After the quieter stretch, compare the renewed density of attack with the earlier exchanges. The final part of the movement restores momentum through familiar solo and orchestral resources, not by adding a new instrumental family.', basis: 'audio-feature', precision: 'passage', evidence: 'The report rises after 4:20, with strong changes at 4:54 and 5:04 and a high level window at 5:10. The manuscript supplies the unchanged flute-and-strings forces; the analysis does not identify a particular solo flourish.' },
-    { t: 350, kind: 'music', title: 'A shared ending', text: 'The closing tutti gathers flute and strings into a G-major ending. Compare their shared gestures with the flute’s earlier extended solo runs, then listen to the final resonance after the last cadence.', basis: 'score-proportion', precision: 'passage', evidence: 'The critical flute part writes out participation in the closing tutti; the blank upper staff in the working manuscript does not establish silence. Placement in the last half-minute is approximate; the report remains active through 5:55, then falls to −43.5 dB with no detected attacks at 6:05. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf (PDF p. 29)' },
+  "cues": [
+    {
+      "t": 0, "kind": "music", "title": "A tune for everyone",
+      "text": "The <i>Presto</i> begins with a little rising scale, clipped notes and a trill. Flute and strings share the tune; the bass has running notes of its own. Quick switches between <i>piano</i> and <i>forte</i> give the opening a mischievous edge.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Critical performing parts, flute and basso, Presto bars 1–48, PDF pp. 21–22. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf"
+    },
+    {
+      "t": 50, "kind": "music", "title": "The flute adds a trill",
+      "text": "For its first solo, the flute takes the opening tune and gives it a new flourish: a trill on the pickup G and a slur across the bar line. The strings step back into accompaniment. The same rising notes acquire a more supple voice.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "First solo at bar 49, critical flute part, PDF p. 22. Kuijken discusses the added trill and slur in the edition’s introduction. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf ; https://cpebach.org/pdfs/introductions/III-FS-Wq169-Intro.pdf"
+    },
+    {
+      "t": 105, "kind": "world", "title": "An organ concerto finds breath",
+      "text": "Bach first writes this concerto for organ in 1755. To make a flute version, he raises low passages, changes others and leaves room for breathing. A keyboard player’s hands can keep going when a flautist’s lungs cannot.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Barthold Kuijken, introduction to Wq 169: organ original Wq 34, dated 1755; flute adaptation made before 1768, with changes to range and breathing. https://cpebach.org/pdfs/introductions/III-FS-Wq169-Intro.pdf"
+    },
+    {
+      "t": 150, "kind": "life", "title": "At Frederick’s keyboard",
+      "text": "In 1740 Bach accompanies Frederick II’s first flute solo after his accession, at Charlottenburg. The king’s new harpsichordist is twenty-six. Flute playing is part of his daily professional world at the Prussian court.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Bach’s autobiographical account, quoted in The Essential C. P. E. Bach, introduction, p. xviii; the court appointment begins in 1740. https://www.cpebach.org/pdfs/introductions/Essential-CPEB-Intro.pdf"
+    },
+    {
+      "t": 210, "kind": "world", "title": "A blank staff for Bach",
+      "text": "A copyist writes out the keyboard concerto and leaves the top staff empty. Bach fills it with a flute part in his own hand, then changes the accompaniment. The surviving manuscript catches the composer at work, turning one solo instrument’s music into another’s.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Kuijken identifies copyist Anon. 303 and Bach’s autograph additions in Berlin manuscript Mus. ms. Bach P 769. https://cpebach.org/pdfs/introductions/III-FS-Wq169-Intro.pdf"
+    },
+    {
+      "t": 242, "kind": "music", "title": "G hangs over D",
+      "text": "The running flute line reaches a fermata: G hangs above D in the bass. The violins and viola rest. Bach writes a little turn and the descent towards the returning tune after this held point; the breathless movement has made room for a breath.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Presto bar 236 and return at 237: flute, PDF p. 27; resting upper strings, pp. 42, 56 and 69; basso fermata, p. 84. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf"
+    },
+    {
+      "t": 280, "kind": "world", "title": "Three bars for the lungs",
+      "text": "Late in the finale, Bach inserts three bars absent from the organ version. The flute rests while the strings play. Then the soloist starts another long run. The new bars give a human breath to a phrase first imagined for a keyboard.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Kuijken identifies the inserted orchestral intervention at Presto bars 287–89 as a breathing opportunity. This note concerns the adaptation, not a timed entry. https://cpebach.org/pdfs/introductions/III-FS-Wq169-Intro.pdf"
+    },
+    {
+      "t": 340, "kind": "form", "title": "The flute rejoins the strings",
+      "text": "The final <i>tutti</i> brings the flute back into the ensemble’s tune. Trills, slurred pairs and repeated high notes lead towards the close. Flute, strings and bass arrive together on G major.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Closing tutti, bars 314–335: flute, PDF p. 29; first violin, p. 43; basso, p. 85. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf"
+    }
   ],
-  transitions: [
+  "transitions": [
     {
-      id: 'into-solo-exchanges', title: 'The flute elaborates the orchestral material',
-      from: 'Opening orchestral statement', to: 'Solo and string exchanges', at: { t: 50 }, span: [39, 65],
-      how: '<p>The first independent solo follows the opening tutti, in which the flute also participates. Bach gives the solo flute the thematic outline with its own slur and trill, while the strings become a lighter accompaniment. The change of foreground does not require a new tempo or a previously silent instrument.</p>',
-      devices: ['texture change', 'motivic link'], basis: 'score-proportion', precision: 'passage',
-      evidence: 'The critical flute part marks the first solo at bar 49 after written tutti participation; Kuijken describes the added slur and trill. The approximate 0:50 division follows the brighter 0:40–0:45 span and lower spectral balance at 0:50; it is not an aligned first solo attack. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf (PDF pp. 21–22)',
+      "id": "into-solo-exchanges", "title": "A trill makes the tune solo",
+      "from": "A · Flute and strings together", "to": "B · The flute takes its solo", "at": { "t": 50 }, "span": [39, 65],
+      "how": "<p>The opening ensemble passage closes in G major. The flute takes the rising theme alone, adding a trill to the pickup G and slurring across the bar line. Strings and bass accompany more quietly beneath it. The tempo stays <i>Presto</i>; the extra ornament and changed balance distinguish the solo.</p>",
+      "devices": ["texture change", "motivic link"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Presto bars 47–50, critical flute part, PDF p. 22; Kuijken’s introduction discusses the solo ornament. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf ; https://cpebach.org/pdfs/introductions/III-FS-Wq169-Intro.pdf"
     },
     {
-      id: 'into-middle-exchanges', title: 'Short replies carry the longer span',
-      from: 'Solo and string exchanges', to: 'Middle exchanges', at: { t: 150 }, span: [139, 164],
-      how: '<p>Solo passagework and short orchestral replies continue to alternate. The bass redirects the harmony while the same flute-and-strings resources remain in play. This map division groups the middle episodes; it does not identify a new theme or claim that every orchestral return begins at the displayed time.</p>',
-      devices: ['motivic link', 'texture change'], basis: 'general', precision: 'passage',
-      evidence: 'The manuscript supports alternating solo and ensemble textures. The report changes at 2:30, but no score alignment identifies the precise written join; the map deliberately groups several exchanges.',
+      "id": "into-quiet-span", "title": "The run stops over D",
+      "from": "C · Flute runs and string replies", "to": "D · A fermata over D", "at": { "t": 242 }, "span": [232, 257],
+      "how": "<p>Descending flute semiquavers run above repeated D notes in the bass. They stop at a fermata, with G in the flute suspended above the bass’s held D. The violins and viola are silent. The figured bass marks the suspended fourth resolving to a third before the G major theme returns.</p>",
+      "devices": ["fermata", "dominant pedal", "texture change"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Presto bars 233–237: flute and figured bass, PDF p. 27; upper-string rests, pp. 42, 56 and 69; basso, p. 84. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf"
     },
     {
-      id: 'into-quiet-span', title: 'The recorded texture withdraws',
-      from: 'Middle exchanges', to: 'Quieter suspension', at: { t: 242 }, span: [232, 257],
-      how: '<p>The surrounding quick movement gives way to a substantially quieter, less densely attacked stretch. The contrast comes from withdrawal rather than a change of metre. The score contains a later suspension before renewed orchestral material, but this timing does not locate an individual fermata or an improvised addition.</p>',
-      devices: ['decrescendo', 'texture change'], basis: 'audio-feature', precision: 'passage',
-      evidence: 'The report has strong boundaries at 3:58 and 4:02, a level drop of more than 15 dB by 4:05 and reduced attack density through 4:15. The score’s later fermata is visible on manuscript p. 40 (PDF p. 31), without note-level alignment.',
+      "id": "out-of-quiet-span", "title": "The ensemble answers the fermata",
+      "from": "D · A fermata over D", "to": "E · The opening tune resumes", "at": { "t": 262 }, "span": [251, 277],
+      "how": "<p>After the held D in the bass, a low G announces the return. The flute’s pickup leads into the opening scale, now shared with the violins. Viola and bass resume their moving parts under the <i>forte</i> ensemble. The music keeps its two-four metre and <i>Presto</i> pace.</p>",
+      "devices": ["texture change", "motivic link", "perfect cadence"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Presto bars 236–240, flute, PDF p. 27; first violin, p. 42; viola, p. 69; basso, p. 84. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf"
     },
     {
-      id: 'out-of-quiet-span', title: 'Fuller attacks restore the movement',
-      from: 'Quieter suspension', to: 'Renewed exchanges', at: { t: 262 }, span: [251, 277],
-      how: '<p>More frequent attacks and a higher recorded level restore the movement’s forward motion. The flute and strings resume the earlier kind of exchange. The contrast with the preceding withdrawal makes the renewed activity clear without requiring a faster tempo.</p>',
-      devices: ['texture change', 'motivic link'], basis: 'audio-feature', precision: 'passage',
-      evidence: 'The report’s 4:22 boundary lies between the quiet 4:05–4:15 windows and the renewed 4:25–4:35 activity. The score supplies the returning orchestral material and subsequent solo exchanges; no exact first chord is claimed.',
-    },
-    {
-      id: 'into-close', title: 'The orchestra gathers the closing gestures',
-      from: 'Renewed exchanges', to: 'Closing orchestral passage', at: { t: 340 }, span: [329, 359],
-      how: '<p>The solo’s extended passagework yields to the shared gestures of the closing tutti. Flute and strings gather the short figures into a G-major cadence, with bass and upper parts coordinating the ending. The change is one of musical role and texture, not the flute falling silent.</p>',
-      devices: ['texture change', 'motivic link', 'perfect cadence'], basis: 'score-proportion', precision: 'passage',
-      evidence: 'The critical flute part and first-violin part show the closing tutti together (PDF pp. 29 and 43), clarifying the working manuscript’s shorthand on its final pages. Sustained activity followed by the 6:05 decay supports broad placement only; 5:40 is not an aligned first tutti bar. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf',
-    },
+      "id": "into-close", "title": "All together for the last cadence",
+      "from": "E · The opening tune resumes", "to": "A′ · The ensemble closes in G", "at": { "t": 340 }, "span": [329, 359],
+      "how": "<p>The solo flute’s running line gives way to a shared <i>tutti</i>, marked <i>forte</i> in the strings and bass. Slurred pairs and repeated high notes recall the opening. The bass works through the closing phrases to a final D–G cadence, with the flute joining the strings on the G major ending.</p>",
+      "devices": ["texture change", "motivic link", "perfect cadence"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Presto bars 314–335: flute, PDF p. 29; first violin, p. 43; basso, p. 85. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf"
+    }
   ],
-  orchestra: {
-    ensemble: ['flutes', 'violins-1', 'violins-2', 'violas', 'cellos'],
-    solo: 'flutes',
-    basis: 'score-proportion',
-    source: {
-      title: 'C. P. E. Bach, flute-concerto working score, Mus. ms. Bach P 769',
-      url: 'https://ks15.imslp.org/files/imglnks/usimg/0/07/IMSLP345781-PMLP142302-CPE_-_Flute_Concerto_in_G_445,_movt2-3.pdf',
-      locator: 'Presto: PDF pp. 11–39. Read with Kuijken’s introduction and critical performing parts, https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf (PDF pp. 21–22, 29, 40, 43). Blank flute staves are not read as silence: the parts confirm opening and closing tutti participation. These are passage overviews, not note-aligned entries or uninterrupted desk activity. The cello desk represents written basso; actual keyboard or double-bass participation is unestablished.',
+  "orchestra": {
+    "ensemble": ["flutes", "violins-1", "violins-2", "violas", "cellos"],
+    "solo": "flutes",
+    "basis": "score-proportion",
+    "source": {
+      "title": "C. P. E. Bach, flute-concerto working score, Mus. ms. Bach P 769",
+      "url": "https://ks15.imslp.org/files/imglnks/usimg/0/07/IMSLP345781-PMLP142302-CPE_-_Flute_Concerto_in_G_445,_movt2-3.pdf",
+      "locator": "Presto, manuscript PDF pp. 11–39. Critical performing parts supply the flute’s ensemble passages: https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf, pp. 21–29. The fermata and string rests appear on pp. 27, 42, 56, 69 and 84. The cello desk represents the written basso part."
     },
-    timeline: [
-      { t: 0, playing: ['flutes', 'violins-1', 'violins-2', 'violas', 'cellos'], lead: ['violins-1'], note: 'Opening overview: flute joins strings and written basso in the tutti before its independent solo; the recording includes initial room sound.' },
-      { t: 50, playing: ['flutes', 'violins-1', 'violins-2', 'violas', 'cellos'], lead: ['flutes'], note: 'Approximate first-solo region: flute elaborates the theme with string and bass accompaniment; individual rests are not mapped.' },
-      { t: 150, playing: ['flutes', 'violins-1', 'violins-2', 'violas', 'cellos'], lead: ['flutes', 'violins-1'], note: 'Middle-passage overview: flute runs alternate with short string interventions. Lit desks need not sound continuously.' },
-      { t: 242, playing: [], lead: [], note: 'Desk activity is deliberately unassigned during the quieter suspension: the audio locates the withdrawal, not the precise solo, fermata or accompanying rests.' },
-      { t: 262, playing: ['flutes', 'violins-1', 'violins-2', 'violas', 'cellos'], lead: ['violins-1', 'flutes'], note: 'Approximate renewed-exchange region: returning string gestures and further flute passagework share the foreground.' },
-      { t: 340, playing: ['flutes', 'violins-1', 'violins-2', 'violas', 'cellos'], lead: ['violins-1'], note: 'Approximate closing region: the critical flute part confirms participation with strings and basso in the final tutti; its first bar is not aligned.' },
-    ],
-  },
+    "timeline": [
+      { "t": 0, "playing": ["flutes", "violins-1", "violins-2", "violas", "cellos"], "lead": ["violins-1"], "note": "Flute joins the strings and bass in the opening tune, with quick piano and forte replies." },
+      { "t": 50, "playing": ["flutes", "violins-1", "violins-2", "violas", "cellos"], "lead": ["flutes"], "note": "The flute adds a trill and slur to the opening theme; strings and bass accompany its first solo." },
+      { "t": 150, "playing": ["flutes", "violins-1", "violins-2", "violas", "cellos"], "lead": ["flutes", "violins-1"], "note": "Long flute runs alternate with shorter string phrases above the moving bass." },
+      { "t": 242, "playing": ["flutes", "cellos"], "lead": ["flutes"], "note": "At the fermata, the flute holds G above D in the bass. Violins and viola rest." },
+      { "t": 262, "playing": ["flutes", "violins-1", "violins-2", "violas", "cellos"], "lead": ["violins-1", "flutes"], "note": "Flute and violins recover the opening rising figure, with viola and bass moving below them." },
+      { "t": 340, "playing": ["flutes", "violins-1", "violins-2", "violas", "cellos"], "lead": ["violins-1"], "note": "The closing tutti joins flute, strings and bass in the final G major cadence." }
+    ]
+  }
 };

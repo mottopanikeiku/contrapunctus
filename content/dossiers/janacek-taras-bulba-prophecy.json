@@ -1,0 +1,183 @@
+{
+  "id": "janacek-taras-bulba-prophecy",
+  "work": {
+    "title": "Taras Bulba",
+    "catalogue": "JW VI/15",
+    "movement": "III. The Prophecy and Death of Taras Bulba",
+    "version": {
+      "value": "Orchestral rhapsody, complete third movement",
+      "status": "documented",
+      "sourceIds": ["sleeve", "archive-files", "work-catalogue", "score"],
+      "note": "The LP identifies the third movement as side 1, band 3. The exact score edition and orchestral parts used by Kubelík are unknown. Notes use the Hudební matice score of 1927 in its corrected 1947 reprint. Section and cue times are approximate score-proportion passages, guided by the recording’s broad changes; they have no bar alignment or aural review. No track concatenation or excerpt trimming is used."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Royal Philharmonic Orchestra", "role": "orchestra" },
+      { "name": "Rafael Kubelík", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["sleeve", "archive", "library"],
+    "note": "The original sleeve names Rafael Kubelik and the Royal Philharmonic Orchestra. Czech diacritics are restored in the display name. The organist and other individual players are unidentified."
+  },
+  "session": {
+    "date": {
+      "value": "1958",
+      "status": "documented",
+      "sourceIds": ["discography"],
+      "note": "Thierry Vagne’s discography dates the HMV Taras Bulba sessions to 10 and 12 April 1958, printed as 4/10,12/1958. The selected movement’s allocation to a particular session or take is unknown. The 1959 date on the original sleeve is first publication, not recording.",
+      "precision": "year"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["sleeve", "archive", "discography"],
+      "note": "The consulted sleeve, transfer metadata and discography do not establish the recording venue. The record company’s Hayes address and the Archive’s Cebu transfer location are separate from the performance session."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "His Master’s Voice / E.M.I. Records Limited",
+      "status": "documented",
+      "sourceIds": ["sleeve", "archive", "library"],
+      "note": "Original British LP imprint. The reverse side contains Martinů’s Les Fresques de Piero della Francesca."
+    },
+    "catalogue": {
+      "value": "ALP 1675",
+      "status": "documented",
+      "sourceIds": ["sleeve", "archive", "library"],
+      "note": "The original sleeve states that the recording was first published in 1959; the Finnish National Repository Library catalogue independently dates this EMI issue to 1959."
+    },
+    "matrixTakeSides": {
+      "value": "Side 1, band 3",
+      "status": "documented",
+      "sourceIds": ["sleeve", "archive-files"],
+      "note": "The sleeve assigns The Prophecy and Death of Taras Bulba to this band. No pressing matrix, stamper, original tape number or session take is established."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP transfer",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item credits Internet Archive and supplies a ripping-operator account. No personal restoration or mastering credit is inferred from that account."
+    },
+    "date": {
+      "value": "2023-05-11",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The ripping_date field is 20230511080236. The sleeve scan was made on 3 May 2023; neither date describes the original performance."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 turntable and Audio-Technica AT95e cartridge → Radio Design Labs EZ-PH1 phono preamp → Focusrite Scarlett 2i2; segmented VBR MP3 access derivative.",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-files"],
+      "note": "The playback and digitisation chain is supplied by the item’s lineage field. Equalisation settings, pitch correction, noise reduction and further restoration are unknown."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_taras-bulba-les-fresques_leos-janacek-bohuslav-martinu-the-royal/disc1/01.03.%20Taras%20Bulba%3A%20The%20Profecy%20And%20Death%20Of%20Taras%20Bulba.mp3",
+    "sourceChain": ["sleeve", "archive", "archive-files"],
+    "format": "VBR MP3 derivative of a vinyl LP transfer",
+    "durationSeconds": 524.3
+  },
+  "rights": {
+    "composition": {
+      "value": "Janáček’s underlying composition is public domain under ordinary life-plus-70 terms.",
+      "status": "inferred",
+      "sourceIds": ["composer", "work-catalogue", "score-catalogue"],
+      "note": "Janáček died on 12 August 1928. Taras Bulba was first published as a piano-duet arrangement in 1925 and as a full orchestral score in 1927. This assessment concerns the composition; unidentified modern editorial additions have separate rights."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis: lawful commercial publication in 1959, before 1963.",
+      "status": "documented",
+      "sourceIds": ["sleeve", "archive", "library", "eu-term"],
+      "note": "The original HMV ALP 1675 sleeve explicitly states “Recording first published 1959”. Its former 50-year phonogram term expired before the extension applying to recordings still protected on 1 November 2013. The selected source uses eu-published-before-1963 with published: 1959. Internet Archive supplies no Creative Commons licence. US recording status is not established, and this territorial basis is not worldwide clearance."
+    },
+    "creditLine": "Leoš Janáček, Taras Bulba: III. The Prophecy and Death of Taras Bulba; Royal Philharmonic Orchestra, Rafael Kubelík. Recorded 1958; HMV ALP 1675, first published 1959. Internet Archive LP transfer. Territorial EU public-domain basis; US recording status not established.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — HMV ALP 1675 transfer metadata",
+      "url": "https://archive.org/metadata/lp_taras-bulba-les-fresques_leos-janacek-bohuslav-martinu-the-royal/metadata",
+      "locator": "Publisher His Master’s Voice; catalogue ALP 1675; country GB; date 1959; Royal Philharmonic Orchestra and Rafael Kubelik. Lineage field, ripping_date 20230511080236 and separate scandate 20230503132347.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive — complete third-movement MP3 derivative",
+      "url": "https://archive.org/metadata/lp_taras-bulba-les-fresques_leos-janacek-bohuslav-martinu-the-royal/files",
+      "locator": "disc1/01.03. Taras Bulba: The Profecy And Death Of Taras Bulba.mp3; VBR MP3, listed duration 08:44. The filename’s spelling “Profecy” is retained in the source reference. The downloaded stream runs 524.3 seconds.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "sleeve",
+      "title": "Original HMV ALP 1675 sleeve — credits, track list and Malcolm Rayment’s notes",
+      "url": "https://archive.org/download/lp_taras-bulba-les-fresques_leos-janacek-bohuslav-martinu-the-royal/lp_taras-bulba-les-fresques_leos-janacek-bohuslav-martinu-the-royal_djvu.txt",
+      "locator": "Rafael Kubelik conducting the Royal Philharmonic Orchestra; side one, band 3, The Prophecy and Death of Taras Bulba; “Recording first published 1959”. Rayment describes the final movement’s execution scene and long coda with organ and bells.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "library",
+      "title": "Finnish National Repository Library — Taras Bulba, HMV ALP 1675",
+      "url": "https://kansalliskirjasto.finna.fi/Record/vaari.2647604",
+      "locator": "Publisher E.M.I. Records Limited, Hayes, Middlesex, England, [1959]; catalogue His Master’s Voice ALP1675; Rafael Kubelík and Royal Philharmonic Orchestra.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "discography",
+      "title": "Thierry Vagne — Rafael Kubelík: Complete official discography",
+      "url": "https://vagnethierry.fr/kubelik.html",
+      "locator": "Janáček, Taras Bulba, HMV, Royal Philharmonic Orchestra: 4/10,12/1958. The discography uses month/day notation in the surrounding entries; only the year is used for the recording’s public date field.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score",
+      "title": "Janáček — Taras Bulba, Hudební matice full score",
+      "url": "https://ks15.imslp.org/files/imglnks/usimg/2/24/IMSLP129624-PMLP43971-Janacek_-_Taras_Bulba_-_I._The_Death_of_Andrei.pdf",
+      "locator": "1927 score, plate H.M. 411, corrected 1947 reprint. Third movement is printed pp. 61–103, PDF pp. 121–163. Opening, Maestoso, Presto, quiet Tempo I, coda and closing pages inspected visually; passage anchors include bars 52, 129, 167 and 191. The Presto is in 2/8; the quiet Tempo I alternates viola and cello runs. Times remain approximate score proportions.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "score-catalogue",
+      "title": "IMSLP — Taras Bulba publication and score catalogue",
+      "url": "https://imslp.org/wiki/Taras_Bulba_(Jan%C3%A1%C4%8Dek,_Leo%C5%A1)",
+      "locator": "JW VI/15; 1915, revised 1918; Bakala’s piano-duet arrangement published 1925 and full score published 1927. The listed 1947 score is a corrected reprint of the first edition.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "Moravian Museum — Leoš Janáček’s orchestral works",
+      "url": "https://www.leosjanacek.eu/en/orchestral/",
+      "locator": "Taras Bulba, JW VI/15: Gogol’s story heard in Russian at the Brno Russian Circle in 1905; composition 1915, revision 1918; three movement titles and Brno première in 1921 under František Neumann.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "maestoso",
+      "title": "John Tyrrell — Janáček’s maestoso",
+      "url": "https://www.hippocampus.si/ISBN/978-961-7023-72-5/978-961-7023-72-5.23-49.pdf",
+      "locator": "Printed pp. 30–31, PDF pp. 8–9: Taras Bulba’s third movement, Maestoso passages at bars 44–51, 123–128 and 191–196, the organ in the final passage, and the work’s changing political context.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "composer",
+      "title": "IMSLP — Leoš Janáček biographical dates",
+      "url": "https://imslp.org/wiki/Category:Jan%C3%A1%C4%8Dek,_Leo%C5%A1",
+      "locator": "3 July 1854–12 August 1928.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — phonogram term and transitional provisions",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3: former 50-year term and first lawful publication. Article 1(2) extends the term; Article 1(3), adding Article 10(5), applies it to recordings still protected on 1 November 2013.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "composer": "ades",
+  "items": [
+    {
+      "work": "Asyla, Op. 17",
+      "year": "1997",
+      "performers": "London Symphony Orchestra; Thomas Adès",
+      "recorded": "2016",
+      "label": "LSO Live",
+      "note": "Asyla calls for six percussionists and treated pianos; Ecstasio, its third movement, takes its pulse from techno. Adès conducts the London Symphony Orchestra in the live Barbican recording, paired with Tevot and Polaris.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/35j0ZY4GzQ1AomKU0dUR6Z",
+          "title": "Spotify · Asyla, Tevot, Polaris — London Symphony Orchestra and Thomas Adès"
+        },
+        {
+          "kind": "label",
+          "url": "https://lsolive.lso.co.uk/products/lso0798-d-ades",
+          "title": "LSO Live · LSO0798-D"
+        }
+      ]
+    },
+    {
+      "work": "The Tempest",
+      "year": "2003",
+      "performers": "Simon Keenlyside (Prospero), Cyndia Sieden (Ariel), Ian Bostridge (Caliban), Kate Royal (Miranda), Toby Spence (Ferdinand); Orchestra and Chorus of the Royal Opera House, Covent Garden; Thomas Adès",
+      "recorded": "2007",
+      "label": "EMI Classics / Warner Classics",
+      "note": "Meredith Oakes recasts Shakespeare in short, rhyming lines, with Ariel written for a high soprano. The composer conducts Simon Keenlyside and Cyndia Sieden, the original Prospero and Ariel, in Covent Garden’s 2007 revival.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/7b013AoSOqRbur5sLblr5O",
+          "title": "Spotify · The Tempest — Royal Opera House and Thomas Adès"
+        },
+        {
+          "kind": "label",
+          "url": "https://www.warnerclassics.com/release/thomas-ades-tempest",
+          "title": "Warner Classics · The Tempest — Covent Garden recording"
+        }
+      ]
+    },
+    {
+      "work": "Concerto for Piano and Orchestra",
+      "year": "2018",
+      "performers": "Kirill Gerstein, piano; Boston Symphony Orchestra; Thomas Adès",
+      "recorded": "2019",
+      "label": "Deutsche Grammophon",
+      "note": "A falling melody meets rising harmony in the concerto’s slow movement, before the finale brings a tumbling piano theme and a blustering clarinet. Kirill Gerstein, for whom the Boston Symphony commissioned it, plays the live première recording with Adès conducting.",
+      "links": [
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/53XoO2L84YzW756O6tiqOj",
+          "title": "Spotify · Adès Conducts Adès — Kirill Gerstein and Boston Symphony Orchestra"
+        },
+        {
+          "kind": "label",
+          "url": "https://www.deutschegrammophon.com/en/catalogue/products/ades-conducts-ades-thomas-ades-11910",
+          "title": "Deutsche Grammophon · Adès Conducts Adès"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "LSO Live LSO0798-D — Asyla instrumentation, Ecstasio and March 2016 recording details",
+      "url": "https://lsolive.lso.co.uk/products/lso0798-d-ades"
+    },
+    {
+      "title": "Warner Classics — The Tempest catalogue and official streaming destination",
+      "url": "https://www.warnerclassics.com/release/thomas-ades-tempest"
+    },
+    {
+      "title": "Faber Music — Meredith Oakes’s programme note and The Tempest vocal roles",
+      "url": "https://www.fabermusic.com/music/tempest-the-3269"
+    },
+    {
+      "title": "Faber Music — The Tempest recording announcement, original cast and live 2007 Covent Garden provenance",
+      "url": "https://www.fabermusic.com/news/ad%C3%A8s-the-tempest-on-disc-1150"
+    },
+    {
+      "title": "Thomas Adès — The Tempest composition catalogue, dated 2003",
+      "url": "https://thomasades.com/compositions/the_tempest"
+    },
+    {
+      "title": "Deutsche Grammophon — Adès Conducts Adès, performers and March 2019 live première recording",
+      "url": "https://www.deutschegrammophon.com/en/catalogue/products/ades-conducts-ades-thomas-ades-11910"
+    },
+    {
+      "title": "Faber Music — Adès’s Concerto for Piano and Orchestra programme note, commission and première",
+      "url": "https://www.fabermusic.com/music/concerto-for-piano-and-orchestra"
+    },
+    {
+      "title": "Thomas Adès — Concerto for Piano and Orchestra composition catalogue, dated 2018",
+      "url": "https://thomasades.com/compositions/concerto_for_piano_and_orchestra"
+    }
+  ]
+}

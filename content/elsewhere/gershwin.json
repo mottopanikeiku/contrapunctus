@@ -1,0 +1,76 @@
+{
+  "composer": "gershwin",
+  "items": [
+    {
+      "work": "Porgy and Bess",
+      "year": "1935",
+      "performers": "Willard White, Porgy; Cynthia Haymon, Bess; Glyndebourne Chorus; London Philharmonic Orchestra; Simon Rattle, conductor",
+      "recorded": "",
+      "label": "EMI / Warner Classics",
+      "note": "Willard White and Cynthia Haymon lead the Glyndebourne cast under Rattle. The chorus and London Philharmonic surround the two central voices; ‘Summertime’ and ‘Bess, You Is My Woman Now’ belong to a much larger stage drama.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.warnerclassics.com/release/gershwin-porgy-and-bess-0",
+          "title": "Warner Classics — Rattle’s Porgy and Bess"
+        }
+      ]
+    },
+    {
+      "work": "Concerto in F · An American in Paris",
+      "year": "1925; 1928",
+      "performers": "André Previn, piano and conductor; London Symphony Orchestra",
+      "recorded": "",
+      "label": "EMI / Warner Classics",
+      "note": "Previn plays the piano and conducts the LSO in the Concerto, which Gershwin orchestrated himself. An American in Paris adds taxi horns to the orchestra: Gershwin shopped for them with Mabel Schirmer in Paris in 1928.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.warnerclassics.com/release/gershwin-rhapsody",
+          "title": "Warner Classics — Previn’s Gershwin orchestral works"
+        }
+      ]
+    },
+    {
+      "work": "Piano rolls: Rhapsody in Blue and songs",
+      "year": "",
+      "performers": "George Gershwin, original piano rolls; Artis Wodehouse, realisation",
+      "recorded": "Concert-grand realisation recorded 1992–93",
+      "label": "Nonesuch",
+      "note": "Artis Wodehouse’s realisation transfers Gershwin’s rolls to a concert grand. Gershwin’s fourteen-minute Rhapsody sits beside Swanee, Sweet and Low Down and other songs; the album’s An American in Paris uses a roll by Frank Milne.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.nonesuch.com/albums/gershwin-plays-gershwin-piano-rolls",
+          "title": "Nonesuch — Gershwin Plays Gershwin: The Piano Rolls"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Warner Classics — Porgy and Bess; Rattle, White, Haymon, Glyndebourne Chorus and London Philharmonic credits",
+      "url": "https://www.warnerclassics.com/release/gershwin-porgy-and-bess-0"
+    },
+    {
+      "title": "The Gershwin estate — Porgy and Bess, 1935 stage work and song titles",
+      "url": "https://gershwin.com/publications/porgy-and-bess/"
+    },
+    {
+      "title": "Warner Classics — Previn and the LSO, Gershwin orchestral works; pianist and conductor credits",
+      "url": "https://www.warnerclassics.com/release/gershwin-rhapsody"
+    },
+    {
+      "title": "The Gershwin estate — Concerto in F, 1925 and Gershwin’s own orchestration",
+      "url": "https://gershwin.com/publications/concerto-in-f/"
+    },
+    {
+      "title": "The Gershwin estate — An American in Paris, 1928; taxi-horn shopping with Mabel Schirmer",
+      "url": "https://gershwin.com/publications/an-american-in-paris-concert-work/"
+    },
+    {
+      "title": "Nonesuch — Gershwin Plays Gershwin: The Piano Rolls; concert-grand realisation, 1992–93 recording credits, track timings and Frank Milne attribution",
+      "url": "https://www.nonesuch.com/albums/gershwin-plays-gershwin-piano-rolls"
+    }
+  ]
+}

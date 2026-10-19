@@ -1,0 +1,56 @@
+# Janáček — quotation and fact sources
+
+Sources consulted for this rewrite. English quotations below are our short translations of the Czech originals reproduced by the Moravian Museum / TIC Brno project. The English companion pages were also checked. Musical descriptions are editorial readings supported by the named works and programme notes; neither ABC example claims to quote Janáček.
+
+| Claim / quotation | Source |
+| --- | --- |
+| Hukvaldy schoolmaster’s family; father’s illness and scholarship; mother leaves eleven-year-old Leoš at the Brno monastery in August 1865; Křížkovský, singing, concerts and theatre | [Museum biography](https://www.leosjanacek.eu/en/life/) and [Czech text](https://www.leosjanacek.eu/zivot/) |
+| “a hard bed, harder bread. No caresses.” | Janáček, *Pohled do života i díla* (1924), “tvrdé lůžko, tvrdší chléb. Žádné laskání.” [Czech biography](https://www.leosjanacek.eu/zivot/) |
+| Teacher training; Prague, Leipzig and Vienna studies; friendship with Dvořák; Beseda performances of *Missa solemnis* and *Stabat mater*; Organ School founded 1881, directed until 1919 | [Museum biography](https://www.leosjanacek.eu/en/life/); [institution history](https://www.leosjanacek.eu/en/orchestral/) discusses the 1919–20 transition to the Conservatory |
+| Marriage in 1881; Vladimír’s death aged two in 1890; Olga’s death aged twenty-one in February 1903; *Jenůfa* dedication | [Museum biography](https://www.leosjanacek.eu/en/life/); [*Jenůfa*](https://www.leosjanacek.eu/en/jenufa/) |
+| “with the black ribbon of the long illness, pain and lamentation of my daughter Olga and my little boy Vladimír” | *Pohled do života i díla* (1924): “černou stuhou dlouhé nemoci, bolestí a nářků mé dcery Olgy a klučiny Vladimíra.” [Czech text](https://www.leosjanacek.eu/zivot/) |
+| *Jenůfa*: prose source, 1894–1903 composition, plot, Brno première 21 January 1904, Prague 26 May 1916; Kovařovic’s changes; Brod, Universal Edition, Vienna 1918 and New York 1924 | [Museum work history and synopsis](https://www.leosjanacek.eu/en/jenufa/) |
+| Xylophone’s repeated mill-wheel note beneath *Jenůfa* Act I; short, speech-shaped vocal phrases | [Opera Today performance discussion](https://operatoday.com/2007/08/janacek_jenufa/), used only for the xylophone observation; [museum composition account](https://www.leosjanacek.eu/en/how-he-created/) |
+| Speech notations from 1897, more than four thousand; dogs, mosquitoes and floorboards; dates and circumstances; passing woman on Špilberk, 25 January 1925 | [Museum biography](https://www.leosjanacek.eu/en/life/); [How he created, including facsimile](https://www.leosjanacek.eu/en/how-he-created/) |
+| Folk-song collection with Bartoš; phonograph; 1901 collection; folk-song arrangements and later style; Bezruč choruses and social themes | [How he created](https://www.leosjanacek.eu/en/how-he-created/); [Czech biography](https://www.leosjanacek.eu/zivot/) |
+| “a storm of rage, despair and pain in sound” | Letter to Petr Bezruč, 1 October 1924: “tónovou bouři vzteku, zoufání a bolesti.” [Czech biography](https://www.leosjanacek.eu/zivot/) |
+| *1. X. 1905*: Pavlík killed in the university demonstrations; destroyed finale and discarded manuscript; Tučková’s copy saved the first two movements | [Leoš Janáček Foundation](https://janacek-nadace.cz/dilo-leose-janacka/dila/1-x-1905/) |
+| Kamila met at Luhačovice in 1917, married and thirty-seven years younger; letters; *Intimate Letters*, planned viola d’amore and final ordinary viola | [Museum biography](https://www.leosjanacek.eu/en/life/); [composition account](https://www.leosjanacek.eu/en/how-he-created/); [chamber catalogue](https://www.leosjanacek.eu/en/chamber/) |
+| “Our life will be in it.” | Letter to Kamila Stösslová, 1 February 1928: “To bude náš život v tom.” [Czech biography](https://www.leosjanacek.eu/zivot/). Same letter supplies working title *Milostné listy* and viola d’amore plan. |
+| Ostrovsky / *Káťa*, 1921; Tolstoy / First Quartet, 1923; Čapek / *Makropulos*, 1926; Russian literary interests | [Biography](https://www.leosjanacek.eu/en/life/) and [How he created](https://www.leosjanacek.eu/en/how-he-created/). Quartet tremolo, interrupted phrases and speed changes are retained musical observations. |
+| Vixen serial from Lolek’s drawings and Těsnohlídek’s story, 1920; Stejskalová’s kitchen recollection; première 6 November 1924; fox wedding, hens, Harašta, final frog’s grandson | [Museum work history and full synopsis](https://www.leosjanacek.eu/en/cunnning-little-vixen/). The servant’s account is paraphrased as a recollection, not presented as contemporaneous verbatim dialogue. |
+| *Sinfonietta*: Sokol commission, Písek military band, fanfare expanded into five movements | [Museum orchestral catalogue](https://www.leosjanacek.eu/en/orchestral/) |
+| *Sinfonietta*: nine C trumpets, two bass trumpets, two tenor tubas and timpani at opening; return with orchestra; agile low trombones, high winds and short dance phrases | Hugh Macdonald, [Boston Symphony programme note](https://www.bso.org/works/janacek-sinfonietta). Its contradictory première dates and its mistaken “wind quintet” for *Mládí* are not used. |
+| *Glagolitic Mass*: Old Church Slavonic, main composition at Luhačovice in August 1926, Brno première December 1927 and revisions; solo organ and exposed tenor | [Museum choral-orchestral catalogue](https://www.leosjanacek.eu/en/choral-orchestral/); Robert Hugill’s [Ančerl recording review](https://musicweb-international.com/classRev/2004/Mar04/glagolitic_taras.htm) |
+| *House of the Dead*: direct work from Dostoevsky’s Russian; episodic prison stories; eagle and continued imprisonment; July 1928 Hukvaldy visit, Kamila and son, pneumonia and death; incomplete revisions; Bakala, Chlubna and Zítek’s 1930 alterations; chains as percussion | [Museum opera account and synopsis](https://www.leosjanacek.eu/en/from-the-house-of-the-dead/); [biography](https://www.leosjanacek.eu/en/life/); [work account, composition history](https://en.wikipedia.org/wiki/From_the_House_of_the_Dead) for the percussion chains. |
+| *On an Overgrown Path*: two series, 1900–11, final title of Series I; *Taras Bulba*: 1915/1918 and three deaths | [Keyboard catalogue](https://www.leosjanacek.eu/en/keyboard/); [orchestral catalogue](https://www.leosjanacek.eu/en/orchestral/) |
+| Mucha poster: Kyjov costume, cupped hand, bird, choir’s Janáček repertoire | [Mucha Foundation catalogue](https://www.muchafoundation.org/en/gallery/themes/theme/slav-e/object/171); choir’s international performances in [Czech biography](https://www.leosjanacek.eu/zivot/) |
+| Mackerras *Jenůfa*: Söderström, Randová, Vienna Philharmonic, Decca; restored orchestration and alternative Kovařovic final scene; urgent delivery and contrasting voices | Robert Hugill, [MusicWeb review comparing Haitink and Mackerras](https://musicweb-international.com/classRev/2003/Feb03/Janacek_Jenufa.htm). Recommendation is editorial, supported by these recorded-performance descriptions. |
+| Ančerl *Glagolitic Mass*: named cast, Supraphon, 1963; tense voices, tangy winds, forceful Blachut | Robert Hugill, [MusicWeb review](https://musicweb-international.com/classRev/2004/Mar04/glagolitic_taras.htm) |
+| Lineage | Arrays preserved. Teacher and Dvořák friendship documented above; Bartók explicitly compared as a collector in the museum’s composition account. Britten and Kurtág remain listening comparisons, with no direct borrowing or teaching claimed. |
+| Preserved images, ABC, reading list and identity fields | Retained. Captions describe the existing schematic notes exactly; the portrait caption retains only the existing year and unknown photographer. |
+
+## Corrections and omissions
+
+- Corrected the old suggestion that Olga died before the opera was completed: the museum dates the completion to February 1903 while she was dying.
+- Corrected the old age “sixty-two” at the May 1916 Prague première to “almost sixty-two”: his birthday was in July.
+- Removed speculative language about the opacity of Kamila’s feelings, and categorical instructions that a particular editorial choice is essential to hearing the operas. The concrete version histories remain.
+- No unsupported quotation has been retained. No image, notation, poem, reading entry or lineage-array member was changed.
+
+## Fact-check (independent)
+
+Checked all 25 claim groups in the source table against fetched sources, including reader-facing biography, work descriptions, captions and recording credits. Four factual corrections were needed:
+
+- Olga died “at twenty-one” → “at twenty”. The Brno municipal encyclopaedia gives 15 August 1882–26 February 1903 and cites the birth and death registers; this corrects an age error repeated on the museum biography page. [Municipal record](https://encyklopedie.brna.cz/home-mmb/?acc=profil-osobnosti&load=527).
+- “The last act ends with Jenůfa’s forgiveness” → the forgiveness occurs in the last act, but the opera closes with Jenůfa and Laca together. [Moravian Museum synopsis](https://www.leosjanacek.eu/en/jenufa/).
+- “Brno staged … Prague refused it. The rejection lasted twelve years” → Prague had refused the opera before Brno staged it; twelve years separate the Brno and Prague premières. [Moravian Museum composition and première history](https://www.leosjanacek.eu/en/jenufa/).
+- *The Cunning Little Vixen*, “1921–23” → “1922–23”, with explicit permission to correct the work-year field. The critical catalogue dates the start of the autograph to January 1922. [Moravian Museum](https://www.leosjanacek.eu/en/cunnning-little-vixen/); [Universal Edition, Opera Milestones, critical-edition account](https://www.universaledition.com/media/59/c2/31/1693311541/OperaMilestones_English_Web.pdf). No corresponding Vixen listening module was found.
+
+Quotations confirmed against the Czech originals reproduced by the Moravian Museum; the English renderings are faithful translations:
+
+- “a hard bed, harder bread. No caresses.” — Janáček’s 1924 recollection of entering the monastery. [Czech biography](https://www.leosjanacek.eu/zivot/).
+- “with the black ribbon of the long illness, pain and lamentation of my daughter Olga and my little boy Vladimír” — the same 1924 recollection. [Czech biography](https://www.leosjanacek.eu/zivot/).
+- “a storm of rage, despair and pain in sound” — Janáček to Petr Bezruč, 1 October 1924. [Czech biography](https://www.leosjanacek.eu/zivot/).
+- “Our life will be in it.” — Janáček to Kamila Stösslová, 1 February 1928, about the second quartet. [Czech biography](https://www.leosjanacek.eu/zivot/).
+
+Additional independent support: the percussion supplier’s [orchestral repertoire specification](https://www.bellperc.com/blogs/repertoire/leos-janacek) explicitly lists chains in *From the House of the Dead*, replacing reliance on Wikipedia for that claim. [Decca’s catalogue](https://www.deccaclassics.com/en/catalogue/products/janaek-jenfa-mackerras-922) confirms the named *Jenůfa* cast. The two image dates were checked against their source-document metadata, and the Mucha caption against the [Mucha Foundation catalogue](https://www.muchafoundation.org/en/gallery/themes/theme/slav-e/object/171). No unresolved factual claim remains.

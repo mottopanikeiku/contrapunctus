@@ -1,26 +1,29 @@
 {
   "id": "chopin-black-keys-cortot-neeman",
-  "title": "Black Keys: Cortot and Neeman",
+  "title": "Five black keys, two pianists",
   "composer": "chopin",
   "group": "century",
   "work": "Étude in G♭ major, Op. 10 No. 5",
-  "question": "How do Cortot and Neeman distribute time between the right-hand figures and the phrases carried by the left?",
-  "intro": "Cortot recorded the Black Keys and Butterfly études together on one Victor side on 22 April 1920; Edward Neeman’s separate Black Keys recording was released by Musopen, with only an approximate source date of 2014. This comparison matches Neeman’s 0–108.5 seconds to Cortot’s 3.5–95.5 seconds, excluding Cortot’s lead-in and the Butterfly that begins around 96.5 seconds; the uncut historical stream still contains both pieces. Median alignment confidence is 0.833, usable with caution: surface noise and repeated pitch patterns make local matches, especially around Neeman’s 80–86 seconds and the closing decay, less secure. The passage points invite broad phrase comparisons, not exact bar matches or a precise local-tempo ranking.",
+  "question": "How much of this étude’s wit comes from the left hand beneath those racing black-key runs?",
+  "intro": "Chopin sends the right hand racing over the five black keys, with detached chords and octaves underneath. A loud phrase comes back as a quiet answer; even at speed, the piano seems to be talking to itself. Cortot and Neeman carry this two-handed conversation to a final dash in octaves.",
   "recordings": [
-    { "listen": "chopin-etude-op10-5", "label": "Edward Neeman", "year": null, "note": "Separate Black Keys recording; Commons source date c. 2014, session not established. Musopen public-domain recording dedication." },
-    { "listen": "chopin-etude-op10-5-cortot", "label": "Alfred Cortot · Black Keys portion", "year": 1920, "note": "Victor 64989, take 2, Camden, 22 April 1920. Map uses 3.5–95.5 seconds only; the uncut stream continues with Butterfly." }
+    { "listen": "chopin-etude-op10-5", "label": "Edward Neeman", "year": null, "note": "Neeman’s Chopin recordings include the complete études and thirty-one mazurkas; he also plays piano duets with his wife, Stephanie." },
+    { "listen": "chopin-etude-op10-5-cortot", "label": "Alfred Cortot, 1920", "year": 1920, "note": "Cortot’s teaching edition treats this étude as a lesson in supple hand movement and a brilliant, delicately connected touch." }
   ],
   "reference": "chopin-etude-op10-5",
   "passages": [
-    { "label": "The opening’s two layers", "t": 12, "note": "Follow the lower phrase beneath the fast right hand. The approximate correspondence is Neeman 12 seconds to Cortot 13 seconds." },
-    { "label": "A broader central phrase", "t": 30, "note": "Compare how each pianist gives weight to the phrase beneath the figuration. Alignment is provisional; do not compare the transfers’ raw loudness." },
-    { "label": "Renewed opening material", "t": 60, "note": "Listen for the familiar gesture as activity resumes. The automatic map places this region near Cortot 54 seconds, not at a certified bar line." },
-    { "label": "Towards the final span", "t": 96, "note": "Compare the forward motion of the closing figures. Cortot’s point is about 85 seconds; precise ending rubato is not established by this map." }
+    { "label": "A bold phrase, a quiet answer", "t": 12, "note": "The right-hand triplets skim over detached left-hand chords; loud phrases find quick, quiet answers." },
+    { "label": "The phrase stretches into D♭", "t": 30, "note": "The triplets carry on in D♭ major as the left hand stretches the phrase beyond the opening’s neat four-bar groups." },
+    { "label": "The opening returns", "t": 60, "note": "The opening figure returns in G♭ major, then begins to soften towards a passage marked very delicate and dying away." },
+    { "label": "Both hands join the dash", "t": 96, "note": "Wide arpeggios spread across the keyboard before both hands finish in a rapid, detached run of black-key octaves." }
   ],
   "sources": [
     { "title": "DAHR: Victor matrix B-23953, take 2, 22 April 1920; both études on Victor 64989", "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700009148/B-23953-Etude_in_G_flat_op._10_no._5_Black_keys" },
     { "title": "DAHR: Victor 64989 issue record; MARC publication field dates the issue to 1920", "url": "https://adp.library.ucsb.edu/index.php/objects/detail/41582" },
     { "title": "Internet Archive item metadata: 1920 Victor side, transfer chain, no licenceurl or non-commercial licence", "url": "https://archive.org/metadata/78_etude-in-g-flat-major-black-keys-etude-in-g-flat-major-the-butterfly_alfred-co_gbia0291196a" },
-    { "title": "Neeman: Commons source date and Musopen’s recording-specific public-domain dedication", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._5_in_G-Flat_major_%27Black_Keys%27_(Edward_Neeman).flac" }
+    { "title": "Neeman: Commons source date and Musopen’s recording-specific public-domain dedication", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._5_in_G-Flat_major_%27Black_Keys%27_(Edward_Neeman).flac" },
+    { "title": "Op. 10 No. 5 — score and form, citing Leichtentritt, and Cortot’s teaching edition", "url": "https://en.wikipedia.org/wiki/%C3%89tude_Op._10%2C_No._5_%28Chopin%29" },
+    { "title": "Edward Neeman — complete Chopin études and thirty-one mazurkas", "url": "https://neemanpianoduo.com/edward" },
+    { "title": "Australian National University — Neeman’s biography and piano duo with Stephanie Neeman", "url": "https://music.cass.anu.edu.au/people/dr-edward-neeman" }
   ]
 }

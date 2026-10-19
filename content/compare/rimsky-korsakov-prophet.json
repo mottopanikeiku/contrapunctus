@@ -1,46 +1,46 @@
 {
   "id": "rimsky-korsakov-prophet",
-  "title": "Chaliapin’s Prophet across the microphone divide",
+  "title": "Chaliapin becomes the prophet",
   "composer": "rimsky-korsakov",
   "work": "The Prophet, Op. 49 No. 2",
-  "question": "How does the same bass reshape Rimsky-Korsakov’s song between acoustic and electrical recording?",
-  "intro": "Chaliapin recorded this Pushkin setting with Percy Pitt in 1921 and Albert Coates in 1927. The 1927 side was first published in 1928 and is used on territorial European public-domain grounds; US recording status is unestablished. The map compares 0:04–3:44 in 1921 with 0:04–4:19 in 1927, omitting lead-in and residual noise. It is less certain around 2:54–2:55 of the earlier side, and recording technology cannot be isolated from conductors, interpretation and transfer choices.",
+  "question": "How does Chaliapin build from the traveller’s quiet story to God’s final command in these two performances?",
+  "intro": "A traveller meets a six-winged seraph in the desert; the angel tears out his heart and puts a burning coal in its place. Rimsky-Korsakov gives Pushkin’s terrible vision to a bass voice, beginning quietly and ending with God’s command to speak. Chaliapin recorded it with Percy Pitt in 1921 and returned to it with Albert Coates in 1927.",
   "group": "singers",
   "recordings": [
     {
       "listen": "rimsky-korsakov-prophet-chaliapin-1921",
-      "label": "Chaliapin · Pitt · acoustic",
+      "label": "Fyodor Chaliapin, Percy Pitt",
       "year": 1921,
-      "note": "Hayes, 10 October; Cc550, take 1. US-public-domain issue; complete source side, with lead-in and tail excluded from alignment."
+      "note": "Bass and orchestra recorded through an acoustic horn at Hayes, during Chaliapin’s first English visit since before the war."
     },
     {
       "listen": "rimsky-korsakov-prophet-chaliapin-1927",
-      "label": "Chaliapin · Coates · electrical",
+      "label": "Fyodor Chaliapin, Albert Coates",
       "year": 1927,
-      "note": "London, 20 October; Cc10957, take 2. First published 1928; territorial European public domain, US status unestablished."
+      "note": "The microphone remake, recorded at London’s Small Queen’s Hall on 20 October 1927, with Coates conducting the orchestra."
     }
   ],
   "reference": "rimsky-korsakov-prophet-chaliapin-1921",
   "passages": [
     {
-      "label": "Opening phrasing",
+      "label": "The traveller speaks",
       "t": 35,
-      "note": "Follow the length of the sung line over its accompaniment; avoid ranking transfer brightness as vocal quality."
+      "note": "The bass tells his story in measured phrases. Flowing notes in the accompaniment surround the voice as the seraph appears."
     },
     {
-      "label": "Early crest",
+      "label": "The voice rises",
       "t": 80,
-      "note": "Compare the time spent across a sustained crest, not just the strongest instant in either recording."
+      "note": "The bass reaches higher over rippling accompaniment, describing the sounds that fill the traveller’s newly opened ears."
     },
     {
-      "label": "Quieter middle",
+      "label": "A pause in the telling",
       "t": 115,
-      "note": "The earlier side withdraws before renewed pressure. Compare the space between these larger spans."
+      "note": "The accompaniment continues between the sung phrases, growing softer and slowing before the story resumes."
     },
     {
-      "label": "Final broad crest",
+      "label": "God’s command",
       "t": 200,
-      "note": "Listen through the last sustained rise and its release; the map excludes the final surface-noise tail."
+      "note": "The bass delivers God’s charge above firm chords. Rimsky-Korsakov marks the passage <i>con forza e maestoso</i>: forcefully and majestically."
     }
   ],
   "sources": [
@@ -67,6 +67,18 @@
     {
       "title": "IMSLP — 2 Romances, Op. 49",
       "url": "https://imslp.org/wiki/2_Romances,_Op.49_(Rimsky-Korsakov,_Nikolay)"
+    },
+    {
+      "title": "Marston, Chaliapin: complete recordings, session details and recording history",
+      "url": "https://www.marstonrecords.com/products/chaliapin"
+    },
+    {
+      "title": "Pushkin, The Prophet: Russian text as set by Rimsky-Korsakov",
+      "url": "https://www.lieder.net/lieder/get_text.html?SettingId=14853&TextId=13115"
+    },
+    {
+      "title": "Rimsky-Korsakov, The Prophet: vocal score, Complete Collected Works, vol. 45, pp. 91–97",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/7/79/IMSLP20759-PMLP48251-Rimsky_Op49.pdf"
     }
   ],
   "alignment": {

@@ -1,0 +1,40 @@
+export default {
+  id: 'couperin-tic-toc-choc',
+  composer: 'couperin',
+  order: 3,
+  work: 'Le Tic-Toc-Choc, ou Les Maillotins',
+  movement: '',
+  year: '1722, publication',
+  key: 'F major',
+  forces: 'Solo piano; originally harpsichord',
+  performers: 'Marcelle Meyer, piano',
+  recorded: 'Late 1953 or January 1954, Salle Adyar, Paris',
+  source: { file: 'File:François Couperin - Le tic toc choc ou les maillotins (Marcelle Meyer, 1954).flac' },
+  intro: 'Couperin fits two busy hands into the same strip of harpsichord keyboard, on separate manuals. Marcelle Meyer brings the ticking refrain and its three episodes to the piano.',
+  sections: [
+    { t: 0, label: 'A · The ticking refrain', m: 'A', mNote: 'Semiquavers above a slower left-hand pattern' },
+    { t: 28, label: 'B · Two couplets and their refrains', m: 'B' },
+    { t: 87, label: 'C · The longer third couplet', m: 'C' },
+    { t: 107, label: 'A′ · Refrain with an added ending', m: 'A′', mNote: 'A supplément extends the last return' },
+  ],
+  cues: [
+    {
+      t: 0, kind: 'music', title: 'The two hands tick',
+      text: 'A stream of semiquavers runs above a slower left-hand pattern. Couperin marks the piece <i>Légèrement et marqué</i> — lightly, with clear accents. The little F-major refrain keeps coming back between three episodes.',
+      basis: 'general', precision: 'passage',
+      evidence: 'Couperin, Troisième Livre (1722), XVIIIe Ordre; Pierre Gouin edition, pp. 1–3: opening marking, rondeau and three couplets. https://s9.imslp.org/files/imglnks/usimg/e/ec/IMSLP128601-WIMA.a398-Couperin_18eOrdre_Le_TicTocChoc.pdf',
+    },
+    {
+      t: 50, kind: 'world', title: 'Two keyboards for two hands',
+      text: 'In the preface to his 1722 book, Couperin assigns his <i>pièces croisées</i> to two harpsichord keyboards. Both hands can occupy the same notes without colliding. For an instrument with only one keyboard, he allows one part to move an octave away.',
+      basis: 'documented', precision: 'passage',
+      evidence: 'Couperin’s preface to the Troisième Livre, quoted with its performance instructions and original notation by harpsichord maker Carey Beebe. https://www.hpschd.nu/tech/rsc/tic.html',
+    },
+    {
+      t: 107, kind: 'form', title: 'An ending for the refrain',
+      text: 'The final refrain acquires a short <i>supplément</i>, an extra ending. The semiquavers continue into it before both hands settle on a held F-major chord.',
+      basis: 'score-proportion', precision: 'passage',
+      evidence: 'Gouin edition, p. 3, from “Rondeau sans Renvoi avec le Supplément” to the final F-major chord. Angela Hewitt also describes the added coda in her Hyperion notes. https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67440',
+    },
+  ],
+};

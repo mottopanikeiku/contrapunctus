@@ -1,41 +1,41 @@
 {
   "id": "elgar-cello-concerto-finale",
-  "title": "Elgar’s finale before and after the cuts",
+  "title": "Harrison’s cello, Elgar’s baton",
   "composer": "elgar",
   "group": "composer-performers",
   "work": "Cello Concerto in E minor, Op. 85 — a shared passage from the finale",
-  "question": "How do Harrison and Elgar shape the finale’s retained moving passage beside the complete Skidmore performance?",
-  "intro": "Harrison and Elgar’s 1919–20 acoustic recording compresses the whole concerto onto four sides issued in 1921; the Skidmore file contains only the complete finale. The comparison deliberately aligns just 85–124 seconds of Skidmore with 710–745 seconds of the already-joined Harrison stream, a continuous early-finale overlap rather than music on opposite sides of a cut. Its median chroma confidence is 0.950, but the timing remains provisional and the acoustic transfer changes which details of cello and orchestra are audible. Neither the full-file durations nor this short overlap establish Elgar’s tempo for the omitted music.",
+  "question": "How sharply should the cello bite into the finale’s march?",
+  "intro": "At Hayes on 22 December 1919, Beatrice Harrison recorded Elgar’s finale with the composer conducting. The whole concerto was squeezed onto four shellac sides. Beside Skidmore’s complete finale, this short passage catches the cello joining the march, marked <i>risoluto</i> — resolute.",
   "recordings": [
     {
       "listen": "elgar-cello-concerto-harrison-1920",
-      "label": "Harrison / Elgar",
+      "label": "Beatrice Harrison and Edward Elgar, 1919",
       "year": 1919,
-      "note": "Abridged whole-concerto stream; finale recorded in 1919, issued 1921; compare only the retained 35-second window."
+      "note": "Harrison makes the concerto’s first recording with Elgar on the podium; their finale fits a single shellac side."
     },
     {
       "listen": "elgar-cello-concerto-finale-skidmore",
       "label": "Skidmore College Orchestra",
       "year": null,
-      "note": "Complete finale; Musopen public-domain release; cellist, conductor and session date uncredited."
+      "note": "Skidmore plays the finale complete, allowing the cello’s late lament and the return of the concerto’s opening to unfold."
     }
   ],
   "reference": "elgar-cello-concerto-finale-skidmore",
   "passages": [
     {
-      "label": "Retained moving passage",
+      "label": "The cello joins the march",
       "t": 85,
-      "note": "Follow the cello’s short figures and the answering weight around them; this is not the opening of the complete finale."
+      "note": "The soloist takes up the brisk tune, marked <i>risoluto</i>. Accents and little rests give it a swagger."
     },
     {
-      "label": "Continuing the same phrase",
+      "label": "The phrase climbs",
       "t": 98,
-      "note": "Compare how attacks connect into a line, without mistaking differences of transfer balance for different orchestral scoring."
+      "note": "The cello climbs through a crescendo towards sharply accented high notes. The orchestra answers while the soloist pauses."
     },
     {
-      "label": "End of the shared window",
+      "label": "Cello and orchestra trade places",
       "t": 111,
-      "note": "Follow the same retained material towards the trim boundary; timing claims stop before music affected by later cuts."
+      "note": "Short solo phrases alternate with orchestral replies. The cello’s running notes carry the march forward between its clipped accents."
     }
   ],
   "alignment": {
@@ -55,7 +55,7 @@
         "medianConfidence": 0.95,
         "transposeB": 0,
         "scope": "Continuous early-finale overlap only. Excludes Skidmore’s opening introduction, all earlier Harrison movements and all later cuts.",
-        "inspection": "Five-second path samples progress smoothly from [85,710] through [100,725] to [120,741.01]; no whole-concerto/finale duration ratio is interpreted."
+        "inspection": "The shared passage runs continuously through the early finale. Both performances play the same music here; the excerpts end before the later cuts."
       }
     ]
   },
@@ -75,6 +75,14 @@
     {
       "title": "Acoustic abridgement distinguished from the complete 1928 recording",
       "url": "https://en.wikipedia.org/wiki/Cello_Concerto_(Elgar)"
+    },
+    {
+      "title": "Elgar, Cello Concerto — Novello solo part, finale, rehearsals 44–46",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/f/f6/IMSLP31083-PMLP14674-Elgar-Op085solo.pdf"
+    },
+    {
+      "title": "Frank Beck, Elgar Society — the finale’s march, late soliloquy and returning opening",
+      "url": "https://www.elgar.org/3cello-a.htm"
     }
   ]
 }

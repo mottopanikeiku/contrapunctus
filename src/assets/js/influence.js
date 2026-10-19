@@ -35,7 +35,7 @@ export function mount(app) {
     if (frame) return;
     frame = requestAnimationFrame(() => {
       frame = 0; world.style.transform = `translate3d(${panX}px,${panY}px,0) scale(${scale})`;
-      const labelsOpen = scale >= fitScale * 2.2;
+      const labelsOpen = scale >= fitScale * 1.6;
       if (root.classList.contains('iw-labels-open') !== labelsOpen) {
         root.classList.toggle('iw-labels-open', labelsOpen);
         if (!root.classList.contains('iw-has-focus')) highlight();
@@ -134,7 +134,7 @@ export function mount(app) {
     soundVersion++;
     if (!currentSound) return;
     currentSound.synth?.stop(); currentSound.timer?.stop();
-    currentSound.button.textContent = 'Play passage';
+    currentSound.button.textContent = 'Play synthesised score';
     currentSound.button.classList.remove('is-playing');
     currentSound.button.removeAttribute('aria-busy');
     $$('.iw-score .playing').forEach((el) => el.classList.remove('playing'));
@@ -168,11 +168,11 @@ export function mount(app) {
       currentSound.timer = timer;
       button.removeAttribute('aria-busy'); button.textContent = 'Stop passage'; button.classList.add('is-playing');
       synth.start(); timer.start();
-      status.textContent = 'Playing the engraved passage. The concert recording is paused.';
+      status.textContent = 'Playing the score example; the concert recording is paused.';
     } catch (error) {
       if (version !== soundVersion) return;
-      stopSound(); status.textContent = 'The passage could not play. Your browser may not support this synthesiser.';
-      button.textContent = 'Try passage again'; console.error('Influence passage playback', error);
+      stopSound(); status.textContent = 'Could not play the example; try again.';
+      button.textContent = 'Try again'; console.error('Influence passage playback', error);
     }
   }
 
@@ -201,7 +201,7 @@ export function mount(app) {
     }
   }
   const connectionList = (list, journey = false) => `<ol class="iw-connections${journey ? ' iw-journey' : ''}">${list.map((edge) => `<li><a href="#edge-${esc(edge.id)}"><span class="iw-connection-year">${edge.year}</span>${journey ? `<span class="iw-stop-cameo" aria-hidden="true">${$('.iw-medallion', nodeElements.get(edge.to)).innerHTML}</span>` : ''}<span><strong>${esc(edge.title)}</strong><small>${esc(nodes.get(edge.from).label)} → ${esc(nodes.get(edge.to).label)} · ${kindLabel(edge.kind)}</small></span><b aria-hidden="true">→</b></a></li>`).join('')}</ol>`;
-  const scoreFigures = (passages) => passages.map(([side, passage], i) => `<figure class="iw-score" data-passage="${side}"><figcaption><span>${passages.length > 1 ? `${i + 1}. ` : ''}${esc(passage.label)}</span><a href="${esc(passage.checked)}" target="_blank" rel="noopener noreferrer">${esc(passage.sourceTitle ?? 'Score source')} ↗</a></figcaption><div class="iw-notation" aria-label="${esc(passage.label)}"><p>Engraving the passage…</p></div><div class="iw-score-actions"><button type="button" data-passage-play disabled>Play passage</button>${passage.listen ? `<button type="button" data-hall-id="${esc(passage.listen.id)}" data-hall-t="${passage.listen.t}">Hear it in the hall</button>` : ''}</div></figure>`).join('');
+  const scoreFigures = (passages) => passages.map(([side, passage], i) => `<figure class="iw-score" data-passage="${side}"><figcaption><span>${passages.length > 1 ? `${i + 1}. ` : ''}${esc(passage.label)}</span><a href="${esc(passage.checked)}" target="_blank" rel="noopener noreferrer">${esc(passage.sourceTitle ?? 'Score source')} ↗</a></figcaption><div class="iw-notation" aria-label="${esc(passage.label)}"><p>Loading the score…</p></div><div class="iw-score-actions"><button type="button" data-passage-play disabled>Play synthesised score</button>${passage.listen ? `<button type="button" data-hall-id="${esc(passage.listen.id)}" data-hall-t="${passage.listen.t}">Hear the recording</button>` : ''}</div></figure>`).join('');
   async function engrave(passages, version) {
     if (!passages.length) return;
     const ABCJS = await loadAbcjs(app.root);
@@ -217,12 +217,12 @@ export function mount(app) {
   function showNode(id) {
     const node = nodes.get(id), list = adjacency.get(id);
     const incoming = list.filter((e) => e.to === id), outgoing = list.filter((e) => e.from === id);
-    cardOpen(`<span class="iw-card-kicker">${esc(node.kind)} · ${esc(node.dates)}</span><h2 id="iw-card-title">${esc(node.name)}</h2><p class="iw-card-lede">${list.length} sourced ${list.length === 1 ? 'connection' : 'connections'} in this collection.</p>${node.url ? `<p><a class="iw-chapter-link" href="${new URL(node.url, app.root).href}">Read the composer’s chapter →</a></p>` : ''}<h3>What came in</h3>${incoming.length ? connectionList(incoming) : '<p class="iw-quiet">No sourced connection in this collection yet.</p>'}<h3>What went out</h3>${outgoing.length ? connectionList(outgoing) : '<p class="iw-quiet">No sourced connection in this collection yet.</p>'}`);
+    cardOpen(`<span class="iw-card-kicker">${esc(node.kind)} · ${esc(node.dates)}</span><h2 id="iw-card-title">${esc(node.name)}</h2><p class="iw-card-lede">${list.length} ${list.length === 1 ? 'connection' : 'connections'} to explore.</p>${node.url ? `<p><a class="iw-chapter-link" href="${new URL(node.url, app.root).href}">Read the composer’s chapter →</a></p>` : ''}<h3>What came in</h3>${incoming.length ? connectionList(incoming) : '<p class="iw-quiet">No connection listed here yet.</p>'}<h3>What went out</h3>${outgoing.length ? connectionList(outgoing) : '<p class="iw-quiet">No connection listed here yet.</p>'}`);
   }
   async function showThread(id, thread, version) {
     const stops = data.edges.filter((e) => e.thread === id);
     const passages = [['thread', { abc: thread.abc, label: thread.name, checked: thread.source.url, sourceTitle: thread.source.title }]];
-    cardOpen(`<span class="iw-card-kicker">A thread through time · ${stops.length} stops</span><h2 id="iw-card-title">${esc(thread.name)}</h2>${scoreFigures(passages)}${thread.abcNote ? `<div class="iw-abc-note">${thread.abcNote}</div>` : ''}<div class="iw-card-lede">${thread.summary}</div><h3>Follow the thread</h3><p class="iw-quiet">Each stop is dated by the encounter or work; branches need not form a single chain.</p>${stops.length ? connectionList(stops, true) : '<p>No sourced stops have been added to this thread yet.</p>'}`);
+    cardOpen(`<span class="iw-card-kicker">Music through time · ${stops.length} stops</span><h2 id="iw-card-title">${esc(thread.name)}</h2>${scoreFigures(passages)}${thread.abcNote ? `<div class="iw-abc-note">${thread.abcNote}</div>` : ''}<div class="iw-card-lede">${thread.summary}</div><h3>Follow the thread</h3><p class="iw-quiet">The dates mark works and encounters along the way.</p>${stops.length ? connectionList(stops, true) : '<p>No stops are listed here yet.</p>'}`);
     stops.forEach((e, i) => { const el = edgeElements.get(e.id); el.style.setProperty('--trace-delay', `${Math.min(i * .3, 4)}s`); $('.iw-line', el).setAttribute('pathLength', '1'); el.classList.add('is-traced'); });
     await engrave(passages, version);
   }
@@ -230,7 +230,7 @@ export function mount(app) {
   async function showEdge(id, detail, version) {
     const summary = edges.get(id), passages = Object.entries(detail.exhibit ?? {}).filter(([, p]) => p?.abc);
     const art = detail.art ? `<figure class="iw-art"><a href="${esc(detail.art.url)}" target="_blank" rel="noopener noreferrer"><img src="${esc(new URL(detail.art.src, app.root).href)}" alt="${esc(detail.art.caption)}" loading="lazy" decoding="async"></a><figcaption>${esc(detail.art.caption)}</figcaption></figure>` : '';
-    cardOpen(`<span class="iw-card-kicker">${summary.year} · ${kindLabel(summary.kind)}</span><h2 id="iw-card-title">${esc(detail.title)}</h2><p class="iw-card-route"><a href="#node-${esc(summary.from)}">${esc(nodes.get(summary.from).name)}</a><span>→</span><a href="#node-${esc(summary.to)}">${esc(nodes.get(summary.to).name)}</a></p>${detail.works ? `<dl class="iw-works">${['from', 'to'].filter((side) => detail.works[side]).map((side) => `<div><dt>${side === 'from' ? 'Source' : 'Transformation'}</dt><dd>${esc(detail.works[side])}</dd></div>`).join('')}</dl>` : ''}<div class="iw-claim">${detail.claim}</div><div class="iw-evidence"><span class="iw-badge ${detail.status}">${esc(detail.status)}</span><p>${detail.status === 'documented' ? 'The cited source documents this connection.' : detail.note}</p></div>${detail.status === 'documented' && detail.note ? `<div class="iw-quiet">${detail.note}</div>` : ''}${passages.length || art ? `<section class="iw-exhibit"><h3>${passages.length > 1 ? 'Hear what changed' : 'The exhibit'}</h3><div class="iw-exhibit-content${art ? ' has-art' : ''}">${art}<div>${scoreFigures(passages)}</div></div></section>` : ''}<section class="iw-source-section"><h3>Sources &amp; evidence</h3>${sources(detail.sources)}</section><a class="iw-permalink" href="#edge-${esc(id)}">Link to this connection</a>`);
+    cardOpen(`<span class="iw-card-kicker">${summary.year} · ${kindLabel(summary.kind)}</span><h2 id="iw-card-title">${esc(detail.title)}</h2><p class="iw-card-route"><a href="#node-${esc(summary.from)}">${esc(nodes.get(summary.from).name)}</a><span>→</span><a href="#node-${esc(summary.to)}">${esc(nodes.get(summary.to).name)}</a></p>${detail.works ? `<dl class="iw-works">${['from', 'to'].filter((side) => detail.works[side]).map((side) => `<div><dt>${side === 'from' ? 'Original work' : 'Later work'}</dt><dd>${esc(detail.works[side])}</dd></div>`).join('')}</dl>` : ''}<div class="iw-claim">${detail.claim}</div><div class="iw-evidence"><span class="iw-badge ${detail.status}">${esc(detail.status)}</span><p>${detail.status === 'documented' ? 'Open the sources below to read more.' : detail.note}</p></div>${detail.status === 'documented' && detail.note ? `<div class="iw-quiet">${detail.note}</div>` : ''}${passages.length || art ? `<section class="iw-exhibit"><h3>${passages.length > 1 ? 'Hear the change' : 'Explore the work'}</h3><div class="iw-exhibit-content${art ? ' has-art' : ''}">${art}<div>${scoreFigures(passages)}</div></div></section>` : ''}<section class="iw-source-section"><h3>Sources</h3>${sources(detail.sources)}</section><a class="iw-permalink" href="#edge-${esc(id)}">Link to this connection</a>`);
     await engrave(passages, version);
   }
 
@@ -240,7 +240,7 @@ export function mount(app) {
     const [, type, raw] = match;
     let id; try { id = decodeURIComponent(raw); } catch { return; }
     if (!(type === 'node' ? nodes.has(id) : type === 'edge' ? edges.has(id) : data.threads.some((t) => t.id === id))) {
-      status.textContent = 'That connection, person or thread is not in this collection.'; return;
+      status.textContent = 'This person, connection or thread is not listed here.'; return;
     }
     const version = ++cardVersion;
     selection = { type, id };
@@ -263,7 +263,7 @@ export function mount(app) {
     } catch (error) {
       if (!alive || version !== cardVersion) return;
       detailsPromise = null;
-      const message = document.createElement('p'); message.className = 'iw-load-error'; message.textContent = 'The evidence or notation could not be loaded. Open this card again to retry.'; content.append(message);
+      const message = document.createElement('p'); message.className = 'iw-load-error'; message.textContent = 'Could not load the sources or score; reopen this card to try again.'; content.append(message);
       console.error('Influence evidence', error);
     }
   }

@@ -26,118 +26,82 @@ export default {
     "part": 1,
     "of": 2
   },
-  "intro": "Mary Garden sings Verlaine’s rain-and-grief poem with Debussy at the piano in Paris in 1904. The song’s moving accompaniment and restrained vocal line are two different kinds of continuity: one keeps falling, while the other asks why the heart is troubled. This acoustic disc is a historical document, not a modern studio balance.",
-  "question": "What does the piano keep doing when the voice pauses to ask a question?",
+  "intro": "Mary Garden sings Verlaine’s rain-soaked sorrow with Debussy himself at the piano, in Paris in 1904. His running semiquavers keep falling beneath a voice that cannot explain its grief.",
   "sections": [
     {
       "t": 0,
-      "label": "A · Rain and inward grief",
+      "label": "A · Rain in the piano",
       "m": "A",
-      "mNote": "Moving piano figures accompany the contrast between rain and inward grief."
+      "mNote": "Long vocal notes stretch above running semiquavers"
     },
     {
       "t": 64,
-      "label": "B · A freer question",
+      "label": "B · The rain pauses for a question",
       "m": "B",
-      "mNote": "The more freely paced question approaches; timing is approximate."
+      "mNote": "The piano breaks into chords beneath freer singing"
     },
     {
       "t": 82,
-      "label": "A′ · The flowing figure returns",
+      "label": "A′ · Rain beneath the last stanza",
       "m": "A′",
-      "mNote": "Opening motion resumes for the final stanza and postlude; approximate placement."
+      "mNote": "The semiquavers return and outlast the voice"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Rain moves while the voice holds",
-      "text": "The piano opens with a quietly repeating figure; the voice enters in longer notes. Listen for the independence of those two motions. Debussy does not need the singer to imitate falling rain when the accompaniment is already keeping it in motion.",
+      "title": "Rain in the piano",
+      "text": "The piano sets fine semiquavers pattering beneath the song. Against their quick movement, the singer’s notes stretch out, marked <i>triste et monotone</i> — sad and monotonous. Verlaine’s falling rain and inward tears have different speeds.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Ariettes oubliées no.2, printed pp.12–17 (PDF4–9): https://s9.imslp.org/files/imglnks/usimg/8/83/IMSLP14819-Debussy_-_Ariettes_oubli%C3%A9es_%28voice_and_piano%29.pdf. The report shows a quiet initial window followed by stronger sound from0:05; the exact vocal entrance is not fixed."
+      "evidence": "Debussy, Ariettes oubliées, no. 2, voice-and-piano score, printed pp. 12–13: pp, con sordine, running semiquavers and the vocal marking triste et monotone. https://s9.imslp.org/files/imglnks/usimg/8/83/IMSLP14819-Debussy_-_Ariettes_oubli%C3%A9es_%28voice_and_piano%29.pdf"
     },
     {
       "t": 30,
       "kind": "world",
-      "title": "The poem keeps its question",
-      "text": "Verlaine places rain in the town beside weeping in the heart, then asks why there is sorrow without betrayal. The song does not supply a story that resolves the question. Its persistent accompaniment lets the uncertainty continue.",
+      "title": "A sorrow without a cause",
+      "text": "Verlaine’s rain falls on roofs and the ground. Inside, someone grieves without knowing why: no betrayal, no love or hatred to account for the pain. The poem appears in <i>Romances sans paroles</i> in 1874. Debussy gives its unsettled heart a line that keeps circling back.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The French poem is printed in the opened voice-and-piano score, no.2, pp.12–17. This is a paraphrase of Verlaine’s text, not a claim about which word is sung at0:30."
+      "evidence": "Paul Verlaine, Il pleure dans mon cœur, Romances sans paroles (1874), all four stanzas. French text: https://press.uchicago.edu/Misc/Chicago/853446.html. Recurrent vocal phrases are visible in the song score, pp. 12–17."
     },
     {
-      "t": 60,
+      "t": 82,
       "kind": "form",
-      "title": "The question changes the pacing",
-      "text": "Near the poem’s direct question, the score asks for freer pacing and relaxes the rain figure into a different kind of accompaniment. Keep the opening motion in memory: its recovery will matter even though the singer’s question has not been answered.",
+      "title": "The rain returns",
+      "text": "After the freer question about betrayal, the piano’s running notes come back. The final stanza names the worst pain: not knowing why the heart aches. The voice slows and finishes; the piano carries the rain on alone.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Score pp.15–16: Modéré, ad libitum at “Quoi! nulle trahison?”, then Revenez au1er Mouvement. Report: strong changes around0:58–1:04 and a quieter1:05 window; the placement is provisional, not word-aligned."
-    },
-    {
-      "t": 90,
-      "kind": "life",
-      "title": "The composer is the pianist",
-      "text": "Garden and Debussy made this recording in Paris in 1904. Their names are not a later reconstruction from the sound: the archive attribution is corroborated by a BnF catalogue and a specialist discography. The surviving disc brings both musicians into the same small frame.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "BnF notice, subnotice6: https://catalogue.bnf.fr/ark:/12148/cb38388874b; The Record Collector, IRCC107 / G&T33449: https://www.therecordcollector.org/articles/HRSandIRCCdiscographies/internationalrecordcollectorsclub.php; IA metadata identifies Paris1904. The precise day and studio are not established."
-    },
-    {
-      "t": 120,
-      "kind": "listen",
-      "title": "The accompaniment outlasts the words",
-      "text": "Follow the rippling figure into the close. The written piano postlude continues after the voice, allowing the song’s motion to subside without answering its question.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Score p.17 shows the piano continuing after the final vocal phrase. Report: lower closing windows at2:00–2:05, then decay by2:10. This locates the closing region, not an exact vocal release."
+      "evidence": "Voice-and-piano score, pp. 15–17: Modéré question, Revenez au 1er Mouvement, final stanza at 1° Tempo, Molto rallentando and piano postlude."
     }
   ],
   "transitions": [
     {
       "id": "into-freer-question",
-      "title": "The rain figure yields to a question",
-      "from": "A · Rain and inward grief",
-      "to": "B · A freer question",
-      "at": {
-        "t": 64
-      },
-      "span": [
-        55,
-        76
-      ],
-      "how": "<p>The first stanzas keep the accompaniment moving beneath the voice. At the direct question, Debussy allows freer pacing and changes the piano writing, briefly interrupting the sense of automatic continuation. The contrast belongs to the setting of the words: a question takes time that the earlier repeated figure seemed to measure.</p>",
-      "devices": [
-        "tempo change",
-        "texture change"
-      ],
+      "title": "The semiquavers stop for the voice",
+      "from": "A · Rain in the piano",
+      "to": "B · The rain pauses for a question",
+      "at": { "t": 64 },
+      "span": [55, 76],
+      "how": "<p>The piano’s running semiquavers stop. Debussy cancels the four-sharp key signature and marks the passage <i>Modéré</i>, allowing the voice to move freely over chords and a short piano reply. The poem asks whether betrayal explains the grief; the regular patter of rain is suspended.</p>",
+      "devices": ["texture change", "tempo change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Opened score pp.15–16, Modéré, ad libitum at “Quoi! nulle trahison?”; report0:58 and1:04 changes and the quieter1:05 window. The64s boundary estimates the region; it is not a syllable alignment."
+      "evidence": "Voice-and-piano score, printed pp. 15–16: cancelled key signature, Modéré, ad libitum and the question beginning Quoi! nulle trahison?"
     },
     {
       "id": "into-rain-return",
-      "title": "The moving figure resumes without an answer",
-      "from": "B · A freer question",
-      "to": "A′ · The flowing figure returns",
-      "at": {
-        "t": 82
-      },
-      "span": [
-        73,
-        94
-      ],
-      "how": "<p>The score asks for the opening tempo again. The flowing piano figure returns around the final stanza, restoring the earlier continuity even though the poem has not found a reason for its grief. The accompaniment eventually remains alone, carrying the repeated motion into the postlude.</p>",
-      "devices": [
-        "tempo change",
-        "motivic link",
-        "texture change"
-      ],
+      "title": "Semiquavers carry the last stanza",
+      "from": "B · The rain pauses for a question",
+      "to": "A′ · Rain beneath the last stanza",
+      "at": { "t": 82 },
+      "span": [73, 94],
+      "how": "<p>The piano resumes its semiquavers while the voice holds the end of the word <i>raison</i>. <i>Revenez au 1er Mouvement</i> brings back the opening pace; the four-sharp signature returns with the final stanza. The singer’s long notes again stretch above the quick piano figure.</p>",
+      "devices": ["retransition", "texture change", "tempo change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Score pp.16–17: Revenez au1er Mouvement and final stanza/postlude. The report’s strong1:22 change is used as an approximate return landmark; exact lyric synchronisation is not claimed."
+      "evidence": "Voice-and-piano score, printed p. 16: semiquavers beneath the held vocal note, Revenez au 1er Mouvement and restored four-sharp signature at 1° Tempo."
     }
   ],
   "orchestra": {
@@ -150,7 +114,7 @@ export default {
     "source": {
       "title": "Debussy, Ariettes oubliées no.2 · voice-and-piano score",
       "url": "https://s9.imslp.org/files/imglnks/usimg/8/83/IMSLP14819-Debussy_-_Ariettes_oubli%C3%A9es_%28voice_and_piano%29.pdf",
-      "locator": "Printed pp.12–17 (PDF4–9) inspected visually. Ensemble is the recorded soprano-and-piano version. Entry and postlude times are approximate passage estimates; no transfer pitch or performing transposition is inferred."
+      "locator": "No. 2, printed pp. 12–17: running piano semiquavers, the freer central question and the piano postlude."
     },
     "timeline": [
       {
@@ -161,7 +125,7 @@ export default {
         "lead": [
           "piano"
         ],
-        "note": "The piano introduces the repeated flowing figure."
+        "note": "Semiquavers patter quietly in the piano."
       },
       {
         "t": 8,
@@ -172,7 +136,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "The voice’s longer notes lie above the continuously moving piano accompaniment."
+        "note": "Long vocal notes stretch above the piano’s running semiquavers."
       },
       {
         "t": 64,
@@ -183,7 +147,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "The freer central question changes the piano texture while the singer remains in the foreground."
+        "note": "The voice asks about betrayal; the piano’s semiquavers stop."
       },
       {
         "t": 82,
@@ -195,7 +159,7 @@ export default {
           "solo-voice",
           "piano"
         ],
-        "note": "The flowing accompaniment returns with the final stanza."
+        "note": "Running semiquavers return beneath the final stanza."
       },
       {
         "t": 120,
@@ -205,7 +169,7 @@ export default {
         "lead": [
           "piano"
         ],
-        "note": "The piano postlude carries the repeated figure beyond the vocal phrase."
+        "note": "The piano keeps the rain falling after the voice falls silent."
       }
     ]
   }

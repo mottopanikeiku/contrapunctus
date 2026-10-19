@@ -1,0 +1,114 @@
+{
+  "composer": "feldman",
+  "items": [
+    {
+      "work": "Rothko Chapel",
+      "year": "1971",
+      "performers": "Kim Kashkashian (viola), Sarah Rothenberg (celesta), Steven Schick (percussion), Lauren Snouffer (soprano), Sonja Bruzauskas (mezzo-soprano), Houston Chamber Choir, Robert Simpson (conductor)",
+      "recorded": "February 2013, The Brown Foundation Performing Arts Theater, Asia Society Texas Center, Houston",
+      "label": "ECM New Series 2378",
+      "note": "Feldman wrote this music for the Houston chapel housing Mark Rothko’s paintings. Kim Kashkashian’s viola sits among celesta, percussion and choir in an album that recreates the programme of the chapel’s fortieth-anniversary concert.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://ecmrecords.com/product/morton-feldman-erik-satie-john-cage-rothko-chapel-kim-kashkashian-sarah-rothenberg-steven-schick-houston-chamber-choir-robert-simpson/",
+          "title": "ECM Records"
+        },
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/watch?v=eZ8vD76Xa_o",
+          "title": "Kim Kashkashian - Topic (YouTube)"
+        },
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/us/album/feldman-satie-cage-rothko-chapel-and-other-works/1452289023",
+          "title": "Apple Music (ECM Records)"
+        }
+      ]
+    },
+    {
+      "work": "For Bunita Marcus",
+      "year": "1985",
+      "performers": "Marc-André Hamelin (piano)",
+      "recorded": "June 2016, Concert Hall, Wyastone Estate, Monmouth",
+      "label": "Hyperion CDA68048",
+      "note": "The piano stays very soft, its damper pedal held down while short phrases recur across seventy-two minutes. Hamelin’s finely controlled touch makes the smallest changes of tone matter.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68048",
+          "title": "Hyperion Records"
+        },
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/watch?v=wSEe_-doOeM",
+          "title": "Hyperion Records (YouTube, extract)"
+        },
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/us/album/morton-feldman-for-bunita-marcus/1697941490",
+          "title": "Apple Music (Hyperion Records)"
+        }
+      ]
+    },
+    {
+      "work": "Piano and String Quartet",
+      "year": "1985",
+      "performers": "Aki Takahashi (piano); Kronos Quartet: David Harrington, John Sherba (violins), Hank Dutt (viola), Joan Jeanrenaud (cello)",
+      "recorded": "November 1991, Skywalker Sound, Marin County, California",
+      "label": "Nonesuch 79320",
+      "note": "Feldman wrote it in 1985 for Aki Takahashi and the Kronos Quartet, the performers here, and the recording runs 79 minutes. Mark Swed’s liner note: “Chords never appear the same way twice; repetitions of motives are always subtly altered in rhythm.”",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.nonesuch.com/albums/feldman-piano-string-quartet",
+          "title": "Nonesuch Records"
+        },
+        {
+          "kind": "youtube",
+          "url": "https://www.youtube.com/watch?v=SEzPYIkfYOk",
+          "title": "Kronos Quartet - Topic (YouTube)"
+        },
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/6sGfsHBpYJrWEzBDtjtpP5",
+          "title": "Spotify (Nonesuch Records)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "ECM Records — Feldman / Satie / Cage: Rothko Chapel (album page, credits and booklet text)",
+      "url": "https://ecmrecords.com/product/morton-feldman-erik-satie-john-cage-rothko-chapel-kim-kashkashian-sarah-rothenberg-steven-schick-houston-chamber-choir-robert-simpson/"
+    },
+    {
+      "title": "ECM Reviews — Rothko Chapel (ECM New Series 2378), transcription of the album credits",
+      "url": "https://ecmreviews.com/2015/12/15/rothko-chapel/"
+    },
+    {
+      "title": "Universal Edition — Feldman: Rothko Chapel (1971)",
+      "url": "https://www.universaledition.com/en/Works/Rothko-Chapel/P0032205"
+    },
+    {
+      "title": "Hyperion Records — Feldman: For Bunita Marcus, CDA68048 (credits, Hamelin’s essay)",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68048"
+    },
+    {
+      "title": "Universal Edition — Feldman: For Bunita Marcus (1985), with Feldman’s comments on its metres",
+      "url": "https://www.universaledition.com/en/Works/For-Bunita-Marcus/P0017941"
+    },
+    {
+      "title": "Nonesuch Records — Feldman: Piano & String Quartet (musicians and production credits)",
+      "url": "https://www.nonesuch.com/albums/feldman-piano-string-quartet"
+    },
+    {
+      "title": "Kronos Quartet — Piano and String Quartet (credits and Mark Swed’s liner note)",
+      "url": "https://kronosquartet.org/recordings/detail/morton-feldman-piano-and-string-quarte/"
+    },
+    {
+      "title": "Universal Edition — Feldman: Piano and String Quartet (1985), dedication",
+      "url": "https://www.universaledition.com/en/Works/Piano-and-String-Quartet/P0030335"
+    }
+  ]
+}

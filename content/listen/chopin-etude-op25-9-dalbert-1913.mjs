@@ -9,7 +9,7 @@ export default {
   "key": "G♭ major",
   "forces": "Piano",
   "performers": "Eugen d’Albert, piano",
-  "recorded": "1912–13; Archive specifies March 1913",
+  "recorded": "1912–13",
   "source": {
     "archive": {
       "item": "02-eugen-d-albert-syposium-1146",
@@ -24,66 +24,40 @@ export default {
       ]
     }
   },
-  "intro": "The printed Symposium discography dates d’Albert’s Odeon Butterfly Étude to 1912–13; Internet Archive specifies March 1913 without independent corroboration of the month. Both identify catalogue 76563 and matrix xxB 5731, shared with the coupled Op. 25 No. 2; this access track separates the two pieces. It is an acoustic-era piano document, not a transparent modern stereo view of his touch.",
-  "question": "How much weight can a very short étude carry?",
+  "intro": "Liszt’s pupil Eugen d’Albert plays Chopin’s <i>Butterfly</i> étude on an Odeon recording from 1912–13. Its short slurs and detached octaves keep the piano hopping between phrases.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Opening figure",
-      "m": "A"
-    },
-    {
-      "t": 28,
-      "label": "First strong contrast",
-      "m": "B"
-    },
-    {
-      "t": 52,
-      "label": "Renewed span",
-      "m": "C"
-    },
-    {
-      "t": 80,
-      "label": "Retreat and ending",
-      "m": "D"
-    }
+    { "t": 0, "label": "A · Short slurs and detached octaves", "m": "A", "mNote": "The right hand alternates connected pairs with clipped notes" },
+    { "t": 28, "label": "B · Octaves hop across the keyboard", "m": "B", "mNote": "The little four-note figure changes key and climbs" },
+    { "t": 52, "label": "C · The short figure returns", "m": "C", "mNote": "Right-hand octaves continue above the left hand’s leaps" },
+    { "t": 80, "label": "D · The last piano chords fade", "m": "D", "mNote": "The study closes and the piano falls silent" }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "world",
-      "title": "The historic coupling",
-      "text": "The original Odeon side coupled this étude with Op. 25 No. 2. The supplied transfer has separate access tracks; this player uses the Butterfly file rather than constructing a new medley.",
-      "basis": "documented",
+      "kind": "music",
+      "title": "A small, springing figure",
+      "text": "The right hand’s four-note groups mix short slurs with detached notes and octaves. The left hand leaps between bass notes and chords. Chopin carries this little figure through the whole étude, changing its key and height on the keyboard.",
+      "basis": "general",
       "precision": "passage",
-      "evidence": "https://archive.org/details/02-eugen-d-albert-syposium-1146"
+      "evidence": "The recurring motif, key changes and staccato octaves: Mieczysław Tomaszewski, https://chopin.nifc.pl/en/chopin/kompozycja/263. Left-hand leaps and right-hand groups: Fred Yu, https://www.ourchopin.com/analysis/etude25.html."
     },
     {
       "t": 28,
-      "kind": "listen",
-      "title": "A compact strong contrast",
-      "text": "The largest measured change falls here, with another almost equal around 0:52. Follow how the short figure is weighted across the contrast rather than equating brevity with lightness.",
-      "basis": "audio-feature",
+      "kind": "life",
+      "title": "From Glasgow to Liszt",
+      "text": "D’Albert grows up far from the German concert halls that make his name. Born in Glasgow in 1864, he studies in London with teachers including Arthur Sullivan, then goes to Liszt. Alongside his career at the piano, he writes operas; <i>Tiefland</i> reaches the stage in 1903.",
+      "basis": "documented",
       "precision": "passage",
-      "evidence": "cache/analysis/chopin-etude-op25-9-dalbert-1913.txt: maximum novelty28 seconds; near-maximum52 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Baker’s Biographical Dictionary of Musicians: Glasgow birth, London training with Sullivan, study with Liszt and the 15 November 1903 Prague premiere of Tiefland. https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/dalbert-eugen-actually-eugene-francischarles"
     },
     {
       "t": 70,
-      "kind": "listen",
-      "title": "A later crest",
-      "text": "The highest five-second average level occurs late in the étude, around 1:10. Compare that placement with Neeman’s modern recording, whose leading level window is earlier in its shorter file.",
-      "basis": "audio-feature",
+      "kind": "world",
+      "title": "Two études on one side",
+      "text": "Odeon pairs <i>Butterfly</i> with Chopin’s F-minor étude, Op. 25 No. 2, on catalogue number 76563. Both pieces share one recording matrix. This short G♭-major study is the second half of that original disc side.",
+      "basis": "documented",
       "precision": "passage",
-      "evidence": "cache/analysis/chopin-etude-op25-9-dalbert-1913.txt: highest level70 seconds; next65 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
-    },
-    {
-      "t": 80,
-      "kind": "listen",
-      "title": "The sound retreats",
-      "text": "A strong measured change is followed by the quiet tail. The file length includes that tail; it must not be divided by another file’s length and presented as an exact tempo ratio.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-etude-op25-9-dalbert-1913.txt: novelty80 seconds; quiet windows80, 90, 95, 100 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Printed Symposium 1146 track list gives both études the same Odeon catalogue number 76563 and matrix xxB 5731, dated 1912/3. https://archive.org/download/02-eugen-d-albert-syposium-1146/D%27Albert%20tracks.jpg. The Archive filename specifies March 1913; the printed discography gives only the year range."
     }
   ]
 };

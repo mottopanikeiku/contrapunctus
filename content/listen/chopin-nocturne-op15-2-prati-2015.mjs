@@ -9,70 +9,62 @@ export default {
   "key": "F♯ major",
   "forces": "Piano",
   "performers": "Patrizia Prati, piano",
-  "recorded": "24 November 2015",
+  "recorded": "24 November 2015, Madrid",
   "source": {
     "file": "File:Fryderyk Chopin - Nocturne op. 15 n.2 Fis-dur - Patrizia Prati.ogg"
   },
-  "intro": "Patrizia Prati played this nocturne live at Madrid’s Museum of Romanticism on24 November 2015. She supplied the recording through Wikimedia Spain under CC BY-SA 4.0. Its live provenance is documented; a specific instrument model or unrecorded audience reaction is not.",
-  "question": "How does a live modern reading balance song and intensity?",
+  "intro": "Patrizia Prati plays Chopin’s F♯-major Nocturne in the empty rooms of Madrid’s Museum of Romanticism. Its poised opening melody has a quick, murmuring double life in the middle.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Opening cantabile",
-      "m": "A"
-    },
-    {
-      "t": 90,
-      "label": "Central departure",
-      "m": "B"
-    },
-    {
-      "t": 136,
-      "label": "Return region",
-      "m": "C"
-    },
-    {
-      "t": 194,
-      "label": "Closing span",
-      "m": "D"
-    }
+    { "t": 0, "label": "A · A singing line in F♯", "m": "A", "mNote": "The melody curls above a gently moving left hand" },
+    { "t": 90, "label": "B · The quick, hushed middle", "m": "B", "mNote": "Dotted rhythms and leaping bass, marked doppio movimento" },
+    { "t": 136, "label": "C · The first tune again", "m": "C", "mNote": "A pause prepares the return of the slow melody" },
+    { "t": 194, "label": "D · The F♯-major close", "m": "D", "mNote": "Small notes descend above the final bass" }
   ],
   "cues": [
     {
       "t": 0,
+      "kind": "music",
+      "title": "An upbeat takes flight",
+      "text": "Two quick notes, A♯ and B, set the melody moving. The phrase falls, rests on repeated C♯s, then sends a flourish upwards. Chopin keeps adding new little runs to a tune that remains easy to recognise.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Breitkopf & Härtel first edition, upbeat and bars 1–16. https://chopinscores.org/partytura/86"
+    },
+    {
+      "t": 60,
       "kind": "world",
-      "title": "A documented live setting",
-      "text": "This is Prati’s24 November 2015 Museum of Romanticism performance, not an anonymous studio track. Compare the phrasing with the historical discs, while keeping the different recording conditions in mind.",
+      "title": "Chopin in a Madrid museum",
+      "text": "Prati records at the Museum of Romanticism on 24 November 2015, without an audience: a first concert there had been ruined by coughing and mobile phones. She gives the recordings to Wikimedia Spain, twelve Chopin nocturnes among them.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg"
+      "evidence": "Rubén Ojeda (Wikimedia España), “La música del Romanticismo suena en Wikipedia”, 14 February 2016: https://diff.wikimedia.org/es/2016/02/14/la-musica-del-romanticismo-suena-en-wikipedia/ ; Commons file page: https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._15_n.2_Fis-dur_-_Patrizia_Prati.ogg"
     },
     {
       "t": 90,
-      "kind": "listen",
-      "title": "The strongest central change",
-      "text": "The largest measured change occurs here, with another almost as strong near 1:58. Follow the developing contrast through both points instead of hearing the middle as one uniform acceleration.",
-      "basis": "audio-feature",
+      "kind": "form",
+      "title": "Dotted notes over C♯",
+      "text": "The quick middle begins over a C♯ bass. The right hand is suddenly crowded: a dotted melody above a running accompaniment, both played <i>sotto voce</i>. The bass makes wide jumps while the tune grows more insistent.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/chopin-nocturne-op15-2-prati-2015.txt: maximum novelty90 seconds; near-maximum118 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Breitkopf & Härtel first edition, bars 25–32: C♯ dominant harmony, doppio movimento and sotto voce. https://chopinscores.org/partytura/86"
     },
     {
-      "t": 120,
-      "kind": "listen",
-      "title": "A sustained high region",
-      "text": "The highest average level falls around 2:00; the other leading windows cluster around it. This records the shape of the captured sound, not a calibrated comparison of how hard different pianists struck the keys.",
-      "basis": "audio-feature",
+      "t": 136,
+      "kind": "form",
+      "title": "A familiar upbeat",
+      "text": "The middle ends in repeated figures that slow and die away. A pause separates them from the returning A♯–B upbeat. The song comes back in the first tempo, still growing fresh ornaments.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/chopin-nocturne-op15-2-prati-2015.txt: high five-second windows115–135 seconds, highest120 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Breitkopf & Härtel first edition, bars 47–52, marked molto rallentando, smorzando and a Tempo. https://chopinscores.org/partytura/86"
     },
     {
       "t": 194,
-      "kind": "listen",
-      "title": "The close withdraws",
-      "text": "A later change precedes the quiet ending. Listen past the fresh attacks to the resonance that remains; the file’s fading tail is included in its duration.",
-      "basis": "audio-feature",
+      "kind": "music",
+      "title": "A quiet tumble home",
+      "text": "The closing flourishes tumble down through the notes of F♯ major. <i>Smorzando</i> asks the piano to die away. At the bottom of all that decoration sits the last low F♯.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/chopin-nocturne-op15-2-prati-2015.txt: novelty194 seconds; quietest ending window215 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Breitkopf & Härtel first edition, bars 60–62. https://chopinscores.org/partytura/86"
     }
   ]
 };

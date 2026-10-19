@@ -9,70 +9,62 @@ export default {
   "key": "F♯ major",
   "forces": "Piano",
   "performers": "Ignacy Jan Paderewski, piano",
-  "recorded": "30 January 1937",
+  "recorded": "30 January 1937, London",
   "source": {
     "file": "File:Ignacy Jan Paderewski - Nocturne in F-sharp major, Op. 15, No. 2 (Chopin) - Hmv-db3711-2ea4573.ogg"
   },
-  "intro": "Paderewski recorded this nocturne in London on30 January 1937, two decades after the Victor performance also in the comparison. His own 1909 essay treats rubato as expressive flexibility, not a debt that must always be repaid later in the bar. That is documented context for listening, not permission to invent a timed gesture.",
-  "question": "What changes across two decades of one pianist’s nocturne?",
+  "intro": "Twenty years after his New York recording, Paderewski returns to this nocturne in London. The F♯-major song and its restless middle are still in his hands in January 1937, just before his appearance on cinema screens in <i>Moonlight Sonata</i>.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Opening cantabile",
-      "m": "A"
-    },
-    {
-      "t": 86,
-      "label": "Central departure",
-      "m": "B"
-    },
-    {
-      "t": 140,
-      "label": "Quieter return region",
-      "m": "C"
-    },
-    {
-      "t": 196,
-      "label": "Closing span",
-      "m": "D"
-    }
+    { "t": 0, "label": "A · The decorated F♯-major melody", "m": "A", "mNote": "The left hand steps between low notes and chords" },
+    { "t": 86, "label": "B · Doppio movimento, sotto voce", "m": "B", "mNote": "A dotted tune and quick notes share the right hand" },
+    { "t": 140, "label": "C · The slow melody returns", "m": "C", "mNote": "The opening upbeat returns after the quick figures subside" },
+    { "t": 196, "label": "D · F♯ and the last flourishes", "m": "D", "mNote": "Descending groups of small notes, marked smorzando" }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "world",
-      "title": "Rubato on his own terms",
-      "text": "Paderewski wrote that time taken from a phrase need not be paid back mechanically. Listen for the larger line rather than using a metronome as the sole judge of his 1937 performance.",
-      "basis": "documented",
+      "kind": "music",
+      "title": "A bass below the singer",
+      "text": "The left hand makes a small circuit: low bass, higher note, chord, higher note again. Above it, the right hand’s melody pauses on long notes and slips into quick flourishes. The opening marking is <i>sostenuto</i>, sustained.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://polishmusic.usc.edu/research/publications/polish-music-journal/vol4no1/paderewski-tempo-rubato/"
+      "evidence": "Breitkopf & Härtel first edition, upbeat and bars 1–4. https://chopinscores.org/partytura/86"
     },
     {
       "t": 86,
-      "kind": "listen",
-      "title": "The central departure",
-      "text": "A pair of strong measured changes occurs around 1:26–1:30, followed by the recording’s largest change at 1:46. Hear the growing contrast as a span rather than a single precisely timed pivot.",
-      "basis": "audio-feature",
+      "kind": "form",
+      "title": "Two jobs for one hand",
+      "text": "The right hand now carries a dotted melody and a busy line underneath it. The left hand jumps below both. <i>Doppio movimento</i> doubles the pace; <i>sotto voce</i> asks for a subdued beginning.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/chopin-nocturne-op15-2-paderewski-1937.txt: novelty86, 90, 106 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Breitkopf & Härtel first edition, bars 25–32. https://chopinscores.org/partytura/86"
     },
     {
-      "t": 125,
-      "kind": "listen",
-      "title": "The crest arrives later",
-      "text": "The highest five-second average level occurs around 2:05. Compare the spacing of the approach with the 1917 performance rather than calling either one simply faster throughout.",
-      "basis": "audio-feature",
+      "t": 140,
+      "kind": "form",
+      "title": "Back to the Larghetto",
+      "text": "The quick figures slow down and dwindle. After a pause, the opening tune resumes its old pace. Chopin writes fresh ornaments into the reprise, then sends small notes tumbling towards the final F♯.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/chopin-nocturne-op15-2-paderewski-1937.txt: highest level125 seconds; neighbouring high windows110–120 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Breitkopf & Härtel first edition, bars 47–62: slowing, pause, a Tempo and the decorated closing section. https://chopinscores.org/partytura/86"
+    },
+    {
+      "t": 166,
+      "kind": "world",
+      "title": "Paderewski on the screen",
+      "text": "In February 1937, <i>Moonlight Sonata</i> brings Paderewski into British cinemas. He plays himself in a romance involving a forced landing and a Swedish baroness. The camera also stays with him at the piano for Beethoven’s slow movement and his own Minuet.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "The film opens on 11 February 1937: https://en.wikipedia.org/wiki/Moonlight_Sonata_(film). Chicago Film Archives describes its preserved performance excerpts: https://collections.chicagofilmarchives.org/Detail/objects/2737"
     },
     {
       "t": 196,
-      "kind": "listen",
-      "title": "The late turn",
-      "text": "A strong measured change introduces the closing region. The transfer then falls towards its quiet ending; its noise floor cannot tell us exactly when the pianist released the pedal.",
-      "basis": "audio-feature",
+      "kind": "music",
+      "title": "The last small notes",
+      "text": "Groups of tiny notes run down through the F♯ harmony. Chopin writes <i>smorzando</i> — dying away — over the final descent. The bass settles on a low F♯, with A♯ left above it.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/chopin-nocturne-op15-2-paderewski-1937.txt: novelty196 seconds; quiet final windows215–220 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Breitkopf & Härtel first edition, bars 60–62, including the smorzando descent and final F♯–A♯. https://chopinscores.org/partytura/86"
     }
   ]
 };

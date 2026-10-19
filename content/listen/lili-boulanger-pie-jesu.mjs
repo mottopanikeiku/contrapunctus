@@ -20,123 +20,86 @@ export default {
       "evidence": "Everest mono LPBR 6059: sleeve ©1960 Belock Instrument Corp. (https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt); Edwards and Callahan Everest Classical Album Discography lists LPBR 6059 / SDBR 3059 [1960] (https://www.bsnpubs.com/decca/deccadist/everest%20classical.pdf). First publication documented by 1960, anywhere; territorial EU rule 3 only. US recording status not established."
     }
   },
-  "intro": "A single high voice faces the organ’s restless harmony, with four strings and a harp rather than a full orchestra. Alain Fauqueur sings Boulanger’s last completed work; listen for how the small ensemble makes its final calm sound earned rather than automatic.",
-  "question": "What changes when the unsettled organ writing gives way to the quiet major-key ending?",
+  "intro": "Alain Fauqueur’s boy soprano sings Boulanger’s last completed work, a prayer surrounded by restless organ chords and four solo strings. The harp waits until the closing pages, where the music finds G major.",
   "sections": [
     {
       "t": 0,
-      "label": "Unsettled prayer",
+      "label": "A · Voice above chromatic organ",
       "m": "A",
-      "mNote": "chromatic organ writing beneath a single high voice"
+      "mNote": "The organ moves in semitones beneath long vocal notes"
     },
     {
       "t": 94,
-      "label": "Instrumental pressure",
+      "label": "B · Organ and strings alone",
       "m": "B",
-      "mNote": "strings and organ enlarge the phrase"
+      "mNote": "The singer rests while the organ and strings climb"
     },
     {
       "t": 134,
-      "label": "The voice resumes",
+      "label": "C · The quiet voice returns",
       "m": "C",
-      "mNote": "a quieter plea grows more animated"
+      "mNote": "A plaintive vocal line over repeated organ pedal notes"
     },
     {
       "t": 204,
-      "label": "Quiet major close",
+      "label": "D · Harp and muted strings",
       "m": "D",
-      "mNote": "harp and muted strings soften the final prayer"
+      "mNote": "Harp and muted strings carry the prayer towards G major"
     }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "form",
-      "title": "A chamber prayer",
-      "text": "One singer, two violins, viola, cello, harp and organ make up this chamber score. There is no double-bass part and no chorus. Keep the organ’s moving harmony in your ear as the voice stretches across it.",
-      "basis": "documented",
+      "kind": "music",
+      "title": "Semitones beneath the prayer",
+      "text": "The organ’s paired notes creep up and down by semitones. Above them, the strings hold their notes and the voice stretches the Latin prayer into long phrases. The harp has nothing to play yet.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, title and printed pp. 2–7: https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf. Whole-work listening point, not an assertion that a particular note or entrance occurs at this timestamp."
-    },
-    {
-      "t": 35,
-      "kind": "listen",
-      "title": "Motion beneath a held line",
-      "text": "The opening organ part keeps changing beneath the longer vocal notes. Listen for the difference between a sustained melody and an accompaniment that will not quite settle: quietness need not mean harmonic rest.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 2–3: https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf. Whole-work listening point, not an assertion that a particular note or entrance occurs at this timestamp."
+      "evidence": "Durand full score, plate D. & F. 10086 (1922), pp. 2–3: Assez lent, chromatic organ writing, sustained strings and vocal line; harp rests. https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf"
     },
     {
       "t": 70,
       "kind": "life",
-      "title": "Written through her sister",
-      "text": "Boulanger dictated this last work to Nadia when she could no longer write it herself. The circumstance explains how the score was preserved; it does not tell us what every dissonance was meant to represent.",
+      "title": "Nadia takes the dictation",
+      "text": "In 1918 Lili is too ill to write the notes herself. From her bed she dictates <i>Pie Jesu</i> to Nadia, her elder sister. It is her last completed work.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Everest insert, Pie Jesu paragraph; also the scholarly biography at https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html https://i.discogs.com/ecobVEtkndUWiEUEMLY8MtA8w9JdTo5FZXqN58TzXGA/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNTY4/NTItMTQ3MzM1MTAw/MC02NTk5LmpwZWc.jpeg"
+      "evidence": "Konstantin Galluhn, preface to Vieille prière bouddhique (Musikproduktion Höflich, 2010), describes the dictation of Pie Jesu from Boulanger’s sickbed. https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
     },
     {
-      "t": 105,
+      "t": 94,
       "kind": "music",
-      "title": "Pressure without a chorus",
-      "text": "The small ensemble reaches a sustained rise in intensity here. Follow the length of the build, then the retreat: the scale of the phrase matters more than the number of performers.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Actual cached mono stream: cache/analysis/lili-boulanger-pie-jesu.txt, the level rises through roughly 1:35–2:00 before the marked withdrawal near 2:14 Source file: https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d. These measurements establish the broad contour, not isolated instruments or words."
-    },
-    {
-      "t": 140,
-      "kind": "listen",
-      "title": "Room after the crest",
-      "text": "The sound has drawn back sharply. Listen across the softer passage rather than treating it as a fresh beginning: the return of pressure will grow out of this quieter space.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Actual cached mono stream: cache/analysis/lili-boulanger-pie-jesu.txt, a strong boundary at 2:14 separates the preceding crest from the quieter 2:15–2:35 windows Source file: https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d. These measurements establish the broad contour, not isolated instruments or words."
-    },
-    {
-      "t": 175,
-      "kind": "world",
-      "title": "A boy’s solo voice",
-      "text": "The soloist is Alain Fauqueur of the Petits Chanteurs de Vincennes, not an unnamed soprano and not the album’s adult contralto. The sleeve credits Igor Markevitch as conductor and Nadia Boulanger with recording supervision.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Roster on the insert front; the individual Pie Jesu heading names Fauqueur on https://i.discogs.com/ecobVEtkndUWiEUEMLY8MtA8w9JdTo5FZXqN58TzXGA/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNTY4/NTItMTQ3MzM1MTAw/MC02NTk5LmpwZWc.jpeg https://i.discogs.com/XrNcaeuOsiqmWirxmPgDAtlexW1ImUbc9UpE5Aw4kkg/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNTY4/NTItMTQ3MzM1MDk5/Ny02MDQ1LmpwZWc.jpeg"
-    },
-    {
-      "t": 210,
-      "kind": "form",
-      "title": "A different kind of rest",
-      "text": "In the closing passage the score turns to G major, slows, and brings in the previously silent harp beside muted strings. Listen for a change of harmonic footing and accompaniment, rather than assuming that repose must mean a lower recorded volume.",
+      "title": "The organ grows",
+      "text": "With the singer silent, the organ takes the chromatic figure into both hands. Boulanger asks the player to add stops little by little. The string lines climb with it, and the score insists on <i>Sans presser</i> — without hurrying.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 6–7, figure 4, Lent: https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf. cache/analysis/lili-boulanger-pie-jesu.txt: the level rises from −16.7 dB at 3:15 to −6.9 dB at 3:20, with a structural boundary near 3:24. This contrast anchors the closing region approximately; the G-major identification and quiet written dynamics come from the score, not a claim that this recording suddenly gets softer."
+      "evidence": "Durand full score (1922), p. 4, figure 2: vocal rests, expanding organ registration, string crescendo and Sans presser."
     },
     {
-      "t": 245,
-      "kind": "life",
-      "title": "A posthumous score",
-      "text": "Boulanger died in March 1918, aged twenty-four. Durand published the Pie Jesu after her death; the consulted score carries the original 1922 copyright, although this scan is of a later impression.",
-      "basis": "documented",
+      "t": 134,
+      "kind": "form",
+      "title": "A plaintive voice",
+      "text": "The voice returns <i>pianissimo</i>, marked <i>plaintif</i>. Underneath, the organ pedal repeats the same low note while the upper chords shift. Little string solos enter around the singer: first viola, then second violin and cello.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Publication information and score title page; biographical dates: https://guides.loc.gov/feminism-french-women-history/famous/lili-boulanger https://imslp.org/wiki/Pie_Jesu_(Boulanger,_Lili)"
+      "evidence": "Durand full score (1922), pp. 4–5: plaintif vocal return, repeated organ pedal and successive solo string entries before figure 3."
     },
     {
-      "t": 275,
-      "kind": "listen",
-      "title": "Leave space for the ending",
-      "text": "The final sound thins into resonance. Keep listening after the phrase seems complete: the remaining instrumental sound belongs to the ending, not to a new section.",
-      "basis": "audio-feature",
+      "t": 204,
+      "kind": "form",
+      "title": "The waiting harp",
+      "text": "The harp finally joins in. Boulanger marks the strings muted and the tempo <i>Lent</i>; the voice is calm and clear. Chromatic notes still pass through the accompaniment, but the final Amen settles over a low G, and the last chord is G major.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Actual cached mono stream: cache/analysis/lili-boulanger-pie-jesu.txt, the final windows decline towards the file’s end at 4:46.2; this does not locate the exact vocal release Source file: https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d. These measurements establish the broad contour, not isolated instruments or words."
+      "evidence": "Durand full score (1922), pp. 6–7, figure 4 to the end: Lent, harp entry, muted strings, Amen and final G-major chord."
     }
   ],
   "transitions": [
     {
       "id": "into-instrumental-pressure",
-      "title": "The organ’s unease becomes instrumental",
-      "from": "Unsettled prayer",
-      "to": "Instrumental pressure",
+      "title": "The organ takes both lines",
+      "from": "A · Voice above chromatic organ",
+      "to": "B · Organ and strings alone",
       "at": {
         "t": 94
       },
@@ -144,7 +107,7 @@ export default {
         81,
         111
       ],
-      "how": "<p>At figure 2 the voice rests while organ and strings carry the tension. The organ’s chromatic motion continues rather than yielding to a clean break, and the strings enlarge the rising line. A crescendo makes the instrumental paragraph an intensification of the prayer, not an unrelated interlude.</p>",
+      "how": "<p>At figure 2 the singer rests. The organ’s chromatic figure spreads into both hands above long pedal notes, and the strings climb through a crescendo. Boulanger gradually adds organ stops, then writes <i>Sans presser</i>: the G-minor prayer swells without a faster beat.</p>",
       "devices": [
         "texture change",
         "crescendo build",
@@ -152,13 +115,13 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed p. 4, figure 2: https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf. Actual cached analysis, cache/analysis/lili-boulanger-pie-jesu.txt: the rise around 1:34–2:00 supplies the broad anchor. The written mechanism is documented; its placement in this recording is approximate, not a timed word or bar alignment."
+      "evidence": "Durand full score (1922), p. 4, figure 2: vocal rests, organ registration instructions, rising string parts and Sans presser."
     },
     {
       "id": "into-renewed-plea",
-      "title": "A quieter voice answers the crest",
-      "from": "Instrumental pressure",
-      "to": "The voice resumes",
+      "title": "One quiet voice",
+      "from": "B · Organ and strings alone",
+      "to": "C · The quiet voice returns",
       "at": {
         "t": 134
       },
@@ -166,7 +129,7 @@ export default {
         121,
         151
       ],
-      "how": "<p>The instrumental crest subsides; the returning voice is marked very quiet and plaintive while the organ continues underneath. Strings give way around the renewed vocal phrase. Boulanger changes the balance of the small ensemble rather than stopping the harmonic motion; the later “Un peu animé” lets urgency return within the same prayer.</p>",
+      "how": "<p>The strings cut off after their forceful chord. The organ drops to <i>pianissimo</i>, its pedal beating a repeated low note beneath held, shifting chords. The voice resumes with <i>Pie Jesu</i>, marked <i>plaintif</i>; the viola and other strings return one at a time.</p>",
       "devices": [
         "decrescendo",
         "orchestration change",
@@ -174,13 +137,13 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 4–5, vocal return and figure 3: https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf. Actual cached analysis, cache/analysis/lili-boulanger-pie-jesu.txt: the strong 2:14 change and lower subsequent level locate the withdrawal. The written mechanism is documented; its placement in this recording is approximate, not a timed word or bar alignment."
+      "evidence": "Durand full score (1922), pp. 4–5: final instrumental chord, pianissimo organ, plaintif vocal return and solo string entries."
     },
     {
       "id": "into-major-close",
-      "title": "Harp colour accompanies a harmonic release",
-      "from": "The voice resumes",
-      "to": "Quiet major close",
+      "title": "G major, with harp",
+      "from": "C · The quiet voice returns",
+      "to": "D · Harp and muted strings",
       "at": {
         "t": 204
       },
@@ -188,7 +151,7 @@ export default {
         190,
         225
       ],
-      "how": "<p>A pronounced slowing leads into the Lent passage at figure 4. G major replaces the earlier minor-key unease; the harp enters beside muted strings, and the organ supports a more settled bass. The high voice remains central, but its surroundings have changed from restless chromatic motion to a quieter sustained close.</p>",
+      "how": "<p>A long <i>ritardando</i> leads to <i>Lent</i> and a new, one-sharp key signature. The harp enters, the strings put on mutes, and the organ holds a low G. Semitones still pass through the upper parts; G major becomes fully clear in the final Amen.</p>",
       "devices": [
         "tempo change",
         "orchestration change",
@@ -197,7 +160,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 6–7, figure 4 and final G-major chord: https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf. Actual cached analysis, cache/analysis/lili-boulanger-pie-jesu.txt: the level rises sharply out of the 3:15 dip, with a boundary near 3:24; the final withdrawal occurs later, after about 4:10. The score supplies G major, harp entry and slowing. Their placement is approximate, not a timed word or bar alignment."
+      "evidence": "Durand full score (1922), pp. 6–7: Rit. molto, figure 4 (Lent), harp entry, muted strings, G pedal and final G-major chord."
     }
   ],
   "orchestra": {
@@ -214,7 +177,7 @@ export default {
     "source": {
       "title": "Lili Boulanger, Pie Jesu, Durand full score, plate D. & F. 10086",
       "url": "https://ks15.imslp.org/files/imglnks/usimg/b/bf/IMSLP230262-SIBLEY1802.21472.93de-39087015816665score.pdf",
-      "locator": "Printed pp. 2–7. Quartet icons represent individual string players, not orchestral sections. The exact performing edition and unnamed string/harp players are unestablished. Representative passage snapshots, placed approximately using the cached level/novelty report and score order. Not continuous player detection; individual rests are not mapped."
+      "locator": "Printed pp. 2–7. The string parts are for two violins, viola and cello. The harp enters at figure 4, alongside the muted strings."
     },
     "timeline": [
       {
@@ -229,7 +192,7 @@ export default {
         "lead": [
           "organ"
         ],
-        "note": "Opening instrumental setting: organ motion and sustained string entries; the harp is silent."
+        "note": "The organ moves in semitones beneath held string notes. The harp rests."
       },
       {
         "t": 15,
@@ -244,7 +207,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "Representative opening vocal phrase over organ and sustained strings, printed p. 2; entrance time approximate."
+        "note": "The voice enters over the organ’s moving line and sustained strings."
       },
       {
         "t": 55,
@@ -255,7 +218,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "At figure 1 the strings fall away around the vocal continuation; organ keeps the inner movement."
+        "note": "The strings fall silent at figure 1. The organ’s running notes continue beneath the voice."
       },
       {
         "t": 94,
@@ -270,7 +233,7 @@ export default {
           "organ",
           "violins-1"
         ],
-        "note": "Figure 2’s instrumental paragraph gives the strings and organ the foreground."
+        "note": "The singer rests at figure 2 while organ and strings carry the phrase."
       },
       {
         "t": 134,
@@ -281,7 +244,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "The quiet, plaintive vocal return begins with organ; strings are not continuously present."
+        "note": "The voice returns quietly, marked plaintif, over the organ’s repeated pedal note."
       },
       {
         "t": 170,
@@ -296,7 +259,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "The more animated continuation brings the string quartet back around the vocal line."
+        "note": "The string quartet returns around the voice as the organ’s chords grow more insistent."
       },
       {
         "t": 204,
@@ -313,7 +276,7 @@ export default {
           "solo-voice",
           "harp"
         ],
-        "note": "Figure 4’s closing region adds harp and muted quartet. The final instrumental release follows the voice."
+        "note": "Harp and muted strings join the voice at figure 4. Their final G major chord outlasts the singer."
       }
     ]
   }

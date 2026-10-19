@@ -18,168 +18,143 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme XIV. Finale E.D.U.ogg"
   },
-  "intro": "Elgar gives himself the final portrait, then makes it a conclusion to the whole set. Brisk fragments, broad recollections and a forceful G-major ending turn the private circle of friends into a public orchestral statement.",
-  "question": "How can a self-portrait also bring everyone else’s music to a close?",
+  "intro": "Alice calls her husband Edoo, and Elgar gives that name to his own swaggering finale. Her music and Jaeger’s return inside it: the two people who keep him composing are there at the finish.",
   "sections": [
     {
       "t": 0,
-      "label": "XIV · The self-portrait",
+      "label": "Var 14 · Edoo enters quietly",
       "m": "Var 14",
-      "mNote": "short, quiet fragments grow into a forceful Allegro"
+      "mNote": "Short violin and bassoon figures over a detached bass"
     },
     {
       "t": 124,
-      "label": "A withdrawn middle span",
+      "label": "Link · Quiet winds and divided cellos",
       "m": "Link",
-      "mNote": "the recorded weight drops before a new build"
+      "mNote": "Soft cello quavers continue beneath the wind phrases"
     },
     {
       "t": 154,
-      "label": "The finale gathers force",
+      "label": "Var 14 · Animando: the strings press on",
       "m": "Var 14",
-      "mNote": "the broad concluding span resumes the forward drive"
+      "mNote": "Woodwinds and horns join the growing string phrase"
     },
     {
       "t": 248,
-      "label": "Final cadence",
+      "label": "Coda · G major, full orchestra",
       "m": "Coda",
-      "mNote": "the G-major conclusion brings the set to rest"
+      "mNote": "The bass holds G beneath the final chords"
     }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "listen",
-      "title": "Quiet pieces of a finale",
-      "text": "The finale begins softly, with short figures spread across strings and winds. Do not expect its eventual weight immediately: listen for how the fragments accumulate into a larger statement.",
-      "basis": "general",
+      "kind": "music",
+      "title": "Edoo keeps us waiting",
+      "text": "Elgar’s own variation enters on tiptoe. Short phrases pass between first violins, cellos and bassoons above detached notes in the bass. Even the trombones and tuba play very softly; the grand finale has yet to show its face.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello p. 93, rehearsal 61, gives pp/ppp fragmented entries; the report begins quietly and rises through 0:10–0:20."
+      "evidence": "Novello full score, p. 93, rehearsal 61: Allegro, soft string and bassoon figures, detached low strings and brass marked ppp."
     },
     {
       "t": 30,
-      "kind": "world",
-      "title": "Edward Elgar, or Edoo",
-      "text": "“E.D.U.” is Elgar’s own portrait. The initials reflect “Edoo”, Alice’s affectionate name for him; the final variation places the composer among the friends and family pictured throughout the set.",
+      "kind": "life",
+      "title": "Alice’s name for him",
+      "text": "E.D.U. is Elgar’s spelling of Edoo, Alice’s pet name for him. He places himself at the end of the fourteen portraits, in music full of the confidence he struggles to muster while teaching violin and waiting for recognition.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The Elgar Society identifies the subject and nickname. https://elgar.org/3enigma.htm"
-    },
-    {
-      "t": 60,
-      "kind": "music",
-      "title": "The larger pulse",
-      "text": "The fast surface figures sit inside a firm larger beat. Try to hear groups of gestures rather than counting every short note: the finale’s forward drive depends on how those groups answer and build.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Novello pp. 93–128, Allegro, contains short repeated figures set against broader phrases. General whole-finale listening suggestion."
+      "evidence": "The nickname and subject: https://elgar.org/3enigma.htm. Elgar’s own commentary describes the variation as his answer to discouragement about his musical future: https://en.wikipedia.org/wiki/Enigma_Variations, variation XIV."
     },
     {
       "t": 90,
-      "kind": "world",
-      "title": "Friends within the self-portrait",
-      "text": "The finale recalls C.A.E. and Nimrod, the portraits of Alice and August Jaeger. Their presence makes the self-portrait relational: wife and friend remain part of the final musical argument.",
-      "basis": "documented",
+      "kind": "form",
+      "title": "Alice and Jaeger return",
+      "text": "Elgar makes room in his self-portrait for two other people. The finale recalls Alice’s variation, C.A.E., and Jaeger’s, <i>Nimrod</i>. Their broad melodies sit among Edoo’s quick figures; his wife and his most demanding friend both have a say.",
+      "basis": "general",
       "precision": "passage",
-      "evidence": "Elgar’s commentary and the Elgar Society identify the recalls; this contextual cue does not claim either quotation begins at 1:30. https://elgar.org/3enigma.htm https://en.wikipedia.org/wiki/Enigma_Variations"
+      "evidence": "Elgar identifies the recollections of variations I and IX in his commentary on the finale, reproduced at https://en.wikipedia.org/wiki/Enigma_Variations. This note concerns the finale as a whole."
     },
     {
-      "t": 127,
+      "t": 124,
       "kind": "music",
-      "title": "A striking withdrawal",
-      "text": "After the preceding drive, the recorded level drops sharply. Keep listening through this less forceful span: a quiet interval can prepare the return of the finale’s weight rather than interrupt its design.",
-      "basis": "audio-feature",
+      "title": "Cellos beneath the conversation",
+      "text": "The bustle clears, leaving quiet wind phrases above divided cellos. Their soft quavers keep the Allegro moving. When the first violins return, Elgar marks them <i>pianississimo, non legato</i> — very soft, with the notes kept separate.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The report’s 2:04 boundary is followed by windows at −28.0 and −25.4 dB, against roughly −10.5 dB at 2:00. No theme identity is assigned from that drop."
-    },
-    {
-      "t": 160,
-      "kind": "music",
-      "title": "The weight returns",
-      "text": "The texture regains force in stages rather than in a single isolated blow. Follow the direction of the build across several phrases, separating the broad rise from the smaller accents inside it.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report changes at 2:34 and rises through 2:35–3:00, with further sustained high-level spans afterwards."
+      "evidence": "Novello full score, p. 111, approach to rehearsal 73: woodwind solos over divided cellos, followed by first violins marked ppp non legato."
     },
     {
       "t": 198,
       "kind": "life",
-      "title": "An ending reconsidered",
-      "text": "The finale heard at the first performance is shorter than the revised published ending. Jaeger encourages Elgar to enlarge it; the revision receives its first performance at Worcester in September 1899 under Elgar.",
+      "title": "Jaeger asks for more",
+      "text": "After the London première, Jaeger persuades Elgar to enlarge the ending. Elgar adds ninety-six bars and an organ part. He conducts the expanded version himself at the Worcester Three Choirs Festival on 13 September 1899.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The work account documents the extension and 13 September 1899 performance. The source transfer’s precise edition and every bar of its ending have not been independently collated. https://en.wikipedia.org/wiki/Enigma_Variations"
+      "evidence": "The revision, its extent and the Worcester performance are documented at https://en.wikipedia.org/wiki/Enigma_Variations, citing Michael Kennedy and the work’s performance history. The organ is optional in the published score."
     },
     {
-      "t": 235,
-      "kind": "listen",
-      "title": "More than a louder repeat",
-      "text": "Near the close, listen for how short gestures serve a sustained arrival. A finale can recall its material while changing its function: ideas that once set the music in motion now help bring it to rest.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "A general formal listening suggestion based on the published finale, without claiming a particular quotation at this timestamp."
-    },
-    {
-      "t": 253,
+      "t": 248,
       "kind": "music",
-      "title": "G major at the finish",
-      "text": "The published score ends decisively in G major. Listen to the last orchestral gestures and their decay as the end of the whole set, not merely the stopping point of another short portrait.",
+      "title": "The last G major",
+      "text": "The full orchestra plants its feet on G major. The bass holds G while the upper parts finish their last phrases; a timpani roll grows beneath the final chord. Elgar lets the sound ring, then cuts it off.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello pp. 126–128 supply the closing G-major cadence. The report changes at 4:08 and descends through its last 4:10–4:20 windows."
+      "evidence": "Novello full score, pp. 126–128: concluding G-major chords, a sustained tonic bass and the final timpani crescendo."
     }
   ],
   "transitions": [
     {
       "id": "middle-withdrawal",
-      "title": "The drive suddenly loses weight",
-      "from": "XIV · The self-portrait",
-      "to": "A withdrawn middle span",
+      "title": "Divided cellos keep the pulse",
+      "from": "Var 14 · Edoo enters quietly",
+      "to": "Link · Quiet winds and divided cellos",
       "at": {
         "t": 124
       },
-      "how": "<p>The preceding orchestral drive releases into a much quieter passage. This change of dynamic and texture lets sustained lines come forward after the shorter, more forceful gestures. The quieter span is part of the finale’s contrast, not a new numbered variation.</p>",
+      "how": "<p>The rushing string phrases subside into repeated soft quavers in the divided cellos and basses. Oboes, clarinets and bassoons answer above them, marked <i>espressivo</i>. The Allegro continues; at rehearsal 73, very quiet violins pick up the melody over pizzicato bass notes.</p>",
       "devices": [
         "decrescendo",
-        "texture change"
-      ],
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report’s strong 2:04 boundary and abrupt 2:05–2:10 level drop anchor this broad transition. No precise score bar or quoted-theme identity is claimed."
-    },
-    {
-      "id": "returning-force",
-      "title": "The texture builds again",
-      "from": "A withdrawn middle span",
-      "to": "The finale gathers force",
-      "at": {
-        "t": 154
-      },
-      "how": "<p>The quieter texture gathers more orchestral weight and a stronger forward pulse. Accents and moving figures support the larger phrase, so the return of force unfolds as a build rather than a single disconnected attack.</p>",
-      "devices": [
-        "crescendo build",
-        "texture change"
-      ],
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report changes at 2:34 and rises through the following half-minute. The statement describes the measured broad contour, not an inferred instrumental entrance."
-    },
-    {
-      "id": "final-cadence",
-      "title": "The forward motion becomes an ending",
-      "from": "The finale gathers force",
-      "to": "Final cadence",
-      "at": {
-        "t": 248
-      },
-      "how": "<p>The concluding G-major gestures turn forward momentum into a final cadence. Repeated orchestral weight confirms the tonic, then the held sound and its decay bring both the self-portrait and the complete sequence to rest.</p>",
-      "devices": [
-        "perfect cadence",
-        "tonic pedal"
+        "texture change",
+        "orchestration change"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello pp. 126–128 supply the tonic conclusion. The report changes at 4:08 and falls through its final windows; the marker covers the closing span rather than a single chord."
+      "evidence": "Novello full score, p. 111, before and at rehearsal 73: repeated low-string quavers, expressive woodwind phrases and the violin return over pizzicato bass."
+    },
+    {
+      "id": "returning-force",
+      "title": "Animando sets the strings moving",
+      "from": "Link · Quiet winds and divided cellos",
+      "to": "Var 14 · Animando: the strings press on",
+      "at": {
+        "t": 154
+      },
+      "how": "<p>Low brass and timpani sustain their soft chord while the violins’ short figures diminish. At <i>animando</i>, the cellos climb, the basses resume bowing, and woodwinds and horns take up the rising phrase. The score begins a fresh crescendo.</p>",
+      "devices": [
+        "crescendo build",
+        "orchestration change",
+        "tempo change"
+      ],
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Novello full score, p. 113, rehearsal 74: sustained low brass before animando, arco basses, rising cello and wind figures, and crescendo."
+    },
+    {
+      "id": "final-cadence",
+      "title": "G in the bass",
+      "from": "Var 14 · Animando: the strings press on",
+      "to": "Coda · G major, full orchestra",
+      "at": {
+        "t": 248
+      },
+      "how": "<p>The closing phrases settle into G major, with the brass sustaining the chords and the strings finishing their last runs. A held G anchors the bass. Elgar writes <i>ritardando</i>, then grows a final crescendo from the low winds and timpani before the orchestra’s last attack.</p>",
+      "devices": [
+        "tonic pedal",
+        "tempo change",
+        "crescendo build"
+      ],
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Novello full score, pp. 126–128, rehearsals 82–83 and the final bars: G-major conclusion, tonic pedal, ritardando and the final crescendo."
     }
   ],
   "orchestra": {
@@ -206,21 +181,21 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 93–128, rehearsal figures 61–83. Whole-finale passage map, following the report’s early build, 2:04 withdrawal, 2:34 renewed force and 4:08 closing span. Optional organ is not asserted; desk states are broad score-backed windows rather than bar alignment."
+      "locator": "Novello full score, pp. 93–128, rehearsal figures 61–83: the expanded finale, including the quiet middle passage and G-major close."
     },
     "timeline": [
-      { "t": 0, "playing": ["bassoons", "contrabassoon", "trombones", "tuba", "timpani", "violins-1", "cellos", "basses"], "lead": ["violins-1", "cellos", "bassoons"], "note": "Quiet fragments pass between first violins, cellos and bassoons above detached low support (p. 93)." },
-      { "t": 12, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "More wind and brass join as the string figures build towards the first larger statement (pp. 94–96)." },
-      { "t": 24, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets", "violins-1"], "note": "The broad statement gains full wind, brass and percussion support around the strings (pp. 96–99)." },
-      { "t": 50, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "The texture lightens to a more flowing string-and-wind span before the next expansion (pp. 100–102)." },
-      { "t": 82, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "Longer wind and brass lines combine with the running string texture in the renewed build (pp. 103–108)." },
-      { "t": 110, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "trumpets"], "note": "Full orchestral gestures and fast string runs make the stronger approach to the withdrawal (pp. 109–110)." },
-      { "t": 124, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "cellos"], "note": "The strong texture gives way to quiet wind lines and divided cello writing, with sparse soft percussion (p. 111)." },
-      { "t": 136, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "The sustained middle phrase gains quiet brass support while the strings keep moving (pp. 112–113)." },
-      { "t": 154, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "The animando gathers string and wind movement into a renewed orchestral rise (pp. 113–115)." },
-      { "t": 176, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets", "violins-1"], "note": "The larger concluding paragraphs restore the full wind, brass and percussion complement (pp. 116–119)." },
-      { "t": 212, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "Moving strings drive beneath broad wind and brass affirmations as the end approaches (pp. 120–125)." },
-      { "t": 248, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets", "trombones"], "note": "The final G-major gestures use the full scored orchestra apart from the optional organ, whose presence is not established for this recording (pp. 126–128)." }
+      { "t": 0, "playing": ["bassoons", "contrabassoon", "trombones", "tuba", "timpani", "violins-1", "cellos", "basses"], "lead": ["violins-1", "cellos", "bassoons"], "note": "Quiet phrases pass between first violins, cellos and bassoons above detached bass notes (p. 93)." },
+      { "t": 12, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "Wind and brass join the rising string figures (pp. 94–96)." },
+      { "t": 24, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets", "violins-1"], "note": "Horns, trumpets and violins carry the broad tune, with percussion punctuating the phrases (pp. 96–99)." },
+      { "t": 50, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "Strings and woodwinds take over while trumpets and trombones rest (pp. 100–102)." },
+      { "t": 82, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "Wind and brass hold longer phrases above the running strings (pp. 103–108)." },
+      { "t": 110, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "trumpets"], "note": "Fast violin runs meet accented chords from the full orchestra (pp. 109–110)." },
+      { "t": 124, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "cellos"], "note": "Cellos and basses repeat quiet quavers beneath expressive wind phrases (p. 111)." },
+      { "t": 136, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "Quiet brass chords join the sustained wind melody and moving strings (pp. 112–113)." },
+      { "t": 154, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "Marked animando, strings and winds climb together as the basses return to bowing (pp. 113–115)." },
+      { "t": 176, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets", "violins-1"], "note": "Horns, trumpets and violins sing out above the full orchestra and percussion (pp. 116–119)." },
+      { "t": 212, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "The strings race beneath broad wind and brass chords (pp. 120–125)." },
+      { "t": 248, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets", "trombones"], "note": "Brass chords crown the G-major close above a held tonic bass and a growing timpani roll (pp. 126–128)." }
     ]
   }
 };

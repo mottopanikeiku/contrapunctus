@@ -12,152 +12,85 @@ export default {
   "source": {
     "file": "File:Chopin - Nocturne No. 5 in F-sharp major, Op. 15 No. 2 (Luke Faulkner).flac"
   },
-  "intro": "The F♯-major Nocturne places an ornamented singing line above a supporting accompaniment, then interrupts that poise with a faster central section. Luke Faulkner’s recording is a modern counterpart to the historical performances: follow the same melody, but ask how its timing and balance are shaped.",
-  "question": "How does the opening melody sound different after the faster middle?",
+  "intro": "Luke Faulkner plays a nocturne whose F♯-major song grows increasingly extravagant, then breaks into a quick, murmuring middle. Even the return has fresh ornaments to spare.",
   "sections": [
-    {
-      "t": 0,
-      "label": "A · Larghetto song",
-      "m": "A"
-    },
-    {
-      "t": 86,
-      "label": "B · Doppio movimento",
-      "m": "B"
-    },
-    {
-      "t": 132,
-      "label": "A′ · Larghetto returns",
-      "m": "A′",
-      "mNote": "the opening song returns after the faster middle"
-    }
+    { "t": 0, "label": "A · Song with curling ornaments", "m": "A", "mNote": "The right hand sings above widely spaced bass and chords" },
+    { "t": 86, "label": "B · Twice as fast, sotto voce", "m": "B", "mNote": "Dotted rhythms over quick inner notes and a leaping bass" },
+    { "t": 132, "label": "A′ · The ornamented song returns", "m": "A′", "mNote": "The opening melody comes back with new flourishes" }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A decorated singing line",
-      "text": "Follow the main melody through its ornaments rather than treating every quick note as equally important. The accompaniment supports a slower phrase underneath the surface decoration.",
-      "basis": "documented",
+      "title": "A small upward turn",
+      "text": "The melody begins with A♯ nudging up to B, then falls through the notes of a C♯ chord. A deep C♯ in the left hand keeps the phrase waiting; F♯ arrives in the next bar. The little turn already sounds like someone taking breath to sing.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Opening song and ornamental writing described by Tomaszewski: https://chopin.nifc.pl/en/chopin/kompozycja/173"
-    },
-    {
-      "t": 26,
-      "kind": "world",
-      "title": "Dedicated to Ferdinand Hiller",
-      "text": "Chopin dedicated the three nocturnes of Op. 15 to Ferdinand Hiller. The dedication belongs to the history of the published collection; it does not turn the second Nocturne into a portrait of its dedicatee.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "NIFC work record names Ferdinand Hiller: https://chopin.nifc.pl/en/chopin/kompozycja/173"
+      "evidence": "Breitkopf & Härtel first edition, upbeat and bars 1–2: A♯–B upbeat, C♯ bass in bar 1, F♯ bass in bar 2. https://chopinscores.org/partytura/86"
     },
     {
       "t": 52,
-      "kind": "listen",
-      "title": "The opening contains contrast",
-      "text": "Even before the faster middle, the opening region has a contrasting minor-key idea. Listen for changes in the melodic direction and harmonic colour, not only for changes of speed.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Tomaszewski describes the F-sharp-minor counter-theme within the opening region: https://chopin.nifc.pl/en/chopin/kompozycja/173. This cue describes the surrounding span, not its exact onset."
-    },
-    {
-      "t": 76,
-      "kind": "life",
-      "title": "A work of the early 1830s",
-      "text": "The Nocturne dates from 1830–33. Its compact return form already gives the singing melody a dramatic setting: the central contrast changes how a listener hears material that was initially self-contained.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Composition dating and reprise form in https://chopin.nifc.pl/en/chopin/kompozycja/173"
-    },
-    {
-      "t": 94,
-      "kind": "form",
-      "title": "Twice the motion",
-      "text": "The central section is marked doppio movimento, with an initially subdued sotto voce character. Faster motion is not the same instruction as immediate loudness; the passage has room to build after the change of pace.",
+      "kind": "music",
+      "title": "F♯ turns minor",
+      "text": "The opening song has a troubled companion in F♯ minor. Its phrases climb high, then spill down in little runs marked <i>dolcissimo</i>, very sweetly. The bass keeps moving beneath those long upper notes.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Estimated middle at the strongest report boundary,1:26; the following windows rise towards a1:50 crest. Score headings and dramatic trajectory: https://chopin.nifc.pl/en/chopin/kompozycja/173"
+      "evidence": "Mieczysław Tomaszewski identifies the F♯-minor counter-theme and its rising and falling phrases: https://chopin.nifc.pl/en/chopin/kompozycja/173. Breitkopf & Härtel first edition, bars 17–24: https://chopinscores.org/partytura/86"
     },
     {
-      "t": 118,
-      "kind": "listen",
-      "title": "The middle draws back",
-      "text": "After the central rise, the sound rapidly subsides. Listen for the reduction in momentum that allows the opening song to return without sounding like another forceful interruption.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Report level falls steeply from the crest around 1:50 into the quiet 2:05–2:10 windows. This is an amplitude contour, not an estimate of written dynamics."
-    },
-    {
-      "t": 142,
+      "t": 86,
       "kind": "form",
-      "title": "The singing line returns",
-      "text": "The opening’s slower melodic character returns after the turbulent middle. Compare its phrasing with the beginning: the return restores the theme, but the intervening contrast changes the listener’s frame of reference.",
+      "title": "Twice as fast",
+      "text": "<i>Doppio movimento</i>: twice the motion, with the piano still speaking <i>sotto voce</i>. A dotted melody rides above quick notes in the same hand while the bass jumps below. The storm starts as a murmur.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate return at2:12, after the low2:10 window and before renewed F-sharp-major-coloured activity at2:15. Reprise form: https://chopin.nifc.pl/en/chopin/kompozycja/173"
+      "evidence": "Breitkopf & Härtel first edition, bars 25–32, marked doppio movimento and sotto voce. https://chopinscores.org/partytura/86"
+    },
+    {
+      "t": 132,
+      "kind": "form",
+      "title": "A breath before the song",
+      "text": "The quick figures slow and sink towards the middle of the keyboard. A pause makes room for the opening A♯–B turn. The Larghetto song returns, with new curls of small notes woven into the familiar phrase.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Breitkopf & Härtel first edition, bars 47–52: molto rallentando, smorzando, a pause, a Tempo and the ornamented reprise. https://chopinscores.org/partytura/86"
     },
     {
       "t": 168,
-      "kind": "world",
-      "title": "A German first edition",
-      "text": "Breitkopf & Härtel’s first edition of the three nocturnes appeared in early 1834. The surviving printed score lets listeners distinguish Chopin’s tempo and articulation instructions from choices made by a particular recorded performer.",
+      "kind": "life",
+      "title": "Piano and film music",
+      "text": "Faulkner’s training takes him from piano and composition at Chetham’s to music at Oxford, then screen composition at Edinburgh. He graduates there in 2014, having studied recording and engineering as well as writing music for film.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "NIFC digital score record gives January–February1834 for the German first edition: https://chopinscores.org/partytura/86"
-    },
-    {
-      "t": 190,
-      "kind": "listen",
-      "title": "Let the last sound decay",
-      "text": "At the close, attend to the space after the final gestures as well as to their attacks. The recording preserves a decay, but it does not by itself identify which piano, room or microphone produced that sound.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Late report windows decline towards the204-second end. Source documentation leaves instrument, venue and recording technique unknown."
+      "evidence": "Luke Faulkner’s own biography gives his studies at Chetham’s, Oxford and Edinburgh, including the 2014 screen-composition degree: https://www.lukefaulkner.com/about"
     }
   ],
   "transitions": [
     {
       "id": "into-doubled-motion",
-      "title": "The song yields to a faster inner pulse",
-      "from": "A · Larghetto song",
-      "to": "B · Doppio movimento",
-      "at": {
-        "t": 86
-      },
-      "span": [
-        76,
-        98
-      ],
-      "how": "<p>The ornamented Larghetto gives way to a middle marked doppio movimento and sotto voce. Faster articulation changes the sense of movement before the section develops its full dynamic force. The contrast therefore begins with tempo and texture, not with an instruction to play every note loudly.</p>",
-      "devices": [
-        "tempo change",
-        "texture change"
-      ],
+      "title": "C♯ beneath the quickened melody",
+      "from": "A · Song with curling ornaments",
+      "to": "B · Twice as fast, sotto voce",
+      "at": { "t": 86 },
+      "span": [76, 98],
+      "how": "<p>Repeated A♯s hold up the end of the slow section. The bass then moves to C♯, with E♯, G♯ and B above it: a dominant seventh. Chopin marks the new passage <i>doppio movimento</i> and <i>sotto voce</i>. The right hand now has a dotted tune and quick notes beneath it; the left hand makes wide jumps.</p>",
+      "devices": ["tempo change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Strong report boundary1:26; level rises thereafter towards1:50. Markings and central design: https://chopin.nifc.pl/en/chopin/kompozycja/173"
+      "evidence": "Breitkopf & Härtel first edition, bars 24–26. https://chopinscores.org/partytura/86"
     },
     {
       "id": "into-song-reprise",
-      "title": "The central surge subsides into the song",
-      "from": "B · Doppio movimento",
-      "to": "A′ · Larghetto returns",
-      "at": {
-        "t": 132
-      },
-      "span": [
-        122,
-        144
-      ],
-      "how": "<p>The faster middle retreats and the Larghetto melody returns. Its ornamental surface and supporting accompaniment recover the opening balance after the concentrated central activity. A decrease in density and force helps make the familiar song audible as a return rather than a fresh episode.</p>",
-      "devices": [
-        "decrescendo",
-        "tempo change",
-        "motivic link"
-      ],
+      "title": "A pause, then A♯–B",
+      "from": "B · Twice as fast, sotto voce",
+      "to": "A′ · The ornamented song returns",
+      "at": { "t": 132 },
+      "span": [122, 144],
+      "how": "<p>Over a low C♯, the repeated figures slow and die away: <i>molto rallentando, smorzando</i>. The bass falls silent, and a pause separates the last figure from the opening A♯–B upbeat. Marked <i>a Tempo</i>, the melody returns over C♯ and reaches the F♯ bass in the following bar.</p>",
+      "devices": ["decrescendo", "tempo change", "fermata", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Report falls steeply at2:00–2:10 and recovers around2:15; the2:12 marker is approximate. Formal reprise: https://chopin.nifc.pl/en/chopin/kompozycja/173"
+      "evidence": "Breitkopf & Härtel first edition, bars 47–50. https://chopinscores.org/partytura/86"
     }
   ]
 };

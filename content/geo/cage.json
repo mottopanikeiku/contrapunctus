@@ -1,0 +1,185 @@
+{
+  "id": "cage",
+  "places": [
+    {
+      "name": "Los Angeles",
+      "country": "United States",
+      "lat": 34.05,
+      "lon": -118.25,
+      "from": "1912-09-05",
+      "kind": "born",
+      "what": "Born at Good Samaritan Hospital; the map marks the city.",
+      "status": "documented",
+      "sources": [
+        { "title": "A John Cage Compendium — chronology, 5 September 1912", "url": "https://cagecompendium.org/chronology/1912-1971/" },
+        { "title": "Wikipedia city coordinates — Los Angeles", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Los_Angeles" }
+      ]
+    },
+    {
+      "name": "Claremont, California",
+      "country": "United States",
+      "lat": 34.11,
+      "lon": -117.71972222,
+      "from": "1928-09",
+      "to": "1930-06",
+      "kind": "studied",
+      "what": "Studied liberal arts at Pomona College before leaving for Europe.",
+      "status": "documented",
+      "sources": [
+        { "title": "A John Cage Compendium — Pomona College, 1928–30", "url": "https://cagecompendium.org/chronology/1912-1971/" },
+        { "title": "Wikipedia city coordinates — Claremont", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Claremont,_California" }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "French Third Republic (today France)",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1930",
+      "kind": "studied",
+      "what": "Briefly studied architecture with Ernő Goldfinger and encountered modern music.",
+      "status": "documented",
+      "sources": [
+        { "title": "A John Cage Compendium — Paris, June 1930", "url": "https://cagecompendium.org/chronology/1912-1971/" },
+        { "title": "Wikipedia city coordinates — Paris", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Paris" }
+      ]
+    },
+    {
+      "name": "Sóller, Mallorca",
+      "country": "Second Spanish Republic (today Spain)",
+      "lat": 39.76755,
+      "lon": 2.71398889,
+      "from": "1931-08-08",
+      "to": "1931-09-13",
+      "kind": "worked",
+      "what": "Composed his earliest identified composition during his European travels.",
+      "status": "documented",
+      "sources": [
+        { "title": "A John Cage Compendium — Sóller, August–September 1931", "url": "https://cagecompendium.org/chronology/1912-1971/" },
+        { "title": "Wikipedia town coordinates — Sóller", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=S%C3%B3ller" }
+      ]
+    },
+    {
+      "name": "Seattle",
+      "country": "United States",
+      "lat": 47.60388889,
+      "lon": -122.33,
+      "from": "1938-09",
+      "kind": "worked",
+      "what": "Joined the Cornish School faculty as composer, percussion teacher and dance accompanist; met Merce Cunningham.",
+      "status": "documented",
+      "sources": [
+        { "title": "A John Cage Compendium — Cornish appointment, September 1938", "url": "https://cagecompendium.org/chronology/1912-1971/" },
+        { "title": "Merce Cunningham Trust — biography", "url": "https://www.mercecunningham.org/about/biography/" },
+        { "title": "Wikipedia city coordinates — Seattle", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Seattle" }
+      ]
+    },
+    {
+      "name": "Chicago",
+      "country": "United States",
+      "lat": 41.88194444,
+      "lon": -87.62777778,
+      "from": "1941-09",
+      "to": "1942-05",
+      "kind": "worked",
+      "what": "Taught Sound Experiments at László Moholy-Nagy’s School of Design and composed for CBS radio.",
+      "work": "The City Wears a Slouch Hat",
+      "status": "documented",
+      "sources": [
+        { "title": "A John Cage Compendium — Chicago appointment and 31 May 1942 broadcast", "url": "https://cagecompendium.org/chronology/1912-1971/" },
+        { "title": "Wikipedia city coordinates — Chicago", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Chicago" }
+      ]
+    },
+    {
+      "name": "New York City",
+      "country": "United States",
+      "lat": 40.7128,
+      "lon": -74.0061,
+      "from": "1942-06",
+      "to": "1954",
+      "kind": "lived",
+      "what": "Moved east with Xenia Cage, initially staying with Peggy Guggenheim and Max Ernst; worked with modern dancers.",
+      "status": "documented",
+      "sources": [
+        { "title": "A John Cage Compendium — arrival in June 1942 and Stony Point move in 1954", "url": "https://cagecompendium.org/chronology/1912-1971/" },
+        { "title": "Cage — An Autobiographical Statement, New York recollections", "url": "https://johncage.org/cage-autobiographical-statement" },
+        { "title": "Wikipedia city coordinates — New York City", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=New_York_City" }
+      ]
+    },
+    {
+      "name": "Black Mountain, North Carolina",
+      "country": "United States",
+      "lat": 35.61416667,
+      "lon": -82.3275,
+      "from": "1948-07-01",
+      "to": "1948-08-25",
+      "kind": "worked",
+      "what": "Taught and organised a Satie festival at Black Mountain College, including Le Piège de Méduse with Buckminster Fuller and Cunningham.",
+      "status": "documented",
+      "sources": [
+        { "title": "A John Cage Compendium — Black Mountain summer session, 1948", "url": "https://cagecompendium.org/chronology/1912-1971/" },
+        { "title": "Wikipedia town coordinates — Black Mountain", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Black_Mountain,_North_Carolina" }
+      ]
+    },
+    {
+      "name": "Woodstock, New York",
+      "country": "United States",
+      "lat": 42.04055556,
+      "lon": -74.12888889,
+      "from": "1952-08-29",
+      "kind": "premiere",
+      "what": "Attended David Tudor’s first performance of 4′33″ at the Maverick Concert Hall; the map marks Woodstock.",
+      "work": "4′33″",
+      "status": "documented",
+      "sources": [
+        { "title": "A John Cage Compendium — Woodstock, 29 August 1952", "url": "https://cagecompendium.org/chronology/1912-1971/" },
+        { "title": "John Cage Trust — 4′33″ catalogue entry", "url": "https://data-johncage.org/pp/John-Cage-Work-Detail.cfm?work_ID=17" },
+        { "title": "Wikipedia town coordinates — Woodstock", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Woodstock,_New_York" }
+      ]
+    },
+    {
+      "name": "Stony Point, New York",
+      "country": "United States",
+      "lat": 41.23722222,
+      "lon": -74.00111111,
+      "from": "1954",
+      "kind": "lived",
+      "what": "Moved to the Gate Hill cooperative with a group including M. C. Richards, David Tudor and Karen Karnes.",
+      "status": "documented",
+      "sources": [
+        { "title": "A John Cage Compendium — summer 1954 move", "url": "https://cagecompendium.org/chronology/1912-1971/" },
+        { "title": "Wikipedia town coordinates — Stony Point", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Stony_Point,_New_York" }
+      ]
+    },
+    {
+      "name": "Cambridge, Massachusetts",
+      "country": "United States",
+      "lat": 42.37361111,
+      "lon": -71.11055556,
+      "from": "1988",
+      "to": "1989",
+      "kind": "worked",
+      "what": "Held Harvard’s Charles Eliot Norton professorship of poetry and gave the lectures published as I–VI.",
+      "status": "documented",
+      "sources": [
+        { "title": "John Cage at Bard College symposium programme — biography and Norton lectures, PDF p. 8", "url": "https://data-johncage.org/blog/Cage_program_rd2.pdf" },
+        { "title": "Cage — An Autobiographical Statement, Norton lectures", "url": "https://johncage.org/cage-autobiographical-statement" },
+        { "title": "Wikipedia city coordinates — Cambridge", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Cambridge,_Massachusetts" }
+      ]
+    },
+    {
+      "name": "New York City",
+      "country": "United States",
+      "lat": 40.7128,
+      "lon": -74.0061,
+      "from": "1992-08-12",
+      "kind": "died",
+      "what": "Died in New York, aged seventy-nine.",
+      "status": "documented",
+      "sources": [
+        { "title": "John Cage at Bard College symposium programme — death date and place, PDF p. 8", "url": "https://data-johncage.org/blog/Cage_program_rd2.pdf" },
+        { "title": "Wikipedia city coordinates — New York City", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=New_York_City" }
+      ]
+    }
+  ]
+}

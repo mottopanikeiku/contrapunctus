@@ -132,6 +132,20 @@
   "artist": "Sergei RACHMANINOFF - Piano",
   "duration": 236
  },
+ "archive:1st-recording-of-rhapsody-in-blue-paul-whiteman-orch.-george-gershwin-piano-1924-version/1st RECORDING OF_ Rhapsody In Blue - Paul Whiteman Orch. & George Gershwin piano (1924 version).mp3": {
+  "stream": "https://archive.org/download/1st-recording-of-rhapsody-in-blue-paul-whiteman-orch.-george-gershwin-piano-1924-version/1st%20RECORDING%20OF_%20Rhapsody%20In%20Blue%20-%20Paul%20Whiteman%20Orch.%20%26%20George%20Gershwin%20piano%20(1924%20version).mp3",
+  "page": "https://archive.org/details/1st-recording-of-rhapsody-in-blue-paul-whiteman-orch.-george-gershwin-piano-1924-version",
+  "license": "",
+  "artist": "",
+  "duration": 545.71
+ },
+ "archive:2-poulenc-fevrier-satie-3-morceaux-en-forme-de-poire/2 Poulenc, Février - Satie 3 morceaux en forme de poire.mp3": {
+  "stream": "https://archive.org/download/2-poulenc-fevrier-satie-3-morceaux-en-forme-de-poire/2%20Poulenc%2C%20F%C3%A9vrier%20-%20Satie%203%20morceaux%20en%20forme%20de%20poire.mp3",
+  "page": "https://archive.org/details/2-poulenc-fevrier-satie-3-morceaux-en-forme-de-poire",
+  "license": "",
+  "artist": "Francis Poulenc & Jacques Février, piano 4-mains",
+  "duration": 816
+ },
  "archive:3.-debussy-nocturnes-3-sirenes/1 Debussy Nocturnes 1 Nuages.mp3": {
   "stream": "https://archive.org/download/3.-debussy-nocturnes-3-sirenes/1%20Debussy%20Nocturnes%201%20Nuages.mp3",
   "page": "https://archive.org/details/3.-debussy-nocturnes-3-sirenes",
@@ -145,6 +159,13 @@
   "license": "",
   "artist": "Ansermet Ernest, cond.; OSR",
   "duration": 376.11
+ },
+ "archive:78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a/Carmen (\"Love is Like a Wood Bird\") (Ac - Geraldine Farrar.mp3": {
+  "stream": "https://archive.org/download/78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a/Carmen%20(%22Love%20is%20Like%20a%20Wood%20Bird%22)%20(Ac%20-%20Geraldine%20Farrar.mp3",
+  "page": "https://archive.org/details/78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a",
+  "license": "",
+  "artist": "Geraldine Farrar; Bizet",
+  "duration": 198.7
  },
  "archive:78_clair-de-lune-moonlight_benno-moiseiwitsch-debussy_gbia3042373b/CLAIR DE LUNE (Moonlight) - BENNO MOISEIWITSCH.mp3": {
   "stream": "https://archive.org/download/78_clair-de-lune-moonlight_benno-moiseiwitsch-debussy_gbia3042373b/CLAIR%20DE%20LUNE%20(Moonlight)%20-%20BENNO%20MOISEIWITSCH.mp3",
@@ -321,6 +342,13 @@
   "artist": "",
   "duration": 543.46
  },
+ "archive:dm-1235-poulenc-double-concerto-i/DM1235 Poulenc Double Concerto (ii).mp3": {
+  "stream": "https://archive.org/download/dm-1235-poulenc-double-concerto-i/DM1235%20Poulenc%20Double%20Concerto%20(ii).mp3",
+  "page": "https://archive.org/details/dm-1235-poulenc-double-concerto-i",
+  "license": "",
+  "artist": "Radio Corporation of America",
+  "duration": 404.77
+ },
  "archive:hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2/HMV_DB860_Cc_6253-1.mp3": {
   "stream": "https://archive.org/download/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2/HMV_DB860_Cc_6253-1.mp3",
   "page": "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2",
@@ -356,12 +384,26 @@
   "artist": "murphy, lambert ; dixon, raymond ; janequin, clément ; carlino, william ; guillaume de machaut ; di stefano, stefano ; weckerlin, j.-b",
   "duration": 98.8
  },
+ "archive:loc-jukebox-188720-largo-al-factotum/jukebox-188720_largo-al-factotum.mp3": {
+  "stream": "https://archive.org/download/loc-jukebox-188720-largo-al-factotum/jukebox-188720_largo-al-factotum.mp3",
+  "page": "https://archive.org/details/loc-jukebox-188720-largo-al-factotum",
+  "license": "Public domain",
+  "artist": "pasternack, josef ; rossini, gioacchino ; ruffo, titta",
+  "duration": 247.83
+ },
  "archive:loc-jukebox-35668-l-ci-darem-la-mano/jukebox-35668_l-ci-darem-la-mano.mp3": {
   "stream": "https://archive.org/download/loc-jukebox-35668-l-ci-darem-la-mano/jukebox-35668_l-ci-darem-la-mano.mp3",
   "page": "https://archive.org/details/loc-jukebox-35668-l-ci-darem-la-mano",
   "license": "Public domain",
   "artist": "werrenrath, reinald ; garrison, mabel ; mozart, wolfgang amadeus ; pasternack, josef",
   "duration": 191.97
+ },
+ "archive:lp_a-lincoln-portrait-new-england-triptych_andr-kostelanetz-the-new-york-philharmonic/disc1/01.01. A Lincoln Portrait.mp3": {
+  "stream": "https://archive.org/download/lp_a-lincoln-portrait-new-england-triptych_andr-kostelanetz-the-new-york-philharmonic/disc1/01.01.%20A%20Lincoln%20Portrait.mp3",
+  "page": "https://archive.org/details/lp_a-lincoln-portrait-new-england-triptych_andr-kostelanetz-the-new-york-philharmonic",
+  "license": "",
+  "artist": "André Kostelanetz; The New York Philharmonic Orchestra; Carl Sandburg; Aaron Copland; William Schuman; Samuel Barber",
+  "duration": 838.35
  },
  "archive:lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc1/02.01. 3rd Movement: Molto Adagio - Andante; 4th Movement: Alla Marcia, Assal Vivace.mp3": {
   "stream": "https://archive.org/download/lp_beethoven-string-quartet-no-15-in-a-minor_the-griller-string-quartet/disc1/02.01.%203rd%20Movement%3A%20Molto%20Adagio%20-%20Andante%3B%204th%20Movement%3A%20Alla%20Marcia%2C%20Assal%20Vivace.mp3",
@@ -454,6 +496,13 @@
   "artist": "Lili Boulanger; Igor Markevitch; Orchestre Des Concerts Lamoureux; Choeurs Elisabeth Brasseur",
   "duration": 286.23
  },
+ "archive:lp_four-last-songs-capriccio-op-85-closing_richard-strauss-elisabeth-schwarzkopf-phil/disc1/01.04. Four Last Songs: Im Abendrot.mp3": {
+  "stream": "https://archive.org/download/lp_four-last-songs-capriccio-op-85-closing_richard-strauss-elisabeth-schwarzkopf-phil/disc1/01.04.%20Four%20Last%20Songs%3A%20Im%20Abendrot.mp3",
+  "page": "https://archive.org/details/lp_four-last-songs-capriccio-op-85-closing_richard-strauss-elisabeth-schwarzkopf-phil",
+  "license": "",
+  "artist": "Richard Strauss; Elisabeth Schwarzkopf; Philharmonia Orchestra; Otto Ackermann",
+  "duration": 439.44
+ },
  "archive:lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/01.04. Prelude To \"The Afternoon Of A Faun\".mp3": {
   "stream": "https://archive.org/download/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/disc1/01.04.%20Prelude%20To%20%22The%20Afternoon%20Of%20A%20Faun%22.mp3",
   "page": "https://archive.org/details/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony",
@@ -482,6 +531,20 @@
   "artist": "Paul Paray; Claude Debussy; Detroit Symphony Orchestra",
   "duration": 451.23
  },
+ "archive:lp_la-scala-presents-verdi-operas-the-great-c_coro-del-teatro-alla-scala-orchestra-del-t/disc1/01.01. Nabucco: Chorus Of Jews: Va, Pensiero, Sull' Ali Dorate (Act 3).mp3": {
+  "stream": "https://archive.org/download/lp_la-scala-presents-verdi-operas-the-great-c_coro-del-teatro-alla-scala-orchestra-del-t/disc1/01.01.%20Nabucco%3A%20Chorus%20Of%20Jews%3A%20Va%2C%20Pensiero%2C%20Sull'%20Ali%20Dorate%20(Act%203).mp3",
+  "page": "https://archive.org/details/lp_la-scala-presents-verdi-operas-the-great-c_coro-del-teatro-alla-scala-orchestra-del-t",
+  "license": "",
+  "artist": "Coro Del Teatro Alla Scala; Orchestra Del Teatro Alla Scala; Tullio Serafin",
+  "duration": 280.44
+ },
+ "archive:lp_merzhanov-plays-brahms-paganini-variations/disc1/02.01. Sonata No.5 Op.53.mp3": {
+  "stream": "https://archive.org/download/lp_merzhanov-plays-brahms-paganini-variations/disc1/02.01.%20Sonata%20No.5%20Op.53.mp3",
+  "page": "https://archive.org/details/lp_merzhanov-plays-brahms-paganini-variations",
+  "license": "",
+  "artist": "Виктор Мержанов",
+  "duration": 706.63
+ },
  "archive:lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/01.01. 1st Tableau: The Shrovetide Fair.mp3": {
   "stream": "https://archive.org/download/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro/disc1/01.01.%201st%20Tableau%3A%20The%20Shrovetide%20Fair.mp3",
   "page": "https://archive.org/details/lp_petrushka-complete-ballet-original-editio_igor-stravinsky-lorchestre-de-la-suisse-ro",
@@ -509,6 +572,13 @@
   "license": "",
   "artist": "Igor Stravinsky; L'Orchestre De La Suisse Romande; Ernest Ansermet",
   "duration": 803.23
+ },
+ "archive:lp_rossini-overtures_gioacchino-rossini-the-chicago-symphony-or_0/disc1/02.01. The Barber Of Seville.mp3": {
+  "stream": "https://archive.org/download/lp_rossini-overtures_gioacchino-rossini-the-chicago-symphony-or_0/disc1/02.01.%20The%20Barber%20Of%20Seville.mp3",
+  "page": "https://archive.org/details/lp_rossini-overtures_gioacchino-rossini-the-chicago-symphony-or_0",
+  "license": "",
+  "artist": "Gioacchino Rossini; The Chicago Symphony Orchestra; Fritz Reiner",
+  "duration": 423.02
  },
  "archive:lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet/disc1/01.01. Schoenberg Verklaerte Nacht (Part 1).mp3": {
   "stream": "https://archive.org/download/lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet/disc1/01.01.%20Schoenberg%20Verklaerte%20Nacht%20(Part%201).mp3",
@@ -572,6 +642,69 @@
   "license": "",
   "artist": "Dmitri Shostakovich; Philharmonic Symphony Of London; Artur Rodzinski",
   "duration": 489.63
+ },
+ "archive:lp_symphony-no-7-classical-symphony_sergei-prokofiev-nicolai-malko-philharmoni/disc1/02.02. First Movement: Allegro; Second Movement: Larghetto; Third Movement: Gavotte: Non Troppo Allegro; Fourth Movement: Finale: Molto Vivace.mp3": {
+  "stream": "https://archive.org/download/lp_symphony-no-7-classical-symphony_sergei-prokofiev-nicolai-malko-philharmoni/disc1/02.02.%20First%20Movement%3A%20Allegro%3B%20Second%20Movement%3A%20Larghetto%3B%20Third%20Movement%3A%20Gavotte%3A%20Non%20Troppo%20Allegro%3B%20Fourth%20Movement%3A%20Finale%3A%20Molto%20Vivace.mp3",
+  "page": "https://archive.org/details/lp_symphony-no-7-classical-symphony_sergei-prokofiev-nicolai-malko-philharmoni",
+  "license": "",
+  "artist": "Sergei Prokofiev; Nicolai Malko; Philharmonia Orchestra",
+  "duration": 825.75
+ },
+ "archive:lp_taras-bulba-les-fresques_leos-janacek-bohuslav-martinu-the-royal/disc1/01.03. Taras Bulba: The Profecy And Death Of Taras Bulba.mp3": {
+  "stream": "https://archive.org/download/lp_taras-bulba-les-fresques_leos-janacek-bohuslav-martinu-the-royal/disc1/01.03.%20Taras%20Bulba%3A%20The%20Profecy%20And%20Death%20Of%20Taras%20Bulba.mp3",
+  "page": "https://archive.org/details/lp_taras-bulba-les-fresques_leos-janacek-bohuslav-martinu-the-royal",
+  "license": "",
+  "artist": "Leoš Janáček; Bohuslav Martinů; The Royal Philharmonic Orchestra; Rafael Kubelik",
+  "duration": 524
+ },
+ "archive:lp_the-sons-of-bach-vol-1-symphonies-cham_carl-philipp-emanuel-bach-mainzer-kamme/disc1/02.01. Symphony #5 In B Minor (Allegretto - Larghetto - Presto).mp3": {
+  "stream": "https://archive.org/download/lp_the-sons-of-bach-vol-1-symphonies-cham_carl-philipp-emanuel-bach-mainzer-kamme/disc1/02.01.%20Symphony%20%235%20In%20B%20Minor%20(Allegretto%20-%20Larghetto%20-%20Presto).mp3",
+  "page": "https://archive.org/details/lp_the-sons-of-bach-vol-1-symphonies-cham_carl-philipp-emanuel-bach-mainzer-kamme",
+  "license": "",
+  "artist": "Carl Philipp Emanuel Bach; Mainzer Kammerorchester; Günter Kehr; Klaus Pohlers; Martin Galling; Reinhold Johannes Buhl",
+  "duration": 758.93
+ },
+ "archive:lp_three-jewish-poems-for-orchestra-fanfare_ernest-bloch-aaron-copland-the-hartford-sy/disc1/02.01. Fanfare For The Common Man.mp3": {
+  "stream": "https://archive.org/download/lp_three-jewish-poems-for-orchestra-fanfare_ernest-bloch-aaron-copland-the-hartford-sy/disc1/02.01.%20Fanfare%20For%20The%20Common%20Man.mp3",
+  "page": "https://archive.org/details/lp_three-jewish-poems-for-orchestra-fanfare_ernest-bloch-aaron-copland-the-hartford-sy",
+  "license": "",
+  "artist": "Ernest Bloch; Aaron Copland; The Hartford Symphony Orchestra; Fritz Mahler",
+  "duration": 166.54
+ },
+ "archive:lp_three-jewish-poems-for-orchestra-fanfare_ernest-bloch-aaron-copland-the-hartford-sy/disc1/02.02. Orchestral Variations 1957.mp3": {
+  "stream": "https://archive.org/download/lp_three-jewish-poems-for-orchestra-fanfare_ernest-bloch-aaron-copland-the-hartford-sy/disc1/02.02.%20Orchestral%20Variations%201957.mp3",
+  "page": "https://archive.org/details/lp_three-jewish-poems-for-orchestra-fanfare_ernest-bloch-aaron-copland-the-hartford-sy",
+  "license": "",
+  "artist": "Ernest Bloch; Aaron Copland; The Hartford Symphony Orchestra; Fritz Mahler",
+  "duration": 821.23
+ },
+ "archive:lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/disc1/01.01. Three Pieces For Orchestra, Op.6: Praeludium.mp3": {
+  "stream": "https://archive.org/download/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/disc1/01.01.%20Three%20Pieces%20For%20Orchestra%2C%20Op.6%3A%20Praeludium.mp3",
+  "page": "https://archive.org/details/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a",
+  "license": "",
+  "artist": "Robert Craft; Columbia Symphony Orchestra; Alban Berg; Arnold Schoenberg; Anton Webern",
+  "duration": 241.44
+ },
+ "archive:lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/disc1/02.05. Six Pieces For Orchestra, Op. 6: No. 4.mp3": {
+  "stream": "https://archive.org/download/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/disc1/02.05.%20Six%20Pieces%20For%20Orchestra%2C%20Op.%206%3A%20No.%204.mp3",
+  "page": "https://archive.org/details/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a",
+  "license": "",
+  "artist": "Robert Craft; Columbia Symphony Orchestra; Alban Berg; Arnold Schoenberg; Anton Webern",
+  "duration": 207.74
+ },
+ "archive:lp_trio-in-g-minor-op-17-trio-no-8-in-b-flat_clara-schumann-ludwig-van-beethoven-the-ma/disc1/01.01. Trio In G Minor, Op 17: 1st Mov't:  Allegro Moderato.mp3": {
+  "stream": "https://archive.org/download/lp_trio-in-g-minor-op-17-trio-no-8-in-b-flat_clara-schumann-ludwig-van-beethoven-the-ma/disc1/01.01.%20Trio%20In%20G%20Minor%2C%20Op%2017%3A%201st%20Mov't%3A%20%20Allegro%20Moderato.mp3",
+  "page": "https://archive.org/details/lp_trio-in-g-minor-op-17-trio-no-8-in-b-flat_clara-schumann-ludwig-van-beethoven-the-ma",
+  "license": "",
+  "artist": "Clara Schumann; Ludwig van Beethoven; The Mannes Gimpel Silva Trio",
+  "duration": 466.44
+ },
+ "archive:lp_trio-in-g-minor-op-17-trio-no-8-in-b-flat_clara-schumann-ludwig-van-beethoven-the-ma/disc1/01.03. Trio In G Minor, Op 17: 3rd Mov't:  Andante.mp3": {
+  "stream": "https://archive.org/download/lp_trio-in-g-minor-op-17-trio-no-8-in-b-flat_clara-schumann-ludwig-van-beethoven-the-ma/disc1/01.03.%20Trio%20In%20G%20Minor%2C%20Op%2017%3A%203rd%20Mov't%3A%20%20Andante.mp3",
+  "page": "https://archive.org/details/lp_trio-in-g-minor-op-17-trio-no-8-in-b-flat_clara-schumann-ludwig-van-beethoven-the-ma",
+  "license": "",
+  "artist": "Clara Schumann; Ludwig van Beethoven; The Mannes Gimpel Silva Trio",
+  "duration": 339.74
  },
  "archive:Mozart.PianoConcertoNo.21/01 Allegro maestoso.mp3": {
   "stream": "https://archive.org/download/Mozart.PianoConcertoNo.21/01%20Allegro%20maestoso.mp3",
@@ -979,6 +1112,13 @@
   "artist": "Domenico Scarlatti",
   "duration": 282.58666666666664
  },
+ "File:Domenico Scarlatti - Sonate en ut majeur Kk.513 (Eliza Hansen 1953).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Domenico_Scarlatti_-_Sonate_en_ut_majeur_Kk.513_%28Eliza_Hansen_1953%29.flac/Domenico_Scarlatti_-_Sonate_en_ut_majeur_Kk.513_%28Eliza_Hansen_1953%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Domenico_Scarlatti_-_Sonate_en_ut_majeur_Kk.513_(Eliza_Hansen_1953).flac",
+  "license": "Public domain",
+  "artist": "Domenico Scarlatti",
+  "duration": 324.04578231292516
+ },
  "File:E lucevan le stelle (1902).opus": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/E_lucevan_le_stelle_%281902%29.opus/E_lucevan_le_stelle_%281902%29.opus.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:E_lucevan_le_stelle_(1902).opus",
@@ -1182,6 +1322,13 @@
   "artist": "Orchestre national de l'Opéra de Monte-Carlo Louis Frémaux Chorale Philippe Caillard Bernard Kruysen Denis Thilliez",
   "duration": 215
  },
+ "File:François Couperin - Le tic toc choc ou les maillotins (Marcelle Meyer, 1954).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f9/Fran%C3%A7ois_Couperin_-_Le_tic_toc_choc_ou_les_maillotins_%28Marcelle_Meyer%2C_1954%29.flac/Fran%C3%A7ois_Couperin_-_Le_tic_toc_choc_ou_les_maillotins_%28Marcelle_Meyer%2C_1954%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Couperin_-_Le_tic_toc_choc_ou_les_maillotins_(Marcelle_Meyer,_1954).flac",
+  "license": "Public domain",
+  "artist": "François Couperin , Marcelle Meyer (Paris, Salle Adyar, late 1953 or January 1954)",
+  "duration": 134.88
+ },
  "File:François Couperin - Les barricades mysterieuses (Marcelle Meyer, 1954).flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_%28Marcelle_Meyer%2C_1954%29.flac/Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_%28Marcelle_Meyer%2C_1954%29.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_(Marcelle_Meyer,_1954).flac",
@@ -1237,6 +1384,13 @@
   "license": "CC BY-SA 4.0",
   "artist": "Frédéric Chopin",
   "duration": 302.05527083333334
+ },
+ "File:Gioachino Rossini, William Tell Overture (military band version, 2000).ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Gioachino_Rossini%2C_William_Tell_Overture_%28military_band_version%2C_2000%29.ogg/Gioachino_Rossini%2C_William_Tell_Overture_%28military_band_version%2C_2000%29.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Gioachino_Rossini,_William_Tell_Overture_(military_band_version,_2000).ogg",
+  "license": "Public domain",
+  "artist": "Gioachino Rossini, transcribed by Wenzel Sedlak; performed by the United States Marine Corps Band (director: Timothy Foley).",
+  "duration": 662.0212244897959
  },
  "File:Grieg+plays+Grieg+Wedding+Day+(1903).ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B%281903%29.ogg/Grieg%2Bplays%2BGrieg%2BWedding%2BDay%2B%281903%29.ogg.mp3",
@@ -1482,6 +1636,13 @@
   "license": "Public domain",
   "artist": "Jean-Philippe Rameau",
   "duration": 186.2704761904762
+ },
+ "File:Jean-Philippe Rameau - Les Niais de Sologne (Marcelle Meyer, 1953).flac": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Jean-Philippe_Rameau_-_Les_Niais_de_Sologne_%28Marcelle_Meyer%2C_1953%29.flac/Jean-Philippe_Rameau_-_Les_Niais_de_Sologne_%28Marcelle_Meyer%2C_1953%29.flac.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Jean-Philippe_Rameau_-_Les_Niais_de_Sologne_(Marcelle_Meyer,_1953).flac",
+  "license": "Public domain",
+  "artist": "Jean-Philippe Rameau",
+  "duration": 323.9648072562358
  },
  "File:JOHN MICHEL CELLO-J S BACH CELLO SUITE 1 in G Prelude.ogg": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg/JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg.mp3",
@@ -2085,6 +2246,13 @@
   "artist": "",
   "duration": 205.15990929705217
  },
+ "File:Pasquale Amato, Georges Bizet, Chanson du toréador, Carmen.ogg": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Pasquale_Amato%2C_Georges_Bizet%2C_Chanson_du_tor%C3%A9ador%2C_Carmen.ogg/Pasquale_Amato%2C_Georges_Bizet%2C_Chanson_du_tor%C3%A9ador%2C_Carmen.ogg.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:Pasquale_Amato,_Georges_Bizet,_Chanson_du_tor%C3%A9ador,_Carmen.ogg",
+  "license": "Public domain",
+  "artist": "Singer: Pasquale Amato (1878-1942) Composer: Georges Bizet (1838-1875)",
+  "duration": 208.02031746031747
+ },
  "File:PDP-CH - Feodor Chaliapin - The Prophet, Op. 49 - Rimsky-Korsakov - Pushkin - Gramophone-db1103-2-022043.flac": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/PDP-CH_-_Feodor_Chaliapin_-_The_Prophet%2C_Op._49_-_Rimsky-Korsakov_-_Pushkin_-_Gramophone-db1103-2-022043.flac/PDP-CH_-_Feodor_Chaliapin_-_The_Prophet%2C_Op._49_-_Rimsky-Korsakov_-_Pushkin_-_Gramophone-db1103-2-022043.flac.mp3",
   "page": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Feodor_Chaliapin_-_The_Prophet,_Op._49_-_Rimsky-Korsakov_-_Pushkin_-_Gramophone-db1103-2-022043.flac",
@@ -2567,6 +2735,13 @@
   "license": "Public domain",
   "artist": "Maurice Ravel / United States Marine Band",
   "duration": 719.421
+ },
+ "File:US Marine Band Rhapsody in Blue.oga": {
+  "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/US_Marine_Band_Rhapsody_in_Blue.oga/US_Marine_Band_Rhapsody_in_Blue.oga.mp3",
+  "page": "https://commons.wikimedia.org/wiki/File:US_Marine_Band_Rhapsody_in_Blue.oga",
+  "license": "Public domain",
+  "artist": "The United States Marine Band",
+  "duration": 1089.7215833333332
  },
  "File:Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin.oga": {
   "stream": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3",

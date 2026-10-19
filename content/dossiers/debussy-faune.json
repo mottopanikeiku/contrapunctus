@@ -82,7 +82,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Internet Archive LP transfer; ripping_operator: associate-johnmark-layos@archive.org",
+      "value": "Internet Archive LP transfer",
       "status": "documented",
       "sourceIds": [
         "archive"

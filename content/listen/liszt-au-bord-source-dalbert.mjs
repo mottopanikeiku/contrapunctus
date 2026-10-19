@@ -8,7 +8,7 @@ export default {
   "key": "A♭ major",
   "forces": "Piano",
   "performers": "Eugen d’Albert, piano",
-  "recorded": "1912–13 (March 1913 in the upload)",
+  "recorded": "1912–13",
   "source": {
     "archive": {
       "item": "02-eugen-d-albert-syposium-1146",
@@ -20,142 +20,63 @@ export default {
       "evidence": "Symposium 1146’s original-carrier scan identifies the historical commercial Odeon 76565 issue, matrix xxB 5732, in its 1912/3 chronology; the upload specifies March 1913. This supplies the programme’s territorial EU pre-1963 basis, not an independently verified first-publication date or US clearance. https://archive.org/download/02-eugen-d-albert-syposium-1146/D%27Albert%20tracks.jpg ; https://archive.org/metadata/02-eugen-d-albert-syposium-1146"
     }
   },
-  "intro": "The rippling surface of this miniature hides an intricate exchange between the hands: accompaniment and melodic notes cross registers without breaking the flow. Eugen d’Albert, who studied with Liszt, records it on an early Odeon disc.",
-  "question": "Can you follow a melodic line through the changing hands and registers that carry it?",
+  "intro": "In <i>Au bord d’une source</i>, the left hand reaches over the right to catch little notes above the running water. Eugen d’Albert, a pupil of Liszt, plays this Swiss miniature on an early Odeon disc.",
   "sections": [
     {
       "t": 0,
-      "label": "Rippling design",
-      "m": "A"
+      "label": "A · Ripples and crossed hands",
+      "m": "A",
+      "mNote": "Short notes dart above and below the right hand’s semiquavers"
     },
     {
       "t": 120,
-      "label": "Expanded central crest",
-      "m": "B"
+      "label": "B · The spring in full flow",
+      "m": "B",
+      "mNote": "Scales and arpeggios carry the tune across the keyboard"
     },
     {
       "t": 148,
-      "label": "Withdrawal and close",
-      "m": "A′"
+      "label": "A′ · The ripples subside",
+      "m": "A′",
+      "mNote": "The flowing piano writing continues towards the close"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A surface made of crossings",
-      "text": "The written texture combines flowing semiquavers with shorter notes that move between registers. Listen for the melody within the ripples: the hands exchange positions, but the musical line need not sound broken into separate gestures.",
-      "basis": "general",
+      "title": "Hands over running water",
+      "text": "The right hand plays rippling semiquavers; the left picks out short notes, first underneath them, then two octaves higher. Each crossing catches another glint on the water. Liszt marks the opening <i>Allegretto grazioso</i>, with the melody sweet and tranquil.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://en.wikipedia.org/wiki/Au_bord_d%27une_source explains the crossed-hand pattern and its register changes. General score description, not a particular fingering claim about d’Albert."
+      "evidence": "The opening notation and markings are reproduced on IMSLP’s work page: https://imslp.org/wiki/Années_de_pèlerinage_I,_S.160_(Liszt,_Franz). The crossed-hand pattern is described at https://en.wikipedia.org/wiki/Au_bord_d%27une_source."
     },
     {
       "t": 36,
       "kind": "life",
-      "title": "A Swiss piece revised",
-      "text": "Liszt first writes the piece for <i>Album d’un voyageur</i>, then revises it for the Swiss book of <i>Années de pèlerinage</i>. The familiar 1855 form is not simply an unchanged sketch from the earlier collection.",
+      "title": "Switzerland with Marie",
+      "text": "In 1835 Liszt leaves Paris with Marie d’Agoult. They settle in Switzerland, where he teaches at the Geneva Conservatory and their daughter Blandine is born in December. This spring belongs to the Swiss landscapes he later gathers into <i>Années de pèlerinage</i>.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://en.wikipedia.org/wiki/Au_bord_d%27une_source distinguishes the earlier Album d’un voyageur and revised Années versions."
-    },
-    {
-      "t": 66,
-      "kind": "listen",
-      "title": "Keep the melody continuous",
-      "text": "Throughout the flowing passages, try following the longer melodic direction across the smaller notes. A change of register can move the line from below the figuration to above it without creating a new phrase.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "https://en.wikipedia.org/wiki/Au_bord_d%27une_source describes alternating registers and intricate connecting scales/arpeggios. This is a general listening instruction."
+      "evidence": "Liszt chronology, entries for 1835–36: https://www.liszt.org/p/chronology.html. The miniature’s earlier and revised versions are described at https://en.wikipedia.org/wiki/Au_bord_d%27une_source."
     },
     {
       "t": 96,
-      "kind": "world",
-      "title": "A pupil records Liszt",
-      "text": "D’Albert studies with Liszt in Weimar in the early 1880s. That connection makes the disc a document of a pupil’s later interpretation, not an audio record of Liszt himself or proof that every detail reproduces the teacher’s playing.",
+      "kind": "life",
+      "title": "From Glasgow to Weimar",
+      "text": "D’Albert is born in Glasgow and studies in London under Arthur Sullivan. Still a teenager, he goes to Vienna, stays with the conductor Hans Richter and then joins Liszt’s pupils in Weimar.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://www.hyperion-records.co.uk/c.asp?c=C6; Eliot Levin’s biography documents d’Albert’s study with Liszt and later recording career."
+      "evidence": "Eliot Levin’s biography gives d’Albert’s Glasgow birth, London training, stay with Richter from late 1881 and subsequent study with Liszt: https://www.hyperion-records.co.uk/c.asp?c=C6."
     },
     {
-      "t": 126,
+      "t": 120,
       "kind": "music",
-      "title": "A larger central swell",
-      "text": "The recorded level rises strongly through this central span. Follow the melodic line through the increase in weight: the piece’s flowing surface can support a substantial crest without abandoning its basic motion.",
-      "basis": "audio-feature",
+      "title": "Scales join the ripples",
+      "text": "Scales and arpeggios join the melody’s successive appearances. They climb into the piano’s highest reaches, run down again and turn back into the tune. The water keeps moving while the hands change places.",
+      "basis": "general",
       "precision": "passage",
-      "evidence": "Analysis boundary 2:00; −13.3 dB at 2:00 rises to maximum −6.8 at 2:05, remaining strong through 2:20."
-    },
-    {
-      "t": 156,
-      "kind": "listen",
-      "title": "The sound draws back",
-      "text": "The strong central span withdraws into a lighter one. Listen for continuity through the reduction of force rather than treating the change as a stop between separate pieces.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis boundary 2:28; level falls from −9.6 dB at 2:20 to −16 at 2:25 and −19.8 by 2:45."
-    },
-    {
-      "t": 186,
-      "kind": "world",
-      "title": "An Odeon side survives",
-      "text": "The reissue identifies Odeon 76565, matrix xxB 5732, and dates it 1912/3; the upload narrows that to March 1913. The dossier retains the distinction instead of treating a more precise filename as independent confirmation.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Selected item’s Symposium 1146 track-list scan, track 4: https://archive.org/download/02-eugen-d-albert-syposium-1146/D%27Albert%20tracks.jpg; upload filename says III.1913."
-    },
-    {
-      "t": 216,
-      "kind": "listen",
-      "title": "Let the ripples settle",
-      "text": "The final sounds fall away before the file ends. Listen through their decay rather than mistaking the remaining transfer silence for an extra musical pause inside the piece.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: around −20 dB through 3:30–3:35, −55.2 at 3:40 and −69.6 at 3:45; file duration 3:48.7."
-    }
-  ],
-  "transitions": [
-    {
-      "id": "expanded-crest",
-      "title": "The flowing design gathers greater weight",
-      "from": "Rippling design",
-      "to": "Expanded central crest",
-      "at": {
-        "t": 120
-      },
-      "span": [
-        110,
-        132
-      ],
-      "how": "<p>The continuing figuration supports a larger central rise. Increasing dynamic weight and fuller register allow the melody to project through the rippling surface; continuity of motion connects the stronger span to the earlier design rather than interrupting it with a new movement.</p>",
-      "devices": [
-        "crescendo build",
-        "register change",
-        "motivic link"
-      ],
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis boundaries 1:56 and 2:00; strongest windows 2:05–2:20. The general score description documents connecting scales and arpeggios."
-    },
-    {
-      "id": "withdrawal-close",
-      "title": "The crest withdraws towards the close",
-      "from": "Expanded central crest",
-      "to": "Withdrawal and close",
-      "at": {
-        "t": 148
-      },
-      "span": [
-        138,
-        160
-      ],
-      "how": "<p>The central weight diminishes while the flowing design remains the listener’s point of reference. Smaller gestures and reduced force carry the piece towards its ending, so the release comes through a shrinking scale rather than an abrupt break in its continuity.</p>",
-      "devices": [
-        "decrescendo",
-        "texture change"
-      ],
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis boundary 2:28 and reduced levels after 2:25; final decay begins around 3:40. The precise version’s optional coda is not identified."
+      "evidence": "The account of the piano writing at https://en.wikipedia.org/wiki/Au_bord_d%27une_source describes the connecting scales and arpeggios, their ascent and descent, and the return to the melody."
     }
   ]
 };

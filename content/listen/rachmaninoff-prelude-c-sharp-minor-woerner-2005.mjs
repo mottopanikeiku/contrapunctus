@@ -13,66 +13,49 @@ export default {
   "source": {
     "file": "File:Sergei Rachmaninoff - Morceaux de fantasie op. 3 No. 2 c sharp minor.ogg"
   },
-  "intro": "Martin Wörner made this private piano recording in May 2005, with Tobias Lohner credited as recordist. It supplies a modern, explicitly licensed counterpart to Rachmaninoff’s commercial discs. The captured resonance comes through a different recording chain; it does not establish a particular piano model or pedal technique.",
-  "question": "How does a modern recording distribute weight and waiting?",
+  "intro": "Martin Wörner plays Rachmaninoff’s C♯ minor Prelude in a private recording made in May 2005. Three tolling notes, a rush of triplets and a return in enormous chords make a small piece sound immense.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Opening bell figure",
-      "m": "A"
-    },
-    {
-      "t": 92,
-      "label": "Central span",
-      "m": "B"
-    },
-    {
-      "t": 132,
-      "label": "Chordal continuation",
-      "m": "C"
-    },
-    {
-      "t": 194,
-      "label": "Late change and close",
-      "m": "D"
-    }
+    { "t": 0, "label": "A · Bells, then rushing triplets", "m": "A", "mNote": "A–G♯–C♯ introduces the quiet chordal answer" },
+    { "t": 92, "label": "B · Triplets gather force", "m": "B", "mNote": "The central Agitato builds towards descending chords" },
+    { "t": 132, "label": "C · Bell chords return", "m": "C", "mNote": "The opening comes back across four staves" },
+    { "t": 194, "label": "D · Quiet chords over C♯", "m": "D", "mNote": "A low C♯ holds beneath the final chords" }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "world",
-      "title": "A private 2005 recording",
-      "text": "Commons credits Wörner at the piano and Tobias Lohner as recordist. No concert hall or precise piano model is given, so the sound should not be used to invent either.",
-      "basis": "documented",
+      "kind": "music",
+      "title": "Three notes, then quiet",
+      "text": "A–G♯–C♯ falls through the piano in octaves, marked <i>fortissimo</i>. The chords that answer are marked <i>ppp</i>. The three-note figure returns beneath them like a bell heard through a closed door.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_Morceaux_de_fantasie_op._3_No._2_c_sharp_minor.ogg"
+      "evidence": "Bosworth (1896) and Universal Edition (1910), opening upbeat and bars 1–4; Petro Kostandy’s Mutopia engraving. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
     },
     {
       "t": 92,
-      "kind": "listen",
-      "title": "A central landmark",
-      "text": "The analysis detects a change here, before the loudest region of the recording. Compare the pace into the following span with the composer’s three surviving transfers.",
-      "basis": "audio-feature",
+      "kind": "music",
+      "title": "A tune inside the triplets",
+      "text": "The central <i>Agitato</i> keeps a melody inside its running triplets. Long notes at the top of the right hand carry the tune while shorter notes turn underneath. As the passage grows, the left hand answers and the melody climbs.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/rachmaninoff-prelude-c-sharp-minor-woerner-2005.txt: novelty92 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Bosworth and Universal Edition score, Agitato, bars 14–34: upper melody separately stemmed above triplets, with left-hand answers. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
     },
     {
-      "t": 125,
-      "kind": "listen",
-      "title": "Where this recording peaks",
-      "text": "The highest five-second average level falls around 2:05; another high window occurs much later at 2:45. Listen for the shape of the whole sustained span rather than assigning one attack the entire climax.",
-      "basis": "audio-feature",
+      "t": 132,
+      "kind": "form",
+      "title": "The bells come back",
+      "text": "The return spreads the opening over four staves, two for each hand. Rachmaninoff writes <i>fff pesante</i>: very loud and heavy. The quiet chordal answer from the first page now fills the keyboard.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/rachmaninoff-prelude-c-sharp-minor-woerner-2005.txt: highest level125 seconds; other high windows165, 130, 120, 135 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Bosworth and Universal Edition score, Tempo primo, bars 45–54: four-stave notation and fff pesante. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
     },
     {
       "t": 194,
-      "kind": "listen",
-      "title": "A pronounced late turn",
-      "text": "The strongest measured change comes here, followed by a long quiet ending. The final resonance belongs in the heard duration; it is not extra composed bars.",
-      "basis": "audio-feature",
+      "kind": "music",
+      "title": "One low note remains",
+      "text": "The last slow chords share a held low C♯. Above it, the hands move through a short succession of harmonies to the final C♯ minor chord. The score returns to <i>ppp</i>.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/rachmaninoff-prelude-c-sharp-minor-woerner-2005.txt: maximum novelty194 seconds; quietest late windows205–230 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Bosworth and Universal Edition score, bars 55–61: held low C♯, closing chords and final ppp. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
     }
   ]
 };

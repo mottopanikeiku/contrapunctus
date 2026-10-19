@@ -14,33 +14,32 @@ export default {
   performers: 'Donald Betts',
   recorded: '2005',
   source: { file: 'File:Robert Schumann - scenes from childhood, op. 15 - ix. knight of the hobbyhorse.ogg' },
-  intro: 'A child gallops on a stick horse: accented chords in C major, each bar starting with a quaver rest. Both parts of the piece carry repeat signs, and this performance appears to take them, so every bar is heard twice.',
-  question: 'How do repeats change a forty-second piece?',
+  intro: 'A child gallops on a stick horse, and the piano takes the adventure seriously. C-major chords lurch off the beat while the bass keeps its seat.',
 
   sections: [
-    { t: 0, label: 'A · eight bars, played twice', m: 'A', mNote: 'repeat apparently taken; eight bars sound twice' },
-    { t: 13, label: 'B · sixteen bars, played twice', m: 'B', mNote: 'chromatic chords, ff in the second half' },
+    { t: 0, label: 'A · Offbeat chords in C major', m: 'A', mNote: 'The right hand starts each bar with a rest' },
+    { t: 13, label: 'B · The gallop reaches fortissimo', m: 'B', mNote: 'Chromatic bass notes beneath the same bounding rhythm' },
   ],
 
   cues: [
-    { t: 0, kind: 'music', title: 'A quaver rest, then off-beat chords', text: 'Three beats to the bar, marked mf. Each bar begins with a quaver rest in the right hand. Then come a crotchet chord, a quaver chord and an accented crotchet chord, off the beat against long left-hand notes. The gallop is in that long–short–long figure. The first eight bars close with a repeat sign.', basis: 'score-proportion', precision: 'passage', evidence: 'First edition p. 13 (IMSLP #03060): 3/4, no sharps or flats, mf, quaver rest at the start of each bar, then crotchet, quaver and accented crotchet chords, long left-hand notes, closing repeat sign after bar 8. Report: C major (G C E among the strongest pitch classes at 0:00–0:10), 3.8–4.6 onsets per second.' },
-    { t: 13, kind: 'form', title: 'Both repeats are taken', text: 'The second part has sixteen bars and its own repeat sign. With both repeats the piece runs 48 bars. The recording lasts 44 seconds including its slowing and decay, about 0.9 seconds a bar, so both repeats appear to be taken, and each pass of the second part lasts about 14 seconds.', basis: 'audio-feature', precision: 'passage', evidence: 'Report: novelty 1.00 at 0:14, the only structural boundary. Onset-envelope autocorrelation peaks at 0.267 s and 0.813 s, consistent with a three-beat bar near 0.8–0.9 s. Form analysis: 0:08.5–0:22.5 matches 0:22.5–0:36.5 (lag 14 s, mean 0.95). 44 s over 48 bars is about 0.9 s a bar, allowing for the final slowing; the boundary at 0:14 then falls after 16 bars (the first part with its repeat). Score p. 13: repeat signs after bar 8 and after bar 24.' },
-    { t: 28, kind: 'world', title: 'A title on a list, a publisher chased', text: 'Schumann named this piece in his March 1838 list of titles for Clara. By 6 July he was pressing the publisher Raimund Härtel about the set: “sie werden zu alt mit der Zeit”, they will grow too old with time. The first edition appeared in 1839.', basis: 'documented', precision: 'passage', evidence: 'Zwickau catalogue, item 3 (title list including “Ritter vom Steckenpferd”) and item 6 (letter to Härtel, 6 July 1838); IMSLP lists the first publication as Breitkopf & Härtel, Leipzig, 1839.' },
+    { t: 0, kind: 'music', title: 'A slightly lopsided gallop', text: 'The right hand misses the downbeat, then lands a chord halfway through the beat. Its long–short–long rhythm sits awkwardly in a three-beat bar. Accents make the toy horse buck.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel first edition, plate 6016, p. 13: 3/4, opening quaver rests, crotchet–quaver–crotchet chords and accents. https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf' },
+    { t: 13, kind: 'form', title: 'The horse keeps its rhythm', text: 'The second part keeps the gallop exactly as it was. New flats and sharps slip into the chords and bass; later the music reaches <i>fortissimo</i>. Both halves have repeat signs.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel first edition, p. 13: two repeated strains; chromatic writing in the second, followed by fortissimo.' },
+    { t: 28, kind: 'life', title: 'The children are getting older', text: 'On 6 July 1838 Schumann chases his publisher Raimund Härtel for news of <i>Kinderszenen</i>. “They will grow too old with time,” he writes. “Please — do not forget them; I long to see them.”', basis: 'documented', precision: 'passage', evidence: 'Schumann to Raimund Härtel, 6 July 1838, quoted in Thomas Synofzik, 175 Jahre Kinderszenen (2013), item 6. Translation from the German. https://www.schumann-zwickau.de/media/archiv-sonderausstellungen/2013_175_Jahre_Kinderszenen.pdf' },
   ],
 
   transitions: [
     {
       id: 'into-second-part',
-      title: 'The same gallop over new harmony',
-      from: 'A · eight bars, played twice',
-      to: 'B · sixteen bars, played twice',
+      title: 'New chords, the same horse',
+      from: 'A · Offbeat chords in C major',
+      to: 'B · The gallop reaches fortissimo',
       at: { t: 13 },
       span: [7, 20],
-      how: '<p>After the repeat of the first eight bars, the second part keeps the rhythm of the first: a quaver rest, then the long–short–long chords with their accent. What changes is the harmony, with flat and natural signs in the chords, and the dynamic, which reaches <i>ff</i> in the second half of the part. The rhythm stays fixed, so the change comes only from harmony and volume.</p>',
+      how: '<p>The first strain closes in C major. The second keeps the right hand’s quaver rest and bounding chords, while the left hand moves into chromatic notes. Its longer bass notes continue underneath the offbeat attacks; later, <i>fortissimo</i> gives the returning C-major chords an extra kick.</p>',
       devices: ['motivic link'],
-      basis: 'audio-feature',
+      basis: 'score-proportion',
       precision: 'passage',
-      evidence: 'Report: novelty 1.00 at 0:14 with level −8.3 dB at 0:10 and −5.6 dB at 0:15. Score p. 13: double bar with repeat signs after bar 8, flat and natural signs in the third system, ff in the fourth.',
+      evidence: 'Breitkopf & Härtel first edition, p. 13, the join between the two repeated strains and the later fortissimo return.',
     },
   ],
 };

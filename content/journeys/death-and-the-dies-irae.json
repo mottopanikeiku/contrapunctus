@@ -1,71 +1,74 @@
 {
   "id": "death-and-the-dies-irae",
   "title": "Death and the Dies irae",
-  "subtitle": "One chant, different kinds of musical inheritance",
+  "subtitle": "A funeral chant among bells, bones and piano keys",
   "minutes": 21,
   "hero": {
     "file": "File:The Triumph of Death by Pieter Bruegel the Elder.jpg",
-    "caption": "Pieter Bruegel the Elder, The Triumph of Death, about 1562. A visual comparison, not a claimed source for these scores."
+    "caption": "Pieter Bruegel the Elder, <i>The Triumph of Death</i>, about 1562. Skeletons overrun a barren landscape."
   },
-  "intro": "Berlioz makes a funeral chant dance; Liszt and Saint-Saëns transform it, while Verdi sets its words without borrowing its tune. Follow that distinction into Rachmaninoff’s inherited material: unavailable quotation recordings are discussed through sourced influence panels, with contextual music identified explicitly.",
+  "intro": "A single voice leads into funeral bells, rattling bows and thunderous piano chords. The <i>Dies irae</i> passes through Berlioz, Liszt, Saint-Saëns and Rachmaninoff, while Verdi sets its Latin words blazing in the Requiem.",
   "stations": [
     {
       "id": "s1",
-      "title": "First distinguish the chant",
+      "title": "A hymn in one voice",
       "listen": { "id": "origins-pange-lingua", "from": 0, "to": 205.15 },
-      "art": { "file": "File:The Triumph of Death by Pieter Bruegel the Elder.jpg", "caption": "Bruegel, The Triumph of Death, about 1562. The painting is contextual; it is not the Pisa fresco associated with Liszt." },
+      "art": { "file": "File:The Triumph of Death by Pieter Bruegel the Elder.jpg", "caption": "Bruegel’s <i>The Triumph of Death</i>, about 1562. Death rides a chestnut horse ahead of an army of skeletons." },
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>The recording is <i>Pange lingua</i>, not <i>Dies irae</i>: Gareth Hughes sings the Eucharistic hymn unaccompanied. Use its single melodic line to hear what chant can do without a separate bass or chords. The different melody we will follow appears in the <a href=\"../influence.html#thread-dies-irae\">Dies irae thread</a>: its opening eight notes are F–E–F–D–E–C–D–D in the Vatican <i>Graduale</i> version. Retain the down–up–lower contour, not an imagined regular beat; the thread’s equal note lengths are a display aid. Bruegel’s painted army of death supplies a visual comparison only. Neither this hymn nor this painting is presented as a source for Berlioz’s quotation.</p>",
+      "text": "<p>Gareth Hughes sings <i>Pange lingua</i> alone, letting each Latin phrase rise, turn and settle before the next breath. The Eucharistic hymn’s stanza melody returns with fresh words; the whole performance rests on a single human voice.</p><p>At Catholic funerals, the <a href=\"../influence.html#thread-dies-irae\"><i>Dies irae</i></a> supplied a sterner melody. Its first eight notes in the Vatican <i>Graduale</i> are F–E–F–D–E–C–D–D. Berlioz will set that melody deep in his orchestra. In Bruegel’s <i>The Triumph of Death</i>, skeletons have already crossed the landscape, driving the living before them.</p>",
       "cues": [
-        { "at": 0, "text": "This is Pange lingua, a different hymn. Hear one unaccompanied line shape phrases without chords." },
-        { "at": 68, "text": "Compare the recurring stanza tune with its earlier phrases; new words do not require a new melody." },
-        { "at": 170, "text": "Follow the final sustained line into its release; no instrumental chord supplies the ending." }
+        { "at": 0, "text": "Gareth Hughes sings <i>Pange lingua</i>, the Latin Eucharistic hymn, in a single unaccompanied line." },
+        { "at": 68, "text": "Fresh Latin words fill the familiar phrases as the stanza melody returns." },
+        { "at": 170, "text": "The closing stanzas carry the same melody towards the hymn’s final prayer." }
       ],
       "sources": [
         { "title": "GregoBase: Dies irae, Graduale Romanum (Vatican, 1908), p. 83*, chant and transcription", "url": "https://gregobase.selapa.net/chant.php?id=3441" },
         { "title": "Commons: Gareth Hughes’s Pange lingua recording", "url": "https://commons.wikimedia.org/wiki/File:Pange_Lingua_Latin_in_Latin.ogg" },
         { "title": "Hugh Henry, Catholic Encyclopedia: Aquinas’s Eucharistic hymn", "url": "https://www.newadvent.org/cathen/11441c.htm" },
-        { "title": "Commons: Bruegel, The Triumph of Death, date and public-domain reproduction", "url": "https://commons.wikimedia.org/wiki/File:The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg" }
+        { "title": "Commons: Bruegel, The Triumph of Death, date and public-domain reproduction", "url": "https://commons.wikimedia.org/wiki/File:The_Triumph_of_Death_by_Pieter_Bruegel_the_Elder.jpg" },
+        { "title": "Google Arts & Culture: Bruegel’s The Triumph of Death", "url": "https://artsandculture.google.com/asset/the-triumph-of-death-pieter-bruegel-the-elder/WwEAAwTn3jAYUg?hl=en" },
+        { "title": "Hector Berlioz: programme and note on the Dies irae’s funeral use", "url": "http://www.hberlioz.com/Scores/fantas.htm" }
       ]
     },
     {
       "id": "s2",
-      "title": "Berlioz brings the funeral indoors",
+      "title": "Funeral bells at the witches’ sabbath",
       "listen": { "id": "berlioz-fantastique-sabbat", "from": 180, "to": 335 },
       "art": null,
       "score": null,
       "map": { "composer": "berlioz", "year": 1830 },
       "edge": "berlioz-fantastique-dies-irae--liszt-totentanz",
       "compare": null,
-      "text": "<p>Now the actual <i>Dies irae</i> quotation approaches. In the finale of the 1830 <i>Symphonie fantastique</i>, the artist dreams of a gathering for his own funeral. Berlioz’s programme names a funeral knell and a parody of the chant. Bells frame the broad low statement, written from bar 127 for four bassoons and two ophicleides, the keyed brass instruments specified in the score. Their historical scoring does not identify the instruments used in this recording. Listen for the contour retained across slower and quicker note values: the melody’s recognisability makes it possible to change its ceremonial character without replacing it.</p>",
+      "text": "<p>Bells toll C and G in the finale of Berlioz’s <i>Symphonie fantastique</i>. His artist is dreaming of his own funeral, surrounded by witches and monsters. Out of the orchestra’s depths comes the <i>Dies irae</i>, its first statement assigned to four bassoons and two ophicleides, the keyed brass instruments in Berlioz’s score.</p><p>The chant moves in long, heavy notes. Then the same tune shrinks into quicker phrases and passes to brighter wind and brass voices. In his 1845 programme, Berlioz calls this a ‘burlesque parody’: the funeral music is beginning to dance.</p>",
       "cues": [
-        { "at": 200, "text": "The score’s funeral bells frame the approaching chant; their written notes are C and G." },
-        { "at": 240, "text": "The broad low melody quotes Dies irae. Retain its down–up–lower opening contour." },
-        { "at": 280, "text": "The chant becomes shorter and more mobile as its rhythmic scale and orchestral colour change." }
+        { "at": 200, "text": "Deep bells toll C and G around the approaching funeral chant." },
+        { "at": 240, "text": "The <i>Dies irae</i> sounds low and broad, scored for four bassoons and two ophicleides." },
+        { "at": 280, "text": "The chant’s long notes shorten as the melody passes through brighter wind and brass voices." }
       ],
       "sources": [
         { "title": "Hector Berlioz: original programmes, movement V", "url": "http://www.hberlioz.com/Scores/fantas.htm" },
         { "title": "The Hector Berlioz Website: finale analysis, Dies irae from bar 127", "url": "http://www.hberlioz.com/Scores/sfantastique.htm" },
-        { "title": "Berlioz: finale orchestral score", "url": "http://www.hberlioz.com/scosupp/symfantas5.pdf" }
+        { "title": "Berlioz: finale orchestral score", "url": "http://www.hberlioz.com/scosupp/symfantas5.pdf" },
+        { "title": "Hector Berlioz: French text of the 1845 programme, movement V", "url": "http://www.hberlioz.com/Scores/fantasf.htm" }
       ]
     },
     {
       "id": "s3",
-      "title": "Learn the second melody separately",
+      "title": "The witches crowd the dance",
       "listen": { "id": "berlioz-fantastique-sabbat", "from": 335, "to": 490 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>The witches’ round is not another name for the chant. It introduces a different tune, developed through imitating entries: one line continues while another takes up the material. Berlioz’s programme eventually asks for the round and <i>Dies irae</i> together, so hearing their identities separately prepares the later collision. Follow an entry through the accumulating texture instead of treating the orchestra as a single block. The quotation is doing more than labelling a scene as frightening. It gives Berlioz a slow, recognisable shape that can remain audible against faster material; counterpoint makes two kinds of musical time coexist.</p>",
+      "text": "<p>The witches’ round begins low in the strings, with cellos and double basses setting off together. Violas answer, then violins; each group starts while the earlier players continue. The tune’s quick rise and accented turn keep appearing in different corners of the orchestra, like dancers joining a crowded ring.</p><p>Berlioz has saved another encounter for later: the <i>Dies irae</i> will stride through this running dance. For now, the round occupies the foreground, swelling as winds and brass join the strings. Towards the end of this passage, the bustle subsides into held notes, leaving room for quiet horn calls.</p>",
       "cues": [
-        { "at": 360, "text": "The round passes between imitating voices; listen for overlap rather than a succession of isolated solos." },
-        { "at": 400, "text": "Follow one repeated contour through the changing orchestral weight." },
-        { "at": 480, "text": "The busy texture withdraws before the final region; keep both chant and round in memory." }
+        { "at": 360, "text": "The string parts overlap, each new entry joining the dance before the earlier one has finished." },
+        { "at": 400, "text": "Woodwinds, brass and percussion join the strings’ imitative dance." },
+        { "at": 480, "text": "The rushing dance thins into held notes before the horns call the chant back." }
       ],
       "sources": [
         { "title": "Hector Berlioz: programme distinguishing the round from the chant and their combination", "url": "http://www.hberlioz.com/Scores/fantas.htm" },
@@ -75,40 +78,40 @@
     },
     {
       "id": "s4",
-      "title": "Liszt knows the score",
+      "title": "Liszt’s piano changes its voice",
       "listen": { "id": "liszt-sonata-b-minor", "from": 0, "to": 208 },
       "art": null,
       "score": null,
       "map": { "composer": "liszt", "year": 1853 },
       "edge": "berlioz-fantastique-dies-irae--liszt-totentanz",
       "compare": null,
-      "text": "<p>This is the opening of Liszt’s B-minor Sonata, not <i>Totentanz</i>; no chant quotation is claimed in the passage. Its contrasting scales, leaps and repeated notes let us hear Liszt establishing material for transformation. His knowledge of Berlioz was concrete: he attended the <i>Fantastique</i> premiere and transcribed the symphony in 1833. His <i>Totentanz</i> makes variations for piano and orchestra from <i>Dies irae</i>. The influence panel carefully marks a direct Berlioz-to-<i>Totentanz</i> stimulus as inferred, not proved by a letter; the Pisa <i>Triumph of Death</i> fresco is another reported stimulus. Knowing the shared chant does not settle the exact route by which an idea arrived.</p>",
+      "text": "<p>Liszt’s B-minor Sonata begins with low Gs and a falling scale, leaving silence around each phrase. Then the piano leaps into octaves and hammers a repeated note. A few minutes later, broad D-major chords open out under the marking <i>Grandioso</i>.</p><p>Liszt had heard the première of Berlioz’s <i>Symphonie fantastique</i> in 1830 and transcribed it for piano in 1833. In <i>Totentanz</i>, he built variations for piano and orchestra around the <i>Dies irae</i>. The Sonata’s drama grows from its own terse beginnings: even beneath the broad <i>Grandioso</i> melody, the accompaniment keeps striking repeated quavers.</p>",
       "cues": [
-        { "at": 0, "text": "Context: the B-minor Sonata, not Totentanz. Store the slow descending scales and the spaces around them." },
-        { "at": 40, "text": "Leaping octaves and a hammered repeated-note figure contrast with the slow opening scales." },
-        { "at": 160, "text": "The broader Grandioso region changes the scale of the statement within the continuous sonata." }
+        { "at": 0, "text": "Low Gs and falling scales begin Liszt’s B-minor Sonata, with silence between the phrases." },
+        { "at": 40, "text": "The piano breaks into leaping octaves, then strikes a repeated note like a hammer." },
+        { "at": 160, "text": "Broad D-major chords announce the Grandioso; repeated quavers keep sounding beneath the melody." }
       ],
       "sources": [
-        { "title": "The Hector Berlioz Website: Liszt at the premiere and the 1833 transcription", "url": "http://www.hberlioz.com/Predecessors/liszt.htm" },
-        { "title": "Totentanz: chant basis, versions and reported Pisa stimulus", "url": "https://en.wikipedia.org/wiki/Totentanz_(Liszt)" },
+        { "title": "The Hector Berlioz Website: Liszt at the première and the 1833 transcription", "url": "http://www.hberlioz.com/Predecessors/liszt.htm" },
+        { "title": "John Mangum, Los Angeles Philharmonic: Totentanz and its Dies irae variations", "url": "https://www.laphil.com/works/totentanz" },
         { "title": "Alan Tang: B-minor Sonata, opening motifs and Grandioso", "url": "https://www.classicalmusic-notes.com/liszt-sonata-1/" },
-        { "title": "Contrapunctus influence evidence: the explicitly inferred Berlioz–Liszt connection", "url": "../influence.html#berlioz-fantastique-dies-irae--liszt-totentanz" }
+        { "title": "Contrapunctus: Berlioz and Liszt", "url": "../influence.html#berlioz-fantastique-dies-irae--liszt-totentanz" }
       ]
     },
     {
       "id": "s5",
-      "title": "Saint-Saëns makes death dance too",
+      "title": "Death’s fiddle and the rattling bows",
       "listen": { "id": "berlioz-fantastique-sabbat", "from": 490, "to": 673 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>Return to Berlioz’s finale for the promised combination; the recording remains Berlioz, not Saint-Saëns. The broad chant and quicker round now occupy the same orchestral space. Saint-Saëns’s <i>Danse macabre</i>, composed in 1874 from an earlier song on Henri Cazalis’s poem, offers a related but distinct transformation: its woodwinds quote <i>Dies irae</i>, while a solo violin represents Death’s fiddle and the xylophone evokes bones. Those details belong to that score, not to the sound beneath this paragraph. Here, listen instead for Berlioz’s slower borrowed contour against the active dance, then the dry string colour of <i>col legno</i>, bow wood striking strings.</p>",
+      "text": "<p>Berlioz’s <i>Symphonie fantastique</i> returns for its final rush. The wind and brass carry the funeral chant in broad notes while the strings race through the witches’ round. Later, violins and violas turn their bows over and strike with the wood: <i>col legno</i>, a dry rattle across the strings.</p><p>In Saint-Saëns’s <i>Danse macabre</i> of 1874, Death takes up a solo violin and the xylophone rattles like bones. The woodwinds quote the <i>Dies irae</i> amid the dance. That score grew from a song on Henri Cazalis’s poem; Berlioz’s sabbath ends with the strings bowing again and the full orchestra hammering out C major.</p>",
       "cues": [
-        { "at": 520, "text": "Berlioz’s restrained texture gathers force again before the chant and round confront one another." },
-        { "at": 560, "text": "Hear the broad chant against the quicker dance: familiar materials are superimposed, not merely alternated." },
-        { "at": 600, "text": "In the late string passage, col legno means striking the strings with the wood of the bow." }
+        { "at": 520, "text": "Berlioz’s orchestra gathers force after the quiet horn calls, preparing the chant and round together." },
+        { "at": 560, "text": "Wind and brass carry the broad funeral chant while the strings race through the witches’ dance." },
+        { "at": 600, "text": "Violins and violas strike their strings with the wood of their bows: <i>col legno</i>, a dry rattle." }
       ],
       "sources": [
         { "title": "Brian McCurdy, Library of Congress: Saint-Saëns, Danse macabre, its chant quotation and instrumentation", "url": "https://blogs.loc.gov/nls-music-notes/2022/10/song-stories-camille-saint-sans-and-danse-macabre/" },
@@ -118,65 +121,69 @@
     },
     {
       "id": "s6",
-      "title": "Verdi inherits words, not this tune",
+      "title": "Verdi’s chorus faces judgement",
       "listen": { "id": "verdi-requiem-dies-irae", "from": 0, "to": 122.08 },
       "art": null,
       "score": null,
       "map": { "composer": "verdi", "year": 1874 },
       "edge": null,
       "compare": null,
-      "text": "<p>The title <i>Dies irae</i> does not always announce the melody we heard in Berlioz. Verdi sets the medieval Latin words to his own music. Four separated orchestral blows precede the choral attack; later, repeated quiet syllables on ‘Quantus tremor’ — ‘how great the trembling’ — make the collective voice vulnerable. This is inheritance through a text rather than quotation of the familiar plainchant tune. The distinction can be heard, not merely catalogued: try recalling Berlioz’s broad contour against Verdi’s declamation. This recording contains only the opening number of the sequence and stops before <i>Tuba mirum</i>; its endpoint is not the Requiem’s conclusion.</p>",
+      "text": "<p>Four orchestral blows tear into Verdi’s <i>Dies irae</i>; rushing figures drive towards the chorus’s entrance. The ancient Latin words describe the day of judgement, and Verdi gives them a new tune with the force of a shouted warning. This Requiem first sounded in Milan’s church of San Marco on 22 May 1874.</p><p>After the uproar, the voices grow quiet on ‘Quantus tremor’ — ‘how great the trembling’. Repeated syllables make the choir sound as though its breath has begun to shake. The orchestra still moves beneath it, while the people who proclaimed the day of wrath tremble at its approach.</p>",
       "cues": [
-        { "at": 0, "text": "Four separated orchestral blows and rushing figures precede the chorus in this independently composed setting." },
-        { "at": 62, "text": "The opening force recedes; listen for the words becoming exposed as orchestral weight diminishes." },
-        { "at": 102, "text": "The restrained, repeated syllables of Quantus tremor turn massed power into trembling." }
+        { "at": 0, "text": "Four orchestral blows and rushing figures launch Verdi’s setting of the Latin judgement scene." },
+        { "at": 62, "text": "The orchestra softens, and the chorus’s words begin to stand out against the quieter accompaniment." },
+        { "at": 102, "text": "‘Quantus tremor’ — ‘how great the trembling’ — breaks into quiet, repeated syllables." }
       ],
       "sources": [
         { "title": "Verdi, Requiem: Eulenburg score, opening Dies irae and following Tuba mirum", "url": "https://ks15.imslp.org/files/imglnks/usimg/7/71/IMSLP407348-PMLP01812-Verdi_Requiem_whole.pdf" },
         { "title": "GregoBase: the plainchant melody for comparison with Verdi’s independent setting", "url": "https://gregobase.selapa.net/chant.php?id=3441" },
-        { "title": "Commons: recording part 03, opening Dies irae only", "url": "https://commons.wikimedia.org/wiki/File:ICBSA_Verdi_-_Messa_da_requiem_parte_03,_Dies_irae.ogg" }
+        { "title": "Commons: recording part 03, opening Dies irae", "url": "https://commons.wikimedia.org/wiki/File:ICBSA_Verdi_-_Messa_da_requiem_parte_03,_Dies_irae.ogg" },
+        { "title": "Teatro dell’Opera di Roma historical archive: the Requiem’s first performance", "url": "https://archiviostorico.operaroma.it/concerto/messa-da-requiem/" }
       ]
     },
     {
       "id": "s7",
-      "title": "Rachmaninoff’s picture and borrowed notes",
+      "title": "Three notes beside a painted boat",
       "listen": { "id": "rachmaninoff-prelude-c-sharp-minor", "from": 0, "to": 138 },
-      "art": { "file": "File:Arnold Böcklin - Die Toteninsel I (Basel, Kunstmuseum).jpg", "caption": "Arnold Böcklin, Isle of the Dead, first version, 1880. The displayed colour painting is not the monochrome reproduction Rachmaninoff saw." },
+      "art": { "file": "File:Arnold Böcklin - Die Toteninsel I (Basel, Kunstmuseum).jpg", "caption": "Arnold Böcklin, <i>Isle of the Dead</i>, first version, 1880. A white-cloaked figure stands beside a shrouded coffin in the boat." },
       "score": null,
       "map": { "composer": "rachmaninoff", "year": 1909 },
       "edge": "gregorian-chant--rachmaninoff-isle-dies-irae",
       "compare": null,
-      "text": "<p>Rachmaninoff’s <i>Isle of the Dead</i> brings together two different inheritances: a black-and-white reproduction of Böcklin’s painting, seen in 1907, and fragments and fuller statements of <i>Dies irae</i>. The picture supplies a visual stimulus; the chant supplies notes. The music playing now is explicitly contextual: Rachmaninoff’s own 1919 recording of the C♯-minor Prelude, not the symphonic poem and not a demonstrated quotation of the chant. Its opening A–G♯–C♯ signal belongs to the Prelude’s own design. Keep it distinct from F–E–F–D as the middle section gathers motion; a sombre association alone is not evidence of borrowing.</p>",
+      "text": "<p>Rachmaninoff plays his C♯-minor Prelude in this 1919 recording. Three low notes, A–G♯–C♯, ring out; the answering chords are almost whispered. Soon the right hand begins running in triplets, carrying a descending melody inside the restless notes.</p><p>Böcklin’s <i>Isle of the Dead</i> places a white-cloaked figure and a coffin in a boat approaching the island. A black-and-white reproduction caught Rachmaninoff’s eye in 1907. His orchestral <i>Isle of the Dead</i> takes up the <i>Dies irae</i> in fragments and longer phrases; at the piano, the Prelude’s triplets gather towards a return of those three bass notes.</p>",
       "cues": [
-        { "at": 0, "text": "Context: Rachmaninoff’s Prelude, not Isle of the Dead. Its opening signal is A–G♯–C♯, not the chant’s incipit." },
-        { "at": 64, "text": "Listen inside the quieter chords for distinct melodic weighting." },
-        { "at": 112, "text": "Triplet motion gathers force towards the Prelude’s own opening material returning." }
+        { "at": 0, "text": "Rachmaninoff opens his C♯-minor Prelude with A–G♯–C♯ in low octaves, followed by hushed chords." },
+        { "at": 64, "text": "A descending melody sounds inside the right hand’s running triplets." },
+        { "at": 112, "text": "The Prelude’s triplets gather force, carrying the piano towards the return of its opening chords." }
       ],
       "sources": [
         { "title": "Timothy Judd: Isle of the Dead, the monochrome reproduction and Dies irae material", "url": "https://thelistenersclub.com/2019/09/18/rachmaninovs-isle-of-the-dead-a-tone-poem-in-black-and-white/" },
         { "title": "Commons: Böcklin’s first version, Basel, 1880", "url": "https://commons.wikimedia.org/wiki/File:Arnold_B%C3%B6cklin_-_Die_Toteninsel_I_(Basel,_Kunstmuseum).jpg" },
         { "title": "Rachmaninoff: C♯-minor Prelude, Mutopia score", "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf" },
-        { "title": "Commons: Rachmaninoff’s 1919 Edison Prelude recording", "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor,_Op._3.ogg" }
+        { "title": "Commons: Rachmaninoff’s 1919 Edison Prelude recording", "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor,_Op._3.ogg" },
+        { "title": "Kunstmuseum Basel: Böcklin’s first Isle of the Dead and its white-cloaked figure", "url": "https://kunstmuseumbasel.ch/en/exhibitions/2020/encountering-b%C3%B6cklin/leaflet" },
+        { "title": "Lucy Parham, Pianist: the Prelude’s chords, triplets and bell sonorities", "url": "https://www.pianistmagazine.com/blogs/how-to-play-rachmaninovs-prelude-in-c-sharp-minor-op-3-no-2/" }
       ]
     },
     {
       "id": "s8",
-      "title": "Two inheritances meet Paganini",
+      "title": "The piano fills the room",
       "listen": { "id": "rachmaninoff-prelude-c-sharp-minor", "from": 138, "to": 227.9 },
       "art": null,
       "score": null,
       "map": { "composer": "rachmaninoff", "year": 1934 },
       "edge": "gregorian-chant--rachmaninoff-paganini-dies-irae",
       "compare": null,
-      "text": "<p>In variation VII of the 1934 <i>Rhapsody on a Theme of Paganini</i>, Rachmaninoff puts <i>Dies irae</i> in the piano against fragments of Paganini’s theme in bassoons and pizzicato cellos. Like Berlioz’s combination, this is an interaction between identifiable materials, not simply a title about death. The influence panel documents that passage; we remain with the Prelude as contextual listening, not an unheard <i>Rhapsody</i> excerpt. Its own opening now returns across four staves before the quieter coda. Distinguish this enlargement of a composer’s material from a borrowed chant, just as Verdi’s inherited words differed from Berlioz’s inherited melody.</p>",
+      "text": "<p>The C♯-minor Prelude reaches its great return: the quiet opening chords now spread across four staves, two for each hand, marked <i>fff pesante</i> — very loud and heavy. The three-note call has become a peal of bells.</p><p>In the <i>Rhapsody on a Theme of Paganini</i> of 1934, Rachmaninoff would give the piano another imposing melody. Variation VII puts the <i>Dies irae</i> in chords against Paganini’s tune in bassoons and plucked cellos. Here the Prelude draws back from its own climax. A low C♯ stays beneath changing chords, until the final C♯-minor chord fades to <i>ppp</i>.</p>",
       "cues": [
-        { "at": 138, "text": "The Prelude’s opening returns enlarged across four staves: two for each hand, not extra players." },
-        { "at": 207, "text": "The coda retreats into softer, more widely spaced chords after the enlarged return." }
+        { "at": 138, "text": "Running triplets drive towards the Prelude’s huge return, written on four staves." },
+        { "at": 207, "text": "A low C♯ anchors the coda while quieter chords settle above it." }
       ],
       "sources": [
         { "title": "Calvin Dotsey, Houston Symphony: Paganini Rhapsody, variation VII and its two materials", "url": "https://houstonsymphony.org/rachmaninoff-rhapsody-paganini/" },
         { "title": "Rachmaninoff: C♯-minor Prelude, four-stave return and coda", "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf" },
-        { "title": "Hector Berlioz: chant and round combined", "url": "http://www.hberlioz.com/Scores/fantas.htm" }
+        { "title": "Hector Berlioz: chant and round combined", "url": "http://www.hberlioz.com/Scores/fantas.htm" },
+        { "title": "Lucy Parham, Pianist: the Prelude’s bell-like climax and quiet ending", "url": "https://www.pianistmagazine.com/blogs/how-to-play-rachmaninovs-prelude-in-c-sharp-minor-op-3-no-2/" }
       ]
     }
   ]

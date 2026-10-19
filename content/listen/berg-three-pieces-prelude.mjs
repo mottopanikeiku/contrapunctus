@@ -1,0 +1,58 @@
+export default {
+  id: 'berg-three-pieces-prelude',
+  composer: 'berg',
+  order: 1,
+  work: 'Three Pieces for Orchestra, Op. 6',
+  movement: 'I. Präludium',
+  year: '1914–15; revised 1929',
+  key: '',
+  forces: 'Orchestra',
+  performers: 'Columbia Symphony Orchestra; Robert Craft',
+  recorded: '',
+  source: {
+    archive: {
+      item: 'lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a',
+      file: 'disc1/01.01. Three Pieces For Orchestra, Op.6: Praeludium.mp3',
+    },
+    rights: {
+      basis: 'eu-published-before-1963',
+      published: 1961,
+      evidence: 'Columbia Masterworks MS 6216 was commercially available by August 1961: Audio magazine reviews this exact Craft / Columbia Symphony programme, PDF p. 71, https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/60s/Audio-1961-Aug.pdf. Internet Archive dates the carrier 1960; 1961 is the conservative, independently documented publication bound. Territorial EU phonogram basis only.',
+    },
+  },
+  intro: 'Berg builds a four-minute arch from percussion to a full orchestral climax and back to a single tam-tam stroke. Robert Craft conducts the Columbia Symphony Orchestra in the opening piece of Op. 6.',
+  sections: [
+    { t: 0, label: 'A · Percussion and gathering pitches', m: 'A' },
+    { t: 82, label: 'B · Wind and strings entwine', m: 'B' },
+    { t: 174, label: 'A′ · Earlier phrases return', m: 'A′', mNote: 'Quieter scoring, gradually leaving percussion alone' },
+  ],
+  cues: [
+    {
+      t: 0,
+      kind: 'music',
+      title: 'The orchestra takes shape',
+      text: 'The Prelude begins among tam-tams, drums and cymbals. Timpani bring definite notes into the rustle; a flute and two horns, one muted, begin to emerge above it. The strings add plucked notes and muted chords.',
+      basis: 'score-proportion',
+      precision: 'passage',
+      evidence: 'Berg, Three Pieces for Orchestra, revised full score, Universal Edition, UE 12194 / W.Ph.V. 432, Präludium, bars 1–5. Mark DeVoto discusses the emergence of definite pitches in his analysis, pp. 3–4: https://sites.tufts.edu/markdevoto/files/2015/10/DreiOrch-English.pdf',
+    },
+    {
+      t: 82,
+      kind: 'form',
+      title: 'A little more movement',
+      text: 'The score asks for a little more movement. Woodwind phrases overlap with divided strings, while the same small shapes keep changing their notes and rhythms. The orchestral parts crowd together towards the great central climax.',
+      basis: 'score-proportion',
+      precision: 'passage',
+      evidence: 'Universal Edition revised score, Präludium, bar 16, Ein wenig bewegter, through the climax at bar 36. DeVoto traces the accumulating transformations in bars 16–36, pp. 4–6: https://sites.tufts.edu/markdevoto/files/2015/10/DreiOrch-English.pdf',
+    },
+    {
+      t: 174,
+      kind: 'form',
+      title: 'Back to the tam-tam',
+      text: 'Earlier phrases return in quieter scoring. Berg gradually strips away the pitched instruments, undoing the opening accumulation until only percussion is left. A single tam-tam stroke closes the movement.',
+      basis: 'score-proportion',
+      precision: 'passage',
+      evidence: 'Universal Edition revised score, Präludium, bars 42–56, pp. 14–17: the score recalls the tempo of bar 9, then reverses the opening accumulation. Mark DeVoto explains the returning phrases and final tam-tam, p. 6: https://sites.tufts.edu/markdevoto/files/2015/10/DreiOrch-English.pdf',
+    },
+  ],
+};

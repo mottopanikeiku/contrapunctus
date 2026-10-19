@@ -83,8 +83,8 @@ export function createTour(app) {
     storage(localStorage, HINT, 'completed');
     ui(); shell.classList.add('tour-complete');
     $('.tour-count').textContent = lesson.title;
-    $('#tour-title').textContent = 'You know the way.';
-    $('#tour-text').textContent = 'The lesson is complete. Keep listening, try the controls yourself, or choose another lesson from Guide.';
+    $('#tour-title').textContent = 'Keep exploring.';
+    $('#tour-text').textContent = 'Try another lesson in Guide, or keep listening.';
     say(notes.join(' '));
     $('.tour-do').hidden = $('.tour-back').hidden = $('.tour-skip').hidden = true;
     $('.tour-next').textContent = 'Close'; $('.tour-next').onclick = close;
@@ -205,7 +205,7 @@ export function createTour(app) {
       if (action === 'click') target.click();
       else if (action === 'play') {
         if (app.player.playing) { if (step.advance === 'on-event') go(index + 1); }
-        else if (!await app.player.play()) say('Sound could not start. Try the highlighted Play control, or continue without sound.');
+        else if (!await app.player.play()) say('Could not start playback; try the highlighted Play button or continue without sound.');
       } else if (action?.startsWith('seek:')) app.player.seek(Number(action.slice(5)));
       else if (action?.startsWith('key:')) document.body.dispatchEvent(new KeyboardEvent('keydown', { key: action.slice(4), bubbles: true }));
       else if (action?.startsWith('wait-for:')) {
@@ -213,7 +213,7 @@ export function createTour(app) {
         if (!found && !signal.aborted) skipMissing('The expected control did not appear.');
       }
       if (!signal.aborted && shell) $('.tour-do').disabled = false;
-    } catch { if (!signal.aborted) { say('That control could not run. Try it directly, or continue with Next.'); $('.tour-do').disabled = false; } }
+    } catch { if (!signal.aborted) { say('The control did not respond; try it directly or choose Next.'); $('.tour-do').disabled = false; } }
   }
   function keyboard(event) {
     if (!shell || event.altKey || event.ctrlKey || event.metaKey) return;
@@ -259,8 +259,8 @@ export function createTour(app) {
       if (!running || routing) return;
       // Ordinary navigation is allowed: do not drag the reader back unexpectedly.
       paused = true; ui(); $('.tour-count').textContent = `Step ${index + 1} of ${lesson.steps.length}`;
-      $('#tour-title').textContent = 'Explore, then return.';
-      $('#tour-text').textContent = 'Your lesson is saved while you look around. Resume to return to the highlighted step, or skip the tour and keep listening.';
+      $('#tour-title').textContent = 'Take your time.';
+      $('#tour-text').textContent = 'Your tour is saved; choose Resume step to return, or Skip tour to keep exploring.';
       $('.tour-do').hidden = $('.tour-back').hidden = true; $('.tour-next').textContent = 'Resume step →';
       position(); $('#tour-title').focus({ preventScroll: true });
     },

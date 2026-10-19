@@ -26,7 +26,7 @@ export async function mount(app) {
   };
   let data, base;
   try { [data, base] = await Promise.all([getJSON('index'), getJSON('base')]); }
-  catch (error) { if (!signal.aborted) status.textContent = `${error.message}. Composer Places sections remain available.`; return () => abort.abort(); }
+  catch (error) { if (!signal.aborted) status.textContent = `${error.message}. Read the Places section in a composer’s chapter.`; return () => abort.abort(); }
   if (!root.isConnected) { abort.abort(); return; }
   // Keep the engraved base on its own composited surface: animated journeys
   // must not repaint the world's coastline on every frame.
@@ -80,7 +80,7 @@ export async function mount(app) {
         const icon = svgNode('g', {}, g);
         const star = svgNode('text', { 'text-anchor': 'middle', y: 8, class: 'am-star' }, icon); star.textContent = '✧';
         const label = svgNode('text', { x: 18, y: -7, class: 'am-premiere-name' }, icon); label.textContent = p.work;
-        const title = svgNode('title', {}, g); title.textContent = `${c.name}: ${p.work} · ${p.y}${c.died && p.y > c.died ? ' · posthumous premiere' : ''}`;
+        const title = svgNode('title', {}, g); title.textContent = `${c.name}: ${p.work} · ${p.y}${c.died && p.y > c.died ? ' · posthumous première' : ''}`;
         events.push({ node: g, icon, p });
       }
     });
@@ -222,7 +222,7 @@ export async function mount(app) {
       s.city = group.city;
       s.node.setAttribute('transform', `translate(${group.city.x} ${group.city.y})`);
       s.node.dataset.city = group.city.id; s.node.dataset.geoX = group.city.x; s.node.dataset.geoY = group.city.y;
-      s.node.setAttribute('aria-label', `${group.label} · ${group.members.length} composers. Open the portrait chooser; gold dots retain their actual locations.`);
+      s.node.setAttribute('aria-label', `${group.label} · ${group.members.length} composers. Choose a portrait to explore.`);
       s.count.textContent = group.members.length; s.name.textContent = `${group.label} · ${group.members.length}`;
       for (const [i, member] of group.members.entries()) {
         sprites[member.row[0]].cluster = group.key; clusteredCities.add(member.p.city);
@@ -301,7 +301,7 @@ export async function mount(app) {
       s.anchor.classList.toggle('am-last-known', !row[3]);
       s.anchor.setAttribute('tabindex', visible ? '0' : '-1');
       const p = s.c.places[row[1]], city = data.cities[p.city].name;
-      s.title.textContent = `${s.c.name} · ${row[2] ? 'died; ' : row[3] ? '' : 'residence record carried forward: '}${city} · ${year}`;
+      s.title.textContent = `${s.c.name} · ${row[2] ? 'died; ' : row[3] ? '' : 'last recorded place: '}${city} · ${year}`;
       s.anchor.setAttribute('aria-label', s.title.textContent);
       if (!row[2]) alive++;
     }
@@ -317,7 +317,7 @@ export async function mount(app) {
       event.node.classList.toggle('am-hidden', !visible); event.node.setAttribute('tabindex', visible ? '0' : '-1');
     }
     if (!selected) renderEncounters(false);
-    if (announce) { status.textContent = `${year}: ${alive} living composers with place records. City cards distinguish residence-derived locations from dated events.`; updateHash(selected); }
+    if (announce) { status.textContent = `${year}: ${alive} living composers on the map.`; updateHash(selected); }
     schedulePaint();
   }
   function openCard() {
@@ -326,7 +326,7 @@ export async function mount(app) {
   }
   function renderEncounters(open = true) {
     const city = data.cities[selectedCity];
-    if (!city) { cardContent.innerHTML = '<h2>Places are being researched</h2><p>No sourced geography is available yet.</p>'; return; }
+    if (!city) { cardContent.innerHTML = '<h2>No places listed yet</h2><p>This collection has no place records to show.</p>'; return; }
     const residents = city.residents.filter((v) => v.a <= year && v.b >= year), visits = city.visits.filter((v) => v.a <= year && v.b >= year), unique = new Map(), overlaps = new Map();
     for (const record of [...residents, ...visits]) { const list = unique.get(record.c) ?? []; list.push(record); unique.set(record.c, list); }
     for (const pair of city.pairs) {
@@ -341,22 +341,22 @@ export async function mount(app) {
       if (open) { cardContent.scrollTop = 0; openCard(); }
       return;
     }
-    cardContent.innerHTML = `<span class="kicker">Who was here?</span><h2>${escape(city.name)} <em>${year}</em></h2><p class="am-card-intro">${unique.size} ${unique.size === 1 ? 'composer' : 'composers'} from residence records or dated events.</p>${unique.size ? `<ul class="am-residents">${[...unique].map(([id, records]) => {
+    cardContent.innerHTML = `<span class="kicker">In this city</span><h2>${escape(city.name)} <em>${year}</em></h2><p class="am-card-intro">${unique.size} ${unique.size === 1 ? 'composer' : 'composers'} linked to this year by a home, post or dated event.</p>${unique.size ? `<ul class="am-residents">${[...unique].map(([id, records]) => {
       const c = byId.get(id), resident = records.find((r) => r.basis === 'residence');
       const evidence = resident ? `record: ${resident.sourceFrom === resident.sourceTo ? resident.sourceFrom : `${resident.sourceFrom}–${resident.sourceTo}`}${year > resident.sourceEnd ? ' · carried forward' : ''}${resident.status !== 'documented' ? ` · ${resident.status} source` : ''}` : records.map((r) => r.from === r.to ? r.from : `${r.from}–${r.to}`).join(' · ');
-      return `<li><button type="button" data-focus="${escape(id)}">${c.portrait ? `<img src="${url(c.portrait)}" width="36" height="46" alt="">` : ''}<span><strong>${escape(c.name)}</strong><small class="am-presence ${resident ? 'am-residence-presence' : 'am-dated-presence'}">${resident ? 'resident (from residence records)' : 'documented in this year'}</small><small>${escape(evidence)}</small></span><b aria-hidden="true">→</b></button></li>`;
-    }).join('')}</ul>` : '<p class="am-empty">No residence-derived or dated presence in the available records. This is a gap in the collection, not evidence that nobody was here.</p>'}<h3>Possible encounters</h3>${pairs.length ? `<ul class="am-overlaps">${pairs.map((p) => `<li><span>${p.ids.map((id) => `<button type="button" data-focus="${escape(id)}">${escape(byId.get(id).label)}</button>`).join(' &amp; ')}</span><span class="am-overlap-evidence"><small>${p.from === p.to ? p.from : `${p.from}–${p.to}`}</small><small class="am-overlap-basis">${p.basis === 'dated' ? 'dated records' : 'residence-derived'}</small></span></li>`).join('')}</ul>` : '<p class="am-small">No overlapping residence-derived or documented intervals for two composers in this year.</p>'}<p class="am-caution">Resident intervals carry the primary place forward to the next residence or post. They are a model, not dated attendance records. An overlap does not prove a meeting.</p><div class="am-city-prompts"><button type="button" data-vienna="1790">Vienna · 1790</button><button type="button" data-vienna="1805">Vienna · 1805</button><button type="button" data-vienna="1900">Vienna · 1900</button><button type="button" data-paris="1900">Paris · 1900</button></div>`;
+      return `<li><button type="button" data-focus="${escape(id)}">${c.portrait ? `<img src="${url(c.portrait)}" width="36" height="46" alt="">` : ''}<span><strong>${escape(c.name)}</strong><small class="am-presence ${resident ? 'am-residence-presence' : 'am-dated-presence'}">${resident ? 'Based on residence records' : 'Dated record for this year'}</small><small>${escape(evidence)}</small></span><b aria-hidden="true">→</b></button></li>`;
+    }).join('')}</ul>` : '<p class="am-empty">No place records here cover this year.</p>'}<h3>Shared dates</h3>${pairs.length ? `<ul class="am-overlaps">${pairs.map((p) => `<li><span>${p.ids.map((id) => `<button type="button" data-focus="${escape(id)}">${escape(byId.get(id).label)}</button>`).join(' &amp; ')}</span><span class="am-overlap-evidence"><small>${p.from === p.to ? p.from : `${p.from}–${p.to}`}</small><small class="am-overlap-basis">${p.basis === 'dated' ? 'dated records' : 'from residence records'}</small></span></li>`).join('')}</ul>` : '<p class="am-small">No composers’ dates overlap here in this year.</p>'}<p class="am-caution">Open a composer’s record for dates and sources.</p><div class="am-city-prompts"><button type="button" data-vienna="1790">Vienna · 1790</button><button type="button" data-vienna="1805">Vienna · 1805</button><button type="button" data-vienna="1900">Vienna · 1900</button><button type="button" data-paris="1900">Paris · 1900</button></div>`;
     encounterSignature = signature; encounterYearNode = cardContent.querySelector('h2 em');
     if (open) { cardContent.scrollTop = 0; openCard(); }
   }
   const playButton = (recording) => `<button type="button" class="am-listen" data-map-play="${escape(recording.id)}"><span aria-hidden="true">▶</span><span>${escape(recording.work)}${recording.movement ? `<small>${escape(recording.movement)}</small>` : ''}</span></button>`;
   function renderDetail(c) {
     const records = new Map(c.recordings.map((r) => [r.id, r]));
-    cardContent.innerHTML = `<div class="am-person-heading">${c.portrait ? `<img src="${url(c.portrait)}" width="64" height="82" alt="${escape(c.name)}">` : ''}<div><span class="kicker">A life in places</span><h2>${escape(c.name)}</h2><p>${c.born}–${c.died ?? ''} · ${c.places.length} records</p></div></div><p class="am-card-intro">The whole recorded route, including places beyond the selected year. Numbers correspond to the list.</p><p class="am-detail-links"><a href="${url(`composers/${c.id}.html#places`)}">Read the composer chapter →</a><button type="button" data-action="route-fit">Fit the whole route</button></p><section class="am-recordings" id="am-recordings"><h3>Listen to ${escape(c.label)}</h3>${c.recordings.length ? c.recordings.slice(0, 3).map(playButton).join('') + (c.recordings.length > 3 ? `<details><summary>All ${c.recordings.length} published recordings</summary>${c.recordings.slice(3).map(playButton).join('')}</details>` : '') : '<p>No recording by this composer is published yet.</p>'}</section><ol class="am-places">${c.places.map((p, i) => {
+    cardContent.innerHTML = `<div class="am-person-heading">${c.portrait ? `<img src="${url(c.portrait)}" width="64" height="82" alt="${escape(c.name)}">` : ''}<div><span class="kicker">A life in places</span><h2>${escape(c.name)}</h2><p>${c.born}–${c.died ?? ''} · ${c.places.length} records</p></div></div><p class="am-card-intro">Every recorded place in this life, numbered to match the map.</p><p class="am-detail-links"><a href="${url(`composers/${c.id}.html#places`)}">Read the composer’s chapter →</a><button type="button" data-action="route-fit">Fit all places</button></p><section class="am-recordings" id="am-recordings"><h3>Listen to ${escape(c.label)}</h3>${c.recordings.length ? c.recordings.slice(0, 3).map(playButton).join('') + (c.recordings.length > 3 ? `<details><summary>All ${c.recordings.length} recordings</summary>${c.recordings.slice(3).map(playButton).join('')}</details>` : '') : '<p>No recordings of this composer’s music are available here.</p>'}</section><ol class="am-places">${c.places.map((p, i) => {
       const exact = p.listens.map((id) => records.get(id)).filter(Boolean);
       const posthumous = c.died && p.y > c.died;
-      return `<li id="am-place-${i}" data-record="${i}"><button type="button" class="am-place-heading" data-place-index="${i}"><b>${i + 1}</b><span>${escape(p.name)}<small>${escape(dateText(p))} · ${escape(p.kind)}${posthumous ? ' · after death' : ''}</small></span></button><span class="am-badge am-${escape(p.status)}">${escape(p.status)}</span><p>${escape(p.what)}</p>${p.work ? `<p class="am-place-work"><i>${escape(p.work)}</i></p>` : ''}<small class="am-country">${escape(p.country)}</small><details class="am-sources"><summary>${p.sources.length} ${p.sources.length === 1 ? 'source' : 'sources'}</summary><ul>${p.sources.map((s) => `<li><a href="${escape(s.url)}" target="_blank" rel="noopener">${escape(s.title)}</a>${s.locator ? ` — ${escape(s.locator)}` : ''}</li>`).join('')}</ul></details>${p.work || p.kind === 'premiere' ? exact.length ? `<div class="am-place-listens">${exact.map(playButton).join('')}</div>` : `<details class="am-place-listens"><summary>No exact work-title match · other ${escape(c.label)} recordings</summary>${c.recordings.length ? `${c.recordings.slice(0, 3).map(playButton).join('')}<button type="button" class="am-all-recordings" data-action="recordings">See all ${c.recordings.length} published recordings ↑</button>` : '<p>No published recording available.</p>'}</details>` : ''}</li>`;
-    }).join('')}</ol>${c.influences.length ? `<section class="am-evidence"><h3>Music connected to a place</h3><p class="am-small">Dotted lines are musical connections, not asserted meetings or travel routes.</p><ul>${c.influences.map((e) => `<li><a href="${url(`influence.html#edge-${e.id}`)}">${escape(e.title)}</a><small>${escape(e.place)} · ${e.year} · ${escape(e.status)}</small></li>`).join('')}</ul></section>` : ''}<p class="am-small"><a href="${url(`assets/data/geo/${c.id}.json`)}" download>Download this life’s sourced place records</a></p>`;
+      return `<li id="am-place-${i}" data-record="${i}"><button type="button" class="am-place-heading" data-place-index="${i}"><b>${i + 1}</b><span>${escape(p.name)}<small>${escape(dateText(p))} · ${escape(p.kind)}${posthumous ? ' · after death' : ''}</small></span></button><span class="am-badge am-${escape(p.status)}">${escape(p.status)}</span><p>${escape(p.what)}</p>${p.work ? `<p class="am-place-work"><i>${escape(p.work)}</i></p>` : ''}<small class="am-country">${escape(p.country)}</small><details class="am-sources"><summary>${p.sources.length} ${p.sources.length === 1 ? 'source' : 'sources'}</summary><ul>${p.sources.map((s) => `<li><a href="${escape(s.url)}" target="_blank" rel="noopener">${escape(s.title)}</a>${s.locator ? ` — ${escape(s.locator)}` : ''}</li>`).join('')}</ul></details>${p.work || p.kind === 'premiere' ? exact.length ? `<div class="am-place-listens">${exact.map(playButton).join('')}</div>` : `<details class="am-place-listens"><summary>Other recordings of ${escape(c.label)}’s music</summary>${c.recordings.length ? `${c.recordings.slice(0, 3).map(playButton).join('')}<button type="button" class="am-all-recordings" data-action="recordings">See all ${c.recordings.length} recordings ↑</button>` : '<p>No recording available here.</p>'}</details>` : ''}</li>`;
+    }).join('')}</ol>${c.influences.length ? `<section class="am-evidence"><h3>Music linked to these places</h3><p class="am-small">Open a connection to read its story and sources.</p><ul>${c.influences.map((e) => `<li><a href="${url(`influence.html#edge-${e.id}`)}">${escape(e.title)}</a><small>${escape(e.place)} · ${e.year} · ${escape(e.status)}</small></li>`).join('')}</ul></section>` : ''}<p class="am-small"><a href="${url(`assets/data/geo/${c.id}.json`)}" download>Download these places and sources</a></p>`;
     cardContent.scrollTop = 0; openCard();
   }
   function routeMarker(parent, p, region, indices, badge = false) {
@@ -415,23 +415,23 @@ export async function mount(app) {
     const c = byId.get(id);
     if (!c) {
       clearFocus(false);
-      if (id) status.textContent = 'No sourced geography is published for that composer yet. Choose another mapped life.';
+      if (id) status.textContent = 'No places are listed for this composer yet; choose another name.';
       return;
     }
     selected = id; composerSelect.value = id; selectedPlace = place;
     const request = ++focusRequest;
-    cardContent.innerHTML = `<span class="kicker">A life in places</span><h2>${escape(c.name)}</h2><p>Loading the sourced records…</p>`;
+    cardContent.innerHTML = `<span class="kicker">A life in places</span><h2>${escape(c.name)}</h2><p>Loading places…</p>`;
     openCard(); if (!fromHash) updateHash(id); updateYear(year);
     try {
       if (!detailCache.has(id)) detailCache.set(id, getJSON(id));
       const loaded = await detailCache.get(id);
       if (signal.aborted || request !== focusRequest) return;
       detail = loaded; renderDetail(detail); drawRoute(detail); fit(detail.map.bounds);
-      status.textContent = `${detail.name}: ${detail.places.length} exact place dots. City badges stack their record numbers; overseas places use the inset.`;
+      status.textContent = `${detail.name}: ${detail.places.length} places; select a number to read its record.`;
       if (selectedPlace >= 0) revealPlace(selectedPlace, true);
     } catch (error) {
       detailCache.delete(id);
-      if (!signal.aborted && request === focusRequest) { cardContent.innerHTML = `<h2>${escape(c.name)}</h2><p>${escape(error.message)}. <a href="${url(`composers/${id}.html#places`)}">Read the static Places section</a>.</p>`; }
+      if (!signal.aborted && request === focusRequest) { cardContent.innerHTML = `<h2>${escape(c.name)}</h2><p>${escape(error.message)}. <a href="${url(`composers/${id}.html#places`)}">Read the Places section</a>.</p>`; }
     }
   }
   function clearFocus(changeHash = true) {
@@ -520,8 +520,8 @@ export async function mount(app) {
     }
     if (target.dataset.mapPlay) {
       target.disabled = true;
-      try { await app.player.load(target.dataset.mapPlay, { play: true, t: 0 }); if (!signal.aborted) status.textContent = `Playing ${app.player.track?.work ?? 'the selected recording'}. Music continues as you explore.`; }
-      catch { if (!signal.aborted) status.textContent = 'The recording could not be loaded. Open it in the Hall to see its source.'; }
+      try { await app.player.load(target.dataset.mapPlay, { play: true, t: 0 }); if (!signal.aborted) status.textContent = `Playing ${app.player.track?.work ?? 'the selected recording'} as you explore.`; }
+      catch { if (!signal.aborted) status.textContent = 'Could not load the recording; open it in the Hall for its source.'; }
       finally { target.disabled = false; }
       return;
     }
@@ -602,7 +602,7 @@ export async function mount(app) {
   function followHash() { const id = location.hash.match(/^#c-([a-z0-9-]+)$/)?.[1]; if (id) focusComposer(id, true); else if (selected) clearFocus(false); }
   on(window, 'hashchange', followHash); on(window, 'popstate', followHash);
   updateYear(year); fit(data.europe);
-  status.textContent = `${year}: select a portrait to follow a life, or a city for residences and dated events.`;
+  status.textContent = `${year}: choose a portrait to follow a life, or a city to explore its composers.`;
   followHash();
   root.classList.add('am-ready');
   return () => {

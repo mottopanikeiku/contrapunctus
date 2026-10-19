@@ -1,0 +1,61 @@
+{
+  "composer": "berg",
+  "items": [
+    {
+      "work": "Violin Concerto ‘To the Memory of an Angel’",
+      "year": "1935",
+      "performers": "Isabelle Faust, violin; Orchestra Mozart; Claudio Abbado, conductor",
+      "recorded": "November 2010, Auditorio Manzoni, Bologna",
+      "label": "harmonia mundi",
+      "note": "Berg’s memorial to Manon Gropius brings Bach’s chorale ‘Es ist genug’ into its final Adagio. Faust’s changing violin colours and Abbado’s clear orchestral detail make the approach to that chorale especially moving.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.harmoniamundi.com/en/albums/berg-concerto-to-the-memory-of-an-angel-beethoven-concerto-in-d-major-op-61/",
+          "title": "harmonia mundi — Faust and Abbado, complete Berg concerto on HMC902105"
+        }
+      ]
+    },
+    {
+      "work": "Lyric Suite for string quartet",
+      "year": "1925–26",
+      "performers": "Schoenberg Quartet: Janneke van der Meer and Wim de Jong, violins; Henk Guittart, viola; Viola de Hoog, cello",
+      "recorded": "6–8 February 2001, Waalse Kerk, Amsterdam",
+      "label": "Chandos",
+      "note": "Six movements encode Berg’s love for Hanna Fuchs-Robettin, with the fast movements growing faster and the slow ones slower. The Schoenberg Quartet catches the changes of mood and rising intensity praised by Gramophone.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.chandos.net/products/catalogue/CHAN%209999",
+          "title": "Chandos — Schoenberg Quartet, complete Lyric Suite on CHAN 9999"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "harmonia mundi HMC902105 — complete concerto, performer credits and release information",
+      "url": "https://www.harmoniamundi.com/en/albums/berg-concerto-to-the-memory-of-an-angel-beethoven-concerto-in-d-major-op-61/"
+    },
+    {
+      "title": "Universal Edition — Berg chronology, composition of the Violin Concerto in 1935 for Manon Gropius",
+      "url": "https://www.universaledition.com/en/Contacts/Alban-Berg/"
+    },
+    {
+      "title": "Gary Lemco, Audiophile Audition, 22 February 2012 — November 2010 Bologna sessions, dedication and Bach chorale in the final Adagio",
+      "url": "https://www.audaud.com/berg-violin-concerto-to-the-memory-of-an-angel-beethoven-violin-concerto-isabelle-faust-v-orch-mozart-claudio-abbado-harmonia-mundi/"
+    },
+    {
+      "title": "Andrew Clements, The Guardian, 22 February 2012 — Faust’s violin colours and Abbado’s orchestral detail and shaping",
+      "url": "https://www.theguardian.com/music/2012/feb/22/berg-beethoven-abbado-faust-review"
+    },
+    {
+      "title": "Chandos CHAN 9999 — complete Lyric Suite, personnel, work-specific session dates and reproduced Gramophone review",
+      "url": "https://www.chandos.net/products/catalogue/CHAN%209999"
+    },
+    {
+      "title": "Douglas Jarman, Chandos CHAN 9999 booklet — composition dates, Hanna Fuchs-Robettin, alternating movement speeds, quartet personnel and session details",
+      "url": "https://www.chandos.net/chanimages/Booklets/CH9999.pdf"
+    }
+  ]
+}

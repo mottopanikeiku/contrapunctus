@@ -20,99 +20,80 @@ export default {
       "evidence": "Everest mono LPBR 6059: sleeve ©1960 Belock Instrument Corp. (https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt); Edwards and Callahan Everest Classical Album Discography lists LPBR 6059 / SDBR 3059 [1960] (https://www.bsnpubs.com/decca/deccadist/everest%20classical.pdf). First publication documented by 1960, anywhere; territorial EU rule 3 only. US recording status not established."
     }
   },
-  "intro": "Brass and organ, without orchestral strings or woodwinds, give this short psalm its public, ringing character. A quieter tenor passage interrupts the proclamation before the full chorus expands it. Michel Sénéchal is the named soloist on this mono Everest recording.",
-  "question": "How does Boulanger make the return of the full choir feel larger than the opening?",
+  "intro": "Trumpets, trombones and organ launch Boulanger’s Psalm 24 with a fanfare of bare fifths. Michel Sénéchal’s quiet tenor solo is the still centre of this short, blazing score.",
   "sections": [
     {
       "t": 0,
-      "label": "Brass proclamation",
+      "label": "A · Brass and lower voices",
       "m": "A",
-      "mNote": "brass and organ frame the lower choral voices"
+      "mNote": "Trumpets and trombones answer the tenors and basses"
     },
     {
       "t": 72,
-      "label": "Tenor respite",
+      "label": "B · Tenor with muted horns",
       "m": "B",
-      "mNote": "muted horns and harp surround the soloist"
+      "mNote": "Harp and organ repeat a figure beneath the solo"
     },
     {
       "t": 130,
-      "label": "Full-choir proclamation",
+      "label": "C · The full choir proclaims",
       "m": "C",
-      "mNote": "the complete chorus enlarges the ceremonial sound"
+      "mNote": "Sopranos and altos join the returning brass fanfares"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Brass without a string cushion",
-      "text": "The opening is built from trumpet and trombone chords, tuba and organ, with timpani joining the gesture. There are no orchestral strings or woodwinds anywhere in this score. Listen for the weight of the attacks and the space between them.",
-      "basis": "documented",
+      "title": "Bare fifths in brass",
+      "text": "Trumpets and trombones sound the fanfare in bare fifths, with the organ doubling them. Tenors and basses take up the words between the brass replies. Boulanger asks for <i>Vif et décidé</i> — lively and decisive — and gives every syllable a firm edge.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, nomenclature and printed p. 1: https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf. Whole-work listening point, not an assertion that a particular note or entrance occurs at this timestamp."
+      "evidence": "Durand full score, plate D. & F. 10488 (1924), pp. 1–2; Helen Julia Minors discusses the opening E–B fifths in her 2011 preface. https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1146.html"
     },
     {
       "t": 35,
       "kind": "life",
-      "title": "A Roman score",
-      "text": "The final page dates the work “Rome 1916.” This belongs to Boulanger’s second stay at the Villa Medici, after her 1913 Prix de Rome success; it is not a score written for the Everest album issued in 1960.",
+      "title": "Rome, during the war",
+      "text": "In 1916 Boulanger is back at the Villa Medici in Rome, where the Prix de Rome has brought her to compose. She writes this psalm and Psalm 129 during the same stay. At the foot of the final page she puts the place and year: Rome, 1916.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Printed p. 18 and scholarly preface: https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1146.html https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf"
+      "evidence": "Durand full score (1924), p. 18, dated Rome 1916; Helen Julia Minors, preface (2011), gives the circumstances of composition. https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1146.html"
     },
     {
-      "t": 70,
-      "kind": "listen",
-      "title": "The soloist’s smaller surroundings",
-      "text": "The central tenor passage replaces the opening’s massed attack with a more intimate combination: muted horns, harp and organ. Listen for how the space around one voice changes the scale of the psalm without changing its basic ensemble.",
+      "t": 72,
+      "kind": "music",
+      "title": "A blessing, softly",
+      "text": "The tenor sings of receiving the Lord’s blessing. The horns are muted and play in answering pairs; harp and organ repeat their small figure underneath. The tempo eases, and the solo voice is marked <i>grave et doux</i> — solemn and gentle.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 6–7, figure 3, Un peu moins vite: https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf. cache/analysis/lili-boulanger-psalm-24.txt: the strong 1:12 boundary and quieter, darker 1:15–1:30 windows place the central contrast approximately. Approximate passage placement; no bar-to-audio alignment or exact entrance is claimed."
+      "evidence": "Durand full score (1924), p. 6, figure 3: Un peu moins vite, solo tenor, muted horns, harp ostinato and organ pedal."
     },
     {
-      "t": 105,
-      "kind": "world",
-      "title": "A dedication to Griset",
-      "text": "The score is dedicated to Jules Griset, a choral conductor. Its public voice is therefore not only a modern listener’s impression: the work has a specific connection with French choral life.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The dedication is also printed on score p. 1: https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1146.html"
-    },
-    {
-      "t": 140,
+      "t": 130,
       "kind": "form",
-      "title": "The whole choir opens out",
-      "text": "The later proclamation uses all four choral groups, not just the lower voices heard in the opening design. Returning brass gestures now support a wider vocal range. Compare that enlargement with the tenor passage’s more private scale.",
+      "title": "The gates open",
+      "text": "The full choir calls for the gates to open to the King of Glory. Sopranos and altos now join the lower voices, and the brass fanfares return. Later, trombones, horns and trumpets enter one after another, crowding the same fanfare into overlapping calls.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 8–9, Au mouvement: https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf. cache/analysis/lili-boulanger-psalm-24.txt: the increase in brightness near 2:10 and sustained stronger level after it locate the larger concluding span approximately. Approximate passage placement; no bar-to-audio alignment or exact entrance is claimed."
+      "evidence": "Durand full score (1924), pp. 8–9, Au mouvement and full-choir entry; subsequent overlapping brass entries discussed in Helen Julia Minors’s preface. https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1146.html"
     },
     {
       "t": 175,
       "kind": "world",
-      "title": "Nadia behind the recording",
-      "text": "The original sleeve says that the recording was made under Nadia Boulanger’s direction. It separately names Igor Markevitch as conductor. Those are different credits: Nadia’s supervision is not a licence to replace Markevitch on the performing roster.",
+      "title": "Nadia at the playback",
+      "text": "At the Salle Pleyel in Paris, Nadia Boulanger listens to the recorded playbacks of her sister’s music. The album sleeve catches her there in a photograph. She supervises the recording; her former pupil Igor Markevitch conducts.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Original LPBR 6059 insert header and credits. https://i.discogs.com/XrNcaeuOsiqmWirxmPgDAtlexW1ImUbc9UpE5Aw4kkg/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNTY4/NTItMTQ3MzM1MDk5/Ny02MDQ1LmpwZWc.jpeg"
-    },
-    {
-      "t": 205,
-      "kind": "listen",
-      "title": "A decisive final release",
-      "text": "The force of the closing passage gives way rapidly to the remaining resonance. Let the final sound finish: this is the end of an independent psalm, not a transition into a second movement.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Actual cached mono stream: cache/analysis/lili-boulanger-psalm-24.txt, the level falls from the strong late passage to −13.8 dB at 3:25 and −24.3 dB at 3:30; total duration 3:30.1 Source file: https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d. These measurements establish the broad contour, not isolated instruments or words."
+      "evidence": "Everest LPBR 6059 sleeve (1960): photograph caption, recording-supervision credit and Markevitch biography. https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt"
     }
   ],
   "transitions": [
     {
       "id": "into-tenor-respite",
-      "title": "Brass weight yields to muted horns",
-      "from": "Brass proclamation",
-      "to": "Tenor respite",
+      "title": "Muted horns around the tenor",
+      "from": "A · Brass and lower voices",
+      "to": "B · Tenor with muted horns",
       "at": {
         "t": 72
       },
@@ -120,7 +101,7 @@ export default {
         59,
         88
       ],
-      "how": "<p>The opening’s lower-voice declamation and brass punctuation make room for a solo tenor. At figure 3, “Un peu moins vite” relaxes the motion; muted horns exchange a small figure above harp and organ. The continuous organ part bridges the change, while reduced brass weight and a single vocal line turn proclamation into a more intimate utterance.</p>",
+      "how": "<p>The trumpets and trombones fall silent. At <i>Un peu moins vite</i>, the organ holds the bass while harp and muted horns repeat a small figure. The horns answer in pairs. Over this quiet accompaniment the tenor begins his blessing, marked <i>grave et doux</i>.</p>",
       "devices": [
         "orchestration change",
         "texture change",
@@ -128,13 +109,13 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 5–7, figure 3: https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf. Actual cached analysis, cache/analysis/lili-boulanger-psalm-24.txt: novelty peaks at 1:12; the quieter 1:15–1:30 stretch supplies the broad anchor. The written mechanism is documented; its placement in this recording is approximate, not a timed word or bar alignment."
+      "evidence": "Durand full score (1924), pp. 5–7, figure 3: solo tenor, muted horns in pairs, repeated harp figure and sustained organ bass."
     },
     {
       "id": "into-full-proclamation",
-      "title": "The choir widens the proclamation",
-      "from": "Tenor respite",
-      "to": "Full-choir proclamation",
+      "title": "All four voices together",
+      "from": "B · Tenor with muted horns",
+      "to": "C · The full choir proclaims",
       "at": {
         "t": 130
       },
@@ -142,7 +123,7 @@ export default {
         112,
         148
       ],
-      "how": "<p>After the solo passage, lower voices broaden the line at “Plus lent.” Harp motion and sustained brass lead to “Au mouvement,” where sopranos and altos join the renewed proclamation. Returning brass rhythms connect it to the opening, but the now-complete choir enlarges the register and weight. This is an expansion through scoring, not a newly introduced string orchestra.</p>",
+      "how": "<p>The lower voices stretch their last syllable over moving harp notes and held organ chords. Brass joins the sustained harmony, then the accompaniment stops. At <i>Au mouvement</i> the whole choir begins together, marked <i>éclatant</i>, before the brass answers with the opening fanfare.</p>",
       "devices": [
         "tempo change",
         "orchestration change",
@@ -151,7 +132,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Visually inspected Durand full score, printed pp. 7–9, Plus lent through Au mouvement: https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf. Actual cached analysis, cache/analysis/lili-boulanger-psalm-24.txt: the changes around 1:58 and 2:10 and stronger late windows locate this extended join; the chosen section boundary is approximate. The written mechanism is documented; its placement in this recording is approximate, not a timed word or bar alignment."
+      "evidence": "Durand full score (1924), pp. 8–9: ritardando over the lower voices, held brass and organ chords, then the unaccompanied full-choir entry at Au mouvement."
     }
   ],
   "orchestra": {
@@ -170,7 +151,7 @@ export default {
     "source": {
       "title": "Lili Boulanger, Psaume 24, Durand full score (1924), plate D. & F. 10488",
       "url": "https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf",
-      "locator": "Nomenclature and printed pp. 1, 4–9, 17–18. The nomenclature says Harpe in the singular. Optional horn support of the opening choir is not asserted as a recording-specific choice. Representative passage snapshots, placed approximately using the cached level/novelty report and score order. Not continuous player detection; individual rests are not mapped."
+      "locator": "Instrument list and printed pp. 1, 4–9, 17–18. The score calls for brass, timpani, one harp and organ. Horns can double the lower choir in the opening pages."
     },
     "timeline": [
       {
@@ -185,7 +166,7 @@ export default {
           "trumpets",
           "trombones"
         ],
-        "note": "The opening fanfare is brass and organ; timpani join after its initial attacks."
+        "note": "Trumpets and trombones proclaim the opening fifths over tuba and organ."
       },
       {
         "t": 10,
@@ -197,7 +178,7 @@ export default {
         "lead": [
           "chorus"
         ],
-        "note": "Lower choral voices take up the proclamation over organ; brass punctuation alternates with them."
+        "note": "Tenors and basses answer the fanfare over organ and timpani."
       },
       {
         "t": 40,
@@ -214,7 +195,7 @@ export default {
           "chorus",
           "horns"
         ],
-        "note": "Representative questioning passage before the solo: lower voices and brass, with harp punctuation."
+        "note": "Tenors and basses ask who may enter the holy place. Brass chords and harp notes support them."
       },
       {
         "t": 72,
@@ -227,7 +208,7 @@ export default {
         "lead": [
           "solo-voice"
         ],
-        "note": "Figure 3’s tenor solo, with muted horns, harp and organ; the timing is a passage estimate."
+        "note": "The tenor sings with muted horns, harp and organ at figure 3."
       },
       {
         "t": 105,
@@ -241,7 +222,7 @@ export default {
         "lead": [
           "chorus"
         ],
-        "note": "The Plus lent passage adds lower choral voices to the tenor’s line, then prepares the return."
+        "note": "At Plus lent, part of the lower choir joins the solo tenor over harp and organ."
       },
       {
         "t": 130,
@@ -258,7 +239,7 @@ export default {
           "chorus",
           "trumpets"
         ],
-        "note": "Full mixed chorus and returning brass gestures broaden the later proclamation."
+        "note": "The full choir proclaims the opening of the gates. Brass fanfares answer its phrases."
       },
       {
         "t": 180,
@@ -276,7 +257,7 @@ export default {
           "chorus",
           "trumpets"
         ],
-        "note": "Representative final tutti: the compact brass-led ensemble drives the close, printed pp. 17–18."
+        "note": "The choir holds its final vowel over brass, timpani, harp and organ."
       }
     ]
   }

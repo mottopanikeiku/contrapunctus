@@ -26,163 +26,108 @@ export default {
       "evidence": "IA item lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0: catalogue date 1961 (Boston Public Library vinyl rip, one file per movement or side); LP release date taken from IA metadata, not independently verified"
     }
   },
-  "intro": "Four plain notes open a finale of astonishing contrapuntal invention. Mozart lets the themes behave like characters in a fast-moving conversation, then brings several of them together in the closing stretch. Bruno Walter conducts the Columbia Symphony Orchestra.",
-  "question": "Can you keep following one theme when another begins above or below it?",
+  "intro": "Four slow notes — C–D–F–E — set Mozart’s last symphonic finale in motion. Bruno Walter conducts the Columbia Symphony Orchestra in a movement whose closing pages fit five separate tunes together.",
   "sections": [
     {
       "t": 0,
-      "label": "Exposition · the ideas meet",
+      "label": "A · Four notes in the violins",
       "m": "A",
-      "mNote": "C major moves towards the dominant, G"
+      "mNote": "C–D–F–E meets quicker string figures"
     },
     {
       "t": 154,
-      "label": "Development · themes in motion",
+      "label": "Dev · The four notes change hands",
       "m": "Dev",
-      "mNote": "Imitation and sequence unsettle the tonal ground"
+      "mNote": "Strings and winds pursue the themes through changing keys"
     },
     {
       "t": 226,
-      "label": "Recapitulation · the tonic returns",
+      "label": "A′ · The violins recover C major",
       "m": "A′",
-      "mNote": "Earlier material returns in the home-key argument"
+      "mNote": "The opening theme returns above moving inner strings"
     },
     {
       "t": 358,
-      "label": "Coda · the ideas combine",
+      "label": "Coda · Five tunes fit together",
       "m": "Coda",
-      "mNote": "Contrapuntal combinations lead to the final C-major close"
+      "mNote": "The four-note theme turns upside down before the final combinations"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Four notes, many possibilities",
-      "text": "The first violins begin with four long notes: C–D–F–E. Their plain shape makes them easy to recognise when Mozart moves them between instruments, changes their direction, or sets quicker material against them.",
+      "title": "Four long violin notes",
+      "text": "The first violins play C–D–F–E in long notes. Quicker figures gather around them, and soon different string parts take up the four-note phrase. Its simplicity is useful: Mozart can turn it upside down or place another tune above it, and it remains recognisable.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf & Härtel score (1880), finale, PDF p. 35, bars 1–8; report begins quietly in C major. The pitch sequence and first-violin scoring are read directly from the score."
-    },
-    {
-      "t": 35,
-      "kind": "listen",
-      "title": "Follow a line underneath",
-      "text": "Do not listen only to the highest or loudest part. The finale repeatedly lets one idea continue while another starts elsewhere; try keeping your attention on a line after the foreground changes.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Breitkopf finale, opening contrapuntal passages, PDF pp. 36–38; report strong early span followed by lower relative level around 0:40. This is a general listening task rather than an exact entry marker."
-    },
-    {
-      "t": 70,
-      "kind": "music",
-      "title": "Contrasting ideas belong together",
-      "text": "Quicker figures and more smoothly shaped phrases provide contrast with the opening four notes. The opposition is not simply melody against accompaniment: these materials are capable of changing places and working together.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Breitkopf finale, exposition, PDF pp. 38–40; report moves through a D-centred passage around 1:00–1:10 before the more sustained dominant region. The guide does not identify a new theme from the key estimator alone."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, opening theme and imitative continuation. K. Dawn Grapes discusses the themes’ contrapuntal treatment: https://fcsymphony.org/mozart-41-jupiter/."
     },
     {
       "t": 105,
       "kind": "life",
-      "title": "A remarkable summer",
-      "text": "Mozart completes his last three symphonies during the summer of 1788. The Jupiter is entered in his catalogue on 10 August. The surviving chronology is clearer than the evidence for any performance he heard.",
+      "title": "10 August in Vienna",
+      "text": "Mozart dates this symphony 10 August 1788. The E♭ and G minor symphonies have preceded it that summer. For this C major orchestra he adds the trumpets and timpani that the G minor symphony leaves out.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Mozart composer biography; K. Dawn Grapes, Fort Collins Symphony programme note, “Mozart Symphony No. 41”, https://fcsymphony.org/mozart-41-jupiter/."
+      "evidence": "Date and scoring in the work records for K. 550 and K. 551: https://imslp.org/wiki/Symphony_No.41_in_C_major,_K.551_(Mozart,_Wolfgang_Amadeus) and https://imslp.org/wiki/Symphony_No.40_in_G_minor,_K.550_(Mozart,_Wolfgang_Amadeus)."
     },
     {
-      "t": 140,
-      "kind": "music",
-      "title": "Cadences do not end the motion",
-      "text": "The exposition presses towards a close in G major. Listen for how running figures and exchanges between parts can keep the surface moving even while the harmony makes its destination clear.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Breitkopf finale, bars 138–157, PDF pp. 42–43; report is strongly G-major centred across 2:10–2:30 before a quieter span at 2:35–2:45."
-    },
-    {
-      "t": 175,
+      "t": 154,
       "kind": "form",
-      "title": "The themes leave safe ground",
-      "text": "The development carries recognisable material through less settled harmony. Sequence means repeating a shape at a different pitch; imitation means one part taking up what another has begun. Here both can contribute to the sense of movement.",
+      "title": "Strings pursue the four notes",
+      "text": "In the development, the themes pass between parts and through changing keys. A new entry can begin underneath one already in progress. The four long notes give the ear something solid amid the running strings.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf finale, development beginning bar 158, PDF pp. 43–46; report boundary 2:48 followed by changing pitch profiles and stronger 2:55–3:05 windows."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, development, bars 158–224."
     },
     {
-      "t": 210,
-      "kind": "music",
-      "title": "Changing positions, familiar shapes",
-      "text": "The development makes the listener work to separate the lines. Hear the parts as simultaneous melodies rather than as a single block of sound: the same small shapes can occupy different registers and harmonic surroundings.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Breitkopf finale, bars 199–224, PDF pp. 45–46; report boundaries 3:32 and 3:46 bracket the later developmental passage and return preparation."
-    },
-    {
-      "t": 245,
+      "t": 226,
       "kind": "form",
-      "title": "Return without simplification",
-      "text": "The home-key return does not cancel the finale’s contrapuntal habits. The opening material comes back into the C-major argument, but its lines continue to overlap and exchange roles.",
+      "title": "C major, with company",
+      "text": "The violins bring back the opening theme in C major, above moving inner strings. The other parts keep answering and overlapping it. The four-note tune has plenty of company now.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf finale, recapitulation from bar 225, PDF pp. 46–48; report strongest boundary 3:46, followed by C-centred windows and renewed higher relative level. The 3:46 marker is provisional."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, recapitulation from bar 225."
     },
     {
       "t": 280,
-      "kind": "world",
-      "title": "The nickname comes later",
-      "text": "Mozart does not call this symphony Jupiter. The later nickname offers a useful handle, but it is not a programme supplied by the composer, and it should not dictate a story for the music.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "K. Dawn Grapes, Fort Collins Symphony programme note, “Mozart Symphony No. 41”, https://fcsymphony.org/mozart-41-jupiter/."
-    },
-    {
-      "t": 315,
-      "kind": "listen",
-      "title": "Hear the separate layers",
-      "text": "Choose one short figure and follow it through the texture. If you lose it, listen for its rhythm rather than its exact pitch; Mozart can preserve a musical identity while moving it to a different place.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Breitkopf finale, recapitulation, PDF pp. 50–52; report shows a sustained, relatively strong C-major region across 5:00–5:50. This listening task does not claim an isolated entry."
-    },
-    {
-      "t": 350,
       "kind": "life",
-      "title": "Debt is not a programme",
-      "text": "Mozart’s letters to Michael Puchberg document requests for loans in 1788. Those circumstances belong to the work’s history, but they do not explain each modulation or tell us what a particular theme must mean.",
+      "title": "A letter to Puchberg",
+      "text": "In Vienna on 27 June 1788, Mozart asks Michael Puchberg for a longer loan. His new rooms are cheaper, and he is working hard, but the bills keep overtaking him. He ends the appeal: “I shall be silent and hope.”",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Mozart composer biography, Vienna and the late 1780s; financial evidence is distinguished from a musical programme."
+      "evidence": "Mozart to Michael Puchberg, 27 June 1788, Bauer–Deutsch 1079. Our translation of “schweigen und hoffen”: https://dme.mozarteum.at/DME/objs/raradocs/transcr/pdf/BD_1079.pdf."
     },
     {
-      "t": 385,
-      "kind": "music",
-      "title": "Several ideas at once",
-      "text": "The coda brings five thematic ideas into contrapuntal combinations. Listen for independence inside the crowded texture: a sustained line, a quick figure and a rhythmic answer can remain distinct even while they support one another.",
+      "t": 358,
+      "kind": "form",
+      "title": "Five tunes at once",
+      "text": "The coda first turns the four-note idea upside down in a quieter passage. Then Mozart brings five themes together in counterpoint, each with its own rhythm. Long notes, running figures and short replies all fit; the orchestra seems to be finishing several sentences at once.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf finale, bars 372–404, PDF pp. 54–55; report boundary 6:20 and stronger 6:20–6:40 windows. The five-theme combination is score-derived; no exact simultaneous entrance is claimed."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, bars 357–404. The five-theme combination is described by K. Dawn Grapes, Fort Collins Symphony: https://fcsymphony.org/mozart-41-jupiter/."
     },
     {
       "t": 420,
-      "kind": "listen",
-      "title": "Complexity becomes a clear ending",
-      "text": "The final orchestral statements make C major unmistakable. After so much movement between independent lines, the decisive closing gestures sound like a shared conclusion rather than a gradual thinning away.",
+      "kind": "music",
+      "title": "Trumpets, drums and C major",
+      "text": "The running lines converge on the final C major cadences. Trumpets and timpani join the winds and strings in the closing chords. After all those separate voices, everyone has the same last word.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf finale, bars 405–424, PDF p. 56; report strong 6:55–7:05 windows followed by much lower relative level at 7:10–7:15."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, bars 405–424."
     }
   ],
   "transitions": [
     {
       "id": "development",
-      "title": "A quiet close becomes a new beginning",
-      "from": "Exposition · the ideas meet",
-      "to": "Development · themes in motion",
+      "title": "After the G major cadence",
+      "from": "A · Four notes in the violins",
+      "to": "Dev · The four notes change hands",
       "at": {
         "t": 154
       },
-      "how": "<p>The exposition closes in the dominant, G major. A quieter texture then reuses familiar material as a starting point for harmonic travel. Motives link the sections, while sequence and imitation change their purpose: the themes are no longer being introduced but tested in new surroundings.</p>",
+      "how": "<p>The exposition closes in G major. In the quieter opening of the development, the strings take familiar figures into new keys. Entries overlap and repeat at different pitches, loosening the hold of the G major cadence.</p>",
       "devices": [
         "perfect cadence",
         "texture change",
@@ -191,17 +136,17 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf finale, bars 151–169, PDF pp. 43–44; report lower-level 2:35–2:45 span and novelty boundary 2:48. The 2:34 marker estimates the start of the developmental paragraph."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, bars 151–169."
     },
     {
       "id": "recapitulation",
-      "title": "The bass prepares the homecoming",
-      "from": "Development · themes in motion",
-      "to": "Recapitulation · the tonic returns",
+      "title": "G in the bass prepares C",
+      "from": "Dev · The four notes change hands",
+      "to": "A′ · The violins recover C major",
       "at": {
         "t": 226
       },
-      "how": "<p>The development’s travelling counterpoint gives way to preparation for C major. The four-note opening idea returns above moving inner strings, making the homecoming audible as a relationship between lines rather than a completely new texture. The reprise will resolve the exposition’s material into the tonic.</p>",
+      "how": "<p>The development settles on the dominant of C major, with G in the bass. The violins restore C–D–F–E above the moving inner strings. The long notes recover their opening key while the accompaniment keeps its quick pulse.</p>",
       "devices": [
         "retransition",
         "dominant pedal",
@@ -209,17 +154,17 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf finale, bars 219–233, PDF pp. 46–47: dominant preparation and main-theme return at bar 225. Report boundary 3:46 and C-centred window at 3:50 support a provisional 3:46 marker."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, bars 219–233."
     },
     {
       "id": "coda",
-      "title": "A cadence releases the final combination",
-      "from": "Recapitulation · the tonic returns",
-      "to": "Coda · the ideas combine",
+      "title": "The four notes turn upside down",
+      "from": "A′ · The violins recover C major",
+      "to": "Coda · Five tunes fit together",
       "at": {
         "t": 358
       },
-      "how": "<p>The recapitulatory close reaches C major, but Mozart continues beyond it. A strong gesture yields to quieter sustained notes and an inverted version of the four-note idea. From this reduced texture the coda builds its combinations, allowing several established themes to act together before the final cadences.</p>",
+      "how": "<p>A C major close is followed by a quieter passage in which the four-note theme turns upside down. The strings begin the final contrapuntal build from these sustained notes, adding the quicker themes one by one before the full orchestra confirms C major.</p>",
       "devices": [
         "perfect cadence",
         "texture change",
@@ -228,7 +173,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf finale, bars 355–383, PDF p. 54: coda from bar 357, quieter inversion from bar 361, contrapuntal build from bar 372. Report reduction near 6:05–6:15 and boundary 6:20; coda marker 5:58 is score-proportion, not a detected attack."
+      "evidence": "Breitkopf & Härtel full score (1880), IV, bars 355–383: coda from bar 357, inversion from bar 361, contrapuntal combination from bar 372."
     }
   ],
   "orchestra": {
@@ -249,7 +194,7 @@ export default {
     "source": {
       "title": "Mozart, Symphony No. 41, Breitkopf & Härtel, Mozarts Werke VIII/41 (1880), numbered public-domain scan",
       "url": "https://imslp.org/wiki/Symphony_No.41_in_C_major,_K.551_(Mozart,_Wolfgang_Amadeus)",
-      "locator": "Finale, PDF pp. 35–56, bars 1–424. Sparse passage map, not an aligned entrance chart; flute is represented by the shared flutes token."
+      "locator": "IV. Molto allegro, PDF pp. 35–56, bars 1–424: four-note theme, development, return and contrapuntal coda."
     },
     "timeline": [
       {
@@ -261,7 +206,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "Four-note first-violin theme over moving second violins; further strings join as the phrase expands."
+        "note": "First violins play C–D–F–E above moving second violins; lower strings join as the phrase expands."
       },
       {
         "t": 12,
@@ -282,7 +227,7 @@ export default {
           "violins-1",
           "flutes"
         ],
-        "note": "The full orchestra reinforces the opening paragraph, including trumpets and timpani."
+        "note": "The full orchestra answers, with trumpets and timpani reinforcing the strings."
       },
       {
         "t": 154,
@@ -298,7 +243,7 @@ export default {
           "violins-1",
           "cellos"
         ],
-        "note": "The development begins in a reduced string texture with held horn support; woodwinds rejoin within the paragraph. This is an approximate passage state, not continuous activity."
+        "note": "Strings begin the development above held horn notes; woodwinds rejoin as the phrases continue."
       },
       {
         "t": 175,
@@ -319,7 +264,7 @@ export default {
           "violins-1",
           "oboes"
         ],
-        "note": "Woodwinds and strings share the travelling contrapuntal material, with intermittent horn, trumpet and timpani punctuation. Activity changes within this approximate passage."
+        "note": "Woodwinds and strings pass the themes between them, punctuated by horns, trumpets and timpani."
       },
       {
         "t": 226,
@@ -339,7 +284,7 @@ export default {
         "lead": [
           "violins-1"
         ],
-        "note": "The opening theme returns over moving inner strings; winds, horns, trumpets and timpani support the returning phrase intermittently. This passage state is not an exact entrance or continuous-tutti map."
+        "note": "The opening theme returns above moving inner strings; winds, brass and timpani join its continuation."
       },
       {
         "t": 255,
@@ -360,7 +305,7 @@ export default {
           "violins-1",
           "bassoons"
         ],
-        "note": "The reprise includes full-orchestral statements as well as reduced counterpoint."
+        "note": "Full orchestral phrases alternate with lighter passages of interweaving strings and winds."
       },
       {
         "t": 358,
@@ -381,7 +326,7 @@ export default {
           "violins-1",
           "flutes"
         ],
-        "note": "A strong orchestral gesture opens the coda before the texture contracts."
+        "note": "A full orchestral phrase opens the coda, then the players fall quiet."
       },
       {
         "t": 365,
@@ -396,7 +341,7 @@ export default {
           "cellos",
           "violins-1"
         ],
-        "note": "Sustained lines expose the inverted four-note idea; the low-string division is not separately staged."
+        "note": "Sustained string and flute notes reveal the four-note theme turned upside down."
       },
       {
         "t": 380,
@@ -419,7 +364,7 @@ export default {
           "violas",
           "cellos"
         ],
-        "note": "The contrapuntal combination expands towards the final tutti; this is a passage ensemble, not a claim that every part sounds continuously."
+        "note": "The themes combine in the strings, with winds, brass and timpani joining the final build."
       }
     ]
   }

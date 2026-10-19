@@ -12,436 +12,155 @@ export default {
   "source": {
     "file": "File:Liszt- sonata In B Minor (piano - Jorge Bolet - 1960).mp3"
   },
-  "intro": "Liszt makes a single continuous sonata out of a few sharply differentiated ideas, transforming them into song, declamation and fugue. Jorge Bolet’s 1960 recording gives the whole design, including the quiet ending after its largest late climax.",
-  "question": "How many apparently new themes can you trace back to the opening’s few gestures?",
+  "intro": "A hammered piano figure becomes a singing melody, then a fugue subject: Liszt builds his B minor Sonata from these transformations. Jorge Bolet plays the complete work in this 1960 recording, from the first low notes to the quiet ending.",
   "sections": [
     {
       "t": 0,
-      "label": "Lento · descending scales",
-      "m": "Intro"
+      "label": "Intro · Low Gs and falling scales",
+      "m": "Intro",
+      "mNote": "Lento assai: repeated notes with silence between them"
     },
     {
       "t": 35,
-      "label": "Allegro · contrasting gestures",
-      "m": "A"
+      "label": "A · Octaves and repeated notes",
+      "m": "A",
+      "mNote": "Allegro energico: a leap, a triplet, then hammer blows"
     },
     {
       "t": 144,
-      "label": "Broadening towards Grandioso",
-      "m": "B"
+      "label": "B · Grandioso chords in D major",
+      "m": "B",
+      "mNote": "The piano opens into broad chords and a longer tune"
     },
     {
       "t": 208,
-      "label": "Lyrical transformation and development",
-      "m": "Dev"
+      "label": "Dev · Hammered notes become a song",
+      "m": "Dev",
+      "mNote": "The opening figures return as graceful and singing melodies"
     },
     {
       "t": 660,
-      "label": "Andante sostenuto",
-      "m": "C"
+      "label": "C · Andante in F♯ major",
+      "m": "C",
+      "mNote": "A slow melody over gently moving chords"
     },
     {
       "t": 1045,
-      "label": "Fugato",
-      "m": "D"
+      "label": "D · Fugato in B♭ minor",
+      "m": "D",
+      "mNote": "The leaping and repeated-note figures answer one another"
     },
     {
       "t": 1135,
-      "label": "Return and culmination",
-      "m": "A′"
+      "label": "A′ · B minor returns",
+      "m": "A′",
+      "mNote": "The opening Allegro returns after the fugato"
     },
     {
       "t": 1456,
-      "label": "Quiet final recollection",
-      "m": "Coda"
+      "label": "Coda · The opening recalled quietly",
+      "m": "Coda",
+      "mNote": "Andante, then the first three ideas in reverse order"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Notes separated by silence",
-      "text": "The slow introduction places separated notes around descending scales. Store the scale’s shape as well as the spaces between attacks: its return near the end will help connect the closing music to this hesitant beginning.",
+      "title": "Low Gs and silence",
+      "text": "Two low Gs, separated by rests, then a descending scale. Liszt marks the piano <i>sotto voce</i>, under the breath. The scale falls twice, with different intervals the second time; the sonata has begun without settling into B minor.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ identifies m. 1 opening material. Analysis shows very low levels through 0:30 before the first major increase."
+      "evidence": "Bars 1–7, Bärenreiter score (1983), reproduced in Alan Tang’s analysis: https://www.classicalmusic-notes.com/liszt-sonata-1/. The opening example shows the G octaves, rests, altered descending scales and sotto voce marking."
     },
     {
-      "t": 40,
+      "t": 35,
       "kind": "music",
-      "title": "Two forceful gestures",
-      "text": "The opening Allegro introduces a leaping octave-and-triplet idea and a hammered repeated-note figure. They sound unlike the slow scales, but all three become building material rather than disposable introductions.",
+      "title": "A leap, then hammer blows",
+      "text": "The Allegro energico introduces two short ideas: a sudden octave leap with a tumbling triplet, then a repeated note struck like a hammer. Both will return in disguises. The repeated note will even learn to sing.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ identifies motifs at mm. 8 and 13. Analysis shows the abrupt level increase near 0:35; individual bars are not aligned."
+      "evidence": "Bars 8 and 13, and the later cantando espressivo transformation at bar 153, are illustrated in Alan Tang’s analysis of the Bärenreiter score (1983): https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
-      "t": 80,
-      "kind": "listen",
-      "title": "Remember rhythm as well",
-      "text": "Try remembering the attack pattern of each gesture rather than a complete melody. Liszt can change register, key and articulation so extensively that rhythm becomes the quickest clue to a familiar idea.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening prompt based on the thematic-transformation account in https://www.classicalmusic-notes.com/liszt-sonata-1/"
-    },
-    {
-      "t": 120,
-      "kind": "form",
-      "title": "One movement several perspectives",
-      "text": "The Sonata can be followed both as a large sonata-form argument and as a continuous sequence containing slow-movement and scherzo-like regions. Those readings overlap; no pause announces four separate conventional movements.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ discusses the double-function design and competing placements of its recapitulation."
-    },
-    {
-      "t": 160,
+      "t": 144,
       "kind": "music",
-      "title": "A broader kind of statement",
-      "text": "The score’s Grandioso idea offers broad chordal declamation against the opening’s broken, driven gestures. In this region, listen for the change of scale: a larger melodic span can still belong to the same continuous argument.",
+      "title": "Grandioso in D major",
+      "text": "The Grandioso opens out in D major: broad piano chords and a melody with room to stride. Underneath, the repeated quavers recall the hammering heard earlier.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ locates Grandioso at m. 105. Analysis boundary 2:24 and D-major region around 2:55–3:05 support approximate placement, not a bar attack."
+      "evidence": "Grandioso, bar 105, and its repeated-quaver accompaniment: Alan Tang’s analysis, citing Alan Walker, Reflections on Liszt, p. 132, https://www.classicalmusic-notes.com/liszt-sonata-1/. The section boundary covers the approach to the theme."
     },
     {
-      "t": 200,
-      "kind": "listen",
-      "title": "The weight begins to lift",
-      "text": "The broad span gives way to a markedly quieter stretch. Carry the opening’s gestures into that change: a lyrical surface need not mean that Liszt has discarded his earlier material.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis falls to −26.2 dB at 3:30, −31.5 at 3:35 and −40.1 at 3:45; boundary 3:28."
-    },
-    {
-      "t": 240,
-      "kind": "life",
-      "title": "Weimar rather than the tour",
-      "text": "Liszt completes the Sonata in 1853 during his Weimar years, after withdrawing from the career of a travelling virtuoso. Its concentration on transforming a small store of ideas belongs to that period of sustained composition.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Liszt biography on the site; https://www.classicalmusic-notes.com/liszt-sonata-1/ gives completion in 1853."
-    },
-    {
-      "t": 280,
+      "t": 208,
       "kind": "music",
-      "title": "A rough gesture becomes song",
-      "text": "One lyrical idea grows out of the earlier hammered repeated-note figure. The transformation changes the phrase’s character through sustained singing and altered accompaniment; a new manner does not necessarily require a new melodic source.",
-      "basis": "general",
+      "title": "The hammer learns to sing",
+      "text": "The piano softens into <i>dolce con grazia</i>, sweet and graceful. Soon the hammering figure becomes a melody marked <i>cantando espressivo</i>. Its notes last twice as long, and flowing triplets support them. The same little pattern now sounds tender.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ compares the repeated-note motif with the cantando espressivo transformation at m. 153. This is a general relationship, not an entrance timed to 4:40."
-    },
-    {
-      "t": 320,
-      "kind": "listen",
-      "title": "Hear beneath the decoration",
-      "text": "In the quieter lyrical writing, follow the longer melody through the accompanying notes. Distinguishing tune from figuration makes it easier to recognise a transformed gesture when it later regains force.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General prompt about the Sonata’s lyrical transformations; https://www.classicalmusic-notes.com/liszt-sonata-1/"
-    },
-    {
-      "t": 360,
-      "kind": "form",
-      "title": "Transformation keeps the span moving",
-      "text": "The lyrical material does not settle into an isolated song movement. Listen for fragments of the earlier ideas to interrupt, extend or reshape it as the continuous development gathers momentum.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ describes the exposition’s transformed material and its subsequent development; passage-level formal account."
-    },
-    {
-      "t": 400,
-      "kind": "music",
-      "title": "A renewed forceful turn",
-      "text": "The quieter middle of this span gives way to a strong rise in recorded level. Compare the attacks with the earlier Allegro: the contrast now carries the memory of the intervening lyrical transformation.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis boundary 6:58; −22.2 dB at 6:50 rises to −10.3 at 7:00 and −8.1 at 7:05."
-    },
-    {
-      "t": 440,
-      "kind": "listen",
-      "title": "Follow the bass direction",
-      "text": "Throughout the developing argument, keep a separate ear on the bass. Changing the foundation beneath a familiar melodic figure can make it sound unstable even when its rhythm remains recognisable.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening prompt; thematic transformations and harmonic movement discussed in https://www.classicalmusic-notes.com/liszt-sonata-1/"
-    },
-    {
-      "t": 480,
-      "kind": "music",
-      "title": "Force is sustained then renewed",
-      "text": "The stronger writing persists across several local rises. Distinguish a repeated attack from a real point of arrival: a loud chord can propel the phrase forward instead of ending it.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis remains strong near 8:00 and rises to −7.7 dB at 8:25 and −7.5 at 8:35; no chord function inferred from machine key labels."
-    },
-    {
-      "t": 520,
-      "kind": "listen",
-      "title": "A contrast inside the development",
-      "text": "The next reduction in force is substantial, but it does not yet begin the central Andante. Hear the intervening withdrawals and renewed attacks as part of the development’s unsettled scale.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: −16.6 dB at 9:00 falls to −36.2 at 9:25; a fresh strong window follows at 9:30. The longer Andante begins later, near 11:00."
+      "evidence": "Dolce con grazia at bar 120 and cantando espressivo at bar 153, with the change from quavers to crotchets and triplet accompaniment: https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
       "t": 560,
       "kind": "world",
-      "title": "A dedication to Schumann",
-      "text": "The Sonata is dedicated to Robert Schumann. A dedication identifies an artistic relationship, not a hidden programme: the listener can follow the transformations without assigning the themes to fictional characters.",
+      "title": "A dedication sent to Schumann",
+      "text": "The Sonata appears in 1854 with a dedication to Robert Schumann, who has dedicated his C major <i>Fantasy</i> to Liszt fifteen years earlier. By the time Liszt’s score reaches the Schumann household that May, Robert is in the sanatorium at Endenich.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ documents the Schumann dedication and discusses the absence of an established composer-supplied programme."
+      "evidence": "The reciprocal dedications and 1854 publication are documented by Yale’s first-edition exhibit: https://musiclib-exhibits.library.yale.edu/exhibits/liszt/bminor_sonata.html. The copy’s arrival in May and Schumann’s admission to Endenich: https://en.wikipedia.org/wiki/Piano_Sonata_in_B_minor_(Liszt)."
     },
     {
-      "t": 600,
-      "kind": "music",
-      "title": "Contrasts grow more extreme",
-      "text": "The approach to the central slow region alternates force with deep withdrawals. Listen through the gaps rather than counting them as movement endings; Liszt keeps the large work continuous.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: −10.8 dB at 9:30, −34.8 at 9:45, renewed −12.4 at 10:25, then −41.1 by 10:55."
-    },
-    {
-      "t": 640,
-      "kind": "listen",
-      "title": "Prepare for a slower scale",
-      "text": "The long withdrawal makes room for a new pace of thought. Keep the earlier lyrical material in memory: the central slow region changes the span and harmonic setting rather than erasing everything heard so far.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Analysis: quiet 10:45–10:55 precedes the sustained quieter F-sharp-major region around 11:00–11:15; score marks Andante sostenuto at m. 331."
-    },
-    {
-      "t": 680,
+      "t": 660,
       "kind": "form",
-      "title": "The central Andante",
-      "text": "The Andante sostenuto gives F♯ major a central role and lets the line breathe on a wider scale. This is a slow region inside the continuous Sonata, not a separately numbered movement with a fresh start.",
+      "title": "A slow F♯-major song",
+      "text": "The Andante sostenuto settles into F♯ major and three beats to the bar. A quiet melody moves over soft piano chords. The earlier singing tune and the Grandioso will return within this slow section, gathering towards a broad F♯-major climax.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ identifies m. 331 and F-sharp major. Audio chroma around 11:10–11:15 supports, but does not alone establish, this score-based location."
+      "evidence": "Andante sostenuto, bar 331, and the returns leading to the F♯-major chord at bar 397: Bärenreiter score (1983), illustrated and discussed at https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
-      "t": 720,
-      "kind": "listen",
-      "title": "Hold the longer sentence",
-      "text": "Let the melody’s long direction matter more than each accompaniment note. The slower span changes the listener’s sense of proportion: a small melodic continuation can carry weight without a forceful attack.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening prompt for the central Andante, identified from the score analysis and the quieter 11:00–12:30 span."
-    },
-    {
-      "t": 760,
-      "kind": "music",
-      "title": "The slow span begins to grow",
-      "text": "The central region does not remain uniformly hushed. Its increase in level gives the sustained melodic line a larger reach without requiring a return to the opening’s sharply broken rhetoric.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: −30.4 dB at 12:30 rises to −20 at 12:35 and −18.8 at 12:40."
-    },
-    {
-      "t": 800,
-      "kind": "listen",
-      "title": "Listen for connected singing",
-      "text": "Through the central rise, attend to how a melodic line continues across a change of register or chord spacing. The piano cannot sustain like a bowed instrument; the continuity depends on the shaping of successive attacks.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General piano-listening prompt; it does not claim a particular fingering, pedal change or vocal imitation in Bolet’s performance."
-    },
-    {
-      "t": 840,
-      "kind": "music",
-      "title": "A climax within the slow region",
-      "text": "The Andante’s larger span reaches its own strong crest. Compare this with the opening’s impact: force now comes after a long lyrical expansion rather than after the introductory silence.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Analysis: −9.6 dB at 13:45 and −7.6 at 14:10; score analysis places a central F-sharp-major climax at m. 397. Exact bar timing is not asserted."
-    },
-    {
-      "t": 880,
-      "kind": "listen",
-      "title": "The crest withdraws",
-      "text": "The central climax gives way to a much quieter aftermath. Listen for the melodic remnants through the retreat; a reduction of force can preserve the argument while making its next direction uncertain.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: −7.6 dB at 14:10 drops to −22.7 at 14:30 and −37.2 by 14:45."
-    },
-    {
-      "t": 920,
-      "kind": "world",
-      "title": "Published without a story",
-      "text": "The Sonata appears in print in 1854. Later writers propose Faustian and other programmes, but Liszt supplies no authoritative narrative key for this score; its musical relationships remain the secure starting point.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Yale University Library’s first-edition exhibit explicitly dates publication to 1854 and distinguishes later Faust readings from Liszt’s lack of a written programme: https://musiclib-exhibits.library.yale.edu/exhibits/liszt/bminor_sonata.html"
-    },
-    {
-      "t": 960,
-      "kind": "music",
-      "title": "A long quiet aftermath",
-      "text": "The low-intensity passage extends far beyond a single breath between sections. Preserve the opening gestures in memory during this suspended span: their next transformation will depend on rhythm and contrapuntal combination.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: low levels around 16:00, 16:30 and 16:50, with −46.3 dB at 16:50; no exact harmonic suspension is claimed."
-    },
-    {
-      "t": 1000,
-      "kind": "listen",
-      "title": "Wait for a different texture",
-      "text": "Listen for the coming change from broad or isolated gestures to entries that answer one another. A fugato can make a familiar idea active in several voices rather than presenting a wholly new tune.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ identifies the fugato at m. 460; the cue prepares for the region around 17:25 rather than claiming it has already begun."
-    },
-    {
-      "t": 1040,
+      "t": 1045,
       "kind": "form",
-      "title": "The fugato approaches",
-      "text": "In the fugato, the earlier leaping and repeated-note ideas become contrapuntal material. The texture turns their identities into a game of entries and overlap, combining what the opening first separated.",
+      "title": "Two figures become a fugue",
+      "text": "In B♭ minor, the piano sets the leaping figure and the repeated-note figure running through a fugato. One voice begins; another answers while the first keeps going. The opening’s outbursts now fit together as counterpoint.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ discusses m. 460, initially in B-flat minor. Analysis shows growing onset density and level from 17:20–17:45."
+      "evidence": "Fugato from bar 460, with the two opening figures and successive entries illustrated at https://www.classicalmusic-notes.com/liszt-sonata-1/. Its B♭-minor key is also identified at https://en.wikipedia.org/wiki/Piano_Sonata_in_B_minor_(Liszt)."
     },
     {
       "t": 1080,
-      "kind": "world",
-      "title": "Bülow gives the première",
-      "text": "Hans von Bülow gives the Sonata’s public première in Berlin in 1857. The work’s single-span design reaches listeners as a performed argument, not simply a catalogue of Liszt’s keyboard effects.",
+      "kind": "life",
+      "title": "Bülow takes it to Berlin",
+      "text": "In January 1857, Hans von Bülow gives the Sonata its first public performance in Berlin. He has studied with Liszt since 1851. Later that year he marries Liszt’s daughter Cosima, with her father at the wedding.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The site’s Liszt biography, Weimar section, documents Bülow’s Berlin public première in 1857. https://www.liszt.org/p/chronology.html independently names Bülow’s first performance on 22 January 1857."
+      "evidence": "Bülow’s studies and marriage are dated in the Liszt chronology: https://www.liszt.org/p/chronology.html. Berlin première: https://en.wikipedia.org/wiki/Piano_Sonata_in_B_minor_(Liszt). The sources differ on the day in January, so only the month is given."
     },
     {
-      "t": 1120,
-      "kind": "music",
-      "title": "Imitation accumulates force",
-      "text": "The contrapuntal region grows denser and stronger as it moves towards the main return. Listen for the entries to cooperate in building momentum, rather than treating each one as an independent interruption.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Analysis: higher onset density around 18:00, then −15.9 dB at 18:20 and −10.8 by 18:40. The formal source links the fugato to the return at m. 533."
-    },
-    {
-      "t": 1160,
+      "t": 1135,
       "kind": "form",
-      "title": "B minor returns with history",
-      "text": "The principal return restores B minor and the opening’s forceful material, but the intervening slow region and fugato change its context. Recognition now includes several versions of each gesture, not only its first appearance.",
+      "title": "The opening Allegro comes home",
+      "text": "The fugato leads back to B minor and the opening Allegro’s main theme. Liszt compresses the return: the Grandioso and the singing melody reappear in a much shorter span. The piano still has a Prestissimo and a final grand statement ahead.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ identifies the B-minor recapitulation at m. 533. Audio supports a strong B-minor region around 18:55–19:10; placement is approximate."
+      "evidence": "Return at bar 533, condensed reprise of the secondary themes, and Prestissimo at bar 682: https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
-      "t": 1200,
-      "kind": "listen",
-      "title": "A return is not a reset",
-      "text": "Compare the returning material with what you remember from the beginning. Notice how altered continuations and destinations can make familiar music lead somewhere different instead of simply replaying the exposition.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General recapitulation listening prompt supported by the formal account in https://www.classicalmusic-notes.com/liszt-sonata-1/"
-    },
-    {
-      "t": 1240,
-      "kind": "music",
-      "title": "From force towards lyricism",
-      "text": "After another strong crest, the recorded level recedes again. The Sonata repeats its basic power to turn a forceful gesture into a singing one; try to recognise the shared shape across the change of character.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: −7.8 dB at 20:20, then −20.9 at 20:35; lower levels follow into the later lyrical passage."
-    },
-    {
-      "t": 1280,
-      "kind": "listen",
-      "title": "Let the softer line carry",
-      "text": "In this quieter span, focus on the melody’s contour rather than the number of notes around it. Earlier transformations make it possible to recognise an idea by direction and rhythm even when its weight has changed.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Analysis: very quiet windows at 21:25–21:30; the text is a general listening strategy, not a specific theme entrance."
-    },
-    {
-      "t": 1320,
-      "kind": "world",
-      "title": "A recording dated 1960",
-      "text": "The source identifies Jorge Bolet and the year 1960, but not a session venue or original issue number. Those missing details should not be supplied from another Bolet performance: this guide follows the selected file only.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Commons description: https://commons.wikimedia.org/wiki/File:Liszt-_sonata_In_B_Minor_(piano_-_Jorge_Bolet_-_1960).mp3"
-    },
-    {
-      "t": 1360,
-      "kind": "listen",
-      "title": "Gathering the late momentum",
-      "text": "The final large ascent grows out of the preceding quieter music. Keep the transformed themes in mind as the sound gains weight; the culmination belongs to their accumulated history, not merely to faster or louder playing.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: −25.7 dB at 22:40 rises to −13.1 at 22:55 and −13 at 23:05."
-    },
-    {
-      "t": 1400,
-      "kind": "music",
-      "title": "The late culmination grows",
-      "text": "The recorded level rises through this late span towards the performance’s strongest window. The scale of the ascent suggests an emphatic conclusion, making the ensuing change of direction especially important.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: −8.9 dB at 23:20, −8.1 at 23:35 and maximum −5.3 at 23:55."
-    },
-    {
-      "t": 1440,
-      "kind": "listen",
-      "title": "Loudness does not decide the ending",
-      "text": "The strongest late writing is not the Sonata’s last word. Stay with the abrupt withdrawal that follows: the work still has its slow opening material to reconsider.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: strong windows at 24:00 and 24:15, boundary at 24:16, then −32.6 dB at 24:20."
-    },
-    {
-      "t": 1480,
+      "t": 1456,
       "kind": "form",
-      "title": "A quiet ending takes over",
-      "text": "After the late climax, the final Andante replaces public-sounding force with quiet recollection. The Sonata closes by revisiting its material on a smaller scale, rather than by sustaining the preceding triumphal weight.",
+      "title": "Liszt crosses out the flourish",
+      "text": "After the grand climax, the piano returns to Andante sostenuto. Liszt’s manuscript contains a louder ending, crossed out. In its place come quiet recollections: the repeated-note figure, the leap and finally the falling scale, reversing the order in which they first appeared.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ locates the final Andante at m. 711. Audio’s sharp withdrawal near 24:16 anchors the approximate boundary."
-    },
-    {
-      "t": 1520,
-      "kind": "music",
-      "title": "Remembered ideas change their order",
-      "text": "In the concluding pages, the opening’s principal gestures are recollected in reverse order. This is not a literal rewind: changing their register, pacing and harmonic setting gives familiar fragments a different function.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ identifies returns of the repeated-note, leaping and scale ideas at mm. 729, 737 and 750. No individual bar is aligned to 25:20."
-    },
-    {
-      "t": 1560,
-      "kind": "listen",
-      "title": "Space becomes part of the phrase",
-      "text": "The ending allows more room around its quieter sounds. Recall how the introduction separated its notes: the physical space can resemble the beginning while the tonal destination gives it a different meaning.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Analysis shows sustained low levels through 26:00–26:30. General comparison of the opening and closing textures, not a quantified tempo claim."
-    },
-    {
-      "t": 1600,
-      "kind": "music",
-      "title": "B major rather than B minor",
-      "text": "The written ending settles in B major. Its quietness is essential to the design: tonal resolution and maximum volume are deliberately separated, after the late climax has already spent its force.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "https://www.classicalmusic-notes.com/liszt-sonata-1/ discusses the quiet B-major ending. This cue describes the final span, not an exact cadence at 26:40."
-    },
-    {
-      "t": 1640,
-      "kind": "listen",
-      "title": "Allow the last decay",
-      "text": "Stay with the final sound as it dies away. The recording’s last seconds complete the Sonata’s retreat from its late climax; they are not an invitation to supply a louder ending in the imagination.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: −46.1 dB at 27:20, −51.8 at 27:25 and −66 dB at 27:30."
+      "evidence": "Andante at bar 711, followed by the three opening ideas at bars 729, 737 and 750: https://www.classicalmusic-notes.com/liszt-sonata-1/. The crossed-out ending is also discussed by Grant Hiroshima: https://www.laphil.com/works/sonata-in-b-minor."
     }
   ],
   "transitions": [
     {
       "id": "into-allegro",
-      "title": "Isolated scales give way to forceful gestures",
-      "from": "Lento",
-      "to": "Allegro",
+      "title": "The piano breaks into octaves",
+      "from": "Intro · Low Gs and falling scales",
+      "to": "A · Octaves and repeated notes",
       "at": {
         "t": 35
       },
@@ -449,7 +168,7 @@ export default {
         25,
         47
       ],
-      "how": "<p>The introductory scales and separated notes yield to leaping and repeated-note material with much sharper attack. The register and texture expand suddenly, but the introduction remains part of the thematic store that the Sonata will transform and eventually recall.</p>",
+      "how": "<p>The low Gs and falling scales of <i>Lento assai</i> lead to <i>Allegro energico</i> at bar 8. The piano leaps in octaves, tumbles through a triplet and then strikes a repeated note. B minor becomes firmly established later, at bar 32.</p>",
       "devices": [
         "tempo change",
         "texture change",
@@ -457,13 +176,13 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Score analysis mm. 1–13; abrupt level rise around 0:35. Individual bar attacks are not aligned."
+      "evidence": "Bärenreiter score (1983), bars 1–32, reproduced and discussed at https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
       "id": "towards-grandioso",
-      "title": "Driven gestures broaden into declamation",
-      "from": "Allegro",
-      "to": "Broadening towards Grandioso",
+      "title": "Falling bass scales open D major",
+      "from": "A · Octaves and repeated notes",
+      "to": "B · Grandioso chords in D major",
       "at": {
         "t": 144
       },
@@ -471,21 +190,21 @@ export default {
         134,
         156
       ],
-      "how": "<p>The driven opening makes room for the Grandioso idea’s broad chordal statement. The change of pacing and texture enlarges the phrase, while its D-major region provides contrast to the B-minor main argument. The boundary marks the approach, not an exact Grandioso downbeat.</p>",
+      "how": "<p>The opening’s descending scale returns in the piano’s bass beneath the hammering figure. Repetition drives towards D major, the relative major of B minor. At <i>Grandioso</i>, broad chords carry the new melody while the left hand continues in repeated quavers.</p>",
       "devices": [
+        "motivic link",
         "texture change",
-        "tempo change",
-        "link passage"
+        "crescendo build"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Grandioso at m. 105 in the formal source; audio boundary 2:24, followed by a D-major region later in the span."
+      "evidence": "The bass scales before bar 105 and the D-major Grandioso are described and illustrated at https://www.classicalmusic-notes.com/liszt-sonata-1/. The retained boundary marks the approach to the theme."
     },
     {
       "id": "lyrical-transformation",
-      "title": "Force is recast as a singing line",
-      "from": "Broadening towards Grandioso",
-      "to": "Lyrical transformation and development",
+      "title": "Hammer blows become a melody",
+      "from": "B · Grandioso chords in D major",
+      "to": "Dev · Hammered notes become a song",
       "at": {
         "t": 208
       },
@@ -493,7 +212,7 @@ export default {
         198,
         220
       ],
-      "how": "<p>The sound withdraws into lyrical writing. Material associated with earlier leaping and repeated-note gestures becomes a sustained melody through altered articulation and accompaniment. The continuity is motivic rather than a literal repetition of the earlier texture.</p>",
+      "how": "<p>After the D-major Grandioso, the piano recalls the principal theme and softens into <i>dolce con grazia</i>. At the later <i>cantando espressivo</i>, Liszt doubles the repeated-note figure’s note values. Triplets in the accompaniment support the new singing line.</p>",
       "devices": [
         "motivic link",
         "decrescendo",
@@ -501,13 +220,13 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Formal source identifies transformed themes at mm. 120 and 153; audio boundary 3:28 and pronounced quieting at 3:30–3:45."
+      "evidence": "The transformations at bars 120 and 153, following the Grandioso at bar 105: https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
       "id": "central-andante",
-      "title": "Development yields to the central slow region",
-      "from": "Lyrical transformation and development",
-      "to": "Andante sostenuto",
+      "title": "Three slow beats in F♯ major",
+      "from": "Dev · Hammered notes become a song",
+      "to": "C · Andante in F♯ major",
       "at": {
         "t": 660
       },
@@ -515,21 +234,21 @@ export default {
         650,
         672
       ],
-      "how": "<p>After strongly contrasted developmental writing, the tempo relaxes into the Andante sostenuto and its F♯-major region. The sustained line changes the scale of the argument without breaking the work into separate movements; familiar lyrical character survives inside the new harmonic setting.</p>",
+      "how": "<p>At <i>Andante sostenuto</i>, the piano turns to F♯ major and 3/4. The right hand carries a quiet melody over gently moving chords, with low notes supporting each change. The slow section will bring back both the singing theme and the Grandioso.</p>",
       "devices": [
         "tempo change",
-        "decrescendo",
+        "metre change",
         "texture change"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Andante at m. 331; quieter F-sharp region near 11:00 follows the withdrawal at 10:45–10:55."
+      "evidence": "Bärenreiter score (1983), Andante sostenuto from bar 331, reproduced at https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
       "id": "into-fugato",
-      "title": "Quiet recollection becomes imitative movement",
-      "from": "Andante sostenuto",
-      "to": "Fugato",
+      "title": "Quiet music starts to chase itself",
+      "from": "C · Andante in F♯ major",
+      "to": "D · Fugato in B♭ minor",
       "at": {
         "t": 1045
       },
@@ -537,7 +256,7 @@ export default {
         1035,
         1057
       ],
-      "how": "<p>The slow region’s aftermath gives way to a fugato, initially in B♭ minor. Earlier leaping and repeated-note ideas enter a contrapuntal texture: imitation turns their contrasting identities into simultaneous activity and supplies the impetus towards the return.</p>",
+      "how": "<p>The slow section leads to <i>Allegro energico</i> in B♭ minor. The piano’s lower voice takes up the leaping and repeated-note figures; another voice answers above it. Short staccato notes turn the old hammer blows into a running fugue subject.</p>",
       "devices": [
         "motivic link",
         "tempo change",
@@ -545,13 +264,13 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Fugato m. 460 in the formal source; growing onset density and level from 17:20 through 17:45."
+      "evidence": "Fugato from bar 460, with the lower voice and answering entry reproduced at https://www.classicalmusic-notes.com/liszt-sonata-1/. B♭-minor key: https://en.wikipedia.org/wiki/Piano_Sonata_in_B_minor_(Liszt)."
     },
     {
       "id": "principal-return",
-      "title": "The fugato drives into the return",
-      "from": "Fugato",
-      "to": "Return and culmination",
+      "title": "The fugato reaches B minor",
+      "from": "D · Fugato in B♭ minor",
+      "to": "A′ · B minor returns",
       "at": {
         "t": 1135
       },
@@ -559,21 +278,21 @@ export default {
         1125,
         1147
       ],
-      "how": "<p>The accumulation of imitative entries leads back to the B-minor principal material. The returning argument retains the force of the opening but now follows both a slow central region and a contrapuntal transformation, so repetition functions as a return with consequences.</p>",
+      "how": "<p>The fugato leads back to B minor. At bar 533 the piano restores the principal theme first heard at bar 32, reuniting its leaping octaves and repeated-note figure. The Grandioso and singing melody follow in shortened versions.</p>",
       "devices": [
         "retransition",
         "motivic link",
-        "crescendo build"
+        "texture change"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "B-minor return m. 533; strong B-minor audio region around 18:55–19:10. Placement is approximate."
+      "evidence": "The B-minor return at bar 533 and condensed recapitulation are described at https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
       "id": "quiet-coda",
-      "title": "The largest late crest relinquishes the ending",
-      "from": "Return and culmination",
-      "to": "Quiet final recollection",
+      "title": "A silence before the final Andante",
+      "from": "A′ · B minor returns",
+      "to": "Coda · The opening recalled quietly",
       "at": {
         "t": 1456
       },
@@ -581,7 +300,7 @@ export default {
         1446,
         1468
       ],
-      "how": "<p>The late climax stops governing the work’s scale. A sharp withdrawal makes space for a final Andante, in which opening gestures return quietly and eventually settle in B major. The final cadence is separated from the loudest point rather than reinforced by it.</p>",
+      "how": "<p>The grand piano climax at bar 710 is followed by silence, then <i>Andante sostenuto</i>. The quiet melody returns before Liszt recalls the opening’s repeated-note figure, octave leap and descending scale. Those three ideas now arrive in reverse order.</p>",
       "devices": [
         "general pause",
         "decrescendo",
@@ -590,7 +309,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Formal source: climax m. 710 and Andante m. 711; audio boundary 24:16 and fall to −32.6 dB by 24:20."
+      "evidence": "The pause after bar 710, Andante at bar 711 and final thematic returns at bars 729, 737 and 750 are discussed at https://www.classicalmusic-notes.com/liszt-sonata-1/."
     }
   ]
 };

@@ -18,34 +18,33 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme XI. G.R.S.ogg"
   },
-  "intro": "Rapid runs and low orchestral gestures make one of the set’s most physical portraits. The initials name an organist, but Elgar’s story concerns his dog rather than his instrument.",
-  "question": "Can orchestral movement tell a story without imitating every sound?",
+  "intro": "George Robertson Sinclair, organist of Hereford Cathedral, has a bulldog called Dan. Elgar gives the dog a spectacular entrance: a tumble down the bank into the River Wye.",
   "sections": [
     {
       "t": 0,
-      "label": "XI · Dan in the river",
+      "label": "Var 11 · Dan in the river",
       "m": "Var 11",
-      "mNote": "rapid falling figures and vigorous responses"
+      "mNote": "Falling strings, paddling bassoons and a bark"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "Fast lines against a low foundation",
-      "text": "Quick violin figures fall across a firmer lower line. Listen to the contrast between rapid movement and the weight below it, rather than trying to translate every note into an action.",
-      "basis": "general",
+      "title": "A bulldog goes swimming",
+      "text": "The strings plunge downwards. Bassoons and double basses paddle onwards in quavers. Elgar’s account supplies the action: Dan falls into the Wye, swims upstream to find a landing place, then scrambles out with a delighted bark.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello pp. 74–81, rehearsal figures 47–51. The opening has rapid violin figures against lower-string motion; no literal sound effect is inferred from the audio."
+      "evidence": "Novello full score, pp. 74–75, rehearsal 47. Elgar’s commentary assigns the fall to bar 1, paddling to bars 2–3 and the bark to the second half of bar 5: https://en.wikipedia.org/wiki/Enigma_Variations"
     },
     {
       "t": 25,
       "kind": "world",
-      "title": "George Robertson Sinclair and Dan",
-      "text": "George Robertson Sinclair is the organist of Hereford Cathedral. Elgar explains that the variation pictures Sinclair’s bulldog Dan falling into the River Wye, paddling ashore and barking—not organs or cathedrals.",
+      "title": "Sinclair sets a challenge",
+      "text": "Sinclair challenges Elgar to put the river incident into music. The composer is already fond of Dan: on visits to the organist’s house, he writes little musical sketches of the dog’s moods in the visitors’ book.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The Elgar Society recounts the incident; the work account reproduces Elgar’s explicit distinction between Sinclair’s profession and the subject of the music. This reports the composer’s story, not independently witnessed events. https://elgar.org/3enigma.htm https://en.wikipedia.org/wiki/Enigma_Variations"
+      "evidence": "Elgar recounts Sinclair’s challenge in his commentary on variation XI, reproduced at https://en.wikipedia.org/wiki/Enigma_Variations. The visitors’ book sketches are described by John Pickard in his BBC programme note (2005): https://www.bbc.com/radio3/classical/elgar/notes/note_enigma.shtml"
     }
   ],
   "transitions": [],
@@ -73,15 +72,15 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 74–81, rehearsal figures 47–51. Whole-variation passage map, using the early crest near 0:10, lighter 0:15–0:20 span, and the report’s renewed weight after 0:24. Desk activity is approximate within each window."
+      "locator": "Novello full score, pp. 74–81, rehearsal figures 47–51: the falling string figure, bassoon paddling and orchestral replies."
     },
     "timeline": [
-      { "t": 0, "playing": ["violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "Rapid descending string figures begin the portrait (p. 74)." },
-      { "t": 4, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["bassoons", "violins-1"], "note": "Bassoon motion and stronger wind replies join the string figures (pp. 74–75)." },
-      { "t": 10, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets"], "note": "Accented brass and wind gestures add weight to the first surge; percussion punctuates the exchange (pp. 75–76)." },
-      { "t": 17, "playing": ["oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "bassoons"], "note": "The middle exchange lightens to wind figures over continuing string motion (pp. 77–78)." },
-      { "t": 24, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "The renewed surge restores brass and percussion weight around the running strings (pp. 78–80)." },
-      { "t": 38, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns", "trumpets"], "note": "A final string rush and emphatic orchestral gestures bring the portrait to its short close (pp. 80–81)." }
+      { "t": 0, "playing": ["violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "violins-2"], "note": "The strings plunge downwards in the first bar (p. 74)." },
+      { "t": 4, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["bassoons", "violins-1"], "note": "Bassoons paddle in quavers; the winds answer the running strings (pp. 74–75)." },
+      { "t": 10, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["horns", "trumpets"], "note": "Accented brass chords and percussion punctuate the wind and string phrases (pp. 75–76)." },
+      { "t": 17, "playing": ["oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["clarinets", "bassoons"], "note": "Clarinets and bassoons exchange short figures above the moving strings (pp. 77–78)." },
+      { "t": 24, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "Brass and percussion rejoin the strings’ rapid figures (pp. 78–80)." },
+      { "t": 38, "playing": ["piccolo", "flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns", "trumpets"], "note": "A final string rush leads to the orchestra’s closing chords (pp. 80–81)." }
     ]
   }
 };

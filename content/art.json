@@ -1,4 +1,15 @@
 {
+ "File:Aaron Copland in 1962.jpg": {
+  "id": "aaron-copland-in-1962",
+  "src": "assets/img/art/aaron-copland-in-1962.webp",
+  "w": 723,
+  "h": 954,
+  "page": "https://commons.wikimedia.org/wiki/File:Aaron_Copland_in_1962.jpg",
+  "artist": "CBS Television",
+  "date": "1962-09-07",
+  "license": "Public domain",
+  "credit": "eBay front back"
+ },
  "File:Ad Parnassum, Paul Klee (1932, 274).jpg": {
   "id": "ad-parnassum-paul-klee-1932-274",
   "src": "assets/img/art/ad-parnassum-paul-klee-1932-274.webp",
@@ -75,6 +86,17 @@
   "date": "1927-03",
   "license": "Public domain",
   "credit": "ÖNB, Bildarchiv Austria , Inventarnummer Pb 580.555-F 293 ( https://www.bildarchivaustria.at/Pages/ImageDetail.aspx?p_iBildID=10450741 )"
+ },
+ "File:Allie Mae Burroughs.jpg": {
+  "id": "allie-mae-burroughs",
+  "src": "assets/img/art/allie-mae-burroughs.webp",
+  "w": 1198,
+  "h": 1536,
+  "page": "https://commons.wikimedia.org/wiki/File:Allie_Mae_Burroughs.jpg",
+  "artist": "Walker Evans",
+  "date": "Taken in 1936",
+  "license": "Public domain",
+  "credit": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID cph.3g08200 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing ."
  },
  "File:Amigoni e friends.png": {
   "id": "amigoni-e-friends",
@@ -218,6 +240,17 @@
   "date": "2011-01-05 15:09",
   "license": "CC BY 2.0",
   "credit": "Flickr"
+ },
+ "File:Atelier Nadar - Galli-Marié in Bizet's Carmen - Original.jpg": {
+  "id": "atelier-nadar-galli-marie-in-bizet-s-carmen-original",
+  "src": "assets/img/art/atelier-nadar-galli-marie-in-bizet-s-carmen-original.webp",
+  "w": 1280,
+  "h": 1718,
+  "page": "https://commons.wikimedia.org/wiki/File:Atelier_Nadar_-_Galli-Mari%C3%A9_in_Bizet%27s_Carmen_-_Original.jpg",
+  "artist": "Atelier Nadar, attributed to Paul Nadar in File:Galli-Marie_Carmen_Photo.png .",
+  "date": "between 1875 and 1883 date QS:P,+1850-00-00T00:00:00Z/7,P1319,+1875-00-00T00:00:00Z/9,P1326,+1883-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Gallica"
  },
  "File:Baigneurs a Asnieres.jpg": {
   "id": "baigneurs-a-asnieres",
@@ -417,6 +450,17 @@
   "license": "Public domain",
   "credit": "Yale University"
  },
+ "File:Chicago Auditorium Building, interior from balcony.jpg": {
+  "id": "chicago-auditorium-building-interior-from-balcony",
+  "src": "assets/img/art/chicago-auditorium-building-interior-from-balcony.webp",
+  "w": 1280,
+  "h": 1106,
+  "page": "https://commons.wikimedia.org/wiki/File:Chicago_Auditorium_Building,_interior_from_balcony.jpg",
+  "artist": "JW Taylor,, photographer.",
+  "date": "1890",
+  "license": "Public domain",
+  "credit": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID hhh.il0091 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing ."
+ },
  "File:Chicago, Illinois. Double header Pennsylvania railroad train pulling out of Union station. The building in the background is the United States Post Office.tif": {
   "id": "chicago-illinois-double-header-pennsylvania-railroad-train-pulling-out-of-union-",
   "src": "assets/img/art/chicago-illinois-double-header-pennsylvania-railroad-train-pulling-out-of-union-.webp",
@@ -471,6 +515,28 @@
   "date": "1984-02-01",
   "license": "CC0",
   "credit": "http://proxy.handle.net/10648/ad33fb2a-d0b4-102d-bcf8-003048976d84"
+ },
+ "File:Composer Florence Price (cropped).jpg": {
+  "id": "composer-florence-price-cropped",
+  "src": "assets/img/art/composer-florence-price-cropped.webp",
+  "w": 1280,
+  "h": 1634,
+  "page": "https://commons.wikimedia.org/wiki/File:Composer_Florence_Price_(cropped).jpg",
+  "artist": "George Nelidoff",
+  "date": "circa 1940 date QS:P,+1940-00-00T00:00:00Z/9,P1480,Q5727902",
+  "license": "Public domain",
+  "credit": "https://digitalcollections.uark.edu/digital/collection/p17212coll3/id/20/rec/31"
+ },
+ "File:Composer Rossini G 1865 by Carjat - Restoration.jpg": {
+  "id": "composer-rossini-g-1865-by-carjat-restoration",
+  "src": "assets/img/art/composer-rossini-g-1865-by-carjat-restoration.webp",
+  "w": 1280,
+  "h": 1610,
+  "page": "https://commons.wikimedia.org/wiki/File:Composer_Rossini_G_1865_by_Carjat_-_Restoration.jpg",
+  "artist": "Étienne Carjat / Adam Cuerden",
+  "date": "1865",
+  "license": "Public domain",
+  "credit": "harvardartmuseums.org"
  },
  "File:Constable - Golding Constable's Kitchen Garden, c.1815, R.1955-96.2.jpg": {
   "id": "constable-golding-constable-s-kitchen-garden-c-1815-r-1955-96-2",
@@ -570,6 +636,17 @@
   "date": "Taken on 28 July 1950",
   "license": "CC BY-SA 3.0 de",
   "credit": "Fotothek_df_roe-neg_0002792_002_Portrait_Dmitri_Dmitrijewitsch_Schostakowitchs_im_Publikum_der_Bachfeier.jpg"
+ },
+ "File:Duchamp Fountaine.jpg": {
+  "id": "duchamp-fountaine",
+  "src": "assets/img/art/duchamp-fountaine.webp",
+  "w": 1280,
+  "h": 1350,
+  "page": "https://commons.wikimedia.org/wiki/File:Duchamp_Fountaine.jpg",
+  "artist": "Marcel Duchamp",
+  "date": "1917 date QS:P571,+1917-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "src Original picture by Stieglitz"
  },
  "File:Dvorak 1882.jpg": {
   "id": "dvorak-1882",
@@ -846,6 +923,28 @@
   "license": "Public domain",
   "credit": "one or more third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical reproduction thereof . This may be due to recognition of the \" sweat of the brow \" doctrine, allowing works to be eligible for protection through s"
  },
+ "File:George Gershwin 1937.jpg": {
+  "id": "george-gershwin-1937",
+  "src": "assets/img/art/george-gershwin-1937.webp",
+  "w": 317,
+  "h": 398,
+  "page": "https://commons.wikimedia.org/wiki/File:George_Gershwin_1937.jpg",
+  "artist": "Carl Van Vechten",
+  "date": "28 March 1937 date QS:P571,+1937-03-28T00:00:00Z/11",
+  "license": "Public domain",
+  "credit": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID van.5a52009 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing ."
+ },
+ "File:Georges Bizet 1860 (restoration).jpg": {
+  "id": "georges-bizet-1860-restoration",
+  "src": "assets/img/art/georges-bizet-1860-restoration.webp",
+  "w": 1280,
+  "h": 2042,
+  "page": "https://commons.wikimedia.org/wiki/File:Georges_Bizet_1860_(restoration).jpg",
+  "artist": "George Grantham Bain Collection",
+  "date": "1860",
+  "license": "Public domain",
+  "credit": "This file was derived from: Bizet LCCN99404494.jpg (restored by Kcx36 ) original source: Library of Congress Catalog: https://lccn.loc.gov/99404494 Image download: https://cdn.loc.gov/service/pnp/cph/3c20000/3c23000/3c23300/3c23326v.jpg Original url: https://www.loc.gov/pictures/item/99404494/"
+ },
  "File:Gerard ter Borch (der Jüngere) (1617 - 1681) - The Concert - 791G - Gemäldegalerie.jpg": {
   "id": "gerard-ter-borch-der-jungere-1617-1681-the-concert-791g-gemaldegalerie",
   "src": "assets/img/art/gerard-ter-borch-der-jungere-1617-1681-the-concert-791g-gemaldegalerie.webp",
@@ -890,6 +989,17 @@
   "license": "Public domain",
   "credit": "Libretto and Programme Notes for Tosca , p. 2, published by the Teatro La Fenice at http://www.teatrolafenice.it/public/libretti/84_6334Tosca_v3.pdf"
  },
+ "File:Guillaume Tell - esquisse de décor - Pierre-Luc Charles Cicéri - btv1b7000638d.jpg": {
+  "id": "guillaume-tell-esquisse-de-decor-pierre-luc-charles-ciceri-btv1b7000638d",
+  "src": "assets/img/art/guillaume-tell-esquisse-de-decor-pierre-luc-charles-ciceri-btv1b7000638d.webp",
+  "w": 1280,
+  "h": 1016,
+  "page": "https://commons.wikimedia.org/wiki/File:Guillaume_Tell_-_esquisse_de_d%C3%A9cor_-_Pierre-Luc_Charles_Cic%C3%A9ri_-_btv1b7000638d.jpg",
+  "artist": "Cicéri, Pierre-Luc-Charles (1782-1868). Dessinateur",
+  "date": "1829 date QS:P571,+1829-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Bibliothèque nationale de France"
+ },
  "File:Gustav Klimt - Attersee - Google Art Project.jpg": {
   "id": "gustav-klimt-attersee-google-art-project",
   "src": "assets/img/art/gustav-klimt-attersee-google-art-project.webp",
@@ -922,6 +1032,17 @@
   "date": "1909 date QS:P571,+1909-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "https://www.flickr.com/photos/freeparking/1000807342"
+ },
+ "File:Hanover-Square-Rooms-concert.jpg": {
+  "id": "hanover-square-rooms-concert",
+  "src": "assets/img/art/hanover-square-rooms-concert.webp",
+  "w": 700,
+  "h": 488,
+  "page": "https://commons.wikimedia.org/wiki/File:Hanover-Square-Rooms-concert.jpg",
+  "artist": "Unknown author Unknown author",
+  "date": "1843-06-24",
+  "license": "Public domain",
+  "credit": "http://www.hberlioz.com/London/BLHanoverSquare.html"
  },
  "File:Hanuš Schwaiger - Water Gnome - Google Art Project.jpg": {
   "id": "hanus-schwaiger-water-gnome-google-art-project",
@@ -989,6 +1110,17 @@
   "license": "Public domain",
   "credit": "Miniature from the Rupertsberg Codex of Liber Scivias."
  },
+ "File:His Master's Voice.jpg": {
+  "id": "his-master-s-voice",
+  "src": "assets/img/art/his-master-s-voice.webp",
+  "w": 1200,
+  "h": 898,
+  "page": "https://commons.wikimedia.org/wiki/File:His_Master%27s_Voice.jpg",
+  "artist": "Francis Barraud",
+  "date": "between 1898 and 1899 date QS:P571,+1898-00-00T00:00:00Z/8,P1319,+1898-00-00T00:00:00Z/9,P1326,+1899-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Victor Talking Machine Company"
+ },
  "File:Hogarth coram.jpg": {
   "id": "hogarth-coram",
   "src": "assets/img/art/hogarth-coram.webp",
@@ -999,6 +1131,17 @@
   "date": "1740 date QS:P571,+1740-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Unknown source Unknown source"
+ },
+ "File:I Saw the Figure 5 in Gold MET DP236148.jpg": {
+  "id": "i-saw-the-figure-5-in-gold-met-dp236148",
+  "src": "assets/img/art/i-saw-the-figure-5-in-gold-met-dp236148.webp",
+  "w": 1280,
+  "h": 1546,
+  "page": "https://commons.wikimedia.org/wiki/File:I_Saw_the_Figure_5_in_Gold_MET_DP236148.jpg",
+  "artist": "Charles Demuth",
+  "date": "1928 date QS:P571,+1928-00-00T00:00:00Z/9",
+  "license": "CC0",
+  "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy"
  },
  "File:Igor Stravinsky LOC 32392u.jpg": {
   "id": "igor-stravinsky-loc-32392u",
@@ -1087,6 +1230,17 @@
   "date": "1913",
   "license": "Public domain",
   "credit": "What We Hear in Music , Anne S. Faulkner, Victor Talking Machine Co. , 1913."
+ },
+ "File:Jean-Marc Nattier, Portrait de Pierre-Augustin Caron de Beaumarchais (1755).jpg": {
+  "id": "jean-marc-nattier-portrait-de-pierre-augustin-caron-de-beaumarchais-1755",
+  "src": "assets/img/art/jean-marc-nattier-portrait-de-pierre-augustin-caron-de-beaumarchais-1755.webp",
+  "w": 484,
+  "h": 624,
+  "page": "https://commons.wikimedia.org/wiki/File:Jean-Marc_Nattier,_Portrait_de_Pierre-Augustin_Caron_de_Beaumarchais_(1755).jpg",
+  "artist": "Jean-Marc Nattier",
+  "date": "1755 date QS:P571,+1755-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "[1]"
  },
  "File:Jean-Philippe Rameau by Jacques Aved.jpg": {
   "id": "jean-philippe-rameau-by-jacques-aved",
@@ -1429,6 +1583,28 @@
   "license": "Public domain",
   "credit": "http://sammlungonline.kunstmuseumbasel.ch/eMuseumPlus?service=direct/1/ResultDetailView/result.t1.collection_detail.$TspReferenceLink.link&sp=10&sp=Scollection&sp=SelementList&sp=1&sp=3&sp=999&sp=SdetailView&sp=0&sp=Sdetail&sp=0&sp=F&sp=Sartist&sp=l4944"
  },
+ "File:MarianAndersonLincolnMemorial.png": {
+  "id": "marianandersonlincolnmemorial",
+  "src": "assets/img/art/marianandersonlincolnmemorial.webp",
+  "w": 593,
+  "h": 462,
+  "page": "https://commons.wikimedia.org/wiki/File:MarianAndersonLincolnMemorial.png",
+  "artist": "U.S. Information Agency",
+  "date": "9 April 1939 (Easter)",
+  "license": "Public domain",
+  "credit": "NARA image 306-NT-965B-4 / ARC 595378 (direct image URL [1] )"
+ },
+ "File:Martha Graham and Bertram Ross.jpg": {
+  "id": "martha-graham-and-bertram-ross",
+  "src": "assets/img/art/martha-graham-and-bertram-ross.webp",
+  "w": 602,
+  "h": 926,
+  "page": "https://commons.wikimedia.org/wiki/File:Martha_Graham_and_Bertram_Ross.jpg",
+  "artist": "Carl Van Vechten",
+  "date": "27 June 1961",
+  "license": "Public domain",
+  "credit": "https://www.loc.gov/pictures/collection/van/item/2004662957/"
+ },
  "File:Maurice Ravel 1925.jpg": {
   "id": "maurice-ravel-1925",
   "src": "assets/img/art/maurice-ravel-1925.webp",
@@ -1516,6 +1692,17 @@
   "date": "1986-11-27",
   "license": "CC0",
   "credit": "Nationaal Archief"
+ },
+ "File:Opdracht GPD componist John Cage , kop, Bestanddeelnr 934-2728.jpg": {
+  "id": "opdracht-gpd-componist-john-cage-kop-bestanddeelnr-934-2728",
+  "src": "assets/img/art/opdracht-gpd-componist-john-cage-kop-bestanddeelnr-934-2728.webp",
+  "w": 1280,
+  "h": 850,
+  "page": "https://commons.wikimedia.org/wiki/File:Opdracht_GPD_componist_John_Cage_,_kop,_Bestanddeelnr_934-2728.jpg",
+  "artist": "Rob Bogaerts for Anefo",
+  "date": "1988-06-23",
+  "license": "CC0",
+  "credit": "http://proxy.handle.net/10648/ad6b69c0-d0b4-102d-bcf8-003048976d84"
  },
  "File:Othello et Desdémone à Venise - Théodore Chassériau - Musée du Louvre Peintures RF 3897.jpg": {
   "id": "othello-et-desdemone-a-venise-theodore-chasseriau-musee-du-louvre-peintures-rf-3",
@@ -1693,6 +1880,17 @@
   "license": "Public domain",
   "credit": "Own work"
  },
+ "File:Prudent-Louis Leray - Poster for the première of Georges Bizet's Carmen - Original.jpg": {
+  "id": "prudent-louis-leray-poster-for-the-premiere-of-georges-bizet-s-carmen-original",
+  "src": "assets/img/art/prudent-louis-leray-poster-for-the-premiere-of-georges-bizet-s-carmen-original.webp",
+  "w": 1280,
+  "h": 1722,
+  "page": "https://commons.wikimedia.org/wiki/File:Prudent-Louis_Leray_-_Poster_for_the_premi%C3%A8re_of_Georges_Bizet%27s_Carmen_-_Original.jpg",
+  "artist": "Prudent-Louis Leray (1820-1879)",
+  "date": "1875",
+  "license": "Public domain",
+  "credit": "Gallica"
+ },
  "File:Rachmaninoff at Ivanovka.jpg": {
   "id": "rachmaninoff-at-ivanovka",
   "src": "assets/img/art/rachmaninoff-at-ivanovka.webp",
@@ -1858,6 +2056,17 @@
   "license": "Public domain",
   "credit": "from State Russian Museum, St. Petersburg at http://www.roerich.org/images/paintings/701809_043.jpg"
  },
+ "File:Russell Lee, Linotype operators of the Chicago Defender, 1941.jpg": {
+  "id": "russell-lee-linotype-operators-of-the-chicago-defender-1941",
+  "src": "assets/img/art/russell-lee-linotype-operators-of-the-chicago-defender-1941.webp",
+  "w": 1280,
+  "h": 938,
+  "page": "https://commons.wikimedia.org/wiki/File:Russell_Lee,_Linotype_operators_of_the_Chicago_Defender,_1941.jpg",
+  "artist": "Russell Lee",
+  "date": "1941-04",
+  "license": "Public domain",
+  "credit": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID ppmsca.01614 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing ."
+ },
  "File:Schwind Begraebnis.jpg": {
   "id": "schwind-begraebnis",
   "src": "assets/img/art/schwind-begraebnis.webp",
@@ -1890,6 +2099,17 @@
   "date": "1897",
   "license": "Public domain",
   "credit": "https://segantini-museum.ch/en/picture-gallery/"
+ },
+ "File:Self-portrait by George Gershwin, 1934, oil on canvas board, from the National Portrait Gallery - NPG-6600086A 3.jpg": {
+  "id": "self-portrait-by-george-gershwin-1934-oil-on-canvas-board-from-the-national-port",
+  "src": "assets/img/art/self-portrait-by-george-gershwin-1934-oil-on-canvas-board-from-the-national-port.webp",
+  "w": 1280,
+  "h": 970,
+  "page": "https://commons.wikimedia.org/wiki/File:Self-portrait_by_George_Gershwin,_1934,_oil_on_canvas_board,_from_the_National_Portrait_Gallery_-_NPG-6600086A_3.jpg",
+  "artist": "George Gershwin",
+  "date": "1934",
+  "license": "Public domain",
+  "credit": "National Portrait Gallery"
  },
  "File:Sergei Rachmaninoff LOC 30160 cropped.jpg": {
   "id": "sergei-rachmaninoff-loc-30160-cropped",
@@ -2077,6 +2297,17 @@
   "date": "1723 date QS:P571,+1723-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "http://www.deutschefotothek.de/documents/obj/33063445"
+ },
+ "File:Title page of Henry D. Thoreau, Walden; or life in the woods, 1854, showing Thoreau's hut at Walden Pond, Massachusetts LCCN96517797.jpg": {
+  "id": "title-page-of-henry-d-thoreau-walden-or-life-in-the-woods-1854-showing-thoreau-s",
+  "src": "assets/img/art/title-page-of-henry-d-thoreau-walden-or-life-in-the-woods-1854-showing-thoreau-s.webp",
+  "w": 738,
+  "h": 1536,
+  "page": "https://commons.wikimedia.org/wiki/File:Title_page_of_Henry_D._Thoreau,_Walden;_or_life_in_the_woods,_1854,_showing_Thoreau%27s_hut_at_Walden_Pond,_Massachusetts_LCCN96517797.jpg",
+  "artist": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+  "date": "1854",
+  "license": "Public domain",
+  "credit": "Library of Congress Catalog: https://lccn.loc.gov/96517797 Image download: https://cdn.loc.gov/service/pnp/cph/3b30000/3b36000/3b36900/3b36909r.jpg Original url: https://www.loc.gov/pictures/item/96517797/"
  },
  "File:Title page of Rameau’s New System of Musical Theory.jpg": {
   "id": "title-page-of-rameau-s-new-system-of-musical-theory",

@@ -1,7 +1,3 @@
-// Source files and recording credit: see content/dossiers/mussorgsky-pictures-promenade-1.json.
-// Orchestration is not named by any source; the version is treated as Ravel's 1922 scoring (inferred). Instrument names in the notes follow that scoring conditionally, as the introduction says.
-// Score for structure and harmony: Pavel Lamm's text of the piano original, Mutopia Project,
-// https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/promenade-1.ly
 export default {
   id: 'mussorgsky-pictures-promenade-1',
   composer: 'mussorgsky',
@@ -15,49 +11,46 @@ export default {
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - promenade - allegro giusto, nel modo russico senza allegrezza, ma.ogg' },
-  intro: 'Mussorgsky’s walking theme opens the suite and comes back between pictures. No source names the orchestration; this performance has Ravel’s layout of Promenades, so the notes follow his 1922 scoring.',
-  question: 'How can a tune in unequal bars suggest someone walking through a gallery?',
+  intro: 'A trumpet steps into the gallery alone, and the brass answer. Mussorgsky’s Promenade walks in unequal bars — five beats, then six — as he moves between Hartmann’s pictures.',
 
   sections: [
-    { t: 0, label: 'Theme alone, then in chords', m: 'A' },
-    { t: 28, label: 'Darker, slower chords', m: 'B' },
-    { t: 44, label: 'Fuller statements to the close', m: 'C' },
+    { t: 0, label: 'A · Trumpet alone, brass answering', m: 'A', mNote: 'The tune alternates five-beat and six-beat bars' },
+    { t: 28, label: 'B · Low G♭ beneath the tune', m: 'B', mNote: 'A held E♭ sounds inside the changing chords' },
+    { t: 44, label: 'C · Full chords carry the walk', m: 'C', mNote: 'The bass keeps stepping towards the B♭ close' },
   ],
 
   cues: [
-    { t: 0, kind: 'music', title: 'The theme alone, then in chords', text: 'In Ravel’s scoring a solo trumpet states the theme alone, its bars alternating five beats and six. Around 0:08 the melody returns in chords with a brass chorale, and the level jumps by about ten decibels as the strings answer more softly.', basis: 'documented', precision: 'passage', evidence: 'Trumpet solo, brass chorale and softer string reply: Philharmonia listening guide (Joanna Wyld) and LA Phil note (Orrin Howard). The 5/4 and 6/4 bars are in the score. Relative level rises from −15.0 dB at 0:05 to −4.5 dB at 0:10, the loudest window of the first twenty seconds; the report does not identify instruments and estimates 89 bpm, consistent with a crotchet pulse.' },
-    { t: 28, kind: 'form', title: 'Slower, darker chords', text: 'At about 0:28 the sound thins and the harmony darkens towards A♭ and G♭; by 0:40 almost no new attacks are detected. In the piano score an inner note is held while chords and a moving low bass change around it.', basis: 'score-proportion', precision: 'passage', evidence: 'Strongest structural boundary at 0:28 (novelty 1.00). Onsets per second fall from 3.2 (0:25) to 0.0 (0:40); bass pitch class A♭ at 0:30 and F♯ (G♭) at 0:35. The held inner note and moving low bass are in Lamm’s piano score (promenade-1.ly); no bar alignment is claimed.' },
-    { t: 56, kind: 'life', title: 'Hartmann is boiling', text: 'Around 12 June 1874, writing to Vladimir Stasov, Mussorgsky reported that “Hartmann is boiling as Boris boiled”. He finished the whole suite in three weeks, between 2 and 22 June, within a year of Viktor Hartmann’s death.', basis: 'documented', precision: 'passage', evidence: 'Letter to Stasov, probably 12 June 1874, quoted in Wikipedia’s Pictures at an Exhibition article (composition history); LA Phil and Boston Symphony notes give the composition dates and Hartmann’s death. The note sits over a quiet passage (−22.6 dB at 0:55).' },
-    { t: 72, kind: 'listen', title: 'Broad chords hold the level', text: 'From about 1:10 the sound stays within a few decibels of its maximum, with few new attacks per second. Chords carry the tune above a walking bass, the broadest statement in the movement.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level is −9.3 to −6.4 dB across 1:10–1:35 at 0.4 to 1.6 onsets per second; the loudest windows are 1:15, 1:25, 1:30 and 1:35.' },
-    { t: 94, kind: 'world', title: 'Stasov’s picture of the walker', text: 'Vladimir Stasov described the opening as Mussorgsky “roving through the exhibition, now leisurely, now briskly”, sometimes thinking sadly of his dead friend. The score marks the last chord attacca, running straight into Gnomus.', basis: 'documented', precision: 'passage', evidence: 'Stasov’s programme quoted in Michael Steinberg’s Boston Symphony note (https://www.bso.org/works/pictures-at-an-exhibition); attacca mark in Lamm’s score (Mutopia). The level falls to −33 dB at 1:40.' },
+    { t: 0, kind: 'music', title: 'One trumpet, then brass', text: 'The trumpet begins on G, then falls to F before rising to B♭. Five beats fill the first bar, six the next. The brass answer in chords: the same tune suddenly has a whole company walking with it.', basis: 'score-proportion', precision: 'passage', evidence: 'Lamm’s piano edition, bars 1–4; Ravel’s trumpet and brass scoring: Joanna Wyld, Philharmonia listening guide, 7 April 2022, p. 7: https://philharmonia-assets.s3.amazonaws.com/uploads/2022/04/07.04.22_RFH-online.pdf. Ravel attribution for this recording remains inferred.' },
+    { t: 56, kind: 'world', title: 'A gallery for Hartmann', text: 'Saint Petersburg, 1874. Vladimir Stasov gathers Hartmann’s drawings, paintings and architectural designs for a memorial exhibition. Mussorgsky turns his visit into a piano suite that June. The Promenade is his own figure moving through the rooms.', basis: 'documented', precision: 'passage', evidence: 'Michael Steinberg, Boston Symphony programme note: the memorial exhibition, June composition and Stasov’s description of Mussorgsky walking between the pictures: https://www.bso.org/works/pictures-at-an-exhibition' },
+    { t: 94, kind: 'form', title: 'The first picture waits', text: 'The walking bass brings the Promenade home to B♭ major. Its last chord leads straight into <i>Gnomus</i>, the first picture: a wooden nutcracker that springs into alarming life.', basis: 'score-proportion', precision: 'passage', evidence: 'Lamm’s piano edition, last three bars and attacca: https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/promenade-1.ly. The nutcracker is described by Stasov, quoted in Steinberg’s Boston Symphony note.' },
   ],
 
   transitions: [
     {
       id: 'into-darker-chords',
-      title: 'Lower parts enter; the harmony darkens',
-      from: 'Theme alone, then in chords',
-      to: 'Darker, slower chords',
+      title: 'The bass reaches down to G♭',
+      from: 'A · Trumpet alone, brass answering',
+      to: 'B · Low G♭ beneath the tune',
       at: { t: 28 },
       span: [20, 38],
-      how: '<p>The statements so far end in the F and A♭ regions. At about 0:28 the lower parts re-enter and the harmony darkens towards A♭ and G♭; chords change slowly while an inner note is held and the bass moves. Activity drops sharply. The melody keeps its rising shape and its unequal bars, so the new texture is the same walk taken more slowly, not a new subject.</p>',
-      devices: ['texture change', 'register change', 'motivic link'],
-      basis: 'audio-feature',
+      how: '<p>The tune reaches A♭, then a low G♭ sounds beneath it. E♭ hangs inside the chords while the bass steps down to F and back. The melody keeps its familiar rising shape, now with these darker notes underneath.</p>',
+      devices: ['register change', 'motivic link'],
+      basis: 'score-proportion',
       precision: 'passage',
-      evidence: 'The strongest boundary in the report is 0:28 (novelty 1.00); onsets per second fall from 3.2 at 0:25 to 1.2 at 0:30 and 0.0 at 0:40, and the bass pitch class moves to A♭ (0:30) and F♯/G♭ (0:35). The held inner note, moving bass and chord layout are from Lamm’s piano score; the match to the orchestral version is by proportion only.',
+      evidence: 'Lamm’s piano edition, bars 8–11: A♭ melody, low G♭–F–G♭ and held inner E♭; Mutopia transcription.',
     },
     {
       id: 'into-fuller-statements',
-      title: 'The chords lift and F major returns',
-      from: 'Darker, slower chords',
-      to: 'Fuller statements',
+      title: 'The bass opens towards F major',
+      from: 'B · Low G♭ beneath the tune',
+      to: 'C · Full chords carry the walk',
       at: { t: 44 },
       span: [38, 54],
-      how: '<p>The slow chords give way to a bass that steps down and up again, and the music arrives in F major, the dominant of B♭, with a jump in loudness. From here the tune is carried by full chords. The harmonic route is a retransition by bass motion, not a modulation: the closing bars return to B♭ major.</p>',
-      devices: ['retransition', 'crescendo build', 'orchestration change'],
-      basis: 'audio-feature',
+      how: '<p>The bass shifts from G♭ to B♭, then descends through A and G to F. F major chords spread above it. The short phrases lengthen into a continuous walk, with a bass note for almost every beat.</p>',
+      devices: ['sequence', 'texture change'],
+      basis: 'score-proportion',
       precision: 'passage',
-      evidence: 'Boundary at 0:44 (novelty 0.90); relative level rises from −19.4 dB (0:40) to −8.9 dB (0:45); local key reads F major from 0:45 (r 0.67–0.93) and B♭ major at 1:40 (r 0.92). Key labels are confirmation only; the bass motion is from the score’s second half.',
+      evidence: 'Lamm’s piano edition, bars 11–17: transposed phrase over B♭, A–G–F bass descent and ensuing chordal writing; Mutopia transcription.',
     },
   ],
 };

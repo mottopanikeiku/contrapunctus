@@ -9,7 +9,7 @@ export default {
   key: '',
   forces: 'Tenor, harp and lute',
   performers: 'Lambert Murphy, tenor; Stefano Di Stefano, harp; William Carlino, lute',
-  recorded: '17 March 1915; New York',
+  recorded: '17 March 1915, New York',
   source: {
     archive: { item: 'loc-jukebox-12087-douce-dame-jolie', file: 'jukebox-12087_douce-dame-jolie.mp3' },
     rights: {
@@ -18,16 +18,15 @@ export default {
       evidence: 'John R. Bolig, The Victor Discography: Green, Blue, and Purple Labels, entry 45083, gives release in May 1916, distinct from the 17 March 1915 session. The label identifies 45083-B; LOC and DAHR identify matrix B-15595, take 4. The Archive mirror’s 1915 first-publication assertion is not followed. https://adp-assets.library.ucsb.edu/BoligGreenBluePurple.pdf ; https://adp.library.ucsb.edu/index.php/matrix/refer/700000578 ; https://www.loc.gov/item/jukebox-12087/?fo=json',
     },
   },
-  intro: 'This complete acoustic record side pairs Machaut with Janequin in arrangements from Weckerlin’s collection. Murphy’s tenor, harp and lute document an early twentieth-century presentation of old French song, not an unaltered medieval performance.',
-  question: 'What changes when a medieval solo song is heard through a later accompanied arrangement?',
+  intro: 'In New York in 1915, Lambert Murphy sings two old French songs with harp and lute: Machaut’s <i>Douce dame jolie</i> and Janequin’s <i>L’espoir que j’ai</i>. Weckerlin’s arrangements fit both onto one side of a Victor record.',
 
   sections: [
-    { t: 0, label: 'Paired songs · complete published side', m: 'A', mNote: 'two arrangements retained together; their internal boundary is not aligned' },
+    { t: 0, label: 'A · Two French songs, harp and lute', m: 'A', mNote: 'Machaut followed by Janequin, in Weckerlin’s arrangements' },
   ],
   cues: [
-    { t: 0, kind: 'form', title: 'Two songs, one side', text: 'This side contains Machaut’s <i>Douce dame jolie</i> and Janequin’s <i>L’espoir que j’ai</i>, in that order. Both pass through Weckerlin’s arrangements; the record is not a complete performance of Machaut’s original virelai.', basis: 'documented', precision: 'passage', evidence: 'Victor label 45083-B numbers both songs and names Weckerlin’s Échos du temps passé. DAHR identifies the paired master B-15595. The analysis measures the whole side at 98.8 s but does not identify the switch between songs; no internal cut point is assigned.' },
-    { t: 34, kind: 'world', title: 'A name behind a pseudonym', text: 'Victor also lists Lambert Murphy under the name Raymond Dixon. These are not two tenors sharing the side: DAHR identifies Dixon as Murphy’s pseudonym and credits the issued take to a single male soloist.', basis: 'documented', precision: 'passage', evidence: 'DAHR B-15595 personnel explicitly says “Pseudonym for Lambert Murphy”; its description is male vocal solo with harp and lute. https://adp.library.ucsb.edu/index.php/matrix/refer/700000578' },
-    { t: 68, kind: 'listen', title: 'Voice and plucked strings', text: 'Across the side, compare the tenor’s sustained line with the shorter decay of the harp and lute. These accompaniments belong to this documented historical arrangement; they are not evidence for the instruments Machaut originally expected.', basis: 'general', precision: 'passage', evidence: 'The label specifies tenor with harp and lute; DAHR names Stefano Di Stefano for takes 3–4 and William Carlino. The report shows recorded sound continuing through this passage but cannot separate its instruments. No entrance, song boundary or original medieval instrumentation is inferred.' },
+    { t: 0, kind: 'form', title: 'Two songs on one disc', text: 'Machaut’s <i>Douce dame jolie</i> opens the pair; Janequin’s <i>L’espoir que j’ai</i> follows. Murphy sings arrangements from Jean-Baptiste Weckerlin’s <i>Échos du temps passé</i>, accompanied by Stefano Di Stefano on harp and William Carlino on lute.', basis: 'documented', precision: 'passage', evidence: 'Victor 45083-B, matrix B-15595, take 4: label order, arrangements and personnel are documented by the Discography of American Historical Recordings. https://adp.library.ucsb.edu/index.php/matrix/refer/700000578' },
+    { t: 34, kind: 'world', title: 'Murphy becomes Raymond Dixon', text: 'The name on Victor’s label is Raymond Dixon. Behind it is Lambert Murphy, the tenor in this New York session of 17 March 1915. The issued performance is take four.', basis: 'documented', precision: 'passage', evidence: 'The Discography of American Historical Recordings identifies Raymond Dixon as Lambert Murphy’s pseudonym and lists the date, city and issued take. https://adp.library.ucsb.edu/index.php/matrix/refer/700000578' },
+    { t: 68, kind: 'music', title: 'Tenor, harp and lute', text: 'A tenor can hold a vowel while the sound of a plucked string fades. Harp and lute put that contrast beneath Murphy’s French: a sustained singing line above instruments whose notes begin with a pluck.', basis: 'general', precision: 'passage', evidence: 'The Victor label and recording ledger specify tenor, harp and lute. This describes the instruments’ means of producing sound across the paired arrangements. https://adp.library.ucsb.edu/index.php/matrix/refer/700000578' },
   ],
   transitions: [],
 };

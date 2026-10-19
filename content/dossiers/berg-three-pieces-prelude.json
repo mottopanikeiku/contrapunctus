@@ -1,0 +1,169 @@
+{
+  "id": "berg-three-pieces-prelude",
+  "work": {
+    "title": "Three Pieces for Orchestra",
+    "catalogue": "Op. 6",
+    "movement": "I. Präludium",
+    "version": {
+      "value": "1929 revised orchestral version",
+      "status": "inferred",
+      "sourceIds": ["archive", "score", "work-catalogue"],
+      "note": "The track and original label identify the complete first piece. The notes use the revised full score; the LP labels do not identify Craft's edition or orchestral parts. Passage landmarks are provisional, established from the score and the transfer, without aural review."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Columbia Symphony Orchestra", "role": "orchestra" },
+      { "name": "Robert Craft", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["label-scan", "audio-review"],
+    "note": "Both the original labels and the contemporary review name the orchestra and conductor. Individual orchestral players are not identified."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "label-scan"],
+      "note": "The sources establish a historical commercial issue but do not state this track's session date. The item's date 1960 is not promoted to a recording-session date.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "label-scan"],
+      "note": "The transfer metadata and original labels do not name the recording venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks",
+      "status": "documented",
+      "sourceIds": ["label-scan"],
+      "note": "Original stereo LP imprint."
+    },
+    "catalogue": {
+      "value": "MS 6216",
+      "status": "documented",
+      "sourceIds": ["label-scan", "archive", "audio-review"],
+      "note": "Internet Archive dates this US stereo LP to 1960. Audio magazine reviewed MS 6216 in August 1961 and separately identified mono ML 5616. The rights assessment uses the conservative publication bound of 1961."
+    },
+    "matrixTakeSides": {
+      "value": "Side 1, band 1; label matrix XSM 51682",
+      "status": "documented",
+      "sourceIds": ["label-scan", "archive-files"],
+      "note": "The matrix is printed on the label. No session take or stamper suffix is asserted."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP transfer",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The transfer institution is identified; no personal mastering credit is inferred from an operator account."
+    },
+    "date": {
+      "value": "2021-07-30",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The ripping_date field is 20210730073437. The separate scan date is 9 July 2021."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 with Audio-Technica AT95e cartridge → Radio Design Labs EZ-PH1 → Focusrite Scarlett 2i2; segmented VBR MP3 derivative",
+      "status": "documented",
+      "sourceIds": ["archive", "archive-files"],
+      "note": "The item documents the playback chain and derives tracks from a 24-bit FLAC side transfer. Equalisation settings, noise reduction and pitch correction are not established."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/disc1/01.01.%20Three%20Pieces%20For%20Orchestra%2C%20Op.6%3A%20Praeludium.mp3",
+    "sourceChain": ["label-scan", "archive", "archive-files"],
+    "format": "VBR MP3 derivative of a stereo vinyl LP transfer",
+    "durationSeconds": 241.44
+  },
+  "rights": {
+    "composition": {
+      "value": "Underlying Berg composition is out of copyright under ordinary life-plus-70 terms.",
+      "status": "inferred",
+      "sourceIds": ["programme-note", "work-catalogue", "score"],
+      "note": "Berg died in 1935. This assessment concerns the composition in life-plus-70 territories; it is not worldwide clearance for every edition or jurisdiction. The score consulted is a later printing of the revised orchestration."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis: commercial publication no later than 1961, before 1963.",
+      "status": "documented",
+      "sourceIds": ["audio-review", "archive", "label-scan", "eu-term"],
+      "note": "Audio's August 1961 review establishes commercial availability of the exact LP. The Archive's 1960 date may identify an earlier issue; the conservative 1961 bound is sufficient for the project's former 50-year phonogram-term rule. This is not a Creative Commons licence; US recording status is not established."
+    },
+    "creditLine": "Alban Berg, Three Pieces for Orchestra, Op. 6: I. Präludium; Columbia Symphony Orchestra, Robert Craft. Columbia Masterworks MS 6216, commercially available by 1961; Internet Archive LP transfer. Territorial EU public-domain phonogram basis; US recording status not established.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Columbia MS 6216 transfer metadata",
+      "url": "https://archive.org/metadata/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/metadata",
+      "locator": "Date 1960; publisher Columbia Masterworks; catalogue MS 6216; United States; artists; equipment lineage; ripping_date 20210730073437.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "archive-files",
+      "title": "Internet Archive — Präludium access derivative",
+      "url": "https://archive.org/metadata/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/files",
+      "locator": "disc1/01.01. Three Pieces For Orchestra, Op.6: Praeludium.mp3, 241.44 seconds; VBR MP3; 24-bit FLAC side transfer also listed.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "label-scan",
+      "title": "Columbia Masterworks MS 6216 — original stereo labels",
+      "url": "https://archive.org/download/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a.pdf",
+      "locator": "PDF pp. 1 and 3, side 1: Robert Craft conducting the Columbia Symphony Orchestra; Berg's three movements; MS 6216 and label matrix XSM 51682. Labels inspected visually.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "audio-review",
+      "title": "Audio, August 1961 — review of Columbia MS 6216",
+      "url": "https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/60s/Audio-1961-Aug.pdf",
+      "locator": "PDF p. 71: Berg Three Pieces, Schoenberg Begleitungsmusik and Webern Six Pieces; Columbia Symphony, Robert Craft; MS 6216 stereo, ML 5616 mono. Establishes publication by August 1961.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "score",
+      "title": "Berg — Three Pieces for Orchestra, revised full score",
+      "url": "https://imslp.eu/files/imglnks/euimg/1/1e/IMSLP21305-PMLP49158-Berg-OrchesterstuckeOp06fs.pdf",
+      "locator": "Universal Edition, UE 12194 / W.Ph.V. 432; first music page states second version, composed 1929, copyright 1954. Präludium pp. 1, 5–6 and 12–17 inspected visually for the opening, central development and return.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "work-catalogue",
+      "title": "IMSLP — Three Pieces for Orchestra, Op. 6",
+      "url": "https://imslp.org/wiki/3_Orchesterst%C3%BCcke%2C_Op.6_%28Berg%2C_Alban%29",
+      "locator": "1914–15 composition, revised version, movement titles and orchestral forces.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "programme-note",
+      "title": "Mark DeVoto — Boston Symphony note on Berg's Three Pieces",
+      "url": "https://www.bso.org/works/berg-three-pieces-for-orchestra",
+      "locator": "Berg's death year, the Prelude's arch form, emergence of pitches and final tam-tam stroke. No exact performance date is used from the page's differing première chronology.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "devoto",
+      "title": "Mark DeVoto — Form and thematic structure of Berg's Three Pieces",
+      "url": "https://sites.tufts.edu/markdevoto/files/2015/10/DreiOrch-English.pdf",
+      "locator": "PDF pp. 3–6: percussion opening, transformations from bar 16, climax at bar 36 and the return from bar 42 to the last tam-tam stroke.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — phonogram term and transition",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077",
+      "locator": "Recitals 1–3 and Article 1(2)–(3): former 50-year phonogram term and extension for recordings still protected on 1 November 2013.",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

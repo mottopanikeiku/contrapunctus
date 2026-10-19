@@ -1,0 +1,95 @@
+{
+  "composer": "cage",
+  "items": [
+    {
+      "work": "Sonatas and Interludes",
+      "year": "1946–48",
+      "performers": "Philipp Vandré, prepared piano",
+      "recorded": "1994, Frankfurt",
+      "label": "Mode 50",
+      "note": "Forty-five prepared notes turn the piano into a roomful of small percussion sounds. Vandré plays a Steinway O; the label’s account explains how the instrument’s string lengths affect the preparations. Sixteen sonatas and four interludes make the most welcoming introduction to Cage’s keyboard music.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://moderecords.com/catalog/050cage/",
+          "title": "Mode Records — Sonatas and Interludes"
+        }
+      ]
+    },
+    {
+      "work": "Music of Changes",
+      "year": "1951",
+      "performers": "Martine Joste, piano",
+      "recorded": "",
+      "label": "Mode 147",
+      "note": "Cage’s chance operations produce four books of precisely written piano music: sharp attacks, silences and sounds made inside the instrument. Joste’s recording places them between Seven Haiku and the Suite for Toy Piano, with the small pieces making the large work’s demands particularly clear.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://moderecords.com/catalog/147cage/",
+          "title": "Mode Records — Music of Changes"
+        }
+      ]
+    },
+    {
+      "work": "Third Construction",
+      "year": "1941",
+      "performers": "Third Coast Percussion",
+      "recorded": "June 2011, Boutell Memorial Concert Hall, Northern Illinois University, DeKalb",
+      "label": "Mode 243",
+      "note": "Four percussionists fit different phrase patterns inside the same twenty-four-bar spans. Tin cans, rattles, drums and conch shell take their turns. Third Coast’s recording couples the piece with the other two Constructions; the filmed edition makes the exchanges between players visible.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://moderecords.com/catalog/243_cagecd/",
+          "title": "Mode Records — The Works for Percussion 2"
+        }
+      ]
+    },
+    {
+      "work": "Five · Seven · Thirteen",
+      "year": "1988–92",
+      "performers": "Essential Music; John Kennedy and Charles Wood, directors",
+      "recorded": "1993–94",
+      "label": "Mode 239",
+      "note": "Essential Music plays Five by blowing into bottles, an instrumental choice Cage approved. Seven and Thirteen expand the group. These late works allow players to place their sounds within specified time-brackets, so sustained notes overlap without a conductor fixing every meeting.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://moderecords.com/catalog/239_cage/",
+          "title": "Mode Records — The Number Pieces 6"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mode 50 — performer, Steinway O preparations and reproduced review identifying the 1994 Frankfurt sessions; checked 18 October 2026",
+      "url": "https://moderecords.com/catalog/050cage/"
+    },
+    {
+      "title": "John Cage Trust — Sonatas and Interludes: dates, dedication, sixteen sonatas, four interludes and forty-five prepared notes",
+      "url": "https://data-johncage.org/pp/John-Cage-Work-Detail.cfm?work_ID=188"
+    },
+    {
+      "title": "Mode 147 — Martine Joste, complete track list and description; session date not established; checked 18 October 2026",
+      "url": "https://moderecords.com/catalog/147cage/"
+    },
+    {
+      "title": "John Cage Trust — Music of Changes: chance composition and fixed performing instructions",
+      "url": "https://data-johncage.org/pp/John-Cage-Work-Detail.cfm?work_ID=134"
+    },
+    {
+      "title": "Mode 243 — Third Coast Percussion, June 2011 DeKalb sessions, track list and filmed edition; checked 18 October 2026",
+      "url": "https://moderecords.com/catalog/243_cagecd/"
+    },
+    {
+      "title": "John Cage Trust — Third Construction: 1941, phrase proportions and instruments",
+      "url": "https://data-johncage.org/pp/John-Cage-Work-Detail.cfm?work_ID=204"
+    },
+    {
+      "title": "Mode 239 — Essential Music, 1993–94 recordings, Number Pieces and Cage-approved bottles in Five; checked 18 October 2026",
+      "url": "https://moderecords.com/catalog/239_cage/"
+    }
+  ]
+}

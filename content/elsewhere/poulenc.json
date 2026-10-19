@@ -1,0 +1,121 @@
+{
+  "composer": "poulenc",
+  "items": [
+    {
+      "work": "Gloria, FP 177",
+      "year": "1959–60",
+      "performers": "Susan Gritton, soprano; Polyphony; The Choir of Trinity College, Cambridge; Britten Sinfonia; Stephen Layton, conductor",
+      "recorded": "April 2007, All Hallows, Gospel Oak, London",
+      "label": "Hyperion",
+      "note": "Poulenc had Benedictine monks playing football in mind for the Gloria’s second movement. Layton’s choirs give the rhythms bite and precision, with Susan Gritton’s soprano soaring above them.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67623",
+          "title": "Hyperion Records catalogue, CDA67623, Polyphony and Stephen Layton"
+        },
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/25VdfIVsvujHyYlWKunist",
+          "title": "Hyperion recording, Spotify"
+        },
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/us/album/poulenc-gloria-motets/1697938573",
+          "title": "Hyperion recording, Apple Music"
+        }
+      ]
+    },
+    {
+      "work": "Dialogues des Carmélites, FP 159",
+      "year": "1953–56",
+      "performers": "Catherine Dubosc (Blanche), Rita Gorr (the old Prioress), Rachel Yakar (the new Prioress), Martine Dupuy (Mère Marie), Brigitte Fournier (Constance), José van Dam (the Marquis de la Force), Jean-Luc Viala (the Chevalier de la Force), Michel Sénéchal (the Chaplain); Chorus and Orchestra of the Opéra National de Lyon; Kent Nagano, conductor",
+      "recorded": "21–30 June 1990, Auditorium Maurice Ravel, Lyon",
+      "label": "Virgin Classics (now Erato / Warner Classics)",
+      "note": "Blanche, a frightened young aristocrat, joins a Carmelite convent during the French Revolution; in the last scene the sisters sing the Salve Regina and the guillotine takes them one by one. Nagano’s Lyon recording won the 1993 Gramophone opera award, and Rita Gorr, who sang Mère Marie in Dervaux’s Paris recording, is here the dying old Prioress.",
+      "links": [
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/us/album/poulenc-dialogues-des-carmelites/725990254",
+          "title": "Warner Classics / Erato recording, Apple Music"
+        },
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/0bckwJjJdonNsxaXtg6MfL",
+          "title": "Warner Classics / Erato recording, Spotify"
+        }
+      ]
+    },
+    {
+      "work": "Sextet for piano, flute, oboe, clarinet, bassoon and horn, FP 100",
+      "year": "1932–39",
+      "performers": "Philippa Davies, flute; Gareth Hulse, oboe; Richard Hosford, clarinet; Ursula Leveaux, bassoon; Richard Watkins, horn; Ian Brown, piano (The Nash Ensemble)",
+      "recorded": "January 1999, Henry Wood Hall, London",
+      "label": "Hyperion",
+      "note": "A theme first heard on the winds returns in all three movements of this sextet for piano and five wind instruments. Ian Brown and the Nash players bring both dash and warmth to Poulenc’s melodies.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W5404_67255",
+          "title": "Hyperion Records catalogue, Sextet track, The Nash Ensemble"
+        },
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/1wuDEkqo7hR06VieUrIGeB",
+          "title": "Hyperion recording, Complete Chamber Music, Spotify"
+        },
+        {
+          "kind": "apple",
+          "url": "https://music.apple.com/us/album/poulenc-complete-chamber-music/1698145732",
+          "title": "Hyperion recording, Complete Chamber Music, Apple Music"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hyperion Records — Poulenc: Gloria & Motets, CDA67623: credits, April 2007 session at All Hallows, Gospel Oak, awards, reviews and Meurig Bowen’s booklet essay",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67623"
+    },
+    {
+      "title": "Boston Symphony Orchestra — Gloria: 1959–60, Koussevitzky Foundation commission, Poulenc on the second movement, January 1961 première",
+      "url": "https://www.bso.org/works/poulenc-gloria"
+    },
+    {
+      "title": "Presto Music (Internet Archive snapshot, 3 January 2026) — Erato 3586572, Nagano’s Dialogues des Carmélites: cast, 21–30 June 1990 Lyon sessions, 1993 Gramophone Award",
+      "url": "https://web.archive.org/web/20260103084043/https://www.prestomusic.com/classical/products/7946400--poulenc-dialogues-des-carmelites"
+    },
+    {
+      "title": "Warner Classics — Dialogues des Carmélites, Dervaux: Rita Gorr as Mère Marie in the Paris Opéra recording",
+      "url": "https://www.warnerclassics.com/release/poulenc-dialogues-des-carmelites-1"
+    },
+    {
+      "title": "Warner Classics — Dialogues des Carmélites, Rhorer: Blanche’s story and the Salve Regina scene",
+      "url": "https://www.warnerclassics.com/release/poulenc-dialogues-des-carmelites"
+    },
+    {
+      "title": "MusicWeb International — review of a rival Dialogues recording, calling Nagano’s Lyon set a long-standing reference",
+      "url": "http://www.musicweb-international.com/classrev/2012/May12/Poulenc_Carmelites_OC931.htm"
+    },
+    {
+      "title": "Association des Amis de Francis Poulenc — chronological biography: Dialogues 1953–56, La Scala and Paris premières, Sextet 1933 and 1939, Gloria première",
+      "url": "https://poulenc.fr/en/biography/"
+    },
+    {
+      "title": "Association des Amis de Francis Poulenc — chronological catalogue of works, FP numbers",
+      "url": "https://poulenc.fr/wp-content/uploads/2020/02/catalogue_chrono_poulenc_compressed.pdf"
+    },
+    {
+      "title": "Hyperion Records — Poulenc: The Complete Chamber Music, CDA67255/6: January 1999 sessions at Henry Wood Hall, awards, reviews and Felix Aprahamian’s booklet essay",
+      "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67255%2F6"
+    },
+    {
+      "title": "Hyperion Records — Sextet track page, CDA67255/6: dates 1932/9 and The Nash Ensemble credit",
+      "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W5404_67255"
+    },
+    {
+      "title": "Hyperion Records — detailed performer information, CDA67255/6: Nash Ensemble wind players and pianist",
+      "url": "https://www.hyperion-records.co.uk/service-getFullPersonnel.asp?id=D_CDA67255/6&type=C&lang=1"
+    }
+  ]
+}

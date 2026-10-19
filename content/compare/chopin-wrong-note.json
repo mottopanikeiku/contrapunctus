@@ -1,24 +1,28 @@
 {
   "id": "chopin-wrong-note",
-  "title": "Chopin on an Érard and a modern recording",
+  "title": "Wrong notes and a sudden song",
   "composer": "chopin",
   "group": "century",
   "work": "Étude in E minor, Op. 25 No. 5",
-  "question": "How do Goldstein’s 1851 Érard and Neeman’s modern recording shape the étude’s contrasting touches?",
-  "intro": "Martha Goldstein plays an Érard dated 1851, while Edward Neeman’s recording belongs to Musopen’s Set Chopin Free project. Goldstein’s session date is unknown: the instrument’s age does not date the performance. The planned Pachmann transfer is omitted because its source imposes a non-commercial licence.",
+  "question": "What changes when Chopin’s teasing semitone clashes open into a song?",
+  "intro": "Chopin’s tune keeps catching on the note next door. Goldstein and Neeman turn from its quick semitone clashes to a slower E-major song, low in the piano. When the opening returns, the clipped chords sound mischievous again.",
   "recordings": [
-    { "listen": "chopin-etude-op25-5", "label": "Neeman, c. 2014", "year": 2014, "note": "Follow the long central span and the space around the final gestures." },
-    { "listen": "chopin-etude-op25-5-goldstein", "label": "Goldstein, Érard of 1851", "year": null, "note": "Compare the decay between attacks on the documented Érard; the session date is unknown." }
+    { "listen": "chopin-etude-op25-5", "label": "Edward Neeman, c. 2014", "year": 2014, "note": "Neeman’s teacher Larry Sitsky wrote his First Piano Sonata for him; Neeman made its first recording." },
+    { "listen": "chopin-etude-op25-5-goldstein", "label": "Martha Goldstein", "year": null, "note": "Goldstein’s Érard was built in Paris in 1851 and restored with its original hammers and action." }
   ],
   "reference": "chopin-etude-op25-5",
   "passages": [
-    { "label": "Opening touch", "t": 12, "note": "The source identifies Goldstein’s instrument, not its microphone placement; do not attribute every tonal difference to the piano." },
-    { "label": "Central continuation", "t": 60, "note": "Follow the line between the wider-spaced gestures; the mapped times are provisional, not bar-aligned." },
-    { "label": "Later return", "t": 150, "note": "The reference report shows renewed activity after the quiet 2:20–2:25 span." }
+    { "label": "The note next door", "t": 12, "note": "Quick semitone clashes interrupt the tune; clipped chords and little hesitations keep the opening on its toes." },
+    { "label": "A song in E major", "t": 60, "note": "In E major, the left hand sings a broad melody while the right hand rolls upwards and downwards around it." },
+    { "label": "The teasing tune returns", "t": 150, "note": "The quick E-minor opening returns, with its short phrases and semitone nudges after the long central song." }
   ],
   "sources": [
     { "title": "Neeman — recording dedication by Musopen", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._5_in_E_minor_%27Wrong_Note%27_(Edward_Neeman).flac" },
     { "title": "Goldstein — Érard 1851; session undated", "url": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_Opus_25_-_Twelve_Grand_Etudes_-_e_minor.ogg" },
-    { "title": "Excluded Pachmann transfer — CC BY-NC-SA 3.0", "url": "https://archive.org/metadata/ChopinEtudeInEMajorOp.25No.5/metadata" }
+    { "title": "Excluded Pachmann transfer — CC BY-NC-SA 3.0", "url": "https://archive.org/metadata/ChopinEtudeInEMajorOp.25No.5/metadata" },
+    { "title": "Mieczysław Tomaszewski, Chopin Institute — the scherzando opening, cello-like middle melody and return", "url": "https://chopin.nifc.pl/en/chopin/kompozycja/191" },
+    { "title": "Op. 25 No. 5 — semitone dissonances, E-major middle section and return", "url": "https://en.wikipedia.org/wiki/%C3%89tude_Op._25%2C_No._5_%28Chopin%29" },
+    { "title": "Pandora Records — Goldstein’s 1851 Érard and the preservation of its original hammers and action", "url": "https://www.ibiblio.org/pandora/vorbis/historical_instruments/Chopin_etudes/Readme.html" },
+    { "title": "Australian National University — Neeman’s teachers and first recording of Sitsky’s Piano Sonata No. 1", "url": "https://music.cass.anu.edu.au/people/dr-edward-neeman" }
   ]
 }

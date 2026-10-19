@@ -1,0 +1,92 @@
+{
+  "composer": "boulez",
+  "items": [
+    {
+      "work": "Le Marteau sans maître",
+      "year": "1953–55",
+      "performers": "Hilary Summers, contralto; Ensemble intercontemporain; Pierre Boulez",
+      "recorded": "September 2002, Paris",
+      "label": "Deutsche Grammophon",
+      "note": "René Char’s poems are sung by a contralto, with alto flute, guitar and viola beside tuned percussion. Hilary Summers sings in the composer’s Grammy-winning recording with Ensemble intercontemporain.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.deutschegrammophon.com/en/catalogue/products/boulez-le-marteau-sans-matre-boulez-1178",
+          "title": "Deutsche Grammophon — Le Marteau sans maître / Boulez"
+        }
+      ]
+    },
+    {
+      "work": "Répons",
+      "year": "1981–84",
+      "performers": "Ensemble intercontemporain; Pierre Boulez",
+      "recorded": "September 1996, Paris",
+      "label": "Deutsche Grammophon",
+      "note": "Two pianos, harp, cimbalom and tuned percussion answer a chamber ensemble through live electronics. Boulez conducts Ensemble intercontemporain, the players who developed the piece with him.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.deutschegrammophon.com/en/catalogue/products/boulez-reponsdialogue-de-lombre-double-501",
+          "title": "Deutsche Grammophon — Répons / Boulez"
+        }
+      ]
+    },
+    {
+      "work": "Pli selon pli — Portrait de Mallarmé",
+      "year": "1957–89",
+      "performers": "Christine Schäfer, soprano; Ensemble intercontemporain; Pierre Boulez",
+      "recorded": "January 2001, Paris",
+      "label": "Deutsche Grammophon",
+      "note": "Mallarmé’s poems become a portrait for soprano and orchestra. Schäfer sings the definitive 1989 version, with Boulez conducting Ensemble intercontemporain.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.deutschegrammophon.com/en/catalogue/products/boulez-pli-selon-pli-schaefer-8981",
+          "title": "Deutsche Grammophon — Pli selon pli / Schäfer, Boulez"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Deutsche Grammophon — Le Marteau sans maître: composition dates and recording credits",
+      "url": "https://www.deutschegrammophon.com/en/catalogue/products/boulez-le-marteau-sans-matre-boulez-1178"
+    },
+    {
+      "title": "Universal Edition — Le Marteau sans maître: René Char texts, contralto and instrumental scoring",
+      "url": "https://www.universaledition.com/en/Works/Le-Marteau-sans-maitre/P0024808"
+    },
+    {
+      "title": "Hilary Summers — autobiography: collaboration with Boulez and their Grammy-winning Marteau recording",
+      "url": "https://hilarysummers.com/bio/"
+    },
+    {
+      "title": "Deutsche Grammophon — Répons: composition dates and recording credits",
+      "url": "https://www.deutschegrammophon.com/en/catalogue/products/boulez-reponsdialogue-de-lombre-double-501"
+    },
+    {
+      "title": "Universal Edition — Répons: solo instruments, chamber ensemble and live electronics",
+      "url": "https://www.universaledition.com/en/Works/Repons/P0031493"
+    },
+    {
+      "title": "Ensemble intercontemporain — Sophie Cherrier recalls developing and performing Répons with Boulez",
+      "url": "https://www.ensembleintercontemporain.com/fr/2017/01/souvenir-de-creation-sophie-cherrier-flutiste/"
+    },
+    {
+      "title": "Deutsche Grammophon — Pli selon pli: 1957–1989 version and Schäfer recording credits",
+      "url": "https://www.deutschegrammophon.com/en/catalogue/products/boulez-pli-selon-pli-schaefer-8981"
+    },
+    {
+      "title": "Universal Edition — Pli selon pli: Mallarmé texts and soprano-and-orchestra scoring",
+      "url": "https://www.universaledition.com/en/Works/Pli-selon-pli/P0030521"
+    },
+    {
+      "title": "Deutsche Grammophon — The Composer: composer-supervised edition and definitive 1989 Pli selon pli version",
+      "url": "https://store.deutschegrammophon.com/en-en/products/pierre-boulez-pierre-boulez-the-composer"
+    },
+    {
+      "title": "Universal Music Japan — The Composer, CDs 3, 4 and 9: recording sessions in September 2002, January 2001 and September 1996",
+      "url": "https://www.universal-music.co.jp/pierre-boulez/products/484-7513/"
+    }
+  ]
+}

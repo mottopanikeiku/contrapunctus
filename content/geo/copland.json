@@ -1,0 +1,217 @@
+{
+  "id": "copland",
+  "places": [
+    {
+      "name": "Brooklyn, New York",
+      "country": "United States",
+      "lat": 40.65,
+      "lon": -73.95,
+      "from": "1900-11-14",
+      "kind": "born",
+      "what": "Born to Sarah and Harris Copland; the family lived above and beside its Washington Avenue department store. Coordinates mark Brooklyn, not an independently geolocated house.",
+      "status": "documented",
+      "sources": [
+        { "title": "Copland House: timeline compiled by Michael Boriskin", "url": "https://www.coplandhouse.org/aaron-copland/timeline/" },
+        { "title": "Vivian Perlis: The Man Behind the Music", "url": "https://www.aaroncopland.com/about/the-man-behind-the-music/" },
+        { "title": "Wikipedia coordinate record: Brooklyn", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Brooklyn" }
+      ]
+    },
+    {
+      "name": "Manhattan, New York",
+      "country": "United States",
+      "lat": 40.7127,
+      "lon": -74.0059,
+      "from": "1917",
+      "to": "1921",
+      "kind": "studied",
+      "what": "Crossed from Brooklyn for lessons in harmony and counterpoint with Rubin Goldmark. The point marks New York, not Goldmark’s teaching room.",
+      "status": "documented",
+      "sources": [
+        { "title": "Copland House: timeline, 1917–21", "url": "https://www.coplandhouse.org/aaron-copland/timeline/" },
+        { "title": "Vivian Perlis: Goldmark lessons across the Brooklyn Bridge", "url": "https://www.aaroncopland.com/about/the-man-behind-the-music/" },
+        { "title": "Wikipedia coordinate record: Manhattan", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Manhattan" }
+      ]
+    },
+    {
+      "name": "Fontainebleau",
+      "country": "France",
+      "lat": 48.4097,
+      "lon": 2.7025,
+      "from": "1921",
+      "kind": "studied",
+      "what": "Attended the new American Conservatory and discovered Nadia Boulanger’s harmony class.",
+      "status": "documented",
+      "sources": [
+        { "title": "Vivian Perlis: The Man Behind the Music", "url": "https://www.aaroncopland.com/about/the-man-behind-the-music/" },
+        { "title": "Wikipedia coordinate record: Fontainebleau", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Fontainebleau" }
+      ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8567,
+      "lon": 2.3522,
+      "from": "1921",
+      "to": "1924",
+      "kind": "studied",
+      "what": "Studied composition with Nadia Boulanger; through her met Serge Koussevitzky, who commissioned the organ symphony.",
+      "status": "documented",
+      "sources": [
+        { "title": "Vivian Perlis: Paris studies and Koussevitzky", "url": "https://www.aaroncopland.com/about/the-man-behind-the-music/" },
+        { "title": "Wikipedia coordinate record: Paris", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Paris" }
+      ]
+    },
+    {
+      "name": "New York City",
+      "country": "United States",
+      "lat": 40.7127,
+      "lon": -74.0059,
+      "from": "1924",
+      "to": "1947",
+      "kind": "lived",
+      "what": "Returned from France in 1924. Kept his New York apartment and loft studio until moving to Sneden’s Landing in 1947; travel and summer residencies interrupted this base.",
+      "status": "documented",
+      "sources": [
+        { "title": "Vivian Perlis: return to New York in 1924", "url": "https://www.aaroncopland.com/about/the-man-behind-the-music/" },
+        { "title": "Copland House: timeline, 1947 move", "url": "https://www.coplandhouse.org/aaron-copland/timeline/" },
+        { "title": "Wikipedia coordinate record: Manhattan", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Manhattan" }
+      ]
+    },
+    {
+      "name": "Saratoga Springs, New York",
+      "country": "United States",
+      "lat": 43.08305556,
+      "lon": -73.78444444,
+      "from": "1930",
+      "kind": "worked",
+      "what": "Visited the Yaddo artists’ colony and completed Piano Variations there. Coordinates mark Saratoga Springs.",
+      "work": "Piano Variations",
+      "status": "documented",
+      "sources": [
+        { "title": "Copland House: timeline, first Yaddo visit", "url": "https://www.coplandhouse.org/aaron-copland/timeline/" },
+        { "title": "Stephen Hough: Piano Variations, Hyperion booklet note", "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W8565_GBAJY9800506" },
+        { "title": "Wikipedia coordinate record: Saratoga Springs", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Saratoga_Springs%2C_New_York" }
+      ]
+    },
+    {
+      "name": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.43333333,
+      "lon": -99.13333333,
+      "from": "1932",
+      "kind": "travelled",
+      "what": "First Mexican visit, arranged by Carlos Chávez; visited the dance hall that inspired El Salón México.",
+      "work": "El Salón México",
+      "status": "documented",
+      "sources": [
+        { "title": "Aaron Copland Fund: El Salón México", "url": "https://www.aaroncopland.com/works/el-salon-mexico/" },
+        { "title": "Wikipedia coordinate record: Mexico City", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Mexico_City" }
+      ]
+    },
+    {
+      "name": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.43333333,
+      "lon": -99.13333333,
+      "from": "1934-11-23",
+      "kind": "premiere",
+      "what": "Carlos Chávez conducted the Orquesta Sinfónica de México in the première of Short Symphony.",
+      "work": "Short Symphony",
+      "status": "documented",
+      "sources": [
+        { "title": "Aaron Copland Fund: Short Symphony première", "url": "https://www.aaroncopland.com/works/short-symphony-symphony-no-2/" },
+        { "title": "Wikipedia coordinate record: Mexico City", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Mexico_City" }
+      ]
+    },
+    {
+      "name": "Tanglewood, Massachusetts",
+      "country": "United States",
+      "lat": 42.34916667,
+      "lon": -73.31,
+      "from": "1940",
+      "to": "1965",
+      "kind": "worked",
+      "what": "Taught at the Berkshire Music Center during its summer seasons, beginning with its first season in 1940; this was a seasonal post.",
+      "status": "documented",
+      "sources": [
+        { "title": "Copland House: Tanglewood teaching, 1940–65", "url": "https://www.coplandhouse.org/aaron-copland/timeline/" },
+        { "title": "Wikipedia coordinate record: Tanglewood", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Tanglewood" }
+      ]
+    },
+    {
+      "name": "Cincinnati, Ohio",
+      "country": "United States",
+      "lat": 39.1,
+      "lon": -84.5125,
+      "from": "1943-03-12",
+      "kind": "premiere",
+      "what": "Eugene Goossens conducted the Cincinnati Symphony Orchestra in the first performance of Fanfare for the Common Man.",
+      "work": "Fanfare for the Common Man",
+      "status": "documented",
+      "sources": [
+        { "title": "Aaron Copland Fund: Fanfare for the Common Man", "url": "https://www.aaroncopland.com/works/fanfare-for-the-common-man/" },
+        { "title": "Wikipedia coordinate record: Cincinnati", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Cincinnati" }
+      ]
+    },
+    {
+      "name": "Library of Congress, Washington, DC",
+      "country": "United States",
+      "lat": 38.88861111,
+      "lon": -77.00472222,
+      "from": "1944-10-30",
+      "kind": "premiere",
+      "what": "Martha Graham danced the première of Appalachian Spring in the Coolidge Auditorium; Louis Horst conducted thirteen instrumentalists.",
+      "work": "Appalachian Spring",
+      "status": "documented",
+      "sources": [
+        { "title": "Aaron Copland Fund: complete ballet catalogue", "url": "https://www.aaroncopland.com/works/appalachian-spring-ballet-in-one-act-for-thirteen-instruments/" },
+        { "title": "Jennifer DeLapp-Birkett: Appalachian Spring at 75", "url": "https://www.aaroncopland.com/news/appalachian-spring-at-75-then-and-now/" },
+        { "title": "Commons institution record: Library of Congress coordinates", "url": "https://commons.wikimedia.org/wiki/File:Martha_Graham_and_Bertram_Ross.jpg" }
+      ]
+    },
+    {
+      "name": "Ossining, New York",
+      "country": "United States",
+      "lat": 41.16263056,
+      "lon": -73.86159722,
+      "from": "1952",
+      "to": "1960",
+      "kind": "lived",
+      "what": "Bought his first house, Shady Lane Farm, and lived there for eight years. The point marks Ossining.",
+      "status": "documented",
+      "sources": [
+        { "title": "Copland House: timeline, 1952", "url": "https://www.coplandhouse.org/aaron-copland/timeline/" },
+        { "title": "Wikipedia coordinate record: Ossining", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Ossining%2C_New_York" }
+      ]
+    },
+    {
+      "name": "Cortlandt, New York",
+      "country": "United States",
+      "lat": 41.26138889,
+      "lon": -73.9025,
+      "from": "1960",
+      "to": "1990",
+      "kind": "lived",
+      "what": "Bought Rock Hill, his home for the remaining thirty years of his life. Coordinates mark the town of Cortlandt, not the house.",
+      "status": "documented",
+      "sources": [
+        { "title": "Copland House: timeline, Rock Hill purchase", "url": "https://www.coplandhouse.org/aaron-copland/timeline/" },
+        { "title": "Wikipedia coordinate record: Cortlandt", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Cortlandt%2C_New_York" }
+      ]
+    },
+    {
+      "name": "North Tarrytown (now Sleepy Hollow), New York",
+      "country": "United States",
+      "lat": 41.09194444,
+      "lon": -73.86444444,
+      "from": "1990-12-02",
+      "kind": "died",
+      "what": "Died at Phelps Memorial Hospital Center. The point marks the village, subsequently renamed Sleepy Hollow.",
+      "status": "documented",
+      "sources": [
+        { "title": "Copland House: timeline, 1990", "url": "https://www.coplandhouse.org/aaron-copland/timeline/" },
+        { "title": "Wikipedia coordinate record: Sleepy Hollow", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&titles=Sleepy_Hollow%2C_New_York" }
+      ]
+    }
+  ]
+}

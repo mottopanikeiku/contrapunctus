@@ -8,11 +8,15 @@ audio.crossOrigin = 'anonymous';   // Commons sends CORS headers; required for t
 audio.preload = 'none';
 
 let programme = null;
+let programmes = [];
 let programmeRequest = null;
 let index = -1;
 let pendingT = 0;
 let graph = null;
 let concert = localStorage.getItem('cp-concert') !== '0';
+// A curated evening ({ id, title, ids }) plays its own order and then stops; null plays the whole concert.
+let queue = null;
+try { queue = JSON.parse(localStorage.getItem('cp-queue') ?? 'null'); } catch {}
 
 async function getProgramme() {
   if (!programmeRequest) {
@@ -20,10 +24,12 @@ async function getProgramme() {
     programmeRequest = fetch(url).then((r) => {
       if (!r.ok) throw new Error(`Programme: HTTP ${r.status}`);
       return r.json();
-    }).then(({ composers, eras, rows }) => {
+    }).then(({ composers, eras, rows, programmes: evenings = [] }) => {
       programme = rows.map(([id, stream, duration, composer, work, movement, set, concert, era]) => ({
         id, stream, duration, composer: composers[composer], work, movement, set, concert: !!concert, era: eras[era] ?? null,
       }));
+      programmes = evenings;
+      if (queue && !programmes.some((p) => p.id === queue.id)) queue = null;
     }).catch((error) => { programmeRequest = null; throw error; });
   }
   await programmeRequest;
@@ -56,7 +62,18 @@ export const player = {
   get time() { return audio.readyState >= 1 ? audio.currentTime : pendingT; },
   get concert() { return concert; },
   set concert(v) { concert = !!v; localStorage.setItem('cp-concert', concert ? '1' : '0'); emit('concert', concert); },
+  get queue() { return queue; },
   getProgramme,
+  async getProgrammes() { await getProgramme(); return programmes; },
+  /** Start a curated evening by id (null returns to the whole concert). */
+  async setQueue(id, { play = false } = {}) {
+    await getProgramme();
+    const p = programmes.find((x) => x.id === id) ?? null;
+    queue = p ? { id: p.id, title: p.title, ids: p.ids } : null;
+    if (queue) localStorage.setItem('cp-queue', JSON.stringify(queue)); else localStorage.removeItem('cp-queue');
+    emit('queue', queue);
+    if (queue) await player.load(queue.ids[0], { play });
+  },
   graph: () => ensureGraph(),
   async load(idOrIndex, { play = false, t = 0 } = {}) {
     const P = await getProgramme();
@@ -94,14 +111,25 @@ export const player = {
     emit('seek', t);
   },
   // The concert skips recordings kept only for comparisons (concert: false); they still play when chosen.
+  // Inside a curated evening the evening's own order wins, and its last piece ends the evening.
   async next({ interlude = false } = {}) {
     const P = await getProgramme();
+    const q = queue?.ids.indexOf(player.track?.id) ?? -1;
+    if (queue && q >= 0) {
+      if (q === queue.ids.length - 1) { if (interlude) { emit('queue-end', queue); return; } }
+      const to = P.find((x) => x.id === queue.ids[(q + 1) % queue.ids.length]);
+      emit('advance', { from: player.track, to, interlude });
+      await player.load(to.id, { play: true });
+      return;
+    }
     let i = index; do i = (i + 1) % P.length; while (P[i].concert === false && i !== index);
     emit('advance', { from: player.track, to: P[i], interlude });
     await player.load(i, { play: true });
   },
   async prev() {
     const P = await getProgramme();
+    const q = queue?.ids.indexOf(player.track?.id) ?? -1;
+    if (queue && q > 0) { await player.load(queue.ids[q - 1], { play: true }); return; }
     let i = index; do i = (i - 1 + P.length) % P.length; while (P[i].concert === false && i !== index);
     await player.load(i, { play: true });
   },

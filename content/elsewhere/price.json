@@ -1,0 +1,46 @@
+{
+  "composer": "price",
+  "items": [
+    {
+      "work": "Symphony No. 1 in E minor",
+      "year": "1931–32",
+      "performers": "The Philadelphia Orchestra; Yannick Nézet-Séguin, conductor",
+      "recorded": "Released 2021",
+      "label": "Deutsche Grammophon",
+      "note": "The E-minor symphony that Frederick Stock introduced with the Chicago Symphony in 1933, paired on this album with the Third. A broad introduction to Price’s orchestral writing; the linked video contains the complete first movement.",
+      "links": [
+        { "kind": "youtube", "url": "https://www.youtube.com/watch?v=V-bLUQ2Ec9E", "title": "Official Philadelphia Orchestra audio — I. Allegro ma non troppo" },
+        { "kind": "label", "url": "https://www.deutschegrammophon.com/en/catalogue/products/price-symphonies-nos-1-3-nezet-seguin-12476", "title": "Deutsche Grammophon — complete Symphonies Nos. 1 and 3" }
+      ]
+    },
+    {
+      "work": "My Soul’s Been Anchored in the Lord",
+      "year": "1931; published 1937",
+      "performers": "Marian Anderson, contralto, with piano accompaniment",
+      "recorded": "Historical RCA Victor recordings; reissued 2021",
+      "label": "Sony Classical / RCA Victor",
+      "note": "Price’s spiritual arrangement in the voice of one of her most important advocates. Disc 1 of Beyond the Music contains two recordings of the song, preserving Anderson’s connection with Price alongside her European recital repertoire.",
+      "links": [
+        { "kind": "label", "url": "https://www.sonyclassical.com/releases/releases-details/marian-anderson-beyond-the-music-1", "title": "Sony Classical — Beyond the Music, disc 1" }
+      ]
+    },
+    {
+      "work": "Piano Quintet in A minor",
+      "year": "c. 1935 (tentative dating)",
+      "performers": "Kaleidoscope Chamber Collective: Elena Urioste and Melissa White, violins; Rosalind Ventris, viola; Laura van der Heijden, cello; Tom Poster, piano",
+      "recorded": "17–19 September 2020, Potton Hall, Suffolk",
+      "label": "Chandos",
+      "note": "The third movement is a Juba; the fourth is a quick Scherzo. Piano and four strings bring Price’s dance rhythms into a room small enough for each player to answer another. The complete quintet occupies tracks 5–8 of American Quintets.",
+      "links": [
+        { "kind": "label", "url": "https://www.chandos.net/products/catalogue/CHAN%2020224", "title": "Chandos CHAN 20224 — American Quintets" }
+      ]
+    }
+  ],
+  "sources": [
+    { "title": "Deutsche Grammophon — 24 September 2021 release announcement, symphony dates and Chicago première", "url": "https://www.deutschegrammophon.com/en/artists/yannick-nezet-seguin/news/florence-prices-music-showcased-by-yannick-nezet-seguin-and-the-philadelphia-orchestra-264345" },
+    { "title": "YouTube oEmbed — Symphony No. 1 first movement; uploader The Philadelphia Orchestra - Topic, checked 18 October 2026", "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=V-bLUQ2Ec9E&format=json" },
+    { "title": "Sony Classical — Beyond the Music, release date and disc 1 track listing; checked in browser 18 October 2026", "url": "https://www.sonyclassical.com/releases/releases-details/marian-anderson-beyond-the-music-1" },
+    { "title": "RCA Victor 09026-63306-2 booklet — Price arrangement credit and Anderson’s 3 July 1941 recording", "url": "https://archive.org/download/cd_spirituals_marian-anderson-franz-rupp-kosti-vehanen-m/cd_spirituals_marian-anderson-franz-rupp-kosti-vehanen-m_djvu.txt" },
+    { "title": "Chandos CHAN 20224 — quintet dating marked uncertain, movement titles, personnel and sessions", "url": "https://www.chandos.net/products/catalogue/CHAN%2020224" }
+  ]
+}

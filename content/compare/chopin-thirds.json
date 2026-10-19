@@ -1,25 +1,29 @@
 {
   "id": "chopin-thirds",
-  "title": "The thirds étude, then and now",
+  "title": "A whisper in running thirds",
   "composer": "chopin",
   "group": "century",
   "work": "Étude in G♯ minor, Op. 25 No. 6",
-  "question": "How do Paderewski and Neeman place surges and withdrawals inside the same two-minute étude?",
-  "intro": "Paderewski’s Victor 917-B comes from a Camden session on 4 May 1923; Neeman’s recording was released through Musopen’s Set Chopin Free project. Both access files last about 2:10, but this does not mean that corresponding phrases occupy identical spans. The alignment excludes the terminal transfer tails and keeps the older recording’s surface noise distinct from piano articulation.",
+  "question": "How do the racing thirds leave room for the slower tune underneath?",
+  "intro": "The right hand begins with a trill in thirds, two notes sounding together at every turn. The pairs soon race up and down while the left hand carries a slower melody. Paderewski and Neeman must make this busy finger-work speak in an undertone: Chopin writes <i>sotto voce</i> above the notes.",
   "recordings": [
-    { "listen": "chopin-etude-op25-6-neeman", "label": "Neeman, c. 2014", "year": 2014, "note": "Follow the late crest and the more widely spaced closing gestures." },
-    { "listen": "chopin-etude-op25-6-paderewski", "label": "Paderewski, 1923", "year": 1923, "note": "Compare phrase spacing through the surface noise; the transfer’s largest recorded crest falls around 1:15–1:20." }
+    { "listen": "chopin-etude-op25-6-neeman", "label": "Edward Neeman, c. 2014", "year": 2014, "note": "Neeman developed a modification to the sostenuto mechanism, opening new ways to combine the piano’s sostenuto and damper pedals." },
+    { "listen": "chopin-etude-op25-6-paderewski", "label": "Ignacy Jan Paderewski, 1923", "year": 1923, "note": "Four years after serving as Poland’s prime minister, Paderewski recorded this étude in Camden, New Jersey, on 4 May 1923." }
   ],
   "reference": "chopin-etude-op25-6-neeman",
   "passages": [
-    { "label": "Opening paired-note texture", "t": 12, "note": "Compare the connected surface and lower line; the automatic map does not identify individual notes." },
-    { "label": "Central contrast", "t": 44, "note": "The reference report’s strongest structural change falls here; no machine-generated key or chord is asserted." },
-    { "label": "Later crest", "t": 85, "note": "The reference’s largest relative-level window is followed by a withdrawal; loudness is not compared across recordings." }
+    { "label": "Thirds above a slower voice", "t": 12, "note": "The right hand’s paired notes run smoothly above the slower left-hand line." },
+    { "label": "A melody beneath the pairs", "t": 44, "note": "The left hand carries a broad melody while the right keeps turning through its closely spaced pairs." },
+    { "label": "Scales in pairs", "t": 85, "note": "The thirds sweep up and down the keyboard, with the left hand’s phrase still threading underneath." }
   ],
   "sources": [
     { "title": "Neeman — Musopen recording", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._6_in_G-Sharp_minor_%27Thirds%27_(Edward_Neeman).flac" },
     { "title": "Paderewski — Victor 917-B transfer", "url": "https://archive.org/details/78_etude-in-g-sharp-minor_ignace-jan-paderewski-chopin_gbia0183841b" },
     { "title": "DAHR — Victor 917, publication 1923", "url": "https://adp.library.ucsb.edu/index.php/objects/detail/87088" },
-    { "title": "DAHR — matrix B-27918 and takes", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800001905" }
+    { "title": "DAHR — matrix B-27918 and takes", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800001905" },
+    { "title": "Mieczysław Tomaszewski, Chopin Institute — Op. 25 No. 6 and the sotto voce marking", "url": "https://chopin.nifc.pl/en/chopin/kompozycja/192" },
+    { "title": "Fred Yu — the opening trill, running thirds and the relationship between the hands", "url": "https://www.ourchopin.com/analysis/etude25.html" },
+    { "title": "Australian National University — Neeman’s work on the sostenuto mechanism", "url": "https://music.cass.anu.edu.au/people/dr-edward-neeman" },
+    { "title": "USC Polish Music Center — Paderewski’s musical career and service as prime minister in 1919", "url": "https://polishmusic.usc.edu/research/composers/ignacy-jan-paderewski/" }
   ]
 }

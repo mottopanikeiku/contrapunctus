@@ -18,32 +18,31 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme I. C.A.E.ogg"
   },
-  "intro": "The opening theme and the first variation share one recording. A hesitant G-minor melody becomes a fuller portrait of Alice Elgar without abandoning its original pulse.",
-  "question": "How can added accompaniment change a theme without changing its pace?",
+  "intro": "Elgar’s hesitant G-minor theme flowers into a portrait of his wife, Alice, without a break. The Hallé and John Barbirolli play the opening pair of his <i>Enigma Variations</i>.",
   "sections": [
     {
       "t": 0,
-      "label": "Theme · Andante",
+      "label": "Theme · Strings in G minor",
       "m": "Theme",
-      "mNote": "minor and major phrases introduce the material"
+      "mNote": "The violins begin after a rest"
     },
     {
       "t": 92,
-      "label": "I · Alice Elgar",
+      "label": "Var 1 · Alice’s flowing strings",
       "m": "Var 1",
-      "mNote": "the theme continues with more active accompanying lines"
+      "mNote": "Oboes and bassoons sing above running violins and cellos"
     },
     {
       "t": 134,
-      "label": "The larger swell",
+      "label": "Var 1 · High violins, sustained horns",
       "m": "Var 1",
-      "mNote": "the first portrait gains orchestral weight"
+      "mNote": "The violins leap upwards, marked largamente"
     },
     {
       "t": 172,
-      "label": "The quiet close",
+      "label": "Coda · Strings settle in G major",
       "m": "Coda",
-      "mNote": "G major settles after the swell"
+      "mNote": "A final violin flourish rises into a held chord"
     }
   ],
   "cues": [
@@ -51,67 +50,58 @@ export default {
       "t": 0,
       "kind": "music",
       "title": "A rest before the phrase",
-      "text": "The opening violin melody begins after a rest on the first beat. Listen for the little gap inside the four-beat bar: the phrase seems to hesitate while the metre continues beneath it.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Novello full score p. 1, Andante: first violins begin after a crotchet rest; opening-span observation, not a timed individual attack. https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf"
-    },
-    {
-      "t": 35,
-      "kind": "music",
-      "title": "Minor gives way to major",
-      "text": "In the theme’s contrasting phrase, G major replaces G minor and the line flows more freely. The difference lies partly in the harmony, not just in the greater recorded weight.",
+      "text": "Only strings. The first violins begin after a crotchet rest, with two short notes and two longer ones; the next bar reverses their order. These small hesitations give the G-minor tune its questioning voice.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The score’s major phrase corresponds approximately to the report’s 0:32 change and higher-level 0:35–0:45 windows. The G-major estimates corroborate, but do not establish, the score reading."
+      "evidence": "Novello full score, p. 1, opening two bars: Andante, first violins marked molto espressivo. https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf"
     },
     {
       "t": 70,
-      "kind": "world",
-      "title": "Friends pictured within",
-      "text": "Elgar dedicates the work “to my friends pictured within”. The theme precedes fourteen variations; this file includes the theme and the first of those portraits, not two separately numbered variations.",
+      "kind": "life",
+      "title": "Alice at the piano",
+      "text": "On 21 October 1898, after a day’s teaching, Elgar sits down at the piano. A tune catches Alice’s attention. He begins trying out versions of it as their friends might play them: the evening’s amusement becomes fourteen variations.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The score gives the dedication and sequence; the Commons embedded title explicitly reads “Theme, I. C.A.E.”. https://elgar.org/3enigma.htm"
+      "evidence": "Elgar’s account of the evening, summarised in the composition history at https://en.wikipedia.org/wiki/Enigma_Variations. The Elgar Society also recounts Alice’s response and the improvised portraits: https://elgar.org/3enigma.htm"
     },
     {
-      "t": 105,
-      "kind": "world",
-      "title": "Caroline Alice Elgar",
-      "text": "“C.A.E.” is Caroline Alice Elgar, the composer’s wife. Elgar later described her variation as a prolongation of the theme: the personal portrait grows out of the music already heard rather than demanding a new tune.",
-      "basis": "documented",
+      "t": 92,
+      "kind": "music",
+      "title": "Alice keeps the pulse",
+      "text": "Caroline Alice Elgar’s portrait keeps the theme’s pace: <i>L’istesso tempo</i>. Oboes and bassoons sing together in G minor, while violins and cellos weave quick notes around them. The melody has company now.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "The Elgar Society identifies Alice; Elgar’s later commentary is reproduced under Variation I in the work account. https://elgar.org/3enigma.htm https://en.wikipedia.org/wiki/Enigma_Variations"
+      "evidence": "Novello full score, pp. 4–5, Variation I: oboes and bassoons in octaves, running first violins and divided cellos. Elgar calls the variation a prolongation of the theme in My Friends Pictured Within, section I (Novello): https://s9.imslp.org/files/imglnks/usimg/0/06/IMSLP339677-SIBLEY1802.27173.6d2a-39087004945996text.pdf"
     },
     {
       "t": 145,
-      "kind": "music",
-      "title": "A larger first portrait",
-      "text": "The first portrait gathers more recorded weight than the opening theme. Listen across the swell for the sustained tune and the moving lines around it, rather than treating the strongest attack as a separate section.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report’s highest windows occur at 2:20–2:30, with its strongest change at 2:14. The score supplies the ornamented continuation; the analysis identifies a swell, not individual desks."
-    },
-    {
-      "t": 180,
       "kind": "life",
-      "title": "A London breakthrough",
-      "text": "Hans Richter conducts the first performance at St James’s Hall, London, on 19 June 1899. The success brings Elgar recognition beyond the provincial choral festivals on which much of his career has depended.",
+      "title": "Ruling the bar lines",
+      "text": "Alice’s support takes practical forms. She rules bar lines on Edward’s score paper and walks miles in all weathers to post manuscripts and proofs. A general’s daughter, she marries the music teacher in 1889 against her relatives’ wishes.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The Elgar Society documents the première and its importance for Elgar’s reputation. https://elgar.org/3enigma.htm"
+      "evidence": "Ian Lace, A Short Biography, Elgar Society: marriage, family opposition, score paper and journeys to post manuscripts. https://www.elgar.org/2english.htm"
+    },
+    {
+      "t": 172,
+      "kind": "music",
+      "title": "Violins climb into silence",
+      "text": "The brass withdraws and the strings slow. In the closing bars the violins send one last run upwards. The strings settle on a G-major chord, marked <i>ppp</i>, under a fermata.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Novello full score, p. 7, rehearsal 4 to the end of Variation I: ritardando, ascending violin figures and the final G-major chord."
     }
   ],
   "transitions": [
     {
       "id": "into-alice",
-      "title": "The theme becomes Alice’s portrait",
-      "from": "Theme",
-      "to": "I · Alice",
+      "title": "Alice takes up the theme",
+      "from": "Theme · Strings in G minor",
+      "to": "Var 1 · Alice’s flowing strings",
       "at": {
         "t": 92
       },
-      "how": "<p>Elgar keeps the original pace: L’istesso tempo means the same tempo. More active string figures surround the tune, while woodwind, horns and a quiet trumpet add colour. The theme therefore becomes a personal portrait through accompaniment and orchestration, not a sudden new speed.</p>",
+      "how": "<p><i>L’istesso tempo</i> keeps the pulse unchanged. Oboes and bassoons take up the G-minor melody together, marked <i>largamente</i>, over running first violins and cellos. Plucked basses support them; the second violins remain muted.</p>",
       "devices": [
         "motivic link",
         "orchestration change",
@@ -119,41 +109,41 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello p. 4, rehearsal 2. The report’s low point near 1:30 is followed by the renewed G-minor rise around 1:35–1:50; the 92-second boundary is approximate."
+      "evidence": "Novello full score, p. 4, the two-bar link at rehearsal 2 and the opening of Variation I."
     },
     {
       "id": "into-swell",
-      "title": "The accompaniment gathers weight",
-      "from": "I · Alice",
-      "to": "The larger swell",
+      "title": "The violins leap upwards",
+      "from": "Var 1 · Alice’s flowing strings",
+      "to": "Var 1 · High violins, sustained horns",
       "at": {
         "t": 134
       },
-      "how": "<p>The flowing accompaniment carries the portrait into a larger crescendo. Sustained melodic notes remain connected while the supporting orchestra thickens. This is an expansion of the variation’s ongoing phrase, not an additional numbered variation.</p>",
+      "how": "<p>The second violins remove their mutes. The first violins leap into their high register, marked <i>largamente</i>, and descend in a long run while the horns sustain their notes. The basses return after a rest, and the timpani roll beneath the phrase.</p>",
       "devices": [
         "crescendo build",
         "motivic link"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello pp. 5–6 supply the expanding texture; the report’s strongest change at 2:14 precedes its largest 2:20–2:30 swell."
+      "evidence": "Novello full score, p. 6: senza sordini in the second violins, largamente in the upper strings, sostenuto in the horns and a timpani roll."
     },
     {
       "id": "into-close",
-      "title": "The broad phrase releases its weight",
-      "from": "The larger swell",
-      "to": "The quiet close",
+      "title": "G major, almost whispered",
+      "from": "Var 1 · High violins, sustained horns",
+      "to": "Coda · Strings settle in G major",
       "at": {
         "t": 172
       },
-      "how": "<p>Elgar reduces the force of the accompaniment and allows G major to settle. The melodic line is prolonged into a quieter close, rather than broken by an unrelated ending. The change is one of harmonic arrival and diminishing orchestral pressure.</p>",
+      "how": "<p>The brass falls silent as the strings and woodwinds finish their phrases. Elgar marks a <i>ritardando</i>. A last violin run climbs above the divided violas and cellos; the basses return with the final G-major chord, held at <i>ppp</i>.</p>",
       "devices": [
         "decrescendo",
         "motivic link"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Novello p. 7 supplies the G-major close. The report changes at 2:52 and falls through the final 3:00–3:20 span."
+      "evidence": "Novello full score, p. 7, rehearsal 4 through the final fermata of Variation I."
     }
   ],
   "orchestra": {
@@ -180,17 +170,17 @@ export default {
     "source": {
       "title": "Elgar, Enigma Variations, full score (Novello)",
       "url": "https://s9.imslp.org/files/imglnks/usimg/1/1e/IMSLP23792-PMLP07276-Elgar_-_Enigma_Variations_(orch._score).pdf",
-      "locator": "PDF pp. 1–7; theme and rehearsal figures 2–4. Whole-track passage map: score textures placed against the report’s 0:32, 0:52, 1:30, 2:14 and 2:52 changes. Desks identify activity within each span, not every individual attack."
+      "locator": "Novello full score, pp. 1–7: the opening theme and Variation I, C.A.E., through rehearsal 4."
     },
     "timeline": [
-      { "t": 0, "playing": ["violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1"], "note": "The first theme phrase is for strings alone (p. 1)." },
-      { "t": 32, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "The contrasting phrase adds woodwind, horns and a quiet trumpet to the strings (p. 2)." },
-      { "t": 52, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "The theme’s closing span reduces the wind complement to clarinets, bassoons and horns (p. 3)." },
-      { "t": 92, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["oboes", "bassoons"], "note": "Alice’s portrait combines sustained wind melody with flowing string figures; these desks enter successively (p. 4)." },
-      { "t": 120, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "Low brass adds support as the portrait broadens (pp. 5–6)." },
-      { "t": 140, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "The larger swell brings wind, brass and timpani weight around the string line (p. 6; strongest report windows 2:20–2:30)." },
-      { "t": 172, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1"], "note": "The final page starts with residual orchestral support, then rapidly thins as the phrase diminishes (p. 7)." },
-      { "t": 186, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1"], "note": "Quiet string figures and sparse wind support carry the last G-major gestures; the heavy brass and percussion have withdrawn (p. 7)." }
+      { "t": 0, "playing": ["violins-1", "violins-2", "violas", "cellos"], "lead": ["violins-1"], "note": "First violins begin after a rest, over short notes in the second violins, violas and cellos (p. 1)." },
+      { "t": 32, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos"], "lead": ["violins-1", "clarinets"], "note": "Clarinets weave around the violin melody; flutes and oboes join above sustained bassoon and horn notes (p. 2)." },
+      { "t": 52, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "clarinets"], "note": "The violins return to the G-minor phrase, with clarinet replies and a sustained bass beneath them (p. 3)." },
+      { "t": 92, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["oboes", "bassoons"], "note": "Oboes and bassoons sing in octaves above running violins and cellos. The basses pluck their notes (p. 4)." },
+      { "t": 120, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "oboes"], "note": "Trombones and tuba enter quietly beneath the running violins and cellos (pp. 5–6)." },
+      { "t": 140, "playing": ["flutes", "oboes", "clarinets", "bassoons", "contrabassoon", "horns", "trumpets", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1", "horns"], "note": "The first violins leap high and descend, marked largamente. Horns sustain their notes above a timpani roll (p. 6)." },
+      { "t": 172, "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trombones", "tuba", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1"], "note": "Trombones and tuba finish their held notes. Woodwinds and strings carry the phrase onwards as the timpani roll subsides (p. 7)." },
+      { "t": 186, "playing": ["clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"], "lead": ["violins-1"], "note": "A last violin run climbs above the divided violas and cellos. The strings settle on G major, marked ppp (p. 7)." }
     ]
   }
 };

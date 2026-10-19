@@ -13,35 +13,71 @@ export default {
   recorded: '1 April 2014',
   source: { file: 'File:Maurice Ravel - Gaspard de la nuit - 1. Ondine.flac' },
   set: { id: 'ravel-gaspard-de-la-nuit', title: 'Gaspard de la nuit', part: 1, of: 3 },
-  intro: 'A singing line moves inside rapidly repeated piano sonorities: keep the water’s motion separate from Ondine’s voice. This assembled Gaspard changes pianist: Andriy Makarevych plays Ondine and Scarbo; OE1FEU plays Le Gibet.',
-  question: 'How does one piano distinguish a sustained voice from continuously moving water?',
-  sections: [
-    { t: 0, label: 'Song and repeated sonorities', m: 'A', mNote: 'melody distinguished from the rapid background' },
-    { t: 126, label: 'Expanding figuration', m: 'B', mNote: 'broader waves and renewed swells' },
-    { t: 216, label: 'The sustained crest', m: 'Dev', mNote: 'register and weight enlarge the piano texture' },
-    { t: 274, label: 'Retreat from the crest', m: 'C', mNote: 'quieter figuration and more exposed phrases' },
-    { t: 342, label: 'Exposed recitative', m: 'Link', mNote: 'the continuous background falls away' },
-    { t: 370, label: 'Final outburst and disappearance', m: 'Coda', mNote: 'rapid figuration subsides into the home key' },
+  "intro": "A water spirit sings beneath a tremble of piano chords in <i>Ondine</i>, the first of Ravel’s three poems for piano. Andriy Makarevych plays the song and the water with the same two hands.",
+  "sections": [
+    { "t": 0, "label": "A · A song beneath trembling chords", "m": "A", "mNote": "The left hand sings below the repeated treble chords" },
+    { "t": 126, "label": "B · Arpeggios across the keyboard", "m": "B", "mNote": "The water figures stretch further between bass and treble" },
+    { "t": 216, "label": "Dev · The song amid breaking waves", "m": "Dev", "mNote": "Large arpeggios surround the melody in chords" },
+    { "t": 274, "label": "C · The waves subside", "m": "C", "mNote": "Quieter arpeggios surround the returning song" },
+    { "t": 342, "label": "Link · A voice without accompaniment", "m": "Link", "mNote": "Très lent: the water figures stop" },
+    { "t": 370, "label": "Coda · A rush of notes, then C♯", "m": "Coda", "mNote": "Rapid scales settle into quiet C♯-major arpeggios" }
   ],
-  cues: [
-    { t: 0, kind: 'music', title: 'Two speeds at once', text: 'The opening separates rapid repeated sonorities from a much slower melodic line. Listen through the moving surface for the notes that belong to the song; a busy accompaniment does not make the melody fast.', basis: 'general', precision: 'passage', evidence: 'Durand score, p. 3: Lent, repeated right-hand sonorities and the lower melodic line marked très doux et très expressif. The report places the opening in a low relative-level range; no individual note onset is asserted.' },
-    { t: 35, kind: 'listen', title: 'Follow the middle register', text: 'Across this opening span, do not assume that the highest note is the melody. Ravel places the singing voice below the repeated treble sounds, making balance between registers part of the musical argument.', basis: 'general', precision: 'passage', evidence: 'The opening score distinguishes the treble figuration from the slower melody below it. This is a passage-wide listening task, not a claim that a voice enters at 0:35.' },
-    { t: 70, kind: 'music', title: 'A rise and withdrawal', text: 'The early phrase swells, then gives back much of its weight. Keep following the melodic contour as the background changes; the withdrawal is not the end of Ondine’s song.', basis: 'audio-feature', precision: 'passage', evidence: 'The report rises from −19.9 dB at 1:00 to −14.4 at 1:10, then falls to −24.1 at 1:20. These are relative levels within this recording, not score dynamics.' },
-    { t: 105, kind: 'world', title: 'An invitation under water', text: 'In Aloysius Bertrand’s prose poem, Ondine asks the narrator to accept her ring and become king of the lakes. He replies that he loves a mortal woman. Ravel prints the poem before the music rather than adding a singer.', basis: 'documented', precision: 'passage', evidence: 'Bertrand’s poem, reproduced before Ondine in the Durand score; French text: https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Ondine' },
-    { t: 140, kind: 'music', title: 'Waves gather weight', text: 'In this stretch the piano grows again towards a substantial swell. Listen for the longer rise and retreat around the small ripples: Ravel organises the water figures into phrases, not a uniform wash of notes.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level rises from −21.9 dB at 2:05 to −11.9 at 2:25, then falls to −27.8 at 2:35. A measured boundary at 2:06 anchors the beginning of this broad listening region.' },
-    { t: 175, kind: 'world', title: 'A poem on the page', text: 'Bertrand died in 1841; his collection appeared posthumously in 1842. Ravel’s score calls its movements “three poems for piano”: literary images supply the subject, but instrumental layers carry the narrative.', basis: 'documented', precision: 'passage', evidence: 'The work’s subtitle and printed poems are in the Durand edition. Publication history and Ravel’s reading are discussed by Gerald Larner: https://geraldlarner.com/work/ravel-gaspard-de-la-nuit-1908' },
-    { t: 210, kind: 'listen', title: 'Prepare for the crest', text: 'The middle span builds a longer accumulation than the early swells. Keep a melodic thread in view as the piano spreads across registers; the broad phrase must survive the increased weight of its decoration.', basis: 'score-proportion', precision: 'passage', evidence: 'Durand pp. 9–11 enlarge the figuration and chordal writing. The report has a strong change at 3:36, followed by sustained higher relative level through 4:20; the score is not aligned bar by bar.' },
-    { t: 245, kind: 'music', title: 'The largest broad swell', text: 'Here the sustained build reaches the recording’s broadest crest. Compare it with the earlier, shorter surges: much of the force comes from keeping the phrase under pressure before allowing it to recede.', basis: 'audio-feature', precision: 'passage', evidence: 'The five highest five-second windows are 3:55 and 4:05–4:20, with the maximum at 4:10. The claim is about this file’s relative-level contour.' },
-    { t: 280, kind: 'music', title: 'Weight falls away', text: 'After the crest, the texture loses weight without immediately losing motion. Listen for the difference between fewer or softer attacks and the end of a phrase; the piano can retreat while its figures continue.', basis: 'audio-feature', precision: 'passage', evidence: 'Relative level falls from −8.4 dB at 4:20 to −25.4 at 4:40; changes at 4:34 and 4:46 mark the retreat. Onsets continue through the lower-level stretch.' },
-    { t: 315, kind: 'life', title: 'Viñes introduces the triptych', text: 'Ricardo Viñes gave the first performance of Gaspard in Paris on 9 January 1909. Ravel and Viñes had known one another as young piano students; Viñes also introduced Jeux d’eau and Miroirs.', basis: 'documented', precision: 'passage', evidence: 'Premiere date and pianist: https://imslp.org/wiki/Gaspard_de_la_nuit_(Ravel%2C_Maurice). Their friendship and literary interests: https://geraldlarner.com/work/ravel-gaspard-de-la-nuit-1908. Earlier premieres are documented in the site’s Ravel biography.' },
-    { t: 350, kind: 'form', title: 'The background stops flowing', text: 'Near the end, Ravel exposes a very slow, speech-like line without the continuous water figures. This recitative makes the coming rush of notes a change of texture, not merely another increase in speed.', basis: 'score-proportion', precision: 'passage', evidence: 'Durand p. 13 ends with a Très lent unaccompanied line. The report’s 5:42 boundary leads into sparse, low-level windows at 5:45–6:05, supporting this approximate placement.' },
-    { t: 385, kind: 'listen', title: 'After the last rush', text: 'The final rush gives way to lighter arpeggios and a return towards C♯ major. Follow the remaining resonance rather than expecting a heavy closing chord: the written ending lets motion diminish before the sound disappears.', basis: 'score-proportion', precision: 'passage', evidence: 'Durand p. 14: Rapide et brillant, then retenez peu à peu, ppp and au mouvement du début. The report shows a late surge at 6:10–6:15, C♯-major-compatible estimates at 6:25–6:35 and a sharp decline after 6:35. Exact attacks are not aligned.' },
+  "cues": [
+    {
+      "t": 0, "kind": "music", "title": "A song under water",
+      "text": "The right hand trembles on closely packed chords, <i>ppp</i>. Below them the left hand sings a slower line, marked very soft and very expressive. The melody sits inside the water, several notes below the glittering top of the piano.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score (1909), plate D. & F. 7207, p. 3: Lent, ppp right-hand chords and très doux et très expressif melody. https://s9.imslp.org/files/imglnks/usimg/6/6a/IMSLP246875-PMLP02576-Ravel,_Maurice-Gaspard_de_la_nuit_Durand_7207_scan.pdf"
+    },
+    {
+      "t": 105, "kind": "world", "title": "A palace beneath the lake",
+      "text": "In Bertrand’s poem, Ondine touches a moonlit window and offers the man inside her ring. “Mon palais est bâti fluide, au fond du lac” — “My palace is built of water, at the bottom of the lake.” She wants him to marry her and become king of the lakes.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Aloysius Bertrand, Ondine, reproduced before the movement in Durand’s Gaspard de la nuit (1909), from the Mercure de France edition of 1908. Second and fourth paragraphs; our translation."
+    },
+    {
+      "t": 216, "kind": "music", "title": "The keyboard opens wide",
+      "text": "The arpeggios sweep from deep bass to high treble. Ravel sets the tune in chords among them, with swells from <i>pp</i> to <i>forte</i> inside a single wave. The pianist has to make those longer notes sing through the spray.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, pp. 9–11: wide arpeggios, chordal melody and repeated crescendo hairpins."
+    },
+    {
+      "t": 274, "kind": "world", "title": "He loves a mortal woman",
+      "text": "Ondine’s invitation fails. The man tells her that he loves a mortal woman. Bertrand’s water spirit sheds a few tears, bursts out laughing and vanishes in a shower down the blue windowpanes.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Bertrand, Ondine, final paragraph, printed before the movement in the Durand score (1909)."
+    },
+    {
+      "t": 342, "kind": "form", "title": "The water falls silent",
+      "text": "Near the end, the accompaniment stops. A single line speaks in the middle of the keyboard, <i>Très lent</i>, with rests below it. For a few bars the song has no water around it.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 13, final system: unaccompanied Très lent phrase."
+    },
+    {
+      "t": 370, "kind": "form", "title": "Laughter and a shower",
+      "text": "A two-handed rush breaks out, <i>Rapide et brillant</i>, then dissolves into quiet C♯-major arpeggios. Bertrand’s last image is “mes vitraux bleus” — “my blue stained-glass windows” — with water streaming down them.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 14: Rapide et brillant, retenez peu à peu, ppp and return to C♯ major. Quotation from Bertrand’s Ondine, final paragraph, printed before the music in the 1909 edition; our translation."
+    }
   ],
-  transitions: [
-    { id: 'expanding-waves', title: 'The figuration carries the expansion', from: 'Song and repeated sonorities', to: 'Expanding figuration', at: { t: 126 }, span: [116, 146], how: '<p>Ravel develops the contrast already established between a slower song and faster background figures. Arpeggios spread through a wider register while sustained tones continue to connect the phrases. The join is not a new instrument or a full stop: changing chord colour and the reach of the keyboard texture make the next rise feel larger.</p>', devices: ['texture change', 'register change', 'motivic link'], basis: 'score-proportion', precision: 'passage', evidence: 'Durand pp. 6–8 supply the expanding figuration. A 2:06 measured boundary and the 2:10–2:25 rise anchor a broad region only; this is not a claim for a specific thematic entry.' },
-    { id: 'into-crest', title: 'Small figures acquire chordal weight', from: 'Expanding figuration', to: 'The sustained crest', at: { t: 216 }, span: [205, 235], how: '<p>The piano’s quick figures continue, but wider spacing and more substantial chordal writing enlarge the slower line. Ravel can increase the weight of a phrase without replacing its basic opposition of song and water. The accumulation carries across the section boundary instead of waiting for a separating cadence.</p>', devices: ['crescendo build', 'register change', 'texture change'], basis: 'score-proportion', precision: 'passage', evidence: 'Durand pp. 9–11 show the enlarged writing; the report’s 3:36 change precedes the sustained higher-level region and crest at 3:55–4:20.' },
-    { id: 'after-crest', title: 'The waves release their weight', from: 'The sustained crest', to: 'Retreat from the crest', at: { t: 274 }, span: [260, 290], how: '<p>The extended crest gives way to lighter piano figuration and more exposed melodic fragments. The same instrument now separates attack from resonance more clearly. Withdrawal, rather than a new theme announced at full strength, joins the large central wave to the remaining phrases.</p>', devices: ['decrescendo', 'texture change'], basis: 'audio-feature', precision: 'passage', evidence: 'A measured change at 4:34 follows the decline from 4:20; the 4:35–4:45 windows are much lower in relative level. The score’s post-climactic thinning supplies the textural description, without identifying a chord at 4:34.' },
-    { id: 'into-recitative', title: 'Remove the water, expose the voice', from: 'Retreat from the crest', to: 'Exposed recitative', at: { t: 342 }, span: [330, 363], how: '<p>The continuous figuration is withdrawn, leaving a single, very slow line. Ravel writes Très lent: the contrast depends on the absence of the surrounding notes as much as on the pace. A melody formerly embedded in a layered keyboard texture can now sound like an unaccompanied utterance.</p>', devices: ['texture change', 'tempo change'], basis: 'score-proportion', precision: 'passage', evidence: 'Durand p. 13, final system. The 5:42 measured change and sparse 5:45–6:05 windows support a passage-level estimate, not the exact first recitative note.' },
-    { id: 'last-outburst', title: 'A rapid answer breaks the stillness', from: 'Exposed recitative', to: 'Final outburst and disappearance', at: { t: 370 }, span: [358, 395], how: '<p>The isolated line gives way to a two-handed rush marked Rapide et brillant. Ravel then reduces the force and restores the opening tempo, with arpeggios settling towards C♯ major. The closing gesture answers the recitative by changing register, density and pace together, before drawing the motion back into quiet resonance.</p>', devices: ['tempo change', 'texture change', 'decrescendo'], basis: 'score-proportion', precision: 'passage', evidence: 'Durand p. 14. Relative level jumps from −43.6 dB at 6:05 to −11.8 at 6:10; boundaries at 6:10 and 6:20 locate the outburst and retreat. The score supplies the markings and final tonality.' },
+  "transitions": [
+    {
+      "id": "into-recitative", "title": "The song loses its accompaniment",
+      "from": "C · The waves subside", "to": "Link · A voice without accompaniment",
+      "at": { t: 342 }, "span": [330, 363],
+      "how": "<p>The piano’s running figures climb to a held high note and stop under a fermata. Ravel then writes <i>Très lent</i>. A quiet, unaccompanied phrase follows in the middle of the keyboard; the bass staff is empty.</p>",
+      "devices": ["fermata", "texture change", "tempo change"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score (1909), p. 13, final system: fermata, followed by the unaccompanied Très lent line."
+    },
+    {
+      "id": "last-outburst", "title": "A rush across both hands",
+      "from": "Link · A voice without accompaniment", "to": "Coda · A rush of notes, then C♯",
+      "at": { t: 370 }, "span": [358, 395],
+      "how": "<p>The bare phrase launches a rush of notes in both hands, marked <i>Rapide et brillant</i>. Ravel then asks the pianist to hold back gradually. C♯-major arpeggios return at <i>ppp</i>, in the opening tempo, and carry the music to its last quiet chord.</p>",
+      "devices": ["tempo change", "texture change", "decrescendo"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 14: Rapide et brillant, retenez peu à peu, au mouvement du début and final C♯-major arpeggios."
+    }
   ],
 };

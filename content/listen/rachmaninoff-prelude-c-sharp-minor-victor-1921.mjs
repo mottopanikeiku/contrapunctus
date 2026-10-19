@@ -9,7 +9,7 @@ export default {
   "key": "C♯ minor",
   "forces": "Piano",
   "performers": "Sergei Rachmaninoff, piano",
-  "recorded": "1921; issued take unestablished",
+  "recorded": "1921",
   "source": {
     "archive": {
       "item": "78_prelude-in-c-sharp-minor_sergei-rachmaninoff_gbia0284165a",
@@ -26,66 +26,58 @@ export default {
       ]
     }
   },
-  "intro": "Rachmaninoff returned to his C-sharp-minor Prelude for Victor in 1921, after the Edison recording used as this comparison’s reference. Two 1921 takes were issued under Victor814; this transfer does not establish which one it contains. Its crackle, equalisation and playback pitch must be distinguished from the pianist’s timing.",
-  "question": "What changes when the composer records his Prelude again?",
+  "intro": "Rachmaninoff plays his most persistent encore for Victor in 1921. Three low notes grow into chords so broad that the score needs four staves to hold them.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Opening bell figure",
-      "m": "A"
-    },
-    {
-      "t": 94,
-      "label": "Central change",
-      "m": "B"
-    },
-    {
-      "t": 128,
-      "label": "Broad chordal span",
-      "m": "C"
-    },
-    {
-      "t": 174,
-      "label": "Retreat towards the close",
-      "m": "D"
-    }
+    { "t": 0, "label": "A · Bells, then rushing triplets", "m": "A", "mNote": "A–G♯–C♯ tolls beneath quiet chords" },
+    { "t": 94, "label": "B · Triplets gather force", "m": "B", "mNote": "The Agitato melody climbs over running notes" },
+    { "t": 128, "label": "C · Bell chords return", "m": "C", "mNote": "The opening spreads across four staves" },
+    { "t": 174, "label": "D · Quiet chords over C♯", "m": "D", "mNote": "A low C♯ holds beneath the closing chords" }
   ],
   "cues": [
     {
-      "t": 0,
-      "kind": "world",
-      "title": "Two issued takes",
-      "text": "Victor814 can contain either of two 1921 takes according to DAHR. A catalogue number alone cannot turn this transfer into a securely identified October or December performance.",
-      "basis": "documented",
+      "bar": { "n": "0", "occ": 1 },
+      "kind": "music",
+      "title": "Three low notes",
+      "text": "A–G♯–C♯: three notes struck in octaves, <i>fortissimo</i>. The answer is astonishingly quiet, marked <i>ppp</i>. The same three-note descent keeps tolling beneath the chords.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "https://adp.library.ucsb.edu/index.php/matrix/refer/700010909"
+      "evidence": "Bosworth (1896) and Universal Edition (1910), opening upbeat and bars 1–4; Petro Kostandy’s Mutopia engraving. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
+    },
+    {
+      "bar": { "n": "14", "occ": 1 },
+      "kind": "music",
+      "title": "Triplets around a falling tune",
+      "text": "The <i>Agitato</i> sets triplets whirling around a melody that descends E–D♯–D♮–C♯. The right hand has two jobs: its outer notes sing while the fingers underneath keep moving.",
+      "basis": "score-aligned",
+      "precision": "passage",
+      "evidence": "Bosworth and Universal Edition score, bars 14–17: Agitato, with the descending melody separately stemmed above triplet quavers. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
     },
     {
       "t": 94,
-      "kind": "listen",
-      "title": "The central change",
-      "text": "The recorded texture changes strongly around here after a relatively quiet stretch. Compare the passage’s pace with the Edison reference; the onset-tempo estimate is not a reliable measure of this rubato.",
-      "basis": "audio-feature",
+      "kind": "life",
+      "title": "The encore that follows him",
+      "text": "Rachmaninoff writes the Prelude at nineteen. Years later, audiences still demand it before they let him leave the platform. The short piano piece follows its composer into recital halls around the world.",
+      "basis": "documented",
       "precision": "passage",
-      "evidence": "cache/analysis/rachmaninoff-prelude-c-sharp-minor-victor-1921.txt: novelty94 seconds; quiet level windows85–90 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Robert Matthew-Walker, notes to Hyperion CDA66081, on the Prelude’s composition and persistent demand as an encore. The issued take of this 1921 Victor transfer remains unidentified. https://www.hyperion-records.co.uk/dw.asp?dc=W6690_66081"
     },
     {
-      "t": 120,
-      "kind": "listen",
-      "title": "The recorded crest",
-      "text": "The highest five-second average level occurs here, with further high windows through2:35. Follow the breadth of the chordal span, not just the loudest isolated attack.",
-      "basis": "audio-feature",
+      "bar": { "n": "45", "occ": 1 },
+      "kind": "form",
+      "title": "Four staves, two hands",
+      "text": "The opening chords return at <i>Tempo primo</i>, now marked <i>fff pesante</i> — very loud and heavy. Rachmaninoff writes on four staves, two for each hand. The little bell figure fills the keyboard.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "cache/analysis/rachmaninoff-prelude-c-sharp-minor-victor-1921.txt: highest level120 seconds; other high windows135, 150, 140, 155 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Bosworth and Universal Edition score, bars 45–48: Tempo primo, fff pesante and four-stave piano notation. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
     },
     {
-      "t": 174,
-      "kind": "listen",
-      "title": "Withdrawing from the crest",
-      "text": "The strongest measured change falls here, before the increasingly quiet close. Compare the length of the retreat with the earlier performances, rather than inferring pedal changes from a noisy transfer.",
-      "basis": "audio-feature",
+      "bar": { "n": "55", "occ": 1 },
+      "kind": "music",
+      "title": "C♯ under the last chords",
+      "text": "A low C♯ stays beneath the last sequence of chords. The hands move by small steps above it, and the final C♯ minor chord is held under a fermata, <i>ppp</i>.",
+      "basis": "score-aligned",
       "precision": "passage",
-      "evidence": "cache/analysis/rachmaninoff-prelude-c-sharp-minor-victor-1921.txt: maximum novelty174 seconds; quietest late windows195–205 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "evidence": "Bosworth and Universal Edition score, bars 55–61: sustained low C♯ and the final ppp chord with fermata. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=2033"
     }
   ]
 };

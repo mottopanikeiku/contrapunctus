@@ -15,90 +15,99 @@ export default {
   key: 'D minor',
   forces: 'Piano',
   performers: 'Olena Havyuk-Sheremet, piano',
-  recorded: '2014-04-01',
+  recorded: '1 April 2014',
   source: { file: 'File:Maurice Ravel - Miroirs - 4. Alborada del gracioso.flac' },
-  intro: 'A Spanish dawn song for a clown: strummed chords and rapid repeated notes frame a long, free song in the middle. Same Lviv performance as the rest of Miroirs.',
-  question: 'How does a piano imitate a guitar, and then sing like a voice?',
+  "intro": "A Spanish jester sings at dawn, strumming between the verses. Ravel turns the piano into a guitar in <i>Alborada del gracioso</i>, then lets a lonely, unaccompanied voice interrupt the dance.",
 
-  sections: [
-    { t: 0, label: 'A · Guitar chords — Assez vif', m: 'A' },
-    { t: 95, label: 'B · The gracioso’s song — Plus lent', m: 'B' },
-    { t: 234, label: 'Link · The bass settles on A', m: 'Link' },
-    { t: 264, label: 'A′ · The chords return, ppp', m: 'A′', mNote: 'dry chords return in a new key; repeated notes and glissandi follow' },
-    { t: 304, label: 'Coda · Quiet staccato, then the last push', m: 'Coda' },
+  "sections": [
+    { "t": 0, "label": "A · Dry guitar chords", "m": "A", "mNote": "Tightly rolled chords and repeated notes drive the dance" },
+    { "t": 95, "label": "B · The jester sings alone", "m": "B", "mNote": "Plus lent: a bare melody answered by strummed chords" },
+    { "t": 234, "label": "Link · The bass settles on A", "m": "Link", "mNote": "The dance pulse returns over a repeated A" },
+    { "t": 264, "label": "A′ · Dry chords over E♭", "m": "A′", "mNote": "The opening strums return at ppp in a new key" },
+    { "t": 304, "label": "Coda · Staccato chords and the final rush", "m": "Coda", "mNote": "Quiet chords gather speed towards the D-major ending" }
   ],
 
-  cues: [
-    { t: 0, kind: 'form', title: 'A dawn song for a clown', text: 'An alborada is a dawn song, and the gracioso a stock comic servant of Spanish drama. Ravel marks the opening Assez vif, dotted crotchet = 92, in 6/8, mf sec, with the arpeggios packed very tightly (très serrés): the dry chords imitate strummed guitar strings.', basis: 'score-proportion', precision: 'passage', evidence: 'The marking, the tempo and the tight arpeggiated chords are on scan p. 31 of the first edition (IMSLP #02693); the guitar imitation is noted by the PTNA Piano Encyclopedia (https://enc.piano.or.jp/en/musics/329) and the title’s meanings by Wikipedia’s Alborada del gracioso article (https://en.wikipedia.org/wiki/Alborada_del_gracioso). The report shows about four to five attacks a second through the first 20 seconds.' },
-    { t: 24, kind: 'music', title: 'The root slides, then an outburst', text: 'A published analysis hears the root slide from D to B♭ to D♭, each chord treated as a tonic. In the recording, the quiet strums give way at about 0:45 to a fortissimo burst, with bars of 3/8 and 9/8 among the 6/8.', basis: 'audio-feature', precision: 'passage', evidence: 'The report has boundaries at 0:16 (0.58) and 0:48 (0.59); the level jumps from −15.4 dB at 0:40 to −8.8 dB at 0:45, and its key estimates (B♭ major at 0:20–0:35, C♯ major at 0:45–0:50) are chroma-based guesses that happen to agree. The root movement D–B♭–D♭ is described in the PTNA Piano Encyclopedia analysis; the 3/8 and 9/8 ff bars are on scan pp. 32–33.' },
-    { t: 58, kind: 'music', title: 'One note, repeated', text: 'At about 0:56 a double bar brings four sharps and p subito. The right hand repeats one note in tight sixteenths, broken by quick scales, over a simple left-hand pattern. About 1:14 two sharps replace four, and the repeated note moves with the key.', basis: 'audio-feature', precision: 'passage', evidence: 'The report has boundaries at 0:56 (0.60) and 1:14 (0.97, the strongest of the first two minutes); the strongest pitch class at 0:55–1:10 is A♭ (= G♯), the pitch repeated in the right hand. The four-sharp and two-sharp signatures and the repeated figure are on scan pp. 33–34; exact bars are not aligned.' },
-    { t: 82, kind: 'world', title: 'Spain, at one remove', text: 'Ravel’s mother, Marie, was Basque but had grown up in Madrid. The Spanish pianist Ricardo Viñes, who gave the first performance of Miroirs, is described as an important link between Ravel and Spanish music. The Rapsodie espagnole followed in 1907–08.', basis: 'documented', precision: 'passage', evidence: 'Ravel’s mother’s Basque origin and Madrid upbringing, Viñes’s role as a link to Spanish music and the date of the Rapsodie espagnole are in Wikipedia’s Maurice Ravel article (https://en.wikipedia.org/wiki/Maurice_Ravel).' },
-    { t: 100, kind: 'music', title: 'The clown’s song', text: 'After a fermata the dance stops. A single line begins, marked Plus lent and mf expressif en récit (like recitative), in 3/4 with nothing in the left hand. Strummed chords break in at the first tempo and fall silent again. The recording is at its quietest here, near −30 dB.', basis: 'audio-feature', precision: 'passage', evidence: 'Two of the report’s five quietest windows are 1:40 and 1:50 (−29.3 and −31.6 dB), with the onset rate at 1.0–1.6 a second. The Plus lent, the 3/4 recitative and the returning chords marked 1er Mouvement are on scan p. 35. Wikipedia’s Alborada del gracioso article calls the central episode the clown’s song.' },
-    { t: 132, kind: 'listen', title: 'Le chant, answered by strums', text: 'Around 2:10, in a Plus lent bar, the left hand sings a long low line marked le chant mf très expressif, against soft pp chords in the right hand. Strummed chords, pp très rythmé, answer it at the first tempo. Listen for the two characters trading places: a slow tune and a steady dance.', basis: 'audio-feature', precision: 'passage', evidence: 'The report has a boundary at 2:08 (0.93), and the level rises from −27.2 dB at 2:05 to −18.3 dB at 2:10. The long left-hand line marked le chant mf très expressif under pp right-hand chords, and the pp très rythmé reply with the alternating Plus lent and 1er Mouvement bars, are on scan p. 36 (systems 3–4); exact bars are not aligned.' },
-    { t: 170, kind: 'music', title: 'Même mouvement, ff', text: 'Around 2:50 the song rises to ff très expressif at the same tempo, in chords an octave higher, then fades through diminuendo and cédez légèrement into a quiet 6/8 with the pedal held. At about 3:15 it returns, mf expressif, in the brightest stretch of the middle section.', basis: 'audio-feature', precision: 'passage', evidence: 'The report has boundaries at 2:50 (0.72) and 3:12 (0.78); the level is −11.7 dB at 2:50 and −9.9 dB at 3:15, with brightness 1030 Hz at 3:15, the highest of the middle section. The même mouvement, ff très expressif, cédez légèrement and Gardez la Ped. markings are on scan p. 37 and the Plus lent mf expressif on scan p. 38; exact bars are not aligned.' },
-    { t: 195, kind: 'world', title: 'For a critic and a clown', text: 'Ravel dedicated Alborada to the critic Michel-Dimitri Calvocoressi, who with Ravel and Viñes formed the core of the Apaches. In Roger Nichols’s account, Ravel said the clown was humorous but with an edge, less good-natured than Beaumarchais’s Figaro.', basis: 'documented', precision: 'passage', evidence: 'The dedication is on IMSLP’s work page and Calvocoressi’s place among the Apaches in Wikipedia’s Les Apaches article (https://en.wikipedia.org/wiki/Les_Apaches). Ravel’s remark on the clown is reported in Roger Nichols’s note for Hyperion CDA67731/2 (https://www.hyperion-records.co.uk/dw.asp?dc=W5434_67731).' },
-    { t: 215, kind: 'music', title: 'Chromatic piling-up, then A', text: 'At 3:32, the report’s strongest boundary, the song’s ff chords pile up chromatic notes, some with double sharps, and the report cannot settle on a key. From about 3:55 the bass stays on A, p, sans ralentir, while the level falls away.', basis: 'audio-feature', precision: 'passage', evidence: 'The report’s boundary at 3:32 scores 1.00; its key confidence is 0.35–0.51 at 3:30–3:45, with estimates shifting among F♯, C♯ and G. At 3:55–4:15 the report’s bass is A in every window and the level falls from −11.0 dB at 4:00 to −23.0 dB at 4:20. The double sharps are on scan p. 39 (system 1) and the p sans ralentir bars on system 4. The key estimates are chroma-based guesses.' },
-    { t: 240, kind: 'world', title: 'An encore on the first night', text: 'Viñes gave the first performance of Miroirs on 6 January 1906 at the Salle Érard, for the Société nationale de musique. According to Roger Nichols, Alborada was encored.', basis: 'documented', precision: 'passage', evidence: 'The date, the hall and the society are on IMSLP’s work page; the encore is in Roger Nichols’s note for Hyperion CDA67731/2 (https://www.hyperion-records.co.uk/dw.asp?dc=W5434_67731).' },
-    { t: 264, kind: 'form', title: 'The strums return, ppp', text: 'At about 4:24 a new key signature, with flats, and the marks très sec et bien rythmé and ppp bring back the dry guitar chords. The level rises about 14 dB in fifteen seconds. A published analysis has the root shift from E♭ to F♯ here.', basis: 'audio-feature', precision: 'moment', evidence: 'The report’s boundaries at 4:24 (0.90) and 4:30 (0.82) bracket a rise from −23.0 dB at 4:20 to −9.1 dB at 4:35. The flats, the ppp and the très sec et bien rythmé are at the foot of scan p. 39 and the crescendo bars on scan p. 40. The E♭-to-F♯ root shift is described in the PTNA Piano Encyclopedia analysis.' },
-    { t: 284, kind: 'music', title: 'Glissandi, then the repeated note', text: 'Around 4:40 the right hand sweeps up the keyboard in glissandi, one marked ff, between bars of a repeated-note figure. The four-sharp and two-sharp repeated-note passages of the first half then return, and the level climbs to ff again.', basis: 'audio-feature', precision: 'passage', evidence: 'The level is −8.2 dB at 4:40 and −8.2 dB at 5:00, with onset rates of 2.0–5.4 a second between. Three glissando passages are on scan p. 40 (systems 3–5), the last marked ff; the repeated-note bars in four and two sharps repeat the pattern of scan pp. 33–34 at the foot of p. 40 and on p. 41. Exact bars are not aligned.' },
-    { t: 302, kind: 'form', title: 'The same fermata, a different answer', text: 'At about 5:03 a chord marked sec. stops under a fermata, as it did before the song. This time no song follows: quiet staccato chords over low repeated notes take its place, and the level drops to about −21 dB.', basis: 'audio-feature', precision: 'moment', evidence: 'The level falls from −8.2 dB at 5:00 to −21.3 dB at 5:05. The ff chord marked sec. with its fermata, followed by pp staccato chords, is on scan p. 41 (systems 4–5); the corresponding stop before Plus lent is on scan pp. 34–35. The recording’s own fermata length is not measured.' },
-    { t: 320, kind: 'world', title: 'Orchestrated for a Spanish ballet', text: 'Ravel orchestrated Alborada in 1918, at the invitation of Sergei Diaghilev, for a Spanish-themed ballet, Les jardins d’Aranjuez, staged at London’s Alhambra Theatre in 1919. The orchestral version was first heard in Paris on 17 May 1919, under Rhené-Baton.', basis: 'documented', precision: 'passage', evidence: 'IMSLP’s work page dates Ravel’s orchestration of No. 4 to 1918; Wikipedia’s Alborada del gracioso article (https://en.wikipedia.org/wiki/Alborada_del_gracioso), Background section, gives Diaghilev’s commission, the London ballet and the Paris premiere of 17 May 1919.' },
-    { t: 336, kind: 'music', title: 'The last push', text: 'On the last page the chords build again, with accented forte bars, and Ravel writes sans ralentir, without slowing. Four of the report’s five loudest windows fall between 5:35 and 5:50.', basis: 'audio-feature', precision: 'passage', evidence: 'The loudest 5-second windows in the report are 5:35, 5:45, 5:40, 5:50 and 5:00, so four of the five are at 5:35–5:50. The accented bars and the sans ralentir are on scan p. 43; exact bars are not aligned.' },
-    { t: 352, kind: 'listen', title: 'No slowing at the end', text: 'The score ends fortissimo, sans ralentir. In this recording the sound is gone by about 5:55, where the level drops to −32 dB, and the file ends two seconds later.', basis: 'audio-feature', precision: 'moment', evidence: 'The level is −7.5 dB at 5:50 and −32.2 dB at 5:55, with the onset rate falling to 0.2 a second; the file ends at 5:57. The final bars and the marking are on the last system of scan p. 43.' },
+  "cues": [
+    {
+      "t": 0, "kind": "music", "title": "A guitar with hammers",
+      "text": "The piano strums: tightly rolled chords, marked <i>sec</i>, dry, with sharp bass notes underneath. Ravel sets the dance in 6/8 but keeps interrupting its step. The title promises a dawn song from a Spanish jester.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Miroirs, Demets edition (1906), p. 31: Assez vif, mf sec, les arpèges très serrés. Guitar imitation and the title: https://enc.piano.or.jp/en/musics/329. Score: https://vmirror.imslp.org/files/imglnks/usimg/e/e2/IMSLP02693-Ravel-Miroirs,DemetsEd.pdf"
+    },
+    {
+      "t": 58, "kind": "music", "title": "One key, many fingers",
+      "text": "The right hand hammers a repeated note at extraordinary speed, with little scales darting away from it. The left hand keeps a spare accompaniment underneath. A guitar’s repeated pluck becomes a test of the piano’s quick-returning keys.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, pp. 33–34: rapid repeated-note passages and short scales; the technique is described at https://enc.piano.or.jp/en/musics/329."
+    },
+    {
+      "t": 95, "kind": "form", "title": "The jester’s solitary song",
+      "text": "The dance stops under a fermata. A single melody follows, <i>Plus lent</i> and <i>expressif en récit</i>, like someone speaking in song. The left hand is silent. Strummed chords keep interrupting at the old tempo.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, p. 35: fermata, Plus lent, 3/4 recitative and alternating 1er Mouvement chords."
+    },
+    {
+      "t": 195, "kind": "world", "title": "A jester for a critic",
+      "text": "Ravel dedicates this movement to Michel-Dimitri Calvocoressi, the critic and musicologist in his circle of friends. In <i>Miroirs</i>, Calvocoressi receives the Spanish jester; Ricardo Viñes receives the sad birds.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Dedications and Calvocoressi’s profession: https://imslp.org/wiki/Miroirs,_M.43_(Ravel,_Maurice) and https://enc.piano.or.jp/en/musics/329."
+    },
+    {
+      "t": 234, "kind": "music", "title": "A underneath the song",
+      "text": "The song comes down from its high chords and the bass settles on A. Ravel writes <i>sans ralentir</i>, without slowing. The repeated note brings back the dance’s pulse before the dry guitar chords return.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, p. 39, third and fourth systems: p expressif, then repeated A and sans ralentir."
+    },
+    {
+      "t": 264, "kind": "form", "title": "The guitar returns on tiptoe",
+      "text": "The strummed chords return at <i>ppp</i>, over E♭ in the bass. Ravel wants them very dry and firmly in rhythm. Their quiet start leaves room for the repeated notes and glissandos that follow.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, pp. 39–40: ppp, très sec et bien rythmé, E♭ bass and subsequent glissandos. The E♭ return is also described at https://enc.piano.or.jp/en/musics/329."
+    },
+    {
+      "t": 304, "kind": "form", "title": "The jester keeps dancing",
+      "text": "Another dry chord stops under a fermata. This time quiet staccato chords follow over low repeated notes. The song stays away: the piano gathers itself for a final rush to D major, with no slowing at the end.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, pp. 41–43: sec. fermata chord, pp staccato passage and final sans ralentir. The D-major close is described at https://enc.piano.or.jp/en/musics/329."
+    }
   ],
 
-  transitions: [
+  "transitions": [
     {
-      id: 'dance-to-song',
-      title: 'A fermata, then a song with no accompaniment',
-      from: 'A',
-      to: 'B',
-      at: { t: 95 },
-      span: [83, 110],
-      how: '<p>The dance section runs down through quiet chords with a few forte–piano accents, then a fortissimo chord under a fermata stops the pulse. Ravel then writes Plus lent and changes to 3/4: a single line, mf expressif en récit, with the left hand silent. The strummed chords are gone, and the dance rhythm gives way to the free declamation of a song.</p>',
-      devices: ['fermata', 'tempo change', 'metre change', 'texture change'],
-      basis: 'audio-feature',
-      precision: 'passage',
-      evidence: 'The attack rate falls to 0.2 a second at 1:35, and the 1:40 and 1:50 windows are two of the five quietest of the recording (−29.3 and −31.6 dB). The pp chords, the fermata chord, the Plus lent and the 3/4 recitative are on scan pp. 34–35 of the first edition (IMSLP #02693); the exact bars are not aligned.',
+      "id": "dance-to-song", "title": "A fermata leaves one voice",
+      "from": "A · Dry guitar chords", "to": "B · The jester sings alone",
+      "at": { t: 95 }, "span": [83, 110],
+      "how": "<p>The dance reaches a fortissimo chord and stops under a fermata. Ravel changes to 3/4 and <i>Plus lent</i>: one unaccompanied line sings <i>expressif en récit</i>. The strummed chords return between its phrases at <i>1er Mouvement</i>.</p>",
+      "devices": ["fermata", "tempo change", "metre change", "texture change"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition (1906), pp. 34–35."
     },
     {
-      id: 'song-to-repeated-a',
-      title: 'Chromatic chords thin to a repeated A',
-      from: 'B',
-      to: 'Link',
-      at: { t: 234 },
-      span: [221, 249],
-      how: '<p>The song’s last chords, marked ff très expressif, pile up chromatic notes (some with double sharps). Then they quieten to p expressif, and a repeated A starts in the bass, marked p and sans ralentir (without slowing). In the recording the bass stays on A for about twenty seconds while the level falls. The dance tempo is back before the dance chords are.</p>',
-      devices: ['decrescendo', 'texture change', 'link passage'],
-      basis: 'audio-feature',
-      precision: 'passage',
-      evidence: 'The report has boundaries at 3:32 (1.00) and 3:54 (0.66); its bass is A in every window at 3:55–4:15, and the level falls from −11.0 dB at 4:00 to −23.0 dB at 4:20. The ff très expressif chords with double sharps, the p expressif bars and the p sans ralentir bars are on scan p. 39 (systems 1–4). Exact bars are not aligned.',
+      "id": "song-to-repeated-a", "title": "The song descends to A",
+      "from": "B · The jester sings alone", "to": "Link · The bass settles on A",
+      "at": { t: 234 }, "span": [221, 249],
+      "how": "<p>The high chords marked <i>ff très expressif</i> descend into a quieter phrase. The piano settles on a repeated A, with <i>sans ralentir</i> above it. The dance pulse resumes as the last notes of the song die away.</p>",
+      "devices": ["decrescendo", "texture change", "link passage"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, p. 39, first four systems."
     },
     {
-      id: 'link-to-return',
-      title: 'New flats, ppp, très sec',
-      from: 'Link',
-      to: 'A′',
-      at: { t: 264 },
-      span: [252, 278],
-      how: '<p>The repeated A fades to pianissimo, and a double bar brings a new key signature with flats. Ravel marks très sec et bien rythmé and ppp: the tight, dry chords of the opening return, but in a different key and at almost no volume. Hairpins and a rise through p and f then build them up over the next page. The dance returns by stealth, not by a loud downbeat.</p>',
-      devices: ['direct modulation', 'decrescendo', 'crescendo build', 'motivic link'],
-      basis: 'audio-feature',
-      precision: 'passage',
-      evidence: 'The report’s boundaries at 4:24 (0.90) and 4:30 (0.82) bracket a rise from −23.0 dB at 4:20 to −9.1 dB at 4:35. The double bar, the flats, the ppp and the très sec et bien rythmé are at the foot of scan p. 39; the crescendo bars are on scan p. 40. The exact bar is not aligned.',
+      "id": "link-to-return", "title": "A becomes E♭ beneath the strums",
+      "from": "Link · The bass settles on A", "to": "A′ · Dry chords over E♭",
+      "at": { t: 264 }, "span": [252, 278],
+      "how": "<p>The repeated A quietens, then the bass moves to E♭ beneath the returning guitar chords. Ravel marks them <i>ppp</i> and <i>très sec et bien rythmé</i>. The harmony moves on towards F♯ as the chords grow louder.</p>",
+      "devices": ["direct modulation", "decrescendo", "crescendo build", "motivic link"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, pp. 39–40; E♭–F♯ route described at https://enc.piano.or.jp/en/musics/329."
     },
     {
-      id: 'return-to-coda',
-      title: 'The fermata chord leads to quiet staccato',
-      from: 'A′',
-      to: 'Coda',
-      at: { t: 304 },
-      span: [292, 318],
-      how: '<p>The repeated-note passage and the pattern of the first dance section return, building to a fortissimo chord marked sec. under a fermata. At the first fermata a song followed; here, Ravel writes quiet staccato chords over low repeated notes in the left hand at pp. The fortissimo outburst is not followed by a song. The quiet chords are the start of the last stretch.</p>',
-      devices: ['fermata', 'decrescendo', 'texture change', 'motivic link'],
-      basis: 'audio-feature',
-      precision: 'passage',
-      evidence: 'The level falls from −8.2 dB at 5:00 to −21.3 dB at 5:05. The ff chord marked sec., the fermata and the pp staccato bars are on scan p. 41 (systems 4–5) of the first edition; the corresponding first fermata is on scan pp. 34–35. The exact bars are not aligned.',
-    },
+      "id": "return-to-coda", "title": "Quiet chords after the fermata",
+      "from": "A′ · Dry chords over E♭", "to": "Coda · Staccato chords and the final rush",
+      "at": { t: 304 }, "span": [292, 318],
+      "how": "<p>The repeated-note passage ends on a fortissimo chord marked <i>sec.</i>, held under a fermata. Quiet staccato chords follow, with low repeated notes in the left hand. Ravel keeps the dance moving into the coda, which eventually closes in D major.</p>",
+      "devices": ["fermata", "decrescendo", "texture change", "motivic link"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Demets edition, p. 41, last two systems; D-major close on p. 43."
+    }
   ],
 };

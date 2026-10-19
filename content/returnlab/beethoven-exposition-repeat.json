@@ -1,23 +1,23 @@
 {
   "id": "beethoven-exposition-repeat",
   "track": "beethoven-5-first",
-  "title": "Beethoven: the same exposition twice",
-  "question": "What differs when the score changes nothing?",
+  "title": "Beethoven: the exposition, twice",
+  "question": "How do the opening pauses feel the second time?",
   "kind": "literal repeat",
   "status": "provisional",
-  "intro": "The repeat sign sends bars 1–124 back to bar 1 with the same notes, instruments and written markings. This is the control: two passes through one exposition in the same recording, not the later recapitulation. Timing is aligned automatically, not checked by ear; measured differences are provisional and do not establish intention.",
+  "intro": "Three short Gs land on a held E♭, then three Fs on a held D. At the repeat sign, Beethoven sends the orchestra back through all 124 bars: the pauses, the horn call and the quiet violin tune in E♭ major.",
   "first": {
-    "label": "Exposition · first pass",
+    "label": "The exposition",
     "from": { "n": "1", "occ": 1 },
     "to": { "n": "124", "occ": 1 }
   },
   "second": {
-    "label": "Exposition · literal repeat",
+    "label": "The exposition again",
     "from": { "n": "1", "occ": 2 },
     "to": { "n": "124", "occ": 2 }
   },
   "scoreChanges": [],
-  "listenFor": "Compare the lengths of the opening pauses and the relative level of the quieter second tune, without treating a measured difference as a written change.",
+  "listenFor": "The held E♭ and D stop the opening in its tracks on each pass, before the strings set off again.",
   "sources": [
     {
       "title": "Mutopia 941: Beethoven, Symphony No. 5, first movement — Breitkopf and Härtel, 1862–65",

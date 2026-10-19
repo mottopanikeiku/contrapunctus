@@ -25,80 +25,44 @@ export default {
       ]
     }
   },
-  "intro": "Pachmann’s DB 860 side begins with the F-major Étude, Op. 25 No. 3, before the C-sharp-minor Waltz. Both pieces remain in the original file; the comparison starts at the waltz’s later entry rather than silently removing the étude. A contemporary December 1925 review establishes that this side was already published.",
-  "question": "How does Pachmann compress a waltz on a shared disc side?",
+  "intro": "Pachmann fits two Chopin pieces onto this 1925 HMV side: the F major Étude, Op. 25 No. 3, followed by the C♯ minor Waltz. A pianist born in 1848 meets the new electrical recording process.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Étude Op. 25 No. 3",
-      "m": "A"
-    },
-    {
-      "t": 68,
-      "label": "Étude continuation",
-      "m": "B"
-    },
-    {
-      "t": 117,
-      "label": "Waltz begins",
-      "m": "C"
-    },
-    {
-      "t": 164,
-      "label": "Waltz central span",
-      "m": "D"
-    },
-    {
-      "t": 262,
-      "label": "Waltz close",
-      "m": "E"
-    }
+    { "t": 0, "label": "A · The F major Étude", "m": "A", "mNote": "Four piano voices move in a galloping rhythm" },
+    { "t": 68, "label": "B · The Étude continues", "m": "B", "mNote": "The hands keep their quick sideways leaps" },
+    { "t": 117, "label": "C · The C♯ minor Waltz", "m": "C", "mNote": "Held melody notes above three-beat accompaniment" },
+    { "t": 164, "label": "D · Waltz melody and running quavers", "m": "D", "mNote": "The right hand alternates song and quick descending phrases" },
+    { "t": 262, "label": "E · The Waltz’s final chords", "m": "E", "mNote": "The shared record side ends in C♯ minor" }
   ],
   "cues": [
     {
-      "t": 0,
-      "kind": "world",
-      "title": "The first piece is an étude",
-      "text": "This is the complete HMV DB 860 side 2, not an isolated waltz file. Alan Kelly’s matrix discography identifies Op. 25 No. 3 followed by Op. 64 No. 2 on Cc6260-1.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://gramophonecompanydiscography.com/PDF/File%20D%20-%20BB.pdf"
+      "t": 0, "kind": "form", "title": "The Étude comes first",
+      "text": "The first piece is Chopin’s F major Étude, Op. 25 No. 3. Its hands jump sideways while four voices share the galloping rhythm. Pachmann puts it before the C♯ minor Waltz on a single HMV record side.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Programme order: https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2. Étude’s four voices and lateral hand movements: https://en.wikipedia.org/wiki/Étude_Op._25,_No._3_(Chopin)"
     },
     {
-      "t": 117,
-      "kind": "listen",
-      "title": "The waltz enters",
-      "text": "The quieter end of the étude gives way to the waltz around this point. The comparison map uses absolute times in this original stream, so its opening is not at the file’s zero.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-waltz-op64-2-pachmann-1925.txt: low-level region110–115 seconds; strong novelty118 seconds and C-sharp-minor region from 120 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 68, "kind": "world", "title": "Pachmann meets the microphone",
+      "text": "At Hayes on 26 June 1925, Pachmann plays his own Baldwin for HMV. These sessions produce the company’s first electrical solo-piano recordings. In December, the critic K. K. complains about the new sound in <i>The Gramophone</i>, yet welcomes one improvement: “he does not utter a word the whole time.”",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Session and instrument documentation, quoting K. K., The Gramophone, December 1925, pp. 338–39: https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2"
     },
     {
-      "t": 164,
-      "kind": "listen",
-      "title": "The waltz changes colour",
-      "text": "The analysis finds a change around 2:44 within the waltz. Follow the continuity of its line rather than treating the earlier étude as part of the same formal design.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-waltz-op64-2-pachmann-1925.txt: novelty164 seconds; the first117 seconds belong to another work Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 117, "kind": "music", "title": "A waltz after the Étude",
+      "text": "The C♯ minor Waltz begins with a melody in paired notes, held across the bar line. Short curls answer it, above the left hand’s bass note and two chords. After the Étude’s bustling four voices, the piano settles into three beats.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Waltz opening, Knute Snortum engraving (2023), p. 1. The established section boundary marks the change of work. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
     },
     {
-      "t": 185,
-      "kind": "listen",
-      "title": "A later local crest",
-      "text": "This is one of the side’s highest average-level windows after the waltz has begun. The louder early windows belong to the preceding étude and must not be used as the waltz’s climax.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-waltz-op64-2-pachmann-1925.txt: high level185 seconds; global highest60 seconds belongs to Étude Op25/3 Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 185, "kind": "world", "title": "Talking at the keyboard",
+      "text": "Onstage, Pachmann talks before playing and sometimes while playing. At Yale, an all-Chopin recital programme announces his Baldwin piano; the inside cover advertises Steinway. Even the printed programme has room for an argument.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Yale School of Music’s surviving programme and account of Pachmann’s stage manner: https://music.yale.edu/2009/04/03/from-the-archives-vladimir-de-pachmanns-all-chopin-recital-at-the-yale-school-of-music. The programme itself is undated."
     },
     {
-      "t": 262,
-      "kind": "listen",
-      "title": "The shared side closes",
-      "text": "A final measured change precedes the quiet end of the side. Keep the phrase and its remaining resonance together, but do not count the étude’s time when comparing waltz durations.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "cache/analysis/chopin-waltz-op64-2-pachmann-1925.txt: novelty262 seconds; quiet late windows265–275 seconds Five-second level windows and two-second novelty estimates do not locate individual notes or prove a pedalling choice."
+      "t": 262, "kind": "form", "title": "C♯ minor closes the side",
+      "text": "The waltz’s running tune carries the ending. Its descending quavers finally reach the C♯ minor cadence: the second piece, and the record side, end together.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Score, final Più mosso and cadence, p. 5. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
     }
   ]
 };

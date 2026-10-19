@@ -1,20 +1,20 @@
-# Writing for the Listening Room
+# Writing for the Concert Hall
 
-The Listening Room is the heart of the site. A real recording plays automatically, a live visualizer runs beside it, and timed notes appear as the music unfolds. The notes explain what is happening in the music at that moment and tell the composer's life and world. The programme plays straight through, from Bach to the present.
+A real recording plays while the Hall shows the score, the orchestra or the sound, and short notes appear as the music reaches them. The notes say what is happening in the music and, in the quiet stretches, something worth knowing about the composer and the work's world. Most readers glance at a note and go back to listening, so each one has to earn its place.
 
-Read `content/listen/mahler-5-adagietto.mjs` in full first. It is the exemplar: match its density, tone, cue spacing and evidence discipline. House style is in `AUTHORING.md` (no filler, every sentence a fact, British spelling, curly quotes). Composer biographies already exist in `content/composers/<slug>.mjs`; mine them for life and world cues, but don't contradict them.
+Read `content/listen/debussy-faune.mjs` in full first; it is the exemplar. House style is in `AUTHORING.md`. Composer biographies live in `content/composers/<slug>.mjs`; draw life and world notes from them and never contradict them.
 
 ## Choosing a recording
 
-1. `node tools/audio.mjs search "<composer> <work>"` lists Commons audio files.
+1. `node tools/audio.mjs search "<composer> <work>"` lists Commons audio files; `node tools/audio.mjs archive "<query>"` and `archive-files <identifier>` search the Internet Archive.
 2. `node tools/audio.mjs check "File:<exact title>"` shows duration, licence, performer, description and the stream URL.
 3. Requirements:
-   - Licence is Public domain, CC0, CC BY or CC BY-SA. Commons' own licence field is authoritative.
+   - Licence is Public domain, CC0, CC BY or CC BY-SA (the host's licence field is authoritative), or an Internet Archive item with a documented US public-domain basis (`source.rights`, see `tools/validate.mjs`).
    - Must have a stream URL (an MP3 derivative).
    - One complete movement or piece, ideally **3–14 minutes**. Never a fragment that cuts off mid-phrase.
-   - The best performance and sound quality available: prefer professional or major-conservatory ensembles (Musopen, US military bands and orchestras, European Archive LPs, conservatory orchestras) over amateur or MIDI renderings. **Never a synthesized or MIDI rendering.**
-   - Choose the work that shows the composer best. A famous, characteristic movement beats an obscure complete piece.
-4. If nothing on Commons meets these rules for a composer, write no file for them and say so in your report. Do not use other hosts.
+   - The best performance and sound available: professional or major-conservatory ensembles over amateur recordings. **Never a synthesized or MIDI rendering.**
+   - The work that shows the composer best. A famous, characteristic movement beats an obscure complete piece.
+4. If nothing meets these rules, write no file and say so in your report.
 
 ## The file: `content/listen/<id>.mjs`
 
@@ -25,42 +25,53 @@ export default {
   id, composer: '<slug from content/roster.mjs>', order: 1,  // order among this composer's tracks
   work: 'Symphony No. 5', movement: 'IV. Adagietto — Sehr langsam' | '',
   year: '1901–02', key: 'F major' | '', forces: 'Strings and harp',
-  performers: 'Exactly as documented on the Commons file page; leave out what is not documented',
+  performers: 'Exactly as documented by the source; leave out what is not documented',
   recorded: '1958' | '',
-  tuning: 415,   // ONLY for period-instrument recordings at a non-modern pitch (A = 415, 430, 392…); omit for A = 440/442
+  tuning: 415,   // ONLY for period-instrument recordings at a non-modern pitch; omit for A = 440/442
   source: { file: 'File:<exact Commons title>' },
-  intro: 'One or two sentences: why this piece, what to listen for.',
-  sections: [{ t: seconds, label: 'Exposition · first theme' }, ...],  // 3–8 large formal sections
-  cues: [{ t: seconds, kind, title, text, evidence? }, ...],
+  intro: 'One or two sentences: what this is and the one thing that makes it worth hearing.',
+  sections: [{ t: seconds, label: 'A · Flute alone', m: 'A', mNote? }, ...],  // 3–8 large formal sections
+  cues: [{ t | bar, kind, title, text, basis, precision, evidence }, ...],
+  transitions: [...],   // optional, see CONTRACTS.md
 };
 ```
 
-Period-instrument ensembles often play at A = 415 Hz, a semitone below modern pitch, and the audio analysis will then read every key a semitone low (G minor appears as F♯ minor). If the performers use historical pitch, set `tuning` (and say so in a cue), and interpret the report's keys and pitch classes as shifted accordingly.
+Period-instrument ensembles often play at A = 415 Hz, a semitone below modern pitch; the audio analysis then reads every key a semitone low. Set `tuning` and interpret the analysis accordingly.
 
-Then run `node tools/audio.mjs analyze content/listen/<id>.mjs`. It downloads the recording and writes the analysis report to `cache/analysis/<id>.txt`. Read the report before you write a single timestamp.
+`node tools/audio.mjs analyze content/listen/<id>.mjs` downloads the recording and writes `cache/analysis/<id>.txt`. Use it to locate the large formal boundaries. It is a tool for the author, never a source of prose.
 
-## Cues
+## Notes (`cues`)
 
-- `kind` is one of:
-  - `music`: what you are hearing now (instruments, harmony, texture, rhythm, technique).
-  - `form`: where we are in the structure.
-  - `listen`: what to listen for next, or a performance or interpretation point.
-  - `life`: the composer's biography.
-  - `world`: art, history, people and reception around the work.
-- Aim for roughly one cue every 30–45 seconds. The first cue is at `t: 0`. Mix the kinds: at least 40% `music`/`form`/`listen`, and at least 3 `life`/`world` cues per track. Put life and world cues in passages where little new happens musically.
-- `title`: 2–6 words. `text`: 1–3 sentences, **at most 55 words**. They are read while listening.
-- Speak to the listener in the present tense about the sound ("The horns enter…", "Listen for…").
+**Fewer, better.** Between 3 and 10 notes per recording, and no more than one per 45 seconds of music. Each note exists because something is worth saying at that point. Long silences between notes are fine: the music is playing.
 
-## Timing discipline (the most important rule)
+- `kind`:
+  - `music` — what is happening now, by name: an entry, a key, a return, a marking in the score, a technique.
+  - `form` — where we are: the start of a section, a return, the coda.
+  - `life` / `world` — the composer, the première, the people, the reception. Put these where the music does not need comment (a repeat, a long held passage).
+  - `listen` — retired. Say what happens instead of telling the reader what to do.
+- `title`: 2–6 words, concrete. “Harp, then horns”, not “A broad early swell”.
+- `text`: at most 55 words, present tense, plain. Name the instrument, the key, the marking. A note may be one sentence.
+- `precision: 'passage'` notes must stay true if they appear ten seconds early or late: write about the passage (“The middle section moves to G♭ …”), not the instant.
+- `evidence` is shown to readers under “How we know”. One or two plain sentences naming the source: the score (edition, bars), a letter, a book with page, a programme note with its URL. Never decibels, file paths, “the report” or analysis figures.
 
-You cannot hear the recording. Every `music`, `form` and `listen` cue that refers to a specific event must be anchored in the analysis report: a structural boundary, a loudness jump, a change in brightness, a shift in key region, a change in onset density, or the start or end of sound. Record the anchor in `evidence`. Evidence is never shown to readers; it is used to audit you.
+## Timing
 
-Combine the report with what you know of the score. Bar-count proportions help: if a movement has 103 bars and a middle section starts at bar 39, its boundary should fall roughly 35–45% of the way through, adjusted for tempo changes. If the report and your expectation disagree, trust the report for timing and describe the event more generally.
+You cannot hear the recording, so anchor every time to something established:
 
-Where you cannot locate an event precisely, do not claim it at a time. Write a general `listen` cue ("Throughout this section…") or a `life`/`world` cue. Never invent instrument entrances or bar numbers you cannot anchor. Key estimates from audio can confuse a key with its dominant or relative; treat them as confirmation only.
+1. **Score-aligned bars.** Where `docs/assets/data/<id>/score.json` exists, use `bar: { n, occ }` and `basis: 'score-aligned'` for anything tied to a moment.
+2. **Section boundaries.** The recording's `sections[].t` are the established formal joins. A `form` or `music` note about a new section goes at (or just after) its boundary, with `basis: 'score-proportion'` and `precision: 'passage'`.
+3. **Existing times.** Keep an existing note's `t` when the event it names is known to be there.
 
-`life` and `world` cues need no audio evidence, but they must be facts you are certain of.
+Never name an instrument entrance, a sung word or a bar number at a moment unless one of these supports it. When you cannot place an event, write about the whole passage or the whole piece, or write a `life`/`world` note. Key estimates from audio can confuse a key with its dominant or relative; never rely on them alone.
+
+`life` and `world` notes need no timing evidence, but they must be facts you are certain of, with the source in `evidence`.
+
+## Introductions, sections and joins
+
+- `intro`: one or two sentences. What this is and why it is worth hearing. No instructions.
+- `sections[].label`: `A · Flute alone, then the orchestra`. Concrete, under eight words after the letter. `mNote` ≤ 12 words.
+- `transitions[].how`: at most 80 words. The chord at the join, the bass, the instrument that carries across, the marking. Name them; no morals.
 
 ## Validation
 
-`node tools/validate.mjs content/listen/<id>.mjs` must print `ok`. It checks the schema, the recording's licence and stream, that cue and section times are sorted and within the duration, the word limits, and that the composer exists.
+`node tools/validate.mjs content/listen/<id>.mjs` must print `ok`. It checks the schema, the recording's licence and stream, sorted times within the duration, word limits, note counts and the house-style patterns in `AUTHORING.md`.

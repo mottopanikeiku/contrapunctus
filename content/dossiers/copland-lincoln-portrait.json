@@ -1,0 +1,160 @@
+{
+  "id": "copland-lincoln-portrait",
+  "work": {
+    "title": "Lincoln Portrait",
+    "catalogue": "ARCO 46",
+    "movement": "",
+    "version": {
+      "value": "1942 work for narrator and orchestra; narration in English",
+      "status": "documented",
+      "sourceIds": ["sleeve", "work"],
+      "note": "The LP calls it A Lincoln Portrait. This is the orchestral work, not Walter Beeler’s band transcription. The performing edition and session alterations are unknown."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Carl Sandburg", "role": "narrator" },
+      { "name": "New York Philharmonic", "role": "orchestra" },
+      { "name": "André Kostelanetz", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "sleeve"],
+    "note": "All three are explicitly credited on Columbia MS 6040. No individual orchestral players are identified."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "sleeve"],
+      "note": "1959 is the documented carrier issue year; a session date has not been established from the consulted carrier evidence.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "sleeve"],
+      "note": "The orchestra’s name does not establish a particular studio or concert venue."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks",
+      "status": "documented",
+      "sourceIds": ["archive", "sleeve"],
+      "note": "US stereo vinyl LP; sleeve explicitly identifies the stereo release."
+    },
+    "catalogue": {
+      "value": "MS 6040",
+      "status": "documented",
+      "sourceIds": ["archive", "sleeve"],
+      "note": "Archive catalogue dates this carrier to 1959; the sleeve also carries Library of Congress catalogue numbers beginning R59."
+    },
+    "matrixTakeSides": {
+      "value": "Side 1, band 1",
+      "status": "documented",
+      "sourceIds": ["files", "sleeve"],
+      "note": "The selected segmented file contains the complete Lincoln Portrait. Matrix, take and stamper identifiers are unknown."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP transfer",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Institutional transfer credit; no independently established personal mastering credit."
+    },
+    "date": {
+      "value": "2021-07-30",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "From ripping_date 20210730123604. The sleeve scan is separately dated 8 July 2021."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 with Audio-Technica AT95e cartridge → Radio Design Labs EZ-PH1 phono preamp → Focusrite Scarlett 2i2; segmented VBR MP3 derivative",
+      "status": "documented",
+      "sourceIds": ["archive", "files"],
+      "note": "The item documents this transfer chain. Equalisation, pitch correction, noise reduction and other restoration settings are unknown."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_a-lincoln-portrait-new-england-triptych_andr-kostelanetz-the-new-york-philharmonic/disc1/01.01.%20A%20Lincoln%20Portrait.mp3",
+    "sourceChain": ["sleeve", "archive", "files"],
+    "format": "VBR MP3 derivative of stereo vinyl LP",
+    "durationSeconds": 838.35
+  },
+  "rights": {
+    "composition": {
+      "value": "Copyrighted Copland composition; musical-work permissions administered by Boosey & Hawkes",
+      "status": "documented",
+      "sourceIds": ["work", "permissions"],
+      "note": "Lincoln’s nineteenth-century speeches and Copland’s twentieth-century musical work are distinct rights objects. No permission for republication of the complete composition or a modern score is asserted."
+    },
+    "recording": {
+      "value": "Territorial EU phonogram public-domain basis: commercial publication in 1959, before 1963",
+      "status": "inferred",
+      "sourceIds": ["archive", "sleeve", "discogs", "eu-term"],
+      "note": "Under the project’s eu-published-before-1963 rule, the documented commercial carrier’s former 50-year phonogram term had expired before the 2013 extension. This includes the recorded narration as part of the phonogram assessment. It is not US or worldwide clearance, not a Creative Commons licence and not a US-government recording; composition rights remain separate."
+    },
+    "creditLine": "Aaron Copland, Lincoln Portrait; Carl Sandburg, narrator; New York Philharmonic, André Kostelanetz. Columbia Masterworks MS 6040 (1959 issue), Internet Archive LP transfer. Territorial EU phonogram basis only; Copland composition remains copyrighted.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Columbia MS 6040 carrier and transfer metadata",
+      "url": "https://archive.org/metadata/lp_a-lincoln-portrait-new-england-triptych_andr-kostelanetz-the-new-york-philharmonic/metadata",
+      "locator": "1959 issue; Columbia Masterworks; MS 6040; US vinyl LP; performer credits; lineage, ripping_date and ripping_operator.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "sleeve",
+      "title": "Columbia Masterworks MS 6040 — original sleeve text",
+      "url": "https://archive.org/download/lp_a-lincoln-portrait-new-england-triptych_andr-kostelanetz-the-new-york-philharmonic/lp_a-lincoln-portrait-new-england-triptych_andr-kostelanetz-the-new-york-philharmonic_djvu.txt",
+      "locator": "Catalogue and stereo identification; Sandburg, Kostelanetz and New York Philharmonic credits; Sandburg’s biography; three-section account. OCR consulted; no runout matrix claimed.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "files",
+      "title": "Internet Archive — Columbia derivative file inventory",
+      "url": "https://archive.org/metadata/lp_a-lincoln-portrait-new-england-triptych_andr-kostelanetz-the-new-york-philharmonic/files",
+      "locator": "disc1/01.01. A Lincoln Portrait.mp3; VBR MP3; 838.35 seconds; MD5 11df4e3beb4bc862bb64ae0a52a27d90.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "work",
+      "title": "Aaron Copland Fund — Lincoln Portrait",
+      "url": "https://www.aaroncopland.com/works/lincoln-portrait/",
+      "locator": "1942; ARCO 46; narrator and orchestra; commission, William Adams and Cincinnati première on 14 May 1942; two borrowed tunes and publisher.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "programme",
+      "title": "Orrin Howard — LA Phil programme note, quoting Copland’s 1943 note",
+      "url": "https://www.laphil.com/works/lincoln-portrait",
+      "locator": "Copland’s note for the Boston Symphony: slow opening, quick middle, spoken final section; Camptown Races and Springfield Mountain; quotation about a frame for Lincoln’s words.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "permissions",
+      "title": "Aaron Copland Fund — Permissions and Rights",
+      "url": "https://www.aaroncopland.com/pages/permissions-and-rights/",
+      "locator": "Boosey & Hawkes, a Concord company, is the exclusive permissions agent for Copland’s musical catalogue.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — phonogram term and transition",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32011L0077",
+      "locator": "Recitals 1–3; Article 1(2) and 1(3): former 50-year term and 1 November 2013 transition.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "discogs",
+      "title": "Discogs — Columbia Masterworks MS 6040 release and master",
+      "url": "https://www.discogs.com/release/17565760",
+      "locator": "US stereo LP, released 1959; stereo version of mono ML 5347 (1959); Library of Congress card numbers R59-1007 to R59-1009; matrices XSM 44820 and XSM 44821. Its contributor note “Recorded March 16, 1958” is not adopted as a session date here.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-18" }
+}

@@ -141,10 +141,10 @@ export function mount(app) {
       }
       return `<path d="${path}" fill="none" stroke="${colour}" stroke-width="1.8"${key === 'b' ? ' stroke-dasharray="5 3"' : ''}/>${points}`;
     };
-    chart.innerHTML = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${field === 'd' ? 'Seconds per bar' : 'Relative envelope level'}, A in gold and B in dashed blue, corresponding columns ${offset + 1} to ${endColumn()}">${ticks}${line('a', A_COLOUR)}${line('b', B_COLOUR)}<text x="${left}" y="${h - 5}" fill="#b0a18b" font-size="11">${offset + 1}</text><text x="${(w + left - right) / 2}" y="${h - 5}" fill="#b0a18b" font-size="11" text-anchor="middle">corresponding columns</text><text x="${w - right}" y="${h - 5}" fill="#b0a18b" font-size="11" text-anchor="end">${endColumn()}</text></svg>`;
+    chart.innerHTML = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${field === 'd' ? 'Seconds per bar' : 'Volume'}, A in gold and B in dashed blue, matching columns ${offset + 1} to ${endColumn()}">${ticks}${line('a', A_COLOUR)}${line('b', B_COLOUR)}<text x="${left}" y="${h - 5}" fill="#b0a18b" font-size="11">${offset + 1}</text><text x="${(w + left - right) / 2}" y="${h - 5}" fill="#b0a18b" font-size="11" text-anchor="middle">matching columns</text><text x="${w - right}" y="${h - 5}" fill="#b0a18b" font-size="11" text-anchor="end">${endColumn()}</text></svg>`;
     $('[data-rl-chart-caption]').textContent = field === 'd'
-      ? 'A higher point means a longer bar, not necessarily a slower tempo: pauses and written additions count too. Gold: A. Blue, dashed: B. The chart follows the note map’s selected columns.'
-      : 'Mean normalised envelope level, sampled twice per second within each bar. This is not a decibel measurement or a written dynamic. Gold: A. Blue, dashed: B. Gaps have no counterpart.';
+      ? 'A higher point means a longer bar, including any pauses or added notes. Gold is A; dashed blue is B. The chart shows the bars selected above.'
+      : 'Average volume within each bar. Gold is A; dashed blue is B. Gaps mark bars with no counterpart.';
   }
 
   function view() {
@@ -226,7 +226,7 @@ export function mount(app) {
     active = null; clearTimeout(timer); timer = 0;
     if (nextSpan) beginSpan(nextSpan, ticket);
     else {
-      release('Passage complete. Choose A, B, or both to listen again.');
+      release('Passage finished; choose A, B or both to listen again.');
       player.pause(); refresh();
     }
   }
@@ -238,11 +238,11 @@ export function mount(app) {
       active = span; buttons();
       const played = await player.play();
       if (!alive || ticket !== sequence) return;
-      if (played === false) { release('Playback could not start. Press a passage button to try again.'); return; }
-      status.textContent = `Playing ${span.side} · ${d[span.side].label}${queue.length ? '; the other passage follows.' : '; stops at its marked end.'}`;
+      if (played === false) { release('Could not start playback; choose a passage to try again.'); return; }
+      status.textContent = `Playing ${span.side} · ${d[span.side].label}${queue.length ? '; the other passage follows.' : '; playback stops at the end.'}`;
       refresh(); armBoundary();
     } catch {
-      if (alive && ticket === sequence) release('The recording could not be played. Its score notes and measurements remain available below.');
+      if (alive && ticket === sequence) release('Could not play the recording; you can still read the score notes and charts below.');
     }
   }
   function play(spans, chosenMode, change = -1) {
@@ -284,20 +284,20 @@ export function mount(app) {
   off.push(player.on('pause', () => {
     if (player.playing) return; // A queued pause event may belong to the preceding span.
     clearTimeout(timer); timer = 0;
-    if (active) release('Passage paused. Choose a passage to start again.');
+    if (active) release('Paused; choose a passage to start again.');
     refresh();
   }));
   off.push(player.on('track', () => {
-    if (player.track?.id !== d.track) release(mode ? 'Another recording is selected in the shared player.' : undefined);
+    if (player.track?.id !== d.track) release(mode ? 'Another recording is selected.' : undefined);
     refresh();
   }));
   off.push(player.on('seek', () => {
     // A seek made after loading our span belongs to another control, so relinquish
     // the old stop point instead of unexpectedly pausing the user's new selection.
-    if (active) release('Passage boundary released after seeking.');
+    if (active) release('Playback will now continue beyond the marked passage.');
     refresh();
   }));
-  off.push(player.on('error', () => { if (active) release('The recording could not be played. Try its full recording in the hall.'); }));
+  off.push(player.on('error', () => { if (active) release('Could not play the passage; try the full recording in the Hall.'); }));
   view(); fit(); refresh();
   return () => {
     alive = false; sequence++; active = null; queue = [];

@@ -1,0 +1,110 @@
+{
+  "id": "rossini",
+  "places": [
+    {
+      "name": "Pesaro", "country": "Papal States (now Italy)", "lat": 43.9167, "lon": 12.9,
+      "from": "1792-02-29", "kind": "born",
+      "what": "Born to Giuseppe Rossini, a horn and trumpet player, and Anna Guidarini, later a professional singer.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1792 and 1798", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "Lugo", "country": "Italian Republic (now Italy)", "lat": 44.4167, "lon": 11.9167,
+      "from": "1802", "kind": "studied",
+      "what": "The family moved to Lugo; Giuseppe Malerbi taught him figured bass and composition.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1802", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "Bologna", "country": "Kingdom of Italy (now Italy)", "lat": 44.4939, "lon": 11.3428,
+      "from": "1806-04-14", "kind": "studied",
+      "what": "Enrolled at the Liceo Musicale in piano and cello; subsequently studied counterpoint with Stanislao Mattei.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1806", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "Venice — Teatro San Moisè", "country": "Kingdom of Italy (now Italy)", "lat": 45.4331, "lon": 12.3361,
+      "from": "1810-11-03", "kind": "premiere", "work": "La cambiale di matrimonio",
+      "what": "His first staged opera opened at the Teatro San Moisè.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1810", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "Naples", "country": "Kingdom of Naples; Kingdom of the Two Sicilies from 1816 (now Italy)", "lat": 40.8358, "lon": 14.2486,
+      "from": "1815", "to": "1822", "kind": "worked",
+      "what": "Engaged by Domenico Barbaja for the royal theatres. This period includes Elisabetta regina d’Inghilterra, Otello, Armida, La donna del lago and Zelmira, with engagements elsewhere between productions.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1815–22", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "Rome — Teatro Argentina", "country": "Papal States (now Italy)", "lat": 41.8956, "lon": 12.4761,
+      "from": "1816-02-20", "kind": "premiere", "work": "Il barbiere di Siviglia",
+      "what": "The opera opened under the title Almaviva, ossia L’inutile precauzione. Its first-night failure was followed by success.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1816", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }, { "title": "Rossini Opera Festival — Il barbiere di Siviglia", "url": "https://www.rossinioperafestival.it/en/stories/il-barbiere-di-siviglia/" }]
+    },
+    {
+      "name": "Vienna", "country": "Austrian Empire (now Austria)", "lat": 48.2083, "lon": 16.3725,
+      "from": "1822", "kind": "travelled", "work": "Zelmira",
+      "what": "Travelled with Isabella Colbran and the San Carlo company; Zelmira was performed at the Kärntnertortheater on 13 April.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1822", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "London", "country": "United Kingdom", "lat": 51.5072, "lon": -0.1275,
+      "from": "1823", "to": "1824", "kind": "worked",
+      "what": "Invited by the King’s Theatre management to direct his operas and write a new one; the planned Ugo, re d’Italia was abandoned after the management failed.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1823–24", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "Paris", "country": "Kingdom of France (now France)", "lat": 48.8567, "lon": 2.3522,
+      "from": "1824-11-26", "kind": "worked",
+      "what": "Appointed director of music and staging at the Théâtre-Italien.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1824", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "Paris — Salle Le Peletier", "country": "Kingdom of France (now France)", "lat": 48.8731, "lon": 2.3389,
+      "from": "1829-08-03", "kind": "premiere", "work": "Guillaume Tell",
+      "what": "The Paris Opéra presented his final completed opera, in four acts and in French.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — Guillaume Tell", "url": "https://www.rossinioperafestival.it/en/stories/guillaume-tell/" }, { "title": "BnF stage-design record via Commons — Paris, Opéra-Le Peletier, 3 August 1829", "url": "https://commons.wikimedia.org/wiki/File:Guillaume_Tell_-_esquisse_de_d%C3%A9cor_-_Pierre-Luc_Charles_Cic%C3%A9ri_-_btv1b7000638d.jpg" }]
+    },
+    {
+      "name": "Bologna", "country": "Papal States (now Italy)", "lat": 44.4939, "lon": 11.3428,
+      "from": "1839-04", "kind": "worked",
+      "what": "Accepted appointment as permanent consultant to the Liceo Musicale.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1839", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "Florence", "country": "Grand Duchy of Tuscany (now Italy)", "lat": 43.7714, "lon": 11.2542,
+      "from": "1850", "to": "1855", "kind": "lived",
+      "what": "Prepared a permanent residence in Florence in 1850; left for Paris at the end of April 1855.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1850 and 1855", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "Paris", "country": "Second French Empire (now France)", "lat": 48.8567, "lon": 2.3522,
+      "from": "1855", "to": "1868", "kind": "lived",
+      "what": "Returned with Olympe Pélissier. Their Paris home and villa at Passy became meeting places for musicians; he wrote the late Péchés de vieillesse and Petite messe solennelle.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1855–68", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "Passy, Paris", "country": "Second French Empire (now France)", "lat": 48.8571, "lon": 2.2841,
+      "from": "1868-11-13", "kind": "died",
+      "what": "Died at his villa in Passy; his first burial was at Père Lachaise.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1868", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    },
+    {
+      "name": "Santa Croce, Florence", "country": "Kingdom of Italy (now Italy)", "lat": 43.7684, "lon": 11.2627,
+      "from": "1887-05-03", "kind": "buried",
+      "what": "His remains were reburied in Santa Croce after transfer from Paris.",
+      "status": "documented",
+      "sources": [{ "title": "Rossini Opera Festival — chronology, 1887", "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/" }]
+    }
+  ]
+}

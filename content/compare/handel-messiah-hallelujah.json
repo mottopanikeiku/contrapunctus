@@ -1,52 +1,52 @@
 {
   "id": "handel-messiah-hallelujah",
-  "title": "Hallelujah on three generations of record",
+  "title": "Three choirs shout Hallelujah",
   "composer": "handel",
   "group": "century",
   "work": "Messiah, HWV 56 — Hallelujah chorus",
-  "question": "How do three recordings change the space between choral declarations and the continuity of the moving lines?",
-  "intro": "Edison released the Oratorio Chorus on Diamond Disc in May 1916; Sargent’s Royal Albert Hall concert recording dates from 2 April 1926, and Scherchen’s account from 1953. The provisional maps align Scherchen’s 0–199 seconds with Edison’s 0–219 and Sargent’s 0–258, excluding the final transfer tails, with median chroma confidences of 0.962 and 0.966 respectively. Compare phrase lengths and clarity rather than absolute level: acoustic balance, recording space and successive transfers all affect what survives. Edison’s issued recording qualifies under the US pre-1926 rule, while the Sargent and Scherchen recordings carry territorial European recording-rights bases, with US status unestablished.",
+  "question": "How much room does each choir leave between Handel’s cries of ‘Hallelujah’?",
+  "intro": "Handel sets the choir shouting together, then sends a tune chasing from one voice to the next. Edison’s Oratorio Chorus recorded it in 1916; Sargent’s performance comes from the Royal Albert Hall in 1926. Scherchen’s brisk 1953 account prompted Owen Jensen, writing in the <i>New Zealand Listener</i> in June 1954, to joke about “Handelian traffic inspectors”.",
   "recordings": [
     {
       "listen": "handel-messiah-hallelujah-edison-1916",
-      "label": "Oratorio Chorus / Edison",
+      "label": "Oratorio Chorus",
       "year": 1916,
-      "note": "Diamond Disc 80292-R, released May 1916; conductor and instrumental personnel unknown; US public domain."
+      "note": "Edison’s choir in 1916: chorus and accompaniment fitted onto one Diamond Disc side, released that May."
     },
     {
       "listen": "handel-messiah-hallelujah-sargent-1926",
-      "label": "Royal Choral Society / Sargent",
+      "label": "Malcolm Sargent, Royal Choral Society",
       "year": 1926,
-      "note": "Royal Albert Hall concert, 2 April 1926; Electrola EJ 39; first issue disputed between 1926 and 1927; territorial rights."
+      "note": "A live Royal Albert Hall performance, with the hall’s orchestra accompanying the Royal Choral Society on 2 April 1926."
     },
     {
       "listen": "handel-messiah-hallelujah",
-      "label": "London Philharmonic Choir / Scherchen",
+      "label": "Hermann Scherchen, London Philharmonic Choir",
       "year": 1953,
-      "note": "Existing London Symphony Orchestra and London Philharmonic Choir recording; European recording-rights expiry, not worldwide clearance."
+      "note": "A quick beat keeps the choral exchanges moving, with the London Symphony Orchestra accompanying a relatively small choir."
     }
   ],
   "reference": "handel-messiah-hallelujah",
   "passages": [
     {
-      "label": "Opening span",
+      "label": "Strings, then the choir",
       "t": 0,
-      "note": "Compare the spacing of attacks and the clarity of separate voices; no choir size is inferred from the transferred sound."
+      "note": "The violins announce the rhythm; the choir enters three bars later, all four voices crying ‘Hallelujah’ together."
     },
     {
-      "label": "Withdrawal and renewed weight",
+      "label": "The kingdom of this world",
       "t": 70,
-      "note": "Listen through the quieter region into renewed force, comparing the time allowed for the change rather than the playback level."
+      "note": "The choir moves together in measured notes above a descending bass. Trumpets and drums fall silent."
     },
     {
-      "label": "Central accumulation",
+      "label": "King of kings",
       "t": 120,
-      "note": "Follow a line through the stronger surrounding texture; the matching is provisional and does not identify an exact sung word."
+      "note": "The sopranos hold their proclamation above the quick answers below, then climb higher with each new phrase."
     },
     {
-      "label": "Closing gestures",
+      "label": "The final word",
       "t": 186,
-      "note": "Compare the spaces before the last sustained sounds. Terminal transfer noise is excluded from the alignment, not edited out of playback."
+      "note": "Choir and orchestra stop. After the silence comes one broad ‘Hallelujah’, ending on a held D-major chord."
     }
   ],
   "alignment": {
@@ -109,6 +109,18 @@
     {
       "title": "Scherchen recording and recording-specific European rights notice",
       "url": "https://commons.wikimedia.org/wiki/File:Handel_-_Messiah,_Part_2_(Scherchen)_-_45._Hallelujah.ogg"
+    },
+    {
+      "title": "Owen Jensen, New Zealand Listener, 11 June 1954: Scherchen’s fast tempi and clear choral singing",
+      "url": "https://paperspast.natlib.govt.nz/periodicals/NZLIST19540611.2.40.1"
+    },
+    {
+      "title": "Exploring Handel’s Messiah: Hallelujah text, voices and instrumentation, pp. 18–20",
+      "url": "https://www.tarsus.ie/resources/Handel/4.-Hallelujah-Handel.pdf"
+    },
+    {
+      "title": "Handel, Hallelujah: full score and parts, Joshua Koo’s Mutopia edition",
+      "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=459"
     }
   ]
 }

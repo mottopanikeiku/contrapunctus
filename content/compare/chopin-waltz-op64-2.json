@@ -1,35 +1,35 @@
 {
   "id": "chopin-waltz-op64-2",
-  "title": "A waltz, four ways of breathing",
+  "title": "The waltz keeps coming back",
   "composer": "chopin",
-  "work": "Waltz in C-sharp minor, Op. 64 No. 2",
-  "question": "How do four pianists distribute time between the singing opening and the revolving continuation?",
-  "intro": "Paderewski’s 1917 transfer, Pachmann’s 1925 HMV side and Rummel’s 1943 recording are compared with Olga Gurevich’s modern Musopen performance. Pachmann’s original file contains Étude Op. 25 No. 3 first, so only the waltz beginning around 1:57 is aligned. Paderewski’s automatic map is usable only with caution, while Rummel is limited to the shared opening because the later full-file path becomes unreliable. These restrictions preserve the original audio rather than inventing a continuous correspondence across every second.",
+  "work": "Waltz in C♯ minor, Op. 64 No. 2",
+  "question": "How do these four pianists make the circling tune answer the slower melodies?",
+  "intro": "Paderewski, Pachmann, Rummel and Gurevich begin with the same small tension: a melody that lingers while the bass keeps dancing. Chopin sets quick quavers running between that C♯-minor song and a gentler one in D♭ major. The circling refrain keeps returning, and gets the last word.",
   "group": "golden-age",
   "recordings": [
     {
       "listen": "chopin-waltz-op64-2-paderewski-1917",
-      "label": "Paderewski, 1917",
+      "label": "Ignacy Jan Paderewski, 1917",
       "year": 1917,
-      "note": "Automatic alignment requires caution; compare broad phrases, not note-exact delays or a global tempo ratio."
+      "note": "Paderewski’s Victor recordings preserve his habit of spreading chords and letting the melody arrive separately from the bass."
     },
     {
       "listen": "chopin-waltz-op64-2-pachmann-1925",
       "label": "Vladimir de Pachmann, 1925",
       "year": 1925,
-      "note": "Waltz starts around 1:57 after Étude Op. 25 No. 3 on the original side; pre-waltz material is outside the comparison."
+      "note": "Pachmann plays his own Baldwin at Hayes, with his own variant in bars 82–83."
     },
     {
       "listen": "chopin-waltz-op64-2-rummel-1943",
       "label": "Walter Morse Rummel, 1943",
       "year": 1943,
-      "note": "Shared opening only; later full-file correspondence failed inspection. Use the unedited recording without extrapolating the map."
+      "note": "Rummel had introduced Debussy’s complete second book of <i>Préludes</i> in London in 1913."
     },
     {
       "listen": "chopin-waltz-op64-2-gurevich",
       "label": "Olga Gurevich, c. 2014",
       "year": 2014,
-      "note": "Modern reference; high-level regions recur rather than building continuously towards the end."
+      "note": "Gurevich grew up studying piano in Baku; her teachers’ ideal of a singing tone remains central to her own teaching."
     }
   ],
   "reference": "chopin-waltz-op64-2-gurevich",
@@ -37,37 +37,37 @@
     {
       "label": "Opening waltz",
       "t": 5,
-      "note": "Compare the length and shape of the singing phrase. Historic recording balance is not a direct measure of piano touch."
+      "note": "Held notes lean across the bar line, then a quick curl answers them. The bass keeps its note-and-two-chords step."
     },
     {
-      "label": "An early turn",
+      "label": "The phrase takes breath",
       "t": 30,
-      "note": "A measured reference change lies within the shared opening of all four files; automatic correspondence remains provisional."
+      "note": "The opening melody finishes another turn, its short flourishes tucked between longer notes; the waltz accompaniment keeps going."
     },
     {
-      "label": "Quicker figure",
+      "label": "The quavers start running",
       "t": 42,
-      "note": "Follow the revolving motion through the contrast. Rummel’s published map does not extend to the complete later return structure."
+      "note": "The right hand starts running in chains of quavers, marked <i>più mosso</i> — more movement. The left hand keeps dancing beneath it."
     },
     {
-      "label": "Early recorded crest",
+      "label": "Falling and rising",
       "t": 55,
-      "note": "Gurevich’s highest five-second level window occurs here; compare phrase placement rather than normalised amplitude across different recordings."
+      "note": "The quick tune falls, climbs back and falls again, fitting its curls across the left hand’s three-beat pattern."
     },
     {
-      "label": "Central contrast",
+      "label": "A song in D♭ major",
       "t": 80,
-      "note": "Rummel is outside its published map here. The other files remain available, with Paderewski’s lower-confidence correspondence clearly cautioned."
+      "note": "The piano turns to D♭ major and a broader melody. <i>Più lento</i> asks for a slower pace."
     },
     {
-      "label": "Later renewed span",
+      "label": "The opening melody returns",
       "t": 164,
-      "note": "Compare the later phrase with the opening while retaining the distinction between a source-file duration and musical time."
+      "note": "The opening C♯-minor melody returns, with its held notes and little answering flourishes, before the quick refrain has the final say."
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons — recording file",
+      "title": "Paderewski — 1917 waltz recording",
       "url": "https://commons.wikimedia.org/wiki/File:Paderewski_-_Steinway_grand_piano.ogg"
     },
     {
@@ -91,12 +91,36 @@
       "url": "https://archive.org/stream/gramophone-1925-12/Gramophone%201925-12_djvu.txt"
     },
     {
-      "title": "Wikimedia Commons — recording file",
+      "title": "Rummel — recording dated 18 January 1943; comparison covers the opening only",
       "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Walter_Morse_Rummel,_piano_-_Waltz_in_C-sharp_minor,_Op._64,_No._2_-_Chopin_-_Gramophone-68063-2218ge9.flac"
     },
     {
-      "title": "Wikimedia Commons — recording file",
+      "title": "Gurevich — Musopen recording; date approximate",
       "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._7_in_C-sharp_minor,_Op._64_No._2_(Olga_Gurevich).flac"
+    },
+    {
+      "title": "Mieczysław Tomaszewski — the two singing themes and recurring quick refrain",
+      "url": "https://chopin.nifc.pl/en/chopin/kompozycja/260"
+    },
+    {
+      "title": "Chopin — Op. 64 No. 2, engraved by Knute Snortum",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
+    },
+    {
+      "title": "Jonathan Woolf — Paderewski’s chord spreading, independent hands and Victor sessions",
+      "url": "https://www.musicweb-international.com/classrev/2017/May/Paderewski_American_7505.htm"
+    },
+    {
+      "title": "Nigel Nettheim — Pachmann’s Baldwin and variant in bars 82–83",
+      "url": "https://nettheim.com/pachmann/discography/"
+    },
+    {
+      "title": "Nigel Simeone, Wigmore Hall — Rummel’s complete première of Debussy’s second book of Préludes",
+      "url": "https://media.wigmore-hall.org.uk/documents/Programme_11_January_2022__730pm.pdf"
+    },
+    {
+      "title": "Bloomingdale School of Music — Gurevich’s training and ideal of a singing piano",
+      "url": "https://www.bsmny.org/team/olga-gurevich/"
     }
   ],
   "alignment": {

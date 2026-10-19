@@ -4,24 +4,25 @@
   "composer": null,
   "group": "singers",
   "work": "Ruggero Leoncavallo: Recitar!… Vesti la giubba",
-  "question": "How does Caruso shape the corresponding vocal phrases over piano and orchestra?",
-  "intro": "Caruso recorded Gramophone matrix 2875b with pianist Salvatore Cottone in Milan on 30 November 1902; the orchestral transfer is attributed through Victor 88061 to C-4317, recorded in New York on 17 March 1907. Its exact master has not been confirmed from a legible runout, so the source’s acoustic attribution is retained with that qualification rather than independently excluding every later dub. The provisional map compares only 5–114 seconds of the piano side with 7–139 seconds of the orchestral side; complete streams retain their different openings and later continuations. A two-semitone adjustment applies to alignment features only, without changing playback or establishing original tuning, transfer speed or a whole-side tempo difference.",
+  "question": "What changes in Caruso’s lament when an orchestra takes the place of the piano?",
+  "intro": "Canio has discovered his wife’s betrayal, and the paying audience is waiting for him to make them laugh. In Leoncavallo’s <i>Pagliacci</i>, he orders himself to put on his costume and powder his face. Caruso recorded the aria with Salvatore Cottone at the piano in Milan in 1902, then with an orchestra in New York in 1907.",
   "recordings": [
-    { "listen": "leoncavallo-vesti-caruso-1902", "label": "Caruso and Salvatore Cottone", "year": 1902, "note": "Piano; Milan, 30 November. Gramophone 2875b [1], transferred from HMV V.A.30." },
-    { "listen": "leoncavallo-vesti-caruso-1907", "label": "Caruso with orchestra (attributed 1907)", "year": 1907, "note": "Victor 88061; source describes acoustic recording. Attribution to C-4317 take 1 and its March 1907 session remains inferred through the catalogue." }
+    { "listen": "leoncavallo-vesti-caruso-1902", "label": "Enrico Caruso, Salvatore Cottone", "year": 1902, "note": "One tenor and one pianist: Cottone supplies the whole accompaniment in this Milan performance of 30 November 1902." },
+    { "listen": "leoncavallo-vesti-caruso-1907", "label": "Enrico Caruso with orchestra", "year": 1907, "note": "An orchestra surrounds Canio’s lament in the later Victor recording, made in New York." }
   ],
   "reference": "leoncavallo-vesti-caruso-1902",
   "passages": [
-    { "label": "Voice and accompaniment", "t": 10, "note": "Compare the tenor’s phrase against piano and orchestra. Recording balance is not a direct measure of the singer’s projection." },
-    { "label": "The central rise", "t": 50, "note": "Follow the rise and release across the shared passage, avoiding a comparison of the transfers’ absolute playback levels." },
-    { "label": "The later crest", "t": 85, "note": "Compare how the vocal line crosses successive gestures; vibrato, breath and horn placement have not been measured." },
-    { "label": "The excerpt’s final span", "t": 108, "note": "The map ends soon after this point. Continue each complete side separately rather than assuming their later material corresponds." }
+    { "label": "Voice and piano", "t": 10, "note": "The tenor carries Canio’s lament above the piano accompaniment. His words tell the clown to put on his costume." },
+    { "label": "The phrase rises", "t": 50, "note": "The vocal phrase climbs and subsides; the accompaniment carries the music between the tenor’s breaths." },
+    { "label": "The last plea", "t": 85, "note": "The tenor’s line rises again, stretching towards the aria’s final phrases over the accompaniment." },
+    { "label": "Towards the close", "t": 108, "note": "The last vocal phrases lead towards the accompaniment’s closing bars." }
   ],
   "sources": [
     { "title": "DAHR — Gramophone 2875b: session and pianist", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/1000003400" },
     { "title": "1902 master’s transferred HMV reissue and rights metadata", "url": "https://archive.org/metadata/78_vesti-la-giubba-on-with-the-motley_enrico-caruso-leoncavallo_gbia0077656a" },
     { "title": "DAHR — Victor C-4317: original acoustic master and later dub distinction", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200006029" },
     { "title": "1907 Victor 88061 transfer and rights metadata", "url": "https://archive.org/metadata/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a" },
-    { "title": "Vesti la giubba: dramatic text and context", "url": "https://en.wikipedia.org/wiki/Vesti_la_giubba" }
+    { "title": "Vesti la giubba: dramatic text and context", "url": "https://en.wikipedia.org/wiki/Vesti_la_giubba" },
+    { "title": "Österreichische Mediathek: Caruso’s 30 November 1902 recording, matrix 2875b", "url": "https://www.mediathek.at/atom/27D6F173-142-0003E-003BCE16-3F9A5129" }
   ]
 }

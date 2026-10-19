@@ -19,358 +19,121 @@ export default {
   "forces": "Orchestra with solo violin",
   "performers": "San Francisco Symphony Orchestra, Pierre Monteux; Naoum Blinder, violin",
   "recorded": "3–4 March 1942",
-  "intro": "A bassoon melody follows the violin’s framing solo, then passes through changing instrumental colours and sharper orchestral episodes. Listen for variation of a recognisable contour rather than a new character at every solo.",
-  "question": "How much can orchestration change while a melody remains recognisable?",
+  "intro": "Scheherazade’s violin introduces a bassoon with a tale of its own. Its winding B-minor melody passes to the oboe and strings, while brass fanfares keep interrupting.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Violin frame",
-      "m": "Frame",
-      "mNote": "solo violin and harp reopen the storytelling sound"
-    },
-    {
-      "t": 34,
-      "label": "Bassoon theme and variations · approximate",
-      "m": "A",
-      "mNote": "principal melody passes through successive instrumental colours"
-    },
-    {
-      "t": 178,
-      "label": "Sharper contrasting episode · approximate",
-      "m": "B",
-      "mNote": "brass gestures interrupt the longer melodic style"
-    },
-    {
-      "t": 245,
-      "label": "Exposed wind episode · approximate",
-      "m": "Link",
-      "mNote": "solo woodwind line above reduced string texture"
-    },
-    {
-      "t": 276,
-      "label": "Active central span · approximate",
-      "m": "Dev",
-      "mNote": "faster accompaniment and fuller orchestral exchanges"
-    },
-    {
-      "t": 386,
-      "label": "Principal material transformed · approximate",
-      "m": "A′",
-      "mNote": "lower-register melody returns in a changed setting"
-    },
-    {
-      "t": 440,
-      "label": "Broader thematic return · approximate",
-      "m": "A″",
-      "mNote": "principal material regains stronger orchestral weight"
-    },
-    {
-      "t": 522,
-      "label": "Recollection and closing span · approximate",
-      "m": "Coda",
-      "mNote": "reduced wind phrases rebuild towards a B-major conclusion"
-    }
+    { "t": 0, "label": "Frame · Violin and harp return", "m": "Frame", "mNote": "The violin reopens Scheherazade’s recitative" },
+    { "t": 34, "label": "A · Bassoon over muted double basses", "m": "A", "mNote": "Four double basses hold the floor beneath the solo" },
+    { "t": 178, "label": "B · Brass fanfares interrupt", "m": "B", "mNote": "Short calls replace the long woodwind phrases" },
+    { "t": 245, "label": "Link · Clarinet and plucked strings", "m": "Link", "mNote": "A free clarinet solo crosses softly repeated string chords" },
+    { "t": 276, "label": "Dev · The brass march grows", "m": "Dev", "mNote": "Piccolo and percussion join the orchestral march" },
+    { "t": 386, "label": "A′ · The bassoon speaks again", "m": "A′", "mNote": "A bassoon cadenza recalls the opening melody" },
+    { "t": 440, "label": "A″ · The tune fills the orchestra", "m": "A″", "mNote": "Winds and strings enlarge the bassoon’s melody" },
+    { "t": 522, "label": "Coda · Wind phrases, then B major", "m": "Coda", "mNote": "The final Animato drives towards the major chord" }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "form",
-      "title": "The storyteller opens again",
-      "text": "Solo violin and harp reopen the narrative frame before this movement’s principal theme. The recurring instrumental combination links a new episode to the preceding movement without repeating its entire introduction.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
-    },
-    {
-      "t": 40,
       "kind": "music",
-      "title": "Bassoon above a held foundation",
-      "text": "The score gives the first principal-theme statement to bassoon over a quiet string foundation. Its nasal lower-register colour differs sharply from the introductory violin.",
-      "basis": "general",
+      "title": "The violin returns",
+      "text": "The solo violin begins another winding recitative over harp chords. Scheherazade’s voice is familiar from the first movement. Her cadenza slows before a quite different soloist takes over.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
+      "evidence": "Full score, second movement, printed pp. 24–25: Lento, Recitativo, violin cadenza and ritardando before the bassoon. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
     },
     {
-      "t": 81,
-      "kind": "listen",
-      "title": "The oboe changes the delivery",
-      "text": "The principal melody passes to the oboe in the early variations. Compare its clearer attack with the bassoon’s preceding statement while retaining the same melodic outline in memory.",
-      "basis": "general",
+      "t": 34,
+      "kind": "music",
+      "title": "Bassoon and four double basses",
+      "text": "A bassoon begins in B minor, <i>dolce ed espressivo</i> — sweetly and expressively. Four muted double basses hold a quiet foundation beneath it. The tune mixes little dancing figures with longer notes, as though its teller keeps stopping to remember a detail.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
-    },
-    {
-      "t": 121,
-      "kind": "form",
-      "title": "Variation through orchestration",
-      "text": "The movement develops its melody by changing scoring, accompaniment and rhythmic activity. A variation can preserve the recognisable tune while altering how the surrounding texture moves.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
+      "evidence": "Full score, printed p. 25: Andantino, bassoon marked Capriccioso, quasi recitando and dolce ed espressivo; four solo double basses, con sordino. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
     },
     {
       "t": 162,
       "kind": "life",
-      "title": "Teaching before complete confidence",
-      "text": "Rimsky-Korsakov became a professor at the Saint Petersburg Conservatory in 1871. His later autobiography describes how the appointment pushed him to strengthen his own technique while teaching others.",
+      "title": "The professor teaches himself",
+      "text": "In 1871 Rimsky-Korsakov accepts a professorship at the Saint Petersburg Conservatory. He is twenty-seven. Alongside teaching, he sets about learning the harmony and counterpoint his own training has left out.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical note, not a timed musical event. Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition, chapter X, pp. 100–103: the summer 1871 invitation and autumn appointment, his lack of technical preparation, and his account of becoming a pupil himself while teaching. https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf"
+      "evidence": "Orrin Howard gives the appointment and age; Paul Serotsky describes the subsequent self-education. https://www.laphil.com/works/scheherazade-last-movement ; https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
     },
     {
-      "t": 202,
-      "kind": "music",
-      "title": "Brass interrupts the narrative",
-      "text": "Sharper brass figures contrast with the longer wind melody. Listen for the difference between an announcing gesture and a phrase that continues over several bars.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
-    },
-    {
-      "t": 242,
-      "kind": "listen",
-      "title": "A solo against tremolo",
-      "text": "The score places a clarinet solo above tremolo strings in the central span. Repeated bow strokes provide a moving background without competing with the wind line’s contour.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
-    },
-    {
-      "t": 283,
-      "kind": "world",
-      "title": "A title is not a casting list",
-      "text": "The Kalendar Prince heading suggests one of the tales within the collection. The composer warned that his themes could serve different situations and moods, so a specific fictional identity is not assigned to every solo instrument.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.laphil.com/works/scheherazade"
-    },
-    {
-      "t": 323,
-      "kind": "listen",
-      "title": "Melody above faster notes",
-      "text": "A sustained melodic shape can remain audible above more rapid accompaniment. Separate the speed of the foreground phrase from the smaller motions underneath it.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
-    },
-    {
-      "t": 363,
-      "kind": "music",
-      "title": "Register enlarges the phrase",
-      "text": "Doubling a melody in different registers makes its contour more prominent without supplying a new theme. Listen for the difference between a solo statement and a wider orchestral presentation.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
-    },
-    {
-      "t": 404,
-      "kind": "world",
-      "title": "The recording’s original album",
-      "text": "This performance was issued in the Victor 78-rpm album DM-920. The number identifies an album, not a matrix or take; the available source does not document the individual side allocations.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The Commons description and upstream transfer record identify the original Victor album as DM-920, without supplying individual matrices or side allocations: https://commons.wikimedia.org/w/index.php?oldid=718302084 ; https://archive.org/metadata/Sheherazade/metadata ."
-    },
-    {
-      "t": 444,
+      "t": 178,
       "kind": "form",
-      "title": "The principal material persists",
-      "text": "The principal melody remains a point of reference through the movement’s changing episodes. Recognition depends on its contour and rhythm even when its orchestral setting grows heavier.",
-      "basis": "general",
+      "title": "The brass breaks in",
+      "text": "The long melody meets short, fierce brass calls. The new idea grows out of the Sultan’s phrase from the first movement. Horns, trumpets and trombones turn it into a march.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
+      "evidence": "Full score, printed pp. 30–31; Serotsky identifies the central idea’s relation to the Sultan’s motto and its development into a march. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
     },
     {
-      "t": 485,
-      "kind": "listen",
-      "title": "A phrase can lose weight",
-      "text": "When orchestral reinforcement is removed, follow what remains of the melodic line. The withdrawal can expose the relationship between a wind phrase and its string support.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
-    },
-    {
-      "t": 525,
-      "kind": "life",
-      "title": "A later explanation of the headings",
-      "text": "In My Musical Life, Rimsky-Korsakov explains that the descriptive titles were intended only as slight guidance. His account encourages attention to recurring musical material rather than a fixed catalogue of depicted events.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.laphil.com/works/scheherazade"
-    },
-    {
-      "t": 565,
+      "t": 245,
       "kind": "music",
-      "title": "The bassoon colour returns",
-      "text": "The score recovers the bassoon’s characteristic sound in the later principal-theme return. Compare its line with the opening statement instead of expecting a new character whenever the solo register changes.",
-      "basis": "general",
+      "title": "Clarinet over plucked strings",
+      "text": "A clarinet stretches the tune into a free solo. The strings pluck repeated chords beneath it, quickening and slowing with the soloist. The score asks the clarinet to begin <i>lento, lungo</i> — slowly, at length — before accelerating.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
+      "evidence": "Full score, printed p. 32, rehearsal F: Moderato assai, Recitativo; clarinet ad libitum, lento lungo, accelerando; strings pizzicato and colla parte. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
     },
     {
-      "t": 606,
+      "t": 386,
       "kind": "form",
-      "title": "A major-mode final chord",
-      "text": "The movement begins from B minor but closes in B major. The major third changes the final sonority without undoing the minor-key material that has dominated the movement.",
-      "basis": "general",
+      "title": "The bassoon’s second tale",
+      "text": "The bassoon returns in a cadenza, answering the earlier clarinet solo. Its familiar tune opens the movement’s last large section. The same little figures now have the brass march behind them.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
+      "evidence": "Paul Serotsky describes the two cadenzas, first clarinet and then bassoon, with the bassoon initiating the final section. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
+    },
+    {
+      "t": 522,
+      "kind": "form",
+      "title": "Towards the B-major chord",
+      "text": "Short woodwind phrases prepare the final rush. The last page is marked <i>Animato</i>: strings race beneath brass chords, with timpani reinforcing the bass. A sharp final chord brings the B-minor tale to a B-major end.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Full score, closing pages, especially printed p. 53: Animato and final B-major chord. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
     }
   ],
   "transitions": [
     {
       "id": "join-1",
-      "title": "Violin yields to bassoon",
-      "from": "Violin frame",
-      "to": "Bassoon theme and variations · approximate",
-      "at": {
-        "t": 34
-      },
-      "span": [
-        24,
-        49
-      ],
-      "how": "<p>The violin-and-harp frame gives way to the bassoon’s principal melody over a quiet string foundation. The register and timbre change sharply, while the new phrase establishes the material for subsequent variation.</p>",
-      "devices": [
-        "orchestration change",
-        "register change",
-        "texture change"
-      ],
+      "title": "The violin leaves a bassoon",
+      "from": "Frame · Violin and harp return",
+      "to": "A · Bassoon over muted double basses",
+      "at": { "t": 34 },
+      "span": [24, 49],
+      "how": "<p>The violin’s cadenza slows, marked <i>ritardando assai</i>. At <i>Andantino</i>, the bassoon begins its B-minor tune above four muted double basses. The violin’s high ending hangs briefly over the new, much lower voice.</p>",
+      "devices": ["cadenza", "orchestration change", "register change", "tempo change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/rimsky-korsakov-scheherazade-kalendar.txt: The 0:34 boundary accompanies a large drop in spectral brightness, from roughly 2800 Hz at 0:30 to 810 Hz at 0:35; the score identifies bassoon, not that measurement alone. Written design: https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
+      "evidence": "Full score, printed p. 25, end of the violin cadenza and opening Andantino. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
     },
     {
       "id": "join-2",
-      "title": "A melodic account is interrupted",
-      "from": "Bassoon theme and variations · approximate",
-      "to": "Sharper contrasting episode · approximate",
-      "at": {
-        "t": 178
-      },
-      "span": [
-        168,
-        193
-      ],
-      "how": "<p>The varied principal melody leads into sharper brass gestures. Short announcing figures and changed orchestral emphasis interrupt the longer wind-led phrases rather than simply repeating them more loudly.</p>",
-      "devices": [
-        "texture change",
-        "orchestration change",
-        "motivic link"
-      ],
+      "title": "The Sultan’s phrase becomes a march",
+      "from": "A · Bassoon over muted double basses",
+      "to": "B · Brass fanfares interrupt",
+      "at": { "t": 178 },
+      "span": [168, 193],
+      "how": "<p>A figure first plucked by the low strings grows into brass fanfares. Its kinship with the Sultan’s motto links the interruption to the first movement. Horns, trumpets and trombones exchange short calls while the sustained woodwinds and strings support them.</p>",
+      "devices": ["motivic link", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/rimsky-korsakov-scheherazade-kalendar.txt: A strong boundary at 2:58 follows a quieter 2:55 window; abrupt level changes continue through 3:05–3:35. Written design: https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
+      "evidence": "Full score, printed pp. 30–31; Serotsky describes the low-string origin and the Sultan-motto connection. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
     },
     {
       "id": "join-3",
-      "title": "The ensemble leaves a solo exposed",
-      "from": "Sharper contrasting episode · approximate",
-      "to": "Exposed wind episode · approximate",
-      "at": {
-        "t": 245
-      },
-      "span": [
-        235,
-        260
-      ],
-      "how": "<p>The preceding orchestral crest recedes to a more exposed woodwind episode. Clarinet above tremolo strings creates motion in the background while leaving the melodic line distinct.</p>",
-      "devices": [
-        "decrescendo",
-        "orchestration change",
-        "texture change"
-      ],
+      "title": "Plucked strings under a free clarinet",
+      "from": "B · Brass fanfares interrupt",
+      "to": "Link · Clarinet and plucked strings",
+      "at": { "t": 245 },
+      "span": [235, 260],
+      "how": "<p>The orchestral chord stops at a fermata. At <i>Moderato assai</i>, a solo clarinet takes up a free recitative. The strings pluck short repeated chords, following the soloist’s slowing and acceleration. Their soft attacks leave the clarinet’s long notes exposed.</p>",
+      "devices": ["fermata", "tempo change", "orchestration change", "cadenza"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/rimsky-korsakov-scheherazade-kalendar.txt: The 3:55 crest gives way to a large reduction at 4:05; the score’s solo-and-tremolo region is placed broadly, not as an exact clarinet entrance. Written design: https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
-    },
-    {
-      "id": "join-4",
-      "title": "The accompaniment becomes active",
-      "from": "Exposed wind episode · approximate",
-      "to": "Active central span · approximate",
-      "at": {
-        "t": 276
-      },
-      "span": [
-        266,
-        291
-      ],
-      "how": "<p>The exposed episode gives way to more active exchanges and fuller scoring. Moving accompaniment, repeated figures and changing instrumental groups carry familiar material through a larger central span.</p>",
-      "devices": [
-        "crescendo build",
-        "texture change",
-        "sequence"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/rimsky-korsakov-scheherazade-kalendar.txt: The 4:36 boundary precedes rising level and brightness across 4:35–5:15, followed by further strong passages. Written design: https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
-    },
-    {
-      "id": "join-5",
-      "title": "A lower-register statement returns",
-      "from": "Active central span · approximate",
-      "to": "Principal material transformed · approximate",
-      "at": {
-        "t": 386
-      },
-      "span": [
-        376,
-        401
-      ],
-      "how": "<p>After the central orchestral expansion, the principal material returns in a different harmonic and instrumental setting. A reduced lower-register foreground makes the recollection distinct from the preceding fuller scoring.</p>",
-      "devices": [
-        "motivic link",
-        "decrescendo",
-        "register change"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/rimsky-korsakov-scheherazade-kalendar.txt: The strong 6:26 boundary coincides with a large drop in level and brightness after the 6:20 crest; the new region remains reduced through roughly 7:05. Written design: https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
-    },
-    {
-      "id": "join-6",
-      "title": "The theme broadens again",
-      "from": "Principal material transformed · approximate",
-      "to": "Broader thematic return · approximate",
-      "at": {
-        "t": 440
-      },
-      "span": [
-        430,
-        455
-      ],
-      "how": "<p>The transformed return expands into a stronger orchestral statement. Increased doubling and reinforcement enlarge the same melodic argument without requiring a new principal theme.</p>",
-      "devices": [
-        "motivic link",
-        "crescendo build",
-        "orchestration change"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/rimsky-korsakov-scheherazade-kalendar.txt: The 7:20 boundary marks a jump to about −6 dB and a sustained stronger span through 8:35. Written design: https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
-    },
-    {
-      "id": "join-7",
-      "title": "The close begins by withdrawing",
-      "from": "Broader thematic return · approximate",
-      "to": "Recollection and closing span · approximate",
-      "at": {
-        "t": 522
-      },
-      "span": [
-        512,
-        537
-      ],
-      "how": "<p>The broad return loses orchestral weight before the closing recollections and final build. Wind-led phrases and their quieter foundation prepare a B-major ending after the movement’s predominantly minor-key course.</p>",
-      "devices": [
-        "decrescendo",
-        "motivic link",
-        "texture change"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/rimsky-korsakov-scheherazade-kalendar.txt: The strongest boundaries at 8:42 and 8:54 accompany the marked reduction; a later boundary at 9:32 precedes the final rise towards 10:10. Written design: https://www.laphil.com/works/scheherazade Score: https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
+      "evidence": "Full score, printed p. 32, rehearsal F: clarinet solo and pizzicato strings marked colla parte. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
     }
   ],
   "orchestra": {
@@ -398,7 +161,7 @@ export default {
     "source": {
       "title": "Rimsky-Korsakov, Scheherazade, II, full-score scan",
       "url": "https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf",
-      "locator": "PDF pp. 1–3 violin frame and bassoon/oboe theme; p. 8 brass episode; p. 9 clarinet/tremolo; p. 19 piccolo, triangle and cymbals; pp. 25–30 return and ending. Times are approximate passage anchors."
+      "locator": "Printed pp. 24–26: violin, bassoon and oboe solos; pp. 30–32: brass march and clarinet recitative with pizzicato strings; pp. 48–53: final return and B-major ending."
     },
     "timeline": [
       {
@@ -410,22 +173,20 @@ export default {
         "lead": [
           "solo-violin"
         ],
-        "note": "Opening frame: violin above harp chords."
+        "note": "The solo violin winds above harp chords."
       },
       {
         "t": 34,
         "playing": [
           "bassoons",
-          "violins-1",
-          "violins-2",
-          "violas",
-          "cellos",
+          "harp",
+          "solo-violin",
           "basses"
         ],
         "lead": [
           "bassoons"
         ],
-        "note": "Bassoon theme over a quiet string foundation, anchored broadly to the 0:34 change."
+        "note": "The bassoon begins above four muted double basses; harp and the violin’s held ending sound at the join."
       },
       {
         "t": 60,
@@ -442,7 +203,7 @@ export default {
         "lead": [
           "oboes"
         ],
-        "note": "Early variation: oboe takes the melodic foreground, with bassoon, horn and string support (PDF p. 3)."
+        "note": "The oboe takes the tune, with bassoon, horn and strings beneath it."
       },
       {
         "t": 104,
@@ -462,7 +223,7 @@ export default {
           "violins-1",
           "cellos"
         ],
-        "note": "The early variations expand into string-led and wind-coloured statements across the 1:44 region."
+        "note": "The strings take up the bassoon’s tune, with woodwinds joining its phrases."
       },
       {
         "t": 178,
@@ -485,7 +246,7 @@ export default {
           "trumpets",
           "trombones"
         ],
-        "note": "Sharper brass episode: announcing figures interrupt the preceding principal-theme variations (PDF p. 8); broad anchor at 2:58."
+        "note": "Horns, trumpets and trombones exchange short fanfares above sustained strings and winds."
       },
       {
         "t": 245,
@@ -500,7 +261,7 @@ export default {
         "lead": [
           "clarinets"
         ],
-        "note": "Exposed clarinet against string tremolo after the 4:05 reduction (PDF p. 9); no bar-exact solo entry claimed."
+        "note": "The clarinet plays freely above repeated pizzicato chords in the strings."
       },
       {
         "t": 276,
@@ -527,7 +288,7 @@ export default {
           "violins-1",
           "trumpets"
         ],
-        "note": "Active central expansion: piccolo, brass, timpani, triangle and cymbals reinforce the changing texture across this larger region (including PDF p. 19)."
+        "note": "Piccolo, brass, timpani, triangle and cymbals join the strings as the march grows."
       },
       {
         "t": 386,
@@ -543,7 +304,7 @@ export default {
         "lead": [
           "bassoons"
         ],
-        "note": "Reduced lower-register return after the 6:26 boundary, with bassoon-led phrases and string support."
+        "note": "The bassoon recalls the opening tune above quiet strings."
       },
       {
         "t": 440,
@@ -569,7 +330,7 @@ export default {
           "violins-1",
           "flutes"
         ],
-        "note": "Broader return: fuller winds, brass and percussion contribute across the sustained 7:20–8:35 span."
+        "note": "Winds and strings broaden the tune, reinforced by brass and percussion."
       },
       {
         "t": 522,
@@ -589,7 +350,7 @@ export default {
           "bassoons",
           "clarinets"
         ],
-        "note": "Closing recollection: lighter wind-led statements replace the fuller scoring after 8:42."
+        "note": "Short woodwind phrases emerge as the orchestral accompaniment thins."
       },
       {
         "t": 600,
@@ -615,7 +376,7 @@ export default {
           "trumpets",
           "violins-1"
         ],
-        "note": "Final build: winds, brass and percussion reinforce the B-major close across 10:00–10:20; the last chord then decays."
+        "note": "At Animato, strings race beneath brass chords; timpani and cymbals reinforce the B-major ending."
       }
     ],
     "solo": "solo-violin"

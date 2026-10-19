@@ -19,348 +19,177 @@ export default {
   "forces": "Orchestra",
   "performers": "Musopen recording; performers uncredited",
   "recorded": "",
-  "intro": "The finale introduces its own strong brass subject while recalling material from the preceding movements. Follow the difference between its sonata-form returns and those memories of the wider symphony.",
-  "question": "How does a finale conclude its own argument and recall three earlier movements?",
+  "intro": "The finale of the <i>New World</i> Symphony opens with rushing strings and a brass tune built to fill a hall. By the end, melodies from all four movements have returned, and the last E-major chord fades in the winds after the strings have stopped.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Preparation and main subject",
-      "m": "A",
-      "mNote": "string opening releases the brass-led E-minor theme"
-    },
-    {
-      "t": 105,
-      "label": "Lyrical contrast · approximate",
-      "m": "B",
-      "mNote": "longer melodic line replaces the main theme’s emphatic profile"
-    },
-    {
-      "t": 230,
-      "label": "Development and recollections · approximate",
-      "m": "Dev",
-      "mNote": "finale material combines with themes from earlier movements"
-    },
-    {
-      "t": 378,
-      "label": "Recapitulation region · approximate",
-      "m": "A′",
-      "mNote": "main subject and lyrical contrast return in compressed form"
-    },
-    {
-      "t": 540,
-      "label": "Coda begins · approximate",
-      "m": "Coda",
-      "mNote": "main material gathers force beyond the recapitulation"
-    },
-    {
-      "t": 610,
-      "label": "Late recollections · approximate",
-      "m": "Link",
-      "mNote": "reduced texture recalls earlier harmonic and thematic material"
-    },
-    {
-      "t": 648,
-      "label": "Final E-major arrival · approximate",
-      "m": "Close",
-      "mNote": "renewed orchestral weight gives way to the last decay"
-    }
+    { "t": 0, "label": "A · Strings rush towards the brass", "m": "A", "mNote": "Rising string figures launch the broad brass tune" },
+    { "t": 105, "label": "B · A clarinet song in G major", "m": "B", "mNote": "The clarinet sings while cellos weave quick figures below" },
+    { "t": 230, "label": "Dev · Earlier tunes return", "m": "Dev", "mNote": "The Largo and scherzo meet the finale’s own melody" },
+    { "t": 378, "label": "A′ · The main tune returns", "m": "A′", "mNote": "The opening tune leads a shortened return of earlier music" },
+    { "t": 540, "label": "Coda · Brass recalls the Largo chords", "m": "Coda", "mNote": "The slow movement’s chords return in the full orchestra" },
+    { "t": 610, "label": "Link · Clarinets above a held bass", "m": "Link", "mNote": "The orchestra softens to give the winds room" },
+    { "t": 648, "label": "Close · E major and a fading chord", "m": "Close", "mNote": "The final chord remains in the winds after the strings stop" }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "form",
-      "title": "A finale with a memory",
-      "text": "The finale has its own sonata-form argument while recalling themes from earlier movements. Those recollections enter the developing music rather than appearing only in an introductory catalogue.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 40,
       "kind": "music",
-      "title": "Strings prepare the declaration",
-      "text": "The opening string figures prepare the principal theme’s forceful brass presentation. Compare the short repeated motion with the longer, more emphatic melodic profile it supports.",
-      "basis": "general",
+      "title": "Strings before the brass",
+      "text": "The strings begin alone, driving a short figure upwards. Winds and brass enter as the climb reaches its summit. The main tune then strides out in the brass, with a broad opening and a sharply accented answer.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, movement IV, printed pp. 133–137, Allegro con fuoco. https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
     },
     {
-      "t": 80,
-      "kind": "listen",
-      "title": "Triplets change a theme",
-      "text": "The main material also appears in a triplet variant. A change in the subdivision of the beat can energise a familiar contour without replacing it.",
-      "basis": "general",
+      "t": 105,
+      "kind": "music",
+      "title": "The clarinet takes its time",
+      "text": "A solo clarinet introduces the second tune in G major. Its long notes float above the cellos’ quick, curling figures. The brass falls silent, and the flutes later join the clarinet’s song.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 121,
-      "kind": "life",
-      "title": "Finished on 24 May",
-      "text": "Dvořák completed the full score in New York on 24 May 1893. His children were travelling from Europe to join him at the time.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+      "evidence": "Šourek full score, printed pp. 146–148: solo clarinet, moving cellos and subsequent flute entries."
     },
     {
       "t": 161,
-      "kind": "form",
-      "title": "A broader second subject",
-      "text": "The contrasting second subject opens space for a longer lyrical line. Listen for the change in phrase length against the movement’s recurring rhythmic drive.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 201,
-      "kind": "listen",
-      "title": "One line above many",
-      "text": "In a lyrical passage, separate the melody from the accompanying motion. The number of active notes need not tell you which layer carries the argument.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 241,
-      "kind": "world",
-      "title": "Not a collection of quotations",
-      "text": "Dvořák repeatedly denied simply using existing American melodies in the symphony. His documented interest in spirituals and Native American music should be distinguished from claims of exact borrowing.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
-    },
-    {
-      "t": 281,
-      "kind": "music",
-      "title": "The development combines memories",
-      "text": "The development brings together ideas from the Largo, scherzo and finale. Listen for changes of function: a melody once heard as a principal subject can become part of a larger combination.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 321,
-      "kind": "listen",
-      "title": "Rhythm can identify a return",
-      "text": "A theme may remain recognisable when its instrumental colour or key has changed. Compare rhythmic profile and melodic contour before deciding that a phrase is entirely new.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 362,
-      "kind": "form",
-      "title": "The earlier symphony is present",
-      "text": "The recollections do not erase the finale’s own main theme. The movement builds its conclusion from the interaction of new material with ideas already established.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 402,
       "kind": "life",
-      "title": "The title came late",
-      "text": "According to Josef Kovařík’s memoir, Dvořák added “From the New World” to the score before sending it to Seidl in November 1893. The account is a recollection, not an inscription dated during composition.",
+      "title": "A telegram after the ending",
+      "text": "On 24 May 1893, Dvořák finishes the score at nine in the morning. That afternoon a telegram tells him his children have reached Southampton on their way to America. He adds the news beside the time of completion.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+      "evidence": "Josef Kovařík’s memoir records the completion time and telegram annotation on 24 May 1893; reproduced at https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
     },
     {
-      "t": 442,
-      "kind": "listen",
-      "title": "A bass can hold the argument",
-      "text": "Listen beneath the melodic exchanges for repeated bass pitches and moving bass lines. They help distinguish a sustained harmonic preparation from a new tonal arrival.",
-      "basis": "general",
+      "t": 230,
+      "kind": "form",
+      "title": "The other movements return",
+      "text": "The development draws on the whole symphony. The Largo’s song and the scherzo’s quick figures meet the finale’s main tune. Dvořák changes their companions and their accompaniment, letting melodies from different movements occupy the same bars.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "The Dvořák work catalogue identifies the combination of themes from movements II, III and IV in the finale’s development: https://www.antonin-dvorak.cz/en/work/symphony-no-9/. Šourek full score, printed pp. 157–170."
+    },
+    {
+      "t": 378,
+      "kind": "form",
+      "title": "The main tune comes back",
+      "text": "The finale’s main tune returns after the tangle of earlier melodies. Its broad statement now leads into a shortened recapitulation. Dvořák saves the longest reckoning with the symphony’s past for the coda.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "The abbreviated recapitulation and expanded coda are described in the Dvořák work catalogue: https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
     },
     {
       "t": 482,
-      "kind": "form",
-      "title": "An abbreviated recapitulation",
-      "text": "The reprise is shorter than the exposition. The saved space gives the large coda greater weight in the movement’s overall proportions.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 522,
-      "kind": "music",
-      "title": "Themes converge in the coda",
-      "text": "The score’s coda gathers important ideas from across the symphony, including the Largo’s opening chordal frame. Memory becomes part of the finale’s conclusion rather than a separate quotation display.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 562,
-      "kind": "world",
-      "title": "A European return",
-      "text": "The symphony’s first European performance took place in London on 21 June 1894. Dvořák himself conducted its Prague premiere at the National Theatre that October.",
+      "kind": "life",
+      "title": "A title added in November",
+      "text": "In November 1893, Anton Seidl asks for the score to prepare its première. Just before Kovařík carries it away, Dvořák adds <i>From the New World</i> to the title page. Until that evening, it has simply said <i>Symphony in E minor</i>.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+      "evidence": "Josef Kovařík’s memoir places the title-page addition in mid-November 1893, just before he delivered the score to Seidl; reproduced at https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
     },
     {
-      "t": 603,
-      "kind": "listen",
-      "title": "Major does not erase memory",
-      "text": "A major-mode arrival can change the colour of material previously heard in minor. Compare the harmonic setting with the theme’s earlier character rather than assuming a new tune.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 643,
+      "t": 540,
       "kind": "form",
-      "title": "One final span",
-      "text": "The ending combines emphatic gestures with a sustained final sonority. Keep following the release after the last large attack; a cadence is more than its loudest chord.",
-      "basis": "general",
+      "title": "The Largo’s chords grow immense",
+      "text": "The coda gathers the symphony’s old tunes around the finale’s own. Even the quiet chords that opened the Largo return, enlarged for the full orchestra. Rising strings press against their long brass notes.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, coda, printed pp. 190–197; the Largo-chord reminiscence is identified in the Dvořák work catalogue."
     },
     {
-      "t": 683,
+      "t": 610,
       "kind": "music",
-      "title": "The last crest is sustained",
-      "text": "The final arrival keeps its recorded weight across several windows before the decay. Listen for the difference between a strong attack and the sustained sound that remains after it.",
-      "basis": "audio-feature",
+      "title": "Clarinets above the quiet bass",
+      "text": "The orchestra draws back from its huge chords. Repeated string figures soften, and the bass settles into a long note. Clarinets emerge into the space, beginning another quiet recollection before the final climb.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/dvorak-9-finale.txt: The report’s strongest windows lie at 11:00, 11:10 and 11:15; level then falls from roughly −10 dB at 11:25 to −27 dB at 11:40."
+      "evidence": "Šourek full score, printed pp. 198–199, bars 310 onwards: diminuendo, held bass and clarinet soli."
+    },
+    {
+      "t": 648,
+      "kind": "form",
+      "title": "The winds keep the ending",
+      "text": "The closing pages drive towards E major. At the very end, strings, trombones and timpani cut their last chord short, but the other winds and brass hold on. Their sound diminishes to <i>ppp</i> under a long fermata.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Šourek full score, printed pp. 200–204, particularly the final bar: short string, trombone and timpani notes against sustained wind, horn and trumpet notes, diminuendo to ppp and lunga corona."
     }
   ],
   "transitions": [
     {
       "id": "join-1",
-      "title": "The brass argument relaxes",
-      "from": "Preparation and main subject",
-      "to": "Lyrical contrast · approximate",
-      "at": {
-        "t": 105
-      },
-      "span": [
-        95,
-        120
-      ],
-      "how": "<p>The main subject’s emphatic gestures make room for a longer lyrical line, introduced by clarinet in the score. Reduced orchestral weight lets the contrast depend on phrase shape rather than on a new pulse alone.</p>",
-      "devices": [
-        "decrescendo",
-        "texture change",
-        "orchestration change"
-      ],
+      "title": "The brass yields to a clarinet",
+      "from": "A · Strings rush towards the brass",
+      "to": "B · A clarinet song in G major",
+      "at": { "t": 105 },
+      "span": [95, 120],
+      "how": "<p>The brass withdraws and the strings soften. A solo clarinet opens the G-major second tune, stretching its phrases above the cellos’ quick figures. The upper strings hold long chords while the melody finds room to breathe.</p>",
+      "devices": ["decrescendo", "texture change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-finale.txt: A large reduction at 1:40–1:45 precedes low onset density and sustained lines through 2:20; the exact clarinet entrance is not timestamped. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 146–148, lyrical second subject."
     },
     {
       "id": "join-2",
-      "title": "The finale opens its memory",
-      "from": "Lyrical contrast · approximate",
-      "to": "Development and recollections · approximate",
-      "at": {
-        "t": 230
-      },
-      "span": [
-        220,
-        245
-      ],
-      "how": "<p>The exposition’s later material leads into development. Themes from the earlier movements enter alongside the finale’s ideas, so the development works on the whole symphony’s memory as well as this movement’s exposition.</p>",
-      "devices": [
-        "motivic link",
-        "sequence",
-        "texture change"
-      ],
+      "title": "The strings reopen the argument",
+      "from": "B · A clarinet song in G major",
+      "to": "Dev · Earlier tunes return",
+      "at": { "t": 230 },
+      "span": [220, 245],
+      "how": "<p>The exposition’s closing figures diminish over a held bass. The first violins turn upwards from this quiet ending, setting the development in motion. Horns, trumpets and winds take up memories of the other movements above the moving strings.</p>",
+      "devices": ["motivic link", "texture change", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-finale.txt: After quiet windows at 3:35–3:45, renewed activity appears at 3:50; later boundaries at 4:36, 4:50 and 5:00 articulate the changing developmental textures. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 156–160: diminished closing figures, rising violin phrase and ensuing development."
     },
     {
       "id": "join-3",
-      "title": "The finale’s subject returns",
-      "from": "Development and recollections · approximate",
-      "to": "Recapitulation region · approximate",
-      "at": {
-        "t": 378
-      },
-      "span": [
-        368,
-        393
-      ],
-      "how": "<p>The developmental combinations lead back to the finale’s main subject. Its return restores the local sonata argument, while the shortened recapitulation still leaves room for the broader cyclic conclusion.</p>",
-      "devices": [
-        "retransition",
-        "motivic link",
-        "orchestration change"
-      ],
+      "title": "The main tune gathers the orchestra",
+      "from": "Dev · Earlier tunes return",
+      "to": "A′ · The main tune returns",
+      "at": { "t": 378 },
+      "span": [368, 393],
+      "how": "<p>Repeated wind chords and rising violin figures build towards the main tune’s return. Horns, bassoons and low strings give it weight below the high winds. The returning music follows a shorter course than the exposition, leaving the great accumulation for the coda.</p>",
+      "devices": ["retransition", "motivic link", "crescendo build"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-finale.txt: The 6:18 boundary leads into one of the report’s loudest windows at 6:20, followed by an E-minor-compatible restatement region. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 170–172, rehearsal 8. The shorter recapitulation is described in the Dvořák work catalogue."
     },
     {
       "id": "join-4",
-      "title": "The return is not the ending",
-      "from": "Recapitulation region · approximate",
-      "to": "Coda begins · approximate",
-      "at": {
-        "t": 540
-      },
-      "span": [
-        530,
-        555
-      ],
-      "how": "<p>After the recapitulation’s lyrical span, renewed weight begins the coda. The principal material now works towards a final decision rather than another exposition-like succession of themes.</p>",
-      "devices": [
-        "motivic link",
-        "crescendo build",
-        "texture change"
-      ],
+      "title": "The orchestra enlarges the Largo chords",
+      "from": "A′ · The main tune returns",
+      "to": "Coda · Brass recalls the Largo chords",
+      "at": { "t": 540 },
+      "span": [530, 555],
+      "how": "<p>At <i>Tempo I</i>, the quieter return gives way to long orchestral chords and a forceful line in bassoons, cellos and basses. The coda gathers earlier themes, including the Largo’s opening chord sequence. Brass sustains the harmony while the strings repeatedly climb beneath it.</p>",
+      "devices": ["motivic link", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-finale.txt: A strong boundary at 9:00 follows the quieter E-major-compatible span around 8:00–8:35; levels then remain stronger through 9:55. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 190–197, Tempo I and the coda; the Largo-chord return is identified in the Dvořák work catalogue."
     },
     {
       "id": "join-5",
-      "title": "The coda makes room for memory",
-      "from": "Coda begins · approximate",
-      "to": "Late recollections · approximate",
-      "at": {
-        "t": 610
-      },
-      "span": [
-        600,
-        625
-      ],
-      "how": "<p>The coda withdraws before its final assertion, allowing earlier thematic and harmonic recollections to become audible again. This reduction delays the ending instead of replacing it with another independent movement.</p>",
-      "devices": [
-        "decrescendo",
-        "motivic link",
-        "texture change"
-      ],
+      "title": "The clarinets emerge from the chords",
+      "from": "Coda · Brass recalls the Largo chords",
+      "to": "Link · Clarinets above a held bass",
+      "at": { "t": 610 },
+      "span": [600, 625],
+      "how": "<p>The wind chords and repeated string figures diminish together. Cellos and basses stop their running notes and hold a quiet foundation. Clarinets begin a new phrase above it, while the brass rests and the timpani roll fades.</p>",
+      "devices": ["decrescendo", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-finale.txt: The level falls steeply after 10:00, reaching the report’s quietest windows at 10:20 and 10:25. The work source documents the late recollections; they are not identified by loudness alone. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 198–199, bars 310 onwards."
     },
     {
       "id": "join-6",
-      "title": "A final major-key assertion",
-      "from": "Late recollections · approximate",
-      "to": "Final E-major arrival · approximate",
-      "at": {
-        "t": 648
-      },
-      "span": [
-        638,
-        663
-      ],
-      "how": "<p>The reduced passage rebuilds towards E major. Full orchestral weight returns before the final chord loses its force; the written major-mode close resolves the movement’s E-minor argument without erasing its earlier contrasts.</p>",
-      "devices": [
-        "crescendo build",
-        "perfect cadence",
-        "orchestration change"
-      ],
+      "title": "E major fills the closing pages",
+      "from": "Link · Clarinets above a held bass",
+      "to": "Close · E major and a fading chord",
+      "at": { "t": 648 },
+      "span": [638, 663],
+      "how": "<p>The quiet wind recollection grows into the final orchestral drive. Rising strings, emphatic brass and timpani push towards E major. The last chord separates the orchestra: strings, trombones and timpani stop short; winds, horns and trumpets sustain and diminish to <i>ppp</i>.</p>",
+      "devices": ["crescendo build", "orchestration change", "decrescendo"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-finale.txt: The strong 10:48 boundary precedes the report’s loudest windows at 11:00, 11:10 and 11:15. The ending then decays across 11:30–11:40. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 200–204, concluding build and final chord."
     }
   ],
   "orchestra": {
@@ -384,7 +213,7 @@ export default {
     "source": {
       "title": "Dvořák, Symphony No. 9, full score, critical edition edited by Otakar Šourek",
       "url": "https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf",
-      "locator": "Fourth movement: printed pp. 133–204 (PDF pp. 135–206). Cymbals have one tied sonority in bars 64–66, printed p. 146 (PDF p. 148); no tuba is scored. Entries are passage-level summaries, not bar alignments."
+      "locator": "Movement IV, printed pp. 133–204: rising strings and the brass main tune, lyrical clarinet, returning themes and final E-major chord. Cymbals sound once, held across bars 64–66 on printed p. 146. There is no tuba part."
     },
     "timeline": [
       {
@@ -402,7 +231,7 @@ export default {
           "violas",
           "cellos"
         ],
-        "note": "Opening preparation: strings establish the rising tension before the main subject’s orchestral release."
+        "note": "The strings begin alone, driving a short figure upwards towards the brass entrance."
       },
       {
         "t": 15,
@@ -425,13 +254,13 @@ export default {
           "horns",
           "trumpets"
         ],
-        "note": "Main-subject region: horn and trumpet sonority projects the E-minor theme above active strings."
+        "note": "Horns and trumpets project the broad E-minor tune above moving strings."
       },
       {
         "t": 100,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "percussion", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes", "clarinets"],
-        "note": "The single cymbal sonority colours the withdrawal into the lyrical group (bars 64–66, printed p. 146). Its brief ringing span is provisionally placed around the report’s 1:40 reduction; no exact strike time is claimed."
+        "note": "A single soft cymbal stroke rings across three bars as the music approaches the clarinet’s song."
       },
       {
         "t": 105,
@@ -450,7 +279,7 @@ export default {
         "lead": [
           "clarinets"
         ],
-        "note": "Lyrical region: clarinet-led melody and quieter string support replace the preceding brass weight."
+        "note": "The clarinet sings in G major above quick cello figures and held upper strings."
       },
       {
         "t": 230,
@@ -474,7 +303,7 @@ export default {
           "horns",
           "violins-1"
         ],
-        "note": "Development region: earlier-movement recollections and finale material move among winds, brass and strings."
+        "note": "Themes from the Largo and scherzo pass through winds and brass above the moving strings."
       },
       {
         "t": 378,
@@ -497,31 +326,31 @@ export default {
           "horns",
           "trumpets"
         ],
-        "note": "Recapitulation region: the main subject returns before a quieter lyrical span."
+        "note": "The main tune returns across the orchestra before the quieter woodwind phrases."
       },
       {
         "t": 400,
         "playing": ["oboes", "clarinets", "horns", "trombones", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["oboes", "horns"],
-        "note": "Withdrawal after the brass subject: oboe and horn phrases pass towards clarinet, with quiet trombone harmony and timpani beneath strings (printed p. 176). Broad anchor in the 6:40–6:56 low-level span."
+        "note": "Oboes and horns hand their phrases to clarinets, above quiet trombone chords, timpani and strings."
       },
       {
         "t": 416,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["clarinets"],
-        "note": "Lyrical-return region: the wind melody and string accompaniment replace the earlier trumpet-led texture. The 6:56 boundary and sustained quieter 7:00–7:40 span anchor the broad return."
+        "note": "The clarinet recovers the lyrical tune, with the other winds and strings answering around it."
       },
       {
         "t": 464,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes", "violins-1"],
-        "note": "The lyrical span broadens through upper winds and strings, then settles over quieter harmony and timpani (including printed p. 182, PDF p. 184). Its melodic foreground is not carried by trumpets; the broad anchor is 7:44."
+        "note": "Flutes and strings broaden the song, then soften over quiet timpani and held chords."
       },
       {
         "t": 540,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["horns", "trumpets", "violins-1"],
-        "note": "Renewed coda: brass and timpani regain their stronger supporting and thematic roles with winds and strings. The 9:00 boundary and sustained rise through 9:55 anchor the return of orchestral weight."
+        "note": "Brass and timpani rejoin the winds and strings as the coda gathers the symphony’s earlier tunes."
       },
       {
         "t": 610,
@@ -532,6 +361,7 @@ export default {
           "bassoons",
           "horns",
           "trombones",
+          "timpani",
           "violins-1",
           "violins-2",
           "violas",
@@ -539,10 +369,10 @@ export default {
           "basses"
         ],
         "lead": [
-          "horns",
-          "trombones"
+          "clarinets",
+          "horns"
         ],
-        "note": "Late coda: the texture reduces for harmonic and thematic recollections before the final orchestral build."
+        "note": "Clarinets sing above a held bass; the horn call follows, with quiet timpani and trombone chords."
       },
       {
         "t": 648,
@@ -566,7 +396,7 @@ export default {
           "trumpets",
           "trombones"
         ],
-        "note": "Final arrival: brass and strings reinforce E major before the sustained last sonority loses force."
+        "note": "The orchestra drives towards E major; winds, horns and trumpets hold the final chord after the strings stop."
       }
     ]
   }

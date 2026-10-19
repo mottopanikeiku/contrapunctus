@@ -19,382 +19,205 @@ export default {
   "forces": "Orchestra",
   "performers": "Musopen recording; performers uncredited",
   "recorded": "",
-  "intro": "A slow introduction prepares a movement with three distinguishable thematic ideas. The main fanfare becomes a memory carried through the symphony; here, follow its replies, the contrasting themes and their transposed returns.",
-  "question": "How can three different ideas belong to one sonata argument?",
+  "intro": "The <i>New World</i> Symphony begins quietly in the lower strings, then finds its voice in a horn call. That call will keep returning through all four movements, even when Dvořák seems to have wandered far from E minor.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Adagio introduction",
-      "m": "Intro",
-      "mNote": "low-string phrases anticipate the main argument"
-    },
-    {
-      "t": 120,
-      "label": "Allegro · main subject",
-      "m": "A",
-      "mNote": "fanfare-like call and answering phrase"
-    },
-    {
-      "t": 180,
-      "label": "Second subject · approximate",
-      "m": "B",
-      "mNote": "narrower melodic compass and lowered seventh"
-    },
-    {
-      "t": 260,
-      "label": "Lyrical closing theme · approximate",
-      "m": "C",
-      "mNote": "pentatonic melody broadens the exposition"
-    },
-    {
-      "t": 312,
-      "label": "Development · approximate",
-      "m": "Dev",
-      "mNote": "earlier ideas pass through changing harmonic settings"
-    },
-    {
-      "t": 398,
-      "label": "Main subject returns · approximate",
-      "m": "A′",
-      "mNote": "fanfare returns within a compressed recapitulation"
-    },
-    {
-      "t": 440,
-      "label": "Second subject returns · approximate",
-      "m": "B′",
-      "mNote": "secondary material transposed a semitone above its exposition setting"
-    },
-    {
-      "t": 520,
-      "label": "Closing theme returns · approximate",
-      "m": "C′",
-      "mNote": "lyrical closing idea likewise returns a semitone higher"
-    },
-    {
-      "t": 550,
-      "label": "Coda · approximate",
-      "m": "Coda",
-      "mNote": "main subject strengthened by brass and timpani"
-    }
+    { "t": 0, "label": "Intro · Low strings, interrupted phrases", "m": "Intro", "mNote": "Violas and cellos begin quietly; horns and winds answer" },
+    { "t": 120, "label": "A · The E-minor horn call", "m": "A", "mNote": "Horns announce the tune above quiet string chords" },
+    { "t": 180, "label": "B · Flutes and oboes in G minor", "m": "B", "mNote": "A narrow wind tune rides over a repeated horn note" },
+    { "t": 260, "label": "C · A flute song in G major", "m": "C", "mNote": "Solo flute sings above softly held strings" },
+    { "t": 312, "label": "Dev · The horn call changes key", "m": "Dev", "mNote": "The main call and closing tune pass through changing keys" },
+    { "t": 398, "label": "A′ · The E-minor call returns", "m": "A′", "mNote": "The opening call regains its home key" },
+    { "t": 440, "label": "B′ · The wind tune in G♯ minor", "m": "B′", "mNote": "The second tune returns a semitone higher" },
+    { "t": 520, "label": "C′ · The flute song in A♭", "m": "C′", "mNote": "The closing tune also rises a semitone" },
+    { "t": 550, "label": "Coda · Brass and timpani in E minor", "m": "Coda", "mNote": "The opening call rises above the full orchestra" }
   ],
   "cues": [
     {
       "t": 0,
-      "kind": "form",
-      "title": "A slow beginning",
-      "text": "Dvořák starts with an Adagio before the main Allegro molto. The introduction already anticipates material used later, so its hesitant phrases belong to the movement’s thematic argument.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 39,
-      "kind": "listen",
-      "title": "Lower strings begin the sentence",
-      "text": "The opening foreground is in the violas and cellos, with other instruments entering around them. Listen to the low melodic line rather than expecting a violin-led introduction.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 78,
       "kind": "music",
-      "title": "Pauses give phrases edges",
-      "text": "The introduction separates gestures with rests and changes of texture. A pause can make the next phrase feel like a reply without introducing a new melody.",
-      "basis": "general",
+      "title": "The lower strings begin",
+      "text": "Violas and cellos start softly, with basses underneath. The violins wait while clarinets, bassoons and horns add short replies. These hesitant phrases already contain the shape of the horn call that will drive the Allegro.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Full score, Otakar Šourek edition, movement I, printed pp. 1–7; the thematic connection is described in the Dvořák work catalogue. https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
     },
     {
-      "t": 117,
+      "t": 120,
       "kind": "form",
-      "title": "A call and its response",
-      "text": "The Allegro’s main theme contains a fanfare-like opening and a contrasting response. Its announcing gesture will recur in later movements, linking the symphony through memory.",
-      "basis": "general",
+      "title": "The horns announce it",
+      "text": "The horns launch the Allegro’s E-minor tune above quiet string chords and plucked basses. Its opening leaps like a fanfare; the answer falls back. Dvořák will bring this call into every later movement.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed p. 7, bars 24 onwards. The call’s later appearances are documented at https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
     },
     {
       "t": 156,
       "kind": "life",
-      "title": "Written in New York",
-      "text": "Dvořák composed the symphony between 10 January and 24 May 1893 during his first year in the United States. It was complete before his summer visit to Spillville, Iowa.",
+      "title": "A letter from New York",
+      "text": "On 12 April 1893 Dvořák writes from New York to Emil Kozánek about his new symphony: “It pleases me very much and will differ considerably from my early compositions.” He finishes the score on 24 May.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+      "evidence": "Dvořák to Emil Kozánek, New York, 12 April 1893; letter excerpt and composition dates in the work catalogue, https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
     },
     {
-      "t": 195,
-      "kind": "listen",
-      "title": "Rhythm marks the identity",
-      "text": "Dotted rhythms and displaced accents help identify the principal material. Keep a rhythmic profile in mind when an idea moves to another instrumental group.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 234,
+      "t": 180,
       "kind": "music",
-      "title": "A more restricted range",
-      "text": "The second subject begins with a narrower melodic compass and a lowered seventh. Its later transformation changes the character without discarding the underlying idea.",
-      "basis": "general",
+      "title": "Flutes and oboes answer",
+      "text": "The second tune begins in G minor, shared by flutes and oboes above a repeated horn note. It stays within a small compass and uses F♮, the lowered seventh. Later, the same tune opens out into a dance in major.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 16–19, from bar 91. The minor-to-major transformation is discussed in the work catalogue, https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
     },
     {
-      "t": 273,
-      "kind": "world",
-      "title": "Burleigh’s singing mattered",
-      "text": "The African American singer Harry T. Burleigh sang spirituals for Dvořák in New York. The connection is documented; it does not make every pentatonic melody in the symphony a quotation.",
-      "basis": "documented",
+      "t": 260,
+      "kind": "music",
+      "title": "The flute’s third tune",
+      "text": "A solo flute sings the third tune in G major. Its opening has the rhythm of the horn call, now softened into a song. The strings hold their chords quietly, leaving the flute plenty of air.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+      "evidence": "Šourek full score, printed p. 26, bar 149 onwards: solo flute and sustained strings. The rhythmic kinship is described in the Dvořák work catalogue."
     },
     {
       "t": 312,
       "kind": "form",
-      "title": "Three supporting ideas",
-      "text": "The exposition contains a main subject, a contrasting second subject and a lyrical closing theme. Hear their differences in phrase shape and rhythmic emphasis rather than forcing the movement into two tunes only.",
-      "basis": "general",
+      "title": "The tunes leave home",
+      "text": "The development takes up the horn call and the opening of the flute song. The keys turn quickly: A major becomes A minor, then F major and F♯ minor. Familiar phrases acquire sharper edges as their bass notes move.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "The Dvořák work catalogue identifies the two principal themes used in the development and gives its key sequence: https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
     },
     {
-      "t": 351,
-      "kind": "music",
-      "title": "Pressure across the development",
-      "text": "This central span sustains considerably more recorded force than the quiet end of the exposition. Follow the succession of gestures through the changing harmonic ground.",
-      "basis": "audio-feature",
+      "t": 398,
+      "kind": "form",
+      "title": "E minor, then a surprise",
+      "text": "The opening call returns in E minor. The other tunes follow, but both have moved up a semitone: the second begins in G♯ minor, and the flute song returns in A♭ major. Homecoming has a detour built into it.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/dvorak-9-adagio.txt: The level rises from about −26 dB at 5:10 to −8 dB at 6:00, with further strong windows at 6:10–6:20."
-    },
-    {
-      "t": 390,
-      "kind": "music",
-      "title": "Development changes the harmony",
-      "text": "The development recombines earlier ideas while moving through several key regions. Repetition of a short shape can create continuity across a rapidly changing harmonic background.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, recapitulation, including printed pp. 53–54 and 63. The semitone transpositions are documented in the Dvořák work catalogue."
     },
     {
       "t": 429,
-      "kind": "life",
-      "title": "A conservatory in America",
-      "text": "Dvořák was directing New York’s National Conservatory when he wrote the symphony. His American stay placed him in direct contact with musicians whose repertories differed from those he had known in Prague.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
-    },
-    {
-      "t": 468,
-      "kind": "form",
-      "title": "A return, with transposition",
-      "text": "The recapitulation closely follows the exposition, but the secondary and closing themes return a semitone higher. Recognisable material need not return at its original pitch level.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 507,
-      "kind": "listen",
-      "title": "The first theme looks ahead",
-      "text": "The fanfare-like main subject matters beyond this movement. Keep its contour in memory for later appearances in the Largo, scherzo and finale.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening point about the written movement, not an instrument entrance or bar-aligned claim at this timestamp. https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
-    },
-    {
-      "t": 546,
       "kind": "world",
-      "title": "Seidl conducted the premiere",
-      "text": "Anton Seidl conducted the New York Philharmonic Society’s premiere at Carnegie Hall on 16 December 1893. A public rehearsal the previous afternoon had already attracted a large audience.",
+      "title": "Burleigh sings for Dvořák",
+      "text": "In New York, Harry T. Burleigh sings spirituals for Dvořák. They meet repeatedly before he begins the symphony. The songs’ five-note scales and displaced accents feed his thinking as he writes his own melodies.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Historical or source-context note; no timed musical event is asserted. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+      "evidence": "The work catalogue describes Burleigh’s meetings with Dvořák and the influence of pentatonic melody and syncopation: https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
     },
     {
-      "t": 585,
-      "kind": "music",
-      "title": "The closing weight persists",
-      "text": "The last stretch maintains a strong recorded level across several phrases. It does not retreat immediately after the coda’s first crest.",
-      "basis": "audio-feature",
+      "t": 550,
+      "kind": "form",
+      "title": "The brass claims E minor",
+      "text": "The coda brings the horn call up through the brass, with timpani driving underneath the full orchestra. After the flute song’s visit to A♭ major, the ending plants both feet in E minor.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "cache/analysis/dvorak-9-adagio.txt: Windows from 9:10 through 9:55 stay relatively strong, including high levels at 9:25, 9:30 and 9:50."
+      "evidence": "Šourek full score, closing pages of movement I, printed pp. 64–72. The brass statement and prominent timpani are described in the work catalogue."
     }
   ],
   "transitions": [
     {
       "id": "join-1",
-      "title": "The introduction releases the Allegro",
-      "from": "Adagio introduction",
-      "to": "Allegro · main subject",
-      "at": {
-        "t": 120
-      },
-      "span": [
-        110,
-        135
-      ],
-      "how": "<p>The Adagio’s separated gestures prepare the main theme rather than forming a detachable prelude. A B-dominant preparation leads into the Allegro’s E-minor call and response, with quicker articulation and clearer rhythmic direction.</p>",
-      "devices": [
-        "dominant pedal",
-        "tempo change",
-        "motivic link"
-      ],
+      "title": "The horns release the Allegro",
+      "from": "Intro · Low strings, interrupted phrases",
+      "to": "A · The E-minor horn call",
+      "at": { "t": 120 },
+      "span": [110, 135],
+      "how": "<p>The Adagio’s last outburst subsides onto B, the dominant of E minor. The strings hold quietly as the metre changes to 2/4. At <i>Allegro molto</i>, horns announce the main tune above string chords and plucked cellos and basses.</p>",
+      "devices": ["tempo change", "metre change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-adagio.txt: The 1:55 window is quiet, with B prominent; level and attack activity rise at 2:00 as the score’s E-minor Allegro begins. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 6–7, end of the introduction and bars 24 onwards."
     },
     {
       "id": "join-2",
-      "title": "The fanfare makes room",
-      "from": "Allegro · main subject",
-      "to": "Second subject · approximate",
-      "at": {
-        "t": 180
-      },
-      "span": [
-        170,
-        195
-      ],
-      "how": "<p>The forceful main-subject region relaxes into a more restricted melodic line. The second subject’s lowered seventh and narrower compass distinguish it from the opening call while retaining rhythmic links with the larger argument.</p>",
-      "devices": [
-        "decrescendo",
-        "texture change"
-      ],
+      "title": "The winds settle into G minor",
+      "from": "A · The E-minor horn call",
+      "to": "B · Flutes and oboes in G minor",
+      "at": { "t": 180 },
+      "span": [170, 195],
+      "how": "<p>The running string phrases quieten. Flutes and oboes begin the G-minor tune above sustained strings, with a solo horn repeating one note underneath. Its F♮ keeps the melody clear of the leading note F♯.</p>",
+      "devices": ["decrescendo", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-adagio.txt: Level falls from the 2:30 crest towards 3:00; the 3:04 boundary marks renewed activity within the quieter second-subject region. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 15–17, especially bar 91 onwards."
     },
     {
       "id": "join-3",
-      "title": "A third idea closes the exposition",
-      "from": "Second subject · approximate",
-      "to": "Lyrical closing theme · approximate",
-      "at": {
-        "t": 260
-      },
-      "span": [
-        250,
-        275
-      ],
-      "how": "<p>The second-subject region gives way to a more lyrical closing melody. Its pentatonic outline and longer phrases supply another kind of contrast before the development, rather than merely decorating the first subject.</p>",
-      "devices": [
-        "texture change",
-        "motivic link"
-      ],
+      "title": "A solo flute sings in G",
+      "from": "B · Flutes and oboes in G minor",
+      "to": "C · A flute song in G major",
+      "at": { "t": 260 },
+      "span": [250, 275],
+      "how": "<p>The preceding wind phrases settle and the moving strings soften into held chords. A solo flute introduces the closing tune in G major. Its dotted opening recalls the main call’s rhythm, while the brass and double basses remain silent.</p>",
+      "devices": ["decrescendo", "orchestration change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-adagio.txt: The 4:20–4:25 windows are exceptionally quiet before the rising 4:30–4:50 span; the G-major destination is established by the score, with chroma as corroboration. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 25–26, closing-theme entry at bar 149."
     },
     {
       "id": "join-4",
-      "title": "Stable themes enter changing harmony",
-      "from": "Lyrical closing theme · approximate",
-      "to": "Development · approximate",
-      "at": {
-        "t": 312
-      },
-      "span": [
-        302,
-        327
-      ],
-      "how": "<p>The exposition’s close is followed by development of the earlier ideas. Sequential movement through changing keys makes short recognisable shapes do work outside their original settings.</p>",
-      "devices": [
-        "sequence",
-        "motivic link",
-        "texture change"
-      ],
+      "title": "G major loosens its hold",
+      "from": "C · A flute song in G major",
+      "to": "Dev · The horn call changes key",
+      "at": { "t": 312 },
+      "span": [302, 327],
+      "how": "<p>The G-major close leads into development beginning in A major. Dvořák takes the main call and the first phrase of the flute song through a sequence of new keys, turning A major to A minor before moving on to F major and F♯ minor.</p>",
+      "devices": ["sequence", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-adagio.txt: A strong boundary at 5:12 follows the closing-theme decline; level and attack activity then rise across 5:20–6:10. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "The development’s thematic content and key sequence are given in the Dvořák work catalogue: https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
     },
     {
       "id": "join-5",
-      "title": "The main call returns",
-      "from": "Development · approximate",
-      "to": "Main subject returns · approximate",
-      "at": {
-        "t": 398
-      },
-      "span": [
-        388,
-        413
-      ],
-      "how": "<p>The developmental motion gives way to the main subject again. The return restores E minor, but the recapitulation does not keep every later theme at its exposition pitch.</p>",
-      "devices": [
-        "retransition",
-        "motivic link"
-      ],
+      "title": "The call finds E minor",
+      "from": "Dev · The horn call changes key",
+      "to": "A′ · The E-minor call returns",
+      "at": { "t": 398 },
+      "span": [388, 413],
+      "how": "<p>The changing keys lead back to E minor and the main call. Its rising announcement and falling answer restore the opening pattern. The recapitulation then follows the earlier order of themes, with the later wind tunes shifted up a semitone.</p>",
+      "devices": ["retransition", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-adagio.txt: The 6:26 reduction is followed by a strong boundary at 6:38 and renewed E-minor-compatible activity at 6:45–6:55. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, movement I recapitulation; the thematic order and transpositions are described at https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
     },
     {
       "id": "join-6",
-      "title": "A familiar contrast is transposed",
-      "from": "Main subject returns · approximate",
-      "to": "Second subject returns · approximate",
-      "at": {
-        "t": 440
-      },
-      "span": [
-        430,
-        455
-      ],
-      "how": "<p>The main-subject return again relaxes into the secondary material. Dvořák places this region a semitone above its earlier setting, so thematic recognition and tonal placement do not coincide exactly.</p>",
-      "devices": [
-        "decrescendo",
-        "motivic link",
-        "texture change"
-      ],
+      "title": "The wind tune rises a semitone",
+      "from": "A′ · The E-minor call returns",
+      "to": "B′ · The wind tune in G♯ minor",
+      "at": { "t": 440 },
+      "span": [430, 455],
+      "how": "<p>The returning fanfare quietens into the second tune. A solo flute recovers its narrow melody over held strings, now in G♯ minor. Plucked bass notes leave plenty of space beneath the line; the other winds join as the phrase unfolds.</p>",
+      "devices": ["decrescendo", "orchestration change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-adagio.txt: Level falls towards 7:20; the ensuing 7:25–7:45 pitch profile supports the score’s transposed secondary region. Chroma is not the sole identification. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 52–54: strings prepare the solo flute’s transposed return at bar 316."
     },
     {
       "id": "join-7",
-      "title": "The closing theme returns higher",
-      "from": "Second subject returns · approximate",
-      "to": "Closing theme returns · approximate",
-      "at": {
-        "t": 520
-      },
-      "span": [
-        510,
-        535
-      ],
-      "how": "<p>The lyrical closing idea follows the secondary material as before, now also a semitone higher. Its phrase shape remains recognisable despite the changed tonal location.</p>",
-      "devices": [
-        "motivic link",
-        "texture change"
-      ],
+      "title": "The flute returns in A♭",
+      "from": "B′ · The wind tune in G♯ minor",
+      "to": "C′ · The flute song in A♭",
+      "at": { "t": 520 },
+      "span": [510, 535],
+      "how": "<p>The busy string accompaniment settles into long chords. A solo flute sings the closing theme in A♭ major, a semitone above its first appearance. The double basses rest while cellos hold the foundation beneath the tune.</p>",
+      "devices": ["motivic link", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-adagio.txt: A quiet 8:35 window precedes the rise through 8:40–9:00; the score establishes the closing theme’s A♭-major return. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, printed pp. 62–63, closing-theme return at rehearsal 12."
     },
     {
       "id": "join-8",
-      "title": "The main subject claims the ending",
-      "from": "Closing theme returns · approximate",
-      "to": "Coda · approximate",
-      "at": {
-        "t": 550
-      },
-      "span": [
-        540,
-        565
-      ],
-      "how": "<p>The coda redirects the lyrical close to the movement’s main material and E-minor destination. Brass and timpani reinforce the fanfare rather than introduce another independent theme.</p>",
-      "devices": [
-        "motivic link",
-        "orchestration change",
-        "perfect cadence"
-      ],
+      "title": "E minor takes the ending",
+      "from": "C′ · The flute song in A♭",
+      "to": "Coda · Brass and timpani in E minor",
+      "at": { "t": 550 },
+      "span": [540, 565],
+      "how": "<p>The flute song’s A♭ major is left behind as the coda turns back to E minor. The main call grows into a brass statement above the full orchestra, with timpani reinforcing the drive to the final chords.</p>",
+      "devices": ["motivic link", "orchestration change", "crescendo build"],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Approximate passage boundary, not a bar alignment. cache/analysis/dvorak-9-adagio.txt: The 9:10 boundary is also the report’s loudest window; the remaining span sustains stronger levels and E-minor-compatible pitch content before the final decay. Written design: https://www.antonin-dvorak.cz/en/work/symphony-no-9/ Score: https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
+      "evidence": "Šourek full score, closing pages of movement I; the coda’s brass and timpani writing is described in the Dvořák work catalogue."
     }
   ],
   "orchestra": {
@@ -418,7 +241,7 @@ export default {
     "source": {
       "title": "Dvořák, Symphony No. 9, full score, critical edition edited by Otakar Šourek",
       "url": "https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf",
-      "locator": "First movement: printed pp. 1–72 (PDF pp. 3–74). The short piccolo phrase is in bars 197–200, printed p. 34 (PDF p. 36); no tuba is scored in this movement. Time positions remain broad passage estimates."
+      "locator": "Movement I, printed pp. 1–72. The introduction begins in lower strings; horns announce the Allegro. Piccolo appears briefly in bars 197–200, printed p. 34. The movement has no tuba part."
     },
     "timeline": [
       {
@@ -437,25 +260,25 @@ export default {
           "violas",
           "cellos"
         ],
-        "note": "Introduction region: violas and cellos begin the line; wind and horn responses enter around the low strings."
+        "note": "Violas and cellos begin quietly; clarinets, bassoons and horns add short replies."
       },
       {
         "t": 60,
         "playing": ["flutes", "oboes", "clarinets", "horns", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["timpani", "violins-1"],
-        "note": "The introduction’s forceful wind, horn and string gestures include timpani (printed p. 3, PDF p. 5). Broadly anchored to the report’s strong 1:00–1:05 rise, not an exact drum entrance."
+        "note": "Timpani reinforce the introduction’s sudden wind, horn and string outbursts."
       },
       {
         "t": 74,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes", "oboes", "horns"],
-        "note": "The introduction reduces to wind figures, horn replies and quieter strings (printed p. 4). The report’s 1:14 boundary and quiet 1:15–1:20 windows anchor the change of scale."
+        "note": "The orchestra softens to wind figures, horn replies and quiet strings."
       },
       {
         "t": 96,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["horns", "trumpets", "trombones"],
-        "note": "Later introductory gestures add trumpets and trombones to winds and strings (printed p. 5). Broad placement follows the report’s 1:36 boundary and renewed stronger gestures before the Allegro."
+        "note": "Trumpets and trombones join the winds and strings as the introduction gathers force."
       },
       {
         "t": 120,
@@ -477,13 +300,13 @@ export default {
           "horns",
           "violins-1"
         ],
-        "note": "Main-subject region: horn call and string response develop into fuller orchestral statements."
+        "note": "Horns announce the E-minor call; the strings answer and the orchestra grows around it."
       },
       {
         "t": 150,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["horns", "trombones", "violins-1"],
-        "note": "Main-subject climax: trombones and timpani reinforce the full wind, brass and string scoring (printed p. 11, PDF p. 13). The 2:30 window is one of the report’s strongest."
+        "note": "Trombones and timpani reinforce the main tune above the full strings and winds."
       },
       {
         "t": 180,
@@ -503,7 +326,7 @@ export default {
           "flutes",
           "oboes"
         ],
-        "note": "Secondary region: wind-led melodic statements and string support replace the opening fanfare’s weight."
+        "note": "Flutes and oboes introduce the G-minor tune above held strings and a repeated horn note."
       },
       {
         "t": 260,
@@ -522,7 +345,7 @@ export default {
         "lead": [
           "flutes"
         ],
-        "note": "Closing-theme region: the flute’s lyrical line expands into broader wind and string statements."
+        "note": "A solo flute sings in G major over quiet string chords; the other winds join the unfolding phrase."
       },
       {
         "t": 312,
@@ -545,25 +368,25 @@ export default {
           "horns",
           "violins-1"
         ],
-        "note": "Development region: earlier figures pass between strings, winds and brass through changing harmonies."
+        "note": "The main call and closing tune pass between strings, winds and brass through a succession of new keys."
       },
       {
         "t": 320,
         "playing": ["piccolo", "horns", "trumpets", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["piccolo"],
-        "note": "The development’s brief piccolo phrase lies over quiet strings, with the horn’s tail and a trumpet continuation (bars 197–200, printed p. 34). Approximately placed in the report’s 5:20–5:25 E-major region, not bar-aligned."
+        "note": "A piccolo sings a brief phrase over quiet strings, then hands the line to trumpets."
       },
       {
         "t": 327,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["trumpets", "oboes"],
-        "note": "After the piccolo’s short phrase, wind and trumpet exchanges continue over strings; the second flautist returns to flute (printed p. 34). Broadly placed before the 5:30 change."
+        "note": "Oboes and trumpets continue the exchange above moving strings; the piccolo player returns to flute."
       },
       {
         "t": 340,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trumpets", "trombones", "timpani", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["horns", "violins-1"],
-        "note": "The central development regains fuller wind, brass and timpani reinforcement as the report rises through 5:40–6:20. Tuba is not part of this movement."
+        "note": "Winds and brass join the strings as the development grows, with timpani adding weight below."
       },
       {
         "t": 398,
@@ -585,31 +408,31 @@ export default {
           "horns",
           "violins-1"
         ],
-        "note": "Recapitulation region: the main subject returns, followed by lighter secondary and closing-theme scoring."
+        "note": "The main call returns in E minor, followed by quieter wind tunes above the strings."
       },
       {
         "t": 440,
         "playing": ["flutes", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes"],
-        "note": "Secondary return: the strings prepare a quiet bed for the solo flute’s transposed melody (printed pp. 52–53). The 7:15–7:30 reduction anchors this lighter region, not the flute’s first note."
+        "note": "A solo flute introduces the second tune in G♯ minor above held strings and plucked bass notes."
       },
       {
         "t": 476,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "horns", "trombones", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes", "oboes", "violins-1"],
-        "note": "The secondary material expands through wind and string doubling, with horn and trombone reinforcement (printed p. 58). Broad placement follows the 7:56 boundary and the stronger 8:00 window."
+        "note": "Winds double the quick string phrases, with horns and trombones holding broad chords beneath."
       },
       {
         "t": 505,
         "playing": ["flutes", "oboes", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes", "oboes"],
-        "note": "The expanded secondary return thins to wind phrases and strings (printed p. 62), matching the recorded withdrawal across 8:25–8:35 before the closing theme."
+        "note": "The wind phrases and strings soften as the movement approaches the flute’s closing song."
       },
       {
         "t": 520,
         "playing": ["flutes", "oboes", "clarinets", "bassoons", "violins-1", "violins-2", "violas", "cellos", "basses"],
         "lead": ["flutes"],
-        "note": "Closing-theme return: solo flute over quieter strings, followed by oboe, clarinet and bassoon support (printed p. 63). This broad state starts with the 8:40–8:55 rise, not the previous brass-led main subject."
+        "note": "The solo flute returns in A♭ major above held strings; oboes, clarinets and bassoons answer."
       },
       {
         "t": 550,
@@ -633,7 +456,7 @@ export default {
           "trumpets",
           "trombones"
         ],
-        "note": "Coda region: brass and timpani strengthen the main subject and E-minor cadence."
+        "note": "Brass raises the opening call above the full orchestra, with timpani driving towards the E-minor close."
       }
     ]
   }

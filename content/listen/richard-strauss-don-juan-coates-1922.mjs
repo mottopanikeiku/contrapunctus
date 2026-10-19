@@ -24,385 +24,126 @@ export default {
       ]
     }
   },
-  "intro": "An upward-rushing theme and contrasting lyrical episodes drive towards an unexpectedly quiet end. This 1922 acoustic transfer joins four record sides; its precise cuts and acoustic scoring have not been established, so it is not labelled an unabridged modern concert version.",
-  "question": "How can music built on upward energy end in exhaustion?",
+  "intro": "Strauss sends Don Juan leaping up the violins in E major, then stops him cold in E minor. Albert Coates conducts this 1922 acoustic recording, originally spread across four sides of two records.",
   "sections": [
-    {
-      "t": 0,
-      "label": "Opening drive",
-      "m": "A",
-      "mNote": "the upward theme establishes the restless character"
-    },
-    {
-      "t": 94,
-      "label": "First lyrical span",
-      "m": "B",
-      "mNote": "longer melodic phrases replace the opening pressure"
-    },
-    {
-      "t": 326,
-      "label": "An extended lyrical span",
-      "m": "C",
-      "mNote": "sustained melody contrasts with the driving material"
-    },
-    {
-      "t": 498,
-      "label": "The development gains force",
-      "m": "Dev",
-      "mNote": "earlier energetic ideas support a larger build"
-    },
-    {
-      "t": 604,
-      "label": "Withdrawal",
-      "m": "Link",
-      "mNote": "the texture loses weight before the final drive"
-    },
-    {
-      "t": 644,
-      "label": "The final drive",
-      "m": "A′",
-      "mNote": "the main material returns towards E major"
-    },
-    {
-      "t": 808,
-      "label": "Quiet coda",
-      "m": "Coda",
-      "mNote": "E minor replaces the expected major-key triumph"
-    }
+    { "t": 0, "label": "A · The violins leap upwards", "m": "A", "mNote": "A fast flourish launches the E-major theme" },
+    { "t": 94, "label": "B · The solo violin’s love scene", "m": "B", "mNote": "A solo line opens into a broad orchestral melody" },
+    { "t": 326, "label": "C · The oboe’s long melody", "m": "C", "mNote": "An oboe sings above muted strings" },
+    { "t": 498, "label": "Dev · Four horns and racing figures", "m": "Dev", "mNote": "The horn call joins the opening’s restless theme" },
+    { "t": 604, "label": "Link · Harp tremolos and strings near the bridge", "m": "Link", "mNote": "Quiet recollections over a trembling accompaniment" },
+    { "t": 644, "label": "A′ · The E-major theme returns", "m": "A′", "mNote": "The violins climb again; the horn call follows" },
+    { "t": 808, "label": "Coda · A trumpet pierces the silence", "m": "Coda", "mNote": "Trembling strings carry the music into E minor" },
   ],
   "cues": [
     {
-      "t": 0,
-      "kind": "music",
-      "title": "The theme rises",
-      "text": "The opening flourish launches a theme that keeps reaching upwards. Listen for its broad shape beneath the fast notes: upward movement, rhythmic drive and E major establish the work’s initial confidence.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Herbert Glass and Gerald Larner describe the opening flourish and rising E-major main theme. This is an opening-span observation, not a count of individual notes. https://www.laphil.com/works/don-juan https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
+      "t": 0, "kind": "music", "title": "Up the violin strings",
+      "text": "A flourish launches Don Juan into E major. The violins’ theme keeps leaping higher, with quick notes rushing between its long, accented strides. Strauss gives his hero scarcely a moment to draw breath.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Gerald Larner describes the opening flourish and ascending E-major violin theme. Instrumental descriptions here follow Strauss’s orchestral score. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20",
     },
     {
-      "t": 35,
-      "kind": "world",
-      "title": "Lenau, not a scene-by-scene script",
-      "text": "Strauss places extracts from Nikolaus Lenau’s Don Juan before the score. They concern restless desire and its eventual exhaustion; they do not supply a precise programme for every orchestral episode.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The critical edition’s introduction, PDF p. 1, distinguishes Lenau’s text from later literal scene identifications; Glass likewise warns against assigning musical values to each expression. https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/321495/dl/don_juan_einleitung_introduction.pdf https://www.laphil.com/works/don-juan"
+      "t": 35, "kind": "world", "title": "Lenau’s restless Don Juan",
+      "text": "Strauss prints three extracts from Nikolaus Lenau’s verse drama before the score. This Don Juan keeps pursuing a love that no single encounter can satisfy. The last extract finds the world empty and dark around him.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Larner discusses and quotes the three Lenau extracts printed with the score. The Richard Strauss Edition introduction confirms Strauss’s explicit allegiance to Lenau. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20",
     },
     {
-      "t": 70,
-      "kind": "listen",
-      "title": "Follow the larger gesture",
-      "text": "Under the rapid surface, listen for phrases that climb and then release their energy. A quick orchestral passage can have a clear long-range direction even when the acoustic recording compresses its colours.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "A general listening suggestion based on the documented rising main theme; no particular instrumental entrance is inferred from the transfer."
+      "t": 94, "kind": "music", "title": "One violin begins to plead",
+      "text": "The first love scene brings a solo violin forward. Its line pleads and lingers before the melody opens out through the orchestra. Don Juan’s upward-rushing theme will soon interrupt the singing.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Larner’s score account traces the solo violin, the expansion of the first love theme and the main theme’s interruption. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20",
     },
     {
-      "t": 105,
-      "kind": "music",
-      "title": "A less forceful span",
-      "text": "The recorded weight drops and a more lyrical passage comes forward. Compare the longer melodic direction with the opening’s short bursts of energy: contrast is not simply a matter of slowing the beat.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "The report marks a boundary at 1:34 and quieter windows near 1:25–2:00. Larner identifies the first lyrical episode following the opening material. Placement is approximate."
+      "t": 140, "kind": "life", "title": "Blue in the face",
+      "text": "At the Weimar rehearsals, the horn and trumpet players blow themselves “blue in the face”. Strauss tells his father so on 8 November 1889, delighted with the sound. Three days later he conducts the première.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Strauss to his father, 8 November 1889, Briefe an die Eltern 1882–1906, edited by Willi Schuh (1954), pp. 119–120. English translation and première date in the Richard Strauss Edition introduction, pp. XIV–XV. https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/321495/dl/don_juan_einleitung_introduction.pdf",
     },
     {
-      "t": 140,
-      "kind": "life",
-      "title": "Completed before the première",
-      "text": "Strauss dates the completed score 30 September 1888. The work therefore waits more than a year for its first performance; composition and public recognition are separate stages in its history.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The critical introduction, PDF p. 3, quotes the autograph’s completion date and explains the delay to the première. https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/321495/dl/don_juan_einleitung_introduction.pdf"
+      "t": 210, "kind": "world", "title": "Four sides, two records",
+      "text": "Coates’s performance reaches its first owners on two twelve-inch Victor records, numbered 55176 and 55177. The music takes four sides. A listener at home has to lift the needle, turn a disc and eventually fetch the other record.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "The Animating Apothecary transfer identifies the two twelve-inch, 78 rpm Victor discs and joins their four sides. https://archive.org/details/1922-don-juan-richard-strauss-albert-coates-and-victor-symphony-vic-55176-77-4-sides",
     },
     {
-      "t": 175,
-      "kind": "listen",
-      "title": "A melody can gather weight",
-      "text": "Follow the lyrical line as its surroundings become stronger. The larger sound need not mean that the melody has stopped: the accompaniment can intensify the same phrase.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report rises from roughly −19 dB at 2:00 to about −11 dB near 3:00. This supports a broader dynamic contour, not a literal theme identity."
+      "t": 326, "kind": "music", "title": "The oboe’s long confession",
+      "text": "A low-string serenade and flute replies lead towards the oboe’s long melody. Strauss surrounds it with muted strings. After the opening’s headlong rush, the score gives one wind player an extraordinary amount of room to sing.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Larner describes the lower-string serenade, flute answers and oboe melody. Strauss’s letter of 8 November 1889 singles out the muted accompaniment in bars 232–307; Richard Strauss Edition introduction, p. XV.",
     },
     {
-      "t": 210,
-      "kind": "world",
-      "title": "Four parts on two discs",
-      "text": "The transfer comes from Victor 55176 and 55177, two 12-inch discs containing four issued parts. The source joins them into one file; the original listener has to turn and change records.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The archive identifies the carrier; John Bolig’s Victor discography lists Parts 1–4 on 55176–77, printed pp. 163–164. This cue does not mark an independently located side join. https://archive.org/details/1922-don-juan-richard-strauss-albert-coates-and-victor-symphony-vic-55176-77-4-sides https://adp-assets.library.ucsb.edu/BoligGreenBluePurple.pdf"
+      "t": 498, "kind": "form", "title": "Four horns, one call",
+      "text": "Strauss gives four horns a broad call in unison. It joins the opening theme in the restless middle of the piece, where quick figures race around the larger melodies. The horn call will return at the last great crest.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Gerald Larner and Herbert Glass describe the unison horn call, its role in the development and its later return. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20; https://www.laphil.com/works/don-juan",
     },
     {
-      "t": 245,
-      "kind": "music",
-      "title": "Restlessness returns",
-      "text": "Across the work, energetic material repeatedly interrupts the lyrical episodes. Listen for the contrast between a line that settles into song and gestures that insist on moving onward.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Larner describes the main theme’s intervention between the love episodes. This is a whole-work comparison, not an exact mapped thematic return at 4:05. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
+      "t": 604, "kind": "music", "title": "A harp, a hangover",
+      "text": "Strauss calls this the “hangover passage” in his letter to his father on 8 November 1889. The score has trembling harp chords and strings played close to the bridge, giving the quiet recollection a thin, glassy edge.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Strauss to his father, 8 November 1889, Briefe an die Eltern, pp. 119–120; Richard Strauss Edition introduction, p. XV, identifies harp bisbigliando and viola and second-violin sul ponticello at bars 447–457.",
     },
     {
-      "t": 280,
-      "kind": "listen",
-      "title": "A change of pressure",
-      "text": "A comparatively quiet patch interrupts the surrounding motion. Notice the difference between an orchestral phrase easing its pressure and a structural pause that stops the movement altogether.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report reaches about −21 dB near 4:40, followed by a renewed rise around 4:55. No general pause or disc splice is inferred."
+      "t": 644, "kind": "form", "title": "The violin climb returns",
+      "text": "The main theme returns in E major, with the violins climbing again. The horn call joins the final drive. Strauss keeps pressing beyond the point where this music might have made a triumphant ending.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Larner identifies the E-major recapitulation, the horn call’s return and the continued drive towards the sudden break. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20",
     },
     {
-      "t": 320,
-      "kind": "life",
-      "title": "Strauss conducts in Weimar",
-      "text": "Strauss conducts the première in Weimar on 11 November 1889, shortly after taking up his conducting post there. Don Juan helps establish the young composer through the orchestra, not through an opera on the same subject.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The critical edition, PDF p. 4, documents his September appointment and the première. https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/321495/dl/don_juan_einleitung_introduction.pdf"
+      "t": 808, "kind": "form", "title": "A trumpet and the dark",
+      "text": "A sudden silence stops the rush. A trumpet note cuts through the wind chord, and the violins tremble beneath it. E major turns to E minor. The last gestures have none of the opening’s appetite.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Larner describes the silence, wind chords, dissonant trumpet, tremolando violins and E-minor close. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20",
     },
-    {
-      "t": 355,
-      "kind": "music",
-      "title": "The score’s long oboe melody",
-      "text": "The published work gives its most extended lyrical melody to the oboe, then passes it through other wind colours. During this broad span, listen for a singing line carried across the accompaniment rather than a sequence of unrelated solos.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Glass identifies the oboe, clarinet, bassoon and horn succession; the report marks changes around 5:26–5:58. The actual acoustic arrangement is unidentified, so no precise desk entrance is claimed. https://www.laphil.com/works/don-juan"
-    },
-    {
-      "t": 390,
-      "kind": "listen",
-      "title": "Keep the line connected",
-      "text": "Try following the melody across its breaths and changes of colour. The recorded balance may make one instrument less distinct than another, but the continuity of the phrase can remain audible.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "A general listening suggestion for the extended lyrical span; the analysis cannot identify players or prove a particular transfer balance."
-    },
-    {
-      "t": 425,
-      "kind": "world",
-      "title": "Colour becomes an argument",
-      "text": "Eduard Hanslick’s 1890 review attacks music in which, he argues, orchestral colour overwhelms musical thought. The dispute places Don Juan inside the period’s argument about whether instrumental music should draw on poetry and drama.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Herbert Glass quotes Hanslick’s Vienna review and contextualises the debate about programme music. The cue paraphrases the criticism rather than endorsing it. https://www.laphil.com/works/don-juan"
-    },
-    {
-      "t": 460,
-      "kind": "listen",
-      "title": "Remember the earlier contrasts",
-      "text": "Keep the opening drive and the longer lyrical phrases in memory. Later passages can make those ideas serve new functions without introducing a new movement or a literal new scene.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Larner describes the interplay of the main theme, horn idea and remembered lyrical episodes within the development. Whole-work formal listening point. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
-    },
-    {
-      "t": 495,
-      "kind": "music",
-      "title": "The larger build begins",
-      "text": "The music gains recorded weight across a broad span. Listen for the cumulative effect of repeated gestures and orchestral density instead of treating each strong attack as a separate climax.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report changes at 8:18 and stays relatively strong through much of 8:20–9:30, with its highest window around 9:15."
-    },
-    {
-      "t": 530,
-      "kind": "world",
-      "title": "A dedication within a circle",
-      "text": "Strauss dedicates Don Juan to the composer Ludwig Thuille. His early tone poems are dedicated to members of the Munich circle around Alexander Ritter, linking the new orchestral works with a network of friends and advocates.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "The critical introduction, PDF p. 1, lists the four early tone-poem dedications and identifies Ritter’s circle. https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/321495/dl/don_juan_einleitung_introduction.pdf"
-    },
-    {
-      "t": 565,
-      "kind": "listen",
-      "title": "A crest is a span",
-      "text": "The strongest part of the transfer lasts longer than a single chord. Try hearing a whole crest with an approach and a release: orchestral intensity has duration as well as height.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report sustains high levels around 9:10–9:30 before dropping towards 9:50; it does not establish that every scored instrument plays throughout."
-    },
-    {
-      "t": 605,
-      "kind": "music",
-      "title": "The weight falls away",
-      "text": "The development loses its earlier force and enters a quieter passage. Stay with the smaller motions inside the texture; this withdrawal prepares the later drive rather than ending the work.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report marks a change at 10:04 and a low-level span around 10:20–10:40. Larner describes distant recollections near the development’s end without a bar-level alignment to this transfer."
-    },
-    {
-      "t": 640,
-      "kind": "form",
-      "title": "Preparing another arrival",
-      "text": "A concluding return has to do more than repeat the opening. Listen for how the quiet preparation changes the effect of the next stronger passage, making familiar energy sound like the approach to an ending.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General formal observation based on Larner’s account of development, recapitulation and coda; the cue does not assert a dominant pedal or an exact recap bar. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
-    },
-    {
-      "t": 675,
-      "kind": "music",
-      "title": "E major regains its force",
-      "text": "The main material returns towards the work’s original E-major confidence. Listen for the difference between this renewed drive and the opening: the same kind of energy now carries the accumulated history of the lyrical episodes.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Larner identifies the E-major recapitulation. The report changes at 10:44 and shows a stronger E-major span from roughly 11:00; its key estimate supports but does not establish the formal reading. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
-    },
-    {
-      "t": 710,
-      "kind": "world",
-      "title": "A London orchestra on an American label",
-      "text": "The recording documents identify the Symphony Orchestra of the Gramophone Company, conducted by Albert Coates, at Hayes in April and May 1922. The American Victor issue does not make the ensemble a separately established “Victor Symphony”.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "DAHR names the Gramophone Company Symphony Orchestra for matrix Cc1260; Bolig lists all four parts, dates and Hayes Room 1. The archive’s “Victor Symphony” wording is therefore not repeated as a formal ensemble name. https://adp.library.ucsb.edu/index.php/matrix/detail/2000007287/Cc1260-Don_Juan https://adp-assets.library.ucsb.edu/BoligGreenBluePurple.pdf"
-    },
-    {
-      "t": 745,
-      "kind": "listen",
-      "title": "Short figures support a long drive",
-      "text": "Try following the direction of the closing span through its rapid details. Repeated accents can support a sustained arrival rather than continually restart the music.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "A general listening point for the final drive, without assigning an individual motive to a measured onset."
-    },
-    {
-      "t": 780,
-      "kind": "music",
-      "title": "Confidence is not the conclusion",
-      "text": "Near the end, the energetic writing still has considerable recorded force. Keep that sound in mind: the final contrast will matter because the work has made a major-key triumph seem possible.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report remains strong near 13:10–13:20 before the late withdrawal. Larner documents the thwarted E-major conclusion; this cue makes a comparison, not a timed new event."
-    },
-    {
-      "t": 810,
-      "kind": "music",
-      "title": "The ending turns away",
-      "text": "The final coda withdraws instead of supplying a victorious close. The published work turns from E major to E minor; listen to the weakened continuation and the space around the last gestures.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Larner describes the sudden silence, dissonant wind-and-trumpet intervention and enfeebled E-minor ending. The report’s strongest late change is at 13:28, followed by much quieter windows. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
-    },
-    {
-      "t": 837,
-      "kind": "listen",
-      "title": "Let the last sound decay",
-      "text": "Allow the final sound to die away rather than expecting a last loud affirmation. The quiet ending changes the meaning of the earlier upward energy: the work closes by losing force, not by overcoming every resistance.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "The report falls sharply in the 14:00–14:05 windows, and the stream ends at approximately 14:09. The reading of exhaustion is the programme-note interpretation, not a literal diagnosis of the fictional character."
-    }
   ],
   "transitions": [
     {
-      "id": "first-lyric",
-      "title": "Upward drive gives way to a longer line",
-      "from": "Opening drive",
-      "to": "First lyrical span",
-      "at": {
-        "t": 94
-      },
-      "how": "<p>The opening’s quick ascending gestures yield to a more sustained melodic span. In the published work, solo-violin writing helps make this first lyrical episode intimate before its phrase expands; the contrast is one of articulation, texture and phrase length, not a new movement.</p>",
-      "devices": [
-        "texture change",
-        "orchestration change"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Glass and Larner describe the opening and first lyrical episode. The report’s 1:34 boundary anchors the broad change; the recording’s acoustic substitutions are not known. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
+      "id": "first-lyric", "title": "The solo violin opens a love scene",
+      "from": "A · The violins leap upwards", "to": "B · The solo violin’s love scene",
+      "at": { "t": 94 },
+      "how": "<p>An expressive melody first breaks into the rush at <i>fortissimo</i>. The orchestra then makes room for a solo violin, whose pleading phrases prepare the full statement of that melody. One player’s lingering line opens into the first broad love scene.</p>",
+      "devices": ["texture change", "orchestration change", "motivic link"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Gerald Larner’s score account gives the fortissimo announcement, solo-violin preparation and expansion of the first love theme. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20",
     },
     {
-      "id": "extended-lyric",
-      "title": "The second lyrical span broadens the contrast",
-      "from": "First lyrical span",
-      "to": "An extended lyrical span",
-      "at": {
-        "t": 326
-      },
-      "how": "<p>Energetic material intervenes between the work’s two large lyrical episodes. The later one grows from lower-string writing into a long oboe melody in the score, replacing short, restless gestures with a line that can pass between wind colours.</p>",
-      "devices": [
-        "motivic link",
-        "texture change",
-        "orchestration change"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Glass and Larner identify this sequence. The report changes near 5:26 and 5:58; the boundary marks a broad lyrical span, not the precise oboe entrance. https://www.laphil.com/works/don-juan https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
+      "id": "extended-lyric", "title": "Low strings make room for the oboe",
+      "from": "B · The solo violin’s love scene", "to": "C · The oboe’s long melody",
+      "at": { "t": 326 },
+      "how": "<p>The upward-rushing theme interrupts the first love scene. In the next, violas and cellos begin a serenade, answered by the flute. The oboe then takes the long melody above muted strings, stretching its phrases across the quiet accompaniment.</p>",
+      "devices": ["orchestration change", "texture change", "link passage"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Larner traces the intervening main theme, low-string serenade, flute and oboe. The Richard Strauss Edition introduction, p. XV, identifies the muted oboe passage as bars 232–307.",
     },
     {
-      "id": "development-force",
-      "title": "Lyrical breadth yields to cumulative drive",
-      "from": "An extended lyrical span",
-      "to": "The development gains force",
-      "at": {
-        "t": 498
-      },
-      "how": "<p>The published work sets the broad horn idea beside the earlier energetic theme during its development. Shorter gestures, repetition and growing orchestral density create a larger build, contrasting with the preceding sustained melodic line.</p>",
-      "devices": [
-        "motivic link",
-        "crescendo build",
-        "texture change"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Larner describes the two ideas within the development; the report’s 8:18 change and subsequent high-level span anchor the build without identifying an exact horn entry. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
+      "id": "development-force", "title": "The horn call takes command",
+      "from": "C · The oboe’s long melody", "to": "Dev · Four horns and racing figures",
+      "at": { "t": 498 },
+      "how": "<p>A broad unison call for four horns carries Don Juan away from the oboe’s love scene. Marked <i>sehr energisch</i>, it becomes a partner to the opening theme in the development. Quick orchestral figures gather around these two large ideas.</p>",
+      "devices": ["orchestration change", "motivic link", "crescendo build"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Larner describes the horn call’s emergence and role in the development; Herbert Glass gives sehr energisch and the four horns in unison. https://www.laphil.com/works/don-juan",
     },
     {
-      "id": "development-withdrawal",
-      "title": "The build releases its weight",
-      "from": "The development gains force",
-      "to": "Withdrawal",
-      "at": {
-        "t": 604
-      },
-      "how": "<p>The strongly driven texture gives way to quieter recollections and smaller gestures. Reducing the density and dynamic makes room for a renewed approach to the main material; this is preparation, not a full closing cadence.</p>",
-      "devices": [
-        "decrescendo",
-        "texture change",
-        "retransition"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Larner places recollections of the lyrical episodes near the development’s close. The report changes at 10:04 and reaches a low-level span around 10:20–10:40. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
+      "id": "development-withdrawal", "title": "The harp trembles under a recollection",
+      "from": "Dev · Four horns and racing figures", "to": "Link · Harp tremolos and strings near the bridge",
+      "at": { "t": 604 },
+      "how": "<p>The driven middle gives way to quiet recollections of the love music. Strauss writes trembling chords for the harp and asks the violas and second violins to bow close to the bridge. Their thin sound leaves the remembered melodies exposed.</p>",
+      "devices": ["decrescendo", "texture change", "orchestration change", "retransition"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Larner identifies the quiet recollections near the end of the development. Richard Strauss Edition introduction, p. XV, specifies harp bisbigliando and strings sul ponticello in bars 447–457.",
     },
     {
-      "id": "final-drive",
-      "title": "The principal material returns towards E major",
-      "from": "Withdrawal",
-      "to": "The final drive",
-      "at": {
-        "t": 644
-      },
-      "how": "<p>The quieter preparation gives way to renewed forward motion and the main material in E major. Restoring the opening’s tonal centre and energetic character makes the passage sound conclusive, while the continuing drive carries it beyond a simple repetition.</p>",
-      "devices": [
-        "motivic link",
-        "crescendo build"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Larner identifies the E-major recapitulation. The report changes at 10:44 and rises into a stronger E-major span around 11:00; no exact score bar is claimed. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
+      "id": "final-drive", "title": "The violins recover E major",
+      "from": "Link · Harp tremolos and strings near the bridge", "to": "A′ · The E-major theme returns",
+      "at": { "t": 644 },
+      "how": "<p>The quiet recollections release the main theme in E major. The violins restore their upward leaps and the orchestra gathers behind them. The horn call returns later in the drive, bringing the work’s two most forceful themes into its closing stretch.</p>",
+      "devices": ["retransition", "motivic link", "crescendo build", "texture change"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Gerald Larner’s account identifies the E-major recapitulation and the horn call in the closing climax.",
     },
     {
-      "id": "quiet-coda",
-      "title": "The expected triumph is denied",
-      "from": "The final drive",
-      "to": "Quiet coda",
-      "at": {
-        "t": 808
-      },
-      "how": "<p>A sudden break in the published score interrupts the drive. Wind chords and a dissonant trumpet lead into tremolando strings; the tonic changes from major to minor and the energy ebbs away. The ending therefore preserves E as a tonal centre while denying the expected major-key victory.</p>",
-      "devices": [
-        "general pause",
-        "texture change",
-        "decrescendo"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Larner documents the written coda and E-minor ending. The report’s strong 13:28 boundary and lower final windows anchor the corresponding late span; the exact acoustic instrumentation remains unknown. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20"
-    }
-  ]
+      "id": "quiet-coda", "title": "Silence, then a dissonant trumpet",
+      "from": "A′ · The E-major theme returns", "to": "Coda · A trumpet pierces the silence",
+      "at": { "t": 808 },
+      "how": "<p>The rushing music breaks off. Wind chords enter the silence, pierced by a dissonant trumpet note, and the violins continue in tremolo. E remains the home note, but the chord turns minor. The orchestra spends its remaining phrases quietly.</p>",
+      "devices": ["general pause", "direct modulation", "decrescendo", "texture change", "orchestration change"], "basis": "score-proportion", "precision": "passage",
+      "evidence": "Gerald Larner describes the final silence, wind chord, trumpet dissonance, string tremolo and E-minor close. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20",
+    },
+  ],
 };

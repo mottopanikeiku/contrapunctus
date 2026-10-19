@@ -1,0 +1,98 @@
+{
+  "composer": "britten",
+  "items": [
+    {
+      "work": "Serenade for Tenor, Horn and Strings, Op. 31",
+      "year": "1943",
+      "performers": "Peter Pears, tenor; Barry Tuckwell, horn; London Symphony Orchestra; Benjamin Britten, conductor",
+      "recorded": "1963",
+      "label": "Decca",
+      "note": "A solo horn frames settings of English poetry about night, sleep and dreams. Pears sings the part Britten wrote for him, with Barry Tuckwell’s horn and the composer conducting the London Symphony strings.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.deccaclassics.com/en/catalogue/products/britten-serenade-peter-pears-2072",
+          "title": "Decca Classics catalogue, Peter Pears and Barry Tuckwell"
+        },
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/1BaKkuqMLhqmA4AHnEHNfb",
+          "title": "Decca recording, Spotify"
+        }
+      ]
+    },
+    {
+      "work": "Peter Grimes, Op. 33",
+      "year": "1944–45",
+      "performers": "Peter Pears, Claire Watson, James Pease, Jean Watson, Raymond Nilsson, Owen Brannigan, Lauris Elms, Geraint Evans, John Lanigan, David Kelly, Marion Studholme and Iris Kells; Orchestra and Chorus of the Royal Opera House, Covent Garden; Benjamin Britten, conductor",
+      "recorded": "December 1958",
+      "label": "Decca",
+      "note": "A Suffolk fishing village turns against a fisherman after the deaths of his apprentices. Britten conducts the tenor who created Grimes, Peter Pears, with Claire Watson as Ellen Orford.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.deccaclassics.com/en/catalogue/products/britten-peter-grimes-pears-watson-brannigan-1989",
+          "title": "Decca Classics catalogue, Peter Pears and Benjamin Britten"
+        },
+        {
+          "kind": "spotify",
+          "url": "https://open.spotify.com/album/0Xj7veItaYNzUo9gy1m6Zi",
+          "title": "Decca recording, Spotify"
+        }
+      ]
+    },
+    {
+      "work": "War Requiem, Op. 66",
+      "year": "1961–62",
+      "performers": "Galina Vishnevskaya, soprano; Peter Pears, tenor; Dietrich Fischer-Dieskau, baritone; Simon Preston, organ; The Bach Choir and London Symphony Chorus, chorus master David Willcocks; Highgate School Choir, director Edward Chapman; Melos Ensemble; London Symphony Orchestra; Benjamin Britten, conductor",
+      "recorded": "January 1963",
+      "label": "Decca",
+      "note": "Britten interrupts the Latin Mass with Wilfred Owen’s poems, sung by tenor and baritone with a chamber ensemble. His recording brings together the three soloists he originally wanted: Vishnevskaya, Pears and Fischer-Dieskau.",
+      "links": [
+        {
+          "kind": "label",
+          "url": "https://www.deccaclassics.com/en/catalogue/products/britten-war-requiem-2013-hd-remaster-10647",
+          "title": "Decca Classics catalogue, Benjamin Britten’s 1963 recording"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Boosey & Hawkes — Serenade, 1943; horn framing, poetry and Pears’s role",
+      "url": "https://www.boosey.com/cr/music/Benjamin-Britten-Serenade/3880"
+    },
+    {
+      "title": "Decca Classics — Serenade, Peter Pears, Barry Tuckwell and Benjamin Britten",
+      "url": "https://www.deccaclassics.com/en/catalogue/products/britten-serenade-peter-pears-2072"
+    },
+    {
+      "title": "NPO Klassiek, Barry Tuckwell’s golden recordings — the 1963 Serenade session and London Symphony strings",
+      "url": "https://www.npoklassiek.nl/klassiek/gouden-opnamen/ea8fa2e1-698f-4d5f-a89f-a4debea29453/barry-tuckwells-gouden-hoornklank"
+    },
+    {
+      "title": "Britten Pears Arts — Peter Grimes, composition dates, plot and Pears at the première",
+      "url": "https://www.brittenpearsarts.org/music/peter-grimes"
+    },
+    {
+      "title": "Decca Classics — Peter Grimes, the Britten-conducted studio recording",
+      "url": "https://www.deccaclassics.com/en/catalogue/products/britten-peter-grimes-pears-watson-brannigan-1989"
+    },
+    {
+      "title": "Operadis — Peter Grimes recording 4, complete 1958 cast and December session date",
+      "url": "https://www.operadis-opera-discography.org.uk/ALBRPETE.HTM"
+    },
+    {
+      "title": "Britten Pears Arts Integrated Catalogue — War Requiem manuscripts, 1961–62",
+      "url": "https://www.bpacatalogue.org/archive/BBM-war_requiem"
+    },
+    {
+      "title": "Decca Classics — War Requiem, 2013 remaster of Britten’s original recording",
+      "url": "https://www.deccaclassics.com/en/catalogue/products/britten-war-requiem-2013-hd-remaster-10647"
+    },
+    {
+      "title": "Decca Classics, War Requiem LP edition — January 1963 sessions, complete credits and intended soloists",
+      "url": "https://store.deccaclassics.com/products/war-requiem-3lp"
+    }
+  ]
+}

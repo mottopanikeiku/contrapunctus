@@ -13,33 +13,88 @@ export default {
   recorded: '3 April 2020',
   source: { file: 'File:Maurice Ravel- Gaspard de la Nuit- II Le Gibet.flac' },
   set: { id: 'ravel-gaspard-de-la-nuit', title: 'Gaspard de la nuit', part: 2, of: 3 },
-  intro: 'A repeated B♭ sounds through changing chords and widely spaced melodic fragments. This movement changes pianist: OE1FEU’s own recording on a Bechstein D 282 in Vienna replaces Andriy Makarevych, who plays Ondine and Scarbo in this assembled set.',
-  question: 'Can an unchanging note make the harmony around it sound more unstable?',
-  sections: [
-    { t: 0, label: 'Bell and first shadows', m: 'A', mNote: 'repeated B♭ against changing lower chords' },
-    { t: 148, label: 'Widened chordal colour', m: 'B', mNote: 'the bell persists within thicker sonorities' },
-    { t: 212, label: 'An exposed middle distance', m: 'C', mNote: 'reduced weight leaves more space around the bell' },
-    { t: 276, label: 'Renewed chordal weight', m: 'Dev', mNote: 'harmonic layers thicken without changing the pulse' },
-    { t: 360, label: 'The bell left behind', m: 'Coda', mNote: 'chords retreat while the repeated note remains' },
+  "intro": "A B♭ bell sounds throughout <i>Le Gibet</i>, Ravel’s setting of Aloysius Bertrand’s gallows at sunset. Chords gather around it and fall away; the bell keeps its dreadful appointment.",
+  "sections": [
+    { "t": 0, "label": "A · The B♭ bell", "m": "A", "mNote": "A repeated octave sounds above slow chords" },
+    { "t": 148, "label": "B · Chords above and below the bell", "m": "B", "mNote": "The hands pass the B♭ between them" },
+    { "t": 212, "label": "C · A bare melody, without expression", "m": "C", "mNote": "The bell moves below the exposed upper line" },
+    { "t": 276, "label": "Dev · The chords gather again", "m": "Dev", "mNote": "Fuller chords return around the unchanged B♭" },
+    { "t": 360, "label": "Coda · The bell outlasts the melody", "m": "Coda", "mNote": "Low held notes and B♭ remain at the close" }
   ],
-  cues: [
-    { t: 0, kind: 'music', title: 'Keep one note in view', text: 'Find the repeated B♭ and keep following it through the movement. Ravel does not use it as a signal for each new phrase: it continues while chords and melodic fragments take their own time around it.', basis: 'general', precision: 'passage', evidence: 'Durand pp. 17–20 show the persistent B♭ figure, distributed between staves. The opening’s B♭ is a score fact, not a pitch identification derived from the audio model.' },
-    { t: 36, kind: 'listen', title: 'Two kinds of time', text: 'Separate the regular bell from the slower changes of harmony. The repeated attacks measure time; the surrounding lines can seem suspended because they do not need to move with each attack.', basis: 'general', precision: 'passage', evidence: 'The repeated B♭ and independent chordal rhythms are visible throughout the score. This is a listening task for the movement, not a precisely timed change at 0:36.' },
-    { t: 72, kind: 'world', title: 'What makes the sound?', text: 'Bertrand’s poem keeps asking what can be heard: an insect, a fly, a beetle, a spider? Its last sentence identifies a distant town bell and a hanged body reddened by the setting sun. The title means “The Gallows”.', basis: 'documented', precision: 'passage', evidence: 'Original French poem, printed before the movement in the Durand edition: https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Le_Gibet' },
-    { t: 108, kind: 'world', title: 'The score refuses haste', text: 'Ravel writes “without hurrying or slowing to the end” and asks for the soft pedal throughout. Expression must come largely from balance, harmonic colour and register, rather than from treating each phrase as a fresh dramatic acceleration.', basis: 'documented', precision: 'passage', evidence: 'Durand p. 17: Très lent; Sans presser ni ralentir jusqu’à la fin; Sourdine durant toute la pièce. These are printed instructions, not a measurement of this pianist’s compliance.' },
-    { t: 144, kind: 'music', title: 'Chords change the bell', text: 'The surrounding piano sound gains weight in this region, but the recurring pitch remains the reference point. Listen for how a fixed note can seem to change character when its neighbouring notes change.', basis: 'audio-feature', precision: 'passage', evidence: 'The strongest measured boundary is at 2:28. Relative level reaches −10.4 dB at 2:30, above the opening’s lower-level windows. The score supplies the continuing bell; analysis alone does not identify the chords.' },
-    { t: 180, kind: 'listen', title: 'Hear through the chord', text: 'When the texture fills out, try to retain the repeated note inside it rather than listening only to the upper line. Ravel often writes across three staves so that one pair of hands can keep several layers distinct.', basis: 'general', precision: 'passage', evidence: 'Durand pp. 18–20 repeatedly use three staves to separate simultaneous piano layers. The cue does not assert a new entrance or a particular chord at 3:00.' },
-    { t: 216, kind: 'music', title: 'The middle distance clears', text: 'A retreat leaves the sound more exposed around this point. The recurring bell need not become louder to attract attention: reducing the weight around it can bring it forward.', basis: 'audio-feature', precision: 'passage', evidence: 'The report falls from −11.2 dB at 3:10 to −27.2 at 3:35, with a strong boundary at 3:32. Onsets are sparse at 3:25. The persistent note is established by the score.' },
-    { t: 252, kind: 'listen', title: 'Quiet is not empty', text: 'Listen for notes continuing to resonate after each attack. The soft-pedal instruction and the long values ask for a subdued but layered sound; a quiet passage can still contain several different rates of movement.', basis: 'general', precision: 'passage', evidence: 'Score-wide listening invitation grounded in the long chord values, repeated bell and soft-pedal instruction. No pedal change or acoustic effect has been measured at 4:12.' },
-    { t: 288, kind: 'world', title: 'One score, separate performances', text: 'This is not the same recording session as the two surrounding movements. OE1FEU identifies the instrument as a Bechstein D 282 in Vienna’s Kaisersaal and dates the recording 3 April 2020; Makarevych’s two movements are dated 2014.', basis: 'documented', precision: 'passage', evidence: 'Selected Commons source description identifies the instrument, place, author and date: https://commons.wikimedia.org/wiki/File:Maurice_Ravel-_Gaspard_de_la_Nuit-_II_Le_Gibet.flac. The other two selected sources explicitly give their performer and performance date.' },
-    { t: 324, kind: 'music', title: 'Weight without a new pulse', text: 'The later span has gained weight again. Compare this with the exposed middle passage: the bell’s repetition stays recognisable while thicker sonorities renew the pressure around it.', basis: 'audio-feature', precision: 'passage', evidence: 'Following the change at 4:36, level rises to −10.9 dB at 4:40 and again at 5:30, versus −27.2 at 3:35. The unchanged recurring pitch is score evidence, not a tempo estimate.' },
-    { t: 360, kind: 'form', title: 'No release into daylight', text: 'The closing page strips the texture back towards the bell and its supporting chords. There is no quick finale inside this movement: the pace remains slow as the layers lose their weight.', basis: 'score-proportion', precision: 'passage', evidence: 'Durand p. 20 returns to sparse bell-and-chord writing and closes ppp. The report declines broadly after 5:45 and again after 6:40; this is an approximate closing region.' },
-    { t: 396, kind: 'listen', title: 'The last resonances', text: 'Keep listening after the final phrase has begun to withdraw. The bell has made repeated attacks seem almost permanent; the remaining resonance lets you hear the difference between stopping an attack and extinguishing its sound.', basis: 'audio-feature', precision: 'passage', evidence: 'The report falls from −19.0 dB at 6:40 to −47.7 at 7:00. This concerns the recorded decay, not an assertion about an exact final note or pedal release.' },
+  "cues": [
+    {
+      "t": 0, "kind": "music", "title": "One note tolls",
+      "text": "B♭, in octaves, keeps sounding while slow chords move beneath it. Ravel marks the piano <i>Très lent</i> and asks for the soft pedal throughout. The bell has its own rhythm; the other notes lean across it.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score (1909), plate D. & F. 7207, p. 17: Très lent, Sourdine durant toute la pièce, repeated B♭ octaves. https://s9.imslp.org/files/imglnks/usimg/6/6a/IMSLP246875-PMLP02576-Ravel,_Maurice-Gaspard_de_la_nuit_Durand_7207_scan.pdf"
+    },
+    {
+      "t": 72, "kind": "world", "title": "A bell beyond the horizon",
+      "text": "Bertrand’s poem searches among small, horrible sounds: a fly at the dead man’s ear, a spider making his necktie. Then comes the answer: “C’est la cloche qui tinte” — “It is the bell that tolls.” Beyond the town walls, the setting sun reddens the hanging body.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Aloysius Bertrand, Le Gibet, Gaspard de la nuit, Mercure de France edition (1895), pp. 245–246; our translation. https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Le_Gibet"
+    },
+    {
+      "t": 148, "kind": "music", "title": "The bell between two hands",
+      "text": "Ravel spreads the piano across three staves. High chords and low chords move around the B♭, which passes between the hands. Even where the chords fill the keyboard, the repeated note keeps sounding inside them.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 18: three-stave writing, alternating m.d. and m.g. indications for the bell, with chordal lines above and below."
+    },
+    {
+      "t": 212, "kind": "music", "title": "A voice without expression",
+      "text": "A bare upper melody stands above the bell. Ravel marks it <i>un peu en dehors, mais sans expression</i>: slightly brought out, but without expression. The B♭ continues below, indifferent to the melody’s rise and fall.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 19, first system: pp un peu en dehors, mais sans expression over the repeated low B♭."
+    },
+    {
+      "t": 276, "kind": "form", "title": "The chords return",
+      "text": "The piano fills out again in long, tied chords. The bell threads between them, still B♭. Ravel’s instruction from the first page remains in force: “without hurrying or slowing to the end”.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 19, lower systems. Ravel’s instruction Sans presser ni ralentir jusqu’à la fin appears on p. 17; our translation."
+    },
+    {
+      "t": 360, "kind": "form", "title": "The bell remains",
+      "text": "The last page lets the melodic fragments fall silent. Deep held notes remain under the bell, and the final bars shrink to <i>ppp</i>. The repeated B♭ lasts until the last chord.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 20: low held bass, repeated B♭ and final ppp chord."
+    }
   ],
-  transitions: [
-    { id: 'colour-widens', title: 'Keep the bell inside the change', from: 'Bell and first shadows', to: 'Widened chordal colour', at: { t: 148 }, span: [130, 166], how: '<p>Ravel changes the surrounding chords and spacing while retaining the recurring B♭. The fixed pitch links otherwise shifting colours: it is not a conventional dominant pedal that promises a single resolution. Independent melodic fragments and fuller sonorities enlarge the piano texture without replacing its basic pulse.</p>', devices: ['texture change', 'register change', 'motivic link'], basis: 'score-proportion', precision: 'passage', evidence: 'Durand pp. 18–19 retain the bell through varied chordal writing. The strong 2:28 boundary and higher relative levels at 2:15–2:30 provide the approximate anchor; no specific modulation is asserted.' },
-    { id: 'middle-retreat', title: 'Let the surrounding sound recede', from: 'Widened chordal colour', to: 'An exposed middle distance', at: { t: 212 }, span: [194, 228], how: '<p>The recurring note connects the fuller passage to a much lighter one. As the chordal weight recedes, attacks and the spaces around them become easier to separate. Ravel does not need a new tune or a faster tempo to create the contrast: removing some of the sound changes the apparent distance of what remains.</p>', devices: ['decrescendo', 'texture change', 'motivic link'], basis: 'audio-feature', precision: 'passage', evidence: 'The 3:32 measured boundary lies within the 3:10–3:35 level decline, with sparse onsets around 3:25. The continuous bell is confirmed by Durand pp. 18–19.' },
-    { id: 'renewed-weight', title: 'Rebuild around the same note', from: 'An exposed middle distance', to: 'Renewed chordal weight', at: { t: 276 }, span: [260, 296], how: '<p>After the lighter span, the surrounding harmonic layers gain weight again. The repeated B♭ supplies continuity while the chords renew the tension; the listener can compare changing vertical combinations against one fixed sound. This is a textural rebuilding, not a new movement or an escape from the slow pulse.</p>', devices: ['crescendo build', 'texture change', 'motivic link'], basis: 'audio-feature', precision: 'passage', evidence: 'A measured boundary at 4:36 precedes the rise to −10.9 dB at 4:40. The score preserves the recurring B♭ throughout; the timing does not identify a particular chord.' },
-    { id: 'closing-withdrawal', title: 'Withdraw the layers, retain the bell', from: 'Renewed chordal weight', to: 'The bell left behind', at: { t: 360 }, span: [345, 395], how: '<p>The final page returns to more widely spaced bell-and-chord writing and reduces the dynamic to ppp. The repeated note continues to connect the thinning layers. Ravel closes by withdrawing their weight, not by speeding into a cadential flourish: the piano’s remaining resonance becomes part of the ending.</p>', devices: ['decrescendo', 'texture change'], basis: 'score-proportion', precision: 'passage', evidence: 'Durand p. 20. The report declines from −12.2 dB at 5:45 to −24.5 at 6:20, with a further late decay after 6:40. The boundary is an approximate closing span, not a note-level alignment.' },
+  "transitions": [
+    {
+      "id": "colour-widens", "title": "Chords surround the bell",
+      "from": "A · The B♭ bell", "to": "B · Chords above and below the bell",
+      "at": { t: 148 }, "span": [130, 166],
+      "how": "<p>The piano opens into three staves: low held notes, the recurring B♭ and chords high above it. The two hands share the bell while the upper chords are marked <i>très lié</i>, very smoothly joined. Its repeated pitch carries through each change of harmony.</p>",
+      "devices": ["texture change", "register change", "motivic link"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score (1909), pp. 18–19: three-stave writing and the continuing B♭."
+    },
+    {
+      "id": "middle-retreat", "title": "A melody above the low bell",
+      "from": "B · Chords above and below the bell", "to": "C · A bare melody, without expression",
+      "at": { t: 212 }, "span": [194, 228],
+      "how": "<p>The fuller chords recede. A single upper line, marked <i>pp</i> and <i>sans expression</i>, crosses above the B♭ in the bass. Its long notes stretch across several tolls of the bell.</p>",
+      "devices": ["decrescendo", "texture change", "motivic link"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 19, first two systems: exposed melody and low repeated B♭."
+    },
+    {
+      "id": "renewed-weight", "title": "The chords close round B♭",
+      "from": "C · A bare melody, without expression", "to": "Dev · The chords gather again",
+      "at": { t: 276 }, "span": [260, 296],
+      "how": "<p>The single upper line broadens into tied chords as the six-flat key signature returns. The B♭ bell continues between the hands, above a sustained low bass. Small crescendos swell the chords without changing the slow pace.</p>",
+      "devices": ["crescendo build", "texture change", "motivic link"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 19, third and fourth systems: six-flat signature, tied chords and crescendo hairpins."
+    },
+    {
+      "id": "closing-withdrawal", "title": "The melody leaves the bell",
+      "from": "Dev · The chords gather again", "to": "Coda · The bell outlasts the melody",
+      "at": { t: 360 }, "span": [345, 395],
+      "how": "<p>The high chords diminish and the piano returns to the opening’s slow bell-and-chord writing. Deep sustained notes support B♭ octaves; the repeated figure grows softer through <i>p</i>, <i>pp</i> and <i>ppp</i>. Ravel keeps the same pace to the end.</p>",
+      "devices": ["decrescendo", "texture change"],
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Durand score, p. 20; the instruction to keep the pace appears on p. 17."
+    }
   ],
 };

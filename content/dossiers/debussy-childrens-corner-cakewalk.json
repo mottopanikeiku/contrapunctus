@@ -82,7 +82,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Internet Archive; ripping operator associate-mann-borden@archive.org",
+      "value": "Internet Archive",
       "status": "documented",
       "sourceIds": [
         "archive"

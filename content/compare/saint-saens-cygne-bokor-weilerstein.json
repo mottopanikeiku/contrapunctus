@@ -1,27 +1,30 @@
 {
   "id": "saint-saens-cygne-bokor-weilerstein",
-  "title": "Bokor and Weilerstein’s swan",
+  "title": "Two cellos, piano and marimba",
   "composer": null,
   "group": "century",
   "work": "Camille Saint-Saëns: Le Cygne",
-  "question": "How do the two cellists sustain a melodic phrase above the piano’s repeated attacks?",
-  "intro": "Judith Bokor’s Columbia F 87 side is dated only circa 1925 in its upstream discography; the exact day and catalogue number on Commons conflict with that source. Alisa Weilerstein and Jason Yoder played Le Cygne at the White House on 4 November 2009. The provisional map covers Bokor 0–150 seconds against Weilerstein 4–155 seconds, excluding opening room sound and post-performance sound; a one-semitone feature correction aligns the pitch profiles without changing either audio stream. Bokor’s recording is admitted under European recording-rights expiry, not composition-only tags or an established US first-publication date.",
+  "question": "What happens to the cello’s long song when marimba replaces piano?",
+  "intro": "At the White House on 4 November 2009, Alisa Weilerstein played <i>Le Cygne</i> with sixteen-year-old Jason Yoder at the marimba. Judith Bokor’s earlier Columbia disc has a pianist beside the cello. Saint-Saëns’s long melody floats above broken chords in both arrangements.",
   "recordings": [
-    { "listen": "saint-saens-cygne-bokor", "label": "Judith Bokor", "year": 1925, "note": "Circa 1925; unidentified pianist. Exact session date disputed; historical Columbia D 9758/F 87, European recording-rights expiry only." },
-    { "listen": "saint-saens-cygne-weilerstein", "label": "Alisa Weilerstein and Jason Yoder", "year": 2009, "note": "White House, 4 November; cello and one piano. Performance CC BY 3.0; government recording." }
+    { "listen": "saint-saens-cygne-bokor", "label": "Judith Bokor", "year": 1925, "note": "A Columbia recording for cello and piano, issued on D 9758." },
+    { "listen": "saint-saens-cygne-weilerstein", "label": "Alisa Weilerstein · Jason Yoder", "year": 2009, "note": "Live at the White House, with sixteen-year-old Jason Yoder’s marimba accompanying the cello." }
   ],
   "reference": "saint-saens-cygne-bokor",
   "passages": [
-    { "label": "The sustained melody", "t": 10, "note": "Follow the cello between the piano’s attacks. Vibrato and slides are listening questions, not machine-measured differences." },
-    { "label": "Early expansion", "t": 32, "note": "Compare the contour of the first swell, not the absolute playback level of the two transfers." },
-    { "label": "Middle crest", "t": 70, "note": "Listen through the crest into the quieter phrase beyond it; these are approximate corresponding passages." },
-    { "label": "Later swell", "t": 105, "note": "Follow the next ascent and release, attending to accompaniment as well as melody." },
-    { "label": "Closing withdrawal", "t": 135, "note": "Compare the musical release before the sources’ different surface or post-performance sounds. The map stops before those tails." }
+    { "label": "The cello’s first phrase", "t": 10, "note": "The cello begins its long tune above a stream of broken chords." },
+    { "label": "The tune reaches higher", "t": 32, "note": "The cello’s rising phrases stretch above the piano’s continuous broken chords." },
+    { "label": "The melody swells", "t": 70, "note": "The cello’s phrases swell and fall back, while the piano keeps its small, flowing notes beneath them." },
+    { "label": "The last climb", "t": 105, "note": "The cello climbs towards a long high note; beneath it, the piano’s arpeggios continue." },
+    { "label": "The last held note", "t": 135, "note": "A long cello note hangs above the last piano chords, then the bow falls silent." }
   ],
   "sources": [
     { "title": "Bokor Commons file and upstream attribution", "url": "https://commons.wikimedia.org/wiki/File:Judith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac" },
-    { "title": "Bokor upstream discography: F 87 circa 1925, D 9758", "url": "https://archive.org/metadata/3-judith-bokor-col-d-17144-fx-16-17-kol-nidrei_202309" },
+    { "title": "Bokor upstream discography: Columbia D 9758/F 87, circa 1925; the Commons date and catalogue number differ", "url": "https://archive.org/metadata/3-judith-bokor-col-d-17144-fx-16-17-kol-nidrei_202309" },
     { "title": "Weilerstein and Yoder: event and separate performance/recording rights", "url": "https://commons.wikimedia.org/wiki/File:20091104_Alisa_Weilerstein_and_Jason_Yoder_-_Saint_Sa%C3%ABns%27_The_Swan.ogg" },
-    { "title": "Le Cygne: instrumentation and written texture", "url": "https://en.wikipedia.org/wiki/Le_cygne" }
+    { "title": "Le Cygne: instrumentation and written texture", "url": "https://en.wikipedia.org/wiki/Le_cygne" },
+    { "title": "White House archive: Weilerstein and sixteen-year-old percussionist Jason Yoder, 4 November 2009", "url": "https://obamawhitehouse.archives.gov/photos-and-video/video/alisa-weilerstein-and-jason-yoder-perform-white-house-5-8/index__q_page%3D4.html" },
+    { "title": "Mike Telin’s interview with Alisa Weilerstein, 16 November 2009: she identifies Yoder’s instrument as marimba", "url": "https://clevelandclassical.wordpress.com/2009/11/16/an-interview-with-cellist-alisa-weilerstein/" },
+    { "title": "Saint-Saëns, Le Cygne: Durand & Schoenewerk cello-and-piano edition, plate D.S. 3767; cello part and piano score", "url": "https://s9.imslp.org/files/imglnks/usimg/1/1c/IMSLP526291-PMLP6099-BnF_bpt6k1182776s_mono.pdf" }
   ]
 }

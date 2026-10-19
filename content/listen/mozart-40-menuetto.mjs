@@ -18,121 +18,84 @@ export default {
   "source": {
     "file": "File:Mozart - Symphony No. 40 in G minor, K550 - III. Menuetto. Allegretto (Musopen Symphony).flac"
   },
-  "intro": "The minuet makes a dance metre feel weighty and argumentative. Its central Trio changes to G major and divides the conversation between strings and winds before the stern opening returns.",
-  "question": "Can you keep counting three while the opening phrase seems to pull against the bar lines?",
+  "intro": "Mozart’s G minor minuet stamps across its three-beat bars, with the winds reinforcing the strings. In the Trio, G turns major and the orchestra breaks into smaller, gentler conversations.",
   "sections": [
     {
       "t": 0,
-      "label": "Minuet · accented dance",
+      "label": "A · The G minor minuet",
       "m": "A",
-      "mNote": "G minor; weight and imitation"
+      "mNote": "Strong accents and overlapping string phrases"
     },
     {
       "t": 104,
-      "label": "Trio · a major-key alternative",
+      "label": "B · Strings and winds in G major",
       "m": "B",
-      "mNote": "G major; exchanges between instrumental groups"
+      "mNote": "The Trio trades short phrases between the two groups"
     },
     {
       "t": 214,
-      "label": "Minuet returns",
+      "label": "A′ · The G minor minuet returns",
       "m": "A′",
-      "mNote": "The minor-key dance returns after the Trio"
+      "mNote": "The full orchestra restores the opening accents"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A dance with resistance",
-      "text": "The minuet begins forcefully, with accents that make the three-beat metre feel less comfortable than a ballroom dance. Listen for the melody pressing across the regular beat instead of merely decorating it.",
+      "title": "A heavy-footed dance",
+      "text": "The strings begin with a rising, strongly accented phrase, reinforced by winds and horns. The minuet’s three beats are there, but the melody pulls across them. This is a splendidly awkward dance.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf III, bars 1–14, PDF p. 30; report begins at high relative level in G minor. The accent pattern is from the score, not the automatic onset estimate."
-    },
-    {
-      "t": 30,
-      "kind": "life",
-      "title": "A summer catalogue",
-      "text": "Mozart finishes this symphony on 25 July 1788, according to his own thematic catalogue. It belongs to the concentrated summer that also produces his last two other symphonies.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Marianne Williams Tobias, Indianapolis Symphony Orchestra programme note, Symphony No. 40 (2015), https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/. IMSLP work information gives completion on 25 July 1788."
+      "evidence": "Breitkopf & Härtel full score (1880), III, bars 1–14. Marianne Williams Tobias describes the heavily accented opening: https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/."
     },
     {
       "t": 60,
       "kind": "music",
-      "title": "The phrase argues back",
-      "text": "The minuet’s continuation sets short shapes against one another. Imitation gives the inner parts work to do: this is not simply a melody riding over an unchanging dance accompaniment.",
+      "title": "Strings answer strings",
+      "text": "In the minuet’s second half, the parts pursue one another with fragments of the tune. The lower strings have their own say, pressing against the violins above them. The dance becomes an argument among several voices.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf III, bars 15–42, PDF pp. 30–31; report has lower relative level at 1:00–1:05, then a stronger span at 1:10–1:30 and boundaries at 1:04 and 1:10."
+      "evidence": "Breitkopf & Härtel full score (1880), III, bars 15–42: imitative writing in the minuet’s second strain."
     },
     {
-      "t": 95,
+      "t": 104,
       "kind": "form",
-      "title": "The other side of G",
-      "text": "The central Trio changes G minor to G major and relaxes the texture. Listen for the string phrase and its wind response as a different way of inhabiting the same tonic.",
+      "title": "G major opens the room",
+      "text": "The Trio changes G minor to G major. Strings offer a gentler phrase and winds answer it; the horns warm the exchanges. After the minuet’s overlapping arguments, these groups give one another room to finish.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf III, Trio, bars 43 onward, PDF p. 32; report settles into a quieter G-major region around 1:45, with boundaries at 1:38 and 1:46. The section marker at 1:44 is approximate."
-    },
-    {
-      "t": 130,
-      "kind": "world",
-      "title": "Why call it Trio",
-      "text": "A Classical minuet’s middle section keeps the name “Trio” even when more than three musicians play. Here it identifies the contrasting central dance, not an instruction to reduce the orchestra to three players.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "Breitkopf III labels the central section Trio and scores it for changing groups of strings and winds; PDF pp. 32–33."
+      "evidence": "Breitkopf & Härtel full score (1880), III, Trio, bars 43–82. The change to G major is also documented in Tobias’s Indianapolis Symphony note."
     },
     {
       "t": 165,
-      "kind": "music",
-      "title": "Colour in small groups",
-      "text": "Through the Trio, notice how the texture changes when a phrase moves from bowed strings to winds. The horns can fill the middle register without making this gentler dance resemble the minuet’s opening attack.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Breitkopf III, Trio second strain, PDF pp. 32–33; report 2:40–3:30 remains quieter than the minuet and largely G-major centred. The cue describes the Trio as a whole, not a timed horn entrance."
-    },
-    {
-      "t": 200,
-      "kind": "world",
-      "title": "A return written briefly",
-      "text": "At the end of the Trio the score says “Menuetto da capo”: return to the beginning of the minuet. Mozart does not need to copy out the opening dance again to make its return part of the design.",
+      "kind": "life",
+      "title": "An entry in July",
+      "text": "On 25 July 1788 Mozart enters this G minor symphony in his catalogue. The E♭ symphony is already finished; the C major <i>Jupiter</i> follows on 10 August. Three very different orchestras’ evenings come out of one Viennese summer.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Breitkopf score, PDF p. 33, final Trio bar: Menuetto da capo."
+      "evidence": "Composition dates in the IMSLP work records for K. 543, K. 550 and K. 551; the summer sequence is discussed by Marianne Williams Tobias, Indianapolis Symphony Orchestra: https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/."
     },
     {
-      "t": 230,
+      "t": 214,
       "kind": "form",
-      "title": "The stern dance returns",
-      "text": "The G minor minuet is back. Its force is now measured against the gentler music in between; the return restores the opening character rather than gradually transforming the Trio into it.",
+      "title": "Back to the minuet",
+      "text": "“Menuetto da capo”: Mozart sends the orchestra back to the first dance. G minor and the heavy accents return at once. The Trio’s sunny exchanges are over.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Report boundary 3:36 and rise from −22.0 dB at 3:30 to −10.4 dB at 3:40; the score directs a da capo after the Trio. Approximate return marker: 3:34."
-    },
-    {
-      "t": 260,
-      "kind": "listen",
-      "title": "Hold the three beats",
-      "text": "Keep the triple pulse under the last phrases. The final chords close the minuet firmly; the symphony still has a separate, faster finale to come.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "Report remains strong around 4:10–4:15, with the recording ending at 4:32.8; score III ends with the returning minuet’s G minor cadence."
+      "evidence": "Breitkopf & Härtel full score (1880), III: the Trio ends with the instruction Menuetto da capo, returning to bars 1–42."
     }
   ],
   "transitions": [
     {
       "id": "into-trio",
-      "title": "The tonic changes its mode",
-      "from": "Minuet · accented dance",
-      "to": "Trio",
+      "title": "B♭ becomes B♮",
+      "from": "A · The G minor minuet",
+      "to": "B · Strings and winds in G major",
       "at": {
         "t": 104
       },
-      "how": "<p>The minuet closes in G minor. The Trio keeps G as its centre but replaces the minor third with a major third; the strings begin a lighter phrase, answered by winds. A direct change of mode and a reduced texture do the work without a long modulating bridge.</p>",
+      "how": "<p>The minuet closes in G minor; the Trio begins in G major. G remains the tonic, while B♭ becomes B♮. The full orchestra withdraws to let the strings begin a lighter phrase, with the wind answer following. There is no connecting passage.</p>",
       "devices": [
         "perfect cadence",
         "direct modulation",
@@ -140,17 +103,17 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf III, bars 42–50, PDF pp. 31–32; report lower relative level and G-major region from about 1:45. Marker 1:44 is provisional."
+      "evidence": "Breitkopf & Härtel full score (1880), III, bars 42–50."
     },
     {
       "id": "minuet-da-capo",
-      "title": "Major gives way to minor",
-      "from": "Trio",
-      "to": "Minuet returns",
+      "title": "The orchestra stamps back in",
+      "from": "B · Strings and winds in G major",
+      "to": "A′ · The G minor minuet returns",
       "at": {
         "t": 214
       },
-      "how": "<p>The Trio’s G-major cadence is followed by the instruction to return to the minuet. The strongly accented G-minor tutti replaces the gentler exchanges. The effect depends on direct juxtaposition, not on a gradual increase in tempo or a connecting passage.</p>",
+      "how": "<p>The Trio closes in G major and the da capo instruction brings back the minuet in G minor. Winds and horns reinforce the strings again. The change from B♮ to B♭ restores the opening key, and the rising phrase resumes its forceful accents.</p>",
       "devices": [
         "perfect cadence",
         "direct modulation",
@@ -158,7 +121,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf III, Trio close and Menuetto da capo, PDF p. 33; report rise around 3:35–3:40 and boundary 3:36. Timing is a passage estimate."
+      "evidence": "Breitkopf & Härtel full score (1880), III, end of Trio and Menuetto da capo."
     }
   ],
   "orchestra": {
@@ -177,7 +140,7 @@ export default {
     "source": {
       "title": "Mozart, Symphony No. 40, K. 550, Breitkopf & Härtel, Mozarts Werke VIII/40 (1880), plate W.A.M. 550; parts common to both versions",
       "url": "https://imslp.org/wiki/Symphony_No.40_in_G_minor,_K.550_(Mozart,_Wolfgang_Amadeus)",
-      "locator": "III. Menuetto — Trio; PDF pp. 30–33, bars 1–42 and Trio 43–82, with da capo. Both versions are printed together. Clarinets and version-specific oboe detail are not inferred from this recording. Timings are provisional passage estimates, not aligned entrances."
+      "locator": "III. Menuetto and Trio, PDF pp. 30–33: minuet, bars 1–42; trio, bars 43–82; then the minuet returns. The edition prints both orchestral versions."
     },
     "timeline": [
       {
@@ -197,7 +160,7 @@ export default {
           "violins-1",
           "flutes"
         ],
-        "note": "Minuet passage: winds and horns reinforce the strongly accented strings."
+        "note": "Winds and horns reinforce the strings’ sharply accented minuet."
       },
       {
         "t": 104,
@@ -212,7 +175,7 @@ export default {
           "violins-1",
           "violins-2"
         ],
-        "note": "Trio opening phrase: the strings introduce the major-key contrast."
+        "note": "Strings begin the trio’s gentler G major phrase."
       },
       {
         "t": 125,
@@ -230,7 +193,7 @@ export default {
           "flutes",
           "oboes"
         ],
-        "note": "The Trio alternates its string phrase with wind answers; this marker covers the exchange."
+        "note": "Flute, oboes and bassoons answer the strings in the trio."
       },
       {
         "t": 175,
@@ -249,7 +212,7 @@ export default {
           "horns",
           "violins-1"
         ],
-        "note": "Later Trio passage includes horn colour and alternation between strings and winds."
+        "note": "Horns join the trio’s exchanges between winds and strings."
       },
       {
         "t": 214,
@@ -268,7 +231,7 @@ export default {
           "violins-1",
           "flutes"
         ],
-        "note": "Da capo restores the full minuet sonority; version-specific wind detail remains unassigned."
+        "note": "The G minor minuet returns, with winds and horns reinforcing the accented strings."
       }
     ]
   }

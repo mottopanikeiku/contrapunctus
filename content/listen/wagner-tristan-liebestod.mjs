@@ -26,173 +26,110 @@ export default {
     "part": 2,
     "of": 2
   },
-  "intro": "Isolde sees the dead Tristan as if he were alive, then hears a sound that the other characters cannot hear. Larsen-Todsen’s 1928 recording preserves the vocal scene, not the familiar orchestra-only concert arrangement; it is a different performance from this set’s Prelude.",
-  "question": "How does a sequence of renewed surges become a final, quiet arrival?",
+  "intro": "Isolde looks at Tristan’s body and sees him smiling. Nanny Larsen-Todsen sings her last vision over muted strings, sweeping harp figures and the long-delayed peace of B major.",
   "sections": [
     {
       "t": 0,
-      "label": "Mild und leise · vision",
-      "m": "A"
+      "label": "A · Isolde sees Tristan smiling",
+      "m": "A",
+      "mNote": "Bass clarinet and muted cellos surround the first quiet words"
     },
     {
       "t": 140,
-      "label": "Renewed expansion",
-      "m": "B"
+      "label": "B · Harp notes flow beneath the voice",
+      "m": "B",
+      "mNote": "Harp figures and trembling strings carry the soprano’s long phrases"
     },
     {
       "t": 240,
-      "label": "The waves gather",
-      "m": "Dev"
+      "label": "Dev · Isolde hears waves around her",
+      "m": "Dev",
+      "mNote": "Wind phrases rise over circling strings and harp"
     },
     {
       "t": 320,
-      "label": "Largest crest",
-      "m": "C"
+      "label": "C · Piccolo above the soprano",
+      "m": "C",
+      "mNote": "The piccolo and high violins shine above sustained brass"
     },
     {
       "t": 350,
-      "label": "Towards the final cadence",
-      "m": "Coda"
+      "label": "Coda · The last words and B major",
+      "m": "Coda",
+      "mNote": "The harp keeps moving after Isolde’s last words"
     }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
-      "title": "A voice above trembling strings",
-      "text": "Isolde begins “Mild und leise” — softly and gently — over a restrained orchestral texture. Low strings tremble beneath the vocal line; the score introduces the bass clarinet before gradually admitting brighter colours.",
+      "title": "A voice above muted cellos",
+      "text": "“Mild und leise, wie er lächelt” — “Softly and gently, how he smiles.” Isolde’s first words rise above muted, divided cellos. The bass clarinet has its own tender phrase; a clarinet and then the horns join it. The violins wait.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Breitkopf vocal-and-orchestral excerpt score, p. 14: https://hdl.handle.net/1802/13070. Opening identification; detailed cue timing is passage-level."
-    },
-    {
-      "t": 38,
-      "kind": "listen",
-      "title": "Follow a whole breath",
-      "text": "Listen for the direction of each long vocal phrase, not just its highest note. The orchestra has its own rising lines, so a breath in the singing need not halt the musical ascent.",
-      "basis": "general",
-      "precision": "passage",
-      "evidence": "General listening prompt based on the separate vocal and orchestral lines in score pp. 14–17: https://hdl.handle.net/1802/13070"
+      "evidence": "Wagner’s Act III text, sung by Isolde over Tristan’s body. Breitkopf & Härtel, Vorspiel und Isoldens Liebestod, plate Part. B. 1544, p. 14: bass clarinet, divided muted cellos, subsequent clarinet and horn entries. Own translation. https://hdl.handle.net/1802/13070."
     },
     {
       "t": 76,
       "kind": "world",
-      "title": "A named historical cast",
-      "text": "The Preiser sleeve identifies the Bayreuth Festival Orchestra and Karl Elmendorff for this Liebestod. It gives Columbia L 2206 as the original record; conductors listed for other tracks on the album do not belong to this performance.",
+      "title": "Isolde sees what others cannot",
+      "text": "“Seht ihr, Freunde?” — “Do you see, friends?” Isolde asks the people around Tristan’s body to share her vision. She describes his opening eyes, his swelling heart, his breath. The man on the ground is dead.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://archive.org/download/nanny-larsen-todsen-preiser-lv-174-side-a/Larsen-Todsen%20Preiser%20%282%29.JPG; “Mild und leise” entry names the orchestra, conductor, year and original catalogue."
-    },
-    {
-      "t": 114,
-      "kind": "music",
-      "title": "A swell gives way",
-      "text": "The sound pulls back after the first broad rise. Compare that release with the Prelude’s pauses: here the voice remains part of a continuous dramatic scene rather than a series of isolated orchestral questions.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: −9.6 dB at 1:50 falls to −21.3 dB at 1:55; further renewed activity follows around 2:20–2:30."
+      "evidence": "Wagner’s libretto, Act III, Isolde’s final monologue; Breitkopf excerpt score, pp. 14–18. Own translation of ‘Seht ihr, Freunde?’ The preceding death of Tristan is described in the Act III synopsis at https://en.wikipedia.org/wiki/Tristan_und_Isolde."
     },
     {
       "t": 152,
-      "kind": "form",
-      "title": "Expansion is not yet arrival",
-      "text": "Another surge reaches a local crest and retreats. Wagner repeatedly enlarges the phrase instead of treating its high point as a final cadence; the largest wave is still ahead.",
-      "basis": "audio-feature",
+      "kind": "music",
+      "title": "Harp beneath the long phrases",
+      "text": "The harp’s figures flow up through trembling strings. High flute notes stretch across the bar while the soprano keeps her own, slower line. The orchestra moves in small, quick notes beneath a voice that still has room to breathe.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Analysis: −9.5 dB at 2:25, falling to −23.7 dB by 2:45. Formal interpretation is passage-level, not a chord identification."
+      "evidence": "Breitkopf score, pp. 18–22, harp entry and developing arpeggios, divided string tremolos, high flute phrases and sustained vocal writing."
     },
     {
       "t": 190,
-      "kind": "world",
-      "title": "A Bayreuth Isolde",
-      "text": "Larsen-Todsen’s Bayreuth Isolde in 1928 belongs to the period of this recording. The reissue sleeve presents the recorded <i>Tristan</i> as an important surviving document of her leading Wagner roles.",
+      "kind": "life",
+      "title": "From Agathe to Isolde",
+      "text": "Larsen-Todsen begins her stage career in Stockholm in 1906 as Agathe in Weber’s <i>Der Freischütz</i>. She grows into Wagner’s great soprano parts. In 1928 she sings Isolde at Bayreuth and records the role with Karl Elmendorff and the festival orchestra.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "https://archive.org/download/nanny-larsen-todsen-preiser-lv-174-side-a/Larsen-Todsen%20Preiser%20%282%29.JPG; Dr Anton Odelga’s biographical note discusses the 1928 Bayreuth Isolde and Elmendorff recording."
+      "evidence": "Dr Anton Odelga, biographical note on Preiser LV 174; recording entry for ‘Mild und leise’, Columbia L 2206, 1928, Bayreuth Festival Orchestra, Karl Elmendorff. https://archive.org/download/nanny-larsen-todsen-preiser-lv-174-side-a/Larsen-Todsen%20Preiser%20%282%29.JPG."
     },
     {
-      "t": 228,
-      "kind": "listen",
-      "title": "Hear the next wave gather",
-      "text": "Listen across the quieter passage into the next increase in force. The transition matters as much as the peak: sustained lines and repeated rising shapes make the new wave feel like a continuation, not a fresh beginning.",
-      "basis": "audio-feature",
-      "precision": "passage",
-      "evidence": "Analysis: −24 dB at 3:45 and −23 dB at 3:50 rise to −8 dB at 4:00. Score pp. 22–24 shows the accumulating vocal and orchestral lines."
-    },
-    {
-      "t": 266,
+      "t": 240,
       "kind": "music",
-      "title": "Voice and orchestra together",
-      "text": "At the fuller points, ask which line carries your attention: the soprano’s words or the orchestra’s continuing melody. Wagner’s score gives both directional work; accompaniment is not merely a quiet support beneath a solo.",
-      "basis": "general",
+      "title": "Waves in words and orchestra",
+      "text": "Isolde hears sounds swelling around her and wonders whether they are waves of air. The harp sweeps up and down; strings circle through quick figures. Above them, the wind instruments repeat a broad rising phrase, swelling and subsiding while the smaller notes keep going.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Score pp. 24–27: https://hdl.handle.net/1802/13070. General orchestral relationship; no individual doubling is claimed at 4:26."
+      "evidence": "Breitkopf score, pp. 23–25, especially rehearsal Hh on p. 24: ‘mich umwallend, sind es Wellen sanfter Lüfte’, harp arpeggios, continuous string figures and repeated wind phrases with swells."
     },
     {
-      "t": 304,
-      "kind": "listen",
-      "title": "The highest wave",
-      "text": "The strongest recorded crest comes in this late span. Compare it with the earlier rises: the music has trained the ear to expect renewal, yet the ending will ultimately be quieter, not louder.",
-      "basis": "audio-feature",
+      "t": 320,
+      "kind": "music",
+      "title": "Piccolo above the voice",
+      "text": "The piccolo and first violins reach high above Isolde. The harp sweeps across its strings, and brass hold the harmony underneath. Her melody moves in long notes through this brilliant company. The orchestra does the running for her.",
+      "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Analysis: strongest five-second window at 5:20, −6.4 dB; earlier substantial crest at 4:10, −7.8 dB."
-    },
-    {
-      "t": 342,
-      "kind": "world",
-      "title": "A death seen differently",
-      "text": "The stage situation is not a reunion in ordinary life: Tristan is dead. Isolde’s words turn sight into imagined sound and finally dissolution; the orchestra carries the scene beyond what the other characters can perceive.",
-      "basis": "documented",
-      "precision": "passage",
-      "evidence": "https://en.wikipedia.org/wiki/Tristan_und_Isolde synopsis of Act III; the vocal text appears in the excerpt score, pp. 14–30."
+      "evidence": "Breitkopf score, pp. 27–28, piccolo and high violin writing, wide harp arpeggios, sustained brass chords and Isolde’s long notes at ‘Welt-Atems wehendem All’."
     },
     {
       "t": 380,
       "kind": "music",
-      "title": "A different kind of resolution",
-      "text": "The scene’s written destination is B major. Unlike the Prelude’s opening, the conclusion permits a stable tonic to remain; the long delay makes the restrained ending carry the weight that another climax might otherwise supply.",
+      "title": "The orchestra finishes the sentence",
+      "text": "Isolde’s last words are “höchste Lust” — “supreme bliss”. The harp keeps moving after she falls silent. The closing music settles into B major, and the last arpeggios give way to a held chord marked pianissimo.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Score p. 30: B-major final cadence. This cue concerns the concluding passage, not a chord asserted at 6:20."
-    },
-    {
-      "t": 418,
-      "kind": "listen",
-      "title": "Wait beyond the final word",
-      "text": "Let the orchestral ending complete the scene after the text reaches its last thought. The concluding resonance and the space after it belong to the arrival, rather than serving as disposable silence.",
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Score p. 30 continues after the final sung “Lust”. Analysis falls to −44.8 dB at 7:20 and −71.3 at 7:25. Vocal release is not separately time-aligned."
+      "evidence": "Wagner’s Act III text, final words of Isolde; own translation. Breitkopf score, pp. 29–30, harp continuation after the vocal release, final B-major chord, pp and fermata."
     }
   ],
   "transitions": [
     {
-      "id": "renewed-expansion",
-      "title": "A local retreat releases another ascent",
-      "from": "Vision",
-      "to": "Renewed expansion",
-      "at": {
-        "t": 140
-      },
-      "span": [
-        130,
-        152
-      ],
-      "how": "<p>The opening grows through rising vocal phrases and increasingly active string writing. A local reduction of force allows another expansion: recurring melodic shapes connect the spans while fuller orchestration changes their scale. This is renewed motion, not the final B-major cadence.</p>",
-      "devices": [
-        "motivic link",
-        "crescendo build",
-        "orchestration change"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Score pp. 14–20; analysis boundary 2:20 and local crest 2:25. Approximate subdivision of a continuous scene."
-    },
-    {
       "id": "gathering-waves",
-      "title": "Quieter phrases feed a larger wave",
-      "from": "Renewed expansion",
-      "to": "The waves gather",
+      "title": "The wind phrases rise over circling strings",
+      "from": "B · Harp notes flow beneath the voice",
+      "to": "Dev · Isolde hears waves around her",
       "at": {
         "t": 240
       },
@@ -200,43 +137,21 @@ export default {
         230,
         252
       ],
-      "how": "<p>After a quieter passage, rising figures and fuller orchestral support carry the voice towards a larger crest. The accompaniment continues across phrase boundaries, preventing each vocal breath from sounding like the end of the musical sentence.</p>",
+      "how": "<p>Long bass notes support repeated rising phrases in the woodwind. Trumpets and trombones sustain the harmony, while the harp sweeps up and down and the strings keep circling in quick notes. Each broad wind phrase swells, then withdraws; Isolde’s line continues through these successive waves.</p>",
       "devices": [
         "sequence",
-        "crescendo build",
-        "elision"
-      ],
-      "basis": "score-proportion",
-      "precision": "passage",
-      "evidence": "Score pp. 22–24; analysis level rises sharply between 3:50 and 4:00."
-    },
-    {
-      "id": "late-crest",
-      "title": "Repeated rises reach their greatest weight",
-      "from": "The waves gather",
-      "to": "Largest crest",
-      "at": {
-        "t": 320
-      },
-      "span": [
-        310,
-        332
-      ],
-      "how": "<p>The score’s late intensification expands the same upward-directed material with brilliant string and wind figuration. The increase in orchestral weight supports the culminating vocal span; the accumulated wave, rather than a new contrasting theme, produces the climax.</p>",
-      "devices": [
-        "motivic link",
         "crescendo build",
         "orchestration change"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Score pp. 26–28; strongest measured window 5:20. Page-to-recording placement is approximate."
+      "evidence": "Breitkopf score, pp. 23–25, rehearsal Hh: long bass notes, sustained brass, repeated woodwind phrases, string figures and harp arpeggios."
     },
     {
       "id": "towards-cadence",
-      "title": "The crest gives way to a quiet arrival",
-      "from": "Largest crest",
-      "to": "Towards the final cadence",
+      "title": "The voice leaves the harp moving",
+      "from": "C · Piccolo above the soprano",
+      "to": "Coda · The last words and B major",
       "at": {
         "t": 350
       },
@@ -244,15 +159,16 @@ export default {
         340,
         362
       ],
-      "how": "<p>The orchestra relinquishes the preceding force and extends the closing line towards B major. The voice eventually falls silent, leaving the orchestra to complete the cadence. A sustained quiet tonic, not a final burst of volume, supplies the decisive difference from the Prelude’s opening.</p>",
+      "how": "<p>The high violin figures turn downwards and the brass recede. Harp arpeggios continue beneath Isolde’s last phrase, then beneath the orchestra alone. A sustained bass and increasingly quiet wind chords lead towards B major. The harp finally stops running; the last chord is held under a fermata.</p>",
       "devices": [
         "decrescendo",
         "texture change",
-        "perfect cadence"
+        "perfect cadence",
+        "fermata"
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Score pp. 29–30; level falls markedly by 5:50–5:55. The final cadence is later within this span, not precisely at its start."
+      "evidence": "Breitkopf score, pp. 29–30: descending violin figures, diminishing brass, harp continuation, final B-major cadence and fermata. The preserved section boundary marks the approach to this closing passage."
     }
   ],
   "orchestra": {
