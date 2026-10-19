@@ -39,6 +39,15 @@ export default {
       "evidence": "E-major Più lento: https://en.wikipedia.org/wiki/Étude_Op._25,_No._5_(Chopin). Cello-register melody and accompanying figuration: https://chopin.nifc.pl/en/chopin/kompozycja/191."
     },
     {
+      "t": 87,
+      "kind": "world",
+      "title": "Marie d’Agoult’s études",
+      "text": "The twelve études of Op. 25 appear in 1837 with a dedication to Marie d’Agoult, the companion of Chopin’s friend Franz Liszt.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "IMSLP, Études, Op. 25: first published 1837 (Paris: Maurice Schlesinger), dedicated to Comtesse d’Agoult (1805–1876): https://imslp.org/wiki/Études,_Op.25_(Chopin,_Frédéric). Liszt’s relationship with Marie d’Agoult from 1834: https://www.liszt.org/p/chronology.html"
+    },
+    {
       "t": 120,
       "kind": "world",
       "title": "A sonata from his teacher",

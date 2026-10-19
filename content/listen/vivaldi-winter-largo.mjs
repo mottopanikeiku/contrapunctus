@@ -45,6 +45,15 @@ export default {
       "evidence": "Winter sonnet, 1725, letter E; translation ours. Italian text at https://nac-cna.ca/en/event/notes/36996; Mutopia score, II, bars 8–16, with La Pioggia and Pizziccati forte in the orchestral violins."
     },
     {
+      "t": 85,
+      "kind": "life",
+      "title": "A tight chest",
+      "text": "In November 1737 Vivaldi writes to his patron Guido Bentivoglio that he has not said Mass in twenty-five years. The cause is a chest ailment he has had from birth, his “strettezza di petto”. Ordained in 1703, he stopped after leaving the altar three times mid-Mass.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Vivaldi to Marchese Guido Bentivoglio, Venice, 16 November 1737, in Karl Heller, <i>Antonio Vivaldi: The Red Priest of Venice</i> (Amadeus Press, 1997), Appendix, letter 5, pp. 287–288: no Mass in twenty-five years, “the ailment from which I have suffered from birth”, three departures from the altar, “constriction of the chest”. Michael Talbot, Dizionario Biografico degli Italiani, gives the phrase “strettezza di petto” and the ordination in March 1703. https://www.treccani.it/enciclopedia/antonio-vivaldi_%28Dizionario-Biografico%29/"
+    },
+    {
       "bar": { "n": "16", "occ": 1 },
       "kind": "form",
       "title": "The melody settles on E♭",

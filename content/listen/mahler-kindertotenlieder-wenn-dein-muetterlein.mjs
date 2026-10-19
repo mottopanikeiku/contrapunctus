@@ -59,6 +59,15 @@ export default {
       "evidence": "Rückert, Wenn dein Mütterlein, first stanza as set by Mahler; German text at https://en.wikipedia.org/wiki/Kindertotenlieder#Text. Our translation."
     },
     {
+      "t": 70,
+      "kind": "music",
+      "title": "A nursery tune for a lost child",
+      "text": "The voice sings in the shape of a nursery song, even of a chanted counting rhyme, and tries in vain to bring the child back. Beneath it the orchestra moves at twice the voice’s speed, in lines that recall the first song.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Reinhold Kubik, Universal Edition introduction to Kindertotenlieder (autumn 2008), on song 3: children’s-song melodies, counting rhymes, and a linear accompaniment moving twice as fast as the voice and recalling the first song: https://www.universaledition.com/en/Kindertotenlieder/P0045027"
+    },
+    {
       "t": 114,
       "kind": "form",
       "title": "The doorway again",
@@ -66,6 +75,24 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 40–46, rehearsal 3 onwards; Rückert’s second stanza. The changed bass scoring is discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler3.html"
+    },
+    {
+      "t": 170,
+      "kind": "life",
+      "title": "A chamber orchestra in a small hall",
+      "text": "Mahler prefers small rooms for these songs: the Kleiner Musikvereinssaal for the Vienna performances of 1905, then the Stephaniesaal in Graz. His string section has about ten first violins at most. This song has no violins at all.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Mahler catalogue, Kindertotenlieder, scoring note: good evidence that the small venues were the composer’s own choice and that the strings were probably no more than 10, 8, 6, 6 and 4 (citing Hefling and Hilmar-Voit). Performances: Vienna 29 January and 3 February 1905, Graz 1 June 1905: https://www.mahlercat.org.uk/Pages/KtL/KtL.htm"
+    },
+    {
+      "t": 205,
+      "kind": "life",
+      "title": "“Don’t tempt Providence”",
+      "text": "Alma Mahler cannot understand how her husband can bewail the deaths of children “in the best of health and spirits” within an hour of kissing his own. She exclaims: “For Heaven’s sake, don’t tempt Providence!” Mahler completes the cycle in the summer of 1904.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Alma Mahler, Gustav Mahler: Memories and Letters, as quoted by Georg Predota, Interlude, 29 January 2019: https://interlude.hk/mahler-kindertotenlieder-premiered-today-1905/. The exclamation is also given in Michael Kennedy, Mahler (Master Musicians), Edward Seckerson, Mahler: His Life and Times (1982), and Stephen Johnson, Mahler (2007) (full-text excerpts seen); the memoir itself was not opened. Kubik dates songs 2 and 5 to 1904: https://www.universaledition.com/en/Kindertotenlieder/P0045027"
     },
     {
       "t": 236,

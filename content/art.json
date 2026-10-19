@@ -1,4 +1,15 @@
 {
+ "File:(Lettre de Maurice Ravel à Manuel de Falla, Montfort l'Amaury, 26 juin 1923) (photocopie) - btv1b550163614 (1 of 4).jpg": {
+  "id": "lettre-de-maurice-ravel-a-manuel-de-falla-montfort-l-amaury-26-juin-1923-photoco",
+  "src": "assets/img/art/lettre-de-maurice-ravel-a-manuel-de-falla-montfort-l-amaury-26-juin-1923-photoco.webp",
+  "w": 1280,
+  "h": 1978,
+  "page": "https://commons.wikimedia.org/wiki/File:(Lettre_de_Maurice_Ravel_%C3%A0_Manuel_de_Falla,_Montfort_l%27Amaury,_26_juin_1923)_(photocopie)_-_btv1b550163614_(1_of_4).jpg",
+  "artist": "Ravel, Maurice (1875-1937). Auteur de lettres",
+  "date": "1923 date QS:P571,+1923-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "Bibliothèque nationale de France"
+ },
  "File:Aaron Copland in 1962.jpg": {
   "id": "aaron-copland-in-1962",
   "src": "assets/img/art/aaron-copland-in-1962.webp",
@@ -31,6 +42,17 @@
   "date": "from 1850 until 1852 date QS:P571,+1850-00-00T00:00:00Z/8,P580,+1850-00-00T00:00:00Z/9,P582,+1852-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Google Arts & Culture — WAFEF2zy8Ym8vQ"
+ },
+ "File:Adolph Tidemand & Hans Gude - Bridal Procession on the Hardangerfjord - Google Art Project.jpg": {
+  "id": "adolph-tidemand-hans-gude-bridal-procession-on-the-hardangerfjord-google-art-pro",
+  "src": "assets/img/art/adolph-tidemand-hans-gude-bridal-procession-on-the-hardangerfjord-google-art-pro.webp",
+  "w": 1280,
+  "h": 916,
+  "page": "https://commons.wikimedia.org/wiki/File:Adolph_Tidemand_%26_Hans_Gude_-_Bridal_Procession_on_the_Hardangerfjord_-_Google_Art_Project.jpg",
+  "artist": "Adolph Tidemand / Hans Gude",
+  "date": "1848 date QS:P571,+1848-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "EwGseaUks6vhrQ at Google Cultural Institute , zoom level maximum"
  },
  "File:Akseli Gallen-Kallela - Kullervo Cursing - Google Art Project.jpg": {
   "id": "akseli-gallen-kallela-kullervo-cursing-google-art-project",
@@ -108,6 +130,28 @@
   "date": "between circa 1750 and circa 1752",
   "license": "CC BY-SA 4.0",
   "credit": "National Gallery of Victoria, Melbourne"
+ },
+ "File:Amy Marcy Cheney Beach, 1867-1944 LCCN2004682089.jpg": {
+  "id": "amy-marcy-cheney-beach-1867-1944-lccn2004682089",
+  "src": "assets/img/art/amy-marcy-cheney-beach-1867-1944-lccn2004682089.webp",
+  "w": 1225,
+  "h": 1536,
+  "page": "https://commons.wikimedia.org/wiki/File:Amy_Marcy_Cheney_Beach,_1867-1944_LCCN2004682089.jpg",
+  "artist": "George Grantham Bain Collection",
+  "date": "",
+  "license": "Public domain",
+  "credit": "Library of Congress Catalog: https://lccn.loc.gov/2004682089 Image download: https://cdn.loc.gov/service/pnp/cph/3b00000/3b04000/3b04600/3b04622r.jpg Original url: https://www.loc.gov/pictures/item/2004682089/"
+ },
+ "File:AmyBeach&MarcellaCraft.02.14.1913 Munich Germany photobyH.Wiedenmannjpg.jpg": {
+  "id": "amybeach-marcellacraft-02-14-1913-munich-germany-photobyh-wiedenmannjpg",
+  "src": "assets/img/art/amybeach-marcellacraft-02-14-1913-munich-germany-photobyh-wiedenmannjpg.webp",
+  "w": 427,
+  "h": 324,
+  "page": "https://commons.wikimedia.org/wiki/File:AmyBeach%26MarcellaCraft.02.14.1913_Munich_Germany_photobyH.Wiedenmannjpg.jpg",
+  "artist": "H. Wiedenmann",
+  "date": "1913-02-14",
+  "license": "Public domain",
+  "credit": "https://www.library.unh.edu/special/images/finaid/beach/adult/pages/e.23.html"
  },
  "File:An Experiment on a Bird in an Air Pump by Joseph Wright of Derby, 1768.jpg": {
   "id": "an-experiment-on-a-bird-in-an-air-pump-by-joseph-wright-of-derby-1768",
@@ -362,6 +406,17 @@
   "license": "Public domain",
   "credit": "Uppsala Universitetsbibliotek , vokalmusik i handskrift 82:42, fol. 17v"
  },
+ "File:Camille Saint-Saens b Meurisse 1921.jpg": {
+  "id": "camille-saint-saens-b-meurisse-1921",
+  "src": "assets/img/art/camille-saint-saens-b-meurisse-1921.webp",
+  "w": 1280,
+  "h": 1800,
+  "page": "https://commons.wikimedia.org/wiki/File:Camille_Saint-Saens_b_Meurisse_1921.jpg",
+  "artist": "Agence de presse Meurisse",
+  "date": "1921. 2014-01-29 for upload",
+  "license": "Public domain",
+  "credit": "Bibliothèque nationale de France"
+ },
  "File:Canaletto - Westminster Bridge, with the Lord Mayor's Procession on the Thames - Google Art Project.jpg": {
   "id": "canaletto-westminster-bridge-with-the-lord-mayor-s-procession-on-the-thames-goog",
   "src": "assets/img/art/canaletto-westminster-bridge-with-the-lord-mayor-s-procession-on-the-thames-goog.webp",
@@ -560,6 +615,17 @@
   "license": "CC0",
   "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy"
  },
+ "File:Corot - LE SOIR (PRAIRIE BOISÉE AU BORD D'UN LAC), R218.jpg": {
+  "id": "corot-le-soir-prairie-boisee-au-bord-d-un-lac-r218",
+  "src": "assets/img/art/corot-le-soir-prairie-boisee-au-bord-d-un-lac-r218.webp",
+  "w": 1280,
+  "h": 916,
+  "page": "https://commons.wikimedia.org/wiki/File:Corot_-_LE_SOIR_(PRAIRIE_BOIS%C3%89E_AU_BORD_D%27UN_LAC),_R218.jpg",
+  "artist": "Jean-Baptiste Camille Corot",
+  "date": "19 th century date QS:P,+1850-00-00T00:00:00Z/7",
+  "license": "CC BY-SA 4.0",
+  "credit": "http://www.sothebys.com/en/auctions/ecatalogue/2018/european-art-n09869/lot.64.html?locale=en"
+ },
  "File:Crucifixion of Jesus, Russian icon by Dionisius, 1500.jpg": {
   "id": "crucifixion-of-jesus-russian-icon-by-dionisius-1500",
   "src": "assets/img/art/crucifixion-of-jesus-russian-icon-by-dionisius-1500.webp",
@@ -669,6 +735,28 @@
   "date": "Unknown date",
   "license": "Public domain",
   "credit": "Royal Academy pictures and sculpture , 1907, p. 70"
+ },
+ "File:Edvard Grieg (1888) by Elliot and Fry - 02.jpg": {
+  "id": "edvard-grieg-1888-by-elliot-and-fry-02",
+  "src": "assets/img/art/edvard-grieg-1888-by-elliot-and-fry-02.webp",
+  "w": 567,
+  "h": 864,
+  "page": "https://commons.wikimedia.org/wiki/File:Edvard_Grieg_(1888)_by_Elliot_and_Fry_-_02.jpg",
+  "artist": "Elliott & Fry",
+  "date": "1888-03",
+  "license": "Public domain",
+  "credit": "Immediate image source: Bergen Off. Bibliotek: Griegsamlingen, image #0241950 (Warning: the site has misidentified the photograph; see the cabinet card version page for details of actual origin.)"
+ },
+ "File:Edvard Grieg accompanying his Wife.jpg": {
+  "id": "edvard-grieg-accompanying-his-wife",
+  "src": "assets/img/art/edvard-grieg-accompanying-his-wife.webp",
+  "w": 1280,
+  "h": 936,
+  "page": "https://commons.wikimedia.org/wiki/File:Edvard_Grieg_accompanying_his_Wife.jpg",
+  "artist": "Peder Severin Krøyer",
+  "date": "15 April 2004, 09:43",
+  "license": "Public domain",
+  "credit": "[Nina and Edvard by the piano]"
  },
  "File:Edvard Munch - The Scream - NG.M.00939 - National Museum of Art, Architecture and Design.jpg": {
   "id": "edvard-munch-the-scream-ng-m-00939-national-museum-of-art-architecture-and-desig",
@@ -989,6 +1077,28 @@
   "license": "Public domain",
   "credit": "Libretto and Programme Notes for Tosca , p. 2, published by the Teatro La Fenice at http://www.teatrolafenice.it/public/libretti/84_6334Tosca_v3.pdf"
  },
+ "File:Gloucester Cathedral Nave, Gloucestershire, UK - Diliff.jpg": {
+  "id": "gloucester-cathedral-nave-gloucestershire-uk-diliff",
+  "src": "assets/img/art/gloucester-cathedral-nave-gloucestershire-uk-diliff.webp",
+  "w": 1280,
+  "h": 940,
+  "page": "https://commons.wikimedia.org/wiki/File:Gloucester_Cathedral_Nave,_Gloucestershire,_UK_-_Diliff.jpg",
+  "artist": "Diliff",
+  "date": "2014-07-09",
+  "license": "CC BY-SA 3.0",
+  "credit": "Own work"
+ },
+ "File:Goya.pelele.prado.jpg": {
+  "id": "goya-pelele-prado",
+  "src": "assets/img/art/goya-pelele-prado.webp",
+  "w": 1280,
+  "h": 2228,
+  "page": "https://commons.wikimedia.org/wiki/File:Goya.pelele.prado.jpg",
+  "artist": "Francisco Goya",
+  "date": "between 1791 and 1792 date QS:P571,+1791-00-00T00:00:00Z/8,P1319,+1791-00-00T00:00:00Z/9,P1326,+1792-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "[ http://www.museodelprado.es/coleccion/galeria-on-line/galeria-on-line/obra/el-pelele/?no_cache=1 Museo del Prado, Madrid"
+ },
  "File:Guillaume Tell - esquisse de décor - Pierre-Luc Charles Cicéri - btv1b7000638d.jpg": {
   "id": "guillaume-tell-esquisse-de-decor-pierre-luc-charles-ciceri-btv1b7000638d",
   "src": "assets/img/art/guillaume-tell-esquisse-de-decor-pierre-luc-charles-ciceri-btv1b7000638d.webp",
@@ -1098,6 +1208,17 @@
   "date": "1900 date QS:P571,+1900-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "Bibliothèque nationale de France"
+ },
+ "File:Henri Regnault (French, Paris 1843–1871 Buzenval) - Salomé - Google Art Project.jpg": {
+  "id": "henri-regnault-french-paris-1843-1871-buzenval-salome-google-art-project",
+  "src": "assets/img/art/henri-regnault-french-paris-1843-1871-buzenval-salome-google-art-project.webp",
+  "w": 1280,
+  "h": 2012,
+  "page": "https://commons.wikimedia.org/wiki/File:Henri_Regnault_(French,_Paris_1843%E2%80%931871_Buzenval)_-_Salom%C3%A9_-_Google_Art_Project.jpg",
+  "artist": "Henri Regnault",
+  "date": "1870 date QS:P571,+1870-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "nAGA-cVYlvEb2g at Google Cultural Institute maximum zoom level"
  },
  "File:Hildegard von Bingen.jpg": {
   "id": "hildegard-von-bingen",
@@ -1230,6 +1351,17 @@
   "date": "1913",
   "license": "Public domain",
   "credit": "What We Hear in Music , Anne S. Faulkner, Victor Talking Machine Co. , 1913."
+ },
+ "File:Jean-Léon Gérome (1824-1904) - View of the Nile at Luxor - WA2001.45 - Ashmolean Museum.jpg": {
+  "id": "jean-leon-gerome-1824-1904-view-of-the-nile-at-luxor-wa2001-45-ashmolean-museum",
+  "src": "assets/img/art/jean-leon-gerome-1824-1904-view-of-the-nile-at-luxor-wa2001-45-ashmolean-museum.webp",
+  "w": 1100,
+  "h": 604,
+  "page": "https://commons.wikimedia.org/wiki/File:Jean-L%C3%A9on_G%C3%A9rome_(1824-1904)_-_View_of_the_Nile_at_Luxor_-_WA2001.45_-_Ashmolean_Museum.jpg",
+  "artist": "Jean-Léon Gérôme",
+  "date": "1857",
+  "license": "Public domain",
+  "credit": "Art UK"
  },
  "File:Jean-Marc Nattier, Portrait de Pierre-Augustin Caron de Beaumarchais (1755).jpg": {
   "id": "jean-marc-nattier-portrait-de-pierre-augustin-caron-de-beaumarchais-1755",
@@ -1572,6 +1704,17 @@
   "license": "Public domain",
   "credit": ""
  },
+ "File:Manuel de Falla.jpg": {
+  "id": "manuel-de-falla",
+  "src": "assets/img/art/manuel-de-falla.webp",
+  "w": 559,
+  "h": 582,
+  "page": "https://commons.wikimedia.org/wiki/File:Manuel_de_Falla.jpg",
+  "artist": "A(lfonso) Ciarán",
+  "date": "1914-01-09",
+  "license": "Public domain",
+  "credit": "La ilustración española y americana"
+ },
  "File:Marc - Tierschicksale (Die Bäume zeigten ihre Ringe, die Tiere ihre Adern), 1913, Inv. 1739.jpg": {
   "id": "marc-tierschicksale-die-baume-zeigten-ihre-ringe-die-tiere-ihre-adern-1913-inv-1",
   "src": "assets/img/art/marc-tierschicksale-die-baume-zeigten-ihre-ringe-die-tiere-ihre-adern-1913-inv-1.webp",
@@ -1682,6 +1825,17 @@
   "license": "Public domain",
   "credit": "Art Renewal Center Museum , image 4444"
  },
+ "File:Nuremberg chronicles - Dance of Death (CCLXIIIIv).jpg": {
+  "id": "nuremberg-chronicles-dance-of-death-cclxiiiiv",
+  "src": "assets/img/art/nuremberg-chronicles-dance-of-death-cclxiiiiv.webp",
+  "w": 1280,
+  "h": 1092,
+  "page": "https://commons.wikimedia.org/wiki/File:Nuremberg_chronicles_-_Dance_of_Death_(CCLXIIIIv).jpg",
+  "artist": "Michael Wolgemut",
+  "date": "",
+  "license": "Public domain",
+  "credit": "https://www.metmuseum.org/art/collection/search/390220"
+ },
  "File:Olivier Messiaen (1986).jpg": {
   "id": "olivier-messiaen-1986",
   "src": "assets/img/art/olivier-messiaen-1986.webp",
@@ -1758,6 +1912,17 @@
   "date": "1914",
   "license": "Public domain",
   "credit": "https://www.meisterdrucke.us/fine-art-prints/Anonymous-Anonymous/1052447/Portrait-of-the-Composer-Alexander-Scriabin-%281872-1915%29.html"
+ },
+ "File:Phyllis Fergus, Ethel Glenn Hier, Amy Beach, Harriet Ware and Gena Branscombe in 1924.jpg": {
+  "id": "phyllis-fergus-ethel-glenn-hier-amy-beach-harriet-ware-and-gena-branscombe-in-19",
+  "src": "assets/img/art/phyllis-fergus-ethel-glenn-hier-amy-beach-harriet-ware-and-gena-branscombe-in-19.webp",
+  "w": 1024,
+  "h": 738,
+  "page": "https://commons.wikimedia.org/wiki/File:Phyllis_Fergus,_Ethel_Glenn_Hier,_Amy_Beach,_Harriet_Ware_and_Gena_Branscombe_in_1924.jpg",
+  "artist": "Unknown photographer Unknown photographer for National Photo Company",
+  "date": "1924-04-23",
+  "license": "Public domain",
+  "credit": "https://www.loc.gov/pictures/item/2016848922/?loclr=blogmus"
  },
  "File:Piero della Francesca - Madonna del Parto - WGA17613.jpg": {
   "id": "piero-della-francesca-madonna-del-parto-wga17613",
@@ -1913,6 +2078,17 @@
   "license": "Public domain",
   "credit": ""
  },
+ "File:Ralph Vaughan Williams, 1954.jpg": {
+  "id": "ralph-vaughan-williams-1954",
+  "src": "assets/img/art/ralph-vaughan-williams-1954.webp",
+  "w": 904,
+  "h": 704,
+  "page": "https://commons.wikimedia.org/wiki/File:Ralph_Vaughan_Williams,_1954.jpg",
+  "artist": "uncredited press photographer",
+  "date": "1954",
+  "license": "Public domain",
+  "credit": "ebay"
+ },
  "File:Raphael School of Athens.jpg": {
   "id": "raphael-school-of-athens",
   "src": "assets/img/art/raphael-school-of-athens.webp",
@@ -2001,6 +2177,17 @@
   "license": "Public domain",
   "credit": "Modern Music & Musicians , University Society, New York, 1918"
  },
+ "File:Robert Havell after John James Audubon, Hermit Thrush, 1829, NGA 32199.jpg": {
+  "id": "robert-havell-after-john-james-audubon-hermit-thrush-1829-nga-32199",
+  "src": "assets/img/art/robert-havell-after-john-james-audubon-hermit-thrush-1829-nga-32199.webp",
+  "w": 1280,
+  "h": 1998,
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Havell_after_John_James_Audubon,_Hermit_Thrush,_1829,_NGA_32199.jpg",
+  "artist": "Robert Havell after John James Audubon",
+  "date": "1829 date QS:P571,+1829-00-00T00:00:00Z/9",
+  "license": "CC0",
+  "credit": "This file was donated to Wikimedia Commons as part of a project by the National Gallery of Art . Please see the Gallery's Open Access Policy ."
+ },
  "File:Robert Havell after John James Audubon, The Mocking Bird, 1827, NGA 32162.jpg": {
   "id": "robert-havell-after-john-james-audubon-the-mocking-bird-1827-nga-32162",
   "src": "assets/img/art/robert-havell-after-john-james-audubon-the-mocking-bird-1827-nga-32162.webp",
@@ -2066,6 +2253,17 @@
   "date": "1941-04",
   "license": "Public domain",
   "credit": "This image is available from the United States Library of Congress 's Prints and Photographs division under the digital ID ppmsca.01614 . This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing ."
+ },
+ "File:Santiago Rusiñol - Gardens of the Generalife - Google Art Project (588574).jpg": {
+  "id": "santiago-rusinol-gardens-of-the-generalife-google-art-project-588574",
+  "src": "assets/img/art/santiago-rusinol-gardens-of-the-generalife-google-art-project-588574.webp",
+  "w": 1280,
+  "h": 1836,
+  "page": "https://commons.wikimedia.org/wiki/File:Santiago_Rusi%C3%B1ol_-_Gardens_of_the_Generalife_-_Google_Art_Project_(588574).jpg",
+  "artist": "Santiago Rusiñol i Prats",
+  "date": "1895 date QS:P571,+1895-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "3gECVUSEnVh5jw at Google Cultural Institute maximum zoom level"
  },
  "File:Schwind Begraebnis.jpg": {
   "id": "schwind-begraebnis",
@@ -2276,6 +2474,17 @@
   "license": "CC0",
   "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art . See the Image and Data Resources Open Access Policy"
  },
+ "File:Theodor Kittelsen - Forest Troll - NG.K&H.B.03222 - National Museum of Art, Architecture and Design.jpg": {
+  "id": "theodor-kittelsen-forest-troll-ng-k-h-b-03222-national-museum-of-art-architectur",
+  "src": "assets/img/art/theodor-kittelsen-forest-troll-ng-k-h-b-03222-national-museum-of-art-architectur.webp",
+  "w": 1280,
+  "h": 1832,
+  "page": "https://commons.wikimedia.org/wiki/File:Theodor_Kittelsen_-_Forest_Troll_-_NG.K%26H.B.03222_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
+  "artist": "Theodor Kittelsen",
+  "date": "1906",
+  "license": "Public domain",
+  "credit": "Nasjonalmuseet for kunst, arkitektur og design"
+ },
  "File:Thomas Adès conducts the National Youth Orchestra of Great Britain at Snape Maltings Concert Hall (2017).jpg": {
   "id": "thomas-ades-conducts-the-national-youth-orchestra-of-great-britain-at-snape-malt",
   "src": "assets/img/art/thomas-ades-conducts-the-national-youth-orchestra-of-great-britain-at-snape-malt.webp",
@@ -2396,6 +2605,17 @@
   "date": "1900 date QS:P571,+1900-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "allegromusik.com"
+ },
+ "File:William Blake - Book of Job, Plate 14, When the Morning Stars Sang Together - B1978.43.1516 - Yale Center for British Art.jpg": {
+  "id": "william-blake-book-of-job-plate-14-when-the-morning-stars-sang-together-b1978-43",
+  "src": "assets/img/art/william-blake-book-of-job-plate-14-when-the-morning-stars-sang-together-b1978-43.webp",
+  "w": 1280,
+  "h": 1564,
+  "page": "https://commons.wikimedia.org/wiki/File:William_Blake_-_Book_of_Job,_Plate_14,_When_the_Morning_Stars_Sang_Together_-_B1978.43.1516_-_Yale_Center_for_British_Art.jpg",
+  "artist": "William Blake",
+  "date": "1825",
+  "license": "CC0",
+  "credit": "Yale Center for British Art"
  },
  "File:William Hogarth - A Rake's Progress, Plate VIII, In Bedlam - B1981.25.1418 - Yale Center for British Art.jpg": {
   "id": "william-hogarth-a-rake-s-progress-plate-viii-in-bedlam-b1981-25-1418-yale-center",

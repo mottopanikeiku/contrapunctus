@@ -71,6 +71,15 @@ export default {
       "evidence": "Breitkopf & Härtel full score (1880), IV, second group, pp. 37–38 of the numbered scan; Tobias’s Indianapolis Symphony note describes the violin-and-wind melody."
     },
     {
+      "t": 92,
+      "kind": "world",
+      "title": "“Shockingly voluptuous”",
+      "text": "The pianist and critic Charles Rosen finds pleasure inside Mozart’s pain: “In all of Mozart’s supreme expressions of suffering and terror … there is something shockingly voluptuous.”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Charles Rosen, as quoted in Michael Steinberg, The Symphony: A Listener’s Guide (Oxford, 1995), and in Marianne Williams Tobias’s Indianapolis Symphony Orchestra programme note: https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/. In the original sentence the dash list continues through the G minor Symphony, Don Giovanni and Pamina’s aria; Rosen’s own book was not opened."
+    },
+    {
       "t": 116,
       "kind": "form",
       "title": "The leap breaks loose",
@@ -105,6 +114,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel full score (1880), IV, recapitulated second group and final cadence, pp. 46–49 of the numbered scan."
+    },
+    {
+      "t": 255,
+      "kind": "world",
+      "title": "The most discussed symphony",
+      "text": "Neal Zaslaw says of K. 550: “No symphony of Mozart’s, not even the ‘Jupiter’, has aroused so much comment as this one.” Otto Jahn, in the nineteenth century, hears in it “sorrow and complaining”, and in the finale “a wild merriment that seeks to drown sorrow”.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Neal Zaslaw, Mozart’s Symphonies: Context, Performance Practice, Reception (Oxford: Clarendon Press, 1989): the sentence appears in the book (Internet Archive full-text excerpt, page not seen) and is quoted in Marianne Williams Tobias’s note: https://www.indianapolissymphony.org/backstage/program-notes/mozart-symphony-no-40/. Otto Jahn, Life of Mozart, trans. P. D. Townsend (1882), vol. 3, chapter on instrumental music: “Sorrow and complaining take the place of joy and gladness”; the finale “brings no peace, only a wild merriment that seeks to drown sorrow”: https://www.gutenberg.org/ebooks/43413"
     }
   ],
   "transitions": [

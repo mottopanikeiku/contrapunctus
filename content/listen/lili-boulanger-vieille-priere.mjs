@@ -73,6 +73,15 @@ export default {
       "evidence": "Translator’s credit on the Durand score, p. 1; French text and the date it reached Boulanger in Konstantin Galluhn’s preface (2010). https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
     },
     {
+      "t": 95,
+      "kind": "world",
+      "title": "The Mettā Sutta",
+      "text": "The prayer’s words come from Buddhist scripture, where they are known as the Mettā Sutta. Boulanger’s score subtitles them <i>Prière quotidienne pour tout l’Univers</i>: a daily prayer for the whole universe.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Konstantin Galluhn, preface to Vieille prière bouddhique (2010), with the printed text and subtitle: https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
+    },
+    {
       "t": 148,
       "kind": "form",
       "title": "The flute takes the chant",
@@ -107,6 +116,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 17–18: bouches fermées, long fermata, unmuted strings and full choir marked ff clamant."
+    },
+    {
+      "t": 365,
+      "kind": "world",
+      "title": "Compared to Angkor",
+      "text": "Georges Migot, writing on 1 August 1921, finds just enough exotic colour in the piece to leave Western sensibility undisturbed, and an architecture as simple and powerful as the Temple of Angkor.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Georges Migot, 1 August 1921, as quoted in Konstantin Galluhn’s preface (2010): https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
     },
     {
       "t": 405,

@@ -44,8 +44,8 @@ export async function mount(app) {
     join: $('.join-card'), tabJoins: $('.tab-joins'), tabComposer: $('.tab-composer'), tabPiece: $('.tab-piece'),
     play: $('.t-play'), cur: $('.t-cur'), dur: $('.t-dur'), timeline: $('.timeline'), tlCanvas: $('.tl-canvas'), tlSections: $('.tl-sections'), tlJoins: $('.tl-joins'), head: $('.tl-head'),
     progBtn: $('.t-prog'), prog: $('.programme'), curtain: $('.curtain'), interlude: $('.interlude'),
-    cameo: $('.oval-r img'), cameoCap: $('.cameo-r figcaption'), chord: $('.chord'), chordCap: $('.chord-cap'), bass: $('.ro-bass'), bassLabel: $('.ro-bass-label'), top: $('.ro-top'), topLabel: $('.ro-top-label'),
-    loud: $('.meter:not(.bright) span'), bright: $('.meter.bright span'), axis: $('.spectro-axis'), spectro: $('.spectro'), wheel: $('.wheel'),
+    cameo: $('.oval-r img'), cameoCap: $('.cameo-r figcaption'), chord: $('.chord'), chordCap: $('.chord-cap'), bass: $('.ro-bass'), top: $('.ro-top'), readouts: $('.readouts'),
+    nsLabel: $('.ns-label'), nsNote: $('.ns-note'), nsNext: $('.ns-next'), axis: $('.spectro-axis'), spectro: $('.spectro'), wheel: $('.wheel'),
     frame: $('.spectro-frame'), layer: $('.view-layer'), views: $('.views'), label: $('.spectro-label'),
   };
   let backdropFront = 0;
@@ -130,9 +130,10 @@ export async function mount(app) {
     ui.frame.classList.toggle('scored', v !== 'sound');
     ui.frame.dataset.view = v;
     ui.label.textContent = v === 'sound' ? 'Pitch over time · each band is an octave of C' : '';
-    ui.chordCap.textContent = track.monophonic ? 'one melody · no chords' : score ? 'from the score' : 'heard harmony · estimate';
-    ui.bassLabel.textContent = score ? 'Lowest note' : 'Bass';
-    ui.topLabel.textContent = score ? 'Sounding now' : 'Strongest pitches';
+    // Without an aligned score the wheel shows what sounds, and its centre names the piece's key: a live chord guess misleads.
+    ui.chordCap.textContent = track.monophonic ? 'one melody · no chords' : score ? 'from the score' : 'key of the piece';
+    if (!score) ui.chord.textContent = (track.key ?? '').split(/[(;,]/)[0].replace(/ in the .*/, '').trim() || '—';
+    ui.readouts.hidden = !score;
     if (v === 'score') viewObj = sheetView();
     else if (v === 'notes') viewObj = rollView();
     else if (v === 'orchestra') viewObj = orchestraView();
@@ -727,9 +728,23 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
   });
   on(ui.progBtn, 'click', () => { ui.prog.hidden = !ui.prog.hidden; ui.progBtn.setAttribute('aria-expanded', String(!ui.prog.hidden)); });
   on($('.prog-close'), 'click', () => { ui.prog.hidden = true; });
+  // One concert recording from anywhere, never the one already playing.
+  const surprise = () => { const pool = P.filter((x) => x.concert !== false && x.id !== player.track?.id); return pool[Math.floor(Math.random() * pool.length)]?.id; };
   on(ui.prog, 'click', async (e) => {
     const evening = e.target.closest('button[data-programme]');
     if (evening) { ui.prog.hidden = true; await player.setQueue(evening.dataset.programme || null, { play: true }); queueState(); return; }
+    if (e.target.closest('button[data-surprise]')) { ui.prog.hidden = true; await player.setQueue(null); await player.load(surprise(), { play: true }); return; }
+    const unkeep = e.target.closest('button[data-unkeep]');
+    if (unkeep) { const list = kept(); list.splice(+unkeep.dataset.unkeep, 1); saveKept(list); renderKept(); return; }
+    const moment = e.target.closest('button[data-kept]');
+    if (moment) {
+      const k = kept()[+moment.dataset.kept];
+      if (!k || !P.some((x) => x.id === k.id)) return;
+      ui.prog.hidden = true;
+      if (player.queue && !player.queue.ids.includes(k.id)) await player.setQueue(null);
+      await player.load(k.id, { play: true, t: k.t });
+      return;
+    }
     const b = e.target.closest('button[data-id]'); if (!b) return;
     ui.prog.hidden = true;
     if (player.queue && !player.queue.ids.includes(b.dataset.id)) await player.setQueue(null);
@@ -737,9 +752,10 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
   });
   on($('.begin'), 'click', () => begin());
   on(ui.curtain, 'click', (e) => { if (e.target === ui.curtain) begin(); });
-  // #<id>, #<id>&t=<seconds> (a moment) and #programme-<id> (an evening) are shareable.
+  // #<id>, #<id>&t=<seconds> (a moment), #programme-<id> (an evening) and #surprise are shareable.
   const parseHash = () => {
     let raw = ''; try { raw = decodeURIComponent(location.hash.slice(1)); } catch {}
+    if (raw === 'surprise') return { surprise: true };
     if (raw.startsWith('programme-')) return { programme: raw.slice(10) };
     const [id, ...rest] = raw.split('&');
     const t = Number(new URLSearchParams(rest.join('&')).get('t'));
@@ -747,6 +763,7 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
   };
   on(window, 'hashchange', async () => {
     const h = parseHash();
+    if (h.surprise) { await player.setQueue(null); await player.load(surprise(), { play: true }); return; }
     if (h.programme) { await player.setQueue(h.programme, { play: true }); return; }
     if (h.id && (h.id !== track?.id || h.t)) player.load(h.id, { play: true, t: h.t });
   });
@@ -759,6 +776,24 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
     const url = `${location.origin}${location.pathname}#${encodeURIComponent(track.id)}&t=${Math.floor(player.time)}`;
     try { await navigator.clipboard.writeText(url); e.target.textContent = 'Link copied'; } catch { e.target.textContent = url; }
     setTimeout(() => { if (alive) e.target.textContent = 'Link to this moment'; }, 2500);
+  });
+  // Kept moments: a private listening notebook in this browser, newest first, listed in the programme.
+  const KEPT = 'cp-kept';
+  const kept = () => { try { return JSON.parse(localStorage.getItem(KEPT) ?? '[]'); } catch { return []; } };
+  const saveKept = (list) => { try { localStorage.setItem(KEPT, JSON.stringify(list)); return true; } catch { return false; } };
+  const keptBox = $('.p-kept');
+  function renderKept() {
+    const list = kept();
+    keptBox.hidden = !list.length;
+    $('ol', keptBox).innerHTML = list.map((k, i) => `<li><button data-kept="${i}"><span class="p-c">${escapeHtml(k.composer)}</span><span class="p-w">${escapeHtml(k.title)} · ${escapeHtml(k.work)}</span><span class="p-d">${fmt(k.t)}</span></button><button type="button" class="p-unkeep" data-unkeep="${i}" aria-label="Forget this moment">×</button></li>`).join('');
+  }
+  on($('.cue-keep'), 'click', (e) => {
+    const c = track.cues[cueIdx];
+    const entry = { id: track.id, t: Math.floor(player.time), title: c?.title ?? track.work, composer: track.composer.short ?? track.composer.name, work: track.work };
+    const ok = saveKept([entry, ...kept().filter((k) => !(k.id === entry.id && Math.abs(k.t - entry.t) < 5))].slice(0, 100));
+    e.target.textContent = ok ? 'Kept in the programme' : 'Could not keep it';
+    renderKept();
+    setTimeout(() => { if (alive) e.target.textContent = 'Keep this moment'; }, 2500);
   });
 
   const offs = [
@@ -799,7 +834,15 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
     const nextCue = track.cues[i + 1];
     text(ui.cueNext, nextCue && player.playing ? `next note in ${fmt(nextCue.t - t)}` : '');
     let s = -1; track.sections.forEach((x, k) => { if (x.t <= t + 0.05) s = k; });
-    if (s !== sectionIdx) { sectionIdx = s; $$('span', ui.tlSections).forEach((el, k) => el.classList.toggle('on', k === s)); }
+    if (s !== sectionIdx) {
+      sectionIdx = s;
+      $$('span', ui.tlSections).forEach((el, k) => el.classList.toggle('on', k === s));
+      const sec = track.sections[s];
+      text(ui.nsLabel, sec?.label ?? '—');
+      text(ui.nsNote, sec?.mNote ?? '');
+    }
+    const nextSec = track.sections[s + 1];
+    text(ui.nsNext, nextSec ? `Next, in ${fmt(nextSec.t - t)}: ${nextSec.label}` : '');
     if (visible.view) viewObj?.draw?.(t);
     if (score && visible.wheel) scoreReadouts(t);
   }
@@ -917,11 +960,6 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
     wheelDirty = true;
     let s2 = 0; for (let i = 0; i < wave.length; i++) s2 += wave[i] * wave[i];
     const db = 10 * Math.log10(s2 / wave.length + 1e-12);
-    ui.loud.style.width = `${Math.max(0, Math.min(1, (db + 60) / 50)) * 100}%`;
-    let num = 0, den = 0;
-    for (let k = Math.ceil(60 / binHz); k < Math.min(n, 10000 / binHz); k++) { const m = 10 ** (freq[k] / 20); num += m * k * binHz; den += m; }
-    const cent = den ? num / den : 0;
-    ui.bright.style.width = `${Math.max(0, Math.min(1, Math.log2(Math.max(1, cent) / 250) / 4)) * 100}%`;
     if (score) return;   // pitch readouts come from the written score instead
     raw.fill(0);
     const kLo = Math.ceil(80 / binHz), kHi = Math.min(n - 2, Math.floor(4200 / binHz));
@@ -938,16 +976,11 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
     const silent = db < -58;
     const bLo = Math.ceil(38 / binHz), bHi = Math.floor(260 / binHz);
     let bMax = -200; for (let k = bLo; k <= bHi; k++) if (freq[k] > bMax) bMax = freq[k];
-    let bass = '—', bassPc = -1;
+    let bassPc = -1;
     if (!silent && bMax > -78) for (let k = bLo; k <= bHi; k++) if (freq[k] >= bMax - 14 && freq[k] >= freq[k - 1] && freq[k] >= freq[k + 1]) {
-      const midi = Math.round(69 + 12 * Math.log2((k * binHz) / A4));
-      bassPc = ((midi % 12) + 12) % 12;
-      bass = `${NAMES[bassPc]}<small style="font-size:.6em;opacity:.6">${Math.floor(midi / 12) - 1}</small>`;
+      bassPc = ((Math.round(69 + 12 * Math.log2((k * binHz) / A4)) % 12) + 12) % 12;
       break;
     }
-    html(ui.bass, bass);
-    const order = [...chroma.keys()].sort((a, b) => chroma[b] - chroma[a]);
-    text(ui.top, silent ? '—' : order.filter((p) => chroma[p] > 0.55).slice(0, 4).map((p) => NAMES[p]).join(' · '));
     let best = null, second = 0;
     const norm = Math.hypot(...chroma) || 1;
     for (const T of TEMPLATES) {
@@ -959,8 +992,8 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
     }
     const name = !silent && best && best.sc > 0.72 && best.sc - second > 0.012 ? `${NAMES[best.root]}${best.suf}` : '';
     if (name === chordHold.name) chordHold.n++; else chordHold = { name, n: 1 };
-    if (track.monophonic) { ui.chord.textContent = '—'; chordTones = []; return; }
-    if (chordHold.n >= 3 && name !== shownChord) { shownChord = name; chordTones = name ? best.tones : []; ui.chord.textContent = name || '—'; }
+    if (track.monophonic) { chordTones = []; return; }
+    if (chordHold.n >= 3 && name !== shownChord) { shownChord = name; chordTones = name ? best.tones : []; }
   }
 
   let wg = null, wSize = 0;
@@ -1036,10 +1069,12 @@ ${mine.out?.length ? `<p class="ih-k">What others took from ${escapeHtml(c.short
     .catch(() => {});
   setupSpectro(); setupKeys(); setupWheel();
   const want = parseHash();
-  if (want.programme && (await player.getProgrammes()).some((p) => p.id === want.programme)) await player.setQueue(want.programme);
+  if (want.surprise) { await player.setQueue(null); await player.load(surprise()); }
+  else if (want.programme && (await player.getProgrammes()).some((p) => p.id === want.programme)) await player.setQueue(want.programme);
   else if (want.id && P.some((x) => x.id === want.id) && (want.id !== player.track?.id || want.t)) await player.load(want.id, { t: want.t });
   else if (!player.track) await player.load(0);
   queueState();
+  renderKept();
   await show(player.track);
   playState();
   // One invitation on the first Hall visit, never on subsequent visits or after a tour.

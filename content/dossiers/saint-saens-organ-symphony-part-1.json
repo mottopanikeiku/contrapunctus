@@ -1,0 +1,185 @@
+{
+  "id": "saint-saens-organ-symphony-part-1",
+  "work": {
+    "title": "Symphony No. 3 in C minor, Op. 78 “Organ”",
+    "catalogue": "Op. 78",
+    "movement": "Part I",
+    "version": {
+      "value": "First half of the symphony’s two large movements, as divided on the transferred 78 rpm set",
+      "status": "documented",
+      "sourceIds": [
+        "ia"
+      ],
+      "note": "The transferor describes the contents of sides 1–4. The labels do not give the tempo changes within each part."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Philharmonic-Symphony Orchestra of New York",
+        "role": "orchestra"
+      },
+      {
+        "name": "Charles Munch",
+        "role": "conductor"
+      },
+      {
+        "name": "Édouard Nies-Berger",
+        "role": "organ"
+      },
+      {
+        "name": "Walter Hendl",
+        "role": "piano, four hands (listed in James North’s discography; uncredited on the labels)"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "ia",
+      "mw"
+    ],
+    "note": "The transferor says Nies-Berger is credited on all labels but plays only on sides 3, 4, 7 and 8, and that the piano players are uncredited; MusicWeb’s review of the Pristine reissue names Walter Hendl and Arthur Schuller as pianists."
+  },
+  "session": {
+    "date": {
+      "value": "1947-11-10",
+      "status": "documented",
+      "sourceIds": [
+        "ia"
+      ],
+      "note": "Recorded on Monday 10 November 1947 per the transferor’s description; MusicWeb gives only “November 1947”.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Carnegie Hall, New York City",
+      "status": "documented",
+      "sourceIds": [
+        "ia",
+        "mw"
+      ],
+      "note": ""
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks",
+      "status": "documented",
+      "sourceIds": [
+        "ia"
+      ],
+      "note": "Issued in the United States in June 1948; also issued in France, Italy, the Netherlands and Britain."
+    },
+    "catalogue": {
+      "value": "MM-747 (12841-D to 12844-D); LP reissue ML-4120",
+      "status": "documented",
+      "sourceIds": [
+        "ia"
+      ],
+      "note": "Catalogue numbers as given by the transferor; no label has been inspected."
+    },
+    "matrixTakeSides": {
+      "value": "1–4; matrices XCO 39319 to XCO 39326",
+      "status": "documented",
+      "sourceIds": [
+        "ia"
+      ],
+      "note": "The transferor prints the last matrix as XCO 38326, evidently a typing slip. Takes are not identified."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "ia"
+      ],
+      "note": "The Internet Archive item was uploaded on 31 March 2022 by a private collector; no transfer engineer is named."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "ia"
+      ],
+      "note": "The Archive’s upload date is not a transfer date."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "ia"
+      ],
+      "note": "The Archive supplies FLAC and a VBR MP3 derivative; equalisation and speed correction are not described."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/mm-747-saint-saens-sym-3-i/MM747%20Saint-Saens%20Sym%203%20(i).mp3",
+    "sourceChain": [
+      "ia"
+    ],
+    "format": "VBR MP3 derivative of a 78 rpm transfer; the four sides of this half are joined in one file",
+    "durationSeconds": 1013.79
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain: Saint-Saëns died on 16 December 1921",
+      "status": "documented",
+      "sourceIds": [
+        "societe"
+      ],
+      "note": "More than seventy years after the composer’s death."
+    },
+    "recording": {
+      "value": "Territorial EU phonogram public-domain basis: commercial publication in 1948, before 1963",
+      "status": "inferred",
+      "sourceIds": [
+        "ia",
+        "pristine",
+        "mw"
+      ],
+      "note": "The programme’s eu-published-before-1963 rule applies: the transferor documents the June 1948 issue as Columbia MM-747, Pristine and MusicWeb confirm the November 1947 session as Munch’s first American recording, and Columbia’s printed record catalog for 1949 lists the eight-side set MM-747 (Munch, Nies-Berger). The 1948 catalog does not list it, which fits a mid-1948 issue. This is not US or worldwide clearance and not a Creative Commons licence."
+    },
+    "creditLine": "Camille Saint-Saëns, Symphony No. 3, Op. 78, Part I; Philharmonic-Symphony Orchestra of New York, Charles Munch, Édouard Nies-Berger (organ). Columbia Masterworks MM-747 (1948), Internet Archive transfer. Territorial EU phonogram basis only.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "ia",
+      "title": "Internet Archive — Saint-Saens Symphony No. 3 (Munch, 1947), Columbia MM-747",
+      "url": "https://archive.org/details/mm-747-saint-saens-sym-3-i",
+      "locator": "Description: session date and place, issue in June 1948, set and matrix numbers, side contents, anchors at 8:47 and 6:55, organ on sides 3, 4, 7, 8, first American recording; file inventory.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "pristine",
+      "title": "Pristine Classical — Munch: The Complete New York Philharmonic Recordings (PASC448)",
+      "url": "https://www.pristineclassical.com/products/pasc448",
+      "locator": "Munch’s first American recording; first recording of the work since Coppola’s 1930 set.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "mw",
+      "title": "MusicWeb International — review of Pristine PASC448",
+      "url": "http://musicweb-international.com/classrev/2016/Apr/Munch_NewYork_PASC448.htm",
+      "locator": "Session, November 1947, Carnegie Hall; organist Édouard Nies-Berger; pianists Walter Hendl and Arthur Schuller.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "catalog",
+      "title": "Columbia Records Inc. — Columbia Record Catalog (1949)",
+      "url": "https://archive.org/details/columbiarecordca00unse_0",
+      "locator": "Entry: Symphony No. 3 in C minor, Op. 78, Charles Muench conducting the Philharmonic-Symphony Orchestra of New York, E. Nies-Berger (organ), 8 sides, set MM-747. The Columbia Record Catalog (1948) at https://archive.org/details/columbiarecordca00unse has no such entry.",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "societe",
+      "title": "Société Camille Saint-Saëns — Chronologie 1919–1921",
+      "url": "https://camille-saint-saens.org/1919-1921/",
+      "locator": "16 December 1921: death at Algiers.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

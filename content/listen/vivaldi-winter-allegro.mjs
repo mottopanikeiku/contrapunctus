@@ -58,6 +58,15 @@ export default {
       "evidence": "Winter sonnet, 1725, letter C; translation ours. Mutopia score, I, bars 20–26; the stamping inscription begins halfway through bar 22: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
     },
     {
+      "t": 110,
+      "kind": "life",
+      "title": "Faster than a copyist",
+      "text": "In Venice in 1739 Charles de Brosses writes home: “Vivaldi has become one of my intimate friends, to sell me concertos very dear.” The old man, he adds, has a prodigious fury for composing, and boasts that he can write a concerto, with all its parts, faster than a copyist can copy one.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Charles de Brosses, letter XVIII to M. de Blancey, 29 August (1739), <i>Lettres familières écrites d’Italie</i> (ed. Hippolyte Babou, Poulet-Malassis et de Broise, 1858, vol. 1, pp. 141–148): “Vivaldi s’est fait de mes amis intimes, pour me vendre des concertos bien chers”, “une furie de composition prodigieuse”, and “plus promptement qu’un copiste ne le pourroit copier”; translation ours. https://fr.wikisource.org/wiki/Lettres_famili%C3%A8res_%C3%A9crites_d%E2%80%99Italie_T.1/%C3%80_M._DE_BLANCEY._%E2%80%94_Suite_du_s%C3%A9jour_%C3%A0_Venise"
+    },
+    {
       "bar": { "n": "47", "occ": 1 },
       "kind": "music",
       "title": "Teeth in the bow",

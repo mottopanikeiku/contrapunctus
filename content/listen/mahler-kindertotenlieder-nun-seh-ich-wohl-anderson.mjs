@@ -66,6 +66,15 @@ export default {
       "evidence": "Rückert, Nun seh’ ich wohl, German text at https://en.wikipedia.org/wiki/Kindertotenlieder#Text; our translation. The sonnet form is discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"
     },
     {
+      "t": 80,
+      "kind": "life",
+      "title": "A publisher at the hotel door",
+      "text": "Leipzig, 28 November 1904. Mahler has come to conduct his Third Symphony when the owner of C. F. Kahnt calls on him. He writes to Alma at once of a publisher “eager to acquire my new Lieder and Ballads”. Kahnt prints the cycle the following year.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Mahler to Alma, written immediately after the Kahnt visit of 28 November 1904, in Letters to His Wife, trans. Anthony Beaumont (Faber, 2004), p. 192, quoted in the Mahler catalogue chronology (which also dates Kahnt’s first editions to August 1905): https://www.mahlercat.org.uk/Pages/KtL/KtL.htm"
+    },
+    {
       "t": 116,
       "kind": "form",
       "title": "A wish to stay",

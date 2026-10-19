@@ -17,7 +17,7 @@ export default {
 
   preludeTitle: 'Before you begin',
   prelude: `
-<p class="dropcap">Start with the music. The Concert Hall plays real recordings, from plainchant to Shostakovich’s Fifth Symphony, in the order the composers were born. Short notes appear as the music reaches them, and where we have the score, the page moves with the sound. If you would rather not choose, pick one of the evenings above and let it play.</p>
+<p class="dropcap">Start with the music. The Concert Hall plays real recordings, from plainchant to Shostakovich’s Fifth Symphony, in the order the composers were born. Short notes appear as the music reaches them, and where we have the score, the page moves with the sound. If you would rather not choose, pick one of the evenings below and let it play.</p>
 <p>Then read. Each composer has a chapter: the life, told in their own words where we have them; what the music is made of; the works to start with; short examples you can play; and the paintings and poems that kept it company. Every piece in the Hall has a page of its own, with all its recordings and all its notes.</p>
 <aside class="note"><b>Where the music stops</b>Most recordings made since the 1960s are still under copyright, so the Hall cannot play Messiaen, Ligeti or Reich. Their chapters point to the labels’ and artists’ own recordings instead.</aside>
 <p>The chapters overlap, because music does. In 1909 [[rachmaninoff|Rachmaninoff]] wrote his Third Piano Concerto for his first American tour, and [[schoenberg|Schoenberg]] wrote his Three Piano Pieces, Op. 11, with no home key at all. The Web of Influence and the Map follow what passed between composers: a copied score, a borrowed tune, two of them in the same city in the same year.</p>

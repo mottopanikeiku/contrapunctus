@@ -46,6 +46,12 @@ export default {
       "evidence": "Demets edition, pp. 10–11: four-sharp signature, rolled chord and f/pp calls. The E♭–D♯ reinterpretation is described at https://enc.piano.or.jp/en/musics/329."
     },
     {
+      "t": 84, "kind": "life", "title": "Ravel on his birds",
+      "text": "Ravel dictates that <i>Oiseaux tristes</i>, the first of the five pieces in date and in his view the most typical, strikes him as “birds lost in the torpor of a very dark forest in the hottest hours of summer”.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Ravel’s notes dictated to Roland-Manuel, 10 October 1928 (BnF, Gallica btv1b10073212x, sheets 6–7): “Le premier en date de ces morceaux et le plus typique de tous est à mon sens le second du recueil: les Oiseaux tristes”, and on the next sheet “des oiseaux perdus dans la torpeur d’une forêt très sombre aux heures les plus chaudes de l’été”. Our translation. Roger Nichols quotes the same image: https://www.hyperion-records.co.uk/dw.asp?dc=W5434_67731"
+    },
+    {
       "t": 142, "kind": "form", "title": "Flight without bar lines",
       "text": "Ravel removes the bar lines for a quiet cadenza. Slurred runs climb and turn over a slower line below. <i>Lent, presque ad lib.</i> gives the pianist room to linger; even the fastest notes stay at <i>ppp</i>.",
       "basis": "score-proportion", "precision": "passage",

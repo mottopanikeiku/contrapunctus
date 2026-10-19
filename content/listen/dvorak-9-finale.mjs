@@ -67,6 +67,24 @@ export default {
       "evidence": "The Dvořák work catalogue identifies the combination of themes from movements II, III and IV in the finale’s development: https://www.antonin-dvorak.cz/en/work/symphony-no-9/. Šourek full score, printed pp. 157–170."
     },
     {
+      "t": 300,
+      "kind": "form",
+      "title": "Memory saved for later",
+      "text": "Beethoven’s Ninth recalls the earlier movements at the start of its finale and then drops them. Dvořák waits for the development to bring them back, and keeps adding to them until the coda has gathered every key idea of the symphony.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Dvořák work catalogue, Symphony No. 9, analysis of the fourth movement and the principle of reminiscence: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+    },
+    {
+      "t": 340,
+      "kind": "world",
+      "title": "“If the composers are Dr. Dvořák”",
+      "text": "At the public rehearsal on 15 December 1893 the <i>Herald</i> asks musicians what the symphony means for America. Seidl hopes it will lead younger composers towards “a truly national school”. Victor Herbert, asked whether it will shape the country’s music, answers: “Yes, if the composers are Dr. Dvořák.”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "New York Herald report of the full rehearsal, quoted in the première section of the Dvořák work catalogue: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+    },
+    {
       "t": 378,
       "kind": "form",
       "title": "The main tune comes back",
@@ -74,6 +92,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "The abbreviated recapitulation and expanded coda are described in the Dvořák work catalogue: https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
+    },
+    {
+      "t": 430,
+      "kind": "world",
+      "title": "London, Karlovy Vary, Prague",
+      "text": "London hears the symphony first in Europe, on 21 June 1894. Czech audiences first hear it at Karlovy Vary on 20 July. In Prague, on 13 October, Dvořák conducts it himself at the National Theatre.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Performance history in the Dvořák work catalogue, Symphony No. 9: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
     },
     {
       "t": 482,
@@ -92,6 +119,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, coda, printed pp. 190–197; the Largo-chord reminiscence is identified in the Dvořák work catalogue."
+    },
+    {
+      "t": 575,
+      "kind": "world",
+      "title": "“A triumph such as this”",
+      "text": "After the première Dvořák writes to his publisher Simrock in Berlin that “the papers are saying that no composer has ever achieved a triumph such as this”. The applause was so long, he adds, that he had to bow from his box “like a king (don’t laugh!)”.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Dvořák to Fritz Simrock, December 1893, quoted in the première section of the Dvořák work catalogue: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
     },
     {
       "t": 610,

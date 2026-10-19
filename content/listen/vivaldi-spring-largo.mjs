@@ -56,6 +56,15 @@ export default {
       "evidence": "Mutopia score, II, bars 18–23; the solo rests in bar 19 and restates its opening in bar 20. José Rodríguez Alvira identifies the third phrase as a variation of the first: https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/02.php."
     },
     {
+      "t": 112,
+      "kind": "world",
+      "title": "The girls’ concerts of Venice",
+      "text": "In 1739 the French traveller Charles de Brosses writes home about Venice’s four girls’ hospitals: concerts of some forty young women, one conducting in a white habit with a bunch of pomegranates at her ear. His favourite is the Pietà, where Vivaldi became violin master in 1703.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Charles de Brosses, letter XVIII to M. de Blancey, 29 August (1739), <i>Lettres familières écrites d’Italie</i> (ed. Hippolyte Babou, Poulet-Malassis et de Broise, 1858, vol. 1, pp. 141–148): concerts of about forty girls, the young woman in white conducting with pomegranates by her ear, and the Pietà as his favourite and the first for its symphonies; translation ours. https://fr.wikisource.org/wiki/Lettres_famili%C3%A8res_%C3%A9crites_d%E2%80%99Italie_T.1/%C3%80_M._DE_BLANCEY._%E2%80%94_Suite_du_s%C3%A9jour_%C3%A0_Venise Vivaldi became violin master at the Pietà in September 1703: Michael Talbot, Dizionario Biografico degli Italiani. https://www.treccani.it/enciclopedia/antonio-vivaldi_%28Dizionario-Biografico%29/"
+    },
+    {
       "bar": { "n": "34", "occ": 1 },
       "kind": "form",
       "title": "The goatherd sleeps on",

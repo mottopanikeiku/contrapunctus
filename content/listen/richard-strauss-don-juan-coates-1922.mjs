@@ -48,6 +48,12 @@ export default {
       "evidence": "Larner discusses and quotes the three Lenau extracts printed with the score. The Richard Strauss Edition introduction confirms Strauss’s explicit allegiance to Lenau. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20",
     },
     {
+      "t": 62, "kind": "life", "title": "Themes in a Padua cloister",
+      "text": "Strauss later remembers that the first themes came to him in Padua, in the cloister of Sant’Antonio, on a holiday in May 1888. His sketches show he had begun months earlier. On his twenty-fourth birthday, 11 June, he tells his uncle he has “drafted a single-movement Don Juan”.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Walter Werbeck’s introduction to the Richard Strauss Edition (p. XII) gives Strauss’s later recollection of Padua, the Italian holiday of 16 May to 10 June 1888, the sketches pointing to a start in about January 1888, and the letter to his uncle Carl Hörburger of 11 June 1888. https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/321495/dl/don_juan_einleitung_introduction.pdf",
+    },
+    {
       "t": 94, "kind": "music", "title": "One violin begins to plead",
       "text": "The first love scene brings a solo violin forward. Its line pleads and lingers before the melody opens out through the orchestra. Don Juan’s upward-rushing theme will soon interrupt the singing.",
       "basis": "score-proportion", "precision": "passage",
@@ -60,10 +66,22 @@ export default {
       "evidence": "Strauss to his father, 8 November 1889, Briefe an die Eltern 1882–1906, edited by Willi Schuh (1954), pp. 119–120. English translation and première date in the Richard Strauss Edition introduction, pp. XIV–XV. https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/321495/dl/don_juan_einleitung_introduction.pdf",
     },
     {
+      "t": 175, "kind": "life", "title": "Bülow’s verdict",
+      "text": "In 1888 Hans von Bülow, Strauss’s mentor, rejects <i>Macbeth</i>, and Strauss writes that <i>Don Juan</i> may soon join it in his desk. Bülow hears <i>Don Juan</i> with an orchestra at a Berlin rehearsal in January 1890 and sends Strauss a card praising the “magnificent” work.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Richard Strauss Edition introduction, pp. XIII–XIV: Strauss’s letter of 24 August 1888 (“Don Juan will perhaps soon come to keep it company”), the Berlin rehearsal of 13 January 1890 and Bülow’s card, quoted in footnote 17. https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/321495/dl/don_juan_einleitung_introduction.pdf",
+    },
+    {
       "t": 210, "kind": "world", "title": "Four sides, two records",
       "text": "Coates’s performance reaches its first owners on two twelve-inch Victor records, numbered 55176 and 55177. The music takes four sides. A listener at home has to lift the needle, turn a disc and eventually fetch the other record.",
       "basis": "documented", "precision": "passage",
       "evidence": "The Animating Apothecary transfer identifies the two twelve-inch, 78 rpm Victor discs and joins their four sides. https://archive.org/details/1922-don-juan-richard-strauss-albert-coates-and-victor-symphony-vic-55176-77-4-sides",
+    },
+    {
+      "t": 260, "kind": "life", "title": "Finished on 30 September 1888",
+      "text": "Strauss writes on the last page of his score: “begun in the middle of June, completed 30 September 1888”. It is his second tone poem, and he is twenty-four. Neither it nor <i>Macbeth</i> has been performed, and the first night is more than a year away.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Richard Strauss Edition introduction, p. XIII: the inscription on the last page of the score copy, the completion on 30 September 1888 and the state of his unperformed tone poems. https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/321495/dl/don_juan_einleitung_introduction.pdf",
     },
     {
       "t": 326, "kind": "music", "title": "The oboe’s long confession",
@@ -72,10 +90,28 @@ export default {
       "evidence": "Larner describes the lower-string serenade, flute answers and oboe melody. Strauss’s letter of 8 November 1889 singles out the muted accompaniment in bars 232–307; Richard Strauss Edition introduction, p. XV.",
     },
     {
+      "t": 395, "kind": "world", "title": "A tone poem for Thuille",
+      "text": "Strauss dedicates <i>Don Juan</i> to Ludwig Thuille, who receives the score in July 1889. His first four tone poems go to the Munich circle around Alexander Ritter: <i>Macbeth</i> to Ritter, <i>Don Juan</i> to Thuille, <i>Death and Transfiguration</i> to Friedrich Rösch, <i>Till Eulenspiegel</i> to Arthur Seidl.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Richard Strauss Edition introduction, pp. XI and XIV: the four dedications to members of Ritter’s circle and Thuille’s receipt of the score in July 1889. https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/321495/dl/don_juan_einleitung_introduction.pdf",
+    },
+    {
+      "t": 445, "kind": "world", "title": "A storm of applause in Weimar",
+      "text": "On 11 November 1889, two months after taking up his post at Weimar, Strauss conducts the première. He tells his father it “sounded enchanting” and won a storm of applause almost unheard of in Weimar. The <i>Musikalisches Wochenblatt</i> counts three curtain calls.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Richard Strauss Edition introduction, pp. XIV–XV: Strauss’s start at Weimar on 9 September 1889, the première on 11 November 1889, his report to his father and the Musikalisches Wochenblatt review. https://schott-production.s3.eu-central-1.amazonaws.com/public_content/element/321495/dl/don_juan_einleitung_introduction.pdf",
+    },
+    {
       "t": 498, "kind": "form", "title": "Four horns, one call",
       "text": "Strauss gives four horns a broad call in unison. It joins the opening theme in the restless middle of the piece, where quick figures race around the larger melodies. The horn call will return at the last great crest.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Gerald Larner and Herbert Glass describe the unison horn call, its role in the development and its later return. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20; https://www.laphil.com/works/don-juan",
+    },
+    {
+      "t": 545, "kind": "world", "title": "“Color is everything”",
+      "text": "In January 1892 Eduard Hanslick reviews the Vienna Philharmonic’s <i>Don Juan</i> in the <i>Neue Freie Presse</i>. “Colour is everything to them, musical thought nothing,” he writes of the younger composers. Young Wagnerians, he says, recall the piece with a “voluptuous shiver”, but to him it is “a tumult of dazzling blots of colour”.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Eduard Hanslick, Neue Freie Presse, Vienna, 12 January 1892 (Nr. 9835), on the Philharmonic concert of the previous Sunday: “Die Farbe ist ihnen Alles, der musikalische Gedanke nichts”; “Wagner-Jünglinge … ein wollüstiger Schauer über den Rücken”; “ein Tumult von blendenden Farbenklecksen”. Our translations. Hanslick Online, Austrian Academy of Sciences: https://hanslick.acdh.oeaw.ac.at/c__1892.01.12.html",
     },
     {
       "t": 604, "kind": "music", "title": "A harp, a hangover",
@@ -88,6 +124,12 @@ export default {
       "text": "The main theme returns in E major, with the violins climbing again. The horn call joins the final drive. Strauss keeps pressing beyond the point where this music might have made a triumphant ending.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Larner identifies the E-major recapitulation, the horn call’s return and the continued drive towards the sudden break. https://geraldlarner.com/work/strauss-richard-don-juan-tone-poem-op-20",
+    },
+    {
+      "t": 725, "kind": "world", "title": "A London orchestra, an American label",
+      "text": "The orchestra is the Gramophone Company’s own Symphony Orchestra, not an American ensemble. Albert Coates conducts it in Room 1 of the company’s studio at Hayes, Middlesex, where the first part is made on 28 April 1922; take three is kept. Victor issues the set in America as 55176–77.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "DAHR matrix Cc1260 (Don Juan, Part 1): Symphony Orchestra [Gramophone Co.], Albert Coates, 28 April 1922, Hayes, Middlesex, Room 1, takes 1–3 with take 3 as master, issued on Gramophone D-670 and Victor 55176: https://adp.library.ucsb.edu/index.php/matrix/detail/2000007287/Cc1260-Don_Juan. The Victor 55176–77 set: https://archive.org/details/1922-don-juan-richard-strauss-albert-coates-and-victor-symphony-vic-55176-77-4-sides",
     },
     {
       "t": 808, "kind": "form", "title": "A trumpet and the dark",

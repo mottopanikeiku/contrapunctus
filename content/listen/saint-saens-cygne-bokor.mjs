@@ -1,9 +1,8 @@
 export default {
   id: 'saint-saens-cygne-bokor',
-  composer: null,
-  guest: { name: 'Camille Saint-Saëns', born: 1835, died: 1921 },
+  composer: 'saint-saens',
   concert: false,
-  order: 1,
+  order: 5,
   work: 'Le Carnaval des animaux',
   movement: 'XIII. Le Cygne — cello and piano',
   year: '1886',

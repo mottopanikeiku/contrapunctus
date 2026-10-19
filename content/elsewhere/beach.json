@@ -1,0 +1,31 @@
+{
+  "composer": "beach",
+  "items": [
+    {
+      "work": "Piano Quintet in F♯ minor, Op. 67",
+      "year": "1907",
+      "performers": "Garrick Ohlsson, piano; Takács Quartet",
+      "recorded": "May 2019",
+      "label": "Hyperion",
+      "note": "The Quintet is coupled with Elgar’s on this disc. Nigel Simeone’s notes follow the theme Beach took from the finale of Brahms’s quintet through all three movements, to the two F♯ major chords at the end.",
+      "links": [
+        { "kind": "label", "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W21677_68295", "title": "Hyperion CDA68295: Beach Piano Quintet, with Elgar" }
+      ]
+    },
+    {
+      "work": "“Gaelic” Symphony in E minor, Op. 32",
+      "year": "1894–96",
+      "performers": "Detroit Symphony Orchestra; Neeme Järvi",
+      "recorded": "19–20 January 1991",
+      "label": "Chandos",
+      "note": "Recorded in Orchestra Hall, Detroit, with Barber’s First Symphony. The four movements run 11:06, 7:45, 12:41 and 9:20.",
+      "links": [
+        { "kind": "label", "url": "https://www.chandos.net/products/catalogue/CHAN%208958", "title": "Chandos CHAN 8958: Barber and Beach symphonies" }
+      ]
+    }
+  ],
+  "sources": [
+    { "title": "Hyperion Records: Piano Quintet in F sharp minor, Op 67 — performers, recording details and notes by Nigel Simeone", "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W21677_68295" },
+    { "title": "Chandos Records: CHAN 8958 — Detroit Symphony Orchestra, Neeme Järvi, venue, date and movement timings", "url": "https://www.chandos.net/products/catalogue/CHAN%208958" }
+  ]
+}

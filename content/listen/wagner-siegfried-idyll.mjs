@@ -77,6 +77,15 @@ export default {
       "evidence": "Schott full score, middle span, including p. 24: horn, clarinet and independent string lines. Gerald Larner describes the combination and inversion of the opening theme and lullaby. This note concerns the recurring counterpoint, not a single entrance."
     },
     {
+      "t": 470,
+      "kind": "world",
+      "title": "Fidi’s birdsong and a sunrise",
+      "text": "The original title is <i>Tribschener Idyll mit Fidi-Vogelgesang und Orange-Sonnenaufgang</i>: Tribschen Idyll with Fidi’s Birdsong and Orange Sunrise. Fidi is the family’s nickname for their son Siegfried, born in June 1869. The name <i>Siegfried Idyll</i> points at once to the son and to the opera.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Rainer Fineske, for the International Association of Wagner Societies, on the work’s 150th anniversary: the original title, Fidi as Siegfried, and the link with the opera; Siegfried’s birth on 6 June 1869 in the Richard Wagner Museum’s account of the Tribschen years. https://www.richard-wagner.org/rwvi/en/news/news-committee/?collection_id=3075 https://www.richard-wagner-museum.ch/en/museum/years-in-lucerne/"
+    },
+    {
       "t": 570,
       "kind": "music",
       "title": "A horn and a bird",
@@ -93,6 +102,15 @@ export default {
       "basis": "documented",
       "precision": "passage",
       "evidence": "Gerald Larner on the sale under financial pressure: https://geraldlarner.com/work/wagner-siegfried-idyll. Schott’s first full-score edition is dated 1878 in the Sibley catalogue: https://hdl.handle.net/1802/20380."
+    },
+    {
+      "t": 790,
+      "kind": "life",
+      "title": "Witness, then trumpeter",
+      "text": "On 25 August 1870, four months before the staircase, Wagner and Cosima marry; Hans Richter is one of the two witnesses. Richter, who copies Wagner’s scores, learns the trumpet specially for the birthday performance. Its part lasts thirteen bars.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Richard Wagner Museum, Lucerne: the wedding of 25 August 1870 and its witnesses, Malwida von Meysenbug and Hans Richter. Richter as Wagner’s copyist and the trumpeter of the first performance: Mahler Foundation biography. He learned the trumpet for the occasion: Concise Oxford Dictionary of Music. A trumpet part of only 13 bars: Rainer Fineske, International Association of Wagner Societies. https://www.richard-wagner-museum.ch/en/museum/years-in-lucerne/ https://www.mahlerfoundation.org/mahler/contemporaries/hans-richter https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/siegfried-idyll https://www.richard-wagner.org/rwvi/en/news/news-committee/?collection_id=3075"
     },
     {
       "t": 912,

@@ -1707,13 +1707,6 @@
    "kind": "composer"
   },
   {
-   "id": "grieg",
-   "name": "Edvard Grieg",
-   "dates": "1843–1907",
-   "year": 1843,
-   "kind": "composer"
-  },
-  {
    "id": "gregorian-chant",
    "name": "Gregorian chant",
    "dates": "Medieval tradition",
@@ -1796,13 +1789,6 @@
    "dates": "1807–1841",
    "year": 1807,
    "kind": "poet"
-  },
-  {
-   "id": "vaughan-williams",
-   "name": "Ralph Vaughan Williams",
-   "dates": "1872–1958",
-   "year": 1872,
-   "kind": "composer"
   },
   {
    "id": "lyadov",

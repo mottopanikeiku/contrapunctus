@@ -1,0 +1,156 @@
+{
+  "id": "vaughan-williams-symphony-4-first",
+  "work": {
+    "title": "Symphony No. 4 in F minor",
+    "catalogue": "",
+    "movement": "I. Allegro",
+    "version": {
+      "value": "Complete first movement of the orchestral symphony",
+      "status": "inferred",
+      "sourceIds": ["archive", "hyperion"],
+      "note": "The Archive item lists the four movements and splits the set into three files without saying which file holds which movement. The first file runs 8 min 2 s and ends in a quiet close that matches Hyperion’s description of the first movement’s pianissimo coda."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "BBC Symphony Orchestra", "role": "orchestra" },
+      { "name": "Ralph Vaughan Williams", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "discogs"],
+    "note": "Both the Archive item and the EMI reissue notes credit the composer as conductor. Individual players are not identified."
+  },
+  "session": {
+    "date": {
+      "value": "1937-10-11",
+      "status": "documented",
+      "sourceIds": ["archive", "discogs"],
+      "note": "The Archive item writes the date as 11-10-1937; the EMI reissue notes give 11th October 1937.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "No. 1 Studio, Abbey Road, London",
+      "status": "documented",
+      "sourceIds": ["discogs", "classical"],
+      "note": "The EMI reissue notes name No. 1 Studio, Abbey Road; BBC Music Magazine places the session in Abbey Road Studio 1."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "HMV (The Gramophone Company)",
+      "status": "documented",
+      "sourceIds": ["archive", "discogs"],
+      "note": "Twelve-inch 78-rpm records."
+    },
+    "catalogue": {
+      "value": "HMV DB 8406–9 or DB 3367–3370",
+      "status": "disputed",
+      "sourceIds": ["archive", "discogs"],
+      "note": "The Archive item catalogues the set as DB 8406–9 (automatic coupling); the EMI reissue notes give DB 3367–3370 as the original 78s. They probably label the same performances in two side sequences, but that is not established here.",
+      "alternatives": [
+        { "value": "DB 8406–9 (automatic coupling)", "sourceIds": ["archive"] },
+        { "value": "DB 3367–3370", "sourceIds": ["discogs"] }
+      ]
+    },
+    "matrixTakeSides": {
+      "value": "Matrices 2EA 5400 (take 2), 5801 (2), 5802 (1A), 5803 (2A), 5804 (1), 5805 (2A), 5806 (1A), 5807 (1A): eight sides",
+      "status": "documented",
+      "sourceIds": ["archive", "discogs"],
+      "note": "The Archive description lists the takes; the EMI notes list the same matrix numbers. Which sides make up the first file is not stated."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive “Satyr 78rpm” collection",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item is filed in that collection; no transfer engineer is named in the description."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The Archive upload date (13 May 2018) is not a transfer date."
+    },
+    "processing": {
+      "value": "FLAC, Ogg Vorbis and variable-bitrate MP3 derivatives, in three segments (a first file, a second, and a third joining the remaining two discs).",
+      "status": "documented",
+      "sourceIds": ["archive", "files"],
+      "note": "Equalisation, speed correction and noise reduction are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/VaughanWilliamsSymfFHMVDB840692/Vaughan%20Williams%20Symf%204%20HMV%20DB8406-9%201.mp3",
+    "sourceChain": ["discogs", "archive", "files"],
+    "format": "VBR MP3 derivative of a 78-rpm transfer",
+    "durationSeconds": 481.8
+  },
+  "rights": {
+    "composition": {
+      "value": "Vaughan Williams’s copyright in the music runs to the end of 2028 in the UK and EU.",
+      "status": "documented",
+      "sourceIds": ["vwf"],
+      "note": "The Vaughan Williams Foundation gives 2028 as the year copyright in his music expires. Composition rights are separate from the recording."
+    },
+    "recording": {
+      "value": "Territorial EU phonogram public-domain basis: commercial issue in 1938, before 1963",
+      "status": "inferred",
+      "sourceIds": ["archive", "discogs", "eu-term"],
+      "note": "The EMI reissue notes date the original HMV 78s “℗ 1938”. The project’s eu-published-before-1963 rule then applies: the former 50-year phonogram term had expired before the 2013 extension. This is not United States or worldwide clearance and not a Creative Commons licence."
+    },
+    "creditLine": "Ralph Vaughan Williams, Symphony No. 4, I. Allegro; BBC Symphony Orchestra, Ralph Vaughan Williams. HMV DB 8406–9 (first issued 1938), Internet Archive transfer. Territorial EU phonogram basis only; Vaughan Williams’s copyright subsists in the UK and EU until the end of 2028.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Vaughan Williams, Symphony no. 4 (HMV DB 8406-9) 1937",
+      "url": "https://archive.org/metadata/VaughanWilliamsSymfFHMVDB840692",
+      "locator": "Description: work and movements, HMV DB 8406-9 (automatic coupling), matrices 2EA 5400–5807, recorded 11-10-1937; collection satyr78rpm; added 2018-05-13.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "files",
+      "title": "Internet Archive — file inventory for the Symphony No. 4 item",
+      "url": "https://archive.org/metadata/VaughanWilliamsSymfFHMVDB840692/files",
+      "locator": "Vaughan Williams Symf 4 HMV DB8406-9 1.mp3 (first file, 8 min 2 s), with FLAC and Ogg Vorbis derivatives; files 2 and 3-4 follow.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "discogs",
+      "title": "Discogs — Symphony No. 4 / Symphony No. 5 (The Première Recordings Of 1937 And 1944), His Master’s Voice EH 7 69168 1",
+      "url": "https://www.discogs.com/release/6684057",
+      "locator": "Notes: Symphony No. 4 recorded in No. 1 Studio, Abbey Road, 11th October 1937; original 78s matrix nos. 2EA 5400, 5801–5807; original 78s catalogue nos. HMV DB 3367–3370; ℗ 1938. Liner notes by Michael Kennedy.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "hyperion",
+      "title": "Hyperion Records — Vaughan Williams: Symphonies Nos 3 & 4, booklet note by Robert Matthew-Walker (CDA68280)",
+      "url": "https://www.hyperion-records.co.uk/notes/68280-B.pdf",
+      "locator": "Description of the Fourth Symphony’s opening, four-note figure, contrapuntal treatment, first-movement coda, première of 10 April 1935 and dedication to Bax.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "classical",
+      "title": "BBC Music Magazine (classical-music.com) — The best recordings of Vaughan Williams Symphony No. 4",
+      "url": "https://www.classical-music.com/features/recordings/best-recordings-vaughan-williams-symphony-no-4",
+      "locator": "Entry for the 1937 BBC Symphony Orchestra recording under the composer: Abbey Road Studio 1, October 1937; Naxos Historical 8.111048.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "vwf",
+      "title": "Vaughan Williams Foundation — History",
+      "url": "https://vaughanwilliamsfoundation.org/the-foundation/history/",
+      "locator": "Copyright in Vaughan Williams’s music expires in 2028; the Foundation holds a copyright share with the original publishers.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — phonogram term and transition",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32011L0077",
+      "locator": "Recitals 1–3 (50-year term) and Article 1(3), new Article 10(5): the 70-year term applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-18" }
+}

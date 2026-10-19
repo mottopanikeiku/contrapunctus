@@ -57,6 +57,15 @@ export default {
       "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, p. 3; Rückert’s opening line, our translation. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
     },
     {
+      "t": 38,
+      "kind": "world",
+      "title": "Rückert’s two children",
+      "text": "Friedrich Rückert’s children Luise and Ernst die on 31 December 1833 and 16 January 1834. In grief he writes more than four hundred poems, none meant for print. Mahler later picks five of them.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Reinhold Kubik, Universal Edition introduction to Kindertotenlieder (autumn 2008), gives the two dates and the 400-odd poems, published after Rückert’s death: https://www.universaledition.com/en/Kindertotenlieder/P0045027. The Mahler Foundation counts 428 poems and says they were not intended for publication: https://mahlerfoundation.org/mahler/compositions/kindertotenlieder/kindertotenlieder-introduction/"
+    },
+    {
       "t": 74,
       "kind": "form",
       "title": "The sun belongs to everyone",
@@ -73,6 +82,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 9–14, third couplet; our translation. Woltjer discusses the horn’s vocal theme and the instrumental continuation: https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler1.html"
+    },
+    {
+      "t": 168,
+      "kind": "world",
+      "title": "One cycle, not five numbers",
+      "text": "A footnote on the first page of the score asks that the five songs be treated as one inseparable whole. Their continuity is to be kept, Mahler adds, even against the applause that would normally follow a “number”.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460 (1905), printed p. 3, footnote: “Diese 5 Gesänge sind als ein einheitliches, untrennbares Ganzes gedacht …”; our translation. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425 The same instruction is printed on the title page of the 1905 vocal score: https://www.mahlercat.org.uk/Pages/KtL/KtLprints.htm"
     },
     {
       "t": 200,

@@ -1,0 +1,153 @@
+{
+  "id": "vaughan-williams-english-folk-song-suite",
+  "work": {
+    "title": "English Folk Song Suite",
+    "catalogue": "",
+    "movement": "",
+    "version": {
+      "value": "Orchestral arrangement by Gordon Jacob of the military-band Folk Song Suite of 1923",
+      "status": "documented",
+      "sourceIds": ["archive", "discogs", "bhso"],
+      "note": "The Archive description says this appears to be the only 78-rpm recording of the Jacob orchestration; the Discogs label credit names Jacob as arranger. The Burgess Hill programme note says Jacob made the transcription in 1924 but that it was not published until 1942, so how Barlow’s 1939 orchestra obtained the score is not established here."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Columbia Broadcasting Symphony", "role": "orchestra" },
+      { "name": "Howard Barlow", "role": "conductor" },
+      { "name": "Mitch Miller", "role": "oboe solo in the Intermezzo" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "discogs"],
+    "note": "The orchestra and conductor are credited by both sources. The oboe soloist is named only in the Archive item’s side list."
+  },
+  "session": {
+    "date": {
+      "value": "1939-12-19",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Given in the Archive description as December 19, 1939.",
+      "precision": "day"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "discogs"],
+      "note": "Neither source names the studio or city."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks (United States); English Columbia (United Kingdom)",
+      "status": "documented",
+      "sourceIds": ["archive", "discogs"],
+      "note": "Two ten-inch 78-rpm records in each issue."
+    },
+    "catalogue": {
+      "value": "Set X-159 (17188-D, 17189-D), March 1940; later MX-159 (17234-D, 17235-D), 1941; English Columbia DB 1930–1931, September 1940",
+      "status": "documented",
+      "sourceIds": ["archive", "discogs"],
+      "note": "The Archive description gives the American numbers and issue dates; Discogs catalogues the English pair DB 1930/1931 as 1940."
+    },
+    "matrixTakeSides": {
+      "value": "Side 1 CO 25602-2 (first movement); side 2 CO 25603-1 and side 3 CO 25604-1 (Intermezzo, parts 1 and 2); side 4 CO 25605-1 (third movement)",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Stated in the Archive item’s description; the labels and stampers were not examined for this dossier."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive “Shellackophile” recordings collection",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item is filed in that collection; no transfer engineer is named in the description."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The Archive upload date (22 March 2022) is not a transfer date."
+    },
+    "processing": {
+      "value": "FLAC original with a variable-bitrate MP3 derivative, joined from four 78-rpm sides into one file.",
+      "status": "documented",
+      "sourceIds": ["archive", "files"],
+      "note": "Equalisation, speed correction and noise reduction are not documented."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/x-159-rvw-english-folksong-suite/X-159%20RVW%20English%20Folksong%20Suite.mp3",
+    "sourceChain": ["discogs", "archive", "files"],
+    "format": "VBR MP3 derivative of a 78-rpm transfer",
+    "durationSeconds": 700.71
+  },
+  "rights": {
+    "composition": {
+      "value": "Vaughan Williams’s copyright in the music runs to the end of 2028 in the UK and EU; Jacob’s arrangement has its own term.",
+      "status": "documented",
+      "sourceIds": ["vwf", "imslp"],
+      "note": "The Vaughan Williams Foundation gives 2028 as the year copyright in his music expires. IMSLP marks the suite as not in the public domain in the EU. Composition and arrangement rights are separate from the recording."
+    },
+    "recording": {
+      "value": "Territorial EU phonogram public-domain basis: commercial issue in 1940, before 1963",
+      "status": "inferred",
+      "sourceIds": ["archive", "discogs", "eu-term"],
+      "note": "The project’s eu-published-before-1963 rule applies to the English Columbia issue of 1940 and the American set of March 1940: the former 50-year phonogram term had expired before the 2013 extension. This is not United States or worldwide clearance and not a Creative Commons licence."
+    },
+    "creditLine": "Ralph Vaughan Williams, English Folk Song Suite (arranged by Gordon Jacob); Columbia Broadcasting Symphony, Howard Barlow. Columbia Masterworks X-159 (1940) and English Columbia DB 1930–1931 (1940), Internet Archive transfer. Territorial EU phonogram basis only; the composition and arrangement remain in copyright.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Vaughan Williams: English Folksong Suite (Howard Barlow, 1939)",
+      "url": "https://archive.org/metadata/x-159-rvw-english-folksong-suite",
+      "locator": "Description: recording date, Columbia Masterworks set X-159, MX-159, English Columbia DB 1930–1931, side and matrix list, oboe solo by Mitch Miller; collection shellackophile-recordings; added 2022-03-22.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "files",
+      "title": "Internet Archive — file inventory for the English Folk Song Suite item",
+      "url": "https://archive.org/metadata/x-159-rvw-english-folksong-suite/files",
+      "locator": "X-159 RVW English Folksong Suite.mp3, VBR MP3, length 700.71 seconds; FLAC original.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "discogs",
+      "title": "Discogs — Columbia Broadcasting Symphony Orchestra, Howard Barlow, English Folk Songs Suite (Columbia DB 1930, DB 1931)",
+      "url": "https://www.discogs.com/release/13526665-Columbia-Broadcasting-Symphony-Orchestra-Howard-Barlow-English-Folk-Songs-Suite",
+      "locator": "UK, two shellac 10-inch 78s, 1940; credits: Vaughan Williams composer, Jacob arranger, Barlow conductor; four parts.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "bhso",
+      "title": "Burgess Hill Symphony Orchestra — Vaughan Williams: English Folk Song Suite (programme note by Barry Fogden)",
+      "url": "https://www.bhso.org.uk/work/vaughan-williams-english-folk-song-suite-4/",
+      "locator": "Written for Kneller Hall in 1923; transcription by Gordon Jacob the following year, not published until 1942; the three movements and their tunes.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — English Folk Song Suite (Vaughan Williams)",
+      "url": "https://imslp.org/wiki/English_Folk_Song_Suite_(Vaughan_Williams,_Ralph)",
+      "locator": "Copyright tags (public domain in Canada and the United States, not in the EU); Boosey & Co. first edition of 1924; scores of the military-band version.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "vwf",
+      "title": "Vaughan Williams Foundation — History",
+      "url": "https://vaughanwilliamsfoundation.org/the-foundation/history/",
+      "locator": "Copyright in Vaughan Williams’s music expires in 2028; the Foundation holds a copyright share with the original publishers.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "eu-term",
+      "title": "Directive 2011/77/EU — phonogram term and transition",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32011L0077",
+      "locator": "Recitals 1–3 (50-year term) and Article 1(3), new Article 10(5): the 70-year term applies to phonograms still protected on 1 November 2013.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-18" }
+}

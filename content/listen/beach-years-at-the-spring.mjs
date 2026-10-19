@@ -1,0 +1,58 @@
+export default {
+  id: 'beach-years-at-the-spring',
+  composer: 'beach',
+  order: 1,
+  work: 'The Year’s at the Spring',
+  movement: '',
+  year: '1900',
+  key: '',
+  forces: 'Voice and piano',
+  performers: 'Johanna Gadski, soprano; Frank La Forge, piano',
+  recorded: '14 January 1908',
+  source: {
+    archive: {
+      item: 'loc-jukebox-125920-how-much-i-love-you',
+      file: 'jukebox-125920_how-much-i-love-you.mp3',
+    },
+    rights: {
+      basis: 'us-published-before-cutoff',
+      published: 1909,
+      evidence: 'Victor 87026 is listed on the Gadski page of the New Victor Record Catalogue of July 1909 as “How Much I Love You” (La Forge), at $2.00 with piano accompaniment by Frank La Forge. The label scan in the Library of Congress National Jukebox item shows both songs on the side, “(a) How Much I Love You (La Forge) (b) The Year’s at the Spring (Beach)”, with the handwritten matrix “B 5018-2, 14 Jan 1908”; the National Jukebox dates the item 14 January 1908, and the Discography of American Historical Recordings dates matrix B-5018, take 2, to the same day. https://archive.org/details/newvictorrecordc00vict https://archive.org/download/loc-jukebox-125920-how-much-i-love-you/jukebox-125920_label.jpg https://www.loc.gov/item/jukebox-125920/ https://adp.library.ucsb.edu/index.php/matrix/refer/200006832',
+    },
+  },
+  intro: 'One Victor side holds two songs, and Beach’s Browning setting is the second. Johanna Gadski sings it after a song by her accompanist Frank La Forge, on a disc cut in January 1908.',
+  sections: [
+    { t: 0, label: 'A · La Forge’s How Much I Love You', m: 'A' },
+    { t: 52, label: 'B · Beach’s setting begins', m: 'B' },
+    { t: 67, label: 'B′ · The opening lines return and climb', m: 'B′', mNote: 'The opening lines return at tempo, then rise to the climax' },
+  ],
+  cues: [
+    {
+      t: 0,
+      kind: 'world',
+      title: 'Two songs on one disc side',
+      text: 'The label of Victor 87026 lists both songs on one side: La Forge’s first, Beach’s second. Gadski sings with La Forge at the piano; the take was made on 14 January 1908.',
+      basis: 'documented',
+      precision: 'passage',
+      evidence: 'The Victor 87026 label, photographed for the Library of Congress National Jukebox, reads “(a) How Much I Love You (La Forge) (b) The Year’s at the Spring (Beach)”. The Discography of American Historical Recordings dates matrix B-5018, take 2, to 14 January 1908. https://archive.org/download/loc-jukebox-125920-how-much-i-love-you/jukebox-125920_label.jpg https://adp.library.ucsb.edu/index.php/matrix/refer/200006832',
+    },
+    {
+      t: 52,
+      kind: 'form',
+      title: 'Beach’s Browning setting',
+      text: 'After a pause the Beach song begins, the first of her three Browning songs, Op. 44. A. P. Schmidt published them in 1900, dedicated to the Browning Society of Boston. The piano repeats chords under the voice.',
+      basis: 'score-proportion',
+      precision: 'passage',
+      evidence: 'A. P. Schmidt’s first edition of 1900 carries the dedication “To the Browning Society of Boston” and marks the song Allegro di molto; its piano part is built on repeated chords. https://archive.org/details/per_women-composers-collection_the-years-at-the-spring_1900',
+    },
+    {
+      t: 67,
+      kind: 'music',
+      title: 'The opening lines come round again',
+      text: 'After “dew-pearled” the music slows, then Beach starts over at tempo, so “The year’s at the spring” is sung twice before the lark, the snail and “God’s in his heaven”. The song ends on “All’s right with the world”.',
+      basis: 'score-proportion',
+      precision: 'passage',
+      evidence: 'In the 1900 edition, pages 3–5, the voice slows with a poco rall. and rit. at “dew-pearled”, resumes a tempo with the opening lines, and then sets the lark, the snail and “God’s in his heaven” before “All’s right with the world”. https://archive.org/details/per_women-composers-collection_the-years-at-the-spring_1900',
+    },
+  ],
+};

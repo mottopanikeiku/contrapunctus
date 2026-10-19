@@ -51,6 +51,12 @@ export default {
       "evidence": "Ravel’s remark to Casadesus is reported by Marcel Marnat, Maurice Ravel (1986), p. 184, cited by Kyle Fyr, paragraph 7. The overlapping bell figures are analysed in paragraphs 12–16. https://mtosmt.org/issues/mto.20.26.4/mto.20.26.4.fyr.html",
     },
     {
+      "t": 170, "kind": "life", "title": "A roll said to be Ravel",
+      "text": "The Duo-Art piano roll of this piece, recorded in 1922, is sold as Ravel playing. Ravel admits he hired a better pianist for some of the rolls; for this one, Ronald Woodley judges the probability favours the composer. Roy Howat hears “moments of mild anarchy between the hands”.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Kyle Fyr, “Mapping Ravel’s ‘La vallée des cloches’”, Music Theory Online 26.4 (2020), paragraph 30: the Duo-Art rolls marketed as the composer’s own, Ravel’s letter to Calvocoressi about recruiting a better pianist (Orenstein 2003, p. 219), Woodley (2000, p. 222), Howat (2009, p. 321) and the 1922 sessions. https://mtosmt.org/issues/mto.20.26.4/mto.20.26.4.fyr.html",
+    },
+    {
       "t": 214, "kind": "form", "title": "The melody falls silent",
       "text": "The singing line dwindles, and a chord waits under a fermata. Four sharps return with the earlier <i>très calme</i> chords. The low octaves remain, but the long melody has finished.",
       "basis": "score-proportion", "precision": "passage",

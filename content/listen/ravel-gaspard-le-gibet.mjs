@@ -35,6 +35,12 @@ export default {
       "evidence": "Aloysius Bertrand, Le Gibet, Gaspard de la nuit, Mercure de France edition (1895), pp. 245–246; our translation. https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Le_Gibet"
     },
     {
+      "t": 110, "kind": "world", "title": "Bertrand, read again",
+      "text": "Ravel and Ricardo Viñes read Aloysius Bertrand as students, among the Baudelaire, Poe and Mallarmé they devour. A new edition of 1908 sends Ravel back to him. From May to 5 September he writes <i>Gaspard</i>, “three romantic poems of transcendental virtuosity”; Viñes plays it on 9 January 1909.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Gerald Larner’s programme note (https://geraldlarner.com/work/ravel-gaspard-de-la-nuit-1908) gives the student reading with Viñes, the 1908 Mercure de France edition (which he says “must have” revived Ravel’s interest), the composition between May and September 1908 and Ravel’s own phrase. Manuel Cornejo’s chronology (https://boleravel.fr/wp-content/uploads/RAVEL_Chronology_2018.pdf) dates the composition to 5 September 1908 and the première, by Viñes at the Société nationale, to 9 January 1909."
+    },
+    {
       "t": 148, "kind": "music", "title": "The bell between two hands",
       "text": "Ravel spreads the piano across three staves. High chords and low chords move around the B♭, which passes between the hands. Even where the chords fill the keyboard, the repeated note keeps sounding inside them.",
       "basis": "score-proportion", "precision": "passage",
@@ -51,6 +57,12 @@ export default {
       "text": "The piano fills out again in long, tied chords. The bell threads between them, still B♭. Ravel’s instruction from the first page remains in force: “without hurrying or slowing to the end”.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand score, p. 19, lower systems. Ravel’s instruction Sans presser ni ralentir jusqu’à la fin appears on p. 17; our translation."
+    },
+    {
+      "t": 320, "kind": "world", "title": "A Bechstein in the Kaisersaal",
+      "text": "OE1FEU recorded this piece themselves, on a Bechstein D 282 concert grand in Vienna’s Kaisersaal, and dates it 3 April 2020. The recording is released under a Creative Commons Attribution–ShareAlike licence.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Commons file description (own work, Bechstein Konzertflügel D 282, Wiener Kaisersaal, date 2020-04-03, licence CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Maurice_Ravel-_Gaspard_de_la_Nuit-_II_Le_Gibet.flac"
     },
     {
       "t": 360, "kind": "form", "title": "The bell remains",

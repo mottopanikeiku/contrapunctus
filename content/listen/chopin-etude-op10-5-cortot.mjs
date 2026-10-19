@@ -39,13 +39,22 @@ export default {
       "evidence": "Opening articulation and dynamic contrasts: https://en.wikipedia.org/wiki/Étude_Op._10,_No._5_(Chopin). The Alfred Cortot Archives confirms both études on matrix B-23953, take 2, recorded 22 April 1920 at Camden: https://www.cortotarchives.org/recordings/11."
     },
     {
+      "t": 22,
+      "kind": "life",
+      "title": "Chopin on Clara Wieck’s choice",
+      "text": "On 25 April 1839 Chopin writes to Julian Fontana from Marseille, asking whether Clara Wieck played this étude well. He thinks it “the least interesting” étude for anyone who does not know it is meant for the black keys, and wishes she had chosen something better.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Chopin to Julian Fontana, Marseilles, 25 April 1839, letter 109 in Chopin’s Letters, coll. Henryk Opienski, trans. E. L. Voynich (New York: Knopf, 1931), p. 199: “the least interesting of the études, — at least for those who do not know that it is on the black keys”. https://archive.org/details/chopinsletters00chop"
+    },
+    {
       "t": 46,
       "kind": "world",
       "title": "Cortot at the lesson",
-      "text": "Cortot is also the étude’s editor and teacher on paper. In his 1915 study edition he asks for “brilliant and delicate legato”, the <i>jeu perlé</i> or pearly playing. His exercises prepare the hand to shift between widely separated positions.",
+      "text": "Cortot is also the étude’s editor and teacher on paper. In his 1915 working edition he sets the aim as “legato brillant, nommé jeu perlé”: brilliant legato, called pearly playing. His exercises prepare the hand to shift between widely separated positions.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Alfred Cortot, Frédéric Chopin: 12 Études, Op. 10, Édition de travail (Salabert, 1915), p. 33; instructions quoted at https://en.wikipedia.org/wiki/Étude_Op._10,_No._5_(Chopin)."
+      "evidence": "Alfred Cortot, ed., Frédéric Chopin: 12 Études, Op. 10, Édition de travail (Paris: Maurice Senart, 1915, plate E.M.S. 5004), p. 33, Étude V: “Legato brillant, nommé ‘jeu perlé’”, with exercises for the supple shifting of the hand in the “position disjointe” (IMSLP #367492)."
     },
     {
       "t": 96.5,
@@ -55,6 +64,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "The Victor label identifies the pairing; the recording’s established second-piece boundary is retained. Op. 25 No. 9’s articulation: https://en.wikipedia.org/wiki/Étude_Op._25,_No._9_(Chopin)."
+    },
+    {
+      "t": 125,
+      "kind": "world",
+      "title": "Two dedications",
+      "text": "Chopin dedicates all of Op. 10, published in 1833, to his friend Franz Liszt. The second set, Op. 25, which includes this <i>Butterfly</i>, appears in 1837 with a dedication to Marie d’Agoult, Liszt’s companion.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "IMSLP work pages: Op. 10, first published 1833, dedicated to Franz Liszt (https://imslp.org/wiki/Études,_Op.10_(Chopin,_Frédéric)); Op. 25, first published 1837 (Paris: Maurice Schlesinger), dedicated to Comtesse d’Agoult, 1805–1876 (https://imslp.org/wiki/Études,_Op.25_(Chopin,_Frédéric)). Liszt’s relationship with Marie d’Agoult from 1834: https://www.liszt.org/p/chronology.html"
     }
   ],
   "transitions": [

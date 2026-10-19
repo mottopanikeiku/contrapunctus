@@ -50,6 +50,24 @@ export default {
       "evidence": "Full score, printed p. 25: Andantino, bassoon marked Capriccioso, quasi recitando and dolce ed espressivo; four solo double basses, con sordino. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
     },
     {
+      "t": 70,
+      "kind": "life",
+      "title": "A violinist who taught Stern",
+      "text": "The solo violin is Naoum Blinder, concertmaster of the San Francisco Symphony. He reaches the United States in 1928 with the banker Felix Warburg’s sponsorship and teaches many violinists, Isaac Stern among them.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Jewish Telegraphic Agency obituary of Naoum Blinder: former concertmaster of the San Francisco Symphony, teacher of Isaac Stern, in the United States from 1928 under Felix Warburg’s sponsorship. https://www.jta.org/archive/naoum-blinder-teacher-of-many-ranking-musicians-dies-in-san-francisco"
+    },
+    {
+      "t": 112,
+      "kind": "music",
+      "title": "The tune in new colours",
+      "text": "The bassoon’s tune returns again and again in new colours. Strings shimmer in tremolo, a thrumming accompaniment turns beneath it, and sharper sounds prick the texture.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Paul Serotsky describes the movement as a kaleidoscope of variations with string tremolandos, thrummings and pricking textures. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
+    },
+    {
       "t": 162,
       "kind": "life",
       "title": "The professor teaches himself",
@@ -68,6 +86,15 @@ export default {
       "evidence": "Full score, printed pp. 30–31; Serotsky identifies the central idea’s relation to the Sultan’s motto and its development into a march. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
     },
     {
+      "t": 215,
+      "kind": "world",
+      "title": "Not the Sultan",
+      "text": "The unison phrase that opened the suite for the stern Sultan returns in this movement’s brass. Rimsky-Korsakov says it serves here as musical material alone: in the Kalender’s tale, “there cannot, however, be any mention of Sultan Shakhriar.”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition, pp. 247–248. https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf"
+    },
+    {
       "t": 245,
       "kind": "music",
       "title": "Clarinet over plucked strings",
@@ -75,6 +102,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, printed p. 32, rehearsal F: Moderato assai, Recitativo; clarinet ad libitum, lento lungo, accelerando; strings pizzicato and colla parte. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
+    },
+    {
+      "t": 320,
+      "kind": "world",
+      "title": "A fanfare that sails on",
+      "text": "The sharp fanfare for muted trumpet and trombone first sounds in this movement. Rimsky-Korsakov notes that it returns in the finale “in the delineation of the wrecking ship”, though that episode has no connection with the Kalender’s tale.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition, pp. 247–248. A muted trumpet (con sord.) begins the fanfare before rehearsal E in the full score, printed p. 30. https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf ; https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
     },
     {
       "t": 386,

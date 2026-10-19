@@ -1,0 +1,343 @@
+{
+  "id": "saint-saens",
+  "places": [
+    {
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "from": "1835-10-09",
+      "kind": "born",
+      "what": "Born at 3 rue du Jardinet; his father died on 30 December, three months later. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1835–1852",
+          "url": "https://camille-saint-saens.org/1835-1852/"
+        }
+      ]
+    },
+    {
+      "name": "Paris (Conservatoire)",
+      "country": "France",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "from": "1848-11",
+      "to": "1852",
+      "kind": "studied",
+      "what": "Organ with François Benoist from 1848, first prize in 1851; composition under Halévy from 1851. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1835–1852",
+          "url": "https://camille-saint-saens.org/1835-1852/"
+        }
+      ]
+    },
+    {
+      "name": "Paris (La Madeleine)",
+      "country": "France",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "from": "1857-12-07",
+      "to": "1877",
+      "kind": "worked",
+      "what": "Organist of La Madeleine for twenty years; he resigned the loft in 1877 after Albert Libon’s legacy. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1853–1867",
+          "url": "https://camille-saint-saens.org/1853-1867/"
+        },
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1875–1881",
+          "url": "https://camille-saint-saens.org/1875-1881/"
+        }
+      ]
+    },
+    {
+      "name": "Paris (École Niedermeyer)",
+      "country": "France",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "from": "1861-03",
+      "to": "1865-03",
+      "kind": "worked",
+      "what": "Piano professor at the École Niedermeyer; Fauré was among his pupils. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1853–1867",
+          "url": "https://camille-saint-saens.org/1853-1867/"
+        }
+      ]
+    },
+    {
+      "name": "Paris (Société nationale de musique)",
+      "country": "France",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "from": "1871-02-25",
+      "kind": "worked",
+      "what": "Founded the Société nationale de musique with Romain Bussine; motto Ars Gallica. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1868–1874",
+          "url": "https://camille-saint-saens.org/1868-1874/"
+        }
+      ]
+    },
+    {
+      "name": "London",
+      "country": "United Kingdom",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "from": "1871-03",
+      "to": "1871-05",
+      "kind": "exile",
+      "what": "Left Paris when the Commune was proclaimed, in danger as a former national guardsman and the Madeleine’s organist, and stayed until the end of May; gave concerts and wrote songs. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1868–1874",
+          "url": "https://camille-saint-saens.org/1868-1874/"
+        }
+      ]
+    },
+    {
+      "name": "Le Cateau-Cambrésis",
+      "country": "France",
+      "lat": 50.0993,
+      "lon": 3.5441,
+      "from": "1875-02-03",
+      "kind": "travelled",
+      "what": "Married Marie-Laure Truffot here. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1875–1881",
+          "url": "https://camille-saint-saens.org/1875-1881/"
+        }
+      ]
+    },
+    {
+      "name": "Saint Petersburg",
+      "country": "Russia",
+      "lat": 59.9343,
+      "lon": 30.3351,
+      "from": "1875-11",
+      "to": "1876-01",
+      "kind": "travelled",
+      "what": "Concert tour of Moscow and Saint Petersburg; met Tchaikovsky and Anton Rubinstein. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1875–1881",
+          "url": "https://camille-saint-saens.org/1875-1881/"
+        }
+      ]
+    },
+    {
+      "name": "Weimar",
+      "country": "Germany",
+      "lat": 50.9795,
+      "lon": 11.3235,
+      "from": "1877-12-02",
+      "kind": "premiere",
+      "what": "Samson et Dalila first performed at the Grand-Ducal Theatre, in German, under Eduard Lassen, as Liszt had promised. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1875–1881",
+          "url": "https://camille-saint-saens.org/1875-1881/"
+        }
+      ]
+    },
+    {
+      "name": "La Bourboule",
+      "country": "France",
+      "lat": 45.5873,
+      "lon": 2.7517,
+      "from": "1881-07-25",
+      "kind": "travelled",
+      "what": "He and his wife separated for good during a stay here. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1875–1881",
+          "url": "https://camille-saint-saens.org/1875-1881/"
+        }
+      ]
+    },
+    {
+      "name": "London (St James’s Hall)",
+      "country": "United Kingdom",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "from": "1886-05-19",
+      "kind": "premiere",
+      "what": "Conducted the first performance of the Third Symphony for the Royal Philharmonic Society. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1882–1888",
+          "url": "https://camille-saint-saens.org/1882-1888/"
+        }
+      ]
+    },
+    {
+      "name": "Chrudim",
+      "country": "Czech Republic",
+      "lat": 49.9512,
+      "lon": 15.7954,
+      "from": "1886-02",
+      "kind": "worked",
+      "what": "Withdrew here after the Berlin concert was disrupted and wrote Le Carnaval des animaux. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1882–1888",
+          "url": "https://camille-saint-saens.org/1882-1888/"
+        }
+      ]
+    },
+    {
+      "name": "Las Palmas",
+      "country": "Spain",
+      "lat": 28.1235,
+      "lon": -15.4363,
+      "from": "1890-04",
+      "kind": "travelled",
+      "what": "Reported in the Canary Islands in April 1890, recognised from a newspaper portrait while travelling as Charles Sannois; he wintered in the Canary Islands many times. Coordinates mark Las Palmas, not the place of the sighting.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1889–1893",
+          "url": "https://camille-saint-saens.org/1889-1893/"
+        }
+      ]
+    },
+    {
+      "name": "Mount Lavinia",
+      "country": "Sri Lanka",
+      "lat": 6.83,
+      "lon": 79.8636,
+      "from": "1891-01",
+      "to": "1891-03",
+      "kind": "travelled",
+      "what": "Three months in Ceylon, staying at Mount Lavinia near Colombo and at Kandy; studied botany. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1889–1893",
+          "url": "https://camille-saint-saens.org/1889-1893/"
+        }
+      ]
+    },
+    {
+      "name": "Luxor",
+      "country": "Egypt",
+      "lat": 25.6872,
+      "lon": 32.6396,
+      "from": "1896-02",
+      "to": "1896-03",
+      "kind": "travelled",
+      "what": "Visited Luxor and Karnak with the painter Georges Clairin; finished his Second Violin Sonata here in mid-March. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1894–1900",
+          "url": "https://camille-saint-saens.org/1894-1900/"
+        },
+        {
+          "title": "Peter Jost, preface to Henle HN 1144 (2018)",
+          "url": "https://www.henle.de/Piano-Concerto-no.-5-F-major-op.-103-Egyptian/HN-1144"
+        }
+      ]
+    },
+    {
+      "name": "Cairo",
+      "country": "Egypt",
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "from": "1896-03-22",
+      "to": "1896-04-15",
+      "kind": "worked",
+      "what": "Wrote the Piano Concerto No. 5 in about three weeks. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Peter Jost, preface to Henle HN 1144 (2018)",
+          "url": "https://www.henle.de/Piano-Concerto-no.-5-F-major-op.-103-Egyptian/HN-1144"
+        }
+      ]
+    },
+    {
+      "name": "San Francisco",
+      "country": "United States",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "from": "1915-05-23",
+      "to": "1915-07-09",
+      "kind": "travelled",
+      "what": "Represented French artists at the Panama–Pacific Exposition; gave recitals and conducted three concerts of his works. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1914–1918",
+          "url": "https://camille-saint-saens.org/1914-1918/"
+        }
+      ]
+    },
+    {
+      "name": "Dieppe",
+      "country": "France",
+      "lat": 49.9229,
+      "lon": 1.0775,
+      "from": "1921-08-03",
+      "to": "1921-08-11",
+      "kind": "travelled",
+      "what": "Gave his farewell recital at the casino on 6 August, after seventy-five years as a concert artist; the town holds his museum. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1919–1921",
+          "url": "https://camille-saint-saens.org/1919-1921/"
+        }
+      ]
+    },
+    {
+      "name": "Algiers",
+      "country": "Algeria",
+      "lat": 36.7538,
+      "lon": 3.0588,
+      "from": "1921-12-16",
+      "kind": "died",
+      "what": "Died in the evening at the Hôtel Oasis, where he had been living since 4 December. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1919–1921",
+          "url": "https://camille-saint-saens.org/1919-1921/"
+        }
+      ]
+    },
+    {
+      "name": "Montparnasse Cemetery",
+      "country": "France",
+      "lat": 48.8398,
+      "lon": 2.3258,
+      "from": "1921-12-24",
+      "kind": "buried",
+      "what": "Buried in the chapel he had built for his children, after a national funeral at La Madeleine. Coordinates mark the town or site centre, not a building.",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Société Camille Saint-Saëns: Chronologie 1919–1921",
+          "url": "https://camille-saint-saens.org/1919-1921/"
+        }
+      ]
+    }
+  ]
+}

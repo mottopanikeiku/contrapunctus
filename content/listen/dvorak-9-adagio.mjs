@@ -42,6 +42,15 @@ export default {
       "evidence": "Full score, Otakar Šourek edition, movement I, printed pp. 1–7; the thematic connection is described in the Dvořák work catalogue. https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"
     },
     {
+      "t": 45,
+      "kind": "music",
+      "title": "Drawn out, where possible",
+      "text": "Dvořák asks for the whole introduction to be “drawn out, where possible”. Its opening outline becomes a signature of his American years: it returns in the third movement of the E♭ major String Quintet and in the Humoresque No. 1.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Dvořák work catalogue, Symphony No. 9, “formal structure and content”: the instruction for the introduction, and the recurrence of its melodic outline in the Quintet and the Humoresque. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+    },
+    {
       "t": 120,
       "kind": "form",
       "title": "The horns announce it",
@@ -69,6 +78,15 @@ export default {
       "evidence": "Šourek full score, printed pp. 16–19, from bar 91. The minor-to-major transformation is discussed in the work catalogue, https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
     },
     {
+      "t": 215,
+      "kind": "life",
+      "title": "Four pages a day",
+      "text": "In summer 1893, on his first afternoon in Spillville, Iowa, Dvořák gives his assistant Josef Kovařík the 128-page score to copy: four pages a day. Kovařík obeys, and Dvořák grumbles that they are “quite empty ones”. When he copies sixteen, Dvořák rages: “That’s dreadful work, I should know!”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Josef Kovařík’s memoir of Dvořák’s American years, excerpted in the Dvořák work catalogue: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+    },
+    {
       "t": 260,
       "kind": "music",
       "title": "The flute’s third tune",
@@ -78,6 +96,15 @@ export default {
       "evidence": "Šourek full score, printed p. 26, bar 149 onwards: solo flute and sustained strings. The rhythmic kinship is described in the Dvořák work catalogue."
     },
     {
+      "t": 285,
+      "kind": "music",
+      "title": "A tune close to a spiritual",
+      "text": "The flute’s tune is often compared with the spiritual <i>Swing Low, Sweet Chariot</i>: most scholars find its outline and rhythm too close to be chance. Dvořák told the <i>New York Herald</i> he had “not actually used any of the melodies”, only the spirit of Black and Native American songs.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Dvořák work catalogue, “sources of inspiration” and “formal structure and content”: the closing theme’s resemblance to Swing Low, Sweet Chariot, and Dvořák’s interview in the New York Herald. https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
+    },
+    {
       "t": 312,
       "kind": "form",
       "title": "The tunes leave home",
@@ -85,6 +112,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "The Dvořák work catalogue identifies the two principal themes used in the development and gives its key sequence: https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
+    },
+    {
+      "t": 355,
+      "kind": "world",
+      "title": "“The folk songs of America”",
+      "text": "Three days before he finishes the score, on 21 May 1893, the <i>New York Herald</i> prints Dvořák’s views under the headline “Real Value of Negro Melodies”. “These are the folk songs of America,” he says, “and your composers must turn to them.”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "New York Herald, Sunday 21 May 1893, p. 28, “Real Value of Negro Melodies”, first column (scan: https://static.qobuz.com/info/IMG/pdf/NYHerald-1893-Mai-21-Recadre.pdf). Completion of the score on 24 May 1893: https://www.antonin-dvorak.cz/en/work/symphony-no-9/"
     },
     {
       "t": 398,
@@ -103,6 +139,15 @@ export default {
       "basis": "documented",
       "precision": "passage",
       "evidence": "The work catalogue describes Burleigh’s meetings with Dvořák and the influence of pentatonic melody and syncopation: https://www.antonin-dvorak.cz/en/work/symphony-no-9/."
+    },
+    {
+      "t": 480,
+      "kind": "world",
+      "title": "Mrs Thurber’s conservatory",
+      "text": "Jeannette Thurber founded New York’s National Conservatory in 1885 and admitted students whatever their race or sex. In 1892 she offered Dvořák its directorship. On 23 January 1894 he conducted its student orchestra and an all-Black choir of 130 at Madison Square Garden Concert Hall, for the <i>Herald</i>’s clothing fund.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Majda Kallab Whitaker, “Grateful to Mrs. Thurber”, Dvořák American Heritage Association: admissions policy of 1885, the 1892 offer, and the benefit concert of 23 January 1894. https://www.dvoraknyc.org/thurber"
     },
     {
       "t": 550,

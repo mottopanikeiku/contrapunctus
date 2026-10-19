@@ -30,6 +30,12 @@ export default {
       "evidence": "Couperin, La Piémontoise, Cmaj7 edition (2022), score pp. 1–2. Performers are identified in the recording’s Commons description. Score: https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
     },
     {
+      "t": 50, "kind": "life", "title": "The Saint-Gervais organ bench",
+      "text": "Couperin’s father Charles, organist of Saint-Gervais in Paris, died in 1679 and left the boy fatherless, with the post held in reserve for him. The great Lalande filled the organ bench until François could take it himself, in 1685.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Opéra Royal de Versailles, biography of Couperin: Charles’s death in 1679, François titular by survivance, Lalande’s interim. Larousse, Dictionnaire de la musique: François in the post from 1685. https://www.operaroyal-versailles.fr/genre-event/couperin/ and https://www.larousse.fr/encyclopedie/musdico/Fran%C3%A7ois_Couperin/167027"
+    },
+    {
       "t": 90, "kind": "music", "title": "The bass joins the conversation",
       "text": "The <i>Vivement</i> gives the bass running semiquavers as well as the upper parts. A phrase can begin below the violin and flute, then rise into their conversation. The keyboard and gamba have plenty to say together.",
       "basis": "score-proportion", "precision": "passage",
@@ -42,6 +48,12 @@ export default {
       "evidence": "Couperin’s preface to Les Nations (1726), discussed by Brian Robins, 22 July 2019. https://earlymusicreview.com/francois-couperin-les-nations-1726/"
     },
     {
+      "t": 230, "kind": "life", "title": "A royal chapel by competition",
+      "text": "In 1693 Couperin’s teacher Thomelin, organist of the royal chapel, died. Couperin won the competition for the post, serving the January quarter of each year, and stayed an organist of the royal chapel for the rest of his working life.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Larousse, Dictionnaire de la musique: after Thomelin’s death in 1693 he won the royal chapel organist’s post “par concours” for the January quarter. https://www.larousse.fr/encyclopedie/musdico/Fran%C3%A7ois_Couperin/167027. Opéra Royal de Versailles gives the same appointment: https://www.operaroyal-versailles.fr/genre-event/couperin/"
+    },
+    {
       "t": 274, "kind": "music", "title": "The violin sings alone",
       "text": "The first air is in G major and marked <i>Gracieusement</i>. The violin carries its opening phrase while the flute rests. The bass answers with small steps and ornaments; then the flute takes up the tune and the violin falls silent.",
       "basis": "score-proportion", "precision": "passage",
@@ -52,6 +64,12 @@ export default {
       "text": "The four ordres of <i>Les Nations</i> bear grand names: France, Spain, the Empire and Piedmont. Each opens with an Italian-style sonata, then turns to French dances. Here, after the sonata, the printed score continues with an allemande marked “nobly, and without slowness”.",
       "basis": "documented", "precision": "passage",
       "evidence": "Collection and design: https://earlymusicreview.com/francois-couperin-les-nations-1726/. Allemande marking, ‘Noblement, et sans lenteur’, score p. 20: https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf. English translation is literal."
+    },
+    {
+      "t": 416, "kind": "life", "title": "The mirror and the key",
+      "text": "In <i>L’Art de toucher le clavecin</i> (1716) Couperin puts a mirror on the music desk to cure a pupil’s grimaces. With small children he takes the key of the harpsichord home, so nothing is undone while he is away that took him three quarters of an hour to set right.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Couperin, L’Art de toucher le clavecin (1716), opening instructions on grimaces, the mirror and “la clef de l’instrument” (Nicolas Sceaux’s transcription, p. 2–3): https://musebaroque.fr/archives/Partitions/Couperin_clavecin2.pdf"
     },
     {
       "t": 485, "kind": "world", "title": "Corelli beside Lully",

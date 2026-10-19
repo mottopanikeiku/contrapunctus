@@ -85,6 +85,15 @@ export default {
       "evidence": "Durand full score (1922), pp. 4–5: plaintif vocal return, repeated organ pedal and successive solo string entries before figure 3."
     },
     {
+      "t": 175,
+      "kind": "world",
+      "title": "A boy’s voice",
+      "text": "A boy sings this prayer. The Everest sleeve names the soloist as Alain Fauqueur of the Petits Chanteurs de Vincennes, and David Noakes’s note on the sleeve hears in the music “ineffable serenity” at the composer’s last hour.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Everest LPBR 6059 (1960), sleeve: roster credit and David Noakes’s note on Pie Jesu. https://archive.org/details/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d"
+    },
+    {
       "t": 204,
       "kind": "form",
       "title": "The waiting harp",
@@ -92,6 +101,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score (1922), pp. 6–7, figure 4 to the end: Lent, harp entry, muted strings, Amen and final G-major chord."
+    },
+    {
+      "t": 250,
+      "kind": "world",
+      "title": "Nadia’s lifelong ambition",
+      "text": "Lili dies at Mézy-sur-Seine on 15 March 1918, aged twenty-four. Forty-two years later Everest issues this record, and its sleeve says it had been Nadia’s “lifelong ambition” to have her younger sister’s music recorded.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Everest LPBR 6059 (1960), sleeve text: https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt. Death at Mézy on 15 March 1918: Konstantin Galluhn’s preface, https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/987.html"
     }
   ],
   "transitions": [

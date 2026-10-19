@@ -29,6 +29,15 @@ export default {
       "evidence": "Breitkopf & Härtel first edition, upbeat and bars 1–2: A♯–B upbeat, C♯ bass in bar 1, F♯ bass in bar 2. https://chopinscores.org/partytura/86"
     },
     {
+      "t": 26,
+      "kind": "world",
+      "title": "For Ferdinand Hiller",
+      "text": "Chopin dedicates the three nocturnes of Op. 15, published in 1833–34, to the German pianist Ferdinand Hiller. In a joint letter to Hiller of 20 June 1833 he writes that Liszt is at that moment playing his études, “transporting me outside of my respectable thoughts”.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "IMSLP, Nocturnes, Op. 15: composed 1830–33, first published 1833–34, dedicated to Ferdinand Hiller: https://imslp.org/wiki/Nocturnes,_Op.15_(Chopin,_Frédéric). Chopin, Liszt and Franchomme to Hiller, Paris, 20 June 1833, letter 76 in Chopin’s Letters, coll. Henryk Opienski, trans. E. L. Voynich (New York: Knopf, 1931), pp. 170–71: https://archive.org/details/chopinsletters00chop"
+    },
+    {
       "t": 52,
       "kind": "music",
       "title": "F♯ turns minor",

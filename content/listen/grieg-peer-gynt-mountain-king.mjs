@@ -1,0 +1,26 @@
+export default {
+  id: 'grieg-peer-gynt-mountain-king',
+  composer: 'grieg',
+  order: 2,
+  work: 'Peer Gynt Suite No. 1, Op. 46',
+  movement: 'IV. In the Hall of the Mountain King',
+  set: { id: 'grieg-peer-gynt-suite-1', title: 'Peer Gynt Suite No. 1, Op. 46', part: 4, of: 4 },
+  year: '1874–75; suite 1888',
+  key: 'B minor',
+  forces: 'Orchestra',
+  performers: 'Czech National Symphony Orchestra, as the Musopen Symphony Orchestra',
+  recorded: '2012',
+  source: { file: 'File:Musopen - In the Hall Of The Mountain King.ogg' },
+  intro: 'One four-bar tune, repeated and quickened until the whole orchestra is shouting it: the troll king’s hall from Ibsen’s <i>Peer Gynt</i>. The Czech National Symphony Orchestra plays it for the Musopen project.',
+  sections: [
+    { t: 0, label: 'A · The tune creeps in, pianissimo', m: 'A' },
+    { t: 65, label: 'A′ · The same tune, growing', m: 'A′' },
+    { t: 101, label: 'A″ · Più vivo, fortissimo', m: 'A″', mNote: 'Faster and louder, pressing on to the end' },
+    { t: 133, label: 'Coda · Single chords between rests', m: 'Coda' },
+  ],
+  cues: [
+    { t: 0, kind: 'music', title: 'A tune on tiptoe', text: 'A four-bar tune creeps in, marked <i>pp</i> and <i>e sempre staccato</i>: up the steps from B to F♯, down to D, up to F♯ again. The second bar wobbles between E♯ and E natural. Then the same four bars start again, and keep starting again.', basis: 'score-proportion', precision: 'passage', evidence: 'Grieg, Peer Gynt Suite No. 1, “In the Hall of the Mountain King”, opening bars (B minor, “Alla marcia molto marcato”, pp, e sempre staccato), in the piano version after The University Society edition (1918), typeset for the Mutopia Project: https://www.mutopiaproject.org/ftp/GriegE/O46/Dans_l_antre_du_roi_de_la_montagne/Dans_l_antre_du_roi_de_la_montagne.ly' },
+    { t: 56, kind: 'world', title: 'Too much cow-pat', text: 'In August 1874 Grieg tells his friend Frants Beyer that he has written something for the troll king’s hall that he cannot bear to hear: it reeks “of cow-pats, of Norwegian-Norwegianness and smugness”. He hopes the irony will come through.', basis: 'documented', precision: 'passage', evidence: 'Grieg to Frants Beyer, August 1874, quoted in Finn Benestad, Norsk biografisk leksikon, “Edvard Grieg” (“som jeg bogstavelig ikke kan tåle at høre på, således klinger det af Kokager, af Norsk-norskhed og Sigselvnokhed”, translated here): https://nbl.snl.no/Edvard_Grieg' },
+    { t: 101, kind: 'music', title: 'Faster, then faster still', text: '<i>Più vivo</i>, fortissimo, and Grieg writes <i>sempre stretto sin al fine</i>: pressing on to the end. The tune does not change. George Bernard Shaw, hearing it in London in 1889, called it “a riotous piece of weird fun”.', basis: 'score-proportion', precision: 'passage', evidence: 'Grieg, “In the Hall of the Mountain King”, piano version after The University Society edition (1918), Mutopia Project: Più vivo, ff, and “sempre stretto sin al fine”: https://www.mutopiaproject.org/ftp/GriegE/O46/Dans_l_antre_du_roi_de_la_montagne/Dans_l_antre_du_roi_de_la_montagne.ly. John Henken, Hollywood Bowl programme note: Shaw’s review of an 1889 London performance, “a riotous piece of weird fun”: https://www.hollywoodbowl.com/musicdb/pieces/2684/peer-gynt-suite-no-1-op-46' },
+  ],
+};

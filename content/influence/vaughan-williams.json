@@ -1,0 +1,115 @@
+{
+  "batch": "vaughan-williams",
+  "edges": [
+    {
+      "id": "sibelius--vaughan-williams-fifth-dedication",
+      "from": "sibelius",
+      "to": "vaughan-williams",
+      "kind": "dedicated",
+      "year": 1943,
+      "title": "Vaughan Williams dedicates his Fifth to Sibelius",
+      "works": {
+        "from": "Sibelius’s symphonies",
+        "to": "Symphony No. 5 in D major"
+      },
+      "claim": "<p>The score of Vaughan Williams’s Fifth Symphony, first performed at the Royal Albert Hall on 24 June 1943, is headed “Dedicated without permission to Jean Sibelius”. Sibelius replied from Finland in June 1946: “I have seldom heard anything that is more English.”</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Robert Matthew-Walker: note on Vaughan Williams’s Symphony No. 5 (Hyperion Records)",
+          "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W20128_311900",
+          "locator": "The inscription and the first performance on 24 June 1943"
+        },
+        {
+          "title": "Vaughan Williams Foundation: letter from Jean Sibelius to Ralph Vaughan Williams, 18 June 1946 (VWL2042)",
+          "url": "https://vaughanwilliamsfoundation.org/letter/letter-from-jean-sibelius-to-ralph-vaughan-williams-5/",
+          "locator": "Sibelius’s reply about the Fifth Symphony"
+        }
+      ]
+    },
+    {
+      "id": "shakespeare--vaughan-williams-serenade-to-music",
+      "from": "shakespeare",
+      "to": "vaughan-williams",
+      "kind": "set-text",
+      "year": 1938,
+      "title": "Vaughan Williams sets Shakespeare’s moonlit scene for sixteen voices",
+      "works": {
+        "from": "The Merchant of Venice, Act V",
+        "to": "Serenade to Music"
+      },
+      "claim": "<p>For Henry Wood’s jubilee concert at the Royal Albert Hall on 5 October 1938, Vaughan Williams took the moonlit scene between Lorenzo and Jessica from Act V of <i>The Merchant of Venice</i> and wrote it for sixteen solo singers and orchestra.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "BBC Music Magazine: A guide to Vaughan Williams’s Serenade to Music and its best recordings",
+          "url": "https://www.classical-music.com/features/works/a-guide-to-vaughan-williamss-serenade-to-music-and-its-best-recordings",
+          "locator": "Henry Wood’s jubilee concert on 5 October 1938; sixteen solo vocalists"
+        },
+        {
+          "title": "Ralph Vaughan Williams Society: Achievements and Recognition",
+          "url": "https://www.rvwsociety.com/achievements",
+          "locator": "Text chosen from the scene between Jessica and Lorenzo in The Merchant of Venice"
+        }
+      ]
+    },
+    {
+      "id": "bach--vaughan-williams-bach-choir-and-dorking",
+      "from": "bach",
+      "to": "vaughan-williams",
+      "kind": "championed",
+      "year": 1921,
+      "title": "Vaughan Williams conducts the Bach Choir and Dorking Passions",
+      "works": {
+        "from": "Bach’s Passions",
+        "to": "Vaughan Williams’s conducting at the Bach Choir and Leith Hill Musical Festival"
+      },
+      "claim": "<p>Vaughan Williams was musical director of the Bach Choir from 1921 to 1928. In Dorking he rehearsed the <i>St Matthew Passion</i> in the town’s halls, and the Leith Hill Musical Festival choirs sang Bach’s Passions under him.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "The Bach Choir: About the choir (musical directors)",
+          "url": "https://thebachchoir.org.uk/about/about-the-choir/",
+          "locator": "Musical directors, 1921–1928"
+        },
+        {
+          "title": "Dorking Museum: Ralph Vaughan Williams Dorking Trail",
+          "url": "https://dorkingmuseum.org.uk/ralph-vaughan-williams-dorking-trail/",
+          "locator": "St Matthew Passion rehearsals and concerts in Dorking"
+        },
+        {
+          "title": "Ralph Vaughan Williams Society: Later years",
+          "url": "https://www.rvwsociety.com/later-years",
+          "locator": "Dorking performances of Bach’s St John Passion"
+        }
+      ]
+    },
+    {
+      "id": "purcell--vaughan-williams-purcell-society-edition",
+      "from": "purcell",
+      "to": "vaughan-williams",
+      "kind": "championed",
+      "year": 1905,
+      "title": "Vaughan Williams edits Purcell’s Royal Welcome Songs",
+      "works": {
+        "from": "Purcell’s Royal Welcome Songs",
+        "to": "Purcell Society Edition, volumes 15 and 18"
+      },
+      "claim": "<p>Vaughan Williams edited two volumes of the Purcell Society Edition for Novello: Volume 15 in 1905 and Volume 18 in 1910. Both hold Purcell’s royal welcome songs, and both were later superseded by Bruce Wood’s editions.</p>",
+      "status": "documented",
+      "sources": [
+        {
+          "title": "Henry Purcell: Purcell Society Edition Volume 15",
+          "url": "http://www.henrypurcell.org.uk/purcell-society-edition/vol-15.html",
+          "locator": "Note about the edition: the original volume edited by Ralph Vaughan Williams, Novello, 1905"
+        },
+        {
+          "title": "Henry Purcell: Purcell Society Edition Volume 18",
+          "url": "http://www.henrypurcell.org.uk/purcell-society-edition/vol-18.html",
+          "locator": "Note about the edition: the original volume edited by Ralph Vaughan Williams, Novello, 1910"
+        }
+      ]
+    }
+  ],
+  "figures": []
+}

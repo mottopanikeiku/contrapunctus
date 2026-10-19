@@ -1,9 +1,8 @@
 export default {
   id: 'saint-saens-cygne-weilerstein',
-  composer: null,
-  guest: { name: 'Camille Saint-Saëns', born: 1835, died: 1921 },
+  composer: 'saint-saens',
   concert: false,
-  order: 2,
+  order: 6,
   work: 'Le Carnaval des animaux',
   movement: 'XIII. Le Cygne — cello and marimba',
   year: '1886',

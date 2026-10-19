@@ -35,6 +35,12 @@ export default {
       "evidence": "Dotsey identifies the two themes and their original horn and clarinet scoring; Hepokoski discusses bars 6–20 and 46–49. This note describes Strauss’s themes, not a new instrumental entrance at this time.",
     },
     {
+      "t": 90, "kind": "world", "title": "A good laugh",
+      "text": "Asked many years later whether <i>Till</i> has any “metaphysical” intentions, Strauss replies: “Oh, no—I only wanted to give the people in the concert hall a good laugh for once.”",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Calvin Dotsey, Houston Symphony, quotes Strauss’s later answer to a question about metaphysical intentions in the piece. https://houstonsymphony.org/strauss-till-eulenspiegel/"
+    },
+    {
       "t": 140, "kind": "world", "title": "The trickster in print",
       "text": "The old Eulenspiegel stories send their rogue from town to town, upsetting princes, clergy, craftsmen and scholars. Their earliest surviving written accounts come nearly two centuries after the fourteenth-century life assigned to him. Strauss gives this well-travelled troublemaker a new ending: the gallows.",
       "basis": "documented", "precision": "passage",
@@ -53,10 +59,34 @@ export default {
       "evidence": "Hepokoski, pp. 24–25, analyses the B♭-major pastor episode, bars 179–207, including its paired phrases. Dotsey describes the clarinet interruption and the ensuing fear motif in muted brass.",
     },
     {
+      "t": 280, "kind": "music", "title": "Dainty courtesies with pretty girls",
+      "text": "Strauss’s own label for this scene is Till “exchanging dainty courtesies with pretty girls”. Delicate violin and woodwind solos carry the flirtation. Till falls for one of the girls, and the music grows more ardent as he woos her.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Dotsey describes the violin and woodwind solos, Till’s infatuation and his wooing. Strauss’s labels 12–14 (bars 209–232) are listed in Hepokoski, Table 1, with Mary Whittall’s translations in note 23. https://houstonsymphony.org/strauss-till-eulenspiegel/ ; https://jameshepokoski.com/wp-content/uploads/2019/04/2006-Framing-Till-Eulenspiegel.pdf"
+    },
+    {
+      "t": 350, "kind": "music", "title": "A refusal, then a vow",
+      "text": "The girl rejects him politely, and Strauss’s label puns on the German idiom for a rebuff: “However fine, a basket still signifies refusal.” Till is furious. The orchestra cuts off, and four horns play his theme in unison as he vows revenge on all mankind.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Dotsey describes the rebuff, Till’s fury and the four horns in unison. Strauss’s labels 15 and 17 (bars 244 and 263) are in Hepokoski, Table 1, with Whittall’s translations in note 23. https://houstonsymphony.org/strauss-till-eulenspiegel/ ; https://jameshepokoski.com/wp-content/uploads/2019/04/2006-Framing-Till-Eulenspiegel.pdf"
+    },
+    {
       "t": 418, "kind": "music", "title": "The professors lose the argument",
       "text": "The professors arrive in A minor. Till poses his outrageous questions, and their answers multiply in a fugato: one part starts a phrase, another imitates it, and more voices pile in. Strauss makes scholarship sound wonderfully flustered.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Strauss’s letter to Franz Wüllner, 20 October 1895, identifies the A-minor episode and fugato; quoted and discussed in Hepokoski, pp. 10–11 and 27. Dotsey describes the bassoon and bass-clarinet portrayal of the professors.",
+    },
+    {
+      "t": 505, "kind": "music", "title": "A grimace from afar",
+      "text": "Having set the professors a few outrageous problems, Till leaves them baffled. From a distance he turns back for what Strauss labels a “big grimace”: one long, dissonant chord for the full orchestra.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Dotsey describes the departure and the long dissonant chord. Strauss’s labels 19 and 20 (bars 315 and 345) are in Hepokoski, Table 1, with Whittall’s translations in note 23. https://houstonsymphony.org/strauss-till-eulenspiegel/ ; https://jameshepokoski.com/wp-content/uploads/2019/04/2006-Framing-Till-Eulenspiegel.pdf"
+    },
+    {
+      "t": 540, "kind": "music", "title": "Whistling a street tune",
+      "text": "Strauss calls the tune “Till’s street ditty”: a jaunty melody that could have come from an operetta by one of the other Strausses. The whistling soon falls silent, and a still, ominous passage follows.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Dotsey describes the whistled tune and the ominous silence after it. Strauss’s label 21 (bars 375–382) is in Hepokoski, Table 1, with Whittall’s translation in note 23. https://houstonsymphony.org/strauss-till-eulenspiegel/ ; https://jameshepokoski.com/wp-content/uploads/2019/04/2006-Framing-Till-Eulenspiegel.pdf"
     },
     {
       "t": 574, "kind": "life", "title": "Nuts for the Cologne audience",
@@ -75,6 +105,12 @@ export default {
       "text": "A drum roll stops the merriment. Heavy brass confront Till in F minor, and his short replies still try to make a joke of the proceedings. The jokes give way to fear. Strauss takes the scene all the way to the hanging.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Hepokoski, p. 37, identifies the drum roll and ff F-minor trial from bar 577. Dotsey describes the brass, Till’s replies, the returning fear motif and the execution.",
+    },
+    {
+      "t": 830, "kind": "music", "title": "A strangled clarinet",
+      "text": "The sentence is carried out. Strauss’s label in the score reads: “Up the ladder! There he swings, the air is squeezed out of him, a last jerk.” A strangled clarinet depicts the hanging.",
+      "basis": "score-proportion", "precision": "passage",
+      "evidence": "Dotsey identifies the strangled clarinet. Strauss’s label 26 (bars 615–619) is in Hepokoski, Table 1, in Whittall’s translation (note 23). https://houstonsymphony.org/strauss-till-eulenspiegel/ ; https://jameshepokoski.com/wp-content/uploads/2019/04/2006-Framing-Till-Eulenspiegel.pdf"
     },
     {
       "t": 866, "kind": "form", "title": "The story outlives the rogue",

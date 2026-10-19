@@ -83,6 +83,15 @@ export default {
       "evidence": "Bars 8 and 13, and the later cantando espressivo transformation at bar 153, are illustrated in Alan Tang’s analysis of the Bärenreiter score (1983): https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
+      "t": 95,
+      "kind": "life",
+      "title": "A manuscript in black and red",
+      "text": "Liszt’s manuscript is written on green-blue paper, first in black ink. He adds articulation, dynamics and fingerings in red, then makes later changes in red crayon and pencil. Its many corrections and paste-overs show how long the Sonata occupied him.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Ernst Herttrich, preface to the Henle edition (HN 559, 2016), on the autograph. https://www.henle.de/media/2b/bc/b3/1697725922/9559-1697725922-sync.pdf"
+    },
+    {
       "t": 144,
       "kind": "music",
       "title": "Grandioso in D major",
@@ -101,13 +110,49 @@ export default {
       "evidence": "Dolce con grazia at bar 120 and cantando espressivo at bar 153, with the change from quavers to crotchets and triplet accompaniment: https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
+      "t": 285,
+      "kind": "life",
+      "title": "Peace to compose in Weimar",
+      "text": "At Weimar Liszt is court Kapellmeister, and his relationship with Princess Carolyne zu Sayn-Wittgenstein gives him peace to compose. The final versions of his two piano concertos and the <i>Faust</i> and <i>Dante</i> symphonies come from the same years.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Ernst Herttrich, preface to the Henle edition (HN 559, 2016). https://www.henle.de/media/2b/bc/b3/1697725922/9559-1697725922-sync.pdf"
+    },
+    {
+      "t": 400,
+      "kind": "music",
+      "title": "Agitato, then incalzando",
+      "text": "After the singing tune the music grows restless. The score marks the tune <i>agitato</i>, then drives on <i>incalzando</i>, pressing forward, faster, forceful and boisterous, until the slow Andante arrives.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Alan Tang, “Understanding Liszt’s Sonata in B Minor (Part 1)”: agitato at bar 191 and incalzando at bar 255, between the singing tune (bar 153) and the Andante sostenuto (bar 331), in the Bärenreiter score on IMSLP. https://www.classicalmusic-notes.com/liszt-sonata-1/"
+    },
+    {
+      "t": 480,
+      "kind": "life",
+      "title": "A first version in 1849",
+      "text": "Liszt allegedly presents an early version to a private Weimar circle in the summer of 1849, and the first surviving sketch dates from that year. Most of the work is done in 1852–53; the autograph is dated 2 February 1853.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Ernst Herttrich, preface to the Henle edition (HN 559, 2016). https://www.henle.de/media/2b/bc/b3/1697725922/9559-1697725922-sync.pdf"
+    },
+    {
       "t": 560,
       "kind": "world",
       "title": "A dedication sent to Schumann",
       "text": "The Sonata appears in 1854 with a dedication to Robert Schumann, who has dedicated his C major <i>Fantasy</i> to Liszt fifteen years earlier. By the time Liszt’s score reaches the Schumann household that May, Robert is in the sanatorium at Endenich.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "The reciprocal dedications and 1854 publication are documented by Yale’s first-edition exhibit: https://musiclib-exhibits.library.yale.edu/exhibits/liszt/bminor_sonata.html. The copy’s arrival in May and Schumann’s admission to Endenich: https://en.wikipedia.org/wiki/Piano_Sonata_in_B_minor_(Liszt)."
+      "evidence": "Yale’s first-edition exhibit: published 1854 with the dedication to Schumann, who “had dedicated his C major Fantasy to Liszt fifteen years earlier” and was institutionalised in 1854: https://musiclib-exhibits.library.yale.edu/exhibits/liszt/bminor_sonata.html. Liszt sent the dedication copy to Clara Schumann on 21 May 1854 (Ernst Herttrich, Henle preface to HN 559): https://www.henle.de/media/2b/bc/b3/1697725922/9559-1697725922-sync.pdf. Schumann was brought to Dr Richarz’s asylum at Endenich on 4 March 1854: https://www.schumann-portal.de/bonn-1475.html (all opened).",
+    },
+    {
+      "t": 610,
+      "kind": "life",
+      "title": "Clara’s diary",
+      "text": "Liszt sends the dedication copy to Clara Schumann on 21 May 1854. On 25 May she writes in her diary: “Brahms played them to me, but I became completely wretched. … It is nothing but blind noise.”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Clara Schumann’s diary, 25 May 1854, cited from Berthold Litzmann, Clara Schumann. Ein Künstlerleben, vol. II (1925), p. 317, in Ernst Herttrich’s Henle preface (HN 559, 2016), which gives the English. https://www.henle.de/media/2b/bc/b3/1697725922/9559-1697725922-sync.pdf"
     },
     {
       "t": 660,
@@ -119,22 +164,67 @@ export default {
       "evidence": "Andante sostenuto, bar 331, and the returns leading to the F♯-major chord at bar 397: Bärenreiter score (1983), illustrated and discussed at https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
+      "t": 700,
+      "kind": "form",
+      "title": "Blank lines in the autograph",
+      "text": "In the autograph Liszt leaves a few blank lines before the Andante sostenuto, and again before the later Allegro energico fugato. Ernst Herttrich identifies them as a slow movement and a scherzo inside the single span.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Ernst Herttrich, preface to the Henle edition (HN 559, 2016): bars 331 ff. and 460 ff. https://www.henle.de/media/2b/bc/b3/1697725922/9559-1697725922-sync.pdf"
+    },
+    {
+      "t": 760,
+      "kind": "world",
+      "title": "Wagner hears it from Klindworth",
+      "text": "On 5 April 1855 Karl Klindworth plays the Sonata to Wagner in London. That evening Wagner writes to Liszt: “beautiful beyond anything, grand and sweet, deep and noble, sublime as you are yourself”. “The London misery was forgotten all at once.”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Wagner to Liszt, London, 5 April 1855 (letter 184), in Francis Hueffer’s translation of the Correspondence of Wagner and Liszt, vol. 2. https://www.gutenberg.org/ebooks/4234"
+    },
+    {
+      "t": 850,
+      "kind": "music",
+      "title": "A climax, and the song returns",
+      "text": "The slow section reaches its own climax on a broad F♯-major chord. As it rings, a rising scale in the left hand leads the slow theme back, now sweet and lush, with the left hand flowing up and down the scale.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Alan Tang, “Understanding Liszt’s Sonata in B Minor (Part 1)”: the climax at bar 397 and the return of the Andante theme, in the Bärenreiter score on IMSLP. https://www.classicalmusic-notes.com/liszt-sonata-1/"
+    },
+    {
+      "t": 950,
+      "kind": "world",
+      "title": "No programme, but Faust",
+      "text": "Liszt gives the Sonata no written programme. Numerous commentators nonetheless read it as another musical version of the Faust tale, which attracted many Romantic composers; Liszt used the same techniques in his <i>Faust</i> Symphony, begun in 1854.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Yale University Gilmore Music Library, Liszt exhibit, Piano Sonata in B minor: https://musiclib-exhibits.library.yale.edu/exhibits/liszt/bminor_sonata.html"
+    },
+    {
+      "t": 1000,
+      "kind": "form",
+      "title": "Where does the fugato belong?",
+      "text": "A fugato is coming, and scholars disagree about its place. Alan Walker calls it “both a third movement and an extended leadback into the recapitulation”. Kenneth Hamilton calls it development, part of a non-tonic recapitulation or a scherzo, “or not, depending on your reaction to this stroke of genius”.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Walker, Reflections on Liszt, p. 136, and Hamilton, Liszt: Sonata in B minor, p. 45, as quoted in Alan Tang’s analysis: https://www.classicalmusic-notes.com/liszt-sonata-1/"
+    },
+    {
       "t": 1045,
       "kind": "form",
       "title": "Two figures become a fugue",
       "text": "In B♭ minor, the piano sets the leaping figure and the repeated-note figure running through a fugato. One voice begins; another answers while the first keeps going. The opening’s outbursts now fit together as counterpoint.",
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Fugato from bar 460, with the two opening figures and successive entries illustrated at https://www.classicalmusic-notes.com/liszt-sonata-1/. Its B♭-minor key is also identified at https://en.wikipedia.org/wiki/Piano_Sonata_in_B_minor_(Liszt)."
+      "evidence": "Fugato from bar 460, with the two opening figures and successive entries illustrated at https://www.classicalmusic-notes.com/liszt-sonata-1/. Its B♭-minor key: “The Fugato section begins with the subject of the fugue in B-flat-minor”, INVENTIO (Catholic University of America), vol. 5 no. 2, https://sites.google.com/cua.edu/inventio/read/volume-5-issue-2/liszt-piano-sonata-in-b-minor-s-178 (opened)."
     },
     {
       "t": 1080,
       "kind": "life",
       "title": "Bülow takes it to Berlin",
-      "text": "In January 1857, Hans von Bülow gives the Sonata its first public performance in Berlin. He has studied with Liszt since 1851. Later that year he marries Liszt’s daughter Cosima, with her father at the wedding.",
+      "text": "On 22 January 1857, Hans von Bülow gives the Sonata its first public performance, at a trio evening in Berlin’s Englisches Haus. He has studied with Liszt since 1851. Later that year he marries Liszt’s daughter Cosima, with her father at the wedding.",
       "basis": "documented",
       "precision": "passage",
-      "evidence": "Bülow’s studies and marriage are dated in the Liszt chronology: https://www.liszt.org/p/chronology.html. Berlin première: https://en.wikipedia.org/wiki/Piano_Sonata_in_B_minor_(Liszt). The sources differ on the day in January, so only the month is given."
+      "evidence": "Liszt chronology (1851 June: Bülow Liszt’s pupil; 1857 January 22: Sonata in B minor first performed by Bülow; August 18: Cosima and Bülow’s wedding with Liszt present): https://www.liszt.org/p/chronology.html (opened). Ernst Herttrich, Henle preface to HN 559: “probably first performed in public on 22 January 1857, in Berlin by Hans von Bülow”: https://www.henle.de/media/2b/bc/b3/1697725922/9559-1697725922-sync.pdf (opened). The Berlinische Nachrichten review of 24 January 1857 (G. E., Gustav Engel) reports the third trio soirée of Bülow, Laub and Wohlers “am Donnerstag im englischen Hause”, with Liszt’s B minor sonata second on the programme; 22 January 1857 was a Thursday (transcription at https://classical-pianists.net/v/hans-von-bulow/articles/, opened; the newspaper itself not opened). A review printed on 24 January excludes the 27 January given on Hyperion’s work pages and in Wikipedia.",
     },
     {
       "t": 1135,
@@ -146,6 +236,24 @@ export default {
       "evidence": "Return at bar 533, condensed reprise of the secondary themes, and Prestissimo at bar 682: https://www.classicalmusic-notes.com/liszt-sonata-1/."
     },
     {
+      "t": 1220,
+      "kind": "world",
+      "title": "A pupil of a pupil",
+      "text": "Jorge Bolet studied with Moriz Rosenthal, a renowned pupil of Liszt. In 1960, the year of this recording, he supplies the piano soundtrack for the film <i>Song Without End</i>, in which Dirk Bogarde plays Liszt.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Baker’s Biographical Dictionary of Musicians, “Bolet, Jorge”: at the Curtis Institute he studied piano with Godowsky (1932–33) and Rosenthal (1935): https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/bolet-jorge-0 . Curtis Institute of Music, “Celebrating Hispanic Heritage: Jorge Bolet (Piano ’40)”, 4 October 2023 (his Curtis teachers include Rosenthal; “In 1960, he played the piano soundtrack” for the Liszt biopic Song Without End; the page misprints the film as 1950): https://www.curtis.edu/news/tag/jorge-bolet . Rosenthal as Liszt’s pupil: “Liszt’s Pupil”, The New Yorker, 26 December 1936, https://www.newyorker.com/magazine/1936/12/26/liszts-pupil ; Steinway & Sons artist page, https://www.steinway.co.jp/steinway.com-americas/artists/moritz-rosenthal . The film (Columbia, directed by Charles Vidor and George Cukor, released 11 August 1960, Dirk Bogarde as Liszt): https://www.rottentomatoes.com/m/song_without_end . All opened."
+    },
+    {
+      "t": 1385,
+      "kind": "music",
+      "title": "Prestissimo, then silence",
+      "text": "An exuberant Prestissimo drives towards a triumphant return of the Grandioso melody and the last climax. Alan Walker stresses that the silence after that climax must be long enough.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Alan Tang, “Understanding Liszt’s Sonata in B Minor (Part 1)”, citing Walker: Prestissimo at bar 682 and the final climax at bar 710. https://www.classicalmusic-notes.com/liszt-sonata-1/"
+    },
+    {
       "t": 1456,
       "kind": "form",
       "title": "Liszt crosses out the flourish",
@@ -153,6 +261,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Andante at bar 711, followed by the three opening ideas at bars 729, 737 and 750: https://www.classicalmusic-notes.com/liszt-sonata-1/. The crossed-out ending is also discussed by Grant Hiroshima: https://www.laphil.com/works/sonata-in-b-minor."
+    },
+    {
+      "t": 1600,
+      "kind": "world",
+      "title": "“Highly delighted”",
+      "text": "Liszt answers Wagner from Weimar on 2 May 1855: “Your letter about the sonata has highly delighted me, and you must excuse me for not having thanked you at once.”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Liszt to Wagner, Weimar, 2 May 1855 (letter 185), in Francis Hueffer’s translation of the Correspondence of Wagner and Liszt, vol. 2. https://www.gutenberg.org/ebooks/4234"
     }
   ],
   "transitions": [
@@ -264,7 +381,7 @@ export default {
       ],
       "basis": "score-proportion",
       "precision": "passage",
-      "evidence": "Fugato from bar 460, with the lower voice and answering entry reproduced at https://www.classicalmusic-notes.com/liszt-sonata-1/. B♭-minor key: https://en.wikipedia.org/wiki/Piano_Sonata_in_B_minor_(Liszt)."
+      "evidence": "Fugato from bar 460, with the lower voice and answering entry reproduced at https://www.classicalmusic-notes.com/liszt-sonata-1/. B♭-minor key: INVENTIO (Catholic University of America), vol. 5 no. 2, https://sites.google.com/cua.edu/inventio/read/volume-5-issue-2/liszt-piano-sonata-in-b-minor-s-178 (opened)."
     },
     {
       "id": "principal-return",

@@ -42,6 +42,15 @@ export default {
       "evidence": "Full score, finale, printed pp. 76–79: opening Allegro molto, two Lento recitatives, and the intervening Allegro molto e frenetico. https://archive.org/download/Cantorion_sheet_music_collection_5/ab0957b6477cf0ab933a63817b908c55.pdf"
     },
     {
+      "t": 40,
+      "kind": "music",
+      "title": "The Sultan reaches for the bass drum",
+      "text": "Rimsky-Korsakov has saved his heaviest percussion for this movement. Across the suite he adds timpani first, then cymbals and triangle, then snare drum and tambourine. Now the Sultan, gruffly impatient, gets the first whack on the bass drum; the tam-tam waits for the wreck.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Paul Serotsky describes the staged introduction of percussion across the suite and the bass drum in the finale’s introduction, with the tam-tam at the shipwreck. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
+    },
+    {
       "t": 74,
       "kind": "music",
       "title": "Flute above the dancers",
@@ -58,6 +67,24 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Paul Serotsky identifies the festival’s contrasting theme as the rescored Allegretto from the third movement. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
+    },
+    {
+      "t": 250,
+      "kind": "world",
+      "title": "Guests from other tales",
+      "text": "Rimsky-Korsakov points out that the Kalender’s principal tune and the Princess’s clarinet theme return as secondary themes of the Baghdad festival. Yet “nothing is said in The Arabian Nights about these persons taking part in the festivities.”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition, pp. 247–248, on the recurrence of the Kalender and Princess themes in the Bagdad festival. https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf"
+    },
+    {
+      "t": 300,
+      "kind": "life",
+      "title": "A summerhouse full of fingerings",
+      "text": "In 1873 Rimsky-Korsakov is appointed Inspector of Music Bands of the Navy. That summer he obtains a trombone, a clarinet and a flute and works out their fingerings at his summerhouse in Pargolovo, playing them “for all the neighbours to hear”. The post is abolished in 1884.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Rimsky-Korsakov, My Musical Life, translated by Judah A. Joffe, second edition: the appointment and the instruments at Pargolovo, pp. 115–117; release from the post in spring 1884, pp. 226–227. https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf"
     },
     {
       "t": 352,
@@ -78,6 +105,15 @@ export default {
       "evidence": "Full score, printed pp. 132–139: Allegro non troppo maestoso, return of the sea material, harp glissandi, and the tam-tam at the culmination. https://archive.org/download/Cantorion_sheet_music_collection_5/ab0957b6477cf0ab933a63817b908c55.pdf"
     },
     {
+      "t": 535,
+      "kind": "music",
+      "title": "The ship shudders and breaks",
+      "text": "The scene cuts like a film to Sinbad’s storm-tossed ship. Its theme stutters in the basses, and the ship shudders and breaks on a stroke of the tam-tam. A stunned calm follows.",
+      "basis": "score-proportion",
+      "precision": "passage",
+      "evidence": "Paul Serotsky describes the cut to Sinbad’s ship, the stuttering bass theme, the tam-tam and the stunned calm after the wreck. https://www.musicweb-international.com/Programme_Notes/rimsky_scheheraz.htm"
+    },
+    {
       "t": 566,
       "kind": "world",
       "title": "One thousand and one nights",
@@ -94,6 +130,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, printed pp. 140–141: Poco più tranquillo, clarinet over strings, followed by Lento recitativo for violin and harp and the rising cadenza. https://archive.org/download/Cantorion_sheet_music_collection_5/ab0957b6477cf0ab933a63817b908c55.pdf"
+    },
+    {
+      "t": 640,
+      "kind": "world",
+      "title": "Bob Varney’s transfer",
+      "text": "Bob Varney transferred Victor’s 78-rpm album DM-920 to digital, and the recording reached the Internet Archive in 2009. The Wikimedia Commons file describes it as restored from the original set.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Internet Archive item Sheherazade: transfer from the original Victor 78 set DM-920 by Bob Varney, added 2009. https://archive.org/metadata/Sheherazade/metadata ; Wikimedia Commons file description: “Transferred and restored from the original 78 set.”"
     },
     {
       "t": 678,

@@ -1,0 +1,201 @@
+{
+  "id": "falla-nights-curzon-jorda",
+  "work": {
+    "title": "Noches en los jardines de España",
+    "catalogue": "Impresiones sinfónicas for piano and orchestra, 1909–15; Max Eschig, 1923",
+    "movement": "Complete: I. En el Generalife; II. Danza lejana; III. En los jardines de la Sierra de Córdoba",
+    "version": {
+      "value": "Complete work for piano and orchestra, three movements, on six 78-rpm sides",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "catalogue"
+      ],
+      "note": "The Internet Archive item lists the three movements and the Spanish catalogue lists the parts on each side. The orchestral edition and any cuts are unknown."
+    }
+  },
+  "performers": {
+    "value": [
+      {
+        "name": "Clifford Curzon",
+        "role": "piano"
+      },
+      {
+        "name": "National Symphony Orchestra",
+        "role": "orchestra"
+      },
+      {
+        "name": "Enrique Jordá",
+        "role": "conductor"
+      }
+    ],
+    "status": "documented",
+    "sourceIds": [
+      "archive",
+      "catalogue"
+    ],
+    "note": "The Spanish catalogue calls the orchestra the Orquesta Sinfónica Nacional de Londres. Individual players are not identified."
+  },
+  "session": {
+    "date": {
+      "value": "1945-09-26",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Stated in the discographical note of the Internet Archive item. The sources consulted give no second statement of the date.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Kingsway Hall, London",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Stated in the Internet Archive item’s discographical note. A 2021 review places the later LP remake of July 1951 in the same hall."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Decca",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "catalogue"
+      ],
+      "note": "Three 78-rpm discs supplied in an album."
+    },
+    "catalogue": {
+      "value": "Decca X 10020–22 (British issue); RG 16051–16053 (Spanish catalogue numbers)",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "catalogue"
+      ],
+      "note": "The Internet Archive item gives X 10020–22; the Spanish catalogue of 1954 gives RG 16051–16053 for the same performers and work."
+    },
+    "matrixTakeSides": {
+      "value": "Six sides, matrices AR 9689-2, 9690-2, 9691-1, 9692-1, 9693-2, 9694-2; the Spanish catalogue divides the work as Generalife parts 1 and 2, Generalife conclusion, Danza lejana part 1, Danza lejana conclusion with Sierra de Córdoba part 1, and Sierra de Córdoba final",
+      "status": "documented",
+      "sourceIds": [
+        "archive",
+        "catalogue"
+      ],
+      "note": "Matrix numbers and side divisions come from two independent listings. Which matrix belongs to which side is not stated."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Satyr 78rpm collection, Internet Archive",
+      "status": "documented",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item is in the Internet Archive’s satyr78rpm collection; no personal mastering credit is given."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "The item was uploaded on 11 July 2022; the date of the transfer itself is not stated."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": [
+        "archive"
+      ],
+      "note": "Equipment, equalisation and restoration settings are not stated. The file is one continuous MP3 of the six sides."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/clifford-curzon-enrique-jorda-de-falla-nights-decca-x-10020-2-1945/Curzon%20Jorda%20-%20Falla%20Nights%20Decca%20X%2010020-2%201945.mp3",
+    "sourceChain": [
+      "archive",
+      "files",
+      "catalogue"
+    ],
+    "format": "VBR MP3; the uploader’s continuous transfer of six 78-rpm sides",
+    "durationSeconds": 1486.11
+  },
+  "rights": {
+    "composition": {
+      "value": "Falla died on 14 November 1946. Spanish law protects the works of authors who died before 7 December 1987 for life plus 80 years, so his music remains protected in Spain until the end of 2026; arrangements and modern editions carry their own rights",
+      "status": "documented",
+      "sourceIds": [
+        "cedro",
+        "argentina"
+      ],
+      "note": "A phonogram term assessment does not clear the composition, an arrangement or a modern score edition."
+    },
+    "recording": {
+      "value": "Territorial EU phonogram public-domain basis: published no later than 1954, before 1963",
+      "status": "inferred",
+      "sourceIds": [
+        "archive",
+        "catalogue",
+        "musicweb"
+      ],
+      "note": "The set is listed in Columbia’s Spanish catalogue of discs published up to 1 January 1954, and a 2021 review says Decca remade the work on LP in July 1951 because the 78 set had been so fine, which places the set before 1951. Its actual first issue date is not established here. This is a territorial phonogram basis, not US or worldwide clearance and not a Creative Commons licence."
+    },
+    "creditLine": "Falla, Noches en los jardines de España; Clifford Curzon, piano; National Symphony Orchestra; Enrique Jordá. Decca X 10020–22, Internet Archive transfer. Territorial EU phonogram basis only; Falla’s composition remains protected in Spain until the end of 2026.",
+    "licenseUrl": ""
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Curzon, Jordá: Falla, Nights (Decca X 10020-2) 1945",
+      "url": "https://archive.org/metadata/clifford-curzon-enrique-jorda-de-falla-nights-decca-x-10020-2-1945",
+      "locator": "Description: Clifford Curzon, National Symphony Orchestra, Enrique Jordá; Decca X 10020–2; matrices AR 9689-2, 9690-2, 9691-1, 9692-1, 9693-2, 9694-2; recorded Kingsway Hall, London, 26 September 1945; the three movements.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "files",
+      "title": "Internet Archive — file inventory for the Curzon item",
+      "url": "https://archive.org/metadata/clifford-curzon-enrique-jorda-de-falla-nights-decca-x-10020-2-1945/files",
+      "locator": "Curzon Jorda - Falla Nights Decca X 10020-2 1945.mp3; VBR MP3; 1486.11 seconds; MD5 d9ae9ee85b762810fdd6295aadfd4686.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "catalogue",
+      "title": "Fábrica de Discos Columbia (San Sebastián) — Catálogo general de discos Columbia y Decca, 78 r.p.m., publicados hasta 1.º de enero de 1954 (ERESBIL copy)",
+      "url": "https://www.eresbil.eus/web/uploads/archivosGeneradorWeb/Catalogos/erelib_NL0212CAT_01_v.pdf",
+      "locator": "Música selecta, orquestas sinfónicas: “Curzon, Clifford (piano), con la Orquesta Sinfónica Nacional de Londres. Director: Enrique Jordá. Noches en los jardines de España”, RG 16051, 16052 and 16053, with the division of the work into parts and a note that the three discs are supplied in an album; and the title index entry giving RG 16051–16053.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "musicweb",
+      "title": "MusicWeb International — Enrique Jordá, The Decca Recordings 1950–51 (Eloquence 484 0403), review by Jonathan Woolf, July 2021",
+      "url": "https://musicweb-international.com/classrev/2021/Jul/Jorda-Decca-4840403.htm",
+      "locator": "Paragraph on Noches en los jardines de España: the 78 set with Curzon, and the LP remake with the New Symphony Orchestra, Kingsway Hall, 2 July 1951.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "archivo",
+      "title": "Archivo Manuel de Falla — chronology",
+      "url": "https://www.manueldefalla.com/en/madrid-1914-1919",
+      "locator": "1916: première of Noches at the Teatro Real, Madrid, 9 April.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "cedro",
+      "title": "CEDRO — Apuntes sobre el dominio público en España (14 April 2026)",
+      "url": "https://www.cedro.org/blog/articulo/blog.cedro.org/2026/04/14/apuntes-sobre-el-dominio-p%C3%BAblico-en-espa%C3%B1a",
+      "locator": "Transitional provision 4: works of authors who died before 7 December 1987 keep the term of the 1879 law, the life of the author and 80 years.",
+      "accessed": "2026-10-18"
+    },
+    {
+      "id": "argentina",
+      "title": "Archivo Manuel de Falla — Argentina (1939–1946)",
+      "url": "https://www.manueldefalla.com/en/argentina",
+      "locator": "1946: Falla dies in his sleep on 14 November at Los Espinillos, near Alta Gracia.",
+      "accessed": "2026-10-18"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-18"
+  }
+}

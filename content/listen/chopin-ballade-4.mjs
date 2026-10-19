@@ -61,6 +61,15 @@ export default {
       "evidence": "Joseffy edition, bars 80–99; Tomaszewski identifies the B♭-major sicilienne and piano e dolce marking. https://chopin.nifc.pl/en/chopin/kompozycja/115_ballade-in-f-minor"
     },
     {
+      "t": 345,
+      "kind": "world",
+      "title": "The Three Budrys?",
+      "text": "In the preface to his edition of the Ballades, the pianist Alfred Cortot tied this one to Mickiewicz’s poem <i>The Three Budrys</i>: three brothers sent off by their father to seek treasure, who come home with three Polish brides. Nothing Chopin wrote confirms it.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Alfred Cortot’s attribution of the Fourth Ballade to Mickiewicz’s Trzech Budrysów, as reported in the preface to Chopin’s Letters, coll. Henryk Opienski, trans. E. L. Voynich (New York: Knopf, 1931), pp. vii–viii, whose translator adds that she knows of no authentic evidence for any of the Ballade–Mickiewicz links: https://archive.org/details/chopinsletters00chop. Cortot’s own foreword to the Salabert edition was not opened."
+    },
+    {
       "bar": { "n": "129", "occ": 1 },
       "kind": "form",
       "title": "The opening in A major",
@@ -77,6 +86,15 @@ export default {
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Joseffy edition, bars 135–145: imitative return beginning A–B♭–D–C♯ in D minor, with the lower voice entering half a bar later; F-minor theme from bar 139."
+    },
+    {
+      "bar": { "n": "152", "occ": 1 },
+      "kind": "music",
+      "title": "Ornaments in the high register",
+      "text": "The first theme comes back as a decorated song, with nocturne-like embellishments floating far up the keyboard above the harmony. Jim Samson calls it a “cantabile-decorative treatment of exquisitely moulded ornamental melody”.",
+      "basis": "score-aligned",
+      "precision": "passage",
+      "evidence": "Jim Samson, Chopin: The Four Ballades (Cambridge University Press, 1992): “a cantabile-decorative treatment of exquisitely moulded ornamental melody” (found by full-text search at the Internet Archive; the page itself was not read). Joseffy edition (Mutopia Project), bars 152–168: https://www.mutopiaproject.org/ftp/ChopinFF/O52/ballade-4/ballade-4-lys/ballade-4.ly"
     },
     {
       "bar": { "n": "169", "occ": 1 },

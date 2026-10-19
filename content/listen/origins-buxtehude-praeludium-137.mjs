@@ -94,6 +94,15 @@ export default {
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Les Éditions Outremontaises score (2007), from bar 75, marked Presto Ciacona in 3/2. Relf Clark identifies the eight statements and the ground’s relation to the subject. https://www.hyperion-records.co.uk/dw.asp?dc=W10872_GBAJY0861201"
+    },
+    {
+      "t": 266,
+      "kind": "world",
+      "title": "A 1984 organ in Gerstetten",
+      "text": "Fabian Wöhrle plays the Reiser organ of the Catholic church of St Peter and St Paul in Gerstetten, a town in Baden-Württemberg. Built in 1984, it has two manuals, pedals and 22 stops.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "The Commons description of this recording names the performer, the church and the Reiser organ, II/P/22, 1984 (two manuals, pedal, 22 stops): https://commons.wikimedia.org/wiki/File:D._Buxtehude_Pr%C3%A4ludium,_Fuge_und_Chaconne_C-Dur_BuxWV_137_Fabian_W%C3%B6hrle_Kath._Kirche_Gerstetten.mp3"
     }
   ],
   "transitions": [

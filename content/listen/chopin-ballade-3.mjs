@@ -50,6 +50,15 @@ export default {
       "evidence": "Repeated C octaves and mezza voce: https://en.wikipedia.org/wiki/Ballade_No._3_(Chopin). Syncopated second theme: https://chopin.nifc.pl/en/chopin/kompozycja/110."
     },
     {
+      "t": 170,
+      "kind": "world",
+      "title": "Mickiewicz’s water nymph?",
+      "text": "Schumann wrote in 1841 that Chopin had told him certain poems of Mickiewicz suggested his ballades. For this Third Ballade, tradition names Mickiewicz’s <i>Świtezianka</i>, about a water nymph and a hunter who breaks his oath of faithfulness. Nothing Chopin said ties the poem to this piece.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Schumann’s 1841 review of the Second Ballade, quoted in Dorota Zakrzewska, ‘Alienation and Powerlessness: Adam Mickiewicz’s Ballady and Chopin’s Ballades’, Polish Music Journal 2 (1999): https://polishmusic.usc.edu/research/publications/polish-music-journal/vol2/mickiewicz-and-chopin/ . The Third Ballade’s usual association with Świtezianka: https://en.wikipedia.org/wiki/Ballade_No._3_(Chopin)."
+    },
+    {
       "t": 210,
       "kind": "world",
       "title": "Pauline’s name on the score",

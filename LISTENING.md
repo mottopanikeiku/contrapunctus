@@ -42,7 +42,7 @@ Period-instrument ensembles often play at A = 415 Hz, a semitone below modern pi
 
 ## Notes (`cues`)
 
-**Fewer, better.** Between 3 and 10 notes per recording, and no more than one per 45 seconds of music. Each note exists because something is worth saying at that point. Long silences between notes are fine: the music is playing.
+**Enough, and no more.** At least 3 notes per recording (1–2 for a very short track), and no more than one per 40 seconds of music. A long movement keeps its notes coming all the way through: a 40-minute symphony with ten notes leaves the listener alone for minutes at a time. Each note exists because something is worth saying at that point: something in the score, or a sourced story about the people who made, played or first heard it.
 
 - `kind`:
   - `music` — what is happening now, by name: an entry, a key, a return, a marking in the score, a technique.

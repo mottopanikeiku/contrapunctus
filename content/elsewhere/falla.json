@@ -1,0 +1,47 @@
+{
+  "composer": "falla",
+  "items": [
+    {
+      "work": "Fantasía bética · Homenaje ‘Pour le tombeau de Claude Debussy’ · Cuatro piezas españolas — piano works",
+      "year": "1906–20",
+      "performers": "Garrick Ohlsson, piano",
+      "recorded": "2016",
+      "label": "Hyperion, CDA68177",
+      "note": "Falla’s piano music in one programme, recorded at St Silas the Martyr, Kentish Town, in November 2016. Roger Nichols’s booklet note hears reminiscences of Debussy’s La soirée dans Grenade at the end of the Homenaje.",
+      "links": [
+        { "kind": "label", "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68177", "title": "Falla: Fantasia Baetica & other piano music, on Hyperion Records" },
+        { "kind": "youtube", "url": "https://www.youtube.com/watch?v=IWJt8Z0oiU8", "title": "Garrick Ohlsson — Falla: Fantasia Baetica & Other Piano Music (Hyperion Records channel)" }
+      ]
+    },
+    {
+      "work": "Homenaje ‘Pour le tombeau de Claude Debussy’ — guitar version",
+      "year": "1920",
+      "performers": "Christoph Denoth, guitar",
+      "recorded": "2012",
+      "label": "Signum Classics, SIGCD404",
+      "note": "The piece as Falla first wrote it, for solo guitar, in the album Homages, recorded in January 2012 and released in October 2014. It runs three minutes forty-one seconds.",
+      "links": [
+        { "kind": "label", "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W16322_GBLLH1440412", "title": "Homenaje, from Homages (SIGCD404), on Hyperion Records" }
+      ]
+    },
+    {
+      "work": "Noches en los jardines de España · El sombrero de tres picos · La vida breve",
+      "year": "1909–19",
+      "performers": "Alicia de Larrocha, piano; Teresa Berganza, mezzo-soprano; Orchestre de la Suisse Romande; Sergiu Comissiona and Ernest Ansermet",
+      "recorded": "",
+      "label": "Decca",
+      "note": "One Decca disc with Nights and the complete ballet, in which Berganza sings the voice part, and an excerpt from La vida breve.",
+      "links": [
+        { "kind": "label", "url": "https://www.deccaclassics.com/en/catalogue/products/de-falla-nights-in-the-gardens-of-spain-9202", "title": "De Falla: Nights in the Gardens of Spain, on Decca Classics" },
+        { "kind": "apple", "url": "https://music.apple.com/us/album/falla-nights-in-the-gardens-of-spain-3-cornered-hat/1452369719", "title": "Falla: Nights in the Gardens of Spain · 3-Cornered Hat · La vida breve, on Apple Music" }
+      ]
+    }
+  ],
+  "sources": [
+    { "title": "Hyperion Records — Falla: Fantasia Baetica & other piano music (CDA68177): performer, recording and release details, booklet note by Roger Nichols", "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68177" },
+    { "title": "YouTube oEmbed — video IWJt8Z0oiU8 is uploaded by the channel Hyperion Records", "url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=IWJt8Z0oiU8&format=json" },
+    { "title": "Hyperion Records — Homenaje (Falla), Christoph Denoth, guitar, from SIGCD404: recording January 2012, release October 2014, duration 3:41", "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W16322_GBLLH1440412" },
+    { "title": "Decca Classics — De Falla: Nights in the gardens of Spain: performers and programme", "url": "https://www.deccaclassics.com/en/catalogue/products/de-falla-nights-in-the-gardens-of-spain-9202" },
+    { "title": "Apple Music — Falla: Nights in the Gardens of Spain · 3-Cornered Hat · La Vida Breve: album and performer credits", "url": "https://music.apple.com/us/album/falla-nights-in-the-gardens-of-spain-3-cornered-hat/1452369719" }
+  ]
+}

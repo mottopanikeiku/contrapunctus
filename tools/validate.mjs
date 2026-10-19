@@ -33,7 +33,7 @@ const PROSE_SKIP = new Set(['abc', 'file', 'url', 'href', 'id', 'slug', 'focus',
 const MACHINE = [
   /[−-]?\d+(?:\.\d+)?\s?dB\b/, /\bdB\b/, /\bdecibels?\b/i, /\brelative level\b/i, /\b(?:the |recorded )level (?:rises|falls|drops|jumps|stays|climbs|sinks|dips)\b/i,
   /\bloudest windows?\b/i, /\bfive-second\b/i, /\bthe report\b/i, /\banalysis (?:shows|places|detects|finds|suggests|report)\b/i, /\bkey estimate/i,
-  /\bcache\//, /\bnovelty (?:peak|curve)\b/i, /\b(?:at|confidence(?: of)?) 0\.\d\d\b/, /\bWikipedia (?:hears|says|calls|describes|notes)\b/i,
+  /(?<![/\w.])cache\//, /\bnovelty (?:peak|curve)\b/i, /\b(?:at|confidence(?: of)?) 0\.\d\d\b/, /\bWikipedia (?:hears|says|calls|describes|notes)\b/i,
   /\baccording to the [^.]{0,60}?\bnotes?\b/i,
 ];
 const HEDGE = [/\bneed not\b/i, /\bnot evidence (?:of|for)\b/i, /\bis not evidence\b/i, /\bnot a documented\b/i, /\beditorial comparison\b/i, /\bdoes not (?:claim|establish|identify|imply|assert)\b/i, /\bis claimed\b/i, /\bnot a measurement\b/i];
@@ -272,8 +272,8 @@ for (const f of files) {
         if (!BASES.has(tr.basis) || !['moment', 'passage'].includes(tr.precision) || !tr.evidence) err(f, `transition ${name}: needs basis, precision, evidence`);
         if (tr.precision === 'moment' && !['score-aligned', 'audio-feature'].includes(tr.basis)) err(f, `transition ${name}: moment precision needs score-aligned or audio-feature basis`);
       }
-      const maxNotes = Math.max(3, Math.ceil(dur / 45));
-      if (cues.length > maxNotes) err(f, `${cues.length} notes for ${Math.round(dur)} s; at most ${maxNotes} (one per 45 s of music)`);
+      const maxNotes = Math.max(3, Math.ceil(dur / 40));
+      if (cues.length > maxNotes) err(f, `${cues.length} notes for ${Math.round(dur)} s; at most ${maxNotes} (one per 40 s of music)`);
       if (!cues.length) err(f, 'no notes');
     }
   }

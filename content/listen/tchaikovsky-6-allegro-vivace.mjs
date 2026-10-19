@@ -48,6 +48,15 @@ export default {
       "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 15, reproduces the clarinet theme. E-major key and quiet unison scoring: https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky)."
     },
     {
+      "t": 175,
+      "kind": "life",
+      "title": "Corrections after the première",
+      "text": "On the title page of his full score Tchaikovsky adds a note, apparently after the first performance: “I made some corrections in the 2nd and 3rd movements, which need to go into the parts!!! Ask Mr Kleinecke to attend to this.”",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Tchaikovsky’s note on the title page of the autograph score, added, it seems, after the première, as printed in the Tchaikovsky Research entry on Symphony No. 6 (Autographs). https://en.tchaikovsky-research.net/pages/Symphony_No._6"
+    },
+    {
       "t": 235,
       "kind": "form",
       "title": "Back to the quick strings",
@@ -82,6 +91,15 @@ export default {
       "basis": "documented",
       "precision": "passage",
       "evidence": "Tchaikovsky’s inscription in the third-movement sketches, 11 February 1893 Old Style (23 February New Style), quoted at https://en.tchaikovsky-research.net/pages/Symphony_No._6."
+    },
+    {
+      "t": 495,
+      "kind": "world",
+      "title": "Heroism or desperation",
+      "text": "Critics and audiences have found this march confusing. David Brown reads it as “a desperate bid for happiness so prolonged and vehement” that it confirms both the desperation of the search and its futility. The G-major landing that ends it often draws premature cheers.",
+      "basis": "documented",
+      "precision": "passage",
+      "evidence": "Harlow Robinson’s Boston Symphony programme note on the symphony, which quotes David Brown on the third movement and describes the G-major landing and the cheers it provokes. https://www.bso.org/works/tchaikovsky-symphony-no-6"
     },
     {
       "t": 540,

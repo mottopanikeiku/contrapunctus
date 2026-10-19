@@ -26,6 +26,12 @@ export default {
       "evidence": "The dedication is recorded by the BnF: https://catalogue.bnf.fr/ark:/12148/cb13917720k. Family relationship, wartime correspondence and Normandy stay: Eric T. Williams, Kansas City Symphony programme, 5–7 April 2024, pp. 5–6. https://www.kcsymphony.org/wp-content/uploads/2024/03/FY24-CS10-Program-Book-Digital-2024-04-05.pdf",
     },
     {
+      "t": 72, "kind": "world", "title": "From one Forlane to a Tombeau",
+      "text": "Ravel begins in 1914 with a single piano <i>Forlane</i>. Military service interrupts the work, and he returns to it in the spring of 1917, once he has been discharged. The project deepens when he dedicates each piece to the memory of a friend or comrade killed in the war.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Orchestre national de Lyon programme note by Coline Miallier (25 and 27 November 2021): the 1914 Forlane, the interruption by military service, the resumption in spring 1917 and the dedications to fallen comrades. https://www.auditorium-lyon.com/en/node/13646",
+    },
+    {
       "t": 110, "kind": "form", "title": "A bagpipe beneath the chords",
       "text": "The central dance is a <i>Musette</i>. Its G-minor chords move over a drone, the keyboard’s imitation of a bagpipe. The B♭ darkens the tune, while E♮ gives the minor scale an unexpectedly bright sixth step.",
       "basis": "score-proportion", "precision": "passage",
@@ -36,6 +42,12 @@ export default {
       "text": "The minuet’s first melody returns in G major. Beneath it, the left hand keeps the musette’s chords. The piano now plays both dances at once: the ornamented tune above, the quieter chordal steps below.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand piano score (1918), Menuet, p. 22; Piano Practical Editions, bars 73–80, p. 36, superimposes the minuet melody and musette accompaniment.",
+    },
+    {
+      "t": 215, "kind": "world", "title": "Piano first, then orchestra",
+      "text": "Marguerite Long plays the piano suite first, at the Salle Gaveau on 11 April 1919. Ravel then scores four of its six movements for small orchestra, the Menuet among them; Rhené-Baton conducts them at the Concerts Pasdeloup on 28 February 1920.",
+      "basis": "documented", "precision": "passage",
+      "evidence": "Orchestre national de Lyon programme note (2021): première of the piano version by Marguerite Long, Salle Gaveau, 11 April 1919; orchestration of four movements (Prélude, Forlane, Menuet, Rigaudon), first performed at the Concerts Pasdeloup on 28 February 1920 under Rhené-Baton. https://www.auditorium-lyon.com/en/node/13646",
     },
     {
       "t": 238, "kind": "music", "title": "Arpeggios open the hands",
