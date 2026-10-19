@@ -17,9 +17,9 @@ export default {
 
   preludeTitle: 'Introduction',
   prelude: `
-<p class="dropcap">The Concert Hall plays real recordings, from plainchant to Shostakovich’s Fifth Symphony, in the order the composers were born. Short notes appear as the music reaches them, and where a score is available, the page moves with the sound. Each of the evenings below can also be played straight through without choosing individual pieces.</p>
+<p class="dropcap">The Concert Hall plays historical and openly licensed recordings, from plainchant to Boulez’s <i>Le Marteau sans maître</i>, in the order the composers were born. Short notes appear as the music reaches them, and where a score is available, the page moves with the sound. Each of the evenings below can also be played straight through without choosing individual pieces.</p>
 <p>Each composer has a chapter. It gives the life, in the composer’s own words where they survive; what the music is made of; the works to start with; short examples to play; and the paintings and poems associated with the music. Every piece in the Hall has a page of its own, with all its recordings and all its notes.</p>
-<aside class="note"><b>Copyright</b>Most recordings made since the 1960s are still under copyright, so the Hall cannot play Messiaen, Ligeti or Reich. Their chapters point to the labels’ and artists’ own recordings.</aside>
+<aside class="note"><b>Copyright</b>Recordings first published in 1963 or later are still protected. The Hall therefore has nothing by Ligeti, Reich and several other recent composers, and its Messiaen, Britten and Boulez come from records issued before 1963. The chapters point to the labels’ and artists’ own recordings.</aside>
 <p>The chapters overlap, as the periods of music do. In 1909 [[rachmaninoff|Rachmaninoff]] wrote his Third Piano Concerto for his first American tour, and [[schoenberg|Schoenberg]] wrote his Three Piano Pieces, Op. 11, which have no home key. The Web of Influence and the Map follow what passed between composers, such as a copied score, a borrowed tune, or two composers in the same city in the same year.</p>
 <p>Where a story is legend, the text says whose legend it is. The sources are given on every page.</p>`,
 

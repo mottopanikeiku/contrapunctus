@@ -1,0 +1,37 @@
+{
+  "id": "britten-serenade-dirge",
+  "verdict": "pass",
+  "defects": [],
+  "reviewer": "Rev2A",
+  "date": "2026-10-19",
+  "corrections": [
+    {
+      "basis": "MEAS",
+      "code": "SECTION_TIME",
+      "finding": "Section Var 6–7 started at 172 s. Cross-correlating the first stanza’s melodic chroma with the track puts the stanza starts at about 1.4, 30, 59, 85, 112, 138.4, 164.6, 191.3 and 219.9 s (the ninth at 0.95). Stanza 7 therefore begins at about 165 s, not 172 s. The bass enters at about 28.7 s and the horn at about 137.5–138.4 s; the other section times and cues (31, 140, 222, 224) are within 2–4 s and were left.",
+      "fix": "Var 6–7 moved to 165 s."
+    },
+    {
+      "basis": "INFERENCE",
+      "code": "TITLE_COLON",
+      "finding": "Cue title Last stanza: the first returns used a colon reveal.",
+      "fix": "Now Ninth stanza, repeat of the first."
+    },
+    {
+      "basis": "EXT",
+      "code": "RIGHTS_EVIDENCE_ADDED",
+      "finding": "First publication rested on Stuart’s discography alone; the strings-entry note had no period source for the basses’ fugue.",
+      "fix": "Added The Gramophone, December 1945 and February 1946 to the listen file and the dossier (as for the Elegy); the Gramophone line (double-basses begin a fugue) added to the strings cue evidence."
+    }
+  ],
+  "checks": {
+    "source": "MEAS: item metadata read (CHARM, matrix AR_8464-4, catalogue 1153); cached MP3 MD5 5979a0509d58… equals the manifest; 253.61 s; complete movement (tenor from about 1.4 s to a final low G on his own at about 250 s). Pitch: tune centred on G4 about 392 Hz; horn F5/E5 at the entry measure 698–705 Hz and 658–661 Hz, so about A = 440 within +10 cents.",
+    "identity": "EXT: Stuart session 0288 and CHARM METS_AK_1151 as for the Elegy. Take 4 of 8464; the dossier’s 8 Oct 1944 date is an inference from the re-made-sides statement and says so (an early-November 1944 Britten postcard about the new Serenade takes, quoted in a Gramophone feature, fits an October remake; that page was not opened).",
+    "notes": "EXT: LA Phil note by Herbert Glass verified: no marking other than come un lamento, constant mezza voce following Pears; Palmer quotations (fugally impelled funeral procession; unregardingly, impassively independent; close enough to strike mortal terror; horn hysteria; makes off; disembodied wail and whine of the singer); premiere 15 Oct 1943 with Walter Goehr (Wigmore Hall from Wikipedia); Britten tribute to Brain (met summer 1942; His help was invaluable in writing the work). Sun Valley note: RAF Orchestra, radio scores 1942. Cooke: six-bar theme, tenor begins and ends alone, horn at From Brig o’ Dread with the cellos’ and basses’ first-entry music. Nine stanzas confirmed. MEAS: bass band enters at about 28.7 s; horn F5→E5 at about 138 s, level jump at 139.8 s. Basses are still sounding in the first part of the ninth stanza (to about 233 s); the tenor is alone at the end, so the cue wording (ends alone) stands as Cooke’s. Six notes for 253.6 s (limit 7). Voice rules checked. Not an aural review."
+  },
+  "rights": {
+    "decision": "Publish on the EU/UK basis stated.",
+    "iaFlags": "Not flagged: no curation, noindex, dark or access-restriction field; CHARM collection.",
+    "reasoning": "UK first issue November 1945 (Stuart); The Gramophone, December 1945, reviews the set. Studio recording. Composition in copyright to the end of 2046 (Britten d. 1976), stated in the dossier. US status not established."
+  }
+}

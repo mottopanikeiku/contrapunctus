@@ -1,0 +1,55 @@
+{
+  "id": "boulez-marteau-2",
+  "verdict": "pass",
+  "reviewer": "Rev2C",
+  "date": "2026-10-19",
+  "scope": "MEAS: Internet Archive metadata and file list (c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez, file f2), cached MP3 MD5 against the Archive manifest, full-length envelope, band-limited silence detection (250–6000 Hz), spectrograms around 570–650 s and 920–1020 s, tuning offset, side start and end. EXT: OCR of the Vega C 35 A 67 sleeve, Lonchampt’s note in the IRCAM work record, the Philharmonie de Paris / Ministry of Culture Boulez biography, L’Express 12 November 1959 (OCR text), the Archive item for Vega C 30 A 66 (metadata and track list), Discogs (user-contributed), MusicBrainz (work page for movement VIII), MusicWeb review of the Accord reissue (2006), French Wikipedia. Not opened: Boulez, Penser la musique aujourd’hui (dossier search snippets), Gallica. Not an aural review.",
+  "defects": [],
+  "corrections": [
+    {
+      "basis": "MEAS",
+      "code": "MOVEMENT_IX_START",
+      "finding": "Section D and the “whole ensemble” cue stood at 590 s, 9 s before the start of movement IX. The last percussion click of movement VIII is at 592.9 s, then 6.6 s of silence; the first sound of IX is at 599.5 s. IX then lasts 6:58 to the end of the music at 1017.1 s, which equals MusicBrainz’s 6:58, and VIII lasts 5:40 against its 5:41.",
+      "fix": "Section D and its cue moved to 599 s."
+    },
+    {
+      "basis": "MEAS",
+      "code": "MOVEMENT_START_TIMES",
+      "finding": "Movements VII and VIII start at 191.6 s and 252.9 s (silences of 3.7 s and 5.6 s end there); the file had 190 and 252.",
+      "fix": "Sections B and C and their cues moved to 192 and 253 s."
+    },
+    {
+      "basis": "INFERENCE",
+      "code": "CUE_WORDING",
+      "finding": "The 700 s cue was titled “The voice leaves the words” (a personifying title) and said the voice “trades” phrases with the flute.",
+      "fix": "Retitled “Voice and flute without words”; “alternates” replaces “trades”. Content (Lonchampt on movement IX) unchanged."
+    },
+    {
+      "basis": "EXT",
+      "code": "VERSION_AND_SIDES_EVIDENCE",
+      "finding": "The dossier inferred the pre-1957 version and the side contents from MusicBrainz data only, and its quiet passages at 3:10, 4:12 and 9:50 were up to 9 s off the measured joins.",
+      "fix": "Dossier now cites MusicWeb’s “1955 version [30:44]” for the Accord reissue of the 1956 recording, the Discogs side listing (B1–B4 for VI–IX) and my measured joins and piece lengths; status stays inferred."
+    }
+  ],
+  "checks": {
+    "source": "f2 is listed as VBR MP3, 1020.06 s; the cached MP3 (md5 5452e0e9…) matches the Archive manifest. Same item, collections and clean metadata as boulez-marteau-1: no licence field, no litigation, restriction or dark marker.",
+    "durationAndPitch": "The file starts with about 1 s of digital silence, the music runs from 1.0 s to 1017.1 s, and about 3 s of digital silence follow. Tuning +0.6 cents against A = 440 (f1 +2.8), low concentration for the reason given in boulez-marteau-1. No key is written; no transposition or speed correction is needed. The four pieces last about 3:07, 0:56, 5:40 and 6:58 (MusicBrainz for the 1956 recording: 3:09, 1:01, 5:41, 6:58).",
+    "identity": "Same sleeve, credits and catalogue number as boulez-marteau-1 (Vega C 35 A 67; Cahn, Tiberge, Collot, Stingl, Delécluse, Naudin, Cavaillé; Boulez conducting per L’Express, the biography and the Archive description). Movements 6–9 on the sleeve are Bourreaux de solitude, Après L’Artisanat furieux, Commentaire III de Bourreaux de solitude and Bel édifice et les pressentiments, double; Discogs lists them as B1–B4. The shortest piece on the side (VII, 56 s) is the shortest of the nine, as the cue says.",
+    "sideBreak": "Checked from this side’s end of the join: the music of side 2 starts at 1.0 s with the first sound of movement VI (no earlier tail of another piece) and ends at 1017.1 s with the close of IX; the pieces between are separated by silences ending at 191.6 s, 252.9 s and 599.5 s. The matching end of side 1 is described in boulez-marteau-1: V ends at 847 s, so the LP side change falls between V and VI and splits no movement.",
+    "notes": "Every cue checked. 0 s (VI): Lonchampt, “la pièce la plus longue et la plus austère de l’ensemble” (the note says “most austere” and leaves out “longest”, which does not hold for this recording, where VIII and IX are longer) and “jeu de rythmes complémentaires … peut-être hérité de la Symphonie opus 21 de Webern”; sleeve for the Commentaires as instrumental pieces. 60 s: the Archive item for Vega C 30 A 66 (“Les Concerts Du Domaine Musical – IVe Concert 1956”; Webern Symphony and Lieder, Nono Incontri, Stockhausen Kontrapunkte, Marteau extracts 3, 6, 9) and L’Express (“Orch., dir. Pierre Boulez”). 192 s (VII): “la plus courte … Écrite pour trois instruments … jeu rythmique d’une grande lisibilité”. 253 s (VIII): “superposer le solo de flûte et les rudes doubles notes du xylorimba … claves, cloche double et bongos”. 330 s: L’Express footnote, “Version intégrale … Grand Prix du Disque ; Académie Charles-Cros. Vega C 35 A 67”. 480 s: “Les trois poèmes sont tirés du recueil éponyme de René Char”; Visage nuptial 1946 (Lonchampt and biography). 599 s (IX): “réunie au complet pour la seule dernière pièce”, “tempo libre de récit”, “citations des pièces antérieures”. 700 s: voice “vite « libérée » du texte, usant par instants du sprechgesang … vocalises … sauf la percussion”. 940 s: flute with “deux tam-tams graves et gong”, “ambiance recueillie”; the spectrogram shows broadband low-frequency blocks and a flute line from about 936 s. Nine notes for 1020 s (limit 26). Voice rules read by hand and by the validator.",
+    "validate": "node tools/validate.mjs content/listen/boulez-marteau-2.mjs content/dossiers/boulez-marteau-2.json prints ok for both files after the fixes."
+  },
+  "rights": {
+    "decision": "Publish on the territorial EU basis stated in the dossier, with the live-capture question recorded; US status is not claimed.",
+    "reasoning": "Same grounds as boulez-marteau-1. (1) L’Express of 12 November 1959 lists the complete Vega C 35 A 67 with its Grand Prix du Disque; the biography places the release under 1956 and French Wikipedia gives LP 1956 and Grand Prix 1957; a French phonogram published between 1956 and 1959 had run its 50-year term by the end of 2009 at the latest. (2) A commercial LP, not a broadcast; the “Recorded live in 1956” note on Discogs is unconfirmed by the sleeve and the silences between movements are clean. I treat the item as a published phonogram and record the question for the integration owner. (3) Boulez (died 2016) and Char (died 1988) remain in copyright; the dossier says so. (4) No licence, litigation or restriction marker on the Archive item.",
+    "limits": "Penser la musique aujourd’hui (1963) and the BnF record on Gallica (HTTP 403) were not opened."
+  },
+  "observations": [
+    {
+      "basis": "INFERENCE",
+      "code": "CUE_700_PLACEMENT",
+      "finding": "The 700 s cue (voice freed from the text, then vocalises with the flute) is placed about 100 s into IX on the strength of Lonchampt’s order of events; no source or measurement gives the time of the first vocalise. The cue is a passage note and the sequence it describes occupies the middle of the movement, so it was left.",
+      "action": "None."
+    }
+  ]
+}

@@ -22,10 +22,10 @@ export default {
   },
   intro: 'This is the Larghetto, the second movement of Poulenc’s Concerto for Two Pianos in D minor, FP 61, which opens with a solo piano melody in the manner of Mozart. Arthur Whittemore and Jack Lowe were the soloists with Dimitri Mitropoulos in a 1947 recording.',
   sections: [
-    { t: 0, label: 'A · A piano sings alone', m: 'A' },
+    { t: 0, label: 'A · Solo piano', m: 'A' },
     { t: 168, label: 'B · Plus allant, both pianos', m: 'B' },
     { t: 314, label: 'A′ · Opening theme again', m: 'A′', mNote: 'Piano melody over pizzicato strings, then a winding second-piano line' },
-    { t: 380, label: 'Coda · A last piano ripple', m: 'Coda' },
+    { t: 380, label: 'Coda · Final piano figure', m: 'Coda' },
   ],
   cues: [
     {

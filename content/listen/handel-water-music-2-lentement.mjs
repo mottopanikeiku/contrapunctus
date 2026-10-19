@@ -62,7 +62,7 @@ export default {
     },
     {
       id: 'into-da-capo',
-      title: 'Da capo brings back the brass',
+      title: 'Da capo, return of the brass',
       from: 'B · A strain without brass',
       to: 'A · Return of the first strain',
       at: { t: 98 },

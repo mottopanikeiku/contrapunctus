@@ -1,0 +1,49 @@
+{
+  "id": "boulez-marteau-1",
+  "verdict": "pass",
+  "reviewer": "Rev2C",
+  "date": "2026-10-19",
+  "scope": "MEAS: Internet Archive metadata and file list (c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez, files f1 and f2), cached MP3 MD5 against the Archive manifest, full-length envelopes, band-limited silence detection (250–6000 Hz), spectrograms of every join, tuning offset, side ends. EXT: OCR of the Vega C 35 A 67 sleeve (Souvtchinsky’s note, nine-part list, credits), Lonchampt’s note in the IRCAM work record, the Philharmonie de Paris / Ministry of Culture Boulez biography, L’Express 12 November 1959 (OCR text), Jed Distler’s 2000 interview (as republished 2016), Discogs (user-contributed), MusicBrainz (work page for movement VIII only), MusicWeb review of the Accord reissue (2006), French Wikipedia. Not opened: Boulez, Penser la musique aujourd’hui (the dossier’s search snippets), Gallica. Not an aural review.",
+  "defects": [],
+  "corrections": [
+    {
+      "basis": "MEAS",
+      "code": "MOVEMENT_START_TIMES",
+      "finding": "Section and cue times for movements II, III and V were 2 to 2.4 s off the measured starts. The silences between movements end at 1:31.6 (II), 5:25.3 (III), 7:38.2 (IV) and 10:57.2 (V); the old values were 94, 327, 458 and 655 s.",
+      "fix": "Sections B, C and E and their cues moved to 92, 325 and 657 s; IV at 458 s stands."
+    },
+    {
+      "basis": "EXT",
+      "code": "GUIMET_WORDING",
+      "finding": "The 150 s cue said Boulez “had heard recordings from Africa and Asia at the Musée Guimet”. The biography says he discovered recordings of music from Africa, India, Indonesia and Asia “thanks to Mady Sauvageot, curator of music collections at the musée Guimet”; it does not say they were heard there.",
+      "fix": "Cue reworded to say Mady Sauvageot of the Musée Guimet introduced him to the recordings in 1945–46; the evidence line lists the regions as the biography does."
+    },
+    {
+      "basis": "EXT",
+      "code": "VERSION_AND_SIDES_EVIDENCE",
+      "finding": "The dossier inferred the pre-1957 version and the side contents from MusicBrainz data only, and its “quiet passages” at 1:35, 5:27, 7:38 and 10:55 were 3 to 4 s off the measured joins.",
+      "fix": "Dossier now cites MusicWeb’s “1955 version [30:44]” for the Accord reissue of the 1956 recording, the Discogs side listing (A1–A5, B1–B4) and my measured joins and piece lengths; status stays inferred."
+    }
+  ],
+  "checks": {
+    "source": "f1 is listed as VBR MP3, 850.23 s; the cached MP3 (md5 22d01f00…) matches the Archive manifest. Metadata: collections hifidelity and hifidelity_potpourri, no licence field, no litigation, restriction or dark marker. The item also has WAV and FLAC of each side and the scanned sleeve.",
+    "durationAndPitch": "The file starts with about 0.9 s of digital silence, the music runs from 0.9 s to 847.0 s, and about 3 s of digital silence follow. Across both sides the nine pieces add up to about 30 min 25 s between the silences, against 30 min 44 s for the same 1956 recording on the Accord reissue (MusicWeb) and 30 min 41 s from MusicBrainz’s movement lengths. Tuning: +2.8 cents against A = 440 (f2 +0.6), with low concentration because vibraphone, xylorimba and percussion are not steady pitches, but the two sides agree. No key is written; no transposition or speed correction is needed.",
+    "identity": "Sleeve: “LES CONCERTS DU DOMAINE MUSICAL, 4me CONCERT – SAISON 1956 (Enregistré sous les auspices du Conseil International de la Musique avec le concours de l’UNESCO)”; PIERRE BOULEZ, Le Marteau sans Maître, texte de René CHAR; nine parts “séparées par des silences de durées inégales” listed 1–9 (Avant L’Artisanat furieux … Bel édifice et les pressentiments, double); scoring “voix d’alto, flûte en sol, alto, guitare, vibraphone, xylorimba, percussion”; performers Chant Marie-Thérèse CAHN, Flûte M. J. TIBERGE, Alto M. COLLOT, Guitare M. A. STINGL, Vibraphone M. J. DELECLUSE, Xylorimba M. P. NAUDIN, Percussion M. A. CAVAILLE. The sleeve names no conductor; Boulez is credited as conductor by L’Express (“Dir. : Pierre Boulez”), the Boulez biography and the Archive description. Vega C 35 A 67 is “version intégrale” in L’Express of 12 November 1959. Discogs lists 25 cm mono LP, engineer Pierre Rosenwald, A1–A5 and B1–B4 as on the sleeve.",
+    "sideBreak": "The break between the two parts falls between movements, not inside one. Side 1 is movements I–V: four silences end at 1:31.6, 5:25.3, 7:38.2 and 10:57.2 and divide the music into pieces of about 1:26, 3:50, 2:05, 3:12 and 3:10, agreeing with MusicBrainz’s lengths for the 1956 recording (1:30, 3:52, 2:06, 3:14, 3:10). The last piece, V, runs 657.2–846.9 s (3:10) and its last notes fade to the end of the music at 847 s, where the digital silence begins; the cut leaves the final resonance about 10 dB above the floor of the silences between movements, so a few seconds of decay may be trimmed, but no movement is split. Side 2 (boulez-marteau-2) begins after 1 s of silence with VI, 3:07 long to the next silence, matching MusicBrainz’s 3:09. Both sides together give nine pieces in the sleeve’s order, and Discogs puts the side change after movement 5.",
+    "notes": "Every cue checked against the sleeve, Lonchampt’s note, the biography or the interview. Movement I (0 s): “débute comme un double duo entre flûte et vibraphone … guitare et alto … après une courte cadence de l’alto … se mêler plus librement”. II (92 s): ternary form, long flute solo over “le doux murmure”, xylorimba section, brief return of the flute. III (325 s): flute and voice, citation of Der Kranke Mond, “alternance de superpositions et de tuilages”; poem as printed on the sleeve. IV (458 s): only piece without flute; blocks and stops; viola pizzicato then arco; triangle “in extremis”. V (657 s): unstable instrumental sections alternating with sung interventions; two versions of one text (5 and 9). 40 s: sleeve heading and credit; 21 March 1956, Petit Marigny, Cahn (biography). 150 s: Distler (“The beginning of the second piece is very much under the influence of central African music with all this wood percussion and xylophone”, London, late August 2000; republished 6 January 2016); Guimet (biography, winter 1945–46). 300 s: “L’œuvre se divise en 9 parties séparées par des silences de durées inégales, qui ont chacune leur propre signification” (sleeve). 760 s: Baden-Baden, 18 June 1955, Rosbaud, Sybilla Plate (biography); selection committee struggle (Lonchampt). Nine notes for 850 s (limit 22). Voice rules read by hand and by the validator.",
+    "validate": "node tools/validate.mjs content/listen/boulez-marteau-1.mjs content/dossiers/boulez-marteau-1.json prints ok for both files after the fixes."
+  },
+  "rights": {
+    "decision": "Publish on the territorial EU basis stated in the dossier, with the live-capture question recorded; US status is not claimed.",
+    "reasoning": "(1) First publication: L’Express, 12 November 1959 (OCR text, Robert Siohan’s column, footnote “Quelques disques de musique contemporaine”) lists “BOULEZ. Le Marteau sans maître (texte de René Char). Version intégrale. Chant : M. T. Cahn. Dir. : Pierre Boulez. Grand Prix du Disque ; Académie Charles-Cros. Vega C 35 A 67”, with the extracts disc as Vega C 30 A 66. The Boulez biography places the Véga record release under 1956; French Wikipedia gives “LP Vega 1956. Grand prix du disque Académie Charles Cros 1957”. A French phonogram published in 1956–59 had run its 50-year term by the end of 2009 at the latest and was not revived by Directive 2011/77/EU. (2) Live or broadcast capture: a commercial Vega LP, not a broadcast. The sleeve gives a concert-series heading and says “Enregistré”, nothing more; a Discogs contributor’s note says “Recorded live in 1956” and gives the Petit Théâtre Marigny as the place, which no primary source confirms. The silences between movements contain only low-level noise, with no coughing or other audience sound above the noise floor. I treat the item as a published phonogram; if the rule against live captures is meant to exclude commercially issued concert recordings, this item needs a decision from the integration owner. (3) Composition and text: Boulez died in 2016, Char in 1988; both are in copyright and the dossier says so. (4) The Internet Archive item carries no licence and no litigation or restriction marker.",
+    "limits": "Penser la musique aujourd’hui (1963) and the BnF record on Gallica (HTTP 403) were not opened; the L’Express page gives the dated source on its own, and any first-publication year from 1956 to 1959 satisfies the rule."
+  },
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "COMPANION_DISC_LENGTH",
+      "finding": "The Archive track list for Vega C 30 A 66 gives the Marteau extracts (movements 3, 6, 9) as one 887 s track, longer than movements III, VI and IX together in this recording (about 730 s). The two discs may carry different performances, or the Archive’s segmentation may include other material; this was not resolved and no claim in the notes depends on it.",
+      "action": "None."
+    }
+  ]
+}

@@ -94,7 +94,7 @@ export default {
       { t: 202, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['cellos', 'basses'], note: 'Cellos and basses play the opening phrase again, quietly, in E minor; the upper strings take it up.' },
       { t: 250, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['trombones'], note: 'Trombones play the opening phrase over the full orchestra.' },
       { t: 345, playing: ['flutes', 'oboes', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['flutes', 'oboes'], note: 'Flutes and oboes play the quiet phrases that close the development.' },
-      { t: 360, playing: ['oboes', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['oboes', 'clarinets'], note: 'Oboe and clarinet return above the violins’ B-minor murmur.' },
+      { t: 360, playing: ['oboes', 'clarinets', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['oboes', 'clarinets'], note: 'Oboe and clarinet return above the violins’ B-minor figure.' },
       { t: 546, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['cellos', 'basses'], note: 'The low strings play the opening phrase again as the coda begins.' },
     ],
   },

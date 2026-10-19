@@ -1350,7 +1350,7 @@
   },
   {
    "id":"lament-bass--bach-weinen-klagen","from":"lament-bass-tradition","to":"bach","kind":"modelled","year":1714,
-   "title":"Bach: chromatic descent in a chorus of tears","thread":"lament-bass",
+   "title":"Bach: chromatic descent in a chorus","thread":"lament-bass",
    "works":{"from":"The chromatic lament-bass convention","to":"Weinen, Klagen, Sorgen, Zagen, BWV 12, opening chorus (1714)"},
    "claim":"<p>The opening chorus of Bach’s BWV 12 sets the voices over a repeating chromatic descending bass. First performed in Weimar on 22 April 1714, it moves to a contrasting middle section and returns to the same ground; Bach later reworked it as the <i>Crucifixus</i> of the B-minor Mass.</p>",
    "status":"documented",

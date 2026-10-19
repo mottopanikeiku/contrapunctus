@@ -32,7 +32,7 @@ export default {
       to: 'A′ · Woodwinds enter',
       at: { t: 32 },
       span: [22, 48],
-      how: '<p>The E♭-major Adagio takes another breath. Flute and clarinet share the violin melody, with bassoons and horns filling the chords below. The cellos divide, and the basses move under the rising phrase. A new crescendo grows from <i>pianissimo</i>; the three-beat pace stays unchanged.</p>',
+      how: '<p>The E♭-major Adagio continues. Flute and clarinet share the violin melody, with bassoons and horns filling the chords below. The cellos divide, and the basses move under the rising phrase. A new crescendo grows from <i>pianissimo</i>; the three-beat pace stays unchanged.</p>',
       devices: ['motivic link', 'orchestration change', 'crescendo build'],
       basis: 'score-proportion',
       precision: 'passage',

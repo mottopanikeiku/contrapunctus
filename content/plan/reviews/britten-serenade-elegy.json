@@ -1,0 +1,37 @@
+{
+  "id": "britten-serenade-elegy",
+  "verdict": "pass",
+  "defects": [],
+  "reviewer": "Rev2A",
+  "date": "2026-10-19",
+  "corrections": [
+    {
+      "basis": "MEAS",
+      "code": "SECTION_JOIN_LATE",
+      "finding": "Section A′ and the cue Orchestral conclusion were at 175–176 s. The introduction’s music returns at a constant offset of about 141 s (chroma of 12–24 s matches 153.0 s at 0.94; 4–34 s matches 145.6 s at 0.88), so the conclusion’s strings start at about 141 s, the tenor’s last line ends at about 150 s and the horn’s opening line is back at about 152 s. 176 s corresponds to about 35 s into the introduction.",
+      "fix": "Section A′ and the conclusion note moved to 150 s."
+    },
+    {
+      "basis": "INFERENCE",
+      "code": "TITLE_COLON",
+      "finding": "Cue title Tenor enters: Blake’s poem used a colon.",
+      "fix": "Now Tenor enters with Blake’s poem."
+    },
+    {
+      "basis": "EXT",
+      "code": "RIGHTS_EVIDENCE_ADDED",
+      "finding": "First publication rested on Stuart’s discography alone.",
+      "fix": "Added The Gramophone, December 1945 (review: Decca K1151-3, 12 ins., 19s. 10½d., Auto AK1151-3) and the February 1946 Decca advertisement (K1152 = Elegy and Dirge) to the listen rights evidence and to the dossier (sources gramophone-1945, gramophone-1946; catalogue and recording notes). Dossier catalogue note now says AK 1153 is the automatic coupling of the same sides issued manually as K 1152."
+    }
+  ],
+  "checks": {
+    "source": "MEAS: item db metadata read (collection 78rpm_charm; label Decca; matrix AR_8463-2; catalogue 1153); cached MP3 MD5 dd3569543aab… equals the Archive manifest; 260.58 s. The movement is complete (strings from about 2 s; horn’s hand-stopped G–A♭ slide to about 258 s). Pitch: the horn’s sustained F5 at 82–86 s measures 698–703 Hz and the second at about 226–231 s 700–705 Hz, within +0 to +5 cents of A = 440, so no speed or transposition issue. Horn in F: sounding F5 = written top C, E5 = written B, as the notes say.",
+    "identity": "EXT: Stuart, Complete Decca Classical Discography (Archive full text), session 0288: 25 May 1944, West Hampstead Studios; three sides (8461/64/66) re-made 8 Oct 1944; Pears, Brain, Boyd Neel String Orchestra, Britten; AR8461-66; (Nov45) (A)K1151-53. CHARM METS_AK_1151 read: disc 3 (cat. 1153) = AR_8463-2 (Elegy) and AR_8464-4 (Dirge); the set is autocoupled 1+6, 2+5, 3+4. Session date 25 May 1944 is an inference (8463 not among the re-made sides); the dossier says so.",
+    "notes": "EXT: Cooke blog text (HTML raw) confirms the long introduction and conclusion, worm in the strings, exposed top C in the 15th slow bar slipping a semitone, recitative, weighty double-bass pizzicato. Clarke (Seen and Heard, 11 Apr 2024): two sustained high Cs resolving to B natural; tenor against shifting chords. Sackville-West quotation, Sun Valley note and Wikipedia (advice on the poems; dedication) verified. Boosey and Hawkes page: the two centrepiece settings. Gramophone Dec 1945 review independently says the horn solo is repeated after the tenor. MEAS: first C–B at 82 s (F5 to about 86.5 s, then E5 to about 94.5 s); quiet gap 95–101 s; voice-band energy 105–150 s; second C–B at about 225.5–237 s; section 101 and cue times fit. Six notes for 260.6 s (limit 7). Voice rules checked. Not an aural review."
+  },
+  "rights": {
+    "decision": "Publish on the EU/UK basis stated.",
+    "iaFlags": "Not flagged: no curation, noindex, dark or access-restriction field; CHARM collection, not the Great 78 Project.",
+    "reasoning": "UK first issue November 1945 (Stuart) and on sale by December 1945 (The Gramophone review). Studio recording, not a broadcast. Composition: Britten d. 1976, in copyright in the EU and UK to the end of 2046; the dossier states it. US status not established."
+  }
+}

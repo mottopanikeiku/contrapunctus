@@ -94,7 +94,7 @@ export default {
     {
       "id": "opening-to-vivement", "title": "The bass breaks into running notes",
       "from": "A · Long notes, Gravement", "to": "B · Vivement, upper parts and bass", "at": { "t": 90 },
-      "how": "<p>A D major chord closes the slow opening. <i>Vivement</i> begins in G minor and common time. The violin drops out after its first note while flute and bass continue. Running semiquavers soon pass between the gamba, keyboard and upper instruments, in brisk exchanges that replace the long overlaps of the opening.</p>",
+      "how": "<p>A D major chord closes the slow opening. <i>Vivement</i> begins in G minor and common time. The violin drops out after its first note while flute and bass continue. Running semiquavers soon pass between the gamba, keyboard and upper instruments.</p>",
       "devices": ["tempo change", "metre change", "texture change"], "basis": "score-proportion", "precision": "passage",
       "evidence": "Score, bars 29–33, p. 3: D major closing chord and Vivement in common time. https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
     },

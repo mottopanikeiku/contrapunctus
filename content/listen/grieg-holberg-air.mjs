@@ -16,7 +16,7 @@ export default {
     { t: 0, label: 'A · Air theme in G minor', m: 'A' },
     { t: 60, label: 'A · The strain played again', m: 'A' },
     { t: 125, label: 'B · Middle section in B♭ major', m: 'B' },
-    { t: 185, label: 'Link · A hush before the return', m: 'Link' },
+    { t: 185, label: 'Link · Passage before the return', m: 'Link' },
     { t: 230, label: 'A′ · The melody comes back', m: 'A′', mNote: 'G minor again, with the lower strings in the tune' },
     { t: 298, label: 'Coda · Fading to a held chord', m: 'Coda' },
   ],

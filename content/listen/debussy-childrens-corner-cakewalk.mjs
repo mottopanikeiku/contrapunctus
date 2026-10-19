@@ -26,7 +26,7 @@ export default {
       "evidence": "Columbia Masterworks ML 4366, 1951; Internet Archive item metadata and original carrier: https://archive.org/details/lp_childrens-corner-suite-forest-scenes-o_claude-debussy-robert-schumann-robert-c_0. Territorial EU basis; US status not established."
     }
   },
-  "intro": "Robert Casadesus plays “Golliwogg’s Cake-Walk”, the sixth piece of Debussy’s Children’s Corner. The cakewalk quotes a phrase from Wagner’s <i>Tristan</i>, marked “with great emotion”, and the quotation is answered.",
+  "intro": "Robert Casadesus plays “Golliwogg’s Cake-Walk”, the sixth piece of Debussy’s Children’s Corner. The cakewalk quotes a phrase from Wagner’s <i>Tristan</i>, marked “with great emotion”.",
   "sections": [
     { "t": 0, "label": "A · The E♭-major dance", "m": "A", "mNote": "Syncopations over a steady bass-and-chord accompaniment" },
     { "t": 52, "label": "B · Wagner’s Tristan quotation, middle section", "m": "B", "mNote": "Wagner’s phrase alternates with clipped grace-note figures" },

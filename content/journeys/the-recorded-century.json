@@ -15,7 +15,7 @@
       "map": null,
       "edge": null,
       "compare": "leoncavallo-vesti-caruso",
-      "text": "<p>On 30 November 1902 in Milan, Enrico Caruso recorded <i>Vesti la giubba</i> with Salvatore Cottone at the piano. Both performed into a horn. Sound entering the horn vibrated a diaphragm, which moved the stylus cutting the groove, so the voices and instruments supplied all the energy themselves. In acoustic studios, a performer’s distance from the horn could determine whether an accompaniment was audible or overwhelmed the singer. On this recording Cottone’s piano plays separate, percussive notes beneath Caruso’s sustained tenor. In the aria, Leoncavallo’s clown Canio has to sing while his heart is breaking.</p>",
+      "text": "<p>On 30 November 1902 in Milan, Enrico Caruso recorded <i>Vesti la giubba</i> with Salvatore Cottone at the piano. Both performed into a horn. Sound entering the horn vibrated a diaphragm, which moved the stylus cutting the groove, so the voices and instruments supplied all the energy themselves. In acoustic studios, a performer’s distance from the horn could determine whether an accompaniment was audible or overwhelmed the singer. On this recording Cottone’s piano plays separate, percussive notes beneath Caruso’s sustained tenor. In the aria, Leoncavallo’s clown Canio has to perform despite his grief.</p>",
       "cues": [
         { "at": 0, "text": "Cottone accompanies Caruso at the piano; there are two performers." },
         { "at": 50, "text": "The tenor’s phrase grows again above the piano’s separate attacks." },
@@ -107,7 +107,7 @@
       "map": null,
       "edge": null,
       "compare": "rachmaninoff-prelude-c-sharp-minor",
-      "text": "<p>Rachmaninoff recorded the Prelude for Edison in 1919; it was a piece that had followed him from Russia. The Diamond Disc was issued to buyers in December 1920. The excerpt begins at the <i>Agitato</i>, where triplets carry the tune towards the return of the opening chords. The score sets that return out on four staves, although only two hands are playing. The chords then die away into the quiet coda, and the last sounds are widely spaced.</p>",
+      "text": "<p>Rachmaninoff recorded the Prelude for Edison in 1919; it was a piece he had brought with him from Russia. The Diamond Disc was issued to buyers in December 1920. The excerpt begins at the <i>Agitato</i>, where triplets carry the tune towards the return of the opening chords. The score sets that return out on four staves, although only two hands are playing. The chords then die away into the quiet coda, and the last sounds are widely spaced.</p>",
       "cues": [
         { "at": 112, "text": "The melody runs through triplets towards the chordal return." },
         { "at": 138, "text": "The opening call returns across four printed staves and the pianist’s two hands." },
@@ -171,7 +171,7 @@
     },
     {
       "id": "s8",
-      "title": "Chaliapin’s prophet, recorded at the horn",
+      "title": "Chaliapin’s acoustic horn recording of the prophet",
       "listen": { "id": "rimsky-korsakov-prophet-chaliapin-1921", "from": 4, "to": 224 },
       "art": null,
       "score": null,

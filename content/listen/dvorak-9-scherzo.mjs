@@ -36,7 +36,7 @@ export default {
       "t": 0,
       "kind": "music",
       "title": "Opening of the Scherzo",
-      "text": "The orchestra begins with sharp chords, timpani and triangle. Running strings and displaced accents soon unsettle the three-beat bar.",
+      "text": "The orchestra begins with sharp chords, timpani and triangle. Running strings follow, with accents displaced against the three-beat bar.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Šourek full score, movement III, printed pp. 93–100, Molto vivace in 3/4. https://s9.imslp.org/files/imglnks/usimg/e/ea/IMSLP717707-PMLP8710-00._DVORAK_-_SYMPHONY_NO._9,_OP._95_(BARTOS)_-_Conductor%27s_Score.pdf"

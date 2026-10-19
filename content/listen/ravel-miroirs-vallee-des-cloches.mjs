@@ -64,7 +64,7 @@ export default {
     },
     {
       "t": 250, "kind": "form", "title": "Return of the opening carillon",
-      "text": "The opening carillon returns above a deep rolled chord. Ravel identified this great bell to the pianist Henriette Faure as La Savoyarde. It sounds four times, each softer than the last, and the final bar is silence, held under a fermata.",
+      "text": "The opening carillon returns above a deep rolled chord. Ravel identified this great bell to the pianist Henriette Faure as La Savoyarde. It sounds four times, each softer than the last, and the final bar is a rest under a fermata.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Demets first edition (1906), PDF p. 48: four rolled chords marked mf, mp, p and pp, then a bar of rests. Henriette Faure, Mon maître Maurice Ravel (1978), p. 77, cited by Fyr, paragraphs 10 and 22, records Ravel’s identification of La Savoyarde.",
     },

@@ -4,7 +4,7 @@
   "composer": "ravel",
   "work": "Boléro",
   "question": "How does the chosen pulse change the progression from solo flute to the final brass and percussion?",
-  "intro": "A snare drum starts its two-bar pattern, and a flute begins the tune of <i>Boléro</i>. In 1930 Ravel recorded the long crescendo with the Lamoureux Orchestra; Fricsay conducts the Berlin orchestra in the second performance. The flute enters quietly, and the crescendo runs until the trombones and percussion play the ending.",
+  "intro": "A snare drum starts its two-bar pattern, and a flute begins the tune of <i>Boléro</i>. In 1930 Ravel recorded the long crescendo with the Lamoureux Orchestra; Fricsay conducts the Berlin orchestra in the second performance. The crescendo continues until the trombones and percussion play the ending.",
   "group": "composer-performers",
   "recordings": [
     {
@@ -35,7 +35,7 @@
     {
       "label": "Horn, celesta and two piccolos",
       "t": 360,
-      "note": "A horn plays the tune beneath celesta and two piccolos. Their notes at different heights combine into one voice."
+      "note": "A horn plays the tune beneath celesta and two piccolos. Their notes, at different pitches, sound as a single timbre."
     },
     {
       "label": "Modulation to E major",

@@ -1,0 +1,34 @@
+{
+  "id": "webern-symphony-second",
+  "verdict": "pass",
+  "reviewer": "Rev2B",
+  "date": "2026-10-19",
+  "scope": "MEAS: Internet Archive metadata and file listing for the Dial 7 LP item, MD5 of the cached MP3 against the manifest, loudness and rest map, tuning estimate, alignment of the track against the item’s side-1 Opus file (6.8 MB) to see what follows the track; EXT: The American Record Guide, vol. 16 no. 10, June 1950, p. 343, and vol. 17 no. 6, February 1951 (OCR), Mark Gotham’s analysis in Open Music Theory (CC BY-SA), Wikipedia (Symphony, Webern), David H. Miller in Transposition 10 (2022), IMSLP work page. Not an aural review.",
+  "defects": [],
+  "corrections": [
+    {
+      "basis": "EXT",
+      "code": "QUOTATION_SOURCE",
+      "finding": "The première note quoted Downes’s “laughed it out of court” through Wikipedia only.",
+      "fix": "Evidence now cites Miller (Transposition 10), who quotes Downes’s New York Times review of 19 December 1929 (“The audience laughed it out of court”) and the Smallens première, with Wikipedia for the Town Hall venue."
+    },
+    {
+      "basis": "EXT",
+      "code": "DOSSIER_NOTE",
+      "finding": "The dossier did not record that the Archive item is a member of the “Unlocked Recordings” collection.",
+      "fix": "Added to rights.recording.note, with the absence of a restriction flag and of a login requirement."
+    }
+  ],
+  "checks": {
+    "source": "The Archive lists disc1/01.02. Symphony Opus 21 II.mp3 as a derivative VBR MP3, 166.44 s; the cached copy has the manifest MD5 (9860ed84…). The track opens with about 1.75 s of surface noise and the music starts at about 2.0 s; the last sounds are at about 164–166 s. Aligning the track against the item’s side-1 Opus file places it at roughly 415–581 s of the side (correlation 0.75), and after the track’s end the side continues with low-level pulses about every 1.8 s, the 33⅓ rpm rate (INFERENCE: run-out groove), so the track is not cut in the music. The first movement’s track is damaged at the start (an Archive user review of 2022 says so); that is why only movement II is published.",
+    "durationAndPitch": "2:46 for a movement of 99 bars. Tuning estimate +28 cents (windows +23 to +28 cents), A about 447 Hz. A 33.3 per minute component in the pulse analysis matches 33⅓ rpm for the transfer. No key is stated and none can be checked; a sharp pitch of this size is within what a 1949–50 Paris orchestra and an LP cut can show, and no correction is applied.",
+    "identity": "Archive item: Dial Records, catalogue number 7, Webern, Leibowitz, Pro Arte Quartet, Paris Chamber Orchestra, 1950; Symphony Op. 21 on tracks 01.01 and 01.02, Op. 5 and Op. 9 by the Pro Arte Quartet on side 2. American Record Guide, June 1950, p. 343: “WEBERN: Symphony, Op. 21; Paris Chamber Orchestra conducted by René Leibowitz … Pro Arte Quartet. Dial 7, $5.95”, by C. J. Luten, who calls the orchestra members of the Orchestre National and the second movement “a theme followed by seven variations and a coda”. February 1951 list: “Leibowitz and Paris Cham. Orch. Dial LP … (Review June, p. 343)”. The session date and place are stated nowhere I could open and the dossier says so.",
+    "notes": "Gotham (Open Music Theory) supports the theme (mm. 1–11, 5.5 + 5.5, midpoint m. 6, row I8 in the clarinet), Variation 1 (mm. 11–23, double canon, violin 1 with cello and violin 2 with viola), Variation 4 (mm. 45–55, 5 + 1 + 5, Webern’s own description as the midpoint), the coda (mm. 89–99, 5.5 + 5.5) and the relation of Variations 5, 6, 7 to 3, 2, 1; Wikipedia supports that the clarinet states the theme alone and that the movement has 99 bars. Times against a constant tempo from 2.0 s to 166.4 s: bar 11 at 18.6 s (cue 19 s), bar 23 at 38.5 s (level step 36–40 s), bar 45 at 75.1 s (cue 76 s), bar 56 at 93.3 s (section 94 s), bar 67 at 111.6 s (boundary near 110 s), bar 89 at 148.1 s (section 150 s). Wikipedia places a rest or fermata at m. 50; the file has pauses at 80.6–81.1 s and 84.9–85.1 s, near the 83 s the constant tempo gives for the centre. All times are within about 2–4 s of that mapping, which suits passage precision. Counts: 5 notes, limit 5. Voice rules read by hand and by the validator; validate.mjs prints ok for the listen file and the dossier."
+  },
+  "rights": {
+    "decision": "Publish on the territorial basis stated in the file.",
+    "reasoning": "(1) First publication: the Dial 7 LP was reviewed in The American Record Guide in June 1950 (p. 343, $5.95) and listed as a recommended record in the February 1951 issue with a back-reference to that review. A recording published in 1950 had no 50-year EU term left after 2000. (2) Provenance: a commercial LP, not a live or broadcast capture; digitised by the Archive’s LP project (collections vinyl_bostonpubliclibrary and vinyl_estate-of-sam-randlett_records). (3) Composition: Webern died in 1945, so the work is public domain in the EU since 2016; IMSLP shows 1929 Universal Edition scans and tags them public domain, and the dossier does not assert a United States status. (4) The United States status of a 1950 recording is not established and the dossier says so.",
+    "internetArchiveFlags": "No licence field. The item belongs to the collections album_recordings, vinyl_bostonpubliclibrary, audio_music, unlockedrecordings and vinyl_estate-of-sam-randlett_records. The “Unlocked Recordings” description says works there may already be in the public domain, in which case its restrictions do not apply. No dark, access-restricted, noindex or litigation flag; the MP3 downloads without a login (HTTP 200, audio/mpeg, 4,874,361 bytes)."
+  },
+  "observations": []
+}

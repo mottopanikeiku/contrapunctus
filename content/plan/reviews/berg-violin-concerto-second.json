@@ -1,0 +1,41 @@
+{
+  "id": "berg-violin-concerto-second",
+  "verdict": "pass",
+  "reviewer": "Rev2B",
+  "date": "2026-10-19",
+  "scope": "MEAS: Internet Archive metadata and file listing for BERGViolinConcerto-NEWTRANSFER, MD5 of the cached MP3 against the manifest, loudness, silence and spectral-centroid traces, tuning estimate, spectral-peak and pitch tracking of the Adagio entry and of the closing bars; EXT: The American Music Lover, September 1941 (OCR), Columbia Record Catalog 1942 (OCR), Steinberg’s note on bso.org, Jarman (Musicologica Austriaca, 2017), German Wikipedia (bar counts), IMSLP work page, Discogs listing of the 2023 Sony box set, the Bach Cantatas Website discography. Not an aural review.",
+  "defects": [],
+  "corrections": [
+    {
+      "basis": "MEAS",
+      "code": "CUE_TIME_VARIATIONS",
+      "finding": "Section D and the variations cue stood at 480 s. After short gaps at 428.0–428.7 s the texture darkens (spectral centroid falls from roughly 1,600–2,100 Hz to 830–1,000 Hz between 430 and 452 s), which is the muted cellos and harp of Steinberg’s description; the solo violin joins from about 452 s and the orchestral violins build to the loudest point of the section at 525–535 s. The variations therefore begin at about 430 s and 480 s is about 50 s into them.",
+      "fix": "Section D and the cue moved to 430 s (cue basis audio-feature). The note about the chorale’s source stays at 420 s."
+    },
+    {
+      "basis": "MEAS",
+      "code": "BASIS_ADAGIO_ENTRY",
+      "finding": "The Adagio cue (348 s) carried basis score-proportion. The solo violin’s first notes (B3 at 348.2 s, then B♭3, C4, D4) follow a near-silence of about 6 s (344.2–349.8 s) at the end of the climax.",
+      "fix": "Basis changed to audio-feature; the mood adverb “quietly” removed from the cue text (the Steinberg quotation in the evidence stays). In the 625 s cue the repeated “from a distance … as if from a great distance” was reduced to the quotation."
+    },
+    {
+      "basis": "EXT",
+      "code": "DOSSIER_ACCURACY",
+      "finding": "As for movement I: the session place was recorded as unknown although two sources name Severance Hall; the label field interpreted the MM prefix without a source; the composition field dated Canada’s public-domain status to 2006 together with the EU.",
+      "fix": "Dossier updated with the Sony box-set listing and the Bach Cantatas discography as sources, the place recorded as documented, the label and composition fields corrected."
+    }
+  ],
+  "checks": {
+    "source": "The Archive lists 02.Ii.AllegroAdagioCoda.mp3 as the uploaded VBR MP3, 739.34 s; the cached copy has the manifest MD5 (8f788019…). The file begins with 0.6 s of near-silence and ends with 4.7 s of silence after the last sound at about 734.5 s. Licence field CC BY-NC-SA 3.0.",
+    "durationAndPitch": "12:19, within the 22:52 total the Naxos CD gives for the whole concerto (see movement I). Tuning estimate +18 cents (windows between +13 and +31 cents). The closing sonority measures as B♭, D, F and G (B♭3/B♭4, D4/D5, F4, G5 between 724 and 735 s). The file states no key. No correction applied.",
+    "identity": "As for movement I; this file is the second of the two Archive files, the second movement complete from the opening to the final chord.",
+    "notes": "Every cue was checked against Steinberg’s note (violent opening and cadenza-like freedom; the 1936 première in Barcelona with Scherchen replacing Webern; Manon Gropius, 22 April 1935, “Dem Andenken eines Engels”; cadenza and climax; the chorale entry with bassoon and a few strings; Ahle, Burmeister, Cantata No. 60; muted cellos and harp; “audibly and visibly”; Krasner on “the real cadenza”; the strings dropping away; the folk song and the filigree of solo strings; the open strings at the close). Times: the climax peaks near 5:15 (315 s) and the Adagio follows at 348 s; the cadenza passage has few onsets and the orchestra returns at about 214 s (cue 205 s); the strings thin out between about 540 and 575 s (cue 565 s); in the closing bars the open strings are heard as E5 at 722–723 s, A4 at 723 s, D4 at 724 s and G3 at 727 s, after the coda boundary at 700 s. German Wikipedia counts 230 bars for the movement and puts the BACH motif at bar 222. INFERENCE: the last nine bars then last the 39 s from the coda boundary to the end. Counts: 11 notes, limit 19. Voice rules read by hand and by the validator; validate.mjs prints ok for the listen file and the dossier.",
+    "sideJoins": "Deepest silences are at 237.9–239.3 s and 597.8–599.3 s, with shorter gaps at 208.7–210.5 s and 344–350 s. The set’s side boundaries are not documented, so none is asserted. The cues at 205 s (gap at 208.7–210.5 s) and 348 s (gap at 344–350 s) are the only ones near a gap."
+  },
+  "rights": {
+    "decision": "Publish on the territorial basis stated in the file; the uploader’s licence label is not relied on.",
+    "reasoning": "Same item, same evidence and same decision as berg-violin-concerto-first: set M-465 reviewed in The American Music Lover, September 1941, pp. 17–18, and listed in the Columbia Record Catalog 1942 as 6 sides, 11589-D to 11591-D; commercial session issue, not a live capture; EU term of a 1941 publication ended in 1991; CC BY-NC-SA 3.0 label by the collector who made the transfer is not relied on and the credit line stays; United States status of the recording not established; composition public domain in the EU since 2006 and probably protected in the United States (IMSLP).",
+    "internetArchiveFlags": "Metadata has no dark, access-restricted, noindex or litigation flag."
+  },
+  "observations": []
+}

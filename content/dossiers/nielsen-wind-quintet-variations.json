@@ -1,0 +1,159 @@
+{
+  "id": "nielsen-wind-quintet-variations",
+  "work": {
+    "title": "Wind Quintet, Op. 43",
+    "catalogue": "Op. 43; FS 100; CNW 70",
+    "movement": "III. Præludium — Tema med variationer",
+    "version": {
+      "value": "Original version for flute, oboe (cor anglais in the Prelude and the theme), clarinet in A, horn in F and bassoon. The Prelude, the theme, all eleven variations and the closing Andantino festivo are present.",
+      "status": "inferred",
+      "sourceIds": ["archive", "cne"],
+      "note": "The scoring is that of the score in the Carl Nielsen Edition. That nothing is cut was established by comparing the structure of the track (pauses at the printed fermatas, variation lengths in bars) with the printed bars, not by comparison with a published list of the sides. The labels read “3 Sats: Præludium–Tema con variazioni”, parts 1 to 4; which score edition the players used is not stated."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Det Kgl. Kapels Blæserkvintet (Wind Quintet of the Royal Orchestra, Copenhagen)", "role": "ensemble" },
+      { "name": "Holger Gilbert-Jespersen", "role": "flute" },
+      { "name": "Svend Christian Felumb", "role": "oboe and cor anglais" },
+      { "name": "Aage Oxenvad", "role": "clarinet" },
+      { "name": "Hans Sørensen", "role": "horn" },
+      { "name": "Knud Lassen", "role": "bassoon" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "kelly", "cnw70"],
+    "note": "The labels read “Det Kgl. Kapels Blæserkvintet. Gilbert Jespersen—Fløjte, Felumb—Oboe, Oxenvad—Klarinet, Kn. Lassen—Fagot & Hans Sørensen—Horn”. The Kelly files give the ensemble as the wind quintet of the Royal Orchestra, Copenhagen, with the same five names and Holger Gilbert-Jespersen in full. The item description calls the ensemble the Wind Quintet of the Royal Danish Opera and says Gilbert-Jespersen joined in 1929; the Catalogue of Carl Nielsen’s Works lists him as the flautist at the Berlin performance of 29 March 1923, and Paul Hagemann as flautist at the first public performance on 9 October 1922. The other four players are those named for that first performance."
+  },
+  "session": {
+    "date": {
+      "value": "24 January 1936",
+      "status": "documented",
+      "sourceIds": ["archive", "kelly"],
+      "note": "The item description gives 24 January 1936, and the Kelly files date matrices 2CS 291–294 to that day. The first movement (matrices 296–297) was recorded on 25 January, and the Menuet side was remade as take 4 on 5 May 1936; neither is part of this track.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Copenhagen, Denmark",
+      "status": "documented",
+      "sourceIds": ["archive", "kelly"],
+      "note": "The item description says “in Copenhagen, Denmark”, and the Kelly files give “Royal Orchestra, Copenhagen” as the ensemble. The place field in the Kelly files reads “Someplace, Scandanavia”, a placeholder. The studio or hall is not stated."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "His Master’s Voice (The Gramophone Company, Ltd.), 12-inch records in the Scandinavian red-label D.B. series, pressed in England",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The label scans read “His Master’s Voice”, “Made in England” and “The Gramophone Co. Ltd.”, in Danish, with “Quintett” and the speed, 78. The item description calls DB 5200–5203 the first issue in the 12-inch Scandinavian Red Label series."
+    },
+    "catalogue": {
+      "value": "HMV D.B. 5201 (side B), D.B. 5202 (sides A and B) and D.B. 5203 (side A), parts 1 to 4 of the third movement; the set is D.B. 5200–5203, 12-inch, 78 rpm",
+      "status": "documented",
+      "sourceIds": ["archive", "mq", "tnr"],
+      "note": "Read from the label scans of D.B. 5201 B (“1 Del”), D.B. 5202 A (“2 Del”), D.B. 5202 B (“3 Del”) and D.B. 5203 A (“4 Del”). The Musical Quarterly of April 1937 lists the set as DB 5200–3, and The New Records of August 1937 as four 12-inch discs, DB5200 to DB5203. Side B of D.B. 5203 carries the Taagen letter from Nielsen’s music for Moderen."
+    },
+    "matrixTakeSides": {
+      "value": "2CS 294-2 (D.B. 5201 B), 2CS 291-1 (D.B. 5202 A), 2CS 292-2 (D.B. 5202 B), 2CS 293-2 (D.B. 5203 A)",
+      "status": "documented",
+      "sourceIds": ["archive", "kelly"],
+      "note": "The labels print the matrix numbers 2CS 294, 291, 292 and 293 without takes; the takes come from the item description and agree with the issued takes in the Kelly files. The set was numbered as one sequence of sides, and the labels carry the hand-marked side numbers 4 to 7."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive collection The Shellackophile’s Vintage Recordings; the person who made the transfer is not named in the item",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item belongs to the collection described as recordings of classical music from the 78-rpm era. Photographs of the labels are included in the item; their photographer is not named."
+    },
+    "date": {
+      "value": "Not stated; the item was made public on 17 March 2022",
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The public date of the item and the modification time of the uploaded FLAC file are the same day, which is an upload date and not a transfer date."
+    },
+    "processing": {
+      "value": "The four sides of the movement are joined in one track of 13 min 22 s. Equalisation, noise reduction and speed correction are not described.",
+      "status": "inferred",
+      "sourceIds": ["archive"],
+      "note": "The item has one track for the whole movement, and the surface noise changes at about 3:22, 7:19 and 11:00, which are the joins between sides 4 and 5, 5 and 6, and 6 and 7."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/db-5200-3-nielsen-wind-quintet-iii/DB5200-3%20Nielsen%20Wind%20Quintet%20%28iii%29.mp3",
+    "sourceChain": ["archive"],
+    "format": "Internet Archive derivative VBR MP3 from an uploaded FLAC",
+    "durationSeconds": 802.21
+  },
+  "rights": {
+    "composition": {
+      "value": "Public domain. Nielsen died on 3 October 1931, so the work has been out of copyright in the European Union (life plus 70 years) since the end of 2001. The first edition was published by Wilhelm Hansen, Copenhagen, in 1923, which makes it public domain in the United States as well.",
+      "status": "documented",
+      "sourceIds": ["cnw70", "dbl"],
+      "note": "The dates are documented; the legal conclusion is ours. The Carl Nielsen Edition of 2003, used here only for bar numbers and the preface, is a separate publication under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 licence, and none of its text or music is reproduced."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "status": "documented",
+      "sourceIds": ["mq", "tnr", "archive", "kelly"],
+      "note": "The set was listed as Danish Gramophone DB 5200–3 in The Musical Quarterly of April 1937 and reviewed as four 12-inch discs in The New Records of August 1937, so it was published by then. The uploader’s date of 1936 is not an independent source. The United States status of a Danish recording published in 1936 or 1937 is not established."
+    },
+    "creditLine": "Carl Nielsen, Wind Quintet, Op. 43, III (Præludium — Tema med variationer). Det Kgl. Kapels Blæserkvintet (Wind Quintet of the Royal Orchestra, Copenhagen): Holger Gilbert-Jespersen, Svend Christian Felumb, Aage Oxenvad, Hans Sørensen, Knud Lassen. Recorded 24 January 1936; issued as HMV D.B. 5201–5203 and listed in The Musical Quarterly in April 1937. Transfer in the Internet Archive collection The Shellackophile’s Vintage Recordings, item db-5200-3-nielsen-wind-quintet-iii. Territorial EU basis (first published before 1963); US status not established.",
+    "licenseUrl": "https://archive.org/details/db-5200-3-nielsen-wind-quintet-iii"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Nielsen Wind Quintet (first recording, 1936): metadata, file inventory and label scans",
+      "url": "https://archive.org/metadata/db-5200-3-nielsen-wind-quintet-iii",
+      "locator": "metadata.description (players, recording date, issue numbers, matrices and side contents); label scans of HMV DB5200 A (2CS 296, “1 Sats: Allegro ben moderato, 1 Del”), DB5201 B (2CS 294, “1 Del”), DB5202 A (2CS 291, “2 Del”), DB5202 B (2CS 292, “3 Del”) and DB5203 A (2CS 293, “4 Del”); track (iii), 13:22",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "kelly",
+      "title": "The Gramophone Company Discography (after Alan Kelly), Gramophone Company matrix files",
+      "url": "https://www.gramophonecompanydiscography.com/",
+      "locator": "Matrix series 2CS, numbers 291–297 and 318: “Quintet for wind instruments Op 43 (Nielsen)”, parts 1 to 7, recording dates 24–25 January 1936 (295 take 4 on 5 May 1936), issue numbers DB5200–DB5203, and the Taagen letter (2CS 318)",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "mq",
+      "title": "The Musical Quarterly, vol. 23 no. 2, April 1937 (Internet Archive scan)",
+      "url": "https://archive.org/details/sim_musical-quarterly_1937-04_23_2",
+      "locator": "“Quarterly Record-List”, Nielsen entries: Quintet, Op. 43; Taagen letter, Danish Gramophone DB 5200–3",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "tnr",
+      "title": "The New Records, vol. 5 (March 1937 – February 1938), H. Royer Smith Company, Philadelphia (Internet Archive scan)",
+      "url": "https://archive.org/details/TNR05",
+      "locator": "Vol. 5 no. 6, August 1937: entry for Nielsen’s Quintet for Wind Instruments, Op. 43, DB5200 to DB5203, four 12-inch discs at $2.50 each",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "cnw70",
+      "title": "Catalogue of Carl Nielsen’s Works (Royal Danish Library) — Quintet for flute, oboe, clarinet, horn and bassoon, Op. 43, CNW 70",
+      "url": "https://www.kb.dk/dcm/cnw/document.xq?n=70",
+      "locator": "Dedicatees; first edition (Wilhelm Hansen, Copenhagen 1923); performances of 9 October 1922 (Hagemann, Felumb, Oxenvad, Sørensen, Lassen) and 29 March 1923, Berlin (Gilbert-Jespersen)",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "cne",
+      "title": "Carl Nielsen Edition, series II, vol. 11, Chamber Music 2 (Edition Wilhelm Hansen, Copenhagen, 2003)",
+      "url": "https://www.kb.dk/dcm/assets/cnu/pdf/CNU_II_11_chamber_music_2.pdf",
+      "locator": "Quintet, Op. 43, third movement, pp. 129–149 (bar numbers 1–265); preface to the Quintet, pp. xxxv–xxxix",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "dbl",
+      "title": "Dansk Biografisk Leksikon — Carl Nielsen",
+      "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen",
+      "locator": "Death on 3 October 1931 in Copenhagen; burial at Vestre Kirkegård",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

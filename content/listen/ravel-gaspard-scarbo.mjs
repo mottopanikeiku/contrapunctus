@@ -19,8 +19,8 @@ export default {
     { "t": 36, "label": "B · Vif, leaps across the keyboard", "m": "B", "mNote": "Vif. The two hands move apart in leaps." },
     { "t": 128, "label": "Dev · Repeated notes and rising chords", "m": "Dev", "mNote": "Short figures return in wider leaps and chords" },
     { "t": 308, "label": "A′ · Opening figure returns in the bass", "m": "A′", "mNote": "The opening drumming figure moves down into the bass." },
-    { "t": 390, "label": "B′ · The dance starts again", "m": "B′", "mNote": "Quick figures emerge from the low repeated notes" },
-    { "t": 510, "label": "Dev · The last assault of chords", "m": "Dev", "mNote": "Leaps and repeated chords fill the keyboard" },
+    { "t": 390, "label": "B′ · Return of the dance", "m": "B′", "mNote": "Quick figures emerge from the low repeated notes" },
+    { "t": 510, "label": "Dev · Final chords of the development", "m": "Dev", "mNote": "Leaps and repeated chords fill the keyboard" },
     { "t": 564, "label": "Coda · Quiet repeated chords", "m": "Coda", "mNote": "Quiet repeated chords stop without slowing." }
   ],
   "cues": [
@@ -88,7 +88,7 @@ export default {
     },
     {
       "id": "vanishing-close", "title": "The chords become a flicker",
-      "from": "Dev · The last assault of chords", "to": "Coda · Quiet repeated chords",
+      "from": "Dev · Final chords of the development", "to": "Coda · Quiet repeated chords",
       "at": { t: 564 }, "span": [550, 578],
       "how": "<p>The wide arpeggios contract into quiet repeated chords above a low held bass. The pianist moves through short rests and little answering figures, then darts upwards to the last note. <i>Sans ralentir</i> keeps the ending quick.</p>",
       "devices": ["decrescendo", "texture change", "register change"],

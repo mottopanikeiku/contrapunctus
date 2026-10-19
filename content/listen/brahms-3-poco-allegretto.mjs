@@ -16,7 +16,7 @@ export default {
   sections: [
     { t: 0, label: 'A · C-minor melody in the cellos', m: 'A', mNote: 'C-minor melody over plucked basses and violin figuration' },
     { t: 110, label: 'B · Wind chords across the beat', m: 'B', mNote: 'A♭ minor and major alternate over syncopated cellos.' },
-    { t: 214, label: 'A′ · The horn sings the song', m: 'A′', mNote: 'Solo horn above the cellos’ new upward arpeggios' },
+    { t: 214, label: 'A′ · Melody in the horn', m: 'A′', mNote: 'Solo horn above the cellos’ new upward arpeggios' },
     { t: 330, label: 'Coda · Wind chords, then C minor', m: 'Coda', mNote: 'The middle section’s chords return; the movement ends quietly.' },
   ],
   cues: [
@@ -49,7 +49,7 @@ export default {
       id: 'interlude-to-horn-song',
       title: 'Opening motif rises in sequence to C',
       from: 'B · Wind chords across the beat',
-      to: 'A′ · The horn sings the song',
+      to: 'A′ · Melody in the horn',
       at: { t: 214 },
       span: [190, 228],
       how: '<p>Clarinet and bassoon play the song’s first three notes in A♭ minor, then in B♭ minor, over chromatic string chords. The sequence reaches C minor. Flute and oboe lengthen the notes and the horns hold C. The solo horn then plays the complete melody above new cello arpeggios.</p>',
@@ -61,7 +61,7 @@ export default {
     {
       id: 'return-to-coda',
       title: 'The wind chords return',
-      from: 'A′ · The horn sings the song',
+      from: 'A′ · Melody in the horn',
       to: 'Coda · Wind chords, then C minor',
       at: { t: 330 },
       how: '<p>In bars 150–163, after the song’s C-minor cadence, the winds play again the chords that led into the middle section. Their harmony takes an A♭-minor colouring, then moves back towards C. The strings join them on a diminished seventh. A rising phrase extends across the 3/8 bars, and three descending chords close the passage.</p>',

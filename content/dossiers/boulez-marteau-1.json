@@ -1,0 +1,189 @@
+{
+  "id": "boulez-marteau-1",
+  "work": {
+    "title": "Le Marteau sans maître",
+    "catalogue": "",
+    "movement": "I–V. Avant “L’Artisanat furieux”; Commentaire I de “Bourreaux de solitude”; “L’Artisanat furieux”; Commentaire II de “Bourreaux de solitude”; “Bel édifice et les pressentiments”, version première",
+    "version": {
+      "value": "Nine-movement version as performed in the 1956 season, before Boulez’s revision of 1957; first of two files, holding movements I–V.",
+      "status": "inferred",
+      "sourceIds": ["wikipedia", "sleeve", "bio", "musicweb"],
+      "note": "The sleeve lists nine movements in the final order. The Wikipedia article and the archival biography place Boulez’s further revision, and the engraved Universal Edition score (UE 12450), in 1957, after this recording. MusicWeb’s review of the Accord reissue labels a 1956 recording by Cahn and Boulez, 30 min 44 s long, as the “1955 version”. The sleeve does not name an edition."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Marie-Thérèse Cahn", "role": "voice (alto)" },
+      { "name": "J. Tiberge", "role": "flute" },
+      { "name": "Collot", "role": "viola" },
+      { "name": "A. Stingl", "role": "guitar" },
+      { "name": "J. Delecluse", "role": "vibraphone" },
+      { "name": "P. Naudin", "role": "xylorimba" },
+      { "name": "A. Cavaille", "role": "percussion" },
+      { "name": "Pierre Boulez", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["sleeve", "bio"],
+    "note": "Names as printed on the Vega sleeve, where each instrumentalist is preceded by “M.” (Monsieur) and not all have a first name. The Internet Archive description reads “Stingj” and “Cabaille”, which are misreadings of “Stingl” and “Cavaille” on the sleeve. The archival biography names Marie-Thérèse Cahn as the mezzo-soprano of the Domaine musical performance of 21 March 1956."
+  },
+  "session": {
+    "date": {
+      "value": "1956, season of the Domaine musical (fourth concert)",
+      "status": "documented",
+      "sourceIds": ["sleeve", "penser"],
+      "note": "The sleeve reads “Les Concerts du Domaine musical, 4me concert – saison 1956”, and Boulez’s 1963 discography reads “Enregistrement saison 1956”. Neither gives a day, and neither says whether the disc was made at a concert or in a studio session. The archival biography dates the French première, the first Domaine musical concert Boulez conducted in full, to 21 March 1956; the sources do not say that this is the fourth concert of the sleeve. A Discogs entry for the LP carries a contributor’s note “Recorded live in 1956” and names the Petit Théâtre Marigny as the place; the sleeve says neither, and the silences between the movements in this file contain only low-level noise.",
+      "precision": "approximate"
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["sleeve"],
+      "note": "No venue or studio is named on the sleeve. The Domaine musical gave its concerts at the Petit Marigny in 1956, but that does not establish where the disc was recorded."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Vega, 25 cm 33⅓ rpm LP, series “Présence de la musique contemporaine”",
+      "status": "documented",
+      "sourceIds": ["archive", "sleeve"],
+      "note": "The item description reads “C 35 A 67, disque microsillon 25 cm Véga”. The sleeve adds that the recording was made “sous les auspices du Conseil International de la Musique avec le concours de l’UNESCO”."
+    },
+    "catalogue": {
+      "value": "Vega C 35 A 67",
+      "status": "documented",
+      "sourceIds": ["archive", "sleeve", "express", "penser"],
+      "note": "L’Express of 12 November 1959 and Boulez’s 1963 discography both give C 35 A 67 as the “version intégrale”. The extracts disc, Vega C 30 A 66, is a different issue."
+    },
+    "matrixTakeSides": {
+      "value": "Side 1 (file f1): movements I–V; side 2 (file f2, labelled “fin”): movements VI–IX",
+      "status": "inferred",
+      "sourceIds": ["archive", "discogs", "musicbrainz"],
+      "note": "The item description lists f1 as “Le Marteau sans maître” and f2 as “Le Marteau sans maître (fin)” and does not list movements per side; Discogs lists A1–A5 as movements I–V and B1–B4 as VI–IX. In this file four silences of about 3.5 to 9 seconds end at 1:32, 5:25, 7:38 and 10:57, and the sound ends at about 14:07. They divide the side into five pieces of about 1:26, 3:50, 2:05, 3:12 and 3:10, which agree with the lengths of movements I–V in the 1956 recording as listed by MusicBrainz for a later reissue (1:30, 3:52, 2:06, 3:14, 3:10; 13 min 52 s in all). The side ends with the last movement of the first half, and the second side begins with “Bourreaux de solitude”. Matrix numbers are not shown."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The item is in the Internet Archive’s Hifidelity collection. Its description ends with a shelf mark (“Localisation: Af-10”), which suggests a library catalogue entry; no transfer engineer or institution is named. The uploader’s account is an email address, which is not reproduced."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The item became public on 2 July 2021; that is an upload date, not a transfer date."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The item offers FLAC, WAV and MP3 files for each side. Equalisation, noise reduction and speed correction are not described. The MP3 has about one second of digital silence at the start and about three at the end."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez/C%2035%20A%2067%E2%80%A2f1.mp3",
+    "sourceChain": ["archive", "sleeve"],
+    "format": "Internet Archive VBR MP3 derivative of an uploaded FLAC (one LP side)",
+    "durationSeconds": 850.23
+  },
+  "rights": {
+    "composition": {
+      "value": "Boulez died in 2016, so the work is in copyright in the EU, under the life-plus-70 term, until the end of 2086.",
+      "status": "documented",
+      "sourceIds": ["bio"],
+      "note": "Boulez’s death on 5 January 2016 is recorded in the archival biography; the term is our calculation. The poems are by René Char, who died in 1988 and whose texts are also in copyright. Rights in the composition and in the poems are separate from rights in the recording. No United States status is claimed."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis: first published in 1956 (before 1963); US status not established.",
+      "status": "documented",
+      "sourceIds": ["bio", "express", "penser"],
+      "note": "The archival biography lists the Véga record release of the work under 1956; L’Express lists the disc on 12 November 1959; Boulez’s 1963 book lists it. A French phonogram published in 1956 had run its 50-year term by the end of 2006 and was not revived by the 2011 extension, which applies to fixations still protected on 1 November 2013. No United States clearance is claimed. The Internet Archive item carries no licence and no litigation or restriction marker. The sleeve does not say whether the recording was made at a concert; a Discogs contributor’s note says it was recorded live. The basis here is publication of the commercial Vega LP, which L’Express documents by November 1959."
+    },
+    "creditLine": "Pierre Boulez, Le Marteau sans maître, movements I–V. Marie-Thérèse Cahn and members of the Domaine musical, Pierre Boulez, conductor. Vega C 35 A 67, side 1; Les Concerts du Domaine musical, fourth concert, 1956 season; session date and place unknown. Internet Archive item c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez, uploaded 2021. Territorial EU public-domain recording basis; US status not established.",
+    "licenseUrl": "https://archive.org/details/c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Boulez • Le Marteau sans maître (Pierre Boulez), Vega C 35 A 67: item record and file list",
+      "url": "https://archive.org/metadata/c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez",
+      "locator": "description (C 35 A 67 f1 and f2 “fin”; text by René Char; performers; “Les Concerts du Domaine musical, 4e Concert – Saison 1956”; “disque microsillon 25 cm Véga”; shelf mark); files C 35 A 67•f1.mp3 (850.23 s) and •f2.mp3 (1020.06 s); public 2 July 2021",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "sleeve",
+      "title": "Vega C 35 A 67 — scanned sleeve (Internet Archive image container and OCR text)",
+      "url": "https://archive.org/details/c-35-a-67-boulez-o-le-marteau-sans-maitre-pierre-boulez",
+      "locator": "Sleeve: “Les Concerts du Domaine musical, 4me concert – saison 1956 (Enregistré sous les auspices du Conseil International de la Musique avec le concours de l’UNESCO)”; note by Pierre Souvtchinsky (nine parts separated by silences of unequal length; list of the nine movements; scoring; Char’s texts); “Les interprètes”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "bio",
+      "title": "Philharmonie de Paris and French Ministry of Culture — Pierre Boulez archival biography",
+      "url": "https://www.pierreboulez.org/default/biographie.aspx?_lg=en-US",
+      "locator": "1955: 18 June, Rosbaud conducts the première in Baden-Baden with Sybilla Plate. 1956: 21 March, Boulez conducts the French première at the Domaine musical with Marie-Thérèse Cahn; “Record release: Boulez: Le Marteau sans maître · Domaine musical, Pierre Boulez (conducting), Marie-Thérèse Cahn (voice) [Véga]”. 1957: revises the work. 2016: death on 5 January",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "express",
+      "title": "L’Express, 12 November 1959 (Internet Archive scan)",
+      "url": "https://archive.org/details/sim_express_1959-11-12_439",
+      "locator": "“Quelques disques de musique contemporaine”: Boulez, Le Marteau sans maître, version intégrale, chant M. T. Cahn, dir. Pierre Boulez, Grand Prix du Disque, Académie Charles-Cros, Vega C 35 A 67; extracts on Vega C 30 A 66",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "penser",
+      "title": "Pierre Boulez, Penser la musique aujourd’hui (Paris: Gonthier, 1963), discography of recordings (Internet Archive scan, searched by full text)",
+      "url": "https://archive.org/details/bwb_P9-ECH-472",
+      "locator": "“Le Marteau sans Maître. Vega n° C 35 A 67 version intégrale. (Enregistrement saison 1956. Direction: Pierre Boulez.)” and “Vega n° C 30 A 66 extraits avec Incontri”; seen as search snippets, the borrowable scan not opened",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "ircam",
+      "title": "IRCAM — Le Marteau sans maître, work record with Jacques-Marie Lonchampt’s programme note",
+      "url": "https://ressources.ircam.fr/fr/works/work/6981",
+      "locator": "Movement-by-movement description; the three cycles (2.4.6.8; 1.3.7; 5.9); selection struggle before the Baden-Baden première",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "distler",
+      "title": "Jed Distler — interview with Pierre Boulez, London, August 2000 (republished 6 January 2016)",
+      "url": "https://jdistlerblog.wordpress.com/2016/01/06/an-interview-with-pierre-boulez-1925-2016/",
+      "locator": "Answer on Le Marteau sans maître: influence of Balinese and African music; the beginning of the second piece and central African wood percussion and xylophone",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Wikipedia — Le Marteau sans maître",
+      "url": "https://en.wikipedia.org/wiki/Le_marteau_sans_ma%C3%AEtre",
+      "locator": "History: six-movement version of 1954, nine movements in 1955, engraved score UE 12450 in 1957; first performance 18 June 1955",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "musicbrainz",
+      "title": "MusicBrainz — recordings of Le Marteau sans maître by Marie-Thérèse Cahn and Pierre Boulez (1956), reissue “Le Domaine musical: 1956…1967”",
+      "url": "https://musicbrainz.org/work/058f2fc5-a8cd-4e09-a275-6782c7187c7f",
+      "locator": "Movement lengths of the 1956 recording: 1:30, 3:52, 2:06, 3:14, 3:10, 3:09, 1:01, 5:41, 6:58; used only to place the side break",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "discogs",
+      "title": "Discogs — René Char / Pierre Boulez, Le Marteau sans maître (Vega C 35 A 67)",
+      "url": "https://www.discogs.com/release/8629413-Ren%C3%A9-Char-Pierre-Boulez-Le-Marteau-Sans-Maitre",
+      "locator": "Tracklist A1–A5 (movements I–V) and B1–B4 (VI–IX); credits; contributor’s note “Recorded live in 1956”; user-contributed data",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "musicweb",
+      "title": "MusicWeb International — review of Accord, Le Domaine musical 1956–1967, volumes 1 and 2 (December 2006)",
+      "url": "https://musicweb-international.com/classrev//2006/Dec06/Boulez_Domaine_4769209_4768862.htm",
+      "locator": "Volume 1 bonus disc: Le Marteau sans maître, 1955 version [30:44], Marie-Thérèse Cahn, Solistes du Domaine musical, Pierre Boulez, “rec. 1956”",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

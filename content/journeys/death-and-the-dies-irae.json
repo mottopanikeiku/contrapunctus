@@ -1,7 +1,7 @@
 {
   "id": "death-and-the-dies-irae",
   "title": "Death and the Dies irae",
-  "subtitle": "A funeral chant: bells, bones, piano",
+  "subtitle": "Funeral chant for bells, bones and piano",
   "minutes": 21,
   "hero": {
     "file": "File:The Triumph of Death by Pieter Bruegel the Elder.jpg",
@@ -167,7 +167,7 @@
     },
     {
       "id": "s8",
-      "title": "Piano filling the room",
+      "title": "Piano passage",
       "listen": { "id": "rachmaninoff-prelude-c-sharp-minor", "from": 138, "to": 227.9 },
       "art": null,
       "score": null,

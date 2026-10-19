@@ -20,7 +20,7 @@ export default {
   "sections": [
     { "t": 0, "label": "A · Chromatic figures, Très léger", "m": "A", "mNote": "Quick chromatic figures break off between phrases." },
     { "t": 60, "label": "B · Song in B♭ minor", "m": "B", "mNote": "Long chords above a detached bass." },
-    { "t": 148, "label": "Link · The flutter returns low down", "m": "Link", "mNote": "The first tempo returns over repeated bass notes" },
+    { "t": 148, "label": "Link · Flutter figure returns in low register", "m": "Link", "mNote": "The first tempo returns over repeated bass notes" },
     { "t": 196, "label": "A′ · Return of the opening figures", "m": "A′", "mNote": "The opening figures return in a shorter passage." },
     { "t": 232, "label": "Coda · Chords, then a final fast figure", "m": "Coda", "mNote": "A Presque lent passage interrupts the quick figures before the close." }
   ],
@@ -82,7 +82,7 @@ export default {
     },
     {
       "id": "slow-section-to-first-tempo", "title": "Return of the quick figure over the bass",
-      "from": "B · Song in B♭ minor", "to": "Link · The flutter returns low down",
+      "from": "B · Song in B♭ minor", "to": "Link · Flutter figure returns in low register",
       "at": { t: 148 }, "span": [136, 166],
       "how": "<p>The slow chords fade over a repeated low note. Ravel writes <i>revenez au premier mouvement</i>, and the quick figure returns at <i>ppp</i> above that same bass. It climbs through the keyboard, interrupted by longer chords from the song.</p>",
       "devices": ["texture change", "tempo change", "crescendo build", "motivic link"],
@@ -91,7 +91,7 @@ export default {
     },
     {
       "id": "development-to-return", "title": "Return of the opening figure",
-      "from": "Link · The flutter returns low down", "to": "A′ · Return of the opening figures",
+      "from": "Link · Flutter figure returns in low register", "to": "A′ · Return of the opening figures",
       "at": { t: 196 }, "span": [172, 208],
       "how": "<p>Rising runs slow and stop, and a bar at <i>ppp</i> follows. The first figure then returns at <i>pp</i>, in its original position on the keyboard. The two hands resume the light, uneven phrases of the opening.</p>",
       "devices": ["decrescendo", "motivic link", "retransition"],

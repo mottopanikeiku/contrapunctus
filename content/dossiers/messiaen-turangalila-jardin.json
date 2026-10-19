@@ -1,0 +1,164 @@
+{
+  "id": "messiaen-turangalila-jardin",
+  "work": {
+    "title": "Turangalîla-Symphonie",
+    "catalogue": "",
+    "movement": "VI. Jardin du sommeil d’amour",
+    "version": {
+      "value": "Original 1946–48 orchestration, movement VI of ten.",
+      "status": "inferred",
+      "sourceIds": ["wikipedia", "sleeve"],
+      "note": "Messiaen revised the orchestration in 1990, according to the Wikipedia article; a record dated 1962 predates that revision. The labels give no edition and do not say whether the performance is complete or cut."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Yvonne Loriod", "role": "piano" },
+      { "name": "Jeanne Loriod", "role": "ondes Martenot" },
+      { "name": "Orchestre National de la R.T.F.", "role": "orchestra" },
+      { "name": "Maurice Le Roux", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["sleeve", "wikipediaJeanne"],
+    "note": "Credited on every label of the Vega set as “Yvonne Loriod – Piano, Jeanne Loriod – Ondes Martenot, Orchestre National de la R.T.F., Direction: Maurice Le Roux”. No individual orchestral players are named. Wikipedia’s article on Jeanne Loriod calls her the younger sister of Yvonne Loriod."
+  },
+  "session": {
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["sleeve", "wikipedia"],
+      "note": "The labels give no session date. The notice (P) 1962 is the year of the phonographic copyright and first issue, not a session date. The table of recordings in the Wikipedia article on the symphony says only “Recording supervised by Messiaen in 1961”; no primary source for that was found. The upload and ripping dates of the Internet Archive item (2022) concern the transfer only.",
+      "precision": null
+    },
+    "place": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["sleeve"],
+      "note": "Neither the labels nor the sleeve text name a studio or hall."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Vega (France), two 30 cm 33⅓ rpm LPs in the series “Présence de la musique contemporaine”, (P) 1962",
+      "status": "documented",
+      "sourceIds": ["sleeve", "archive"],
+      "note": "The Internet Archive record gives publisher Vega, country FR and date 1962, with a Discogs release identifier. The labels carry (P) 1962."
+    },
+    "catalogue": {
+      "value": "Vega 28.001/28.002 on the pressing transferred; face 3 is 28.002 face 3 (movements 6 and 7)",
+      "status": "documented",
+      "sourceIds": ["sleeve", "roy"],
+      "note": "Jean Roy’s 1962 index of discs lists the Le Roux recording as “2 disques 30 cm 33 t, Véga, 339-40 (mono)” and a stereo pair of numbers (read as 20.033-34; the OCR prints “20.033-54”). Wikipedia’s table gives Vega C 30 ST 20033/4, C 35 X 940 and VAL 127. Whether 28.001/28.002 is a renumbering or a later pressing of the same issue is not established. Both sources date the recording’s issue to 1962 or earlier."
+    },
+    "matrixTakeSides": {
+      "value": "28.002 face 3: N° 6 Jardin du sommeil d’amour 10′05″ and N° 7 Turangalîla II 4′00″; matrix and take numbers not read",
+      "status": "documented",
+      "sourceIds": ["sleeve"],
+      "note": "Timings are those printed on the label. The transferred track of 10 min 13 s includes a few seconds of side lead-in and run-out."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP digitisation (Cebu scanning centre); the ripping operator is not credited by name",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item sits in the Internet Archive’s University of Illinois audio-archive and John Rockwell vinyl collections. Collection membership does not establish the original session."
+    },
+    "date": {
+      "value": "2022-05-05",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "From the ripping_date field (20220505). The sleeve was scanned on 2 May 2022 and the item became public on the same day."
+    },
+    "processing": {
+      "value": "Technics SL1200MK5 turntable, Audio-Technica AT95e cartridge, Radio Design Labs EZ-PH1 phono preamp and Focusrite Scarlett 2i2; side recorded to FLAC and segmented into a VBR MP3 per track.",
+      "status": "documented",
+      "sourceIds": ["archive", "segments"],
+      "note": "The item’s lineage field states the signal chain. The final segmentation of this track is 3.995–617.415 seconds of the face-3 capture, edited from an automatic start at 9.411 seconds. Equalisation, de-clicking and speed correction are not described. The cut ranges are digital edits, not score alignment."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l/disc2/03.01.%20Jardin%20Du%20Sommeil%20D'Amour.mp3",
+    "sourceChain": ["archive", "sleeve", "segments"],
+    "format": "Internet Archive VBR MP3 derivative of the face-3 capture",
+    "durationSeconds": 613.42
+  },
+  "rights": {
+    "composition": {
+      "value": "Messiaen died in 1992, so the symphony is in copyright in the EU, under the life-plus-70 term, until the end of 2062.",
+      "status": "documented",
+      "sourceIds": ["wikipedia"],
+      "note": "The death year is taken from the Wikipedia article’s dates for Messiaen; the term is our calculation. Rights in the composition are separate from rights in the recording. No United States status is claimed."
+    },
+    "recording": {
+      "value": "Territorial EU public-domain basis: first published in 1962 (before 1963); US status not established.",
+      "status": "documented",
+      "sourceIds": ["sleeve", "roy"],
+      "note": "The labels carry (P) 1962, and Jean Roy’s index of discs, published in Paris in 1962, lists the performance on Vega. An EU phonogram published in 1962 had run its 50-year term by the end of 2012, before the 2011 extension applied (1 November 2013). The US term for a 1962 recording is longer, and no US clearance is claimed. The Internet Archive item carries no licence."
+    },
+    "creditLine": "Olivier Messiaen, Turangalîla-Symphonie, VI. Jardin du sommeil d’amour. Yvonne Loriod, piano; Jeanne Loriod, ondes Martenot; Orchestre National de la R.T.F.; Maurice Le Roux. Vega 28.001/28.002, (P) 1962; session date and place unknown. Internet Archive vinyl transfer, May 2022. Territorial EU public-domain recording basis; US status not established.",
+    "licenseUrl": "https://archive.org/details/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Turangalila Symphonie (Vega 28.001/002): item record and file list",
+      "url": "https://archive.org/metadata/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l",
+      "locator": "publisher Vega, publisher-catalog-number 28.001/002, country FR, date 1962; lineage; scandate 20220502; ripping_date 20220505; file disc2/03.01 Jardin Du Sommeil D'Amour.mp3, 613.42 s",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "sleeve",
+      "title": "Vega 28.001/28.002 — scanned sleeve and labels (Internet Archive PDF and OCR text)",
+      "url": "https://archive.org/details/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l",
+      "locator": "Labels of faces 1–4 with timings (face 3: N° 6 Jardin du sommeil d’amour 10′05″) and notice (P) 1962; Messiaen’s note in French, English and German: commission, composition dates, first performance, cyclic themes",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "segments",
+      "title": "Internet Archive — final track segmentation (segments.json)",
+      "url": "https://archive.org/download/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l_segments.json",
+      "locator": "Jardin Du Sommeil D'Amour: initial 9.411–617.415 s, final 3.995–617.415 s",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "roy",
+      "title": "Jean Roy, Présences contemporaines: musique française (Paris: Nouvelles Éditions Debresse, 1962)",
+      "url": "https://archive.org/details/presencescontemp0000royj",
+      "locator": "Index of works and discs, Messiaen: Turangalîla-Symphonie, Orchestre National de la R.T.F., dir. Maurice Le Roux, 2 discs 30 cm 33 rpm, Véga 339-40 (mono) and 20.033-34 (stereo); seen as a full-text search snippet, the borrowable scan not opened",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "heninger",
+      "title": "Barbara Heninger — Turangalîla-Symphony programme note, Redwood Symphony",
+      "url": "https://redwoodsymphony.org/piece/turangalila-symphony/",
+      "locator": "Reprints Messiaen’s programme note for the first performance, movement by movement (V, VI, VIII, X)",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Wikipedia — Turangalîla-Symphonie",
+      "url": "https://en.wikipedia.org/wiki/Turangal%C3%AEla-Symphonie",
+      "locator": "Premiere of 2 December 1949: Bernstein, Loriod, Ginette Martenot; Koussevitzky’s illness; revision of the orchestration in 1990; Messiaen (1908–1992)",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "laphil",
+      "title": "Los Angeles Philharmonic — Trois petites liturgies de la présence divine (programme note)",
+      "url": "https://www.laphil.com/works/trois-petites-liturgies-de-la-presence-divine",
+      "locator": "“About this Piece”: Yvonne Loriod, who would later become Messiaen’s second wife in 1961",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "wikipediaJeanne",
+      "title": "Wikipedia — Jeanne Loriod",
+      "url": "https://en.wikipedia.org/wiki/Jeanne_Loriod",
+      "locator": "Opening paragraph: younger sister of Yvonne Loriod; recorded the Turangalîla-Symphonie six times",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

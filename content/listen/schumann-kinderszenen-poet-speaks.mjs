@@ -14,7 +14,7 @@ export default {
   performers: 'Donald Betts',
   recorded: '2005',
   source: { file: 'File:Robert Schumann - scenes from childhood, op. 15 - xiii. the poet speaks.ogg' },
-  intro: 'After the child falls asleep, the poet has the last word. A G-major hymn breaks into hesitant piano speech, then gathers itself for the quietest of farewells.',
+  intro: 'After the child falls asleep, the poet speaks. A G-major hymn breaks into hesitant piano speech, then gathers itself for the quietest of farewells.',
 
   sections: [
     { t: 0, label: 'A · Hymn in G major', m: 'A' },

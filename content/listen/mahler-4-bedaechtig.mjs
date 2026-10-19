@@ -19,7 +19,7 @@ export default {
   recorded: '',
   license: 'Public domain',
   source: { file: 'File:Mahler Symphony No.4 in G major 1. Badachtig Nicht ellen (Mahler) European Archive.ogg' },
-  intro: 'The first movement of Mahler’s Symphony No. 4, marked “Bedächtig. Nicht eilen”, opens with sleigh bells, and the violins then begin a tune in G major. Later its melodies overlap and the trumpets sound an alarm.',
+  intro: 'The first movement of Mahler’s Symphony No. 4, marked “Bedächtig. Nicht eilen”, opens with sleigh bells, and the violins then begin a tune in G major. Later its melodies overlap and the trumpets play a fanfare.',
   sections: [
     { t: 0, label: 'A · Sleigh bells and violin theme', m: 'A', mNote: 'Clipped flute notes, then a leisurely theme in G major' },
     { t: 90, label: 'B · The cellos sing in D major', m: 'B', mNote: 'Long notes marked broadly sung' },

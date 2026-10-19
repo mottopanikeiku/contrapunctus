@@ -1,0 +1,140 @@
+{
+  "id": "webern-symphony-second",
+  "work": {
+    "title": "Symphony",
+    "catalogue": "Op. 21",
+    "movement": "II. Variationen",
+    "version": {
+      "value": "Webern’s Symphony, Op. 21, for clarinet, bass clarinet, two horns, harp and strings; the edition and the size of the string section are not stated.",
+      "status": "unknown",
+      "sourceIds": ["archive", "argjune"],
+      "note": "The 1950 review describes the ensemble as members of the Orchestre National playing as the Paris Chamber Orchestra, but does not say how many string players took part."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Paris Chamber Orchestra", "role": "orchestra" },
+      { "name": "René Leibowitz", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "argjune"],
+    "note": "The item lists the Pro Arte Quartet as well; the review shows that the quartet plays Webern’s Op. 5 and Op. 9 on the same LP, not the Symphony. The review describes the orchestra as members of the Orchestre National."
+  },
+  "session": {
+    "date": {
+      "value": "Not stated",
+      "status": "unknown",
+      "sourceIds": ["archive", "argjune"],
+      "note": "The item date, 1950, is the year of the LP release. The review of June 1950 shows only that the LP had appeared by then."
+    },
+    "place": {
+      "value": "Not stated",
+      "status": "unknown",
+      "sourceIds": ["archive", "argjune"],
+      "note": "The ensemble’s name points to Paris; neither source states where the recording was made."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Dial Records (United States), long-playing record",
+      "status": "documented",
+      "sourceIds": ["argjune"],
+      "note": "The review gives “Dial 7, $5.95” for the LP containing the Symphony, the Five Movements, Op. 5, and the Six Bagatelles, Op. 9."
+    },
+    "catalogue": {
+      "value": "Dial 7",
+      "status": "documented",
+      "sourceIds": ["argjune", "argfeb"],
+      "note": "The February 1951 issue lists the Symphony as “Dial LP” and refers back to the June 1950 review."
+    },
+    "matrixTakeSides": {
+      "value": "Not stated; the Symphony is on side 1",
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The Internet Archive item places the two movements of the Symphony among the tracks of disc 1, side 1; no matrix or take numbers are given."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Internet Archive LP digitisation project; the item lists the collections vinyl_bostonpubliclibrary and vinyl_estate-of-sam-randlett_records",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item metadata names the collections and a scanning-station identifier but no individual transfer engineer."
+    },
+    "date": {
+      "value": "Not stated; the item was made public on 14 July 2021",
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The public date of the item is an upload date, not the date of the transfer."
+    },
+    "processing": {
+      "value": "Digital rip of the LP, with the tracks divided by the digitiser; the ripping note for side 1 reads “scratchy disc”.",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Movement I, on the same side, was not published because a spectrogram of the file shows that its first minutes are dominated by surface noise. Movement II is the cleaner transfer."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/lp_symphony-opus-21_anton-webern-ren-leibowitz-pro-arte-quarte/disc1/01.02.%20Symphony%20Opus%2021%20II.mp3",
+    "sourceChain": ["archive"],
+    "format": "Internet Archive derivative VBR MP3",
+    "durationSeconds": 166.44
+  },
+  "rights": {
+    "composition": {
+      "value": "Webern died in 1945, so the work has been in the public domain in the EU and other life-plus-70 countries since 2016. IMSLP lists scans of the 1929 Universal Edition score; its United States status is not established here.",
+      "status": "documented",
+      "sourceIds": ["imslp"],
+      "note": "Rights in the composition are stated separately from rights in the recording."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial EU public domain: first published before 1963; the LP was reviewed in June 1950.",
+      "status": "documented",
+      "sourceIds": ["argjune", "argfeb"],
+      "note": "The United States status of a 1950 recording is not established. The Internet Archive item carries no licence label and belongs to the Archive’s “Unlocked Recordings” collection, whose description says works there may already be in the public domain; its metadata has no restriction flag and the MP3 downloads without a login."
+    },
+    "creditLine": "Anton Webern, Symphony, Op. 21, II. Variationen. Paris Chamber Orchestra, René Leibowitz, conductor. Dial 7, reviewed in June 1950. Internet Archive LP digitisation project; item lp_symphony-opus-21_anton-webern-ren-leibowitz-pro-arte-quarte. Territorial EU basis (first published before 1963); US status not established.",
+    "licenseUrl": "https://archive.org/details/lp_symphony-opus-21_anton-webern-ren-leibowitz-pro-arte-quarte"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — Symphony Opus 21 (Webern; René Leibowitz, Pro Arte Quartet, Paris Chamber Orchestra): metadata and file inventory",
+      "url": "https://archive.org/metadata/lp_symphony-opus-21_anton-webern-ren-leibowitz-pro-arte-quarte",
+      "locator": "metadata.title, creator, date 1950, collections, notes (“scratchy disc”), tracklist; file disc1/01.02. Symphony Opus 21 II.mp3 (2:46)",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "argjune",
+      "title": "The American Record Guide, vol. 16 no. 10, June 1950 (Internet Archive scan)",
+      "url": "https://archive.org/details/sim_american-record-guide_1950-06_16_10",
+      "locator": "Record review by C. J. Luten, p. 343: “WEBERN: Symphony, Op. 21; Paris Chamber Orchestra conducted by René Leibowitz … Pro Arte Quartet. Dial 7, $5.95”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "argfeb",
+      "title": "The American Record Guide, vol. 17 no. 6, February 1951 (Internet Archive scan)",
+      "url": "https://archive.org/details/sim_american-record-guide_1951-02_17_6",
+      "locator": "List of recommended records: “WEBERN: Symphony, Op. 21. Leibowitz and Paris Cham. Orch. Dial LP … (Review June, p. 343)”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Symphony, Op.21 (Webern, Anton)",
+      "url": "https://imslp.org/wiki/Symphony,_Op.21_(Webern,_Anton)",
+      "locator": "Score listings: Universal Edition, 1929 (U.E. 9752 and U.E. 12198); Muzgiz reprint",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "omt",
+      "title": "Mark Gotham — Analysis Examples: Webern Op. 21 and 24, Open Music Theory",
+      "url": "https://viva.pressbooks.pub/openmusictheory/chapter/twelve-tone-analysis-examples-webern-op-21-and-24/",
+      "locator": "Movement 2: theme, seven variations and coda, with measure ranges and midpoints",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

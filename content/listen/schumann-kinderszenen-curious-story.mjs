@@ -21,7 +21,7 @@ export default {
     { t: 36, label: 'B · A singing line in G major', m: 'B' },
     { t: 46, label: 'A′ · Opening theme returns, piano', m: 'A′', mNote: 'The opening figure returns piano.' },
     { t: 64, label: 'B′ · The singing line returns', m: 'B′' },
-    { t: 76.5, label: 'A″ · One last telling', m: 'A″', mNote: 'Piano, then mezzo-forte; a ritardando closes the piece' },
+    { t: 76.5, label: 'A″ · Final return of the opening section', m: 'A″', mNote: 'Piano, then mezzo-forte; a ritardando closes the piece' },
   ],
 
   cues: [
@@ -74,7 +74,7 @@ export default {
       id: 'last-telling',
       title: 'Return of the opening in D major',
       from: 'B′ · The singing line returns',
-      to: 'A″ · One last telling',
+      to: 'A″ · Final return of the opening section',
       at: { t: 76.5 },
       span: [68, 84],
       how: '<p>The bass climbs D–D♯–E again, and grace notes lead into the last statement of the opening in D major. Schumann marks it <i>piano</i>, raises it to <i>mezzo-forte</i> in its second half and writes a ritardando over the final descent to D.</p>',

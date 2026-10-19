@@ -67,7 +67,7 @@ export default {
     {
       "t": 64,
       "kind": "music",
-      "title": "The tune has long legs",
+      "title": "Dotted riding tune in the brass",
       "text": "The riding tune stretches dotted notes across the busy accompaniment. The strings keep up their rapid figures under the brass melody’s long-short rhythm.",
       "basis": "general",
       "precision": "passage",

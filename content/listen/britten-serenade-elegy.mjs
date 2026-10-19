@@ -1,0 +1,88 @@
+// Recording: Peter Pears, Dennis Brain, Boyd Neel String Orchestra, Benjamin Britten; Decca matrix AR 8463 take 2, London, 1944; issued as Decca AK 1153 (set AK 1151–53), November 1945 (Philip Stuart, Complete Decca Classical Discography).
+// Source file: Internet Archive item from the CHARM collection (78rpm_charm), side 3 of the six-side set.
+// Text: William Blake, “The Sick Rose”, eight lines as printed in Wikipedia, Serenade for Tenor, Horn and Strings.
+export default {
+  id: 'britten-serenade-elegy',
+  composer: 'britten',
+  order: 1,
+  work: 'Serenade for Tenor, Horn and Strings',
+  movement: 'IV. Elegy',
+  year: '1943',
+  key: '',
+  forces: 'Tenor, horn and strings',
+  performers: 'Peter Pears, tenor; Dennis Brain, horn; Boyd Neel String Orchestra; Benjamin Britten, conductor',
+  recorded: '1944, London',
+  source: {
+    archive: {
+      item: '78_serenade-for-tenor-horn-strings-op31-s3-elegy-blake_pears-peter-brain-d-boy',
+      file: 'AK_1153_AR_8463-2.mp3',
+    },
+    rights: {
+      basis: 'eu-published-before-1963',
+      published: 1945,
+      evidence: 'Philip Stuart, Complete Decca Classical Discography 1929–2009 (July 2009 edition), session 0288: Pears, Brain, Boyd Neel String Orchestra and Britten, Serenade Op. 31, matrices AR8461–66, recorded 25 May 1944 with three sides (8461, 8464, 8466) re-made on 8 October 1944, issued in the UK in November 1945 as (A)K1151–53. The discography takes UK release dates from Decca’s monthly supplements or from advertisements and reviews in The Gramophone: https://archive.org/details/DeccaComplete . The Gramophone, December 1945, reviews the set as “Decca K1151-3 (12 ins., 19s. 10½d.)”, with automatic couplings AK1151-3: https://archive.org/details/sim_gramophone_1945-12_23_271 ; a Decca advertisement in the February 1946 issue lists the sides as K1151, K1152 (Elegy and Dirge) and K1153: https://archive.org/details/sim_gramophone_1946-02_23_273 . Territorial EU/UK basis only; US status not established.',
+    },
+  },
+  intro: 'Britten’s setting of Blake’s “The Sick Rose” is one of the two songs that Boosey & Hawkes calls the centrepiece of the Serenade. Pears, Brain and the Boyd Neel String Orchestra recorded it in 1944, with Britten conducting.',
+  sections: [
+    { t: 0, label: 'A · Introduction, strings and horn', m: 'A' },
+    { t: 101, label: 'B · Tenor declaims Blake’s poem', m: 'B' },
+    { t: 150, label: 'A′ · Conclusion, strings and horn', m: 'A′', mNote: 'The introduction’s material and the horn’s top C return.' },
+  ],
+  cues: [
+    {
+      t: 0,
+      kind: 'form',
+      title: 'Introduction before the voice',
+      text: 'The Elegy opens with a long introduction for strings and horn. Richard Cooke hears the string accompaniment as the worm of the poem moving underground, and notes a weighty double-bass pizzicato throughout the movement.',
+      basis: 'documented',
+      precision: 'passage',
+      evidence: 'Richard Cooke, conductor, blog 16, 13 July 2020, on the Elegy: a long introduction and conclusion for strings and horn, the worm “shuffling along under the ground” in the string accompaniment, the double basses playing a weighty pizzicato throughout: https://www.richardcooke.org/blogtext.htm?blog=64',
+    },
+    {
+      t: 82,
+      kind: 'music',
+      title: 'Sustained top C, then B',
+      text: 'The horn rises to a sustained top C and slips a semitone to B. Cooke places this exposed entry in the fifteenth slow bar. Colin Clarke counts two sustained high Cs in the movement, each resolving to a held B natural; the second comes near the end.',
+      basis: 'audio-feature',
+      precision: 'passage',
+      evidence: 'Richard Cooke, blog 16, 13 July 2020: the horn “rising with an exposed entry in the 15th slow bar on a top C” and slipping a semitone after a strong crescendo: https://www.richardcooke.org/blogtext.htm?blog=64 . Colin Clarke, Seen and Heard International, 11 April 2024: the Elegy “includes two sustained high C’s” resolving to a sustained top B natural: https://seenandheard-international.com/2024/04/britten-sinfonias-typically-adventurous-programme-mixing-a-world-premiere-with-music-of-today/',
+    },
+    {
+      t: 102,
+      kind: 'music',
+      title: 'Tenor enters with Blake’s poem',
+      text: 'The tenor enters after a quiet moment and declaims Blake’s eight lines as a recitative, against shifting chords in the strings. They run from “O Rose, thou art sick” to “Does thy life destroy”.',
+      basis: 'audio-feature',
+      precision: 'passage',
+      evidence: 'Richard Cooke, blog 16, 13 July 2020: the soloist recites the poem as a recitative: https://www.richardcooke.org/blogtext.htm?blog=64 . Colin Clarke, Seen and Heard International, 11 April 2024: the tenor’s lines heard against shifting chords in the strings: https://seenandheard-international.com/2024/04/britten-sinfonias-typically-adventurous-programme-mixing-a-world-premiere-with-music-of-today/ . The poem’s eight lines: Wikipedia, Serenade for Tenor, Horn and Strings, https://en.wikipedia.org/wiki/Serenade_for_Tenor,_Horn_and_Strings',
+    },
+    {
+      t: 140,
+      kind: 'world',
+      title: 'Sackville-West on the Serenade',
+      text: 'Edward Sackville-West, who advised Britten on the poems and received the dedication, wrote that the cycle’s subject was night, including “the worm in the heart of the rose, the sense of sin in the heart of man”.',
+      basis: 'documented',
+      precision: 'passage',
+      evidence: 'Sackville-West’s description, quoted in Jon Kochavi’s note for the Sun Valley Music Festival, 29 July 2022: https://www.svmusicfestival.org/program_notes/program-notes-stories-and-poems/ . His advice on the poems and the dedication: Wikipedia, Serenade for Tenor, Horn and Strings, https://en.wikipedia.org/wiki/Serenade_for_Tenor,_Horn_and_Strings',
+    },
+    {
+      t: 150,
+      kind: 'form',
+      title: 'Orchestral conclusion',
+      text: 'After the tenor’s last line the strings and horn play an extended conclusion. Cooke hears in it the same worm music as in the introduction.',
+      basis: 'documented',
+      precision: 'passage',
+      evidence: 'Richard Cooke, blog 16, 13 July 2020: the soloist recites the poem and the orchestra then plays the extended conclusion; introduction and conclusion share the theme of the worm in the strings and horn: https://www.richardcooke.org/blogtext.htm?blog=64',
+    },
+    {
+      t: 230,
+      kind: 'music',
+      title: 'Second top C, again resolving to B',
+      text: 'Near the end the horn reaches a second sustained top C and again falls a semitone to a held B, the pair of notes it sounded in the introduction.',
+      basis: 'audio-feature',
+      precision: 'passage',
+      evidence: 'Colin Clarke, Seen and Heard International, 11 April 2024: two sustained high Cs in the Elegy, each resolving to a sustained top B natural, the second the better in the performance reviewed: https://seenandheard-international.com/2024/04/britten-sinfonias-typically-adventurous-programme-mixing-a-world-premiere-with-music-of-today/',
+    },
+  ],
+};

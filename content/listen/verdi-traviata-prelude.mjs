@@ -17,7 +17,7 @@ export default {
   sections: [
     { t: 0, label: 'Intro · High divided violins', m: 'Intro', mNote: 'High violin chords sound with no bass beneath them.' },
     { t: 85, label: 'A · Violetta’s love melody in E major', m: 'A', mNote: 'Strings play the melody in E major over regularly spaced bass notes.' },
-    { t: 130, label: 'A′ · Cellos beneath violin lace', m: 'A′', mNote: 'Cellos and bassoon carry the tune beneath quick violin decoration' },
+    { t: 130, label: 'A′ · Cellos beneath violin figuration', m: 'A′', mNote: 'Cellos and bassoon carry the tune beneath quick violin decoration' },
     { t: 198, label: 'Coda · Short phrases, final E-major chord', m: 'Coda', mNote: 'Short phrases grow fewer and close on an E-major chord.' },
   ],
   cues: [
@@ -46,7 +46,7 @@ export default {
       id: 'cantabile-to-decorated-restatement',
       title: 'The melody passes below the violins',
       from: 'A · Violetta’s love melody in E major',
-      to: 'A′ · Cellos beneath violin lace',
+      to: 'A′ · Cellos beneath violin figuration',
       at: { t: 130 },
       span: [120, 144],
       how: '<p>A short cello line links the two statements. The cellos then play the E-major melody with the first bassoon, and above them the divided first violins play detached semiquavers. Second violins and violas repeat their chords, and the bass keeps its spaced notes.</p>',
@@ -58,7 +58,7 @@ export default {
     {
       id: 'decoration-to-quiet-close',
       title: 'The violin figures stop',
-      from: 'A′ · Cellos beneath violin lace',
+      from: 'A′ · Cellos beneath violin figuration',
       to: 'Coda · Short phrases, final E-major chord',
       at: { t: 198 },
       span: [188, 219],

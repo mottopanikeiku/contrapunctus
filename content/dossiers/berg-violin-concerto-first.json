@@ -1,0 +1,156 @@
+{
+  "id": "berg-violin-concerto-first",
+  "work": {
+    "title": "Violin Concerto",
+    "catalogue": "",
+    "movement": "I. Andante — Allegretto",
+    "version": {
+      "value": "Berg’s score for solo violin and orchestra; the edition the performers used is not stated.",
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The item description and the 1941 review name the work and the performers but not the printed or manuscript material."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Louis Krasner", "role": "violin" },
+      { "name": "The Cleveland Orchestra", "role": "orchestra" },
+      { "name": "Artur Rodzinski", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "amlover"],
+    "note": "Named in the item description and in the 1941 review, which also states that Krasner suggested the concerto to Berg."
+  },
+  "session": {
+    "date": {
+      "value": "15 December 1940",
+      "status": "documented",
+      "sourceIds": ["archive", "sonybox", "oron"],
+      "note": "Stated in the description written by the transferring collector, in the Sony Classical box-set listing (Discogs, “Cleveland, Severance Hall, December 15, 1940”) and in the Bach Cantatas Website discography; no session ledger was seen.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "Severance Hall, Cleveland",
+      "status": "documented",
+      "sourceIds": ["sonybox", "oron"],
+      "note": "Named in the Sony Classical box-set listing and in the Bach Cantatas Website discography; the Internet Archive description does not name the hall. That discography heads the entry “recorded live”; the issue is the commercial six-side Columbia set, and each file begins and ends in silence, with no applause."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Columbia Masterworks, set M-465 (written MM 465 in the Internet Archive description)",
+      "status": "documented",
+      "sourceIds": ["archive", "amlover", "catalog"],
+      "note": "The item description reads “Columbia 78rpm Set MM 465”; the 1941 review and the 1942 catalogue give “set M-465”. The review gives three discs at $3.50."
+    },
+    "catalogue": {
+      "value": "Columbia Masterworks set M-465; discs 11589-D to 11591-D",
+      "status": "documented",
+      "sourceIds": ["catalog", "amlover"],
+      "note": "The disc numbers are read from the OCR text of the 1942 catalogue, which lists the set as 6 sides with Krasner, the Cleveland Orchestra and Rodzinski; the page image was not checked."
+    },
+    "matrixTakeSides": {
+      "value": "XCO 29764 to XCO 29769 (six sides); the take numbers are not given",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "As given in the item description. Which sides carry the first movement is not stated."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": "Digital transfer by F. Reeder",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "Named in the item description, which adds “High bit rate”."
+    },
+    "date": {
+      "value": "Not stated; the item was added to the Internet Archive on 17 September 2013",
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The public date of the item is an upload date, not the date of the transfer."
+    },
+    "processing": {
+      "value": "Digital transfer of the 78 rpm discs, described as high bit rate; equalisation and noise reduction are not described.",
+      "status": "documented",
+      "sourceIds": ["archive"],
+      "note": "The item carries one MP3 for each movement, uploaded as the original file."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/BERGViolinConcerto-NEWTRANSFER/01.I.AndanteAllegretto.mp3",
+    "sourceChain": ["archive"],
+    "format": "Internet Archive MP3 (uploaded original)",
+    "durationSeconds": 631.04
+  },
+  "rights": {
+    "composition": {
+      "value": "Berg died in 1935, so the work has been in the public domain in the EU and other life-plus-70 countries since 2006; IMSLP also marks it public domain in Canada and in life-plus-50 countries. IMSLP considers it probably still protected in the United States.",
+      "status": "documented",
+      "sourceIds": ["imslp"],
+      "note": "Rights in the composition are stated separately from rights in the recording."
+    },
+    "recording": {
+      "value": "Rule 3 — territorial EU public domain: first published before 1963; reviewed in September 1941 and listed in Columbia’s catalogue of 1942.",
+      "status": "documented",
+      "sourceIds": ["amlover", "catalog"],
+      "note": "The Internet Archive item carries a CC BY-NC-SA 3.0 licence label from the uploader. That label does not meet the site’s licence rules and is not relied on. The United States status of a 1940 recording is not established."
+    },
+    "creditLine": "Alban Berg, Violin Concerto, I. Louis Krasner, violin; The Cleveland Orchestra; Artur Rodzinski, conductor. Recorded 15 December 1940; Columbia Masterworks set M-465, reviewed in September 1941. Digital transfer by F. Reeder; Internet Archive item BERGViolinConcerto-NEWTRANSFER. Territorial EU basis (first published before 1963); US status not established.",
+    "licenseUrl": "https://archive.org/details/BERGViolinConcerto-NEWTRANSFER"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive — BERG: Violin Concerto (Krasner, Cleveland Orchestra, Rodzinski): metadata and file inventory",
+      "url": "https://archive.org/metadata/BERGViolinConcerto-NEWTRANSFER",
+      "locator": "metadata.description (performers, set number, matrices XCO 29764–29769, recording date, transfer credit); files 01.I.AndanteAllegretto.mp3 (10:31) and 02.Ii.AllegroAdagioCoda.mp3; licenseurl",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "amlover",
+      "title": "The American Music Lover (later The American Record Guide), vol. 8 no. 1, September 1941 (Internet Archive scan)",
+      "url": "https://archive.org/details/sim_american-record-guide_1941-09_8_1",
+      "locator": "Record reviews, pp. 17–18: “BERG: Concerto for Violin and Orchestra … Columbia set M-465, three discs, price $3.50”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "catalog",
+      "title": "Columbia Record Catalog (1942) (Internet Archive, Media History Digital Library)",
+      "url": "https://archive.org/details/columbiarecordca00colu_5",
+      "locator": "General list, Berg: Concerto, Krasner and the Cleveland Orchestra, Rodzinski, 6 sides, set M-465, 11589-D to 11591-D (OCR text)",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "bso",
+      "title": "Michael Steinberg — programme note on Berg’s Violin Concerto, Boston Symphony Orchestra",
+      "url": "https://www.bso.org/works/berg-violin-concerto",
+      "locator": "Commission, Krasner’s visit to Berg in June 1935, description of the first movement and its folk song",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "imslp",
+      "title": "IMSLP — Violin Concerto (Berg, Alban)",
+      "url": "https://imslp.org/wiki/Violin_Concerto_(Berg,_Alban)",
+      "locator": "Public-domain notice (Canada, life-plus-50 and life-plus-70 countries; probably still protected in the United States); first publication 1936",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "sonybox",
+      "title": "Artur Rodziński, The Cleveland Orchestra — The Complete Columbia Album Collection (Sony Classical, 2023), listing on Discogs",
+      "url": "https://www.discogs.com/release/28988224-Artur-Rodzi%C5%84skiCleveland-Orchestra-The-Complete-Columbia-Album-Collection",
+      "locator": "CD 13: “Recorded: … Cleveland, Severance Hall, December 15, 1940” for the Berg concerto tracks",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "oron",
+      "title": "Bach Cantatas Website — Berg, Violin Concerto: discography, part 1 (1900–1949)",
+      "url": "https://www.bach-cantatas.com/Arran/OT-Berg-VC-Rec1.htm",
+      "locator": "Entry 3: Krasner, Rodziński, Cleveland Orchestra, Dec 15, 1940, Severance Hall; Columbia ML-4857; Naxos CD total 22:52",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

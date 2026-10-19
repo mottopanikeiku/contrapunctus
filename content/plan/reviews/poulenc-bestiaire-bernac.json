@@ -1,0 +1,47 @@
+{
+  "id": "poulenc-bestiaire-bernac",
+  "verdict": "pass",
+  "reviewer": "Rev2B",
+  "date": "2026-10-19",
+  "scope": "MEAS: Internet Archive metadata for the item and for the Montparnasse companion side, MD5 of the cached MP3 against the manifest, per-second level table and gap map, tuning estimate, the Archive’s automatic Whisper transcript compared with the poems; EXT: The Gramophone Shop Supplement, April 1947 (OCR), The Gramophone, September 1947 (OCR) and the August 1947 OCR, Graham Johnson’s note on Hyperion CDA68021/4, French Wikisource text of the six poems with page numbers, Wikipedia pages for the cycle and the list of Poulenc’s compositions. Not an aural review.",
+  "defects": [],
+  "corrections": [
+    {
+      "basis": "EXT",
+      "code": "POEM_PARAPHRASE",
+      "finding": "The Dauphin note rendered “Parfois, ma joie éclate-t-elle ? La vie est encore cruelle.” as a statement that the poet’s joy sometimes bursts out, “but” life is still cruel. The first line is a question.",
+      "fix": "Text now says the poet asks whether his joy sometimes bursts out and adds that life is still cruel."
+    },
+    {
+      "basis": "EXT",
+      "code": "DROMEDARIES",
+      "finding": "The first-song note said four camels; the poem says four “dromadaires”, which are dromedaries.",
+      "fix": "Text now says four dromedaries."
+    }
+  ],
+  "checks": {
+    "source": "The Archive lists LE BESTIAIRE - PIERRE BERNAC & FRANCIS POULENC.mp3 as a derivative VBR MP3, 4:44 (284.00 s), with the 24-bit FLAC original; the cached copy has the manifest MD5 (0f21c2d5…). The sound begins at about 5 s and the last music ends near 271 s. No licence field.",
+    "durationAndPitch": "All six songs on one 12-inch side. The per-second level table shows five near-silent gaps between the songs: about 71–78 s, 114–121.5 s, 140–145.5 s, 170–175 s and 211–219.5 s, and the tail after about 272 s. The section times 0, 77, 121, 146, 175 and 219 s fall at the end of each gap, within about 1 s. Tuning estimate +2.5 cents (windows −0.5 to +6 cents); no transposition or speed correction.",
+    "identity": "Archive item: matrix 2EA10804-1, catalogue D.B.6299, George Blood L.P. transfer for the Great 78 Project, equalisation turnover 375 Hz and roll-off −12 dB; the companion item for the reverse (MONTPARNASSE) gives 2EA10807-1 and D.B.6299. The Gramophone Shop Supplement, April 1947: “POULENC: Montparnasse & Le Bestiaire. Pierre Bernac (baritone in French) & Francis Poulenc (piano). 12” imported record (2 sides), No. G-DB6299; price $2.62”; it lists the six titles, calls the interpretations authentic and perfectly recorded with the composer at the piano, and says Claire Croiza recorded the songs once before on a record no longer obtainable. The Gramophone, September 1947, numbered list: “H.M.V. DB6299. Le Bestiaire and Montparnasse (Poulenc), Bernac.” The OCR of the page reference is garbled (“P- 34-”); the entries just before it in the list read “Aug., p. 32” and “Aug., p. 33”, so the reference is to the August 1947 issue, p. 34 (page image not viewed). That issue’s own OCR text has no match for Bernac or Bestiaire, so the review itself was not seen. Session date and place: no source I could open states them; the dossier says unknown.",
+    "notes": "The Archive’s automatic transcript follows the six poems in order (sung text from about 22 s, 79 s, 120 s, 153 s, 182 s and 227 s) and also prints each song’s title in or beside the silent gaps, where it is not part of the poem text; I read those as transcription artefacts (INFERENCE) and used the transcript as a cross-check only. Wikisource gives the six texts and printed pages 16, 10, 24, 27, 30 and 31, matching the evidence lines; Johnson gives poems 10, 4, 17, 19, 22 and 23, twelve settings at Pont-sur-Seine, the cut to six on Auric’s advice and the dedication to Durey. The poems on Wikisource number Le Dromadaire 10, La Chèvre du Thibet 4, La Sauterelle 17, Le Dauphin 19, L’Écrevisse 22 and La Carpe 23, the order of the cues. Counts: 8 notes, limit 8. Voice rules read by hand and by the validator; validate.mjs prints ok for the listen file and the dossier."
+  },
+  "rights": {
+    "decision": "Publish on the territorial basis stated in the file.",
+    "reasoning": "(1) First publication: HMV DB 6299 was on sale as an import by April 1947 (The Gramophone Shop Supplement, Vol. 10 no. 4) and entered The Gramophone’s numbered list of reviewed records in September 1947, with a reference to the August issue. A recording published in 1947 had no 50-year EU term left after 1997. (2) Provenance: a commercial HMV disc transferred by George Blood for the Great 78 Project, not a live or broadcast capture and not a modern re-labelling. (3) Composition: Poulenc died in 1963; the music is in copyright in the EU under the life-plus-70 term to the end of 2033, and the dossier now adds that national wartime extensions were not assessed. The Apollinaire poems are not assessed. The dossier states all this apart from the recording’s rights, as the brief requires. (4) The United States status of a recording made in France in the 1940s is not established and the dossier says so.",
+    "internetArchiveFlags": "No licence field; collections 78rpm, 78rpm_bowling_green, georgeblood, audio_music; no dark, access-restricted, noindex or litigation flag."
+  },
+  "observations": [
+    {
+      "basis": "EXT",
+      "code": "CATALOGUE_NUMBER_FP15",
+      "finding": "The listen file, the dossier and the composer page give FP 15. Hyperion’s page for Johnson’s note, Wikipedia and IMSLP give FP 15a for the six-song cycle (Wikipedia lists FP 15b for three unpublished songs).",
+      "action": "Left as FP 15 to match the composer page; a catalogue check (Schmidt) would settle whether the site should use FP 15a."
+    },
+    {
+      "basis": "EXT",
+      "code": "SESSION_DATE_UNKNOWN",
+      "finding": "Neither the session date nor the studio is stated in any source I could open.",
+      "action": "None; the dossier records the fields as unknown."
+    }
+  ]
+}

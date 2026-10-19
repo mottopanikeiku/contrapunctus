@@ -1,0 +1,192 @@
+{
+  "id": "britten-serenade-elegy",
+  "work": {
+    "title": "Serenade for Tenor, Horn and Strings",
+    "catalogue": "Op. 31",
+    "movement": "IV. Elegy (“O Rose, thou art sick”, William Blake)",
+    "version": {
+      "value": "The Elegy alone, on one side of the six-side Decca set AK 1151–53: side 3 of 6, matrix AR 8463. It shares a disc with the Dirge (side 4, AR 8464).",
+      "status": "inferred",
+      "sourceIds": ["archive", "charm"],
+      "note": "The titles of the six sides in the CHARM record and the Internet Archive items show the Elegy on a side of its own. That the side holds the whole movement is inferred from the neighbouring sides, which begin and end with other movements, and from the side’s length (4 min 21 s); no source states the movement’s duration in this recording or compares the side with the score."
+    }
+  },
+  "performers": {
+    "value": [
+      { "name": "Peter Pears", "role": "tenor" },
+      { "name": "Dennis Brain", "role": "horn" },
+      { "name": "Boyd Neel String Orchestra", "role": "string orchestra" },
+      { "name": "Benjamin Britten", "role": "conductor" }
+    ],
+    "status": "documented",
+    "sourceIds": ["archive", "charm", "decca-disco"],
+    "note": "The Internet Archive creator field lists Pears, Brain and the Boyd Neel String Orchestra. The CHARM record names Britten as conductor, and Philip Stuart’s Decca discography lists Pears, Brain, the Boyd Neel String Orchestra and Britten for the session."
+  },
+  "session": {
+    "date": {
+      "value": "1944-05-25",
+      "status": "inferred",
+      "sourceIds": ["decca-disco", "archive"],
+      "note": "Stuart’s discography records the Serenade sessions as 25 May 1944 and says that three sides (8461, 8464 and 8466) were re-made on 8 October 1944. The side transferred here is AR 8463, take 2, which is not among the re-made sides, so it is inferred to date from 25 May 1944; the discography does not say which take was issued.",
+      "precision": "day"
+    },
+    "place": {
+      "value": "London",
+      "status": "inferred",
+      "sourceIds": ["decca-disco"],
+      "note": "The discography lists the 25 May 1944 session at West Hampstead Studios, Decca’s London studios."
+    }
+  },
+  "carrier": {
+    "label": {
+      "value": "Decca (UK), 78 rpm",
+      "status": "documented",
+      "sourceIds": ["archive", "charm", "decca-disco"],
+      "note": "The Internet Archive item gives the label as Decca and the speed as 78; Stuart’s discography lists the Serenade among Decca’s UK 78 rpm issues. The record size is not stated in the sources consulted."
+    },
+    "catalogue": {
+      "value": "Decca AK 1153 (third disc of the automatic-coupling set AK 1151–53), issued in the UK in November 1945",
+      "status": "documented",
+      "sourceIds": ["decca-disco", "gramophone-1945", "gramophone-1946", "archive", "charm"],
+      "note": "The file name of the transfer is AK_1153_AR_8463-2. Stuart lists the issue as “(Nov45) (A)K1151-53”, and says UK release dates come from Decca’s monthly supplements or from advertisements and reviews in The Gramophone. The December 1945 issue of The Gramophone reviews the set as “Decca K1151-3 … Auto AK1151-3”. The same six sides were also issued in manual sequence as K1151–53, in which the Elegy and the Dirge share K1152 (Decca advertisement, The Gramophone, February 1946); the disc transferred here is the automatic coupling AK 1153, which carries the same two sides."
+    },
+    "matrixTakeSides": {
+      "value": "AR 8463, take 2 (side 3 of 6); AR 8464 take 4, the Dirge, is on the other side of the same disc",
+      "status": "documented",
+      "sourceIds": ["archive", "charm"],
+      "note": "From the item metadata and the CHARM record, which list the six sides of the set as AR 8461-4, AR 8466-4, AR 8462-3, AR 8465-4, AR 8463-2 and AR 8464-4."
+    }
+  },
+  "transfer": {
+    "credits": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "archive-collection", "charm"],
+      "note": "The item names no transfer engineer. It belongs to the Internet Archive’s Centre for the History and Analysis of Recorded Music (CHARM) 78rpm collection and carries a CHARM record (METS_AK_1151, created 30 January 2009 by conversion from a spreadsheet)."
+    },
+    "date": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive", "charm"],
+      "note": "The Internet Archive upload is a copying event, not the date of the transfer; the sibling item for side 4 was added on 15 January 2019."
+    },
+    "processing": {
+      "value": null,
+      "status": "unknown",
+      "sourceIds": ["archive"],
+      "note": "The item states no stylus, equalisation or noise reduction. The MP3 is the Internet Archive derivative of the uploaded FLAC."
+    }
+  },
+  "digital": {
+    "streamUrl": "https://archive.org/download/78_serenade-for-tenor-horn-strings-op31-s3-elegy-blake_pears-peter-brain-d-boy/AK_1153_AR_8463-2.mp3",
+    "sourceChain": ["archive", "charm"],
+    "format": "Internet Archive VBR MP3 derivative of a FLAC; one disc side, no concatenation or edits by Contrapunctus",
+    "durationSeconds": 260.58
+  },
+  "rights": {
+    "composition": {
+      "value": "In copyright. Britten died on 4 December 1976, so the Serenade is protected in the EU and the United Kingdom (life plus 70 years) until the end of 2046; Boosey & Hawkes is the publisher. Blake (1757–1827) wrote the poem, which is in the public domain.",
+      "status": "inferred",
+      "sourceIds": ["boosey", "svmusic"],
+      "note": "The publisher is documented by the Boosey & Hawkes page and Blake’s dates by the Sun Valley note. The term is a calculation from the composer’s death date, which the composer chapter on this site gives. Rights in the composition are separate from rights in the recording and do not block publication."
+    },
+    "recording": {
+      "value": "Territorial EU and UK public domain: first published before 1963 (Decca AK 1151–53, November 1945). United States status not established.",
+      "status": "documented",
+      "sourceIds": ["decca-disco", "gramophone-1945", "copyright-office", "archive"],
+      "note": "The release date is Philip Stuart’s, taken from Decca’s monthly supplements or from The Gramophone; The Gramophone for December 1945 independently reviews the set as already on sale. For a recording first published in 1945 the Copyright Office describes a term of 95 years plus 5 years after first publication in the United States, to the end of 2045; whether that term applies to this British issue was not established. The item carries no licence statement and sits in the CHARM collection, not in the Great 78 Project; its metadata carries no litigation, takedown or restriction flag."
+    },
+    "creditLine": "Benjamin Britten, Serenade for Tenor, Horn and Strings, Op. 31: IV. Elegy. Peter Pears, tenor; Dennis Brain, horn; Boyd Neel String Orchestra; Benjamin Britten, conductor. Decca matrix AR 8463 take 2, London, 1944; issued as Decca AK 1153, set AK 1151–53, in November 1945. Internet Archive item 78_serenade-for-tenor-horn-strings-op31-s3-elegy-blake_pears-peter-brain-d-boy, from the Centre for the History and Analysis of Recorded Music 78rpm collection. Territorial EU and UK basis (first published before 1963); US status not established.",
+    "licenseUrl": "https://archive.org/details/78_serenade-for-tenor-horn-strings-op31-s3-elegy-blake_pears-peter-brain-d-boy"
+  },
+  "sources": [
+    {
+      "id": "archive",
+      "title": "Internet Archive: Serenade for Tenor, Horn & Strings Op.31 s3 Elegy (Blake) (Pears, Peter; Brain, D; Boyd Neel String Orchestra), Decca 1153",
+      "url": "https://archive.org/details/78_serenade-for-tenor-horn-strings-op31-s3-elegy-blake_pears-peter-brain-d-boy",
+      "locator": "Item metadata: label Decca, matrix AR_8463-2, file AK_1153_AR_8463-2, MP3 derivative of 4:20, creators; links to the other five sides of the set",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "charm",
+      "title": "CHARM record METS_AK_1151, as distributed with the Internet Archive items of the set",
+      "url": "https://archive.org/download/78_serenade-for-tenor-horn-strings-op31-s4-dirge-anon-15th-century_pears-peter/METS_AK_1151.xml",
+      "locator": "Six sides of Decca AK 1151–53 with matrices AR_8461-4 to AR_8466-4, titles of each side, artists, conductor Britten",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "archive-collection",
+      "title": "Internet Archive: Centre for the History and Analysis of Recorded Music 78rpm collection",
+      "url": "https://archive.org/details/78rpm_charm",
+      "locator": "Collection description: CHARM, established 1 April 2004 at Royal Holloway, University of London with King’s College London and the University of Sheffield",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "decca-disco",
+      "title": "Philip Stuart, Decca Classical, 1929–2009: Complete Decca Classical Discography (July 2009 edition), Internet Archive full text",
+      "url": "https://archive.org/details/DeccaComplete",
+      "locator": "Session 0288: 25 May 1944, West Hampstead Studios; three sides (8461/64/66) re-made 8 Oct 1944; Pears, Brain, Boyd Neel String Orchestra, Britten; Serenade Op. 31, AR8461-66; “(Nov45) (A)K1151-53”; preface on UK release dates",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "gramophone-1945",
+      "title": "The Gramophone, vol. 23 no. 271 (December 1945), Internet Archive scan",
+      "url": "https://archive.org/details/sim_gramophone_1945-12_23_271",
+      "locator": "Record review of Britten’s Serenade, “Decca K1151-3 (12 ins., 19s. 10½d.). Auto AK1151-3”, with the reviewer’s account of the Elegy and the Dirge; Decca advertisement listing “Serenade for Tenor, Horn and Strings (Benjamin Britten) K1151-3”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "gramophone-1946",
+      "title": "The Gramophone, vol. 23 no. 273 (February 1946), Internet Archive scan",
+      "url": "https://archive.org/details/sim_gramophone_1946-02_23_273",
+      "locator": "Decca advertisement for the Serenade: sides listed under K1151, K1152 (Elegy, Dirge) and K1153; “Automatic couplings AK 1151/2/3”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "cooke",
+      "title": "Richard Cooke (conductor), blog 16: Britten, Serenade for Tenor Solo, Horn and Strings, Op. 31, 13 July 2020",
+      "url": "https://www.richardcooke.org/blogtext.htm?blog=64",
+      "locator": "Elegy section: long introduction and conclusion in strings and horn, the horn’s exposed top C in the fifteenth slow bar, recitative, weighty double-bass pizzicato; the page’s text was read from its HTML source",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "clarke",
+      "title": "Colin Clarke, review of Britten Sinfonia, Milton Court, 9 April 2024, Seen and Heard International (11 April 2024)",
+      "url": "https://seenandheard-international.com/2024/04/britten-sinfonias-typically-adventurous-programme-mixing-a-world-premiere-with-music-of-today/",
+      "locator": "Paragraph on the Elegy: two sustained high Cs resolving to a sustained top B natural; the tenor’s lines against shifting chords in the strings",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Wikipedia: Serenade for Tenor, Horn and Strings",
+      "url": "https://en.wikipedia.org/wiki/Serenade_for_Tenor,_Horn_and_Strings",
+      "locator": "Eight movements; Sackville-West’s advice and the dedication; the eight lines of Blake’s poem as set",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "svmusic",
+      "title": "Jon Kochavi, programme note, Sun Valley Music Festival, 29 July 2022",
+      "url": "https://www.svmusicfestival.org/program_notes/program-notes-stories-and-poems/",
+      "locator": "Edward Sackville-West on the Serenade’s subject: “the worm in the heart of the rose, the sense of sin in the heart of man”",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "boosey",
+      "title": "Boosey & Hawkes: Benjamin Britten, Serenade, op. 31 (1943)",
+      "url": "https://www.boosey.com/cr/music/Benjamin-Britten-Serenade/3880",
+      "locator": "Publisher; the “worm in the rose” of Blake’s Elegy and the Dirge as the work’s centrepiece",
+      "accessed": "2026-10-19"
+    },
+    {
+      "id": "copyright-office",
+      "title": "U.S. Copyright Office: Classics Protection and Access Act",
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "locator": "Term: 95 years after first publication, plus 5 years for recordings first published 1923–1946",
+      "accessed": "2026-10-19"
+    }
+  ],
+  "editorial": {
+    "editor": "Contrapunctus research desk",
+    "revised": "2026-10-19"
+  }
+}

@@ -281,7 +281,7 @@ export default {
           "solo-violin",
           "violins-1"
         ],
-        "note": "The full-string wind figures drive the conclusion."
+        "note": "The full-string wind figures run through the conclusion."
       }
     ]
   }

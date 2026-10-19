@@ -25,7 +25,7 @@ export default {
     },
     {
       t: 60, kind: 'world', title: 'The clever simpletons',
-      text: 'The Académie française’s dictionary of 1694 calls a “simpleton of Sologne” a man who pretends to be foolish while making mistakes that profit him. Rameau’s apparently easy tune has two demanding variations waiting behind it.',
+      text: 'The Académie française’s dictionary of 1694 calls a “simpleton of Sologne” a man who pretends to be foolish while making mistakes that profit him. Rameau’s apparently easy tune is followed by two demanding variations.',
       basis: 'documented', precision: 'passage',
       evidence: 'Dictionnaire de l’Académie française, 1694, “Niais, aise”, under “Nid”: the proverbial niais de Sologne feigns simplicity and errs to his own advantage. https://www.dictionnaire-academie.fr/article/A1N0043-04',
     },

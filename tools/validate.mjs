@@ -224,7 +224,8 @@ for (const f of files) {
       // Licence: the host's licence field, or (Internet Archive only) a documented US public-domain basis:
       // sound recordings published more than 100 years before the current year's 1 January (in 2026: 1925 and earlier).
       const R = mod.source.rights, usPd = R?.evidence && ((R.basis === 'us-published-before-cutoff' && Number(R.published) <= new Date().getFullYear() - 101) || (R.basis === 'eu-published-before-1963' && Number(R.published) < 1963));
-      if (!/public domain|^pd|cc0|cc[- ]by|\boal\b|open audio licen/i.test(info.license) && !usPd) err(f, `licence not allowed: ${info.license || 'none'} (archive items without a PD/CC licence need source.rights { basis: 'us-published-before-cutoff', published, evidence })`);
+      const openLicence = /public domain|^pd|cc0|cc[- ]by|\boal\b|open audio licen/i.test(info.license) && !/\bnc\b|non-?commercial|\bnd\b|no-?deriv/i.test(info.license);
+      if (!openLicence && !usPd) err(f, `licence not allowed: ${info.license || 'none'} (NonCommercial and NoDerivatives licences are not open; archive items without a PD/CC licence need source.rights { basis: 'us-published-before-cutoff' | 'eu-published-before-1963', published, evidence })`);
       if (mod.set && (!mod.set.id || !mod.set.title || !(mod.set.part >= 1) || !(mod.set.of >= mod.set.part))) err(f, 'set must be { id, title, part, of }');
       if (info.duration < (mod.set || mod.concert === false || mod.short ? 20 : 90)) err(f, `recording too short (${info.duration}s)`);  // short complete pieces: set movements, comparison-only recordings, or `short: true` (a complete miniature such as an étude)
       const dur = info.duration;
