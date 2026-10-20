@@ -19,7 +19,7 @@ import re
 import xml.etree.ElementTree as ET
 
 STEPS = {'c': 0, 'd': 2, 'e': 4, 'f': 5, 'g': 7, 'a': 9, 'b': 11}
-RECIP = re.compile(r'(\d+)(?:%(\d+))?(\.*)')
+RECIP = re.compile(r'(\d+)(?:%(\d+))?')
 PITCH = re.compile(r'([a-gA-G])\1*')
 TYPES = {Fraction(16): 'long', Fraction(8): 'breve', Fraction(4): 'whole', Fraction(2): 'half', Fraction(1): 'quarter',
          Fraction(1, 2): 'eighth', Fraction(1, 4): '16th', Fraction(1, 8): '32nd', Fraction(1, 16): '64th',
@@ -34,11 +34,16 @@ ORNAMENTS = (('T', 'trill-mark'), ('t', 'trill-mark'), ('M', 'mordent'), ('m', '
 
 
 def rhythm(token):
-    """Logical quarter duration, written type, dots and tuplet ratio of one **kern subtoken."""
+    """Logical quarter duration, written type, dots and tuplet ratio of one **kern subtoken.
+
+    As in humlib, every '.' in the subtoken is an augmentation dot, also after the pitch or rest
+    signifier (`4r.yy`, `4C.`).
+    """
     match = RECIP.search(token)
     if match is None:
         return None
-    number, denominator, dots = match.groups()
+    number, denominator = match.groups()
+    dots = '.' * token.count('.')
     if number in ('0', '00'):
         units = Fraction(1, 2 if number == '0' else 4)
     else:
@@ -66,11 +71,32 @@ def pitch(token):
     return 12 * (octave + 1) + STEPS[run[0].lower()] + alter, run[0].upper(), alter, octave
 
 
-def parse(source):
+def source_lines(source, corrections=()):
+    """The .krn lines with documented single-subtoken repairs ({line, old, new, basis}) applied in memory.
+
+    Each `old` must be one complete subtoken occurring exactly once on its 1-based data line; the
+    downloaded bytes are not changed.
+    """
+    lines = source.read_text(encoding='utf-8').splitlines()
+    for item in corrections:
+        number = int(item['line'])
+        if not item.get('basis') or item['old'] == item['new'] or not item['new'] or set(item['new']) & {' ', '\t'}:
+            raise ValueError(f'{source.name}: invalid token correction {item!r}')
+        line = lines[number - 1] if 0 < number <= len(lines) else ''
+        fields = [f.split(' ') for f in line.split('\t')]
+        hits = [(i, j) for i, f in enumerate(fields) for j, s in enumerate(f) if s == item['old']]
+        if line[:1] in ('!', '*', '=', '') or len(hits) != 1:
+            raise ValueError(f'{source.name}:{number}: correction {item["old"]!r} must match one data subtoken')
+        fields[hits[0][0]][hits[0][1]] = item['new']
+        lines[number - 1] = '\t'.join(' '.join(f) for f in fields)
+    return lines
+
+
+def parse(source, corrections=()):
     """Return timed events, barlines and attribute changes from a keyboard **kern file."""
     events, bars, attributes = [], [], []
     spines, now = None, Fraction(0)
-    for number, line in enumerate(source.read_text(encoding='utf-8').splitlines(), 1):
+    for number, line in enumerate(source_lines(source, corrections), 1):
         if not line or line.startswith('!'):
             continue
         fields = line.split('\t')
@@ -138,6 +164,7 @@ def parse(source):
         if line.startswith('='):
             bars.append({'time': now, 'token': fields[0], 'line': number})
             continue
+        timed = False
         for column, (field, spine) in enumerate(zip(fields, spines), 1):
             if not spine['kern'] or field == '.':
                 continue
@@ -145,6 +172,8 @@ def parse(source):
                 raise ValueError(f'{source.name}:{number}: **kern spine without *staff')
             subtokens = field.split(' ')
             grace = ['q' in s or 'Q' in s for s in subtokens]
+            # A bare duration (no pitch, no rest) is an invisible space, as Verovio 6.3 reads it.
+            space = len(subtokens) == 1 and not grace[0] and 'r' not in field and not PITCH.search(field)
             if any(grace) and not all(grace):
                 raise ValueError(f'{source.name}:{number}: mixed grace/regular chord {field!r}')
             rhythms = [rhythm(s) for s in subtokens]
@@ -154,14 +183,16 @@ def parse(source):
                 rhythms[0] = (Fraction(0), 'eighth', 0, None)
             # Later chord members without their own recip share the first member's rhythm.
             rhythms = [r or rhythms[0] for r in rhythms]
-            rest = ['r' in s for s in subtokens]
+            rest = ['r' in s or space for s in subtokens]
             if any(rest) and len(subtokens) != 1:
                 raise ValueError(f'{source.name}:{number}: rest inside chord {field!r}')
             groups = defaultdict(list)
             for s, r in zip(subtokens, rhythms):
                 groups[r].append(s)
-            shortest = min(groups, key=lambda r: r[0])
-            for r, members in sorted(groups.items(), key=lambda item: item[0] != shortest):
+            # Humdrum (humlib/Verovio) times a chord by its first subtoken; members with another
+            # duration are separate notated voices in MusicXML/LilyPond.
+            main = rhythms[0]
+            for r, members in sorted(groups.items(), key=lambda item: item[0] != main):
                 notes = []
                 if not rest[0]:
                     for s in members:
@@ -173,16 +204,18 @@ def parse(source):
                                       'arpeggio': ':' in s, 'token': s})
                 logical, kind, dots, ratio = r
                 events.append({'time': now, 'line': number, 'column': column, 'staff': spine['staff'],
-                               # A longer chord member is a separate notated voice in MusicXML/LilyPond.
-                               'slot': spine['slot'] if r == shortest else None,
+                               'slot': spine['slot'] if r == main else None,
                                'grace': (None if not grace[0] else ('plain' if 'qq' in field or 'Q' in field else 'slash')),
-                               'rest': rest[0], 'hidden': rest[0] and 'yy' in field, 'notes': notes,
+                               'rest': rest[0], 'hidden': rest[0] and ('yy' in field or space), 'notes': notes,
                                'duration': Fraction(0) if grace[0] else logical, 'type': kind, 'dots': dots,
-                               'ratio': ratio, 'field': field if r == shortest else ' '.join(members)})
+                               'ratio': ratio, 'field': field if r == main else ' '.join(members)})
             if not grace[0]:
-                spine['busy'] = now + shortest[0]
+                spine['busy'] = now + main[0]
+                timed = True
         ahead = [s['busy'] for s in spines if s['kern']]
-        if min(ahead) < now:
+        # After a line with regular tokens every spine must sound past it: an equal time means a
+        # spine whose token had ended carried a null token, i.e. the line has no duration.
+        if min(ahead) < now or (timed and min(ahead) == now):
             raise ValueError(f'{source.name}:{number}: a **kern spine has no sounding token')
         now = min(ahead)
     for event in [e for e in events if e['slot'] is None]:
@@ -194,13 +227,13 @@ def parse(source):
                 event['slot'] = slot
                 break
         else:
-            raise ValueError(f'{source.name}:{event["line"]}: no free voice for a longer chord member')
+            raise ValueError(f'{source.name}:{event["line"]}: no free voice for a chord member of another duration')
     return events, bars, attributes
 
 
-def attacks(source):
+def attacks(source, corrections=()):
     """Regular (quarter, MIDI) attacks without tied continuations, grace notes, and barline times."""
-    events, bars, _ = parse(source)
+    events, bars, _ = parse(source, corrections)
     regular, grace = Counter(), Counter()
     for event in events:
         for note in event['notes']:
@@ -303,18 +336,22 @@ def grace_leads(events):
     written length (MEAS: 44 ticks for an eighth at 384 per quarter). When that lead reaches
     back past the previous attack of the same voice, LilyPond reports "Going back in MIDI time"
     and delays the rest of that MIDI track. Such groups are halved until the lead fits; the
-    pitches, count and order of the graces are unchanged. Returns the number of changed graces.
+    pitches, count and order of the graces are unchanged. A closing group after the last regular
+    note becomes a LilyPond after-grace, performed before the default afterGraceFraction (3/4) of
+    its preceding note, so it must fit in that part. Returns the number of changed graces.
     """
     groups = defaultdict(list)
     for event in events:
         if event['grace']:
             groups[event['staff'], event['slot'], event['time']].append(event)
+    final = max(e['time'] + e['duration'] for e in events)
     for (staff, slot, time), group in groups.items():
         previous = max((e['time'] for e in events if e['staff'] == staff and e['slot'] == slot
                         and e['grace'] is None and e['notes'] and e['time'] < time), default=None)
         if previous is None:
             continue
-        while sum(LENGTH[e['type']] * (2 - Fraction(1, 2 ** e['dots'])) for e in group) / 4 >= time - previous:
+        span = (time - previous) * (Fraction(3, 4) if time >= final else 1)
+        while sum(LENGTH[e['type']] * (2 - Fraction(1, 2 ** e['dots'])) for e in group) / 4 >= span:
             if any(e['type'] == '64th' for e in group):
                 raise ValueError(f'grace group at quarter {time} cannot fit before the previous attack')
             for e in group:
@@ -385,8 +422,8 @@ def tuplets(voice):
         index = stop + 1
 
 
-def to_musicxml(source, dest):
-    events, bars, attributes = parse(source)
+def to_musicxml(source, dest, corrections=()):
+    events, bars, attributes = parse(source, corrections)
     staves = sorted({e['staff'] for e in events})
     if staves != [1, 2]:
         raise ValueError(f'{source.name}: expected keyboard staves 1 and 2, got {staves}')
@@ -407,7 +444,10 @@ def to_musicxml(source, dest):
         measure = sub(part, 'measure', number=bin_['number'])
         if bin_['implicit']:
             measure.set('implicit', 'yes')
-        local = [e for e in events if start <= e['time'] < end]
+        # Graces after the last regular note of the piece (a closing flourish) stay in the final
+        # measure; musicxml2ly makes graces that end a measure voice after-graces of its last note.
+        last = measure_index == len(bins) - 1
+        local = [e for e in events if start <= e['time'] < end or (last and e['grace'] and e['time'] == end)]
         changes = [a for a in attributes if start <= a['time'] < end or (measure_index == 0 and a['time'] < end)]
         initial = [a for a in changes if a['time'] == start or measure_index == 0]
         later = [a for a in changes if a not in initial]
@@ -477,7 +517,7 @@ def to_musicxml(source, dest):
             raise ValueError(f'{source.name}: repeat barline {style!r} is not converted')
     ET.indent(root)
     ET.ElementTree(root).write(dest, encoding='utf-8', xml_declaration=True)
-    return {'graceValuesShortened': shortened}
+    return {'graceValuesShortened': shortened, 'tokenCorrections': len(corrections)}
 
 
 def add_clef(parent, clef):
@@ -563,14 +603,14 @@ def write_event(measure, event, divisions, voice, staff):
             element.append(notations)
 
 
-def cross_voice_ties(source):
+def cross_voice_ties(source, corrections=()):
     """List source ties whose continuation lies in another encoded voice of the same staff.
 
     LilyPond ties only within a voice, so compiled MIDI reattacks such continuations. Each item
     gives the compiled (same-voice-merged) origin and continuation notes for an explicit
     `extraction.ties` declaration; nothing is joined automatically.
     """
-    events, _, _ = parse(source)
+    events, _, _ = parse(source, corrections)
     starts = defaultdict(list)
     for e in events:
         if not e['grace']:
@@ -609,7 +649,7 @@ def cross_voice_ties(source):
     return result
 
 
-def verovio_check(source):
+def verovio_check(source, corrections=()):
     """Independent rhythm reading with Verovio's Humdrum importer.
 
     Verovio note ids name their **kern line and column. Its timemap qstamps are notated
@@ -622,7 +662,7 @@ def verovio_check(source):
     import verovio
     toolkit = verovio.toolkit()
     toolkit.setOptions({'inputFrom': 'humdrum'})
-    if not toolkit.loadFile(str(source)):
+    if not toolkit.loadData('\n'.join(source_lines(source, corrections)) + '\n'):
         raise ValueError('Verovio could not load the Humdrum file')
     timemap = toolkit.renderToTimemap({'includeMeasures': False, 'includeRests': False})
     timemap = json.loads(timemap) if isinstance(timemap, str) else timemap
@@ -634,7 +674,7 @@ def verovio_check(source):
             if match:
                 theirs.setdefault((int(match.group(1)), int(match.group(2))),
                                   Fraction(entry['qstamp']).limit_denominator(100000))
-    events, bars, _ = parse(source)
+    events, bars, _ = parse(source, corrections)
     offsets, lines, graced, missing = defaultdict(set), defaultdict(set), set(), 0
     measure = lambda time: max((b['time'] for b in bars if b['time'] <= time), default=Fraction(0))
     for event in events:
@@ -665,21 +705,23 @@ if __name__ == '__main__':
     parser.add_argument('--musicxml')
     parser.add_argument('--verovio', action='store_true')
     parser.add_argument('--ties', action='store_true', help='print cross-voice ties as extraction.ties JSON')
+    parser.add_argument('--config', help='piece config whose source.humdrumCorrections are applied')
     args = parser.parse_args()
+    import json
     path = Path(args.kern)
-    regular, grace, bars = attacks(path)
+    corrections = json.loads(Path(args.config).read_text())['source'].get('humdrumCorrections', []) if args.config else []
+    regular, grace, bars = attacks(path, corrections)
     print('KERN', path.name, 'regular', sum(regular.values()), 'grace', sum(grace.values()),
-          'end_q', float(bars[-1][1]), 'barlines', len(bars))
+          'end_q', float(bars[-1][1]), 'barlines', len(bars), 'corrections', len(corrections))
     if args.verovio:
-        print('VEROVIO', verovio_check(path))
+        print('VEROVIO', verovio_check(path, corrections))
     if args.ties:
-        import json
         voice = {1: 'upper', 2: 'lower'}
         print(json.dumps([{
             key: {'q': float(item[key]['q']), 'pitch': item[key]['pitch'], 'voice': voice[item[key]['staff']],
                   'durationQ': float(item[key]['durationQ'])} for key in ('origin', 'continuation')} | {
             'basis': f'{path.name} lines {item["origin"]["line"]}/{item["continuation"]["line"]}: source tie continues '
                      f'in another encoded voice of the same staff; LilyPond cannot tie across voices, so the note is held, not reattacked.'}
-            for item in cross_voice_ties(path)], ensure_ascii=False, indent=1))
+            for item in cross_voice_ties(path, corrections)], ensure_ascii=False, indent=1))
     if args.musicxml:
-        print('MUSICXML', to_musicxml(path, Path(args.musicxml)))
+        print('MUSICXML', to_musicxml(path, Path(args.musicxml), corrections))

@@ -1,0 +1,45 @@
+{
+  "title": "Étude in G♭ major, Op. 10 No. 5",
+  "edition": "First edition, M. Schlesinger, Paris (Études Op. 10; RISM 300605128, PL-Wbfc 1628/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+  "encoder": "Tomasz Sierawski (encoding); Jędrzej Mróz, Emilia Ziętek (editing); NIFC Chopin Heritage in Open Access project",
+  "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/010-1b-Sm-005.krn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+  "main": "etude.ly",
+  "humdrum": "010-1b-Sm-005.krn",
+  "musicxml": "010-1b-Sm-005.musicxml",
+  "humdrumCorrections": [
+    {
+      "line": 91,
+      "old": "24dad-",
+      "new": "24ddd-",
+      "basis": "Source token correction with print reference: 010-1b-Sm-005.krn line 91 (bar 4, under 8va) encodes the middle note of the last right-hand triplet as `24dad-`, which contains two pitch names and is not a valid **kern pitch; read as D-flat6 (`24ddd-`). Print, viewed 19 Oct 2026 in OCVE page images: the French first edition (10-1-Sm, M. Schlesinger, p. 20, bar 4, the first bar of the second system; https://chopinonline.ac.uk/ocve/browse/pageview/63226/) engraves this group under 8a as A-flat above the staff, D-flat on the fourth line, D-flat above the staff, i.e. sounding A-flat6, D-flat6, D-flat7. The encoding's parallel bar 12 has the same group as `24aaa-` / `24ddd-` / `24dddd-` (lines 223-226). The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report."
+    },
+    {
+      "line": 788,
+      "old": "24ede-",
+      "new": "24eee-",
+      "basis": "Source token correction with print reference: 010-1b-Sm-005.krn line 788 (bar 47, under 8va) encodes the middle note of the last right-hand triplet as `24ede-` (two pitch names); read as E-flat6 (`24eee-`), between the D-flat6 notes of lines 787/789. Print, viewed 19 Oct 2026: French first edition (10-1-Sm, M. Schlesinger, p. 22, bar 47; https://chopinonline.ac.uk/ocve/browse/pageview/63228/) engraves every lower triplet of the bar under 8a as D-flat, E-flat, D-flat (one staff step up and back), the last one included. The bar's other three groups are encoded `24dddd-`/`24eeee-`/`24dddd-` and `24ddd-`/`24eee-`/`24ddd-` (lines 776-786). The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report."
+    },
+    {
+      "line": 1357,
+      "old": "24gbg-'",
+      "new": "24ggg-'",
+      "basis": "Source token correction with print reference: 010-1b-Sm-005.krn line 1357 (bar 83, first right-hand chord, last note under 8va) encodes the upper chord member as `24gbg-'` (two pitch names) beside `24bb-`; read as G-flat6 (`24ggg-'`). Print, viewed 19 Oct 2026: French first edition (10-1-Sm, M. Schlesinger, p. 24, bar 83; https://chopinonline.ac.uk/ocve/browse/pageview/63230/) engraves this staccato sixteenth chord at the end of the 8a line as G-flat in the space above the treble staff with B-flat on the middle line, i.e. sounding G-flat6/B-flat5, over the left hand's G-flat4. The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report."
+    }
+  ],
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/010-1b-Sm-005.krn",
+      "file": "010-1b-Sm-005.krn",
+      "sha256": "a6d4c1aac80c3475c7fc8fed6ed8c26149536160e7159b5d3c2e152d886544a5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+      "file": "LICENSE.txt",
+      "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+    }
+  ],
+  "accessed": "2026-10-19"
+}

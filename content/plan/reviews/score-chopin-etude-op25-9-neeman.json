@@ -1,0 +1,91 @@
+{
+  "id": "chopin-etude-op25-9-neeman",
+  "verdict": "pass",
+  "reviewer": "RevScoresChopin",
+  "date": "2026-10-19",
+  "scope": "MEAS: independent review of the public score.json and two-page sheet pack (Edward Neeman). Covers source, licence and attribution; the line-269 token correction against the French first edition; a converter re-run with --config; bar order; gates; the sheet pack; pitch bands at the constrained bars and the final chord; a register-aware per-bar lag scan; and segment-wise chroma DTW against the d'Albert recording. Not aural review.",
+  "defects": [],
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "LAST_ANCHOR_DEVIATION_IS_DETECTOR_MISS",
+      "finding": "This is non-blocking. The last-anchor deviation of 0.412 s, near the 0.5 s gate, comes from the primary onset detector, which has no onset at the quiet final chord. The chord itself is mapped correctly. The published bar 51 is at 65.591 s; G-flat2 and G-flat3 rise at 65.59 s (+20/+21 dB), B-flat3 and G-flat4 at 65.63 s, and flux onsets are at 65.59/65.64 s. Bar 50's constrained second half also matches:\n- B-flat3, published 64.46 s, rises at 64.42/64.51 s;\n- G-flat4, published 64.687 s, rises at 64.70 s;\n- E-flat4, published 64.88 s, rises at 64.94 s;\n- D-flat4/B-flat4, published 65.149 s, rise at 65.18 s.\nThe bar-49 B-flat5/G-flat6 chord (published 62.74 s) rises at 62.78 s."
+    },
+    {
+      "basis": "MEAS",
+      "code": "OTTAVA_PRINTED_AT_SOUNDING_PITCH",
+      "finding": "This is display only, as for Op. 25/6. The .krn's three *8va spans open after barlines 21, 31 and 41 and close (*X8va) after barlines 23, 34 and 49. In the rasterised pack those passages are engraved at sounding pitch with many ledger lines."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#score-round-4--19-october-2026-scoreround4",
+    "finding": "The endpoint windows (first [0.75, 0.95] → 0.88 s; last [65.45, 65.7] → 65.591 s), the five constraints (q73 [48.88, 49.05] → 48.96 s; q96 [62.6, 62.9] → 62.74; q98 [63.75, 64.05] → 63.86; q99 [64.4, 64.65] → 64.46; q99.5 [64.8, 65.05] → 64.88), the gates and score SHA-256 d4b9239b… match the config, receipt and public file. The candidate equals the public file; results equal checks; the config and audio hashes match."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/chopin-etude-op25-9-neeman-checks.json",
+    "primaryMedianSeconds": 0.031263,
+    "primaryP95Seconds": 0.076158,
+    "maximumAnchorDeviationSeconds": 0.412176,
+    "maximumLocalRegionMedianSeconds": 0.046417,
+    "minimumPublishedNoteDurationSeconds": 0.041,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.067,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 51,
+    "distinctEngravedBars": 51,
+    "sheetPages": 2,
+    "svgBarSetEqualsIndex": true,
+    "derivedBars": [],
+    "unresolvedScoreBars": [],
+    "finding": "All 1,141 notes lie inside their bar, and bar times increase. check_contract.py prints 'ok … 51 bars; 1141 notes; 2 source-defined voices'. Both pages were rasterised and inspected: 9 justified systems, bars 1–51, and a final barline. The pack is identical to the d'Albert pack once DOM ids are stripped, and index.json is byte-identical."
+  },
+  "order": {
+    "basis": "MEAS",
+    "finding": "Bars 1–51 once. The print has no repeat signs (see printComparison)."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revr4/reglag.py, a2a_seg.py; ~/.cache/direction-scratch/revchopin/band.py, onsets.py, overlay.py",
+    "converter": "humdrum_convert.py --config … --verovio printed 'KERN 025-1b-LE-009.krn regular 1141 grace 0 end_q 102.0 barlines 52 corrections 2'. Verovio: 1,142/1,142 notes, 0 timing differences. The regenerated MusicXML is byte-identical to the Neeman and d'Albert derivatives. The .krn (SHA-256 c4bb4984…) is identical at 95dfb105 and on master.",
+    "tokenCorrection": "EXT: Schlesinger first edition (CFEO 25-1-Sm, BnF VM8 S 140, plate M.S. 2427), p. 32, bar 21 under 8va, viewed at full IIIF resolution. The fourth sixteenth is an octave one staff step below the preceding F-flat octave, which carries flats. The fourth sixteenth itself has no accidental, so under the G-flat key signature it is E-flat. This supports correcting line 269's malformed `16edee-'>JJ`/`16dee-` to E-flat7/E-flat6 (`16eeee-`/`16eee-`).",
+    "printComparison": "EXT: the same print, pp. 32–33. 2/4, 51 bars in systems of 4/5/5/5/5 and 5/5/5/6/6, no repeat signs, ritenuto in bar 36, p at the bar-37 reprise, and the final barline after bar 51. Bar 1 has the C-natural octave on its fourth sixteenth, and bar 37 opens on held G-flat4/G-flat5. This agrees with the encoding. The encoded source itself is the Lemoine issue (025-1b-LE-009), which was not viewed.",
+    "registerLagScan": "Correlating pitch-resolved note onsets with per-band CQT flux, 46 of 51 bars fit best within 0.1 s. The exceptions are:\n- bars 35 (+0.68 s, gain 1.17), 40 (−1.16, 1.06) and 47 (−0.56, 1.04), which have small gains. Bar 35's D-flat2/D-flat3 and E-flat5 entry, published at 44.42 s, rises at 44.42/44.39/44.41 s.\n- bars 48–49 (−0.64/−1.16 s), where the B-flat5/G-flat6 notes repeat across both bars, so the scan cannot separate them. The bands confirm both bars. In bar 48 (published 61.681 s), B-flat5 and G-flat2 rise at 61.61 s, E-flat6/C-flat7 at 61.86/61.88 s (published 61.95), and the second-half E-flat6/C-flat7 and D-flat6/B-flat6 at 62.44–62.47 and 62.60–62.61 s (published 62.47/62.61). In bar 49 (published 62.74 s), B-flat5/G-flat6 rise at 62.78 s and G-flat2 at 62.68/62.78 s.",
+    "crossRecording": "Segment-wise chroma DTW into d'Albert's first pass agrees within ±0.27 s for all of bars 1–36 (median 0.117 s). Bars 45–48 have identical right-hand pitch classes, so chroma DTW cannot place them, and d'Albert's second pass is checked in its own review.",
+    "constraints": "The bar-37 constraint (q73 → 48.96 s) lands on the C-flat4 (MIDI 59) rise at 48.97 s (+28 dB). Bar 37's D-flat3/B-flat3/G-flat4/G-flat5 entry, published at 47.701 s, rises at 47.73–47.76 s. The bar-49/50 constraints match the band rises listed above."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op25-9-neeman-44-52.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op25-9-neeman-58-69.png"
+    ],
+    "finding": "Bars 35–39 (ritenuto and reprise) and bars 45–51 land on the measured energy."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/025-1b-LE-009.krn",
+    "opened": true,
+    "licenseEvidence": "The pinned LICENSE.txt (SHA-256 430533a2…) grants CC BY 4.0 'Provided that you acknowledge the source of the data (the first five lines of this file).' The .krn has no !!!YEC/!!!COP record; its header names Lemoine, Paris, RISM 1001002411 and PL-Wbfc 4808/n.",
+    "attribution": "score.json carries license 'CC BY 4.0', licenseUrl, url, and source.attribution containing all five LICENSE lines verbatim (joined with '. '), with status provisional and review.by null. The provenance records the line-269 token correction with its print reference.",
+    "edition": "Paris edition published by Lemoine (Études Op. 25; RISM 1001002411, PL-Wbfc 4808/n), encoded in Humdrum by NIFC, Chopin First Editions Online",
+    "encoder": "Tomasz Sierawski (encoding); Marta Lawrence, Wojciech Jakubiak-Danek (editing); NIFC",
+    "license": "CC BY 4.0"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "The étude is played once in written order. The performer's edition is not established."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser run by RevScoresChopin, and no alignment command run. The five constraints are disclosed fitting evidence. The print comparison used the Schlesinger first edition, not the Lemoine issue that was encoded. Public score SHA-256 d4b9239b5a2bbce9bc0ed97a5da2775a5df9eed7949b0317a4c375d3229c6465."
+}

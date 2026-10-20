@@ -1,0 +1,96 @@
+{
+  "id": "chopin-nocturne-op15-2-prati-2015",
+  "verdict": "pass",
+  "reviewer": "RevScoresChopin",
+  "date": "2026-10-19",
+  "round": 3,
+  "scope": "MEAS: re-review of the round-3 republication (Patrizia Prati), score SHA-256 fac2ebf0…. Covers the four bar-58/59 constraints, the author's q115.5/q116 correction to my round-2 fix, the listed residual, hashes, gates and the sheet pack. Audio checks: fresh-CQT reviewer overlays over 190–202 and 193–199.2 s, pitch bands, fine onsets, a per-bar lag scan, and audio-to-audio DTW. Not aural review.",
+  "defects": [],
+  "resolvedSinceRound2": [
+    {
+      "basis": "MEAS",
+      "code": "BARS_58_59_EARLY",
+      "finding": "Resolved. Published against measured:\n- D-sharp7 (q115): 193.900 s against the strongest onset of the window at 193.94 s, with A-sharp3/C-sharp3/F-sharp3 rising at 193.94–193.98 s.\n- Left-hand chord (q115.5): 195.080 s against an onset at 195.07 s and C-sharp4 at 195.05 s.\n- C-sharp7–A-sharp6–F-sharp6: 195.728/195.872/196.016 s against 195.79/195.92/196.04 s.\n- B6 with chord (q116): 196.160 s against 196.18 s.\n- A-sharp6–F-sharp6–C-sharp6: 196.835/196.996/197.140 s against 196.97/197.06/197.20 s.\n- Bar 59 (q116.5): 197.280 s against G-sharp6 197.34 s and F-sharp2 197.36 s.\n- F-sharp6–C-sharp6–A-sharp5: 198.000/198.159/198.343 s against 198.05/198.16/198.32 s.\nIn the zoomed reviewer overlay every long note and triplet starts on its measured energy, and the bar-59 line sits at the F-sharp2 onset. The lag scan no longer favours a shift for bar 58 or 59 (gains of 0.006 and 0.012)."
+    }
+  ],
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "REVIEWER_ERROR_Q115_5_CORRECTED",
+      "finding": "The author is right. In the encoding, bar 58 starts at q114.5. B6 with C-sharp3/F-sharp3/A-sharp3 is at +3/2 = q116. q115.5 (+1) is the left-hand F-sharp3/A-sharp3/C-sharp4 chord with no upper note. My round-2 fix named the right audio window, [196.1, 196.25] s for B6, but the wrong scoreQ. The author's q115.5 constraint at 195.08 s and the unconstrained q116 at 196.16 s both match the measured onsets above."
+    },
+    {
+      "basis": "MEAS",
+      "code": "BAR_58_LEFT_HAND_REPEATS_LATE",
+      "finding": "Non-blocking; this is the author's listed residual, confirmed. The two repeated C-sharp3/A-sharp3 triplet notes q115.167/q115.333 are at 194.521/194.809 s, against flux onsets at 194.32 and 194.64 s and A-sharp3 rises at 194.63 and 194.92 s. That is 0.17–0.2 s late, or within 0.1 s if the 194.63/194.92 rises are the attacks; the measurement is ambiguous. These are inner left-hand notes inside bar 58, so bar lighting is unaffected."
+    },
+    {
+      "basis": "MEAS",
+      "code": "DTW_AT_BARS_59_61_UNRELIABLE",
+      "finding": "Documentation only. DTW from Faulkner still differs at bar 59 (+3.52 s) and bar 61 (−1.05 s), and Prati-to-Paderewski differs at bar 59 (−1.77 s). Prati's bar 59 (197.28 s; F-sharp2 197.36 s) and bar 61 (206.05 s; F-sharp2 206.04 s) are band-confirmed. Faulkner's bars 59 and 61 are band-confirmed too, so the chroma DTW fails over these repeated arpeggio figures."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#chopin-score-fixes-round-3--19-october-2026-scorefix3",
+    "finding": "The four new constraints (193.90, 195.08, 197.28 and 198.00 s), the gates and score SHA-256 fac2ebf0… match the receipt and the public file. The candidate equals the public file; results equal checks; the config and audio hashes match."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/chopin-nocturne-op15-2-prati-2015-checks.json",
+    "primaryMedianSeconds": 0.06499,
+    "primaryP95Seconds": 0.440332,
+    "maximumAnchorDeviationSeconds": 0.0699,
+    "maximumLocalRegionMedianSeconds": 0.064717,
+    "minimumPublishedNoteDurationSeconds": 0.006,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.004,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 63,
+    "distinctEngravedBars": 63,
+    "sheetPages": 3,
+    "svgBarSetEqualsIndex": true,
+    "derivedBars": [],
+    "unresolvedScoreBars": [],
+    "finding": "All 1,326 notes lie inside their bar, and bar times increase. check_contract.py prints 'ok'. The sheet pages, with DOM ids stripped, equal the inspected round-2 pages and the sibling packs, and index.json is byte-identical. The inventory is matched, with 1 token correction."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revchopin/band.py, onsets.py, lagscan.py, a2a.py, overlay.py, bars.py",
+    "lagScan": "Zero-lag cosine is 0.767. 58 of 63 bars fit best within 0.3 s. The exceptions are bars 44 and 45 (repeated D-natural figure), bars 58 and 59 (gain at most 0.012) and bar 62 (held chord).",
+    "carriedForward": "The round-2 checks of the opening, bars 24–26 (constrained at 104.10/106.48 s), the bar-48/49 join, bars 60–62 and the bar-61 pitch correction still apply."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "~/.cache/direction-scratch/revchopin/rev-chopin-nocturne-op15-2-prati-2015-190-202.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-nocturne-op15-2-prati-2015-193-199.2.png"
+    ],
+    "finding": "Bars 57–60 land on the measured music. The two late left-hand repeats in bar 58 are the only visible offsets."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",
+    "opened": true,
+    "licenseEvidence": "Unchanged (CC BY 4.0, pinned LICENSE.txt 430533a2…).",
+    "attribution": "The public score.json carries the licence fields and the verbatim five-line source.attribution. Status is provisional, with review.by null.",
+    "edition": "First edition, Breitkopf & Härtel, Leipzig [1834], plate 5502; RISM 1001035842",
+    "encoder": "Jędrzej Mróz; editors Tomasz Sierawski, Wojciech Jakubiak-Danek (NIFC)",
+    "license": "CC BY 4.0"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "The whole nocturne is played once in written order. The performer's edition is not established."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser run by RevScoresChopin, and no alignment command run. Constraints are disclosed fitting evidence. Individual triplet onsets in the 8va passage carry ±0.05 s uncertainty. Public score SHA-256 fac2ebf0451478668e81aa62661c3e06f955a5298b9d2147ab40c46c079d6c3a."
+}

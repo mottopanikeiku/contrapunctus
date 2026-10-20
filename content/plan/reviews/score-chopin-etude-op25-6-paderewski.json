@@ -1,0 +1,104 @@
+{
+  "id": "chopin-etude-op25-6-paderewski",
+  "verdict": "pass",
+  "reviewer": "RevScoresChopin",
+  "date": "2026-10-19",
+  "scope": "MEAS: independent review of the public score.json and the four-page sheet pack (Paderewski, Victor, 4 May 1923, acoustic transfer). Covers source, licence and attribution; the converter re-run; comparison of the encoding with the Schlesinger first edition (shared with the Neeman review); bar order; gates; the sheet pack; and reviewer overlays from a fresh CQT (0–10, 8–17, 53–66, 104–119 and 115–130.1 s). Audio checks: a per-bar chroma lag scan, pitch-class discriminators, fine onsets, pitch bands and audio-to-audio DTW against the Neeman map. Not aural review.",
+  "defects": [],
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "MEDIAN_NEAR_GATE_ON_NOISY_TRANSFER",
+      "finding": "This is non-blocking. The primary median is 0.131 s against the 0.15 s gate, and P95 is 0.581 s. The worst primary region, 8–16 s (0.356 s, local 0.038 s), is the bar-5 chromatic ascent of thirds. The reviewer overlay shows the published ascent following the measured diagonal up to about MIDI 82, above which the acoustic transfer has no usable partials. Bar 7's trill (13.33 s) matches. The bass is below the noise floor throughout, and 78-rpm clicks recur about every 0.77 s."
+    },
+    {
+      "basis": "MEAS",
+      "code": "FINAL_HOLD_THROUGH_SURFACE_NOISE",
+      "finding": "This is non-blocking. The rolled final chord sounds from 115.93 to about 117.1 s (C4 rise 116.61 s, C5 117.08 s), and its pitched energy has decayed by about 120.5 s. Surface noise then runs to the −45 dB end at 127.24 s, followed by digital silence. The written hold, and bar 63's lighting, therefore last 11.3 s. A documented endpoints.end near 120.5 s would end the display at the decay."
+    },
+    {
+      "basis": "MEAS",
+      "code": "BAR_61_DOWNBEAT_UNMEASURED",
+      "finding": "This is non-blocking. Bar 61's downbeat (B-sharp2/D-sharp3 over G-sharp1/G-sharp2) is published at 109.37 s. It cannot be measured independently: the bass is inaudible, and the strongest onsets nearby (108.34, 109.10, 109.87, 110.63 s) fall on the click grid. DTW from the Neeman map, which is constrained at bar 61, gives 108.70 s (−0.67 s). The constrained q242 chord at 110.62 s coincides with a click, but the chord's pitched energy (MIDI 56–60, 64–66, 70) visibly starts there, so the constraint is on music."
+    },
+    {
+      "basis": "MEAS",
+      "code": "OTTAVA_PRINTED_AT_SOUNDING_PITCH",
+      "finding": "This is display only, as in the Neeman review: 8va passages are engraved at sounding pitch with many ledger lines."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#chopin-first-edition-sweep-2-and-op-152-corrections--19-october-2026-scorechopin2",
+    "finding": "The REPORT's first window, three constraints, last endpoint, gates (median 0.130843 s), tuning 445.88 Hz and score SHA-256 b2d1eae7… match the receipt and the public file (candidate = public). Results equal work/…-checks.json, and the config and audio hashes match."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/chopin-etude-op25-6-paderewski-checks.json",
+    "primaryMedianSeconds": 0.13084325396826557,
+    "primaryP95Seconds": 0.5807956349206341,
+    "maximumAnchorDeviationSeconds": 0.0851247165532878,
+    "maximumLocalRegionMedianSeconds": 0.048225623582766275,
+    "minimumPublishedNoteDurationSeconds": 0.044,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.043,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 63,
+    "distinctEngravedBars": 63,
+    "sheetPages": 4,
+    "svgBarSetEqualsIndex": true,
+    "derivedBars": [],
+    "unresolvedScoreBars": [],
+    "finding": "All 2,551 notes lie inside their bar, and bar times increase. check_contract.py prints 'ok … 63 bars; 2551 notes; 2 source-defined voices'. The sheet pack is identical to the Neeman pack, all four of whose pages were rasterised and inspected: 22 justified systems with bars 1–63 complete."
+  },
+  "order": {
+    "basis": "MEAS",
+    "finding": "Bars 1–63 are played once. The print has no repeat signs. The trill starts at 2.62 s after surface noise, and the rolled final chord is at 115.93 s. Audio-to-audio DTW with the Neeman recording, in both directions, is continuous; the two maps agree within ±0.55 s except at Neeman's early bars 35–36 and at bar 61."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revchopin/lagscan.py, pcwin.py, onsets.py, band.py, a2a.py, overlay.py",
+    "converter": "As in the Neeman review: 2,550 regular attacks and 1 grace, Verovio 2,553/2,553 notes with 0 timing differences, one declared cross-voice tie, and MusicXML byte-identical to this derivative.",
+    "printComparison": "EXT: the Schlesinger first edition (CFEO 25-1-Sm, plate M.S. 2427) agrees with the encoding in structure (63 bars; key changes at bars 27 and 35; no repeats) and in the sampled bars 1, 27, 28 and 60–63. The Lemoine issue that NIFC encoded was not viewed.",
+    "lagScan": "Zero-lag cosine is 0.698. 58 of 63 bars fit best within 0.3 s. The exceptions are bars 29 and 43 (gain at most 0.03), bar 32 (+1.25 s, gain 0.10), bar 47 (+1.0 s, gain 0.03) and bar 63 (rolled final chord). For bar 32, the 53–66 s reviewer overlay shows the published descending thirds of bars 31–33 on the measured diagonal.",
+    "reprise": "Bar 35 (63.415 s) is confirmed: in 0.1 s windows the G-sharp-minor pitch-class set (G-sharp, B, C-sharp, D-sharp, E) takes over from bar 34's G/A-sharp/C/D material at 63.4 s (0.58–0.62 against 0.23–0.26). The bar-36 D-natural (bar 36 +3/4) shows at 65.5 s, against the first published D5 at 65.52 s.",
+    "start": "First anchor 2.62 s. In the reviewer overlay the trill's B4/D-sharp5–C-sharp5/E5 energy starts at 2.6 s, and the bar-3 left hand at about 6.1 s (published 6.08 s).",
+    "coda": "The descending thirds of bars 58–60 follow the measured diagonal in the 104–119 s overlay. The constrained chords at 110.62, 111.74 and 113.36 s and the final rolled chord (G-sharp3 115.97 s, C4 116.61 s, C5 117.08 s) lie on measured pitched energy."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op25-6-paderewski-0-10.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op25-6-paderewski-8-17.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op25-6-paderewski-53-66.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op25-6-paderewski-104-119.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op25-6-paderewski-115-130.1.png"
+    ],
+    "finding": "Bars 1–9, 30–36 and 58–63 land on the measured music within the limits of the acoustic transfer. The 115–130.1 s overlay shows the final-hold observation."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/025-1b-LE-006.krn",
+    "opened": true,
+    "licenseEvidence": "The pinned LICENSE.txt is SHA-256 430533a2… (CC BY 4.0, acknowledge the first five lines). The .krn is SHA-256 0a1a2b5a…, identical at the pinned commit and on master; it records Lemoine, Paris, RISM 1001002392, and has no copyright record.",
+    "attribution": "The public score.json carries license 'CC BY 4.0', licenseUrl, url and the verbatim five-line source.attribution.",
+    "edition": "Paris edition, Henry Lemoine (RISM 1001002392)",
+    "encoder": "Marta Lawrence; editors Wojciech Jakubiak-Danek, Mateusz Mrugas (NIFC)",
+    "license": "CC BY 4.0"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "The whole étude is played once in written order. Paderewski's performing edition is not established. The tuning estimate of 445.88 Hz (+0.23 semitone, under a quarter-tone) is read as transfer speed rather than transposition [INFERENCE; no transposition test was run]. The chroma lag peak is at zero with the written pitches."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser run by RevScoresChopin, and no alignment command run. On this acoustic transfer, individual attacks above about MIDI 82 and in the bass cannot be measured, so many bar times rest on mid-register energy and DTW. The Lemoine print was not viewed (see the Neeman review). Public score SHA-256 b2d1eae71a87f98e9ef6c9fab677f24053447a8f26bfadc80d06dd68eca351c9."
+}

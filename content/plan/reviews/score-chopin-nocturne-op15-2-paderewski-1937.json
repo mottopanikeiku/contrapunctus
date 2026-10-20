@@ -1,0 +1,109 @@
+{
+  "id": "chopin-nocturne-op15-2-paderewski-1937",
+  "verdict": "pass",
+  "reviewer": "RevScoresChopin",
+  "date": "2026-10-19",
+  "round": 2,
+  "scope": "MEAS: re-review of the re-aligned republication (Paderewski, 30 January 1937), score SHA-256 117ab3b9…. Covers the 14 disclosed constraints, the bar-61 correction, gates and sheets. Audio checks: audio-to-audio chroma DTW from the corrected Faulkner and Prati maps, a D-natural/D-sharp chroma profile, a per-bar lag scan, path linearity, fine onsets, pitch bands, and five reviewer overlays from a fresh CQT. Not aural review.",
+  "defects": [],
+  "resolvedSinceRound1": [
+    {
+      "basis": "MEAS",
+      "code": "BARS_35_61_MISALIGNED_UP_TO_26_S",
+      "finding": "Resolved. Bar 49 is now at 145.86 s, where round 1 measured the reprise (bar 49 was 168.44 s). Independent checks:\n- DTW from the corrected Faulkner and Prati maps agrees with this map within ±0.36 s for every bar from 30 to 58 (bar 48: −0.30/−0.10 s; bar 49: −0.16 s from both).\n- The D-natural chroma share of 0.11–0.28 over 116–140 s now falls on bars 32–47 (115.3–139.1 s). The D-sharp share of 0.38–0.42 at 164–168 s falls on bar 53 (162.86–166.22 s), whose bass is D-sharp.\n- Zero-lag cosine is 0.730 (round 1: 0.623). 59 of 63 bars fit best within 0.3 s (round 1: 42).\n- No near-linear path stretch of 3 s or more remains after 92 s, except the anchored fermata/pickup interval (141.5–145 s) and the final hold."
+    },
+    {
+      "basis": "MEAS",
+      "code": "SOURCE_PITCH_BAR_61_F_NATURAL",
+      "finding": "Resolved. The bar-61 bass is published as MIDI 30/42 at 208.665 s. p3 has no natural."
+    }
+  ],
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "CONSTRAINTS_ARE_FITTING_EVIDENCE",
+      "finding": "The 14 constraints are disclosed fitting evidence, not validation. The DTW, chroma-profile and lag checks above do not depend on them. The reviewer overlays confirm several constrained points directly against measured energy:\n- bar 25: E-sharp5 at 106.05 s;\n- bar 48: the C-sharp4 at 141.08 s;\n- the reprise pickup: A-sharp4 at 143.44 s, then B4 at 145.2 s;\n- bar 49: the A-sharp4 at 145.86 s, followed by G-sharp4 and E-sharp4 at 146.3/146.75 s."
+    },
+    {
+      "basis": "MEAS",
+      "code": "CODA_ON_WEAK_EVIDENCE",
+      "finding": "This is non-blocking. The bass is below the surface-noise floor, so bars 58–62 rest on upper-voice evidence:\n- Bars 58–59: the faint C-sharp7 … C-sharp6 band blobs at 198.4–199.85 s, and the bar-59 descent (G-sharp6 about 200.0, F-sharp6 200.5, C-sharp6 200.7, A-sharp5 201.0, D-sharp6 201.1 s), follow the published notes.\n- Bars 60–61: the C-sharp3 blobs at 207.3, 208.4, 209.45, 210.55 and 211.65 s match the published 207.25, 208.35, 209.40, 210.50 and 211.60 s.\nDTW from Faulkner agrees at bar 59 (+0.03 s). DTW from Prati does not (−2.57 s), because Prati's own bar 59 is about 1 s early."
+    },
+    {
+      "basis": "MEAS",
+      "code": "REPORT_BAR_59_DTW_CLAIM_NOT_REPRODUCED",
+      "finding": "This is documentation only. The REPORT says that at bars 59 and 61 the Faulkner DTW disagrees (+2.27/+0.96 s), the Prati DTW agrees, and 'this map follows Prati'. My DTW (CENS, 10 frames/s) gives the opposite at bar 59: Faulkner +0.03 s, Prati −2.57 s. Bar 61 is −0.56 s from Faulkner and +0.14 s from Prati. The published bars 58–61 are supported by the band evidence above either way."
+    },
+    {
+      "basis": "MEAS",
+      "code": "BAR_13_DTW_ARTEFACT",
+      "finding": "This is non-blocking. Faulkner-to-Paderewski DTW puts bar 13 at 48.70 s, against the published 50.00 s. The bands confirm the published time: D5 rises at 50.08 s (+28 dB, to −7 dB) and C-sharp5 at 50.59 s, which are bar 13's first two melody notes. Bar 12's C-sharp5 and the A4–E5 group (46.95–49.6 s) lie on the published notes."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#chopin-first-edition-sweep-2-and-op-152-corrections--19-october-2026-scorechopin2",
+    "finding": "The 14 constraints in the config equal the REPORT's list and the receipt's endpointMeasurements. The REPORT's gate figures and score SHA-256 117ab3b9… match. Results equal work/…-checks.json, and the config and audio hashes match."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/chopin-nocturne-op15-2-paderewski-1937-checks.json",
+    "primaryMedianSeconds": 0.0482668087315119,
+    "primaryP95Seconds": 0.18979832254183293,
+    "maximumAnchorDeviationSeconds": 0.0868327732699754,
+    "maximumLocalRegionMedianSeconds": 0.04755703084499885,
+    "minimumPublishedNoteDurationSeconds": 0.007,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.003,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 63,
+    "distinctEngravedBars": 63,
+    "sheetPages": 3,
+    "svgBarSetEqualsIndex": true,
+    "derivedBars": [],
+    "unresolvedScoreBars": [],
+    "finding": "All 1,326 notes lie inside their bar, and bar times increase. check_contract.py prints 'ok'. Long bars are explained by the performance:\n- bar 24: 6.98 s, ritenuto and pause before the doppio movimento; Prati takes 6.37 s;\n- bar 48: 6.76 s, fermata;\n- bar 57: 11.22 s, cadenza run; DTW from both references agrees with its start and end within 0.31 s.\nThe sheet pack is identical to the other two op15-2 packs."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revchopin/a2a.py, dnat.py, lagscan.py, band.py, onsets.py, overlay.py",
+    "converter": "Re-run with --config: 1,294 regular and 32 grace attacks plus one correction. Verovio reports 0 unexplained measures. The MusicXML is byte-identical to this derivative.",
+    "endpoints": "First 0.98 s; DTW maps the Faulkner and Prati pickups to 1.30 s (+0.32 s). Last 215.765 s (DTW: 215.40 and 215.00 s). Middle: the anchor attack q69.25 in bar 35 is at 119.263 s (nearest-onset deviation 0.064 s). Bar 35 starts at 118.80 s, and DTW from Faulkner and Prati gives 118.80 and 119.00 s."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "~/.cache/direction-scratch/revchopin/rev-chopin-nocturne-op15-2-paderewski-1937-42-56.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-nocturne-op15-2-paderewski-1937-100-110.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-nocturne-op15-2-paderewski-1937-136-150.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-nocturne-op15-2-paderewski-1937-192-204.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-nocturne-op15-2-paderewski-1937-203-217.png"
+    ],
+    "finding": "Bars 12–14, 24–27, 47–50 and 58–62 land on the measured pitched energy, within the limits of a noisy 1937 transfer. The published notes no longer run as a straight interpolation across the doppio movimento."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",
+    "opened": true,
+    "licenseEvidence": "Unchanged from round 1 (CC BY 4.0, pinned LICENSE.txt 430533a2…).",
+    "attribution": "The published score.json carries the licence fields and the verbatim five-line source.attribution.",
+    "edition": "First edition, Breitkopf & Härtel, Leipzig [1834], plate 5502; RISM 1001035842",
+    "encoder": "Jędrzej Mróz; editors Tomasz Sierawski, Wojciech Jakubiak-Danek (NIFC)",
+    "license": "CC BY 4.0"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Played once in written order without cuts; DTW from two complete recordings is continuous. Paderewski's edition is not established."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser run by RevScoresChopin, and no alignment command run. This is a noisy transfer with weak bass and upper partials; individual coda attacks are less certain than in the modern recordings. Public score SHA-256 117ab3b92fee933d0d30b19afb292eb3afe5a9460da91db00ea1b60587312cb6."
+}

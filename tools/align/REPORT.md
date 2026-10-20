@@ -998,3 +998,313 @@ Verovio 6.3.0 (installed into the align venv with `uv pip install verovio` for t
 **Publications:** `--publish` printed `PUBLISHED … provisional; not checked by ear`, a passing contract line (63 bars, 1,326 notes, 2 voices) and `3 pages, 63 bars (0 derived), 1375 marked glyphs` for each. Score SHA-256: Faulkner `694da33e87a5f72c931f3ce74302a0173ca756073221f65ee833333118e5c20f`, Paderewski 1937 `315e4d2112fc0917482ca351e8ded767c1a5262d3d49192a251296edededf460`, Prati `8e1e09cd40c9546c23d6dd034c16d1e3c5a3dac13a4c1f40fba6016cb189932e`. Receipts: `results/chopin-nocturne-op15-2{,-paderewski-1937,-prati-2015}.json`. Status **provisional**, `review.by: null`, not checked by ear. Reviewers should inspect `work/chopin-nocturne-op15-2-121.26-133.26.png`, `-184-192.png`, `work/chopin-nocturne-op15-2-paderewski-1937-208-216.png`, `work/chopin-nocturne-op15-2-prati-2015-141.48-153.48.png`, `-192-200.png`, `-209.086-218.86.png`, and the three-page packs. Configs for the four withheld dry-run candidates are kept with `WITHHELD` endpoint bases.
 
 **Commands run:** `node tools/score.mjs <id>` dry runs for the seven ids above and `--publish` for the three nocturnes, all under `flock -w 3600 ~/.cache/direction-compute.lock`; `tools/align/{fetch,prepare,score_events,diagnose,humdrum_convert}.py`; one `node tools/engrave.mjs … --prepared` preview into scratch. **Not run:** unit tests (no new regression test was added), site build, browser checks, aural review.
+
+## Chopin first-edition sweep 2 and Op. 15/2 corrections — 19 October 2026 (ScoreChopin2)
+
+**Result:** two new provisional publications (Op. 25 No. 6, Neeman and Paderewski) and three corrected republications (Op. 15 No. 2: Faulkner, Prati, Paderewski 1937) after RevScoresChopin's failed reviews. Every other candidate is withheld, most without a completed alignment in this round. Source family, licence handling, pinning (`pl-wnifc/humdrum-chopin-first-editions` at `95dfb105`, CC BY 4.0, hash-pinned `LICENSE.txt`, `source.attribution`) are as in the sweep above. No aural review, unit-test run, site build or review file. Earlier REPORT score hashes for Op. 15/2 (`694da33e…`, `315e4d21…`, `8e1e09cd…`) were pre-attribution candidates and are superseded by the hashes below.
+
+### Converter changes (MEAS; README “Humdrum **kern input”)
+
+- **Chord timing:** a chord is timed by its first subtoken (humlib/Verovio). Ballade 3 line 1784 (`4.AA-) [>4A-N]`) had shortened bar 148 to 2.5 quarters and desynchronised measures 443/569.5 against Verovio. Every `.` is now an augmentation dot (`4r.yy` Ballade 2 line 222, `4C.` Ballade 3 line 1017). A bare duration is an invisible space (Ballade 2 line 1175, read by Verovio as `<space>`). A data line whose regular tokens do not advance time is now an error. After the fix, `--verovio` reports 0 unexplained measures for Ballades 2 and 3 (4,135/4,135 and 4,639/4,639 notes).
+- **Closing after-graces:** the converter had dropped Op. 25/5's 16-note closing flourish, which follows the final chord in bar 138. It now stays in the final measure as a LilyPond `\afterGrace`; the lead check and inventory handle it as described in the README.
+- **`source.humdrumCorrections`:** these are documented in-memory subtoken repairs. The regenerated MusicXML for Op. 15/2 (without corrections), Op. 64/2 and Op. 25/6 is byte-identical to the earlier derivatives (`cmp`).
+
+### Op. 15 No. 2 — corrected republications
+
+- **All three:** `humdrumCorrections {line:1178, old:"4.FFF", new:"4.FFF#"}` makes the bar-61 bass octave F-sharp1/F-sharp2, as in the Breitkopf print (EXT, from the RevScoresChopin review: CFEO 15-1-BH p. 10; not independently viewed by me). Inventory: 1,294 regular + 32 graces matched, `tokenCorrections` recorded. The candidate now has MIDI 30 at q120.5. Sheets: 3 pages, 63 bars, 0 derived.
+- **Faulkner (`chopin-nocturne-op15-2`):**
+  - The first window is now [1.95, 2.2]; the pickup A-sharp4 rises −34→−14 dB at 1.9–2.0 s and measures 2.020 s. Bar 1 is at 3.161 s and bar 2 at 6.585 s.
+  - New constraint q48.5 [85.8, 86.0] → 85.88 s. Bar 25 was 84.41 s; bar 26 is 88.005 s.
+  - Display end 196.5 s: total energy is −30.7 dB at 196.4 s and −46 dB after 200 s.
+  - Gates: median **0.046700 s**, P95 0.283530 s, cosine 0.769472; first/middle/last **0.023356/0.079576/0.003698 s**; maximum local 0.056082 s (56–64 s); `gateReasons: []`.
+  - Overlays inspected: `work/chopin-nocturne-op15-2-0-10.02.png`, `-81.88-93.88.png`, `-190.568-202.568.png`.
+  - Score SHA-256 `8636e338b2f84ecd7c18b121e01e979fcb38c9df4fd7220c2bc1f4be5f81e0eb`.
+- **Prati (`-prati-2015`):**
+  - New constraints: q48.5 [104.0, 104.25] → 104.10 s (E-sharp5 −45→−26 dB) and q50.5 [106.35, 106.55] → 106.48 s. Bars 25/26 were 102.30/105.60 s.
+  - Gates: median **0.065636 s**, P95 0.445675 s, cosine 0.765265; first/middle/last **0.008707/0.069890/0.003660 s**; maximum local 0.068585 s (192–200 s); `gateReasons: []`.
+  - Inspected `work/chopin-nocturne-op15-2-prati-2015-100.1-112.1.png`. Bar 24's final B4 is about 0.15 s early, which is non-blocking.
+  - SHA-256 `88df097a094089b307f4dfdcfd0539ed655ec5b8ef478d25bc60629602aa062a`.
+- **Paderewski 1937 (`-paderewski-1937`):**
+  - Rebuilt with 14 disclosed pitch constraints, measured from the audio. Constraint (scoreQ → measured s): 48.5→106.00, 72.5→121.44, 80.5→126.14, 88.5→133.04, 94.5→139.10, 95.333→141.08, 96 (reprise pickup A-sharp4)→143.44, 96.375 (B4)→145.20, 96.5 (bar 49)→145.86, 104.5→162.86, 106.5→166.18, 112.5→184.16, 114.5→195.34, 115→195.80. Bar 49 was 168.44 s.
+  - Cross-check: recording-to-recording chroma DTW from the corrected Faulkner and Prati maps (scratch script, 10 frames/s) agrees within 0.6 s for every bar except four. Bar 52 differs from Faulkner by +0.8 s and agrees with Prati. At bars 59 and 61 (+2.27/+0.96 s from Faulkner, +0.07/−0.04 s from Prati) the two references disagree with each other, and this map follows Prati. The same check for bar 4 gives −0.61 s against Prati.
+  - No path stretch of 3 s or more is linear between 90.9 s and the end. The two remaining linear stretches are 75–79 and 87–91 s (bars 18–19 and 21–22).
+  - Gates: median **0.048267 s**, P95 0.189798 s, cosine **0.778284** (was 0.647); first/middle/last **0.006848/0.064366/0.086833 s**; maximum local 0.047557 s (96–104 s); `gateReasons: []`.
+  - Inspected `work/chopin-nocturne-op15-2-paderewski-1937-137.08-149.08.png` (reprise join) and a 194–212 s diagnostic plot.
+  - SHA-256 `117ab3b92fee933d0d30b19afb292eb3afe5a9460da91db00ea1b60587312cb6`.
+  - **Limits:** this is a noisy 1937 transfer with surface clicks. Bars 59–61 rest on the Prati cross-check and weak bands. They are not individually measured.
+
+### Op. 25 No. 6 (`025-1b-LE-006`, Paris/Lemoine issue, RISM 1001002392) — published provisionally
+
+- **Source:** 63 bars of 4/4 once, with no repeats: **2,551 notes** (2,550 regular + 1 grace, all matched; maximum onset difference 0.0 quarter). Verovio: 2,553/2,553 notes, all 63 measures agree. One cross-voice tie (F-sharp5 into bar 16) is in `extraction.ties`. Preview and publication packs: 4 pages, 63 bars, 0 derived. All four rasterised preview pages were inspected (bars 1–17/18–33/34–51/52–63).
+- **`chopin-etude-op25-6-neeman`:**
+  - Rejected candidates: the broad first window chose 2.42 s; the trill starts at 0.84 s. The broad last window chose 111.22 s inside the bar 58–59 descent and collapsed 26 notes; the final chord is at 123.56 s.
+  - Seven disclosed constraints: q119.5→55.72, q120→56.32, q120.5→56.92, q240→114.80, q242→116.64, q244→118.14 and q246 (rolled)→119.74 s. Without them, bar 31 was lit in a breath and q242 sat in silence.
+  - Gates: median **0.055694 s**, P95 0.288611 s, cosine 0.719730; first/middle/last **0.035918/0.023220/0.014875 s**; worst primary 112–120 s 0.108951 s (local 0.032874 s); maximum local **0.045581 s** (40–48 s); minimum duration 0.030833 s; `gateReasons: []`.
+  - Overlays inspected: `work/chopin-etude-op25-6-neeman-0-8.8.png`, `-24-32.png`, `-51.72-63.72.png`, `-104-112.png`, `-110.8-122.8.png`, `-119.573-130.187.png`.
+  - SHA-256 `2e9ca5037c2198f628e00d199d8cff7ecbb00d662619ddc4da9ef147f4f5e5ab`.
+- **`chopin-etude-op25-6-paderewski`** (Victor 917-B, 1923; acoustic):
+  - First window: 2.62 s. The broad window had chosen 3.62 s.
+  - Constraints: q242→110.62, q244→111.74 and q246→113.36 s. The last endpoint q248 is 115.93 s: the first measurable note of the rolled final chord. The bass is below the noise floor, and 78-rpm clicks recur every 0.77 s.
+  - Gates: median **0.130843 s** (close to the 0.15 s gate), P95 0.580796 s, cosine 0.712206, tuning 445.88 Hz; first/middle/last **0.085125/0.042857/0.063855 s**; worst primary 8–16 s **0.356342 s** (local 0.037574 s); maximum local 0.048226 s; `gateReasons: []`.
+  - Overlays inspected: `work/chopin-etude-op25-6-paderewski-0-10.62.png`, `-8-16.png`, `-106.62-118.62.png`.
+  - SHA-256 `b2d1eae71a87f98e9ef6c9fab677f24053447a8f26bfadc80d06dd68eca351c9`.
+  - **Limit:** the median sits near the gate on a noisy transfer.
+
+### Withheld
+
+- **chopin-etude-op25-5 (Neeman):**
+  - The inventory matched 2,022 regular notes and 100 graces after the after-grace fix.
+  - The dry run passed numerically (median 0.130916 s, P95 1.232926 s) with four constraints at bars 42–45. Unconstrained, bar 42 was about 5 s late.
+  - The path is still linear over 142–150 s and 173–188 s, and score attacks fall in the 176.3–177.5 s silence (`work/chopin-etude-op25-5-176-184.png`). It was not refined further and not published.
+- **chopin-etude-op25-5-goldstein:** the broad-window run failed the first-anchor gate (3.338 s) and the local gate (0.310 s at 160–168 s). Not refined.
+- **chopin-etude-op25-9-{neeman,dalbert-1913}:** configs only, with an in-memory correction of the malformed line-269 tokens `16edee-`/`16dee-` → E-flat7/E-flat6. The evidence is the sequence's own octave steps (lines 267–288). **Not run.**
+- **Not attempted:**
+  - **Op. 10/5 (Neeman):** first-edition `010-1b-Sm-005` needs the line-91 `24dad-`→`24ddd-` correction (parallel bar 12, lines 223–226). The existing Mutopia config and its receipt are unchanged.
+  - **Op. 28/15 (Ilić):** `028-1-BH-015` converts cleanly (1,547 + 12 notes); Verovio's 225 missing tokens are `*tremolo` display abbreviations.
+  - **Ballade 2 (Lévy) and Ballade 3 (Goldstein):** both now pass the converter checks.
+  - **Op. 64/2** (order unresolved, as above).
+  - **Op. 10/5 Cortot** (compound recording).
+  - **fanny-hensel-warum-rosen.**
+  - No command was run for these, so the earlier decisions stand.
+- **Op. 9/2, Op. 27/2, Op. 64/1, Op. 28/4 and Ballades 1/4:** every Hall recording already has a published score, so there was no candidate.
+
+**Commands run:** `node tools/score.mjs <id>` dry runs for the seven ids above, plus `--publish` for the five publications, all under `flock -w 3600 ~/.cache/direction-compute.lock`; `node tools/engrave.mjs chopin-etude-op25-6-neeman --prepared --score … --out <scratch>`; `humdrum_convert.py --verovio/--ties/--musicxml`; `diagnose.py`, `endpoint_peaks.py`; and scratch band, rise, linearity and audio-to-audio scripts in `~/.cache/direction-scratch/ScoreChopin2/`. **Not run:** the unit tests (no regression test was added for the converter changes), the site build, browser checks and aural review.
+
+## Chopin score fixes, round 3 — 19 October 2026 (ScoreFix3)
+
+**Result:** three corrected republications after RevScoresChopin's failed reviews (Op. 15 No. 2 Faulkner and Prati, Op. 25 No. 6 Neeman). Op. 25 No. 6 Paderewski is unchanged: its display-end option was measured but not applied. Every new constraint was measured from cached pitch features (`work/<id>-features.npz`, dB re the 95th-percentile total) with a scratch replica of the pipeline's edge detector (`~/.cache/direction-scratch/ScoreFix3/probe.py`), and is a disclosed fitting constraint, **not independent validation**. Each config basis gives the band levels. Score hashes below supersede the ScoreChopin2 hashes `8636e338…`, `88df097a…` and `2e9ca503…`. No aural review, unit-test run, site build or review file.
+
+### chopin-nocturne-op15-2 (Faulkner)
+
+- **Constraints (scoreQ, window → detector edge):** q120.5 F-sharp1/F-sharp2/D-sharp4 [186.95, 187.15] → **187.02 s** (primary onset 187.072 s); q122 C-sharp2/D-sharp4 [190.6, 190.8] → **190.68 s** (primary onset 190.705 s). A dry run with only these two moved q120 (bar 60 +3/2) from 185.43 to 186.09 s and q119.667–q119.917 0.5–0.66 s late, against C-sharp2/D-sharp4 rises at 185.58 s. A third constraint was therefore added: q120 [185.45, 185.7] → **185.58 s** (primary onset 185.551 s). All mapping deviations are 0.
+- **Kept from earlier rounds:** pickup 2.02 s, bar 25 at 85.88 s, the bar-48/49 join constraints, display end 196.5 s (held offset 196.5 s) and the line-1178 `4.FFF#` correction (`tokenCorrections` 1).
+- **Changes vs `8636e338…`:** 35 note records in q102.5–q122.17. Bar 61 moves 186.212 → **187.020 s** and q122 189.155 → **190.680 s**. The 189.56–191.99 s gap now holds attacks at 189.550/189.784/189.914/190.305/190.680/191.365/191.495 s. The largest onset change is +1.960 s (q122.083). One DTW side effect: the q103 C-sharp3 moves 145.935 → 145.798 s (detector 145.92 s, primary onset 145.995 s).
+- **Gates:** median **0.046700 s**, P95 0.290317 s, cosine 0.767410. First/middle/last **0.023356/0.079576/0.003698 s**. Maximum local median 0.056082 s (56–64 s). Worst primary region 184–192 s: 0.223483 s (local 0.040417 s). Minimum duration 0.016 s. `gateReasons: []`.
+- **Residual (MEAS):** q122.083 C-sharp4 is at 191.365 s against a C-sharp4 rise at about 191.04–191.10 s (adaptive onset 191.100 s). q122.25 F-sharp3 is at 191.985 s against about 191.74–191.8 s. Both are about 0.25–0.3 s late.
+- **Inspected:** `work/chopin-nocturne-op15-2-183.02-195.02.png` from the final-config dry run; the publication regenerated it from the same config. The bar-61 line sits on the F-sharp2 energy onset and the largest DLNCO peak. Bar 60's last group starts at 185.58 s, and the path is no longer flat after 189.8 s. Also generated: `-181.58-193.58.png`, `-184-192.png`, `-186.68-198.68.png`.
+- **Score SHA-256:** `f0013ae858308ffb3decf423ad519aa9afa3a6a8941c581b4163adf95bcef9a1`. Config SHA-256 `8466f730…` equals the receipt.
+
+### chopin-nocturne-op15-2-prati-2015
+
+- **Constraints:**
+  - q115 D-sharp7 + C-sharp3/A-sharp3, window [193.85, 194.0] → **193.90 s** (primary onset 193.933 s).
+  - q115.5 left-hand F-sharp3/A-sharp3/C-sharp4, window [194.9, 195.2] → **195.08 s** (adaptive onset 195.071 s). A-sharp3 rises about 0.1 s before C-sharp4, so the chord may be spread.
+  - q116.5 G-sharp6/F-sharp2, window [197.2, 197.45] → **197.28 s** (primary onset 197.346 s).
+  - A dry run with these three placed q116.75/q116.833 at 197.72/197.86 s, about 0.3 s early, inside the G-sharp6 hold. A fourth constraint was added: q116.75 F-sharp6 [197.9, 198.1] → **198.00 s** (primary onset 198.066 s).
+- **Review discrepancy:** the review's q115.5 window [196.1, 196.25] ("B6 and chord") actually holds the encoding's q116, B6 with C-sharp3/F-sharp3/A-sharp3; q115.5 has no B6. q115.5 was therefore measured at its own chord. The unconstrained q116 now maps to **196.16 s**, where B6 rises at 196.06–196.24 s and the adaptive onset is 196.185 s.
+- **Changes vs `88df097a…`:** 26 note records in q114.5–q116.83. Bar 59 moves 196.383 → **197.280 s**. The largest onset change is +1.013 s (q116.25). Mapped times against measured rises:
+  - C-sharp7/A-sharp6/F-sharp6: 195.728/195.872/196.016 s, against about 195.73/195.85/195.97 s.
+  - A-sharp6/F-sharp6/C-sharp6: 196.835/196.996/197.140 s, against A-sharp6 about 196.9 s (primary onset 196.963 s), F-sharp6 about 197.0 s and C-sharp6 about 197.12 s.
+  - q116.833: 198.159 s.
+- **Gates:** median **0.064990 s**, P95 0.440332 s, cosine 0.763352. First/middle/last **0.008707/0.069890/0.003660 s**. Maximum local median 0.064717 s (208–216 s). Worst primary region 144–152 s: 0.211864 s (local 0.029165 s). Minimum duration 0.0055 s. `gateReasons: []`.
+- **Residual (MEAS):** the left-hand triplet repeats q115.167/q115.333 are at 194.521/194.809 s, against A-sharp3 rises at about 194.24/194.59 s, so 0.2–0.3 s late.
+- **Inspected:** `work/chopin-nocturne-op15-2-prati-2015-189.9-201.9.png` from the final-config dry run. D-sharp7, B6 and G-sharp6 start on their measured energy, and bar 59 sits on the F-sharp2 onset. Also generated: `-191.08-203.08.png`, `-193.28-205.28.png`, `-194-206.png`, `-192-200.png`.
+- **Score SHA-256:** `fac2ebf0451478668e81aa62661c3e06f955a5298b9d2147ab40c46c079d6c3a`. Config `e7c0054a…` equals the receipt.
+
+### chopin-etude-op25-6-neeman
+
+- **Constraints:**
+  - q136 G-sharp2/B4/D-sharp5, window [65.1, 65.3] → **65.16 s** (primary onset 65.213 s).
+  - With q136 alone, q135.25–q135.75 fell at 64.61/64.92/65.05 s, 0.27–0.48 s late. With q135.75 added, q135.5 fell 0.42 s early.
+  - Two bar-34 constraints therefore pin the measured ritardando, in which the detector gives 63.94/64.16/64.44/64.78 s for q135–q135.75: q135.5 [64.3, 64.6] → **64.44 s** (adaptive onset 64.482 s) and q135.75 [64.6, 64.95] → **64.78 s** (primary onset 64.842 s).
+- **Changes vs `2e9ca503…`:** 107 note records, nearly all in q135–q142.25. Bar 35 moves 64.293 → **65.160 s** and bar 36 66.347 → **67.107 s**; G-sharp2 rises at about 67.06–67.16 s. Bar 37 is 68.900 s. The largest onset change is +1.040 s (q137.25). Outside q135–q142.25 the largest onset change is +0.027 s (q148.75); bar 57 moves +0.020 s.
+- **Gates:** median **0.055380 s**, P95 0.286459 s, cosine 0.723692. First/middle/last **0.035918/0.023220/0.014875 s**. Maximum local median 0.045581 s (40–48 s). Worst primary region 112–120 s: 0.108951 s (local 0.032874 s). Minimum duration 0.031 s. `gateReasons: []`.
+- **Residual (MEAS):** q135 is at 63.770 s, against a detector edge of 63.94 s. In the reprise, q136.25–q136.75 are at 65.299/65.425/65.551 s, against measured C-sharp5/E5 about 65.44 s, D-sharp3 about 65.62–65.66 s and C-sharp5/E5 about 65.73 s; Neeman lengthens the first eighth. These notes are 0.14–0.22 s early; q137 (65.810 s; B3/B4 at 65.84 s) agrees.
+- **Inspected:** `work/chopin-etude-op25-6-neeman-60.44-72.44.png` from the publication run. DLNCO is zero over 64.15–64.8 s and 65.0–65.85 s, although the pitch bands show the rises listed above; there the primary detector has only 64.842 and 65.213 s. Also generated: `-60.78-72.78.png`, `-61.16-73.16.png`, `-64-72.png`.
+- **Score SHA-256:** `ed8b42c28d31837f58212da9c9b7d525623a8559c5d3577898fff57b8376357a`. Config `78b23efa…` equals the receipt.
+
+### chopin-etude-op25-6-paderewski — display end not applied
+
+- **Measured option (MEAS):** with a 0.3-s running median against the 0.77-s clicks, the summed final-chord pitch energy (MIDI 44/51/56/60/63/72) behaves as follows:
+  - peaks at −15.3 dB at 116.9 s;
+  - is at −35 dB by 118.8 s;
+  - after a 0.4-s bump to −33.3 dB at 119.9–120.1 s, settles at −37.5 dB from 120.5 s;
+  - stays at −37 to −39.5 dB to 122.9 s, then reaches the surface-noise level of −40 to −49 dB.
+  Total pitch energy has been at the surface-noise level since 118.5 s. The −45 dB RMS end is 127.245 s.
+- **Dry run with `endpoints.end` 120.5 s:** it passed (median 0.134872 s, P95 0.578015 s, first/middle/last 0.085125/0.053333/0.057506 s, maximum local median 0.048645 s, `gateReasons: []`). The display end also changes the DTW audio range and scale, so 2,545 of 2,551 note records moved. Median |Δonset| was 0.007 s, P95 0.025 s and maximum 0.198 s (80–88 s); bars 6 and 49 moved −0.054 and −0.096 s.
+- **Decision:** the main agent decided to keep the reviewed publication. The config was restored byte-for-byte (SHA-256 `a5a33cb5…`, equal to the receipt). A dry run with it reproduces the public score byte-identically (`b2d1eae71a87f98e9ef6c9fab677f24053447a8f26bfadc80d06dd68eca351c9`, diff `byteIdentical: true`). `work/chopin-etude-op25-6-paderewski-checks.json` is now that dry-run report (`published: false`). `results/` and `docs/assets/data/` for this id are unchanged.
+
+### Sheets, attribution and limits
+
+- **Sheets and attribution:** `--publish` printed `PUBLISHED … provisional; not checked by ear` with 3 pages, 63 bars, 0 derived bars and 1,375 marked glyphs for both nocturnes; for Neeman it printed 4 pages, 63 bars, 0 derived bars and 2,595 marked glyphs. With DOM ids stripped, each new pack's pages equal the unchanged reviewed sibling packs (Paderewski 1937 and Paderewski 1923), and every `index.json` is byte-identical to its sibling. Rasterised Faulkner p3 (bars 44–62) and Neeman p3 (bars 34–51) were inspected. `check_contract.py` prints `ok` for all three. Each published `score.json` carries `source.attribution`, equal to the manifest's five-line NIFC credit, with `status: provisional` and `review.by: null`.
+- **Limits:** the constraints are fitted to the same pitch features they were measured from. The listed residuals remain, and none was checked by ear.
+
+**Commands run:** `node tools/score.mjs <id>` dry runs and `--publish` for the three ids, plus two Paderewski dry runs, all under `flock -w 3600 ~/.cache/direction-compute.lock`; `check_contract.py`; scratch `probe.py`, `decay.py` and `cmp.py` in `~/.cache/direction-scratch/ScoreFix3/`; `magick` rasterisation into the same directory. **Not run:** unit tests, site build, browser checks, git write commands, formatters and aural review.
+
+## Score round 4 — 19 October 2026 (ScoreRound4)
+
+**Result:** four new provisional publications (Hensel; Op. 25 No. 9 Neeman and d'Albert; Op. 10 No. 5 Cortot). Op. 10 No. 5 Neeman, Op. 28 No. 15 and Ballades 2 and 3 are withheld. Op. 64/2 and Op. 25/5 Goldstein were not attempted. The Chopin sources are pinned to `pl-wnifc/humdrum-chopin-first-editions` at `95dfb105` (CC BY 4.0), with `source.attribution` as above. Every `humdrumCorrections` entry was checked against first-edition page images in OCVE (chopinonline.ac.uk), viewed through its IIP image server; the URLs are in each basis. Every constraint is a disclosed fitting constraint measured from cached pitch features (`~/.cache/direction-scratch/ScoreRound4/probe.py`), **not independent validation**. No aural review, unit-test run, site build, git write or review file.
+
+**Checks beyond the gates (scratch, `~/.cache/direction-scratch/ScoreRound4/`):**
+- `attackscan.py`: for each attack group, the 20%-edge offset of the strongest pitch-band rise within ±0.4 s, with per-bar medians.
+- `linear.py`: constant-slope path runs.
+- `xsim.py`, `a2a_order.py` and `a2a_local.py`: recording-to-recording chroma DTW and register-aware pitch DTW.
+- Fresh pipeline overlays and `diagnose.py` plots.
+- Rasterised `engrave.mjs --prepared` preview sheets.
+
+### fanny-hensel-warum-rosen — published provisionally
+
+- **Source (EXT):** OpenScore Lieder `scores/Hensel,_Fanny/6_Lieder,_Op.1/3_Warum_sind_denn_die_Rosen_so_blass/lc5004640.mxl`, SHA-256 `797232d1a90f47423f7a2c14b1a0dcece7c7af326787b02ec87d64c2939dd9f2`, rights "OpenScore (CC0)". Its README links IMSLP #99178 (Bote & Bock 1846). XML measure 1 is the eighth pickup; `musicxmlImplicitMeasures:[1]` makes it bar 0, followed by bars 1–41 once. That gives **42 bars, 123.5 quarters, 839 notes and 3 voices** (the voice, piano voice 1 on the upper staff, piano voice 5 on the lower staff). LilyPond warns "barcheck failed at −1/8" after `\partial 8`; no notes change.
+- **Rejected first window:** the 0–4 s window chose 3.76 s, a bar-1 E5, which compressed the pickup and bar 1 into 0.2 s. The pickup E5 rises from −42 to −11 dB at 1.20–1.32 s, and the file is silent before that. Windows: first [1.1, 1.3] → 1.28 s; last [134.2, 134.45] → 134.372 s (final A5).
+- **Constraints:** q42 → 45.12 s and q93 → 100.18 s, for the voice's E5 "wa-"/"o" with piano F4. Unconstrained, both were 0.18 s late.
+- **MEAS gates:** median **0.039157 s**, P95 0.233793 s, cosine 0.658526, tuning 440.25 Hz. First/middle/last **0.020317 / 0.009840 / 0.013828 s**. Worst primary region 96–104 s: 0.058153 s (local 0.046245 s, also the maximum local median). Minimum duration 0.109 s. `gateReasons: []`.
+- **Verified:** the pickup and bar 1 (E5 rises at 1.96 and 3.68 s). Every stanza start, against measured rises:
+  - bar 3: E5 at 8.46 s, mapped 8.435 s;
+  - bar 11: D5/D3 at 33.70–33.80 s, mapped 33.761 s;
+  - bar 20: E5 at 63.16 s, mapped 63.157 s;
+  - bar 28: D5 at 88.54 s, mapped 88.623 s;
+  - coda bar 37: E5 at 118.16 s, mapped 118.198 s;
+  - piano close, bar 39: D5 at 125.26 s, mapped 125.295 s.
+
+  The bar-40 arpeggio and the final A5 also match, apart from the q119 A4, about 0.3 s early. Five constant-slope runs of 3–4 s remain (30.7–34.7, 50.2–53.5, 68.2–71.9, 106.2–109.8 and 116.0–119.8 s). They lie in steady sixteenth accompaniment, and per-bar rise medians there are within ±0.03 s. The dominant-pitch ranking of the 142 sung notes (MIDI 60–88) puts the written pitch **first in 99 and in the top three in 128**. No other aligned recording of this song exists.
+- **Overlays:** `work/fanny-hensel-warum-rosen-0-9.28.png`, `-96.18-108.18.png`, `-128-136.png`, `-130.372-141.137.png`, plus the other files listed in the receipt. Pack: 2 pages, 42 bars, 0 derived, 925 glyphs.
+- **Score SHA-256** `c744f27796187220a595bf0dbcd3323ff066d343fa471bac807056b458a748ac`; config `e1c9afe2…`.
+
+### Op. 25 No. 9 (`025-1b-LE-009`) — common source
+
+- **Corrected basis:** the earlier basis cited "bar 20", "F7/F6" and "C7-C6". The encoding has line 269 in **bar 21**, after an **F-flat**7/F-flat6 octave (`16ffff-X`), and lines 273/275 read C-flat7/C-flat6.
+- **Print reference:** the French first edition (25-1a-Sm, M.S. 2427, p. 32, bar 21; OCVE pageview 75382) and the Wessel edition (W & Co 1833, p. 6, bar 21; pageview 77282) both engrave the next staccato octave one staff step lower, without an accidental. With the G-flat key signature that is E-flat, so the line-269 correction to `16eeee-`/`16eee-` stands. The inventory has 1,141 notes in 51 bars of 2/4.
+- **Sheet:** 2 pages, 51 bars, 0 derived (preview pages inspected).
+
+#### chopin-etude-op25-9-neeman — published provisionally
+
+- **Rejected windows:** the 0–4 s first window chose 2.74 s, but the music starts at 0.88 s (A-sharp4 band −42 → −14 dB). The 50–68 s last window chose 61.03 s, which squeezed bars 48–51 into 0.6 s; the final chord rises at 65.55–65.65 s. Windows: [0.75, 0.95] and [65.45, 65.7].
+- **Constraints (detector edges):** q73 → 48.96 s, q96 → 62.74 s, q98 → 63.86 s, q99 → 64.46 s, q99.5 → 64.88 s.
+  - Without q73, bar 37's q73/q73.25 (the reprise after the ritenuto) were 0.6 s early, followed by a 0.76 s stall.
+  - Without the other four, bars 48–50 followed an almost straight path, 0.1–0.3 s late.
+- **MEAS gates:** median **0.031263 s**, P95 0.076158 s, cosine 0.663722, tuning 441.02 Hz. First/middle/last **0.002358 / 0.020293 / 0.412176 s**. The primary detector has no onset at the quiet final chord (nearest 65.178 s), so the last value is close to the 0.5 s gate. Worst/maximum local region 64–69.02 s: 0.061429 / 0.046417 s. `gateReasons: []`.
+- **Verified:**
+  - Per-bar rise medians are within ±0.05 s everywhere except bar 48, which is about 0.08 s late.
+  - The bar 16/17, 24/25 and 36/37 joins and the final bars were checked; there are no constant-slope runs of 2 s or more.
+  - Inspected overlays: `-0-8.88.png`, `-44.5-51.5.png` (diagnose) and `-60.88-69.0166.png`.
+- **Score SHA-256** `d4b9239b5a2bbce9bc0ed97a5da2775a5df9eed7949b0317a4c375d3229c6465`; config `86ed6080…`.
+
+#### chopin-etude-op25-9-dalbert-1913 — published provisionally; performed order 1–36, 1–51
+
+- **Order (MEAS):** chroma cross-similarity against Neeman shows bars 1–36 twice, at 0–42.6 s and 42.6–80.8 s, followed by bars 37–51.
+  - At the join, the second pass has a C-natural5/C6 rise at 43.05–43.1 s. That note is bar 1's fourth sixteenth; bar 37 has C-flat there.
+  - The second pass is 4.5 s shorter than the first, so it is not a duplicated transfer.
+  - `bars.order [[1,36],[1,51]]` gives 87 occurrences and 1,999 notes.
+- **Windows:** first [0.1, 0.25] → 0.18 s, under −25 dB transfer noise. Last [95.4, 95.65] → 95.512 s. The broad 70–100 s window had chosen 76.34 s.
+- **Constraints:** q168 (bar 49) → 93.00 s, q171 → 94.64 s, q171.5 → 95.02 s. Unconstrained, bar 49 was 0.44 s late.
+- **MEAS gates:** median **0.040424 s**, P95 0.126821 s, cosine 0.554334, tuning 433.69 Hz (−25 cents). First/middle/last **0.028980 / 0.034166 / 0.055180 s**. Worst primary region 80–88 s: 0.045875 s. Maximum local median 0.045637 s. `gateReasons: []`.
+- **Recording-to-recording check:** register-aware DTW from Neeman's verified map (`a2a_local.py`) agrees with every d'Albert bar within **±0.12 s**, in both passes and in bars 37–51 (bars 47–51: +0.06/+0.11/−0.06/−0.05/+0.07 s). No constant-slope runs of 2 s or more.
+- **Limit:** this is an acoustic transfer, and the bar 48–50 bass is ambiguous. The bar-49 placement rests on the right-hand B-flat5/G-flat6 chord rising together with the G-flat octave partials.
+- **Score SHA-256** `625a50b0e3538f952bcd276867bb26edb47283cc51a1b00822465d4338db3b17`; config `1a08effb…`.
+
+### chopin-etude-op10-5-cortot — published provisionally (Op. 10 No. 5 only)
+
+- **Source:** `010-1b-Sm-005.krn` (Schlesinger, Paris; SHA-256 `a6d4c1aa…`). It has 85 bars; bar 85's whole notes are kept as four quarters (`overrides {"85":4}`). Inventory: 1,628 regular notes and 1 grace, all matched. Verovio agrees, apart from the grace measure.
+- **Three print-checked token corrections** in the French first edition (10-1-Sm), all under 8a:
+  - line 91 `24dad-` → `24ddd-`: p. 20, bar 4 (pageview 63226), last triplet A-flat, D-flat, D-flat;
+  - line 788 `24ede-` → `24eee-`: p. 22, bar 47 (pageview 63228), D-flat, E-flat, D-flat;
+  - line 1357 `24gbg-'` → `24ggg-'`: p. 24, bar 83 (pageview 63230), G-flat above the staff with B-flat.
+- **Scope:** this side (Victor 64989) continues with Op. 25 No. 9 from 96.4 s, which this score does not cover. The previous decision (section above) rejected stretching one score over the whole side; here the alignment ends at the final chord. `endpoints.end` 94.6 s is the measured decay of the final chord into the transfer's noise floor (total −18.6 dB, the same as the noise-only gap). It is not a key release.
+- **Windows:** the 0–3 s first window chose 2.86 s, inside groove noise that starts at 0.8 s. The first musical attack rises at 3.66–3.74 s, the first DLNCO peak. The 85–96 s last window chose the bar-84 octave at 91.28 s, but the bar-85 G-flat chord rises at 92.6–92.7 s. Windows: [3.6, 3.8] and [92.5, 92.8].
+- **MEAS gates:** median **0.064784 s**, P95 0.233703 s, cosine 0.652995, tuning 444.09 Hz. First/middle/last **0.008027 / 0.108019 / 0.016402 s**. Worst primary region 72–80 s: 0.074849 s (local 0.039679 s). Maximum local median 0.044768 s. `gateReasons: []`.
+- **Verified (detector edge vs map):**
+  - section starts: bar 17 (C-natural4 rise at 19.42 s, mapped 19.423 s); bar 25, 27.72 vs 27.727 s; bar 49, 53.10 vs 53.09 s; q95, 51.92 vs 51.926 s;
+  - bars 33–41 at their left-hand chords, all within about 0.1 s;
+  - bars 63–68, the pp run and cadence: q131 B-flat4 is 0.3 s early;
+  - the closing octaves and chords, bars 83–85: 0.00–0.03 s.
+- **Recording-to-recording check:** DTW from Neeman's gate-failed first-edition map agrees within ±0.2 s for most bars. It departs by up to 1 s at bars 64–70 and 0.47 s at bar 36. Band evidence there supports Cortot's own map, and Neeman's map is late at bar 64. Per-attack screening is noisy on this acoustic transfer, so note-level precision is limited.
+- **Overlays:** `work/chopin-etude-op10-5-cortot-0-11.7.png`, `-64-72.png`, `-88-96.png`. Pack: 4 pages, 85 bars, 0 derived (preview pages 1 and 4 inspected).
+- **Score SHA-256** `175bee75e156a906604330ff02e7d0456ba90cf8a259e1ef81b4b9b4d0382cff`; config `8879de32…`.
+
+### Withheld
+
+- **chopin-etude-op10-5 (Neeman), first-edition dry run (same source and three corrections):** median **0.169082 s**, which fails the 0.15 s gate, and the 104–110.85 s local median is 0.354 s. The primary detector found 173 onsets for 978 distinct attacks; the adaptive median is 0.041 s, so this is a detection failure, as with Mutopia 926. The config was restored byte-for-byte to the committed Mutopia version (`1773f8e8…`, equal to the receipt); the receipt is unchanged. The first-edition config and checks are kept in scratch. `work/chopin-etude-op10-5-*` now hold that dry run.
+- **chopin-prelude-op28-15 (Ilić), first-edition `028-1-BH-015` dry run:** 1,547 + 12 notes; median 0.041384 s. The middle anchor disagrees by **0.616939 s**: the q169 repeated G-sharp3 at 125.854 s, where the adaptive onset is 125.922 s and the primary detector has nothing between 125.237 and 127.849 s. The gate is unchanged, so the piece is withheld. The config was restored (`f6d3d757…`, equal to the receipt); the work files are the dry run.
+- **chopin-ballade-2 and chopin-ballade-3:** configs written (`038-1-BH`, 204 bars with a two-quarter pickup; `047-1-BH`, 240 bars), but the Humdrum inventory check fails before alignment.
+  - Ballade 2: 1 regular attack missing and 18 extra. The converter drops ties from graces to their main chord (bar 45, lines 307–319) and some ties across spine merges.
+  - Ballade 3: 42 extra, 35 with a contiguous same-pitch origin and 7 without.
+  - Fixing this is a `humdrum_convert.py` tie-routing change, not a token correction. No receipt or publication.
+- **Not attempted (request budget):** Op. 64/2 (all four; bar order unresolved) and Op. 25/5 Goldstein.
+
+**Commands run:**
+- `node tools/score.mjs <id>` dry runs and `--publish` for the four publications, and dry runs for the withheld ids, all under `flock -w 3600 ~/.cache/direction-compute.lock`.
+- `node tools/engrave.mjs <id> --prepared --score … --out <scratch>` previews for Hensel, Op. 25/9 and Op. 10/5, rasterised with `magick`.
+- `check_contract.py`, which printed `ok` for all four.
+- `humdrum_convert.py --musicxml/--ties/--verovio/--config`, `diagnose.py`, and the scratch scripts listed above.
+- `git show HEAD:<config>` (read-only) to restore two configs.
+
+**Not run:** unit tests, site build, browser checks, git write commands, formatters, aural review.
+
+## Cortot Op. 10 No. 5, bars 64–70 correction — 19 October 2026 (ScoreCortot)
+
+**Result:** `chopin-etude-op10-5-cortot` is republished provisionally with ten measured fitting constraints in bars 64–70. RevScoresChopin's review (defect `BARS_67_69_LIT_ABOUT_1S_EARLY`) was right: the round-4 map had no room for Cortot's bar-66 B-flat4 hold, so it lit bars 67–69 0.8–1.0 s early and bar 70 0.2 s early. This supersedes two round-4 claims above: "q131 B-flat4 is 0.3 s early" (it was 0.40 s early, and bars 67–69 were about 1 s early), and "band evidence there supports Cortot's own map" for bars 64–70. The review's other defect (the highlight persisting through Op. 25 No. 9) is handled in site code and is not part of this round. Every constraint is a disclosed fitting constraint, **not independent validation**.
+
+**Method (MEAS):** I measured cached pitch features (`work/chopin-etude-op10-5-cortot-features.npz`, dB re the 95th-percentile total) with copies of ScoreRound4's `probe.py`/`attackscan.py`/`a2a_local.py`, plus two new scratch scripts in `~/.cache/direction-scratch/ScoreCortot/`:
+- `detect_many.py`: a replica of `align.endpoint_anchors` (20% edge of the smoothed summed-pitch rise);
+- `a2a_times.py`: `a2a_local.py`'s DTW applied to listed reference times.
+
+**Constraints** (detector edge = mapped time, mapping deviation 0.000 s for all ten):
+
+| scoreQ | Attack | Window (s) | Edge (s) | Round-4 map (s) | Review estimate (s) |
+| --- | --- | --- | ---: | ---: | ---: |
+| 126 | bar 64 chord + D-flat6 | 67.98–68.14 | 68.06 | 68.07 | — |
+| 128 | bar 65 chord + E-flat7 | 69.40–69.58 | 69.48 | 69.547 | — |
+| 130 | bar 66 Smorz. chord | 71.40–71.56 | 71.48 | 71.383 | — |
+| 131 | B-flat4 with D-flat4/F4 | 72.25–72.42 | 72.34 | 71.936 | 72.37 |
+| 131.75 | A-flat4 sixteenth | 73.02–73.20 | 73.10 | 72.348 | — |
+| 132 | bar 67 G-flat4 | 73.40–73.58 | 73.48 | 72.48 | 73.52 |
+| 134 | bar 68 D-flat6 + left hand | 74.46–74.64 | 74.54 | 73.537 | 74.3–74.4 |
+| 135.5 | D-flat5 quarter | 75.18–75.34 | 75.26 | 74.33 | 75.28 |
+| 136 | bar 69 left hand | 75.46–75.62 | 75.54 | 74.71 | 75.55 |
+| 138 | bar 70 G-flat5 + left hand | 76.44–76.60 | 76.52 | 76.311 | 76.56 |
+
+- **Bar 68 departs from the review.** The 74.30 s D-flat6 rise is bar 67's q133.5 (A-flat3/F4/D-flat6; F4 −45 → −28 dB at 74.36 s, with the q133.667 D-flat7). E-flat6, bar 68's second note, stays at −40 to −42 dB until 74.60 s. The chain that follows fits only a 74.54 s downbeat at about 0.09 s per sextuplet:
+  - G-flat5 with D-flat4 at 74.78 s;
+  - A-flat5 with C-flat4/A-flat4 at 75.04 s;
+  - B-flat5 at 75.10 s;
+  - D-flat5 at 75.26 s.
+- **q131.75:** the A-flat4 sixteenth enters at 73.10 s, under the still-sounding B-flat4 (G-sharp4 −48 → −28 dB). It is the only written A-flat4 between q131 and q133.
+- **Neighbour constraints q126/q128/q130:**
+  - A first dry run had only q131, q132, q134, q135.5, q136 and q138. It moved bar 64 from 68.07 to 69.49 s and bar 65 from 69.547 to 70.547 s, and opened a 1.1 s gap inside bar 63. q126 (C-sharp5 band −17 → −2 dB) and q128 keep the round-4 placements that were already right.
+  - A second dry run left q131.75 at 73.348 s, 0.25 s late, so that constraint was added.
+  - The q128 edge is the chord, not the grace. The source has a D-flat2 grace (MIDI 37, q127.885) before the bar-65 chord. Cortot's grace enters at 68.6–68.9 s: its C-sharp3/G-sharp3/C-sharp4 partials rise while F-sharp4 falls. The chord's F-sharp4 (−50 → −31 dB), C-sharp3, C-sharp4 and G-sharp3 then rise together at 69.48–69.64 s. Bar 64's B-flat6 rises at 68.17/68.56/68.94 s match q126.167/q126.833/q127.5, so bar 64 is still sounding at 68.94 s.
+
+**MEAS gates (final run, unchanged thresholds):**
+- median **0.063817 s** (was 0.064784 s), P95 0.233703 s;
+- cosine 0.655845, tuning 444.09 Hz;
+- first/middle/last **0.008027 / 0.108019 / 0.016402 s**;
+- worst primary region 88–96 s: 0.074394 s (local 0.034164 s);
+- maximum local median **0.044768 s** (0–8 s);
+- 64–72 s primary/local 0.0739/0.0355 → **0.0657/0.0331 s**; 72–80 s 0.0748/0.0397 → **0.0703/0.0390 s**;
+- minimum published duration 0.018 s, minimum distinct attack interval 0.017 s;
+- no collapsed or non-positive attacks; `gateReasons: []`; `check_contract.py` printed `ok`.
+
+**What changed (MEAS, `work/<id>-diff.json` and a scratch comparison):**
+- Same note and bar identities; only the `method` text changed (internal-anchor disclosure).
+- 105 onsets changed, all in q126–q139.667; bars 1–63 and 71–85 are unchanged to the millisecond.
+- New bar times 64–70: **68.06 / 69.48 / 71.48 / 73.48 / 74.54 / 75.54 / 76.52 s** (old 68.07 / 69.547 / 71.383 / 72.48 / 73.537 / 74.71 / 76.311 s). The largest move is 1.02 s.
+- The bar-65 descending run (E-flat6 → D-flat5) moved 0.24 s earlier, onto its measured 70.46–71.00 s rises; only the last D-flat5 is still about 0.2 s late (71.209 s against 71.00 s).
+
+**Verified:**
+- **Per-attack rises, bars 66–71:** these attacks have distinct band rises, and each lies within ±0.04 s of its rise:
+  - q132.5 D-flat4 73.765 against 73.78 s;
+  - q133 74.029 against 74.06 s;
+  - q134.167 E-flat6 74.646 against 74.61 s;
+  - q136.167–q136.833 (G-flat5 A-flat5 B-flat5 A-flat5 G-flat5) 75.642–75.977 against 75.64–75.96 s;
+  - q137 76.043 against 76.04 s;
+  - q137.5 76.247 against 76.28 s;
+  - q139 77.040 against 77.04 s;
+  - bar 71 77.508 against 77.52 s.
+
+  `attackscan.py`'s flagged rows in these bars are repeated-pitch aliases at about one 4-note cycle. Bar 64's sextuplets keep their round-4 times; the screen there is aliased by the same 4-pitch cycle.
+- **Recording-to-recording DTW, bars 58–74:** this ran `a2a_local.py` from Neeman's gate-failed first-edition dry-run map (`work/chopin-etude-op10-5-candidate.json`), with spans Neeman 68.6–91.74 s and Cortot 62.1–80.86 s (bar 58 to bar 74 in each map).
+  - Against the new map, the differences for bars 60–72 are −0.02 / −0.02 / −0.02 / +0.03 / +0.04 / **−0.70** / +0.10 / −0.14 / 0.00 / +0.04 / +0.06 / −0.01 / +0.04 s.
+  - Against the round-4 map they were +0.86 / +1.00 / +0.87 / +0.27 s at bars 67–70.
+  - Neeman's own band edges were also mapped (`a2a_times.py`): bars 66–71 agree within ±0.16 s (+0.10 / −0.14 / −0.16 / −0.04 / +0.02 / −0.01 s).
+  - **Bar 65 is the exception.** Neeman plays the C-sharp2 grace with the chord (C-sharp2 −50 → −29 dB at 76.28–76.56 s, G-sharp3/C-sharp4 at 76.32–76.40 s), so the DTW pairs it with Cortot's early grace (68.6–68.9 s), not with his chord at 69.48 s. That is a grace-timing difference, not evidence that the chord is early.
+- **Fresh overlays** inspected: `work/chopin-etude-op10-5-cortot-66-80.png` and `-70.5-78.png`, added as `diagnostics.overlays`. The B-flat4 band is dark from 72.34 s to about 73.5 s under its score line, followed by the A-flat4 at 73.10 s and bars 67–71 on their rises.
+  - The anchor overlays (`-64.06-76.06`, `-65.48-77.48`, `-67.48-79.48`, `-68.34-80.34`, `-69.1-81.1`, `-69.48-81.48`, `-70.54-82.54`, `-71.26-83.26`, `-71.54-83.54`, `-72.52-84.52`) and the region files are listed in the receipt; they were not viewed one by one.
+- **Publication:** `--publish` printed `4 pages, 85 bars (0 derived), 1675 marked glyphs; 1627186 → 589700 bytes (including index)` and `PUBLISHED chopin-etude-op10-5-cortot provisional; not checked by ear`. Two basis texts were then corrected: q134.5 is G-flat5 with D-flat4, not C-flat4, and q135.5 is described as the loudest attack, not the largest rise. After that, a second `--publish` reported `byteIdentical: true` with the same gates. The candidate equals the public file, and `results/chopin-etude-op10-5-cortot.json` equals `work/…-checks.json` (same SHA-256). The sheet pages were not re-inspected; source and engraving settings are unchanged.
+- **Score SHA-256** `a4d73c03be6c183feaa95b477b69c5a27ab21aaea47b58a8cad96beca7685d5b` (was `175bee75…`); config `98cc02b4…` (was `8879de32…`); receipt `df5b40ab…`.
+
+**Commands run:**
+- `probe.py bands/rises/events`, `detect_many.py`, `attackscan.py`, `a2a_local.py` and `a2a_times.py` (scratch, read-only on project files).
+- Three `node tools/score.mjs chopin-etude-op10-5-cortot` dry runs, then `--publish` twice, all under `flock -w 3600 ~/.cache/direction-compute.lock`.
+- `check_contract.py`, `sha256sum`, `cmp`.
+
+**Not run:** unit tests, site build, browser checks, git commands, formatters, aural review. No review file was written.

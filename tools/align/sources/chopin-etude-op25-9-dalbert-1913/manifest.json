@@ -1,0 +1,39 @@
+{
+  "title": "Étude in G♭ major, Op. 25 No. 9",
+  "edition": "Paris edition published by Lemoine (Études Op. 25; RISM 1001002411, PL-Wbfc 4808/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+  "encoder": "Tomasz Sierawski (encoding); Marta Lawrence, Wojciech Jakubiak-Danek (editing); NIFC Chopin Heritage in Open Access project",
+  "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/025-1b-LE-009.krn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+  "main": "etude.ly",
+  "humdrum": "025-1b-LE-009.krn",
+  "musicxml": "025-1b-LE-009.musicxml",
+  "humdrumCorrections": [
+    {
+      "line": 269,
+      "old": "16edee-'>JJ",
+      "new": "16eeee-'>JJ",
+      "basis": "Source token correction with print reference: 025-1b-LE-009.krn line 269 (bar 21, under 8va) encodes the second staccato octave of the first half-bar as `16edee-'>JJ` / `16dee-`, which contain two pitch names each and are not valid **kern pitches; read as E-flat7/E-flat6 (`16eeee-` / `16eee-`). Print, viewed 19 Oct 2026 in OCVE page images: the French first edition (25-1a-Sm, M. Schlesinger, plate M.S. 2427, p. 32, bar 21; https://chopinonline.ac.uk/ocve/browse/pageview/75382/) and the English first edition (25/7-12-1b-W, Wessel, plate W & Co No. 1833, p. 6, bar 21; https://chopinonline.ac.uk/ocve/browse/pageview/77282/) both engrave this staccato octave one staff step below the preceding accented F-flat octave (encoded `16ffff-X` / `16fff-X`, line 267), with no accidental: E, flat by the G-flat-major key signature. The encoding's other half-bars of the sequence step down the same way (lines 273/275 C-flat7/C-flat6 then B-flat6/B-flat5; 280/282 E-double-flat7 then D-flat7; 286/288 B-double-flat6 then A-flat6). Verovio 6.3.0 reads the malformed tokens as E and D. The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report."
+    },
+    {
+      "line": 269,
+      "old": "16dee-",
+      "new": "16eee-",
+      "basis": "Source token correction with print reference: 025-1b-LE-009.krn line 269 (bar 21, under 8va) encodes the second staccato octave of the first half-bar as `16edee-'>JJ` / `16dee-`, which contain two pitch names each and are not valid **kern pitches; read as E-flat7/E-flat6 (`16eeee-` / `16eee-`). Print, viewed 19 Oct 2026 in OCVE page images: the French first edition (25-1a-Sm, M. Schlesinger, plate M.S. 2427, p. 32, bar 21; https://chopinonline.ac.uk/ocve/browse/pageview/75382/) and the English first edition (25/7-12-1b-W, Wessel, plate W & Co No. 1833, p. 6, bar 21; https://chopinonline.ac.uk/ocve/browse/pageview/77282/) both engrave this staccato octave one staff step below the preceding accented F-flat octave (encoded `16ffff-X` / `16fff-X`, line 267), with no accidental: E, flat by the G-flat-major key signature. The encoding's other half-bars of the sequence step down the same way (lines 273/275 C-flat7/C-flat6 then B-flat6/B-flat5; 280/282 E-double-flat7 then D-flat7; 286/288 B-double-flat6 then A-flat6). Verovio 6.3.0 reads the malformed tokens as E and D. The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report."
+    }
+  ],
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/025-1b-LE-009.krn",
+      "file": "025-1b-LE-009.krn",
+      "sha256": "c4bb4984eef85631e79fda1bbf6006e78355ff200fbebb66fab817d0e3a23d2c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+      "file": "LICENSE.txt",
+      "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+    }
+  ],
+  "accessed": "2026-10-19"
+}

@@ -1,24 +1,25 @@
 {
-  "mutopia": 471,
   "title": "Prelude in D♭ major, Op. 28 No. 15",
-  "edition": "Edition Peters",
-  "encoder": "Magnus Lewis-Smith",
-  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=471",
-  "license": "Public Domain",
-  "licenseUrl": "https://www.mutopiaproject.org/legal.html#publicdomain",
-  "main": "Chop-28-15-lys/chopin_prelude_op28_no15.ly",
-  "midi": "Chop-28-15.mid",
+  "edition": "First edition, Breitkopf & Härtel, Leipzig (Vingt-quatre Préludes Op. 28; RISM 1001013139, PL-Wbfc 4372/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+  "encoder": "Mateusz Mrugas (encoding); Jędrzej Mróz (editing); NIFC Chopin Heritage in Open Access project",
+  "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/028-1-BH-015.krn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+  "main": "prelude.ly",
+  "humdrum": "028-1-BH-015.krn",
+  "musicxml": "028-1-BH-015.musicxml",
   "downloads": [
     {
-      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-15/Chop-28-15-lys.zip",
-      "file": "Chop-28-15-lys.zip",
-      "sha256": "66ab25a554d012e56b419519fdbef092b12a87b34ada28cd720f97599bff4ed7"
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/028-1-BH-015.krn",
+      "file": "028-1-BH-015.krn",
+      "sha256": "5a4ce32ce22970f5cb0ce5946b36f8f545775013ac0a3d302ab1f21205aff2d0"
     },
     {
-      "url": "https://www.mutopiaproject.org/ftp/ChopinFF/O28/Chop-28-15/Chop-28-15.mid",
-      "file": "Chop-28-15.mid",
-      "sha256": "bb9532e59bee378a42f0c53b64bf223ba4d6e261e00c1e2efb3ed8e023833bd9"
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+      "file": "LICENSE.txt",
+      "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
     }
   ],
-  "accessed": "2026-10-17"
+  "accessed": "2026-10-19"
 }

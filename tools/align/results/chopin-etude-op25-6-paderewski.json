@@ -1,0 +1,648 @@
+{
+  "uniqueScoreAttacks": 910,
+  "audioDetectedOnsets": 288,
+  "medianAbsoluteOnsetDeviation": 0.13084325396826557,
+  "noteWeightedMedianDeviation": 0.1286252834467163,
+  "p95AbsoluteOnsetDeviation": 0.5807956349206341,
+  "fractionWithin150ms": 0.5560439560439561,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 49,
+      "median": 0.07540532879818596,
+      "p95": 0.24419501133786825,
+      "max": 0.29760770975056605,
+      "adaptiveMedian": 0.048225623582766275,
+      "adaptiveP95": 0.17623582766439916
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 66,
+      "median": 0.35634212018140676,
+      "p95": 1.1662216553287985,
+      "max": 1.3385997732426311,
+      "adaptiveMedian": 0.03757369614512296,
+      "adaptiveP95": 0.1220996315192755
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 65,
+      "median": 0.11007653061224332,
+      "p95": 0.5189591836734713,
+      "max": 0.6471651785714663,
+      "adaptiveMedian": 0.041587301587302505,
+      "adaptiveP95": 0.06429081632652896
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 72,
+      "median": 0.12772392290249357,
+      "p95": 0.43273129251700715,
+      "max": 0.6218140589569217,
+      "adaptiveMedian": 0.0398710317460349,
+      "adaptiveP95": 0.06659594671201922
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 71,
+      "median": 0.10876133786848641,
+      "p95": 0.34227324263038383,
+      "max": 0.3717630385487567,
+      "adaptiveMedian": 0.03911848072563373,
+      "adaptiveP95": 0.08470521541949694
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 66,
+      "median": 0.07885204081631869,
+      "p95": 0.33832341269840605,
+      "max": 0.38385487528343987,
+      "adaptiveMedian": 0.045226048752837755,
+      "adaptiveP95": 0.07661493764172
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 64,
+      "median": 0.13680839002267575,
+      "p95": 0.33822321428570723,
+      "max": 0.43554705215419176,
+      "adaptiveMedian": 0.03847080498866973,
+      "adaptiveP95": 0.08846967120181075
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 70,
+      "median": 0.19433319160997087,
+      "p95": 0.9267409297052199,
+      "max": 1.1116723356009146,
+      "adaptiveMedian": 0.038806972789110716,
+      "adaptiveP95": 0.09390901360544282
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 67,
+      "median": 0.1126700680272279,
+      "p95": 0.31991524943311017,
+      "max": 0.35395408163265074,
+      "adaptiveMedian": 0.041119614512467706,
+      "adaptiveP95": 0.07421116780045621
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 67,
+      "median": 0.09234977324261706,
+      "p95": 0.3053914399093059,
+      "max": 0.43832482993197175,
+      "adaptiveMedian": 0.04530328798188066,
+      "adaptiveP95": 0.07048837868480572
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 62,
+      "median": 0.17561791383219116,
+      "p95": 0.46173767006803307,
+      "max": 0.6238860544217744,
+      "adaptiveMedian": 0.04323625283447541,
+      "adaptiveP95": 0.0781812641723519
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 68,
+      "median": 0.15719954648524492,
+      "p95": 0.3551948696145182,
+      "max": 0.4617290249433239,
+      "adaptiveMedian": 0.0376530612244963,
+      "adaptiveP95": 0.07175099206349955
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 72,
+      "median": 0.1632695578231349,
+      "p95": 0.7708261054421593,
+      "max": 0.9618310657596538,
+      "adaptiveMedian": 0.036431405895690716,
+      "adaptiveP95": 0.07966468253970264
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 49,
+      "median": 0.13352324263040316,
+      "p95": 0.4068492063491985,
+      "max": 0.502964852607704,
+      "adaptiveMedian": 0.023492063492085435,
+      "adaptiveP95": 0.10625566893422728
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 2,
+      "median": 0.20018140589571942,
+      "p95": 0.3228752834467201,
+      "max": 0.3365079365079424,
+      "adaptiveMedian": 0.03764172335598204,
+      "adaptiveP95": 0.04033560090698316
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 66,
+      "median": 0.35634212018140676,
+      "p95": 1.1662216553287985,
+      "max": 1.3385997732426311,
+      "adaptiveMedian": 0.03757369614512296,
+      "adaptiveP95": 0.1220996315192755
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 2,
+      "median": 0.20018140589571942,
+      "p95": 0.3228752834467201,
+      "max": 0.3365079365079424,
+      "adaptiveMedian": 0.03764172335598204,
+      "adaptiveP95": 0.04033560090698316
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 70,
+      "median": 0.19433319160997087,
+      "p95": 0.9267409297052199,
+      "max": 1.1116723356009146,
+      "adaptiveMedian": 0.038806972789110716,
+      "adaptiveP95": 0.09390901360544282
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 62,
+      "median": 0.17561791383219116,
+      "p95": 0.46173767006803307,
+      "max": 0.6238860544217744,
+      "adaptiveMedian": 0.04323625283447541,
+      "adaptiveP95": 0.0781812641723519
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 72,
+      "median": 0.1632695578231349,
+      "p95": 0.7708261054421593,
+      "max": 0.9618310657596538,
+      "adaptiveMedian": 0.036431405895690716,
+      "adaptiveP95": 0.07966468253970264
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 49,
+      "median": 0.07540532879818596,
+      "p95": 0.24419501133786825,
+      "max": 0.29760770975056605,
+      "adaptiveMedian": 0.048225623582766275,
+      "adaptiveP95": 0.17623582766439916
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 67,
+      "median": 0.09234977324261706,
+      "p95": 0.3053914399093059,
+      "max": 0.43832482993197175,
+      "adaptiveMedian": 0.04530328798188066,
+      "adaptiveP95": 0.07048837868480572
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 66,
+      "median": 0.07885204081631869,
+      "p95": 0.33832341269840605,
+      "max": 0.38385487528343987,
+      "adaptiveMedian": 0.045226048752837755,
+      "adaptiveP95": 0.07661493764172
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 62,
+      "median": 0.17561791383219116,
+      "p95": 0.46173767006803307,
+      "max": 0.6238860544217744,
+      "adaptiveMedian": 0.04323625283447541,
+      "adaptiveP95": 0.0781812641723519
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 65,
+      "median": 0.11007653061224332,
+      "p95": 0.5189591836734713,
+      "max": 0.6471651785714663,
+      "adaptiveMedian": 0.041587301587302505,
+      "adaptiveP95": 0.06429081632652896
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 120.0,
+      "meanCosine": 0.44536467115784883
+    },
+    {
+      "start": 112.0,
+      "meanCosine": 0.5508519632945799
+    },
+    {
+      "start": 80.0,
+      "meanCosine": 0.6506351193193245
+    },
+    {
+      "start": 104.0,
+      "meanCosine": 0.6529088871592554
+    },
+    {
+      "start": 24.0,
+      "meanCosine": 0.6857343378631957
+    }
+  ],
+  "sections": [
+    {
+      "bar": "23",
+      "occ": 1,
+      "editorial": 42,
+      "aligned": 41.81809523809523,
+      "difference": -0.181904761904768,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "31",
+      "occ": 1,
+      "editorial": 56,
+      "aligned": 56.36285714285713,
+      "difference": 0.36285714285713055,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "63",
+      "occ": 1,
+      "editorial": 116,
+      "aligned": 115.93142857142853,
+      "difference": -0.0685714285714738,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 2.62,
+      "nearestOnsetDeviation": 0.0851247165532878
+    },
+    {
+      "label": "middle",
+      "bar": "31",
+      "occ": 1,
+      "scoreQ": 120.0,
+      "audioSeconds": 56.36285714285713,
+      "nearestOnsetDeviation": 0.04285714285713027
+    },
+    {
+      "label": "last",
+      "bar": "63",
+      "occ": 1,
+      "scoreQ": 248.0,
+      "audioSeconds": 115.93142857142853,
+      "nearestOnsetDeviation": 0.06385487528349643
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "63",
+      "occ": 1,
+      "midi": 44,
+      "voice": "lower",
+      "durationQ": 4.0,
+      "onset": 115.93142857142853,
+      "offset": 127.23999999999991,
+      "durationSeconds": 11.308571428571383
+    },
+    {
+      "bar": "63",
+      "occ": 1,
+      "midi": 51,
+      "voice": "lower",
+      "durationQ": 4.0,
+      "onset": 115.93142857142853,
+      "offset": 127.23999999999991,
+      "durationSeconds": 11.308571428571383
+    },
+    {
+      "bar": "63",
+      "occ": 1,
+      "midi": 56,
+      "voice": "lower",
+      "durationQ": 4.0,
+      "onset": 115.93142857142853,
+      "offset": 127.23999999999991,
+      "durationSeconds": 11.308571428571383
+    },
+    {
+      "bar": "63",
+      "occ": 1,
+      "midi": 60,
+      "voice": "upper",
+      "durationQ": 4.0,
+      "onset": 115.93142857142853,
+      "offset": 127.23999999999991,
+      "durationSeconds": 11.308571428571383
+    },
+    {
+      "bar": "63",
+      "occ": 1,
+      "midi": 63,
+      "voice": "upper",
+      "durationQ": 4.0,
+      "onset": 115.93142857142853,
+      "offset": 127.23999999999991,
+      "durationSeconds": 11.308571428571383
+    },
+    {
+      "bar": "63",
+      "occ": 1,
+      "midi": 72,
+      "voice": "upper",
+      "durationQ": 4.0,
+      "onset": 115.93142857142853,
+      "offset": 127.23999999999991,
+      "durationSeconds": 11.308571428571383
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.043630952380944166,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.7122064822078432,
+  "endAnchor": {
+    "scoreQ": 252.0,
+    "audioSeconds": 127.23999999999991,
+    "decodedDuration": 130.14412698412698,
+    "activeEndMinus45dB": 127.24535147392291
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "chopin-etude-op25-6-paderewski",
+  "tuningHz": 445.88,
+  "audioSha256": "a41234689b243222cc3092c3e9da8a8b5d225575a9eb3fbfb8bb89f9e3975cc2",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",
+    "Edition: the Paris edition of Études Op. 25 catalogued by NIFC Chopin First Editions Online as 025-1b-LE-006, publisher recorded in the file as Lemoine, Paris (RISM 1001002392, PL-Wbfc 4808/n); encoding Marta Lawrence, editing Wojciech Jakubiak-Danek and Mateusz Mrugas. The performer's edition is not established; first-edition readings can differ from later editions.",
+    "Conversion: tools/align/humdrum_convert.py reads the unchanged **kern tokens (Humdrum line timing, spine splits/merges, explicit sounding pitches, ties, graces, tuplets) and writes plain MusicXML for the pinned LilyPond 2.24.4 converter. Dynamics, hairpins, pedalling, fingering, stems, layout comments, *rscale display scaling, cue size and editorial text are not converted; slurs are kept only when both ends lie in one encoded voice. Voices are the encoded Humdrum sub-spines on each staff (MusicXML voices 1-4 upper, 5-8 lower), labelled here only as upper/lower staff.",
+    "Source identity (MEAS): the compiled events match all 2,550 regular **kern attacks (tied continuations excluded) by pitch within one MIDI tick (maximum onset difference 0.0 quarter), plus the single grace note. Independent check with Verovio 6.3.0's Humdrum importer: 2,553 notes in both readings; per-measure relative timing agrees in all 63 measures.",
+    "One source tie continues in a different encoded voice (F-sharp5 into bar 16, lines 341/350); extraction.ties holds it as one event. The engraving may show that tie arc as unterminated.",
+    "Recording: Ignacy Jan Paderewski, Victor 917-B (matrix B-27918, take 1), 4 May 1923 (content/listen module). Acoustic transfer: the tuning estimate is 445.88 Hz (+23 cents, plausibly transfer speed); energy below about G2 is not measurable, so bass attacks are not individually measured and periodic 78-rpm surface clicks are present."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      43.72,
+      42.0
+    ],
+    [
+      58.96,
+      56.0
+    ],
+    [
+      119.6747619047619,
+      110.62
+    ],
+    [
+      120.66380952380952,
+      111.74
+    ],
+    [
+      121.65285714285713,
+      113.36
+    ],
+    [
+      122.64190476190475,
+      115.92
+    ]
+  ],
+  "sourceChecks": {
+    "musicxmlConversion": "LilyPond 2.24.4 with per-note ties, source-owned clefs and explicit structure/spanner guards",
+    "humdrumConversion": "Original **kern tokens converted by tools/align/humdrum_convert.py to plain MusicXML (notes, rests, ties, tuplets, graces, one-voice slurs, fermatas, simple articulations/ornaments, clefs, keys, meters, barline styles)",
+    "ties": [
+      {
+        "origin": {
+          "q": 59.75,
+          "pitch": 78,
+          "voice": "lower",
+          "durationQ": 0.25
+        },
+        "continuation": {
+          "q": 60.0,
+          "pitch": 78,
+          "voice": "lower",
+          "durationQ": 0.5
+        },
+        "basis": "025-1b-LE-006.krn lines 341/350: source tie continues in another encoded voice of the same staff; LilyPond cannot tie across voices, so the note is held, not reattacked."
+      }
+    ],
+    "humdrumInventory": {
+      "regularAttacks": 2550,
+      "graceNotes": 1,
+      "maximumRegularOnsetDifferenceQuarters": 0.0,
+      "matched": true,
+      "graceValuesShortenedForMidi": 0
+    }
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 2.62,
+      "peakSeconds": 2.66,
+      "window": [
+        2.55,
+        2.7
+      ],
+      "midiPitches": [
+        71,
+        75
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total). First: the opening B4/D-sharp5 trill in thirds (MIDI 71/75) rises from about -44 to -17 dB at 2.60-2.65 s; a broad 0-4 s window had chosen 3.62 s, a later trill attack. Last: in this acoustic transfer the bass of the final G-sharp-major chord (q248) is below the surface-noise floor; its rolled upper notes rise at G-sharp3 (56) 116.0 s, C4 (60) 116.6 s, D-sharp4 (63) 116.8 s and C5 (72) 117.0 s. The window [115.88, 116.02] takes the first measurable chord note (a wider 115.9-116.15 window measured 116.14 s, on a later D-sharp4 swell); the bass attack itself is not measured. Periodic surface clicks every 0.77 s (one 78-rpm revolution) continue after the music.",
+      "mappedAudioSeconds": 2.62,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-61-C-sharp2-chord",
+      "scoreQ": 242.0,
+      "audioSeconds": 110.62,
+      "peakSeconds": 110.66,
+      "window": [
+        110.5,
+        110.66
+      ],
+      "midiPitches": [
+        37,
+        44,
+        52,
+        56,
+        58
+      ],
+      "basis": "MEAS: the bar-61 second chord C-sharp2/G-sharp2/E3/G-sharp3/A-sharp3 (q242), measured on its upper notes. MEAS band energies (dB re the 95th-percentile total; this acoustic transfer has no measurable energy below about G2, so bass notes are not measured): A-sharp3/G-sharp3 (58/56) jump at 110.55-110.7 s (-31.8 to -12.8 dB) after near-silence at 110.2-110.5 s; C4/D-sharp3 (60/51) rise at 111.6-111.8 s; the rolled q246 chord enters G3 (55) 113.30-113.40 s, C-sharp4 (61) 113.55-113.60, D-sharp4 (63) 113.80-113.85 and A-sharp4 (70) 114.05-114.10 s. A D-sharp4 re-attack at 115.25 s has no written counterpart. Surface clicks recur every 0.77 s (113.7, 114.45, 115.2, 116.0 s ...); the measured rises are single-pitch, sustained increases, not broadband clicks.",
+      "mappedAudioSeconds": 110.62,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-62-G-sharp1-chord",
+      "scoreQ": 244.0,
+      "audioSeconds": 111.74,
+      "peakSeconds": 111.76,
+      "window": [
+        111.55,
+        111.75
+      ],
+      "midiPitches": [
+        32,
+        44,
+        51,
+        56,
+        60
+      ],
+      "basis": "MEAS: the bar-62 chord G-sharp1/G-sharp2/D-sharp3/G-sharp3/C4 (q244), measured on C4/D-sharp3. MEAS band energies (dB re the 95th-percentile total; this acoustic transfer has no measurable energy below about G2, so bass notes are not measured): A-sharp3/G-sharp3 (58/56) jump at 110.55-110.7 s (-31.8 to -12.8 dB) after near-silence at 110.2-110.5 s; C4/D-sharp3 (60/51) rise at 111.6-111.8 s; the rolled q246 chord enters G3 (55) 113.30-113.40 s, C-sharp4 (61) 113.55-113.60, D-sharp4 (63) 113.80-113.85 and A-sharp4 (70) 114.05-114.10 s. A D-sharp4 re-attack at 115.25 s has no written counterpart. Surface clicks recur every 0.77 s (113.7, 114.45, 115.2, 116.0 s ...); the measured rises are single-pitch, sustained increases, not broadband clicks.",
+      "mappedAudioSeconds": 111.74,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-62-rolled-chord",
+      "scoreQ": 246.0,
+      "audioSeconds": 113.36,
+      "peakSeconds": 113.4,
+      "window": [
+        113.28,
+        113.42
+      ],
+      "midiPitches": [
+        39,
+        55,
+        61,
+        63,
+        70
+      ],
+      "basis": "MEAS: the bar-62 second chord D-sharp2/G3/C-sharp4/D-sharp4/A-sharp4 (q246), rolled; the window takes its first measurable note, G3. MEAS band energies (dB re the 95th-percentile total; this acoustic transfer has no measurable energy below about G2, so bass notes are not measured): A-sharp3/G-sharp3 (58/56) jump at 110.55-110.7 s (-31.8 to -12.8 dB) after near-silence at 110.2-110.5 s; C4/D-sharp3 (60/51) rise at 111.6-111.8 s; the rolled q246 chord enters G3 (55) 113.30-113.40 s, C-sharp4 (61) 113.55-113.60, D-sharp4 (63) 113.80-113.85 and A-sharp4 (70) 114.05-114.10 s. A D-sharp4 re-attack at 115.25 s has no written counterpart. Surface clicks recur every 0.77 s (113.7, 114.45, 115.2, 116.0 s ...); the measured rises are single-pitch, sustained increases, not broadband clicks.",
+      "mappedAudioSeconds": 113.36,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 248.0,
+      "audioSeconds": 115.92,
+      "peakSeconds": 115.96,
+      "window": [
+        115.88,
+        116.02
+      ],
+      "midiPitches": [
+        44,
+        51,
+        56,
+        60,
+        63,
+        72
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total). First: the opening B4/D-sharp5 trill in thirds (MIDI 71/75) rises from about -44 to -17 dB at 2.60-2.65 s; a broad 0-4 s window had chosen 3.62 s, a later trill attack. Last: in this acoustic transfer the bass of the final G-sharp-major chord (q248) is below the surface-noise floor; its rolled upper notes rise at G-sharp3 (56) 116.0 s, C4 (60) 116.6 s, D-sharp4 (63) 116.8 s and C5 (72) 117.0 s. The window [115.88, 116.02] takes the first measurable chord note (a wider 115.9-116.15 window measured 116.14 s, on a later D-sharp4 swell); the bass attack itself is not measured. Periodic surface clicks every 0.77 s (one 78-rpm revolution) continue after the music.",
+      "mappedAudioSeconds": 115.93142857142853,
+      "mappingDeviationSeconds": 0.011428571428524492
+    }
+  ],
+  "adaptiveOnsetCount": 905,
+  "adaptiveMedianDeviation": 0.04022959183673436,
+  "gateReasons": [],
+  "elapsedSeconds": 0.7785721760010347,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 63,
+    "notes": 2551,
+    "voices": 2
+  },
+  "published": true,
+  "configSha256": "a5a33cb56fba4e5f0819cb73462fa6a77c1e93e516d1b9a4c5738bdb5b03afd7",
+  "sourceDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/025-1b-LE-006.krn",
+      "file": "025-1b-LE-006.krn",
+      "sha256": "0a1a2b5a59c13a959f3cabc6173c19bf9241cc7baf880acdc243f76355844360"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+      "file": "LICENSE.txt",
+      "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/chopin-etude-op25-6-paderewski-0-8.png",
+    "work/chopin-etude-op25-6-paderewski-0-10.62.png",
+    "work/chopin-etude-op25-6-paderewski-8-16.png",
+    "work/chopin-etude-op25-6-paderewski-16-24.png",
+    "work/chopin-etude-op25-6-paderewski-40-48.png",
+    "work/chopin-etude-op25-6-paderewski-52.3629-64.3629.png",
+    "work/chopin-etude-op25-6-paderewski-56-64.png",
+    "work/chopin-etude-op25-6-paderewski-72-80.png",
+    "work/chopin-etude-op25-6-paderewski-80-88.png",
+    "work/chopin-etude-op25-6-paderewski-96-104.png",
+    "work/chopin-etude-op25-6-paderewski-106.62-118.62.png",
+    "work/chopin-etude-op25-6-paderewski-107.74-119.74.png",
+    "work/chopin-etude-op25-6-paderewski-109.36-121.36.png",
+    "work/chopin-etude-op25-6-paderewski-111.931-123.931.png",
+    "work/chopin-etude-op25-6-paderewski-112-120.png"
+  ]
+}

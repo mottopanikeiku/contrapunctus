@@ -1,0 +1,91 @@
+{
+  "id": "fanny-hensel-warum-rosen",
+  "verdict": "pass",
+  "reviewer": "RevScoresChopin",
+  "date": "2026-10-19",
+  "scope": "MEAS: independent review of the public score.json and two-page sheet pack (duo Béla: Adèle Bérard, soprano; Laura Lazayre, piano; Amiens, 22 January 2026). Covers source and licence, comparison of the encoding with the Bote & Bock first edition (IMSLP #99178), bar order, gates, the sheet pack, vocal-line pitch ranking with shift controls, pitch-band rises at every stanza start, and six fresh-CQT reviewer overlays. No second recording exists, so there is no recording-to-recording check. Not aural review.",
+  "defects": [],
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "VOICE_PICKUPS_SLIGHTLY_EARLY",
+      "finding": "This is non-blocking. All five eighth-note 'Wa-' pickups (A4) are mapped 0.1–0.25 s before the first A4 band rise after them:\n- stanza 1: 7.877 s against 7.96/8.17 s;\n- stanza 2: 33.203 s against 33.36 s;\n- stanza 3: 62.598 s against 62.75/62.85 s;\n- stanza 4: 88.065 s against 88.25 s;\n- coda: 117.640 s against 117.78/117.88 s.\nThe rises are weak (+6 to +15 dB), so the gap is within the ambiguity of a soft sung pickup. Each pickup lies in the bar before the stanza, so bar lighting is unaffected."
+    },
+    {
+      "basis": "MEAS",
+      "code": "BAR_22_23_VOICE_UNDER_PIANO",
+      "finding": "This is non-blocking. Of the 142 sung notes, 8 do not rank in the top three (vrank.py): 17.40 (G4, rank 6), 20.41 (A4, 4), 48.11 (C5, 4), 70.13 (G4, 7), 72.28 (G-sharp4, 12), 72.84 (A4, 6), 103.13 (C5, 5) and 109.61 s (C5, 9). Three of these are in bars 22–23, and the reviewer overlay for 62–76 s shows those bars on the measured energy. [INFERENCE] The piano covers the voice there. The encoded bar-22 voice line (C5 G4 G4 C5 G4 G-sharp4) differs from bar 5 (C5 G4 C5 G4), and the print has the same difference."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#score-round-4--19-october-2026-scoreround4",
+    "finding": "The endpoint windows (first [1.1, 1.3] → pickup at 1.28 s; last [134.2, 134.45] → 134.372 s), the two constraints (q42 window [45.0, 45.3] → 45.12 s; q93 window [100.0, 100.35] → 100.18 s), the gates and score SHA-256 c744f277… match the config, receipt and public file. The candidate equals the public file; results equal work/…-checks.json; the config SHA-256 equals results.configSha256. The cached audio and the site-hosted docs/assets/audio/fanny-hensel-warum-rosen.mp3 are the same file (SHA-256 e9185202…), equal to results.audioSha256."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/fanny-hensel-warum-rosen-checks.json",
+    "primaryMedianSeconds": 0.039157,
+    "primaryP95Seconds": 0.233793,
+    "maximumAnchorDeviationSeconds": 0.020317,
+    "maximumLocalRegionMedianSeconds": 0.046245,
+    "minimumPublishedNoteDurationSeconds": 0.109,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.109,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 42,
+    "distinctEngravedBars": 42,
+    "sheetPages": 2,
+    "svgBarSetEqualsIndex": true,
+    "derivedBars": [],
+    "unresolvedScoreBars": [],
+    "finding": "All 839 notes lie inside their bar, and bar times increase. check_contract.py prints 'ok … 42 bars; 839 notes; 3 source-defined voices'. Both pages were rasterised and inspected: 10 systems, all justified (the last ends at 154.2), pickup bar 0 and bars 1–41, Voice staff with lyrics over the piano, Andante, 6/8, final barline after bar 41. The bar-36 'Wa-' A4 eighth is present."
+  },
+  "order": {
+    "basis": "MEAS",
+    "finding": "Pickup and bars 1–41 once. The print has no repeat signs; the four stanzas are written out as two musical pairs (bars 3 and 20, 11 and 28), followed by the coda (bar 37) and piano close (bars 39–41)."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revr4/vrank.py; ~/.cache/direction-scratch/revchopin/band.py, overlay.py",
+    "printComparison": "EXT: IMSLP #99178, Bote & Bock, Berlin [1846], plate B. et B. 1046 (pp. 9–11, downloaded and rasterised). Andante, 6/8, an eighth-note piano pickup, and 41 bars laid out 12/15/14 over three pages, with no repeats. The voice line of bars 3, 4, 5, 22, 34 and 38 matches the encoding note for note, including the bar-22 variant.",
+    "vocalLine": "In the voice range MIDI 60–88, over each note's first ≤0.6 s, the written pitch ranks first for 107 of 142 sung notes and in the top three for 134. The same line shifted one note earlier or later ranks first for only 10 or 13. Shifting the timing by ±0.5 s gives 19/22 firsts, and by ±0.25 s gives 92/52, so the published voice timing is near the optimum.",
+    "stanzaStarts": "Voice downbeats measured against published times:\n- bar 3 E5: 8.47 against 8.435 s;\n- bar 11 D5: 33.76 against 33.761 s;\n- bar 20 E5: 63.16 against 63.157 s;\n- bar 28 D5: 88.64 against 88.623 s;\n- coda bar 37 E5: 118.20 against 118.198 s;\n- piano close bar 39 D5: 125.34 against 125.295 s.",
+    "endpoints": "The file is silent before the pickup E5 at 1.28 s. Bar 1 at 2.02 s matches the E5/G-sharp2 entry. The final A5 (bar 41) is at 134.37 s, and the hold to 139.12 s follows the decay. Tuning estimate: +0.01 semitone."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "~/.cache/direction-scratch/revchopin/rev-fanny-hensel-warum-rosen-0-10.png",
+      "~/.cache/direction-scratch/revchopin/rev-fanny-hensel-warum-rosen-30-40.png",
+      "~/.cache/direction-scratch/revchopin/rev-fanny-hensel-warum-rosen-62-76.png",
+      "~/.cache/direction-scratch/revchopin/rev-fanny-hensel-warum-rosen-124-141.png"
+    ],
+    "finding": "The pickup, the piano introduction, the stanza entries of bars 10–13 and 20–24, the bar-40 arpeggio and the final A5 land on the measured energy."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://github.com/OpenScore/Lieder/tree/main/scores/Hensel%2C_Fanny/6_Lieder%2C_Op.1/3_Warum_sind_denn_die_Rosen_so_blass",
+    "opened": true,
+    "licenseEvidence": "The OpenScore Lieder README (fetched) says 'These scores are released under Creative Commons Zero (CC0).' The MusicXML has <rights>OpenScore (CC0)</rights>. The pinned lc5004640.mxl has SHA-256 797232d1…, identical to the file on upstream main. The edition string names IMSLP #99178, which was opened (EXT).",
+    "attribution": "CC0; no attribution is required. score.json carries license 'CC0 1.0' and licenseUrl https://creativecommons.org/publicdomain/zero/1.0/, and has no source.attribution, which is correct.",
+    "edition": "OpenScore Lieder transcription of the Bote & Bock first edition (Berlin [1846], plate B. et B. 1046; IMSLP #99178)",
+    "encoder": "OpenScore Lieder contributors",
+    "license": "CC0 1.0"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "The whole song is performed once in written order, in the printed key (A minor; tuning +1 cent). The performers' edition is not established."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser run by RevScoresChopin, and no alignment command run. With only one recording, every check is against this recording's own pitch evidence. The two constraints are disclosed fitting evidence. Public score SHA-256 c744f27796187220a595bf0dbcd3323ff066d343fa471bac807056b458a748ac."
+}

@@ -1,0 +1,96 @@
+{
+  "id": "chopin-nocturne-op15-2",
+  "verdict": "pass",
+  "reviewer": "RevScoresChopin",
+  "date": "2026-10-19",
+  "round": 3,
+  "scope": "MEAS: re-review of the round-3 republication (Luke Faulkner), score SHA-256 f0013ae8…. Covers the bar-60/61 constraints, the residuals the author lists, hashes, gates and the sheet pack. Audio checks: a fresh-CQT reviewer overlay over 183–197 s, pitch bands, a per-bar lag scan, and audio-to-audio DTW against the Prati and Paderewski 1937 maps. Not aural review.",
+  "defects": [],
+  "resolvedSinceRound2": [
+    {
+      "basis": "MEAS",
+      "code": "BAR_61_EARLY_REGRESSION",
+      "finding": "Resolved. Bar 61 is now at 187.020 s, where F-sharp2 rises at 187.01 s (+20 dB) and D-sharp4 at 187.06 s. Its notes follow the measured bands: C-sharp4 187.162 (rise 187.09), F-sharp3 187.682 (187.67), C-sharp3 187.812 (187.81), D-sharp4 189.129 (189.18). The last group, q122, is at 190.680 s (D-sharp4 rise 190.71 s). Bar 60's last group, q120, is at 185.58 s (D-sharp4 rise 185.62 s). The 189.56–191.99 s gap now holds attacks. In the reviewer overlay the bar-61 line sits on the F-sharp2 energy onset, and every D-sharp4 group start lies on a measured group onset. DTW from Faulkner into Paderewski 1937 at bar 61 is now −0.26 s (round 2: −0.56 s)."
+    }
+  ],
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "BAR_61_LAST_GROUP_INNER_NOTES_LATE",
+      "finding": "Non-blocking; this is the author's listed residual, confirmed. In bar 61's last group, the C-sharp4 (q122.083) is at 191.365 s against a C-sharp4 rise at 191.09 s, 0.28 s late. The F-sharp3 (q122.25) is at 191.985 s against F-sharp3 rises at 191.48 and 191.82 s, 0.17–0.5 s late. By the C-sharp3 (192.146 s; rise 192.20 s) and C-sharp4 (192.731 s; rise 192.78 s) the group is back in step. Both notes lie inside bar 61, so bar lighting is unaffected."
+    },
+    {
+      "basis": "MEAS",
+      "code": "BAR_52_C_SHARP3_EARLY",
+      "finding": "Non-blocking; this is the author's disclosed side effect, confirmed. The q103 C-sharp3 (bar 52 +1/2) moved to 145.798 s, against a C-sharp3 rise at 145.97 s (+21 dB). It is 0.17 s early, and it is a single inner note."
+    },
+    {
+      "basis": "MEAS",
+      "code": "DTW_AT_BARS_59_61_UNRELIABLE",
+      "finding": "Documentation only. Faulkner-to-Prati DTW still differs at bar 59 (+3.52 s) and bar 61 (−1.05 s). Both bars are band-confirmed in both recordings: Faulkner's bar 59 at 177.12 s and bar 61 at 187.01 s; Prati's bar 59 at 197.34–197.36 s and bar 61 at 206.04 s. The repeated F-sharp-major arpeggios and D-sharp4 figures defeat this chroma DTW. Faulkner-to-Paderewski agrees at bar 59 (+0.03 s)."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#chopin-score-fixes-round-3--19-october-2026-scorefix3",
+    "finding": "The three new constraints (185.58, 187.02 and 190.68 s), the gate figures and score SHA-256 f0013ae8… match the receipt and the public file. The candidate equals the public file; results equal work/…-checks.json; the config SHA-256 equals results.configSha256; the audio matches. The listed residuals reproduce."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/chopin-nocturne-op15-2-checks.json",
+    "primaryMedianSeconds": 0.0467,
+    "primaryP95Seconds": 0.290317,
+    "maximumAnchorDeviationSeconds": 0.0796,
+    "maximumLocalRegionMedianSeconds": 0.056082,
+    "minimumPublishedNoteDurationSeconds": 0.016,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.006,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 63,
+    "distinctEngravedBars": 63,
+    "sheetPages": 3,
+    "svgBarSetEqualsIndex": true,
+    "derivedBars": [],
+    "unresolvedScoreBars": [],
+    "finding": "All 1,326 notes lie inside their bar, and bar times increase. check_contract.py prints 'ok … 63 bars; 1326 notes; 2 source-defined voices'. With DOM ids stripped, the sheet pages equal the round-2 pages, which were rasterised and inspected (bar 61 shows the F-sharp1/F-sharp2 octave). They also equal the Prati and Paderewski 1937 packs, and index.json is byte-identical. The humdrumInventory is matched (1,294 regular, 32 grace, 1 token correction). The MusicXML derivative is identical across the three op15-2 ids, and humdrum_convert.py is unchanged since round 2."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revchopin/band.py, lagscan.py, a2a.py, overlay.py",
+    "lagScan": "Zero-lag cosine is 0.761. 61 of 63 bars fit best within 0.3 s; the exceptions are bars 44 and 47 (repeated D-natural figure), as in round 2.",
+    "crossRecording": "DTW into Paderewski 1937 agrees within ±0.36 s for every bar except bar 13 (a DTW artefact; Paderewski's bar 13 is band-confirmed). Into Prati it agrees within ±0.5 s except at bars 59 and 61 (see observation).",
+    "carriedForward": "The round-2 checks of the pickup (2.02 s), bar 25 (85.88 s), the bar-48/49 join, display end 196.5 s and the bar-61 pitch correction still apply. These items are unchanged in the receipt."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "~/.cache/direction-scratch/revchopin/rev-chopin-nocturne-op15-2-183-197.png"
+    ],
+    "finding": "The fresh-CQT overlay shows bar 60's last group, all of bar 61 and the final chord landing on the measured energy, apart from the two late inner notes noted above."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",
+    "opened": true,
+    "licenseEvidence": "Unchanged: the pinned LICENSE.txt (SHA-256 430533a2…) grants CC BY 4.0 on condition that the first five lines are acknowledged.",
+    "attribution": "The public score.json carries license 'CC BY 4.0', licenseUrl, url and the verbatim five-line source.attribution. Status is provisional, with review.by null.",
+    "edition": "First edition, Breitkopf & Härtel, Leipzig [1834], plate 5502; RISM 1001035842",
+    "encoder": "Jędrzej Mróz; editors Tomasz Sierawski, Wojciech Jakubiak-Danek (NIFC)",
+    "license": "CC BY 4.0"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "The whole nocturne is played once in written order. The performer's edition is not established."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build, browser or unit-test run by RevScoresChopin, and no alignment command run. The constraints are disclosed fitting evidence; the band and DTW checks above are independent of them. Public score SHA-256 f0013ae858308ffb3decf423ad519aa9afa3a6a8941c581b4163adf95bcef9a1."
+}

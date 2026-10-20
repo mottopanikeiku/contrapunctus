@@ -1,0 +1,21 @@
+{
+  "title": "Sechs Lieder, Op. 1 — No. 3 Warum sind denn die Rosen so blass",
+  "edition": "OpenScore Lieder transcription of the Bote & Bock first edition (Berlin, 1846, plate B. et B. 1046; IMSLP #99178)",
+  "encoder": "OpenScore Lieder contributors",
+  "url": "https://github.com/OpenScore/Lieder/tree/main/scores/Hensel%2C_Fanny/6_Lieder%2C_Op.1/3_Warum_sind_denn_die_Rosen_so_blass",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "main": "song.ly",
+  "musicxml": "lc5004640.mxl",
+  "musicxmlImplicitMeasures": [
+    1
+  ],
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Hensel%2C_Fanny/6_Lieder%2C_Op.1/3_Warum_sind_denn_die_Rosen_so_blass/lc5004640.mxl",
+      "file": "lc5004640.mxl",
+      "sha256": "797232d1a90f47423f7a2c14b1a0dcece7c7af326787b02ec87d64c2939dd9f2"
+    }
+  ],
+  "accessed": "2026-10-19"
+}

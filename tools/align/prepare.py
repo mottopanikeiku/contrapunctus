@@ -46,7 +46,7 @@ def prepare(cfg, lilypond=LILYPOND):
         derivative = inside(directory, source.get('musicxml', ''))
         if not source.get('musicxml') or derivative.exists():
             raise ValueError('source.humdrum needs a new derivative source.musicxml filename')
-        summary = humdrum_to_musicxml(inside(directory, source['humdrum']), derivative)
+        summary = humdrum_to_musicxml(inside(directory, source['humdrum']), derivative, source.get('humdrumCorrections', []))
         print('HUMDRUM', cfg['id'], source['humdrum'], '->', source['musicxml'], summary, flush=True)
     if source.get('musicxml'):
         original = inside(directory, source['musicxml'])

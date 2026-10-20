@@ -1,0 +1,576 @@
+{
+  "uniqueScoreAttacks": 479,
+  "audioDetectedOnsets": 551,
+  "medianAbsoluteOnsetDeviation": 0.039157417352910784,
+  "noteWeightedMedianDeviation": 0.03732426303854197,
+  "p95AbsoluteOnsetDeviation": 0.23379314586833072,
+  "fractionWithin150ms": 0.8705636743215032,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 24,
+      "median": 0.027169572282354615,
+      "p95": 0.21262028698118937,
+      "max": 0.2689307517878943,
+      "adaptiveMedian": 0.034910765925803666,
+      "adaptiveP95": 0.09347513472325508
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 30,
+      "median": 0.05294858024181348,
+      "p95": 0.22289488372947072,
+      "max": 0.3575501023621328,
+      "adaptiveMedian": 0.03553223718637266,
+      "adaptiveP95": 0.10095895416196145
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 31,
+      "median": 0.05474638978398616,
+      "p95": 0.23278314834706038,
+      "max": 0.2653738742460554,
+      "adaptiveMedian": 0.03873842114443349,
+      "adaptiveP95": 0.09409806567701473
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 30,
+      "median": 0.050251728221653025,
+      "p95": 0.23367047655769468,
+      "max": 0.39127158555729835,
+      "adaptiveMedian": 0.029219385459985148,
+      "adaptiveP95": 0.09836026880387827
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 32,
+      "median": 0.03186400066099182,
+      "p95": 0.1295397559833695,
+      "max": 0.19061628430048927,
+      "adaptiveMedian": 0.025726220312684234,
+      "adaptiveP95": 0.0915608435006959
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 30,
+      "median": 0.04165569601659769,
+      "p95": 0.19961526526939782,
+      "max": 0.24058993637940773,
+      "adaptiveMedian": 0.03073168268657156,
+      "adaptiveP95": 0.06018819025586167
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 28,
+      "median": 0.030271833429733164,
+      "p95": 0.1758968299870506,
+      "max": 0.22749804915218874,
+      "adaptiveMedian": 0.02871629623508909,
+      "adaptiveP95": 0.14100270823579417
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 28,
+      "median": 0.045793513086746174,
+      "p95": 0.22035708318415245,
+      "max": 0.23366676765172656,
+      "adaptiveMedian": 0.039013467735273366,
+      "adaptiveP95": 0.18290302679776638
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 29,
+      "median": 0.040266416958161244,
+      "p95": 0.12118820861678328,
+      "max": 0.13236846695491522,
+      "adaptiveMedian": 0.0369829335242855,
+      "adaptiveP95": 0.09368222754687279
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 31,
+      "median": 0.03780623720473386,
+      "p95": 0.2085476511792379,
+      "max": 0.25673799884327764,
+      "adaptiveMedian": 0.029330101811297027,
+      "adaptiveP95": 0.0998519191752294
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 30,
+      "median": 0.03488014909067516,
+      "p95": 0.257478641659101,
+      "max": 0.32673955952149925,
+      "adaptiveMedian": 0.030044525232504782,
+      "adaptiveP95": 0.10828059158885331
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 32,
+      "median": 0.03777933845603343,
+      "p95": 0.20497650720207541,
+      "max": 0.24770258980785798,
+      "adaptiveMedian": 0.032379758921102564,
+      "adaptiveP95": 0.12307632634699879
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 30,
+      "median": 0.0581530749951753,
+      "p95": 0.3249757176824821,
+      "max": 0.39313209764337387,
+      "adaptiveMedian": 0.04624546714772748,
+      "adaptiveP95": 0.0907754918431564
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "attacks": 26,
+      "median": 0.037045819677395286,
+      "p95": 0.12659005572539428,
+      "max": 0.14477622627998699,
+      "adaptiveMedian": 0.029608269758647054,
+      "adaptiveP95": 0.07365295105897474
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 29,
+      "median": 0.025687845988599634,
+      "p95": 0.2516479477080935,
+      "max": 0.28775877422494034,
+      "adaptiveMedian": 0.03156150449383688,
+      "adaptiveP95": 0.06928878973991458
+    },
+    {
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 27,
+      "median": 0.031322996135031644,
+      "p95": 0.22284634663582495,
+      "max": 0.3610772352125764,
+      "adaptiveMedian": 0.034154066484902046,
+      "adaptiveP95": 0.07935253885631112
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 12,
+      "median": 0.05001588219630548,
+      "p95": 0.3667033517860543,
+      "max": 0.5494079521147057,
+      "adaptiveMedian": 0.03580884445548804,
+      "adaptiveP95": 0.10574157004230923
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 30,
+      "median": 0.0581530749951753,
+      "p95": 0.3249757176824821,
+      "max": 0.39313209764337387,
+      "adaptiveMedian": 0.04624546714772748,
+      "adaptiveP95": 0.0907754918431564
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 31,
+      "median": 0.05474638978398616,
+      "p95": 0.23278314834706038,
+      "max": 0.2653738742460554,
+      "adaptiveMedian": 0.03873842114443349,
+      "adaptiveP95": 0.09409806567701473
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 30,
+      "median": 0.05294858024181348,
+      "p95": 0.22289488372947072,
+      "max": 0.3575501023621328,
+      "adaptiveMedian": 0.03553223718637266,
+      "adaptiveP95": 0.10095895416196145
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 30,
+      "median": 0.050251728221653025,
+      "p95": 0.23367047655769468,
+      "max": 0.39127158555729835,
+      "adaptiveMedian": 0.029219385459985148,
+      "adaptiveP95": 0.09836026880387827
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 12,
+      "median": 0.05001588219630548,
+      "p95": 0.3667033517860543,
+      "max": 0.5494079521147057,
+      "adaptiveMedian": 0.03580884445548804,
+      "adaptiveP95": 0.10574157004230923
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "attacks": 30,
+      "median": 0.0581530749951753,
+      "p95": 0.3249757176824821,
+      "max": 0.39313209764337387,
+      "adaptiveMedian": 0.04624546714772748,
+      "adaptiveP95": 0.0907754918431564
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 28,
+      "median": 0.045793513086746174,
+      "p95": 0.22035708318415245,
+      "max": 0.23366676765172656,
+      "adaptiveMedian": 0.039013467735273366,
+      "adaptiveP95": 0.18290302679776638
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 31,
+      "median": 0.05474638978398616,
+      "p95": 0.23278314834706038,
+      "max": 0.2653738742460554,
+      "adaptiveMedian": 0.03873842114443349,
+      "adaptiveP95": 0.09409806567701473
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 29,
+      "median": 0.040266416958161244,
+      "p95": 0.12118820861678328,
+      "max": 0.13236846695491522,
+      "adaptiveMedian": 0.0369829335242855,
+      "adaptiveP95": 0.09368222754687279
+    },
+    {
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 12,
+      "median": 0.05001588219630548,
+      "p95": 0.3667033517860543,
+      "max": 0.5494079521147057,
+      "adaptiveMedian": 0.03580884445548804,
+      "adaptiveP95": 0.10574157004230923
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 136.0,
+      "meanCosine": 0.10844429870983502
+    },
+    {
+      "start": 128.0,
+      "meanCosine": 0.5699970793515096
+    },
+    {
+      "start": 16.0,
+      "meanCosine": 0.6440074245987483
+    },
+    {
+      "start": 80.0,
+      "meanCosine": 0.649816333161387
+    },
+    {
+      "start": 88.0,
+      "meanCosine": 0.652320908346165
+    }
+  ],
+  "sections": [
+    {
+      "bar": "3",
+      "occ": 1,
+      "editorial": 8,
+      "aligned": 8.434736842105263,
+      "difference": 0.43473684210526287,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "11",
+      "occ": 1,
+      "editorial": 33,
+      "aligned": 33.76145748987854,
+      "difference": 0.7614574898785378,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "20",
+      "occ": 1,
+      "editorial": 63,
+      "aligned": 63.156518218623475,
+      "difference": 0.15651821862347504,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "28",
+      "occ": 1,
+      "editorial": 88,
+      "aligned": 88.62323886639678,
+      "difference": 0.6232388663967754,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "37",
+      "occ": 1,
+      "editorial": 118,
+      "aligned": 118.1982995951417,
+      "difference": 0.19829959514170525,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "0",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 1.28,
+      "nearestOnsetDeviation": 0.02031746031746029
+    },
+    {
+      "label": "middle",
+      "bar": "20",
+      "occ": 1,
+      "scoreQ": 60.0,
+      "audioSeconds": 65.8268016194332,
+      "nearestOnsetDeviation": 0.009840168186030951
+    },
+    {
+      "label": "last",
+      "bar": "41",
+      "occ": 1,
+      "scoreQ": 120.5,
+      "audioSeconds": 134.37165991902833,
+      "nearestOnsetDeviation": 0.013827609316336975
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "41",
+      "occ": 1,
+      "midi": 81,
+      "voice": "piano-upper",
+      "durationQ": 1.5,
+      "onset": 134.37165991902833,
+      "offset": 136.74582995951417,
+      "durationSeconds": 2.3741700404858364
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.10872064777327495,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.6585259708364976,
+  "endAnchor": {
+    "scoreQ": 123.5,
+    "audioSeconds": 139.12,
+    "decodedDuration": 141.13736961451247,
+    "activeEndMinus45dB": 139.11074829931974
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "fanny-hensel-warum-rosen",
+  "tuningHz": 440.25,
+  "audioSha256": "e9185202a46df85a80963accd1ac574d478500b12a73f2b5351b2f9a62388130",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "OpenScore Lieder releases its scores under CC0 (https://github.com/OpenScore/Lieder#license-and-acknowledgement); the MusicXML carries rights 'OpenScore (CC0)' and its README links the source PDF, IMSLP #99178 (Bote & Bock, Berlin, 1846, plate B. et B. 1046). Exact downloaded MXL bytes match the SHA-256 pinned in this config.",
+    "Source part P1 is the voice (one treble line with lyrics); P2 is the piano with MusicXML voice 1 on the upper staff and voice 5 on the lower staff. Each is a separate MIDI track in one simultaneous compilation, not inferred from register. Two print-object=\"no\" rests in piano voice 5 (bars 40-41) are omitted by the converter. Voice labels are encoding identities, not separated audio stems.",
+    "XML measure 1 is the eighth-note pickup (MuseScore numbers it 1); it is marked implicit so that LilyPond numbers it bar 0 and the following bars 1-41. LilyPond 2.24.4 reports a harmless bar-check warning at -1/8 for the converter's bar check after \\partial 8. No notes or durations change.",
+    "Recording: duo Béla (Adèle Bérard, soprano; Laura Lazayre, piano), Amiens, 22 January 2026 (Wikimedia Commons, CC BY-SA 4.0; the site-hosted MP3 is extracted from it). The tuning estimate is +1 cent (440.25 Hz) and the source is in A minor at printed pitch, so no transposition is applied; the soprano sounds as written.",
+    "Inspection (MEAS, not aural): every stanza start (bars 3, 11, 20, 28 and the coda's bar 37), the piano close (bar 39), the bar-40 arpeggio and the final A5 were compared with pitch-band rises; a per-note dominant-pitch ranking (MIDI 60-88, first <=0.6 s) of the 142 sung notes is reported in REPORT.md."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      6.82,
+      8.0
+    ],
+    [
+      33.3,
+      33.0
+    ],
+    [
+      46.87676113360324,
+      45.12
+    ],
+    [
+      64.02,
+      63.0
+    ],
+    [
+      90.34,
+      88.0
+    ],
+    [
+      103.79854251012145,
+      100.18
+    ],
+    [
+      120.9,
+      118.0
+    ],
+    [
+      134.49165991902834,
+      134.36
+    ]
+  ],
+  "sourceChecks": {
+    "musicxmlConversion": "LilyPond 2.24.4 with per-note ties, source-owned clefs and explicit structure/spanner guards"
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 1.28,
+      "peakSeconds": 1.3,
+      "window": [
+        1.1,
+        1.3
+      ],
+      "midiPitches": [
+        76
+      ],
+      "basis": "MEAS, cached pitch features (work/fanny-hensel-warum-rosen-features.npz, dB re the 95th-percentile total) and the fresh overlay work/fanny-hensel-warum-rosen-0-9.28.png. First: the piano's eighth-note pickup E5 (q0, MIDI 76) is the first sound of the file; total energy is -52 to -68 dB before 1.1 s, and the E5 band rises -42 -> -11 dB over 1.20-1.32 s (primary onsets 1.207/1.300 s). The broad 0-4 s first-pass window chose 3.76 s, the bar-1 second-half E5, and compressed the pickup and bar 1 into 0.2 s. The bar-1 E5/G-sharp2 then rises at 1.96-2.0 s and the q2 E5 at 3.68 s. Last: the final A5 (bar 41, q120.5, fermata) rises -47 -> -15 dB at 134.2-134.4 s (primary onset 134.385 s), after the bar-40 arpeggio's C5 129.6, C4 131.6, E4 132.0, C5 133.1 and E5 133.5 s rises; total energy decays below -45 dB after 139.2 s.",
+      "mappedAudioSeconds": 1.28,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-14-voice-E5-wa",
+      "scoreQ": 42.0,
+      "audioSeconds": 45.12,
+      "peakSeconds": 45.16,
+      "window": [
+        45.0,
+        45.3
+      ],
+      "midiPitches": [
+        65,
+        76
+      ],
+      "basis": "MEAS: the voice's E5 'wa-' with piano F4 (q42, last eighth of bar 14) rises -19.6 -> +1.2 dB re the 95th percentile at 45.10-45.18 s (detector edge 45.12 s; primary onset 45.163 s). The unconstrained map put it at 45.297 s, about 0.18 s late, with q41 and q41.5-q41.75 0.08-0.18 s late (F2/F5 edge 44.10 s against 44.181 s).",
+      "mappedAudioSeconds": 45.12,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-31-voice-E5-o",
+      "scoreQ": 93.0,
+      "audioSeconds": 100.18,
+      "peakSeconds": 100.22,
+      "window": [
+        100.0,
+        100.35
+      ],
+      "midiPitches": [
+        65,
+        76
+      ],
+      "basis": "MEAS: the same figure in bar 31, the voice's E5 'o' with piano F4 (q93), rises -19.9 -> +0.8 dB at 100.16-100.24 s (detector edge 100.18 s). The unconstrained map put it at 100.359 s, about 0.18 s late; the F2/F5 group at q92 had its edge at 99.06 s against a mapped 99.242 s.",
+      "mappedAudioSeconds": 100.18,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 120.5,
+      "audioSeconds": 134.36,
+      "peakSeconds": 134.38,
+      "window": [
+        134.2,
+        134.45
+      ],
+      "midiPitches": [
+        81
+      ],
+      "basis": "MEAS, cached pitch features (work/fanny-hensel-warum-rosen-features.npz, dB re the 95th-percentile total) and the fresh overlay work/fanny-hensel-warum-rosen-0-9.28.png. First: the piano's eighth-note pickup E5 (q0, MIDI 76) is the first sound of the file; total energy is -52 to -68 dB before 1.1 s, and the E5 band rises -42 -> -11 dB over 1.20-1.32 s (primary onsets 1.207/1.300 s). The broad 0-4 s first-pass window chose 3.76 s, the bar-1 second-half E5, and compressed the pickup and bar 1 into 0.2 s. The bar-1 E5/G-sharp2 then rises at 1.96-2.0 s and the q2 E5 at 3.68 s. Last: the final A5 (bar 41, q120.5, fermata) rises -47 -> -15 dB at 134.2-134.4 s (primary onset 134.385 s), after the bar-40 arpeggio's C5 129.6, C4 131.6, E4 132.0, C5 133.1 and E5 133.5 s rises; total energy decays below -45 dB after 139.2 s.",
+      "mappedAudioSeconds": 134.37165991902833,
+      "mappingDeviationSeconds": 0.0116599190283182
+    }
+  ],
+  "adaptiveOnsetCount": 814,
+  "adaptiveMedianDeviation": 0.03374902457608897,
+  "gateReasons": [],
+  "elapsedSeconds": 0.3814219310297631,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 42,
+    "notes": 839,
+    "voices": 3
+  },
+  "published": true,
+  "configSha256": "e1c9afe2626206c514e4f2508687291c63fc906470f6d479e4e9482558cec838",
+  "sourceDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Hensel%2C_Fanny/6_Lieder%2C_Op.1/3_Warum_sind_denn_die_Rosen_so_blass/lc5004640.mxl",
+      "file": "lc5004640.mxl",
+      "sha256": "797232d1a90f47423f7a2c14b1a0dcece7c7af326787b02ec87d64c2939dd9f2"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/fanny-hensel-warum-rosen-0-9.28.png",
+    "work/fanny-hensel-warum-rosen-8-16.png",
+    "work/fanny-hensel-warum-rosen-16-24.png",
+    "work/fanny-hensel-warum-rosen-24-32.png",
+    "work/fanny-hensel-warum-rosen-41.12-53.12.png",
+    "work/fanny-hensel-warum-rosen-56-64.png",
+    "work/fanny-hensel-warum-rosen-61.8268-73.8268.png",
+    "work/fanny-hensel-warum-rosen-64-72.png",
+    "work/fanny-hensel-warum-rosen-96-104.png",
+    "work/fanny-hensel-warum-rosen-96.18-108.18.png",
+    "work/fanny-hensel-warum-rosen-128-136.png",
+    "work/fanny-hensel-warum-rosen-130.372-141.137.png"
+  ]
+}

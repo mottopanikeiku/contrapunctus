@@ -159,6 +159,8 @@ export async function mount(app) {
       sc.notes.sort((a, b) => a[0] - b[0]);
       sc.onsets = Float64Array.from(sc.notes, (n) => n[0]);
       sc.maxDur = sc.notes.reduce((m, n) => Math.max(m, n[1]), 0);
+      // Where the score stops: some recordings carry more music after it (a second piece on the same side).
+      sc.end = sc.notes.reduce((m, n) => Math.max(m, n[0] + n[1]), 0);
       sc.lo = Math.min(...sc.notes.map((n) => n[2])); sc.hi = Math.max(...sc.notes.map((n) => n[2]));
       return sc;
     }).catch(() => null));
@@ -272,10 +274,13 @@ export async function mount(app) {
     return {
       draw(t) {
         if (!pack || !score) return;
+        // Past the end of the written score the highlight goes out rather than holding the last bar.
+        const past = t > score.end + 1;
         const { bar, frac } = barAt(t);
-        if (current !== bar.n) {
-          current = bar.n;
-          const box = pack.bars[bar.n]?.[0];
+        const shown = past ? null : bar.n;
+        if (current !== shown) {
+          current = shown;
+          const box = past ? null : pack.bars[bar.n]?.[0];
           if (box) {
             const [pi, x, y, w, h] = box, P = pages[pi];
             if (!P.state) loadPage(P);
@@ -287,7 +292,7 @@ export async function mount(app) {
             }
           } else hl.style.display = 'none';
         }
-        const next = (heads.get(bar.n) ?? []).filter((x) => x.pos / barLen <= frac + 0.02).map((x) => x.el);
+        const next = past ? [] : (heads.get(bar.n) ?? []).filter((x) => x.pos / barLen <= frac + 0.02).map((x) => x.el);
         if (next.length !== lit.length || next.some((el, i) => el !== lit[i])) {
           for (const el of lit) if (!next.includes(el)) el.classList.remove('lit');
           for (const el of next) if (!lit.includes(el)) el.classList.add('lit');
@@ -849,10 +854,12 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
     const nextSec = track.sections[s + 1];
     text(ui.nsNext, nextSec ? `Next section in ${fmt(nextSec.t - t)}: ${nextSec.label}` : '');
     if (visible.view) viewObj?.draw?.(t);
-    if (score && visible.wheel) scoreReadouts(t);
+    if (scoreCovers(t) && visible.wheel) scoreReadouts(t);
   }
 
   // ---- readouts from the written score (accurate where the score is aligned)
+  /** The written score accounts for time t (false once a recording continues past the score's last note). */
+  function scoreCovers(t) { return !!score && t <= score.end + 1; }
   let lastScoreRead = 0;
   function scoreReadouts(t) {
     const nowMs = performance.now();
@@ -965,7 +972,7 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
     wheelDirty = true;
     let s2 = 0; for (let i = 0; i < wave.length; i++) s2 += wave[i] * wave[i];
     const db = 10 * Math.log10(s2 / wave.length + 1e-12);
-    if (score) return;   // pitch readouts come from the written score instead
+    if (scoreCovers(player.time)) return;   // pitch readouts come from the written score instead
     raw.fill(0);
     const kLo = Math.ceil(80 / binHz), kHi = Math.min(n - 2, Math.floor(4200 / binHz));
     let maxDb = -200; for (let k = kLo; k <= kHi; k++) if (freq[k] > maxDb) maxDb = freq[k];
@@ -1052,7 +1059,7 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
         if (visible.view && view === 'sound') { drawSpectro(); drawKeys(); }
         if (visible.wheel) analyse();
       }
-    } else if (!score && visible.wheel) {
+    } else if (!scoreCovers(player.time) && visible.wheel) {
       for (let p = 0; p < 12; p++) chroma[p] *= 0.96;
       wheelDirty = true;
     }

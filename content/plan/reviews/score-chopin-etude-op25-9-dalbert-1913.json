@@ -1,0 +1,89 @@
+{
+  "id": "chopin-etude-op25-9-dalbert-1913",
+  "verdict": "pass",
+  "reviewer": "RevScoresChopin",
+  "date": "2026-10-19",
+  "scope": "MEAS: independent review of the public score.json (87 performed bars, order bars 1–36 then 1–51) and the shared two-page Op. 25/9 sheet pack (d'Albert, 1913 acoustic transfer). Covers verification that the repeat is a real second performance and not a transfer artefact; bar-identity bands at both joins; bar order; gates; the sheet pack; segment-wise chroma DTW from the Neeman score; a register-aware per-bar lag scan; the constrained bars 49–50; and reviewer overlays. The source, the line-269 correction and the print comparison are shared with chopin-etude-op25-9-neeman; see that review. Not aural review.",
+  "defects": [],
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "BAR_49_DOWNBEAT_AMBIGUOUS",
+      "finding": "This is non-blocking and already disclosed in the REPORT. The q168 constraint puts bar 49 (B-flat5/G-flat6 over G-flat1/G-flat2) at 93.00 s, on weaker rises at 92.89–92.97 s. The strongest flux onset, the bass thumps and the G-flat3/G-flat4 partial rises are at 93.18–93.20 s, so bar 49 may light up to about 0.2 s early. Bar 50's constrained halves (94.64, 95.02 s) and bar 51 (95.512 s) are unaffected."
+    },
+    {
+      "basis": "MEAS",
+      "code": "LISTEN_MODULE_SECTION_C_NOT_AT_REPEAT",
+      "finding": "This concerns the module, not the score. The listen module places section C ('the short figure returns') at 52 s, which is about bar 11 of the second pass. The measured return to bar 1 is at 42.612 s. The module owner may want to move the label to 42.6 s."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#score-round-4--19-october-2026-scoreround4",
+    "finding": "The endpoint windows (first [0.1, 0.25] → 0.18 s; last [95.4, 95.65] → 95.512 s), the three constraints (q168 [92.9, 93.12] → 93.00 s; q171 [94.52, 94.75] → 94.64; q171.5 [94.9, 95.12] → 95.02), the gates and score SHA-256 625a50b0… match the config, receipt and public file. The candidate equals the public file; results equal checks; the config and audio hashes match. score.json repeats states the performed order and that it is measured, not printed."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/chopin-etude-op25-9-dalbert-1913-checks.json",
+    "primaryMedianSeconds": 0.040424,
+    "primaryP95Seconds": 0.126821,
+    "maximumAnchorDeviationSeconds": 0.05518,
+    "maximumLocalRegionMedianSeconds": 0.045637,
+    "minimumPublishedNoteDurationSeconds": 0.017,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.055,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 87,
+    "distinctEngravedBars": 51,
+    "sheetPages": 2,
+    "svgBarSetEqualsIndex": true,
+    "derivedBars": [],
+    "unresolvedScoreBars": [],
+    "finding": "All 1,999 notes lie inside their performed bar, and bar times increase. check_contract.py prints 'ok … 87 bars; 1999 notes; 2 source-defined voices'. Bars 1–36 have occ 1 and 2, and bars 37–51 have occ 1. Bar 36 occ 1 is at 41.126 s, bar 1 occ 2 at 42.612 s, bar 36 occ 2 at 79.379 s and bar 37 at 80.806 s. The sheet pack equals the Neeman pack once DOM ids are stripped, and index.json is byte-identical."
+  },
+  "order": {
+    "basis": "MEAS",
+    "finding": "Bars 1–36, then bars 1–51. The print has no repeat sign, so this is a performance choice, measured from the recording. The checks below show it is a real second pass."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revr4/repeat_check.py, join_check.py, a2a_seg.py, reglag.py; ~/.cache/direction-scratch/revchopin/band.py, onsets.py, overlay.py",
+    "repeatIsReal": "Seven checks support a real second performance:\n- Matching: subsequence chroma DTW of pass 1 (0.18–42.6 s) over the audio after 42.6 s ends at 80.5 s (mean cost 0.019). A Neeman bars 1–36 query finds two matches, ending at 41.8 and 81.4 s.\n- Not a sped-up copy: per-pass tuning estimates are −0.250 (pass 1), −0.290 (pass 2) and −0.280 semitone (bars 37–51).\n- Different timing: pass-1 to pass-2 duration ratios per 6-s chunk vary from 0.76 to 0.97.\n- Not a sample duplicate: maximum waveform correlation at DTW-matched points is 0.147–0.392, against 0.079 for a control.\n- No splice in the surface noise: above 6 kHz the noise median is −39.2 dB before the join and −39.6 dB after, and a 0.77-s click chain runs across it (42.04 → 43.58 s).\n- Both passes shape the printed ritenuto alike: bar 36 lasts 1.486 s in pass 1 and 1.427 s in pass 2, against 1.188 and 1.128 s for bar 35.\n- Correct bar at each join: pass 2 opens with B-flat4 at 42.69 s, G-flat5 at 42.80, C-flat at 42.93–42.95 and the C-natural octave at 43.09. That is bar 1, with the same sequence as pass 1 (0.19–0.20, 0.32, 0.53, 0.67 s), not bar 37. At 80.81 s G-flat4/G-flat5 rise at 80.84–80.85 s (+21/+28 dB), with no C natural until 81.40 s: that is bar 37, the held-octave reprise.",
+    "crossRecording": "Segment-wise chroma DTW from Neeman's published bars 1–36 gives:\n- pass 1: median |difference| 0.117 s, maximum 0.27 s;\n- pass 2: median 0.126 s, maximum 0.53 s (bar 19; no other bar over 0.5 s).\nFor bars 37–51 the chroma DTW disagrees by up to ±2 s at bars 42–50, in both directions. Those bars share pitch classes (bars 45–48 have identical right-hand pitch classes), so the register-aware scan was used instead.",
+    "registerLagScan": "80 of 87 performed bars fit best within 0.1 s, including bars 45–48 at 0.00/−0.04 s. The exceptions all have gains of 1.01–1.24: bars 14.1 (−0.28 s), 12.2 (+1.28), 29.2 (+0.72), 39 (+1.00), 41 (+1.00) and 42 (−1.00). The one larger gain is bar 49 (−0.44 s, 3.09), where B-flat5/G-flat6 repeats across bars 48–49; see the observation. Bar 48's right-hand bands match the published notes within about 0.04 s."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op25-9-dalbert-1913-39-46.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op25-9-dalbert-1913-78-84.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op25-9-dalbert-1913-89-97.png"
+    ],
+    "finding": "Bars 35–36 and the return to bar 1 (39–46 s), bars 35–38 around the reprise (78–84 s) and the closing bars through bar 51 (89–97 s) land on the measured energy."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/025-1b-LE-009.krn",
+    "opened": true,
+    "licenseEvidence": "The same pinned files as chopin-etude-op25-9-neeman: .krn SHA-256 c4bb4984… (identical at 95dfb105 and on master) and LICENSE.txt 430533a2…. The regenerated MusicXML is byte-identical to this id's derivative.",
+    "attribution": "score.json carries license 'CC BY 4.0', licenseUrl, url, and source.attribution containing all five LICENSE lines verbatim, with status provisional and review.by null.",
+    "edition": "Paris edition published by Lemoine (Études Op. 25; RISM 1001002411, PL-Wbfc 4808/n), encoded in Humdrum by NIFC, Chopin First Editions Online",
+    "encoder": "Tomasz Sierawski (encoding); Marta Lawrence, Wojciech Jakubiak-Danek (editing); NIFC",
+    "license": "CC BY 4.0"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "The repeat of bars 1–36 is d'Albert's own choice, not in the first editions viewed. The overall tuning is about −0.25 to −0.29 semitone, which is transfer speed or the piano's pitch; it is not established which."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser run by RevScoresChopin, and no alignment command run. The repeat verification uses signal evidence only. It cannot exclude a dubbed transfer that combined two different takes, but the continuous surface noise and click chain across the join argue against a splice. The three constraints are disclosed fitting evidence. Public score SHA-256 625a50b0e3538f952bcd276867bb26edb47283cc51a1b00822465d4338db3b17."
+}
