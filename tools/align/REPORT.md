@@ -1229,3 +1229,82 @@ Verovio 6.3.0 (installed into the align venv with `uv pip install verovio` for t
 - `git show HEAD:<config>` (read-only) to restore two configs.
 
 **Not run:** unit tests, site build, browser checks, git write commands, formatters, aural review.
+
+## Cortot Op. 10 No. 5, bars 64–70 correction — 19 October 2026 (ScoreCortot)
+
+**Result:** `chopin-etude-op10-5-cortot` is republished provisionally with ten measured fitting constraints in bars 64–70. RevScoresChopin's review (defect `BARS_67_69_LIT_ABOUT_1S_EARLY`) was right: the round-4 map had no room for Cortot's bar-66 B-flat4 hold, so it lit bars 67–69 0.8–1.0 s early and bar 70 0.2 s early. This supersedes two round-4 claims above: "q131 B-flat4 is 0.3 s early" (it was 0.40 s early, and bars 67–69 were about 1 s early), and "band evidence there supports Cortot's own map" for bars 64–70. The review's other defect (the highlight persisting through Op. 25 No. 9) is handled in site code and is not part of this round. Every constraint is a disclosed fitting constraint, **not independent validation**.
+
+**Method (MEAS):** I measured cached pitch features (`work/chopin-etude-op10-5-cortot-features.npz`, dB re the 95th-percentile total) with copies of ScoreRound4's `probe.py`/`attackscan.py`/`a2a_local.py`, plus two new scratch scripts in `~/.cache/direction-scratch/ScoreCortot/`:
+- `detect_many.py`: a replica of `align.endpoint_anchors` (20% edge of the smoothed summed-pitch rise);
+- `a2a_times.py`: `a2a_local.py`'s DTW applied to listed reference times.
+
+**Constraints** (detector edge = mapped time, mapping deviation 0.000 s for all ten):
+
+| scoreQ | Attack | Window (s) | Edge (s) | Round-4 map (s) | Review estimate (s) |
+| --- | --- | --- | ---: | ---: | ---: |
+| 126 | bar 64 chord + D-flat6 | 67.98–68.14 | 68.06 | 68.07 | — |
+| 128 | bar 65 chord + E-flat7 | 69.40–69.58 | 69.48 | 69.547 | — |
+| 130 | bar 66 Smorz. chord | 71.40–71.56 | 71.48 | 71.383 | — |
+| 131 | B-flat4 with D-flat4/F4 | 72.25–72.42 | 72.34 | 71.936 | 72.37 |
+| 131.75 | A-flat4 sixteenth | 73.02–73.20 | 73.10 | 72.348 | — |
+| 132 | bar 67 G-flat4 | 73.40–73.58 | 73.48 | 72.48 | 73.52 |
+| 134 | bar 68 D-flat6 + left hand | 74.46–74.64 | 74.54 | 73.537 | 74.3–74.4 |
+| 135.5 | D-flat5 quarter | 75.18–75.34 | 75.26 | 74.33 | 75.28 |
+| 136 | bar 69 left hand | 75.46–75.62 | 75.54 | 74.71 | 75.55 |
+| 138 | bar 70 G-flat5 + left hand | 76.44–76.60 | 76.52 | 76.311 | 76.56 |
+
+- **Bar 68 departs from the review.** The 74.30 s D-flat6 rise is bar 67's q133.5 (A-flat3/F4/D-flat6; F4 −45 → −28 dB at 74.36 s, with the q133.667 D-flat7). E-flat6, bar 68's second note, stays at −40 to −42 dB until 74.60 s. The chain that follows fits only a 74.54 s downbeat at about 0.09 s per sextuplet:
+  - G-flat5 with D-flat4 at 74.78 s;
+  - A-flat5 with C-flat4/A-flat4 at 75.04 s;
+  - B-flat5 at 75.10 s;
+  - D-flat5 at 75.26 s.
+- **q131.75:** the A-flat4 sixteenth enters at 73.10 s, under the still-sounding B-flat4 (G-sharp4 −48 → −28 dB). It is the only written A-flat4 between q131 and q133.
+- **Neighbour constraints q126/q128/q130:**
+  - A first dry run had only q131, q132, q134, q135.5, q136 and q138. It moved bar 64 from 68.07 to 69.49 s and bar 65 from 69.547 to 70.547 s, and opened a 1.1 s gap inside bar 63. q126 (C-sharp5 band −17 → −2 dB) and q128 keep the round-4 placements that were already right.
+  - A second dry run left q131.75 at 73.348 s, 0.25 s late, so that constraint was added.
+  - The q128 edge is the chord, not the grace. The source has a D-flat2 grace (MIDI 37, q127.885) before the bar-65 chord. Cortot's grace enters at 68.6–68.9 s: its C-sharp3/G-sharp3/C-sharp4 partials rise while F-sharp4 falls. The chord's F-sharp4 (−50 → −31 dB), C-sharp3, C-sharp4 and G-sharp3 then rise together at 69.48–69.64 s. Bar 64's B-flat6 rises at 68.17/68.56/68.94 s match q126.167/q126.833/q127.5, so bar 64 is still sounding at 68.94 s.
+
+**MEAS gates (final run, unchanged thresholds):**
+- median **0.063817 s** (was 0.064784 s), P95 0.233703 s;
+- cosine 0.655845, tuning 444.09 Hz;
+- first/middle/last **0.008027 / 0.108019 / 0.016402 s**;
+- worst primary region 88–96 s: 0.074394 s (local 0.034164 s);
+- maximum local median **0.044768 s** (0–8 s);
+- 64–72 s primary/local 0.0739/0.0355 → **0.0657/0.0331 s**; 72–80 s 0.0748/0.0397 → **0.0703/0.0390 s**;
+- minimum published duration 0.018 s, minimum distinct attack interval 0.017 s;
+- no collapsed or non-positive attacks; `gateReasons: []`; `check_contract.py` printed `ok`.
+
+**What changed (MEAS, `work/<id>-diff.json` and a scratch comparison):**
+- Same note and bar identities; only the `method` text changed (internal-anchor disclosure).
+- 105 onsets changed, all in q126–q139.667; bars 1–63 and 71–85 are unchanged to the millisecond.
+- New bar times 64–70: **68.06 / 69.48 / 71.48 / 73.48 / 74.54 / 75.54 / 76.52 s** (old 68.07 / 69.547 / 71.383 / 72.48 / 73.537 / 74.71 / 76.311 s). The largest move is 1.02 s.
+- The bar-65 descending run (E-flat6 → D-flat5) moved 0.24 s earlier, onto its measured 70.46–71.00 s rises; only the last D-flat5 is still about 0.2 s late (71.209 s against 71.00 s).
+
+**Verified:**
+- **Per-attack rises, bars 66–71:** these attacks have distinct band rises, and each lies within ±0.04 s of its rise:
+  - q132.5 D-flat4 73.765 against 73.78 s;
+  - q133 74.029 against 74.06 s;
+  - q134.167 E-flat6 74.646 against 74.61 s;
+  - q136.167–q136.833 (G-flat5 A-flat5 B-flat5 A-flat5 G-flat5) 75.642–75.977 against 75.64–75.96 s;
+  - q137 76.043 against 76.04 s;
+  - q137.5 76.247 against 76.28 s;
+  - q139 77.040 against 77.04 s;
+  - bar 71 77.508 against 77.52 s.
+
+  `attackscan.py`'s flagged rows in these bars are repeated-pitch aliases at about one 4-note cycle. Bar 64's sextuplets keep their round-4 times; the screen there is aliased by the same 4-pitch cycle.
+- **Recording-to-recording DTW, bars 58–74:** this ran `a2a_local.py` from Neeman's gate-failed first-edition dry-run map (`work/chopin-etude-op10-5-candidate.json`), with spans Neeman 68.6–91.74 s and Cortot 62.1–80.86 s (bar 58 to bar 74 in each map).
+  - Against the new map, the differences for bars 60–72 are −0.02 / −0.02 / −0.02 / +0.03 / +0.04 / **−0.70** / +0.10 / −0.14 / 0.00 / +0.04 / +0.06 / −0.01 / +0.04 s.
+  - Against the round-4 map they were +0.86 / +1.00 / +0.87 / +0.27 s at bars 67–70.
+  - Neeman's own band edges were also mapped (`a2a_times.py`): bars 66–71 agree within ±0.16 s (+0.10 / −0.14 / −0.16 / −0.04 / +0.02 / −0.01 s).
+  - **Bar 65 is the exception.** Neeman plays the C-sharp2 grace with the chord (C-sharp2 −50 → −29 dB at 76.28–76.56 s, G-sharp3/C-sharp4 at 76.32–76.40 s), so the DTW pairs it with Cortot's early grace (68.6–68.9 s), not with his chord at 69.48 s. That is a grace-timing difference, not evidence that the chord is early.
+- **Fresh overlays** inspected: `work/chopin-etude-op10-5-cortot-66-80.png` and `-70.5-78.png`, added as `diagnostics.overlays`. The B-flat4 band is dark from 72.34 s to about 73.5 s under its score line, followed by the A-flat4 at 73.10 s and bars 67–71 on their rises.
+  - The anchor overlays (`-64.06-76.06`, `-65.48-77.48`, `-67.48-79.48`, `-68.34-80.34`, `-69.1-81.1`, `-69.48-81.48`, `-70.54-82.54`, `-71.26-83.26`, `-71.54-83.54`, `-72.52-84.52`) and the region files are listed in the receipt; they were not viewed one by one.
+- **Publication:** `--publish` printed `4 pages, 85 bars (0 derived), 1675 marked glyphs; 1627186 → 589700 bytes (including index)` and `PUBLISHED chopin-etude-op10-5-cortot provisional; not checked by ear`. Two basis texts were then corrected: q134.5 is G-flat5 with D-flat4, not C-flat4, and q135.5 is described as the loudest attack, not the largest rise. After that, a second `--publish` reported `byteIdentical: true` with the same gates. The candidate equals the public file, and `results/chopin-etude-op10-5-cortot.json` equals `work/…-checks.json` (same SHA-256). The sheet pages were not re-inspected; source and engraving settings are unchanged.
+- **Score SHA-256** `a4d73c03be6c183feaa95b477b69c5a27ab21aaea47b58a8cad96beca7685d5b` (was `175bee75…`); config `98cc02b4…` (was `8879de32…`); receipt `df5b40ab…`.
+
+**Commands run:**
+- `probe.py bands/rises/events`, `detect_many.py`, `attackscan.py`, `a2a_local.py` and `a2a_times.py` (scratch, read-only on project files).
+- Three `node tools/score.mjs chopin-etude-op10-5-cortot` dry runs, then `--publish` twice, all under `flock -w 3600 ~/.cache/direction-compute.lock`.
+- `check_contract.py`, `sha256sum`, `cmp`.
+
+**Not run:** unit tests, site build, browser checks, git commands, formatters, aural review. No review file was written.

@@ -96,6 +96,110 @@
     },
     "basis": "MEAS, cached pitch features (dB re the 95th-percentile total) and the fresh overlay work/chopin-etude-op10-5-cortot-0-11.7.png. First: the transfer is digitally quiet to 0.7 s; groove noise (MIDI 25-40 rumble and a flat -40 dB high band, total about -21 dB) starts at 0.8-0.9 s, but the first musical attack, the right hand's G-flat6 with the left-hand G-flat chord (q0), rises at 3.66-3.74 s (F-sharp4 -30 -> -11 dB, total -15 -> -6 dB, first large DLNCO peak), followed by B-flat6 3.76, D-flat6 3.88 and G-flat6 3.96 s. The broad 0-3 s first-pass window chose 2.86 s, inside the groove noise. Last: bar 85's G-flat1/G-flat2/G-flat3 whole notes (q168) rise at 92.6-92.7 s (F-sharp4 -32 -> -9 dB, F-sharp3 -44 -> -25 dB; primary onset 92.682 s), after the high G-flat chord of bar 84 (q167; A-sharp4/A-sharp5/F-sharp6 jump at 91.8-91.9 s) and the descending bar-83/84 octaves. The broad 85-96 s window chose 91.28 s, the bar-84 G-flat octave."
   },
+  "anchors": [
+    {
+      "scoreQ": 126,
+      "window": [
+        67.98,
+        68.14
+      ],
+      "label": "bar-64-chord",
+      "basis": "MEAS, cached pitch features: bar 64 (q126), the lower staff's G-flat4/A-flat4/D-flat5 with the right hand's D-flat6, rises at 68.04-68.12 s (C-sharp5 band -17 -> -2 dB, F-sharp4 -29 -> -19 dB, total -11 -> -1 dB); detector edge 68.06 s, primary and adaptive onset 68.000 s. The round-4 map (68.07 s) was already right here. This constraint keeps it there: a dry run with only the q131-q138 constraints moved q126 to 69.49 s and opened a 1.1 s gap inside bar 63 (q125.333 67.75 s, q125.5 68.87 s)."
+    },
+    {
+      "scoreQ": 128,
+      "window": [
+        69.4,
+        69.58
+      ],
+      "label": "bar-65-chord",
+      "basis": "MEAS: the bar-65 chord D-flat3/A-flat3/D-flat4/G-flat4 with the right hand's E-flat7 (q128) rises at 69.48-69.60 s (F-sharp4 -50 -> -31 dB, C-sharp5 partial -35 -> -28 dB, C-sharp4 -48 -> -39 dB by 69.64 s); detector edge 69.48 s, adaptive onset 69.544 s. The round-4 map (69.547 s) was right; the dry run with only the q131-q138 constraints moved it to 70.547 s. The bar's descending sextuplets then sound from E-flat6 (q128.833) at 70.46 s to D-flat5 (q129.833, C-sharp5 -42 -> -21 dB) at 71.00 s."
+    },
+    {
+      "scoreQ": 130,
+      "window": [
+        71.4,
+        71.56
+      ],
+      "label": "bar-66-chord",
+      "basis": "MEAS: the bar-66 Smorz. chord D-flat3/A-flat3/C-flat4/E-flat4/G-flat4 with the right hand's A-flat4 (q130) rises at 71.46-71.56 s (G-sharp4 -40 -> -25 dB, F-sharp4 -52 -> -28 dB); detector edge 71.48 s, adaptive onset 71.471 s, 0.86 s before the q131 B-flat4. Round-4 map 71.383 s; the dry run with only the q131-q138 constraints put it at 71.603 s."
+    },
+    {
+      "scoreQ": 131,
+      "window": [
+        72.25,
+        72.42
+      ],
+      "label": "bar-66-B-flat4",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): after the bar-66 Smorz. chord (q130, edge 71.48 s), the right hand's B-flat4 dotted eighth with the left hand's D-flat4/F4 (q131) rises at 72.30-72.36 s (A-sharp4 band -41 -> -15 dB; F4 -52 -> -33 dB at 72.40-72.48 s); detector edge 72.34 s, adaptive onset 72.307 s. The B-flat4 is held, decaying to about -33 dB, past the A-flat4 sixteenth (q131.75; G-sharp4 -48 -> -28 dB at 73.08-73.16 s, edge 73.10 s) until the bar-67 G-flat4. The round-4 map put q131 at 71.936 s and q131.75 at 72.348 s, leaving no room for this hold (RevScoresChopin review, defect BARS_67_69_LIT_ABOUT_1S_EARLY)."
+    },
+    {
+      "scoreQ": 131.75,
+      "window": [
+        73.02,
+        73.2
+      ],
+      "label": "bar-66-A-flat4",
+      "basis": "MEAS: the bar-66 A-flat4 sixteenth (q131.75) rises at 73.08-73.16 s under the sustained B-flat4 (G-sharp4 band -48 -> -28 dB, G-sharp5 partial -46 -> -35 dB; A-sharp4 still -28 to -33 dB until 73.44 s); detector edge 73.10 s, adaptive onset 73.073 s. No other score note has A-flat4 between q131 and bar 67's q133 (C-flat4/A-flat4 at 74.06 s). With the other constraints but not this one, the map put q131.75 at 73.348 s, 0.25 s late; the round-4 map had 72.348 s."
+    },
+    {
+      "scoreQ": 132,
+      "window": [
+        73.4,
+        73.58
+      ],
+      "label": "bar-67-G-flat4",
+      "basis": "MEAS: the a-tempo bar-67 downbeat, right-hand G-flat4 with the left hand's G-flat3/B-flat3/G-flat4 (q132), rises at 73.44-73.52 s (F-sharp4 band -45 -> -30 dB, F-sharp5 partial -42 -> -35 dB) as the B-flat4 hold falls from -33 to -43 dB; detector edge 73.48 s, adaptive onset 73.538 s. The rest of the bar follows: C-flat4/A-flat4 with A-flat6 (q133; G-sharp4 -41 -> -26 dB) at 74.06 s, B-flat6 at 74.12-74.16 s, then A-flat3/F4 with D-flat6 (q133.5; C-sharp6 -40 -> -23 dB, F4 -45 -> -28 dB) at 74.30 s and D-flat7 at 74.36 s. Published 72.48 s."
+    },
+    {
+      "scoreQ": 134,
+      "window": [
+        74.46,
+        74.64
+      ],
+      "label": "bar-68-D-flat6",
+      "basis": "MEAS: bar 68 (q134), the right hand's D-flat6 with G-flat3/B-flat3/G-flat4, rises at 74.52-74.58 s (F-sharp4 -44 -> -25 dB, C-sharp6 -32 -> -21 dB, F-sharp3 -53 -> -42 dB by 74.66 s); detector edge 74.54 s, adaptive onset 74.501 s. The next sextuplet note E-flat6 (q134.167) rises -40 -> -21 dB at 74.60-74.66 s, then G-flat5 with D-flat4 (q134.5) at 74.78 s, A-flat5 with C-flat4/A-flat4 (q135) at 75.04 s and B-flat5 at 75.10 s. The earlier D-flat6 rise at 74.30 s is bar 67's q133.5 (with F4 and the D-flat7 of q133.667): E-flat6 stays at -40 to -42 dB until 74.60 s, so bar 68 does not start at 74.3 s. Published 73.537 s."
+    },
+    {
+      "scoreQ": 135.5,
+      "window": [
+        75.18,
+        75.34
+      ],
+      "label": "bar-68-D-flat5",
+      "basis": "MEAS: the bar-68 D-flat5 quarter with A-flat3/F4 (q135.5) is the loudest attack in 70.8-77.6 s: C-sharp5 band -24 -> -5 dB at 75.22-75.30 s (total -14 -> -4 dB); detector edge 75.26 s, primary and adaptive onset 75.244 s. It follows the A-flat5/B-flat5/A-flat5 sextuplets at 75.04/75.10/75.20 s. Published 74.33 s."
+    },
+    {
+      "scoreQ": 136,
+      "window": [
+        75.46,
+        75.62
+      ],
+      "label": "bar-69-left-hand",
+      "basis": "MEAS: bar 69 opens with the left hand alone (q136, G-flat3/B-flat3/G-flat4) under the held D-flat5; F-sharp4 band -47 -> -33 dB at 75.50-75.62 s, detector edge 75.54 s, adaptive onset 75.569 s. The right-hand figure follows: G-flat5 (q136.167) at 75.62-75.70 s, A-flat5 75.74-75.78, B-flat5 75.82-75.86, A-flat5 75.94 and G-flat5 75.98 s, then D-flat5 with F3/C-flat4/E-flat4 (q137) at 76.04 s, A-flat5 76.18 s, D-flat6 76.26 s and E-flat6 with D-flat3/D-flat4 (q137.5) at 76.28 s. Published 74.71 s, which left this complete second run without a score position."
+    },
+    {
+      "scoreQ": 138,
+      "window": [
+        76.44,
+        76.6
+      ],
+      "label": "bar-70-G-flat5",
+      "basis": "MEAS: the bar-70 downbeat G-flat5 with G-flat3/B-flat3/E-flat4 (q138) rises at 76.50-76.58 s (F-sharp5 -43 -> -18 dB, D-sharp4 -41 -> -24 dB, F-sharp3 -56 -> -41 dB by 76.62 s); detector edge 76.52 s, adaptive onset 76.579 s. Bar 71 (q140, G-flat3/B-flat3/G-flat4 with G-flat6) follows at 77.52 s (edge), where the round-4 map (77.508 s) already lies; it is not constrained. Published 76.311 s."
+    }
+  ],
+  "diagnostics": {
+    "overlays": [
+      [
+        66,
+        80
+      ],
+      [
+        70.5,
+        78
+      ]
+    ]
+  },
   "boundaries": [],
   "provenance": [
     "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",

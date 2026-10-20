@@ -1,10 +1,10 @@
 {
   "uniqueScoreAttacks": 978,
   "audioDetectedOnsets": 748,
-  "medianAbsoluteOnsetDeviation": 0.06478372356693995,
-  "noteWeightedMedianDeviation": 0.05548924220852314,
+  "medianAbsoluteOnsetDeviation": 0.06381690660760242,
+  "noteWeightedMedianDeviation": 0.05508556135632858,
   "p95AbsoluteOnsetDeviation": 0.2337032774350078,
-  "fractionWithin150ms": 0.8476482617586912,
+  "fractionWithin150ms": 0.8496932515337423,
   "regions": [
     {
       "start": 0.0,
@@ -89,22 +89,22 @@
     {
       "start": 64.0,
       "end": 72.0,
-      "attacks": 75,
-      "median": 0.07390695037705086,
-      "p95": 0.24290999578126388,
+      "attacks": 74,
+      "median": 0.06570413436693201,
+      "p95": 0.23610608817170084,
       "max": 0.28741048357326804,
-      "adaptiveMedian": 0.03552154195011781,
-      "adaptiveP95": 0.08328859489531765
+      "adaptiveMedian": 0.03308271370564597,
+      "adaptiveP95": 0.07870974727087796
     },
     {
       "start": 72.0,
       "end": 80.0,
-      "attacks": 66,
-      "median": 0.07484885039287548,
-      "p95": 0.1966732914095921,
+      "attacks": 67,
+      "median": 0.07026854928017201,
+      "p95": 0.21459493487316325,
       "max": 0.3020570321151581,
-      "adaptiveMedian": 0.03967884828350776,
-      "adaptiveP95": 0.08826823946630569
+      "adaptiveMedian": 0.0390196698834302,
+      "adaptiveP95": 0.09713614670673389
     },
     {
       "start": 80.0,
@@ -129,16 +129,6 @@
   ],
   "worstFiveOnsetRegions": [
     {
-      "start": 72.0,
-      "end": 80.0,
-      "attacks": 66,
-      "median": 0.07484885039287548,
-      "p95": 0.1966732914095921,
-      "max": 0.3020570321151581,
-      "adaptiveMedian": 0.03967884828350776,
-      "adaptiveP95": 0.08826823946630569
-    },
-    {
       "start": 88.0,
       "end": 96.0,
       "attacks": 34,
@@ -149,14 +139,14 @@
       "adaptiveP95": 0.07503124505621271
     },
     {
-      "start": 64.0,
-      "end": 72.0,
-      "attacks": 75,
-      "median": 0.07390695037705086,
-      "p95": 0.24290999578126388,
-      "max": 0.28741048357326804,
-      "adaptiveMedian": 0.03552154195011781,
-      "adaptiveP95": 0.08328859489531765
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 67,
+      "median": 0.07026854928017201,
+      "p95": 0.21459493487316325,
+      "max": 0.3020570321151581,
+      "adaptiveMedian": 0.0390196698834302,
+      "adaptiveP95": 0.09713614670673389
     },
     {
       "start": 40.0,
@@ -177,6 +167,16 @@
       "max": 0.3881500158202833,
       "adaptiveMedian": 0.034341744449715605,
       "adaptiveP95": 0.0912947384380146
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 74,
+      "median": 0.06570413436693201,
+      "p95": 0.23610608817170084,
+      "max": 0.28741048357326804,
+      "adaptiveMedian": 0.03308271370564597,
+      "adaptiveP95": 0.07870974727087796
     }
   ],
   "worstFiveAdaptiveRegions": [
@@ -213,12 +213,12 @@
     {
       "start": 72.0,
       "end": 80.0,
-      "attacks": 66,
-      "median": 0.07484885039287548,
-      "p95": 0.1966732914095921,
+      "attacks": 67,
+      "median": 0.07026854928017201,
+      "p95": 0.21459493487316325,
       "max": 0.3020570321151581,
-      "adaptiveMedian": 0.03967884828350776,
-      "adaptiveP95": 0.08826823946630569
+      "adaptiveMedian": 0.0390196698834302,
+      "adaptiveP95": 0.09713614670673389
     },
     {
       "start": 16.0,
@@ -245,12 +245,12 @@
       "meanCosine": 0.6040834748921983
     },
     {
-      "start": 72.0,
-      "meanCosine": 0.6053597805146589
-    },
-    {
       "start": 24.0,
       "meanCosine": 0.6136983146909004
+    },
+    {
+      "start": 80.0,
+      "meanCosine": 0.6180090013368437
     }
   ],
   "sections": [
@@ -341,7 +341,7 @@
   "zeroOrNegativeDurations": 0,
   "minimumNoteDuration": 0.017616279069766705,
   "collapsedAttackIntervals": 0,
-  "meanPathChromaCosine": 0.6529947151319323,
+  "meanPathChromaCosine": 0.6558451225933892,
   "endAnchor": {
     "scoreQ": 172.0,
     "audioSeconds": 94.59999999999998,
@@ -380,6 +380,46 @@
     [
       51.519999999999996,
       53.9
+    ],
+    [
+      66.58953488372093,
+      68.06
+    ],
+    [
+      67.64651162790697,
+      69.48
+    ],
+    [
+      68.70348837209302,
+      71.48
+    ],
+    [
+      69.23197674418604,
+      72.34
+    ],
+    [
+      69.62834302325581,
+      73.1
+    ],
+    [
+      69.76046511627906,
+      73.48
+    ],
+    [
+      70.81744186046511,
+      74.54
+    ],
+    [
+      71.61017441860464,
+      75.26
+    ],
+    [
+      71.87441860465115,
+      75.54
+    ],
+    [
+      72.93139534883721,
+      76.52
     ],
     [
       88.7860465116279,
@@ -439,6 +479,192 @@
       "mappingDeviationSeconds": 0.0
     },
     {
+      "label": "bar-64-chord",
+      "scoreQ": 126.0,
+      "audioSeconds": 68.06,
+      "peakSeconds": 68.1,
+      "window": [
+        67.98,
+        68.14
+      ],
+      "midiPitches": [
+        66,
+        68,
+        73,
+        85
+      ],
+      "basis": "MEAS, cached pitch features: bar 64 (q126), the lower staff's G-flat4/A-flat4/D-flat5 with the right hand's D-flat6, rises at 68.04-68.12 s (C-sharp5 band -17 -> -2 dB, F-sharp4 -29 -> -19 dB, total -11 -> -1 dB); detector edge 68.06 s, primary and adaptive onset 68.000 s. The round-4 map (68.07 s) was already right here. This constraint keeps it there: a dry run with only the q131-q138 constraints moved q126 to 69.49 s and opened a 1.1 s gap inside bar 63 (q125.333 67.75 s, q125.5 68.87 s).",
+      "mappedAudioSeconds": 68.06,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-65-chord",
+      "scoreQ": 128.0,
+      "audioSeconds": 69.48,
+      "peakSeconds": 69.58,
+      "window": [
+        69.4,
+        69.58
+      ],
+      "midiPitches": [
+        49,
+        56,
+        61,
+        66,
+        99
+      ],
+      "basis": "MEAS: the bar-65 chord D-flat3/A-flat3/D-flat4/G-flat4 with the right hand's E-flat7 (q128) rises at 69.48-69.60 s (F-sharp4 -50 -> -31 dB, C-sharp5 partial -35 -> -28 dB, C-sharp4 -48 -> -39 dB by 69.64 s); detector edge 69.48 s, adaptive onset 69.544 s. The round-4 map (69.547 s) was right; the dry run with only the q131-q138 constraints moved it to 70.547 s. The bar's descending sextuplets then sound from E-flat6 (q128.833) at 70.46 s to D-flat5 (q129.833, C-sharp5 -42 -> -21 dB) at 71.00 s.",
+      "mappedAudioSeconds": 69.48,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-66-chord",
+      "scoreQ": 130.0,
+      "audioSeconds": 71.48,
+      "peakSeconds": 71.52,
+      "window": [
+        71.4,
+        71.56
+      ],
+      "midiPitches": [
+        49,
+        56,
+        59,
+        63,
+        66,
+        68
+      ],
+      "basis": "MEAS: the bar-66 Smorz. chord D-flat3/A-flat3/C-flat4/E-flat4/G-flat4 with the right hand's A-flat4 (q130) rises at 71.46-71.56 s (G-sharp4 -40 -> -25 dB, F-sharp4 -52 -> -28 dB); detector edge 71.48 s, adaptive onset 71.471 s, 0.86 s before the q131 B-flat4. Round-4 map 71.383 s; the dry run with only the q131-q138 constraints put it at 71.603 s.",
+      "mappedAudioSeconds": 71.48,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-66-B-flat4",
+      "scoreQ": 131.0,
+      "audioSeconds": 72.34,
+      "peakSeconds": 72.36,
+      "window": [
+        72.25,
+        72.42
+      ],
+      "midiPitches": [
+        61,
+        65,
+        70
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): after the bar-66 Smorz. chord (q130, edge 71.48 s), the right hand's B-flat4 dotted eighth with the left hand's D-flat4/F4 (q131) rises at 72.30-72.36 s (A-sharp4 band -41 -> -15 dB; F4 -52 -> -33 dB at 72.40-72.48 s); detector edge 72.34 s, adaptive onset 72.307 s. The B-flat4 is held, decaying to about -33 dB, past the A-flat4 sixteenth (q131.75; G-sharp4 -48 -> -28 dB at 73.08-73.16 s, edge 73.10 s) until the bar-67 G-flat4. The round-4 map put q131 at 71.936 s and q131.75 at 72.348 s, leaving no room for this hold (RevScoresChopin review, defect BARS_67_69_LIT_ABOUT_1S_EARLY).",
+      "mappedAudioSeconds": 72.34,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-66-A-flat4",
+      "scoreQ": 131.75,
+      "audioSeconds": 73.1,
+      "peakSeconds": 73.14,
+      "window": [
+        73.02,
+        73.2
+      ],
+      "midiPitches": [
+        68
+      ],
+      "basis": "MEAS: the bar-66 A-flat4 sixteenth (q131.75) rises at 73.08-73.16 s under the sustained B-flat4 (G-sharp4 band -48 -> -28 dB, G-sharp5 partial -46 -> -35 dB; A-sharp4 still -28 to -33 dB until 73.44 s); detector edge 73.10 s, adaptive onset 73.073 s. No other score note has A-flat4 between q131 and bar 67's q133 (C-flat4/A-flat4 at 74.06 s). With the other constraints but not this one, the map put q131.75 at 73.348 s, 0.25 s late; the round-4 map had 72.348 s.",
+      "mappedAudioSeconds": 73.1,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-67-G-flat4",
+      "scoreQ": 132.0,
+      "audioSeconds": 73.48,
+      "peakSeconds": 73.52,
+      "window": [
+        73.4,
+        73.58
+      ],
+      "midiPitches": [
+        54,
+        58,
+        66
+      ],
+      "basis": "MEAS: the a-tempo bar-67 downbeat, right-hand G-flat4 with the left hand's G-flat3/B-flat3/G-flat4 (q132), rises at 73.44-73.52 s (F-sharp4 band -45 -> -30 dB, F-sharp5 partial -42 -> -35 dB) as the B-flat4 hold falls from -33 to -43 dB; detector edge 73.48 s, adaptive onset 73.538 s. The rest of the bar follows: C-flat4/A-flat4 with A-flat6 (q133; G-sharp4 -41 -> -26 dB) at 74.06 s, B-flat6 at 74.12-74.16 s, then A-flat3/F4 with D-flat6 (q133.5; C-sharp6 -40 -> -23 dB, F4 -45 -> -28 dB) at 74.30 s and D-flat7 at 74.36 s. Published 72.48 s.",
+      "mappedAudioSeconds": 73.48,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-68-D-flat6",
+      "scoreQ": 134.0,
+      "audioSeconds": 74.54,
+      "peakSeconds": 74.6,
+      "window": [
+        74.46,
+        74.64
+      ],
+      "midiPitches": [
+        54,
+        58,
+        66,
+        85
+      ],
+      "basis": "MEAS: bar 68 (q134), the right hand's D-flat6 with G-flat3/B-flat3/G-flat4, rises at 74.52-74.58 s (F-sharp4 -44 -> -25 dB, C-sharp6 -32 -> -21 dB, F-sharp3 -53 -> -42 dB by 74.66 s); detector edge 74.54 s, adaptive onset 74.501 s. The next sextuplet note E-flat6 (q134.167) rises -40 -> -21 dB at 74.60-74.66 s, then G-flat5 with D-flat4 (q134.5) at 74.78 s, A-flat5 with C-flat4/A-flat4 (q135) at 75.04 s and B-flat5 at 75.10 s. The earlier D-flat6 rise at 74.30 s is bar 67's q133.5 (with F4 and the D-flat7 of q133.667): E-flat6 stays at -40 to -42 dB until 74.60 s, so bar 68 does not start at 74.3 s. Published 73.537 s.",
+      "mappedAudioSeconds": 74.54,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-68-D-flat5",
+      "scoreQ": 135.5,
+      "audioSeconds": 75.26,
+      "peakSeconds": 75.28,
+      "window": [
+        75.18,
+        75.34
+      ],
+      "midiPitches": [
+        56,
+        65,
+        73
+      ],
+      "basis": "MEAS: the bar-68 D-flat5 quarter with A-flat3/F4 (q135.5) is the loudest attack in 70.8-77.6 s: C-sharp5 band -24 -> -5 dB at 75.22-75.30 s (total -14 -> -4 dB); detector edge 75.26 s, primary and adaptive onset 75.244 s. It follows the A-flat5/B-flat5/A-flat5 sextuplets at 75.04/75.10/75.20 s. Published 74.33 s.",
+      "mappedAudioSeconds": 75.26,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-69-left-hand",
+      "scoreQ": 136.0,
+      "audioSeconds": 75.54,
+      "peakSeconds": 75.58,
+      "window": [
+        75.46,
+        75.62
+      ],
+      "midiPitches": [
+        54,
+        58,
+        66
+      ],
+      "basis": "MEAS: bar 69 opens with the left hand alone (q136, G-flat3/B-flat3/G-flat4) under the held D-flat5; F-sharp4 band -47 -> -33 dB at 75.50-75.62 s, detector edge 75.54 s, adaptive onset 75.569 s. The right-hand figure follows: G-flat5 (q136.167) at 75.62-75.70 s, A-flat5 75.74-75.78, B-flat5 75.82-75.86, A-flat5 75.94 and G-flat5 75.98 s, then D-flat5 with F3/C-flat4/E-flat4 (q137) at 76.04 s, A-flat5 76.18 s, D-flat6 76.26 s and E-flat6 with D-flat3/D-flat4 (q137.5) at 76.28 s. Published 74.71 s, which left this complete second run without a score position.",
+      "mappedAudioSeconds": 75.54,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-70-G-flat5",
+      "scoreQ": 138.0,
+      "audioSeconds": 76.52,
+      "peakSeconds": 76.54,
+      "window": [
+        76.44,
+        76.6
+      ],
+      "midiPitches": [
+        54,
+        58,
+        63,
+        78
+      ],
+      "basis": "MEAS: the bar-70 downbeat G-flat5 with G-flat3/B-flat3/E-flat4 (q138) rises at 76.50-76.58 s (F-sharp5 -43 -> -18 dB, D-sharp4 -41 -> -24 dB, F-sharp3 -56 -> -41 dB by 76.62 s); detector edge 76.52 s, adaptive onset 76.579 s. Bar 71 (q140, G-flat3/B-flat3/G-flat4 with G-flat6) follows at 77.52 s (edge), where the round-4 map (77.508 s) already lies; it is not constrained. Published 76.311 s.",
+      "mappedAudioSeconds": 76.52,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
       "label": "last",
       "scoreQ": 168.0,
       "audioSeconds": 92.66,
@@ -458,9 +684,9 @@
     }
   ],
   "adaptiveOnsetCount": 1122,
-  "adaptiveMedianDeviation": 0.036443534778253905,
+  "adaptiveMedianDeviation": 0.036283288509210365,
   "gateReasons": [],
-  "elapsedSeconds": 0.40181856096023694,
+  "elapsedSeconds": 0.5004819669993594,
   "dtwSteps": [
     [
       1,
@@ -486,7 +712,7 @@
     "voices": 2
   },
   "published": true,
-  "configSha256": "8879de327d9d99ae9902e63873ed3a3420fa62d53d65d231a517702394730f2b",
+  "configSha256": "98cc02b479cdc1ebc0b8518ae280b7752c5a66e8fb1afd560f16654d9dc98a92",
   "sourceDownloads": [
     {
       "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/010-1b-Sm-005.krn",
@@ -500,9 +726,20 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "a4d73c03be6c183feaa95b477b69c5a27ab21aaea47b58a8cad96beca7685d5b",
+    "candidateSha256": "a4d73c03be6c183feaa95b477b69c5a27ab21aaea47b58a8cad96beca7685d5b",
+    "byteIdentical": true,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 0.0,
+      "noteDurationSeconds": 0.0,
+      "barSeconds": 0.0
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": true
   },
   "overlays": [
     "work/chopin-etude-op10-5-cortot-0-8.png",
@@ -514,7 +751,19 @@
     "work/chopin-etude-op10-5-cortot-40.284-52.284.png",
     "work/chopin-etude-op10-5-cortot-48-56.png",
     "work/chopin-etude-op10-5-cortot-64-72.png",
+    "work/chopin-etude-op10-5-cortot-64.06-76.06.png",
+    "work/chopin-etude-op10-5-cortot-65.48-77.48.png",
+    "work/chopin-etude-op10-5-cortot-66-80.png",
+    "work/chopin-etude-op10-5-cortot-67.48-79.48.png",
+    "work/chopin-etude-op10-5-cortot-68.34-80.34.png",
+    "work/chopin-etude-op10-5-cortot-69.1-81.1.png",
+    "work/chopin-etude-op10-5-cortot-69.48-81.48.png",
+    "work/chopin-etude-op10-5-cortot-70.5-78.png",
+    "work/chopin-etude-op10-5-cortot-70.54-82.54.png",
+    "work/chopin-etude-op10-5-cortot-71.26-83.26.png",
+    "work/chopin-etude-op10-5-cortot-71.54-83.54.png",
     "work/chopin-etude-op10-5-cortot-72-80.png",
+    "work/chopin-etude-op10-5-cortot-72.52-84.52.png",
     "work/chopin-etude-op10-5-cortot-88-96.png",
     "work/chopin-etude-op10-5-cortot-88.666-100.666.png"
   ]
