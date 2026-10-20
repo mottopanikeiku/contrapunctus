@@ -50,19 +50,19 @@ not estimates of every visitor’s experience.
 
 ## The Concert Hall
 
-One continuous concert, from Gregorian chant, Hildegard and Machaut to Messiaen, Britten, Bernstein and Boulez: 385 recordings in the order the composers were born, about 48½ hours of music, streamed from Wikimedia Commons and the Internet Archive. Another 63 recordings (historical takes, comparisons) sit outside the running order, for 448 in all. One player persists across the site.
+One continuous concert, from Gregorian chant, Hildegard and Machaut to Messiaen, Britten, Bernstein and Boulez: 386 recordings in the order the composers were born, about 48½ hours of music, streamed from Wikimedia Commons and the Internet Archive (one song, extracted from a CC BY-SA Commons video, is served by the site itself). Another 63 recordings (historical takes, comparisons) sit outside the running order, for 449 in all. One player persists across the site.
 
 - **Evenings**: eight curated programmes (a first evening, Paris 1888–1913, Vienna, the composers playing their own music, late at night, the first recordings, opera, music in America). An evening plays its tracks in order and stops. *A piece at random* (`hall.html#surprise`) plays one recording from anywhere in the concert.
 - **Shareable and keepable moments**: `hall.html#<id>` opens a recording, `#<id>&t=<seconds>` a moment within it, `#programme-<id>` an evening. *Link to this moment* copies the address; *Keep this moment* saves it to a private list at the top of the programme, in your browser.
-- **Views of the music**: the engraved score lighting up bar by bar where an aligned score exists, a note-roll by voice, the orchestra on its stage, the form as an arc diagram, and the live sound (spectrogram, keyboard, pitch wheel). Beneath every view, *This section* names the passage you are in and what comes next. F enlarges any view.
-- **Listening notes**: 3,341 timed notes, written from the score and from documents (letters, premières, recording sessions), each with its *Evidence*, and 1,173 joins between sections, marked ◆ on the timeline. Long works carry notes all the way through, at most one per 40 seconds.
+- **Views of the music**: the engraved score lighting up bar by bar where an aligned, independently reviewed score exists (57 recordings), a note-roll by voice, the orchestra on its stage, the form as an arc diagram, and the live sound (spectrogram, keyboard, pitch wheel). Beneath every view, *This section* names the passage you are in and what comes next. F enlarges any view.
+- **Listening notes**: 3,344 timed notes, written from the score and from documents (letters, premières, recording sessions), each with its *Evidence*, and 1,173 joins between sections, marked ◆ on the timeline. Long works carry notes all the way through, at most one per 40 seconds.
 - **Recording**: a provenance dossier for every recording (documented / inferred / disputed, alternatives, sources, how to cite).
 
 ## Composers and works
 
 - **80 composers** in seven chapters, from Strozzi, Couperin and Bach to Saariaho and Adès. The most recent additions are Barbara Strozzi, Élisabeth Jacquet de La Guerre, Smetana, Borodin, Nielsen, Villa-Lobos, Bernstein, Xenakis and Glass. Each life is built from documented events and the composer’s own words; most quote letters, diaries or memoirs.
 - Each page: the life with margin notes, how the music works (harmony, line, rhythm, orchestration, form), a selection of works, playable engraved score examples, sister arts (public-domain paintings, prints and poems with new translations), recommended recordings and influences.
-- **205 work pages** (`works/<composer>-<work>.html`) gather every recording of a piece, with its notes and joins and a button to play from the beginning. **Every work** (`works/index.html`) lists them by chapter and composer and filters by orchestra, keyboard, voices or chamber music.
+- **206 work pages** (`works/<composer>-<work>.html`) gather every recording of a piece, with its notes and joins and a button to play from the beginning. **Every work** (`works/index.html`) lists them by chapter and composer and filters by orchestra, keyboard, voices or chamber music.
 - **Where to hear it**: for 37 composers, selected recordings on official channels (label pages, the artist’s or label’s own YouTube and Spotify uploads, verified through oEmbed). For composers with no recording published before 1963 that the Hall can stream, such as Ligeti, Reich, Saariaho, Xenakis or Glass, these are the only recordings the site links to; for the rest they add performances the public domain cannot supply.
 
 ## The Web of Influence
@@ -109,7 +109,7 @@ Six narrated journeys (Vienna 1900, the Dies irae, how the symphony grew, Paris 
 | `tools/art.mjs` | Wikimedia Commons search / check / fetch (images re-encoded to WebP) |
 | `tools/validate.mjs` | Schema, links, ABC notation, image and house-style checks for content files |
 | `content/listen/*.mjs` | One file per recording: metadata, formal sections and timed cues (see `LISTENING.md`) |
-| `tools/audio.mjs`, `tools/analyze.py` | Find Commons and Internet Archive recordings; analyse them (librosa) to help place section boundaries |
+| `tools/audio.mjs`, `tools/analyze.py` | Find Commons and Internet Archive recordings; analyse them (librosa) to help place section boundaries; `derive` extracts the audio of an openly licensed Commons video into `docs/assets/audio/` |
 | `tools/barcheck.mjs` | Checks every bar of every score example against its time signature |
 | `content/influence/*.json` | The Web of Influence: edges, figures, threads (validated by `tools/validate-influence.mjs`) |
 | `content/glossary.mjs`, `content/bibliography/*.json` | Glossary and further reading |
@@ -156,4 +156,4 @@ For repeatable performance measurements, run the gzip preview on a free port and
 
 `CHROME_PATH=/path/to/chrome node tools/optimize/browser-cli.mjs reading LABEL ORIGIN` checks every glossary kind/alphabet filter, fragment navigation to filtered-out entries, cold cross-page anchors and player identity, settled anchor alignment, visible entry geometry and print visibility at both screenshot sizes. These interaction results are separate from the cold-load Lighthouse measurements. The [performance polish acceptance report](cache/performance/polish-acceptance.md) retains the matched HTTP/2 before/after matrix, shift sources, main-thread evidence and visual comparisons.
 
-Images are public-domain or freely licensed reproductions from Wikimedia Commons; see `docs/credits.html`. Notation is engraved client-side with [abcjs](https://abcjs.net) (MIT).
+Images are public-domain or freely licensed reproductions from Wikimedia Commons; see `docs/credits.html`. Notation is engraved client-side with [abcjs](https://abcjs.net) (MIT). Aligned scores come from public-domain, CC0, CC BY and CC BY-SA encodings (Mutopia, OpenScore, the Fryderyk Chopin Institute's Chopin First Editions Online); each keeps its source's licence and credit line, shown under the score in the Hall and on the Sources page.

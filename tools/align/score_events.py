@@ -79,13 +79,16 @@ def compare_humdrum(cfg, notes):
 
     Regular attacks (tied continuations excluded) must match by pitch within one LilyPond MIDI
     tick (1/384 quarter; septuplet onsets are not tick-exact). Every remaining compiled event
-    must be a source grace note of the same pitch sounding up to one quarter before its main note.
+    must be a source grace note of the same pitch sounding up to one quarter before its main note
+    (a closing after-grace flourish: between the preceding regular attack and the final barline).
+    Only the declared `source.humdrumCorrections` subtokens are read differently.
     """
     from bisect import bisect_left
     from humdrum_convert import attacks as humdrum_attacks, grace_leads, parse as humdrum_parse
     kern = inside(HERE / 'sources' / cfg['id'], cfg['source']['humdrum'])
-    regular, grace, _ = humdrum_attacks(kern)
-    shortened = grace_leads(humdrum_parse(kern)[0])
+    corrections = cfg['source'].get('humdrumCorrections', [])
+    regular, grace, barlines = humdrum_attacks(kern, corrections)
+    shortened = grace_leads(humdrum_parse(kern, corrections)[0])
     tick = 1 / 384 + 1e-9
     pool = defaultdict(list)
     for onset, _, midi, *_ in notes:
@@ -108,8 +111,12 @@ def compare_humdrum(cfg, notes):
                 drift = max(drift, abs(found - float(time)))
     unmatched_graces = []
     for (time, midi), count in sorted(grace.items()):
+        # A closing flourish after the last regular note is a LilyPond after-grace: it sounds
+        # between the preceding regular attack and the final barline, not before a main note.
+        closing = time >= barlines[-1][1]
+        low = max(t for t, _ in regular if t < time) if closing else time - 1
         for _ in range(count):
-            if take(midi, float(time) - 1 - tick, float(time) + tick) is None:
+            if take(midi, float(low) - tick, float(time) + tick) is None:
                 unmatched_graces.append([float(time), midi])
     extra = sorted([onset, midi] for midi, onsets in pool.items() for onset in onsets)
     if missing or unmatched_graces or extra:
@@ -119,6 +126,8 @@ def compare_humdrum(cfg, notes):
     result = {'regularAttacks': sum(regular.values()), 'graceNotes': sum(grace.values()),
               'maximumRegularOnsetDifferenceQuarters': drift, 'matched': True,
               'graceValuesShortenedForMidi': shortened}
+    if corrections:
+        result['tokenCorrections'] = corrections
     print('HUMDRUM', cfg['id'], json.dumps(result), flush=True)
     return result
 

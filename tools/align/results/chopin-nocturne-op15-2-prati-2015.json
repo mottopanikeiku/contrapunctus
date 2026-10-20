@@ -1,10 +1,10 @@
 {
   "uniqueScoreAttacks": 733,
   "audioDetectedOnsets": 449,
-  "medianAbsoluteOnsetDeviation": 0.06709258803924456,
-  "noteWeightedMedianDeviation": 0.0543225965084666,
-  "p95AbsoluteOnsetDeviation": 0.4456751996648704,
-  "fractionWithin150ms": 0.7025920873124147,
+  "medianAbsoluteOnsetDeviation": 0.06499006638800608,
+  "noteWeightedMedianDeviation": 0.05231645117886785,
+  "p95AbsoluteOnsetDeviation": 0.4403323771275779,
+  "fractionWithin150ms": 0.7162346521145976,
   "regions": [
     {
       "start": 0.0,
@@ -129,22 +129,22 @@
     {
       "start": 96.0,
       "end": 104.0,
-      "attacks": 25,
-      "median": 0.050288611930639604,
-      "p95": 0.3309909501953598,
-      "max": 0.36632027258694677,
-      "adaptiveMedian": 0.04034587328904138,
-      "adaptiveP95": 0.3193809728711045
+      "attacks": 19,
+      "median": 0.02732024185173998,
+      "p95": 0.17651061388413727,
+      "max": 0.27728710761411435,
+      "adaptiveMedian": 0.029958746550803994,
+      "adaptiveP95": 0.13747944157586284
     },
     {
       "start": 104.0,
       "end": 112.0,
-      "attacks": 42,
-      "median": 0.12937551225309818,
-      "p95": 0.5505250154529626,
+      "attacks": 48,
+      "median": 0.11543316121630198,
+      "p95": 0.5458478808943191,
       "max": 0.6331496564489214,
-      "adaptiveMedian": 0.046467763059027334,
-      "adaptiveP95": 0.13002604347269572
+      "adaptiveMedian": 0.04695480334035551,
+      "adaptiveP95": 0.12471867214408972
     },
     {
       "start": 112.0,
@@ -250,21 +250,21 @@
       "start": 192.0,
       "end": 200.0,
       "attacks": 21,
-      "median": 0.17547960549680397,
-      "p95": 0.48258885883660696,
-      "max": 0.5798114908613741,
-      "adaptiveMedian": 0.06858508865397539,
-      "adaptiveP95": 0.24883971259197324
+      "median": 0.10304018796210812,
+      "p95": 0.35765210501872957,
+      "max": 0.4387301587301806,
+      "adaptiveMedian": 0.06453678660218998,
+      "adaptiveP95": 0.12820506515853936
     },
     {
       "start": 200.0,
       "end": 208.0,
       "attacks": 44,
-      "median": 0.17351624183805825,
+      "median": 0.19351624183806848,
       "p95": 0.7874714367674301,
       "max": 0.9430669617244973,
-      "adaptiveMedian": 0.035845968909598014,
-      "adaptiveP95": 0.06792481490592481
+      "adaptiveMedian": 0.03841829904652627,
+      "adaptiveP95": 0.07798845723029474
     },
     {
       "start": 208.0,
@@ -289,24 +289,14 @@
       "adaptiveP95": 0.10149651895564915
     },
     {
-      "start": 192.0,
-      "end": 200.0,
-      "attacks": 21,
-      "median": 0.17547960549680397,
-      "p95": 0.48258885883660696,
-      "max": 0.5798114908613741,
-      "adaptiveMedian": 0.06858508865397539,
-      "adaptiveP95": 0.24883971259197324
-    },
-    {
       "start": 200.0,
       "end": 208.0,
       "attacks": 44,
-      "median": 0.17351624183805825,
+      "median": 0.19351624183806848,
       "p95": 0.7874714367674301,
       "max": 0.9430669617244973,
-      "adaptiveMedian": 0.035845968909598014,
-      "adaptiveP95": 0.06792481490592481
+      "adaptiveMedian": 0.03841829904652627,
+      "adaptiveP95": 0.07798845723029474
     },
     {
       "start": 136.0,
@@ -327,19 +317,19 @@
       "max": 0.7040327295576674,
       "adaptiveMedian": 0.06471709969130757,
       "adaptiveP95": 0.1561712291344449
+    },
+    {
+      "start": 112.0,
+      "end": 120.0,
+      "attacks": 55,
+      "median": 0.11932869018592385,
+      "p95": 0.3324185816394859,
+      "max": 0.45896839056906913,
+      "adaptiveMedian": 0.043386808287579015,
+      "adaptiveP95": 0.1574719325723123
     }
   ],
   "worstFiveAdaptiveRegions": [
-    {
-      "start": 192.0,
-      "end": 200.0,
-      "attacks": 21,
-      "median": 0.17547960549680397,
-      "p95": 0.48258885883660696,
-      "max": 0.5798114908613741,
-      "adaptiveMedian": 0.06858508865397539,
-      "adaptiveP95": 0.24883971259197324
-    },
     {
       "start": 208.0,
       "end": 216.0,
@@ -349,6 +339,16 @@
       "max": 0.7040327295576674,
       "adaptiveMedian": 0.06471709969130757,
       "adaptiveP95": 0.1561712291344449
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "attacks": 21,
+      "median": 0.10304018796210812,
+      "p95": 0.35765210501872957,
+      "max": 0.4387301587301806,
+      "adaptiveMedian": 0.06453678660218998,
+      "adaptiveP95": 0.12820506515853936
     },
     {
       "start": 128.0,
@@ -373,12 +373,12 @@
     {
       "start": 104.0,
       "end": 112.0,
-      "attacks": 42,
-      "median": 0.12937551225309818,
-      "p95": 0.5505250154529626,
+      "attacks": 48,
+      "median": 0.11543316121630198,
+      "p95": 0.5458478808943191,
       "max": 0.6331496564489214,
-      "adaptiveMedian": 0.046467763059027334,
-      "adaptiveP95": 0.13002604347269572
+      "adaptiveMedian": 0.04695480334035551,
+      "adaptiveP95": 0.12471867214408972
     }
   ],
   "worstFiveHarmonicRegions": [
@@ -388,7 +388,11 @@
     },
     {
       "start": 208.0,
-      "meanCosine": 0.6227532880554805
+      "meanCosine": 0.6253316346671458
+    },
+    {
+      "start": 192.0,
+      "meanCosine": 0.6276057095547763
     },
     {
       "start": 40.0,
@@ -397,10 +401,6 @@
     {
       "start": 176.0,
       "meanCosine": 0.6798907305999111
-    },
-    {
-      "start": 192.0,
-      "meanCosine": 0.6881664892690419
     }
   ],
   "sections": [
@@ -481,7 +481,7 @@
   "zeroOrNegativeDurations": 0,
   "minimumNoteDuration": 0.005535475234268006,
   "collapsedAttackIntervals": 0,
-  "meanPathChromaCosine": 0.7603046245641413,
+  "meanPathChromaCosine": 0.7633524317384485,
   "endAnchor": {
     "scoreQ": 124.5,
     "audioSeconds": 216.3,
@@ -503,6 +503,7 @@
     "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",
     "Edition: first edition, Breitkopf & Härtel, Leipzig (RISM 1001035842, PL-Wbfc 676/n); encoding Jędrzej Mróz, editing Tomasz Sierawski and Wojciech Jakubiak-Danek. The performer's edition is not established; first-edition readings can differ from later editions.",
     "Conversion: tools/align/humdrum_convert.py reads the unchanged **kern tokens (Humdrum line timing, spine splits/merges, explicit sounding pitches, ties, graces, tuplets) and writes plain MusicXML for the pinned LilyPond 2.24.4 converter. Dynamics, hairpins, pedalling, fingering, stems, layout comments, *rscale display scaling, cue size and editorial text are not converted; slurs are kept only when both ends lie in one encoded voice. Voices are the encoded Humdrum sub-spines on each staff (MusicXML voices 1-4 upper, 5-8 lower), labelled here only as upper/lower staff.",
+    "Source token correction (EXT, independent review RevScoresChopin 19 Oct 2026, content/plan/reviews/score-chopin-nocturne-op15-2*.json): 015-1a-BH-002.krn line 1178 encodes the bar-61 dotted-quarter bass octave as `4.FF# 4.FFF`, i.e. F-sharp2 over F-natural1 (MIDI 29). The Breitkopf & Härtel first edition (plate 5502; CFEO Bodleian copy 15-1-BH, p. 10, last system) prints the octave F-sharp1/F-sharp2 under the key signature with no natural, so the lower note is read as `4.FFF#` (MIDI 30). Only that attack changes; the downloaded bytes are unchanged and the correction is applied in memory and retained in the check report. NIFC's own copy PL-Wbfc 676/n was not consulted.",
     "Source identity (MEAS): the compiled events match all 1,294 regular **kern attacks (tied continuations excluded) by pitch within one MIDI tick, plus all 32 grace notes; maximum regular onset difference 0.0022 quarter (septuplet tick rounding). Independent check with Verovio 6.3.0's Humdrum importer: 1,350 notes in both readings; per-measure relative timing agrees in every measure except the 10 that contain graces (Verovio performs graces on the beat).",
     "Twelve written eighth-note graces that follow very fast runs are printed and compiled one or two flags shorter: LilyPond 2.24.4 performs a grace group before its main note for about a quarter of its written length and otherwise reports 'Going back in MIDI time' and delays the rest of that voice. Pitches, number and order of the graces are unchanged.",
     "Three source ties continue in a different encoded voice (F-sharp3/B3 into bar 42, C-sharp3 into bar 56); LilyPond cannot tie across voices, so extraction.ties holds them as one event each. The engraving may show those tie arcs as unterminated.",
@@ -512,6 +513,14 @@
     [
       73.92,
       90.0
+    ],
+    [
+      83.76281124497993,
+      104.1
+    ],
+    [
+      87.21694779116467,
+      106.48
     ],
     [
       145.3,
@@ -530,8 +539,20 @@
       149.16
     ],
     [
-      199.08,
-      194.0
+      198.6128514056225,
+      193.9
+    ],
+    [
+      199.47638554216869,
+      195.08
+    ],
+    [
+      201.20345381526107,
+      197.28
+    ],
+    [
+      201.63522088353415,
+      198.0
     ],
     [
       211.5658634538153,
@@ -593,7 +614,15 @@
       "graceNotes": 32,
       "maximumRegularOnsetDifferenceQuarters": 0.0022321428571423496,
       "matched": true,
-      "graceValuesShortenedForMidi": 12
+      "graceValuesShortenedForMidi": 12,
+      "tokenCorrections": [
+        {
+          "line": 1178,
+          "old": "4.FFF",
+          "new": "4.FFF#",
+          "basis": "Source token correction (EXT, independent review RevScoresChopin 19 Oct 2026, content/plan/reviews/score-chopin-nocturne-op15-2*.json): 015-1a-BH-002.krn line 1178 encodes the bar-61 dotted-quarter bass octave as `4.FF# 4.FFF`, i.e. F-sharp2 over F-natural1 (MIDI 29). The Breitkopf & Härtel first edition (plate 5502; CFEO Bodleian copy 15-1-BH, p. 10, last system) prints the octave F-sharp1/F-sharp2 under the key signature with no natural, so the lower note is read as `4.FFF#` (MIDI 30). Only that attack changes; the downloaded bytes are unchanged and the correction is applied in memory and retained in the check report. NIFC's own copy PL-Wbfc 676/n was not consulted."
+        }
+      ]
     }
   },
   "endpointMeasurements": [
@@ -611,6 +640,42 @@
       ],
       "basis": "MEAS, cached pitch features. First: the A-sharp4 pickup rises at 1.28 s. Last: F-sharp2 (-23 to -6 dB) and A-sharp4 (-22 to -2 dB) jump at 213.25 s, after the D-sharp4 arpeggio figures that continue to 207 s. A broad window had chosen 176.6 s; that candidate was rejected.",
       "mappedAudioSeconds": 1.28,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-25-doppio-E-sharp",
+      "scoreQ": 48.5,
+      "audioSeconds": 104.1,
+      "peakSeconds": 104.14,
+      "window": [
+        104.0,
+        104.25
+      ],
+      "midiPitches": [
+        37,
+        65,
+        77
+      ],
+      "basis": "MEAS: the doppio movimento downbeat E-sharp4/E-sharp5 (q48.5). MEAS band energies (dB re the 95th percentile, cached pitch features): E-sharp4/E-sharp5 (MIDI 65/77) and the C-sharp3 partial rise at 104.10-104.15 s (E-sharp5 -45 to -26 dB), after bar 24's ritenuto; bar 26's E-sharp4 rises at 106.40-106.45 s and E-sharp5 at 106.45-106.50 s (-37 to -16 dB). Independent review measured 104.13 s and 106.43-106.50 s. The previous publication lit bar 25 at 102.30 s and bar 26 at 105.60 s.",
+      "mappedAudioSeconds": 104.1,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-26-E-sharp",
+      "scoreQ": 50.5,
+      "audioSeconds": 106.48,
+      "peakSeconds": 106.52,
+      "window": [
+        106.35,
+        106.55
+      ],
+      "midiPitches": [
+        37,
+        65,
+        77
+      ],
+      "basis": "MEAS: the bar-26 downbeat E-sharp4/E-sharp5 (q50.5). MEAS band energies (dB re the 95th percentile, cached pitch features): E-sharp4/E-sharp5 (MIDI 65/77) and the C-sharp3 partial rise at 104.10-104.15 s (E-sharp5 -45 to -26 dB), after bar 24's ritenuto; bar 26's E-sharp4 rises at 106.40-106.45 s and E-sharp5 at 106.45-106.50 s (-37 to -16 dB). Independent review measured 104.13 s and 106.43-106.50 s. The previous publication lit bar 25 at 102.30 s and bar 26 at 105.60 s.",
+      "mappedAudioSeconds": 106.48,
       "mappingDeviationSeconds": 0.0
     },
     {
@@ -663,6 +728,75 @@
       "mappingDeviationSeconds": 0.0
     },
     {
+      "label": "bar-58-D-sharp7",
+      "scoreQ": 115.0,
+      "audioSeconds": 193.9,
+      "peakSeconds": 193.94,
+      "window": [
+        193.85,
+        194.0
+      ],
+      "midiPitches": [
+        49,
+        58,
+        99
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar 58 +1/2, the 8va D-sharp7 over the left-hand C-sharp3/A-sharp3 (q115, MIDI 49/58/99). D-sharp7 rises from -78.9 dB at 193.84 s to -51.6 dB at 193.90 s; A-sharp3 from -36.6 to -20.4 dB and C-sharp3 from -41.4 to -31.2 dB at 193.84-193.96 s. Detector leading edge 193.90 s (peak 193.94 s); primary onset 193.933 s. The previous publication put q115 at 193.53 s (independent review RevScoresChopin round 2: D-sharp7 193.93 s).",
+      "mappedAudioSeconds": 193.9,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-58-left-hand-F-sharp3-A-sharp3-C-sharp4",
+      "scoreQ": 115.5,
+      "audioSeconds": 195.08,
+      "peakSeconds": 195.16,
+      "window": [
+        194.9,
+        195.2
+      ],
+      "midiPitches": [
+        54,
+        58,
+        61
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): the left-hand F-sharp3/A-sharp3/C-sharp4 chord at bar 58 +1 (q115.5, MIDI 54/58/61; the score has no right-hand attack here). After the three triplet C-sharp3/A-sharp3 attacks (A-sharp3 rises at about 193.92, 194.24 and 194.58 s), A-sharp3 rises again from -25.9 dB at 194.92 s to -20.3 dB at 194.98 s, then C-sharp4 from -27.3 dB at 194.98 s to -15.1 dB at 195.16 s with F-sharp3 (-29.1 to -22.1 dB). Detector leading edge 195.08 s (peak 195.16 s, on C-sharp4); the adaptive onset detector has 195.071 s, the primary detector none between 194.641 and 195.802 s. The chord may be slightly spread (A-sharp3 about 0.1 s before C-sharp4). The previous publication put q115.5 at 194.40 s. The independent review's suggested q115.5 window [196.1, 196.25] holds the B6 and C-sharp3/F-sharp3/A-sharp3 chord, which is q116 in this encoding (B6 rises at 196.06-196.24 s); it is not used for q115.5.",
+      "mappedAudioSeconds": 195.08,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-59-G-sharp6-F-sharp2",
+      "scoreQ": 116.5,
+      "audioSeconds": 197.28,
+      "peakSeconds": 197.32,
+      "window": [
+        197.2,
+        197.45
+      ],
+      "midiPitches": [
+        42,
+        92
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): the bar-59 downbeat 8va G-sharp6 over F-sharp2 (q116.5, MIDI 42/92). G-sharp6 rises from -56.7 dB at 197.20 s to -36.5 dB at 197.32 s; F-sharp2 from -53.6 dB at 197.20 s to -37.7 dB at 197.38 s. Detector leading edge 197.28 s (peak 197.32 s); primary onsets 196.963 s (the preceding A-sharp6 of q116.25) and 197.346 s. The preceding C-sharp7-A-sharp6-F-sharp6 group rises at about 195.73/195.85/195.97 s and the q116 B6 at 196.06-196.24 s. The previous publication lit bar 59 at 196.38 s, about 0.9 s early (independent review: G-sharp6 197.34 s, F-sharp2 197.36 s).",
+      "mappedAudioSeconds": 197.28,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-59-first-triplet-F-sharp6",
+      "scoreQ": 116.75,
+      "audioSeconds": 198.0,
+      "peakSeconds": 198.02,
+      "window": [
+        197.9,
+        198.1
+      ],
+      "midiPitches": [
+        90
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): F-sharp6 (q116.75, MIDI 90), the first note of the bar-59 F-sharp6-C-sharp6-A-sharp5 figure after the held G-sharp6. F-sharp6 rises from -46.6 dB at 197.94 s to -28.6 dB at 198.04 s; C-sharp6 rises at about 198.1 s (to -28.2 dB), A-sharp5 at 198.36 s and the q117 D-sharp6 at 198.48 s. Detector leading edge 198.00 s (peak 198.02 s); primary onset 198.066 s. Added because a dry run with only the q115/q115.5/q116.5 constraints placed q116.75/q116.833 at 197.72/197.86 s, about 0.3 s early, inside the G-sharp6 hold; the previous publication had 197.10/197.34 s (independent review RevScoresChopin round 2: 198.05/198.16/198.32 s).",
+      "mappedAudioSeconds": 198.0,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
       "label": "last",
       "scoreQ": 122.5,
       "audioSeconds": 213.08,
@@ -681,9 +815,9 @@
     }
   ],
   "adaptiveOnsetCount": 775,
-  "adaptiveMedianDeviation": 0.035598175012967914,
+  "adaptiveMedianDeviation": 0.03562546956534618,
   "gateReasons": [],
-  "elapsedSeconds": 0.6566584279644303,
+  "elapsedSeconds": 0.47285161702893674,
   "dtwSteps": [
     [
       1,
@@ -709,7 +843,7 @@
     "voices": 2
   },
   "published": true,
-  "configSha256": "c2fbf17eaaecef74647ef3e59f9d00115b84fe1dac29f6f298b512df7cb901cd",
+  "configSha256": "e7c0054aac3b1d902c620b2a1d2b25606929bd23fd731bb87d4bf4bfc7ed952c",
   "sourceDownloads": [
     {
       "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",
@@ -723,13 +857,27 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "88df097a094089b307f4dfdcfd0539ed655ec5b8ef478d25bc60629602aa062a",
+    "candidateSha256": "fac2ebf0451478668e81aa62661c3e06f955a5298b9d2147ab40c46c079d6c3a",
+    "byteIdentical": false,
+    "sameNoteIdentities": true,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": 1.0130000000000052,
+      "noteDurationSeconds": 0.897,
+      "barSeconds": 0.8969999999999914
+    },
+    "metadataFieldsChanged": [],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/chopin-nocturne-op15-2-prati-2015-0-9.28.png",
+    "work/chopin-nocturne-op15-2-prati-2015-100.1-112.1.png",
+    "work/chopin-nocturne-op15-2-prati-2015-102.48-114.48.png",
     "work/chopin-nocturne-op15-2-prati-2015-104-112.png",
+    "work/chopin-nocturne-op15-2-prati-2015-112-120.png",
     "work/chopin-nocturne-op15-2-prati-2015-118.949-130.949.png",
     "work/chopin-nocturne-op15-2-prati-2015-120-128.png",
     "work/chopin-nocturne-op15-2-prati-2015-128-136.png",
@@ -738,7 +886,11 @@
     "work/chopin-nocturne-op15-2-prati-2015-143.02-155.02.png",
     "work/chopin-nocturne-op15-2-prati-2015-144-152.png",
     "work/chopin-nocturne-op15-2-prati-2015-145.16-157.16.png",
+    "work/chopin-nocturne-op15-2-prati-2015-189.9-201.9.png",
+    "work/chopin-nocturne-op15-2-prati-2015-191.08-203.08.png",
     "work/chopin-nocturne-op15-2-prati-2015-192-200.png",
+    "work/chopin-nocturne-op15-2-prati-2015-193.28-205.28.png",
+    "work/chopin-nocturne-op15-2-prati-2015-194-206.png",
     "work/chopin-nocturne-op15-2-prati-2015-200-208.png",
     "work/chopin-nocturne-op15-2-prati-2015-208-216.png",
     "work/chopin-nocturne-op15-2-prati-2015-209.086-218.86.png"

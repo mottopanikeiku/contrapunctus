@@ -1,0 +1,109 @@
+{
+  "id": "chopin-etude-op25-6-neeman",
+  "verdict": "pass",
+  "reviewer": "RevScoresChopin",
+  "date": "2026-10-19",
+  "round": 2,
+  "scope": "MEAS: re-review of the corrected republication (Edward Neeman), score SHA-256 ed8b42c2…. Covers the bar-34/35 constraints, the listed residuals, hashes, gates and the sheet pack. Audio checks: fresh-CQT reviewer overlay over 63.4–67.4 s, the pipeline overlay over 60.44–72.44 s, pitch bands, a per-bar lag scan, and audio-to-audio DTW against the Paderewski 1923 map in both directions. Not aural review.",
+  "defects": [],
+  "resolvedSinceRound1": [
+    {
+      "basis": "MEAS",
+      "code": "BAR_35_REPRISE_EARLY",
+      "finding": "Resolved. Bar 35 is now at 65.160 s, against G-sharp2 rising at 65.18 s (+19 dB), B4 at 65.19 s and B2 at 65.16 s. This is inside the round-1 pitch-class switch from bar 34's G/A-sharp/C/D material (to 65.0 s) to G-sharp minor (from 65.2 s). Bar 36 is now at 67.107 s, and its left hand follows the bands: G-sharp2 67.107 (rise 67.13), D-sharp3 67.298 (67.32), B3 67.490 (67.56), C-sharp3 67.731 (67.71), B2 67.878 (67.88). DTW from Paderewski now gives bar 35 +0.04 s and bar 36 −0.11 s (round 1: +0.91/+0.65 s). The lag scan no longer flags bar 35 (57 of 63 bars best within 0.3 s; zero-lag cosine 0.741)."
+    }
+  ],
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "BAR_35_FIRST_BEAT_SIXTEENTHS_EARLY",
+      "finding": "Non-blocking; this is the author's listed residual, confirmed. Neeman lengthens the first sixteenth of the reprise. The next three sixteenths are early:\n- q136.25 C-sharp5/E5: 65.299 s against rises at 65.49–65.50 s;\n- q136.5 B4/D-sharp5 with D-sharp3: 65.425 s against D-sharp3 65.65 s;\n- q136.75 C-sharp5/E5: 65.551 s against E5 65.76 s.\nThat is 0.2 s early. q137 (65.810 s; B3 65.88 s, B4 65.87 s) agrees. All four lie inside bar 35's first beat, so bar lighting is unaffected."
+    },
+    {
+      "basis": "MEAS",
+      "code": "BAR_34_RITARDANDO_COMPRESSED",
+      "finding": "Non-blocking. In bar 34's last beat:\n- q134.5 (63.517 s) matches G3/A-sharp3 at 63.43 s and C-sharp5/D-sharp5 at 63.54 s;\n- q134.75 is at 63.644 s against an A-sharp4 rise at 63.75 s;\n- q135 is at 63.770 s against G3 at 63.80 s but C-sharp5 at 64.00 s (author's detector edge: 63.94 s).\nOffsets are at most 0.23 s, inside bar 34. The constrained q135.5 (64.44 s) and q135.75 (64.78 s) match C-sharp5 at 64.48 s and the 64.80–64.84 s rises."
+    },
+    {
+      "basis": "MEAS",
+      "code": "BAR_61_DTW_DISAGREEMENT",
+      "finding": "Documentation only. Bar 61 differs by −0.67/+0.80 s in the two DTW directions, as in round 1. Neeman's bar 61 is constrained at 114.80 s on the G-sharp chord. Paderewski's bar 61 cannot be measured, so this does not show an error here."
+    },
+    {
+      "basis": "MEAS",
+      "code": "OTTAVA_PRINTED_AT_SOUNDING_PITCH",
+      "finding": "Display only, unchanged from round 1. 8va passages are engraved at sounding pitch with many ledger lines."
+    },
+    {
+      "basis": "INFERENCE",
+      "code": "EDITION_IS_LEMOINE_ISSUE",
+      "finding": "Unchanged from round 1. The source is the Lemoine Paris issue; score.json does not call it the first edition."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#chopin-score-fixes-round-3--19-october-2026-scorefix3",
+    "finding": "The three new constraints (64.44, 64.78 and 65.16 s), the gates and score SHA-256 ed8b42c2… match the receipt and the public file. The candidate equals the public file; results equal checks; the config and audio hashes match. Bars 33–34 and 37–38 keep their round-1 times (60.407, 62.14, 68.90 and 70.638 s)."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/chopin-etude-op25-6-neeman-checks.json",
+    "primaryMedianSeconds": 0.05538,
+    "primaryP95Seconds": 0.286459,
+    "maximumAnchorDeviationSeconds": 0.0359,
+    "maximumLocalRegionMedianSeconds": 0.045581,
+    "minimumPublishedNoteDurationSeconds": 0.031,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.031,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 63,
+    "distinctEngravedBars": 63,
+    "sheetPages": 4,
+    "svgBarSetEqualsIndex": true,
+    "derivedBars": [],
+    "unresolvedScoreBars": [],
+    "finding": "All 2,551 notes lie inside their bar, and bar times increase. check_contract.py prints 'ok … 63 bars; 2551 notes; 2 source-defined voices'. With DOM ids stripped, the four sheet pages equal the round-1 pages, which were all rasterised and inspected (22 justified systems, bars 1–63). They also equal the Paderewski pack, and index.json is byte-identical. The inventory is matched (2,550 regular attacks plus 1 grace). The MusicXML derivative equals the Paderewski one."
+  },
+  "order": {
+    "basis": "MEAS",
+    "finding": "Bars 1–63 are played once, as established in round 1 (the print has no repeats). DTW with Paderewski in both directions now agrees within ±0.55 s for every bar except bar 61 (see observation)."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revchopin/band.py, lagscan.py, a2a.py, overlay.py, pcwin.py",
+    "carriedForward": "The round-1 checks of the source, licence, converter, Schlesinger print comparison, opening, bars 29–31 and coda still apply. Outside the bar-34–36 region the map is unchanged."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "work/chopin-etude-op25-6-neeman-60.44-72.44.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op25-6-neeman-63.4-67.4.png"
+    ],
+    "finding": "The bar-35 line sits where bar 34's G/A-sharp/C/D lines end and the G-sharp2 band begins. Bar 36 sits on the next G-sharp2 entry. The early bar-35 sixteenths and the compressed end of bar 34 are the only visible offsets."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/025-1b-LE-006.krn",
+    "opened": true,
+    "licenseEvidence": "Unchanged: pinned LICENSE.txt SHA-256 430533a2… (CC BY 4.0; acknowledge the first five lines), .krn SHA-256 0a1a2b5a….",
+    "attribution": "The public score.json carries license 'CC BY 4.0', licenseUrl, url and the verbatim five-line source.attribution. Status is provisional, with review.by null.",
+    "edition": "Paris edition, Henry Lemoine (RISM 1001002392)",
+    "encoder": "Marta Lawrence; editors Wojciech Jakubiak-Danek, Mateusz Mrugas (NIFC)",
+    "license": "CC BY 4.0"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "The whole étude is played once in written order. The performer's edition is not established."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser run by RevScoresChopin, and no alignment command run. Constraints are disclosed fitting evidence. As in round 1, the Lemoine print itself was not viewed. Public score SHA-256 ed8b42c28d31837f58212da9c9b7d525623a8559c5d3577898fff57b8376357a."
+}

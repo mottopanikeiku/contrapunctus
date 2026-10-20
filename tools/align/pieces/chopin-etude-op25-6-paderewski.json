@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "id": "chopin-etude-op25-6-paderewski",
+  "source": {
+    "title": "Étude in G♯ minor, Op. 25 No. 6",
+    "edition": "Paris edition published by Lemoine (Études Op. 25; RISM 1001002392, PL-Wbfc 4808/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+    "encoder": "Marta Lawrence (encoding); Wojciech Jakubiak-Danek, Mateusz Mrugas (editing); NIFC Chopin Heritage in Open Access project",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/025-1b-LE-006.krn",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+    "main": "etude.ly",
+    "humdrum": "025-1b-LE-006.krn",
+    "musicxml": "025-1b-LE-006.musicxml",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/025-1b-LE-006.krn",
+        "file": "025-1b-LE-006.krn",
+        "sha256": "0a1a2b5a59c13a959f3cabc6173c19bf9241cc7baf880acdc243f76355844360"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+        "file": "LICENSE.txt",
+        "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "music": "\\new StaffGroup << \\new Staff = \"upper-1\" { \\PartPOneVoiceOne } \\new Staff = \"upper-2\" { \\PartPOneVoiceTwo } \\new Staff = \"lower-5\" { \\PartPOneVoiceFive } \\new Staff = \"lower-6\" { \\PartPOneVoiceSix } \\new Staff = \"lower-7\" { \\PartPOneVoiceSeven } \\new Staff = \"lower-8\" { \\PartPOneVoiceEight } >>",
+    "ties": [
+      {
+        "origin": {
+          "q": 59.75,
+          "pitch": 78,
+          "voice": "lower",
+          "durationQ": 0.25
+        },
+        "continuation": {
+          "q": 60.0,
+          "pitch": 78,
+          "voice": "lower",
+          "durationQ": 0.5
+        },
+        "basis": "025-1b-LE-006.krn lines 341/350: source tie continues in another encoded voice of the same staff; LilyPond cannot tie across voices, so the note is held, not reattacked."
+      }
+    ]
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        "upper-1:",
+        "upper-2:"
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        "lower-5:",
+        "lower-6:",
+        "lower-7:",
+        "lower-8:"
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 63,
+    "quarters": 4,
+    "order": [
+      [
+        1,
+        63
+      ]
+    ],
+    "description": "Bars 1-63 once in written order. The source has no repeat signs; nothing is cut or repeated."
+  },
+  "endpoints": {
+    "first": [
+      2.55,
+      2.7
+    ],
+    "last": [
+      115.88,
+      116.02
+    ],
+    "basis": "MEAS, cached pitch features (dB re the 95th-percentile total). First: the opening B4/D-sharp5 trill in thirds (MIDI 71/75) rises from about -44 to -17 dB at 2.60-2.65 s; a broad 0-4 s window had chosen 3.62 s, a later trill attack. Last: in this acoustic transfer the bass of the final G-sharp-major chord (q248) is below the surface-noise floor; its rolled upper notes rise at G-sharp3 (56) 116.0 s, C4 (60) 116.6 s, D-sharp4 (63) 116.8 s and C5 (72) 117.0 s. The window [115.88, 116.02] takes the first measurable chord note (a wider 115.9-116.15 window measured 116.14 s, on a later D-sharp4 swell); the bass attack itself is not measured. Periodic surface clicks every 0.77 s (one 78-rpm revolution) continue after the music."
+  },
+  "boundaries": [],
+  "provenance": [
+    "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",
+    "Edition: the Paris edition of Études Op. 25 catalogued by NIFC Chopin First Editions Online as 025-1b-LE-006, publisher recorded in the file as Lemoine, Paris (RISM 1001002392, PL-Wbfc 4808/n); encoding Marta Lawrence, editing Wojciech Jakubiak-Danek and Mateusz Mrugas. The performer's edition is not established; first-edition readings can differ from later editions.",
+    "Conversion: tools/align/humdrum_convert.py reads the unchanged **kern tokens (Humdrum line timing, spine splits/merges, explicit sounding pitches, ties, graces, tuplets) and writes plain MusicXML for the pinned LilyPond 2.24.4 converter. Dynamics, hairpins, pedalling, fingering, stems, layout comments, *rscale display scaling, cue size and editorial text are not converted; slurs are kept only when both ends lie in one encoded voice. Voices are the encoded Humdrum sub-spines on each staff (MusicXML voices 1-4 upper, 5-8 lower), labelled here only as upper/lower staff.",
+    "Source identity (MEAS): the compiled events match all 2,550 regular **kern attacks (tied continuations excluded) by pitch within one MIDI tick (maximum onset difference 0.0 quarter), plus the single grace note. Independent check with Verovio 6.3.0's Humdrum importer: 2,553 notes in both readings; per-measure relative timing agrees in all 63 measures.",
+    "One source tie continues in a different encoded voice (F-sharp5 into bar 16, lines 341/350); extraction.ties holds it as one event. The engraving may show that tie arc as unterminated.",
+    "Recording: Ignacy Jan Paderewski, Victor 917-B (matrix B-27918, take 1), 4 May 1923 (content/listen module). Acoustic transfer: the tuning estimate is 445.88 Hz (+23 cents, plausibly transfer speed); energy below about G2 is not measurable, so bass attacks are not individually measured and periodic 78-rpm surface clicks are present."
+  ],
+  "anchors": [
+    {
+      "scoreQ": 242.0,
+      "window": [
+        110.5,
+        110.66
+      ],
+      "label": "bar-61-C-sharp2-chord",
+      "basis": "MEAS: the bar-61 second chord C-sharp2/G-sharp2/E3/G-sharp3/A-sharp3 (q242), measured on its upper notes. MEAS band energies (dB re the 95th-percentile total; this acoustic transfer has no measurable energy below about G2, so bass notes are not measured): A-sharp3/G-sharp3 (58/56) jump at 110.55-110.7 s (-31.8 to -12.8 dB) after near-silence at 110.2-110.5 s; C4/D-sharp3 (60/51) rise at 111.6-111.8 s; the rolled q246 chord enters G3 (55) 113.30-113.40 s, C-sharp4 (61) 113.55-113.60, D-sharp4 (63) 113.80-113.85 and A-sharp4 (70) 114.05-114.10 s. A D-sharp4 re-attack at 115.25 s has no written counterpart. Surface clicks recur every 0.77 s (113.7, 114.45, 115.2, 116.0 s ...); the measured rises are single-pitch, sustained increases, not broadband clicks."
+    },
+    {
+      "scoreQ": 244.0,
+      "window": [
+        111.55,
+        111.75
+      ],
+      "label": "bar-62-G-sharp1-chord",
+      "basis": "MEAS: the bar-62 chord G-sharp1/G-sharp2/D-sharp3/G-sharp3/C4 (q244), measured on C4/D-sharp3. MEAS band energies (dB re the 95th-percentile total; this acoustic transfer has no measurable energy below about G2, so bass notes are not measured): A-sharp3/G-sharp3 (58/56) jump at 110.55-110.7 s (-31.8 to -12.8 dB) after near-silence at 110.2-110.5 s; C4/D-sharp3 (60/51) rise at 111.6-111.8 s; the rolled q246 chord enters G3 (55) 113.30-113.40 s, C-sharp4 (61) 113.55-113.60, D-sharp4 (63) 113.80-113.85 and A-sharp4 (70) 114.05-114.10 s. A D-sharp4 re-attack at 115.25 s has no written counterpart. Surface clicks recur every 0.77 s (113.7, 114.45, 115.2, 116.0 s ...); the measured rises are single-pitch, sustained increases, not broadband clicks."
+    },
+    {
+      "scoreQ": 246.0,
+      "window": [
+        113.28,
+        113.42
+      ],
+      "label": "bar-62-rolled-chord",
+      "basis": "MEAS: the bar-62 second chord D-sharp2/G3/C-sharp4/D-sharp4/A-sharp4 (q246), rolled; the window takes its first measurable note, G3. MEAS band energies (dB re the 95th-percentile total; this acoustic transfer has no measurable energy below about G2, so bass notes are not measured): A-sharp3/G-sharp3 (58/56) jump at 110.55-110.7 s (-31.8 to -12.8 dB) after near-silence at 110.2-110.5 s; C4/D-sharp3 (60/51) rise at 111.6-111.8 s; the rolled q246 chord enters G3 (55) 113.30-113.40 s, C-sharp4 (61) 113.55-113.60, D-sharp4 (63) 113.80-113.85 and A-sharp4 (70) 114.05-114.10 s. A D-sharp4 re-attack at 115.25 s has no written counterpart. Surface clicks recur every 0.77 s (113.7, 114.45, 115.2, 116.0 s ...); the measured rises are single-pitch, sustained increases, not broadband clicks."
+    }
+  ]
+}

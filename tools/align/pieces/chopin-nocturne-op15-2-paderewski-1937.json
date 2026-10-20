@@ -12,6 +12,14 @@
     "main": "nocturne.ly",
     "humdrum": "015-1a-BH-002.krn",
     "musicxml": "015-1a-BH-002.musicxml",
+    "humdrumCorrections": [
+      {
+        "line": 1178,
+        "old": "4.FFF",
+        "new": "4.FFF#",
+        "basis": "Source token correction (EXT, independent review RevScoresChopin 19 Oct 2026, content/plan/reviews/score-chopin-nocturne-op15-2*.json): 015-1a-BH-002.krn line 1178 encodes the bar-61 dotted-quarter bass octave as `4.FF# 4.FFF`, i.e. F-sharp2 over F-natural1 (MIDI 29). The Breitkopf & Härtel first edition (plate 5502; CFEO Bodleian copy 15-1-BH, p. 10, last system) prints the octave F-sharp1/F-sharp2 under the key signature with no natural, so the lower note is read as `4.FFF#` (MIDI 30). Only that attack changes; the downloaded bytes are unchanged and the correction is applied in memory and retained in the check report. NIFC's own copy PL-Wbfc 676/n was not consulted."
+      }
+    ],
     "downloads": [
       {
         "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",
@@ -128,9 +136,138 @@
     "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",
     "Edition: first edition, Breitkopf & Härtel, Leipzig (RISM 1001035842, PL-Wbfc 676/n); encoding Jędrzej Mróz, editing Tomasz Sierawski and Wojciech Jakubiak-Danek. The performer's edition is not established; first-edition readings can differ from later editions.",
     "Conversion: tools/align/humdrum_convert.py reads the unchanged **kern tokens (Humdrum line timing, spine splits/merges, explicit sounding pitches, ties, graces, tuplets) and writes plain MusicXML for the pinned LilyPond 2.24.4 converter. Dynamics, hairpins, pedalling, fingering, stems, layout comments, *rscale display scaling, cue size and editorial text are not converted; slurs are kept only when both ends lie in one encoded voice. Voices are the encoded Humdrum sub-spines on each staff (MusicXML voices 1-4 upper, 5-8 lower), labelled here only as upper/lower staff.",
+    "Source token correction (EXT, independent review RevScoresChopin 19 Oct 2026, content/plan/reviews/score-chopin-nocturne-op15-2*.json): 015-1a-BH-002.krn line 1178 encodes the bar-61 dotted-quarter bass octave as `4.FF# 4.FFF`, i.e. F-sharp2 over F-natural1 (MIDI 29). The Breitkopf & Härtel first edition (plate 5502; CFEO Bodleian copy 15-1-BH, p. 10, last system) prints the octave F-sharp1/F-sharp2 under the key signature with no natural, so the lower note is read as `4.FFF#` (MIDI 30). Only that attack changes; the downloaded bytes are unchanged and the correction is applied in memory and retained in the check report. NIFC's own copy PL-Wbfc 676/n was not consulted.",
     "Source identity (MEAS): the compiled events match all 1,294 regular **kern attacks (tied continuations excluded) by pitch within one MIDI tick, plus all 32 grace notes; maximum regular onset difference 0.0022 quarter (septuplet tick rounding). Independent check with Verovio 6.3.0's Humdrum importer: 1,350 notes in both readings; per-measure relative timing agrees in every measure except the 10 that contain graces (Verovio performs graces on the beat).",
     "Twelve written eighth-note graces that follow very fast runs are printed and compiled one or two flags shorter: LilyPond 2.24.4 performs a grace group before its main note for about a quarter of its written length and otherwise reports 'Going back in MIDI time' and delays the rest of that voice. Pitches, number and order of the graces are unchanged.",
     "Three source ties continue in a different encoded voice (F-sharp3/B3 into bar 42, C-sharp3 into bar 56); LilyPond cannot tie across voices, so extraction.ties holds them as one event each. The engraving may show those tie arcs as unterminated.",
     "Recording: Ignacy Jan Paderewski, London, 30 January 1937 (content/listen module)."
+  ],
+  "anchors": [
+    {
+      "scoreQ": 48.5,
+      "window": [
+        105.8,
+        106.1
+      ],
+      "label": "bar-25-doppio-E-sharp",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): doppio movimento downbeat C-sharp2/E-sharp4/E-sharp5 (q48.5): C-sharp3 partial rises at 105.84 s (-39 to -24 dB), E-sharp4 at 105.96 s (-34 to -21 dB), E-sharp5 at 106.08 s (-41 to -17 dB); total energy -27 dB at 105.5 s, -14.5 dB at 106.0 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 72.5,
+      "window": [
+        121.3,
+        121.5
+      ],
+      "label": "bar-37-E5",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-37 downbeat D2/D3/G-sharp4/G-sharp5 (q72.5): G-sharp5 rises at 121.38 s (-24 to +2 dB), G-sharp4 at 121.44 s, D3 at 121.62 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 80.5,
+      "window": [
+        125.95,
+        126.2
+      ],
+      "label": "bar-41-D5-D6",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-41 downbeat C-sharp2/C-sharp3/D5/D6 (q80.5): D5 rises at 126.02 s (-29 to -11 dB), C-sharp3 at 126.08 s, D6 at 126.18 s; the same chord in bar 39 (q76.5) rises at 123.76 s and its q77.5 repetition at 124.44 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 88.5,
+      "window": [
+        132.88,
+        133.12
+      ],
+      "label": "bar-45-chord",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-45 downbeat (q88.5, C-sharp2/G-sharp2/E-sharp3/D4/D5): G-sharp2 rises at 132.92 s, D5 at 132.96 s (-35 to -8 dB), D4 at 133.02 s, E-sharp3 at 133.10 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 94.5,
+      "window": [
+        138.95,
+        139.15
+      ],
+      "label": "bar-48-D3-D4",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-48 smorzando figure D3/D4 (q94.5): D4 rises at 139.0-139.1 s (-23 to -7 dB); then E-sharp3 139.55 s, G-sharp3 139.9 s, C-sharp3/C-sharp4 140.35-140.4 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 95.33333333333333,
+      "window": [
+        140.98,
+        141.15
+      ],
+      "label": "bar-48-last-C-sharp4",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): last C-sharp4 of the figure before the fermata rest (q95.333): C-sharp4 rises at 141.05-141.1 s (-23 to -17 dB); total energy then falls to -26 to -28 dB at 142.2-143.2 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 96.0,
+      "window": [
+        143.28,
+        143.45
+      ],
+      "label": "A-prime-pickup-A-sharp4",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): reprise pickup A-sharp4 (q96): A-sharp4 rises at 143.3-143.5 s (-56 to -19 dB), the first rise after the fermata rest. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 96.375,
+      "window": [
+        145.12,
+        145.3
+      ],
+      "label": "A-prime-pickup-B4",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): pickup B4 (q96.375): B4 rises at 145.2 s (-40 to -25 dB); independent review measured 145.24 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 96.5,
+      "window": [
+        145.75,
+        145.95
+      ],
+      "label": "bar-49-A-sharp4",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-49 downbeat C-sharp2/A-sharp4 (q96.5): A-sharp4 rises again at 145.8-145.9 s (-39 to -24 dB); G-sharp4/E-sharp4 follow at about 146.3/146.8 s (independent review). Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 104.5,
+      "window": [
+        162.7,
+        162.95
+      ],
+      "label": "bar-53-D-sharp2-B4",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-53 downbeat D-sharp2/B4 (q104.5): D-sharp2 rises at 162.72 s and B4 is re-struck at 162.84 s (-21.5 to -13 dB), after q104 B4 at 162.06 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 106.5,
+      "window": [
+        166.1,
+        166.3
+      ],
+      "label": "bar-54-D-sharp4",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-54 downbeat G-sharp1/G-sharp2/D-sharp4 (q106.5): D-sharp4 rises at 166.18 s (-17.6 to +0.6 dB) with the total-energy peak at 166.3 s, after the q106 D-sharp3/D-sharp4 at 165.58 s. Without this constraint the map put bar 54 at 167.5 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s and bar 54 at 166.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 112.5,
+      "window": [
+        183.85,
+        184.2
+      ],
+      "label": "bar-57-chord",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-57 downbeat D-sharp3/A-sharp3/F-sharp4 (q112.5): D-sharp3 rises at 183.92 s (-42.5 to -26 dB) and A-sharp3 at 184.12 s (-28.5 to -10 dB). Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 114.5,
+      "window": [
+        195.25,
+        195.45
+      ],
+      "label": "bar-58-F-sharp4",
+      "basis": "Bar-58 downbeat F-sharp1/F-sharp4 (q114.5). MEAS, cached pitch features (dB re the 95th-percentile total): after bar 57, F-sharp4 (66) rises at 195.34 s (-36 to -16 dB); D-sharp7 (99) rises at 195.80 s (-47 to -34 dB) with the strongest onset-feature peak at 195.85 s; C-sharp4 (61) and C-sharp5 (73) rise at 196.34 s. Without these constraints the map placed q114.5 at 195.17 s and q115 at about 196.4 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    },
+    {
+      "scoreQ": 115.0,
+      "window": [
+        195.72,
+        195.9
+      ],
+      "label": "bar-58-D-sharp7",
+      "basis": "Bar-58 C-sharp3/A-sharp3/D-sharp7 (q115). MEAS, cached pitch features (dB re the 95th-percentile total): after bar 57, F-sharp4 (66) rises at 195.34 s (-36 to -16 dB); D-sharp7 (99) rises at 195.80 s (-47 to -34 dB) with the strongest onset-feature peak at 195.85 s; C-sharp4 (61) and C-sharp5 (73) rise at 196.34 s. Without these constraints the map placed q114.5 at 195.17 s and q115 at about 196.4 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review)."
+    }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "uniqueScoreAttacks": 733,
   "audioDetectedOnsets": 1213,
-  "medianAbsoluteOnsetDeviation": 0.048465699532840745,
-  "noteWeightedMedianDeviation": 0.04875008964430094,
-  "p95AbsoluteOnsetDeviation": 0.19067213069966726,
-  "fractionWithin150ms": 0.8949522510231923,
+  "medianAbsoluteOnsetDeviation": 0.0482668087315119,
+  "noteWeightedMedianDeviation": 0.04792269883490974,
+  "p95AbsoluteOnsetDeviation": 0.18979832254183293,
+  "fractionWithin150ms": 0.9072305593451568,
   "regions": [
     {
       "start": 0.0,
@@ -129,226 +129,216 @@
     {
       "start": 96.0,
       "end": 104.0,
-      "attacks": 20,
-      "median": 0.05070240144250704,
-      "p95": 0.13215239188045802,
-      "max": 0.15494740868233237,
-      "adaptiveMedian": 0.05198699560146025,
-      "adaptiveP95": 0.13584640645896331
+      "attacks": 14,
+      "median": 0.03935934213051695,
+      "p95": 0.11531120271896782,
+      "max": 0.12323111322820068,
+      "adaptiveMedian": 0.04755703084499885,
+      "adaptiveP95": 0.11937469478246214
     },
     {
       "start": 104.0,
       "end": 112.0,
-      "attacks": 54,
-      "median": 0.050747788922606674,
-      "p95": 0.15318735272723244,
+      "attacks": 60,
+      "median": 0.05375276978780619,
+      "p95": 0.1554540918776851,
       "max": 0.16935984484155142,
-      "adaptiveMedian": 0.04249531695892017,
-      "adaptiveP95": 0.14357576778201842
+      "adaptiveMedian": 0.03961152826901326,
+      "adaptiveP95": 0.1408914206998112
     },
     {
       "start": 112.0,
       "end": 120.0,
-      "attacks": 65,
-      "median": 0.06065459115373528,
-      "p95": 0.29661098209923575,
+      "attacks": 78,
+      "median": 0.05926755277914708,
+      "p95": 0.28796556293201253,
       "max": 0.34519738819220436,
-      "adaptiveMedian": 0.041548916755445475,
-      "adaptiveP95": 0.08864899279658117
+      "adaptiveMedian": 0.040044413766182174,
+      "adaptiveP95": 0.08961482073585711
     },
     {
       "start": 120.0,
       "end": 128.0,
-      "attacks": 29,
-      "median": 0.05265743245088572,
-      "p95": 0.18527158976039285,
-      "max": 0.3558555309674176,
-      "adaptiveMedian": 0.03174275332622756,
-      "adaptiveP95": 0.087705871103455
+      "attacks": 70,
+      "median": 0.07312788569244333,
+      "p95": 0.3077124033266776,
+      "max": 0.34589569160998224,
+      "adaptiveMedian": 0.03755040570444379,
+      "adaptiveP95": 0.07998842171408425
     },
     {
       "start": 128.0,
       "end": 136.0,
-      "attacks": 26,
-      "median": 0.07278501762154121,
-      "p95": 0.16501502609075658,
-      "max": 0.21789552768899512,
-      "adaptiveMedian": 0.03371267382456722,
-      "adaptiveP95": 0.08677338606125318
+      "attacks": 53,
+      "median": 0.06618391935086265,
+      "p95": 0.19060767939479886,
+      "max": 0.21738409419992877,
+      "adaptiveMedian": 0.03298527443104149,
+      "adaptiveP95": 0.08683148922219175
     },
     {
       "start": 136.0,
       "end": 144.0,
-      "attacks": 28,
-      "median": 0.04680832172228122,
-      "p95": 0.14138644373412032,
-      "max": 0.22347935961531107,
-      "adaptiveMedian": 0.04233928912931617,
-      "adaptiveP95": 0.1581286779772128
+      "attacks": 24,
+      "median": 0.055744228615139946,
+      "p95": 0.17075764281618566,
+      "max": 0.18643089364260845,
+      "adaptiveMedian": 0.04600281397698325,
+      "adaptiveP95": 0.1264472925716461
     },
     {
       "start": 144.0,
       "end": 152.0,
-      "attacks": 27,
-      "median": 0.0598715952244504,
-      "p95": 0.23001021774175562,
-      "max": 0.3491495232630939,
-      "adaptiveMedian": 0.04826161790018091,
-      "adaptiveP95": 0.12753811163016734
+      "attacks": 13,
+      "median": 0.03065363494789608,
+      "p95": 0.10549039696197723,
+      "max": 0.10834467120182012,
+      "adaptiveMedian": 0.03065363494789608,
+      "adaptiveP95": 0.09283632489139676
     },
     {
       "start": 152.0,
       "end": 160.0,
-      "attacks": 26,
-      "median": 0.0562527661667076,
-      "p95": 0.18903020244244573,
-      "max": 0.27992705515939065,
-      "adaptiveMedian": 0.03080621806958561,
-      "adaptiveP95": 0.12484331885363531
+      "attacks": 55,
+      "median": 0.05075786137746263,
+      "p95": 0.17175127209521007,
+      "max": 0.2569388267355066,
+      "adaptiveMedian": 0.04457083435778486,
+      "adaptiveP95": 0.11554122015268715
     },
     {
       "start": 160.0,
       "end": 168.0,
-      "attacks": 24,
-      "median": 0.030921099363439453,
-      "p95": 0.2129735267601203,
-      "max": 0.24927301040901284,
-      "adaptiveMedian": 0.029592656339602286,
-      "adaptiveP95": 0.09564890855940998
+      "attacks": 12,
+      "median": 0.026505819195136837,
+      "p95": 0.0661893014233996,
+      "max": 0.08438379367814264,
+      "adaptiveMedian": 0.0296580881348234,
+      "adaptiveP95": 0.06410075676860741
     },
     {
       "start": 168.0,
       "end": 176.0,
-      "attacks": 28,
-      "median": 0.1054651727659035,
-      "p95": 0.32274666651299233,
-      "max": 0.34517674439248935,
-      "adaptiveMedian": 0.041837404891637675,
-      "adaptiveP95": 0.13875750920348365
+      "attacks": 21,
+      "median": 0.09037674507550264,
+      "p95": 0.27400158456958934,
+      "max": 0.35218185667835655,
+      "adaptiveMedian": 0.040316367510854434,
+      "adaptiveP95": 0.13617736251123347
     },
     {
       "start": 176.0,
       "end": 184.0,
-      "attacks": 46,
-      "median": 0.058992918954729134,
-      "p95": 0.1914591572070563,
-      "max": 0.2181263830833302,
-      "adaptiveMedian": 0.03493715081413029,
-      "adaptiveP95": 0.08593034980055592
+      "attacks": 13,
+      "median": 0.04633062863698001,
+      "p95": 0.2669961239516396,
+      "max": 0.3075461710789966,
+      "adaptiveMedian": 0.04633062863698001,
+      "adaptiveP95": 0.09641288623885201
     },
     {
       "start": 184.0,
       "end": 192.0,
-      "attacks": 22,
-      "median": 0.061495369232019925,
-      "p95": 0.15895424555365734,
-      "max": 0.16967953446436468,
-      "adaptiveMedian": 0.026344015517835828,
-      "adaptiveP95": 0.06980078135674717
+      "attacks": 18,
+      "median": 0.058099199519148215,
+      "p95": 0.12718244406221824,
+      "max": 0.15997814386872733,
+      "adaptiveMedian": 0.03241140155856215,
+      "adaptiveP95": 0.1029255252301098
     },
     {
       "start": 192.0,
       "end": 200.0,
-      "attacks": 24,
-      "median": 0.06921454525584636,
-      "p95": 0.2063478061907289,
-      "max": 0.22606453022973483,
-      "adaptiveMedian": 0.03741656250852543,
-      "adaptiveP95": 0.1284253459415509
+      "attacks": 15,
+      "median": 0.05721033795043695,
+      "p95": 0.13598158620878564,
+      "max": 0.13950004098023783,
+      "adaptiveMedian": 0.029419173291870493,
+      "adaptiveP95": 0.0917162527661588
     },
     {
       "start": 200.0,
       "end": 208.0,
       "attacks": 36,
-      "median": 0.05167841433767251,
-      "p95": 0.23444874737047172,
-      "max": 0.3255020080321174,
-      "adaptiveMedian": 0.03697688714044034,
-      "adaptiveP95": 0.0613599978144066
+      "median": 0.0809266999973346,
+      "p95": 0.30765497363603345,
+      "max": 0.43860366636613435,
+      "adaptiveMedian": 0.025524547168274125,
+      "adaptiveP95": 0.07058929595936547
     },
     {
       "start": 208.0,
       "end": 216.0,
-      "attacks": 55,
-      "median": 0.06300057372348533,
-      "p95": 0.18344239543208965,
-      "max": 0.23902849493208578,
-      "adaptiveMedian": 0.02801349616152038,
-      "adaptiveP95": 0.06891246619132686
+      "attacks": 28,
+      "median": 0.07281356719401799,
+      "p95": 0.17352445154763244,
+      "max": 0.3011865147665844,
+      "adaptiveMedian": 0.02650861951210004,
+      "adaptiveP95": 0.06408660492310359
     }
   ],
   "worstFiveOnsetRegions": [
     {
       "start": 168.0,
       "end": 176.0,
-      "attacks": 28,
-      "median": 0.1054651727659035,
-      "p95": 0.32274666651299233,
-      "max": 0.34517674439248935,
-      "adaptiveMedian": 0.041837404891637675,
-      "adaptiveP95": 0.13875750920348365
+      "attacks": 21,
+      "median": 0.09037674507550264,
+      "p95": 0.27400158456958934,
+      "max": 0.35218185667835655,
+      "adaptiveMedian": 0.040316367510854434,
+      "adaptiveP95": 0.13617736251123347
     },
     {
-      "start": 128.0,
-      "end": 136.0,
-      "attacks": 26,
-      "median": 0.07278501762154121,
-      "p95": 0.16501502609075658,
-      "max": 0.21789552768899512,
-      "adaptiveMedian": 0.03371267382456722,
-      "adaptiveP95": 0.08677338606125318
+      "start": 200.0,
+      "end": 208.0,
+      "attacks": 36,
+      "median": 0.0809266999973346,
+      "p95": 0.30765497363603345,
+      "max": 0.43860366636613435,
+      "adaptiveMedian": 0.025524547168274125,
+      "adaptiveP95": 0.07058929595936547
     },
     {
-      "start": 192.0,
-      "end": 200.0,
-      "attacks": 24,
-      "median": 0.06921454525584636,
-      "p95": 0.2063478061907289,
-      "max": 0.22606453022973483,
-      "adaptiveMedian": 0.03741656250852543,
-      "adaptiveP95": 0.1284253459415509
+      "start": 120.0,
+      "end": 128.0,
+      "attacks": 70,
+      "median": 0.07312788569244333,
+      "p95": 0.3077124033266776,
+      "max": 0.34589569160998224,
+      "adaptiveMedian": 0.03755040570444379,
+      "adaptiveP95": 0.07998842171408425
     },
     {
       "start": 208.0,
       "end": 216.0,
-      "attacks": 55,
-      "median": 0.06300057372348533,
-      "p95": 0.18344239543208965,
-      "max": 0.23902849493208578,
-      "adaptiveMedian": 0.02801349616152038,
-      "adaptiveP95": 0.06891246619132686
+      "attacks": 28,
+      "median": 0.07281356719401799,
+      "p95": 0.17352445154763244,
+      "max": 0.3011865147665844,
+      "adaptiveMedian": 0.02650861951210004,
+      "adaptiveP95": 0.06408660492310359
     },
     {
-      "start": 184.0,
-      "end": 192.0,
-      "attacks": 22,
-      "median": 0.061495369232019925,
-      "p95": 0.15895424555365734,
-      "max": 0.16967953446436468,
-      "adaptiveMedian": 0.026344015517835828,
-      "adaptiveP95": 0.06980078135674717
+      "start": 128.0,
+      "end": 136.0,
+      "attacks": 53,
+      "median": 0.06618391935086265,
+      "p95": 0.19060767939479886,
+      "max": 0.21738409419992877,
+      "adaptiveMedian": 0.03298527443104149,
+      "adaptiveP95": 0.08683148922219175
     }
   ],
   "worstFiveAdaptiveRegions": [
     {
       "start": 96.0,
       "end": 104.0,
-      "attacks": 20,
-      "median": 0.05070240144250704,
-      "p95": 0.13215239188045802,
-      "max": 0.15494740868233237,
-      "adaptiveMedian": 0.05198699560146025,
-      "adaptiveP95": 0.13584640645896331
-    },
-    {
-      "start": 144.0,
-      "end": 152.0,
-      "attacks": 27,
-      "median": 0.0598715952244504,
-      "p95": 0.23001021774175562,
-      "max": 0.3491495232630939,
-      "adaptiveMedian": 0.04826161790018091,
-      "adaptiveP95": 0.12753811163016734
+      "attacks": 14,
+      "median": 0.03935934213051695,
+      "p95": 0.11531120271896782,
+      "max": 0.12323111322820068,
+      "adaptiveMedian": 0.04755703084499885,
+      "adaptiveP95": 0.11937469478246214
     },
     {
       "start": 32.0,
@@ -361,6 +351,26 @@
       "adaptiveP95": 0.09028923858699969
     },
     {
+      "start": 176.0,
+      "end": 184.0,
+      "attacks": 13,
+      "median": 0.04633062863698001,
+      "p95": 0.2669961239516396,
+      "max": 0.3075461710789966,
+      "adaptiveMedian": 0.04633062863698001,
+      "adaptiveP95": 0.09641288623885201
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "attacks": 24,
+      "median": 0.055744228615139946,
+      "p95": 0.17075764281618566,
+      "max": 0.18643089364260845,
+      "adaptiveMedian": 0.04600281397698325,
+      "adaptiveP95": 0.1264472925716461
+    },
+    {
       "start": 24.0,
       "end": 32.0,
       "attacks": 15,
@@ -369,38 +379,28 @@
       "max": 0.07117285468403978,
       "adaptiveMedian": 0.044752752506635574,
       "adaptiveP95": 0.0710324290358688
-    },
-    {
-      "start": 8.0,
-      "end": 16.0,
-      "attacks": 17,
-      "median": 0.03707073190721921,
-      "p95": 0.08739142624921392,
-      "max": 0.08837149618883622,
-      "adaptiveMedian": 0.04412097369067958,
-      "adaptiveP95": 0.07676383083353853
     }
   ],
   "worstFiveHarmonicRegions": [
     {
-      "start": 160.0,
-      "meanCosine": 0.2666130014114311
+      "start": 216.0,
+      "meanCosine": 0.6195243001191933
     },
     {
-      "start": 168.0,
-      "meanCosine": 0.2903796257893671
+      "start": 192.0,
+      "meanCosine": 0.6552240034114776
     },
     {
-      "start": 144.0,
-      "meanCosine": 0.3090454714975223
+      "start": 176.0,
+      "meanCosine": 0.6937413355389072
     },
     {
       "start": 184.0,
-      "meanCosine": 0.31539446212221156
+      "meanCosine": 0.7171497687923645
     },
     {
-      "start": 152.0,
-      "meanCosine": 0.33622236836219144
+      "start": 208.0,
+      "meanCosine": 0.7233626186334013
     }
   ],
   "sections": [
@@ -413,19 +413,19 @@
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     },
     {
-      "bar": "41",
+      "bar": "48",
       "occ": 1,
       "editorial": 140,
-      "aligned": 140.0591967871486,
-      "difference": 0.059196787148607655,
+      "aligned": 139.1,
+      "difference": -0.9000000000000057,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     },
     {
-      "bar": "56",
+      "bar": "58",
       "occ": 1,
       "editorial": 196,
-      "aligned": 195.1888353413655,
-      "difference": -0.8111646586345103,
+      "aligned": 195.38,
+      "difference": -0.6200000000000045,
       "note": "Nearest bar locator only; original section has no score-bar assertion."
     }
   ],
@@ -443,8 +443,8 @@
       "bar": "35",
       "occ": 1,
       "scoreQ": 69.25,
-      "audioSeconds": 121.4055823293173,
-      "nearestOnsetDeviation": 0.023269404147228556
+      "audioSeconds": 119.26298101496897,
+      "nearestOnsetDeviation": 0.06436592380653394
     },
     {
       "label": "last",
@@ -479,9 +479,9 @@
   ],
   "recurrence": [],
   "zeroOrNegativeDurations": 0,
-  "minimumNoteDuration": 0.01182436412317145,
+  "minimumNoteDuration": 0.006520789038503949,
   "collapsedAttackIntervals": 0,
-  "meanPathChromaCosine": 0.6468339473656441,
+  "meanPathChromaCosine": 0.7782837972450012,
   "endAnchor": {
     "scoreQ": 124.5,
     "audioSeconds": 221.76000000000005,
@@ -503,6 +503,7 @@
     "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",
     "Edition: first edition, Breitkopf & Härtel, Leipzig (RISM 1001035842, PL-Wbfc 676/n); encoding Jędrzej Mróz, editing Tomasz Sierawski and Wojciech Jakubiak-Danek. The performer's edition is not established; first-edition readings can differ from later editions.",
     "Conversion: tools/align/humdrum_convert.py reads the unchanged **kern tokens (Humdrum line timing, spine splits/merges, explicit sounding pitches, ties, graces, tuplets) and writes plain MusicXML for the pinned LilyPond 2.24.4 converter. Dynamics, hairpins, pedalling, fingering, stems, layout comments, *rscale display scaling, cue size and editorial text are not converted; slurs are kept only when both ends lie in one encoded voice. Voices are the encoded Humdrum sub-spines on each staff (MusicXML voices 1-4 upper, 5-8 lower), labelled here only as upper/lower staff.",
+    "Source token correction (EXT, independent review RevScoresChopin 19 Oct 2026, content/plan/reviews/score-chopin-nocturne-op15-2*.json): 015-1a-BH-002.krn line 1178 encodes the bar-61 dotted-quarter bass octave as `4.FF# 4.FFF`, i.e. F-sharp2 over F-natural1 (MIDI 29). The Breitkopf & Härtel first edition (plate 5502; CFEO Bodleian copy 15-1-BH, p. 10, last system) prints the octave F-sharp1/F-sharp2 under the key signature with no natural, so the lower note is read as `4.FFF#` (MIDI 30). Only that attack changes; the downloaded bytes are unchanged and the correction is applied in memory and retained in the check report. NIFC's own copy PL-Wbfc 676/n was not consulted.",
     "Source identity (MEAS): the compiled events match all 1,294 regular **kern attacks (tied continuations excluded) by pitch within one MIDI tick, plus all 32 grace notes; maximum regular onset difference 0.0022 quarter (septuplet tick rounding). Independent check with Verovio 6.3.0's Humdrum importer: 1,350 notes in both readings; per-measure relative timing agrees in every measure except the 10 that contain graces (Verovio performs graces on the beat).",
     "Twelve written eighth-note graces that follow very fast runs are printed and compiled one or two flags shorter: LilyPond 2.24.4 performs a grace group before its main note for about a quarter of its written length and otherwise reports 'Going back in MIDI time' and delays the rest of that voice. Pitches, number and order of the graces are unchanged.",
     "Three source ties continue in a different encoded voice (F-sharp3/B3 into bar 42, C-sharp3 into bar 56); LilyPond cannot tie across voices, so extraction.ties holds them as one event each. The engraving may show those tie arcs as unterminated.",
@@ -514,12 +515,64 @@
       86.0
     ],
     [
-      142.72,
+      86.02224899598394,
+      106.0
+    ],
+    [
+      128.58995983935745,
+      121.44
+    ],
+    [
+      142.7791967871486,
+      126.14
+    ],
+    [
+      156.96843373493977,
+      133.04
+    ],
+    [
+      167.61036144578316,
+      139.1
+    ],
+    [
+      168.48,
       140.0
     ],
     [
-      196.8,
-      196.0
+      169.08840696117804,
+      141.08
+    ],
+    [
+      170.270843373494,
+      143.44
+    ],
+    [
+      170.9359638554217,
+      145.2
+    ],
+    [
+      171.15767068273092,
+      145.86
+    ],
+    [
+      185.3469076305221,
+      162.86
+    ],
+    [
+      188.8942168674699,
+      166.22
+    ],
+    [
+      199.53614457831327,
+      184.16
+    ],
+    [
+      203.08345381526107,
+      195.38
+    ],
+    [
+      203.970281124498,
+      195.84
     ],
     [
       217.27269076305222,
@@ -581,7 +634,15 @@
       "graceNotes": 32,
       "maximumRegularOnsetDifferenceQuarters": 0.0022321428571423496,
       "matched": true,
-      "graceValuesShortenedForMidi": 12
+      "graceValuesShortenedForMidi": 12,
+      "tokenCorrections": [
+        {
+          "line": 1178,
+          "old": "4.FFF",
+          "new": "4.FFF#",
+          "basis": "Source token correction (EXT, independent review RevScoresChopin 19 Oct 2026, content/plan/reviews/score-chopin-nocturne-op15-2*.json): 015-1a-BH-002.krn line 1178 encodes the bar-61 dotted-quarter bass octave as `4.FF# 4.FFF`, i.e. F-sharp2 over F-natural1 (MIDI 29). The Breitkopf & Härtel first edition (plate 5502; CFEO Bodleian copy 15-1-BH, p. 10, last system) prints the octave F-sharp1/F-sharp2 under the key signature with no natural, so the lower note is read as `4.FFF#` (MIDI 30). Only that attack changes; the downloaded bytes are unchanged and the correction is applied in memory and retained in the check report. NIFC's own copy PL-Wbfc 676/n was not consulted."
+        }
+      ]
     }
   },
   "endpointMeasurements": [
@@ -599,6 +660,252 @@
       ],
       "basis": "MEAS, cached pitch features. First: the A-sharp4 pickup rises at 0.98 s. Last: A-sharp4 rises at about 215.8 s and F-sharp1/F-sharp2 at 215.5-216.0 s, after the coda arpeggios. A broad 175-221.5 s window had chosen an earlier rise at 175.8 s and collapsed 70 note durations; that candidate was rejected.",
       "mappedAudioSeconds": 0.98,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-25-doppio-E-sharp",
+      "scoreQ": 48.5,
+      "audioSeconds": 106.0,
+      "peakSeconds": 106.02,
+      "window": [
+        105.8,
+        106.1
+      ],
+      "midiPitches": [
+        37,
+        65,
+        77
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): doppio movimento downbeat C-sharp2/E-sharp4/E-sharp5 (q48.5): C-sharp3 partial rises at 105.84 s (-39 to -24 dB), E-sharp4 at 105.96 s (-34 to -21 dB), E-sharp5 at 106.08 s (-41 to -17 dB); total energy -27 dB at 105.5 s, -14.5 dB at 106.0 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 106.0,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-37-E5",
+      "scoreQ": 72.5,
+      "audioSeconds": 121.44,
+      "peakSeconds": 121.48,
+      "window": [
+        121.3,
+        121.5
+      ],
+      "midiPitches": [
+        38,
+        50,
+        68,
+        80
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-37 downbeat D2/D3/G-sharp4/G-sharp5 (q72.5): G-sharp5 rises at 121.38 s (-24 to +2 dB), G-sharp4 at 121.44 s, D3 at 121.62 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 121.44,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-41-D5-D6",
+      "scoreQ": 80.5,
+      "audioSeconds": 126.14,
+      "peakSeconds": 126.18,
+      "window": [
+        125.95,
+        126.2
+      ],
+      "midiPitches": [
+        37,
+        49,
+        74,
+        86
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-41 downbeat C-sharp2/C-sharp3/D5/D6 (q80.5): D5 rises at 126.02 s (-29 to -11 dB), C-sharp3 at 126.08 s, D6 at 126.18 s; the same chord in bar 39 (q76.5) rises at 123.76 s and its q77.5 repetition at 124.44 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 126.14,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-45-chord",
+      "scoreQ": 88.5,
+      "audioSeconds": 133.04,
+      "peakSeconds": 133.08,
+      "window": [
+        132.88,
+        133.12
+      ],
+      "midiPitches": [
+        37,
+        44,
+        53,
+        62,
+        74
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-45 downbeat (q88.5, C-sharp2/G-sharp2/E-sharp3/D4/D5): G-sharp2 rises at 132.92 s, D5 at 132.96 s (-35 to -8 dB), D4 at 133.02 s, E-sharp3 at 133.10 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 133.04,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-48-D3-D4",
+      "scoreQ": 94.5,
+      "audioSeconds": 139.1,
+      "peakSeconds": 139.16,
+      "window": [
+        138.95,
+        139.15
+      ],
+      "midiPitches": [
+        50,
+        62
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-48 smorzando figure D3/D4 (q94.5): D4 rises at 139.0-139.1 s (-23 to -7 dB); then E-sharp3 139.55 s, G-sharp3 139.9 s, C-sharp3/C-sharp4 140.35-140.4 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 139.1,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-48-last-C-sharp4",
+      "scoreQ": 95.33333333333333,
+      "audioSeconds": 141.08,
+      "peakSeconds": 141.12,
+      "window": [
+        140.98,
+        141.15
+      ],
+      "midiPitches": [
+        61
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): last C-sharp4 of the figure before the fermata rest (q95.333): C-sharp4 rises at 141.05-141.1 s (-23 to -17 dB); total energy then falls to -26 to -28 dB at 142.2-143.2 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 141.08,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "A-prime-pickup-A-sharp4",
+      "scoreQ": 96.0,
+      "audioSeconds": 143.44,
+      "peakSeconds": 143.44,
+      "window": [
+        143.28,
+        143.45
+      ],
+      "midiPitches": [
+        70
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): reprise pickup A-sharp4 (q96): A-sharp4 rises at 143.3-143.5 s (-56 to -19 dB), the first rise after the fermata rest. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 143.44,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "A-prime-pickup-B4",
+      "scoreQ": 96.375,
+      "audioSeconds": 145.2,
+      "peakSeconds": 145.24,
+      "window": [
+        145.12,
+        145.3
+      ],
+      "midiPitches": [
+        71
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): pickup B4 (q96.375): B4 rises at 145.2 s (-40 to -25 dB); independent review measured 145.24 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 145.2,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-49-A-sharp4",
+      "scoreQ": 96.5,
+      "audioSeconds": 145.86,
+      "peakSeconds": 145.9,
+      "window": [
+        145.75,
+        145.95
+      ],
+      "midiPitches": [
+        37,
+        70
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-49 downbeat C-sharp2/A-sharp4 (q96.5): A-sharp4 rises again at 145.8-145.9 s (-39 to -24 dB); G-sharp4/E-sharp4 follow at about 146.3/146.8 s (independent review). Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 145.86,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-53-D-sharp2-B4",
+      "scoreQ": 104.5,
+      "audioSeconds": 162.86,
+      "peakSeconds": 162.9,
+      "window": [
+        162.7,
+        162.95
+      ],
+      "midiPitches": [
+        39,
+        71
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-53 downbeat D-sharp2/B4 (q104.5): D-sharp2 rises at 162.72 s and B4 is re-struck at 162.84 s (-21.5 to -13 dB), after q104 B4 at 162.06 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 162.86,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-54-D-sharp4",
+      "scoreQ": 106.5,
+      "audioSeconds": 166.22,
+      "peakSeconds": 166.28,
+      "window": [
+        166.1,
+        166.3
+      ],
+      "midiPitches": [
+        32,
+        44,
+        63
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-54 downbeat G-sharp1/G-sharp2/D-sharp4 (q106.5): D-sharp4 rises at 166.18 s (-17.6 to +0.6 dB) with the total-energy peak at 166.3 s, after the q106 D-sharp3/D-sharp4 at 165.58 s. Without this constraint the map put bar 54 at 167.5 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s and bar 54 at 166.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 166.22,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-57-chord",
+      "scoreQ": 112.5,
+      "audioSeconds": 184.16,
+      "peakSeconds": 184.2,
+      "window": [
+        183.85,
+        184.2
+      ],
+      "midiPitches": [
+        51,
+        58,
+        66
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar-57 downbeat D-sharp3/A-sharp3/F-sharp4 (q112.5): D-sharp3 rises at 183.92 s (-42.5 to -26 dB) and A-sharp3 at 184.12 s (-28.5 to -10 dB). Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 184.16,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-58-F-sharp4",
+      "scoreQ": 114.5,
+      "audioSeconds": 195.38,
+      "peakSeconds": 195.44,
+      "window": [
+        195.25,
+        195.45
+      ],
+      "midiPitches": [
+        30,
+        66
+      ],
+      "basis": "Bar-58 downbeat F-sharp1/F-sharp4 (q114.5). MEAS, cached pitch features (dB re the 95th-percentile total): after bar 57, F-sharp4 (66) rises at 195.34 s (-36 to -16 dB); D-sharp7 (99) rises at 195.80 s (-47 to -34 dB) with the strongest onset-feature peak at 195.85 s; C-sharp4 (61) and C-sharp5 (73) rise at 196.34 s. Without these constraints the map placed q114.5 at 195.17 s and q115 at about 196.4 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 195.38,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "bar-58-D-sharp7",
+      "scoreQ": 115.0,
+      "audioSeconds": 195.84,
+      "peakSeconds": 195.88,
+      "window": [
+        195.72,
+        195.9
+      ],
+      "midiPitches": [
+        49,
+        58,
+        99
+      ],
+      "basis": "Bar-58 C-sharp3/A-sharp3/D-sharp7 (q115). MEAS, cached pitch features (dB re the 95th-percentile total): after bar 57, F-sharp4 (66) rises at 195.34 s (-36 to -16 dB); D-sharp7 (99) rises at 195.80 s (-47 to -34 dB) with the strongest onset-feature peak at 195.85 s; C-sharp4 (61) and C-sharp5 (73) rise at 196.34 s. Without these constraints the map placed q114.5 at 195.17 s and q115 at about 196.4 s. Cross-check (MEAS): recording-to-recording chroma DTW (10 frames/s, cosine) from the corrected Faulkner and Prati maps places bars 25/37/41/45/48/49/53/57 at 106.2-106.0/121.5/126.5/133.1-132.9/139.0-139.2/145.7/162.9/184.1-184.3 s in this recording; the previous publication had bar 49 at 168.44 s (withdrawn after independent review).",
+      "mappedAudioSeconds": 195.84,
       "mappingDeviationSeconds": 0.0
     },
     {
@@ -620,9 +927,9 @@
     }
   ],
   "adaptiveOnsetCount": 1489,
-  "adaptiveMedianDeviation": 0.03714941398249039,
+  "adaptiveMedianDeviation": 0.0369652760702337,
   "gateReasons": [],
-  "elapsedSeconds": 0.6605439490522258,
+  "elapsedSeconds": 1.8080693369847722,
   "dtwSteps": [
     [
       1,
@@ -648,7 +955,7 @@
     "voices": 2
   },
   "published": true,
-  "configSha256": "deee3e33a753488384049050bd59b4f34c899d8532a0ef37f6a4a8f9c05b530b",
+  "configSha256": "c946387de913bc5034cc7948b6ad62937659a932a870614aa87001aa7ab7f36a",
   "sourceDownloads": [
     {
       "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",
@@ -662,22 +969,49 @@
     }
   ],
   "comparison": {
-    "previousScore": false,
-    "byteIdentical": null,
-    "numericallyEquivalent": null
+    "previousScore": true,
+    "previousSha256": "e0f6fbdd9ff3112d1bd44c53457314aaedbb07f36774be053cfda7657bbe5d26",
+    "candidateSha256": "117ab3b92fee933d0d30b19afb292eb3afe5a9460da91db00ea1b60587312cb6",
+    "byteIdentical": false,
+    "sameNoteIdentities": false,
+    "sameBarIdentities": true,
+    "maximumAbsoluteDifferences": {
+      "noteOnsetSeconds": null,
+      "noteDurationSeconds": null,
+      "barSeconds": 25.789999999999992
+    },
+    "metadataFieldsChanged": [
+      "method"
+    ],
+    "toleranceSeconds": 0.001,
+    "numericallyEquivalent": false
   },
   "overlays": [
     "work/chopin-nocturne-op15-2-paderewski-1937-0-8.98.png",
-    "work/chopin-nocturne-op15-2-paderewski-1937-8-16.png",
     "work/chopin-nocturne-op15-2-paderewski-1937-24-32.png",
     "work/chopin-nocturne-op15-2-paderewski-1937-32-40.png",
     "work/chopin-nocturne-op15-2-paderewski-1937-96-104.png",
-    "work/chopin-nocturne-op15-2-paderewski-1937-117.406-129.406.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-102-114.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-115.263-127.263.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-117.44-129.44.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-120-128.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-122.14-134.14.png",
     "work/chopin-nocturne-op15-2-paderewski-1937-128-136.png",
-    "work/chopin-nocturne-op15-2-paderewski-1937-144-152.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-129.04-141.04.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-135.1-147.1.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-136-144.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-137.08-149.08.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-139.44-151.44.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-141.2-153.2.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-141.86-153.86.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-158.86-170.86.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-162.22-174.22.png",
     "work/chopin-nocturne-op15-2-paderewski-1937-168-176.png",
-    "work/chopin-nocturne-op15-2-paderewski-1937-184-192.png",
-    "work/chopin-nocturne-op15-2-paderewski-1937-192-200.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-176-184.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-180.16-192.16.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-191.38-203.38.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-191.84-203.84.png",
+    "work/chopin-nocturne-op15-2-paderewski-1937-200-208.png",
     "work/chopin-nocturne-op15-2-paderewski-1937-208-216.png",
     "work/chopin-nocturne-op15-2-paderewski-1937-211.765-221.807.png"
   ]

@@ -9,6 +9,14 @@
   "main": "nocturne.ly",
   "humdrum": "015-1a-BH-002.krn",
   "musicxml": "015-1a-BH-002.musicxml",
+  "humdrumCorrections": [
+    {
+      "line": 1178,
+      "old": "4.FFF",
+      "new": "4.FFF#",
+      "basis": "Source token correction (EXT, independent review RevScoresChopin 19 Oct 2026, content/plan/reviews/score-chopin-nocturne-op15-2*.json): 015-1a-BH-002.krn line 1178 encodes the bar-61 dotted-quarter bass octave as `4.FF# 4.FFF`, i.e. F-sharp2 over F-natural1 (MIDI 29). The Breitkopf & Härtel first edition (plate 5502; CFEO Bodleian copy 15-1-BH, p. 10, last system) prints the octave F-sharp1/F-sharp2 under the key signature with no natural, so the lower note is read as `4.FFF#` (MIDI 30). Only that attack changes; the downloaded bytes are unchanged and the correction is applied in memory and retained in the check report. NIFC's own copy PL-Wbfc 676/n was not consulted."
+    }
+  ],
   "downloads": [
     {
       "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",

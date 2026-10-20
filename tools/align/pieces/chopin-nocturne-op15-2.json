@@ -12,6 +12,14 @@
     "main": "nocturne.ly",
     "humdrum": "015-1a-BH-002.krn",
     "musicxml": "015-1a-BH-002.musicxml",
+    "humdrumCorrections": [
+      {
+        "line": 1178,
+        "old": "4.FFF",
+        "new": "4.FFF#",
+        "basis": "Source token correction (EXT, independent review RevScoresChopin 19 Oct 2026, content/plan/reviews/score-chopin-nocturne-op15-2*.json): 015-1a-BH-002.krn line 1178 encodes the bar-61 dotted-quarter bass octave as `4.FF# 4.FFF`, i.e. F-sharp2 over F-natural1 (MIDI 29). The Breitkopf & Härtel first edition (plate 5502; CFEO Bodleian copy 15-1-BH, p. 10, last system) prints the octave F-sharp1/F-sharp2 under the key signature with no natural, so the lower note is read as `4.FFF#` (MIDI 30). Only that attack changes; the downloaded bytes are unchanged and the correction is applied in memory and retained in the check report. NIFC's own copy PL-Wbfc 676/n was not consulted."
+      }
+    ],
     "downloads": [
       {
         "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/015-1a-BH-002.krn",
@@ -114,26 +122,40 @@
   },
   "endpoints": {
     "first": [
-      0,
-      4
+      1.95,
+      2.2
     ],
     "last": [
       194.4,
       194.9
     ],
-    "basis": "MEAS, cached pitch features. First: the A-sharp4 pickup (MIDI 70) rises at 3.16 s. Last: the final F-sharp1/A-sharp4 chord; F-sharp1, F-sharp2, A-sharp3 and A-sharp4 bands all rise at 194.5-194.75 s. A broad 180-203 s window had chosen an earlier F-sharp/A-sharp rise at 183.2 s and compressed the coda arpeggios, which continue to 194 s; that candidate was rejected."
+    "basis": "MEAS, cached pitch features. First: the A-sharp4 pickup (MIDI 70) rises from -34 to -14 dB re the 95th percentile at 1.9-2.0 s (independent review: 2.04 s, after silence to 2.0 s). The previously published 0-4 s window chose 3.16 s, the bar-1 A-sharp4 after the pickup's B4 (2.8 s); that publication was withdrawn for this error. Last: the final F-sharp1/A-sharp4 chord; F-sharp1, F-sharp2, A-sharp3 and A-sharp4 bands all rise at 194.5-194.75 s. A broad 180-203 s window had chosen an earlier F-sharp/A-sharp rise at 183.2 s and compressed the coda arpeggios, which continue to 194 s; that candidate was rejected.",
+    "end": {
+      "seconds": 196.5,
+      "basis": "MEAS, cached pitch features: total pitch energy falls from -12 dB (final chord, 194.6 s) to -30.7 dB at 196.4 s and stays between -33 and -37 dB (decay) until 199.8 s, then -46 to -50 dB; an isolated transient at 201.4 s (-27.8 dB) contains no score pitch. Independent review measured RMS below -30 dB from 196.50 to 201.46 s. The -45 dB RMS end (about 202.8 s) is retained in the checks; this display end is not a measured key release."
+    }
   },
   "boundaries": [],
   "provenance": [
     "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",
     "Edition: first edition, Breitkopf & Härtel, Leipzig (RISM 1001035842, PL-Wbfc 676/n); encoding Jędrzej Mróz, editing Tomasz Sierawski and Wojciech Jakubiak-Danek. The performer's edition is not established; first-edition readings can differ from later editions.",
     "Conversion: tools/align/humdrum_convert.py reads the unchanged **kern tokens (Humdrum line timing, spine splits/merges, explicit sounding pitches, ties, graces, tuplets) and writes plain MusicXML for the pinned LilyPond 2.24.4 converter. Dynamics, hairpins, pedalling, fingering, stems, layout comments, *rscale display scaling, cue size and editorial text are not converted; slurs are kept only when both ends lie in one encoded voice. Voices are the encoded Humdrum sub-spines on each staff (MusicXML voices 1-4 upper, 5-8 lower), labelled here only as upper/lower staff.",
+    "Source token correction (EXT, independent review RevScoresChopin 19 Oct 2026, content/plan/reviews/score-chopin-nocturne-op15-2*.json): 015-1a-BH-002.krn line 1178 encodes the bar-61 dotted-quarter bass octave as `4.FF# 4.FFF`, i.e. F-sharp2 over F-natural1 (MIDI 29). The Breitkopf & Härtel first edition (plate 5502; CFEO Bodleian copy 15-1-BH, p. 10, last system) prints the octave F-sharp1/F-sharp2 under the key signature with no natural, so the lower note is read as `4.FFF#` (MIDI 30). Only that attack changes; the downloaded bytes are unchanged and the correction is applied in memory and retained in the check report. NIFC's own copy PL-Wbfc 676/n was not consulted.",
     "Source identity (MEAS): the compiled events match all 1,294 regular **kern attacks (tied continuations excluded) by pitch within one MIDI tick, plus all 32 grace notes; maximum regular onset difference 0.0022 quarter (septuplet tick rounding). Independent check with Verovio 6.3.0's Humdrum importer: 1,350 notes in both readings; per-measure relative timing agrees in every measure except the 10 that contain graces (Verovio performs graces on the beat).",
     "Twelve written eighth-note graces that follow very fast runs are printed and compiled one or two flags shorter: LilyPond 2.24.4 performs a grace group before its main note for about a quarter of its written length and otherwise reports 'Going back in MIDI time' and delays the rest of that voice. Pitches, number and order of the graces are unchanged.",
     "Three source ties continue in a different encoded voice (F-sharp3/B3 into bar 42, C-sharp3 into bar 56); LilyPond cannot tie across voices, so extraction.ties holds them as one event each. The engraving may show those tie arcs as unterminated.",
     "Recording: Luke Faulkner (content/listen module; no date given)."
   ],
   "anchors": [
+    {
+      "scoreQ": 48.5,
+      "window": [
+        85.8,
+        86.0
+      ],
+      "label": "bar-25-doppio-E-sharp",
+      "basis": "MEAS: the doppio movimento downbeat E-sharp4/E-sharp5 (q48.5, MIDI 65/77) rises at 85.85-85.95 s (E-sharp5 -44 to -16 dB, E-sharp4 -46 to -21 dB re the 95th percentile, with C-sharp3), after bar 24's caesura from about 85.0 s. The previous publication lit bar 25 at 84.41 s, about 1.5 s early (independent review: E-sharp5 85.87-85.94 s)."
+    },
     {
       "scoreQ": 94.5,
       "window": [
@@ -160,6 +182,33 @@
       ],
       "label": "A-prime-pickup-A-sharp4",
       "basis": "MEAS: the A-sharp4 pickup to the reprise (q96, MIDI 70) is the first rise after the fermata silence. Measured rises: D 125.32 s, E-sharp 125.80, G-sharp 126.14, C-sharp3 126.60, C-sharp4 126.74 and 127.28/127.48, A-sharp4 131.78; total pitch energy falls to about -58 dB re the 95th percentile at 130.5-131.5 s."
+    },
+    {
+      "scoreQ": 120.0,
+      "window": [
+        185.45,
+        185.7
+      ],
+      "label": "bar-60-C-sharp2-last-D-sharp4-group",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar 60 +3/2, C-sharp2 under the D-sharp4 that starts bar 60's last group (q120, MIDI 37/63). C-sharp2 rises from -69.2 dB at 185.40 s to -52.1 dB at 185.64 s; D-sharp4 from -27.8 dB at 185.52 s to -17.0 dB at 185.64 s. Detector leading edge 185.58 s (peak 185.64 s); primary onset 185.551 s. The preceding group rises D-sharp4 184.44 s, C-sharp4 184.62 s, F-sharp3 184.86 s, C-sharp3 185.08 s and A-sharp3 185.34 s. Added because a dry run with only the q120.5/q122 constraints moved q120 to 186.09 s and q119.667-q119.917 0.5-0.66 s late; the previous publication had q120 at 185.43 s (independent review RevScoresChopin round 2: 185.62 s)."
+    },
+    {
+      "scoreQ": 120.5,
+      "window": [
+        186.95,
+        187.15
+      ],
+      "label": "bar-61-F-sharp-octave-D-sharp4",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): the bar-61 downbeat F-sharp1/F-sharp2 octave with D-sharp4 (q120.5, MIDI 30/42/63). F-sharp2 rises from -63.5 dB at 186.88 s to -42.6 dB at 187.02 s and -38.4 dB at 187.14 s; D-sharp4 from -32.7 dB at 186.96 s to -13.9 dB at 187.08 s; F-sharp1 from about -91 dB at 186.6 s to -67.4 dB at 187.02 s. Detector leading edge 187.02 s (peak 187.08 s); the primary onset detector has 187.072 s and nothing between 185.551 and 187.072 s. Bar 60's last group (q120, C-sharp2/D-sharp4) rises at 185.58 s. The previous publication lit bar 61 at 186.21 s, inside that group (independent review RevScoresChopin round 2: F-sharp2 187.01 s, D-sharp4 187.06 s)."
+    },
+    {
+      "scoreQ": 122.0,
+      "window": [
+        190.6,
+        190.8
+      ],
+      "label": "bar-61-C-sharp2-last-D-sharp4-group",
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total): bar 61 +3/2, the C-sharp2 entry under the last D-sharp4 group (q122, MIDI 37/63). C-sharp2 rises from -61.4 dB at 190.50 s to -54.2 dB at 190.74 s; D-sharp4 from -27.9 dB at 190.62 s to -16.3 dB at 190.74 s. Detector leading edge 190.68 s (peak 190.72 s); primary onsets 190.346 and 190.705 s, then none until 192.76 s. The previous publication put q122 at 189.16 s, 1.5 s early, with no score attack between 189.57 and 191.99 s (independent review: D-sharp4 rise and flux onset 190.71 s)."
     }
   ]
 }
