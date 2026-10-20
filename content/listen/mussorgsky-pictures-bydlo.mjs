@@ -4,20 +4,20 @@ export default {
   order: 2,
   work: 'Pictures at an Exhibition',
   movement: 'IV. Bydło — Sempre moderato, pesante',
-  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 7, of: 15 },
+  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 7, of: 15, unit: 'pieces' },
   year: '1874',
   key: 'G♯ minor',
   forces: 'Orchestra',
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - iv. bydlo - sempre moderato, pesante.ogg' },
-  intro: 'Bydło, the fourth movement of Pictures at an Exhibition, marked Sempre moderato, pesante, depicts an ox-cart on enormous wheels. In Ravel’s orchestration a tuba plays the melody above a heavy bass.',
+  intro: '“Bydło”, the fourth movement of <i>Pictures at an Exhibition</i>, marked Sempre moderato, pesante, depicts an ox-cart on enormous wheels. In Ravel’s orchestration a tuba plays the melody above a heavy bass.',
 
   sections: [
-    { t: 0, label: 'A · Tuba cart song, G♯ minor', m: 'A', mNote: 'A G♯ minor melody above four even quavers per bar' },
+    { t: 0, label: 'A · Tuba cart song, G♯ minor', m: 'A', mNote: 'A G♯ minor melody above four even quavers per bar.' },
     { t: 50, label: 'B · Higher chords over a rising bass', m: 'B', mNote: 'The bass rises through A, B, C♯ and D.' },
     { t: 76, label: 'A′ · Opening tune returns with full force', m: 'A′', mNote: 'The opening tune returns, marked with all possible force.' },
-    { t: 102, label: 'Coda · Harp and bass fade out', m: 'Coda', mNote: 'Fragments of the tune continue above the heavy accompaniment' },
+    { t: 102, label: 'Coda · Harp and bass fade out', m: 'Coda', mNote: 'Fragments of the tune continue above the heavy accompaniment.' },
   ],
 
   cues: [

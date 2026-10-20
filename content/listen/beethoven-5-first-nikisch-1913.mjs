@@ -23,7 +23,7 @@ export default {
       ]
     }
   },
-  "intro": "Arthur Nikisch and the Berlin Philharmonic recorded the first movement, Allegro con brio, of Beethoven’s Symphony No. 5 in C minor, Op. 67, in 1913, playing into a recording horn. The exposition repeat is omitted, so the E♭-major second theme leads directly into the development, where the opening rhythm is broken into fragments.",
+  "intro": "Arthur Nikisch and the Berlin Philharmonic recorded the first movement, Allegro con brio, of Beethoven’s Symphony No. 5 in C minor, Op. 67, in 1913, playing into a recording horn. The exposition repeat is omitted, so the E♭ major second theme leads directly into the development, where the opening rhythm is broken into fragments.",
   "sections": [
     {
       "t": 0,
@@ -35,7 +35,7 @@ export default {
       "t": 56,
       "label": "B · Horn call towards E♭",
       "m": "B",
-      "mNote": "A violin melody follows the horn call"
+      "mNote": "A violin melody follows the horn call."
     },
     {
       "t": 104,
@@ -51,7 +51,7 @@ export default {
     },
     {
       "t": 294,
-      "label": "E · C-major cadences into the coda",
+      "label": "E · C major cadences into the coda",
       "m": "E",
       "mNote": "The long closing passage returns to C minor."
     }
@@ -88,7 +88,7 @@ export default {
       "bar": { "n": "125", "occ": 1 },
       "kind": "form",
       "title": "Start of the development",
-      "text": "Nikisch left out the exposition repeat. After the E♭-major cadence, the horns’ three B♭s fall to G and the strings follow with D♭–D♭–D♭–C, which begins the development (bars 125–128).",
+      "text": "Nikisch left out the exposition repeat. After the E♭ major cadence, the horns’ three B♭s fall to G and the strings follow with D♭–D♭–D♭–C, which begins the development (bars 125–128).",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Symphony No. 5, I, bars 125–128; Mutopia 941. The omitted repeat is documented by Kolkowski, Miller and Blier-Carruthers: https://journal.sciencemuseum.ac.uk/article/acoustic-recording/."
@@ -106,7 +106,7 @@ export default {
       "bar": { "n": "268", "occ": 1 },
       "kind": "music",
       "title": "Oboe solo, bar 268",
-      "text": "A G-major chord stops the orchestra, but the oboe holds its note. Alone, it descends F–E♭–D, adds a turn and descends again. Beethoven writes <i>Adagio</i> over this short solo inside the Allegro.",
+      "text": "A G major chord stops the orchestra, but the oboe holds its note. Alone, it descends F–E♭–D, adds a turn and descends again. Beethoven writes <i>Adagio</i> over this short solo inside the Allegro.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Symphony No. 5, I, bar 268; Mutopia 941, oboe part and string rests."

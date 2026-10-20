@@ -22,9 +22,9 @@ export default {
   },
   "intro": "Debussy’s <i>Prélude à l’après-midi d’un faune</i>, which Pierre Boulez said brought “new breath to the art of music”, opens with a solo flute. Paul Paray conducts the Detroit Symphony Orchestra in a recording made for Mercury in 1955.",
   "sections": [
-    { "t": 0, "label": "A · Flute alone, then the orchestra", "m": "A", "mNote": "The flute’s phrase returns with new harmony each time" },
+    { "t": 0, "label": "A · Flute alone, then the orchestra", "m": "A", "mNote": "The flute’s phrase returns with new harmony each time." },
     { "t": 242, "label": "B · D♭ major melody, woodwinds then strings", "m": "B", "mNote": "Woodwinds, then strings, play the broad melody in D♭ major." },
-    { "t": 324, "label": "A′ · Flute theme returns over harp", "m": "A′", "mNote": "Opening tempo; harp arpeggios fill the earlier rests" },
+    { "t": 324, "label": "A′ · Flute theme returns over harp", "m": "A′", "mNote": "Opening tempo; harp arpeggios fill the earlier rests." },
     { "t": 390, "label": "Coda · Antique cymbals, E major", "m": "Coda", "mNote": "The opening phrase returns, slower; the music ends in E major." }
   ],
   "cues": [

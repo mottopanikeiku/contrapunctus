@@ -22,11 +22,11 @@ export default {
   },
   intro: 'Eight of the sixteen lines of Heine’s <i>Warum sind denn die Rosen so blass</i> begin with “Warum”, and Fanny Hensel sets its four stanzas to two melodies, each heard twice. Adèle Bérard (soprano) and Laura Lazayre (piano), who perform as duo Béla, recorded the song in Amiens in January 2026.',
   sections: [
-    { t: 0, label: 'Intro · Piano alone', m: 'Intro', mNote: 'Piano alone, on the dominant of A minor' },
+    { t: 0, label: 'Intro · Piano alone', m: 'Intro', mNote: 'Piano alone, on the dominant of A minor.' },
     { t: 8, label: 'A · First stanza, roses and violets', m: 'A' },
-    { t: 33, label: 'B · Second stanza, lark and balsam herb', m: 'B', mNote: 'D minor, marked f; a held E leads back' },
-    { t: 63, label: 'A′ · Third stanza, sun and earth', m: 'A′', mNote: 'The first stanza’s melody returns for new words' },
-    { t: 88, label: 'B′ · Fourth stanza, the speaker’s question', m: 'B′', mNote: 'The second stanza’s music returns, again over the held E' },
+    { t: 33, label: 'B · Second stanza, lark and balsam herb', m: 'B', mNote: 'D minor, marked f; a held E leads back.' },
+    { t: 63, label: 'A′ · Third stanza, sun and earth', m: 'A′', mNote: 'The first stanza’s melody returns for new words.' },
+    { t: 88, label: 'B′ · Fourth stanza, the speaker’s question', m: 'B′', mNote: 'The second stanza’s music returns, again over the held E.' },
     { t: 118, label: 'Coda · Last line repeated, piano close', m: 'Coda', mNote: 'The opening melody is sung to “Warum, warum verliessest du mich?”' },
   ],
   cues: [

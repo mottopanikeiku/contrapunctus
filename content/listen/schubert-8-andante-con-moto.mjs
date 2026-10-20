@@ -14,7 +14,7 @@ export default {
     archive: { item: 'SchubertSymphonyNo.8unfinished_347', file: '02_schubertNo.8M2.mp3' },
     rights: { basis: 'eu-published-before-1963', published: 1928, evidence: 'Recorded 28 and 30 April 1927 and first issued on Victor 6663–6665 in album M-16 (Internet Archive description; Pristine Classical PASC 483 notes, https://www.pristineclassical.com/products/pasc483). A Victor advertisement in The Golden Book Magazine of January 1928 (PDF p. 20, https://commons.wikimedia.org/wiki/File:The_Golden_Book_1928-01.pdf) offers Records Nos. 6663-4-5 by Stokowski and the Philadelphia Symphony Orchestra, so the set was on sale by January 1928; the exact first issue date is not established. The Internet Archive item carries a CC0 licence URL declared by the uploader; US status is not established because the recording was made after 1925.' },
   },
-  intro: 'The Andante con moto, the second movement of the <i>Unfinished</i> Symphony, D. 759, opens in E major with horns, bassoons and pizzicato basses. The opening material is interrupted several times by a minor-key woodwind melody, each time followed by the full orchestra.',
+  intro: 'The Andante con moto, the second movement of the “Unfinished” Symphony, D. 759, opens in E major with horns, bassoons and pizzicato basses. The opening material is interrupted several times by a minor-key woodwind melody, each time followed by the full orchestra.',
   // Sources: https://en.wikipedia.org/wiki/Symphony_No._8_(Schubert)
   // https://www.pristineclassical.com/products/pasc483
   // Score: Schubert, Symphonie in H moll (unvollendet), Schubert’s Werke, Serie 1 Nr. 8 (Breitkopf & Härtel, 1885), IMSLP #73284, printed pp. 19–31
@@ -22,7 +22,7 @@ export default {
     { t: 0, label: 'A · Horns and bassoons; theme in E major', m: 'A', mNote: 'Long string phrases develop from a two-bar wind figure.' },
     { t: 142, label: 'B · Second theme in C♯ minor, clarinet', m: 'B', mNote: 'Four violin notes lead in; clarinet, then oboe, plays the melody.' },
     { t: 314, label: 'A′ · Opening string theme in E major', m: 'A′', mNote: 'The opening theme returns after the full-orchestra outburst.' },
-    { t: 469, label: 'B′ · Oboe theme in A minor', m: 'B′', mNote: 'Oboe and clarinet exchange their earlier roles' },
+    { t: 469, label: 'B′ · Oboe theme in A minor', m: 'B′', mNote: 'Oboe and clarinet exchange their earlier roles.' },
     { t: 570, label: 'Coda · Opening figure, then A♭ major', m: 'Coda', mNote: 'Woodwinds take the first theme into A♭ major.' },
   ],
   cues: [
@@ -48,7 +48,7 @@ export default {
       to: 'B · Second theme in C♯ minor, clarinet',
       at: { t: 142 },
       span: [130, 158],
-      how: '<p>After the E-major first theme, the first violins play four unaccompanied notes that outline C♯ minor. The clarinet then takes up the new melody in that key, and the oboe continues it in C♯ major.</p>',
+      how: '<p>After the E major first theme, the first violins play four unaccompanied notes that outline C♯ minor. The clarinet then takes up the new melody in that key, and the oboe continues it in C♯ major.</p>',
       devices: ['link passage', 'direct modulation', 'orchestration change'],
       basis: 'score-proportion',
       precision: 'passage',
@@ -87,7 +87,7 @@ export default {
       to: 'Coda · Opening figure, then A♭ major',
       at: { t: 570 },
       span: [556, 586],
-      how: '<p>The full-orchestra closing passage dies down. The two-bar cadential figure in E major from the opening is extended into a new melody for the coda. The violin motto, heard later, takes this melody on towards the woodwinds’ A♭-major restatement.</p>',
+      how: '<p>The full-orchestra closing passage dies down. The two-bar cadential figure in E major from the opening is extended into a new melody for the coda. The violin motto, heard later, takes this melody on towards the woodwinds’ A♭ major restatement.</p>',
       devices: ['decrescendo', 'motivic link'],
       basis: 'score-proportion',
       precision: 'passage',

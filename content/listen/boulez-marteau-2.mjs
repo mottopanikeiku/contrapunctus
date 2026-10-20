@@ -9,7 +9,7 @@ export default {
   order: 2,
   work: 'Le Marteau sans maître',
   movement: 'VI–IX. Second half, from “Bourreaux de solitude” to “Bel édifice et les pressentiments”, second version',
-  set: { id: 'boulez-marteau', title: 'Le Marteau sans maître', part: 2, of: 2 },
+  set: { id: 'boulez-marteau', title: 'Le Marteau sans maître', part: 2, of: 2, unit: 'parts' },
   year: '1952–55; revised 1957',
   key: '',
   forces: 'Voice (alto), alto flute, viola, guitar, vibraphone, xylorimba and percussion',

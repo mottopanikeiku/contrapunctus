@@ -32,7 +32,7 @@ export default {
       "t": 148,
       "label": "B · Flute solo",
       "m": "B",
-      "mNote": "Solo flute above harps and divided strings"
+      "mNote": "Solo flute above harps and divided strings."
     },
     {
       "t": 198,

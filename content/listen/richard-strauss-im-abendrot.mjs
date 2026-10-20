@@ -25,14 +25,14 @@ export default {
     { t: 0, label: 'Intro · Strings over E♭', m: 'Intro' },
     { t: 84, label: 'A · The couple at sunset', m: 'A' },
     { t: 190, label: 'B · Flutes and solo violin', m: 'B' },
-    { t: 332, label: 'Coda · orchestra', m: 'Coda' }
+    { t: 332, label: 'Coda · Orchestral postlude', m: 'Coda' }
   ],
   cues: [
     {
       t: 0,
       kind: 'music',
       title: 'Orchestral prelude',
-      text: 'The violins play a long descending line above held brass chords and a deep E♭. Woodwind double and decorate the melody. The soprano rests through this Andante prelude and does not enter until after rehearsal B.',
+      text: 'The violins play a long descending line above held brass chords and a deep E♭. Woodwinds double and decorate the melody. The soprano rests through this Andante prelude and does not enter until after rehearsal B.',
       basis: 'score-proportion',
       precision: 'passage',
       evidence: 'Boosey & Hawkes full score (1950), plate B. & H. 16918, pp. 44–46: Andante orchestral prelude, with the voice resting until after rehearsal B. https://petruccimusiclibrary.ca/files/imglnks/caimg/8/83/IMSLP615036-PMLP36684-Strauss_-_Four_Last_Songs.pdf'

@@ -26,7 +26,7 @@ export default {
   },
   intro: 'Rachmaninoff recorded his Piano Concerto No. 2 with Leopold Stokowski and the Philadelphia Orchestra in 1929. In the first movement, Moderato, the opening bell chords lead into a running accompaniment for the strings, and this transfer contains only the first 78-rpm side.',
   sections: [
-    { t: 0, label: 'Intro · Piano chords over low F', m: 'Intro', mNote: 'Piano chords repeat and grow before the orchestra’s melody' },
+    { t: 0, label: 'Intro · Piano chords over low F', m: 'Intro', mNote: 'Piano chords repeat and grow before the orchestra’s melody.' },
     { t: 26, label: 'A · First theme, strings over piano arpeggios', m: 'A', mNote: 'The strings play the first theme in C minor.' },
     { t: 122, label: 'B · Piano takes the melody', m: 'B', mNote: 'A quieter song within the opening movement.' },
   ],

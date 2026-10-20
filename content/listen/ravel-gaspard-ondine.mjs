@@ -12,15 +12,15 @@ export default {
   performers: 'Andriy Makarevych, piano',
   recorded: '1 April 2014',
   source: { file: 'File:Maurice Ravel - Gaspard de la nuit - 1. Ondine.flac' },
-  set: { id: 'ravel-gaspard-de-la-nuit', title: 'Gaspard de la nuit', part: 1, of: 3 },
+  set: { id: 'ravel-gaspard-de-la-nuit', title: 'Gaspard de la nuit', part: 1, of: 3, unit: 'pieces' },
   "intro": "<i>Ondine</i> (Lent) is the first of Ravel’s three poems for piano in <i>Gaspard de la nuit</i>, in which a water spirit’s song is set beneath a tremble of piano chords. The pianist is Andriy Makarevych.",
   "sections": [
     { "t": 0, "label": "A · Left-hand song under repeated treble chords", "m": "A", "mNote": "The left hand plays the song below repeated treble chords." },
     { "t": 126, "label": "B · Arpeggios across the keyboard", "m": "B", "mNote": "The water figures span a wider range between bass and treble." },
     { "t": 216, "label": "Dev · Melody within large arpeggios", "m": "Dev", "mNote": "Large arpeggios surround the melody, which is set in chords." },
-    { "t": 274, "label": "C · song over quieter arpeggios", "m": "C", "mNote": "Quieter arpeggios surround the song as it comes back." },
-    { "t": 342, "label": "Link · A voice without accompaniment", "m": "Link", "mNote": "Très lent: the water figures stop" },
-    { "t": 370, "label": "Coda · Rapid scales, C♯ major close", "m": "Coda", "mNote": "Rapid scales give way to C♯-major arpeggios." }
+    { "t": 274, "label": "C · Song over quieter arpeggios", "m": "C", "mNote": "Quieter arpeggios surround the song as it comes back." },
+    { "t": 342, "label": "Link · A voice without accompaniment", "m": "Link", "mNote": "Très lent: the water figures stop." },
+    { "t": 370, "label": "Coda · Rapid scales, C♯ major close", "m": "Coda", "mNote": "Rapid scales are followed by C♯ major arpeggios." }
   ],
   "cues": [
     {
@@ -55,7 +55,7 @@ export default {
     },
     {
       "t": 370, "kind": "form", "title": "Closing passage in C♯ major",
-      "text": "Both hands play a rapid passage, <i>Rapide et brillant</i>, which slows and gives way to <i>ppp</i> arpeggios in C♯ major. Bertrand’s last image is “mes vitraux bleus” — “my blue stained-glass windows” — with water streaming down them.",
+      "text": "Both hands play a rapid passage, <i>Rapide et brillant</i>, which slows and is followed by <i>ppp</i> arpeggios in C♯ major. Bertrand’s last image is “mes vitraux bleus” — “my blue stained-glass windows” — with water streaming down them.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand score, p. 14: Rapide et brillant, retenez peu à peu, ppp and return to C♯ major. Quotation from Bertrand’s Ondine, final paragraph, printed before the music in the 1909 edition; our translation."
     }
@@ -63,7 +63,7 @@ export default {
   "transitions": [
     {
       "id": "into-recitative", "title": "Fermata, then unaccompanied Très lent line",
-      "from": "C · song over quieter arpeggios", "to": "Link · A voice without accompaniment",
+      "from": "C · Song over quieter arpeggios", "to": "Link · A voice without accompaniment",
       "at": { t: 342 }, "span": [330, 363],
       "how": "<p>The piano’s running figures climb to a held high note and stop under a fermata. The marking then changes to <i>Très lent</i>, and an unaccompanied phrase follows in the middle of the keyboard. The bass staff is empty.</p>",
       "devices": ["fermata", "texture change", "tempo change"],
@@ -74,7 +74,7 @@ export default {
       "id": "last-outburst", "title": "Rapid passage to the closing arpeggios",
       "from": "Link · A voice without accompaniment", "to": "Coda · Rapid scales, C♯ major close",
       "at": { t: 370 }, "span": [358, 395],
-      "how": "<p>The bare phrase leads into a rush of notes in both hands, marked <i>Rapide et brillant</i>. Ravel then marks <i>retenez peu à peu</i>, and the pianist holds back gradually. C♯-major arpeggios return at <i>ppp</i>, <i>au mouvement du début</i>, and continue to the final chord.</p>",
+      "how": "<p>The bare phrase leads into a rush of notes in both hands, marked <i>Rapide et brillant</i>. Ravel then marks <i>retenez peu à peu</i>, and the pianist holds back gradually. C♯ major arpeggios return at <i>ppp</i>, <i>au mouvement du début</i>, and continue to the final chord.</p>",
       "devices": ["tempo change", "texture change", "decrescendo"],
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand score, p. 14: Rapide et brillant, retenez peu à peu, au mouvement du début and final C♯-major arpeggios."

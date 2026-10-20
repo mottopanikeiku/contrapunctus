@@ -6,8 +6,7 @@ export default {
     "id": "mahler-kindertotenlieder",
     "title": "Kindertotenlieder",
     "part": 1,
-    "of": 5
-  },
+    "of": 5, "unit": "songs" },
   "work": "Kindertotenlieder",
   "movement": "I. Nun will die Sonn’ so hell aufgeh’n",
   "year": "1901–04",
@@ -40,9 +39,9 @@ export default {
     },
     {
       "t": 232,
-      "label": "A″ · A lamp goes out: reprise",
+      "label": "A″ · Reprise, a lamp goes out",
       "m": "A″",
-      "mNote": "Oboe and flute play the opening material again"
+      "mNote": "Oboe and flute play the opening material again."
     }
   ],
   "cues": [
@@ -127,7 +126,7 @@ export default {
       "to": "A′ · The sun shines for everyone",
       "at": { "t": 84 },
       "span": [74, 96],
-      "how": "<p>The oboe returns over the harp’s rocking D-minor figure and the glockenspiel notes, which continue. The introduction to the second couplet is shorter than the first. The flute joins the vocal line and the bassoon takes the repeated C♯–D steps below. The singer’s rhythm changes so that the stress falls on “mir” (me).</p>",
+      "how": "<p>The oboe returns over the harp’s rocking D minor figure and the glockenspiel notes, which continue. The introduction to the second couplet is shorter than the first. The flute joins the vocal line and the bassoon takes the repeated C♯–D steps below. The singer’s rhythm changes so that the stress falls on “mir” (me).</p>",
       "devices": ["motivic link", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -148,12 +147,12 @@ export default {
     },
     {
       "id": "last-stanza",
-      "title": "Flute and oboe find home",
+      "title": "Flute and oboe return with the opening phrase",
       "from": "B · Horns take the vocal melody",
-      "to": "A″ · A lamp goes out: reprise",
+      "to": "A″ · Reprise, a lamp goes out",
       "at": { "t": 232 },
       "span": [222, 244],
-      "how": "<p>Marked <i>zurückkehrend</i> — returning — the flute’s running notes soften around the oboe’s opening phrase. Horns hold below; glockenspiel notes punctuate the retreat. The strings fall silent before the last couplet restores the D-minor vocal melody.</p>",
+      "how": "<p>Marked <i>zurückkehrend</i> — returning — the flute’s running notes soften around the oboe’s opening phrase. Horns hold below; glockenspiel notes punctuate the retreat. The strings fall silent before the last couplet restores the D minor vocal melody.</p>",
       "devices": ["decrescendo", "retransition", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",

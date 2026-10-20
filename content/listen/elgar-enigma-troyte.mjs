@@ -8,8 +8,7 @@ export default {
     "id": "elgar-enigma",
     "title": "Enigma Variations, Op. 36",
     "part": 7,
-    "of": 14
-  },
+    "of": 14, "unit": "parts" },
   "year": "1898–99",
   "key": "C major",
   "forces": "Orchestra",
@@ -24,7 +23,7 @@ export default {
       "t": 0,
       "label": "Var 7 · “Troyte”, Presto, at the piano",
       "m": "Var 7",
-      "mNote": "Timpani and low strings hammer out the joke"
+      "mNote": "Timpani and low strings hammer out the joke."
     }
   ],
   "cues": [

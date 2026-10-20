@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Recordings for the Listening Room.
+// Recordings for the Concert Hall.
 //   node tools/audio.mjs search "Mahler symphony 5"           -> audio files on Commons
 //   node tools/audio.mjs check "File:Some recording.ogg"       -> duration, licence, performer, description, stream URL
 //   node tools/audio.mjs archive "<query>" | archive-files <identifier>  -> Internet Archive audio

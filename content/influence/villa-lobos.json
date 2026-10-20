@@ -7,7 +7,7 @@
       "to": "villa-lobos",
       "kind": "championed",
       "year": 1923,
-      "title": "Rubinstein’s support for Villa-Lobos’s first Paris stay",
+      "title": "Rubinstein and Villa-Lobos’s first Paris stay, 1923",
       "works": {
         "from": "Rubinstein’s recommendation and concert tours, 1918–23",
         "to": "Rudepoema, dedicated to Rubinstein, first played by him in 1927"
@@ -43,12 +43,12 @@
       "to": "villa-lobos",
       "kind": "modelled",
       "year": 1930,
-      "title": "Bach as model for the Bachianas Brasileiras",
+      "title": "Villa-Lobos’s Bachianas Brasileiras after Bach",
       "works": {
         "from": "Preludes and fugues of The Well-Tempered Clavier; Mass in B minor",
         "to": "Bachianas Brasileiras Nos. 1–9, 1930–45"
       },
-      "claim": "<p>An aunt played preludes and fugues from [[bach|Bach]]’s <i>Well-Tempered Clavier</i> to the young Villa-Lobos, and a manuscript survives of a Bach fugue that he transcribed for cello and piano in 1910. In 1930 he began the <i>Bachianas Brasileiras</i>, nine works in which most movements have a Baroque title and a Brazilian one. In 1935 he gave the Brazilian premiere of the B minor Mass, and in 1941 he transcribed preludes and fugues from the <i>Forty-Eight</i> for an orchestra of cellos. Simon Wright quotes his description of Bach as “a universal folkloric source”.</p>",
+      "claim": "<p>An aunt played preludes and fugues from [[bach|Bach]]’s <i>Well-Tempered Clavier</i> to the young Villa-Lobos, and a manuscript survives of a Bach fugue that he transcribed for cello and piano in 1910. In 1930 he began the <i>Bachianas Brasileiras</i>, nine works in which most movements have a Baroque title and a Brazilian one. In 1935 he gave the Brazilian première of the B minor Mass, and in 1941 he transcribed preludes and fugues from the <i>Forty-Eight</i> for an orchestra of cellos. Simon Wright quotes his description of Bach as “a universal folkloric source”.</p>",
       "status": "documented",
       "sources": [
         {
@@ -105,7 +105,7 @@
       "to": "villa-lobos",
       "kind": "quoted",
       "year": 1926,
-      "title": "Chôros No. 10 and Medeiros’s schottische Yará",
+      "title": "Medeiros’s Yará in Villa-Lobos’s Chôros No. 10",
       "works": {
         "from": "Yará, schottische for piano, with Catulo da Paixão Cearense’s words as the song Rasga o coração",
         "to": "Chôros No. 10, “Rasga o coração” (1926)"

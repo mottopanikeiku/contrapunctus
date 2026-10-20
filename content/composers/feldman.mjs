@@ -9,8 +9,8 @@ export default {
   epithet: 'Composer of quiet, softly struck piano writing and of a string quartet that can last six hours.',
   portrait: { file: 'File:Persconferentie componist Morton Feldman in concertgebouw Amsterdam in verband m, Bestanddeelnr 928-6142.jpg', caption: 'Morton Feldman at the Concertgebouw, Amsterdam, 31 May 1976. Photograph by Rob Bogaerts / Anefo.', focus: '50% 24%' },
   facts: [
-    ['Teachers', 'Vera Maurina Press, piano; Wallingford Riegger and Stefan Wolpe, composition'],
-    ['Company', 'John Cage · David Tudor · Earle Brown · Christian Wolff · Philip Guston · Mark Rothko'],
+    ['Trained', 'Vera Maurina Press, piano; Wallingford Riegger and Stefan Wolpe, composition'],
+    ['Circle', 'John Cage · David Tudor · Earle Brown · Christian Wolff · Philip Guston · Mark Rothko'],
     ['Posts', 'Dean, New York Studio School, 1969–71; taught at SUNY Buffalo from 1973'],
     ['On the page', 'Grids with pitches left open; independent parts; later, precisely counted repetitions'],
   ],
@@ -55,7 +55,7 @@ export default {
     { year: '1983', title: 'Crippled Symmetry', titleHtml: '<i>Crippled Symmetry</i>', forces: 'Flute/bass flute, piano/celesta, vibraphone/glockenspiel; three players', note: 'Three musicians, six instruments, about ninety minutes. Each player follows a separate chain of repeats, so the notes on the page meet in changing combinations.' },
     { year: '1983', title: 'String Quartet No. 2', forces: 'String quartet', note: 'One continuous movement that can last more than five hours. The FLUX Quartet’s recording takes six hours and seven minutes.' },
     { year: '1985', title: 'For Bunita Marcus', titleHtml: '<i>For Bunita Marcus</i>', forces: 'Piano', note: 'About seventy minutes of very soft piano with the sustaining pedal held down. Minute changes in the spacing of notes and rests keep the strings ringing in new combinations.' },
-    { year: '1985; premiered 1986', title: 'Coptic Light', titleHtml: '<i>Coptic Light</i>', forces: 'Large orchestra, including two pianos', note: 'Feldman’s last large-orchestra work, conceived as a sustaining pedal made of instruments. His starting point was the ancient Coptic cloth in the Louvre.' },
+    { year: '1985; first performed 1986', title: 'Coptic Light', titleHtml: '<i>Coptic Light</i>', forces: 'Large orchestra, including two pianos', note: 'Feldman’s last large-orchestra work, conceived as a sustaining pedal made of instruments. His starting point was the ancient Coptic cloth in the Louvre.' },
     { year: '1986', title: 'Palais de Mari', titleHtml: '<i>Palais de Mari</i>', forces: 'Piano', note: 'The last solo piano work, commissioned by Bunita Marcus and dedicated to Francesco Clemente. Marcus gave its première in the painter’s loft.' },
   ],
   score: [
@@ -109,9 +109,6 @@ V:2
     },
   ],
   recordings: [
-    { work: 'Rothko Chapel', performers: 'Kim Kashkashian, Sarah Rothenberg, Steven Schick, Lauren Snouffer, Sonja Bruzauskas; Houston Chamber Choir, Robert Simpson', year: '2015 release', label: 'ECM New Series', note: 'Kashkashian plays the viola part against the choir, and Schick keeps the percussion distinct. Recorded in Houston’s Brown Foundation Performing Arts Theater; the album also includes works by Satie and Cage.' },
-    { work: 'Piano and String Quartet', performers: 'Aki Takahashi and Kronos Quartet', year: '1991; released 1993', label: 'Nonesuch', note: 'The players for whom Feldman wrote the work, who hold its seventy-nine-minute span steadily. A strong first choice for the late chamber music. The work is scored for one piano and four string players.' },
-    { work: 'For Bunita Marcus', performers: 'Marc-André Hamelin', year: '2016; released 2017', label: 'Hyperion', note: 'Hamelin keeps his quiet playing finely differentiated through seventy-two minutes, and the rhythm stays firm throughout. The Wyastone recording leaves room for the piano’s decay to be heard.' },
   ],
   lineage: {
     from: ['webern', 'Stefan Wolpe', 'Edgard Varèse', 'cage', 'New York abstract painting'],

@@ -1,9 +1,9 @@
 export default {
-  intro: 'Martha Goldstein plays Chopin’s Étude in E minor, Op. 25 No. 5 (Vivace), on an 1851 Érard piano. Short, broken phrases with small, awkward clashes are followed by an E-major melody written like a cello line.',
+  intro: 'Martha Goldstein plays Chopin’s Étude in E minor, Op. 25 No. 5 (Vivace), on an 1851 Érard piano. Short, broken phrases with small, awkward clashes are followed by an E major melody written like a cello line.',
   sections: [
-    { t: 0, label: 'A · E minor, figures in semitones', m: 'A', mNote: 'Light broken chords set against neighbouring notes' },
+    { t: 0, label: 'A · E minor, figures in semitones', m: 'A', mNote: 'Light broken chords set against neighbouring notes.' },
     { t: 58, label: 'B · Cello-like melody, E major', m: 'B', mNote: 'The low melody is played beneath flowing right-hand figures.' },
-    { t: 126, label: 'C · Return of the E-minor theme', m: 'C', mNote: 'The quick clashes and broken rhythms of the opening return.' },
+    { t: 126, label: 'C · Return of the E minor theme', m: 'C', mNote: 'The quick clashes and broken rhythms of the opening return.' },
     { t: 164, label: 'Coda · Fortissimo chords, rising flourish, E major', m: 'Coda', mNote: 'Fortissimo chords lead to the close in E major.' },
   ],
   cues: [

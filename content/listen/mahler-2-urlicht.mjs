@@ -20,10 +20,10 @@ export default {
   source: { file: 'File:Mahler Symphony no. 2, IV. "Urlicht".ogg' },
   intro: '<i>Urlicht</i> (Sehr feierlich, aber schlicht), the fourth movement of the Symphony No. 2 “Resurrection”, follows three movements of marches and dances, and here an alto sings the symphony’s first words. The text is a short prayer in which even an angel cannot turn the traveller away from God.',
   sections: [
-    { t: 0, label: 'A · Alto and brass chorale', m: 'A', mNote: 'One voice, answered by a hymn for brass' },
+    { t: 0, label: 'A · Alto and brass chorale', m: 'A', mNote: 'One voice, answered by a hymn for brass.' },
     { t: 64, label: 'B · Alto solo on suffering', m: 'B', mNote: 'The vocal line rises through chromatic harmony.' },
-    { t: 160, label: 'C · Angel episode, clarinet and violin', m: 'C', mNote: 'Clarinet and solo violin accompany the account of the angel' },
-    { t: 204, label: 'B′ · Rising phrases, cadence in D♭', m: 'B′', mNote: 'Rising phrases over tremolo strings, then a cadence in D♭' },
+    { t: 160, label: 'C · Angel episode, clarinet and violin', m: 'C', mNote: 'Clarinet and solo violin accompany the account of the angel.' },
+    { t: 204, label: 'B′ · Rising phrases, cadence in D♭', m: 'B′', mNote: 'Rising phrases over tremolo strings, then a cadence in D♭.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Alto entry and brass chorale', text: 'An alto begins alone, with “O Röschen roth!” in long, held notes. Trumpets and horns follow with a hymn. Mahler marks the song <i>Sehr feierlich, aber schlicht</i> (very solemn, yet simple) and adds <i>Choralmässig</i>, in the manner of a chorale.', basis: 'score-proportion', precision: 'passage', evidence: 'Mahler, Symphony No. 2, Hofmeister full score (1897), movement IV, p. 128: attacca from the third movement; Sehr feierlich, aber schlicht (Choralmässig), Nicht schleppen; the alto’s “O Röschen roth!” with fermatas, then trumpets and horns in chorale texture over muted strings, and a note that the brass should stand together at the back of the orchestra. Bettie Jo Basinger’s Utah Symphony guide: the first line of text opens the movement, followed by a chorale-like passage for a brass choir that Mahler asks to sit at the rear of the orchestra: https://usuo.org/explore/2014/11/mahler-2-listening-guide' },
@@ -69,7 +69,7 @@ export default {
       to: 'B′ · Rising phrases, cadence in D♭',
       at: { t: 204 },
       span: [190, 231],
-      how: '<p>After the middle section’s move into three sharps, the alto enters at “Ach nein!”, marked <i>leidenschaftlich</i>, over string tremolo. At “Ich bin von Gott” the phrases are marked <i>zart drängend</i> and <i>mit steigerndem Ausdruck</i>, and the line rises. The strings play the final D♭-major cadence after the singer’s last word.</p>',
+      how: '<p>After the middle section’s move into three sharps, the alto enters at “Ach nein!”, marked <i>leidenschaftlich</i>, over string tremolo. At “Ich bin von Gott” the phrases are marked <i>zart drängend</i> and <i>mit steigerndem Ausdruck</i>, and the line rises. The strings play the final D♭ major cadence after the singer’s last word.</p>',
       devices: ['sequence', 'crescendo build', 'texture change', 'motivic link'],
       basis: 'score-proportion',
       precision: 'passage',

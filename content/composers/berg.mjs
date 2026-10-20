@@ -3,10 +3,10 @@ export default {
   born: { year: 1885, date: '9 February 1885', place: 'Vienna' },
   died: { year: 1935, date: '24 December 1935', place: 'Vienna' },
   era: 'modernism',
-  epithet: 'Composer of <i>Wozzeck</i>, an opera about an exploited soldier, and of a twelve-note concerto that quotes a Bach chorale and is dedicated to the memory of Manon Gropius.',
+  epithet: 'Composer of Wozzeck, an opera about an exploited soldier, and of a twelve-note concerto that quotes a Bach chorale and is dedicated to the memory of Manon Gropius.',
   portrait: { file: 'File:Alban Berg (1885–1935) 1927 © Georg Fayer (1892–1950) OeNB 10450741.jpg', caption: 'Georg Fayer’s photograph of Berg, March 1927, from a portrait album for the Beethoven centenary; Austrian National Library.', focus: '50% 24%' },
   facts: [
-    ['Teacher', '[[schoenberg|Arnold Schoenberg]], privately in Vienna, 1904–10'],
+    ['Trained', '[[schoenberg|Arnold Schoenberg]], privately in Vienna, 1904–10'],
     ['Homes', 'Vienna; a summer house by the Wörthersee from 1932'],
     ['Theatre', '<i>Wozzeck</i>: Berlin, 1925 · <i>Lulu</i>: Zurich, 1937; complete in Paris, 1979'],
     ['Last work', 'Violin Concerto, 1935; commissioned by Louis Krasner, dedicated to Manon Gropius'],

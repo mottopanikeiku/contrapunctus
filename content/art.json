@@ -395,6 +395,17 @@
   "license": "Public domain",
   "credit": "eBay listing ( archived 25 April 2015 ) of publicity photograph from London Records , which marketed records to the United States."
  },
+ "File:Berlioz young.jpg": {
+  "id": "berlioz-young",
+  "src": "assets/img/art/berlioz-young.webp",
+  "w": 430,
+  "h": 548,
+  "page": "https://commons.wikimedia.org/wiki/File:Berlioz_young.jpg",
+  "artist": "Émile Signol",
+  "date": "1832 date QS:P571,+1832-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "credit": "http://www.hberlioz.com/Photos/BerliozPhotos1.html"
+ },
  "File:Bernardo Strozzi - Claudio Monteverdi (c.1630).jpg": {
   "id": "bernardo-strozzi-claudio-monteverdi-c-1630",
   "src": "assets/img/art/bernardo-strozzi-claudio-monteverdi-c-1630.webp",
@@ -1318,17 +1329,6 @@
   "date": "1912 date QS:P571,+1912-00-00T00:00:00Z/9",
   "license": "Public domain",
   "credit": "MS Thr 414.4 (9), Harvard Theatre Collection , Houghton Library, Harvard University"
- },
- "File:Hector Berlioz - d'après le portrait de Signol (1831) - btv1b84157254.jpg": {
-  "id": "hector-berlioz-d-apres-le-portrait-de-signol-1831-btv1b84157254",
-  "src": "assets/img/art/hector-berlioz-d-apres-le-portrait-de-signol-1831-btv1b84157254.webp",
-  "w": 1280,
-  "h": 1730,
-  "page": "https://commons.wikimedia.org/wiki/File:Hector_Berlioz_-_d%27apr%C3%A8s_le_portrait_de_Signol_(1831)_-_btv1b84157254.jpg",
-  "artist": "Signol, Émile (1804-1892). Peintre du modèle",
-  "date": "1900 date QS:P571,+1900-00-00T00:00:00Z/9",
-  "license": "Public domain",
-  "credit": "Bibliothèque nationale de France"
  },
  "File:Heitor Villa-lobos TA.jpg": {
   "id": "heitor-villa-lobos-ta",

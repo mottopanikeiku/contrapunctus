@@ -1,7 +1,7 @@
 export default {
   id: 'puccini-recondita-armonia', composer: 'puccini', order: 2,
   work: 'Tosca', movement: 'Act I · Recondita armonia',
-  set: { id: 'puccini-tosca-arias', title: 'Tosca — three arias', part: 1, of: 3 },
+  set: { id: 'puccini-tosca-arias', title: 'Tosca — three arias', part: 1, of: 3, unit: 'arias' },
   year: '1900', key: '', forces: 'Tenor and orchestra; acoustic scoring unestablished',
   performers: 'Enrico Caruso, tenor; Victor Orchestra', recorded: '6 November 1909',
   source: { file: 'File:Enrico Caruso, Recondita armonia (Tosca).ogg' },

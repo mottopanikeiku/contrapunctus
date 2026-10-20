@@ -7,7 +7,7 @@ export default {
   from: 1815,
   to: 1890,
   accent: '#4d6b5a',
-  subtitle: "Drama at the piano",
+  subtitle: "Song, piano and programme music",
   hero: {
     file: "File:Caspar David Friedrich - Two Men Contemplating the Moon - Google Art Project.jpg",
     artist: "Caspar David Friedrich",
@@ -16,11 +16,12 @@ export default {
     medium: "Oil on canvas",
     collection: "Galerie Neue Meister, Dresden",
     focus: "60% 40%",
+    focusMobile: "36% 50%",
   },
   precis: `<p>In [[schubert|Schubert]]’s <i>Erlkönig</i>, one singer takes the parts of a father and his terrified child while the piano plays the horse’s gallop throughout. In [[berlioz|Berlioz]]’s orchestral writing a melody carries a story and returns in a grotesque version. In her piano cycle, [[fanny-hensel|Fanny Hensel]] wrote a piece for each month of the year.</p>`,
   essay: `
 <p class="dropcap">The piano begins before the voice enters, with repeated triplets fast enough to tire the pianist’s arm. Then a voice asks who is riding through the night. In [[schubert|Schubert]]’s <i>Erlkönig</i>, written in 1815, a single singer takes the parts of the narrator, the father with a child in his arms, the frightened boy and the creature calling him away. The father explains that the shapes are mist and the noises are wind.</p>
-<p>A singer and pianist can perform this kind of theatre in a room. The voice changes register when the speaker changes, and the accompaniment supplies what the words leave unsaid. In Schubert’s <i>Winterreise</i> of 1827, twenty-four poems by Wilhelm Müller follow a solitary traveller through winter. Near the end of the first song, <i>Gute Nacht</i>, D minor gives way to D major as the traveller thinks of the woman he is leaving. The major key lasts only a short time.</p>
+<p>A singer and pianist can perform this kind of theatre in a room. The voice changes register when the speaker changes, and the accompaniment supplies what the words leave unsaid. In Schubert’s <i>Winterreise</i> of 1827, twenty-four poems by Wilhelm Müller follow a solitary traveller through winter. Near the end of the first song, <i>Gute Nacht</i>, D minor changes to D major as the traveller thinks of the woman he is leaving. The major key lasts only a short time.</p>
 <aside class="note"><b>The fragment</b>A short piano piece can end before its melody is complete, or open partway through a phrase whose beginning is not heard.</aside>
 <p>[[schumann|Schumann]] gathered small piano pieces into cycles in which one character interrupts another. [[chopin|Chopin]]’s mazurkas brought the uneven accent of a dance into the drawing room, with the weight often falling late in the bar so that the three beats are unequal. Hensel’s <i>Das Jahr</i>, composed in 1841, gives each of the twelve months a separate piece and adds a postlude.</p>
 <h3><span class="sc">The instrument trade</span>The piano, Liszt and Berlioz</h3>
@@ -28,7 +29,7 @@ export default {
 <p>The sustaining pedal lifts the dampers, so the strings go on vibrating after the fingers have left the keys. A pianist can strike a low bass note, leap to the middle of the keyboard and play an accompaniment beneath a high melody while the bass is still sounding. If the foot does not clear the pedal, the old harmony goes on sounding when the new one arrives. A singing line on the piano therefore depends on exact pedalling.</p>
 <p>[[liszt|Liszt]] used the piano to bring music from the concert hall to other players. He made a transcription of [[berlioz|Berlioz]]’s <i>Symphonie fantastique</i> after hearing its first performance in Paris in 1830. In it a single pianist had to represent the different voices of the orchestra. A melody could stand out in the middle of the keyboard while chords sounded above it and a bass moved below.</p>
 <p>Berlioz himself wrote for the orchestra in unusually graphic terms. In the final movement of the <i>Symphonie fantastique</i>, the beloved’s recurring tune returns in a witches’ gathering. Later in the movement the strings play with the wood of their bows, producing a dry clatter. His orchestration treatise grew from this close attention to instruments and from what orchestral players taught him.</p>
-<h3><span class="sc">The harmonic pressure</span>Chromatic harmony and delayed resolution</h3>
+<h3><span class="sc">Harmony</span>Chromatic harmony and delayed resolution</h3>
 <p>A change of harmony can be made with very small movements of the fingers. In the example below, C major becomes E major: E is kept, G moves up a semitone to G♯ and C moves down a semitone to B. Only two notes move, although the new chord belongs to a different scale. E major then leads to A minor. [[workshop#chromaticism|Chromatic notes]] allow a move to a distant key with only small steps in the individual parts.</p>
 <aside class="note"><b>Delayed resolution</b>A dissonant note is approached as though it will resolve, but the bass moves beneath it and forms another dissonant chord. Wagner repeats this procedure throughout <i>Tristan und Isolde</i>.</aside>
 <p>At the opening of [[wagner|Wagner]]’s <i>Tristan und Isolde</i>, the cellos begin a phrase and the winds enter with the chord that has become inseparable from the opera’s name. Its notes move, but the next chord does not resolve it. The music stops and the phrase is repeated. Later in the opera, recurring ideas return between scenes: a [[workshop#leitmotif|leitmotif]] can come back on a different instrument or with changed harmony, recalling an earlier moment.</p>
@@ -64,7 +65,7 @@ V:1 name="Piano"
 V:1
 %%MIDI program 0
 "C major"[CEG]4 | "E major"[B,E^G]4 | "A minor"[A,CE]4 | "F major"[A,CF]4 |]`,
-      caption: 'An invented progression. C major becomes E major with E held in place: G rises to G♯ and C falls to B. E major then leads to A minor. The final F-major chord keeps A and C from the preceding chord.',
+      caption: 'An invented progression. C major becomes E major with E held in place: G rises to G♯ and C falls to B. E major then leads to A minor. The final F major chord keeps A and C from the preceding chord.',
     },
     {
       kicker: 'Metric tension · schematic',
@@ -113,7 +114,7 @@ He grips him firmly, he keeps him warm.
 “Father, can you not see the Erlking?
 The Erlking with crown and trailing train?”
 “My son, it is a streak of mist.”`,
-      note: '<p>One singer takes both the child’s terrified lines and the father’s reassuring answers. In [[schubert|Schubert]]’s 1815 setting, D 328, the piano plays repeated triplets beneath them. When the ride stops, the narrator states that the child in the father’s arms is dead.</p>',
+      note: '<p>One singer takes both the child’s terrified lines and the father’s reassuring answers. In [[schubert|Schubert]]’s 1815 setting, D. 328, the piano plays repeated triplets beneath them. When the ride stops, the narrator states that the child in the father’s arms is dead.</p>',
     },
   ],
 };

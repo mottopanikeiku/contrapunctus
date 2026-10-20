@@ -6,8 +6,7 @@ export default {
     "id": "mahler-kindertotenlieder-anderson",
     "title": "Kindertotenlieder — Marian Anderson",
     "part": 3,
-    "of": 5
-  },
+    "of": 5, "unit": "songs" },
   "concert": false,
   "work": "Kindertotenlieder",
   "movement": "III. Wenn dein Mütterlein",
@@ -19,17 +18,17 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, III (Anderson, Monteux, 1950).ogg"
   },
-  "intro": "Marian Anderson sings “Wenn dein Mütterlein”, the third of Mahler’s Kindertotenlieder, in which a mother enters with a candle and, for an instant, the child is pictured following her. Pierre Monteux’s San Francisco players accompany her with cor anglais and low strings; Mahler leaves the violins out entirely.",
+  "intro": "Marian Anderson sings “Wenn dein Mütterlein”, the third of Mahler’s <i>Kindertotenlieder</i>, in which a mother enters with a candle and, for an instant, the child is pictured following her. Pierre Monteux’s San Francisco players accompany her with cor anglais and low strings; Mahler leaves the violins out entirely.",
   "sections": [
     {
       "t": 0,
       "label": "A · Cor anglais melody",
       "m": "A",
-      "mNote": "Bassoons play above a pizzicato cello pulse"
+      "mNote": "Bassoons play above a pizzicato cello pulse."
     },
     {
       "t": 106,
-      "label": "A′ · opening tune, varied",
+      "label": "A′ · Opening tune, varied",
       "m": "A′",
       "mNote": "Harp and double bass join the returning tune."
     },
@@ -110,7 +109,7 @@ export default {
       "id": "second-stanza",
       "title": "The cor anglais returns with harp",
       "from": "A · Cor anglais melody",
-      "to": "A′ · opening tune, varied",
+      "to": "A′ · Opening tune, varied",
       "at": { "t": 106 },
       "span": [96, 118],
       "how": "<p>The descending vocal phrase closes in C minor. A ritardando leads into <i>Wie zu Anfang</i> (as at the beginning), and the cor anglais plays its tune again. Harp and plucked double bass now carry the pulse, and the bass clarinet holds a note across the barline.</p>",
@@ -121,12 +120,12 @@ export default {
     },
     {
       "id": "instrumental-close",
-      "title": "Plucked steps give way to sustained notes",
-      "from": "A′ · opening tune, varied",
+      "title": "Plucked steps, then sustained notes",
+      "from": "A′ · Opening tune, varied",
       "to": "Coda · Cor anglais, horns and cellos",
       "at": { "t": 218 },
       "span": [208, 230],
-      "how": "<p>The cor anglais returns at <i>Wieder wie zu Anfang</i>, accompanied by horn lines and bowed cellos. A ritardando lengthens its last descending phrase. Harp and low strings end on G, and the final G-major chord is held under fermatas.</p>",
+      "how": "<p>The cor anglais returns at <i>Wieder wie zu Anfang</i>, accompanied by horn lines and bowed cellos. A ritardando lengthens its last descending phrase. Harp and low strings end on G, and the final G major chord is held under fermatas.</p>",
       "devices": ["motivic link", "orchestration change", "decrescendo", "half cadence"],
       "basis": "score-proportion",
       "precision": "passage",

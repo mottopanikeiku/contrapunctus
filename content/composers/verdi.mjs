@@ -9,9 +9,9 @@ export default {
   epithet: 'Composer whose catchy tenor tunes could carry a fatal meaning when the wrong man heard them.',
   portrait: { file: 'File:Boldini - Ritratto di Giuseppe Verdi (1886) Google Art Project.jpg', caption: 'Giuseppe Verdi in Giovanni Boldini’s pastel portrait of 1886.', focus: '50% 24%' },
   facts: [
-    ['Training', 'Provesi in Busseto; private lessons with Lavigna after Milan’s Conservatoire rejected him'],
+    ['Trained', 'Provesi in Busseto; private lessons with Lavigna after Milan’s Conservatoire rejected him'],
     ['Theatres', 'Milan · Venice · Florence · Rome · Naples · Paris · St Petersburg · Cairo'],
-    ['Librettists', 'Piave, Cammarano and Boito were his principal collaborators'],
+    ['Librettists', 'Piave, Cammarano and Boito, his principal collaborators'],
     ['Output', 'Operas from <i>Oberto</i> (1839) to <i>Falstaff</i> (1893); the <i>Requiem</i>, sacred music, songs and a string quartet'],
   ],
   life: `
@@ -42,7 +42,7 @@ export default {
     { aspect: 'Four people at once', glyph: '𝄢', html: `<p>In the <i>Rigoletto</i> quartet, the Duke makes love to Maddalena inside the inn while Gilda and her father listen outside. His smooth tune, Maddalena’s laughing replies and Gilda’s broken phrases remain distinct when the voices overlap. Rigoletto has brought his daughter there to hear the Duke with Maddalena.</p>` },
     { aspect: 'Before the curtain', glyph: '𝄞', html: `<p>The Prelude to <i>La traviata</i> begins very softly, with the violins high in their register. A warmer string melody follows, and light decoration is then added above it. When the curtain rises, dance music takes over.</p>` },
     { aspect: 'A melody repeated', glyph: '𝄾', html: `<p>The Duke’s <i>La donna è mobile</i> is set in short 3/8 phrases built from repeated notes, a quick turn and a brief answering phrase. Near the end of <i>Rigoletto</i> the Duke sings it offstage, and when the jester hears it he learns that his enemy is not dead.</p>` },
-    { aspect: 'Terror', glyph: '♮', html: `<p>The <i>Dies irae</i> of the <i>Requiem</i> opens with full-orchestra blows and fast string figures, and the chorus shouts the text of judgement. The music returns in later sections and breaks into quieter passages of prayer. At the end, after the final fugue, the soprano sings the plea for deliverance very quietly. The work ends quietly.</p>` },
+    { aspect: 'The Dies irae', glyph: '♮', html: `<p>The <i>Dies irae</i> of the <i>Requiem</i> opens with full-orchestra blows and fast string figures, and the chorus shouts the text of judgement. The music returns in later sections and breaks into quieter passages of prayer. At the end, after the final fugue, the soprano sings the plea for deliverance very quietly.</p>` },
   ],
   works: [
     { year: '1842', title: 'Nabucco', forces: 'Opera in four parts; soloists, chorus and orchestra', note: 'Strepponi sang Abigaille at the La Scala première. In <i>Va, pensiero</i>, the chorus of the captive Hebrews sings a single melody.' },
@@ -112,7 +112,7 @@ That struts and frets his hour upon the stage,
 And then is heard no more. It is a tale
 Told by an idiot, full of sound and fury,
 Signifying nothing.`,
-      note: `<p>In Shakespeare, Macbeth hears of his wife’s death and answers with this speech. Verdi and Piave gave him a much shorter reply, in which life is an idiot’s story, wind and noise. His lament, <i>Pietà, rispetto, amore</i>, comes earlier, when he counted the pity, respect and love his old age would never receive.</p>`,
+      note: `<p>In Shakespeare, Macbeth hears of his wife’s death and answers with this speech. Verdi and Piave gave him a much shorter reply, in which life is an idiot’s story, wind and noise. His lament, <i>Pietà, rispetto, amore</i>, comes earlier, when he counts the pity, respect and love his old age will never receive.</p>`,
     },
   ],
   recordings: [

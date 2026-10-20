@@ -14,12 +14,12 @@ export default {
   intro: 'Louis Frémaux conducts the Introït et Kyrie, the first movement of the Requiem, Op. 48. A single D sounds before the choir enters, and the movement is built from low strings, long-held chords and a tenor melody that returns as the Kyrie.',
   sections: [
     { t: 0, label: 'A · A single D, then the choir', m: 'A' },
-    { t: 96, label: 'B · Tenor melody over strings and organ', m: 'B', mNote: 'Tenor melody over violas, cellos, basses and organ' },
-    { t: 152, label: 'C · winds before the soprano prayer', m: 'C' },
+    { t: 96, label: 'B · Tenor melody over strings and organ', m: 'B', mNote: 'Tenor melody over violas, cellos, basses and organ.' },
+    { t: 152, label: 'C · Winds before the soprano prayer', m: 'C' },
     { t: 212, label: 'D · Choir sings “Exaudi”', m: 'D' },
     { t: 250, label: 'B′ · Kyrie for three voices', m: 'B′', mNote: 'The tenor melody returns in choral unison.' },
     { t: 282, label: 'E · Christe eleison, loud and soft', m: 'E' },
-    { t: 322, label: 'B″ · Final Kyrie, pianissimo', m: 'B″', mNote: 'Choral phrases above moving cellos and basses' },
+    { t: 322, label: 'B″ · Final Kyrie, pianissimo', m: 'B″', mNote: 'Choral phrases above moving cellos and basses.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening D and choral entry', text: 'Bassoons, horns and low strings play D fortissimo, then fade. The choir enters pianissimo in six parts on a D minor chord. The violins and organ rest.', basis: 'score-proportion', precision: 'passage', evidence: 'Hamelle full score (1901), pp. 1–4: opening D, six-part choir, and rests in the violin and organ parts. https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf' },
@@ -51,7 +51,7 @@ export default {
       id: 'into-wind-chords',
       title: 'Wind chords before “Te decet hymnus”',
       from: 'B · Tenor melody over strings and organ',
-      to: 'C · winds before the soprano prayer',
+      to: 'C · Winds before the soprano prayer',
       at: { t: 152 },
       span: [144, 166],
       how: '<p>Bassoons, horns and trumpets return with strong chords over the low strings. The organ briefly adds reed stops, then goes back to its quieter foundation stops at rehearsal E. The strings make a diminuendo, and the sopranos enter with “Te decet hymnus”.</p>',
@@ -63,7 +63,7 @@ export default {
     {
       id: 'into-exaudi',
       title: 'Full choir enters at rehearsal F',
-      from: 'C · winds before the soprano prayer',
+      from: 'C · Winds before the soprano prayer',
       to: 'D · Choir sings “Exaudi”',
       at: { t: 212 },
       span: [200, 224],

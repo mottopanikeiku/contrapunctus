@@ -2,7 +2,7 @@ export default {
   id: 'bach-st-matthew-erbarme-dich',
   composer: 'bach',
   order: 9,
-  set: { id: 'bach-st-matthew-highlights', title: 'St Matthew Passion · highlights', part: 2, of: 2 },
+  set: { id: 'bach-st-matthew-highlights', title: 'St Matthew Passion · highlights', part: 2, of: 2, unit: 'excerpts' },
   work: 'St Matthew Passion, BWV 244',
   movement: 'No. 47. Erbarme dich, mein Gott',
   year: '1727; revised 1736',
@@ -28,7 +28,7 @@ export default {
   intro: 'This aria for alto with solo violin follows Peter’s denial in the <i>St Matthew Passion</i>. Hertha Töpper sang it, with Otto Büchner playing the violin solo, in Karl Richter’s 1958 recording.',
 
   sections: [
-    { t: 0, label: 'A · Solo violin introduction', m: 'A', mNote: 'Solo violin above strings and pizzicato bass' },
+    { t: 0, label: 'A · Solo violin introduction', m: 'A', mNote: 'Solo violin above strings and pizzicato bass.' },
     { t: 64, label: 'B · Alto enters, “Erbarme dich”', m: 'B', mNote: 'The alto enters with “Erbarme dich” after the violin’s fermata.' },
     { t: 182, label: 'C · Violin interlude, then “Schaue hier”', m: 'C', mNote: 'A violin interlude separates the two parts of the poem.' },
     { t: 270, label: 'B′ · Erbarme dich, B minor', m: 'B′', mNote: 'The opening plea comes back in B minor.' },
@@ -36,7 +36,7 @@ export default {
   ],
 
   cues: [
-    { t: 0, kind: 'music', title: 'Solo violin introduction, B minor', text: 'The solo violin plays long phrases over the bass in 12/8. Bach marks the accompanying strings <i>piano sempre</i> — softly throughout — and the bass <i>pizzicato</i>, plucked. The voice enters after eight bars of this B-minor music.', basis: 'score-proportion', precision: 'passage', evidence: 'Bach-Gesellschaft score, vol. 4 (1854), Part II, printed p. 168: 12/8, solo violin, piano sempre strings and pizzicato continuo. https://s9.imslp.org/files/imglnks/usimg/d/d7/IMSLP00935-Bach_StMatt2.pdf' },
+    { t: 0, kind: 'music', title: 'Solo violin introduction, B minor', text: 'The solo violin plays long phrases over the bass in 12/8. Bach marks the accompanying strings <i>piano sempre</i> — softly throughout — and the bass <i>pizzicato</i>, plucked. The voice enters after eight bars of this B minor music.', basis: 'score-proportion', precision: 'passage', evidence: 'Bach-Gesellschaft score, vol. 4 (1854), Part II, printed p. 168: 12/8, solo violin, piano sempre strings and pizzicato continuo. https://s9.imslp.org/files/imglnks/usimg/d/d7/IMSLP00935-Bach_StMatt2.pdf' },
     { t: 64, kind: 'music', title: 'Alto entry', text: '“Erbarme dich, mein Gott” (“Have mercy, my God”). The alto enters after the fermata that ends the introduction. Her phrases break off between appeals, and the solo violin rests before each of its own phrases.', basis: 'score-proportion', precision: 'passage', evidence: 'Bach-Gesellschaft score, printed pp. 168–169: fermata ending the introduction, alto entry and solo violin rests before its answering phrases. Picander’s aria text, Leipzig, 1727.' },
     { t: 92, kind: 'world', title: 'Peter’s denial, preceding recitative', text: 'In the preceding recitative, Peter denies Jesus three times. The cock crows, and Peter remembers the warning and goes out weeping. Picander’s aria takes the last word of that account, “bitterlich” (bitterly), into its own poem.', basis: 'documented', precision: 'passage', evidence: 'Matthew 26:69–75 and Picander’s text for BWV 244, Nos. 38 and 39 in modern numbering. German text: https://www.bachvereniging.nl/en/bwv/bwv-244.' },
     { t: 156, kind: 'life', title: 'Violinist at Weimar, 1703', text: 'In 1703, at the age of eighteen, Bach spent half a year as a violinist in Duke Johann Ernst’s private orchestra at Weimar. His next post was as organist at Arnstadt. In this aria, written years later, a solo violin plays the introduction and, through the Dal Segno, the close.', basis: 'documented', precision: 'passage', evidence: 'Bach-Archiv Leipzig chronology, 1703: violinist with Duke Johann Ernst III, then appointment at Arnstadt. https://www.bach-leipzig.de/en/neutral/johann-sebastian-bach-%E2%94%80-chronology. Violin introduction and Dal Segno: Bach-Gesellschaft score, pp. 168 and 172.' },
@@ -94,7 +94,7 @@ export default {
       to: 'A′ · Opening violin music returns',
       at: { t: 391 },
       span: [376, 406],
-      how: '<p>The alto ends “um meiner Zähren willen” with a B-minor cadence. The instruction <i>Dal Segno</i> sends the instruments back to the opening sign, and the solo violin melody, soft string chords and plucked bass are repeated without the voice. The repeated introduction closes on its original fermata.</p>',
+      how: '<p>The alto ends “um meiner Zähren willen” with a B minor cadence. The instruction <i>Dal Segno</i> sends the instruments back to the opening sign, and the solo violin melody, soft string chords and plucked bass are repeated without the voice. The repeated introduction closes on its original fermata.</p>',
       devices: ['motivic link', 'fermata', 'texture change'],
       basis: 'score-proportion',
       precision: 'passage',

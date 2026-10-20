@@ -14,7 +14,7 @@ export default {
   intro: 'The Sanctus is the third movement of Fauré’s Requiem, Op. 48. The sopranos sing a three-note “Sanctus” over harp and divided violas, the brass play only in a single “Hosanna”, and the movement ends as quietly as it began.',
   sections: [
     { t: 0, label: 'A · Sanctus exchanged between sopranos and men', m: 'A' },
-    { t: 62, label: 'A′ · Vocal phrases at higher pitch', m: 'A′', mNote: 'Wider vocal phrases over continuing harp and viola figures' },
+    { t: 62, label: 'A′ · Vocal phrases at higher pitch', m: 'A′', mNote: 'Wider vocal phrases over continuing harp and viola figures.' },
     { t: 78, label: 'B · Sopranos, “Pleni sunt coeli”', m: 'B' },
     { t: 100, label: 'C · Hosanna with brass', m: 'C' },
     { t: 142, label: 'A″ · Harp arpeggios return', m: 'A″', mNote: 'The choir returns to “Sanctus” above quiet strings.' },

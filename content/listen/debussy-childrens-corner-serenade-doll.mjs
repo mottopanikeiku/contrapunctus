@@ -8,8 +8,7 @@ export default {
     "id": "debussy-childrens-corner",
     "title": "Children’s Corner",
     "part": 3,
-    "of": 6
-  },
+    "of": 6, "unit": "pieces" },
   "year": "1906–08",
   "key": "E major",
   "forces": "Piano",
@@ -29,7 +28,7 @@ export default {
   "intro": "“Serenade for the Doll” is the third piece of Debussy’s <i>Children’s Corner</i>, a short serenade whose tune passes between the pianist’s hands and is decorated with grace notes. Debussy kept the soft pedal down throughout, including the passages where the doll’s song becomes emphatic.",
   "sections": [
     { "t": 0, "label": "A · Grace notes and plucked chords", "m": "A", "mNote": "The tune passes between the hands above a detached accompaniment." },
-    { "t": 50, "label": "B · Sharper accents, chromatic chords", "m": "B", "mNote": "Chromatic notes enter the E-major melody." },
+    { "t": 50, "label": "B · Sharper accents, chromatic chords", "m": "B", "mNote": "Chromatic notes enter the E major melody." },
     { "t": 104, "label": "A′ · The song over running quavers", "m": "A′", "mNote": "The grace notes return over a smoother left hand." }
   ],
   "cues": [

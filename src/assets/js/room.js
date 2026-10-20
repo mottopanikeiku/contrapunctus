@@ -17,7 +17,7 @@ function spelling(key = '') {
 }
 let NAMES = MIXED;
 const FIFTHS = [0, 7, 2, 9, 4, 11, 6, 1, 8, 3, 10, 5];
-const KIND = { music: 'Music', form: 'Form', listen: 'Recording', life: 'Life', world: 'History' };
+const KIND = { music: 'Music', form: 'Form', life: 'Life', world: 'History' };
 const GOLDS = ['#e9cf8c', '#9fc3c6', '#e08c7a', '#b7a6d8', '#c9d58a', '#e6a96b', '#8fb3e0', '#d79bb6', '#a8d4b0', '#f0dfa8', '#c7a0e0', '#e4b38a'];
 const VIEW_LABEL = { score: 'Score', notes: 'Notes', orchestra: 'Orchestra', form: 'Form', sound: 'Sound' };
 
@@ -43,10 +43,10 @@ export async function mount(app) {
     cue: $('.cue-now'), kind: $('.cue-kind'), cueTitle: $('.cue-title'), cueText: $('.cue-text'), cueHow: $('.cue-how p'), cueNext: $('.cue-next'), past: $('.cue-past'),
     join: $('.join-card'), tabJoins: $('.tab-joins'), tabComposer: $('.tab-composer'), tabPiece: $('.tab-piece'),
     play: $('.t-play'), cur: $('.t-cur'), dur: $('.t-dur'), timeline: $('.timeline'), tlCanvas: $('.tl-canvas'), tlSections: $('.tl-sections'), tlJoins: $('.tl-joins'), head: $('.tl-head'),
-    progBtn: $('.t-prog'), prog: $('.programme'), curtain: $('.curtain'), interlude: $('.interlude'),
+    progBtn: $('.t-prog'), prog: $('.programme'), scrim: $('.prog-scrim'), curtain: $('.curtain'), interlude: $('.interlude'),
     cameo: $('.oval-r img'), cameoCap: $('.cameo-r figcaption'), chord: $('.chord'), chordCap: $('.chord-cap'), bass: $('.ro-bass'), top: $('.ro-top'), readouts: $('.readouts'),
     nsLabel: $('.ns-label'), nsNote: $('.ns-note'), nsNext: $('.ns-next'), axis: $('.spectro-axis'), spectro: $('.spectro'), wheel: $('.wheel'),
-    frame: $('.spectro-frame'), layer: $('.view-layer'), views: $('.views'), label: $('.spectro-label'),
+    frame: $('.spectro-frame'), layer: $('.view-layer'), views: $('.views'), cap: $('.sheet-cap'),
   };
   let backdropFront = 0;
   let showVersion = 0;
@@ -69,7 +69,8 @@ export async function mount(app) {
     A4 = t.tuning || 440;
     NAMES = spelling(t.key);
     const c = t.composer;
-    document.body.style.setProperty('--accent', t.era?.accent ?? '#c9a65a');
+    // The era's accent, mixed toward the ink in room.css so it reads on the dark hall.
+    if (t.era?.accent) document.body.style.setProperty('--era', t.era.accent); else document.body.style.removeProperty('--era');
     history.replaceState(history.state, '', `#${t.id}`);
     document.title = `${c.name} — ${t.work} · The Concert Hall`;
     if (t.era?.hero) {
@@ -86,9 +87,9 @@ export async function mount(app) {
     ui.given.textContent = c.given ?? '';
     ui.family.textContent = c.family ?? c.name;
     ui.work.textContent = t.work;
-    ui.movement.textContent = t.set ? `${t.movement} (${roman(t.set.part)} of ${roman(t.set.of)})` : t.movement;
+    ui.movement.textContent = movementLabel(t);
     ui.meta.textContent = [t.year, t.key, t.forces, t.performers, A4 !== 440 ? `pitch A ≈ ${A4} Hz${t.tuningStatus === 'inferred' ? ' (inferred)' : ''}` : ''].filter(Boolean).join(' · ');
-    ui.cameo.src = c.portrait ? new URL(c.portrait, app.root).href : '';
+    if (c.portrait) ui.cameo.src = new URL(c.portrait, app.root).href; else ui.cameo.removeAttribute('src');
     ui.cameo.style.objectPosition = c.focus;
     ui.cameo.alt = c.name;
     ui.cameoCap.textContent = c.dates;
@@ -129,10 +130,12 @@ export async function mount(app) {
     ui.frame.classList.toggle('paper', v === 'score');
     ui.frame.classList.toggle('scored', v !== 'sound');
     ui.frame.dataset.view = v;
-    ui.label.textContent = v === 'sound' ? 'Pitch over time · each band is an octave of C' : '';
+    // Each view writes its own caption under the frame; Notes needs none beyond its legend.
+    setCap(v === 'sound' ? 'Pitch over time; each band is an octave of C.' : '');
     // Without an aligned score the wheel shows what sounds, and its centre names the piece's key: a live chord guess misleads.
-    ui.chordCap.textContent = track.monophonic ? 'single melodic line' : score ? 'from the score' : 'key of the piece';
-    if (!score) ui.chord.textContent = (track.key ?? '').split(/[(;,]/)[0].replace(/ in the .*/, '').trim() || '—';
+    // With no value to show, the centre stays empty rather than printing a dash over its caption.
+    ui.chordCap.textContent = track.monophonic ? 'single line' : score ? 'from the score' : 'key of the piece';
+    if (!score) ui.chord.textContent = (track.key ?? '').split(/[(;,]/)[0].replace(/ in the .*/, '').trim();
     ui.readouts.hidden = !score;
     if (v === 'score') viewObj = sheetView();
     else if (v === 'notes') viewObj = rollView();
@@ -142,11 +145,13 @@ export async function mount(app) {
     wake();
   }
   const widen = $('.widen'), wideCue = $('.wide-cue');
+  // One line under the frame; when there is more to say (source, edition, licence, method) the § opens it.
+  const setCap = (short, full = '') => { ui.cap.innerHTML = full ? `<details class="cap-more"><summary><span>${short}</span></summary><div class="cap-full">${full}</div></details>` : short; };
   const setWide = (on) => {
     document.body.classList.toggle('wide', on);
-    widen.setAttribute('aria-pressed', String(on));
-    widen.textContent = on ? '⤡' : '⤢';
-    requestAnimationFrame(() => { if (view === 'sound') { setupSpectro(); setupKeys(); } else if (view === 'form') setView('form'); });
+    widen.textContent = on ? 'Restore' : 'Enlarge';
+    widen.title = `${on ? 'Restore' : 'Enlarge'} the view (F)`;
+    requestAnimationFrame(() => { if (view === 'sound') { setupSpectro(); setupKeys(); } else if (view === 'form' || view === 'orchestra') setView(view); });
   };
   on(widen, 'click', () => setWide(!document.body.classList.contains('wide')));
   cleanups.push(() => document.body.classList.remove('wide'));
@@ -204,20 +209,53 @@ export async function mount(app) {
     const wrap = document.createElement('div');
     wrap.className = 'sheet';
     wrap.innerHTML = '<p class="sheet-wait">Loading the score…</p>';
-    const cap = document.createElement('p');
-    cap.className = 'sheet-cap';
     // Licensed encodings (CC BY / BY-SA) need their credit and licence beside the engraving that adapts them.
     const src = track.scoreSource ?? {};
     const licensed = src.license && !/public domain|cc0/i.test(src.license);
     const licence = src.licenseUrl ? `<a href="${escapeHtml(src.licenseUrl)}" target="_blank" rel="noopener">${escapeHtml(src.license)}</a>` : escapeHtml(src.license ?? '');
     const credit = licensed ? ` Encoding: ${src.url ? `<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(src.encoder || 'source')}</a>` : escapeHtml(src.encoder ?? '')}, ${licence}; engraved and aligned by Contrapunctus under the same terms.${src.attribution ? ` <span class="sheet-attrib">${escapeHtml(src.attribution)}</span>` : ''}` : '';
-    cap.innerHTML = `The written score${src.title ? `: ${src.title}` : ''}${src.edition ? `, ${src.edition}` : ''}, engraved with LilyPond. The gold bar follows the recording by automatic alignment (not yet checked by ear). Select a bar to play from it.${credit}`;
-    ui.layer.append(wrap, cap);
+    const named = [src.title, src.edition].filter(Boolean).map(escapeHtml).join(', ');
+    // The line under the frame stays one line in every view, so the frame keeps its size: it names the edition by
+    // its first clause only (publisher, place, year); the work is in the heading and the § holds the rest.
+    const brief = String(src.edition ?? '').split(/\s*[;(]/)[0].trim();
+    setCap(`Score${brief && brief.length <= 44 ? `: ${escapeHtml(brief)}` : ''} · aligned by machine`,
+      `The written score${named ? `: ${named}` : ''}, engraved with LilyPond. The gold bar follows the recording by automatic alignment (not yet checked by ear). Select a bar to play from it.${credit}`);
+    ui.layer.append(wrap);
     const t0 = track;
-    let pack = null, pages = [], current = null, lit = [], userScroll = 0, barLen = 0.25, io = null, destroyed = false;
+    let pack = null, pages = [], current = null, lit = [], userScroll = 0, autoUntil = 0, barLen = 0.25, io = null, destroyed = false;
+    // The window follows the music a whole system at a time. A system is every bar sharing a box top on one page;
+    // its box spans all the staves, so the tallest one sets how far a full score must shrink to fit.
+    let sysRatio = 0, shownSys = null;
+    const fit = () => {
+      if (!sysRatio || !wrap.clientWidth) return;
+      const room = wrap.clientHeight - 16, need = sysRatio * wrap.clientWidth;
+      wrap.style.setProperty('--page-w', need > room ? `${Math.max(50, (room / need) * 100).toFixed(2)}%` : '100%');
+      shownSys = null; current = null;
+    };
+    const ro = new ResizeObserver(() => { fit(); tick(true); veilUpdate(); });
+    ro.observe(wrap);
     const hl = document.createElement('div');
     hl.className = 'sheet-hl';
     const heads = new Map();   // bar n → [{ el, pos }] for loaded pages
+    // Only whole systems show: a system cut by the foot of the window is covered with paper, unless it is the one
+    // being played or nothing whole is shown above it.
+    const veil = document.createElement('div');
+    veil.className = 'sheet-veil';
+    const veilUpdate = () => {
+      if (!pack || destroyed) return;
+      const wr = wrap.getBoundingClientRect(), foot = wrap.clientHeight;
+      let cut = 0, whole = false;
+      for (const P of pages) {
+        const pr = P.el.getBoundingClientRect();
+        if (pr.bottom < wr.top || pr.top > wr.bottom) continue;
+        for (const s of P.systems) {
+          const top = pr.top - wr.top + (s.y / P.h) * pr.height, bottom = top + (s.h / P.h) * pr.height;
+          if (top >= -2 && bottom <= foot + 2) whole = true;
+          else if (top > 0 && top < foot && bottom > foot && `${P.i}:${s.y}` !== shownSys) cut = Math.max(cut, foot - top + 6);
+        }
+      }
+      veil.style.height = whole && cut ? `${Math.round(cut)}px` : '0px';
+    };
 
     async function loadPage(P) {
       if (P.state) return;
@@ -240,6 +278,12 @@ export async function mount(app) {
     fetch(new URL('index.json', base)).then((r) => r.json()).then((j) => {
       if (!alive || destroyed || track !== t0 || view !== 'score') return;
       pack = j;
+      // One scale for the whole piece (no zooming at each page turn): three systems in four fit whole; the rare
+      // taller one (every instrument at once) is shown from its top. Never below half the width, where it stops being legible.
+      const systems = new Map(), perPage = j.pages.map(() => new Map());
+      for (const boxes of Object.values(j.bars)) for (const [pi, , y, , h] of boxes) { systems.set(`${pi}:${y}`, h / j.pages[pi].w); perPage[pi].set(y, Math.max(h, perPage[pi].get(y) ?? 0)); }
+      const ratios = [...systems.values()].sort((a, b) => a - b);
+      sysRatio = ratios[Math.floor((ratios.length - 1) * 0.75)] ?? 0;
       wrap.innerHTML = '';
       pages = j.pages.map((p, i) => {
         const el = document.createElement('div');
@@ -247,14 +291,17 @@ export async function mount(app) {
         el.style.aspectRatio = `${p.w} / ${p.h}`;
         el.dataset.i = i;
         wrap.append(el);
-        return { ...p, el, state: null, i };
+        return { ...p, el, state: null, i, systems: [...perPage[i]].map(([y, h]) => ({ y, h })) };
       });
+      ui.layer.append(veil);
+      fit();
       io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) loadPage(pages[+e.target.dataset.i]); }), { root: wrap, rootMargin: '120% 0px' });
       pages.forEach((P) => io.observe(P.el));
       tick(true);
+      veilUpdate();
     });
 
-    const onScroll = () => { if (!wrap._auto) userScroll = performance.now(); wrap._auto = false; };
+    const onScroll = () => { if (performance.now() > autoUntil) userScroll = performance.now(); veilUpdate(); };
     wrap.addEventListener('scroll', onScroll, { passive: true });
     wrap.addEventListener('click', (e) => {
       if (!pack) return;
@@ -287,8 +334,15 @@ export async function mount(app) {
             if (hl.parentNode !== P.el) P.el.append(hl);
             Object.assign(hl.style, { left: `${(x / P.w) * 100}%`, top: `${(y / P.h) * 100}%`, width: `${(w / P.w) * 100}%`, height: `${(h / P.h) * 100}%`, display: '' });
             if (performance.now() - userScroll > 3500) {
-              const top = P.el.offsetTop + (y / P.h) * P.el.offsetHeight, bottom = top + (h / P.h) * P.el.offsetHeight;
-              if (top < wrap.scrollTop + 24 || bottom > wrap.scrollTop + wrap.clientHeight - 24) { wrap._auto = true; wrap.scrollTo({ top: Math.max(0, top - Math.max(10, Math.min(wrap.clientHeight * 0.28, (wrap.clientHeight - (bottom - top)) / 2))), behavior: reduced ? 'auto' : 'smooth' }); }
+              const pr = P.el.getBoundingClientRect(), wr = wrap.getBoundingClientRect();
+              const top = pr.top - wr.top + wrap.scrollTop + (y / P.h) * pr.height, bottom = top + (h / P.h) * pr.height;
+              const sys = `${pi}:${y}`;
+              if (sys !== shownSys || top < wrap.scrollTop || bottom > wrap.scrollTop + wrap.clientHeight) {
+                shownSys = sys; autoUntil = performance.now() + (reduced ? 100 : 900);
+                // A little paper above the top staff keeps its high notes and markings in view.
+                wrap.scrollTo({ top: Math.max(0, top - Math.max(12, (bottom - top) * 0.12)), behavior: reduced ? 'auto' : 'smooth' });
+                veilUpdate();
+              }
             }
           } else hl.style.display = 'none';
         }
@@ -299,7 +353,7 @@ export async function mount(app) {
           lit = next;
         }
       },
-      destroy() { destroyed = true; io?.disconnect(); },
+      destroy() { destroyed = true; io?.disconnect(); ro.disconnect(); },
     };
   }
 
@@ -346,10 +400,8 @@ export async function mount(app) {
           const x = X(on), w = Math.max(3, (d / span) * W - 1.5), y = Y(m) - nh / 2;
           const col = GOLDS[v % GOLDS.length];
           g.globalAlpha = dim ? 0.08 : past ? 0.32 : active ? 1 : 0.62;
-          if (active && !dim) { g.shadowColor = col; g.shadowBlur = 14; }
           g.fillStyle = col;
           g.beginPath(); g.roundRect ? g.roundRect(x, y, w, nh, Math.min(4, nh / 2)) : g.rect(x, y, w, nh); g.fill();
-          g.shadowBlur = 0;
         }
         g.globalAlpha = 1;
         const hx = X(t);
@@ -365,8 +417,18 @@ export async function mount(app) {
   // same material (section.m letters; A′ returns to A), the joins as diamonds, the playhead walking through.
   function formView() {
     const NS = 'http://www.w3.org/2000/svg';
-    const box = ui.layer.getBoundingClientRect();
-    const W = 1000, H = Math.round(Math.max(340, Math.min(760, (W * (box.height - 40)) / Math.max(1, box.width)))), X0 = 30, X1 = 970, floor = H - 96, d = track.duration || 1;
+    // The section now playing is named in HTML under the drawing (as in the orchestra view), so its type keeps the
+    // hall's sizes at every width. The drawing is never taller than 0.45 of its width, and its letters never fall
+    // below 13 px on screen however narrow the frame.
+    const now = document.createElement('div');
+    now.className = 'stage-now';
+    now.innerHTML = '<span class="sn-k">Section</span><span class="sn-lead"></span><span class="sn-note"></span>';
+    const box = ui.layer.getBoundingClientRect(), availH = Math.max(1, box.height - 72), availW = Math.max(1, box.width);
+    const W = 1000, H = Math.round(Math.max(260, Math.min(W * 0.45, (W * availH) / availW)));
+    const px = Math.min(availW / W, availH / H);   // screen pixels per drawing unit
+    // On touch screens each section block is at least 44 px tall, so it can be tapped to play from there.
+    const fs = Math.max(22, 13 / px), fsJ = Math.max(13, 10 / px), stoneH = Math.max(46, fs * 1.9, matchMedia('(pointer: coarse)').matches ? 44 / px : 0);
+    const X0 = 30, X1 = 970, floor = H - Math.max(34, fsJ * 2.4), d = track.duration || 1;
     const X = (t) => X0 + (t / d) * (X1 - X0);
     const secs = track.sections.map((s, i) => ({ ...s, i, end: track.sections[i + 1]?.t ?? d, base: (s.m ?? '').replace(/[′″'’\s\d]+$/u, '') }));
     const arcs = [];
@@ -386,27 +448,25 @@ export async function mount(app) {
 <radialGradient id="stoneg" cx=".5" cy="0" r="1"><stop offset="0" stop-color="rgba(233,207,140,.32)"/><stop offset="1" stop-color="rgba(233,207,140,.04)"/></radialGradient></defs>`;
     html += `<line x1="${X0}" x2="${X1}" y1="${floor + 0.5}" y2="${floor + 0.5}" class="fm-floor"/>`;
     for (const { a, b } of arcs) {
-      const x1 = mid(a), x2 = mid(b), r = (x2 - x1) / 2, h = Math.min(floor - 46 - 26, 36 + (r * 2 / maxSpan) * (floor - 46 - 70));
-      html += `<path class="fm-arc" data-a="${a.i}" data-b="${b.i}" d="M${x1},${floor - 46} C${x1},${floor - 46 - h * 1.33} ${x2},${floor - 46 - h * 1.33} ${x2},${floor - 46}" stroke-width="${Math.max(1.2, Math.min(5, (b.end - b.t) / d * 40))}"/>`;
+      const x1 = mid(a), x2 = mid(b), r = (x2 - x1) / 2, top = floor - stoneH, h = Math.max(12, Math.min(top - 26, 36 + (r * 2 / maxSpan) * (top - 70)));
+      html += `<path class="fm-arc" data-a="${a.i}" data-b="${b.i}" d="M${x1},${top} C${x1},${top - h * 1.33} ${x2},${top - h * 1.33} ${x2},${top}" stroke-width="${Math.max(1.2, Math.min(5, (b.end - b.t) / d * 40))}"/>`;
     }
     for (const s of secs) {
       const x = X(s.t), w = Math.max(2, X(s.end) - x - 2);
       const letter = s.m || '';
-      const showLetter = w > 22;
+      const showLetter = w > fs * Math.max(1, letter.length * 0.55) + 4;
       html += `<g class="fm-sec" data-i="${s.i}" tabindex="0" role="button" aria-label="${escapeHtml(s.label)} at ${fmt(s.t)}">
-<rect x="${x + 1}" y="${floor - 46}" width="${w}" height="46" rx="2"/>${showLetter ? `<text x="${x + 1 + w / 2}" y="${floor - 16}" text-anchor="middle" class="fm-m">${escapeHtml(letter)}</text>` : ''}</g>`;
+<rect x="${x + 1}" y="${floor - stoneH}" width="${w}" height="${stoneH}" rx="2"/>${showLetter ? `<text x="${x + 1 + w / 2}" y="${floor - stoneH / 2 + fs * 0.32}" text-anchor="middle" class="fm-m" font-size="${fs.toFixed(1)}">${escapeHtml(letter)}</text>` : ''}</g>`;
     }
-    for (const j of track.transitions) html += `<text x="${X(j.at)}" y="${floor + 22}" text-anchor="middle" class="fm-join">◆</text>`;
-    html += `<g class="fm-head"><line x1="0" x2="0" y1="20" y2="${floor + 8}"/><circle cx="0" cy="${floor + 8}" r="4"/></g>`;
-    html += `<text x="${X0}" y="${H - 52}" class="fm-now-l"></text><text x="${X0}" y="${H - 24}" class="fm-now-n"></text>`;
+    for (const j of track.transitions) html += `<text x="${X(j.at)}" y="${floor + fsJ * 1.6}" text-anchor="middle" class="fm-join" font-size="${fsJ.toFixed(1)}">◆</text>`;
+    html += `<g class="fm-head"><line x1="0" x2="0" y1="12" y2="${floor + 6}"/><circle cx="0" cy="${floor + 6}" r="4"/></g>`;
     svg.innerHTML = html;
-    const cap = document.createElement('p');
-    cap.className = 'sheet-cap';
-    cap.innerHTML = arcs.length
-      ? 'The whole piece, left to right. Each block is a section; an arc joins material to its return (A to A′). Diamonds mark the joins between sections. Select a block to play from that section.'
-      : 'The whole piece, left to right, one block per section. Diamonds mark the joins between sections. Select a block to play from that section.';
-    ui.layer.append(svg, cap);
-    const head = svg.querySelector('.fm-head'), nowL = svg.querySelector('.fm-now-l'), nowN = svg.querySelector('.fm-now-n');
+    setCap(arcs.length ? 'Sections in order; arcs join returning material' : 'Sections in order; diamonds mark the joins',
+      arcs.length
+        ? 'The whole piece, left to right. Each block is a section; an arc joins material to its return (A to A′). Diamonds mark the joins between sections. Select a block to play from that section.'
+        : 'The whole piece, left to right, one block per section. Diamonds mark the joins between sections. Select a block to play from that section.');
+    ui.layer.append(svg, now);
+    const head = svg.querySelector('.fm-head'), nowL = now.querySelector('.sn-lead'), nowN = now.querySelector('.sn-note');
     const blocks = [...svg.querySelectorAll('.fm-sec')], arcEls = [...svg.querySelectorAll('.fm-arc')];
     svg.addEventListener('click', (e) => { const g = e.target.closest('.fm-sec'); if (g) seek(secs[+g.dataset.i].t + 0.05); });
     svg.addEventListener('keydown', (e) => { const g = e.target.closest('.fm-sec'); if (g && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); seek(secs[+g.dataset.i].t + 0.05); } });
@@ -420,7 +480,7 @@ export async function mount(app) {
         blocks.forEach((b, k) => { b.classList.toggle('on', k === i); b.classList.toggle('past', k < i); });
         arcEls.forEach((a) => a.classList.toggle('on', +a.dataset.a === i || +a.dataset.b === i));
         const s = secs[i];
-        nowL.textContent = s ? (s.m && !s.label.startsWith(s.m) ? `${s.m} · ${s.label}` : s.label) : '';
+        nowL.textContent = s ? (s.m && !s.label.startsWith(s.m) ? `${s.m} · ${s.label}` : s.label) : '—';
         nowN.textContent = s?.mNote ?? '';
       },
     };
@@ -458,16 +518,22 @@ export async function mount(app) {
     const solo = orch?.solo && ensemble.has(orch.solo) ? orch.solo : null;
     if (solo) ensemble.delete(solo);
     const rows = ROWS.map((r) => r.filter((id) => ensemble.has(id))).filter((r) => r.length);
-    const W = 1000, H = 560, cx = 500, cy = 500, r0 = 92, rowW = Math.min(96, (420 - r0) / Math.max(1, rows.length));
+    const cx = 500, cy = 500, r0 = 92, rowW = Math.min(96, (420 - r0) / Math.max(1, rows.length));
+    // The floor is drawn just outside the last row, so the drawing fills the frame; labels are sized for the screen:
+    // never under 12 px however small the frame (a long name breaks onto two lines before it overflows its wedge).
+    const maxR = r0 + rows.length * rowW, floorR = maxR + 28;
+    const lay = ui.layer.getBoundingClientRect(), availW = Math.max(1, lay.width), availH = Math.max(1, lay.height - 64);
+    const fit = (cond) => Math.min(availW / (2 * floorR + 24), availH / (floorR + 16 + cond * 1.9));
+    const condFs = Math.max(12, 11.5 / fit(14)), px = fit(condFs), minFs = 12 / px;
     const pol = (r, a) => [cx + r * Math.cos(a), cy - r * Math.sin(a)];
     const wedge = (ri, ro, a0, a1) => { const [x0, y0] = pol(ro, a0), [x1, y1] = pol(ro, a1), [x2, y2] = pol(ri, a1), [x3, y3] = pol(ri, a0); return `M${x0.toFixed(1)},${y0.toFixed(1)} A${ro},${ro} 0 0 0 ${x1.toFixed(1)},${y1.toFixed(1)} L${x2.toFixed(1)},${y2.toFixed(1)} A${ri},${ri} 0 0 1 ${x3.toFixed(1)},${y3.toFixed(1)}Z`; };
     let html = `<defs>
 <radialGradient id="floorg" cx="50%" cy="100%" r="90%"><stop offset="0" stop-color="#3a2c17" stop-opacity=".55"/><stop offset=".6" stop-color="#1b150d" stop-opacity=".35"/><stop offset="1" stop-color="#0d0b09" stop-opacity="0"/></radialGradient>
 <radialGradient id="seatg" cx="50%" cy="100%" r="100%"><stop offset="0" stop-color="#fff0c2"/><stop offset=".55" stop-color="#e9cf8c"/><stop offset="1" stop-color="#a8843a"/></radialGradient>
 <filter id="bloom" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9"/></filter></defs>
-<path d="M${cx - 470},${cy} A470,470 0 0 1 ${cx + 470},${cy} Z" fill="url(#floorg)"/>
-<path d="M${cx - 470},${cy} A470,470 0 0 1 ${cx + 470},${cy}" fill="none" stroke="rgba(230,203,133,.22)"/>
-<line x1="${cx - 480}" x2="${cx + 480}" y1="${cy + .5}" y2="${cy + .5}" stroke="rgba(230,203,133,.35)"/>`;
+<path d="M${cx - floorR},${cy} A${floorR},${floorR} 0 0 1 ${cx + floorR},${cy} Z" fill="url(#floorg)"/>
+<path d="M${cx - floorR},${cy} A${floorR},${floorR} 0 0 1 ${cx + floorR},${cy}" fill="none" stroke="rgba(230,203,133,.22)"/>
+<line x1="${cx - floorR - 10}" x2="${cx + floorR + 10}" y1="${cy + .5}" y2="${cy + .5}" stroke="rgba(230,203,133,.35)"/>`;
     const PAD = 0.012, labels = [];
     rows.forEach((row, ri) => {
       const rIn = r0 + ri * rowW + 4, rOut = r0 + (ri + 1) * rowW - 4;
@@ -489,29 +555,36 @@ export async function mount(app) {
         html += `<g class="sec" data-id="${id}"><path class="halo" d="${d}" filter="url(#bloom)"/><path class="seat" d="${d}"/>${dots}</g>`;
         const deg = (-(mid * 180) / Math.PI + 90);
         const label = NAME[id] ?? id, arc = (a1 - a0 - PAD * 2) * rm;
-        const fs = Math.max(11, Math.min(21, arc / (label.length * 0.5)));
-        labels.push(`<text class="st-n" data-id="${id}" font-size="${fs.toFixed(1)}" x="${lx.toFixed(1)}" y="${(ly + 6).toFixed(1)}" text-anchor="middle" transform="rotate(${deg.toFixed(1)} ${lx.toFixed(1)} ${ly.toFixed(1)})">${NAME[id] ?? id}</text>`);
+        let fs = Math.max(minFs, Math.min(21, arc / (label.length * 0.5))), lines = [label];
+        const words = label.split(' ');
+        if (label.length * 0.5 * fs > arc && words.length > 1 && rowW - 8 > fs * 2.1) {
+          const cut = Math.ceil(words.length / 2);
+          lines = [words.slice(0, cut).join(' '), words.slice(cut).join(' ')];
+          fs = Math.max(minFs, Math.min(21, arc / (Math.max(...lines.map((l) => l.length)) * 0.5)));
+        }
+        const body = lines.length === 1 ? escapeHtml(label) : lines.map((l, q) => `<tspan x="${lx.toFixed(1)}" dy="${q ? (fs * 1.02).toFixed(1) : '0'}">${escapeHtml(l)}</tspan>`).join('');
+        const y = lines.length === 1 ? ly + fs * 0.32 : ly - fs * 0.2;
+        labels.push(`<text class="st-n" data-id="${id}" font-size="${fs.toFixed(1)}" x="${lx.toFixed(1)}" y="${y.toFixed(1)}" text-anchor="middle" transform="rotate(${deg.toFixed(1)} ${lx.toFixed(1)} ${ly.toFixed(1)})">${body}</text>`);
       });
     });
     html += labels.join('');
-    if (solo) html += `<g class="sec solo" data-id="${solo}"><ellipse class="halo" cx="${cx}" cy="${cy - 52}" rx="90" ry="30" filter="url(#bloom)"/><ellipse class="seat" cx="${cx}" cy="${cy - 52}" rx="78" ry="24"/><text class="st-n" data-id="${solo}" x="${cx}" y="${cy - 46}" text-anchor="middle">${orch?.soloLabel ?? ({ clarinets: 'Solo clarinet', flutes: 'Solo flute', oboes: 'Solo oboe', horns: 'Solo horn', cellos: 'Solo cello', violas: 'Solo viola' })[solo] ?? NAME[solo] ?? solo}</text></g>`;
-    html += `<circle cx="${cx}" cy="${cy - 8}" r="5" class="st-podium"/><text x="${cx}" y="${cy + 30}" text-anchor="middle" class="st-cond">the conductor</text>`;
+    if (solo) html += `<g class="sec solo" data-id="${solo}"><ellipse class="halo" cx="${cx}" cy="${cy - 52}" rx="90" ry="30" filter="url(#bloom)"/><ellipse class="seat" cx="${cx}" cy="${cy - 52}" rx="78" ry="24"/><text class="st-n" data-id="${solo}" x="${cx}" y="${cy - 46}" text-anchor="middle" font-size="${Math.max(20, minFs).toFixed(1)}">${orch?.soloLabel ?? ({ clarinets: 'Solo clarinet', flutes: 'Solo flute', oboes: 'Solo oboe', horns: 'Solo horn', cellos: 'Solo cello', violas: 'Solo viola' })[solo] ?? NAME[solo] ?? solo}</text></g>`;
+    html += `<circle cx="${cx}" cy="${cy - 8}" r="5" class="st-podium"/><text x="${cx}" y="${(cy + 6 + condFs).toFixed(1)}" text-anchor="middle" class="st-cond" font-size="${condFs.toFixed(1)}">the conductor</text>`;
     const svg = document.createElementNS(NS, 'svg');
-    const maxR = r0 + rows.length * rowW;
-    svg.setAttribute('viewBox', `${cx - maxR - 24} ${cy - maxR - 24} ${2 * maxR + 48} ${maxR + 66}`);
+    svg.setAttribute('viewBox', `${cx - floorR - 12} ${cy - floorR - 8} ${2 * floorR + 24} ${(floorR + 16 + condFs * 1.9).toFixed(1)}`);
     svg.setAttribute('class', 'stage-svg');
+    svg.setAttribute('preserveAspectRatio', 'xMidYMax meet');   // the stage stands on the frame's floor, above the melody line
     svg.setAttribute('role', 'img');
     svg.setAttribute('aria-label', `The ensemble on stage: ${[...ensemble].map((id) => NAME[id] ?? id).join(', ')}`);
     svg.innerHTML = html;
     const now = document.createElement('div');
     now.className = 'stage-now';
     now.innerHTML = '<span class="sn-k">Melody</span><span class="sn-lead">—</span><span class="sn-note"></span>';
-    const cap = document.createElement('p');
-    cap.className = 'sheet-cap';
-    cap.textContent = score
-      ? 'Each section lights while its written part sounds (from the score, aligned automatically to this recording; not yet checked by ear). The brightest sections have the melody.'
-      : `Who plays in each passage, read from the score${orch?.source?.title ? `: ${orch.source.title}` : ''}. Changes are placed against this recording passage by passage and may fall a moment early or late. The brightest sections have the melody.`;
-    ui.layer.append(svg, now, cap);
+    setCap(score ? 'Lit sections are playing; the brightest has the melody' : 'Who plays in each passage; the brightest has the melody',
+      escapeHtml(score
+        ? 'Each section lights while its written part sounds (from the score, aligned automatically to this recording; not yet checked by ear). The brightest sections have the melody.'
+        : `Who plays in each passage, read from the score${orch?.source?.title ? `: ${orch.source.title}` : ''}. Changes are placed against this recording passage by passage and may fall a moment early or late. The brightest sections have the melody.`));
+    ui.layer.append(svg, now);
     const secs = new Map([...svg.querySelectorAll('.sec')].map((g) => [g.dataset.id, { g, level: 0, label: svg.querySelector(`.st-n[data-id="${g.dataset.id}"]`) }]));
     const leadEl = now.querySelector('.sn-lead'), noteEl = now.querySelector('.sn-note');
     let lastEntry = null;
@@ -555,52 +628,59 @@ export async function mount(app) {
     const c = track.cues[Math.max(0, i)] ?? { kind: 'music', title: track.work, text: track.intro, how: '' };
     ui.cue.dataset.kind = c.kind;
     ui.kind.textContent = KIND[c.kind] ?? c.kind;
-    ui.cueTitle.textContent = c.title;
-    if (joinIdx < 0) wideCue.innerHTML = `<span>${KIND[c.kind] ?? ''}</span>${escapeHtml(c.title)}`;
+    ui.cueTitle.innerHTML = titleHtml(c.title);
+    if (joinIdx < 0) wideCue.innerHTML = `<span>${KIND[c.kind] ?? ''}</span>${titleHtml(c.title)}`;
     ui.cueText.innerHTML = c.text;
     ui.cueHow.innerHTML = `${c.how ?? ''} ${linkify(escapeHtml(c.evidence ?? ''))}`;
+    keepTogether(ui.cue);
     $('.cue-how').hidden = !(c.how || c.evidence);
     if (!reduced) { ui.cue.classList.remove('enter'); void ui.cue.offsetWidth; ui.cue.classList.add('enter'); }
     ui.past.innerHTML = track.cues.slice(0, Math.max(0, i)).reverse().map((p) => `<li data-kind="${p.kind}" data-t="${p.t}" tabindex="0"><span class="tm">${fmt(p.t)}</span><div><b>${p.title}</b><span>${p.text}</span></div></li>`).join('');
   }
   on(ui.past, 'click', (e) => { const li = e.target.closest('li'); if (li) seek(+li.dataset.t); });
+  // Rows that play from their time answer the keyboard as buttons do.
+  const playRow = (e) => { const li = e.target.closest('li[data-t]'); if (li && e.target === li && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); seek(+li.dataset.t); } };
+  on(ui.past, 'keydown', playRow);
 
   const joinAt = (t) => track.transitions.findIndex((j) => t >= j.at - 7 && t <= Math.max(j.at + 9, j.span[1]));
   function showJoin(i) {
     joinIdx = i;
     if (i < 0) { ui.join.hidden = true; return; }
     const j = track.transitions[i];
-    ui.join.innerHTML = `<span class="join-k"><span class="diamond">◆</span> Join · ${escapeHtml(j.from)} <span class="arrow">→</span> ${escapeHtml(j.to)}${j.bar ? ` · bar ${j.bar}` : ''}</span>
-<h3>${escapeHtml(j.title)}</h3><div class="join-how">${j.how}</div>
+    ui.join.innerHTML = `<span class="join-k"><span class="diamond">◆</span> Join · ${escapeHtml(j.from)} <span class="arrow">→</span> ${escapeHtml(j.to)}${j.bar ? ` · bar\u00a0${j.bar}` : ''}</span>
+<h2>${titleHtml(j.title)}</h2><div class="join-how">${j.how}</div>
 <div class="join-dev">${j.devices.map((d) => `<span>${escapeHtml(d)}</span>`).join('')}</div>
 <button type="button" class="join-again" data-span="${j.span[0]}">Play the join again</button>`;
+    keepTogether(ui.join);
     ui.join.hidden = false;
-    wideCue.innerHTML = `<span>◆ Join</span>${escapeHtml(j.title)}`;
+    wideCue.innerHTML = `<span>◆ Join</span>${titleHtml(j.title)}`;
     if (!reduced) { ui.join.classList.remove('enter'); void ui.join.offsetWidth; ui.join.classList.add('enter'); }
   }
   on(ui.join, 'click', (e) => { const b = e.target.closest('.join-again'); if (b) seek(+b.dataset.span); });
 
   function renderJoinsTab() {
     const js = track.transitions;
-    ui.tabJoins.innerHTML = js.length ? `<p class="joins-intro">Joins between the sections of this piece by ${escapeHtml(track.composer.short ?? track.composer.name)}. Each join also appears under <em>Listening notes</em> when the recording reaches it.</p>` + js.map((j) => `<article class="join-item"><span class="join-k"><span class="diamond">◆</span> ${fmt(j.at)} · ${escapeHtml(j.from)} → ${escapeHtml(j.to)}${j.bar ? ` · bar ${j.bar}` : ''}</span><h3>${escapeHtml(j.title)}</h3><div class="join-how">${j.how}</div><div class="join-dev">${j.devices.map((d) => `<span>${escapeHtml(d)}</span>`).join('')}</div><button type="button" class="join-again" data-span="${j.span[0]}">Play this join</button></article>`).join('')
+    ui.tabJoins.innerHTML = js.length ? `<p class="joins-intro">Joins between the sections of this piece by ${escapeHtml(track.composer.short ?? track.composer.name)}. Each join also appears under <em>Listening notes</em> when the recording reaches it.</p>` + js.map((j) => `<article class="join-item"><span class="join-k"><span class="diamond">◆</span> ${fmt(j.at)} · ${escapeHtml(j.from)} → ${escapeHtml(j.to)}${j.bar ? ` · bar\u00a0${j.bar}` : ''}</span><h2>${titleHtml(j.title)}</h2><div class="join-how">${j.how}</div><div class="join-dev">${j.devices.map((d) => `<span>${escapeHtml(d)}</span>`).join('')}</div><button type="button" class="join-again" data-span="${j.span[0]}">Play this join</button></article>`).join('')
       : '<p class="joins-intro">No joins between sections are marked for this piece.</p>';
+    keepTogether(ui.tabJoins);
   }
   on(ui.tabJoins, 'click', (e) => { const b = e.target.closest('.join-again'); if (b) seek(+b.dataset.span); });
 
   function renderComposerTab() {
     const c = track.composer;
     const portrait = c.portrait ? new URL(c.portrait, app.root).href : '';
-    ui.tabComposer.innerHTML = `<div class="bio-head">${portrait ? `<img src="${portrait}" alt="" style="object-position:${c.focus}">` : '<span></span>'}<div><h3>${c.name}</h3><span class="dates">${c.dates}</span></div></div>
+    ui.tabComposer.innerHTML = `<div class="bio-head">${portrait ? `<img src="${portrait}" alt="" style="object-position:${c.focus}">` : '<span></span>'}<div><h2>${c.name}</h2><span class="dates">${c.dates}</span></div></div>
 <p class="epi">${c.epithet}</p>${c.quote ? `<blockquote>“${c.quote.text}”<br><small>— ${c.quote.source}</small></blockquote>` : ''}${c.background}
 <dl><div><dt>Born</dt><dd>${c.born}</dd></div>${c.died ? `<div><dt>Died</dt><dd>${c.died}</dd></div>` : ''}${c.facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
 <div class="inherit"></div>
 ${c.page === null ? '' : `<a class="more-link" href="${new URL(c.page ?? `composers/${c.slug}.html`, app.root).href}">${c.era === 'before-bach' || (c.page ?? '').startsWith('origins') ? 'Before Bach: origins of this music' : 'Composer chapter: life, scores, paintings'}</a>`}`;
+    keepTogether(ui.tabComposer);
     const t0 = track;
     influence().then((all) => {
       const mine = all?.[c.slug];
       if (!mine || track !== t0 || (!mine.in?.length && !mine.out?.length)) return;
       const item = (e, dir) => `<li><a href="${new URL(`influence.html#edge-${e.id}`, app.root).href}"><span class="ih-y">${e.year ?? ''}</span><span class="ih-t">${escapeHtml(e.title)}</span><span class="ih-w">${dir === 'in' ? 'from' : 'to'} ${escapeHtml(e.name ?? e.from ?? e.to ?? '')} · ${escapeHtml(e.kind)}</span></a></li>`;
-      $('.inherit', ui.tabComposer).innerHTML = `<h4 class="tab-h">Influences</h4>
+      $('.inherit', ui.tabComposer).innerHTML = `<h3 class="tab-h">Influences</h3>
 ${mine.in?.length ? `<p class="ih-k">Influences on ${escapeHtml(c.short ?? c.name)}</p><ol class="ih">${mine.in.map((e) => item(e, 'in')).join('')}</ol>` : ''}
 ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.name)} on others</p><ol class="ih">${mine.out.map((e) => item(e, 'out')).join('')}</ol>` : ''}
 <a class="more-link" href="${new URL(`influence.html#node-${c.slug}`, app.root).href}">${escapeHtml(c.short ?? c.name)} in the Web of Influence</a>`;
@@ -613,27 +693,35 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
   const host = (url = '') => (/archive\.org/.test(url) ? 'Internet Archive' : 'Wikimedia Commons');
   function renderPieceTab() {
     const t = track, d = t.dossier;
-    const dossier = d ? `<dl class="dossier">${d.fields.map((f) => `<div class="st-${f.status.replace(' ', '-')}"><dt>${f.label}</dt><dd>${escapeHtml(f.value || '—')}${f.src.length ? ` <sup>${f.src.join(',')}</sup>` : ''}<small>${f.statusText}${f.note ? ` — ${escapeHtml(f.note)}` : ''}</small>${f.alts.map((a) => `<small class="alt">or: ${escapeHtml(a)}</small>`).join('')}</dd></div>`).join('')}</dl>
+    // An empty value reads "Unknown" (or "Not applicable"), as on the Sources page, never a bare dash.
+    const field = (f) => {
+      const value = f.value || (f.status === 'not applicable' ? 'Not applicable' : 'Unknown');
+      const note = f.value ? `${f.statusText}${f.note ? ` — ${escapeHtml(f.note)}` : ''}` : escapeHtml(f.note ?? '');
+      return `<div class="st-${f.status.replace(' ', '-')}"><dt>${f.label}</dt><dd>${escapeHtml(value)}${f.src.length ? ` <sup>${f.src.join(',')}</sup>` : ''}${note ? `<small>${note}</small>` : ''}${f.alts.map((a) => `<small class="alt">or: ${escapeHtml(a)}</small>`).join('')}</dd></div>`;
+    };
+    const dossier = d ? `<p class="dossier-key" aria-hidden="true"><span class="st-documented">Documented</span><span class="st-inferred">Inferred</span><span class="st-disputed">Disputed</span><span>Unknown</span></p><dl class="dossier">${d.fields.map(field).join('')}</dl>
 <p class="credit">${escapeHtml(d.credit)}${d.licenseUrl ? ` · <a href="${d.licenseUrl}" target="_blank" rel="noopener">licence</a>` : ''}</p>
 <ol class="sources">${d.sources.map((s) => `<li><a href="${s.url}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a>${s.locator ? ` — ${escapeHtml(s.locator)}` : ''}</li>`).join('')}</ol>`
       : `<dl class="dossier"><div><dt>Performers</dt><dd>${escapeHtml(t.performers)}</dd></div><div><dt>Recording</dt><dd><a href="${t.sourcePage}" target="_blank" rel="noopener">${host(t.sourcePage)}</a> · ${escapeHtml(t.license)}</dd></div></dl>`;
     const cite = `${t.composer.name}, <i>${escapeHtml(t.work)}</i>${t.movement ? `, ${escapeHtml(t.movement)}` : ''}. ${escapeHtml(t.performers)}. Audio: <a href="${t.sourcePage}" target="_blank" rel="noopener">${host(t.sourcePage)}</a>. Notes: Contrapunctus, ${location.href.split('#')[0]}#${t.id}.`;
-    ui.tabPiece.innerHTML = `<h3>${t.work}${t.movement ? `<br><small style="font-style:italic;font-size:.75em">${t.movement}</small>` : ''}</h3>
+    ui.tabPiece.innerHTML = `<h2>${t.work}${t.movement ? `<small>${t.movement}</small>` : ''}</h2>
 <p class="intro">${t.intro}</p>${t.workPage ? `<p class="work-link"><a href="${new URL(t.workPage, app.root).href}">Work page: every recording, with all its notes</a></p>` : ''}
 <dl>${t.year ? `<div><dt>Composed</dt><dd>${t.year}</dd></div>` : ''}${t.key ? `<div><dt>Key</dt><dd>${t.key}</dd></div>` : ''}<div><dt>Forces</dt><dd>${t.forces}</dd></div></dl>
-<h4 class="tab-h">Recording details</h4>${dossier}
-<h4 class="tab-h">Form</h4><ol class="sec-list">${t.sections.map((s) => `<li data-t="${s.t}"><span>${fmt(s.t)}</span><span>${s.label}</span></li>`).join('')}</ol>
-<h4 class="tab-h">All listening notes</h4><ol class="cue-list">${t.cues.map((c) => `<li data-t="${c.t}" data-kind="${c.kind}"><span>${fmt(c.t)}</span><span>${c.title}</span></li>`).join('')}</ol>
+<h3 class="tab-h">Recording details</h3>${dossier}
+<h3 class="tab-h">Form</h3><ol class="sec-list">${t.sections.map((s) => `<li data-t="${s.t}" tabindex="0"><span>${fmt(s.t)}</span><span>${s.label}</span></li>`).join('')}</ol>
+<h3 class="tab-h">All listening notes</h3><ol class="cue-list">${t.cues.map((c) => `<li data-t="${c.t}" data-kind="${c.kind}" tabindex="0"><span>${fmt(c.t)}</span><span>${c.title}</span></li>`).join('')}</ol>
 <div class="others"></div>
-<h4 class="tab-h">Citation</h4><p class="cite">${cite}</p>`;
+<h3 class="tab-h">Citation</h3><p class="cite">${cite}</p>`;
+    keepTogether(ui.tabPiece);
     const t0 = t;
     compareIndex().then((idx) => {
       const mine = idx?.[t.id];
       if (!mine?.length || track !== t0) return;
-      $('.others', ui.tabPiece).innerHTML = `<h4 class="tab-h">Other performances</h4><ul class="others-l">${mine.map((e) => `<li><a href="${new URL(`compare/${e.compare}.html`, app.root).href}">${escapeHtml(e.label)}</a></li>`).join('')}</ul>`;
+      $('.others', ui.tabPiece).innerHTML = `<h3 class="tab-h">Other performances</h3><ul class="others-l">${mine.map((e) => `<li><a href="${new URL(`compare/${e.compare}.html`, app.root).href}">${escapeHtml(e.label)}</a></li>`).join('')}</ul>`;
     });
   }
   on(ui.tabPiece, 'click', (e) => { const li = e.target.closest('li[data-t]'); if (li) seek(+li.dataset.t); });
+  on(ui.tabPiece, 'keydown', playRow);
   $$('.tabs button').forEach((b) => on(b, 'click', () => {
     $$('.tabs button').forEach((x) => x.setAttribute('aria-selected', String(x === b)));
     $$('.tab').forEach((p) => { p.hidden = p.dataset.panel !== b.dataset.tab; });
@@ -643,22 +731,22 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
   }));
 
   // ================================================================= timeline
+  // The timeline names each section by its letter (A, B, Dev, A′, Coda); the full label is in "This section".
   function renderSections() {
     const d = track.duration;
     ui.tlSections.innerHTML = track.sections.map((s, i) => {
       const end = track.sections[i + 1]?.t ?? d;
-      return `<span style="left:${(s.t / d) * 100}%;width:${((end - s.t) / d) * 100}%" title="${s.label}">${s.label}</span>`;
+      return `<span style="left:${(s.t / d) * 100}%;width:${((end - s.t) / d) * 100}%" title="${escapeHtml(s.label)}">${escapeHtml(s.m || s.label)}</span>`;
     }).join('');
   }
   function renderJoinMarkers() {
     const d = track.duration;
-    ui.tlJoins.innerHTML = track.transitions.map((j, i) => `<button type="button" style="left:${(j.at / d) * 100}%" data-join="${i}" title="Join: ${escapeHtml(j.title)}" aria-label="Join at ${fmt(j.at)}: ${escapeHtml(j.title)}">◆</button>`).join('');
+    ui.tlJoins.innerHTML = track.transitions.map((j, i) => `<button type="button" style="left:${(j.at / d) * 100}%" data-join="${i}" title="Join: ${escapeHtml(plainTitle(j.title))}" aria-label="Join at ${fmt(j.at)}: ${escapeHtml(plainTitle(j.title))}">◆</button>`).join('');
   }
   on(ui.tlJoins, 'pointerdown', (e) => e.stopPropagation());
   on(ui.tlJoins, 'click', (e) => { const b = e.target.closest('[data-join]'); if (b) seek(track.transitions[+b.dataset.join].span[0]); });
   let timelineTrack = null, timelineEnv = null, timelineDpr = 0;
   const timelineLayers = [document.createElement('canvas'), document.createElement('canvas')];
-  let cueColours = {};
   function drawTimeline() {
     const cv = ui.tlCanvas, dpr = Math.min(2, devicePixelRatio || 1);
     const w = cv.clientWidth, h = cv.clientHeight;
@@ -668,9 +756,6 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
     if (timelineTrack !== track || timelineEnv !== env || timelineDpr !== dpr || cv.width !== width || cv.height !== height) {
       cv.width = width; cv.height = height;
       timelineTrack = track; timelineEnv = env; timelineDpr = dpr;
-      // CSS custom properties are invariant between track/size changes, not a per-cue layout read.
-      const style = getComputedStyle(document.body);
-      cueColours = Object.fromEntries(Object.keys(KIND).map((kind) => [kind, style.getPropertyValue(`--k-${kind}`) || '#e9cf8c']));
       timelineLayers.forEach((layer, played) => {
         layer.width = width; layer.height = height;
         const g = layer.getContext('2d');
@@ -697,10 +782,8 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
       g.fillStyle = 'rgba(233,207,140,.2)'; g.fillRect(0, mid, w, 1);
       g.fillStyle = 'rgba(233,207,140,.8)'; g.fillRect(0, mid, (now / d) * w, 1);
     }
-    for (const c of track.cues) {
-      g.fillStyle = cueColours[c.kind] || '#e9cf8c';
-      g.beginPath(); g.arc(Math.max(2, (c.t / d) * w), h - 2.5, 2, 0, Math.PI * 2); g.fill();
-    }
+    g.fillStyle = 'rgba(233,207,140,.75)';
+    for (const c of track.cues) { g.beginPath(); g.arc(Math.max(2, (c.t / d) * w), h - 2.5, 2, 0, Math.PI * 2); g.fill(); }
     ui.head.style.left = `${(now / d) * 100}%`;
     ui.timeline.setAttribute('aria-valuemax', String(Math.round(d)));
     ui.timeline.setAttribute('aria-valuenow', String(Math.round(now)));
@@ -723,40 +806,70 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
     const ok = await player.play();
     ui.curtain.hidden = ok;
     document.body.classList.toggle('waiting', !ok);
+    if (ok) offerTour();
   }
-  const playState = () => { const p = player.playing; ui.play.textContent = p ? '❚❚' : '▶'; ui.play.setAttribute('aria-label', p ? 'Pause' : 'Play'); };
+  // One invitation, in the notes column, once the concert has begun on a first visit; never after a tour.
+  const hint = $('.hall-hint');
+  function offerTour() {
+    if (!hint || app.hallGuideSeen || document.documentElement.classList.contains('cp-touring')) return;
+    let seen = false; try { seen = !!localStorage.getItem('cp-hall-guide'); } catch {}
+    if (seen) return;
+    hint.hidden = false; app.hallGuideSeen = true;
+    try { localStorage.setItem('cp-hall-guide', 'seen'); } catch {}
+  }
+  on($('.hall-hint-close'), 'click', () => { hint.hidden = true; try { localStorage.setItem('cp-hall-guide', 'dismissed'); } catch {} });
+  // The icons are drawn in CSS from the label; no glyph to fall back to emoji.
+  const playState = () => { ui.play.setAttribute('aria-label', player.playing ? 'Pause' : 'Play'); };
   on(ui.play, 'click', () => (player.playing ? player.pause() : begin()));
   on($('.t-next'), 'click', () => player.next());
   on($('.t-prev'), 'click', () => (player.time > 5 ? seek(0) : player.prev()));
+  // The site's navigation folds behind Menu on narrow screens, as on every other page.
+  const menu = $('.r-menu'), nav = $('.r-nav');
+  const setMenu = (open) => { nav.classList.toggle('open', open); menu.setAttribute('aria-expanded', String(open)); menu.textContent = open ? 'Close' : 'Menu'; };
+  on(menu, 'click', () => setMenu(!nav.classList.contains('open')));
+  on(nav, 'click', (e) => { if (e.target.closest('a')) setMenu(false); });
+  on(document, 'click', (e) => { if (nav.classList.contains('open') && !e.target.closest('.r-top')) setMenu(false); });
+  // The programme is a drawer over a scrim: Escape, the scrim or × close it, and focus returns to its button.
+  function setProg(open, { focus = true } = {}) {
+    ui.prog.hidden = !open; ui.scrim.hidden = !open;
+    ui.progBtn.setAttribute('aria-expanded', String(open));
+    if (open && focus) ui.prog.focus({ preventScroll: true });
+    else if (!open && focus && (ui.prog.contains(document.activeElement) || document.activeElement === document.body)) ui.progBtn.focus({ preventScroll: true });
+  }
   on(window, 'keydown', (e) => {
-    if (e.target.closest('input, textarea, button, a, [role="slider"], summary') || document.querySelector('dialog[open]')) return;
+    if (e.key === 'Escape') {
+      if (!ui.prog.hidden) { setProg(false); return; }
+      if (nav.classList.contains('open')) { setMenu(false); menu.focus(); return; }
+      if (document.body.classList.contains('wide')) { setWide(false); return; }
+    }
+    if (e.target.closest('input, textarea, button, a, [role="slider"], summary, li[data-t], .fm-sec') || document.querySelector('dialog[open]') || !ui.prog.hidden) return;
     if (e.code === 'Space') { e.preventDefault(); ui.play.click(); }
     if (e.key === 'n' || e.key === 'N') player.next();
     if (e.key === 'f' || e.key === 'F') widen.click();
-    if (e.key === 'Escape' && document.body.classList.contains('wide')) setWide(false);
     if (e.key === 'p' || e.key === 'P') player.prev();
   });
-  on(ui.progBtn, 'click', () => { ui.prog.hidden = !ui.prog.hidden; ui.progBtn.setAttribute('aria-expanded', String(!ui.prog.hidden)); });
-  on($('.prog-close'), 'click', () => { ui.prog.hidden = true; });
+  on(ui.progBtn, 'click', () => setProg(ui.prog.hidden));
+  on($('.prog-close'), 'click', () => setProg(false));
+  on(ui.scrim, 'click', () => setProg(false));
   // One concert recording from anywhere, never the one already playing.
   const surprise = () => { const pool = P.filter((x) => x.concert !== false && x.id !== player.track?.id); return pool[Math.floor(Math.random() * pool.length)]?.id; };
   on(ui.prog, 'click', async (e) => {
     const evening = e.target.closest('button[data-programme]');
-    if (evening) { ui.prog.hidden = true; await player.setQueue(evening.dataset.programme || null, { play: true }); queueState(); return; }
-    if (e.target.closest('button[data-surprise]')) { ui.prog.hidden = true; await player.setQueue(null); await player.load(surprise(), { play: true }); return; }
+    if (evening) { setProg(false); await player.setQueue(evening.dataset.programme || null, { play: true }); queueState(); return; }
+    if (e.target.closest('button[data-surprise]')) { setProg(false); await player.setQueue(null); await player.load(surprise(), { play: true }); return; }
     const unkeep = e.target.closest('button[data-unkeep]');
     if (unkeep) { const list = kept(); list.splice(+unkeep.dataset.unkeep, 1); saveKept(list); renderKept(); return; }
     const moment = e.target.closest('button[data-kept]');
     if (moment) {
       const k = kept()[+moment.dataset.kept];
       if (!k || !P.some((x) => x.id === k.id)) return;
-      ui.prog.hidden = true;
+      setProg(false);
       if (player.queue && !player.queue.ids.includes(k.id)) await player.setQueue(null);
       await player.load(k.id, { play: true, t: k.t });
       return;
     }
     const b = e.target.closest('button[data-id]'); if (!b) return;
-    ui.prog.hidden = true;
+    setProg(false);
     if (player.queue && !player.queue.ids.includes(b.dataset.id)) await player.setQueue(null);
     await player.load(b.dataset.id, { play: true });
   });
@@ -779,7 +892,8 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
   });
   function queueState() {
     const q = player.queue, n = q ? q.ids.indexOf(player.track?.id) : -1;
-    ui.progBtn.textContent = n >= 0 ? `${q.title} · ${n + 1} of ${q.ids.length}` : 'Programme';
+    // The evening's title may shorten; its place in the evening never does.
+    ui.progBtn.innerHTML = n >= 0 ? `<span class="tp-t">${escapeHtml(q.title)}</span><span class="tp-n">&nbsp;· ${n + 1}&nbsp;of&nbsp;${q.ids.length}</span>` : '<span class="tp-t">Programme</span>';
     $$('button[data-programme]', ui.prog).forEach((b) => b.setAttribute('aria-pressed', String((q?.id ?? '') === b.dataset.programme)));
   }
   on($('.cue-share'), 'click', async (e) => {
@@ -795,7 +909,7 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
   function renderKept() {
     const list = kept();
     keptBox.hidden = !list.length;
-    $('ol', keptBox).innerHTML = list.map((k, i) => `<li><button data-kept="${i}"><span class="p-c">${escapeHtml(k.composer)}</span><span class="p-w">${escapeHtml(k.title)} · ${escapeHtml(k.work)}</span><span class="p-d">${fmt(k.t)}</span></button><button type="button" class="p-unkeep" data-unkeep="${i}" aria-label="Forget this moment">×</button></li>`).join('');
+    $('ol', keptBox).innerHTML = list.map((k, i) => `<li><button data-kept="${i}"><span class="p-c">${escapeHtml(k.composer)}</span><span class="p-w">${titleHtml(k.title)} · ${escapeHtml(k.work)}</span><span class="p-d">${fmt(k.t)}</span></button><button type="button" class="p-unkeep" data-unkeep="${i}" aria-label="Forget this moment">×</button></li>`).join('');
   }
   on($('.cue-keep'), 'click', (e) => {
     const c = track.cues[cueIdx];
@@ -808,16 +922,16 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
 
   const offs = [
     player.on('play', () => { playState(); wake(); }), player.on('pause', () => { playState(); wake(); }),
-    player.on('track', (t) => { show(t); queueState(); }),
+    player.on('track', (t) => { clearSpectro(); show(t); queueState(); }),
     player.on('queue', () => queueState()),
-    player.on('queue-end', () => { ui.prog.hidden = false; ui.progBtn.setAttribute('aria-expanded', 'true'); }),
+    player.on('queue-end', () => setProg(true, { focus: false })),
     player.on('blocked', (b) => { ui.curtain.hidden = !b; document.body.classList.toggle('waiting', b); }),
     player.on('advance', ({ from, to, interlude }) => {
       if (!interlude || reduced || !to) return;
       // Within one work the hall only marks the new movement; a new work gets the full interlude.
       const sameWork = from?.set && to.set && from.set.id === to.set.id;
       ui.interlude.classList.toggle('mv', !!sameWork);
-      ui.interlude.style.setProperty('--accent', to.era?.accent ?? '#c9a65a');
+      if (to.era?.accent) ui.interlude.style.setProperty('--era', to.era.accent); else ui.interlude.style.removeProperty('--era');
       $('.i-era', ui.interlude).textContent = to.era ? `${to.era.numeral} · ${to.era.name}` : '';
       $('.i-name', ui.interlude).textContent = to.composer.name;
       const ci = $('.i-cameo img', ui.interlude); ci.src = to.composer.portrait ? new URL(to.composer.portrait, app.root).href : ''; ci.style.objectPosition = to.composer.focus; $('.i-cameo', ui.interlude).hidden = !to.composer.portrait;
@@ -852,7 +966,8 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
       text(ui.nsNote, sec?.mNote ?? '');
     }
     const nextSec = track.sections[s + 1];
-    text(ui.nsNext, nextSec ? `Next section in ${fmt(nextSec.t - t)}: ${nextSec.label}` : '');
+    // The next section by its letter only, keeping the line short; its full name appears above when it begins.
+    text(ui.nsNext, nextSec ? `Next section in ${fmt(nextSec.t - t)}: ${nextSec.m || nextSec.label}` : '');
     if (visible.view) viewObj?.draw?.(t);
     if (scoreCovers(t) && visible.wheel) scoreReadouts(t);
   }
@@ -872,7 +987,7 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
     html(ui.bass, low == null ? '—' : `${NAMES[low % 12]}<small style="font-size:.6em;opacity:.6">${Math.floor(low / 12) - 1}</small>`);
     text(ui.top, notes.length ? [...new Set(notes.map((n) => NAMES[n[2] % 12]))].slice(0, 5).join(' · ') : '—');
     const ch = (score.chords ?? []).find((c) => c.t0 <= t && c.t1 > t);
-    text(ui.chord, ch ? ch.label : '—');
+    text(ui.chord, ch ? ch.label : '');
     chordTones = [...new Set(notes.map((n) => n[2] % 12))];
     wheelDirty = true;
   }
@@ -895,17 +1010,25 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
     if (analyser) return true;
     try { const g = player.graph(); analyser = g.analyser; freq = new Float32Array(analyser.frequencyBinCount); wave = new Float32Array(analyser.fftSize); return true; } catch { return false; }
   }
+  // The spectrogram keeps scrolling (at the analysis rate) while another view is shown, so Sound opens on the
+  // recent past instead of an empty panel. Re-sizing keeps what is drawn, right-aligned at the same time scale.
   function setupSpectro() {
     const cv = ui.spectro; dprS = Math.min(1.5, devicePixelRatio || 1);
-    sgW = Math.round(cv.clientWidth * dprS); sgH = Math.round(cv.clientHeight * dprS);
-    if (!sgW || !sgH) return;
-    cv.width = sgW; cv.height = sgH;
+    const w = Math.round(cv.clientWidth * dprS), h = Math.round(cv.clientHeight * dprS);
+    if (!w || !h) return;
+    // C2…C8: the C1 line is the frame's bottom edge, where its label would be cut.
+    ui.axis.innerHTML = Array.from({ length: OCT - 1 }, (_, k) => `<span style="top:${(1 - (k + 1) / OCT) * 100}%"><b>C${k + 2}</b></span>`).join('');
+    if (sg && w === sgW && h === sgH) return;
+    let old = null;
+    if (sg) { old = document.createElement('canvas'); old.width = sgW; old.height = sgH; old.getContext('2d').drawImage(cv, 0, 0); }
+    sgW = w; sgH = h; cv.width = w; cv.height = h;
     sg = cv.getContext('2d');
-    sg.fillStyle = '#060504'; sg.fillRect(0, 0, sgW, sgH);
+    clearSpectro();
+    if (old) { const ow = old.width * (h / old.height); sg.drawImage(old, w - ow, 0, ow, h); }
     colImg = sg.createImageData(3, sgH);
     rows = null;
-    ui.axis.innerHTML = Array.from({ length: OCT }, (_, o) => `<span style="top:${(1 - o / OCT) * 100}%"><b>C${o + 1}</b></span>`).join('');
   }
+  function clearSpectro() { if (sg) { sg.fillStyle = '#060504'; sg.fillRect(0, 0, sgW, sgH); } }
   function buildRows() {
     const binHz = analyser.context.sampleRate / analyser.fftSize, n = analyser.frequencyBinCount;
     const FMIN = A4 * 2 ** ((24 - 69) / 12);   // C1 relative to this recording's pitch
@@ -934,10 +1057,11 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
       if (e > 0.02) { kb.fillStyle = `rgba(246,${200 - e * 70},${110 - e * 60},${e})`; kb.fillRect(kbW - w, y + 0.5, w, Math.max(1, keyH - 1)); }
     }
   }
-  function drawSpectro() {
+  /** Scroll by the time elapsed since the last column (96 px a second), then paint the newest column. */
+  function drawSpectro(ms) {
     if (!sg) return;
     if (!rows || rowsA4 !== A4) buildRows();
-    const dx = Math.max(2, Math.round(1.6 * dprS));
+    const dx = Math.max(1, Math.round(Math.min(ms, 250) * 0.096 * dprS));
     if (colImg.width !== dx) colImg = sg.createImageData(dx, sgH);
     sg.drawImage(ui.spectro, -dx, 0);
     const d = colImg.data, min = -96, range = 62;
@@ -961,7 +1085,7 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
     };
     add(' major', [0, 4, 7]); add(' minor', [0, 3, 7]); add('7', [0, 4, 7, 10], 0.97); add('maj7', [0, 4, 7, 11], 0.97); add('m7', [0, 3, 7, 10], 0.97); add('°7', [0, 3, 6, 9], 0.95);
   }
-  let chordHold = { name: '', n: 0 }, shownChord = '', chordTones = [], lastRead = 0;
+  let chordHold = { name: '', n: 0 }, shownChord = '', chordTones = [], lastRead = 0, lastColumn = 0;
   const raw = new Float32Array(12);
   function analyse() {
     const binHz = analyser.context.sampleRate / analyser.fftSize, n = freq.length;
@@ -1012,7 +1136,9 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
   function setupWheel() { const cv = ui.wheel, dpr = Math.min(2, devicePixelRatio || 1); wSize = cv.clientWidth; if (!wSize) return; cv.width = cv.height = Math.round(wSize * dpr); wg = cv.getContext('2d'); wg.setTransform(dpr, 0, 0, dpr, 0, 0); }
   function drawWheel() {
     if (!wg) return;
-    const S = wSize, c = S / 2, r0 = S * 0.22, r1 = S * 0.4, rl = S * 0.465;
+    // Pitch names are never smaller than 0.72rem; on a small wheel the ring narrows so they stay inside the canvas.
+    const S = wSize, c = S / 2, fsz = Math.max(11.5, S * 0.068);
+    const rl = Math.min(S * 0.465, c - fsz * 0.72), r1 = Math.min(S * 0.4, rl - fsz * 0.85), r0 = Math.min(S * 0.25, r1 - 6);
     wg.clearRect(0, 0, S, S);
     wg.strokeStyle = 'rgba(230,203,133,.16)'; wg.lineWidth = 1;
     for (const r of [r0, (r0 + r1) / 2, r1]) { wg.beginPath(); wg.arc(c, c, r, 0, Math.PI * 2); wg.stroke(); }
@@ -1025,9 +1151,10 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
       wg.beginPath(); wg.arc(c, c, r, a - step * 0.42, a + step * 0.42); wg.arc(c, c, r0, a + step * 0.42, a - step * 0.42, true); wg.closePath(); wg.fill();
       pts.push([c + Math.cos(a) * r, c + Math.sin(a) * r]);
       const inChord = chordTones.includes(pc);
-      wg.font = `${inChord ? 'italic 600 ' : '500 '}${Math.round(S * 0.068)}px "EB Garamond", serif`;
+      // Never fainter than about 4.5:1 on the night ground.
+      wg.font = `${inChord ? 'italic 600 ' : '500 '}${fsz.toFixed(1)}px "EB Garamond", serif`;
       wg.textAlign = 'center'; wg.textBaseline = 'middle';
-      wg.fillStyle = inChord ? '#f6e3a8' : `rgba(239,229,210,${0.35 + v * 0.6})`;
+      wg.fillStyle = inChord ? '#f6e3a8' : `rgba(239,229,210,${0.55 + v * 0.45})`;
       wg.fillText(NAMES[pc], c + Math.cos(a) * rl, c + Math.sin(a) * rl);
     });
     wg.strokeStyle = 'rgba(246,227,168,.55)';
@@ -1053,15 +1180,20 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
     raf = 0;
     if (!alive || document.hidden || !Object.values(visible).some(Boolean)) return;
     tick();
-    if (player.playing && (visible.wheel || (visible.view && view === 'sound')) && ensureAnalyser()) {
-      if ((visible.view && view === 'sound') || now - lastRead >= 120) {
+    if (player.playing && (visible.wheel || visible.view) && ensureAnalyser()) {
+      const sound = visible.view && view === 'sound';
+      if (sound || now - lastColumn >= 120) {
         analyser.getFloatFrequencyData(freq);
-        if (visible.view && view === 'sound') { drawSpectro(); drawKeys(); }
+        drawSpectro(lastColumn ? now - lastColumn : 16.7); lastColumn = now;
+        if (sound) drawKeys();
         if (visible.wheel) analyse();
       }
-    } else if (!scoreCovers(player.time) && visible.wheel) {
-      for (let p = 0; p < 12; p++) chroma[p] *= 0.96;
-      wheelDirty = true;
+    } else {
+      lastColumn = 0;
+      if (!scoreCovers(player.time) && visible.wheel) {
+        for (let p = 0; p < 12; p++) chroma[p] *= 0.96;
+        wheelDirty = true;
+      }
     }
     if (visible.wheel && wheelDirty) { drawWheel(); wheelDirty = false; }
     if (player.playing || --settling > 0) raf = requestAnimationFrame(frame);
@@ -1070,7 +1202,8 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
     if (document.hidden) { cancelAnimationFrame(raf); raf = 0; }
     else { tick(true); wheelDirty = true; wake(); }
   });
-  const onResize = () => { if (view === 'sound') { setupSpectro(); setupKeys(); } setupWheel(); drawTimeline(); wheelDirty = true; wake(); };
+  // Drawings sized to their frame (form, orchestra) are redrawn at the new size.
+  const onResize = () => { setupSpectro(); if (view === 'sound') setupKeys(); else if (view === 'form' || view === 'orchestra') setView(view); setupWheel(); drawTimeline(); wheelDirty = true; wake(); };
   let rt; on(window, 'resize', () => { clearTimeout(rt); rt = setTimeout(onResize, 150); });
   cleanups.push(() => clearTimeout(rt));
 
@@ -1089,24 +1222,14 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
   renderKept();
   await show(player.track);
   playState();
-  // One invitation on the first Hall visit, never on subsequent visits or after a tour.
-  const hint = $('.hall-hint');
-  if (hint) {
-    try {
-      if (!localStorage.getItem('cp-hall-guide') && !app.hallGuideSeen) {
-        hint.hidden = false; app.hallGuideSeen = true;
-        localStorage.setItem('cp-hall-guide', 'seen');
-      }
-    } catch { if (!app.hallGuideSeen) { hint.hidden = false; app.hallGuideSeen = true; } }
-    on($('.hall-hint-close'), 'click', () => { hint.hidden = true; try { localStorage.setItem('cp-hall-guide', 'dismissed'); } catch {} });
-  }
   wake();
   // Loading the hall or restoring a session is not consent to download cross-origin audio.
   if (!player.playing) {
     const ok = navigator.userActivation?.hasBeenActive ? await player.play() : false;
     ui.curtain.hidden = ok;
     document.body.classList.toggle('waiting', !ok);
-  } else ui.curtain.hidden = true;
+    if (ok) offerTour();
+  } else { ui.curtain.hidden = true; offerTour(); }
   $('.begin').disabled = false;
   $('.begin').textContent = 'Begin the concert';
 
@@ -1114,5 +1237,39 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
 }
 
 function roman(n) { return ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'][n] ?? String(n); }
+/** A movement already numbered in its title ("I. Allegro con brio", "5. Der Lindenbaum") does not repeat its number;
+ *  others say where they stand in the set. build.mjs applies the same rule to the first recording. */
+function movementLabel(t) {
+  if (!t.set || /^(No\.\s*)?([IVXLC]+|\d+)[.:·\s]/.test(t.movement ?? '')) return t.movement ?? '';
+  const n = (k) => (t.set.of <= 12 ? roman(k) : String(k));
+  return `${t.movement} (${n(t.set.part)} of ${n(t.set.of)})`;
+}
+// Compounds such as "E-minor" and "thirty-nine" stay on one line (the fonts have no non-breaking hyphen).
+const COMPOUND = /\b[A-G][♭♯]?-(?:major|minor|flat|sharp)\b|\b(?:twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)-(?:one|two|three|four|five|six|seven|eight|nine|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth)\b/gi;
+function keepTogether(root) {
+  const nodes = [], walk = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  while (walk.nextNode()) { COMPOUND.lastIndex = 0; if (COMPOUND.test(walk.currentNode.data)) nodes.push(walk.currentNode); }
+  for (const node of nodes) {
+    const frag = document.createDocumentFragment(), text = node.data;
+    let last = 0;
+    text.replace(COMPOUND, (m, at) => { frag.append(text.slice(last, at)); const s = document.createElement('span'); s.className = 'nw'; s.textContent = m; frag.append(s); last = at + m.length; return m; });
+    frag.append(text.slice(last));
+    node.replaceWith(frag);
+  }
+}
 function escapeHtml(s = '') { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
-function linkify(s) { return s.replace(/https?:\/\/[^\s<]+[^\s<.,;:)]/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${u.replace(/^https?:\/\/(www\.)?/, '').slice(0, 48)}${u.length > 56 ? '…' : ''}</a>`); }
+/** Note and join titles may italicise a work title with <i>…</i>; every other tag is escaped. */
+function titleHtml(s = '') { return escapeHtml(s).replace(/&lt;(\/?)i&gt;/g, '<$1i>'); }
+function plainTitle(s = '') { return String(s).replace(/<\/?i>/g, ''); }
+// Evidence links read as the name of their source, not as a raw address.
+const SOURCES = [[/(^|\.)wikipedia\.org$/, 'Wikipedia'], [/(^|\.)wikisource\.org$/, 'Wikisource'], [/^commons\.wikimedia\.org$/, 'Wikimedia Commons'], [/(^|\.)archive\.org$/, 'Internet Archive'],
+  [/(^|\.)imslp\.(org|eu|tw)$/, 'IMSLP'], [/^mutopiaproject\.org$/, 'Mutopia Project'], [/^gutenberg\.org$/, 'Project Gutenberg'], [/^loc\.gov$/, 'Library of Congress'],
+  [/^adp\.library\.ucsb\.edu$/, 'Discography of American Historical Recordings'], [/^hyperion-records\.co\.uk$/, 'Hyperion Records'], [/^musescore\.com$/, 'MuseScore'], [/^kb\.dk$/, 'Royal Danish Library'],
+  [/^catalogue\.bnf\.fr$/, 'Bibliothèque nationale de France'], [/^henle\.de$/, 'G. Henle Verlag'], [/^bso\.org$/, 'Boston Symphony Orchestra'], [/^laphil\.com$/, 'Los Angeles Philharmonic'],
+  [/^mahlerfoundation\.org$/, 'Mahler Foundation'], [/^universaledition\.com$/, 'Universal Edition'], [/^chopin\.nifc\.pl$/, 'Fryderyk Chopin Institute'], [/^hdl\.handle\.net$/, 'Handle.net'],
+  [/^(internet\.)?beethoven\.de$/, 'Beethoven-Haus Bonn'], [/^dme\.mozarteum\.at$/, 'Mozarteum Digital Edition'], [/^berliner-philharmoniker\.de$/, 'Berliner Philharmoniker']];
+function sourceName(url) {
+  let host = ''; try { host = new URL(url.replace(/&amp;/g, '&')).hostname.replace(/^www\./, ''); } catch { return url; }
+  return SOURCES.find(([re]) => re.test(host))?.[1] ?? host;
+}
+function linkify(s) { return s.replace(/https?:\/\/[^\s<]+[^\s<.,;:)]/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${sourceName(u)}</a>`); }

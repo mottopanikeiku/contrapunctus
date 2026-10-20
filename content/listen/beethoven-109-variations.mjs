@@ -13,9 +13,9 @@ export default {
   source: { file: 'File:Klaviersonate Nr. 30 E-Dur op. 109 - III. Andante.ogg' },
   intro: 'Artur Schnabel plays the third movement of the Piano Sonata No. 30, Op. 109, Gesangvoll, mit innigster Empfindung: six variations on a quiet theme in E major, with quick counterpoint and trills in both hands. The movement ends with the original sixteen bars of the theme.',
   sections: [
-    { t: 0, label: 'Theme · song theme in sixteen bars', m: 'Theme', mNote: 'Two repeated halves, with a dotted rhythm in three.' },
+    { t: 0, label: 'Theme · Song theme in sixteen bars', m: 'Theme', mNote: 'Two repeated halves, with a dotted rhythm in three.' },
     { t: 154, label: 'Var 1 · Melody an octave higher', m: 'Var 1', mNote: 'The right hand carries the melody above left-hand chords.' },
-    { t: 246, label: 'Var 2 · The hands exchange short phrases', m: 'Var 2', mNote: 'Light exchanges alternate with a canon' },
+    { t: 246, label: 'Var 2 · The hands exchange short phrases', m: 'Var 2', mNote: 'Light exchanges alternate with a canon.' },
     { t: 374, label: 'Var 3–5 · Two-part Allegro, 9/8, fugato', m: 'Var 3–5', mNote: 'Two-part Allegro, a slower variation in 9/8, then a fugato.' },
     { t: 626, label: 'Var 6 · Repeated Bs and trills', m: 'Var 6', mNote: 'The beat is divided into progressively smaller note values.' },
     { t: 750, label: 'Theme · Theme restated, unadorned', m: 'Theme', mNote: 'Sixteen bars again, without repeats.' },

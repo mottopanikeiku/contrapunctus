@@ -11,7 +11,7 @@ export default {
     ['Turning points', '<i>Tancredi</i> and <i>L’italiana in Algeri</i> 1813 · <i>The Barber of Seville</i> 1816 · <i>Guillaume Tell</i> 1829'],
     ['After the stage', '<i>Stabat Mater</i> · songs and piano pieces called <i>Péchés de vieillesse</i> · <i>Petite messe solennelle</i>'],
   ],
-  quote: { text: 'I was born for comic opera, as you well know!', source: 'Rossini addressing God in the manuscript of his Petite messe solennelle (1863); our translation from the French.' },
+  quote: { text: 'I was born for comic opera, as you well know!', source: 'Rossini addressing God in the manuscript of his <i>Petite messe solennelle</i> (1863); our translation from the French' },
   life: `
 <p class="dropcap">On 20 February 1816, at Rome’s Teatro Argentina, a barber came on stage announcing that everyone needed him. Figaro could shave a chin, deliver a letter and arrange a marriage, and he called out his own name so many times that the part tested even his singer. The opera was advertised as <i>Almaviva, ossia L’inutile precauzione</i>. Its first night failed. Within a few performances the public had changed its mind about Rossini’s <i>Barber of Seville</i>.</p>
 <h3><span class="sc">1792–1813</span>Pesaro, Bologna and Venice</h3>
@@ -96,9 +96,7 @@ CDEF EFGF | GABc GFED | DEFD B,CD B, | C8 |]`, caption: 'An invented schematic s
     { relation: 'documented-use', type: 'painting', frame: 'mat', file: 'File:Guillaume Tell - esquisse de décor - Pierre-Luc Charles Cicéri - btv1b7000638d.jpg', artist: 'Pierre-Luc-Charles Cicéri', title: 'Stage-design sketch for Guillaume Tell', date: '1829', medium: 'Drawing', collection: 'Bibliothèque nationale de France, Bibliothèque-musée de l’Opéra, RES-2108 (28)', note: '<p>Cicéri’s design belongs to the Paris Opéra production of 3 August 1829. In <i>Tell</i>, mountains, settlements and water shape the action. The chorus gathers in the landscape, and the storm gives Tell his chance to escape.</p>' },
   ],
   recordings: [
-    { work: 'Il barbiere di Siviglia', performers: 'Teresa Berganza, Hermann Prey, Luigi Alva; Ambrosian Opera Chorus, London Symphony Orchestra, Claudio Abbado', label: 'Deutsche Grammophon', note: 'The first complete <i>Barber</i> to own. Berganza sings Rosina with poise and agility, and Abbado keeps the ensembles moving forwards.' },
     { work: 'La Cenerentola', performers: 'Teresa Berganza, Luigi Alva, Renato Capecchi, Paolo Montarsolo; Scottish Opera Chorus, London Symphony Orchestra, Claudio Abbado', label: 'Deutsche Grammophon', note: 'Berganza sings Angelina with a warm tone and a light voice. The comic men have time to put the words across, and the sextet holds together.' },
-    { work: 'Guglielmo Tell — Italian version', performers: 'Sherrill Milnes, Luciano Pavarotti, Mirella Freni, Nicolai Ghiaurov; Ambrosian Opera Chorus, National Philharmonic Orchestra, Riccardo Chailly', label: 'Decca', note: 'The Italian version, with a strong cast and Pavarotti as Arnold. A recording that leads listeners beyond the overture into the opera’s long-phrased vocal writing.' },
   ],
   lineage: { from: ['haydn', 'mozart', 'Giovanni Paisiello', 'Isabella Colbran'], to: ['Vincenzo Bellini', 'Gaetano Donizetti'], note: '<p>Malerbi introduced Rossini to [[haydn|Haydn]] and [[mozart|Mozart]] in Lugo; Paisiello’s <i>Barber</i> was the predecessor the 1816 libretto acknowledged. Colbran helped shape the serious operas through the roles written for her. Bellini admired <i>Guillaume Tell</i>, and Donizetti conducted the Bologna <i>Stabat Mater</i> in 1842.</p>' },
   reading: [

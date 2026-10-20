@@ -12,7 +12,7 @@ export default {
   "source": { "file": "File:Jean-Philippe Rameau - La Poule (Marcelle Meyer, 1953).flac" },
   "intro": "In Rameau’s <i>La Poule</i>, played by Marcelle Meyer on the piano, a hen’s clucking is developed into repeated chords and running passages. The clucking figure begins on a single G.",
   "sections": [
-    { "t": 0, "label": "A · Repeated notes on G", "m": "A", "mNote": "Repeated Gs expand into chords and quick runs" },
+    { "t": 0, "label": "A · Repeated notes on G", "m": "A", "mNote": "Repeated Gs expand into chords and quick runs." },
     { "t": 94, "label": "A′ · Repeated-note figure, D minor", "m": "A′", "mNote": "The repeated-note figure opens the second half in D minor." },
     { "t": 166, "label": "Coda · Runs descend into G minor", "m": "Coda", "mNote": "The bass runs down beneath the final chord." }
   ],

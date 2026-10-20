@@ -16,12 +16,12 @@ export default {
   },
   intro: 'Chaliapin returned to <i>The Prophet</i>, Op. 49 No. 2, with Albert Coates in 1927. In Rimsky-Korsakov’s orchestral setting of Pushkin’s short poem, a single bass voice tells of an angel, a burning coal and a command from God.',
   sections: [
-    { t: 0, label: 'A · Andante: opening in the bass', m: 'A', mNote: 'Measured vocal phrases set the opening of Pushkin’s poem' },
+    { t: 0, label: 'A · Andante, opening in the bass', m: 'A', mNote: 'Measured vocal phrases set the opening of Pushkin’s poem.' },
     { t: 90, label: 'B · Voice over rippling accompaniment', m: 'B', mNote: 'The bass describes the newly opened senses.' },
     { t: 130, label: 'C · Orchestral passage', m: 'C', mNote: 'The accompaniment links the verses of the poem.' },
-    { t: 150, label: 'D · Bass line moves forward', m: 'D', mNote: 'The vocal line uses repeated notes' },
+    { t: 150, label: 'D · Bass line moves forward', m: 'D', mNote: 'The vocal line uses repeated notes.' },
     { t: 195, label: 'E · Tempo I returns', m: 'E', mNote: 'The opening tempo returns at Tempo I.' },
-    { t: 220, label: 'F · The prophet’s final charge, con forza', m: 'F', mNote: 'Con forza e maestoso: forcefully and majestically' },
+    { t: 220, label: 'F · The prophet’s final charge, con forza', m: 'F', mNote: 'Con forza e maestoso: forcefully and majestically.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening, Andante', text: 'Rimsky-Korsakov begins with firm chords and a quiet bass voice, marked <i>Andante</i>. Pushkin’s speaker is wandering in a dark desert. When a six-winged angel appears, his measured phrases open out and the accompaniment begins to ripple.', basis: 'score-proportion', precision: 'passage', evidence: 'Rimsky-Korsakov, Complete Collected Works, vol. 45 (Muzgiz, 1946; reprinted 1970), The Prophet, p. 91. https://s9.imslp.org/files/imglnks/usimg/7/79/IMSLP20759-PMLP48251-Rimsky_Op49.pdf' },

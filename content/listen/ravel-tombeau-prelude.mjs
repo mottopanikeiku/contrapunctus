@@ -7,9 +7,9 @@ export default {
   "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin — piano version", "part": 1, "of": 6 },
   "intro": "The Prélude is the first movement of Ravel’s memorial suite <i>Le Tombeau de Couperin</i>, and its line is carried in continuous rapid semiquavers. Isaac David plays the original version for piano.",
   "sections": [
-    { "t": 0, "label": "A · Semiquavers with ornaments, E minor", "m": "A", "mNote": "Long held notes sound over quick E-minor semiquaver figures." },
+    { "t": 0, "label": "A · Semiquavers with ornaments, E minor", "m": "A", "mNote": "Long held notes sound over quick E minor semiquaver figures." },
     { "t": 110, "label": "Dev · Running notes in the left hand", "m": "Dev", "mNote": "Running notes pass beneath a more sustained right hand." },
-    { "t": 188, "label": "B · the piano climbs", "m": "B", "mNote": "The hands spread apart as the phrases grow" },
+    { "t": 188, "label": "B · The piano climbs", "m": "B", "mNote": "The hands spread apart as the phrases grow." },
     { "t": 205, "label": "Coda · Falling runs and held notes", "m": "Coda", "mNote": "Descending runs, then a held bass, then a final climb." },
   ],
   "cues": [
@@ -48,12 +48,12 @@ export default {
     {
       "id": "beyond-the-repeat", "title": "The left hand takes over", "from": "A · Semiquavers with ornaments, E minor", "to": "Dev · Running notes in the left hand",
       "at": { "t": 110 }, "span": [100, 125],
-      "how": "<p>The second ending carries the E-minor opening on into the next section. The semiquavers continue, and the left hand plays them more and more often below sustained notes in the right hand. As the running line moves into the bass, both hands keep the same light articulation.</p>",
+      "how": "<p>The second ending carries the E minor opening on into the next section. The semiquavers continue, and the left hand plays them more and more often below sustained notes in the right hand. As the running line moves into the bass, both hands keep the same light articulation.</p>",
       "devices": ["motivic link", "register change"], "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand piano score (1918), pp. 3–5: first and second endings and the continuation with left-hand runs.",
     },
     {
-      "id": "closing-release", "title": "Descending runs to the bass", "from": "B · the piano climbs", "to": "Coda · Falling runs and held notes",
+      "id": "closing-release", "title": "Descending runs to the bass", "from": "B · The piano climbs", "to": "Coda · Falling runs and held notes",
       "at": { "t": 205 }, "span": [200, 225],
       "how": "<p>The descending semiquavers cross between the hands and reach a low note, which is held under the pedal. Ravel keeps that bass sounding while a new arpeggio rises towards the final high tremolo. The running figure continues to the last chord.</p>",
       "devices": ["decrescendo", "register change", "motivic link"], "basis": "score-proportion", "precision": "passage",

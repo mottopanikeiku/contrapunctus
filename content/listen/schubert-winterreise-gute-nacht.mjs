@@ -2,7 +2,7 @@ export default {
   id: 'schubert-winterreise-gute-nacht',
   composer: 'schubert',
   order: 4.01,
-  set: { id: 'schubert-winterreise', title: 'Winterreise, D. 911 (four songs, Duhan 1928)', part: 1, of: 24 },
+  set: { id: 'schubert-winterreise', title: 'Winterreise, D. 911 (four songs, Duhan 1928)', part: 1, of: 24, unit: 'songs' },
   work: 'Winterreise, D. 911',
   movement: '1. Gute Nacht',
   year: '1827',
@@ -17,11 +17,11 @@ export default {
   // https://en.wikipedia.org/wiki/Winterreise
   // Score: OpenScore Lieder (CC0), Winterreise No. 1, from IMSLP #60822, https://musescore.com/openscore-lieder-corpus/scores/5015378
   sections: [
-    { t: 0, label: 'Intro · six bars of walking chords', m: 'Intro', mNote: 'Repeated piano quavers set a steady pace' },
+    { t: 0, label: 'Intro · Six bars of walking chords', m: 'Intro', mNote: 'Repeated piano quavers set a steady pace.' },
     { t: 14, label: 'A · Voice over walking piano', m: 'A', mNote: 'The voice descends over the piano’s continuing steps.' },
     { t: 88, label: 'B · Love wanders from one to another', m: 'B', mNote: 'In this recording the third verse follows the first.' },
     { t: 160, label: 'C · Goodnight verse in the major', m: 'C', mNote: 'The piano continues its walking figure as the harmony brightens.' },
-    { t: 226, label: 'Coda · Piano postlude in the minor', m: 'Coda', mNote: 'A tempo returns for the closing piano bars' },
+    { t: 226, label: 'Coda · Piano postlude in the minor', m: 'Coda', mNote: 'A tempo returns for the closing piano bars.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Piano introduction', text: 'Mässig, in gehender Bewegung — moderate, with a walking motion. The piano plays repeated quaver chords before the voice enters.', basis: 'score-proportion', precision: 'passage', evidence: 'OpenScore Lieder, bars 1–7: opening marking, repeated quavers and vocal pickup in bar 7. https://musescore.com/openscore-lieder-corpus/scores/5015378' },
@@ -30,13 +30,13 @@ export default {
     { t: 122, kind: 'life', title: 'Joseph von Spaun’s recollection', text: 'Joseph von Spaun recalled that Schubert asked his friends to come to Schober’s, where he would sing them “a cycle of horrifying songs”. Schubert then sang the whole of <i>Winterreise</i> in an emotional voice, and his friends were dumbfounded by its sombre mood.', basis: 'documented', precision: 'passage', evidence: 'Joseph von Spaun’s recollection, quoted in Heinrich Welti’s article on Schubert, Allgemeine Deutsche Biographie 32 (1891), p. 626: “Komm heute zu Schober, ich werde Euch einen Cyclus schauerlicher Lieder vorsingen … Wir waren durch die düstere Stimmung dieser Lieder ganz verblüfft”. Translation ours. https://de.wikisource.org/wiki/ADB:Schubert,_Franz_(Komponist)' },
     { t: 160, kind: 'music', title: 'Final verse in D major', text: 'At bar 71 the last verse moves from D minor to D major. So as not to wake her, he closes the door softly and writes goodnight on the gate. The piano keeps up its quaver chords underneath.', basis: 'score-proportion', precision: 'passage', evidence: 'Müller, Gute Nacht, fourth stanza: https://oxfordsong.org/song/gute-nacht. OpenScore Lieder, bar 71 onward: original D minor changes to D major, with the accompaniment continuing in quavers. https://musescore.com/openscore-lieder-corpus/scores/5015378' },
     { t: 196, kind: 'world', title: 'First complete recording, HMV, 1928', text: 'Hans Duhan’s <i>Winterreise</i> was the earliest complete recording, made for HMV in 1928, the centenary of Schubert’s death. He recorded nineteen songs with Ferdinand Foll on 27 April, 2 May and 4 May, and the other five with Lene Orthmann in July.', basis: 'documented', precision: 'passage', evidence: 'Christian Utz, “Exzentrisch geformte Klang-Landschaften”, ZGMTH 18 (2021), section 2: nineteen songs with Foll on 27 April, 2 May and 4 May 1928, the remaining five (Nos. 16, 17, 19, 20, 23) with Lene Orthmann on 11 July 1928, for HMV in the centenary year of Schubert’s death. https://www.gmth.de/zeitschrift/artikel/1132.aspx' },
-    { t: 226, kind: 'form', title: 'Piano postlude in D minor', text: 'After an <i>un poco ritard.</i> in bar 98, the <i>a tempo</i> at bar 99 restores the walking pace and the music returns to D minor. The voice’s final note gives way to six bars of piano alone, bars 100–105.', basis: 'score-proportion', precision: 'passage', evidence: 'OpenScore Lieder, bar 98, un poco ritard.; bar 99, a tempo and return to D minor; piano alone in bars 100–105. https://musescore.com/openscore-lieder-corpus/scores/5015378' },
+    { t: 226, kind: 'form', title: 'Piano postlude in D minor', text: 'After an <i>un poco ritard.</i> in bar 98, the <i>a tempo</i> at bar 99 restores the walking pace and the music returns to D minor. The voice’s final note is followed by six bars of piano alone, bars 100–105.', basis: 'score-proportion', precision: 'passage', evidence: 'OpenScore Lieder, bar 98, un poco ritard.; bar 99, a tempo and return to D minor; piano alone in bars 100–105. https://musescore.com/openscore-lieder-corpus/scores/5015378' },
   ],
   transitions: [
     {
       id: 'voice-enters',
       title: 'Voice enters after six-bar introduction',
-      from: 'Intro · six bars of walking chords',
+      from: 'Intro · Six bars of walking chords',
       to: 'A · Voice over walking piano',
       at: { t: 14 },
       span: [4, 24],

@@ -11,15 +11,15 @@ export default {
   // 2000 is the French Impressions album year, not a separately documented session date.
   recorded: '',
   source: { file: 'File:La mer - I. De l\'aube à midi sur la mer - Concert Band - United States Air Force Band.mp3' },
-  intro: 'The United States Air Force Band plays the first movement of <i>La Mer</i>, “De l’aube à midi sur la mer”, in Lawrence Odom’s concert-band arrangement. The movement opens on a low B and moves to the broad D♭-major chords of noon.',
+  intro: 'The United States Air Force Band plays the first movement of <i>La Mer</i>, “De l’aube à midi sur la mer”, in Lawrence Odom’s concert-band arrangement. The movement opens on a low B and moves to the broad D♭ major chords of noon.',
   sections: [
     { t: 0, label: 'Intro · Short phrases over held low B', m: 'Intro', mNote: 'Short phrases enter above a held bass note.' },
-    { t: 102, label: 'A · D♭ major, six quavers to the bar', m: 'A', mNote: 'Six quavers to the bar, with quick figures underneath' },
+    { t: 102, label: 'A · D♭ major, six quavers to the bar', m: 'A', mNote: 'Six quavers to the bar, with quick figures underneath.' },
     { t: 180, label: 'B · Rising figures and overlapping phrases', m: 'B', mNote: 'Short phrases overlap above the moving accompaniment.' },
     { t: 312, label: 'C · New melody in four parts', m: 'C', mNote: 'Four lines play the new melody together.' },
     { t: 388, label: 'D · Short phrases with softer replies', m: 'D', mNote: 'The melody divides into shorter phrases between instruments.' },
-    { t: 440, label: 'Link · Held notes before the chorale', m: 'Link', mNote: 'Long held notes and quiet phrases lead into the slower close' },
-    { t: 494, label: 'E · Closing theme, broader phrases', m: 'E', mNote: 'The closing theme enters over continuing movement in the accompaniment' },
+    { t: 440, label: 'Link · Held notes before the chorale', m: 'Link', mNote: 'Long held notes and quiet phrases lead into the slower close.' },
+    { t: 494, label: 'E · Closing theme, broader phrases', m: 'E', mNote: 'The closing theme enters over continuing movement in the accompaniment.' },
     { t: 514, label: 'Coda · Chorale, D♭ major', m: 'Coda', mNote: 'Broad chords close the movement in D♭.' },
   ],
   cues: [
@@ -40,7 +40,7 @@ export default {
       to: 'A · D♭ major, six quavers to the bar',
       at: { t: 102 },
       span: [88, 116],
-      how: '<p>The harmony of the opening, centred on B, moves to D♭ major. The metre changes from 6/4 to 6/8, and the new section is marked <i>Modéré, sans lenteur</i>. The sustained bass and widely spaced calls of the introduction give way to short phrases over continuous semiquavers.</p>',
+      how: '<p>The harmony of the opening, centred on B, moves to D♭ major. The metre changes from 6/4 to 6/8, and the new section is marked <i>Modéré, sans lenteur</i>. The sustained bass and widely spaced calls of the introduction are followed by short phrases over continuous semiquavers.</p>',
       devices: ['tempo change', 'metre change', 'texture change'],
       basis: 'score-proportion',
       precision: 'passage',

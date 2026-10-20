@@ -12,11 +12,11 @@ export default {
   "source": {
     "file": "File:Ivan Ilić-Chopin - Prelude no. 15 in D flat major.ogg"
   },
-  "intro": "Chopin’s <i>Raindrop</i> Prelude in D♭ major, Op. 28 No. 15, marked Sostenuto, repeats A♭ beneath the melody, and in the C♯-minor middle section the note is written as G♯. Ivan Ilić plays it in a recording made in Paris in October 2005.",
+  "intro": "Chopin’s <i>Raindrop</i> Prelude in D♭ major, Op. 28 No. 15, marked Sostenuto, repeats A♭ beneath the melody, and in the C♯ minor middle section the note is written as G♯. Ivan Ilić plays it in a recording made in Paris in October 2005.",
   "sections": [
-    { "t": 0, "label": "A · D♭-major melody over repeated A♭", "m": "A", "mNote": "Repeated quavers under a slow right-hand melody" },
+    { "t": 0, "label": "A · D♭ major melody over repeated A♭", "m": "A", "mNote": "Repeated quavers under a slow right-hand melody." },
     { "t": 86, "label": "B · C♯ minor, repeated G♯ over chords", "m": "B", "mNote": "The repeated note moves to the right hand." },
-    { "t": 210, "label": "A′ · D♭-major melody, shortened", "m": "A′", "mNote": "The opening melody comes back in shortened form." }
+    { "t": 210, "label": "A′ · D♭ major melody, shortened", "m": "A′", "mNote": "The opening melody comes back in shortened form." }
   ],
   "cues": [
     {
@@ -59,7 +59,7 @@ export default {
       "t": 246,
       "kind": "music",
       "title": "Unaccompanied melody before the close",
-      "text": "Near the end, the left hand stops for two bars, and the melody descends alone in crotchets. The repeated A♭ returns beneath the closing chords. The prelude ends on a D♭-major chord.",
+      "text": "Near the end, the left hand stops for two bars, and the melody descends alone in crotchets. The repeated A♭ returns beneath the closing chords. The prelude ends on a D♭ major chord.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf & Härtel first edition, bars 82–89: two bars of unaccompanied melody, then the repeated A♭ and final D♭-major chord. https://chopinscores.org/partytura/128"
@@ -69,7 +69,7 @@ export default {
     {
       "id": "into-minor-middle",
       "title": "A♭ becomes G♯",
-      "from": "A · D♭-major melody over repeated A♭",
+      "from": "A · D♭ major melody over repeated A♭",
       "to": "B · C♯ minor, repeated G♯ over chords",
       "at": { "t": 86 },
       "span": [76, 98],
@@ -83,7 +83,7 @@ export default {
       "id": "into-major-return",
       "title": "Return of the opening melody",
       "from": "B · C♯ minor, repeated G♯ over chords",
-      "to": "A′ · D♭-major melody, shortened",
+      "to": "A′ · D♭ major melody, shortened",
       "at": { "t": 210 },
       "span": [200, 222],
       "how": "<p>The last hushed chords rest on a low G♯ in the bass. In the linking half-bar G♯ is respelt as A♭, and the left hand moves through F, G♭ and E♭. A D♭ bass then brings back the opening melody on F, marked <i>piano</i>, with the repeated quavers again beneath the tune.</p>",

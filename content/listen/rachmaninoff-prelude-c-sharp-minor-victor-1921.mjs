@@ -28,10 +28,10 @@ export default {
   },
   "intro": "Rachmaninoff recorded his Prelude in C♯ minor, Op. 3 No. 2, the encore he played most often, for Victor in 1921. The prelude opens with three low notes, and its later chords are so broad that the score is written on four staves.",
   "sections": [
-    { "t": 0, "label": "A · A–G♯–C♯ motif, then triplets", "m": "A", "mNote": "A–G♯–C♯ sounds in the bass beneath quiet chords" },
+    { "t": 0, "label": "A · A–G♯–C♯ motif, then triplets", "m": "A", "mNote": "A–G♯–C♯ sounds in the bass beneath quiet chords." },
     { "t": 94, "label": "B · Agitato in triplets", "m": "B", "mNote": "The Agitato melody rises over running notes." },
-    { "t": 128, "label": "C · Opening chords return", "m": "C", "mNote": "The opening chords return, written across four staves." },
-    { "t": 174, "label": "D · Closing chords over low C♯", "m": "D", "mNote": "A low C♯ holds beneath the closing chords." }
+    { "t": 128, "label": "C · Opening chords return", "m": "C", "mNote": "The chords are written across four staves." },
+    { "t": 174, "label": "D · Closing chords over low C♯", "m": "D" }
   ],
   "cues": [
     {

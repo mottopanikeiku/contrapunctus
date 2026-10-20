@@ -25,9 +25,9 @@ export default {
   intro: 'The second movement of Webern’s Symphony, Op. 21, is a theme, seven variations and a coda in 99 bars. René Leibowitz conducts the Paris Chamber Orchestra in a recording on the Dial label that was reviewed in June 1950.',
   sections: [
     { t: 0, label: 'Theme · Clarinet, bars 1–11', m: 'Theme' },
-    { t: 19, label: 'Variations 1–3 · Bars 11–44', m: 'Var 1–3' },
-    { t: 76, label: 'Variation 4 · Midpoint, bars 45–55', m: 'Var 4' },
-    { t: 94, label: 'Variations 5–7 · Bars 56–88', m: 'Var 5–7' },
+    { t: 19, label: 'Var 1–3 · Bars 11–44', m: 'Var 1–3' },
+    { t: 76, label: 'Var 4 · Midpoint, bars 45–55', m: 'Var 4' },
+    { t: 94, label: 'Var 5–7 · Bars 56–88', m: 'Var 5–7' },
     { t: 150, label: 'Coda · Bars 89–99', m: 'Coda' },
   ],
   cues: [

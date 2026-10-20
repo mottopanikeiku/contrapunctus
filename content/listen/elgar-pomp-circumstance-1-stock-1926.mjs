@@ -18,7 +18,7 @@ export default {
       evidence: 'The Talking Machine World, June 1927, p. 157, Victor list for 1 July, announces 6648 with Stock, Chicago Symphony Orchestra and Grand Organ: https://archive.org/details/talkingmachinewo23bill. DAHR separately documents the 22 December 1926 session and CVE-37282 take 3. Territorial EU basis; US status not established.',
     },
   },
-  intro: 'Elgar’s Pomp and Circumstance March No. 1 in D, Op. 39, played by the Chicago Symphony under Frederick Stock, with Walter P. Zimmerman at the organ. The organ enters at the return of the trio tune.',
+  intro: 'Frederick Stock conducts the Chicago Symphony in Elgar’s <i>Pomp and Circumstance</i> March No. 1 in D, Op. 39, with Walter P. Zimmerman at the organ. The organ enters at the return of the trio tune.',
   sections: [
     { t: 0, label: 'Intro · Off-beat opening in E♭', m: 'Intro', mNote: 'A forceful opening in E♭ before the move to D major.' },
     { t: 12, label: 'A · Strings begin the quick march', m: 'A', mNote: 'Accents alternate with running notes.' },

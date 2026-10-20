@@ -14,10 +14,10 @@ export default {
   "intro": "Constance Schoepflin and the Advent Chamber Orchestra play the Presto finale of C. P. E. Bach’s Flute Concerto in G major, Wq 169 / H 445. The flute begins with the strings, then plays trills and long runs alone.",
   "sections": [
     { "t": 0, "label": "A · Opening theme, G major, flute and strings", "m": "A", "mNote": "The whole ensemble plays the opening G major theme." },
-    { "t": 50, "label": "B · Flute solo entry", "m": "B", "mNote": "The opening tune returns with an added trill and slur" },
-    { "t": 150, "label": "C · Flute runs and string replies", "m": "C", "mNote": "Long solo phrases alternate with shorter orchestral passages" },
+    { "t": 50, "label": "B · Flute solo entry", "m": "B", "mNote": "The opening tune returns with an added trill and slur." },
+    { "t": 150, "label": "C · Flute runs and string replies", "m": "C", "mNote": "Long solo phrases alternate with shorter orchestral passages." },
     { "t": 242, "label": "D · Fermata over D", "m": "D", "mNote": "The flute holds G above D in the bass." },
-    { "t": 262, "label": "E · Opening theme, flute and strings", "m": "E", "mNote": "Flute and strings play the rising figure again" },
+    { "t": 262, "label": "E · Opening theme, flute and strings", "m": "E", "mNote": "Flute and strings play the rising figure again." },
     { "t": 340, "label": "A′ · Final tutti in G major", "m": "A′", "mNote": "The flute joins strings and bass for the final tutti." }
   ],
   "cues": [
@@ -95,7 +95,7 @@ export default {
     {
       "id": "into-close", "title": "Flute and tutti in the final cadence",
       "from": "E · Opening theme, flute and strings", "to": "A′ · Final tutti in G major", "at": { "t": 340 }, "span": [329, 359],
-      "how": "<p>The solo flute’s running line gives way to a <i>tutti</i>, marked <i>forte</i> in the strings and bass. Slurred pairs and repeated high notes return from the opening. The bass moves through the closing phrases to a final D–G cadence, and the flute plays with the strings in the G major ending.</p>",
+      "how": "<p>The solo flute’s running line is followed by a <i>tutti</i>, marked <i>forte</i> in the strings and bass. Slurred pairs and repeated high notes return from the opening. The bass moves through the closing phrases to a final D–G cadence, and the flute plays with the strings in the G major ending.</p>",
       "devices": ["texture change", "motivic link", "perfect cadence"], "basis": "score-proportion", "precision": "passage",
       "evidence": "Presto bars 314–335: flute, PDF p. 29; first violin, p. 43; basso, p. 85. https://cpebach.org/pdfs/parts/Wq169-flute-parts.pdf"
     }

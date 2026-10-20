@@ -22,7 +22,7 @@ export default {
   intro: 'Prokofiev’s Piano Sonata No. 2, Op. 14, heard complete, has four movements: Allegro ma non troppo, Scherzo, Andante and Vivace. A tune from the first movement returns in the finale, a fast tarantella.',
   sections: [
     { t: 0, label: 'A · Allegro: duplets over triplets', m: 'A', mNote: 'Paired melody notes above triplet arpeggios.' },
-    { t: 350, label: 'B · Scherzo: short phrases, repeated piano chords', m: 'B', mNote: 'Repeated piano chords and clipped accents' },
+    { t: 350, label: 'B · Scherzo: short phrases, repeated piano chords', m: 'B', mNote: 'Repeated piano chords and clipped accents.' },
     { t: 454, label: 'C · Andante: melody over rocking bass', m: 'C', mNote: 'A long melody above a slower accompaniment.' },
     { t: 712, label: 'D · Vivace: tarantella finale', m: 'D', mNote: 'Fast tarantella figuration, interrupted by an earlier theme.' },
   ],
@@ -49,7 +49,7 @@ export default {
       to: 'B · Scherzo: short phrases, repeated piano chords',
       at: { t: 350 },
       span: [334, 363],
-      how: '<p>The first movement ends in D minor. The Scherzo is a separate movement, marked <i>Allegro marcato</i>. It opens with short accents and repeated chords in the piano. The first movement’s singing line and triplet arpeggios give way to short rhythmic phrases in both hands.</p>',
+      how: '<p>The first movement ends in D minor. The Scherzo is a separate movement, marked <i>Allegro marcato</i>. It opens with short accents and repeated chords in the piano. The first movement’s singing line and triplet arpeggios are replaced by short rhythmic phrases in both hands.</p>',
       devices: ['tempo change', 'texture change'],
       basis: 'score-proportion',
       precision: 'passage',

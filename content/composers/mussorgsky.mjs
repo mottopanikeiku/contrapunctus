@@ -6,11 +6,11 @@ export default {
   born: { year: 1839, date: '21 March 1839', place: 'Karevo, Pskov Governorate, Russia' },
   died: { year: 1881, date: '28 March 1881', place: 'Saint Petersburg' },
   era: 'romantic',
-  epithet: 'He could make a singer sound like a frightened child, a drunken monk or a tsar who could no longer bear his own thoughts.',
+  epithet: 'Composer who could make a singer sound like a frightened child, a drunken monk or a tsar who could no longer bear his own thoughts.',
   portrait: { file: 'File:Modest Musorgskiy, 1870.jpg', caption: 'Modest Mussorgsky, photographed in 1870; photographer unknown.', focus: '50% 30%' },
   facts: [
     ['Trained', 'Piano with Anton Gerke; composition with Mily Balakirev, outside the conservatory'],
-    ['Earned his living', 'Guards officer until 1858; later a clerk in the Forestry Department and Government Control'],
+    ['Livelihood', 'Guards officer until 1858; later a clerk in the Forestry Department and Government Control'],
     ['Friends', 'Borodin, Cui, Balakirev, [[rimsky-korsakov|Rimsky-Korsakov]]; Vladimir Stasov and Viktor Hartmann'],
     ['Output', '<i>Boris Godunov</i>, unfinished operas, three song cycles, <i>Pictures at an Exhibition</i>'],
   ],

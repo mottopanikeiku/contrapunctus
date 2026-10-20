@@ -1,18 +1,18 @@
-# Data contracts (v3)
+# Data contracts
 
-Each concern lives in its own file, so editors never collide. The generator (`src/build.mjs`) merges them.
+Each concern lives in its own file. The generator (`src/build.mjs`) merges them.
 
-| Concern | File | Owner |
+| Concern | File | Produced by |
 | --- | --- | --- |
-| Recording metadata, sections, listening notes | `content/listen/<id>.mjs` | cue editors |
-| Recording dossier (provenance, rights) | `content/dossiers/<id>.json` | dossier editors |
-| Formal relations (repeats, returns) | `content/relations/<id>.json` | form editor |
-| Score notes aligned to the recording | `docs/assets/data/<id>/score.json` | alignment editor |
-| Level trace (generated) | `docs/assets/listen/<id>.json` | `tools/audio.mjs analyze` |
+| Recording metadata, sections, listening notes | `content/listen/<id>.mjs` | hand-written |
+| Recording dossier (provenance, rights) | `content/dossiers/<id>.json` | hand-written |
+| Formal relations (repeats, returns) | `content/relations/<id>.json` | hand-written |
+| Score notes aligned to the recording | `docs/assets/data/<id>/score.json` | `node tools/score.mjs <id> --publish` |
+| Level trace | `docs/assets/listen/<id>.json` | `node tools/audio.mjs analyze` |
 
 ## Wording rules (site-wide)
 
-- Score-derived notes are labelled **"From the score · timing aligned to this recording"**, with a timing status of **provisional** (automatic alignment, not yet checked by ear) or **reviewed** (a named listener checked it against the score).
+- Score-derived notes (`basis: 'score-aligned'`) say in their evidence line that they are “Timed from the score, aligned to this recording automatically”. An aligned score has a timing status of **provisional** (automatic alignment, not yet checked by ear) or **reviewed** (a named listener checked it against the score); the Hall shows it only after an independent review of the alignment (`content/plan/reviews/score-<id>.json`).
 - Nothing is called "exact". Machine estimates are called estimates.
 - A level trace is "relative level within this recording". It is never loudness, dynamics, or a comparison between recordings.
 - No machine-generated chord or Roman-numeral labels are published. Chord spans appear only where an editor wrote them (`basis: "editorial"`).
@@ -132,17 +132,17 @@ the twelve-word limit for `mNote` independently of the recording metadata.
 
 ## Transitions: `content/listen/<id>.mjs` → `transitions[]`
 
-What the composer does at the joins between sections: how one section is left and the next arrived at. Shown as "How it's joined" on the Listen page, marked on the map and in the score views.
+What the composer does at the joins between sections: how one section is left and the next arrived at. Shown in the Hall under “Joins” and as a card when the recording reaches the join, marked ◆ on the timeline, and listed on the work pages.
 
 ```js
 {
   id: 'into-development',                 // unique within the file
-  title: 'Two notes become a cliff edge', // ≤ 8 words
+  title: 'Dominant pedal before the return', // ≤ 8 words, a plain label
   from: 'Exposition',                     // section names as listed in `sections` (label prefix is enough)
   to: 'Development',
   at: { bar: { n: '125', occ: 1 } } | { t: 101.5 },   // the join point: bar-anchored for score-aligned pieces
-  span: [95, 112],                        // OPTIONAL seconds: the stretch to play ("Hear the join"); default at−8 … at+8
-  how: '<p>…</p>',                        // ≤ 110 words: the technical means, in plain English with exact terms
+  span: [95, 112],                        // OPTIONAL seconds: the stretch to play (“Play the join”); default at−8 … at+8
+  how: '<p>…</p>',                        // ≤ 80 words: the technical means, in plain English with exact terms
   devices: ['retransition', 'dominant pedal'],   // from the controlled vocabulary below
   basis, precision, evidence,             // as for cues
 }
@@ -300,6 +300,12 @@ The JSON export retains nulls; blank CSV values do not imply a negative finding.
 Evidence summaries count field statuses rather than assigning a recording-wide
 confidence label. `sources.html` supplies the field-level notes and source links.
 
+`sources.html` renders the register and one closed `<details id="dossier-<id>" data-dossier="<id>">`
+per recording. The dossier body is `assets/dossiers/<id>.json?v=<data-version>` (`{ html }`, the
+version on `#dossiers`), fetched when the dossier first opens; it keeps the glossary links and
+typesetting it would have had inline, and its `#source-<id>-<n>` anchors resolve once it is loaded.
+Without JavaScript each summary links to the recording in the Hall.
+
 ### Persistent player and hall payloads
 
 `assets/listen/programme.json?v=<data-prog>` contains `{ composers, eras, rows, programmes }`.
@@ -367,7 +373,7 @@ Each edge has `id`, `from`, `to`, `kind`, `year`, `title`, `works: { from, to }`
 mechanism: `studied-with`, `heard`, `copied`, `quoted`, `modelled`, `parodied`,
 `set-text`, `depicted`, `reacted-against`, `championed`, `dedicated` or `taught`.
 Status is `documented`, `inferred` or `disputed`; the latter two require `note`
-explaining exactly what is uncertain. Titles are at most nine words.
+explaining exactly what is uncertain. Titles are plain labels of at most eight words.
 
 Figures have `{ id, name, dates, year, kind, portrait? }`; `portrait` is a
 Wikimedia Commons `File:` title. Kinds are painter, poet, writer, philosopher,

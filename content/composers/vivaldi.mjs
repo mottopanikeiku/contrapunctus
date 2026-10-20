@@ -46,7 +46,7 @@ export default {
     { year: '1713', title: 'Ottone in villa', cat: 'RV 729', forces: 'Opera in three acts', note: 'His first complete opera, given in Vicenza before he took on the management of Venice’s Teatro Sant’Angelo. The opera has five characters, caught up in love intrigues.' },
     { year: 'c. 1715', title: 'Gloria in D major', cat: 'RV 589', forces: 'Soloists, chorus, trumpet, oboe, strings and continuo', note: 'The familiar opening is only the first of twelve movements. Its D major is followed immediately by the B minor of <i>Et in terra pax</i>.' },
     { year: '1716', title: 'Juditha triumphans', cat: 'RV 644', forces: 'Five vocal soloists, female chorus and varied instrumental ensemble', note: 'Judith defeats Holofernes, at a time when Venice was fighting the Ottoman Empire. The women of the Pietà sang the male roles as well, and the instruments included mandolin and chalumeau.' },
-    { year: '1725', title: 'The Four Seasons', cat: 'Op. 8 Nos. 1–4; RV 269, 315, 293, 297', forces: 'Solo violin, strings and continuo', note: 'Four concertos, printed with sonnets and with letters linking words of the poems to musical events. Their keys are E major, G minor, F major and F minor.' },
+    { year: '1725', title: 'The Four Seasons', cat: 'Op. 8 Nos. 1–4 · RV 269, 315, 293, 297', forces: 'Solo violin, strings and continuo', note: 'Four concertos, printed with sonnets and with letters linking words of the poems to musical events. Their keys are E major, G minor, F major and F minor.' },
     { year: '1727', title: 'Orlando furioso', cat: 'RV 728', forces: 'Opera in three acts', note: 'An opera on Ariosto’s knights and enchantresses, about jealousy and madness. In Ruggiero’s <i>Sol da te, mio dolce amore</i> the flute has a long, demanding part beside the voice.' },
     { year: 'c. 1728–29', title: 'Six Flute Concertos', cat: 'Op. 10', forces: 'Flute, strings and continuo', note: 'The titles of the first three concertos refer to a storm, night and a goldfinch. <i>La notte</i> reworks a chamber concerto for flute, two violins, bassoon and continuo.' },
     { year: '1735', title: 'Griselda', cat: 'RV 718', forces: 'Opera in three acts', note: 'Goldoni revised Zeno’s libretto for Vivaldi and his singers. In <i>Agitata da due venti</i> the soprano sings as a ship caught between two winds.' },
@@ -136,7 +136,7 @@ at spring’s shining appearance.`,
   ],
   recordings: [
     { work: 'The Four Seasons', performers: 'Giuliano Carmignola, Venice Baroque Orchestra, Andrea Marcon', label: 'Sony Classical', note: 'Carmignola’s bowing is quick and incisive. With the small period-instrument band behind him, his smallest changes of attack can be heard clearly.' },
-    { work: 'Stabat Mater', performers: 'Andreas Scholl, Ensemble 415, Chiara Banchini', label: 'Harmonia Mundi', note: 'Scholl sustains the long alto lines at an even level throughout. The music is repeated.' },
+    { work: 'Stabat Mater', performers: 'Andreas Scholl, Ensemble 415, Chiara Banchini', label: 'Harmonia Mundi', note: 'Scholl sustains the long alto lines at an even level throughout.' },
     { work: 'Gloria', performers: 'Concerto Italiano, Rinaldo Alessandrini', label: 'Naïve', note: 'Sara Mingardo, a contralto, sings the <i>Domine Deus, Agnus Dei</i>. Alessandrini takes the surrounding choruses with sharp attack, and the music then returns to D major.' },
   ],
   lineage: {

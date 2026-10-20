@@ -17,10 +17,10 @@ export default {
   intro: '<i>Fêtes</i>, marked Animé et très rythmé, is the second of the <i>Nocturnes</i>. Muted trumpets play a procession that approaches over quick violin figures, and for a few bars the two sound together across the orchestra; at the end only a distant drum and the low strings continue.',
   sections: [
     { t: 0, label: 'A · Quick violins, high flutes', m: 'A', mNote: 'Triplet figures pass between the strings and winds.' },
-    { t: 156, label: 'B · Procession for muted trumpets', m: 'B', mNote: 'A♭ and E♭ in the bass under the march' },
-    { t: 220, label: 'B′ · Brass march with fast string figures', m: 'B′', mNote: 'The procession theme in the brass, with quick violin figures' },
-    { t: 250, label: 'A′ · first tempo returns, flutes leading', m: 'A′', mNote: 'The first tempo returns, with flowing winds and quick cellos.' },
-    { t: 312, label: 'Coda · The procession recedes', m: 'Coda', mNote: 'Short wind phrases leave the drum and low strings behind' },
+    { t: 156, label: 'B · Procession for muted trumpets', m: 'B', mNote: 'A♭ and E♭ in the bass under the march.' },
+    { t: 220, label: 'B′ · Brass march with fast string figures', m: 'B′', mNote: 'The procession theme in the brass, with quick violin figures.' },
+    { t: 250, label: 'A′ · First tempo returns, flutes leading', m: 'A′', mNote: 'The first tempo returns, with flowing winds and quick cellos.' },
+    { t: 312, label: 'Coda · The procession recedes', m: 'Coda', mNote: 'Short wind phrases leave the drum and low strings behind.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening violin triplets', text: 'The violins begin with quick repeated triplets, sharply accented. High flutes hold above them. Cor anglais and clarinets then enter with a rising phrase over the string rhythm.', basis: 'score-proportion', precision: 'passage', evidence: 'Fromont full score, Kalmus reprint, printed p. 19: opening violin triplets and held flutes, then cor anglais and clarinets. https://purl.dlib.indiana.edu/iudl/variations/score/BFJ7336' },
@@ -62,7 +62,7 @@ export default {
       id: 'into-festival-return',
       title: 'The flutes take over',
       from: 'B′ · Brass march with fast string figures',
-      to: 'A′ · first tempo returns, flutes leading',
+      to: 'A′ · First tempo returns, flutes leading',
       at: { t: 250 },
       span: [239, 269],
       how: '<p>At rehearsal 14, marked <i>1er tempo</i>, the metre changes from the procession’s 2/4 to 6/8. The brass and percussion stop after the first chord. The flutes play a running line above short reed figures, and the cellos play repeated notes in the bass.</p>',
@@ -74,7 +74,7 @@ export default {
     {
       id: 'into-receding-close',
       title: 'The procession moves away',
-      from: 'A′ · first tempo returns, flutes leading',
+      from: 'A′ · First tempo returns, flutes leading',
       to: 'Coda · The procession recedes',
       at: { t: 312 },
       span: [298, 332],

@@ -20,12 +20,12 @@ export default {
       evidence: 'Vanguard VSD-2085, dated 1961 in the Internet Archive carrier record; the sleeve identifies Fritz Mahler and the Hartford Symphony Orchestra. Discogs dates the stereo issue and its mono twin VRS-1067 to 1961, and records a copy stamped “May 20 1961”. This territorial phonogram basis does not remove copyright in Copland’s composition. https://archive.org/metadata/lp_three-jewish-poems-for-orchestra-fanfare_ernest-bloch-aaron-copland-the-hartford-sy/metadata https://www.discogs.com/release/5098889',
     },
   },
-  intro: 'Fritz Mahler and the Hartford Symphony Orchestra play Copland’s wartime <i>Fanfare for the Common Man</i>. Timpani, bass drum and tam-tam open it before the trumpets enter, and the rising trumpet calls end on an unexpected D-major chord.',
+  intro: 'Fritz Mahler and the Hartford Symphony Orchestra play Copland’s wartime <i>Fanfare for the Common Man</i>. Timpani, bass drum and tam-tam open it before the trumpets enter, and the rising trumpet calls end on an unexpected D major chord.',
   sections: [
     { t: 0, label: 'Intro · Drums and tam-tam', m: 'Intro' },
     { t: 22, label: 'A · Trumpet fanfare in rising intervals', m: 'A' },
     { t: 86, label: 'A′ · Fanfare theme, full brass', m: 'A′', mNote: 'Longer descending phrases between the rising calls.' },
-    { t: 148, label: 'Coda · Final D-major chord', m: 'Coda' },
+    { t: 148, label: 'Coda · Final D major chord', m: 'Coda' },
   ],
   cues: [
     {

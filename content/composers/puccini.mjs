@@ -3,7 +3,7 @@ export default {
   born: { year: 1858, date: '22 December 1858', place: 'Lucca, Tuscany' },
   died: { year: 1924, date: '29 November 1924', place: 'Brussels' },
   era: 'fin-de-siecle',
-  epithet: 'He held a theatre audience through a scene of a woman at a window, then brought back a tune it had heard before.',
+  epithet: 'Composer who held a theatre audience through a scene of a woman at a window, then brought back a tune it had heard before.',
   portrait: { file: 'File:Giacomo Puccini by Mario Nunes Vais.jpg', caption: 'Giacomo Puccini, photographed by Mario Nunes Vais.', focus: '50% 25%' },
   facts: [
     ['Trained', 'Lucca; Milan Conservatory, 1880–83, with Bazzini and Ponchielli'],
@@ -44,8 +44,8 @@ export default {
     { year: '1896–99', title: 'Tosca', titleHtml: '<i>Tosca</i>', forces: 'Opera in three acts', note: 'Sardou’s Roman thriller, first performed in Rome in 1900. The acts are set in a church, a police chief’s room and a prison roof, and each has its own bells and offstage voices.' },
     { year: '1901–04; revised to 1907', title: 'Madama Butterfly', titleHtml: '<i>Madama Butterfly</i>', forces: 'Opera; two-act original, subsequently divided and revised', note: 'The La Scala fiasco of February 1904 began a long series of revisions. The humming chorus belongs to Butterfly’s all-night watch for Pinkerton.' },
     { year: '1907–10', title: 'La fanciulla del West', titleHtml: '<i>La fanciulla del West</i>', forces: 'Opera in three acts', note: 'Written for the Metropolitan, where Destinn and Caruso created the lovers in 1910. Minnie cheats at poker to save Johnson from the sheriff.' },
-    { year: '1914–16; revised later', title: 'La rondine', titleHtml: '<i>La rondine</i>', forces: 'Opera in three acts', note: 'A Viennese operetta commission became an opera, first performed in Monte Carlo in 1917. Magda leaves her lover before his respectable family can discover her past.' },
     { year: '1913–18', title: 'Il trittico', titleHtml: '<i>Il trittico</i>', forces: 'Three one-act operas', note: 'First performed together at the Metropolitan in December 1918. After the deaths in <i>Il tabarro</i> and <i>Suor Angelica</i>, <i>Gianni Schicchi</i> is a comedy whose plot concerns a dead man and a profitable deception.' },
+    { year: '1914–16; revised later', title: 'La rondine', titleHtml: '<i>La rondine</i>', forces: 'Opera in three acts', note: 'A Viennese operetta commission became an opera, first performed in Monte Carlo in 1917. Magda leaves her lover before his respectable family can discover her past.' },
     { year: '1920–24', title: 'Turandot', titleHtml: '<i>Turandot</i>', forces: 'Opera in three acts; unfinished', note: 'Puccini finished the score through Liù’s funeral, including <i>Nessun dorma</i>. Alfano supplied the final duet and the public celebration that follows it.' },
   ],
   score: [

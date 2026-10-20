@@ -4,7 +4,7 @@
   "composer": "chopin",
   "group": "century",
   "work": "Nocturne in E♭ major, Op. 9 No. 2",
-  "question": "How do Lévy and Prati keep the tune singing as its ornaments grow more elaborate?",
+  "question": "Lévy and Prati play the melody as its ornaments grow more elaborate at each return.",
   "intro": "Frank Lévy and Patrizia Prati play the piece. It begins with a leap from B♭ to G over the left hand’s rocking bass and chords. Each time the melody returns it carries more ornaments, and a short cadenza follows.",
   "recordings": [
     { "listen": "chopin-nocturne-op9-2-levy", "label": "Frank Lévy, c. 2014", "year": 2014, "note": "A pupil of Maria Tipo and Leon Fleisher, Lévy made this recording for Musopen’s Chopin project." },
@@ -18,7 +18,7 @@
     { "label": "Ornamented return of the melody", "t": 95, "note": "The tune returns with small, quick notes wound around its longer ones. The bass repeats its earlier pattern." },
     { "label": "Melody in paired notes", "t": 145, "note": "The right-hand melody is played in paired notes, then short, detached chords lead to its next return." },
     { "label": "Rise in octaves before cadenza", "t": 215, "note": "The right hand climbs into octaves and the music grows louder shortly before the cadenza." },
-    { "label": "E♭ chords after the cadenza", "t": 250, "note": "After the cadenza, quiet arpeggiated E♭-major chords bring back the pulse and lead to the soft close." }
+    { "label": "E♭ chords after the cadenza", "t": 250, "note": "After the cadenza, quiet arpeggiated E♭ major chords bring back the pulse and lead to the soft close." }
   ],
   "sources": [
     { "title": "Lévy — Musopen recording; date approximate", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._2_in_E-flat_major,_Op._9_No._2_(Frank_Levy).flac" },

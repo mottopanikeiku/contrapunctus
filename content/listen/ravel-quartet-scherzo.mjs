@@ -12,10 +12,10 @@ export default {
   "source": { "file": "File:Ravel - String Quartet, mvt 2 - US Army Band.ogg" },
   "intro": "The second movement of Ravel’s String Quartet in F major, Assez vif — Très rythmé, is a scherzo that opens with a dance in A minor played on plucked strings. Bowed melodies enter above the quick notes, and a muted cello leads into a slow middle section.",
   "sections": [
-    { "t": 0, "label": "A · Plucked strings in A minor", "m": "A", "mNote": "Short plucked notes give way to a high bowed melody." },
-    { "t": 102, "label": "A′ · mutes fitted, then cello melody", "m": "A′", "mNote": "All four players fit mutes before the slow middle." },
-    { "t": 200, "label": "Dev · Short notes beneath the melody", "m": "Dev", "mNote": "Pressez: pizzicato figures increase the tempo" },
-    { "t": 290, "label": "A″ · the plucked dance returns", "m": "A″", "mNote": "Fortissimo, with A in the cello and leaps above" },
+    { "t": 0, "label": "A · Plucked strings in A minor", "m": "A", "mNote": "Short plucked notes are followed by a high bowed melody." },
+    { "t": 102, "label": "A′ · Mutes fitted, then cello melody", "m": "A′", "mNote": "All four players fit mutes before the slow middle." },
+    { "t": 200, "label": "Dev · Short notes beneath the melody", "m": "Dev", "mNote": "Pressez: pizzicato figures increase the tempo." },
+    { "t": 290, "label": "A″ · The plucked dance returns", "m": "A″", "mNote": "Fortissimo, with A in the cello and leaps above." },
     { "t": 335, "label": "Coda · Soft fragments, final fortissimo chord", "m": "Coda", "mNote": "The players pause before the last fortissimo chord." },
   ],
   "cues": [
@@ -71,15 +71,15 @@ export default {
   "transitions": [
     {
       "id": "scherzo-to-muted-middle", "title": "The cello leads into the <i>Lent</i>",
-      "from": "A · Plucked strings in A minor", "to": "A′ · mutes fitted, then cello melody",
+      "from": "A · Plucked strings in A minor", "to": "A′ · Mutes fitted, then cello melody",
       "at": { "t": 102 }, "span": [90, 122],
-      "how": "<p>In bars 84–89 the upper strings leave an A-minor chord and put on mutes while the cello alternates A and G♯ below them. After a bar of rest under a fermata in bar 88, the cello is muted too. Two flats enter the signature at <i>Lent</i>, and the cello begins a high melody while the first violin rests.</p>",
+      "how": "<p>In bars 84–89 the upper strings leave an A minor chord and put on mutes while the cello alternates A and G♯ below them. After a bar of rest under a fermata in bar 88, the cello is muted too. Two flats enter the signature at <i>Lent</i>, and the cello begins a high melody while the first violin rests.</p>",
       "devices": ["tempo change", "decrescendo", "texture change", "fermata", "motivic link"], "basis": "score-proportion", "precision": "passage",
       "evidence": "OpenScore transcription, movement II, bars 84–89: mute instructions, cello A–G♯, fermata in bar 88, two-flat signature and Lent.",
     },
     {
       "id": "middle-to-scherzo-return", "title": "Return of A minor at bar 150",
-      "from": "Dev · Short notes beneath the melody", "to": "A″ · the plucked dance returns",
+      "from": "Dev · Short notes beneath the melody", "to": "A″ · The plucked dance returns",
       "at": { "t": 290 }, "span": [266, 312],
       "how": "<p>At Tempo 1 the original tempo returns and all four players remove their mutes. Pizzicato fragments lead to the return of the opening dance at bar 150. There, at <i>fortissimo</i>, the first violin leaps through A and E above the cello’s A–E–A figure, and the viola continues its quavers in groups of three.</p>",
       "devices": ["retransition", "texture change", "motivic link", "crescendo build"], "basis": "score-proportion", "precision": "passage",

@@ -1,29 +1,32 @@
 /* No page links this sheet: the tour runner attaches it on demand. */
-.cp-tour { position: fixed; inset: 0; z-index: 10000; pointer-events: none; color: #f1e5cd; font: 400 1.08rem/1.45 'EB Garamond', Garamond, serif; }
-.cp-tour::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at center, transparent 35%, #08060938); pointer-events: none; }
-.tour-ring { position: fixed; border: 1px solid #edcf86; border-radius: 7px; outline: 1px solid #b58b42; outline-offset: 3px; box-shadow: 0 0 0 150vmax #09080c99, 0 0 26px 5px #e0bc5b3d, inset 0 0 8px #f8e2a426; pointer-events: none; }
-.tour-card { position: fixed; width: 350px; max-width: calc(100vw - 24px); max-height: calc(100dvh - 36px); overflow: auto; pointer-events: auto; padding: 1.25rem 1.35rem 1rem; color: #f1e5cd; background: linear-gradient(135deg, #30261c, #171310 70%); border: 1px solid #c6a45d; outline: 1px solid #b58b4250; outline-offset: 4px; border-radius: 3px; box-shadow: 0 18px 60px #0009, inset 0 0 0 4px #d9b56c0d; animation: tour-arrive .18s ease-out; }
-.tour-card h2 { font: italic 500 1.9rem/1.04 'Cormorant Garamond', Garamond, serif; margin: .65rem 0 .8rem; color: #edd59d; text-wrap: balance; }
+.cp-tour { --focus: var(--gold-hi); position: fixed; inset: 0; z-index: 10000; pointer-events: none; color: var(--night-ink); font: 400 1.08rem/1.45 var(--text); }
+/* The ring keeps its target lit; the page around it is dimmed only enough to point, never to hide the subject. */
+.tour-ring { position: fixed; border: 1px solid var(--gold-hi); border-radius: 0; outline: 1px solid var(--night-gold); outline-offset: 3px; box-shadow: 0 0 0 150vmax rgba(9, 8, 12, .42); pointer-events: none; }
+.tour-card { position: fixed; width: 350px; max-width: calc(100vw - 24px); max-height: calc(100dvh - 36px); overflow: auto; pointer-events: auto; padding: 1.25rem 1.35rem 1rem; color: var(--night-ink); background: var(--night-2); border: 1px solid var(--night-gold); outline: 1px solid var(--night-rule); outline-offset: 4px; animation: tour-arrive .18s ease-out; }
+.tour-card h2 { font: italic 500 1.9rem/1.04 var(--display); margin: .65rem 0 .8rem; color: var(--gold-hi); text-wrap: balance; }
+/* The title takes focus programmatically at each step, for screen readers; it is not a control. */
+.tour-card h2:focus { outline: none; }
 .tour-card p { margin: 0 0 .9rem; font-size: 1.08rem; line-height: 1.4; }
-.tour-count { display: block; font: 600 .77rem/1.3 'Cormorant SC', Garamond, serif; letter-spacing: .07em; color: #c9b690; }
-.tour-note:not(:empty) { border-top: 1px solid #c6a45d55; padding-top: .7rem; color: #edcf9d; font-size: .93rem; }
+.tour-count { display: block; font: 600 var(--fs-kicker)/1.3 var(--caps); letter-spacing: var(--ls-caps); text-transform: lowercase; font-variant: small-caps; color: var(--night-muted); }
+.tour-note:not(:empty) { border-top: 1px solid var(--night-rule-2); padding-top: .7rem; color: var(--night-ink-2); font-size: var(--fs-caption); }
 .tour-note:empty { display: none; }
-.tour-card button { font: 500 1rem/1.1 'EB Garamond', Garamond, serif; border-radius: 2px; min-height: 44px; cursor: pointer; padding: .5rem .8rem; }
-.tour-do { width: 100%; border: 1px solid #ae8b4e; background: #ccb47712; color: #edd59d; margin-bottom: .65rem; }
-.tour-do:hover { background: #ccb47725; }
+/* The site's one button: a square hairline rectangle in small capitals. */
+.tour-card button { min-height: 44px; padding: .5rem .9rem; border: 1px solid var(--night-rule-2); font: 600 .95rem/1.1 var(--caps); letter-spacing: var(--ls-caps); text-transform: lowercase; font-variant: small-caps; color: var(--night-ink-2); cursor: pointer; transition: color .2s, border-color .2s, background .2s; }
+.tour-card button:hover:not(:disabled) { color: var(--gold-hi); border-color: var(--night-gold); }
+.tour-do { width: 100%; margin-bottom: .65rem; }
 .tour-controls { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
-.tour-next { border: 1px solid #e2c889; background: linear-gradient(135deg, #eedba6, #c9a45b); color: #241b10; }
-.tour-back, .tour-skip { background: none; color: #e1cfaa; border: 1px solid #c6a45d55; }
-.tour-skip { margin-left: auto; font-size: .9rem !important; }
+.tour-card .tour-next { border-color: var(--night-gold); color: var(--gold-hi); }
+.tour-card .tour-next:hover { background: var(--night-gold); color: var(--night); }
+.tour-skip { margin-left: auto; }
 .tour-card button:disabled { opacity: .45; cursor: default; }
-.tour-card :focus-visible { outline: 2px solid #f2d890; outline-offset: 3px; }
-.tour-keys { display: block; color: #c3b297; font-size: .78rem; margin-top: .75rem; }
+.tour-keys { display: block; color: var(--night-muted); font-size: var(--fs-small); margin-top: .75rem; }
+@media (hover: none) { .tour-keys { display: none; } }
 .cp-touring .curtain, .cp-touring .hall-hint { display: none !important; }
-@keyframes tour-arrive { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+@keyframes tour-arrive { from { opacity: 0; } to { opacity: 1; } }
 @media (max-width: 700px) {
   .tour-card { padding: 1rem 1.1rem .75rem; max-height: 48dvh; }
   .tour-card h2 { font-size: 1.75rem; margin: .4rem 0 .6rem; }
   .tour-card p { font-size: 1rem; margin-bottom: .65rem; }
-  .tour-keys { margin-top: .45rem; font-size: .73rem; }
+  .tour-keys { margin-top: .45rem; }
 }
 @media (prefers-reduced-motion: reduce) { .tour-card { animation: none; } .cp-touring { scroll-behavior: auto; } }

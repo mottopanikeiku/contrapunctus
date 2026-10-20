@@ -13,8 +13,7 @@ export default {
     "id": "schoenberg-verklarte-nacht",
     "title": "Verklärte Nacht, Op. 4 (sextet)",
     "part": 1,
-    "of": 2
-  },
+    "of": 2, "unit": "parts" },
   "source": {
     "archive": {
       "item": "lp_schoenberg-verklaerte-nacht-op-4-transfigu_the-hollywood-string-quartet",
@@ -28,9 +27,9 @@ export default {
   },
   intro: 'The Hollywood String Quartet and two guests play the original six-string version of <i>Verklärte Nacht</i>, Op. 4, in which two people walk through a cold wood and the woman tells her companion she is carrying another man’s child. The LP’s first side (bars 1–228) ends before his answer.',
   sections: [
-    { t: 0, label: 'A · Low strings, descending phrase', m: 'A', mNote: 'A descending phrase above repeated low notes' },
+    { t: 0, label: 'A · Low strings, descending phrase', m: 'A', mNote: 'A descending phrase above repeated low notes.' },
     { t: 242, label: 'B · The woman’s confession, string sextet', m: 'B', mNote: 'The six strings play the music of the woman’s confession.' },
-    { t: 412, label: 'C · Violin melody in E major', m: 'C', mNote: 'Long violin phrases over moving viola and cello parts' },
+    { t: 412, label: 'C · Violin melody in E major', m: 'C', mNote: 'Long violin phrases over moving viola and cello parts.' },
     { t: 698, label: 'D · The walk after the confession', m: 'D', mNote: 'The woman waits for her companion’s answer.' },
     { t: 834, label: 'Link · E♭ minor, low B♭ held', m: 'Link', mNote: 'The second cello holds a low B♭ into side two.' },
   ],
@@ -41,11 +40,11 @@ export default {
     { t: 304, kind: 'world', title: 'Schoenberg’s announcement, 1902', text: 'In 1902 Schoenberg explained his aim of bringing the poetic programme of orchestral music into chamber music. No singer takes the parts of Dehmel’s speakers. Two violins, two violas and two cellos carry the whole story.', basis: 'documented', precision: 'passage', evidence: 'Schoenberg’s announcement in Deutsche Tonkünstler-Zeitung, 21 October 1902, reproduced by the Arnold Schönberg Center. https://schoenberg.at/en/schoenberg/kompositionen/transfigured-night-op-4' },
     { t: 412, kind: 'form', title: 'First violin theme in E major', text: 'The music moves to E major, marked <i>Etwas ruhiger</i> (a little calmer). The first violin plays the melody over moving figures in the second viola and first cello. In Schoenberg’s account of the poem, this theme belongs to the woman’s longing for motherhood.', basis: 'score-proportion', precision: 'passage', evidence: 'Dreililien sextet score (1905), pp. 12–13; Schoenberg’s programme notes (1950), fourth theme, example 7. https://schoenberg.at/en/schoenberg/kompositionen/transfigured-night-op-4' },
     { t: 698, kind: 'world', title: 'End of the woman’s confession', text: 'The woman’s confession is over. In Dehmel’s poem she walks awkwardly beside the man she loves and looks up at the moon. His reply begins by lifting the burden from her unborn child.', basis: 'documented', precision: 'passage', evidence: 'Dehmel, Verklärte Nacht (1896), third and fourth stanzas, reproduced in the original sextet score, p. 2; Schoenberg’s 1950 commentary places this scene before the D-major answer. https://schoenberg.at/en/schoenberg/kompositionen/transfigured-night-op-4' },
-    { t: 834, kind: 'music', title: 'E♭-minor ending, low B♭', text: 'The strings settle in E♭ minor and stop until only a low B♭ remains in the second cello. The first side of the LP ends on that note, at bars 228–229. Side two opens in D major.', basis: 'score-proportion', precision: 'passage', evidence: 'Dreililien sextet score (1905), pp. 24–26, bars 204–229; Schoenberg’s 1950 commentary explains the E♭-minor ending and its connecting B♭. The LP division is at bars 228–229. https://schoenberg.at/en/schoenberg/kompositionen/transfigured-night-op-4' },
+    { t: 834, kind: 'music', title: 'E♭ minor ending, low B♭', text: 'The strings settle in E♭ minor and stop until only a low B♭ remains in the second cello. The first side of the LP ends on that note, at bars 228–229. Side two opens in D major.', basis: 'score-proportion', precision: 'passage', evidence: 'Dreililien sextet score (1905), pp. 24–26, bars 204–229; Schoenberg’s 1950 commentary explains the E♭-minor ending and its connecting B♭. The LP division is at bars 228–229. https://schoenberg.at/en/schoenberg/kompositionen/transfigured-night-op-4' },
   ],
   transitions: [
-    { id: 'into-major-episode', title: 'A violin melody in E major', from: 'B · The woman’s confession, string sextet', to: 'C · Violin melody in E major', at: { t: 412 }, how: '<p>The sextet broadens at <i>Breiter</i> and moves into the E-major episode. At <i>Etwas ruhiger</i> the first violin plays the long melody, with the second viola and first cello moving beneath it and the second cello playing the slower bass line.</p>', devices: ['tempo change', 'decrescendo', 'texture change'], basis: 'score-proportion', precision: 'passage', evidence: 'Dreililien sextet score (1905), pp. 12–13, and Schoenberg’s 1950 programme notes, example 7. https://schoenberg.at/en/schoenberg/kompositionen/transfigured-night-op-4' },
-    { id: 'into-suspended-link', title: 'Second cello’s held B♭, end of side one', from: 'D · The walk after the confession', to: 'Link · E♭ minor, low B♭ held', at: { t: 834 }, how: '<p>Over E♭ minor the upper strings thin out and stop. The second cello continues to hold B♭ after the other parts have stopped. That B♭ connects the first half to the broad D-major section on the next side.</p>', devices: ['decrescendo', 'link passage'], basis: 'score-proportion', precision: 'passage', evidence: 'Dreililien sextet score (1905), pp. 24–26, bars 204–229; Schoenberg’s 1950 programme notes, examples 9–10. https://schoenberg.at/en/schoenberg/kompositionen/transfigured-night-op-4' },
+    { id: 'into-major-episode', title: 'A violin melody in E major', from: 'B · The woman’s confession, string sextet', to: 'C · Violin melody in E major', at: { t: 412 }, how: '<p>The sextet broadens at <i>Breiter</i> and moves into the E major episode. At <i>Etwas ruhiger</i> the first violin plays the long melody, with the second viola and first cello moving beneath it and the second cello playing the slower bass line.</p>', devices: ['tempo change', 'decrescendo', 'texture change'], basis: 'score-proportion', precision: 'passage', evidence: 'Dreililien sextet score (1905), pp. 12–13, and Schoenberg’s 1950 programme notes, example 7. https://schoenberg.at/en/schoenberg/kompositionen/transfigured-night-op-4' },
+    { id: 'into-suspended-link', title: 'Second cello’s held B♭, end of side one', from: 'D · The walk after the confession', to: 'Link · E♭ minor, low B♭ held', at: { t: 834 }, how: '<p>Over E♭ minor the upper strings thin out and stop. The second cello continues to hold B♭ after the other parts have stopped. That B♭ connects the first half to the broad D major section on the next side.</p>', devices: ['decrescendo', 'link passage'], basis: 'score-proportion', precision: 'passage', evidence: 'Dreililien sextet score (1905), pp. 24–26, bars 204–229; Schoenberg’s 1950 programme notes, examples 9–10. https://schoenberg.at/en/schoenberg/kompositionen/transfigured-night-op-4' },
   ],
   orchestra: {
     ensemble: ['violins-1', 'violins-2', 'violas', 'cellos'],

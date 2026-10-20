@@ -1,17 +1,18 @@
 {
   "id": "rachmaninoff-in-exile",
   "title": "Rachmaninoff in exile",
-  "subtitle": "The pianist, Russian scores and American studios",
+  "subtitle": "Russian scores and American recordings",
   "minutes": 24,
   "hero": {
     "file": "File:Somov Sergei Rachmaninoff 1925.JPG",
-    "caption": "Sergei Rachmaninoff in 1925, eight years after leaving Russia. Portrait by Konstantin Somov."
+    "caption": "Sergei Rachmaninoff in 1925, eight years after leaving Russia. Portrait by Konstantin Somov.",
+    "focus": "50% 10%"
   },
   "intro": "Rachmaninoff left Russia with his family in December 1917; by the following November he was in New York, earning his living at the piano. His records took the music of Moscow and Ivanovka into American studios, from the three notes of the C♯ minor Prelude to the short phrases of <i>Lilacs</i>.",
   "stations": [
     {
       "id": "s1",
-      "title": "Three notes from Moscow",
+      "title": "The C♯ minor Prelude, 1892",
       "listen": { "id": "rachmaninoff-prelude-c-sharp-minor", "from": 0, "to": 106 },
       "art": null,
       "score": null,
@@ -39,7 +40,7 @@
       "map": { "composer": "rachmaninoff", "year": 1892 },
       "edge": null,
       "compare": null,
-      "text": "<p>Siloti took the Prelude on his 1898 tour of Europe, England and America, and its fame travelled ahead of Rachmaninoff, who was still living in Russia. The slow opening chords give way to an <i>Agitato</i> in triplets, after which the three-note motif returns across the keyboard. At that point the score is written on four staves instead of two for the pianist’s two hands. A quiet coda follows, in which the chords move apart, and the piece ends softly.</p>",
+      "text": "<p>Siloti took the Prelude on his 1898 tour of Europe, England and America, and its fame travelled ahead of Rachmaninoff, who was still living in Russia. The slow opening chords are followed by an <i>Agitato</i> in triplets, after which the three-note motif returns across the keyboard. At that point the score is written on four staves instead of two for the pianist’s two hands. A quiet coda follows, in which the chords move apart, and the piece ends softly.</p>",
       "cues": [
         { "at": 112, "text": "Triplets carry the melody through the <i>Agitato</i>." },
         { "at": 138, "text": "The three-note call returns in broad chords; the printed score now stretches over four staves." },
@@ -132,10 +133,10 @@
       "map": { "composer": "rachmaninoff", "year": 1918 },
       "edge": null,
       "compare": "rachmaninoff-prelude-c-sharp-minor",
-      "text": "<p>In America, Rachmaninoff worked full-time as a concert pianist. Recording became another part of that work. He recorded for Edison in 1919, signed a contract with Victor in 1920, and returned to the studio repeatedly with pieces he knew intimately. On 4 April 1928, in New York, he recorded the C♯ minor Prelude again, this time electrically. Victor issued take 23. The opening chords state the same three-note figure heard earlier, and the triplets accelerate towards the return of the opening material. The coda is quiet, as the opening was.</p>",
+      "text": "<p>In America, Rachmaninoff worked full-time as a concert pianist. Recording became another part of that work. He recorded for Edison in 1919, signed a contract with Victor in 1920, and returned to the studio repeatedly with pieces he knew intimately. On 4 April 1928, in New York, he recorded the C♯ minor Prelude again, this time electrically. Victor issued take 23. The opening chords state the same three-note figure heard earlier, and the triplets accelerate towards the return of the opening material. The coda is quiet.</p>",
       "cues": [
         { "at": 0, "text": "Rachmaninoff recorded his Prelude again in New York on 4 April 1928, take 23." },
-        { "at": 92, "text": "The quiet opening gives way to the triplets of the middle section." },
+        { "at": 92, "text": "The triplets of the middle section begin." },
         { "at": 155, "text": "The opening call is played in broad chords across the keyboard." },
         { "at": 178, "text": "The chords become quieter and are spaced apart as the coda begins." }
       ],
@@ -185,7 +186,7 @@
         { "at": 0, "text": "Muted strings open the Second Concerto’s Adagio." },
         { "at": 28, "text": "Flute, then clarinet, play over the piano’s circling notes." },
         { "at": 150, "text": "Piano and orchestra continue the Adagio’s long melody." },
-        { "at": 175, "text": "The first Adagio side ends; the song continues on another disc." }
+        { "at": 175, "text": "The first Adagio side ends; the movement continues on another disc." }
       ],
       "sources": [
         { "title": "Serge Rachmaninoff Foundation: Villa Senar — summer home, 1933–1939", "url": "https://rachmaninoff.ch/en/history/" },
@@ -208,7 +209,7 @@
       "map": { "composer": "rachmaninoff", "year": 1943 },
       "edge": null,
       "compare": null,
-      "text": "<p>Rachmaninoff died at home in Beverly Hills in March 1943. This recording was made twenty years earlier, in Camden: he played <i>Lilacs</i>. Victor’s books list twelve takes between 1920 and 1923; this is the ninth, recorded on 27 December 1923. The song’s melody passes through the moving notes, gathers into a trill and returns to a quiet close. In the photograph he is a young man at Ivanovka. On the record, a last short flourish leads to the closing chord.</p>",
+      "text": "<p>Rachmaninoff died at home in Beverly Hills in March 1943. Twenty years earlier, in Camden, he had recorded <i>Lilacs</i>. Victor’s books list twelve takes between 1920 and 1923; this is the ninth, recorded on 27 December 1923. The song’s melody passes through the moving notes, gathers into a trill and returns to a quiet close. A last short flourish leads to the closing chord.</p>",
       "cues": [
         { "at": 0, "text": "The 1923 <i>Lilacs</i> returns, its melody set among the moving notes." },
         { "at": 86, "text": "After the trill and the quicker passage, the piano plays quietly again." },

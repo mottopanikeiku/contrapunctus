@@ -19,13 +19,13 @@ export default {
   "source": {
     "file": "File:Vivaldi - Four Seasons 1 Spring mvt 2 Largo - John Harrison violin.oga"
   },
-  "intro": "The Largo is the second movement of Spring, RV 269, from Vivaldi’s The Four Seasons, and depicts a goatherd asleep with his dog beside him. Vivaldi gave the sleeping goatherd to the solo violin, the rustling leaves to the orchestral violins and the barking dog to the viola.",
+  "intro": "The Largo is the second movement of Spring, RV 269, from Vivaldi’s <i>The Four Seasons</i>, and depicts a goatherd asleep with his dog beside him. Vivaldi gave the sleeping goatherd to the solo violin, the rustling leaves to the orchestral violins and the barking dog to the viola.",
   "sections": [
-    { "t": 0, "label": "A · Solo violin, Largo, sleeping goatherd", "m": "A", "mNote": "Solo violin over rustling violins and the viola’s bark" },
-    { "t": 32, "label": "B · Melody moves to G♯ minor", "m": "B", "mNote": "Long violin notes over a descending-fifths progression" },
+    { "t": 0, "label": "A · Solo violin, Largo, sleeping goatherd", "m": "A", "mNote": "Solo violin over rustling violins and the viola’s bark." },
+    { "t": 32, "label": "B · Melody moves to G♯ minor", "m": "B", "mNote": "Long violin notes over a descending-fifths progression." },
     { "t": 85, "label": "A′ · Opening theme returns", "m": "A′", "mNote": "G♯–E–C♯ again, over the same accompaniment." },
     { "t": 102, "label": "C · Solo violin in higher register", "m": "C", "mNote": "The solo violin reaches a high C♯, then descends." },
-    { "t": 146, "label": "C′ · Repeated C♯-minor cadence", "m": "C′", "mNote": "The solo ends; the accompanying strings continue." }
+    { "t": 146, "label": "C′ · Repeated C♯ minor cadence", "m": "C′", "mNote": "The solo ends; the accompanying strings continue." }
   ],
   "cues": [
     {
@@ -115,9 +115,9 @@ export default {
       "id": "closing-repetition",
       "title": "The cadence returns",
       "from": "C · Solo violin in higher register",
-      "to": "C′ · Repeated C♯-minor cadence",
+      "to": "C′ · Repeated C♯ minor cadence",
       "at": { "t": 146 },
-      "how": "<p>The solo violin repeats C♯–F♯–A from the preceding phrase. Its trill on D♯ resolves to C♯ over the viola’s G♯–C♯ cadence. The solo violin then rests, and the accompanying parts complete their rustling and barking figures on a held C♯-minor chord.</p>",
+      "how": "<p>The solo violin repeats C♯–F♯–A from the preceding phrase. Its trill on D♯ resolves to C♯ over the viola’s G♯–C♯ cadence. The solo violin then rests, and the accompanying parts complete their rustling and barking figures on a held C♯ minor chord.</p>",
       "devices": ["motivic link", "perfect cadence"],
       "basis": "score-proportion",
       "precision": "passage",

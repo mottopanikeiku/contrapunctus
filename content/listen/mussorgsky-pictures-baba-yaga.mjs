@@ -4,7 +4,7 @@ export default {
   order: 2,
   work: 'Pictures at an Exhibition',
   movement: 'IX. La cabane sur des pattes de poule (Baba-Yaga) — Allegro con brio, feroce — Andante mosso — Allegro molto',
-  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 14, of: 15 },
+  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 14, of: 15, unit: 'pieces' },
   year: '1874',
   key: '',
   forces: 'Orchestra',

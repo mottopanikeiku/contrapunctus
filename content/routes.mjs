@@ -3,19 +3,19 @@ export default [
   {
     id: 'returns',
     title: 'Return of the theme',
-    intro: 'Satie keeps a darker chord for his second ending. Elsewhere, returns come in a new key or with the whole orchestra playing.',
+    intro: 'Satie’s second ending closes on a D minor chord. Elsewhere, returns come in a new key or with the whole orchestra playing.',
     tracks: [
       { id: 'satie-gymnopedie-1', why: 'The opening returns with few changes. At the end, F♯ becomes F♮ and the music moves from D major to D minor.' },
       { id: 'beethoven-5-first', why: 'A written repeat brings the opening back intact. Later, a lone oboe interrupts its return.' },
       { id: 'vivaldi-spring-allegro', why: 'The full strings return to the opening ritornello between the violin passages imitating birdsong and storms.' },
-      { id: 'haydn-94-andante', why: 'A C-major tune goes through four variations, starting with quiet strings and ending with the full orchestra.' },
+      { id: 'haydn-94-andante', why: 'A C major tune goes through four variations, starting with quiet strings and ending with the full orchestra.' },
       { id: 'mozart-40-molto-allegro', why: 'The second theme is first heard in B♭ major. When it returns, it is in G minor.' },
     ],
   },
   {
     id: 'voices',
     title: 'Several tunes at once',
-    intro: 'Bach wrote four voices for a pianist’s two hands. Handel passed a tune between the parts of a choir, then brought all the voices together on the same words.',
+    intro: 'Bach wrote four voices for a keyboard player’s two hands. Handel passed a tune between the parts of a choir, then brought all the voices together on the same words.',
     tracks: [
       { id: 'bach-wtc1-fugue-b-minor', why: 'Four voices enter in turn, and one pair of hands keeps their lines apart.' },
       { id: 'couperin-nations-piemontaise', why: 'The four players play three parts, two upper melodies and a shared bass.' },
@@ -37,15 +37,15 @@ export default [
   },
   {
     id: 'short',
-    title: 'Four-minute margin',
-    intro: 'A loud piano étude and a quiet operatic prelude fit into the same short break. Each recording is a complete piece or movement.',
+    title: 'Under four minutes',
+    intro: 'Each recording is a complete piece or movement, from a loud piano étude to a quiet operatic prelude.',
     tracks: [
       { id: 'scriabin-etude-op8-12', why: 'A melody in octaves sounds above a left hand that leaps across the keyboard.' },
       { id: 'elgar-enigma-nimrod', why: 'Elgar’s orchestral portrait of August Jaeger, the friend who kept him composing.' },
       { id: 'satie-gymnopedie-1', why: 'A piano dance in which the bass plays one beat ahead of the chords.' },
       { id: 'handel-messiah-hallelujah', why: 'For choir, with four independent voices.' },
       { id: 'vivaldi-spring-allegro', why: 'The violins imitate birdsong, and a brief thunderstorm interrupts the spring morning.' },
-      { id: 'verdi-traviata-prelude', why: 'High, quiet strings give way to a love song; the lower strings take it up beneath decoration in the violins.' },
+      { id: 'verdi-traviata-prelude', why: 'After high, quiet strings comes a love song; the lower strings take it up beneath decoration in the violins.' },
       { id: 'rachmaninoff-prelude-c-sharp-minor', why: 'Rachmaninoff at the keyboard, recorded in 1919.' },
     ],
   },

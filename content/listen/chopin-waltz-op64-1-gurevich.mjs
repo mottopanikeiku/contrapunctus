@@ -1,10 +1,10 @@
 export default {
   "intro": "Chopin’s Waltz in D♭ major, Op. 64 No. 1, known as the <i>Minute Waltz</i>, opens with a figure turning on a few notes before a longer melodic phrase enters. Olga Gurevich recorded it for Musopen’s Set Chopin Free project.",
   "sections": [
-    { "t": 0, "label": "A · Quavers around A♭", "m": "A", "mNote": "Four bars for the right hand alone" },
-    { "t": 34, "label": "B · Sostenuto melody over waltz bass", "m": "B", "mNote": "Long notes over the continuing waltz bass" },
+    { "t": 0, "label": "A · Quavers around A♭", "m": "A", "mNote": "Four bars for the right hand alone." },
+    { "t": 34, "label": "B · Sostenuto melody over waltz bass", "m": "B", "mNote": "Long notes over the continuing waltz bass." },
     { "t": 64, "label": "A′ · Trill and circling quavers", "m": "A′", "mNote": "The right hand plays alone before the bass re-enters." },
-    { "t": 98, "label": "Coda · Descending scale to D♭", "m": "Coda", "mNote": "A high leap begins the final descending run" }
+    { "t": 98, "label": "Coda · Descending scale to D♭", "m": "Coda", "mNote": "A high leap begins the final descending run." }
   ],
   "cues": [
     {

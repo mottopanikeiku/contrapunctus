@@ -44,7 +44,7 @@ export default {
       "t": 204,
       "label": "D · Harp and muted strings",
       "m": "D",
-      "mNote": "Harp and muted strings; the harmony moves towards G major."
+      "mNote": "The harmony moves towards G major."
     }
   ],
   "cues": [

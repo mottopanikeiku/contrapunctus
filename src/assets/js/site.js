@@ -99,17 +99,28 @@ export async function mount(app) {
     $$('.glossary-entry').forEach((entry) => { entry.hidden = !!kind.value && entry.dataset.kind !== kind.value; if (!entry.hidden) count++; });
     $('#glossary-count').textContent = `${count} terms`;
     $$('.glossary-alphabet a').forEach((a) => {
-      const letter = a.textContent;
-      const entry = $$('.glossary-entry:not([hidden])').find((el) => $('h2', el).textContent[0].toLocaleUpperCase('en') === letter);
+      const entry = $$('.glossary-entry:not([hidden])').find((el) => el.dataset.initial === a.dataset.initial);
       a.hidden = !entry; if (entry) a.href = `#${entry.id}`;
     });
   };
   if (kind) listen(kind, 'change', filterTerms);
+  // ---- recording dossiers (Sources & method): each is fetched from assets/dossiers/ when it is first opened.
+  const loadDossier = (details) => details.dossierLoad ??= fetch(new URL(`assets/dossiers/${details.dataset.dossier}.json?v=${details.parentElement.dataset.version ?? ''}`, app.root))
+    .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(({ html }) => { $('.dossier-status', details)?.remove(); details.insertAdjacentHTML('beforeend', html); })
+    .catch(() => {
+      details.dossierLoad = null; // Reopening tries again.
+      if (!$('.dossier-status', details)) details.insertAdjacentHTML('beforeend', '<p class="dossier-status">This dossier could not be loaded.</p>');
+    });
+  listen(document, 'toggle', (e) => { if (e.target.matches?.('.research-dossier[data-dossier]') && e.target.open) loadDossier(e.target); }, true);
   const openAnchor = () => {
     let id; try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
     const target = document.getElementById(id);
-    const dossier = target?.closest('.research-dossier');
+    // A dossier's source list exists only once the dossier has been loaded.
+    const source = !target && /^source-(.+)-\d+$/.exec(id);
+    const dossier = target?.closest('.research-dossier') ?? (source ? document.getElementById(`dossier-${source[1]}`) : null);
     if (dossier) dossier.open = true;
+    if (dossier && source) loadDossier(dossier).then(() => { if (mounted) app.scrollFragment(new URL(location.href)); });
     const entry = target?.closest('.glossary-entry');
     if (entry?.hidden && kind) { kind.value = ''; filterTerms(); app.scrollFragment(new URL(location.href)); }
   };
@@ -137,10 +148,28 @@ export async function mount(app) {
     }));
   }
 
-  // ---- masthead
+  // ---- masthead. Over a dark hero it stays transparent only while no text of the hero has reached it; from
+  // there to the hero's foot it is opaque night (`on-dark`), below the hero opaque paper. On a night page,
+  // where titles start right under it, it turns opaque night as soon as the page moves.
   const mast = $('.masthead');
-  const onScroll = () => mast.classList.toggle('scrolled', scrollY > innerHeight * 0.55);
-  if (mast) { listen(window, 'scroll', onScroll, { passive: true }); onScroll(); }
+  const hero = !document.body.classList.contains('is-night') && $('#main :is(.hero, .e-hero, .c-hero, .w-hero, .guide-hero)');
+  let clear = 8, foot = 8;
+  const measure = () => {
+    if (!hero) return;
+    const h = mast.offsetHeight, texts = [...hero.querySelectorAll('h1, .crumbs, .kicker, .hero-sub, .n')].map((el) => el.getBoundingClientRect().top + scrollY);
+    foot = Math.max(8, hero.getBoundingClientRect().bottom + scrollY - h);
+    clear = Math.max(8, Math.min(foot, ...texts.map((t) => t - h - 16)));
+  };
+  const onScroll = () => {
+    mast.classList.toggle('scrolled', scrollY > clear);
+    mast.classList.toggle('on-dark', !!hero && scrollY > clear && scrollY < foot);
+  };
+  if (mast) {
+    measure(); onScroll();
+    listen(window, 'scroll', onScroll, { passive: true });
+    listen(window, 'resize', () => { measure(); onScroll(); }, { passive: true });
+    document.fonts.ready.then(() => { if (mounted) { measure(); onScroll(); } });
+  }
   const toggle = $('.nav-toggle');
   const closeNav = () => { $('#nav')?.classList.remove('open'); toggle?.setAttribute('aria-expanded', 'false'); if (toggle) toggle.textContent = 'Menu'; };
   if (toggle) listen(toggle, 'click', () => {
@@ -196,14 +225,36 @@ export async function mount(app) {
   $$('.reveal').forEach((el) => io.observe(el));
   cleanups.push(() => io.disconnect());
 
-  // ---- table of contents highlight
+  // ---- music glyphs beside small-caps labels: each glyph's ink is drawn at its own staff height, so measure the
+  // ink and move it until its middle meets the middle of the small caps (without script it stays on the baseline).
+  // The webfont sheet is applied after the first paint, so measure again whenever a font finishes loading.
+  const glyphs = $$('.anatomy h3 .glyph');
+  if (glyphs.length) {
+    const placeGlyphs = () => {
+      if (!mounted) return;
+      const pen = document.createElement('canvas').getContext('2d');
+      for (const g of glyphs) {
+        const style = getComputedStyle(g), size = parseFloat(style.fontSize);
+        pen.font = `${size}px ${style.fontFamily}`;
+        const ink = pen.measureText(g.textContent);
+        const label = parseFloat(getComputedStyle(g.parentElement).fontSize);
+        g.style.translate = `0 ${((ink.actualBoundingBoxAscent - ink.actualBoundingBoxDescent) / 2 - label * 0.22).toFixed(1)}px`;
+      }
+    };
+    document.fonts.ready.then(placeGlyphs);
+    listen(document.fonts, 'loadingdone', placeGlyphs);
+  }
+
+  // ---- table of contents highlight: every section the contents list names, chapters and apparatus alike;
+  // at the foot of the page the last entry is marked, since a short last section never reaches the band.
   const tocLinks = $$('.toc a');
   if (tocLinks.length) {
     const map = new Map(tocLinks.map((a) => [a.getAttribute('href').slice(1), a]));
-    const tio = new IntersectionObserver((es) => es.forEach((e) => {
-      if (e.isIntersecting) { tocLinks.forEach((a) => a.classList.remove('on')); map.get(e.target.id)?.classList.add('on'); }
-    }), { rootMargin: '-30% 0px -60% 0px' });
-    $$('.chapter').forEach((s) => tio.observe(s));
+    const mark = (a) => { tocLinks.forEach((x) => x.classList.toggle('on', x === a)); };
+    const tio = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) mark(map.get(e.target.id)); }), { rootMargin: '-30% 0px -60% 0px' });
+    for (const id of map.keys()) { const s = document.getElementById(id); if (s) tio.observe(s); }
+    const atFoot = () => { if (innerHeight + scrollY >= document.documentElement.scrollHeight - 2) mark(tocLinks.at(-1)); };
+    listen(window, 'scroll', atFoot, { passive: true });
     cleanups.push(() => tio.disconnect());
   }
 
@@ -232,18 +283,21 @@ export async function mount(app) {
     current.timer?.stop();
     current.btn.classList.remove('on');
     current.btn.textContent = current.label;
+    if (current.name) current.btn.setAttribute('aria-label', current.name);
     $$('.playing').forEach((el) => el.classList.remove('playing'));
     current = null;
   }
 
   function engrave(fig) {
     if (fig.dataset.done) return;
-    const src = $('script[type="text/vnd.abc"]', fig).textContent;
     const target = $('.abc', fig);
     const narrow = target.clientWidth < 620;
+    let src = $('script[type="text/vnd.abc"]', fig).textContent;
+    // On a phone, voice names at every system would take a third of the staff: drop them and fit more bars per line.
+    if (narrow) src = src.replace(/^V:.*$/gm, (line) => line.replace(/\s+(?:name|nm|subname|snm)=("[^"]*"|\S+)/g, ''));
     const [visual] = ABCJS.renderAbc(target, src, {
       ...(narrow
-        ? { staffwidth: Math.max(240, target.clientWidth - 12), wrap: { minSpacing: 1.6, maxSpacing: 2.6, preferredMeasuresPerLine: 3 } }
+        ? { staffwidth: Math.max(240, target.clientWidth - 12), wrap: { minSpacing: 1, maxSpacing: 2.4, preferredMeasuresPerLine: 4 } }
         : { responsive: 'resize', staffwidth: 760 }),
       add_classes: true, paddingtop: 6, paddingbottom: 6, paddingleft: 0, paddingright: 0,
       foregroundColor: 'currentColor', format: { tempofont: '"EB Garamond" italic 15', titlefont: '"EB Garamond" 1', gchordfont: '"EB Garamond" 14', vocalfont: '"EB Garamond" 13', annotationfont: '"EB Garamond" italic 13', partsfont: '"EB Garamond" 13', voicefont: '"Cormorant SC" 12' },
@@ -257,7 +311,7 @@ export async function mount(app) {
     stopCurrent();
     engrave(fig);
     const visual = fig._visual;
-    const label = btn.textContent;
+    const label = btn.textContent, name = btn.getAttribute('aria-label');
     btn.classList.add('loading');
     btn.textContent = 'Loading';
     const ac = ctxAudio();
@@ -275,6 +329,8 @@ export async function mount(app) {
     btn.classList.remove('loading');
     btn.classList.add('on');
     btn.textContent = 'Stop';
+    // An accessible name must begin with the visible label: “Stop” while playing.
+    if (name) btn.setAttribute('aria-label', name.replace(/^Play\b/, 'Stop'));
     let lit = [];
     const timer = new ABCJS.TimingCallbacks(visual, {
       eventCallback: (ev) => {
@@ -285,7 +341,7 @@ export async function mount(app) {
         return 'continue';
       },
     });
-    current = { synth, timer, btn, label };
+    current = { synth, timer, btn, label, name };
     synth.start();
     timer.start();
   }
@@ -366,8 +422,25 @@ export async function mount(app) {
       $$('.h', svg).forEach((x) => x.classList.toggle('on', x === g));
     }));
   });
-  // ---- start a recording in the persistent player from any page
-  $$('[data-play-id]').forEach((b) => listen(b, 'click', (e) => { e.preventDefault(); stopCurrent(); app.player.load(b.dataset.playId, { play: true, t: Number(b.dataset.playT) || 0 }); }));
+  // ---- start a recording in the persistent player from any page. The button that started it shows the state:
+  // marked and labelled Pause while its recording plays; pressing it again pauses or resumes.
+  const hearButtons = $$('[data-play-id]');
+  let heard = null;
+  const hearState = () => {
+    for (const b of hearButtons) {
+      b.dataset.label ??= b.textContent;
+      const on = b === heard && app.player.playing && app.player.track?.id === b.dataset.playId;
+      b.classList.toggle('on', on);
+      b.textContent = on ? 'Pause' : b.dataset.label;
+    }
+  };
+  if (hearButtons.length) for (const ev of ['play', 'pause', 'track', 'ended']) cleanups.push(app.player.on(ev, hearState));
+  hearButtons.forEach((b) => listen(b, 'click', (e) => {
+    e.preventDefault(); stopCurrent();
+    if (b === heard && app.player.track?.id === b.dataset.playId) { app.player.toggle(); return; }
+    heard = b;
+    app.player.load(b.dataset.playId, { play: true, t: Number(b.dataset.playT) || 0 }).then(hearState);
+  }));
 
   return () => cleanups.forEach((f) => { try { f(); } catch {} });
 }

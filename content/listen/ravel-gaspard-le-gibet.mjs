@@ -12,7 +12,7 @@ export default {
   performers: 'OE1FEU, piano',
   recorded: '3 April 2020',
   source: { file: 'File:Maurice Ravel- Gaspard de la Nuit- II Le Gibet.flac' },
-  set: { id: 'ravel-gaspard-de-la-nuit', title: 'Gaspard de la nuit', part: 2, of: 3 },
+  set: { id: 'ravel-gaspard-de-la-nuit', title: 'Gaspard de la nuit', part: 2, of: 3, unit: 'pieces' },
   "intro": "<i>Le Gibet</i>, marked Très lent, is the second piece of Ravel’s <i>Gaspard de la nuit</i>. It is a setting of Aloysius Bertrand’s poem of a gallows at sunset, and a repeated B♭ sounds like a bell throughout while chords move around it.",
   "sections": [
     { "t": 0, "label": "A · Repeated B♭ octave, Très lent", "m": "A", "mNote": "A repeated octave sounds above slow chords." },

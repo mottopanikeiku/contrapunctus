@@ -24,8 +24,7 @@ export default {
     "id": "debussy-garden-1904",
     "title": "Mary Garden and Debussy, 1904",
     "part": 1,
-    "of": 2
-  },
+    "of": 2, "unit": "songs" },
   "intro": "“Il pleure dans mon cœur” is the second of Debussy’s <i>Ariettes oubliées</i>, a setting of Verlaine. Mary Garden sings it with Debussy at the piano, in a recording made in Paris in 1904.",
   "sections": [
     {

@@ -19,9 +19,9 @@ export default {
   intro: 'Rachmaninoff’s <i>Barcarolle</i> in G minor, Op. 10 No. 3, marked Moderato, dates from 1894; the melody is in the left hand, below a rocking figure in the right. The composer plays it in his 1919 Edison recording.',
 
   sections: [
-    { t: 0, label: 'A · Left-hand melody, Moderato', m: 'A', mNote: 'Moderato; low melody beneath rocking right-hand thirds' },
-    { t: 70, label: 'B · Semiquavers and held chords, ppp', m: 'B', mNote: 'Con moto, ppp and leggiero' },
-    { t: 142, label: 'A′ · Low melody again, Allegro moderato', m: 'A′', mNote: 'Allegro moderato; left-hand melody beneath faster decoration' },
+    { t: 0, label: 'A · Left-hand melody, Moderato', m: 'A', mNote: 'Moderato; low melody beneath rocking right-hand thirds.' },
+    { t: 70, label: 'B · Semiquavers and held chords, ppp', m: 'B', mNote: 'Con moto, ppp and leggiero.' },
+    { t: 142, label: 'A′ · Low melody again, Allegro moderato', m: 'A′', mNote: 'Allegro moderato; left-hand melody beneath faster decoration.' },
     { t: 180, label: 'A″ · Slower figures over held chords', m: 'A″', mNote: 'Meno mosso; the right hand continues in semiquavers.' },
     { t: 196, label: 'C · Con moto, rising line', m: 'C', mNote: 'High notes, first soft, build to a forte passage.' },
     { t: 214, label: 'Coda · High sextuplets, two closing chords', m: 'Coda', mNote: 'The figures rise to pppp in the top octave.' },

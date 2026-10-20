@@ -8,8 +8,7 @@ export default {
     "id": "elgar-enigma",
     "title": "Enigma Variations, Op. 36",
     "part": 13,
-    "of": 14
-  },
+    "of": 14, "unit": "parts" },
   "year": "1898–99",
   "key": "G major",
   "forces": "Orchestra",
@@ -22,7 +21,7 @@ export default {
   "sections": [
     {
       "t": 0,
-      "label": "Var 13 · Romanza: Moderato, clarinet over strings",
+      "label": "Var 13 · Romanza, Moderato, clarinet over strings",
       "m": "Var 13",
       "mNote": "The Romanza begins in G major."
     },
@@ -30,7 +29,7 @@ export default {
       "t": 18,
       "label": "Quotation · Mendelssohn quotation, solo clarinet",
       "m": "Quotation",
-      "mNote": "Solo clarinet above a soft timpani roll"
+      "mNote": "Solo clarinet above a soft timpani roll."
     },
     {
       "t": 62,
@@ -72,7 +71,7 @@ export default {
     {
       "id": "quieter-seascape",
       "title": "The clarinet’s Mendelssohn quotation",
-      "from": "Var 13 · Romanza: Moderato, clarinet over strings",
+      "from": "Var 13 · Romanza, Moderato, clarinet over strings",
       "to": "Quotation · Mendelssohn quotation, solo clarinet",
       "at": {
         "t": 18
@@ -95,7 +94,7 @@ export default {
       "at": {
         "t": 62
       },
-      "how": "<p>Trumpets, trombones and tuba enter softly and then make a crescendo over repeated figures in the low strings. The timpani change from a roll to measured notes. The brass soon drop away at the <i>diminuendo molto</i>. At <i>Come prima</i> the clarinet and the moving strings of the G-major Romanza return.</p>",
+      "how": "<p>Trumpets, trombones and tuba enter softly and then make a crescendo over repeated figures in the low strings. The timpani change from a roll to measured notes. The brass soon drop away at the <i>diminuendo molto</i>. At <i>Come prima</i> the clarinet and the moving strings of the G major Romanza return.</p>",
       "devices": [
         "orchestration change",
         "crescendo build",

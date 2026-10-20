@@ -40,7 +40,7 @@ export default [
   {
     slug: 'origins-monteverdi', name: 'Claudio Monteverdi', given: 'Claudio', family: 'Monteverdi',
     born: { year: 1567, place: 'Cremona' }, died: { year: 1643, place: 'Venice' },
-    epithet: 'Singer who took his song into the underworld.',
+    epithet: 'Orpheus sings to Charon, the ferryman of the underworld.',
     portrait: { file: 'File:Bernardo Strozzi - Claudio Monteverdi (c.1630).jpg', caption: 'Bernardo Strozzi’s portrait, identified as Monteverdi, c. 1630.', focus: '50% 25%' },
     facts: [], anchor: 'opera', quote: null,
   },

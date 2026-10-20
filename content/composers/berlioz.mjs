@@ -3,15 +3,15 @@ export default {
   born: { year: 1803, date: '11 December 1803', place: 'La Côte-Saint-André, France' },
   died: { year: 1869, date: '8 March 1869', place: 'Paris' },
   era: 'romantic',
-  epithet: 'He used the full orchestra at loud volume and also a single cor anglais playing alone against silence.',
-  portrait: { file: "File:Hector Berlioz - d'après le portrait de Signol (1831) - btv1b84157254.jpg", caption: 'A reproduction of Émile Signol’s 1831 portrait of Berlioz, held by the Bibliothèque nationale de France.', focus: '50% 25%' },
+  epithet: 'Composer who used the full orchestra at full volume and also a single cor anglais playing alone against silence.',
+  portrait: { file: 'File:Berlioz young.jpg', caption: 'Émile Signol’s portrait of Berlioz, painted at the Villa Medici in Rome in 1832.', focus: '50% 30%' },
   facts: [
-    ['Training', 'Flute and guitar; composition with Le Sueur and Reicha at the Paris Conservatoire'],
+    ['Trained', 'Flute and guitar; composition with Le Sueur and Reicha at the Paris Conservatoire'],
     ['Livelihood', 'Critic for the <i>Journal des débats</i>, Conservatoire librarian, touring conductor'],
     ['Reading', 'Virgil with his father; Shakespeare at the Odéon; Goethe in French translation'],
-    ['Music', 'Four symphonies, three completed operas, choral works, songs and an orchestration treatise'],
+    ['Output', 'Four symphonies, three completed operas, choral works, songs and an orchestration treatise'],
   ],
-  quote: { text: 'Shakespeare struck me like a thunderbolt.', source: 'Berlioz, Mémoires, chapter XVIII, recalling the Paris performances of September 1827; our translation' },
+  quote: { text: 'Shakespeare struck me like a thunderbolt.', source: 'Berlioz, <i>Mémoires</i>, chapter XVIII, recalling the Paris performances of September 1827; our translation' },
   life: `
 <p class="dropcap">When the young Hector Berlioz read aloud the death of Dido, his voice failed him. His father closed the book and said that he was tired, so the boy did not have to explain his tears. Berlioz recorded the kindness in his <i>Mémoires</i>. Louis Berlioz was a doctor in La Côte-Saint-André, between Lyon and Grenoble, and taught his son Latin, history and geography. He expected Hector to follow him into medicine. The boy learnt the flute and guitar, studied maps of distant islands and was deeply moved by the story of Virgil’s abandoned queen.</p>
 <p>In 1821 he went to Paris to study medicine. His first visit to the dissecting room at the Pitié hospital, he later wrote, ended with a flight through a window. On the second visit he managed perfectly well. Music was the more durable obstacle. He heard Salieri’s <i>Les Danaïdes</i> at the Opéra and began singing its airs over the cadavers. At the Conservatoire library he copied and memorised Gluck’s scores. His father argued, threatened and withheld support. Hector took composition lessons with Jean-François Le Sueur.</p>

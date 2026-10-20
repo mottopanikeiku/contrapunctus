@@ -18,7 +18,7 @@ export default {
     { "t": 0, "label": "A · Decorated melody in F♯ major", "m": "A", "mNote": "The left hand moves between low bass notes and chords." },
     { "t": 86, "label": "B · Doppio movimento, sotto voce", "m": "B", "mNote": "The right hand plays a dotted melody and rapid notes together." },
     { "t": 140, "label": "C · Slow opening melody again", "m": "C", "mNote": "The opening upbeat returns after the quick figures stop." },
-    { "t": 196, "label": "D · F♯ major, closing flourishes", "m": "D", "mNote": "Descending groups of small notes, marked smorzando" }
+    { "t": 196, "label": "D · F♯ major, closing flourishes", "m": "D", "mNote": "Descending groups of small notes, marked smorzando." }
   ],
   "cues": [
     {

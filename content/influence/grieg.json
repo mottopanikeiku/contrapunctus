@@ -7,12 +7,12 @@
       "to": "grieg",
       "kind": "championed",
       "year": 1870,
-      "title": "Liszt’s sight-reading of Grieg’s concerto, Rome",
+      "title": "Liszt and Grieg’s Piano Concerto, Rome, 1870",
       "works": {
         "from": "Liszt’s letter of 29 December 1868 and his sight-reading in Rome, 1870",
         "to": "Violin Sonata No. 1 in F major, Op. 8; Piano Concerto in A minor, Op. 16 (manuscript)"
       },
-      "claim": "<p>On 29 December 1868 [[liszt]] wrote from Rome to a young Norwegian he had never met, praising his F-major Violin Sonata and inviting him to Weimar. Grieg had not sent it. When they met in Rome in 1870, Liszt took the manuscript of the Piano Concerto, played it straight through at the keyboard, talking and nodding as he went, and handed it back with the words: “you have what it takes, and don’t let them frighten you.” His testimonial had already helped Grieg win a state travel grant.</p>",
+      "claim": "<p>On 29 December 1868 [[liszt]] wrote from Rome to a young Norwegian he had never met, praising his F major Violin Sonata and inviting him to Weimar. Grieg had not sent it. When they met in Rome in 1870, Liszt took the manuscript of the Piano Concerto, played it straight through at the keyboard, talking and nodding as he went, and handed it back with the words: “you have what it takes, and don’t let them frighten you.” His testimonial had already helped Grieg win a state travel grant.</p>",
       "status": "documented",
       "sources": [
         {
@@ -33,7 +33,7 @@
       "to": "grieg",
       "kind": "dedicated",
       "year": 1888,
-      "title": "Tchaikovsky’s inscription of Hamlet to Grieg",
+      "title": "Tchaikovsky’s Hamlet overture, dedicated to Grieg",
       "works": {
         "from": "Hamlet, fantasy-overture, Op. 67 (1888), “à Edvard Grieg”",
         "to": "Grieg’s letters to Tchaikovsky of April and May 1888"
@@ -54,12 +54,12 @@
       "to": "grieg",
       "kind": "modelled",
       "year": 1868,
-      "title": "Schumann’s concerto as model for Grieg’s",
+      "title": "Grieg’s Piano Concerto after Schumann’s",
       "works": {
         "from": "Piano Concerto in A minor, Op. 54",
         "to": "Piano Concerto in A minor, Op. 16"
       },
-      "claim": "<p>Grieg’s only piano concerto, drafted at Søllerød in the summer of 1868, is in the same key as [[schumann]]’s A-minor concerto. Like Schumann’s, it opens with a flourish for the soloist and has no long orchestral exposition before the piano enters. In Leipzig Grieg had heard Clara Schumann play her husband’s concerto, and half a century later he wrote in his diary that every tempo of her performance stayed stamped on his soul.</p>",
+      "claim": "<p>Grieg’s only piano concerto, drafted at Søllerød in the summer of 1868, is in the same key as [[schumann]]’s A minor concerto. Like Schumann’s, it opens with a flourish for the soloist and has no long orchestral exposition before the piano enters. In Leipzig Grieg had heard Clara Schumann play her husband’s concerto, and half a century later he wrote in his diary that every tempo of her performance stayed stamped on his soul.</p>",
       "status": "inferred",
       "note": "Grieg’s own remark that he studied the Schumann concerto before writing his is reported in a programme note, and Finn Benestad writes that it was probably his model, above all for the first movement. No letter by Grieg naming the model has been consulted.",
       "sources": [
@@ -81,7 +81,7 @@
       "to": "grieg",
       "kind": "heard",
       "year": 1876,
-      "title": "Grieg’s reports from the first Bayreuth Festival",
+      "title": "Grieg at the first Bayreuth Festival, 1876",
       "works": {
         "from": "Der Ring des Nibelungen, first Bayreuth Festival, 1876",
         "to": "Grieg’s eight reports for Bergensposten"

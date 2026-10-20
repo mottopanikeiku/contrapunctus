@@ -1,7 +1,7 @@
 export default {
   id: 'puccini-o-mimi-tu-piu-non-torni', composer: 'puccini', order: 6,
   work: 'La bohème', movement: 'Act IV · O Mimì, tu più non torni',
-  set: { id: 'puccini-boheme-duets', title: 'La bohème — two duets', part: 2, of: 2 },
+  set: { id: 'puccini-boheme-duets', title: 'La bohème — two duets', part: 2, of: 2, unit: 'duets' },
   year: '1896', key: '', forces: 'Tenor, baritone and orchestra; acoustic scoring unestablished',
   performers: 'Enrico Caruso, tenor; Antonio Scotti, baritone; orchestra uncredited', recorded: '17 March 1907',
   source: { file: 'File:La bohème, O Mimì, tu più non torni (Caruso, Scotti).ogg' },
@@ -9,7 +9,7 @@ export default {
   sections: [
     { t: 0, label: 'A · Rodolfo (tenor) recalls Mimì', m: 'A', mNote: 'The tenor recalls Mimì’s hands, hair and white neck.' },
     { t: 112, label: 'B · Rodolfo holds Mimì’s bonnet', m: 'B', mNote: 'Rodolfo keeps Mimì’s bonnet; Marcello keeps painting Musetta.' },
-    { t: 164, label: 'C · final section of the duet', m: 'C', mNote: 'The duet ends before everyday conversation resumes.' },
+    { t: 164, label: 'C · Final section of the duet', m: 'C', mNote: 'The duet ends before everyday conversation resumes.' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'Duet for Rodolfo and Marcello', text: 'Rodolfo thinks of Mimì’s little hands, scented hair and white neck: “Mimì, mia breve gioventù” — “Mimì, my brief youth.” Beside him, Marcello thinks of Musetta. Tenor and baritone sing together, though each man addresses an absent woman in his own aside.', basis: 'general', precision: 'passage', evidence: 'Illica and Giacosa, La bohème (1896), Act IV, O Mimì, tu più non torni; the two characters’ asides and Rodolfo’s words. https://www.opera-arias.com/puccini/la-boheme/o-mimi-tu-piu-non-torni/ . Translation ours.' },

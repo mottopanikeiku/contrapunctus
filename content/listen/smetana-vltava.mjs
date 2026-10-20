@@ -13,7 +13,7 @@ export default {
   recorded: '',
   license: 'CC0',
   source: { file: 'File:Smetana, Má vlast - Vltava - The Moldau.ogg' },
-  intro: 'Vltava, the second part of Má vlast, follows the river from two spring streams through Bohemia to Prague, according to the programme that Smetana approved. He finished it on 8 December 1874, seven weeks after he lost his hearing.',
+  intro: '<i>Vltava</i>, the second part of <i>Má vlast</i>, follows the river from two spring streams through Bohemia to Prague, according to the programme that Smetana approved. He finished it on 8 December 1874, seven weeks after he lost his hearing.',
   sections: [
     { t: 0, label: 'A · Two springs, flutes and clarinets', m: 'A' },
     { t: 55, label: 'B · Main theme in E minor', m: 'B' },
@@ -21,7 +21,7 @@ export default {
     { t: 232, label: 'D · Peasant wedding', m: 'D' },
     { t: 344, label: 'E · Moonlight and the nymphs', m: 'E' },
     { t: 446, label: 'F · St John’s Rapids', m: 'F' },
-    { t: 495, label: 'B′ · Main theme in E minor, E major', m: 'B′', mNote: 'The main theme returns in E minor, then in E major.' },
+    { t: 495, label: 'B′ · Main theme in E minor, E major', m: 'B′' },
     { t: 715, label: 'Coda · Vyšehrad and the river’s end', m: 'Coda' },
   ],
   cues: [

@@ -18,7 +18,7 @@ export default {
     { t: 0, label: 'A · Octaves above a leaping bass', m: 'A', mNote: 'Right-hand melody in octaves; the left hand leaps across the keyboard.' },
     { t: 36, label: 'B · Octave melody over left-hand triplets', m: 'B', mNote: 'The melody continues in octaves over continuing left-hand triplets.' },
     { t: 64, label: 'A′ · Melody over two-hand triplet chords', m: 'A′', mNote: 'Both hands now play triplet chords beneath the tune.' },
-    { t: 104, label: 'Coda · climb and three chords', m: 'Coda', mNote: 'Both hands climb before the final D♯ minor chords.' },
+    { t: 104, label: 'Coda · Climb and three chords', m: 'Coda', mNote: 'Both hands climb before the final D♯ minor chords.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Right-hand octaves, bars 1–16', text: 'Scriabin marks the étude <i>Patetico</i>. The right hand plays the melody in octaves while the left hand leaps between bass notes and widely spaced chords. The melody moves in twos against the accompaniment’s threes.', basis: 'score-proportion', precision: 'passage', evidence: 'Scriabin, Op. 8 No. 12, bars 1–16; score typeset by Scott Gorrie (2007), pp. 2–3. https://s9.imslp.org/files/imglnks/usimg/f/f3/IMSLP273680-PMLP07375-Scriabin_Op.8_No_12.pdf' },
@@ -56,7 +56,7 @@ export default {
       id: 'into-closing-gestures',
       title: 'Up the keyboard, then three chords',
       from: 'A′ · Melody over two-hand triplet chords',
-      to: 'Coda · climb and three chords',
+      to: 'Coda · Climb and three chords',
       at: { t: 104 },
       how: '<p>The two hands climb the keyboard together. A rest cuts short their last high chord. Two more chords follow lower down, and the second of these is held for a whole bar. All three chords are D♯ minor.</p>',
       devices: ['register change', 'texture change', 'liquidation'],

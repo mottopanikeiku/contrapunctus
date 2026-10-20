@@ -20,12 +20,12 @@ export default {
       "evidence": "Archive item describes a 1925 acoustic Vocalion pressing, K5157–5158; MP3 tags identify Stanley Chapple and four sides. https://archive.org/metadata/1925-siegfried-idyll-wagner-modern-chamber-orch-voc-k-5157-58"
     }
   },
-  "intro": "Wagner wrote the Siegfried Idyll, WWV 103, as a birthday greeting for Cosima; it opens with a long violin melody and includes a lullaby, a horn call and the song of a bird. Stanley Chapple conducted the Modern Chamber Orchestra in this 1925 recording.",
+  "intro": "Wagner wrote the <i>Siegfried Idyll</i>, WWV 103, as a birthday greeting for Cosima; it opens with a long violin melody and includes a lullaby, a horn call and the song of a bird. Stanley Chapple conducted the Modern Chamber Orchestra in this 1925 recording.",
   "sections": [
-    { "t": 0, "label": "A · Violin phrase in E major", "m": "A", "mNote": "A violin plays a long E-major phrase; other strings join." },
+    { "t": 0, "label": "A · Violin phrase in E major", "m": "A", "mNote": "A violin plays a long E major phrase; other strings join." },
     { "t": 192, "label": "A′ · Opening theme, strings and wind", "m": "A′", "mNote": "Strings and wind share the long melody." },
     { "t": 240, "label": "B · Oboe lullaby melody", "m": "B", "mNote": "The oboe plays the melody above short detached string figures." },
-    { "t": 372, "label": "Dev · Horn and clarinet melodies", "m": "Dev", "mNote": "Wind melodies cross the flowing lines of the strings" },
+    { "t": 372, "label": "Dev · Horn and clarinet melodies", "m": "Dev", "mNote": "Wind melodies cross the flowing lines of the strings." },
     { "t": 548, "label": "C · Horn theme with woodwind calls", "m": "C", "mNote": "The horn plays a song theme against quick clarinet and flute calls." },
     { "t": 635, "label": "A″ · The long melody returns", "m": "A″", "mNote": "The opening string melody returns among the other melodies." },
     { "t": 854, "label": "Coda · Strings and horn over E", "m": "Coda", "mNote": "Strings and a low horn hold E." }
@@ -130,7 +130,7 @@ export default {
       "to": "B · Oboe lullaby melody",
       "at": { "t": 240 },
       "span": [230, 252],
-      "how": "<p>The horns finish their phrase and stop. Over a few pizzicato bass notes, the strings play a link marked diminuendo, leading to the B-major lullaby. The oboe enters, marked Sehr einfach, over detached violin figures. Soon afterwards the bass rests.</p>",
+      "how": "<p>The horns finish their phrase and stop. Over a few pizzicato bass notes, the strings play a link marked diminuendo, leading to the B major lullaby. The oboe enters, marked Sehr einfach, over detached violin figures. Soon afterwards the bass rests.</p>",
       "devices": ["decrescendo", "orchestration change", "link passage"],
       "basis": "score-proportion",
       "precision": "passage",

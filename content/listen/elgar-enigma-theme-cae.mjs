@@ -8,8 +8,7 @@ export default {
     "id": "elgar-enigma",
     "title": "Enigma Variations, Op. 36",
     "part": 1,
-    "of": 14
-  },
+    "of": 14, "unit": "parts" },
   "year": "1898–99",
   "key": "G minor",
   "forces": "Orchestra",
@@ -18,7 +17,7 @@ export default {
   "source": {
     "file": "File:Elgar; Enigma variations, Theme I. C.A.E.ogg"
   },
-  "intro": "The Hallé and John Barbirolli play the theme and the first variation, “C.A.E.”, from Elgar’s <i>Enigma Variations</i>, Op. 36. The G-minor theme leads without a break into the portrait of his wife, Alice.",
+  "intro": "The Hallé and John Barbirolli play the theme and the first variation, “C.A.E.”, from Elgar’s <i>Enigma Variations</i>, Op. 36. The G minor theme leads without a break into the portrait of his wife, Alice.",
   "sections": [
     {
       "t": 0,
@@ -30,7 +29,7 @@ export default {
       "t": 92,
       "label": "Var 1 · “C.A.E.”, L’istesso tempo",
       "m": "Var 1",
-      "mNote": "Oboes and bassoons play above running violins and cellos"
+      "mNote": "Oboes and bassoons play above running violins and cellos."
     },
     {
       "t": 134,
@@ -101,7 +100,7 @@ export default {
       "at": {
         "t": 92
       },
-      "how": "<p>The marking <i>L’istesso tempo</i> keeps the pulse unchanged. Oboes and bassoons play the G-minor melody together, marked <i>largamente</i>, over running figures in the first violins and cellos. The basses play pizzicato beneath them, and the second violins stay muted.</p>",
+      "how": "<p>The marking <i>L’istesso tempo</i> keeps the pulse unchanged. Oboes and bassoons play the G minor melody together, marked <i>largamente</i>, over running figures in the first violins and cellos. The basses play pizzicato beneath them, and the second violins stay muted.</p>",
       "devices": [
         "motivic link",
         "orchestration change",
@@ -136,7 +135,7 @@ export default {
       "at": {
         "t": 172
       },
-      "how": "<p>The brass stops while the strings and woodwinds finish their phrases. Elgar marks a <i>ritardando</i>. A final violin run climbs above the divided violas and cellos, and the basses come back in on the final G-major chord, held at <i>ppp</i>.</p>",
+      "how": "<p>The brass stops while the strings and woodwinds finish their phrases. Elgar marks a <i>ritardando</i>. A final violin run climbs above the divided violas and cellos, and the basses come back in on the final G major chord, held at <i>ppp</i>.</p>",
       "devices": [
         "decrescendo",
         "motivic link"

@@ -14,14 +14,14 @@ export default {
     archive: { item: 'beethovenschnabel6', file: '74 - Klaviersonate Nr. 23 f-moll op. 57 Appassionata - I. Allegro assai.mp3' },
     rights: { basis: 'eu-published-before-1963', published: 1934, evidence: 'The Public Domain Project catalogue dates the first issue of Beethoven Sonata Society Volume 5, HMV DB 2211–2217, to 1934; Bloesch identifies the Appassionata as DB 2215–2217, matrices 2B 6605–6610. https://pool.publicdomainproject.org/index.php/HMV_DB_2211-2217 . Territorial EU recording basis only; US status is not established. The Archive Public Domain Mark is not an ownership release.' },
   },
-  intro: 'Artur Schnabel plays the first movement, Allegro assai, of the Piano Sonata No. 23, Op. 57, the <i>Appassionata</i>. It begins very softly, with both hands tracing a bare F-minor chord, and within a few bars its quietest theme gives way to violent writing.',
+  intro: 'Artur Schnabel plays the first movement, Allegro assai, of the Piano Sonata No. 23, Op. 57, the “Appassionata”. It begins very softly, with both hands tracing a bare F minor chord, and within a few bars its quietest theme is followed by violent writing.',
   sections: [
     { t: 0, label: 'A · Bare octaves in F minor', m: 'A', mNote: 'A broken chord, then three short notes and a long one.' },
     { t: 80, label: 'B · Dolce second theme, A♭ major', m: 'B', mNote: 'A♭ major soon turns to A♭ minor.' },
     { t: 148, label: 'Dev · Opening theme in E major', m: 'Dev', mNote: 'The broken-chord opening theme returns in E major.' },
     { t: 272, label: 'A′ · Opening theme over repeated C bass', m: 'A′', mNote: 'Repeated bass notes continue beneath the returning theme.' },
     { t: 356, label: 'B′ · Dolce theme in F major', m: 'B′', mNote: 'The theme returns in F major, then turns to the minor.' },
-    { t: 416, label: 'Coda · second theme in D♭', m: 'Coda', mNote: 'The second theme returns in D♭ before the long slowing.' },
+    { t: 416, label: 'Coda · Second theme in D♭', m: 'Coda', mNote: 'The second theme returns in D♭ before the long slowing.' },
     { t: 486, label: 'Coda · Più allegro, F minor', m: 'Coda', mNote: 'Più allegro in F minor, ending pianissimo.' },
   ],
   cues: [
@@ -37,7 +37,7 @@ export default {
   ],
   transitions: [
     {
-      id: 'into-second-group', title: 'Triplets give way to a dolce melody',
+      id: 'into-second-group', title: 'From triplets to a dolce melody',
       from: 'A · Bare octaves in F minor', to: 'B · Dolce second theme, A♭ major',
       at: { t: 80 }, span: [66, 94],
       how: '<p>The fast triplet figures settle on E♭, the dominant of A♭ major, and diminish. The right hand then plays a connected melody, marked <i>dolce</i>, above a separate accompaniment. Its rising broken chord recalls the shape of the opening.</p>',
@@ -74,16 +74,16 @@ export default {
     },
     {
       id: 'into-extended-coda', title: 'The bass starts the coda again',
-      from: 'B′ · Dolce theme in F major', to: 'Coda · second theme in D♭',
+      from: 'B′ · Dolce theme in F major', to: 'Coda · Second theme in D♭',
       at: { t: 416 }, span: [401, 434],
-      how: '<p>The F-minor closing figures diminish, but their running notes continue into the coda, which begins at bar 201. The opening broken chord returns low on the keyboard, and the coda is extended at bar 205. At bar 211 the second tune appears in D♭ major, and both phrases are developed again.</p>',
+      how: '<p>The F minor closing figures diminish, but their running notes continue into the coda, which begins at bar 201. The opening broken chord returns low on the keyboard, and the coda is extended at bar 205. At bar 211 the second tune appears in D♭ major, and both phrases are developed again.</p>',
       devices: ['decrescendo', 'motivic link', 'register change', 'texture change'],
       basis: 'score-proportion', precision: 'passage',
       evidence: 'First edition, pp. 10–11, coda from bar 201, extended at bar 205; second subject in D♭ major at bar 211.',
     },
     {
       id: 'into-piu-allegro', title: 'Fermata on C and the Più allegro',
-      from: 'Coda · second theme in D♭', to: 'Coda · Più allegro, F minor',
+      from: 'Coda · Second theme in D♭', to: 'Coda · Più allegro, F minor',
       at: { t: 486 }, span: [468, 504],
       how: '<p>The runs break into short chords, marked <i>ritardando</i>, then <i>Adagio</i>. A fermata holds the dominant harmony over C. The <i>Più allegro</i> opens with chords, and the second theme returns in F minor above a repeated accompaniment in the left hand.</p>',
       devices: ['fermata', 'tempo change', 'motivic link'],

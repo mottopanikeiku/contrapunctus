@@ -24,8 +24,7 @@ export default {
     "id": "wagner-tristan-excerpts",
     "title": "Tristan und Isolde — Prelude and Liebestod",
     "part": 2,
-    "of": 2
-  },
+    "of": 2, "unit": "excerpts" },
   "intro": "Nanny Larsen-Todsen sings the Liebestod, “Mild und leise”, from <i>Tristan und Isolde</i>, WWV 90, in which Isolde looks at Tristan’s body and sees him smiling. Muted strings and harp figures accompany her, and the music closes in B major.",
   "sections": [
     {
@@ -38,11 +37,11 @@ export default {
       "t": 140,
       "label": "B · Harp figures beneath the soprano",
       "m": "B",
-      "mNote": "Harp figures and string tremolo accompany the soprano’s long phrases"
+      "mNote": "Harp figures and string tremolo accompany the soprano’s long phrases."
     },
     {
       "t": 240,
-      "label": "Dev · wind phrases over strings and harp",
+      "label": "Dev · Wind phrases over strings and harp",
       "m": "Dev",
       "mNote": "Wind phrases rise over circling strings and harp."
     },
@@ -56,7 +55,7 @@ export default {
       "t": 350,
       "label": "Coda · Isolde’s last words, B major",
       "m": "Coda",
-      "mNote": "The harp continues after Isolde’s last words"
+      "mNote": "The harp continues after Isolde’s last words."
     }
   ],
   "cues": [
@@ -118,7 +117,7 @@ export default {
       "t": 380,
       "kind": "music",
       "title": "Final bars in B major",
-      "text": "Isolde’s last words are “höchste Lust” — “supreme bliss”. The harp continues after the voice stops. The closing music settles in B major, and the last arpeggios give way to a held chord marked pianissimo.",
+      "text": "Isolde’s last words are “höchste Lust” — “supreme bliss”. The harp continues after the voice stops. The closing music settles in B major, and the last arpeggios are followed by a held chord marked pianissimo.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Wagner’s Act III text, final words of Isolde; own translation. Breitkopf score, pp. 29–30, harp continuation after the vocal release, final B-major chord, pp and fermata."
@@ -129,7 +128,7 @@ export default {
       "id": "gathering-waves",
       "title": "Rising wind phrases over circling strings",
       "from": "B · Harp figures beneath the soprano",
-      "to": "Dev · wind phrases over strings and harp",
+      "to": "Dev · Wind phrases over strings and harp",
       "at": {
         "t": 240
       },

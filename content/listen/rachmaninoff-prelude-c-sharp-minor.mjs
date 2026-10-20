@@ -16,8 +16,8 @@ export default {
   source: { file: 'File:Sergei Rachmaninoff performs Rachmaninoff\'s Prelude in C sharp minor, Op. 3.ogg' },
   intro: 'Rachmaninoff, who played his Prelude in C♯ minor, Op. 3 No. 2, in nearly every recital, recorded it for Edison in 1919. It begins with three low notes, A–G♯–C♯, and the soft opening chords return with enough notes to need four staves.',
   sections: [
-    { t: 0, label: 'A · Three low notes, pianissimo chords', m: 'A', mNote: 'A–G♯–C♯ in octaves, followed by pianissimo chords' },
-    { t: 52.1, label: 'B · Agitato in continuous triplets', m: 'B', mNote: 'A descending melody inside continuous triplets' },
+    { t: 0, label: 'A · Three low notes, pianissimo chords', m: 'A', mNote: 'A–G♯–C♯ in octaves, followed by pianissimo chords.' },
+    { t: 52.1, label: 'B · Agitato in continuous triplets', m: 'B', mNote: 'A descending melody inside continuous triplets.' },
     { t: 157.8, label: 'A′ · Tempo primo, opening chords on four staves', m: 'A′', mNote: 'Tempo primo; both hands double the opening chords.' },
     { t: 193, label: 'Coda · Chords over a low C♯', m: 'Coda', mNote: 'The bass holds C♯ while the upper chords change.' },
   ],

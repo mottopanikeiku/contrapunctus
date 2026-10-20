@@ -24,7 +24,7 @@ export default {
   sections: [
     { t: 0, label: 'A · Allegro, violent opening and dotted rhythms', m: 'A' },
     { t: 205, label: 'B · Cadenza and climax of the Allegro', m: 'B' },
-    { t: 348, label: 'C · Adagio: the chorale', m: 'C' },
+    { t: 348, label: 'C · Adagio, the chorale', m: 'C' },
     { t: 430, label: 'D · Chorale variations, violins joining', m: 'D' },
     { t: 700, label: 'Coda · Open strings return', m: 'Coda' },
   ],

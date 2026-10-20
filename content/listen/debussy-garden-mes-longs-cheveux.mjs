@@ -24,8 +24,7 @@ export default {
     "id": "debussy-garden-1904",
     "title": "Mary Garden and Debussy, 1904",
     "part": 2,
-    "of": 2
-  },
+    "of": 2, "unit": "songs" },
   "intro": "Mélisande sings this song at her tower window while combing her loosened hair. Mary Garden, the first Mélisande, recorded it with Debussy at the piano; after his prelude, the voice is unaccompanied for most of the song.",
   "sections": [
     {

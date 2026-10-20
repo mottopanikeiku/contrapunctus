@@ -14,9 +14,9 @@ export default {
   source: { file: 'File:Tchaikovsky - Pathétique - Wilhelm Furtwängler - IV. Finale - Adagio lamentoso.ogg' },
   intro: 'Wilhelm Furtwängler conducted the Berlin Philharmonic in this recording of the finale, Adagio lamentoso, of Tchaikovsky’s Symphony No. 6 in B minor “Pathétique”, Op. 74, made in Berlin in 1938. The falling violin melody passes from one section to the other, and the movement ends on a low B in the double basses.',
   sections: [
-    { t: 0, label: 'A · Lament divided between violins, Adagio lamentoso', m: 'A', mNote: 'First and second violins exchange notes of the lament' },
-    { t: 156, label: 'B · Broad D-major theme, strings', m: 'B', mNote: 'The strings play a descending melody above the horns.' },
-    { t: 306, label: 'C · Opening lament returns, B minor', m: 'C', mNote: 'The strings play the B-minor melody again.' },
+    { t: 0, label: 'A · Lament divided between violins, Adagio lamentoso', m: 'A', mNote: 'First and second violins exchange notes of the lament.' },
+    { t: 156, label: 'B · Broad D major theme, strings', m: 'B', mNote: 'The strings play a descending melody above the horns.' },
+    { t: 306, label: 'C · Opening lament returns, B minor', m: 'C', mNote: 'The strings play the B minor melody again.' },
     { t: 394, label: 'D · Lament theme returns, strings and brass', m: 'D', mNote: 'The lament theme returns and expands to the final climax.' },
     { t: 454, label: 'E · F♯ and the low brass', m: 'E', mNote: 'The dominant dies away towards the quiet brass chorale.' },
     { t: 492, label: 'Coda · Second theme over low B, B minor', m: 'Coda', mNote: 'The second theme returns above a low B in the basses.' },

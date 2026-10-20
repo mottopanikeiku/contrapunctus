@@ -21,7 +21,7 @@ export default {
   intro: 'Schnabel plays the finale, Allegro vivace assai, of Mozart’s Piano Concerto No. 21 in C major, K. 467, with Sargent conducting. The refrain returns several times between piano runs and short woodwind replies, and a last cadenza comes between the final statement of the tune and the closing bars.',
   sections: [
     { t: 0, label: 'A · Refrain in C major, strings then piano', m: 'A', mNote: 'A short refrain in C major, in two beats.' },
-    { t: 48, label: 'B · Piano runs above held horns', m: 'B', mNote: 'Connected keyboard phrases lead away from the refrain' },
+    { t: 48, label: 'B · Piano runs above held horns', m: 'B', mNote: 'Connected keyboard phrases lead away from the refrain.' },
     { t: 140, label: 'A′ · Refrain in C major, piano', m: 'A′', mNote: 'A fermata precedes the return to C major.' },
     { t: 168, label: 'Dev · Piano and woodwinds exchange refrain figures', m: 'Dev', mNote: 'The refrain’s small figures move between instruments.' },
     { t: 232, label: 'A″ · The C major theme returns', m: 'A″', mNote: 'The piano extends the return with further running notes.' },

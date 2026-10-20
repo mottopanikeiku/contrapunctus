@@ -16,7 +16,7 @@ export default {
   // Score: Haydn, String Quartet Op. 54 No. 2 (Eulenburg, ed. Altmann), IMSLP #05812, printed pp. 193–198
   // https://en.wikipedia.org/wiki/Danish_String_Quartet; https://www.youtube.com/watch?v=dGgmFFMFICc
   sections: [
-    { t: 0, label: 'A · Adagio, two violins together', m: 'A', mNote: 'Short violin phrases above moving viola and cello' },
+    { t: 0, label: 'A · Adagio, two violins together', m: 'A', mNote: 'Short violin phrases above moving viola and cello.' },
     { t: 300, label: 'B · Presto, with sudden silences', m: 'B', mNote: 'The violins play fast over off-beat cello notes.' },
     { t: 354, label: 'A′ · Adagio returns, ending pianissimo', m: 'A′', mNote: 'The opening Adagio returns and ends pianissimo.' },
   ],

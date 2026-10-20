@@ -14,8 +14,8 @@ export default {
   sections: [
     { t: 0, label: 'A · Waltz theme, cello and piano', m: 'A', mNote: 'The cello plays the melody over the piano’s three-beat accompaniment.' },
     { t: 64, label: 'B · Waltz melodies', m: 'B', mNote: 'Related waltz melodies alternate with the dance phrases.' },
-    { t: 132, label: 'A′ · Opening waltz, lighter accompaniment', m: 'A′', mNote: 'The opening waltz returns with lighter accompaniment.' },
-    { t: 162, label: 'A″ · Waltz theme returns, louder', m: 'A″', mNote: 'Cello and piano play the waltz in longer phrases' },
+    { t: 132, label: 'A′ · Opening waltz, lighter accompaniment', m: 'A′' },
+    { t: 162, label: 'A″ · Waltz theme returns, louder', m: 'A″', mNote: 'Cello and piano play the waltz in longer phrases.' },
     { t: 238, label: 'Coda · Three quiet chords', m: 'Coda', mNote: 'The waltz slows into its last short phrases.' },
   ],
   cues: [

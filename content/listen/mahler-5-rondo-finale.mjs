@@ -7,12 +7,12 @@ export default {
   source: { file: 'File:Mahler Symphony No. 5, V. Rondo Finale.ogg' },
   "intro": "This is the Rondo-Finale (Allegro) of Mahler’s Symphony No. 5, which ends in D major. The movement includes a horn tune, chasing string parts and a large brass chorale, and material from the preceding Adagietto returns in it as a dance.",
   "sections": [
-    { "t": 0, "label": "Intro · Horn, bassoon, oboe and clarinet", "m": "Intro", "mNote": "Short wind phrases over a held horn A" },
-    { "t": 46, "label": "A · Horn theme and string entries, D major", "m": "A", "mNote": "A D-major theme leads into overlapping string entries." },
-    { "t": 270, "label": "Dev · wind melodies over string runs", "m": "Dev", "mNote": "Wind melodies cross the strings’ continuing runs." },
+    { "t": 0, "label": "Intro · Horn, bassoon, oboe and clarinet", "m": "Intro", "mNote": "Short wind phrases over a held horn A." },
+    { "t": 46, "label": "A · Horn theme and string entries, D major", "m": "A", "mNote": "A D major theme leads into overlapping string entries." },
+    { "t": 270, "label": "Dev · Wind melodies over string runs", "m": "Dev", "mNote": "Wind melodies cross the strings’ continuing runs." },
     { "t": 466, "label": "Dev · String passagework and horn themes", "m": "Dev", "mNote": "The Adagietto melody returns over the rondo’s busy string writing." },
-    { "t": 636, "label": "Link · Fugues leading to the brass chorale", "m": "Link", "mNote": "The fugues lead to the brass chorale." },
-    { "t": 780, "label": "Coda · Brass chorale and closing Allegro", "m": "Coda", "mNote": "D major; the second movement’s chorale returns over running strings" },
+    { "t": 636, "label": "Link · Fugues leading to the brass chorale", "m": "Link" },
+    { "t": 780, "label": "Coda · Brass chorale and closing Allegro", "m": "Coda", "mNote": "D major; the second movement’s chorale returns over running strings." },
     { "t": 865, "label": "Tail · Recording continues", "m": "Tail", "mNote": "The closing portion of the complete recording." },
   ],
   "cues": [
@@ -29,7 +29,7 @@ export default {
   ],
   "transitions": [
     { "id": "conversation-to-rondo", "title": "From oboe to horn", "from": "Intro · Horn, bassoon, oboe and clarinet", "to": "A · Horn theme and string entries, D major", "at": { "t": 46 }, "span": [32, 64], "how": "<p>After a <i>riten.</i> the horn takes the main tune at <i>Allegro commodo (Hauptzeitmass)</i>, and a second horn follows in imitation. Beneath the tune’s falling phrases the bassoons hold D major in open fifths.</p>", "devices": ["tempo change", "motivic link", "texture change"], "basis": "score-proportion", "precision": "passage", "evidence": "Peters score (IMSLP #111956), p. 183: riten., Allegro commodo (Hauptzeitmass), horns in imitation, open fifths in the bassoons. Basinger: the giocoso theme is first played by the horn section over drone harmonies." },
-    { "id": "rebuilding-to-final-chorale", "title": "The brass chorale in D major", "from": "Link · Fugues leading to the brass chorale", "to": "Coda · Brass chorale and closing Allegro", "at": { "t": 780 }, "span": [762, 806], "how": "<p>At <i>Pesante (Etwas gehalten)</i> the horns, trumpets and trombones make a crescendo to <i>fff</i> on a D-major chord, with bells raised (<i>Schalltrichter auf</i>), and the cymbal is left to ring (<i>Becken klingen lassen</i>). The strings continue their running figures underneath. At this climax a chorale appears that Basinger likened to the second movement, and the music moves into the faster coda.</p>", "devices": ["motivic link", "orchestration change", "tempo change"], "basis": "score-proportion", "precision": "passage", "evidence": "Peters score (IMSLP #111956), p. 244: Pesante (Etwas gehalten), brass crescendo to fff, Schalltrichter auf, Becken klingen lassen, running strings. Basinger: a chorale reminiscent of the second movement materializes at the high point." },
+    { "id": "rebuilding-to-final-chorale", "title": "The brass chorale in D major", "from": "Link · Fugues leading to the brass chorale", "to": "Coda · Brass chorale and closing Allegro", "at": { "t": 780 }, "span": [762, 806], "how": "<p>At <i>Pesante (Etwas gehalten)</i> the horns, trumpets and trombones make a crescendo to <i>fff</i> on a D major chord, with bells raised (<i>Schalltrichter auf</i>), and the cymbal is left to ring (<i>Becken klingen lassen</i>). The strings continue their running figures underneath. At this climax a chorale appears that Basinger likened to the second movement, and the music moves into the faster coda.</p>", "devices": ["motivic link", "orchestration change", "tempo change"], "basis": "score-proportion", "precision": "passage", "evidence": "Peters score (IMSLP #111956), p. 244: Pesante (Etwas gehalten), brass crescendo to fff, Schalltrichter auf, Becken klingen lassen, running strings. Basinger: a chorale reminiscent of the second movement materializes at the high point." },
   ],
   orchestra: {
     ensemble: ['flutes', 'oboes', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],

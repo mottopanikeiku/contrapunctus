@@ -9,7 +9,7 @@ export default {
     ['Trained', 'Piano with Stamaty; organ with François Benoist and composition under Halévy at the Paris Conservatoire, from 1848'],
     ['Posts', 'Organist of La Madeleine, 1857–77; piano professor at the École Niedermeyer, 1861–65; co-founder of the Société nationale de musique, 1871'],
     ['Output', 'Symphonies, ten concertos, four symphonic poems, operas, organ music, songs and chamber music; also plays, poems and articles'],
-    ['Habits', 'Spent most winters from 1873 in Algeria, Egypt or the Canary Islands, and kept no fixed address from 1889 to 1905'],
+    ['Travels', 'Spent most winters from 1873 in Algeria, Egypt or the Canary Islands, and kept no fixed address from 1889 to 1905'],
   ],
   quote: { text: 'I have given it all that I had to give. What I have done I shall never do again.', source: 'Saint-Saëns on the Organ Symphony, as quoted in Hugh Macdonald’s Boston Symphony Orchestra note' },
   life: `
@@ -29,7 +29,7 @@ export default {
 <p>In 1878 both his sons died. André, two and a half, fell from the fourth-floor window of their flat on 28 May. Jean-François, seven months old, died on 7 July. In July 1881, at La Bourboule, the couple separated for good. They never divorced; he paid her a pension all his life, and she attended his funeral.</p>
 <h3><span class="sc">1886</span><i>Le Carnaval des animaux</i> and the Third Symphony</h3>
 <p>His book <i>Harmonie et mélodie</i> (1885) said of Wagner: “I have never been, I am not, I shall never be of the Wagnerian religion.” In January 1886 a Berlin concert was disrupted, and German theatres dropped his works. He withdrew to Chrudim in Bohemia and in a few days wrote a zoological fantasy for the Mardi Gras concert of his friend, the cellist Charles Lebouc. <i>Le Carnaval des animaux</i> was played on 9 March 1886. He allowed a few performances and forbade publication, except for <i>Le Cygne</i>; the rest appeared in 1922.</p>
-<aside class="note"><b>Fossils</b>The xylophone of <i>Danse macabre</i> returns in the ‘Fossils’ movement of the Carnival, which quotes that dance.</aside>
+<aside class="note"><b>Fossils</b>The xylophone of <i>Danse macabre</i> returns in the “Fossils” movement of the Carnival, which quotes that dance.</aside>
 <p>On 19 May 1886, at St James’s Hall in London, he played a Beethoven concerto, then conducted his Third Symphony for the Royal Philharmonic Society. He had meant to dedicate it to Liszt, who died that July; the dedication reads “to the memory of Franz Liszt”. Paris heard it that winter. Gounod called it “the French Beethoven”. “I have given it all that I had to give,” Saint-Saëns said. “What I have done I shall never do again.”</p>
 <h3><span class="sc">1888–1914</span>Travels and the Fifth Piano Concerto</h3>
 <p>His mother died on 18 December 1888. He gave much of his collection to the town of Dieppe and, for some fifteen years, kept no fixed address. In December 1889 he disappeared, and newspapers reported him dead or mad. He had written to Louis Gallet that he wanted to look far away, under other skies, for “the means of making myself another self”. In April 1890 he was recognised from a newspaper portrait in the Canary Islands, where he was travelling as Charles Sannois. In the following years he spent the winters in the south, in Algiers, Las Palmas, Ceylon and Cairo.</p>
@@ -59,7 +59,7 @@ export default {
     { year: '1887', title: 'Havanaise', cat: 'Op. 83', forces: 'Violin and piano; violin and orchestra', note: 'Composed in 1887; the Société Camille Saint-Saëns lists it in its violin-and-piano version.' },
     { year: '1896', title: 'Piano Concerto No. 5 “Egyptian”', cat: 'Op. 103', forces: 'Piano and orchestra', note: 'Written in Cairo in about three weeks and first played by the composer on 2 June 1896. The slow movement is the Nile movement.' },
     { year: '1908', title: 'L’Assassinat du duc de Guise', forces: 'Film score', note: 'Music for André Calmettes’s film, shown in the Visions d’art series; the Société Camille Saint-Saëns calls it the first film score.' },
-    { year: '1921', title: 'Sonatas for oboe, clarinet and bassoon', cat: 'Op. 166–168', forces: 'Wind instrument and piano', note: 'Begun in Algeria in the spring of 1921 and finished in Paris.' },
+    { year: '1921', title: 'Sonatas for oboe, clarinet and bassoon', cat: 'Opp. 166–168', forces: 'Wind instrument and piano', note: 'Begun in Algeria in the spring of 1921 and finished in Paris.' },
   ],
   score: [
     { kicker: 'The chant — quoted', title: 'Dies irae, before Saint-Saëns', abc: `X:1
@@ -103,9 +103,6 @@ Oh, what a fine night for the poor world!
 And long live death and equality!`, note: '<p>The first and last stanzas of the poem Saint-Saëns set as a song in 1872 and then turned into <i>Danse macabre</i>. The solo violin plays Death’s fiddle, and an oboe plays the cock that ends the night.</p>' },
   ],
   recordings: [
-    { work: 'Piano pieces and accompaniments', performers: 'Camille Saint-Saëns, piano', year: '1904; 1919', label: 'Marston Records, 52054-2', note: 'The composer at the keyboard, in extracts from the Second Concerto and his own piano pieces, with the Valse mignonne played in both 1904 and 1919.' },
-    { work: 'The five piano concertos', performers: 'Stephen Hough, piano; City of Birmingham Symphony Orchestra, Sakari Oramo', year: '2000', label: 'Hyperion, CDA67331/2', note: 'All five concertos in one set, with a note by Phillip Borg-Wheeler; the best single place to start with the piano music.' },
-    { work: 'Symphony No. 3 “Organ”', performers: 'Philharmonic-Symphony Orchestra of New York, Charles Munch', year: '1947', label: 'Pristine Classical, PASC448', note: 'The Columbia set that the Hall plays from the 78s, restored, with Munch’s other New York sessions.' },
   ],
   lineage: { from: ['Charlotte Masson', 'Camille Stamaty', 'François Benoist', 'liszt', 'berlioz'], to: ['faure', 'André Messager', 'Eugène Gigout'], note: '<p>His great-aunt gave him his first piano lessons, Stamaty taught him the Kalkbrenner method and Benoist the organ. Liszt championed him from the 1850s and had <i>Samson et Dalila</i> staged. Fauré, Gigout and, later, Messager were his pupils at the École Niedermeyer.</p>' },
   reading: [

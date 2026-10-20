@@ -24,7 +24,7 @@ export default {
       "t": 0,
       "label": "A · Rising string arpeggio, full orchestra replies",
       "m": "A",
-      "mNote": "A quiet arpeggio climbs through G minor"
+      "mNote": "A quiet arpeggio climbs through G minor."
     },
     {
       "t": 66,
@@ -36,7 +36,7 @@ export default {
       "t": 116,
       "label": "Dev · Arpeggio theme fragmented",
       "m": "Dev",
-      "mNote": "Chromatic unison, then fragments in imitation"
+      "mNote": "Chromatic unison, then fragments in imitation."
     },
     {
       "t": 188,

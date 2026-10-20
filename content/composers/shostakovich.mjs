@@ -6,13 +6,13 @@ export default {
   born: { year: 1906, date: '25 September 1906', place: 'St Petersburg, Russia' },
   died: { year: 1975, date: '9 August 1975', place: 'Moscow' },
   era: 'modernism',
-  epithet: 'Composer of fifteen symphonies written under Soviet rule, who signed some of his most personal music with the four-note motif D–E♭–C–B.',
+  epithet: 'Composer of fifteen symphonies written under Soviet rule, who signed some of his most personal music with the four-note motif D–E♭–C–B♮.',
   portrait: { file: 'File:Dmitri Shostakovich credit Deutsche Fotothek adjusted.jpg', caption: 'Shostakovich among the audience at Leipzig’s Bach celebrations, 28 July 1950. Roger and Renate Rössing, Deutsche Fotothek; image adjusted by Improvist, CC BY-SA 3.0 de.', focus: '50% 24%' },
   facts: [
-    ['Studies', 'Petrograd Conservatory, 1919–25; Nikolayev for piano, Steinberg for composition'],
+    ['Trained', 'Petrograd Conservatory, 1919–25; Nikolayev for piano, Steinberg for composition'],
     ['Teaching', 'Leningrad from 1937; Moscow from 1943; both posts lost in 1948'],
     ['Signature', 'D–E♭–C–B♮: DSCH in German note names'],
-    ['Music', 'Fifteen symphonies and fifteen quartets; operas, concertos and cinema scores'],
+    ['Output', 'Fifteen symphonies and fifteen quartets; operas, concertos and cinema scores'],
   ],
 
   life: `
@@ -41,21 +41,21 @@ export default {
 <p>He joined the Communist Party that year, a step that Glikman recalled had caused him deep distress. In 1962 he set Yevgeny Yevtushenko’s <i>Babi Yar</i> in the <i>Thirteenth Symphony</i>, in which a bass soloist and a choir of basses sing of murdered Jews and of Russian antisemitism.</p>
 <h3><span class="sc">The last years</span>The last symphonies and quartets</h3>
 <p>His hands were failing, and illness kept him at home more and more. Irina, whom he married in 1962, recorded rehearsals so that he could listen to them at home. He began the <i>Fourteenth Symphony</i> in hospital in 1969. Dedicated to [[britten|Britten]], it sets eleven poems about death by Lorca, Apollinaire, Küchelbecker and Rilke for two singers, strings and percussion. The Fifteenth, completed in 1971, quotes Rossini’s <i>William Tell</i> in its first movement and [[wagner|Wagner]] in its finale. At the end, small percussion instruments play over a sustained chord.</p>
-<p>The <i>Fifteenth Quartet</i> of 1974 is in six linked Adagios. His last completed work, the <i>Viola Sonata</i>, was written for Fyodor Druzhinin in 1975; its finale recalls [[beethoven|Beethoven]]’s <i>Moonlight</i> Sonata. Shostakovich died on 9 August, before the première. Druzhinin first played the sonata privately on 25 September, the composer’s birthday, and in public on 1 October. At the public performance he answered the ovation by holding the score above his head.</p>`,
+<p>The <i>Fifteenth Quartet</i> of 1974 is in six linked Adagios. His last completed work, the <i>Viola Sonata</i>, was written for Fyodor Druzhinin in 1975; its finale recalls [[beethoven|Beethoven]]’s “Moonlight” Sonata. Shostakovich died on 9 August, before the première. Druzhinin first played the sonata privately on 25 September, the composer’s birthday, and in public on 1 October. At the public performance he answered the ovation by holding the score above his head.</p>`,
 
   sound: [
     { aspect: 'Four-note name motif', glyph: '♮', html: `<p>DSCH rises a semitone from D to E♭, falls a minor third to C, then falls a semitone to B♮. The <i>Tenth Symphony</i> and <i>Eighth Quartet</i> keep those pitches recognisable while changing their rhythm and surroundings. The quartet also quotes music from the <i>Second Piano Trio</i> and <i>Lady Macbeth</i>.</p>` },
     { aspect: 'Use of the major key', glyph: '♭', html: `<p>At the end of the <i>Fifth Symphony</i> the key has moved from D minor to D major, and the strings repeat the note A beneath the brass for page after page.</p>` },
     { aspect: 'Continuous melody', glyph: '𝅘𝅥', html: `<p>In the first movement of the <i>Seventh Symphony</i> a military drum pattern runs under the march. A short tune returns again and again while the orchestration around it grows. With each repetition the outline of the melody stays the same, but it gains weight and volume until it fills the texture.</p>` },
     { aspect: 'Single solo instrument', glyph: '𝄞', html: `<p>In the Ninth’s Largo, trombones and tuba play a loud, heavy phrase, and a solo bassoon answers. After that mass of brass, the bassoonist plays a single, exposed line. Shostakovich makes similarly sharp changes of scale inside his larger scores. At the end of the Fifteenth, small percussion instruments go on playing around the orchestra’s held chord.</p>` },
-    { aspect: 'The lower voice', glyph: '𝄢', html: `<p>The <i>Twenty-four Preludes and Fugues</i> range from two voices to five, ending with two fugue subjects brought together in D minor. Each fugue builds its texture one entry at a time around a single line. The passacaglia of the <i>First Violin Concerto</i> is built on a returning bass theme. Towards its end the accompaniment stops, and the violin plays a long cadenza alone before the finale.</p>` },
-    { aspect: 'Speech and song', glyph: '𝄾', html: `<p>Gogol’s officials in <i>The Nose</i> inspect rank and clothing even when confronted with an escaped body part. Their sung exchanges keep the fussiness of conversation. Katerina in <i>Lady Macbeth</i> is given longer, warmer phrases. In the <i>Thirteenth Symphony</i>, a bass soloist sings beside a choir of basses, and individual words are sung by many men together.</p>` },
+    { aspect: 'Fugue and passacaglia', glyph: '𝄢', html: `<p>The Twenty-four Preludes and Fugues range from two voices to five, ending with two fugue subjects brought together in D minor. Each fugue builds its texture one entry at a time around a single line. The passacaglia of the First Violin Concerto is built on a returning bass theme. Towards its end the accompaniment stops, and the violin plays a long cadenza alone before the finale.</p>` },
+    { aspect: 'Speech and song', glyph: '𝄾', html: `<p>Gogol’s officials in <i>The Nose</i> inspect rank and clothing even when confronted with an escaped body part. Their sung exchanges keep the fussiness of conversation. Katerina in <i>Lady Macbeth</i> is given longer, warmer phrases. In the Thirteenth Symphony, a bass soloist sings beside a choir of basses, and individual words are sung by many men together.</p>` },
   ],
 
   works: [
     { year: '1924–25', title: 'Symphony No. 1 in F minor', cat: 'Op. 10', forces: 'Orchestra with piano', note: 'The graduation symphony opens with muted trumpet and bassoon; the strings enter later. In the scherzo the piano breaks in with sharp interjections.' },
     { year: '1927–28', title: 'The Nose', titleHtml: '<i>The Nose</i>', cat: 'Op. 15', forces: 'Opera in three acts; soloists, chorus and chamber orchestra', note: 'A civil servant loses his nose and finds that it now holds a higher rank than he does. Gogol’s officials sing their parts straight through the absurd events, and one interlude is scored for percussion alone.' },
-    { year: '1930–32', title: 'Lady Macbeth of the Mtsensk District', titleHtml: '<i>Lady Macbeth of the Mtsensk District</i>', cat: 'Op. 29', forces: 'Opera in four acts; soloists, chorus and orchestra', note: 'Katerina’s singing is warm, and because of it the brutality around her cannot be dismissed as farce. After its suppression in 1936 the opera survived in a revised form, <i>Katerina Izmailova</i>, first staged in 1963.' },
+    { year: '1930–32', title: 'Lady Macbeth of the Mtsensk District', titleHtml: '<i>Lady Macbeth of the Mtsensk District</i>', cat: 'Op. 29', forces: 'Opera in four acts; soloists, chorus and orchestra', note: 'Katerina is given warm vocal writing, set against the brutality around her. After its suppression in 1936 the opera survived in a revised form, <i>Katerina Izmailova</i>, first staged in 1963.' },
     { year: '1935–36', title: 'Symphony No. 4 in C minor', cat: 'Op. 43', forces: 'Large orchestra', note: 'A large orchestra plays a string fugato and changes character at speed. The finale ends on a sustained C minor chord with isolated notes on the celesta in place of a grand ending.' },
     { year: '1937', title: 'Symphony No. 5 in D minor', cat: 'Op. 47', forces: 'Orchestra', note: 'The Largo is scored for divided strings, without brass. The finale ends in D major on a loud, repeated conclusion.' },
     { year: '1941', title: 'Symphony No. 7 in C major “Leningrad”', cat: 'Op. 60', forces: 'Large orchestra with expanded brass and percussion', note: 'The march in the first movement starts from a simple tune and builds to the full orchestra playing at full force. The Adagio has chorales for the wind and long lines for the strings.' },
@@ -69,7 +69,7 @@ export default {
 
   score: [
     {
-      kicker: 'Signing his name',
+      kicker: 'DSCH · schematic',
       title: 'DSCH in short and long notes: schematic',
       abc: `X:1
 T:DSCH - rhythmic schematic
@@ -83,7 +83,7 @@ D _E C B, | D2 _E2 | C2 B,2 | D _E C B, |]`,
       caption: 'A schematic using the DSCH pitches, D–E♭–C–B♮. The first and last bars give each note a crotchet; the middle two bars set the same sequence in minims. Two semitone steps, D–E♭ and C–B, sit either side of a falling minor third.',
     },
     {
-      kicker: 'Repeating the pulse',
+      kicker: 'Ostinato · schematic',
       title: 'Same bass, altered upper line (schematic)',
       abc: `X:2
 T:Ostinato - schematic
@@ -100,7 +100,7 @@ V:2 name="Bassoon" clef=bass
       caption: 'In this schematic, the bassoon repeats the same notes and rhythm while both instruments get louder. In bar 3 the clarinet plays B♭ and E♭ above the repeated low C.',
     },
     {
-      kicker: 'Keeping the ground',
+      kicker: 'Passacaglia · schematic',
       title: 'Bass phrase, two turns — schematic',
       abc: `X:3
 T:Ground bass - schematic
@@ -138,7 +138,7 @@ D, F, A,, | B,, A,, D, | D, F, A,, | B,, A,, D, |]`,
     {
       relation: 'documented-use',
       type: 'poem',
-      author: 'Nikolai Gogol', title: 'The Nose — the nose refuses its owner', date: '1836',
+      author: 'Nikolai Gogol', title: 'The Nose — Kovalyov meets his nose', date: '1836',
       lang: 'Russian', translator: 'Our translation',
       original: `Вы ошибаетесь, милостивый государь. Я сам по себе.
 Притом между нами не может быть никаких тесных отношений.
@@ -163,7 +163,7 @@ I, however, serve in education.`,
   lineage: {
     from: ['bach', 'beethoven', 'mussorgsky', 'mahler', 'berg'],
     to: ['britten', 'Mieczysław Weinberg', 'Boris Tishchenko', 'Alfred Schnittke'],
-    note: `<p>From [[bach|Bach]] he took the paired prelude and fugue, and [[mahler|Mahler]]’s example showed him how much a symphony could hold. He heard [[berg|Berg]]’s <i>Wozzeck</i> in Leningrad in 1927. He later linked his <i>Fourteenth Symphony</i> with [[mussorgsky|Mussorgsky]]’s <i>Songs and Dances of Death</i>, which he had orchestrated. Weinberg influenced him as well as learning from him, and the two played their symphonies together at the piano. Tishchenko studied with him, and [[britten|Britten]] was the dedicatee of the Fourteenth. His last sonata quotes music from [[beethoven|Beethoven]]’s <i>Moonlight</i> Sonata.</p>`,
+    note: `<p>From [[bach|Bach]] he took the paired prelude and fugue, and [[mahler|Mahler]]’s example showed him how much a symphony could hold. He heard [[berg|Berg]]’s <i>Wozzeck</i> in Leningrad in 1927. He later linked his <i>Fourteenth Symphony</i> with [[mussorgsky|Mussorgsky]]’s <i>Songs and Dances of Death</i>, which he had orchestrated. Weinberg influenced him as well as learning from him, and the two played their symphonies together at the piano. Tishchenko studied with him, and [[britten|Britten]] was the dedicatee of the Fourteenth. His last sonata quotes music from [[beethoven|Beethoven]]’s “Moonlight” Sonata.</p>`,
   },
 
   reading: [

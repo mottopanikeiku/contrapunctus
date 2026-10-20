@@ -74,11 +74,12 @@ function positionNodes(nodes, edges, yearX) {
   let height = 1600, composerIndex = 0;
   for (const node of ordered) {
     node.x = Math.round(yearX(node.year));
-    node.halfW = node.url ? 54 : 22;
-    node.halfH = node.url ? 60 : 22;
-    node.spanW = node.url ? Math.max(54, Math.min(190, node.label.length * 26 * .57 + 12) / 2) : 24;
-    node.above = node.url ? 60 : 22;
-    node.below = node.url ? 104 : 22;
+    // Figures keep a 56px hit area so they stay a usable target at the overview zoom.
+    node.halfW = node.url ? 54 : 28;
+    node.halfH = node.url ? 60 : 28;
+    node.spanW = node.url ? Math.max(54, Math.min(190, node.label.length * 26 * .57 + 12) / 2) : 28;
+    node.above = node.url ? 60 : 28;
+    node.below = node.url ? 104 : 28;
     const previous = [...new Set(neighbours.get(node.id))].map((id) => placed.get(id)).filter(Boolean);
     const ideal = previous.length ? previous.reduce((s, n) => s + n.y, 0) / previous.length : lanes[composerIndex % lanes.length];
     const near = [...placed.values()].filter((n) => Math.abs(n.x - node.x) < n.spanW + node.spanW + 10);
@@ -243,9 +244,12 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
     nodes: nodes.map((n) => placeLabels([n.id, ...index[n.id].in.map((e) => e.from), ...index[n.id].out.map((e) => e.to)])),
     threads: Object.fromEntries(threads.map((t) => [t.id, placeLabels(threadStops.get(t.id).flatMap((e) => [e.from, e.to]))])),
   };
+  // People without a portrait get their initials in the same oval; traditions get a plain dot.
+  const initials = (name) => { const words = name.split(/\s+/).filter((w) => /^\p{Lu}/u.test(w)); return words.length > 1 ? `${words[0][0]}${words.at(-1)[0]}` : (words[0] ?? name)[0]; };
   const picture = (node) => {
     const info = node.portrait && art[normalizeTitle(node.portrait)];
-    return info ? `<img src="${attr(info.src.replace(/\.webp$/, '-160.webp'))}" alt="" width="66" height="80" loading="lazy" decoding="async" style="object-position:${attr(node.focus ?? '50% 30%')}">` : '<span class="iw-star" aria-hidden="true"></span>';
+    if (info) return `<img src="${attr(info.src.replace(/\.webp$/, '-160.webp'))}" alt="" width="66" height="80" loading="lazy" decoding="async" style="object-position:${attr(node.focus ?? '50% 30%')}">`;
+    return node.kind === 'tradition' ? '' : `<span class="iw-initials" aria-hidden="true">${esc(initials(node.name))}</span>`;
   };
   const curves = new Map(edges.map((edge, i) => {
     const a = nodeById.get(edge.from), b = nodeById.get(edge.to), stops = threadStops.get(edge.thread);
@@ -272,7 +276,7 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
   }
   const paths = edges.map((edge, i) => {
     const a = nodeById.get(edge.from), b = nodeById.get(edge.to), { d } = curves.get(edge.id);
-    return `<a href="#edge-${attr(edge.id)}" class="iw-edge iw-kind-${edge.kind}" data-edge="${attr(edge.id)}" aria-label="${attr(`${a.label} → ${b.label}, ${edge.year}`)}"><path id="iw-path-${i}" class="iw-line" d="${d}"/><path class="iw-hit" d="${d}"/><circle class="iw-glint" r="4" style="offset-path:url(#iw-path-${i})"/>${dateLabels.get(edge.id) ?? ''}</a>`;
+    return `<a href="#edge-${attr(edge.id)}" class="iw-edge iw-kind-${edge.kind}" data-edge="${attr(edge.id)}" aria-label="${attr(`${a.label} → ${b.label}, ${edge.year}`)}"><path class="iw-line" d="${d}"/><path class="iw-hit" d="${d}"/>${dateLabels.get(edge.id) ?? ''}</a>`;
   }).join('');
   const eraRows = [];
   const erasLabel = eras.map((era) => {
@@ -290,7 +294,11 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
   const cameos = nodes.map((node) => {
     const connections = new Set([...index[node.id].in, ...index[node.id].out].map((e) => e.id)).size;
     const example = index[node.id].in[0] ?? index[node.id].out[0];
-    return `<a class="iw-node ${node.url ? 'iw-composer' : 'iw-figure'}${landmarks.has(node.id) ? ' iw-landmark' : ''}" href="#node-${attr(node.id)}" data-node="${attr(node.id)}" style="left:${node.x}px;top:${node.y}px" aria-label="${attr(`${node.name}, ${node.dates}, ${connections} connections`)}"><span class="iw-time-year">${node.year < 1100 ? 'Before 1100' : node.year}</span><span class="iw-medallion">${picture(node)}</span><span class="iw-node-label">${esc(node.label)}</span><span class="iw-node-fullname">${esc(node.name)}</span><span class="iw-node-dates">${esc(node.dates)}</span><span class="iw-node-count">${connections} sourced ${connections === 1 ? 'connection' : 'connections'}</span>${example ? `<span class="iw-node-example">${esc(example.title)}</span>` : ''}</a>`;
+    // No aria-label: the name is the node's own text, so it always contains what is visible (the nameplate on the map, the entry in the phone timeline).
+    // A tradition's year only places it on the map; the phone timeline prints no date for it.
+    const year = node.kind === 'tradition' ? '' : `<span class="iw-time-year">${node.year < 1100 ? 'Before 1100' : node.year}</span>`;
+    const sep = '<span class="visually-hidden">, </span>';
+    return `<a class="iw-node ${node.url ? 'iw-composer' : `iw-figure${node.kind === 'tradition' ? ' iw-tradition' : ''}`}${landmarks.has(node.id) ? ' iw-landmark' : ''}" href="#node-${attr(node.id)}" data-node="${attr(node.id)}" style="left:${node.x}px;top:${node.y}px">${year}<span class="iw-medallion">${picture(node)}</span><span class="iw-node-label">${esc(node.label)}</span><span class="iw-node-fullname">${sep}${esc(node.name)}</span><span class="iw-node-dates">${sep}${esc(node.dates)}</span><span class="iw-node-count">${sep}${connections} sourced ${connections === 1 ? 'connection' : 'connections'}</span>${example ? `<span class="iw-node-example">${esc(example.title)}</span>` : ''}</a>`;
   }).join('');
   const compact = {
     size,
@@ -318,7 +326,7 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
   const body = `<div class="influence-page" data-influence>
     ${backdrop ? `<img class="iw-backdrop" src="${attr(backdrop.src.replace(/\.webp$/, '-960.webp'))}" alt="" loading="lazy" decoding="async" aria-hidden="true">` : ''}
     <header class="iw-heading"><div><span class="kicker">Connections</span><h1>The Web of <em>Influence</em></h1><p>Teachers and pupils, quotations, borrowings and meetings between composers, painters and poets, each with its sources.</p></div><p class="iw-census"><strong>${edges.length}</strong> sourced connections<br><span>${composers.length} composers · ${figures.length} other figures</span></p></header>
-    <form class="iw-controls" aria-label="Filter connections" onsubmit="return false"><label>Connection<select name="kind"><option value="">All kinds</option>${INFLUENCE_KINDS.map((kind) => `<option value="${kind}">${kindLabel(kind)}</option>`).join('')}</select></label><label>Period<select name="era"><option value="">All periods</option>${eras.map((era) => `<option value="${era.slug}">${esc(era.name)}</option>`).join('')}<option value="sister-arts">Sister arts &amp; traditions</option></select></label><button type="button" class="iw-reset" data-action="reset">Reset view</button></form>
+    <form class="iw-controls" aria-label="Filter connections" onsubmit="return false"><label>Connection<select name="kind"><option value="">All kinds</option>${INFLUENCE_KINDS.map((kind) => `<option value="${kind}">${kindLabel(kind)}</option>`).join('')}</select></label><label>Period<select name="era"><option value="">All periods</option>${eras.map((era) => `<option value="${era.slug}">${esc(era.name)}</option>`).join('')}<option value="sister-arts">Sister arts &amp; traditions</option></select></label><button type="button" class="textbook-button iw-reset" data-action="reset">Reset view</button></form>
     <nav class="iw-thread-chips" aria-label="Recurring material"><span>Recurring material</span>${threads.map((t) => `<a href="#thread-${attr(t.id)}" title="${attr(t.name)}">${esc(CHIP_NAMES[t.id] ?? t.name)}</a>`).join('')}</nav>
     <p class="iw-mobile-intro">Composers and other figures, in order of birth.<br><a href="#node-${attr(hub.slug)}">${esc(hub.family ?? hub.name)}’s connections</a>, the most in the web.</p>
     <div class="iw-explore"><section class="iw-sky" aria-label="Interactive influence map"><div class="iw-map" tabindex="0" role="group" aria-label="Influence map. Drag to pan, scroll to zoom. Arrow keys pan, plus and minus zoom, Home resets." aria-describedby="iw-map-help"><div class="iw-world" style="width:${size.width}px;height:${size.height}px"><svg class="iw-threads" viewBox="0 0 ${size.width} ${size.height}" aria-label="Sourced connections between composers and the sister arts"><g class="iw-era-labels">${erasLabel}</g><g class="iw-paths">${paths}</g><g class="iw-year-labels">${years}</g></svg>${cameos}</div></div><div class="iw-map-tools"><button type="button" data-action="zoom-in" aria-label="Zoom in">+</button><button type="button" data-action="zoom-out" aria-label="Zoom out">−</button><button type="button" data-action="fit" aria-label="Fit the whole web">↔</button></div><p class="iw-map-help" id="iw-map-help">Select a portrait to show its connections. <span>Drag to move · scroll to zoom</span></p><p class="iw-empty" hidden>No connections match these filters.</p></section>
@@ -329,5 +337,5 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
     <p class="iw-status" role="status" aria-live="polite"></p><p class="iw-javascript-note">The cards, filters and playable examples need JavaScript.</p>
     <script type="application/json" id="influence-data">${serialise(compact)}</script>
   </div>`;
-  await out('influence.html', layout(ctx, { title: 'The Web of Influence — Contrapunctus', description: 'Borrowed tunes, teachers and encounters between composers, painters and poets, with playable examples and sources.', body, dark: true, accent: '#dfc287', nav: 'influence', head: '<link rel="stylesheet" href="assets/css/influence.css">', modules: ['influence'] }));
+  await out('influence.html', layout(ctx, { title: 'The Web of Influence — Contrapunctus', description: 'Borrowed tunes, teachers and encounters between composers, painters and poets, with playable examples and sources.', body, dark: true, night: true, nav: 'influence', head: '<link rel="stylesheet" href="assets/css/influence.css">', modules: ['influence'] }));
 }

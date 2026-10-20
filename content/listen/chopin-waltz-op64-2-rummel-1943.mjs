@@ -19,7 +19,7 @@ export default {
     { "t": 66, "label": "B · Quavers over the waltz bass", "m": "B", "mNote": "The right hand plays quick descending phrases." },
     { "t": 144, "label": "C · Longer phrases and descending tune", "m": "C", "mNote": "Longer phrases alternate with the descending tune." },
     { "t": 184, "label": "D · Opening melody, C♯ minor", "m": "D", "mNote": "Paired notes and short flourishes return in C♯ minor." },
-    { "t": 220, "label": "E · Final running tune, più mosso", "m": "E", "mNote": "Più mosso leads to the last C♯ minor chords" }
+    { "t": 220, "label": "E · Final running tune, più mosso", "m": "E", "mNote": "Più mosso leads to the last C♯ minor chords." }
   ],
   "cues": [
     {

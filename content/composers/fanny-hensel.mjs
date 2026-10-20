@@ -6,10 +6,10 @@ export default {
   epithet: 'Berlin composer who ran the city’s Sunday concerts, wrote more than 450 works and published collections under her own name only in the last year of her life.',
   portrait: { file: 'File:PPN663944058 Fanny Hensel, geb. Mendelsohn-Bartholdy (1847).jpg', caption: 'Fanny Hensel, engraved by Eduard Mandel after Wilhelm Hensel, 1847.', focus: '50% 25%' },
   facts: [
-    ['Teachers', 'Ludwig Berger, piano; Carl Friedrich Zelter, composition'],
+    ['Trained', 'Ludwig Berger, piano; Carl Friedrich Zelter, composition'],
     ['At home', 'Sunday concerts at Leipziger Straße 3, Berlin; pianist, conductor and organiser'],
     ['Family', 'Married the painter Wilhelm Hensel in 1829; son Sebastian born in 1830'],
-    ['Music', 'More than 450 works; songs, piano music, chamber music, cantatas and an overture'],
+    ['Output', 'More than 450 works; songs, piano music, chamber music, cantatas and an overture'],
   ],
   life: `
 <p class="dropcap">On 9 July 1846 Fanny Hensel wrote to her brother [[mendelssohn|Felix]] with news she expected him to dislike. A Berlin publisher had offered good terms for her songs, and she had accepted. “In a word, I am beginning to publish,” she wrote, after a long and uneasy preamble about her wish to please the people she loved. She was forty. She had been composing since childhood and directed some of Berlin’s most distinguished private concerts.</p>
@@ -46,10 +46,10 @@ export default {
     { year: '1834', title: 'String Quartet in E♭ major', forces: 'Two violins, viola and cello', note: 'The opening Adagio contains a minor-key fugue. The work also includes a <i>Romanze</i>. Felix objected, and she did not rewrite it.' },
     { year: '1841', title: 'Das Jahr', forces: 'Piano', note: 'Twelve months and a chorale postlude, first given to Wilhelm for Christmas. The couple made an illustrated version on coloured paper in 1842.' },
     { year: '1846', title: 'Gartenlieder', cat: 'Op. 3', forces: 'Unaccompanied mixed voices', note: 'Six part-songs for a small choir like the one Hensel rehearsed at home; no voice part is limited to supporting the tune.' },
-    { year: '1846 (published)', title: 'Sechs Lieder', cat: 'Op. 1', forces: 'Voice and piano', note: 'Issued by Bote &amp; Bock after her decision of July 1846. No. 3 sets Heine’s <i>Warum sind denn die Rosen so blass</i>.' },
-    { year: '1846 (published)', title: 'Vier Lieder für das Pianoforte', cat: 'Op. 2', forces: 'Piano', note: 'Four piano songs, including September from <i>Das Jahr</i>, published here without its calendar title.' },
+    { year: 'Published 1846', title: 'Sechs Lieder', cat: 'Op. 1', forces: 'Voice and piano', note: 'Issued by Bote &amp; Bock after her decision of July 1846. No. 3 sets Heine’s <i>Warum sind denn die Rosen so blass</i>.' },
+    { year: 'Published 1846', title: 'Vier Lieder für das Pianoforte', cat: 'Op. 2', forces: 'Piano', note: 'Four piano songs, including September from <i>Das Jahr</i>, published here without its calendar title.' },
     { year: '1847', title: 'Piano Trio in D minor', cat: 'Op. 11', forces: 'Piano, violin and cello', note: 'First played at her Sunday concert on 11 April 1847, with Hensel at the piano. A short <i>Lied</i> separates the slow movement from the finale.' },
-    { year: '1847 (published)', title: 'Sechs Lieder', cat: 'Op. 7', forces: 'Voice and piano', note: 'Opens with Eichendorff’s <i>Nachtwanderer</i> and includes Hensel’s setting of Rückert’s <i>Du bist die Ruh</i>, a poem also set by Schubert.' },
+    { year: 'Published 1847', title: 'Sechs Lieder', cat: 'Op. 7', forces: 'Voice and piano', note: 'Opens with Eichendorff’s <i>Nachtwanderer</i> and includes Hensel’s setting of Rückert’s <i>Du bist die Ruh</i>, a poem also set by Schubert.' },
   ],
   score: [
     { kicker: 'Piano-song workshop', title: 'Held voice above changing harmony', abc: `X:1
@@ -96,7 +96,6 @@ my tangled singing here
 is only like a call out of dreams.`, note: `<p>In Eichendorff’s poem the walker hears a nightingale and distant rivers, and then his own singing sounds to him as strange as a voice in a dream. Hensel made this the opening song of Op. 7. The piano keeps moving beneath the repeated word <i>stille</i> (still).</p>` },
   ],
   recordings: [
-    { work: 'Das Jahr', performers: 'Lauma Skride', year: '2007', label: 'Sony Classical', note: 'A recording of the whole calendar. Skride pedals clearly in September, where the moving notes stay distinct around the melody.' },
     { work: 'Piano Trio in D minor · String Quartet in E♭ major', performers: 'Nash Ensemble', label: 'Hyperion', note: 'The Trio’s opening is played with force, and the Quartet with a darker, rougher tone. The disc pairs these works with Clara Schumann’s G minor Trio.' },
     { work: 'Lieder, Vols 1 and 2', performers: 'Dorothea Craxton, Babette Dorn', label: 'Naxos', note: 'Dorn gives the piano an unusually clear presence. Craxton phrases the words with care, though she slides into some notes, which not all listeners will like. Volume 1 includes the complete Op. 7.' },
   ],

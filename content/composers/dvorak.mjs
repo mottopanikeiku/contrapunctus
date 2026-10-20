@@ -6,13 +6,13 @@ export default {
   born: { year: 1841, date: '8 September 1841', place: 'Nelahozeves, Bohemia' },
   died: { year: 1904, date: '1 May 1904', place: 'Prague' },
   era: 'romantic',
-  epithet: 'Composer of the <i>Slavonic Dances</i>, who played viola in an opera orchestra for nine years before his music became widely known.',
+  epithet: 'Composer of the Slavonic Dances, who played viola in an opera orchestra for nine years before his music became widely known.',
   portrait: { file: 'File:Dvorak 1882.jpg', caption: 'Dvořák, photographed by the Tietz–Gallat studio in Chrudim.', focus: '50% 23%' },
   facts: [
     ['Trained', 'Village teachers; Prague Organ School, 1857–59'],
-    ['Earned his living', 'Violist at Prague’s Provisional Theatre, 1862–71; organist and piano teacher'],
-    ['Taught', 'Prague Conservatory; director of New York’s National Conservatory, 1892–95'],
-    ['Wrote', 'Nine symphonies; operas, concertos, chamber music, choral works and songs'],
+    ['Livelihood', 'Violist at Prague’s Provisional Theatre, 1862–71; organist and piano teacher'],
+    ['Teaching', 'Prague Conservatory; director of New York’s National Conservatory, 1892–95'],
+    ['Output', 'Nine symphonies; operas, concertos, chamber music, choral works and songs'],
   ],
   life: `
 <p class="dropcap">In the village band at Nelahozeves, north of Prague, the musicians collected their money by stopping a couple halfway through a dance and asking them to pay. Young Antonín Dvořák handed his share straight to his father, the village butcher and innkeeper. “I belonged to ours as soon as I could fiddle a little,” he told the London <i>Sunday Times</i> on 10 May 1885. He was born in Nelahozeves on 8 September 1841.</p>
@@ -37,10 +37,10 @@ export default {
 <aside class="note"><b>A missing Prince</b>On the day of <i>Rusalka</i>’s première, 31 March 1901, the tenor Karel Burian withdrew. Dvořák joined the delegation to the understudy Bohumil Pták’s flat. Pták knew the part and sang it that evening.</aside>
 <p>In his last years Dvořák wrote three operas: <i>The Devil and Kate</i>, <i>Rusalka</i> and <i>Armida</i>. In Jaroslav Kvapil’s libretto for <i>Rusalka</i>, which Dvořák set in 1900, a water nymph gives up her voice in exchange for human form. For part of the opera the heroine is silent on stage while other characters talk about her. When the servants mock her, the orchestra plays a distorted version of her own melody. He became director of the Prague Conservatory in 1901. A few weeks before his death, ill and disappointed by the way the production had been prepared, he left the première of <i>Armida</i> before it ended. He died in Prague on 1 May 1904.</p>`,
   sound: [
-    { aspect: 'Dance & accent', glyph: '𝄾', html: `<p>The first and last dances of Op. 46 are furiants, in which the accents pull a beat in three towards a beat in two. Across six crotchets, three pairs can compete with two groups of three. The tune stays easy to sing while the dance steps change; the bass often has a melody of its own.</p>` },
-    { aspect: 'Melody & modes', glyph: '𝅘𝅥', html: `<p>The cor anglais’s first phrase in the Ninth Symphony’s Largo uses only D♭, E♭, F and A♭. The leading note C is absent, and the phrase comes to rest on D♭ over muted strings. William Arms Fisher later added words to the tune, and Dvořák’s instrumental melody became the song <i>Goin’ Home</i>, nearly thirty years after he wrote it.</p>` },
+    { aspect: 'Dance and accent', glyph: '𝄾', html: `<p>The first and last dances of Op. 46 are furiants, in which the accents pull a beat in three towards a beat in two. Across six crotchets, three pairs can compete with two groups of three. The tune stays easy to sing while the dance steps change; the bass often has a melody of its own.</p>` },
+    { aspect: 'Melody and modes', glyph: '𝅘𝅥', html: `<p>The cor anglais’s first phrase in the Ninth Symphony’s Largo uses only D♭, E♭, F and A♭. The leading note C is absent, and the phrase comes to rest on D♭ over muted strings. William Arms Fisher later added words to the tune, and Dvořák’s instrumental melody became the song <i>Goin’ Home</i>, nearly thirty years after he wrote it.</p>` },
     { aspect: 'Themes from memory', glyph: '𝄋', html: `<p>The Ninth Symphony’s first-movement theme comes back in each of the later movements. In the finale, the Largo melody and the scherzo’s dance music also return, and Dvořák sets earlier tunes alongside the new ones. Near the end, the orchestra plays the Largo’s opening chords again.</p>` },
-    { aspect: 'Middle voices', glyph: '𝄡', html: `<p>Dvořák wrote prominent parts for the viola. It introduces the first tune of the <i>American</i> Quartet over an F major tremolo, and in the A major Piano Quintet it takes the second subject after the cello has played the first. Dvořák had earlier been a theatre violist.</p>` },
+    { aspect: 'Middle voices', glyph: '𝄡', html: `<p>Dvořák wrote prominent parts for the viola. It introduces the first tune of the “American” Quartet over an F major tremolo, and in the A major Piano Quintet it takes the second subject after the cello has played the first. Dvořák had earlier been a theatre violist.</p>` },
     { aspect: 'Narrative in the music', glyph: '𝄐', html: `<p>In <i>The Water Goblin</i>, the orchestra takes its phrases from the rhythms of Erben’s verse. A short refrain first accompanies the creature sewing his wedding clothes, and it returns through the abduction and his revenge. In <i>Rusalka</i>, the heroine’s theme is heard in the orchestra while she is silent. When the Gamekeeper and Turnspit make fun of her, Dvořák has the orchestra distort it.</p>` },
   ],
   works: [
@@ -114,11 +114,11 @@ In and out among the pine-trees,
 Through the shadows and the sunshine,`, note: `<p>Pau-Puk-Keewis begins slowly, then spins until the dust rises in a whirlwind. Dvořák told the <i>New York Herald</i> on 15 December 1893 that this wedding feast suggested his Ninth Symphony’s scherzo. He had known <i>Hiawatha</i> in a Czech translation long before he crossed the Atlantic.</p>` },
   ],
   recordings: [
-    { work: 'Symphonies Nos. 1–9', performers: 'London Symphony Orchestra, István Kertész', label: 'Decca', note: 'A recording of all nine symphonies, strongest in the Sixth. Kertész takes the Eighth’s finale very fast, and the LSO keeps up with him.' },
+    { work: 'Symphonies Nos. 1–9', performers: 'London Symphony Orchestra, István Kertész', label: 'Decca', note: 'The cycle is strongest in the Sixth. Kertész takes the Eighth’s finale very fast, and the LSO keeps up with him.' },
     { work: 'Cello Concerto', performers: 'Mstislav Rostropovich; Berlin Philharmonic, Herbert von Karajan', year: '1968', label: 'Deutsche Grammophon', note: 'Karajan takes the long opening orchestral tutti broadly and on a large scale, and Rostropovich’s tone is strong enough to enter on equal terms with the orchestra.' },
     { work: 'Rusalka', performers: 'Renée Fleming, Ben Heppner; Czech Philharmonic and Kühn Mixed Choir, Charles Mackerras', year: '1998', label: 'Decca', note: 'Mackerras brings out the orchestral detail beneath the voices, and the Act II dances are richly played. Fleming sings in long phrases; at times the drama slows for the sake of the sound.' },
   ],
-  lineage: { from: ['beethoven', 'schubert', 'brahms', 'Bedřich Smetana', 'Czech and Moravian dance traditions'], to: ['Josef Suk', 'Vítězslav Novák', 'Harry T. Burleigh', 'William Grant Still'], note: `<p>[[brahms|Brahms]] found him a publisher and later corrected the proofs of <i>Dumky</i> while he was in America. Suk and Novák studied with him in Prague; Suk married his daughter Otilie. Burleigh sang spirituals to Dvořák, who encouraged him to preserve them in his own work. William Grant Still belongs to the later American history, in which Black musical traditions became the material of a symphony.</p>` },
+  lineage: { from: ['beethoven', 'schubert', 'brahms', 'smetana', 'Czech and Moravian dance traditions'], to: ['Josef Suk', 'Vítězslav Novák', 'Harry T. Burleigh', 'William Grant Still'], note: `<p>[[brahms|Brahms]] found him a publisher and later corrected the proofs of <i>Dumky</i> while he was in America. Suk and Novák studied with him in Prague; Suk married his daughter Otilie. Burleigh sang spirituals to Dvořák, who encouraged him to preserve them in his own work. William Grant Still belongs to the later American history, in which Black musical traditions became the material of a symphony.</p>` },
   reading: [
     'John Clapham, <i>Antonín Dvořák: Musician and Craftsman</i> (Faber, 1966) — a work-centred study that takes the construction as seriously as the melodies.',
     'Michael Beckerman, <i>New Worlds of Dvořák: Searching in America for the Composer’s Inner Life</i> (Norton, 2003) — detailed arguments about the American works and their literary contexts.',

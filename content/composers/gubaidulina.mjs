@@ -6,13 +6,13 @@ export default {
   born: { year: 1931, date: '24 October 1931', place: 'Chistopol, Tatar ASSR, Soviet Union' },
   died: { year: 2025, date: '13 March 2025', place: 'Appen, Germany' },
   era: 'after-1945',
-  epithet: 'Her <i>Offertorium</i>, for Gidon Kremer’s violin, takes apart and rebuilds Bach’s royal theme.',
+  epithet: 'Composer whose Offertorium, for Gidon Kremer’s violin, takes apart and rebuilds Bach’s royal theme.',
   portrait: { file: 'File:Sofia Gubaidulina (2016-11-03).jpg', caption: 'Sofia Gubaidulina, photographed by Mikhail Kozlovsky on 3 November 2016.', focus: '50% 25%' },
   facts: [
-    ['Training', 'Kazan Conservatory, graduating in 1954; Peiko and Shebalin in Moscow'],
+    ['Trained', 'Kazan Conservatory, graduating in 1954; Peiko and Shebalin in Moscow'],
     ['Home', 'Moscow until 1992; then Appen, near Hamburg'],
     ['Partners', 'Gidon Kremer · Friedrich Lips · Vladimir Tonkha · Anne-Sophie Mutter'],
-    ['At the workbench', 'Bayan bellows, string harmonics, borrowed chorales and Fibonacci numbers'],
+    ['Materials', 'Bayan bellows, string harmonics, borrowed chorales and Fibonacci numbers'],
   ],
   life: `
 <p class="dropcap">At the family piano in Kazan, Vera Gubaidulina played the keys while her sister Sofia experimented with the strings inside. Their parents had bought a poor instrument, and the children used it in more than one way. Sofia had been born in Chistopol on 24 October 1931 to a Volga Tatar surveyor and a mother of Russian and Polish descent. The family spoke Russian and moved to Kazan during her childhood. In a 2013 interview with Stuart Jeffries she described her early ambition: “I was convinced there was too little music in the world. We needed more.”</p>
@@ -119,9 +119,7 @@ Lord, who will stand?`,
     },
   ],
   recordings: [
-    { work: 'Offertorium', performers: 'Gidon Kremer, Boston Symphony Orchestra, Charles Dutoit', year: '1988', label: 'Deutsche Grammophon', note: 'Kremer plays with great intensity, and Dutoit keeps the changing instrumental groups distinct. After the violent middle section of the concerto, the Bach theme is reconstructed at the close.' },
     { work: 'Seven Words · In croce · Silenzio', performers: 'Elsbeth Moser, Maria Kliegel, Camerata Transsylvanica, György Selmeczi', label: 'Naxos', note: 'A recording of the bayan in three settings: with a cello, in a trio and with chamber strings. The main work is <i>In croce</i> for cello and bayan, though Kliegel’s soft-edged tone takes some bite out of its confrontations.' },
-    { work: 'In tempus praesens', performers: 'Anne-Sophie Mutter, London Symphony Orchestra, Valery Gergiev', year: '2008', label: 'Deutsche Grammophon', note: 'Mutter and Gergiev set the violin against the orchestra’s low brass and percussion. The album couples the Gubaidulina with two Bach concertos.' },
   ],
   lineage: {
     from: ['bach', 'webern', 'shostakovich', 'Russian Orthodox Christianity', 'Instrumental improvisation'],
@@ -131,6 +129,6 @@ Lord, who will stand?`,
   reading: [
     'Michael Kurtz, <i>Sofia Gubaidulina: A Biography</i> (Indiana University Press, 2007) — the detailed account of her education, performers and religious thought.',
     'Gerard McBurney, <a href="https://www.boosey.com/pages/cr/composer/composer_main?composerid=2710&amp;ttype=BIOGRAPHY">publisher biography</a> — a concise chronology, updated after her death.',
-    'Robert Kirzinger, <a href="https://www.bso.org/stories/in-memory-of-sofia-gubaidulina">In Memory of Sofia Gubaidulina</a> (Boston Symphony Orchestra, 2025) — documents the Boston premieres, recording and unfinished commission.',
+    'Robert Kirzinger, <a href="https://www.bso.org/stories/in-memory-of-sofia-gubaidulina">In Memory of Sofia Gubaidulina</a> (Boston Symphony Orchestra, 2025) — documents the Boston premières, recording and unfinished commission.',
   ],
 };

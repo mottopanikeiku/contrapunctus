@@ -50,8 +50,8 @@ export async function mount(app) {
   function controls() {
     const playing = engaged && matches() && player.playing;
     play.textContent = loading ? 'Loading…' : complete ? 'Play again' : playing ? 'Pause' : started ? 'Resume' : 'Begin';
-    play.setAttribute('aria-label', playing ? 'Pause journey' : complete ? 'Restart journey' : started ? 'Resume journey' : 'Begin journey');
     play.disabled = loading;
+    play.classList.toggle('on', playing);
     previous.disabled = loading || index === 0;
     next.disabled = loading || complete;
     next.innerHTML = index === stations.length - 1 ? '<span>Finish</span>' : '<span>Next</span>';
@@ -100,9 +100,6 @@ export async function mount(app) {
       incoming.onfinish = () => incoming.cancel();
       animations = [outgoing, incoming];
     }
-    // Scroll only the rail, never pull the reader away from a paragraph.
-    const track = rail[i].closest('ol'), button = rail[i];
-    track.scrollTo({ left: button.offsetLeft - track.offsetLeft - (track.clientWidth - button.offsetWidth) / 2, behavior: reduced.matches ? 'instant' : 'smooth' });
     if (focus) panels[i].querySelector('h2').focus({ preventScroll: true });
     root.dataset.station = current().id;
     controls();

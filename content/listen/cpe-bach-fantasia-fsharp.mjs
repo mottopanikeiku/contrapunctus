@@ -18,14 +18,14 @@ export default {
     { "t": 180, "label": "C · Short phrases separated by rests", "m": "C", "mNote": "The clavichord plays short phrases with rests between them." },
     { "t": 282, "label": "D · Runs and accented chords", "m": "D", "mNote": "Quick figures alternate with sharply accented chords." },
     { "t": 322, "label": "E · Quiet phrases and pauses", "m": "E", "mNote": "Small gestures separated by pauses, in which the strings fade." },
-    { "t": 460, "label": "F · Return of the running notes", "m": "F", "mNote": "Flourishes alternate with chords on the keyboard" },
+    { "t": 460, "label": "F · Return of the running notes", "m": "F", "mNote": "Flourishes alternate with chords on the keyboard." },
     { "t": 642, "label": "G · Long arpeggio runs", "m": "G", "mNote": "Arpeggios pass through both hands." },
     { "t": 698, "label": "Coda · Towards the final Largo", "m": "Coda", "mNote": "The closing melody sounds over repeated F♯s." }
   ],
   "cues": [
     {
       "t": 0, "kind": "music", "title": "Opening bars, Adagio",
-      "text": "<i>Adagio</i>. Pairs of chords sound above a steady bass, separated by rests. After two measured bars a run rises through the keyboard and the bar lines stop. Sudden <i>piano</i> and <i>forte</i> markings alternate within a single phrase.",
+      "text": "Pairs of chords sound above a steady bass, separated by rests. After two measured bars a run rises through the keyboard and the bar lines stop. Sudden <i>piano</i> and <i>forte</i> markings alternate within a single phrase.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Score, Liam Hynes transcription, p. 1, bars 1–3. https://vmirror.imslp.org/files/imglnks/usimg/5/5b/IMSLP283144-PMLP459537-C.P.E._Bach_F-sharp_minor_Phantasy.pdf"
     },

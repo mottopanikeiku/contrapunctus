@@ -8,8 +8,7 @@ export default {
     "id": "elgar-enigma",
     "title": "Enigma Variations, Op. 36",
     "part": 14,
-    "of": 14
-  },
+    "of": 14, "unit": "parts" },
   "year": "1898–99",
   "key": "G major",
   "forces": "Orchestra",
@@ -22,15 +21,15 @@ export default {
   "sections": [
     {
       "t": 0,
-      "label": "Var 14 · “E.D.U.”, Finale: Allegro",
+      "label": "Var 14 · “E.D.U.”, Finale, Allegro",
       "m": "Var 14",
-      "mNote": "Short violin and bassoon figures over a detached bass"
+      "mNote": "Short violin and bassoon figures over a detached bass."
     },
     {
       "t": 124,
       "label": "Link · Quiet winds and divided cellos",
       "m": "Link",
-      "mNote": "Soft cello quavers continue beneath the wind phrases"
+      "mNote": "Soft cello quavers continue beneath the wind phrases."
     },
     {
       "t": 154,
@@ -105,12 +104,12 @@ export default {
     {
       "id": "middle-withdrawal",
       "title": "Divided cellos and basses before rehearsal 73",
-      "from": "Var 14 · “E.D.U.”, Finale: Allegro",
+      "from": "Var 14 · “E.D.U.”, Finale, Allegro",
       "to": "Link · Quiet winds and divided cellos",
       "at": {
         "t": 124
       },
-      "how": "<p>The rushing string phrases give way to repeated soft quavers in the divided cellos and basses. Above them, oboes, clarinets and bassoons play phrases marked <i>espressivo</i>. The Allegro tempo continues. At rehearsal 73 the violins, very quiet, take over the melody over pizzicato bass notes.</p>",
+      "how": "<p>The rushing string phrases are followed by repeated soft quavers in the divided cellos and basses. Above them, oboes, clarinets and bassoons play phrases marked <i>espressivo</i>. The Allegro tempo continues. At rehearsal 73 the violins, very quiet, take over the melody over pizzicato bass notes.</p>",
       "devices": [
         "decrescendo",
         "texture change",

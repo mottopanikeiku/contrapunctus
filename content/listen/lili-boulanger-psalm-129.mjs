@@ -26,7 +26,7 @@ export default {
       "t": 0,
       "label": "Intro · Woodwind and horn chords, plucked basses",
       "m": "Intro",
-      "mNote": "Accented woodwind and horn chords begin the D-minor psalm"
+      "mNote": "Accented woodwind and horn chords begin the D minor psalm."
     },
     {
       "t": 94,
@@ -44,7 +44,7 @@ export default {
       "t": 284,
       "label": "Coda · Women’s voices and celesta",
       "m": "Coda",
-      "mNote": "The women enter softly above harp and muted strings"
+      "mNote": "The women enter softly above harp and muted strings."
     }
   ],
   "cues": [

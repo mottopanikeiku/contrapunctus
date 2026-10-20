@@ -35,10 +35,13 @@ document.addEventListener('click', (event) => {
 // ================================================================== now-playing bar
 const np = $('.np');
 const npUi = np && { play: $('.np-play', np), c: $('.np-c', np), w: $('.np-w', np), prog: $('.np-prog span', np), time: $('.np-time', np), now: $('.np-now', np), next: $('.np-next', np) };
+// The bar appears once something has played in this visit, or a recording heard on an earlier visit is restored:
+// a page that only selects a recording (the Hall on opening, a comparison) brings no bar.
+let npHeard = false;
 function npShow() {
   if (!np) return;
   const inHall = document.body.classList.contains('room');
-  np.hidden = inHall || !player.track;
+  np.hidden = inHall || !player.track || !npHeard;
   document.documentElement.classList.toggle('np-on', !np.hidden);
 }
 function npTrack() {
@@ -59,7 +62,7 @@ if (np) {
     const d = player.track?.duration; if (d) player.seek(((e.clientX - r.left) / r.width) * d);
   });
   player.on('track', npTrack);
-  player.on('play', () => { npUi.play.textContent = '❚❚'; npUi.play.setAttribute('aria-label', 'Pause'); });
+  player.on('play', () => { npUi.play.textContent = '❚❚'; npUi.play.setAttribute('aria-label', 'Pause'); if (!npHeard) { npHeard = true; npShow(); } });
   player.on('pause', () => { npUi.play.textContent = '▶'; npUi.play.setAttribute('aria-label', 'Play'); });
   player.on('timeupdate', () => {
     const d = player.track?.duration || 1;
@@ -145,6 +148,8 @@ async function render(q) {
 if (dlg) {
   $('input', dlg).addEventListener('input', (e) => render(e.target.value));
   $('input', dlg).addEventListener('keydown', (e) => {
+    // A search field clears itself on Escape and swallows the key; Escape should close the dialog in one press.
+    if (e.key === 'Escape') { e.preventDefault(); dlg.close(); return; }
     const opts = $$('.srch-results a', dlg);
     let i = opts.findIndex((a) => a.classList.contains('sel'));
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); opts[i]?.classList.remove('sel'); i = Math.max(0, Math.min(opts.length - 1, i + (e.key === 'ArrowDown' ? 1 : -1))); opts[i]?.classList.add('sel'); opts[i]?.scrollIntoView({ block: 'nearest' }); }
@@ -324,10 +329,11 @@ document.addEventListener('click', (e) => {
 addEventListener('popstate', () => navigate(location.href, { push: false }));
 
 // ================================================================== boot
-// Restore the last recording into the bar (paused) so a returning visitor can resume.
+// Restore the last recording into the bar (paused) so a returning visitor can resume. Only a recording that
+// actually played has a position past zero; an entry at 0:00 was merely selected and brings no bar back.
 try {
   const last = JSON.parse(localStorage.getItem('cp-last') || 'null');
-  if (last && !document.body.classList.contains('room')) player.load(last.id, { t: last.t }).then(npTrack);
+  if (last?.t > 0 && !document.body.classList.contains('room')) player.load(last.id, { t: last.t }).then(() => { npHeard = true; npTrack(); });
 } catch {}
 mount().then(() => {
   try { if (sessionStorage.getItem('cp-tour')) startTour(); } catch {}

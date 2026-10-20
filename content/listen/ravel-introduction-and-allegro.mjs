@@ -17,11 +17,11 @@ export default {
   "sections": [
     { "t": 0, "label": "Intro · Flute and clarinet duet", "m": "Intro", "mNote": "The strings join the flute and clarinet before the harp enters." },
     { "t": 115, "label": "A · Harp solo", "m": "A", "mNote": "Allegro. A melody set within descending broken chords." },
-    { "t": 294, "label": "Dev · Harp and ensemble alternate phrases", "m": "Dev", "mNote": "Harp solo passages alternate with phrases for wind and strings" },
+    { "t": 294, "label": "Dev · Harp and ensemble alternate phrases", "m": "Dev", "mNote": "Harp solo passages alternate with phrases for wind and strings." },
     { "t": 424, "label": "Cadenza · Harp arpeggios, chords and harmonics", "m": "Cadenza", "mNote": "The other six players rest; the harp plays alone." },
     { "t": 498, "label": "Intro · Winds and muted strings, soft", "m": "Intro", "mNote": "The opening tempo returns with the harp." },
     { "t": 550, "label": "A′ · Clarinet theme over harp accompaniment", "m": "A′", "mNote": "The clarinet takes over the theme first played by the harp." },
-    { "t": 640, "label": "Coda · Harp, winds and strings", "m": "Coda", "mNote": "Harp glissandos with fast wind figures and pizzicato strings" }
+    { "t": 640, "label": "Coda · Harp, winds and strings", "m": "Coda", "mNote": "Harp glissandos with fast wind figures and pizzicato strings." }
   ],
   "cues": [
     {
@@ -68,7 +68,7 @@ export default {
     },
     {
       "t": 684, "kind": "form", "title": "Closing bars in G♭ major",
-      "text": "The harp plays its final glissandos while the string quartet plays pizzicato. Flute and clarinet play short attacks. All seven players end on a G♭-major chord.",
+      "text": "The harp plays its final glissandos while the string quartet plays pizzicato. Flute and clarinet play short attacks. All seven players end on a G♭ major chord.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand full score, p. 39: final harp glissandos, pizzicato strings, wind attacks and G♭-major close."
     }

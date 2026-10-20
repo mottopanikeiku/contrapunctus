@@ -5,14 +5,14 @@ export default [
     id: 'first-evening',
     title: 'A first evening',
     subtitle: 'Bach to Ravel in seventy minutes',
-    note: 'A starting point for listeners new to the repertoire. Bach’s aria, a Vivaldi spring and Handel’s chorus come first, followed by the great sonata symphonies, a Viennese winter song, a Chopin nocturne and Paris at the turn of the twentieth century. The last piece is built on a single drum rhythm, played 169 times.',
+    note: 'Bach’s aria, a Vivaldi spring and Handel’s chorus come first, followed by the opening movements of two symphonies, a Viennese winter song, a Chopin nocturne and Paris at the turn of the twentieth century. The last piece is built on a single drum rhythm, played 169 times.',
     tracks: ['bach-goldberg-aria', 'vivaldi-spring-allegro', 'handel-messiah-hallelujah', 'mozart-40-molto-allegro', 'beethoven-5-first', 'schubert-winterreise-leiermann', 'chopin-nocturne-op27-2', 'satie-gymnopedie-1', 'debussy-faune', 'mahler-5-adagietto', 'ravel-bolero'],
   },
   {
     id: 'paris-1888-1913',
     title: 'Paris, 1888–1913',
     subtitle: 'From Satie’s Gymnopédies to The Rite of Spring',
-    note: 'The programme covers twenty-five years in Paris. It includes Satie at the piano in Montmartre, Debussy accompanying Mary Garden, the flute that opened the Faune, Ravel’s harp, the drowned cathedral, and two Stravinsky ballets that the Ballets Russes brought to Paris.',
+    note: 'The evening covers twenty-five years in Paris. It includes the first Gymnopédie, which Satie wrote in Montmartre, Debussy accompanying Mary Garden, the flute that opens the Faune, Ravel’s harp, the drowned cathedral, and two Stravinsky ballets that the Ballets Russes brought to Paris.',
     tracks: ['satie-gymnopedie-1', 'debussy-garden-il-pleure', 'debussy-faune', 'debussy-nocturnes-nuages', 'debussy-nocturnes-fetes', 'ravel-pavane', 'ravel-introduction-and-allegro', 'debussy-cathedrale-engloutie', 'stravinsky-petrushka-fair', 'stravinsky-rite-sacrifice'],
   },
   {
@@ -33,7 +33,7 @@ export default [
     id: 'late-at-night',
     title: 'Late at night',
     subtitle: 'Slow music for late evening',
-    note: 'Bach’s alto weeping with Peter, the slow movement of Mozart’s last concerto, the adagio of Schubert’s Quintet, a nocturne, a dream, moonlight, the last page of Fauré’s Requiem and Mahler’s Adagietto.',
+    note: 'Bach’s alto aria after Peter’s denial, the slow movement of Mozart’s last concerto, the adagio of Schubert’s Quintet, a Chopin nocturne, Schumann’s Träumerei, Debussy’s Clair de lune, the last page of Fauré’s Requiem and Mahler’s Adagietto.',
     tracks: ['bach-st-matthew-erbarme-dich', 'mozart-clarinet-adagio', 'schubert-quintet-956-adagio', 'chopin-nocturne-op27-2', 'schumann-kinderszenen-traumerei', 'debussy-clair-de-lune', 'ravel-pavane', 'faure-requiem-in-paradisum', 'mahler-5-adagietto'],
   },
   {
@@ -47,14 +47,14 @@ export default [
     id: 'at-the-opera',
     title: 'Opera',
     subtitle: 'Rossini to Puccini',
-    note: 'The programme includes Figaro’s entrance in Seville; the chorus of the Hebrew slaves, which Toscanini conducted when Verdi was buried in 1901; Carmen’s two principal songs; the clown’s aria associated with Caruso; and Tosca’s prayer. The orchestra plays Rossini’s overture and Wagner’s Valkyries on its own.',
+    note: 'The evening includes Figaro’s entrance in Seville; the chorus of the Hebrew slaves, which Toscanini conducted when Verdi was buried in 1901; the Habanera and the Toreador Song from Carmen; the clown’s aria associated with Caruso; and Tosca’s prayer. The orchestra plays Rossini’s overture and Wagner’s Valkyries on its own.',
     tracks: ['rossini-barber-overture', 'rossini-largo-al-factotum', 'verdi-nabucco-va-pensiero', 'verdi-traviata-prelude', 'wagner-walkure-ride-valkyries', 'bizet-carmen-habanera', 'bizet-carmen-toreador', 'leoncavallo-vesti-caruso-1907', 'puccini-o-soave-fanciulla', 'puccini-vissi-darte'],
   },
   {
     id: 'new-world',
     title: 'Music in America',
     subtitle: 'Dvořák in New York to Copland’s Lincoln',
-    note: 'Dvořák wrote his Largo in New York in 1893 and told American composers to turn to their own folk songs. The programme continues with three American composers: Ives’s music on the Alcotts’ house in Concord; Gershwin’s Rhapsody in the 1924 recording by Gershwin and Paul Whiteman’s band; and Copland’s fanfare and his portrait of Lincoln, with Carl Sandburg reading Lincoln’s words.',
+    note: 'Dvořák wrote his Largo in New York in 1893 and told American composers to turn to their own folk songs. The evening continues with three American composers: Ives’s music on the Alcotts’ house in Concord; Gershwin’s Rhapsody in the 1924 recording by Gershwin and Paul Whiteman’s band; and Copland’s fanfare and his portrait of Lincoln, with Carl Sandburg reading Lincoln’s words.',
     tracks: ['dvorak-9-largo', 'ives-concord-alcotts', 'gershwin-rhapsody-1924', 'copland-fanfare-common-man', 'copland-lincoln-portrait'],
   },
 ];

@@ -80,7 +80,7 @@ export default {
       "t": 165,
       "kind": "life",
       "title": "Catalogue entry, 25 July 1788",
-      "text": "On 25 July 1788 Mozart entered this G minor symphony in his catalogue. The E♭ symphony had been entered on 26 June, and the C major <i>Jupiter</i> followed on 10 August.",
+      "text": "On 25 July 1788 Mozart entered this G minor symphony in his catalogue. The E♭ symphony had been entered on 26 June, and the C major “Jupiter” followed on 10 August.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mozart’s thematic catalogue (British Library, Zweig MS 63), as listed in the chronological table in Otto Jahn, Life of Mozart, trans. P. D. Townsend (1882), vol. 3: K. 543 on 26 June, K. 550 on 25 July, K. 551 on 10 August 1788. https://www.gutenberg.org/ebooks/43413 ; https://searcharchives.bl.uk/catalog/040-001945812"

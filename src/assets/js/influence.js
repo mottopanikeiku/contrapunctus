@@ -22,47 +22,64 @@ export function mount(app) {
   for (const edge of data.edges) { adjacency.get(edge.from).push(edge); if (edge.to !== edge.from) adjacency.get(edge.to).push(edge); }
   const map = $('.iw-map'), world = $('.iw-world'), card = $('.iw-card'), content = $('.iw-card-content');
   const form = $('.iw-controls'), kindSelect = $('[name="kind"]'), eraSelect = $('[name="era"]');
-  const threadChips = $$('.iw-thread-chips a'), masthead = document.querySelector('.masthead');
+  const threadNav = $('.iw-thread-chips'), threadChips = $$('a', threadNav), masthead = document.querySelector('.masthead');
   const status = $('.iw-status'), mobile = matchMedia('(max-width: 700px)');
   let selection = null, visible = new Set(edges.keys()), alive = true, cardVersion = 0, returnFocus = null;
   let detailsPromise, audioContext, currentSound = null, soundVersion = 0;
   let frame = 0, scale = 1, fitScale = 1, panX = 0, panY = 0, bounds = { width: 0, height: 0, left: 0, top: 0 };
   const pointers = new Map();
   let gesture = null, dragged = false;
-  let labelLayout = null, mastheadHeight = -1;
+  let labelLayout = null, mastheadHeight = -1, toolsBottom = -1, labelScale = '';
 
   function paint() {
     if (frame) return;
     frame = requestAnimationFrame(() => {
       frame = 0; world.style.transform = `translate3d(${panX}px,${panY}px,0) scale(${scale})`;
-      const labelsOpen = scale >= fitScale * 1.6;
+      // The zoom, for CSS: node targets keep a minimum size on screen (influence.css).
+      world.style.setProperty('--iw-scale', scale.toFixed(4));
+      // Initials (17px in the world) are shown once they read at 11px or more; until then a figure is a plain medal.
+      root.classList.toggle('iw-initials-open', scale >= .65);
+      // All names appear once 13px type reads at 13px; until then the sparse nameplates are enlarged to stay legible.
+      const labelsOpen = scale >= 1;
+      const text = labelsOpen ? '1' : Math.max(1, .5 / scale).toFixed(3);
+      if (text !== labelScale) { labelScale = text; world.style.setProperty('--iw-text', text); }
       if (root.classList.contains('iw-labels-open') !== labelsOpen) {
         root.classList.toggle('iw-labels-open', labelsOpen);
         if (!root.classList.contains('iw-has-focus')) highlight();
       }
     });
   }
+  // The heading, filters and thread names lie over the top of the map: the web is fitted below them.
+  // The world's first 190 units are open sky above the era names, so they may pass beneath the overlay.
+  const SKY = 190;
+  let overlay = 0;
   function fit() {
     scale = fitScale;
     panX = (bounds.width - data.size.width * scale) / 2;
-    panY = (bounds.height - data.size.height * scale) / 2;
+    panY = overlay - SKY * scale + (bounds.height - overlay - (data.size.height - SKY) * scale) / 2;
     paint();
   }
   function measure() {
     if (mobile.matches || !map.clientWidth) return;
     const headerHeight = Math.ceil(masthead?.getBoundingClientRect().height ?? 0);
     if (headerHeight !== mastheadHeight) { mastheadHeight = headerHeight; root.style.setProperty('--iw-masthead', `${headerHeight}px`); }
-    const rect = map.getBoundingClientRect();
-    const resized = bounds.width !== rect.width || bounds.height !== rect.height;
+    root.style.setProperty('--iw-controls-w', `${Math.ceil(form.getBoundingClientRect().width)}px`);
+    // The details card opens below the filters and thread names, measured from the top of the page.
+    const top = root.getBoundingClientRect().top, bottom = Math.ceil(Math.max(form.getBoundingClientRect().bottom, threadNav.getBoundingClientRect().bottom) - top);
+    if (bottom !== toolsBottom) { toolsBottom = bottom; root.style.setProperty('--iw-tools', `${bottom}px`); }
+    const rect = map.getBoundingClientRect(), depth = Math.max(0, bottom - (rect.top - top) + 8);
+    const resized = bounds.width !== rect.width || bounds.height !== rect.height || depth !== overlay;
     bounds = { width: rect.width, height: rect.height, left: rect.left + scrollX, top: rect.top + scrollY };
     if (!resized) return;
-    fitScale = Math.min(bounds.width / data.size.width, bounds.height / data.size.height) * .96;
+    overlay = depth;
+    fitScale = Math.min(bounds.width / data.size.width, (bounds.height - overlay) / (data.size.height - SKY)) * .96;
     fit();
   }
   const resize = new ResizeObserver(measure);
   resize.observe(map);
   resize.observe($('.iw-heading'));
   resize.observe(form);
+  resize.observe(threadNav);
   if (masthead) resize.observe(masthead);
   function zoom(factor, x = bounds.width / 2, y = bounds.height / 2) {
     const next = Math.max(fitScale * .8, Math.min(fitScale * 6, scale * factor));
@@ -75,7 +92,7 @@ export function mount(app) {
     const node = nodes.get(id);
     scale = Math.max(scale, fitScale * 1.5);
     panX = Math.max(130, (bounds.width - Math.min(470, bounds.width * .4)) / 2) - node.x * scale;
-    panY = bounds.height / 2 - node.y * scale;
+    panY = overlay + (bounds.height - overlay) / 2 - node.y * scale;
     paint();
   }
 
@@ -100,6 +117,8 @@ export function mount(app) {
         const style = labelElements[i].style;
         style.setProperty('--lx', `${x}px`); style.setProperty('--ly', `${y}px`);
         style.setProperty('--ll', `${length}px`); style.setProperty('--la', `${angle}deg`);
+        // Enlarged nameplates grow away from their portrait: from the edge nearest it.
+        style.setProperty('--lo', angle > 45 && angle < 135 ? '50% 0' : angle < -45 && angle > -135 ? '50% 100%' : Math.abs(angle) <= 45 ? '0 50%' : '100% 50%');
       }
     }
     root.classList.toggle('iw-has-focus', litNodes.size > 0);
@@ -200,8 +219,8 @@ export function mount(app) {
       else chip.removeAttribute('aria-current');
     }
   }
-  const connectionList = (list, journey = false) => `<ol class="iw-connections${journey ? ' iw-journey' : ''}">${list.map((edge) => `<li><a href="#edge-${esc(edge.id)}"><span class="iw-connection-year">${edge.year}</span>${journey ? `<span class="iw-stop-cameo" aria-hidden="true">${$('.iw-medallion', nodeElements.get(edge.to)).innerHTML}</span>` : ''}<span><strong>${esc(edge.title)}</strong><small>${esc(nodes.get(edge.from).label)} → ${esc(nodes.get(edge.to).label)} · ${kindLabel(edge.kind)}</small></span></a></li>`).join('')}</ol>`;
-  const scoreFigures = (passages) => passages.map(([side, passage], i) => `<figure class="iw-score" data-passage="${side}"><figcaption><span>${passages.length > 1 ? `${i + 1}. ` : ''}${esc(passage.label)}</span><a href="${esc(passage.checked)}" target="_blank" rel="noopener noreferrer">${esc(passage.sourceTitle ?? 'Score source')} ↗</a></figcaption><div class="iw-notation" aria-label="${esc(passage.label)}"><p>Loading the score…</p></div><div class="iw-score-actions"><button type="button" data-passage-play disabled>Play synthesised score</button>${passage.listen ? `<button type="button" data-hall-id="${esc(passage.listen.id)}" data-hall-t="${passage.listen.t}">Play the recording</button>` : ''}</div></figure>`).join('');
+  const connectionList = (list, journey = false) => `<ol class="iw-connections${journey ? ' iw-journey' : ''}">${list.map((edge) => `<li><a href="#edge-${esc(edge.id)}"><span class="iw-connection-year">${edge.year}</span>${journey ? `<span class="iw-stop-cameo" aria-hidden="true">${$('.iw-medallion', nodeElements.get(edge.to)).innerHTML}</span>` : ''}<span><strong>${esc(edge.title)}</strong><small>${esc(nodes.get(edge.from).label)} →\u00a0${esc(nodes.get(edge.to).label)}\u00a0· ${kindLabel(edge.kind)}</small></span></a></li>`).join('')}</ol>`;
+  const scoreFigures = (passages) => passages.map(([side, passage], i) => `<figure class="iw-score paper" data-passage="${side}"><figcaption><span>${passages.length > 1 ? `${i + 1}. ` : ''}${esc(passage.label)}</span><a href="${esc(passage.checked)}" target="_blank" rel="noopener noreferrer">${esc(passage.sourceTitle ?? 'Score source')} ↗</a></figcaption><div class="iw-notation" aria-label="${esc(passage.label)}"><p>Loading the score…</p></div><div class="iw-score-actions"><button class="textbook-button" type="button" data-passage-play disabled>Play synthesised score</button>${passage.listen ? `<button class="textbook-button" type="button" data-hall-id="${esc(passage.listen.id)}" data-hall-t="${passage.listen.t}">Play the recording</button>` : ''}</div></figure>`).join('');
   async function engrave(passages, version) {
     if (!passages.length) return;
     const ABCJS = await loadAbcjs(app.root);
@@ -217,12 +236,12 @@ export function mount(app) {
   function showNode(id) {
     const node = nodes.get(id), list = adjacency.get(id);
     const incoming = list.filter((e) => e.to === id), outgoing = list.filter((e) => e.from === id);
-    cardOpen(`<span class="iw-card-kicker">${esc(node.kind)} · ${esc(node.dates)}</span><h2 id="iw-card-title">${esc(node.name)}</h2><p class="iw-card-lede">${list.length} ${list.length === 1 ? 'connection' : 'connections'}.</p>${node.url ? `<p><a class="iw-chapter-link" href="${new URL(node.url, app.root).href}">Composer chapter</a></p>` : ''}<h3>Influences received</h3>${incoming.length ? connectionList(incoming) : '<p class="iw-quiet">None listed.</p>'}<h3>Influences passed on</h3>${outgoing.length ? connectionList(outgoing) : '<p class="iw-quiet">None listed.</p>'}`);
+    cardOpen(`<span class="kicker">${esc(node.kind)}\u00a0· ${esc(node.dates)}</span><h2 id="iw-card-title">${esc(node.name)}</h2><p class="iw-card-lede">${list.length} ${list.length === 1 ? 'connection' : 'connections'}.</p>${node.url ? `<p><a class="iw-chapter-link" href="${new URL(node.url, app.root).href}">Composer chapter</a></p>` : ''}<h3>Influences received</h3>${incoming.length ? connectionList(incoming) : '<p class="iw-quiet">None listed.</p>'}<h3>Influences passed on</h3>${outgoing.length ? connectionList(outgoing) : '<p class="iw-quiet">None listed.</p>'}`);
   }
   async function showThread(id, thread, version) {
     const stops = data.edges.filter((e) => e.thread === id);
     const passages = [['thread', { abc: thread.abc, label: thread.name, checked: thread.source.url, sourceTitle: thread.source.title }]];
-    cardOpen(`<span class="iw-card-kicker">Recurring material · ${stops.length} connections</span><h2 id="iw-card-title">${esc(thread.name)}</h2>${scoreFigures(passages)}${thread.abcNote ? `<div class="iw-abc-note">${thread.abcNote}</div>` : ''}<div class="iw-card-lede">${thread.summary}</div><h3>Connections in date order</h3><p class="iw-quiet">Each date is that of a work or an encounter.</p>${stops.length ? connectionList(stops, true) : '<p>No connections listed.</p>'}`);
+    cardOpen(`<span class="kicker">Recurring material\u00a0· ${stops.length} ${stops.length === 1 ? 'connection' : 'connections'}</span><h2 id="iw-card-title">${esc(thread.name)}</h2>${scoreFigures(passages)}${thread.abcNote ? `<div class="iw-abc-note">${thread.abcNote}</div>` : ''}<div class="iw-card-lede">${thread.summary}</div><h3>Connections in date order</h3><p class="iw-quiet">Each date is that of a work or an encounter.</p>${stops.length ? connectionList(stops, true) : '<p>No connections listed.</p>'}`);
     stops.forEach((e, i) => { const el = edgeElements.get(e.id); el.style.setProperty('--trace-delay', `${Math.min(i * .3, 4)}s`); $('.iw-line', el).setAttribute('pathLength', '1'); el.classList.add('is-traced'); });
     await engrave(passages, version);
   }
@@ -230,7 +249,7 @@ export function mount(app) {
   async function showEdge(id, detail, version) {
     const summary = edges.get(id), passages = Object.entries(detail.exhibit ?? {}).filter(([, p]) => p?.abc);
     const art = detail.art ? `<figure class="iw-art"><a href="${esc(detail.art.url)}" target="_blank" rel="noopener noreferrer"><img src="${esc(new URL(detail.art.src, app.root).href)}" alt="${esc(detail.art.caption)}" loading="lazy" decoding="async"></a><figcaption>${esc(detail.art.caption)}</figcaption></figure>` : '';
-    cardOpen(`<span class="iw-card-kicker">${summary.year} · ${kindLabel(summary.kind)}</span><h2 id="iw-card-title">${esc(detail.title)}</h2><p class="iw-card-route"><a href="#node-${esc(summary.from)}">${esc(nodes.get(summary.from).name)}</a><span>→</span><a href="#node-${esc(summary.to)}">${esc(nodes.get(summary.to).name)}</a></p>${detail.works ? `<dl class="iw-works">${['from', 'to'].filter((side) => detail.works[side]).map((side) => `<div><dt>${side === 'from' ? 'Original work' : 'Later work'}</dt><dd>${esc(detail.works[side])}</dd></div>`).join('')}</dl>` : ''}<div class="iw-claim">${detail.claim}</div><div class="iw-evidence"><span class="iw-badge ${detail.status}">${esc(detail.status)}</span><p>${detail.status === 'documented' ? 'Documented in the sources below.' : detail.note}</p></div>${detail.status === 'documented' && detail.note ? `<div class="iw-quiet">${detail.note}</div>` : ''}${passages.length || art ? `<section class="iw-exhibit"><h3>${passages.length > 1 ? 'Score examples' : 'Exhibit'}</h3><div class="iw-exhibit-content${art ? ' has-art' : ''}">${art}<div>${scoreFigures(passages)}</div></div></section>` : ''}<section class="iw-source-section"><h3>Sources</h3>${sources(detail.sources)}</section><a class="iw-permalink" href="#edge-${esc(id)}">Link to this connection</a>`);
+    cardOpen(`<span class="kicker">${summary.year}\u00a0· ${kindLabel(summary.kind)}</span><h2 id="iw-card-title">${esc(detail.title)}</h2><p class="iw-card-route"><a href="#node-${esc(summary.from)}">${esc(nodes.get(summary.from).name)}</a><span>→</span><a href="#node-${esc(summary.to)}">${esc(nodes.get(summary.to).name)}</a></p>${detail.works ? `<dl class="iw-works">${['from', 'to'].filter((side) => detail.works[side]).map((side) => `<div><dt>${side === 'from' ? 'Original work' : 'Later work'}</dt><dd>${esc(detail.works[side])}</dd></div>`).join('')}</dl>` : ''}<div class="iw-claim">${detail.claim}</div><div class="iw-evidence"><span class="iw-badge ${detail.status}">${esc(detail.status)}</span><p>${detail.status === 'documented' ? 'Documented in the sources below.' : detail.note}</p></div>${detail.status === 'documented' && detail.note ? `<div class="iw-quiet">${detail.note}</div>` : ''}${passages.length || art ? `<section class="iw-exhibit"><h3>${passages.length > 1 ? 'Score examples' : 'Exhibit'}</h3><div class="iw-exhibit-content${art ? ' has-art' : ''}">${art}<div>${scoreFigures(passages)}</div></div></section>` : ''}<section class="iw-source-section"><h3>Sources</h3>${sources(detail.sources)}</section><a class="iw-permalink" href="#edge-${esc(id)}">Link to this connection</a>`);
     await engrave(passages, version);
   }
 

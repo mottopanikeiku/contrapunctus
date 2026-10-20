@@ -25,7 +25,7 @@ export default {
     { t: 0, label: 'A · First section', m: 'A' },
     { t: 136, label: 'B · Second section', m: 'B' },
     { t: 254, label: 'C · Third section', m: 'C' },
-    { t: 370, label: 'D · Final stretch', m: 'D' },
+    { t: 370, label: 'D · Final section', m: 'D' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Scoring and recorded ensemble', text: 'The score calls for flute, oboe, clarinet, alto saxophone, bassoon, violin and cello, with an optional tam-tam played off stage. The Victor labels bill the group as the “Victor Brazilian Orchestra” and do not name the players.', basis: 'documented', precision: 'passage', evidence: `Scoring: IMSLP, Chôros No.7, W199 (“tam-tam ad lib. (offstage)”), https://imslp.org/wiki/Ch%C3%B4ros_No.7,_W199_(Villa-Lobos,_Heitor). Billing on both labels of Victor 11214, and unnamed personnel: ${ITEM}.` },

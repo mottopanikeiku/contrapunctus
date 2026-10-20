@@ -57,7 +57,7 @@ export default {
       "t": 70,
       "kind": "world",
       "title": "Odeon disc 76563",
-      "text": "Odeon issued <i>Butterfly</i> with Chopin’s F-minor étude, Op. 25 No. 2, under catalogue number 76563. Both pieces share one recording matrix. This short G♭-major study is the second half of the original disc side.",
+      "text": "Odeon issued <i>Butterfly</i> with Chopin’s F minor étude, Op. 25 No. 2, under catalogue number 76563. Both pieces share one recording matrix. This short G♭ major study is the second half of the original disc side.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Printed Symposium 1146 track list gives both études the same Odeon catalogue number 76563 and matrix xxB 5731, dated 1912/3. https://archive.org/download/02-eugen-d-albert-syposium-1146/D%27Albert%20tracks.jpg. The Archive filename specifies March 1913; the printed discography gives only the year range."

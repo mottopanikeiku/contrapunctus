@@ -38,7 +38,7 @@ export default {
       "t": 86,
       "label": "A · D♭ major, running strings",
       "m": "A",
-      "mNote": "Short wind phrases over quick string figures"
+      "mNote": "Short wind phrases over quick string figures."
     },
     {
       "t": 276,

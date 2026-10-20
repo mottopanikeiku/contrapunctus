@@ -12,14 +12,14 @@ export default {
   recorded: '2024',
   license: 'CC BY 4.0',
   source: { file: 'File:Ives - Piano Sonata No.2 - I. Emerson (Eric Xi Xin Liang).flac' },
-  intro: '‘Emerson’ is the first movement of Ives’s Piano Sonata No. 2, ‘Concord, Mass., 1840–60’, and is his portrait of Emerson. Ives set out seven themes on the first page and developed them through the movement, in which Beethoven’s four-note motif returns repeatedly.',
+  intro: '“Emerson” is the first movement of Ives’s Piano Sonata No. 2, “Concord, Mass., 1840–60”, and is his portrait of Emerson. Ives set out seven themes on the first page and developed them through the movement, in which Beethoven’s four-note motif returns repeatedly.',
 
   sections: [
     { t: 0, label: 'Intro · Seven themes, solo piano', m: 'Intro', mNote: 'Short phrases overlap; each enters before the previous one ends.' },
     { t: 220, label: 'A · Lyrical verse theme, piano', m: 'A', mNote: 'A lyrical theme builds to the Beethoven climax.' },
     { t: 326, label: 'B · Beethoven motif within piano chords', m: 'B', mNote: 'The repeated-note figure sounds through the louder writing.' },
     { t: 370, label: 'C · High melody over rising bass', m: 'C', mNote: 'The descending tune gains notes with each repetition.' },
-    { t: 482, label: 'D · Song theme treated as fugue', m: 'D', mNote: 'Emerson phrase leads into contrapuntal piano lines' },
+    { t: 482, label: 'D · Song theme treated as fugue', m: 'D', mNote: 'Emerson phrase leads into contrapuntal piano lines.' },
     { t: 672, label: 'E · Return of earlier piano phrases', m: 'E', mNote: 'The opening episodes lead to another Beethoven climax.' },
     { t: 800, label: 'Coda · Beethoven echoes in distant keys', m: 'Coda', mNote: 'A major and E♭ major both sound in the quiet ending.' },
   ],
@@ -45,7 +45,7 @@ export default {
     {
       id: 'into-quiet-contrast', title: 'Entry of the verse theme',
       from: 'Intro · Seven themes, solo piano', to: 'A · Lyrical verse theme, piano', at: { t: 220 }, span: [207, 242],
-      how: '<p>The overlapping piano phrases give way to a quiet lyrical theme, labelled <i>verse</i>. Its clear upper line begins another episode, which later builds to the first large C minor outburst on Beethoven’s repeated-note figure.</p>',
+      how: '<p>The overlapping piano phrases are followed by a quiet lyrical theme, labelled <i>verse</i>. Its clear upper line begins another episode, which later builds to the first large C minor outburst on Beethoven’s repeated-note figure.</p>',
       devices: ['decrescendo', 'texture change'], basis: 'score-proportion', precision: 'passage',
       evidence: 'Gann, “Emerson”, third episode and Example 3: verse theme, false return and Beethoven climax. https://charlesives.org/node/6616',
     },

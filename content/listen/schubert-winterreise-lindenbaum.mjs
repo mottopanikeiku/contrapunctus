@@ -2,7 +2,7 @@ export default {
   id: 'schubert-winterreise-lindenbaum',
   composer: 'schubert',
   order: 4.05,
-  set: { id: 'schubert-winterreise', title: 'Winterreise, D. 911 (selected songs)', part: 5, of: 24 },
+  set: { id: 'schubert-winterreise', title: 'Winterreise, D. 911 (selected songs)', part: 5, of: 24, unit: 'songs' },
   work: 'Winterreise, D. 911',
   movement: '5. Der Lindenbaum',
   year: '1827',
@@ -11,7 +11,7 @@ export default {
   performers: 'Hans Duhan, baritone; Ferdinand Foll, piano',
   recorded: 'April–May 1928',
   source: { file: 'File:05 - Der Lindenbaum (CK 2950-2, ES 384).flac' },
-  intro: '“Der Lindenbaum” is the fifth song of Schubert’s Winterreise, D. 911, and concerns a linden tree by a well, linked with sweet dreams and with words carved into its bark. The piano depicts the rustling branches as the traveller passes the tree in the dark and is tempted by its offer of rest.',
+  intro: '“Der Lindenbaum” is the fifth song of Schubert’s <i>Winterreise</i>, D. 911, and concerns a linden tree by a well, linked with sweet dreams and with words carved into its bark. The piano depicts the rustling branches as the traveller passes the tree in the dark and is tempted by its offer of rest.',
   // Sources: Müller’s text: Wikisource, Die Winterreise (1824), https://de.wikisource.org/wiki/Die_Winterreise_(Müller)
   // https://en.wikipedia.org/wiki/Winterreise (Spaun’s recollection; keys)
   // https://de.wikipedia.org/wiki/Am_Brunnen_vor_dem_Tore (Silcher 1846; Gülke, Kühn and Youens as cited there)
@@ -20,8 +20,8 @@ export default {
   sections: [
     { t: 0, label: 'Intro · Piano introduction in E major', m: 'Intro', mNote: 'Fast, soft figures fill the three-beat bars.' },
     { t: 22, label: 'A · A tree beside the well', m: 'A', mNote: 'The singer describes dreams and words cut into bark.' },
-    { t: 73, label: 'B · Opening piano figure in E minor', m: 'B', mNote: 'The opening piano figure returns in E minor.' },
-    { t: 109, label: 'A′ · E major return, the tree’s invitation', m: 'A′', mNote: 'E major returns with the tree’s invitation.' },
+    { t: 73, label: 'B · Opening piano figure in E minor', m: 'B' },
+    { t: 109, label: 'A′ · E major return, the tree’s invitation', m: 'A′' },
     { t: 133, label: 'C · Cold wind; piano figures disturb E major', m: 'C', mNote: 'Low C♮ and restless piano figures disturb E major.' },
     { t: 172, label: 'A″ · Opening tune in the major', m: 'A″', mNote: 'The opening tune returns softly in the major.' },
     { t: 229, label: 'Coda · The piano’s rustling figure returns', m: 'Coda', mNote: 'The voice stops; the piano ends in E major.' },
@@ -69,7 +69,7 @@ export default {
       to: 'C · Cold wind; piano figures disturb E major',
       at: { t: 133 },
       span: [122, 146],
-      how: '<p>In bars 45–53 the piano plays a low C♮, marked forzando (<i>fz</i>) in bars 45 and 47, against the E-major context. G♮ also enters the piano’s rapid figures. The voice moves from the smooth tune to the harsher phrases of the cold-wind stanza and takes up C♮.</p>',
+      how: '<p>In bars 45–53 the piano plays a low C♮, marked forzando (<i>fz</i>) in bars 45 and 47, against the E major context. G♮ also enters the piano’s rapid figures. The voice moves from the smooth tune to the harsher phrases of the cold-wind stanza and takes up C♮.</p>',
       devices: ['chromatic slide', 'texture change'],
       basis: 'score-proportion',
       precision: 'passage',
@@ -95,7 +95,7 @@ export default {
       to: 'Coda · The piano’s rustling figure returns',
       at: { t: 229 },
       span: [220, 238],
-      how: '<p>The voice ends its repeated invitation to rest on E. The piano then takes up the fast figures of the introduction again, marked pianissimo, and plays them through to the final dominant–tonic cadence in E major, from a B-major chord to E major (bars 76–82).</p>',
+      how: '<p>The voice ends its repeated invitation to rest on E. The piano then takes up the fast figures of the introduction again, marked pianissimo, and plays them through to the final dominant–tonic cadence in E major, from a B major chord to E major (bars 76–82).</p>',
       devices: ['motivic link', 'perfect cadence'],
       basis: 'score-proportion',
       precision: 'passage',

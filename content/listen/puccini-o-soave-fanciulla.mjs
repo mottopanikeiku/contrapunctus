@@ -1,7 +1,7 @@
 export default {
   id: 'puccini-o-soave-fanciulla', composer: 'puccini', order: 5,
   work: 'La bohème', movement: 'Act I · O soave fanciulla',
-  set: { id: 'puccini-boheme-duets', title: 'La bohème — two duets', part: 1, of: 2 },
+  set: { id: 'puccini-boheme-duets', title: 'La bohème — two duets', part: 1, of: 2, unit: 'duets' },
   year: '1896', key: '', forces: 'Soprano, tenor and orchestra; acoustic scoring unestablished',
   performers: 'Nellie Melba, soprano; Enrico Caruso, tenor; orchestra uncredited', recorded: '24 March 1907',
   source: { file: 'File:Enrico Caruso - Nellie Melba - La bohème - O soave fanciulla (restored).ogg' },
@@ -9,7 +9,7 @@ export default {
   sections: [
     { t: 0, label: 'A · Rodolfo and Mimì’s duet', m: 'A', mNote: 'Rodolfo’s declaration is followed by Mimì’s reply.' },
     { t: 88, label: 'B · Mimì asks to come along', m: 'B', mNote: 'The lovers move from declarations to conversation.' },
-    { t: 158, label: 'C · Mimì and Rodolfo leave', m: 'C', mNote: 'Mimì and Rodolfo leave the attic together.' },
+    { t: 158, label: 'C · Mimì and Rodolfo leave', m: 'C' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'Duet, opening exchange', text: 'Rodolfo turns from the window and sees Mimì lit by the moon. He sings “O soave fanciulla, o dolce viso” (“O gentle girl, O sweet face”), and Mimì answers him.', basis: 'general', precision: 'passage', evidence: 'Illica and Giacosa, La bohème (1896), end of Act I: stage direction and the opening exchange of O soave fanciulla. https://it.wikisource.org/wiki/La_boh%C3%A8me/Quadro_primo . Translation ours.' },

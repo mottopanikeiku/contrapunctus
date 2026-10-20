@@ -8,8 +8,7 @@ export default {
     "id": "elgar-enigma",
     "title": "Enigma Variations, Op. 36",
     "part": 11,
-    "of": 14
-  },
+    "of": 14, "unit": "parts" },
   "year": "1898–99",
   "key": "G minor",
   "forces": "Orchestra",
@@ -24,7 +23,7 @@ export default {
       "t": 0,
       "label": "Var 11 · Dan in the river",
       "m": "Var 11",
-      "mNote": "Falling strings, bassoons and a bark"
+      "mNote": "Falling strings, bassoons and a bark."
     }
   ],
   "cues": [

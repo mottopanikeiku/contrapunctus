@@ -102,7 +102,9 @@ export function createTour(app) {
       const left = Math.max(3, rect.left - padding), top = Math.max(3, rect.top - padding);
       const right = Math.min(width - 3, rect.right + padding), bottom = Math.min(height - 3, rect.bottom + padding);
       ring.hidden = right <= left || bottom <= top;
-      Object.assign(ring.style, { left: `${left}px`, top: `${top}px`, width: `${Math.max(0, right - left)}px`, height: `${Math.max(0, bottom - top)}px` });
+      // The ring follows the target's corners: square for the site's controls, round for the Play circle.
+      const radius = getComputedStyle(target).borderRadius;
+      Object.assign(ring.style, { left: `${left}px`, top: `${top}px`, width: `${Math.max(0, right - left)}px`, height: `${Math.max(0, bottom - top)}px`, borderRadius: radius === '50%' ? '50%' : '0' });
     } else ring.hidden = true;
     if (mobile.matches) {
       // Keep fixed transport controls touchable below the bottom-docked card.
@@ -114,7 +116,8 @@ export function createTour(app) {
       const h = card.offsetHeight, w = card.offsetWidth;
       let left = width - w - 28, top = 100;
       if (rect) {
-        if (rect.right + w + 36 < width) { left = rect.right + 22; top = rect.top; }
+        // Beside the target, but for a target on the left it goes to the far right, clear of what the step shows (the score, a chart).
+        if (rect.right + w + 36 < width) { left = rect.left + rect.width / 2 < width / 2 ? Math.max(rect.right + 22, width - w - 28) : rect.right + 22; top = rect.top; }
         else if (rect.left - w - 36 > 0) { left = rect.left - w - 22; top = rect.top; }
         else { left = Math.max(20, Math.min(width - w - 20, rect.left)); top = rect.bottom + h + 30 < height ? rect.bottom + 22 : rect.top - h - 22; }
       }

@@ -15,7 +15,7 @@ export default {
   },
   "intro": "Paderewski played Chopin’s Waltz in C♯ minor, Op. 64 No. 2, in this 1917 recording. He was a strong advocate of rubato, the freedom to stretch and quicken a phrase, and Chopin’s score already requires the pianist to move between three different tempos.",
   "sections": [
-    { "t": 0, "label": "A · Tempo giusto theme in C♯ minor", "m": "A", "mNote": "Tempo giusto over a bass note and two chords" },
+    { "t": 0, "label": "A · Tempo giusto theme in C♯ minor", "m": "A", "mNote": "Tempo giusto over a bass note and two chords." },
     { "t": 40, "label": "B · Più mosso, quicker descending tune", "m": "B", "mNote": "Più mosso; the right hand plays running figures." },
     { "t": 64, "label": "C · D♭ major, more slowly", "m": "C", "mNote": "Più lento. A long melody alternating with notes in an inner voice." },
     { "t": 106, "label": "D · Quavers and opening melody, C♯ minor", "m": "D", "mNote": "C♯ minor returns with the two earlier tunes." },

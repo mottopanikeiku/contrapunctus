@@ -1,7 +1,7 @@
 export default {
   "intro": "Muriel Nguyen Xuan plays Chopin’s Waltz in D♭ major, Op. 64 No. 1, the <i>Minute Waltz</i>, on a Yamaha grand, in a recording made by Stéphane Magnenat in 2007. Between the fast outer sections, a melody marked <i>sostenuto</i> runs over the same three-beat bass.",
   "sections": [
-    { "t": 0, "label": "A · right-hand circling figure", "m": "A", "mNote": "The bass enters after four unaccompanied bars." },
+    { "t": 0, "label": "A · Right-hand circling figure", "m": "A", "mNote": "The bass enters after four unaccompanied bars." },
     { "t": 38, "label": "B · Sostenuto melody in longer notes", "m": "B", "mNote": "Sostenuto melody above the left hand’s three beats." },
     { "t": 70, "label": "A′ · Trills, return of quaver theme", "m": "A′", "mNote": "The left hand rests before the running figure returns." },
     { "t": 110, "label": "Coda · Descending scale to D♭", "m": "Coda", "mNote": "A long descending scale ends on the final D♭." }

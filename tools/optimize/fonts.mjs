@@ -86,7 +86,7 @@ export async function optimizeFonts(textFiles, out = OUT) {
     }
   }
   const points = [...used].sort((a, b) => a - b);
-  const css = [], fallbacks = [], manifest = [];
+  const css = [], fallbacks = [], manifest = [], faceRules = new Map();
   const influence = (await readFile(path.join(out, 'influence.html'), 'utf8')).match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/)?.[1] || '';
   let italicTitle = '';
   const romanTitle = influence.replace(/<em\b[^>]*>([\s\S]*?)<\/em>/g, (_, text) => { italicTitle += text; return ''; });
@@ -141,6 +141,7 @@ export async function optimizeFonts(textFiles, out = OUT) {
         }
         await save(path.join(out, 'assets/fonts', name), subset);
         css.push(`@font-face{font-family:'${family}';font-style:${style};font-weight:${weight};font-display:swap;src:url('__BASE__assets/fonts/${name}') format('woff2');unicode-range:${ranges(glyphs)}}`);
+        faceRules.set(name, css.at(-1));
         manifest.push({ id, family, style, weight, name, bytes: subset.length, source: file, sha, glyphs: glyphs.length, extra: Boolean(index) });
       }
       const target = font.variationAxes.wght ? font.getVariation({ wght: weight }) : font;
@@ -170,26 +171,35 @@ export async function optimizeFonts(textFiles, out = OUT) {
     manifest,
     head(base, relative) {
       // Measured LCP text faces, not a blanket pair of preloads. The composer
-      // mobile LCP is its portrait; reserve font preloading for desktop there.
+      // mobile LCP is its portrait; reserve font preloading for desktop there,
+      // where the epithet (italic 400) and the Concert Hall links (italic 500,
+      // roman 500 counts) would otherwise rewrap when their faces swap in.
       const roman = 'cormorant-garamond-normal', italic = 'cormorant-garamond-italic', body = 'eb-garamond-normal';
       const wanted = relative === 'index.html' ? [[body, '(max-width: 760px)'], [italic, '(min-width: 761px)']]
-        : /^composers\/(?!index\.html)/.test(relative) ? [[italic, '(min-width: 861px)']]
+        : /^composers\/(?!index\.html)/.test(relative) ? [[italic, '(min-width: 861px)'], [italic, '(min-width: 861px)', 500], [roman, '(min-width: 861px)', 500]]
         : relative === 'hall.html' ? [[body], [italic]]
         : relative.startsWith('compare/') ? [[body]]
         : relative === 'atlas-map.html' ? [[roman], [italic]]
         : relative === 'glossary.html' ? [[body], [italic, undefined, 500]] : [];
-      const preloads = wanted.map(([id, media, weight = 400]) => {
-        const face = manifest.find((face) => face.id === id && face.weight === weight && !face.extra);
-        return `<link rel="preload" data-cp-font-preload href="${base}assets/fonts/${face.name}" as="font" type="font/woff2" fetchpriority="high" crossorigin${media ? ` media="${media}"` : ''}>`;
-      }).join('');
+      const preloaded = wanted.map(([id, media, weight = 400]) => [manifest.find((face) => face.id === id && face.weight === weight && !face.extra), media]);
+      const preloads = preloaded.map(([face, media]) => `<link rel="preload" data-cp-font-preload href="${base}assets/fonts/${face.name}" as="font" type="font/woff2" fetchpriority="high" crossorigin${media ? ` media="${media}"` : ''}>`).join('');
+      // The preloaded faces are also declared here, so text set in them uses the
+      // real face from the first paint whenever the preload has already arrived,
+      // rather than swapping (and possibly rewrapping) once the deferred sheet applies.
+      const preloadedFaces = preloaded.map(([face, media]) => { const rule = faceRules.get(face.name).replace('__BASE__', base); return media ? `@media ${media}{${rule}}` : rule; }).join('');
       const title = relative === 'influence.html' ? `${titlePreloads.join('')}<style data-cp-critical>${titleFaces.join('')}.influence-page .iw-heading h1{font-family:'CP Influence Heading','Cormorant Garamond','Cormorant Garamond Fallback',serif}</style>` : '';
       const glyph = glyphPages.has(relative) ? `${glyphPreload}<style data-cp-critical>${glyphFace}</style>` : '';
       const entrance = relative === 'index.html' ? `${entrancePreloads.join('')}<style data-cp-critical>${entranceFaces.join('')}</style>` : '';
       // Local metric faces are available for the first paint without waiting
       // for a stylesheet round trip. The stable webfont sheet is asynchronous;
       // its relative URLs and the local-only fallback style survive SPA routing.
+      // It is applied after the first contentful paint: text paints at once in
+      // the metric-matched fallbacks, and the webfont downloads it starts never
+      // compete with the document, critical CSS or LCP image, even when the
+      // sheet itself arrives first. Explicit preloads (and their faces) are unaffected.
       const sheet = `${base}assets/css/fonts.css?v=${fontVersion}`;
-      return `<style data-cp-font-fallbacks>${fallbacks.join('')}</style>${preloads}<link rel="stylesheet" data-cp-fonts href="${sheet}" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="${sheet}"></noscript>${title}${glyph}${entrance}`;
+      const apply = "var s=this,t=PerformanceObserver.supportedEntryTypes;if(!t||t.indexOf('paint')<0)s.media='all';else new PerformanceObserver(function(l,o){if(l.getEntriesByName('first-contentful-paint').length){o.disconnect();s.media='all'}}).observe({type:'paint',buffered:true})";
+      return `<style data-cp-font-fallbacks>${fallbacks.join('')}</style>${preloads}${preloadedFaces ? `<style data-cp-critical>${preloadedFaces}</style>` : ''}<link rel="stylesheet" data-cp-fonts href="${sheet}" media="print" onload="${apply}"><noscript><link rel="stylesheet" href="${sheet}"></noscript>${title}${glyph}${entrance}`;
     },
   };
 }

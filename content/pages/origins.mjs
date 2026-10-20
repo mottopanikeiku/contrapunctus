@@ -8,7 +8,7 @@ export default {
   lessons: [
     {
       id: 'monochord', numeral: 'i', label: 'Southern Italy · c. 530 BC',
-      heading: 'Pythagoras and a piece of string',
+      heading: 'Pythagoras and the monochord',
       question: 'String lengths: octave one-half, fifth two-thirds',
       html: `
 <p class="dropcap">Pythagoras settled in Croton, in southern Italy, around 530 BC. Later writers told how he passed a blacksmith’s shop where the hammers sounded in consonant intervals, weighed the hammers and found the numerical ratios behind them. The legend is attached to the idea that the octave, the fifth and the fourth can be expressed as ratios of small whole numbers.</p>
@@ -45,7 +45,7 @@ V:1 name="Intervals"
     },
     {
       id: 'chant', numeral: 'ii', label: 'Rome and the Frankish churches · c. 750–1200',
-      heading: 'The day is sung',
+      heading: 'Gregorian chant',
       question: 'Single melody for psalm, prayer and Alleluia',
       html: `
 <p class="dropcap">Pepin and his son Charlemagne made Roman worship a concern of the Frankish kings. From the middle of the eighth century the chant of Rome spread through their churches and monasteries, and Frankish singers changed it as they sang it. This became the repertory now called Gregorian chant. Its name honours Pope Gregory the Great, who had died in 604.</p>
@@ -86,7 +86,7 @@ w: Te-ste _ Da-vid _ cum Si-byl-la.`,
     },
     {
       id: 'notation', numeral: 'iii', label: 'Arezzo and Rome · c. 1025',
-      heading: 'The pope tries a new tune',
+      heading: 'Guido of Arezzo',
       question: 'Guido’s staff and sight-singing',
       html: `
 <p class="dropcap">Around 1028, Guido of Arezzo brought his chant book to Pope John XIX in Rome. The pope turned its pages and studied the rules. Guido later told his fellow monk Michael of Pomposa that John would not leave his seat until he had learnt a verse he had never heard, because he wanted to try for himself what he found scarcely believable in the schoolboys.</p>
@@ -144,7 +144,7 @@ Saint John.`,
     },
     {
       id: 'organum', numeral: 'iv', label: 'Notre-Dame, Paris · c. 900–1200',
-      heading: 'Pérotin holds a word in the air',
+      heading: 'Organum at Notre-Dame',
       question: 'Three voices above a sustained chant note',
       html: `
 <p class="dropcap">An English theorist writing after 1280 remembered two Parisian masters. Léonin had made a great book of organum for worship at Notre-Dame; Pérotin had revised it and written music in three and four parts. The theorist, whose name is lost, called him “Pérotin the Great”. He named <i>Viderunt</i> and <i>Sederunt</i> among his excellent four-part pieces. This witness is known as Anonymous IV.</p>
@@ -204,7 +204,7 @@ D,6- | D,6- | D,6- | D,6 |]`,
     },
     {
       id: 'ars-nova', numeral: 'v', label: 'Machaut’s France · c. 1320–1370',
-      heading: 'The poet counts the beats',
+      heading: 'Machaut and the ars nova',
       question: 'Repeating rhythm with different notes each time',
       html: `
 <p class="dropcap">Guillaume de Machaut spent years in the service of John, King of Bohemia, before settling in Reims, where he was a canon of the cathedral. He wrote love songs, long narrative poems and sacred music, and saw them collected in carefully arranged manuscript books. In the illustrations to these books, Nature comes to him and gives him Sense, Rhetoric and Music.</p>
@@ -240,7 +240,7 @@ D2 E F | G2 A D | E2 F G | A2 D E | F2 G A |]`,
     },
     {
       id: 'polyphony', numeral: 'vi', label: 'Florence, Rome and England · c. 1430–1600',
-      heading: 'A greeting passes from voice to voice',
+      heading: 'Polyphony from Dufay to Tallis',
       question: 'Four separate vocal entries on one prayer',
       listen: [{ id: 'bach-wtc1-fugue-b-minor', t: 88, why: 'Bach’s four-part fugue gives the returning subject to voices inside the ensemble as well as to the highest part.' }],
       html: `
@@ -282,7 +282,7 @@ z4 | C,2 D, E, | G,2 F, E, | C,4 |]`,
     },
     {
       id: 'instruments', numeral: 'vii', label: 'Cremona and Lübeck · c. 1400–1700',
-      heading: 'The player’s hands and feet',
+      heading: 'Organs and string instruments',
       question: 'Sustained pipe tone and decaying plucked string',
       listen: [
         { id: 'bach-brandenburg-5-allegro', t: 22, why: 'The harpsichord’s plucked notes sound beneath the longer flute and violin phrases.' },
@@ -309,7 +309,7 @@ z4 | C,2 D, E, | G,2 F, E, | C,4 |]`,
     },
     {
       id: 'opera', numeral: 'viii', label: 'Florence and Mantua · c. 1570–1607',
-      heading: 'Everyone will speak musically',
+      heading: 'Monody and the first operas',
       question: 'Orpheus’s song and the ferryman’s refusal',
       listen: [
         { id: 'puccini-mi-chiamano-mimi', t: 0, why: 'Three centuries later, Mimì introduces herself in short sung phrases that follow the rhythms of conversation.' },
@@ -337,14 +337,14 @@ z4 | C,2 D, E, | G,2 F, E, | C,4 |]`,
     },
     {
       id: 'continuo', numeral: 'ix', label: 'Siena to Köthen · c. 1600–1722',
-      heading: 'Room for the accompanist',
+      heading: 'Basso continuo',
       question: 'Figured bass and the player’s realisation',
       listen: [{ id: 'couperin-nations-piemontaise', t: 0, why: 'The keyboard supplies harmony while the viol shares its bass line beneath two independent upper parts.' }],
       html: `
 <p class="dropcap">Agostino Agazzari objected to busy lute players. In his 1607 book on accompanying an ensemble, published in Siena, he complained of players who ran through divisions from beginning to end, especially when others were doing the same. The result, he wrote, was “soup and confusion”. In his view a good accompanist needed to hear the singer and leave space.</p>
 <p>The basso continuo gave that accompanist a written bass line and, where needed, figures specifying the notes above it. An organ, harpsichord or plucked-string instrument could fill in the chords; a bowed bass could share the lower line. Agazzari advised fuller chords for many voices and fewer notes for a soloist. He also noted the convenience of the system, since an organist expected to keep every vocal part in full score would need a library larger than a lawyer’s.</p>
 <aside class="note"><b>Numbers above a note</b>A 6 calls for a sixth above the bass, usually with a third as well. A bare sharp or flat commonly alters the third. The player counts from the note being sounded, so the figures change when the bass moves.</aside>
-<p>Over C, the accompanist might supply E and G. Over E marked with a 6, the notes G and C make the same C-major chord with a different note at the bottom. A 4–3 over G calls for C to move down to B. In the example below, C belongs to the preceding F-major chord; the bass then moves to G, and the held C becomes a dissonance that resolves down a step. The figures give the essential motion. The player chooses where to put the other notes and how much to play.</p>
+<p>Over C, the accompanist might supply E and G. Over E marked with a 6, the notes G and C make the same C major chord with a different note at the bottom. A 4–3 over G calls for C to move down to B. In the example below, C belongs to the preceding F major chord; the bass then moves to G, and the held C becomes a dissonance that resolves down a step. The figures give the essential motion. The player chooses where to put the other notes and how much to play.</p>
 <p>The cadence G–C in the bass, with B rising to C above it, became one of the familiar ways to close a phrase in C major. Composers could establish another key with another such cadence and then return to the home key. In his <i>Traité de l’harmonie</i> of 1722, [[rameau|Rameau]] explained chords through their roots and inversions, so that the lowest sounding note and the root of the chord can differ. His ‘fundamental bass’ follows those roots beneath the notes the players actually sound.</p>
 <aside class="note"><b>The Pythagorean comma</b>Twelve pure fifths overshoot seven octaves. A keyboard tuner must put the discrepancy somewhere, narrowing some intervals or leaving one unusable. Written C, E and G stay the same; the distances between them change.</aside>
 <p>Quarter-comma meantone narrows the fifths to make several major thirds pure, among them C–E. On an ordinary twelve-note keyboard, the remaining ‘wolf’ interval makes some distant keys painful. Some instruments supplied extra notes with split keys. Equal temperament spreads the compromise evenly through twelve semitones, giving every major third the same slightly wide span.</p>

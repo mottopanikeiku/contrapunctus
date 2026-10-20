@@ -4,7 +4,7 @@
   "composer": "handel",
   "group": "century",
   "work": "Messiah, HWV 56 — Hallelujah chorus",
-  "question": "How much room does each choir leave between Handel’s cries of ‘Hallelujah’?",
+  "question": "Choirs recorded in 1916, 1926 and 1953 sing the chorus’s chordal acclamations and overlapping entries.",
   "intro": "Handel sets the choir singing together in chords, then passes a tune from one voice to the next. Edison’s Oratorio Chorus recorded it in 1916; Sargent’s performance comes from the Royal Albert Hall in 1926. Scherchen’s fast 1953 account led Owen Jensen, writing in the <i>New Zealand Listener</i> in June 1954, to joke about “Handelian traffic inspectors”.",
   "recordings": [
     {
@@ -46,7 +46,7 @@
     {
       "label": "Final cadence in D major",
       "t": 186,
-      "note": "Choir and orchestra stop. After the rest the choir sings one broad ‘Hallelujah’, ending on a held D-major chord."
+      "note": "Choir and orchestra stop. After the rest the choir sings one broad ‘Hallelujah’, ending on a held D major chord."
     }
   ],
   "alignment": {

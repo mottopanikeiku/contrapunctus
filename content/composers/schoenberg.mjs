@@ -7,9 +7,9 @@ export default {
   epithet: 'Composer who abandoned tonality, continued to study Bach and Brahms, and wrote a minuet using all twelve notes.',
   portrait: { file: 'File:Gerstl, Richard - Arnold Schoenberg Seated (1906).jpg', caption: 'Arnold Schoenberg, painted by Richard Gerstl, c. 1907.', focus: '50% 25%' },
   facts: [
-    ['Training', 'Largely self-taught; lessons with Alexander Zemlinsky'],
+    ['Trained', 'Largely self-taught; lessons with Alexander Zemlinsky'],
     ['Pupils', 'Alban Berg and Anton Webern from 1904; later Hanns Eisler and John Cage'],
-    ['Teaching posts', 'Prussian Academy of Arts, Berlin, 1926–33; UCLA, 1936–44'],
+    ['Teaching', 'Prussian Academy of Arts, Berlin, 1926–33; UCLA, 1936–44'],
     ['Beyond composing', 'Painter; author of <i>Harmonielehre</i> (1911); founder of the Society for Private Musical Performances'],
   ],
   life: `
@@ -19,7 +19,7 @@ export default {
 <p>In 1899 he wrote <i>Verklärte Nacht</i> for six strings. In Richard Dehmel’s poem, a woman tells her lover that she is carrying another man’s child. He accepts her, and Schoenberg moves the music from D minor to D major, with muted strings and harmonics. He married Zemlinsky’s sister Mathilde in 1901. His <i>Brettl-Lieder</i>, written that year, helped him secure the conducting post at Berlin’s Überbrettl cabaret; Richard Strauss helped him find teaching work.</p>
 <p>In Berlin in 1903 he finished <i>Pelleas und Melisande</i>, a large orchestral treatment of the play [[debussy|Debussy]] had made into an opera. He returned to Vienna that year; [[berg|Berg]] and [[webern|Webern]] became his pupils the following year. [[mahler|Mahler]] gave him practical support and defended the music in public. The First Quartet set a whole four-movement cycle as one continuous movement. The Chamber Symphony of 1906 reduced the orchestra to fifteen soloists, five strings and ten winds, with a horn rising through a chain of fourths.</p>
 <h3><span class="sc">1908–11</span>Freely atonal music</h3>
-<aside class="note"><b>Two departures</b>The freely atonal music dates from around 1908. The twelve-tone method came more than a decade later. <i>Erwartung</i> and <i>Pierrot lunaire</i> were written without a governing key or an ordered twelve-note row.</aside>
+<aside class="note"><b>Two departures</b>The freely atonal music dates from around 1908. The twelve-note method came more than a decade later. <i>Erwartung</i> and <i>Pierrot lunaire</i> were written without a governing key or an ordered twelve-note row.</aside>
 <p>The Second Quartet brought a soprano into its last two movements. In the finale she sings Stefan George’s “I feel air from another planet”; the movement has no key signature, though an F♯ major chord closes the work. While Schoenberg was composing it, Mathilde left him for the painter Richard Gerstl. She returned; Gerstl killed himself in November 1908. At the quartet’s December première the audience laughed and shouted. Introducing the Kolisch Quartet’s recording in 1936–37, Schoenberg recalled that, after the singer stopped, the final string coda was heard quietly: “Perhaps even my enemies and adversaries might have felt something here.”</p>
 <p>In the summer of 1909, at Steinakirchen, he wrote the Five Orchestral Pieces, finished the Three Piano Pieces, Op. 11, and composed <i>Erwartung</i>. Marie Pappenheim’s monodrama follows a woman through a dark wood to her lover’s corpse. Zemlinsky conducted the first staging in Prague in 1924.</p>
 <p>In <i>Farben</i>, the third orchestral piece, a five-note chord passes from instrument to instrument, and the changes in its sound are the main event. Rehearsing the two-piano arrangement on 23 January 1912, Schoenberg complained in his diary: “I’m missing the sounds! The colours.” His <i>Harmonielehre</i>, published in 1911 and dedicated to Mahler’s memory, still taught the traditional rules of chords and resolutions. At its end he raised the possibility of making melodies from changes of instrumental colour.</p>
@@ -52,9 +52,9 @@ export default {
     { year: '1909', title: 'Erwartung', titleHtml: '<i>Erwartung</i> (Expectation)', cat: 'Op. 17', forces: 'Soprano and orchestra; monodrama to a text by Marie Pappenheim', note: 'The work has one character, a woman, and four continuous scenes set in a dark wood; her lover is dead. Zemlinsky conducted the first staging in Prague in 1924.' },
     { year: '1912', title: 'Pierrot lunaire', titleHtml: '<i>Pierrot lunaire</i>', cat: 'Op. 21', forces: 'Speaking voice and five instrumentalists', note: 'Twenty-one poems, three groups of seven, eight instruments shared by five players. The first performers held twenty-five ensemble rehearsals before the Berlin première.' },
     { year: '1921–23', title: 'Suite for Piano', cat: 'Op. 25', forces: 'Piano', note: 'One twelve-note row underlies all six pieces. Its last four notes, read backwards, spell B–A–C–H in German note names.' },
-    { year: '1926–28', title: 'Variations for Orchestra', cat: 'Op. 31', forces: 'Orchestra', note: 'An introduction, theme, nine variations and finale for large orchestra in twelve-tone writing. Bach’s four-note signature appears.' },
+    { year: '1926–28', title: 'Variations for Orchestra', cat: 'Op. 31', forces: 'Orchestra', note: 'An introduction, theme, nine variations and finale for large orchestra in twelve-note writing. Bach’s four-note signature appears.' },
     { year: '1930–32', title: 'Moses und Aron', titleHtml: '<i>Moses und Aron</i>', forces: 'Opera for soloists, chorus and orchestra; two acts completed', note: 'Moses carries the idea and Aron the persuasive singing voice. The third act survives as a libretto and musical sketches, without a completed score.' },
-    { year: '1942', title: 'Piano Concerto', cat: 'Op. 42', forces: 'Piano and orchestra', note: 'Four sections run without a break, beginning with a melody in the piano. Schoenberg’s sketches attach a private programme to the music, ending ‘But life goes on.’' },
+    { year: '1942', title: 'Piano Concerto', cat: 'Op. 42', forces: 'Piano and orchestra', note: 'Four sections run without a break, beginning with a melody in the piano. Schoenberg’s sketches attach a private programme to the music, ending “But life goes on.”' },
     { year: '1947', title: 'A Survivor from Warsaw', titleHtml: '<i>A Survivor from Warsaw</i>', cat: 'Op. 46', forces: 'Narrator, men’s chorus and orchestra', note: 'English narration and shouted German orders lead to the men’s Hebrew prayer, <i>Shema Yisrael</i>. Schoenberg wrote the text as well as the music.' },
   ],
   score: [
@@ -118,11 +118,11 @@ The moon pours down in waves at night.`, note: `<p>The poem turns moonlight into
     { work: 'Solo piano works', performers: 'Maurizio Pollini', label: 'Deutsche Grammophon', note: 'Pollini plays the dances of Op. 25 with sharp rhythmic attack. He takes the quieter Op. 11 pieces more inwardly.' },
     { work: 'Piano Concerto', performers: 'Maurizio Pollini, Berlin Philharmonic, Claudio Abbado', label: 'Deutsche Grammophon', note: 'A next step after Pollini’s solo disc. The coupling is Schumann’s Piano Concerto, which places Schoenberg beside one of his musical relatives.' },
   ],
-  lineage: { from: ['bach', 'beethoven', 'brahms', 'wagner', 'mahler', 'Alexander Zemlinsky'], to: ['berg', 'webern', 'boulez', 'cage', 'Hanns Eisler'], note: `<p>Zemlinsky taught him, Mahler defended him, and Bach and Brahms remained his models. Berg and Webern took his teaching into very different music, Berg towards opera and Webern towards compressed instrumental pieces. Cage’s lessons with him in California also began with musical craft. His pupils also took up his twelve-note method.</p>` },
+  lineage: { from: ['bach', 'beethoven', 'brahms', 'wagner', 'mahler', 'Alexander Zemlinsky'], to: ['berg', 'webern', 'boulez', 'cage', 'Hanns Eisler'], note: `<p>Zemlinsky taught him, Mahler defended him, and Bach and Brahms remained his models. Berg and Webern took his teaching into very different music, Berg towards opera and Webern towards compressed instrumental pieces. Cage’s lessons with him in California also began with musical craft.</p>` },
   reading: [
     'Joseph Auner, <i>A Schoenberg Reader: Documents of a Life</i> (Yale, 2003) — letters and writings placed beside the works and political events.',
     'Walter Frisch, <i>The Early Works of Arnold Schoenberg, 1893–1908</i> (California, 1993) — detailed analysis of the tonal music before the break.',
-    'Arnold Schoenberg, <i>Style and Idea</i>, edited by Leonard Stein, translated by Leo Black (California, 1975) — the essays on Brahms, composition and twelve-tone technique.',
+    'Arnold Schoenberg, <i>Style and Idea</i>, edited by Leonard Stein, translated by Leo Black (California, 1975) — the essays on Brahms, composition and twelve-note technique.',
     '<a href="https://www.schoenberg.at/en/schoenberg/timeline">Arnold Schönberg Center: chronology</a> and <a href="https://www.schoenberg.at/en/schoenberg/kompositionen/suite-for-piano-op-25">Op. 25 work commentary</a> — documentary dates and the row’s B–A–C–H construction.',
   ],
 };

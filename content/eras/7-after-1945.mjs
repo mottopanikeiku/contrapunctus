@@ -7,7 +7,7 @@ export default {
   from: 1945,
   to: 2026,
   accent: '#5d4b86',
-  subtitle: "Piano silent, orchestra playing",
+  subtitle: "Serialism, the studio, chance and minimalism",
   hero: {
     file: "File:Ad Parnassum, Paul Klee (1932, 274).jpg",
     artist: "Paul Klee",
@@ -34,7 +34,7 @@ export default {
 <aside class="note"><b>A player chooses the length</b>In [[feldman|Feldman]]’s <i>Durations</i>, the players begin together, then choose how long to hold their written notes within a broad tempo. The pitches are fixed, and the chords formed where the notes overlap change from performance to performance.</aside>
 <p>Feldman was in Houston for the opening of the Rothko Chapel in 1971 when its donors asked him for a piece. Fourteen paintings filled the octagonal room. In his <i>Rothko Chapel</i>, the viola begins with a wide-ranging solo, punctuated by quiet timpani; wordless choral chords sound between the instrumental phrases. Near the end, the viola plays a melody he had written as a schoolboy, over a repeating vibraphone figure. His later music asked for much longer stretches of quiet. String Quartet No. 2 can last more than five hours.</p>
 <p>[[ligeti|Ligeti]]’s <i>Atmosphères</i> (1961) writes forty-eight string lines that together sound as one slowly contracting chord. Twenty-eight violins descend while twenty violas and cellos climb, all playing so softly that the separate melodies merge. The technique is known as micropolyphony, counterpoint packed so closely that no single strand stands out. The canon narrows from three and a half octaves to a minor third. In another passage double basses six octaves lower cut off high piccolos, and near the end the piano’s strings are brushed.</p>
-<h3><span class="sc">Return and difference</span>Minimalism and tintinnabuli</h3>
+<h3><span class="sc">Repetition</span>Minimalism and tintinnabuli</h3>
 <p>Late in 1966, [[reich|Reich]] recorded a short piano pattern, made a tape loop and tried playing against it himself, and found that a technique discovered with tape recorders could be done by hand. In <i>Piano Phase</i> (1967), two pianists begin with the same repeated phrase. One holds the tempo while the other speeds up a little and moves ahead until the notes lock into a new alignment. Each shift brings different notes together. In this strand of [[workshop#minimalism|minimalism]], the process of repetition determines the music. The players work through the offsets until they reach unison again, then change the pattern.</p>
 <p>[[adams|John Adams]] developed <i>Shaker Loops</i> (1978) with students at the San Francisco Conservatory. Seven string players repeat small figures, and rapid bow tremolos and trills supply the shaking of the title. The piece grew from a failed quartet, which Adams enlarged to give the sound more force. In 1987 his <i>Nixon in China</i> was staged at Houston Grand Opera, with a verse libretto by Alice Goodman and a production by Peter Sellars. A large replica of Air Force One brought Nixon, his wife and Kissinger onto the stage to meet a line of Chinese officials.</p>
 <p>In [[part|Pärt]]’s <i>Für Alina</i> (1976), the piano’s two voices remain exposed. One moves through the scale; the other takes its notes from the B minor triad, B–D–F♯. This is tintinnabuli, in which a rule determines how the triadic voice accompanies the melody. The phrases grow by one note at a time and then contract. At one point the triadic voice touches C♯, outside the triad, and the pedal that has sustained the preceding sounds is released.</p>

@@ -4,14 +4,14 @@ export default {
   order: 2,
   work: 'Pictures at an Exhibition',
   movement: 'Promenade — Allegro giusto, nel modo russico',
-  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 1, of: 15 },
+  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 1, of: 15, unit: 'pieces' },
   year: '1874',
   key: 'B♭ major',
   forces: 'Orchestra',
   performers: 'Skidmore College Orchestra, per the Free Music Archive and Internet Archive; not named on the Commons page',
   recorded: '',
   source: { file: 'File:Modest Mussorgsky - pictures at an exhibition - promenade - allegro giusto, nel modo russico senza allegrezza, ma.ogg' },
-  intro: 'Mussorgsky’s Promenade from Pictures at an Exhibition, marked Allegro giusto, nel modo russico, begins with a solo trumpet, and the brass then take up the phrase. The bars are of unequal length, five beats and then six, and the Promenade represents Mussorgsky walking between Hartmann’s pictures.',
+  intro: 'Mussorgsky’s Promenade from <i>Pictures at an Exhibition</i>, marked Allegro giusto, nel modo russico, begins with a solo trumpet, and the brass then take up the phrase. The bars are of unequal length, five beats and then six, and the Promenade represents Mussorgsky walking between Hartmann’s pictures.',
 
   sections: [
     { t: 0, label: 'A · Trumpet alone, then brass', m: 'A', mNote: 'The tune alternates five-beat and six-beat bars.' },

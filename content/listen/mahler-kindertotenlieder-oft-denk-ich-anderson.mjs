@@ -6,8 +6,7 @@ export default {
     "id": "mahler-kindertotenlieder-anderson",
     "title": "Kindertotenlieder — Marian Anderson",
     "part": 4,
-    "of": 5
-  },
+    "of": 5, "unit": "songs" },
   "concert": false,
   "work": "Kindertotenlieder",
   "movement": "IV. Oft denk’ ich, sie sind nur ausgegangen",
@@ -25,13 +24,13 @@ export default {
       "t": 0,
       "label": "A · The children’s long walk",
       "m": "A",
-      "mNote": "Horn, violins and moving cellos introduce the song"
+      "mNote": "Horn, violins and moving cellos introduce the song."
     },
     {
       "t": 54,
       "label": "A′ · The promise repeated",
       "m": "A′",
-      "mNote": "Clarinets and bassoon surround the contralto"
+      "mNote": "Clarinets and bassoon surround the contralto."
     },
     {
       "t": 108,

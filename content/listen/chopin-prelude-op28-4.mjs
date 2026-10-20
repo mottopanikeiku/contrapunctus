@@ -14,8 +14,8 @@ export default {
   },
   "intro": "Ivan Ilić plays the Prelude in E minor, Op. 28 No. 4, marked Largo. The melody moves very little over twenty-five bars, and the chords beneath it descend by semitones.",
   "sections": [
-    { "t": 0, "label": "A · The chords descend", "m": "A", "mNote": "Repeated quavers beneath a lingering melody" },
-    { "t": 48, "label": "A′ · Opening melody returns, rising to forte", "m": "A′", "mNote": "The opening returns, then rises to a forte." },
+    { "t": 0, "label": "A · The chords descend", "m": "A", "mNote": "Repeated quavers beneath a slow-moving melody." },
+    { "t": 48, "label": "A′ · Opening melody returns, rising to forte", "m": "A′" },
     { "t": 90, "label": "Coda · Rest before E minor", "m": "Coda", "mNote": "A held rest separates the last chords." }
   ],
   "cues": [

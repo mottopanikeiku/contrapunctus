@@ -20,7 +20,7 @@ export default {
   intro: 'The composer conducts the BBC Symphony Orchestra in the first movement of his Fourth Symphony, which opens on a grinding semitone clash. The recording was made at Abbey Road in October 1937, two years after the première.',
   sections: [
     { t: 0, label: 'A · Fortissimo opening and two themes', m: 'A' },
-    { t: 325, label: 'B · thinner, quieter texture', m: 'B' },
+    { t: 325, label: 'B · Thinner, quieter texture', m: 'B' },
     { t: 424, label: 'Coda · Pianissimo, in a major key', m: 'Coda' },
   ],
   cues: [
@@ -46,7 +46,7 @@ export default {
       t: 70,
       kind: 'life',
       title: 'Paragraph in The Times',
-      text: 'Ursula Vaughan Williams traced the symphony to a newspaper paragraph in The Times that described an imagined symphony. Her husband reacted at breakfast with “il faut je compose cela”.',
+      text: 'Ursula Vaughan Williams traced the symphony to a newspaper paragraph in <i>The Times</i> that described an imagined symphony. Her husband reacted at breakfast with “il faut je compose cela”.',
       basis: 'documented',
       precision: 'passage',
       evidence: 'Ursula Vaughan Williams’s biography as quoted in Matthew-Walker’s Hyperion note: “So, without any philosophical, prophetic or political germ, No 4 took its life from a paragraph in The Times.” https://www.hyperion-records.co.uk/notes/68280-B.pdf',

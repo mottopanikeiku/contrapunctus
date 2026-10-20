@@ -6,12 +6,12 @@ export default {
   epithet: 'Accompanist to Frederick the Great and composer of keyboard music known for abrupt interruptions and trembling single notes.',
   portrait: { file: 'File:Carl Philipp Emanuel Bach.jpg', caption: 'Carl Philipp Emanuel Bach, pastel portrait, Staatsbibliothek zu Berlin.', focus: '50% 28%' },
   facts: [
-    ['Teacher', 'His father, [[bach|Johann Sebastian Bach]]; studied law in Leipzig and Frankfurt an der Oder'],
+    ['Trained', 'His father, [[bach|Johann Sebastian Bach]]; studied law in Leipzig and Frankfurt an der Oder'],
     ['Posts', 'Frederick II’s harpsichordist, 1740–67 · Hamburg music director, 1768–88'],
     ['At the keyboard', '<i>Essay on the True Art of Playing Keyboard Instruments</i>, 1753 and 1762'],
-    ['Catalogue keys', 'Wq: Alfred Wotquenne · H: E. Eugene Helm'],
+    ['Catalogue', 'Wq: Alfred Wotquenne · H: E. Eugene Helm'],
   ],
-  quote: { text: 'A musician can move others only if he is moved himself.', source: 'Essay on the True Art of Playing Keyboard Instruments, Part I, chapter 3, §13 (1753); our translation' },
+  quote: { text: 'A musician can move others only if he is moved himself.', source: '<i>Essay on the True Art of Playing Keyboard Instruments</i>, Part I, chapter 3, §13 (1753); our translation' },
   life: `
 <p class="dropcap">On 12 October 1772, Charles Burney dined with Carl Philipp Emanuel Bach in Hamburg. Bach’s wife, his lawyer son, his daughter and three or four friends were present; upstairs was a music room hung with pictures, drawings and prints of more than a hundred and fifty musicians. Before dinner Bach had played his Silbermann clavichord; after dinner Burney persuaded him to return to the keyboard, and he played until nearly eleven. As he played, his eyes became fixed and his lower lip dropped. Burney wrote that on a long note Bach could draw from the clavichord “a cry of sorrow and complaint”.</p>
 <h3><span class="sc">1714–38</span>Youth, Leipzig and Frankfurt</h3>

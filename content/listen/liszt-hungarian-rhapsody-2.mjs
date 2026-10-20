@@ -22,7 +22,7 @@ export default {
     },
     {
       "t": 174,
-      "label": "A′ · Lassan: minor and major",
+      "label": "A′ · Lassan, minor and major",
       "m": "A′",
       "mNote": "The slow phrases alternate between minor and major keys."
     },
@@ -30,7 +30,7 @@ export default {
       "t": 372,
       "label": "B · Friska, the fast dance",
       "m": "B",
-      "mNote": "Repeated figures start softly, then the tempo increases"
+      "mNote": "Repeated figures start softly, then the tempo increases."
     },
     {
       "t": 626,
@@ -40,7 +40,7 @@ export default {
     },
     {
       "t": 734,
-      "label": "Coda · Prestissimo, F♯-major octaves",
+      "label": "Coda · Prestissimo, F♯ major octaves",
       "m": "Coda",
       "mNote": "Prestissimo octaves run up and down the keyboard."
     }
@@ -50,7 +50,7 @@ export default {
       "t": 0,
       "kind": "music",
       "title": "Opening of the Lassan",
-      "text": "The piano opens on a C♯-major chord, although C♯ minor is the home key of the slow section. By bar 6 the music has moved to C♯ minor. This is the Lassan, the slow first half of the rhapsody.",
+      "text": "The piano opens on a C♯ major chord, although C♯ minor is the home key of the slow section. By bar 6 the music has moved to C♯ minor. This is the Lassan, the slow first half of the rhapsody.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "The opening major chord, establishment of C♯ minor by bar 6 and Lassan form are described at https://en.wikipedia.org/wiki/Hungarian_Rhapsody_No._2."
@@ -86,7 +86,7 @@ export default {
       "t": 372,
       "kind": "form",
       "title": "Opening of the Friska",
-      "text": "The Friska begins quietly in F♯ minor, on a C♯-major chord. A theme from the Lassan returns in dance rhythm. Tonic and dominant chords alternate beneath it, and the tempo increases towards the main tune in F♯ major.",
+      "text": "The Friska begins quietly in F♯ minor, on a C♯ major chord. A theme from the Lassan returns in dance rhythm. Tonic and dominant chords alternate beneath it, and the tempo increases towards the main tune in F♯ major.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "The Friska’s opening harmony, recalled theme and move to F♯ major are described at https://en.wikipedia.org/wiki/Hungarian_Rhapsody_No._2, under Form."
@@ -123,7 +123,7 @@ export default {
     {
       "id": "into-friska",
       "title": "C♯ becomes the dance’s dominant",
-      "from": "A′ · Lassan: minor and major",
+      "from": "A′ · Lassan, minor and major",
       "to": "B · Friska, the fast dance",
       "at": {
         "t": 372
@@ -132,7 +132,7 @@ export default {
         362,
         384
       ],
-      "how": "<p>The Lassan is in C♯ minor, and the music moves from there into F♯ minor. The Friska begins on a C♯-major chord, which now acts as the dominant, and takes up a tune from the slow section. Repeated figures in the piano set up the dance as tonic and dominant alternate underneath.</p>",
+      "how": "<p>The Lassan is in C♯ minor, and the music moves from there into F♯ minor. The Friska begins on a C♯ major chord, which now acts as the dominant, and takes up a tune from the slow section. Repeated figures in the piano set up the dance as tonic and dominant alternate underneath.</p>",
       "devices": [
         "tempo change",
         "motivic link",
@@ -168,7 +168,7 @@ export default {
       "id": "final-drive",
       "title": "Prestissimo in F♯ major",
       "from": "Link · F♯ minor with optional cadenza",
-      "to": "Coda · Prestissimo, F♯-major octaves",
+      "to": "Coda · Prestissimo, F♯ major octaves",
       "at": {
         "t": 734
       },

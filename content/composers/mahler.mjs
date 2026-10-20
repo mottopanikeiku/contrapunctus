@@ -36,7 +36,7 @@ export default {
     { aspect: 'Orchestration', glyph: '𝄞', html: `<p>Mahler used enormous forces like chamber music. A single line can stay audible inside the full orchestra, and instruments are placed at the extremes of their range (the solo double bass in the First, the high clarinets in E♭ that play above the marches). Mahler’s scores are covered in instructions: <i>Schalltrichter auf</i> (bells up), <i>ohne Ausdruck</i> (without expression), <i>wie ein Naturlaut</i>.</p><p>He brought outdoor sounds indoors: offstage brass bands, cowbells, a posthorn, sleigh bells, a birch switch (<i>Rute</i>) on the drum shell, mandolin and guitar, and the hammer of the Sixth.</p>` },
     { aspect: 'Harmony', glyph: '♮', html: `<p>Wagnerian chromaticism laid over a largely diatonic, folk-song melodic language. His characteristic gestures include the major triad that turns to minor (the motto of the Sixth), the plagal and modal turns of chorale and folk tune, and, in late works, suspended and unresolved sonorities. <i>Das Lied von der Erde</i> ends on a chord with an added sixth that does not resolve.</p><p>At the climax of the Adagio of the Tenth, Mahler built a nine-note dissonance around a high A sustained by the trumpet.</p>` },
     { aspect: 'Melody', glyph: '𝅘𝅥', html: `<p>Mahler’s melodies came from song. Themes from the <i>Wayfarer</i> songs and the <i>Wunderhorn</i> settings were carried over into the symphonies; the first movement of the First is built on <i>Ging heut’ morgen übers Feld</i>. Long lines are extended by variation and are constantly re-harmonised.</p>` },
-    { aspect: 'Rhythm & genre', glyph: '𝄾', html: `<p>Two rhythmic types keep returning: the march (military, funeral, grotesque) and the <i>Ländler</i>, the rustic Austrian dance in heavy three. They can interrupt the sublime without warning. In the First’s funeral march, oboes and clarinets bring in a street band, accompanied by bass drum and cymbal.</p>` },
+    { aspect: 'Rhythm and genre', glyph: '𝄾', html: `<p>Two rhythmic types keep returning: the march (military, funeral, grotesque) and the <i>Ländler</i>, the rustic Austrian dance in heavy three. They can interrupt the sublime without warning. In the First’s funeral march, oboes and clarinets bring in a street band, accompanied by bass drum and cymbal.</p>` },
     { aspect: 'Form', glyph: '𝄋', html: `<p>The Third has six movements, and in them sonata form is stretched, interrupted and narrated. A long opening march is followed by a minuet, then by movements of animals, a human voice and angels. The last movement is a slow hymn without words. The symphony begins in D minor and ends in D major.</p>` },
     { aspect: 'Counterpoint', glyph: '𝄢', html: `<p>Increasingly polyphonic. In the Fifth’s scherzo and the Ninth’s <i>Rondo-Burleske</i> fugal lines run against one another at speed; in <i>Das Lied</i> a melody and its decorated variant sound together (heterophony).</p>` },
   ],
@@ -125,7 +125,7 @@ V:2
       relation: 'shared-context',
       type: 'painting', frame: 'gilt',
       file: 'File:Klimt - Diesen Kuss der ganzen Welt.jpeg',
-      artist: 'Gustav Klimt', title: 'Beethoven Frieze: This Kiss to the Whole World', date: '1902',
+      artist: 'Gustav Klimt', title: 'Beethoven Frieze: This Kiss to the Whole World', date: '1901–02',
       medium: 'Casein paint, gilt stucco and applied materials on plaster', collection: 'Secession Building, Vienna',
       note: `<p>Klimt painted the frieze for the Vienna Secession’s 1902 exhibition in honour of Beethoven, as a visual reading of the Ninth Symphony; its last panel takes its title from Schiller’s <i>Ode to Joy</i>. Before the exhibition opened, Mahler conducted six trombonists on the staircase in his own arrangement of a passage from the Ninth’s finale. Alfred Roller, who would design Mahler’s opera productions, also contributed to the exhibition.</p>`,
     },
@@ -192,7 +192,7 @@ Forever … forever …`,
 
   lineage: {
     from: ['beethoven', 'wagner', 'bruckner', 'Hans Rott', 'Des Knaben Wunderhorn', 'Bohemian folk song and military bands'],
-    to: ['schoenberg', 'berg', 'webern', 'shostakovich', 'britten', 'Leonard Bernstein'],
+    to: ['schoenberg', 'berg', 'webern', 'shostakovich', 'britten', 'bernstein'],
     note: `<p>Mahler supported Schoenberg when Vienna jeered him, and in 1912 Schoenberg gave a lecture in Prague in tribute to Mahler. [[berg|Berg]]’s <i>Three Orchestral Pieces</i> and [[shostakovich|Shostakovich]]’s Fourth Symphony are Mahlerian in scale and in their juxtaposition of the grotesque and the tragic; [[britten|Britten]] heard the Fourth Symphony at sixteen and wrote in 1943 that he felt more affection for it than for any piece in the world. Bernstein’s first complete recorded cycle, made in the 1960s, helped bring the symphonies to a large new audience.</p>`,
   },
 

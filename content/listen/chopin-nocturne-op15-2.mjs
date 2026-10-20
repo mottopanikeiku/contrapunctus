@@ -12,11 +12,11 @@ export default {
   "source": {
     "file": "File:Chopin - Nocturne No. 5 in F-sharp major, Op. 15 No. 2 (Luke Faulkner).flac"
   },
-  "intro": "Luke Faulkner plays the Nocturne in F♯ major, Op. 15 No. 2, marked Larghetto. The F♯-major melody becomes more and more ornamented, a quick middle section in murmuring figuration follows, and when the opening returns it carries new ornaments.",
+  "intro": "Luke Faulkner plays the Nocturne in F♯ major, Op. 15 No. 2, marked Larghetto. The F♯ major melody becomes more and more ornamented, a quick middle section in murmuring figuration follows, and when the opening returns it carries new ornaments.",
   "sections": [
-    { "t": 0, "label": "A · Song with curling ornaments", "m": "A", "mNote": "The right hand sings above widely spaced bass and chords" },
-    { "t": 86, "label": "B · Twice as fast, sotto voce", "m": "B", "mNote": "Dotted rhythms over quick inner notes and a leaping bass" },
-    { "t": 132, "label": "A′ · The ornamented song returns", "m": "A′", "mNote": "The opening melody comes back with new flourishes" }
+    { "t": 0, "label": "A · Song with curling ornaments", "m": "A", "mNote": "The right hand sings above widely spaced bass and chords." },
+    { "t": 86, "label": "B · Twice as fast, sotto voce", "m": "B", "mNote": "Dotted rhythms over quick inner notes and a leaping bass." },
+    { "t": 132, "label": "A′ · The ornamented song returns", "m": "A′", "mNote": "The opening melody comes back with new flourishes." }
   ],
   "cues": [
     {

@@ -19,7 +19,7 @@ export default {
     { t: 345, label: 'B · Nubian love song in G', m: 'B' },
     { t: 430, label: 'C · F♯ episode, chirruping and tam-tam', m: 'C', mNote: 'Soft chirruping and tam-tam under a pentatonic melody.' },
     { t: 482, label: 'D · Cadenza in Spanish-guitar style', m: 'D' },
-    { t: 560, label: 'A′ · opening material recalled, fading out', m: 'A′', mNote: 'The opening material comes back and the music fades out.' },
+    { t: 560, label: 'A′ · Opening material recalled, fading out', m: 'A′', mNote: 'The opening material comes back and the music fades out.' },
   ],
   cues: [
     {

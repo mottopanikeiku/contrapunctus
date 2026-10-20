@@ -6,13 +6,13 @@ export default {
   born: { year: 1881, date: '25 March 1881', place: 'Nagyszentmiklós, Hungary (now Sânnicolau Mare, Romania)' },
   died: { year: 1945, date: '26 September 1945', place: 'New York' },
   era: 'modernism',
-  epithet: 'He saw a future for concert music in village songs and used a phonograph to record how they were sung.',
+  epithet: 'Composer who saw a future for concert music in village songs and used a phonograph to record how they were sung.',
   portrait: { file: 'File:Béla Bartók WDL11594.png', caption: 'Béla Bartók, 1922; photograph in the League of Nations Archives, Geneva.', focus: '50% 25%' },
   facts: [
-    ['Teachers', 'István Thomán, a Liszt pupil, and Hans Koessler; Budapest Academy, 1899–1903'],
-    ['Work', 'Piano professor in Budapest, 1907–34; folk-music research in Budapest and at Columbia University'],
+    ['Trained', 'István Thomán, a Liszt pupil, and Hans Koessler; Budapest Academy, 1899–1903'],
+    ['Posts', 'Piano professor in Budapest, 1907–34; folk-music research in Budapest and at Columbia University'],
     ['Collecting', 'Hungarian, Slovak and Romanian villages; Biskra, 1913; Turkey with Adnan Saygun, 1936'],
-    ['Scores', 'Six quartets, three piano concertos, two violin concertos, three stage works and <i>Mikrokosmos</i>'],
+    ['Output', 'Six quartets, three piano concertos, two violin concertos, three stage works and <i>Mikrokosmos</i>'],
   ],
 
   life: `
@@ -29,7 +29,7 @@ export default {
 <p><i>The Miraculous Mandarin</i> is set in a city. Three men use a girl to lure customers whom they can rob; the stranger who arrives survives their attempts to kill him until she embraces him. Bartók began the score in 1918–19 and orchestrated it in 1924. It is written with sliding wind lines and pounding repetitions, and its theatre is very different from that of <i>Bluebeard</i>. The 1926 Cologne première provoked a local ban.</p>
 <p>War and new borders had curtailed his collecting. He worked increasingly on the recordings and notebooks already in hand, while tours and Universal Edition carried his compositions abroad. The Dance Suite, commissioned for Budapest’s fiftieth anniversary in 1923, joined invented tunes in several folk idioms. That year he divorced Márta and married his piano pupil Ditta Pásztory. Their son Péter was born in 1924. Ditta later became his partner at a second piano.</p>
 <h3><span class="sc">1926–39</span>Piano works, quartets and <i>Cantata profana</i></h3>
-<p>In 1926 he wrote the Piano Sonata, the First Piano Concerto and <i>Out of Doors</i>. In these works the piano is used percussively, and elsewhere its decaying sounds are left to sustain. In ‘The Night’s Music’, quiet dissonant chords lie behind isolated calls and a sustained melody.</p>
+<p>In 1926 he wrote the Piano Sonata, the First Piano Concerto and <i>Out of Doors</i>. In these works the piano is used percussively, and elsewhere its decaying sounds are left to sustain. In “The Night’s Music”, quiet dissonant chords lie behind isolated calls and a sustained melody.</p>
 <aside class="note"><b>The quartet’s arch</b>In the Fourth Quartet, I answers V and II answers IV, around a single slow movement. The Fifth has the same five-part symmetry, with a scherzo at its centre.</aside>
 <p>The Second Quartet, of 1917, had a slow and desolate ending. The Third, in 1927, was laid out as a set of connected sections, with scraping bows, slides and close imitation. The Fourth, a year later, had a singing cello in its quiet central movement, and its fourth movement was played entirely pizzicato, including strings snapped against the fingerboard. Elizabeth Sprague Coolidge commissioned the Fifth in 1934. Its central scherzo divides nine quavers as 4+2+3.</p>
 <p>For <i>Cantata profana</i> in 1930, he took Romanian texts about nine hunters transformed into stags and wrote his own melodies. Explaining the work to Octavian Beu on 10 January 1931, he described his guiding idea as “brotherhood between peoples, a brotherhood despite all war and strife”. He said that he remained a Hungarian composer while welcoming Slovak, Romanian and Arabic influences. In the text, the nine sons cannot return to their father’s house because their antlers will no longer fit through the door.</p>
@@ -56,7 +56,7 @@ export default {
     { year: '1911', title: 'Duke Bluebeard’s Castle', titleHtml: '<i>Duke Bluebeard’s Castle</i>', cat: 'Op. 11 · Sz. 48 · BB 62', forces: 'Two singers, spoken prologue and orchestra', note: 'Judith opens seven doors, each with a different orchestral sound. At the fifth, Bluebeard’s kingdom appears in C major above the organ.' },
     { year: '1918–19', title: 'The Miraculous Mandarin', titleHtml: '<i>The Miraculous Mandarin</i>', cat: 'Op. 19 · Sz. 73 · BB 82', forces: 'Pantomime for large orchestra and wordless mixed chorus', note: 'The Cologne première in 1926 caused a scandal and led to a ban. The complete stage score continues beyond the familiar suite and adds a wordless chorus in its final scenes.' },
     { year: '1923', title: 'Dance Suite', cat: 'Sz. 77 · BB 86', forces: 'Orchestra', note: 'Written for the fiftieth anniversary of Budapest’s unification. Five dances and a finale join invented folk-like melodies, with a recurring ritornello between them.' },
-    { year: '1926', title: 'Out of Doors', titleHtml: '<i>Out of Doors</i>', cat: 'Sz. 81 · BB 89', forces: 'Solo piano', note: 'Five pieces, from ‘With Drums and Pipes’ to ‘The Chase’. In ‘The Night’s Music’, isolated calls and a long melody enter over soft dissonant chords.' },
+    { year: '1926', title: 'Out of Doors', titleHtml: '<i>Out of Doors</i>', cat: 'Sz. 81 · BB 89', forces: 'Solo piano', note: 'Five pieces, from “With Drums and Pipes” to “The Chase”. In “The Night’s Music”, isolated calls and a long melody enter over soft dissonant chords.' },
     { year: '1928', title: 'String Quartet No. 4', cat: 'Sz. 91 · BB 95', forces: 'Two violins, viola and cello', note: 'The muted second movement has a plucked counterpart in the fourth. Between them, a cello plays over nearly motionless strings.' },
     { year: '1930', title: 'Cantata profana', titleHtml: '<i>Cantata profana</i>', cat: 'Sz. 94 · BB 100', forces: 'Tenor, baritone, double mixed chorus and orchestra', note: 'Nine hunters become stags and can no longer enter their father’s house. Bartók adapted Romanian texts but composed the melodies himself; the première was in London in 1934.' },
     { year: '1936', title: 'Music for Strings, Percussion and Celesta', cat: 'Sz. 106 · BB 114', forces: 'Two string orchestras, percussion, piano, harp and celesta', note: 'Paul Sacher commissioned it for his Basle Chamber Orchestra. A slow fugue opens a slow–fast–slow–fast sequence of movements, and its theme returns in the later movements.' },

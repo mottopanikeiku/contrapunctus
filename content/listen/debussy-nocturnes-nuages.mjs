@@ -17,7 +17,7 @@ export default {
   intro: 'In <i>Nuages</i> (Modéré), the first of Debussy’s three <i>Nocturnes</i>, clarinets and bassoons play a slow rocking figure beneath a recurring cor anglais phrase. A flute and harp briefly play a contrasting passage.',
   sections: [
     { t: 0, label: 'A · Rocking chords, cor anglais', m: 'A', mNote: 'The cor anglais phrase returns above slow wind chords.' },
-    { t: 268, label: 'B · Flute and harp in F♯', m: 'B', mNote: 'A five-note melody over held, divided strings' },
+    { t: 268, label: 'B · Flute and harp in F♯', m: 'B', mNote: 'A five-note melody over held, divided strings.' },
     { t: 322, label: 'A′ · Cor anglais theme again', m: 'A′', mNote: 'The opening phrase comes back above quiet lower strings.' },
     { t: 372, label: 'Coda · Wind fragments and plucked strings', m: 'Coda', mNote: 'Short wind phrases sound over the last pizzicato notes.' },
   ],

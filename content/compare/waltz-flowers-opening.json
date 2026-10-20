@@ -1,10 +1,10 @@
 {
   "id": "waltz-flowers-opening",
-  "title": "Waltz of the Flowers in three recordings",
+  "title": "Waltz of the Flowers, in three recordings",
   "composer": "tchaikovsky",
   "group": "century",
   "work": "Waltz of the Flowers — principal-waltz passage",
-  "question": "What happens to Tchaikovsky’s waltz when a concert band takes the place of the strings?",
+  "question": "Stokowski, Robinson and a concert band play the harp flourish, the horn tune and the waltz that follows.",
   "intro": "The harp plays a flourish, and four horns begin the dance. Stokowski’s Philadelphia orchestra and Robinson’s London players keep Tchaikovsky’s scoring, in which the violins then take over. Lawrence Odom’s concert-band arrangement gives the string parts to wind players.",
   "recordings": [
     { "listen": "tchaikovsky-waltz-flowers-stokowski-side1", "label": "Leopold Stokowski, Philadelphia Orchestra", "year": 1934, "note": "The Philadelphia Orchestra in Camden’s Trinity Church studio, with the original horn melody and string accompaniment." },

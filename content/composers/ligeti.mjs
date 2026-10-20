@@ -9,7 +9,7 @@ export default {
   epithet: 'Composer of orchestral works in which dozens of moving parts are contained within one sustained sound, and of piano études in which the two hands play at different speeds.',
   portrait: { file: 'File:Componist Gyorgy Ligeti , kop, Bestanddeelnr 932-8516.jpg', caption: 'György Ligeti, photographed by Marcel Antonisse for Anefo, 1 February 1984.', focus: '50% 22%' },
   facts: [
-    ['Training', 'Ferenc Farkas in Cluj; Sándor Veress and Farkas at Budapest’s Liszt Academy'],
+    ['Trained', 'Ferenc Farkas in Cluj; Sándor Veress and Farkas at Budapest’s Liszt Academy'],
     ['Exile', 'Left Hungary in December 1956; worked at Cologne’s WDR electronic studio, 1957–58'],
     ['Teaching', 'Budapest 1950–56 · Stockholm 1961–71 · Hamburg 1973–89'],
     ['Output', 'One opera · two string quartets · concertos · eighteen piano études'],
@@ -125,8 +125,7 @@ and let perpetual light shine on them.`,
   ],
   recordings: [
     { work: 'Musica ricercata · Piano Études', performers: 'Pierre-Laurent Aimard', label: 'Sony Classical', note: 'The recommended starting point for the piano music. Aimard keeps firm rhythmic control and plays the quieter studies lightly. This volume contains <i>Musica ricercata</i> and the first fifteen études, through <i>White on White</i>.' },
-    { work: 'Cello, Violin and Piano Concertos', performers: 'Jean-Guihen Queyras, Saschko Gawriloff, Pierre-Laurent Aimard; Ensemble intercontemporain, Pierre Boulez', label: 'Deutsche Grammophon', note: 'A concerto collection with Aimard as pianist. Gawriloff, for whom Ligeti wrote the Violin Concerto, plays the solo part in that work. The three works span the 1960s and the later period.' },
-    { work: 'Atmosphères · Lontano', performers: 'Vienna Philharmonic, Claudio Abbado', label: 'Deutsche Grammophon', note: 'On <i>Wien Modern</i>, Abbado keeps the orchestral texture lean enough for individual lines to be heard. The recording is a good choice for the changing inner detail; the same disc includes Boulez’s <i>Notations</i> and music by Nono and Rihm.' },
+    { work: 'Cello, Violin and Piano Concertos', performers: 'Jean-Guihen Queyras, Saschko Gawriloff, Pierre-Laurent Aimard; Ensemble intercontemporain, Pierre Boulez', label: 'Deutsche Grammophon', note: 'Gawriloff, for whom Ligeti wrote the Violin Concerto, plays the solo part in that work. The three works span the 1960s and the later period.' },
   ],
   lineage: {
     from: ['bartok', 'debussy', 'webern', 'Conlon Nancarrow', 'Central African polyphony'],

@@ -6,8 +6,7 @@ export default {
     "id": "mahler-kindertotenlieder",
     "title": "Kindertotenlieder",
     "part": 4,
-    "of": 5
-  },
+    "of": 5, "unit": "songs" },
   "work": "Kindertotenlieder",
   "movement": "IV. Oft denk’ ich, sie sind nur ausgegangen",
   "year": "1901–04",
@@ -24,19 +23,18 @@ export default {
       "t": 0,
       "label": "A · “They have only gone out”",
       "m": "A",
-      "mNote": "Horn and strings above moving cellos"
+      "mNote": "Horn and strings above moving cellos."
     },
     {
       "t": 54,
       "label": "A′ · They will come home",
       "m": "A′",
-      "mNote": "Clarinet and bassoon accompany the renewed promise"
+      "mNote": "Clarinet and bassoon accompany the renewed promise."
     },
     {
       "t": 110,
       "label": "A″ · Same tune, changed words",
-      "m": "A″",
-      "mNote": "The same tune returns with changed words."
+      "m": "A″"
     }
   ],
   "cues": [

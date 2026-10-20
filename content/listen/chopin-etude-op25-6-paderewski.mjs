@@ -1,10 +1,10 @@
 export default {
-  intro: 'Ignacy Jan Paderewski made this recording of Chopin’s Étude in G♯ minor, Op. 25 No. 6 (<i>Thirds</i>), in 1923, four years after he served as Poland’s prime minister. The piano part calls for fast paired notes in the right hand and a quiet voice.',
+  intro: 'Ignacy Jan Paderewski made this recording of Chopin’s Étude in G♯ minor, Op. 25 No. 6 (<i>Thirds</i>), in 1923, four years after he served as Poland’s prime minister. The étude is marked <i>sotto voce</i> and calls for fast paired notes in the right hand.',
   sections: [
     { t: 0, label: 'A · Thirds in G♯ minor, sotto voce', m: 'A', mNote: 'The study opens with a right-hand trill, marked sotto voce.' },
     { t: 42, label: 'B · Left-hand melody under right-hand thirds', m: 'B', mNote: 'The left hand plays a slower melody beneath quick right-hand thirds.' },
     { t: 56, label: 'C · Paired notes across the keyboard', m: 'C', mNote: 'The right hand plays chromatic scales in paired notes.' },
-    { t: 116, label: 'Coda · The last bars of thirds', m: 'Coda', mNote: 'The running pairs draw towards the close' },
+    { t: 116, label: 'Coda · The last bars of thirds', m: 'Coda', mNote: 'The paired notes continue to the close.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Right-hand thirds, <i>sotto voce</i>', text: 'Chopin marks the étude <i>sotto voce</i>. The right hand plays trills and runs in thirds throughout, two notes sounding together at each step. The left hand has a slower melodic line beneath them.', basis: 'score-proportion', precision: 'passage', evidence: 'Sotto voce and continuous right-hand thirds: https://chopin.nifc.pl/en/chopin/kompozycja/192. Left-hand melody: Fred Yu, https://www.ourchopin.com/analysis/etude25.html.' },

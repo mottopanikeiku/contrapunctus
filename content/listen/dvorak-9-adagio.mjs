@@ -19,7 +19,7 @@ export default {
   "forces": "Orchestra",
   "performers": "Musopen recording; performers uncredited",
   "recorded": "",
-  "intro": "The first movement of the <i>New World</i> Symphony, Dvořák’s Symphony No. 9 in E minor, Op. 95, opens with an Adagio in the lower strings before a horn call enters. The horn call returns in all four movements, including passages far from E minor.",
+  "intro": "The first movement of the “New World” Symphony, Dvořák’s Symphony No. 9 in E minor, Op. 95, opens with an Adagio in the lower strings before a horn call enters. The horn call returns in all four movements, including passages far from E minor.",
   "sections": [
     { "t": 0, "label": "Intro · Adagio, low strings, interrupted phrases", "m": "Intro", "mNote": "Violas and cellos begin softly, then horns and winds enter." },
     { "t": 120, "label": "A · Horn theme in E minor", "m": "A", "mNote": "Horns play the theme over quiet string chords." },
@@ -175,12 +175,12 @@ export default {
     },
     {
       "id": "join-2",
-      "title": "Flutes and oboes begin the G-minor theme",
+      "title": "Flutes and oboes begin the G minor theme",
       "from": "A · Horn theme in E minor",
       "to": "B · Flutes and oboes in G minor",
       "at": { "t": 180 },
       "span": [170, 195],
-      "how": "<p>The running string phrases grow quieter. From bar 91, flutes and oboes play the G-minor tune above sustained strings, and a solo horn repeats one note underneath. The melody uses F♮ in place of the leading note F♯.</p>",
+      "how": "<p>The running string phrases grow quieter. From bar 91, flutes and oboes play the G minor tune above sustained strings, and a solo horn repeats one note underneath. The melody uses F♮ in place of the leading note F♯.</p>",
       "devices": ["decrescendo", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -201,7 +201,7 @@ export default {
     },
     {
       "id": "join-4",
-      "title": "From the G-major close to the development",
+      "title": "From the G major close to the development",
       "from": "C · Flute theme in G major",
       "to": "Dev · Horn call, modulating",
       "at": { "t": 312 },

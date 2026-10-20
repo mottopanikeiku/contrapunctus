@@ -1,11 +1,11 @@
 export default {
   id: 'puccini-vissi-darte', composer: 'puccini', order: 3,
   work: 'Tosca', movement: 'Act II · Vissi d’arte',
-  set: { id: 'puccini-tosca-arias', title: 'Tosca — three arias', part: 2, of: 3 },
+  set: { id: 'puccini-tosca-arias', title: 'Tosca — three arias', part: 2, of: 3, unit: 'arias' },
   year: '1900', key: '', forces: 'Soprano and accompaniment; acoustic scoring unestablished',
   performers: 'Emmy Destinn, soprano; accompanists uncredited', recorded: '23 April 1914',
   source: { file: "File:Emmy Destinn, Vissi d'arte (Tosca).ogg" },
-  intro: 'In Act II of Tosca, Scarpia demands Tosca’s body as the price of her lover’s freedom, and Tosca, herself a singer, responds with the prayer “Vissi d’arte”, in which she puts her life in art and love before God. Emmy Destinn sings Tosca.',
+  intro: 'In Act II of <i>Tosca</i>, Scarpia demands Tosca’s body as the price of her lover’s freedom, and Tosca, herself a singer, responds with the prayer “Vissi d’arte”, in which she puts her life in art and love before God. Emmy Destinn sings Tosca.',
   sections: [
     { t: 0, label: 'A · Tosca’s account of her life', m: 'A', mNote: 'Tosca names art, love and her secret acts of charity.' },
     { t: 74, label: 'B · Tosca’s gifts to the church', m: 'B', mNote: 'The soprano sings of her gifts to the church.' },

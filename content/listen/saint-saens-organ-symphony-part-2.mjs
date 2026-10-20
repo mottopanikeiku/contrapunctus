@@ -4,7 +4,7 @@ export default {
   order: 3,
   work: 'Symphony No. 3 in C minor, Op. 78 “Organ”',
   movement: 'Part II — Scherzo · Presto · Maestoso · Allegro',
-  set: { id: 'saint-saens-symphony-3', title: 'Symphony No. 3 in C minor, Op. 78 “Organ”', part: 2, of: 2 },
+  set: { id: 'saint-saens-symphony-3', title: 'Symphony No. 3 in C minor, Op. 78 “Organ”', part: 2, of: 2, unit: 'parts' },
   year: '1886',
   key: 'C minor',
   forces: 'Orchestra, organ and piano four hands',
@@ -16,10 +16,10 @@ export default {
   },
   intro: 'Part II of the “Organ” Symphony opens with a C minor scherzo and a Presto with scales in both hands for the piano, after which the organ enters with a huge C major chord. In Munch’s 1947 reading, a long quiet passage over G leads to that chord.',
   sections: [
-    { t: 0, label: 'A · Scherzo: Allegro moderato, C minor', m: 'A' },
+    { t: 0, label: 'A · Scherzo, Allegro moderato, C minor', m: 'A' },
     { t: 82, label: 'B · Presto in C major, with piano scales', m: 'B' },
     { t: 338, label: 'Link · Soft build over pedal G', m: 'Link', mNote: 'A soft pedal G leads to the organ’s C major.' },
-    { t: 415, label: 'C · Maestoso: organ chord and chorale', m: 'C', mNote: 'The main theme returns as a chorale.' },
+    { t: 415, label: 'C · Maestoso, organ chord and chorale', m: 'C', mNote: 'The main theme returns as a chorale.' },
     { t: 688, label: 'Coda · Final section', m: 'Coda' },
   ],
   cues: [

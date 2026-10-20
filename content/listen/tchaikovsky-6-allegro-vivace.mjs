@@ -19,14 +19,14 @@ export default {
   "performers": "Musopen Symphony",
   "recorded": "",
   "license": "Public domain",
-  "intro": "This is the third movement, Allegro molto vivace, of Tchaikovsky’s Symphony No. 6 in B minor, Op. 74 “Pathétique”. Over fast string figures, a march begins as a clarinet tune played quietly and builds to a G-major ending with bass drum and cymbals. The symphony’s slow final movement follows it.",
+  "intro": "This is the third movement, Allegro molto vivace, of Tchaikovsky’s Symphony No. 6 in B minor, Op. 74 “Pathétique”. Over fast string figures, a march begins as a clarinet tune played quietly and builds to a G major ending with bass drum and cymbals. The symphony’s slow final movement follows it.",
   "sections": [
-    { "t": 0, "label": "A · Racing strings, quick woodwinds", "m": "A", "mNote": "Strings run in groups of three beneath wind replies" },
+    { "t": 0, "label": "A · Racing strings, quick woodwinds", "m": "A", "mNote": "Strings run in groups of three beneath wind replies." },
     { "t": 118, "label": "B · March in E major, clarinets", "m": "B", "mNote": "The clarinets play the first complete statement of the march." },
     { "t": 235, "label": "A′ · The opening strings return", "m": "A′", "mNote": "The opening scherzo resumes after the march." },
-    { "t": 330, "label": "Link · Held D before the march", "m": "Link", "mNote": "A held D prepares the march’s return in G" },
-    { "t": 385, "label": "B′ · March in G major, bass drum, cymbals", "m": "B′", "mNote": "The march returns with bass drum and cymbals." },
-    { "t": 540, "label": "Coda · Scales falling to G major", "m": "Coda", "mNote": "Strings and low brass descend to the final G-major chords" }
+    { "t": 330, "label": "Link · Held D before the march", "m": "Link", "mNote": "A held D prepares the march’s return in G." },
+    { "t": 385, "label": "B′ · March in G major, bass drum, cymbals", "m": "B′" },
+    { "t": 540, "label": "Coda · Scales falling to G major", "m": "Coda", "mNote": "Strings and low brass descend to the final G major chords." }
   ],
   "cues": [
     {
@@ -87,7 +87,7 @@ export default {
       "t": 450,
       "kind": "life",
       "title": "Sketch inscription, February 1893",
-      "text": "In his February 1893 sketches, Tchaikovsky noted that his first job after returning from a trip was to compose this ending. He wanted the G-major march “in a solemnly triumphant manner”.",
+      "text": "In his February 1893 sketches, Tchaikovsky noted that his first job after returning from a trip was to compose this ending. He wanted the G major march “in a solemnly triumphant manner”.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Tchaikovsky’s inscription in the third-movement sketches, 11 February 1893 Old Style (23 February New Style), quoted at https://en.tchaikovsky-research.net/pages/Symphony_No._6."
@@ -119,7 +119,7 @@ export default {
       "to": "B · March in E major, clarinets",
       "at": { "t": 118 },
       "span": [108, 133],
-      "how": "<p>Fragments of the march collect into a complete E-major tune for unison clarinets. Beneath its longer notes the strings continue their running accompaniment.</p>",
+      "how": "<p>Fragments of the march collect into a complete E major tune for unison clarinets. Beneath its longer notes the strings continue their running accompaniment.</p>",
       "devices": ["texture change", "motivic link", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -153,7 +153,7 @@ export default {
     },
     {
       "id": "join-4",
-      "title": "From the D pedal to the G-major march",
+      "title": "D pedal into the G major march",
       "from": "Link · Held D before the march",
       "to": "B′ · March in G major, bass drum, cymbals",
       "at": { "t": 385 },

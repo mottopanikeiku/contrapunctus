@@ -7,7 +7,7 @@ export default {
   order: 80,
   work: 'Kinderszenen, Op. 15',
   movement: 'No. 8 · Am Kamin — At the Fireside',
-  set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 8, of: 13 },
+  set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 8, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'F major',
   forces: 'Piano',
@@ -25,7 +25,7 @@ export default {
   cues: [
     { t: 0, kind: 'music', title: 'Opening bars in F major', text: 'The right hand carries the tune in F major over short chords and bass notes. Rests in the accompanying voices leave gaps beneath the melody. The metre is 2/4.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel first edition, plate 6016, p. 12, opening eight bars: F major, 2/4, piano, rests in the accompanying voices. https://s9.imslp.org/files/imglnks/usimg/f/fe/IMSLP03060-Schumann-Op015Brt6016.pdf' },
     { t: 20, kind: 'form', title: 'Second strain, long bass notes', text: 'The second part begins <i>mezzo-forte</i>. Bass notes now last a whole bar, while the melody and its short accompanying chords continue above them. The right hand plays accented notes as the phrase extends.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel first edition, p. 12, second strain: mezzo-forte, minim bass notes and accents above the melody.' },
-    { t: 54, kind: 'music', title: 'Closing bars and fermata', text: 'The closing bars have accents in both hands. A long ritardando follows as the music descends the keyboard. The final F-major chord spans from a low F to the quiet right hand and is held under a fermata.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel first edition, p. 12, final system: accents, ritardando, F-major closing chord and fermatas.' },
+    { t: 54, kind: 'music', title: 'Closing bars and fermata', text: 'The closing bars have accents in both hands. A long ritardando follows as the music descends the keyboard. The final F major chord spans from a low F to the quiet right hand and is held under a fermata.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel first edition, p. 12, final system: accents, ritardando, F-major closing chord and fermatas.' },
   ],
 
   transitions: [
@@ -36,7 +36,7 @@ export default {
       to: 'B · Fuller melody over held bass notes',
       at: { t: 20 },
       span: [12, 28],
-      how: '<p>The opening F-major phrase closes at the double bar after the first eight bars. The next phrase begins <i>mezzo-forte</i>, and the left hand plays long bass notes beneath the short chords. The melody continues in quavers and semiquavers, now with accents on its turns.</p>',
+      how: '<p>The opening F major phrase closes at the double bar after the first eight bars. The next phrase begins <i>mezzo-forte</i>, and the left hand plays long bass notes beneath the short chords. The melody continues in quavers and semiquavers, now with accents on its turns.</p>',
       devices: ['texture change'],
       basis: 'score-proportion',
       precision: 'passage',
@@ -49,7 +49,7 @@ export default {
       to: 'Coda · Accents, then the low F',
       at: { t: 54 },
       span: [46, 62],
-      how: '<p>The second ending leads past the repeat into new descending figures. Flats enter the inner parts, and both hands play accents before the ritardando. The bass moves down to low F beneath the closing F-major chord.</p>',
+      how: '<p>The second ending leads past the repeat into new descending figures. Flats enter the inner parts, and both hands play accents before the ritardando. The bass moves down to low F beneath the closing F major chord.</p>',
       devices: ['link passage', 'tempo change', 'fermata'],
       basis: 'score-proportion',
       precision: 'passage',

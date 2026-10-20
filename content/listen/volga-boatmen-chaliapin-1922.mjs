@@ -15,7 +15,7 @@ export default {
     archive: { item: '78_song-of-the-volga-boatmen_feodor-chaliapin-chaliapin-and-koenemeann_gbia0309170a', file: 'Song of the Volga Boatmen - Feodor Chaliapin.mp3' },
     rights: { basis: 'us-published-before-cutoff', published: 1922, evidence: ['https://adp.library.ucsb.edu/index.php/objects/refer/162251', 'https://adp.library.ucsb.edu/index.php/matrix/refer/2000007686'] },
   },
-  intro: 'The Song of the Volga Boatmen, a song of the men who hauled barges, in an arrangement by Chaliapin and Keneman for solo bass and orchestra. Chaliapin sings, and George W. Byng conducts the orchestra.',
+  intro: '<i>Song of the Volga Boatmen</i>, a song of the men who hauled barges, is heard in an arrangement by Chaliapin and Keneman for solo bass and orchestra. Chaliapin sings, and George W. Byng conducts the orchestra.',
   sections: [
     { t: 0, label: 'A · The hauling song, solo bass', m: 'A', mNote: 'A solo bass sings the work song.' },
     { t: 52, label: 'B · Bass and orchestra', m: 'B' },

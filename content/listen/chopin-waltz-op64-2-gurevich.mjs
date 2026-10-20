@@ -19,8 +19,8 @@ export default {
     { "t": 42, "label": "B · Più mosso, descending quavers", "m": "B", "mNote": "Più mosso; the right hand plays running quavers." },
     { "t": 76, "label": "C · Più lento in D♭ major", "m": "C", "mNote": "Più lento: the melody moves at a slower tempo." },
     { "t": 114, "label": "D · Song melody and returning quavers", "m": "D", "mNote": "The long melody leads back towards C♯ minor." },
-    { "t": 164, "label": "E · The chordal melody again", "m": "E", "mNote": "Long notes return between the right hand’s flourishes" },
-    { "t": 192, "label": "F · Last return of the quaver refrain", "m": "F", "mNote": "Descending quavers carry the waltz to its close" }
+    { "t": 164, "label": "E · The chordal melody again", "m": "E", "mNote": "Long notes return between the right hand’s flourishes." },
+    { "t": 192, "label": "F · Last return of the quaver refrain", "m": "F", "mNote": "Descending quavers carry the waltz to its close." }
   ],
   "cues": [
     {

@@ -16,7 +16,7 @@ export default {
   "intro": "Dorian Pâquet plays Chopin’s Prelude in E minor, Op. 28 No. 4, marked Largo, on a Chavanne piano made in 2006.",
   "sections": [
     { "t": 0, "label": "A · Melody over repeated left-hand quaver chords", "m": "A", "mNote": "The left-hand chords change one note at a time." },
-    { "t": 50, "label": "A′ · B returns above the chords", "m": "A′", "mNote": "The second phrase rises higher, then descends" },
+    { "t": 50, "label": "A′ · B returns above the chords", "m": "A′", "mNote": "The second phrase rises higher, then descends." },
     { "t": 94, "label": "Coda · The last three chords", "m": "Coda", "mNote": "A fermata over a rest precedes the cadence." }
   ],
   "cues": [

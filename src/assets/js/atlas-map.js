@@ -1,7 +1,21 @@
 // The Map is a page module: the router owns navigation and the single player.
 const NS = 'http://www.w3.org/2000/svg';
 const escape = (s = '') => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
-const dateText = (p) => `${p.from}${p.to && p.to !== p.from ? `–${p.to}` : ''}`;
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+// Same reading as the chapter list: "1809-05-31" is "31 May 1809"; a range with a full date takes a spaced dash.
+const readableDate = (date) => { const [y, m, d] = String(date).split('-'); return m ? `${d ? `${Number(d)}\u00a0` : ''}${MONTHS[Number(m) - 1]}\u00a0${y}` : y; };
+const span = (from, to) => {
+  if (!to || to === from) return readableDate(from);
+  const a = readableDate(from), b = readableDate(to);
+  return a.includes('\u00a0') || b.includes('\u00a0') ? `${a}\u00a0– ${b}` : `${a}–${b}`;
+};
+const dateText = (p) => span(p.from, p.to);
+// Place numbers as ranges, at most two runs on a map badge: "1, 7, 15", "13, 16–19 …".
+const numberRuns = (numbers) => {
+  const runs = [];
+  for (const n of numbers) { const last = runs.at(-1); if (last && n === last[1] + 1) last[1] = n; else runs.push([n, n]); }
+  return runs.map(([a, b]) => a === b ? `${a}` : b === a + 1 ? `${a}, ${b}` : `${a}–${b}`);
+};
 const svgNode = (tag, attrs = {}, parent) => {
   const node = document.createElementNS(NS, tag);
   for (const [key, value] of Object.entries(attrs)) node.setAttribute(key, value);
@@ -52,13 +66,17 @@ export async function mount(app) {
   let menuBounds = { top: 0, bottom: height };
   const pointers = new Map();
 
+  // Accessible names start with the visible nameplate ("J. S. Bach"), then the full name where it differs.
+  const personName = (c) => c.name.includes(c.label) ? c.name : `${c.label} (${c.name})`;
   for (const [index, c] of data.composers.entries()) {
-    const anchor = svgNode('g', { class: 'am-person am-true-marker', role: 'button', tabindex: '-1', 'data-geo-kind': 'person', 'data-composer': c.id, 'aria-label': c.name }, $('.am-people'));
+    const anchor = svgNode('g', { class: 'am-person am-true-marker', role: 'button', tabindex: '-1', 'data-geo-kind': 'person', 'data-composer': c.id, 'aria-label': personName(c) }, $('.am-people'));
     const dot = svgNode('circle', { r: 2.8, class: 'am-person-dot' }, anchor);
     const tether = svgNode('path', { class: 'am-tether' }, anchor);
     const icon = svgNode('g', { class: 'am-person-icon' }, anchor);
-    const title = svgNode('title', {}, icon); title.textContent = c.name;
+    const title = svgNode('title', {}, icon); title.textContent = personName(c);
     const face = svgNode('g', { class: 'am-face' }, icon);
+    // Each marker carries a transparent hit area: 24 px across, 44 px on touch screens (atlas-map.css).
+    svgNode('circle', { r: 12, class: 'am-hit' }, face);
     svgNode('ellipse', { rx: 19, ry: 24, class: 'am-outer-frame' }, face);
     svgNode('ellipse', { rx: 16, ry: 21, class: 'am-portrait-ground' }, face);
     const image = c.portrait ? svgNode('image', { x: -16, y: -21, width: 32, height: 42, preserveAspectRatio: 'xMidYMin slice', 'clip-path': 'url(#am-oval)' }, face) : null;
@@ -71,14 +89,14 @@ export async function mount(app) {
     c.places.forEach((p, i) => {
       if (p.path) {
         const node = svgNode('path', { d: p.path, class: `am-trail${p.kind === 'travelled' ? ' am-travel' : ''}` }, $('.am-trails'));
-        const glint = p.kind === 'travelled' ? svgNode('circle', { r: 2, class: 'am-journey-glint am-hidden', 'aria-hidden': 'true' }, $('.am-trails')) : null;
-        if (glint) glint.style.offsetPath = `path("${p.path}")`;
-        trails.push({ node, glint, p, c });
+        trails.push({ node, p, c });
       }
       if (p.kind === 'premiere') {
         const g = svgNode('g', { class: 'am-premiere am-true-marker', role: 'button', tabindex: '-1', 'data-geo-kind': 'premiere', 'data-geo-x': p.x, 'data-geo-y': p.z, 'data-composer': c.id, 'data-place': i, 'aria-label': `${p.work}, ${p.y}` }, $('.am-events'));
         const icon = svgNode('g', {}, g);
-        const star = svgNode('text', { 'text-anchor': 'middle', y: 8, class: 'am-star' }, icon); star.textContent = '✧';
+        svgNode('circle', { r: 12, class: 'am-hit' }, icon);
+        // A printer's lozenge, drawn rather than set, so it never depends on a font.
+        svgNode('path', { d: 'M0,-6.5L4.2,0L0,6.5L-4.2,0Z', class: 'am-lozenge' }, icon);
         const label = svgNode('text', { x: 18, y: -7, class: 'am-premiere-name' }, icon); label.textContent = p.work;
         const title = svgNode('title', {}, g); title.textContent = `${c.name}: ${p.work} · ${p.y}${c.died && p.y > c.died ? ' · posthumous première' : ''}`;
         events.push({ node: g, icon, p });
@@ -88,7 +106,7 @@ export async function mount(app) {
   for (const city of data.cities) {
     const node = svgNode('g', { class: 'am-city am-true-marker', role: 'button', tabindex: '-1', 'data-geo-kind': 'city', 'data-geo-x': city.x, 'data-geo-y': city.y, 'data-city': city.id, 'aria-label': `Composers in ${city.name}` }, $('.am-cities'));
     const icon = svgNode('g', {}, node);
-    svgNode('circle', { r: 14, class: 'am-city-hit' }, icon);
+    svgNode('circle', { r: 14, class: 'am-hit' }, icon);
     svgNode('circle', { r: 2.5, class: 'am-city-dot' }, icon);
     const label = svgNode('text', { x: 7, y: 4, class: 'am-city-name' }, icon); label.textContent = city.name;
     citySprites.push({ node, icon, city });
@@ -120,7 +138,6 @@ export async function mount(app) {
     if (previousScale !== scale) {
       for (const { node, icon, city } of citySprites) { node.setAttribute('transform', `translate(${city.x} ${city.y})`); icon.setAttribute('transform', `scale(${inverse})`); }
       for (const { node, icon, p } of events) { node.setAttribute('transform', `translate(${p.x} ${p.z})`); icon.setAttribute('transform', `scale(${inverse})`); }
-      for (const { glint } of trails) if (glint) glint.setAttribute('r', 2 * inverse);
       previousScale = scale;
     }
     for (const cluster of clusterSprites.values()) {
@@ -128,19 +145,24 @@ export async function mount(app) {
       if (cluster.key === expandedCluster) positionChooser(cluster);
     }
     for (const s of routeSprites) s.node.setAttribute('transform', `translate(${s.x} ${s.z}) scale(${1 / (s.region === detail?.map.primary ? scale : insetScale)})`);
-    const endX = mobile.matches ? 153 : 224, endY = mobile.matches ? 84 : 238;
+    const endX = mobile.matches ? 164 : 224, endY = mobile.matches ? 84 : 238;
     for (const transfer of transferSprites) {
       const x = tx + transfer.item.x * scale, y = ty + transfer.item.z * scale;
       transfer.path.setAttribute('d', `M${x},${y}Q${(x + endX) / 2},${Math.min(y, endY) - 35} ${endX},${endY}`);
       transfer.label.setAttribute('x', endX + 9); transfer.label.setAttribute('y', endY - 12);
     }
   }
+  // On a phone the place card covers the lower part of the stage once the stage is scrolled to the top: frame within what stays visible.
+  function covered() {
+    if (!mobile.matches || !card.classList.contains('am-card-open')) return 0;
+    return clamp(parseFloat(getComputedStyle(stage).scrollMarginTop) + height - card.getBoundingClientRect().top, 0, height * .6);
+  }
   function fit(box) {
     view = box;
-    const reserve = detail?.map.regions.length && !mobile.matches && box === detail.map.bounds ? 224 : 0;
-    scale = clamp(Math.min((width - reserve - 40) / Math.max(box[2], 70), (height - 48) / Math.max(box[3], 70)), .18, 9);
+    const reserve = detail?.map.regions.length && !mobile.matches && box === detail.map.bounds ? 224 : 0, visible = height - covered();
+    scale = clamp(Math.min((width - reserve - 40) / Math.max(box[2], 70), (visible - 48) / Math.max(box[3], 70)), .18, 9);
     tx = reserve + (width - reserve) / 2 - (box[0] + box[2] / 2) * scale;
-    ty = height / 2 - (box[1] + box[3] / 2) * scale;
+    ty = visible / 2 - (box[1] + box[3] / 2) * scale;
     schedulePaint();
   }
   function zoom(factor, x = width / 2, y = height / 2) {
@@ -188,6 +210,7 @@ export async function mount(app) {
   }
   function makeCluster(group) {
     const node = svgNode('g', { class: 'am-cluster am-true-marker', role: 'button', tabindex: '0', 'data-cluster': group.key, 'data-geo-kind': 'cluster' }, $('.am-clusters'));
+    const label = svgNode('title', {}, node);
     const icon = svgNode('g', { class: 'am-cluster-icon' }, node);
     const leader = svgNode('path', { class: 'am-cluster-menu-leader' }, icon);
     const ring = svgNode('g', { class: 'am-cluster-ring am-hidden', role: 'group', 'aria-label': 'Portrait chooser, not geographic positions' }, icon);
@@ -206,10 +229,11 @@ export async function mount(app) {
       const title = svgNode('title', {}, member);
       return { node: member, image, title, c };
     });
+    svgNode('circle', { r: 12, class: 'am-hit' }, icon);
     svgNode('ellipse', { rx: 18, ry: 13, class: 'am-cluster-medal' }, icon);
     const count = svgNode('text', { 'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'am-cluster-count' }, icon);
     const name = svgNode('text', { y: 28, 'text-anchor': 'middle', class: 'am-cluster-name' }, icon);
-    return { key: group.key, node, icon, ring, leader, background, members, count, name, scale: 0 };
+    return { key: group.key, node, label, icon, ring, leader, background, members, count, name, scale: 0 };
   }
   function layoutClusters() {
     const groups = screenGroups(), active = new Set(), clusteredCities = new Set(), occupiedCities = new Set();
@@ -222,11 +246,12 @@ export async function mount(app) {
       s.city = group.city;
       s.node.setAttribute('transform', `translate(${group.city.x} ${group.city.y})`);
       s.node.dataset.city = group.city.id; s.node.dataset.geoX = group.city.x; s.node.dataset.geoY = group.city.y;
-      s.node.setAttribute('aria-label', `${group.label} · ${group.members.length} composers. Select a portrait to show that composer’s places.`);
-      s.count.textContent = group.members.length; s.name.textContent = `${group.label} · ${group.members.length}`;
+      // The name comes from the <title>: the visible medal shows only the count and the city.
+      s.label.textContent = `${group.label}: ${group.members.length} composers. Select a portrait to show that composer’s places.`;
+      s.count.textContent = group.members.length; s.name.textContent = group.label;
       for (const [i, member] of group.members.entries()) {
         sprites[member.row[0]].cluster = group.key; clusteredCities.add(member.p.city);
-        const label = `${member.c.name} · ${data.cities[member.p.city].name} · ${year}`;
+        const label = `${personName(member.c)} · ${data.cities[member.p.city].name} · ${year}`;
         s.members[i].node.setAttribute('aria-label', label); s.members[i].title.textContent = label;
       }
     }
@@ -301,7 +326,7 @@ export async function mount(app) {
       s.anchor.classList.toggle('am-last-known', !row[3]);
       s.anchor.setAttribute('tabindex', visible ? '0' : '-1');
       const p = s.c.places[row[1]], city = data.cities[p.city].name;
-      s.title.textContent = `${s.c.name} · ${row[2] ? 'died; ' : row[3] ? '' : 'last recorded place: '}${city} · ${year}`;
+      s.title.textContent = `${personName(s.c)} · ${row[2] ? 'died; ' : row[3] ? '' : 'last recorded place: '}${city} · ${year}`;
       s.anchor.setAttribute('aria-label', s.title.textContent);
       if (!row[2]) alive++;
     }
@@ -310,7 +335,6 @@ export async function mount(app) {
       trail.node.classList.toggle('am-hidden', !visible);
       const travelling = trail.p.kind === 'travelled' && trail.p.y <= year && trail.p.end >= year;
       trail.node.classList.toggle('am-travelling', travelling);
-      trail.glint?.classList.toggle('am-hidden', !visible || !travelling);
     }
     for (const event of events) {
       const visible = event.p.y === year && (!selected || event.node.dataset.composer === selected);
@@ -341,34 +365,42 @@ export async function mount(app) {
       if (open) { cardContent.scrollTop = 0; openCard(); }
       return;
     }
-    cardContent.innerHTML = `<span class="kicker">City</span><h2>${escape(city.name)} <em>${year}</em></h2><p class="am-card-intro">${unique.size} ${unique.size === 1 ? 'composer' : 'composers'} linked to this year by a home, post or dated event.</p>${unique.size ? `<ul class="am-residents">${[...unique].map(([id, records]) => {
+    const prompts = `<div class="am-city-prompts">${[['vienna', 1790, 'Vienna'], ['vienna', 1805, 'Vienna'], ['vienna', 1900, 'Vienna'], ['paris', 1900, 'Paris']].map(([key, y, name]) => `<button class="textbook-button" type="button" data-${key}="${y}">${name}\u00a0· ${y}</button>`).join('')}</div>`;
+    // An empty city gets one plain sentence, not three negatives.
+    if (!unique.size && !pairs.length) {
+      cardContent.innerHTML = `<span class="kicker">City</span><h2>${escape(city.name)} <em>${year}</em></h2><p class="am-empty">No composer’s record places them here in ${year}.</p>${prompts}`;
+    } else cardContent.innerHTML = `<span class="kicker">City</span><h2>${escape(city.name)} <em>${year}</em></h2><p class="am-card-intro">${unique.size} ${unique.size === 1 ? 'composer' : 'composers'} linked to this year by a home, post or dated event.</p>${unique.size ? `<ul class="am-residents">${[...unique].map(([id, records]) => {
       const c = byId.get(id), resident = records.find((r) => r.basis === 'residence');
-      const evidence = resident ? `record: ${resident.sourceFrom === resident.sourceTo ? resident.sourceFrom : `${resident.sourceFrom}–${resident.sourceTo}`}${year > resident.sourceEnd ? ' · carried forward' : ''}${resident.status !== 'documented' ? ` · ${resident.status} source` : ''}` : records.map((r) => r.from === r.to ? r.from : `${r.from}–${r.to}`).join(' · ');
-      return `<li><button type="button" data-focus="${escape(id)}">${c.portrait ? `<img src="${url(c.portrait)}" width="36" height="46" alt="">` : ''}<span><strong>${escape(c.name)}</strong><small class="am-presence ${resident ? 'am-residence-presence' : 'am-dated-presence'}">${resident ? 'Based on residence records' : 'Dated record for this year'}</small><small>${escape(evidence)}</small></span></button></li>`;
-    }).join('')}</ul>` : '<p class="am-empty">No place records here cover this year.</p>'}<h3>Shared dates</h3>${pairs.length ? `<ul class="am-overlaps">${pairs.map((p) => `<li><span>${p.ids.map((id) => `<button type="button" data-focus="${escape(id)}">${escape(byId.get(id).label)}</button>`).join(' &amp; ')}</span><span class="am-overlap-evidence"><small>${p.from === p.to ? p.from : `${p.from}–${p.to}`}</small><small class="am-overlap-basis">${p.basis === 'dated' ? 'dated records' : 'from residence records'}</small></span></li>`).join('')}</ul>` : '<p class="am-small">No composers’ dates overlap here in this year.</p>'}<p class="am-caution">Each composer’s record gives dates and sources.</p><div class="am-city-prompts"><button type="button" data-vienna="1790">Vienna · 1790</button><button type="button" data-vienna="1805">Vienna · 1805</button><button type="button" data-vienna="1900">Vienna · 1900</button><button type="button" data-paris="1900">Paris · 1900</button></div>`;
+      const status = resident?.status === 'inferred' ? ' (inferred, not documented)' : resident && resident.status !== 'documented' ? ` (${resident.status})` : '';
+      const evidence = resident ? `${span(resident.sourceFrom, resident.sourceTo)}${year > resident.sourceEnd ? '; no later record, so taken as still here' : ''}${status}` : records.map((r) => span(r.from, r.to)).join('\u00a0· ');
+      return `<li><button type="button" data-focus="${escape(id)}">${c.portrait ? `<img src="${url(c.portrait)}" width="36" height="46" alt="">` : ''}<span><strong>${escape(c.name)}</strong><small class="am-presence ${resident ? 'am-residence-presence' : 'am-dated-presence'}">${resident ? 'Home or post' : 'Dated event this year'}</small><small>${escape(evidence)}</small></span></button></li>`;
+    }).join('')}</ul>` : ''}<h3>Shared dates</h3>${pairs.length ? `<ul class="am-overlaps">${pairs.map((p) => `<li><span>${p.ids.map((id) => `<button type="button" data-focus="${escape(id)}">${escape(byId.get(id).label)}</button>`).join(' &amp; ')}</span><span class="am-overlap-evidence"><small>${span(p.from, p.to)}</small><small class="am-overlap-basis">${p.basis === 'dated' ? 'dated records' : 'from residence records'}</small></span></li>`).join('')}</ul>` : '<p class="am-small">No composers’ dates overlap here in this year.</p>'}<p class="am-caution">Each composer’s record gives dates and sources.</p>${prompts}`;
     encounterSignature = signature; encounterYearNode = cardContent.querySelector('h2 em');
     if (open) { cardContent.scrollTop = 0; openCard(); }
   }
   const playButton = (recording) => `<button type="button" class="am-listen" data-map-play="${escape(recording.id)}"><span aria-hidden="true">▶</span><span>${escape(recording.work)}${recording.movement ? `<small>${escape(recording.movement)}</small>` : ''}</span></button>`;
   function renderDetail(c) {
     const records = new Map(c.recordings.map((r) => [r.id, r]));
-    cardContent.innerHTML = `<div class="am-person-heading">${c.portrait ? `<img src="${url(c.portrait)}" width="64" height="82" alt="${escape(c.name)}">` : ''}<div><span class="kicker">Places</span><h2>${escape(c.name)}</h2><p>${c.born}–${c.died ?? ''} · ${c.places.length} records</p></div></div><p class="am-card-intro">Every recorded place, numbered as on the map.</p><p class="am-detail-links"><a href="${url(`composers/${c.id}.html#places`)}">Composer chapter: places</a><button type="button" data-action="route-fit">Fit all places</button></p><section class="am-recordings" id="am-recordings"><h3>Recordings of music by ${escape(c.label)}</h3>${c.recordings.length ? c.recordings.slice(0, 3).map(playButton).join('') + (c.recordings.length > 3 ? `<details><summary>All ${c.recordings.length} recordings</summary>${c.recordings.slice(3).map(playButton).join('')}</details>` : '') : '<p>No recordings of this composer’s music are available here.</p>'}</section><ol class="am-places">${c.places.map((p, i) => {
+    cardContent.innerHTML = `<div class="am-person-heading">${c.portrait ? `<img src="${url(c.portrait)}" width="64" height="82" alt="${escape(c.name)}">` : ''}<div><span class="kicker">Places</span><h2>${escape(c.name)}</h2><p>${c.born}–${c.died ?? ''}\u00a0· ${c.places.length} records</p></div></div><p class="am-card-intro">Every recorded place, numbered as on the map.</p><p class="am-detail-links"><a href="${url(`composers/${c.id}.html#places`)}">Composer chapter: places</a><button class="textbook-button" type="button" data-action="route-fit">Fit all places</button></p><section class="am-recordings" id="am-recordings"><h3>Recordings of music by ${escape(c.label)}</h3>${c.recordings.length ? c.recordings.slice(0, 3).map(playButton).join('') + (c.recordings.length > 3 ? `<details><summary>All ${c.recordings.length} recordings</summary>${c.recordings.slice(3).map(playButton).join('')}</details>` : '') : '<p>No recordings of this composer’s music are available here.</p>'}</section><ol class="am-places">${c.places.map((p, i) => {
       const exact = p.listens.map((id) => records.get(id)).filter(Boolean);
       const posthumous = c.died && p.y > c.died;
-      return `<li id="am-place-${i}" data-record="${i}"><button type="button" class="am-place-heading" data-place-index="${i}"><b>${i + 1}</b><span>${escape(p.name)}<small>${escape(dateText(p))} · ${escape(p.kind)}${posthumous ? ' · after death' : ''}</small></span></button><span class="am-badge am-${escape(p.status)}">${escape(p.status)}</span><p>${escape(p.what)}</p>${p.work ? `<p class="am-place-work"><i>${escape(p.work)}</i></p>` : ''}<small class="am-country">${escape(p.country)}</small><details class="am-sources"><summary>${p.sources.length} ${p.sources.length === 1 ? 'source' : 'sources'}</summary><ul>${p.sources.map((s) => `<li><a href="${escape(s.url)}" target="_blank" rel="noopener">${escape(s.title)}</a>${s.locator ? ` — ${escape(s.locator)}` : ''}</li>`).join('')}</ul></details>${p.work || p.kind === 'premiere' ? exact.length ? `<div class="am-place-listens">${exact.map(playButton).join('')}</div>` : `<details class="am-place-listens"><summary>Other recordings of ${escape(c.label)}’s music</summary>${c.recordings.length ? `${c.recordings.slice(0, 3).map(playButton).join('')}<button type="button" class="am-all-recordings" data-action="recordings">All ${c.recordings.length} recordings</button>` : '<p>No recording available here.</p>'}</details>` : ''}</li>`;
-    }).join('')}</ol>${c.influences.length ? `<section class="am-evidence"><h3>Music linked to these places</h3><p class="am-small">Each connection has its account and sources in the Web of Influence.</p><ul>${c.influences.map((e) => `<li><a href="${url(`influence.html#edge-${e.id}`)}">${escape(e.title)}</a><small>${escape(e.place)} · ${e.year} · ${escape(e.status)}</small></li>`).join('')}</ul></section>` : ''}<p class="am-small"><a href="${url(`assets/data/geo/${c.id}.json`)}" download>Download these places and sources</a></p>`;
+      return `<li id="am-place-${i}" data-record="${i}"><button type="button" class="am-place-heading" data-place-index="${i}"><b>${i + 1}</b><span>${escape(p.name)}<small>${escape(dateText(p))}\u00a0· ${escape(p.kind)}${posthumous ? '\u00a0· after death' : ''}</small></span></button><span class="am-badge am-${escape(p.status)}">${escape(p.status)}</span><p>${escape(p.what)}</p>${p.work ? `<p class="am-place-work"><i>${escape(p.work)}</i></p>` : ''}<small class="am-country">${escape(p.country)}</small><details class="am-sources"><summary>${p.sources.length} ${p.sources.length === 1 ? 'source' : 'sources'}</summary><ul>${p.sources.map((s) => `<li><a href="${escape(s.url)}" target="_blank" rel="noopener">${escape(s.title)}</a>${s.locator ? ` — ${escape(s.locator)}` : ''}</li>`).join('')}</ul></details>${p.work || p.kind === 'premiere' ? exact.length ? `<div class="am-place-listens">${exact.map(playButton).join('')}</div>` : `<details class="am-place-listens"><summary>Other recordings of ${escape(c.label)}’s music</summary>${c.recordings.length ? `${c.recordings.slice(0, 3).map(playButton).join('')}<button type="button" class="am-all-recordings" data-action="recordings">All ${c.recordings.length} recordings</button>` : '<p>No recording available here.</p>'}</details>` : ''}</li>`;
+    }).join('')}</ol>${c.influences.length ? `<section class="am-evidence"><h3>Music linked to these places</h3><p class="am-small">Each connection has its account and sources in the Web of Influence.</p><ul>${c.influences.map((e) => `<li><a href="${url(`influence.html#edge-${e.id}`)}">${escape(e.title)}</a><small>${escape(e.place)}\u00a0· ${e.year}\u00a0· ${escape(e.status)}</small></li>`).join('')}</ul></section>` : ''}<p class="am-small"><a href="${url(`assets/data/geo/${c.id}.json`)}" download>Download these places and sources</a></p>`;
     cardContent.scrollTop = 0; openCard();
   }
   function routeMarker(parent, p, region, indices, badge = false) {
-    const node = svgNode('g', { class: `${badge ? 'am-route-badge' : 'am-route-point'} am-true-marker`, role: 'button', tabindex: '0', 'data-geo-kind': badge ? 'city-numbers' : 'route-stop', 'data-geo-x': p.x, 'data-geo-y': p.z, 'data-route-place': indices[0], 'data-route-indices': indices.join(','), 'aria-label': `${p.name}: ${indices.map((i) => i + 1).join(', ')}` }, parent);
+    // The <title> names the marker; the badge shows the same numbers, shortened to two runs.
+    const runs = numberRuns(indices.map((i) => i + 1));
+    const node = svgNode('g', { class: `${badge ? 'am-route-badge' : 'am-route-point'} am-true-marker`, role: 'button', tabindex: '0', 'data-geo-kind': badge ? 'city-numbers' : 'route-stop', 'data-geo-x': p.x, 'data-geo-y': p.z, 'data-route-place': indices[0], 'data-route-indices': indices.join(',') }, parent);
+    const title = svgNode('title', {}, node); title.textContent = `${p.name}: ${indices.length === 1 ? 'record' : 'records'} ${runs.join(', ')}`;
     if (badge) {
-      const numbers = indices.slice(0, 3).map((i) => i + 1).join(',') + (indices.length > 3 ? '…' : '');
-      const half = Math.max(12, numbers.length * 3.3 + 5);
-      svgNode('rect', { x: -half, y: -10, width: half * 2, height: 20, rx: 7 }, node);
+      const numbers = runs.length > 2 ? `${runs.slice(0, 2).join(', ')}\u00a0…` : runs.join(', ');
+      const half = Math.max(12, numbers.length * 3.4 + 6);
+      svgNode('rect', { x: -half, y: -12, width: half * 2, height: 24, class: 'am-hit' }, node);
+      svgNode('rect', { x: -half, y: -11, width: half * 2, height: 22, rx: 1 }, node);
       const label = svgNode('text', { x: 0, y: 0, 'text-anchor': 'middle', 'dominant-baseline': 'central', class: 'am-stop-numbers' }, node); label.textContent = numbers;
-      const city = svgNode('text', { y: -15, 'text-anchor': 'middle', class: 'am-stop-city' }, node); city.textContent = p.name;
-    } else svgNode('circle', { r: 2.8 }, node);
-    const title = svgNode('title', {}, node); title.textContent = `${p.name} · records ${indices.map((i) => i + 1).join(', ')}`;
+      const city = svgNode('text', { y: -16, 'text-anchor': 'middle', class: 'am-stop-city' }, node); city.textContent = p.name;
+    } else { svgNode('circle', { r: 12, class: 'am-hit' }, node); svgNode('circle', { r: 2.8 }, node); }
     routeSprites.push({ node, x: p.x, z: p.z, region, places: indices });
   }
   function drawRegion(c, region, routes, points) {
@@ -419,6 +451,8 @@ export async function mount(app) {
       return;
     }
     selected = id; composerSelect.value = id; selectedPlace = place;
+    // A route belongs to a life: keep the year inside it, and show no city while a composer is chosen.
+    year = clamp(year, c.born, c.died ?? data.last); citySelect.value = '';
     const request = ++focusRequest;
     cardContent.innerHTML = `<span class="kicker">Places</span><h2>${escape(c.name)}</h2><p>Loading places…</p>`;
     openCard(); if (!fromHash) updateHash(id); updateYear(year);
@@ -435,7 +469,7 @@ export async function mount(app) {
     }
   }
   function clearFocus(changeHash = true) {
-    focusRequest++; selected = ''; detail = null; selectedPlace = -1; composerSelect.value = '';
+    focusRequest++; selected = ''; detail = null; selectedPlace = -1; composerSelect.value = ''; citySelect.value = String(selectedCity);
     $('.am-route').replaceChildren(); $('.am-route-points').replaceChildren(); $('.am-influence').replaceChildren(); routeSprites.length = 0;
     $('.am-transfers').replaceChildren(); $('.am-inset-points').replaceChildren(); $('.am-inset-routes').replaceChildren(); transferSprites.length = 0;
     inset.hidden = true; root.classList.remove('am-focused'); expandedCluster = pinnedCluster = '';
@@ -454,18 +488,18 @@ export async function mount(app) {
       insetRegion = p.region; insetSelect.value = insetRegion; drawInset();
       for (const s of routeSprites) s.node.classList.toggle('am-place-selected', s.places.includes(index));
     } else {
-      scale = Math.max(scale, mobile.matches ? 1.3 : 2); tx = width / 2 - p.x * scale; ty = height / 2 - p.z * scale;
+      scale = Math.max(scale, mobile.matches ? 1.3 : 2); tx = width / 2 - p.x * scale; ty = (height - covered()) / 2 - p.z * scale;
     }
     schedulePaint();
   }
   function chooseCity(id) {
     clearFocus(); selectedCity = Number(id); citySelect.value = String(id); updateYear(year); renderEncounters();
     const city = data.cities[selectedCity];
-    if (city) { scale = Math.max(scale, mobile.matches ? 1.2 : 1.7); tx = width / 2 - city.x * scale; ty = height / 2 - city.y * scale; schedulePaint(); }
+    if (city) { scale = Math.max(scale, mobile.matches ? 1.2 : 1.7); tx = width / 2 - city.x * scale; ty = (height - covered()) / 2 - city.y * scale; schedulePaint(); }
   }
   function stopYears() {
     playing = false; cancelAnimationFrame(timeId); timeId = 0;
-    playYears.textContent = '▶'; playYears.setAttribute('aria-label', 'Play the years'); playYears.setAttribute('aria-pressed', 'false');
+    playYears.textContent = 'Play years';
   }
   function tick(now) {
     if (!playing || signal.aborted) return;
@@ -480,7 +514,7 @@ export async function mount(app) {
     if (playing) { stopYears(); updateHash(selected); return; }
     if (year === data.last) updateYear(data.first);
     playing = true; clock = 0; lastTick = performance.now();
-    playYears.textContent = 'Ⅱ'; playYears.setAttribute('aria-label', 'Pause the years'); playYears.setAttribute('aria-pressed', 'true');
+    playYears.textContent = 'Pause';
     timeId = requestAnimationFrame(tick);
   }
   on(slider, 'input', () => { stopYears(); updateYear(Number(slider.value), true); });
@@ -596,6 +630,12 @@ export async function mount(app) {
     svg.setAttribute('viewBox', viewBox); baseSvg.setAttribute('viewBox', viewBox); fit(view); updateYear(year);
   });
   resize.observe(stage);
+  // Phones: the fixed year bar and place sheet belong to the map; they leave with it (no sheet over the footer).
+  const timeBar = $('.am-time');
+  const timeSize = new ResizeObserver(() => root.style.setProperty('--am-time-h', `${timeBar.offsetHeight}px`));
+  timeSize.observe(timeBar);
+  const onStage = new IntersectionObserver(([entry]) => root.classList.toggle('am-offstage', !entry.isIntersecting), { threshold: .15 });
+  onStage.observe(stage);
   on(mobile, 'change', () => { if (detail) drawRoute(detail); updateYear(year); });
   on(reduced, 'change', stopYears);
   on(document, 'visibilitychange', () => { if (document.hidden) stopYears(); });
@@ -606,6 +646,6 @@ export async function mount(app) {
   followHash();
   root.classList.add('am-ready');
   return () => {
-    abort.abort(); resize.disconnect(); stopYears(); cancelAnimationFrame(paintId); clearTimeout(clusterTimer); focusRequest++; pointers.clear();
+    abort.abort(); resize.disconnect(); timeSize.disconnect(); onStage.disconnect(); stopYears(); cancelAnimationFrame(paintId); clearTimeout(clusterTimer); focusRequest++; pointers.clear();
   };
 }

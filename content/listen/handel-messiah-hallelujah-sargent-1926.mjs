@@ -18,9 +18,9 @@ export default {
       evidence: ['https://commons.wikimedia.org/wiki/File:PDP-CH_-_Royal_Choral_Society_-_Malcolm_Sargent_-_Messiah_-_Hallelujah_Chorus_-_Electrola-ej39-04871.flac', 'http://pool.publicdomainproject.org/index.php?title=Electrola-ej39-04871'],
     },
   },
-  intro: 'Malcolm Sargent conducted the Royal Choral Society and Royal Albert Hall Orchestra in the “Hallelujah” chorus from Handel’s <i>Messiah</i>, HWV 56, at the Albert Hall on 2 April 1926. In the chorus, short exclamations of praise give way to long held notes above fast-moving choral lines.',
+  intro: 'Malcolm Sargent conducted the Royal Choral Society and Royal Albert Hall Orchestra in the “Hallelujah” chorus from Handel’s <i>Messiah</i>, HWV 56, at the Albert Hall on 2 April 1926. In the chorus, short exclamations of praise are followed by long held notes above fast-moving choral lines.',
   sections: [
-    { t: 0, label: 'A · Hallelujah in D major', m: 'A', mNote: 'Strings play the opening rhythm; the four choral parts follow' },
+    { t: 0, label: 'A · Hallelujah in D major', m: 'A', mNote: 'Strings play the opening rhythm; the four choral parts follow.' },
     { t: 88, label: 'B · “The kingdom of this world”', m: 'B', mNote: 'The choir sings in even crotchets.' },
     { t: 138, label: 'C · “King of kings” on held A', m: 'C', mNote: 'Sopranos and altos hold A above the other voices’ entries.' },
     { t: 194, label: 'D · Long notes in the tenors', m: 'D', mNote: 'The tenors hold D beneath the quicker upper parts.' },

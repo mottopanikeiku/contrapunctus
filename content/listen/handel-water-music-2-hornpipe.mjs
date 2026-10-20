@@ -34,7 +34,7 @@ export default {
   intro: 'The Alla hornpipe is from Handel’s Water Music, Suite No. 2 in D, HWV 349. Oboes and strings play the hornpipe tune, and the trumpets and horns then take it up in turn; the brass rest through the middle section and return in D major.',
 
   sections: [
-    { t: 0, label: 'A · Hornpipe theme: oboes, strings, then brass', m: 'A', mNote: 'The hornpipe tune passes from one group of instruments to another.' },
+    { t: 0, label: 'A · Hornpipe theme in oboes and strings, then brass', m: 'A', mNote: 'The hornpipe tune passes from one group of instruments to another.' },
     { t: 58.7, label: 'A · Hornpipe theme repeated', m: 'A', mNote: 'The same tune returns, with the same turns for the brass.' },
     { t: 115.9, label: 'B · Middle section without brass', m: 'B', mNote: 'Oboes, bassoon and strings play the middle section.' },
     { t: 155.1, label: 'Link · Strings alone', m: 'Link', mNote: 'Eight bars for strings lead to the da capo.' },
@@ -55,7 +55,7 @@ export default {
     {
       id: 'into-repeat',
       title: 'D major cadence and return to bar 1',
-      from: 'A · Hornpipe theme: oboes, strings, then brass',
+      from: 'A · Hornpipe theme in oboes and strings, then brass',
       to: 'A · Hornpipe theme repeated',
       at: { t: 58.6 },
       span: [53, 64],

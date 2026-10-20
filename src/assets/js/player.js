@@ -58,7 +58,6 @@ export const player = {
   root: ROOT,
   on(ev, f) { listeners.set(ev, [...(listeners.get(ev) ?? []), f]); return () => listeners.set(ev, (listeners.get(ev) ?? []).filter((g) => g !== f)); },
   get track() { return programme?.[index] ?? null; },
-  get index() { return index; },
   get playing() { return !audio.paused && !audio.ended; },
   get time() { return audio.readyState >= 1 ? audio.currentTime : pendingT; },
   get concert() { return concert; },
@@ -93,7 +92,6 @@ export const player = {
     }
     if (t) player.seek(t);
     if (play) await player.play();
-    save();
   },
   async play() {
     if (index < 0) await player.load(0);
@@ -140,8 +138,11 @@ audio.addEventListener('loadedmetadata', () => { if (pendingT) { audio.currentTi
 for (const ev of ['play', 'pause', 'timeupdate', 'waiting', 'playing', 'ended', 'error']) audio.addEventListener(ev, () => emit(ev));
 audio.addEventListener('ended', () => { if (concert) player.next({ interlude: true }); });
 audio.addEventListener('pause', save);
+audio.addEventListener('playing', save);
 
-function save() { const t = player.track; if (t) localStorage.setItem('cp-last', JSON.stringify({ id: t.id, t: Math.floor(player.time) })); }
+// The bar on later visits offers only what was actually heard: the position is kept once playback has started,
+// never when a page merely selects a recording (the Hall does so on opening).
+function save() { const t = player.track; if (t && audio.currentTime > 0) localStorage.setItem('cp-last', JSON.stringify({ id: t.id, t: Math.floor(audio.currentTime) })); }
 setInterval(() => { if (player.playing) save(); }, 5000);
 
 if ('mediaSession' in navigator) {

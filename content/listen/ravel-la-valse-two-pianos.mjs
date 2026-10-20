@@ -15,12 +15,12 @@ export default {
   source: { file: 'File:Ravel\'s La Valse for two pianos, M. 72a - O\'Doan & O\'Doan.ogg' },
   "intro": "Nancy and Neal O’Doan play Ravel’s own two-piano version of <i>La Valse</i>.",
   "sections": [
-    { "t": 0, "label": "Intro · Low bass figures, waltz fragments", "m": "Intro", "mNote": "Bass figures move under fragments of waltz melody" },
+    { "t": 0, "label": "Intro · Low bass figures, waltz fragments", "m": "Intro", "mNote": "Bass figures move under fragments of waltz melody." },
     { "t": 72, "label": "A · Waltz themes over three-beat accompaniment", "m": "A", "mNote": "Longer melodies enter over the three-beat accompaniment." },
     { "t": 348, "label": "Dev · Earlier waltz themes in fragments", "m": "Dev", "mNote": "Earlier waltz themes return in shorter phrases." },
-    { "t": 456, "label": "Dev · Accented chords over waltz accompaniment", "m": "Dev", "mNote": "Accented chords interrupt the turning accompaniment" },
+    { "t": 456, "label": "Dev · Accented chords over waltz accompaniment", "m": "Dev", "mNote": "Accented chords interrupt the turning accompaniment." },
     { "t": 528, "label": "Link · Quieter passage of the waltz", "m": "Link", "mNote": "The waltz grows quieter before the final rush." },
-    { "t": 586, "label": "Coda · Waltz chords to the final bars", "m": "Coda", "mNote": "Repeated figures and accents fill the last pages" }
+    { "t": 586, "label": "Coda · Waltz chords to the final bars", "m": "Coda", "mNote": "Repeated figures and accents fill the last pages." }
   ],
   "cues": [
     {

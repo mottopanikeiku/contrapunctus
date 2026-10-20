@@ -82,7 +82,7 @@ export function validateInfluence(data, { composers, listens }) {
     if (!INFLUENCE_KINDS.includes(edge.kind)) error(where, `unknown kind ${edge.kind}`);
     if (!Number.isInteger(edge.year)) error(where, 'year must be an integer');
     if (!nonempty(edge.title)) error(where, 'title is required');
-    else if (edge.title.trim().split(/\s+/).length > 9) error(where, 'title exceeds nine words');
+    else if (edge.title.trim().split(/\s+/).length > 8) error(where, 'title exceeds eight words');
     if (!nonempty(edge.claim)) error(where, 'claim is required');
     if (!object(edge.works) || !nonempty(edge.works.from) || !nonempty(edge.works.to)) error(where, 'works needs from and to descriptions');
     if (!['documented', 'inferred', 'disputed'].includes(edge.status)) error(where, `unknown evidence status ${edge.status}`);

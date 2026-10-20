@@ -7,10 +7,10 @@ export default {
   "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin — piano version", "part": 3, "of": 6 },
   "intro": "The Forlane, the third movement of <i>Le Tombeau de Couperin</i>, takes the rhythm of an old dance and sets it to chords that move in unexpected directions. It is dedicated to the memory of Gabriel Deluc, a Basque painter killed in the First World War.",
   "sections": [
-    { "t": 0, "label": "A · Dotted dance in six", "m": "A", "mNote": "Long–short figures over chromatic chords" },
+    { "t": 0, "label": "A · Dotted dance in six", "m": "A", "mNote": "Long–short figures over chromatic chords." },
     { "t": 170, "label": "B · Detached chords over held notes", "m": "B", "mNote": "The bass holds while the upper chords move." },
     { "t": 300, "label": "C · Dotted figures and trills", "m": "C", "mNote": "Short dance phrases with added ornaments." },
-    { "t": 394, "label": "Coda · softly, at the same pace", "m": "Coda", "mNote": "The closing bars stay in tempo, <i>sans ralentir</i>." },
+    { "t": 394, "label": "Coda · Softly, at the same pace", "m": "Coda", "mNote": "The closing bars stay in tempo, sans ralentir." },
   ],
   "cues": [
     {
@@ -52,7 +52,7 @@ export default {
   ],
   "transitions": [
     {
-      "id": "closing-gestures", "title": "The close, without slowing", "from": "C · Dotted figures and trills", "to": "Coda · softly, at the same pace",
+      "id": "closing-gestures", "title": "The close, without slowing", "from": "C · Dotted figures and trills", "to": "Coda · Softly, at the same pace",
       "at": { "t": 394 }, "span": [390, 410],
       "how": "<p>The piano breaks the dance into short phrases, rests and sustained notes. A last grace-note figure leads to a soft chord over a low E. Ravel marks the ending <i>pianissimo</i> and <i>sans ralentir</i>, and the 6/8 metre continues to the final bar.</p>",
       "devices": ["decrescendo", "texture change"], "basis": "score-proportion", "precision": "passage",

@@ -3,13 +3,13 @@ export default {
   born: { year: 1819, date: '13 September 1819', place: 'Leipzig' },
   died: { year: 1896, date: '20 May 1896', place: 'Frankfurt am Main' },
   era: 'romantic',
-  epithet: 'Performer on the concert platform for forty years, who wrote of making music, ‘It is the air I breathe.’',
+  epithet: 'Performer on the concert platform for forty years, who wrote of making music, “It is the air I breathe.”',
   portrait: { file: 'File:Franz Hanfstaengl - Clara Schumann (1857).jpg', caption: 'Clara Schumann photographed by Franz Hanfstaengl in 1857.', focus: '50% 23%' },
   facts: [
-    ['Training', 'Piano with her father Friedrich Wieck; private lessons in composition and languages'],
+    ['Trained', 'Piano with her father Friedrich Wieck; private lessons in composition and languages'],
     ['On stage', 'Leipzig début, 1828; last public concert, Frankfurt, 1891'],
     ['Teaching', 'Hoch Conservatoire, Frankfurt, 1878–92'],
-    ['Compositions', 'A piano concerto, a piano trio, songs, romances and variations'],
+    ['Output', 'A piano concerto, a piano trio, songs, romances and variations'],
   ],
   life: `
 <p class="dropcap">On 9 November 1835 the sixteen-year-old Clara Wieck played her A minor Piano Concerto at the Leipzig Gewandhaus, with [[mendelssohn|Mendelssohn]] conducting. In the middle movement the orchestra stops. The piano begins a Romance in A♭ major, and a solo cello joins it, so that for a few minutes the concerto is a duet. That evening Clara also played Mendelssohn’s <i>Capriccio brillant</i>, and with him and Louis Rakemann she played Bach’s Concerto for Three Keyboards.</p>
@@ -110,9 +110,7 @@ Keep loving me always;
 my love for you will not end.`, note: `<p>Clara included this setting in the Rückert volume she and Robert published in 1841, their first full year of marriage. Three times the speaker says ‘O nicht mich liebe’; in the fourth stanza ‘nicht’ becomes ‘ja’. [[mahler|Mahler]] set the poem in 1902 as a gift for Alma. <a href="https://oxfordsong.org/song/liebst-du-um-sch%C3%B6nheit-2">German text and work identification</a>.</p>` },
   ],
   recordings: [
-    { work: 'Piano Concerto · piano music · Violin Romances', performers: 'Isata Kanneh-Mason; Royal Liverpool Philharmonic Orchestra, Holly Mathieson; Elena Urioste', year: '2019', label: 'Decca', note: 'Kanneh-Mason plays the concerto, written when Clara was a teenager, with strength and keeps its quick passages decisive. With the solo pieces and the violin Romances, played by Urioste, the album serves as a first survey of Clara’s music.' },
     { work: 'Piano Trio in G minor', performers: 'Beaux Arts Trio', label: 'Philips', note: 'The opening is taken briskly, and Menahem Pressler’s rounded piano sound leaves the strings clearly audible. The ensemble playing is poised, and the articulation stays clear through the finale’s exchanges.' },
-    { work: 'Piano Trio in G minor', performers: 'Nash Ensemble', label: 'Hyperion', note: 'A more impetuous alternative, especially in the crescendos of the first movement and in the finale. The coupling, Fanny Hensel’s Trio and Quartet, is well chosen, and the performances of all three substantial chamber works are sharply characterised.' },
   ],
   lineage: { from: ['bach', 'beethoven', 'chopin', 'Friedrich Wieck', 'schumann'], to: ['brahms', 'Fanny Davies', 'Adelina de Lara'], note: `<p>[[brahms|Brahms]] sent her music to play and judge, and her performances helped it reach the public. Fanny Davies and Adelina de Lara carried her teaching into their own concert careers and recordings. She performed Robert’s piano music in concert and also edited it.</p>` },
   reading: [

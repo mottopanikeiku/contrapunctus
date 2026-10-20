@@ -18,7 +18,7 @@ export default {
     { t: 210, label: 'B · Baritone solo, “Hostias”', m: 'B' },
     { t: 272, label: 'B′ · Organ solo before Fac eas', m: 'B′', mNote: 'The organ plays between the baritone’s phrases.' },
     { t: 345, label: 'A′ · Canon in four voices', m: 'A′', mNote: 'The sopranos join as the prayer returns.' },
-    { t: 422, label: 'Coda · Amen in B major', m: 'Coda', mNote: 'Voices and organ end after the strings stop' },
+    { t: 422, label: 'Coda · Amen in B major', m: 'Coda', mNote: 'Voices and organ end after the strings stop.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening, violas and cellos', text: 'The violas and cellos rise slowly above the organ and grow louder through the prelude. The marking is <i>Adagio molto</i>. Fauré left the violins, winds and harp out of this movement, so the choir sings with these lower instruments.', basis: 'score-proportion', precision: 'passage', evidence: 'Hamelle full score (1901), pp. 23–44, especially the opening on pp. 23–24. https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf' },

@@ -15,7 +15,7 @@ export default {
   sections: [
     { t: 2.2, label: 'A · Bass, chord, then melody', m: 'A', mNote: 'Bass notes G and D alternate beneath seventh chords.' },
     { t: 42.9, label: 'B · Low E, then D minor', m: 'B', mNote: 'The melody holds E while the chords beneath it change.' },
-    { t: 90.3, label: 'A · Opening bass accompaniment again', m: 'A', mNote: 'Four bars of accompaniment come before the melody again' },
+    { t: 90.3, label: 'A · Opening bass accompaniment again', m: 'A', mNote: 'Four bars of accompaniment come before the melody again.' },
     { t: 158.5, label: 'B′ · F♮ in the closing phrase', m: 'B′', mNote: 'The final chord closes in D minor.' },
   ],
   cues: [
@@ -33,7 +33,7 @@ export default {
       to: 'B · Low E, then D minor',
       at: { bar: { n: '19', occ: 1 } },
       span: [38.625, 49.986],
-      how: '<p>The bass leaves its alternating G and D for F♯, B and E. Above the E-minor chord, the melody drops to a low E and holds it through three bars. G major over E follows, then D minor under the same melody note. The slow three-beat accompaniment keeps the rhythm it has had from the start.</p>',
+      how: '<p>The bass leaves its alternating G and D for F♯, B and E. Above the E minor chord, the melody drops to a low E and holds it through three bars. G major over E follows, then D minor under the same melody note. The slow three-beat accompaniment keeps the rhythm it has had from the start.</p>',
       devices: ['register change', 'motivic link'],
       basis: 'score-aligned',
       precision: 'passage',
@@ -59,7 +59,7 @@ export default {
       to: 'B′ · F♮ in the closing phrase',
       at: { bar: { n: '40', occ: 1 } },
       span: [153.905, 180.817],
-      how: '<p>The repeated passage ends on D seventh. E minor follows, with G in the melody, as at the first ending. F♮ now replaces the earlier F♯, and D-minor notes sound above an E bass held for six bars. The last two chords are A minor seventh and D minor.</p>',
+      how: '<p>The repeated passage ends on D seventh. E minor follows, with G in the melody, as at the first ending. F♮ now replaces the earlier F♯, and D minor notes sound above an E bass held for six bars. The last two chords are A minor seventh and D minor.</p>',
       devices: ['motivic link'],
       basis: 'score-aligned',
       precision: 'passage',

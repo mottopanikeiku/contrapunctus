@@ -24,7 +24,7 @@ export default {
       "t": 0,
       "label": "A · Violas, then violins enter",
       "m": "A",
-      "mNote": "Repeated notes climb through the strings in E♭ major"
+      "mNote": "Repeated notes climb through the strings in E♭ major."
     },
     {
       "t": 186,
@@ -53,7 +53,7 @@ export default {
       "t": 35,
       "kind": "life",
       "title": "Last three symphonies, 1788",
-      "text": "Mozart entered his last three symphonies in his own catalogue on 26 June, 25 July and 10 August 1788. They were the E♭ major, this G minor work and the <i>Jupiter</i>, all dated within forty-five days.",
+      "text": "Mozart entered his last three symphonies in his own catalogue on 26 June, 25 July and 10 August 1788. They were the E♭ major, this G minor work and the “Jupiter”, all dated within forty-five days.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mozart’s own thematic catalogue (British Library, Zweig MS 63, https://searcharchives.bl.uk/catalog/040-001945812), as listed in the chronological table in Otto Jahn, Life of Mozart, trans. P. D. Townsend (1882), vol. 3: K. 543 on 26 June, K. 550 on 25 July, K. 551 on 10 August 1788. https://www.gutenberg.org/ebooks/43413"

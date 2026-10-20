@@ -3,12 +3,12 @@ export default {
   born: { year: 1857, date: '2 June 1857', place: 'Lower Broadheath, Worcestershire' },
   died: { year: 1934, date: '23 February 1934', place: 'Worcester' },
   era: 'fin-de-siecle',
-  epithet: 'Composer of the <i>Enigma Variations</i>, a set of variations drawn from his friendships, who also recorded his own music for the gramophone.',
+  epithet: 'Composer of the Enigma Variations, a set of variations drawn from his friendships, who also recorded his own music for the gramophone.',
   portrait: { file: 'File:Edward Elgar.jpg', caption: 'Elgar in an anonymous photograph published by 1905, also circulated as a Rotary Photo postcard.', focus: '50% 25%' },
   facts: [
-    ['Training', 'His father’s Worcester music shop; violin and organ; composition largely self-taught'],
+    ['Trained', 'His father’s Worcester music shop; violin and organ; composition largely self-taught'],
     ['Livelihood', 'Powick bandmaster, instrumental teacher and organist at St George’s, Worcester'],
-    ['Major scores', 'Two symphonies; violin and cello concertos; <i>Gerontius</i>; five <i>Pomp and Circumstance</i> marches'],
+    ['Output', 'Two symphonies; violin and cello concertos; <i>Gerontius</i>; five <i>Pomp and Circumstance</i> marches'],
     ['Later years', 'Master of the King’s Musick from 1924; recordings of his own orchestral works'],
   ],
   life: `
@@ -37,7 +37,7 @@ export default {
 <p>Alice died in April 1920. Elgar composed much less, though he continued to conduct and made an extensive series of recordings for HMV. In these recordings he was ready to hurry a crescendo or slow a phrase. His <i>Nimrod</i> moves through several speeds within its few minutes. On 14–15 July 1932 he recorded the Violin Concerto with Yehudi Menuhin and the London Symphony Orchestra.</p>
 <p>The BBC commissioned a Third Symphony that year. Elgar tried its sketches with his violinist friend Billy Reed, playing the piano himself and filling the gaps as they went. Cancer stopped the work in 1933. He died at home in Worcester on 23 February 1934 and was buried beside Alice at Little Malvern. Reed kept the sketches. Anthony Payne’s elaboration of them received its first performance in 1998.</p>`,
   sound: [
-    { aspect: 'Melody & accent', glyph: '𝅘𝅥', html: '<p>The <i>Enigma</i> melody begins with a rest on the first beat. A crotchet rest precedes two quavers, B♭–G, then two crotchets, C–A; in the next bar the longer notes come before the quavers. The theme opens in G minor and later moves to G major, before the variations begin.</p>' },
+    { aspect: 'Melody and accent', glyph: '𝅘𝅥', html: '<p>The <i>Enigma</i> melody begins with a rest on the first beat. A crotchet rest precedes two quavers, B♭–G, then two crotchets, C–A; in the next bar the longer notes come before the quavers. The theme opens in G minor and later moves to G major, before the variations begin.</p>' },
     { aspect: 'Harmony', glyph: '♯', html: '<p>The First Symphony sets two distant keys side by side. Its opening march is in A♭ major; the fast music that follows is in D minor, with a more chromatic melody. The two tonics are a tritone apart. The A♭ tune returns at the end of the finale.</p>' },
     { aspect: 'Strings', glyph: '𝄞', html: '<p>In <i>Introduction and Allegro</i>, four solo string players separate from the larger ensemble and rejoin it. The viola first plays the Welsh melody; in the fast section a fugue passes through the strings before that melody returns. In the cadenza of the Violin Concerto, Elgar asked the orchestral strings to strum their pizzicato with the soft parts of three fingers.</p>' },
     { aspect: 'Returning themes', glyph: '𝄋', html: '<p>Elgar sometimes brought back earlier material near the end of a work. Near the end of the Cello Concerto the soloist recalls the Adagio, then plays the chords with which the concerto began. The orchestra enters again for a short finish. In the First Symphony the scherzo’s quick violin notes lengthen into the melody of the Adagio, and the two movements follow each other without a break.</p>' },
@@ -99,6 +99,6 @@ Sinking deep, deeper, into the dim distance.`, note: '<p>In Newman’s poem the 
   reading: [
     'Jerrold Northrop Moore, <i>Edward Elgar: A Creative Life</i> (Oxford, 1984) — a detailed reconstruction from letters, diaries and sketches.',
     'Julian Rushton, <i>Elgar: Enigma Variations</i> (Cambridge, 1999) — the musical construction, with the cryptographic claims kept in proportion.',
-    '<a href="https://www.elgar.org/2english.htm">The Elgar Society: biography and work guides</a> — chronology, premieres and the documented friends behind the variations.',
+    '<a href="https://www.elgar.org/2english.htm">The Elgar Society: biography and work guides</a> — chronology, premières and the documented friends behind the variations.',
   ],
 };

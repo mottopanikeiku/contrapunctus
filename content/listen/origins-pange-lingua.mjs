@@ -14,8 +14,8 @@ export default {
   intro: '<i>Pange lingua gloriosi corporis mysterium</i> is a traditional plainchant hymn in six Latin stanzas on the bread and wine of the Eucharist. It is monophonic, a single melody with no separate accompaniment, and is sung here by Gareth Hughes.',
 
   sections: [
-    { t: 0, label: 'A · Solo voice, Latin hymn', m: 'A', mNote: 'Six-line stanzas share one melody' },
-    { t: 64, label: 'A′ · More verses of the same tune', m: 'A′', mNote: 'New Latin words fill the familiar phrases' },
+    { t: 0, label: 'A · Solo voice, Latin hymn', m: 'A', mNote: 'Six-line stanzas share one melody.' },
+    { t: 64, label: 'A′ · More verses of the same tune', m: 'A′', mNote: 'New Latin words fill the familiar phrases.' },
     { t: 129, label: 'A″ · Closing stanzas, same melody', m: 'A″', mNote: 'The same voice sings the final stanzas to the same melody.' },
   ],
   cues: [

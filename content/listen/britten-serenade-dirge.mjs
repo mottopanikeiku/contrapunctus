@@ -91,8 +91,8 @@ export default {
     {
       id: 'into-horn-entry',
       title: 'Horn takes up the cellos’ music',
-      from: 'Var 1–4',
-      to: 'Var 5',
+      from: 'Var 1–4 · Strings accompany the tenor',
+      to: 'Var 5 · Horn enters',
       at: { t: 140 },
       span: [128, 160],
       how: '<p>The tenor repeats one six-bar tune through every stanza. Over stanzas two to five the strings accompany it and the volume rises. At “From Brig o’ Dread” the horn enters with the music the cellos and basses played at their first entry. After this stanza the music subsides.</p>',

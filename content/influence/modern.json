@@ -7,7 +7,7 @@
    "to": "debussy",
    "kind": "heard",
    "year": 1889,
-   "title": "Debussy and the gamelan in Paris",
+   "title": "Debussy and the Javanese gamelan, Paris, 1889",
    "works": {
     "from": "Javanese gamelan at the Exposition Universelle, Paris (1889)",
     "to": "Pagodes, from Estampes (1903)"
@@ -38,7 +38,7 @@
    "to": "debussy",
    "kind": "depicted",
    "year": 1894,
-   "title": "Mallarmé’s faun set to music",
+   "title": "Debussy’s Prélude à l’après-midi d’un faune after Mallarmé",
    "works": {
     "from": "L’après-midi d’un faune (poem, 1876)",
     "to": "Prélude à l’après-midi d’un faune (1894)"
@@ -59,12 +59,12 @@
    "to": "debussy",
    "kind": "depicted",
    "year": 1905,
-   "title": "Hokusai’s wave on the cover of La Mer",
+   "title": "Hokusai’s Great Wave on La Mer’s cover",
    "works": {
-    "from": "The Great Wave off Kanagawa (c. 1831)",
-    "to": "La mer, first edition of the orchestral score (Durand, 1905)"
+    "from": "The Great Wave off Kanagawa (c. 1830–32)",
+    "to": "La Mer, first edition of the orchestral score (Durand, 1905)"
    },
-   "claim": "<p>Durand put Hokusai’s <i>Great Wave off Kanagawa</i> on the cover of [[debussy]]’s <i>La Mer</i> in 1905. The cropped image keeps roughly the left half of the print, with the great wave poised above a smaller one.</p>",
+   "claim": "<p>Durand put Hokusai’s <i>The Great Wave off Kanagawa</i> on the cover of [[debussy]]’s <i>La Mer</i> in 1905. The cropped image keeps roughly the left half of the print, with the great wave poised above a smaller one.</p>",
    "status": "documented",
    "note": "The cover is documented. How far Hokusai’s image shaped the composition remains a matter of interpretation.",
    "sources": [
@@ -81,7 +81,7 @@
    ],
    "art": {
     "file": "File:Debussy - La Mer - The great wave of Kanaga from Hokusai.jpg",
-    "caption": "Cover of the first edition of Debussy’s La mer (Durand, 1905), with a detail of Hokusai’s Great Wave."
+    "caption": "Cover of the first edition of Debussy’s La Mer (Durand, 1905), with a detail of Hokusai’s The Great Wave off Kanagawa."
    }
   },
   {
@@ -90,7 +90,7 @@
    "to": "debussy",
    "kind": "quoted",
    "year": 1908,
-   "title": "Debussy’s cakewalk parody of Tristan",
+   "title": "Tristan in Debussy’s Golliwogg’s Cakewalk",
    "thread": "tristan-chord",
    "works": {
     "from": "Tristan und Isolde, Prelude (1859)",
@@ -117,7 +117,7 @@
    "to": "satie",
    "kind": "championed",
    "year": 1897,
-   "title": "Debussy’s orchestration of two Gymnopédies",
+   "title": "Debussy’s orchestration of Satie’s Gymnopédies",
    "works": {
     "from": "Debussy’s orchestration of Gymnopédies Nos. 3 and 1 (1897)",
     "to": "Gymnopédies (1888)"
@@ -143,7 +143,7 @@
    "to": "satie",
    "kind": "championed",
    "year": 1892,
-   "title": "Péladan’s ceremonial fanfares, sounded by Satie",
+   "title": "Satie’s Sonneries de la Rose+Croix for Péladan",
    "works": {
     "from": "Salon de la Rose+Croix, Paris (10 March–10 April 1892)",
     "to": "Sonneries de la Rose+Croix (1892)"
@@ -164,7 +164,7 @@
    "to": "richard-strauss",
    "kind": "depicted",
    "year": 1896,
-   "title": "Strauss’s tone poem after Nietzsche",
+   "title": "Strauss’s Also sprach Zarathustra after Nietzsche",
    "works": {
     "from": "Also sprach Zarathustra (1883–85)",
     "to": "Also sprach Zarathustra, Op. 30 (1896)"
@@ -195,12 +195,12 @@
    "to": "richard-strauss",
    "kind": "quoted",
    "year": 1945,
-   "title": "Strauss, Metamorphosen: Beethoven’s funeral march quoted at the end",
+   "title": "Beethoven’s funeral march in Strauss’s Metamorphosen",
    "works": {
     "from": "Symphony No. 3, “Eroica”, Marcia funebre (1804)",
     "to": "Metamorphosen (1945)"
    },
-   "claim": "<p>At the end of <i>Metamorphosen</i>, [[richard-strauss]] quoted the first four bars of the <i>Marcia funebre</i> from [[beethoven]]’s <i>Eroica</i> Symphony and wrote beneath them “IN MEMORIAM!”. A direct quotation from bar 3 of the march also appears earlier in the score as one of the work’s themes.</p>",
+   "claim": "<p>At the end of <i>Metamorphosen</i>, [[richard-strauss]] quoted the first four bars of the <i>Marcia funebre</i> from [[beethoven]]’s “Eroica” Symphony and wrote beneath them “IN MEMORIAM!”. A direct quotation from bar 3 of the march also appears earlier in the score as one of the work’s themes.</p>",
    "status": "documented",
    "sources": [
     {
@@ -216,7 +216,7 @@
    "to": "sibelius",
    "kind": "heard",
    "year": 1891,
-   "title": "Sibelius and a Finnish rune singer",
+   "title": "Sibelius and Larin Paraske, Porvoo, 1891",
    "works": {
     "from": "Larin Paraske’s rune singing, Porvoo (1891)",
     "to": "Kullervo, Op. 7 (1892)"
@@ -248,7 +248,7 @@
    "to": "scriabin",
    "kind": "modelled",
    "year": 1896,
-   "title": "Scriabin’s 24 Preludes and Chopin’s plan",
+   "title": "Scriabin’s Preludes, Op. 11, and Chopin’s Op. 28",
    "works": {
     "from": "Chopin, 24 Preludes, Op. 28 (1839)",
     "to": "Scriabin, 24 Preludes, Op. 11 (1888–96)"
@@ -270,7 +270,7 @@
    "to": "janacek",
    "kind": "depicted",
    "year": 1923,
-   "title": "Tolstoy’s Kreutzer Sonata as a string quartet",
+   "title": "Janáček’s Kreutzer Sonata Quartet after Tolstoy",
    "works": {
     "from": "The Kreutzer Sonata (novella)",
     "to": "String Quartet No. 1, “Kreutzer Sonata” (1923)"
@@ -291,7 +291,7 @@
    "to": "elgar",
    "kind": "set-text",
    "year": 1900,
-   "title": "Elgar’s setting of Newman’s poem of a dying soul",
+   "title": "Elgar’s setting of Newman’s Dream of Gerontius",
    "works": {
     "from": "The Dream of Gerontius (poem, 1865)",
     "to": "The Dream of Gerontius, Op. 38 (1900)"
@@ -312,12 +312,12 @@
    "to": "elgar",
    "kind": "modelled",
    "year": 1899,
-   "title": "Nimrod and Beethoven’s Pathétique slow movement",
+   "title": "Beethoven’s Pathétique and Elgar’s Nimrod",
    "works": {
     "from": "Piano Sonata No. 8, “Pathétique”, slow movement (1799)",
     "to": "Enigma Variations, Variation IX “Nimrod” (1899)"
    },
-   "claim": "<p>Elgar said Nimrod came from a day when he was ready to give up composing and his publisher August Jaeger urged him on, pointing to [[beethoven]], who wrote more and more beautiful music despite his worries, and singing the theme of the slow movement of the <i>Pathétique</i> sonata. Elgar told Dora Penny that the opening bars of Nimrod were made to suggest that theme: “Only a hint, not a quotation”.</p>",
+   "claim": "<p>Elgar said Nimrod came from a day when he was ready to give up composing and his publisher August Jaeger urged him on, pointing to [[beethoven]], who wrote more and more beautiful music despite his worries, and singing the theme of the slow movement of the “Pathétique” sonata. Elgar told Dora Penny that the opening bars of Nimrod were made to suggest that theme: “Only a hint, not a quotation”.</p>",
    "status": "documented",
    "sources": [
     {
@@ -333,7 +333,7 @@
    "to": "puccini",
    "kind": "heard",
    "year": 1876,
-   "title": "Puccini’s walk to Pisa to hear Aida",
+   "title": "Puccini at Aida, Pisa, 1876",
    "works": {
     "from": "Aida (1871)",
     "to": "Puccini’s career in the opera house"
@@ -359,7 +359,7 @@
    "to": "puccini",
    "kind": "quoted",
    "year": 1924,
-   "title": "Turandot and a Chinese music box",
+   "title": "Chinese music-box melodies in Puccini’s Turandot",
    "works": {
     "from": "Chinese melodies on a music box owned by Baron Fassini-Camossi",
     "to": "Turandot (1920–24, unfinished)"
@@ -380,7 +380,7 @@
    "to": "schoenberg",
    "kind": "set-text",
    "year": 1908,
-   "title": "George’s poems and the voice in the quartet",
+   "title": "Schoenberg’s setting of George in the Second Quartet",
    "works": {
     "from": "Stefan George, Litanei and Entrückung (Der siebente Ring)",
     "to": "String Quartet No. 2, Op. 10, movements III–IV (1908)"
@@ -401,7 +401,7 @@
    "to": "schoenberg",
    "kind": "dedicated",
    "year": 1911,
-   "title": "Schoenberg’s Harmonielehre, dedicated to Mahler’s memory",
+   "title": "Schoenberg’s Harmonielehre, dedicated to Mahler",
    "works": {
     "from": "Gustav Mahler, who died in May 1911",
     "to": "Harmonielehre (1911)"
@@ -427,7 +427,7 @@
    "to": "schoenberg",
    "kind": "championed",
    "year": 1911,
-   "title": "Kandinsky, Schoenberg and the Blaue Reiter",
+   "title": "Kandinsky, Schoenberg and the Blaue Reiter, 1911",
    "works": {
     "from": "Kandinsky’s letters to Schoenberg, from 18 January 1911",
     "to": "Schoenberg’s contributions to the Blaue Reiter exhibition and almanac (1911–12)"
@@ -453,7 +453,7 @@
    "to": "kandinsky",
    "kind": "depicted",
    "year": 1911,
-   "title": "Schoenberg concert and Impression III",
+   "title": "Kandinsky’s Impression III after Schoenberg’s concert",
    "works": {
     "from": "Concert of Schoenberg’s music, Munich (2 January 1911)",
     "to": "Impression III (Concert) (1911)"
@@ -478,12 +478,12 @@
    "to": "berg",
    "kind": "studied-with",
    "year": 1904,
-   "title": "Start of Berg’s seven years’ study with Schoenberg",
+   "title": "Berg’s studies with Schoenberg, 1904–11",
    "works": {
     "from": "Schoenberg’s teaching in Vienna (1904–11)",
     "to": "Berg’s early works, from the Piano Sonata, Op. 1"
    },
-   "claim": "<p>Berg studied counterpoint, music theory and harmony with [[schoenberg]] between 1904 and 1911. He adopted his teacher’s principle of developing variation and, later, the twelve-tone technique, which he used in the Lyric Suite and the Violin Concerto.</p>",
+   "claim": "<p>Berg studied counterpoint, music theory and harmony with [[schoenberg]] between 1904 and 1911. He adopted his teacher’s principle of developing variation and, later, the twelve-note technique, which he used in the Lyric Suite and the Violin Concerto.</p>",
    "status": "documented",
    "sources": [
     {
@@ -499,7 +499,7 @@
    "to": "berg",
    "kind": "set-text",
    "year": 1914,
-   "title": "Berg at a stage performance of Woyzeck; opera begun",
+   "title": "Berg’s Wozzeck after Büchner’s Woyzeck",
    "works": {
     "from": "Woyzeck (play, 1837)",
     "to": "Wozzeck (opera, completed 1922)"
@@ -525,7 +525,7 @@
    "to": "berg",
    "kind": "quoted",
    "year": 1935,
-   "title": "Bach chorale in Berg’s Violin Concerto",
+   "title": "Bach’s chorale in Berg’s Violin Concerto",
    "works": {
     "from": "Cantata BWV 60, closing chorale “Es ist genug”",
     "to": "Violin Concerto, Part II, Adagio (1935)"
@@ -573,7 +573,7 @@
    "to": "berg",
    "kind": "quoted",
    "year": 1926,
-   "title": "Berg’s Lyric Suite and the Tristan quotation",
+   "title": "Tristan quotation in Berg’s Lyric Suite",
    "thread": "tristan-chord",
    "works": {
     "from": "Tristan und Isolde, Prelude (1859)",
@@ -600,7 +600,7 @@
    "to": "webern",
    "kind": "copied",
    "year": 1935,
-   "title": "Webern’s orchestration of Bach’s six-part Ricercar",
+   "title": "Webern’s orchestration of Bach’s Ricercar a 6",
    "works": {
     "from": "Musical Offering, BWV 1079: Ricercar a 6 (1747)",
     "to": "Fuga (Ricercata) a 6 voci, Bach–Webern (1934–35)"
@@ -621,7 +621,7 @@
    "to": "webern",
    "kind": "modelled",
    "year": 1906,
-   "title": "Webern’s study of Isaac’s choirbook counterpoint",
+   "title": "Webern’s edition of Isaac’s Choralis Constantinus",
    "works": {
     "from": "Choralis Constantinus II (early 16th century)",
     "to": "Webern’s doctoral edition and his later counterpoint"
@@ -642,7 +642,7 @@
    "to": "bartok",
    "kind": "heard",
    "year": 1906,
-   "title": "Bartók’s phonograph recordings of peasant songs",
+   "title": "Bartók’s phonograph recordings of peasant songs, 1906–08",
    "works": {
     "from": "Peasant songs recorded in Békés County and elsewhere (1906–08)",
     "to": "Bartók’s folk-song collections and the music built on them"
@@ -668,7 +668,7 @@
    "to": "bartok",
    "kind": "modelled",
    "year": 1907,
-   "title": "Kodály, Bartók and Debussy’s scores",
+   "title": "Kodály’s Debussy scores and Bartók, 1907",
    "works": {
     "from": "Debussy’s scores, brought from Paris by Kodály",
     "to": "Bartók’s works from 1907"
@@ -710,7 +710,7 @@
    "to": "stravinsky",
    "kind": "quoted",
    "year": 1913,
-   "title": "Lithuanian tune in the Rite’s opening bassoon",
+   "title": "Lithuanian folk song in The Rite of Spring",
    "works": {
     "from": "Anthology of Lithuanian folk songs (Warsaw)",
     "to": "The Rite of Spring, opening bassoon solo (1913)"
@@ -736,7 +736,7 @@
    "to": "stravinsky",
    "kind": "modelled",
    "year": 1920,
-   "title": "Stravinsky’s borrowings from “Pergolesi”",
+   "title": "Stravinsky’s Pulcinella, after music attributed to Pergolesi",
    "works": {
     "from": "Pieces then attributed to Pergolesi",
     "to": "Pulcinella (1920)"
@@ -763,12 +763,12 @@
    "to": "stravinsky",
    "kind": "heard",
    "year": 1912,
-   "title": "Stravinsky at Pierrot lunaire, Berlin",
+   "title": "Stravinsky at Pierrot lunaire, Berlin, 1912",
    "works": {
     "from": "Pierrot lunaire, Op. 21 (1912)",
     "to": "Three Japanese Lyrics (1912–13)"
    },
-   "claim": "<p>In the winter of 1912 [[stravinsky]] was in Berlin for performances of his ballets by the Ballets Russes, and attended a performance of [[schoenberg]]’s <i>Pierrot lunaire</i>, conducted by the composer, less than two months after its premiere. He had already composed the first of his <i>Three Japanese Lyrics</i> as a song with piano, but after hearing <i>Pierrot</i> he decided to score the songs for an instrumental ensemble somewhat similar to Schoenberg’s.</p>",
+   "claim": "<p>In the winter of 1912 [[stravinsky]] was in Berlin for performances of his ballets by the Ballets Russes, and attended a performance of [[schoenberg]]’s <i>Pierrot lunaire</i>, conducted by the composer, less than two months after its première. He had already composed the first of his <i>Three Japanese Lyrics</i> as a song with piano, but after hearing <i>Pierrot</i> he decided to score the songs for an instrumental ensemble somewhat similar to Schoenberg’s.</p>",
    "status": "documented",
    "sources": [
     {
@@ -784,7 +784,7 @@
    "to": "ives",
    "kind": "quoted",
    "year": 1900,
-   "title": "Ives’s sources: hymn tunes and town bands",
+   "title": "Hymn tunes and town bands in Ives’s music",
    "works": {
     "from": "Hymn tunes, town-band music, Stephen Foster",
     "to": "Ives’s songs, symphonies and sonatas"
@@ -805,7 +805,7 @@
    "to": "ives",
    "kind": "quoted",
    "year": 1915,
-   "title": "Beethoven’s Fifth motif in the Concord Sonata",
+   "title": "Beethoven’s Fifth motif in Ives’s Concord Sonata",
    "works": {
     "from": "Symphony No. 5, opening motif (1808)",
     "to": "Piano Sonata No. 2, “Concord, Mass., 1840–60” (completed by 1915)"
@@ -826,7 +826,7 @@
    "to": "shostakovich",
    "kind": "modelled",
    "year": 1950,
-   "title": "Shostakovich and Bach: Leipzig",
+   "title": "Shostakovich at the Leipzig Bach Competition, 1950",
    "works": {
     "from": "The Well-Tempered Clavier (1722, 1742)",
     "to": "24 Preludes and Fugues, Op. 87 (1950–51)"
@@ -868,7 +868,7 @@
    "to": "gubaidulina",
    "kind": "championed",
    "year": 1959,
-   "title": "Shostakovich on Gubaidulina continuing her “mistaken” way",
+   "title": "Shostakovich and Gubaidulina’s Conservatoire examination, 1959",
    "works": {
     "from": "Shostakovich’s verdict on a Conservatoire examination",
     "to": "Gubaidulina’s early music at the Moscow Conservatory"
@@ -889,7 +889,7 @@
    "to": "gubaidulina",
    "kind": "quoted",
    "year": 1980,
-   "title": "Gubaidulina: Bach’s royal theme in Webern’s manner",
+   "title": "Bach’s royal theme in Gubaidulina’s Offertorium",
    "works": {
     "from": "Musical Offering, BWV 1079: the royal theme (1747)",
     "to": "Offertorium, violin concerto (1980)"
@@ -913,9 +913,9 @@
    "title": "Shostakovich’s Fourteenth Symphony, dedicated to Britten",
    "works": {
     "from": "Symphony No. 14 (1969)",
-    "to": "Western premiere, Aldeburgh Festival (1970)"
+    "to": "Western première, Aldeburgh Festival (1970)"
    },
-   "claim": "<p>[[shostakovich]] dedicated his Fourteenth Symphony, a song cycle on poems about death, to his close friend [[britten]], who conducted its Western premiere at the 1970 Aldeburgh Festival.</p>",
+   "claim": "<p>[[shostakovich]] dedicated his Fourteenth Symphony, a song cycle on poems about death, to his close friend [[britten]], who conducted its Western première at the 1970 Aldeburgh Festival.</p>",
    "status": "documented",
    "sources": [
     {
@@ -931,7 +931,7 @@
    "to": "britten",
    "kind": "modelled",
    "year": 1945,
-   "title": "Britten’s Young Person’s Guide, based on Purcell",
+   "title": "Britten’s Young Person’s Guide on a Purcell theme",
    "works": {
     "from": "Abdelazer, Rondeau (1695)",
     "to": "The Young Person’s Guide to the Orchestra, Op. 34 (1945)"
@@ -952,7 +952,7 @@
    "to": "britten",
    "kind": "set-text",
    "year": 1941,
-   "title": "Auden’s text for Britten’s first music drama",
+   "title": "Auden’s libretto for Britten’s Paul Bunyan",
    "works": {
     "from": "Libretto for Paul Bunyan (1941)",
     "to": "Paul Bunyan (1941)"
@@ -999,7 +999,7 @@
    "to": "poulenc",
    "kind": "championed",
    "year": 1929,
-   "title": "Poulenc’s harpsichord concerto for Landowska",
+   "title": "Poulenc’s Concert champêtre for Landowska",
    "works": {
     "from": "Wanda Landowska’s Pleyel harpsichord",
     "to": "Concert champêtre (1927–28)"
@@ -1025,7 +1025,7 @@
    "to": "lili-boulanger",
    "kind": "set-text",
    "year": 1914,
-   "title": "Lili Boulanger’s song cycle on poems by Francis Jammes",
+   "title": "Lili Boulanger’s settings of Francis Jammes",
    "works": {
     "from": "Poems by Francis Jammes",
     "to": "Clairières dans le ciel (1914)"
@@ -1067,7 +1067,7 @@
    "to": "messiaen",
    "kind": "heard",
    "year": 1919,
-   "title": "Messiaen and Pelléas",
+   "title": "Messiaen and Debussy’s Pelléas et Mélisande",
    "works": {
     "from": "Pelléas et Mélisande (1902)",
     "to": "Messiaen’s early music"
@@ -1088,7 +1088,7 @@
    "to": "ligeti",
    "kind": "heard",
    "year": 1980,
-   "title": "Ligeti and Nancarrow’s Studies for Player Piano",
+   "title": "Ligeti and Nancarrow’s Player Piano Studies, 1980",
    "works": {
     "from": "Studies for Player Piano",
     "to": "Ligeti’s Piano Études and Piano Concerto (1980s)"
@@ -1119,7 +1119,7 @@
    "to": "boulez",
    "kind": "studied-with",
    "year": 1945,
-   "title": "Boulez in Messiaen’s advanced harmony class",
+   "title": "Boulez’s studies with Messiaen, 1944–45",
    "works": {
     "from": "Messiaen’s private seminars and Conservatoire class",
     "to": "Boulez’s earliest published works"
@@ -1140,7 +1140,7 @@
    "to": "boulez",
    "kind": "reacted-against",
    "year": 1952,
-   "title": "Boulez, “Schoenberg is Dead”",
+   "title": "Boulez’s “Schoenberg is Dead”, 1952",
    "works": {
     "from": "Schoenberg’s twelve-note music",
     "to": "“Schoenberg is Dead”, The Score (1952)"
@@ -1161,7 +1161,7 @@
    "to": "boulez",
    "kind": "set-text",
    "year": 1960,
-   "title": "Boulez’s Mallarmé sonnets in Pli selon pli",
+   "title": "Boulez’s Pli selon pli after Mallarmé",
    "works": {
     "from": "Sonnets by Stéphane Mallarmé",
     "to": "Pli selon pli, “Portrait de Mallarmé” (first performed 1960)"
@@ -1182,7 +1182,7 @@
    "to": "boulez",
    "kind": "championed",
    "year": 1949,
-   "title": "Cage’s introduction of Boulez to publishers",
+   "title": "Cage and Boulez in Paris, 1949",
    "works": {
     "from": "Sonatas and Interludes for prepared piano (1946–48)",
     "to": "Boulez’s early publications"
@@ -1203,7 +1203,7 @@
    "to": "feldman",
    "kind": "heard",
    "year": 1950,
-   "title": "Feldman and Cage after Webern’s Symphony",
+   "title": "Feldman and Cage after Webern’s Symphony, 1950",
    "works": {
     "from": "Webern’s Symphony, Op. 21 at Carnegie Hall (January 1950)",
     "to": "Feldman’s graph pieces and Projections"
@@ -1229,7 +1229,7 @@
    "to": "feldman",
    "kind": "depicted",
    "year": 1971,
-   "title": "Rothko’s paintings and Feldman’s Rothko Chapel",
+   "title": "Feldman’s Rothko Chapel and Rothko’s paintings",
    "works": {
     "from": "Mark Rothko’s paintings in the Rothko Chapel, Houston",
     "to": "Rothko Chapel (1971)"
@@ -1276,7 +1276,7 @@
    "to": "part",
    "kind": "dedicated",
    "year": 1977,
-   "title": "Pärt’s descending cantus in memory of Britten",
+   "title": "Pärt’s Cantus in Memoriam Benjamin Britten",
    "works": {
     "from": "Britten’s music and example",
     "to": "Cantus in Memoriam Benjamin Britten (1977)"
@@ -1297,7 +1297,7 @@
    "to": "reich",
    "kind": "studied-with",
    "year": 1970,
-   "title": "Reich’s study of Ewe drumming in Ghana",
+   "title": "Reich’s study of Ewe drumming, Ghana, 1970",
    "works": {
     "from": "Ewe drumming taught by Gideon Alorwoyie, Legon (June 1970)",
     "to": "Drumming (1970–71)"
@@ -1318,7 +1318,7 @@
    "to": "reich",
    "kind": "studied-with",
    "year": 1973,
-   "title": "Reich’s study of Balinese gamelan, Seattle and Berkeley",
+   "title": "Reich’s gamelan study, Seattle and Berkeley, 1973–74",
    "works": {
     "from": "Gamelan semar pegulingan and gambang, studied in summer 1973 and 1974",
     "to": "Music for Mallet Instruments, Voices and Organ (1973)"
@@ -1339,7 +1339,7 @@
    "to": "kurtag",
    "kind": "set-text",
    "year": 1987,
-   "title": "Kurtág’s Kafka Fragments for soprano and violin",
+   "title": "Kurtág’s Kafka-Fragmente, Op. 24",
    "works": {
     "from": "Kafka’s diaries, letters and notebooks",
     "to": "Kafka-Fragmente, Op. 24 (1985–87)"
@@ -1372,7 +1372,7 @@
    },
    "claim": "<p>[[adams]]’s early work was aligned with modernist music, but he began to disagree with its tenets after reading [[cage|John Cage]]’s <i>Silence: Lectures and Writings</i>. While teaching at the San Francisco Conservatory of Music, he went on to develop a style of his own.</p>",
    "status": "inferred",
-   "note": "The source gives no date; the year 1970 stands for the late 1960s and early 1970s of his training and is approximate.",
+   "note": "The source gives no date. His training fell in the late 1960s and early 1970s, and the reading belongs to that period.",
    "sources": [
     {
      "title": "Wikipedia: John Adams (composer)",
@@ -1387,7 +1387,7 @@
    "to": "saariaho",
    "kind": "depicted",
    "year": 2000,
-   "title": "Saariaho’s opera on a troubadour’s love from afar",
+   "title": "Saariaho’s L’Amour de loin and Jaufré Rudel",
    "works": {
     "from": "Jaufré Rudel, 12th-century troubadour poet",
     "to": "L’Amour de loin (2000)"
@@ -1408,12 +1408,12 @@
    "to": "ades",
    "kind": "modelled",
    "year": 2006,
-   "title": "Adès: three Couperin harpsichord pieces, re-scored",
+   "title": "Adès’s Three Studies from Couperin",
    "works": {
     "from": "Pièces de clavecin: Les Amusemens, Les Tours de passe-passe, L’Âme-en-peine",
     "to": "Three Studies from Couperin (2006)"
    },
-   "claim": "<p>[[ades]]’s <i>Three Studies from Couperin</i> (2006), written for the Basle Chamber Orchestra, rework keyboard pieces by [[couperin]] (<i>Les Amusemens</i>, <i>Les Tours de passe-passe</i> and <i>L’Âme-en-peine</i>) for two string ensembles with solo winds and percussion. Couperin’s style involves a great deal of repetition, and Adès varies the repeats by changing the orchestration or by adding shadows and haloes to the parts.</p>",
+   "claim": "<p>[[ades]]’s <i>Three Studies from Couperin</i> (2006), written for the Basle Chamber Orchestra, rework keyboard pieces by [[couperin]] (<i>Les Amusemens</i>, <i>Les Tours de passe-passe</i> and <i>L’Âme-en-peine</i>) for two string ensembles with solo winds and percussion. According to Paul Griffiths’s programme note, Couperin’s style involves a lot of repetition, which Adès varies by altering the orchestration or by adding “shadows or haloes” to the parts.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1425,7 +1425,7 @@
   },
   {
    "id":"bach-signature--reger-op46","from":"bach","to":"reger","kind":"quoted","year":1900,
-   "title":"Reger’s organ work on BACH","thread":"bach-motif",
+   "title":"Reger’s Fantasy and Fugue on B–A–C–H, Op. 46","thread":"bach-motif",
    "works":{"from":"The B–A–C–H musical signature","to":"Fantasie und Fuge über B-A-C-H, Op. 46 (1900)"},
    "claim":"<p>Reger wrote his large organ Fantasy and Fugue, Op. 46, on the four notes B–A–C–H in February 1900. He dedicated the score to Josef Rheinberger.</p>",
    "status":"documented",
@@ -1433,23 +1433,23 @@
   },
   {
    "id":"bach-signature--webern-quartet-op28","from":"bach","to":"webern","kind":"quoted","year":1938,
-   "title":"Bach’s four notes in Webern’s twelve-tone row","thread":"bach-motif",
+   "title":"B–A–C–H in Webern’s String Quartet, Op. 28","thread":"bach-motif",
    "works":{"from":"The B–A–C–H musical signature","to":"String Quartet, Op. 28 (1936–38)"},
-   "claim":"<p>Webern’s String Quartet, Op. 28, begins its twelve-note row with B♭–A–C–B♮. Each of the row’s three four-note groups is a transformation of the same cell, so Bach’s name runs through all twelve notes.</p>",
+   "claim":"<p>Webern’s String Quartet, Op. 28, begins its twelve-note row with B♭–A–C–B♮. Each of the row’s three four-note groups is a transformation of the same cell.</p>",
    "status":"documented","note":"The first performance was given on 22 September 1938 at the Coolidge Festival in Pittsfield. Composition began earlier.",
    "sources":[{"title":"String Quartet, Op. 28 (Webern): tone-row analysis","url":"https://en.wikipedia.org/wiki/String_Quartet_(Webern)","locator":"‘Tone row’: opening B-flat–A–C–B-natural and three related tetrachords; opening chronology"},{"title":"Universal Edition: Webern, String Quartet Op. 28","url":"https://www.universaledition.com/en/String-Quartet/P0035206","locator":"Publisher work catalogue"}]
   },
   {
    "id":"bach-signature--part-collage","from":"bach","to":"part","kind":"quoted","year":1964,
-   "title":"Pärt’s juxtaposition of Bach and twelve-tone dissonance","thread":"bach-motif",
+   "title":"Pärt’s Collage über B-A-C-H","thread":"bach-motif",
    "works":{"from":"The B–A–C–H signature; English Suite in D minor, Sarabande","to":"Collage über B-A-C-H (1964), especially Sarabande"},
-   "claim":"<p>Pärt’s <i>Collage über B-A-C-H</i> begins its ten-note sequence with Bach’s four-note signature. In the Sarabande, passages from the D-minor English Suite alternate with dense clusters, and harpsichord and piano help distinguish inherited Baroque music from the modern material set against it.</p>",
+   "claim":"<p>Pärt’s <i>Collage über B-A-C-H</i> begins its ten-note sequence with Bach’s four-note signature. In the Sarabande, passages from the D minor English Suite alternate with dense clusters, and harpsichord and piano help distinguish inherited Baroque music from the modern material set against it.</p>",
    "status":"documented",
    "sources":[{"title":"Arvo Pärt Centre: Collage über B-A-C-H","url":"https://www.arvopart.ee/en/arvo-part/work/583/","locator":"1964 work entry and commentary: ten-note sequence, Sarabande quotation, harpsichord/piano contrast"}]
   },
   {
    "id":"gregorian-chant--crumb-black-angels","from":"gregorian-chant","to":"crumb","kind":"quoted","year":1970,
-   "title":"Chant in an amplified string quartet","thread":"dies-irae",
+   "title":"Dies irae in Crumb’s Black Angels","thread":"dies-irae",
    "works":{"from":"Dies irae, the Requiem plainchant","to":"Black Angels, Thirteen Images from the Dark Land (1970)"},
    "claim":"<p>Crumb’s amplified string quartet <i>Black Angels</i> alludes to the <i>Dies irae</i>, Schubert’s <i>Death and the Maiden</i> and Tartini’s <i>Devil’s Trill</i>. Crumb names all three allusions in his foreword.</p>",
    "status":"documented",
@@ -1457,15 +1457,15 @@
   },
   {
    "id":"beethoven-ninth--european-anthem","from":"beethoven","to":"european-anthem","kind":"quoted","year":1972,
-   "title":"The Ode as a wordless anthem","thread":"ode-to-joy",
+   "title":"Ode to Joy as the European anthem","thread":"ode-to-joy",
    "works":{"from":"Symphony No. 9, finale, Ode to Joy","to":"European anthem: Council of Europe adoption (1972), European Community adoption (1985)"},
-   "claim":"<p>The Council of Europe adopted the melody of Beethoven’s <i>Ode to Joy</i> as its anthem in 1972, and European Community leaders adopted it in 1985. The official anthem has no words, so no single language was chosen for Schiller’s poem.</p>",
+   "claim":"<p>The Council of Europe adopted the melody of Beethoven’s <i>Ode to Joy</i> as its anthem in 1972, and European Community leaders adopted it in 1985. The official anthem has no words.</p>",
    "status":"documented",
    "sources":[{"title":"European Union: European anthem","url":"https://european-union.europa.eu/principles-countries-history/symbols/european-anthem_en","locator":"Official page, updated 17 April 2026: 1972 and 1985 adoptions; instrumental anthem without words"}]
   },
   {
    "id":"beethoven-ninth--bernstein-berlin-freedom","from":"beethoven","to":"bernstein","kind":"championed","year":1989,
-   "title":"Bernstein in Berlin: joy to freedom","thread":"ode-to-joy",
+   "title":"Bernstein’s Berlin Freedom Concert, 1989","thread":"ode-to-joy",
    "works":{"from":"Symphony No. 9, finale, Schiller’s An die Freude","to":"Berlin Freedom Concert, Schauspielhaus, 25 December 1989"},
    "claim":"<p>At the Christmas Day 1989 concert in East Berlin, Bernstein conducted Beethoven’s Ninth with one word changed. In response to the opening of the Berlin Wall, the singers sang <i>Freiheit</i>, freedom, in place of <i>Freude</i>, joy.</p>",
    "status":"documented",
@@ -1473,7 +1473,7 @@
   },
   {
    "id":"frere-jacques--beatles-paperback-writer","from":"frere-jacques-round","to":"beatles","kind":"quoted","year":1966,
-   "title":"Children’s round in “Paperback Writer”","thread":"frere-jacques",
+   "title":"Frère Jacques in Paperback Writer","thread":"frere-jacques",
    "works":{"from":"Frère Jacques, traditional round","to":"Paperback Writer, backing vocals (1966)"},
    "claim":"<p>In the backing vocals of <i>Paperback Writer</i>, recorded in April 1966, the Beatles sang <i>Frère Jacques</i>. The children’s round is heard behind the song’s main tune.</p>",
    "status":"documented",
@@ -1485,7 +1485,7 @@
    "to": "price",
    "kind": "studied-with",
    "year": 1903,
-   "title": "Price at New England Conservatory; private study with Chadwick",
+   "title": "Price’s studies with Chadwick, Boston, 1903–06",
    "works": {
     "from": "Composition with Wallace Goodrich and Frederick Converse; private lessons with George W. Chadwick, director of the conservatory",
     "to": "Price’s training in Boston, 1903–06, before her Symphony in E minor (1931)"
@@ -1516,12 +1516,12 @@
    "to": "price",
    "kind": "modelled",
    "year": 1931,
-   "title": "Dvořák’s New World Symphony and Price’s Symphony No. 1",
+   "title": "Price’s Symphony No. 1 after Dvořák’s New World",
    "works": {
     "from": "Dvořák, Symphony No. 9 “From the New World” (1893) and the American works",
     "to": "Price, Symphony No. 1 in E minor (begun January 1931)"
    },
-   "claim": "<p>[[price]] began her Symphony in E minor in January 1931 and worked on it for much of the year. It won a Rodman Wanamaker prize in 1932, and Frederick Stock conducted the Chicago Symphony in its first performance on 15 June 1933. Like [[dvorak]]’s <i>New World</i> Symphony, it has four movements in the familiar order. Phillip Huscher heard its opening, a syncopated bassoon solo, as at once recalling the <i>New World</i>, and Rae Linda Brown found Dvořák’s influence “most evident” in the second theme of the first movement. Brown added that the “American” works Dvořák wrote while heading the National Conservatory in New York inspired a generation of American composers, Black and white.</p>",
+   "claim": "<p>[[price]] began her Symphony in E minor in January 1931 and worked on it for much of the year. It won a Rodman Wanamaker prize in 1932, and Frederick Stock conducted the Chicago Symphony in its first performance on 15 June 1933. Like [[dvorak]]’s “New World” Symphony, it has four movements in the familiar order. Phillip Huscher heard its opening, a syncopated bassoon solo, as at once recalling the “New World”, and Rae Linda Brown found Dvořák’s influence “most evident” in the second theme of the first movement. Brown added that the “American” works Dvořák wrote while heading the National Conservatory in New York inspired a generation of American composers, Black and white.</p>",
    "status": "documented",
    "sources": [
     {
@@ -1542,7 +1542,7 @@
    "to": "price",
    "kind": "quoted",
    "year": 1929,
-   "title": "Price, Fantasie nègre: spiritual as source",
+   "title": "Spiritual theme in Price’s Fantasie nègre",
    "works": {
     "from": "“Sinner, Please Don’t Let This Harvest Pass”, African American spiritual",
     "to": "Price, Fantasie nègre (1929), dedicated to Margaret Bonds"
@@ -1568,7 +1568,7 @@
    "to": "price",
    "kind": "championed",
    "year": 1939,
-   "title": "Anderson, Price’s spiritual, Lincoln Memorial",
+   "title": "Anderson singing Price, Lincoln Memorial, 1939",
    "works": {
     "from": "Marian Anderson’s concert at the Lincoln Memorial, Washington, 9 April 1939",
     "to": "Price’s arrangement of “My Soul’s Been Anchored in de Lord”"
@@ -1630,7 +1630,7 @@
    "to": "copland",
    "kind": "studied-with",
    "year": 1921,
-   "title": "Copland’s studies with Nadia Boulanger",
+   "title": "Copland’s studies with Nadia Boulanger, 1921–24",
    "works": {
     "from": "Boulanger’s harmony and composition classes, Fontainebleau and Paris, 1921–24",
     "to": "Copland, Symphony for Organ and Orchestra (first played 1925)"
@@ -1656,7 +1656,7 @@
    "to": "bernstein",
    "kind": "taught",
    "year": 1937,
-   "title": "Copland as mentor to the teenage Bernstein",
+   "title": "Copland’s mentoring of Bernstein, 1937",
    "works": {
     "from": "Copland’s Piano Variations (1930) and his letters to Bernstein from 1937",
     "to": "Bernstein’s arrangements of El Salón México; the Third Symphony performances of the 1940s"
@@ -1687,7 +1687,7 @@
    "to": "copland",
    "kind": "championed",
    "year": 1932,
-   "title": "Chávez, Copland’s visit to Mexico and El Salón México",
+   "title": "Chávez and Copland in Mexico, 1932",
    "works": {
     "from": "Chávez’s invitation and the first all-Copland concert, Mexico City, 2 September 1932",
     "to": "Copland, El Salón México (1932–36), conducted by Chávez at the première, 27 August 1937"
@@ -1713,7 +1713,7 @@
    "to": "copland",
    "kind": "quoted",
    "year": 1942,
-   "title": "Copland’s Hoe-Down and a Kentucky fiddle tune",
+   "title": "Stepp’s Bonaparte’s Retreat in Copland’s Hoe-Down",
    "works": {
     "from": "W. H. Stepp, “Bonaparte’s Retreat”, recorded by Alan and Elizabeth Lomax, Salyersville, Kentucky, October 1937",
     "to": "Copland, Rodeo (1942), final section “Hoe-Down”"
@@ -1744,7 +1744,7 @@
    "to": "gershwin",
    "kind": "studied-with",
    "year": 1913,
-   "title": "Hambitzer, Gershwin’s first important piano teacher",
+   "title": "Gershwin’s studies with Hambitzer, 1913–18",
    "works": {
     "from": "Charles Hambitzer’s piano lessons, from about early 1913 until 1918",
     "to": "Gershwin’s earliest songs; his work as a song plugger for Remick from May 1914"
@@ -1765,7 +1765,7 @@
    "to": "gershwin",
    "kind": "set-text",
    "year": 1933,
-   "title": "Heyward’s Porgy and Gershwin’s Porgy and Bess",
+   "title": "Gershwin’s Porgy and Bess after Heyward’s Porgy",
    "works": {
     "from": "DuBose Heyward’s novel Porgy and the play he and Dorothy Heyward adapted from it",
     "to": "Gershwin, Porgy and Bess, Alvin Theatre, New York, 10 October 1935"
@@ -1791,7 +1791,7 @@
    "to": "cage",
    "kind": "studied-with",
    "year": 1935,
-   "title": "Cage’s studies with Schoenberg, Los Angeles",
+   "title": "Cage’s studies with Schoenberg, Los Angeles, 1935",
    "works": {
     "from": "Schoenberg’s analysis, counterpoint and composition classes, Los Angeles, from 18 March 1935",
     "to": "Cage’s rhythmic structures at the Cornish School, Seattle, late 1930s"
@@ -1817,7 +1817,7 @@
    "to": "cage",
    "kind": "heard",
    "year": 1948,
-   "title": "Cage’s Satie festival at Black Mountain",
+   "title": "Cage’s Satie festival, Black Mountain, 1948",
    "works": {
     "from": "Satie’s music and his play Le Piège de Méduse (1913)",
     "to": "Cage’s Satie festival and Defense of Satie, Black Mountain College, summer 1948; the Vexations performance, 1963"
@@ -1837,10 +1837,10 @@
     }
    ]
   },
-  {"id": "debussy--falla-homenaje-1920", "from": "debussy", "to": "falla", "kind": "dedicated", "year": 1920, "title": "Falla’s tombeau for Debussy", "works": {"from": "Debussy’s La soirée dans Grenade, Ibéria and La sérénade interrompue", "to": "Homenaje pour le Tombeau de Claude Debussy (1920)"}, "claim": "<p>For a memorial issue of <i>La Revue musicale</i> in 1920, [[falla]] wrote <i>Homenaje</i> for guitar, the first piece he completed in Granada. Roger Nichols hears reminiscences of [[debussy]]’s <i>La sérénade interrompue</i> and <i>Ibéria</i> in it and, at the end, of <i>La soirée dans Grenade</i>.</p>", "status": "documented", "sources": [{"title": "Hyperion Records: Homenaje ‘Pour le tombeau de Claude Debussy’, booklet note by Roger Nichols", "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W16322_GBAJY1817714", "locator": "Notes: La Revue musicale commission of ten composers; reminiscences of Debussy"}, {"title": "Archivo Manuel de Falla: Granada (1920–1939)", "url": "https://www.manueldefalla.com/en/granada-1920-1939", "locator": "1920: Homenaje is the first work completed in Granada (August); 1921: première in Paris, 24 January"}]},
-  {"id": "stravinsky--falla-tribuna-1916", "from": "stravinsky", "to": "falla", "kind": "championed", "year": 1916, "title": "Falla’s defence of Stravinsky, Madrid", "works": {"from": "Stravinsky’s music, heard in Madrid with Diaghilev’s Ballets Russes (spring 1916)", "to": "Falla, “El gran músico de nuestro tiempo: Igor Stravinsky”, La Tribuna, 1916"}, "claim": "<p>When Diaghilev’s Ballets Russes brought <i>The Firebird</i> and <i>Petrushka</i> to Madrid in 1916, [[falla]] wrote in <i>La Tribuna</i> asking whether the city knew that one of Europe’s greatest artists was its guest, and whether it could keep clear of those who said that [[stravinsky]]’s art served more to disorient than to point the way to truth.</p>", "status": "documented", "note": "The Archivo Manuel de Falla dates the article 5 June on one page and 5 July in its chronology; the year is certain.", "sources": [{"title": "Archivo Manuel de Falla: The Ballets Russes and Spain", "url": "https://www.manueldefalla.com/en/the-ballets-russes-and-spain", "locator": "Madrid, spring 1916; extract from Falla’s article in La Tribuna"}, {"title": "Archivo Manuel de Falla: Madrid (1914–1919)", "url": "https://www.manueldefalla.com/en/madrid-1914-1919", "locator": "1916: Falla’s article on Stravinsky in La Tribuna"}]},
-  {"id": "scarlatti--falla-homage-1927", "from": "scarlatti", "to": "falla", "kind": "championed", "year": 1927, "title": "Falla’s performance of fourteen Scarlatti sonatas", "works": {"from": "Domenico Scarlatti’s keyboard sonatas", "to": "Homage to Scarlatti at the Ateneo de Granada, 11 December 1927"}, "claim": "<p>On 11 December 1927 the Ateneo de Granada held a homage to [[scarlatti]], at which [[falla]] played fourteen of his sonatas. In his 1922 pamphlet on cante jondo he had already named Scarlatti as the one composer before recent times who recognised the harmonic value of the Andalusian guitar.</p>", "status": "documented", "sources": [{"title": "Archivo Manuel de Falla: Granada (1920–1939)", "url": "https://www.manueldefalla.com/en/granada-1920-1939", "locator": "1927: homage to Domenico Scarlatti at the Ateneo de Granada on 11 December, with 14 sonatas performed by Falla"}, {"title": "Instituto Andaluz del Flamenco: Manuel de Falla y El cante jondo (II)", "url": "https://www.juntadeandalucia.es/aaiicc/flamenco/content/manuel-de-falla-y-el-cante-jondo-cante-primitivo-andaluz-ii", "locator": "Section on the guitar: Falla excepts Domenico Scarlatti from the composers who ignored the tonal-harmonic value of the toque jondo"}]},
-  {"id": "falla--poulenc-novelette-1959", "from": "falla", "to": "poulenc", "kind": "quoted", "year": 1959, "title": "Poulenc’s Novelette on a theme by Falla", "works": {"from": "El amor brujo, Pantomima, theme in 7/8", "to": "Novelette No. 3 in E minor, for piano (1958–59)"}, "claim": "<p>[[poulenc]] based the third of his Novelettes for piano on the theme of the Pantomima in [[falla]]’s <i>El amor brujo</i>, a melody in seven-eight time. The movement is headed “Sur un thème de Manuel de Falla tiré de <i>El amor brujo</i>”.</p>", "status": "documented", "sources": [{"title": "Hyperion Records: Falla, Fantasia Baetica & other piano music (CDA68177), booklet note by Roger Nichols", "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68177", "locator": "Notes on El amor brujo: the Pantomima’s 7/8 metre; Poulenc’s third Novelette in 1959"}, {"title": "IMSLP: 3 Novelettes, FP 47/173 (Poulenc)", "url": "https://imslp.org/wiki/3_Novelettes,_FP_47/173_(Poulenc,_Francis)", "locator": "III. Andantino tranquillo, ‘Sur un thème de Manuel de Falla tiré de El amor brujo, 1916’; composed 1958–59; first published 1960"}]}
+  {"id": "debussy--falla-homenaje-1920", "from": "debussy", "to": "falla", "kind": "dedicated", "year": 1920, "title": "Falla’s Homenaje pour le Tombeau de Debussy", "works": {"from": "Debussy’s La soirée dans Grenade, Ibéria and La sérénade interrompue", "to": "Homenaje pour le Tombeau de Claude Debussy (1920)"}, "claim": "<p>For a memorial issue of <i>La Revue musicale</i> in 1920, [[falla]] wrote <i>Homenaje</i> for guitar, the first piece he completed in Granada. Roger Nichols hears reminiscences of [[debussy]]’s <i>La sérénade interrompue</i> and <i>Ibéria</i> in it and, at the end, of <i>La soirée dans Grenade</i>.</p>", "status": "documented", "sources": [{"title": "Hyperion Records: Homenaje ‘Pour le tombeau de Claude Debussy’, booklet note by Roger Nichols", "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W16322_GBAJY1817714", "locator": "Notes: La Revue musicale commission of ten composers; reminiscences of Debussy"}, {"title": "Archivo Manuel de Falla: Granada (1920–1939)", "url": "https://www.manueldefalla.com/en/granada-1920-1939", "locator": "1920: Homenaje is the first work completed in Granada (August); 1921: première in Paris, 24 January"}]},
+  {"id": "stravinsky--falla-tribuna-1916", "from": "stravinsky", "to": "falla", "kind": "championed", "year": 1916, "title": "Falla’s article on Stravinsky, La Tribuna, 1916", "works": {"from": "Stravinsky’s music, heard in Madrid with Diaghilev’s Ballets Russes (spring 1916)", "to": "Falla, “El gran músico de nuestro tiempo: Igor Stravinsky”, La Tribuna, 1916"}, "claim": "<p>When Diaghilev’s Ballets Russes brought <i>The Firebird</i> and <i>Petrushka</i> to Madrid in 1916, [[falla]] wrote in <i>La Tribuna</i> asking whether the city knew that one of Europe’s greatest artists was its guest, and whether it could keep clear of those who said that [[stravinsky]]’s art served more to disorient than to point the way to truth.</p>", "status": "documented", "note": "The Archivo Manuel de Falla dates the article 5 June on one page and 5 July in its chronology; the year is certain.", "sources": [{"title": "Archivo Manuel de Falla: The Ballets Russes and Spain", "url": "https://www.manueldefalla.com/en/the-ballets-russes-and-spain", "locator": "Madrid, spring 1916; extract from Falla’s article in La Tribuna"}, {"title": "Archivo Manuel de Falla: Madrid (1914–1919)", "url": "https://www.manueldefalla.com/en/madrid-1914-1919", "locator": "1916: Falla’s article on Stravinsky in La Tribuna"}]},
+  {"id": "scarlatti--falla-homage-1927", "from": "scarlatti", "to": "falla", "kind": "championed", "year": 1927, "title": "Falla’s Scarlatti homage, Granada, 1927", "works": {"from": "Domenico Scarlatti’s keyboard sonatas", "to": "Homage to Scarlatti at the Ateneo de Granada, 11 December 1927"}, "claim": "<p>On 11 December 1927 the Ateneo de Granada held a homage to [[scarlatti]], at which [[falla]] played fourteen of his sonatas. In his 1922 pamphlet on cante jondo he had already named Scarlatti as the one composer before recent times who recognised the harmonic value of the Andalusian guitar.</p>", "status": "documented", "sources": [{"title": "Archivo Manuel de Falla: Granada (1920–1939)", "url": "https://www.manueldefalla.com/en/granada-1920-1939", "locator": "1927: homage to Domenico Scarlatti at the Ateneo de Granada on 11 December, with 14 sonatas performed by Falla"}, {"title": "Instituto Andaluz del Flamenco: Manuel de Falla y El cante jondo (II)", "url": "https://www.juntadeandalucia.es/aaiicc/flamenco/content/manuel-de-falla-y-el-cante-jondo-cante-primitivo-andaluz-ii", "locator": "Section on the guitar: Falla excepts Domenico Scarlatti from the composers who ignored the tonal-harmonic value of the toque jondo"}]},
+  {"id": "falla--poulenc-novelette-1959", "from": "falla", "to": "poulenc", "kind": "quoted", "year": 1959, "title": "Poulenc’s Novelette No. 3 on a Falla theme", "works": {"from": "El amor brujo, Pantomima, theme in 7/8", "to": "Novelette No. 3 in E minor, for piano (1958–59)"}, "claim": "<p>[[poulenc]] based the third of his Novelettes for piano on the theme of the Pantomima in [[falla]]’s <i>El amor brujo</i>, a melody in seven-eight time. The movement is headed “Sur un thème de Manuel de Falla tiré de <i>El amor brujo</i>”.</p>", "status": "documented", "sources": [{"title": "Hyperion Records: Falla, Fantasia Baetica & other piano music (CDA68177), booklet note by Roger Nichols", "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68177", "locator": "Notes on El amor brujo: the Pantomima’s 7/8 metre; Poulenc’s third Novelette in 1959"}, {"title": "IMSLP: 3 Novelettes, FP 47/173 (Poulenc)", "url": "https://imslp.org/wiki/3_Novelettes,_FP_47/173_(Poulenc,_Francis)", "locator": "III. Andantino tranquillo, ‘Sur un thème de Manuel de Falla tiré de El amor brujo, 1916’; composed 1958–59; first published 1960"}]}
  ],
  "figures": [
   {

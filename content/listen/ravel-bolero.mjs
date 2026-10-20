@@ -20,11 +20,11 @@ export default {
   "sections": [
     { "t": 0, "label": "A · Snare drum, flute, clarinet", "m": "A", "mNote": "The first theme passes between two solo woodwinds." },
     { "t": 100, "label": "B · Second tune, bassoon and small clarinet", "m": "B", "mNote": "The second tune rises higher and falls lower than the first." },
-    { "t": 190, "label": "A′ · Oboe d’amore, then further soloists", "m": "A′", "mNote": "Muted trumpet and saxophones follow the oboe d’amore" },
-    { "t": 360, "label": "A′ · Horn, celesta and piccolos", "m": "A′", "mNote": "Several instruments combine to play one melodic line" },
+    { "t": 190, "label": "A′ · Oboe d’amore, then further soloists", "m": "A′", "mNote": "Muted trumpet and saxophones follow the oboe d’amore." },
+    { "t": 360, "label": "A′ · Horn, celesta and piccolos", "m": "A′", "mNote": "Several instruments combine to play one melodic line." },
     { "t": 525, "label": "A″ · Violins take up the tune", "m": "A″", "mNote": "The strings move from accompaniment to the melody." },
     { "t": 690, "label": "A″ · The two tunes, full orchestra", "m": "A″", "mNote": "Brass, winds and strings share the last statements." },
-    { "t": 770, "label": "C · Eight bars in E major", "m": "C", "mNote": "The bass leaves its C-major circuit." },
+    { "t": 770, "label": "C · Eight bars in E major", "m": "C", "mNote": "The bass leaves its C major circuit." },
     { "t": 788, "label": "Coda · Trombone glissandi, C major", "m": "Coda", "mNote": "Cymbals, bass drum and tam-tam reinforce the ending." }
   ],
   "cues": [
@@ -112,7 +112,7 @@ export default {
       "id": "into-collapse", "title": "Return to C major with trombone slides",
       "from": "C · Eight bars in E major", "to": "Coda · Trombone glissandi, C major",
       "at": { t: 788 }, "span": [781, 800],
-      "how": "<p>The orchestra returns to C as the trombones slide across the repeated rhythm. Bass drum, cymbals and tam-tam enter for the final six bars. A dissonant stack of B♭-minor and F-minor notes falls onto the last C-major chord.</p>",
+      "how": "<p>The orchestra returns to C as the trombones slide across the repeated rhythm. Bass drum, cymbals and tam-tam enter for the final six bars. A dissonant stack of B♭ minor and F minor notes falls onto the last C major chord.</p>",
       "devices": ["direct modulation", "orchestration change", "texture change"],
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand full score, final six bars; closing chord sequence and percussion entries: https://en.wikipedia.org/wiki/Boléro."

@@ -12,9 +12,9 @@ export default {
   "source": { "archive": { "item": "195-complete-rachmaninoff-cd-10", "file": "187 - Complete RACHMANINOFF - CD 10 - Rachmaninov - Prelude, Op. 32, No. 12 (rec. 21.I.1921).mp3" } },
   "intro": "Rachmaninoff plays his Prelude in G♯ minor, Op. 32 No. 12, in which a left-hand melody sounds beneath quick, circling notes. The hands exchange roles in the middle section, and the short figures continue until close to the end.",
   "sections": [
-    { "t": 0, "label": "A · Right-hand figuration over left-hand melody", "m": "A", "mNote": "The right hand plays figuration while the left plays the melody." },
-    { "t": 52, "label": "B · Melody in upper register", "m": "B", "mNote": "Running notes in the left hand accompany the upper melody" },
-    { "t": 96, "label": "A′ · The circling figure again", "m": "A′", "mNote": "The upper notes resume above the lower tune" },
+    { "t": 0, "label": "A · Right-hand figuration over left-hand melody", "m": "A" },
+    { "t": 52, "label": "B · Melody in upper register", "m": "B", "mNote": "Running notes in the left hand accompany the upper melody." },
+    { "t": 96, "label": "A′ · The circling figure again", "m": "A′", "mNote": "The upper notes resume above the lower tune." },
     { "t": 128, "label": "Coda · Meno mosso, then perdendo", "m": "Coda", "mNote": "The figures slow and fade towards G♯." }
   ],
   "cues": [

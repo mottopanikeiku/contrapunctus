@@ -8,7 +8,7 @@
       "value": "Original 1909 orchestral version",
       "status": "documented",
       "sourceIds": ["version-review", "score", "work-catalogue"],
-      "note": "High Fidelity, September 1979, p. 129 explicitly identifies Craft's Columbia MS 6216 as the first version, distinguishing it from the 1928 revision in his separate complete-Webern set. The original score heads movement IV Langsam, marcia funebre; its central solo begins on alto flute, not the revision's clarinet. Section landmarks are broad score-proportion timings, without aural review."
+      "note": "High Fidelity, September 1979, p. 129 explicitly identifies Craft’s Columbia MS 6216 as the first version, distinguishing it from the 1928 revision in his separate complete-Webern set. The original score heads movement IV Langsam, marcia funebre; its central solo begins on alto flute, not the revision’s clarinet. Section landmarks are broad score-proportion timings, without aural review."
     }
   },
   "performers": {
@@ -25,7 +25,7 @@
       "value": null,
       "status": "unknown",
       "sourceIds": ["archive", "label-scan"],
-      "note": "The sources establish the commercial issue but do not state this track's recording-session date. It is not assigned a date from Craft's separate 1950s complete-Webern project.",
+      "note": "The sources establish the commercial issue but do not state this track’s recording-session date. It is not assigned a date from Craft’s separate 1950s complete-Webern project.",
       "precision": null
     },
     "place": {
@@ -52,7 +52,7 @@
       "value": "Side 2, band 5; label matrix XSM 51683",
       "status": "documented",
       "sourceIds": ["label-scan", "archive-files"],
-      "note": "The label lists Schoenberg as band 1 and Webern's six pieces as bands 2–7; No. 4 is therefore band 5. The matrix is printed on the label. No session take or stamper suffix is asserted."
+      "note": "The label lists Schoenberg as band 1 and Webern’s six pieces as bands 2–7; No. 4 is therefore band 5. The matrix is printed on the label. No session take or stamper suffix is asserted."
     }
   },
   "transfer": {
@@ -92,7 +92,7 @@
       "value": "Territorial EU public-domain basis: commercial publication no later than 1961, before 1963.",
       "status": "documented",
       "sourceIds": ["audio-review", "archive", "label-scan", "eu-term"],
-      "note": "Audio's August 1961 review establishes commercial availability of the exact LP. The Archive's 1960 date may identify an earlier issue; the conservative 1961 bound is sufficient for the project's former 50-year phonogram-term rule. This is not a Creative Commons licence; US recording status is not established."
+      "note": "Audio’s August 1961 review establishes commercial availability of the exact LP. The Archive’s 1960 date may identify an earlier issue; the conservative 1961 bound is sufficient for the project’s former 50-year phonogram-term rule. This is not a Creative Commons licence; US recording status is not established."
     },
     "creditLine": "Anton Webern, Six Pieces for Orchestra, Op. 6: IV. Langsam (Marcia funebre), original 1909 version; Columbia Symphony Orchestra, Robert Craft. Columbia Masterworks MS 6216, commercially available by 1961; Internet Archive LP transfer. Territorial EU public-domain phonogram basis; US recording status not established.",
     "licenseUrl": ""

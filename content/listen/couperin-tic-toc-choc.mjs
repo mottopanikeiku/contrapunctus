@@ -12,7 +12,7 @@ export default {
   source: { file: 'File:François Couperin - Le tic toc choc ou les maillotins (Marcelle Meyer, 1954).flac' },
   intro: 'Couperin wrote <i>Le Tic-Toc-Choc, ou Les Maillotins</i> for two hands playing in the same register of the harpsichord on separate manuals, with a refrain and three episodes. Marcelle Meyer plays it on the piano.',
   sections: [
-    { t: 0, label: 'A · Refrain in semiquavers', m: 'A', mNote: 'Semiquavers above a slower left-hand pattern' },
+    { t: 0, label: 'A · Refrain in semiquavers', m: 'A', mNote: 'Semiquavers above a slower left-hand pattern.' },
     { t: 28, label: 'B · Two couplets with refrains', m: 'B' },
     { t: 87, label: 'C · The longer third couplet', m: 'C' },
     { t: 107, label: 'A′ · Refrain with added ending', m: 'A′', mNote: 'A supplément extends the last return of the refrain.' },
@@ -20,7 +20,7 @@ export default {
   cues: [
     {
       t: 0, kind: 'music', title: 'Opening marking and refrain',
-      text: 'A stream of semiquavers runs above a slower left-hand pattern. Couperin marks the piece <i>Légèrement et marqué</i>, lightly and with clear accents. The F-major refrain returns between three episodes.',
+      text: 'A stream of semiquavers runs above a slower left-hand pattern. Couperin marks the piece <i>Légèrement et marqué</i>, lightly and with clear accents. The F major refrain returns between three episodes.',
       basis: 'general', precision: 'passage',
       evidence: 'Couperin, Troisième Livre (1722), XVIIIe Ordre; Pierre Gouin edition, pp. 1–3: opening marking, rondeau and three couplets. https://s9.imslp.org/files/imglnks/usimg/e/ec/IMSLP128601-WIMA.a398-Couperin_18eOrdre_Le_TicTocChoc.pdf',
     },
@@ -32,7 +32,7 @@ export default {
     },
     {
       t: 107, kind: 'form', title: 'Final refrain and supplément',
-      text: 'The final refrain has a short <i>supplément</i>, an extra ending. The semiquavers continue into it, and then both hands hold an F-major chord.',
+      text: 'The final refrain has a short <i>supplément</i>, an extra ending. The semiquavers continue into it, and then both hands hold an F major chord.',
       basis: 'score-proportion', precision: 'passage',
       evidence: 'Gouin edition, p. 3, from “Rondeau sans Renvoi avec le Supplément” to the final F-major chord. Angela Hewitt also describes the added coda in her Hyperion notes. https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA67440',
     },

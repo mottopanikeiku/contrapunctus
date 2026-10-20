@@ -4,8 +4,8 @@
   "composer": "bach",
   "group": "century",
   "work": "Toccata and Fugue in D minor, BWV 565 — opening",
-  "question": "What happens to Bach’s opening flourish when an orchestra takes over from the organ?",
-  "intro": "At Philadelphia’s Academy of Music on 6 April 1927, Stokowski recorded his orchestral version of Bach’s D-minor Toccata and Fugue. He gave the organist’s flourishes to a large orchestra that included six horns, four trumpets and four trombones. Ninety years later, Norbert Schenk recorded the work on the church organ in Solms-Albshausen, with one player at the instrument.",
+  "question": "Stokowski’s orchestra and Schenk’s organ play Bach’s opening flourish and the toccata passages that follow.",
+  "intro": "At Philadelphia’s Academy of Music on 6 April 1927, Stokowski recorded his orchestral version of Bach’s D minor Toccata and Fugue. He gave the organist’s flourishes to a large orchestra that included six horns, four trumpets and four trombones. Ninety years later, Norbert Schenk recorded the work on the church organ in Solms-Albshausen, with one player at the instrument.",
   "recordings": [
     { "listen": "bach-bwv565-stokowski-side1", "label": "Leopold Stokowski, 1927", "year": 1927, "note": "Stokowski conducts the Philadelphia Orchestra in his own transcription, which enlarges the organ’s flourishes with a large brass section." },
     { "listen": "bach-bwv565-schenk", "label": "Norbert Schenk, 2017", "year": 2017, "note": "Schenk plays the Protestant church organ in Solms-Albshausen; hands and feet supply the running notes and the bass beneath them." }
@@ -14,7 +14,7 @@
   "passages": [
     { "label": "Opening flourish in octaves", "t": 8, "note": "The opening flourish descends in octaves, then stops, and a rest follows." },
     { "label": "Held chord under fast line", "t": 24, "note": "Notes accumulate into a held chord, and the fast line now runs over it." },
-    { "label": "Runs alternating with held chords", "t": 58, "note": "Fast runs break off from the held chords. The toccata alternates between rapid passagework and passages that stop on sustained chords." }
+    { "label": "Runs alternating with held chords", "t": 58, "note": "The toccata alternates rapid runs with passages that stop on sustained chords." }
   ],
   "sources": [
     { "title": "Stokowski — 1927 orchestral recording, first side", "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra,_Leopold_Stokowski_-_Toccata_and_Fugue_in_D_minor,_BWV_565_-_Bach_-_Hmv-d1428-5-0761.flac" },

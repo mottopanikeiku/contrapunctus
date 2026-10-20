@@ -28,7 +28,7 @@ export default {
     { t: 225, label: 'Development · Opening gestures return', m: 'Development' },
     { t: 520, label: 'A′ · Presto, reprise', m: 'A′' },
     { t: 580, label: 'B′ · Meno vivo theme returns', m: 'B′' },
-    { t: 645, label: 'Coda · towards estatico', m: 'Coda' },
+    { t: 645, label: 'Coda · Towards estatico', m: 'Coda' },
   ],
   cues: [
     {

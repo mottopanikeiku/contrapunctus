@@ -8,7 +8,7 @@
       "value": "1929 revised orchestral version",
       "status": "inferred",
       "sourceIds": ["archive", "score", "work-catalogue"],
-      "note": "The track and original label identify the complete first piece. The notes use the revised full score; the LP labels do not identify Craft's edition or orchestral parts. Passage landmarks are provisional, established from the score and the transfer, without aural review."
+      "note": "The track and original label identify the complete first piece. The notes use the revised full score; the LP labels do not identify Craft’s edition or orchestral parts. Passage landmarks are provisional, established from the score and the transfer, without aural review."
     }
   },
   "performers": {
@@ -25,7 +25,7 @@
       "value": null,
       "status": "unknown",
       "sourceIds": ["archive", "label-scan"],
-      "note": "The sources establish a historical commercial issue but do not state this track's session date. The item's date 1960 is not promoted to a recording-session date.",
+      "note": "The sources establish a historical commercial issue but do not state this track’s session date. The item’s date 1960 is not promoted to a recording-session date.",
       "precision": null
     },
     "place": {
@@ -92,7 +92,7 @@
       "value": "Territorial EU public-domain basis: commercial publication no later than 1961, before 1963.",
       "status": "documented",
       "sourceIds": ["audio-review", "archive", "label-scan", "eu-term"],
-      "note": "Audio's August 1961 review establishes commercial availability of the exact LP. The Archive's 1960 date may identify an earlier issue; the conservative 1961 bound is sufficient for the project's former 50-year phonogram-term rule. This is not a Creative Commons licence; US recording status is not established."
+      "note": "Audio’s August 1961 review establishes commercial availability of the exact LP. The Archive’s 1960 date may identify an earlier issue; the conservative 1961 bound is sufficient for the project’s former 50-year phonogram-term rule. This is not a Creative Commons licence; US recording status is not established."
     },
     "creditLine": "Alban Berg, Three Pieces for Orchestra, Op. 6: I. Präludium; Columbia Symphony Orchestra, Robert Craft. Columbia Masterworks MS 6216, commercially available by 1961; Internet Archive LP transfer. Territorial EU public-domain phonogram basis; US recording status not established.",
     "licenseUrl": ""

@@ -8,7 +8,7 @@ export default {
   "intro": "Alan Chan plays the Fugue, the second movement of <i>Le Tombeau de Couperin</i>. The movement is a three-voice fugue on a short off-beat subject and is dedicated to the memory of Jean Cruppi.",
   "sections": [
     { "t": 0, "label": "A · Subject entries in three voices", "m": "A", "mNote": "The short subject enters in each of the three parts." },
-    { "t": 66, "label": "Dev · The voices cross", "m": "Dev", "mNote": "Off-beat quavers pass between the piano’s three lines" },
+    { "t": 66, "label": "Dev · The voices cross", "m": "Dev", "mNote": "Off-beat quavers pass between the piano’s three lines." },
     { "t": 180, "label": "Coda · Slower, into E minor", "m": "Coda", "mNote": "The three voices end together on a held chord under a fermata." },
   ],
   "cues": [
@@ -38,7 +38,7 @@ export default {
     },
     {
       "t": 180, "kind": "form", "title": "Final bars of the Fugue",
-      "text": "At <i>Meno allegro</i>, then <i>Lent</i>, the quavers of the subject slow down and keep their shape. The voices move closer together and end on an E-minor chord held under a fermata.",
+      "text": "At <i>Meno allegro</i>, then <i>Lent</i>, the quavers of the subject slow down and keep their shape. The voices move closer together and end on an E minor chord held under a fermata.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand piano score (1918), Fugue, final page; Piano Practical Editions, bars 58–61, p. 17: Meno allegro, slowing instructions, Lent and the E-minor ending.",
     },

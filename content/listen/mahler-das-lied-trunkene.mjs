@@ -2,7 +2,7 @@ export default {
   id: 'mahler-das-lied-trunkene',
   composer: 'mahler',
   order: 44,
-  set: { id: 'mahler-das-lied-von-der-erde', title: 'Das Lied von der Erde', part: 5, of: 6 },
+  set: { id: 'mahler-das-lied-von-der-erde', title: 'Das Lied von der Erde', part: 5, of: 6, unit: 'songs' },
   work: 'Das Lied von der Erde',
   movement: 'V. Der Trunkene im Frühling — Allegro. Keck, aber nicht zu schnell',
   year: '1908–09',
@@ -20,8 +20,8 @@ export default {
 
   sections: [
     { t: 0, label: 'A · Allegro, trilling winds and horns', m: 'A', mNote: 'Winds and horns trill and begin without the strings.' },
-    { t: 94, label: 'B · The bird’s song: solo violin, flute', m: 'B', mNote: 'Solo violin, flute and harp break into the drinking song.' },
-    { t: 196, label: 'A′ · first tempo, harp and plucked cellos', m: 'A′', mNote: 'Harp arpeggios and plucked cellos restore the first tempo.' },
+    { t: 94, label: 'B · The bird’s song, solo violin and flute', m: 'B', mNote: 'Solo violin, flute and harp break into the drinking song.' },
+    { t: 196, label: 'A′ · First tempo, harp and plucked cellos', m: 'A′', mNote: 'Harp arpeggios and plucked cellos restore the first tempo.' },
   ],
 
   cues: [
@@ -32,7 +32,7 @@ export default {
     { t: 150, kind: 'life', title: 'Letter to Bruno Walter, July 1908', text: 'In July 1908, composing again with difficulty, Mahler wrote to Bruno Walter that he had lost all the clarity and reassurance he ever won and stood “vis-à-vis de rien”, face to face with nothing. His doctors had forbidden exertion. The poem calls life a dream and spring beside the point.', basis: 'documented', precision: 'passage', evidence: 'Stephen E. Hefling’s Universal Edition introduction quotes the letter of 18 July 1908 and the doctors’ restrictions: https://www.universaledition.com/en/Works/Das-Lied-von-der-Erde/P0109538' },
     { t: 182, kind: 'music', title: 'Passage in D♭ major', text: 'The music moves to D♭ major beneath the drinker’s line, and Mahler marks the passage “Zögernd” and “Ganz langsam” (hesitant, very slow). Muted strings, bassoons and horns hold sustained chords.', basis: 'score-proportion', precision: 'passage', evidence: 'Universal Edition score, pp. 89–90: five-flat signature, Zögernd, Ganz langsam and sustained muted strings, horns and bassoons.' },
     { t: 196, kind: 'form', title: 'Return of the first tempo', text: '“Ich fülle mir den Becher neu” (I fill my cup again). The first tempo returns suddenly, with harp arpeggios and pizzicato cellos, and the violins have removed their mutes. The voice continues until the text reaches the appearance of the moon.', basis: 'score-proportion', precision: 'passage', evidence: 'Universal Edition score, pp. 91–92: Tempo I subito, Dämpfer ab, harp and pizzicato cellos. Bethge’s text as adapted by Mahler; our translation.' },
-    { t: 262, kind: 'music', title: 'Final words and A-major ending', text: '“Laßt mich betrunken sein!” (let me be drunk!) With these final words Öhmann dismisses the bird and its good news. In an A-major <i>Allegro</i>, woodwind runs pass over string chords, and triangle and trumpet join the last flourish.', basis: 'score-proportion', precision: 'passage', evidence: 'Universal Edition score, pp. 95–96, rehearsal 14: final words, Allegro and A-major orchestral ending. Bethge’s words; our translation.' },
+    { t: 262, kind: 'music', title: 'Final words and A major ending', text: '“Laßt mich betrunken sein!” (let me be drunk!) With these final words Öhmann dismisses the bird and its good news. In an A major <i>Allegro</i>, woodwind runs pass over string chords, and triangle and trumpet join the last flourish.', basis: 'score-proportion', precision: 'passage', evidence: 'Universal Edition score, pp. 95–96, rehearsal 14: final words, Allegro and A-major orchestral ending. Bethge’s words; our translation.' },
   ],
 
   transitions: [
@@ -40,10 +40,10 @@ export default {
       id: 'into-bird',
       title: 'Solo violin and winds at the waking',
       from: 'A · Allegro, trilling winds and horns',
-      to: 'B · The bird’s song: solo violin, flute',
+      to: 'B · The bird’s song, solo violin and flute',
       at: { t: 94 },
       span: [80, 112],
-      how: '<p>The drinker’s sleep gives way to a solo violin and quiet wind figures in A major. The markings <i>Noch ruhiger</i> and then <i>Zurückhaltend</i> slow the tempo of his waking question. The harp enters with soft chords as the tenor locates the bird in its tree.</p>',
+      how: '<p>The drinker’s sleep is followed by a solo violin and quiet wind figures in A major. The markings <i>Noch ruhiger</i> and then <i>Zurückhaltend</i> slow the tempo of his waking question. The harp enters with soft chords as the tenor locates the bird in its tree.</p>',
       devices: ['tempo change', 'orchestration change', 'texture change'],
       basis: 'score-proportion',
       precision: 'passage',
@@ -52,11 +52,11 @@ export default {
     {
       id: 'into-refill',
       title: 'Return to Tempo I with pizzicato cellos',
-      from: 'B · The bird’s song: solo violin, flute',
-      to: 'A′ · first tempo, harp and plucked cellos',
+      from: 'B · The bird’s song, solo violin and flute',
+      to: 'A′ · First tempo, harp and plucked cellos',
       at: { t: 196 },
       span: [176, 214],
-      how: '<p>The D♭-major pause moves on at <i>Etwas fließender</i>, and the strings take off their mutes. The tenor’s “Ich” leads directly into <i>Tempo I subito</i>, where harp arpeggios and pizzicato cellos accompany the line about his freshly filled cup.</p>',
+      how: '<p>The D♭ major pause moves on at <i>Etwas fließender</i>, and the strings take off their mutes. The tenor’s “Ich” leads directly into <i>Tempo I subito</i>, where harp arpeggios and pizzicato cellos accompany the line about his freshly filled cup.</p>',
       devices: ['tempo change', 'orchestration change', 'crescendo build'],
       basis: 'score-proportion',
       precision: 'passage',

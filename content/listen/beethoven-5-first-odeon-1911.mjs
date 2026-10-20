@@ -30,7 +30,7 @@ export default {
       "t": 0,
       "label": "A · Three short notes and a hold",
       "m": "A",
-      "mNote": "The C-minor opening leads to a violin melody in E♭."
+      "mNote": "The C minor opening leads to a violin melody in E♭."
     },
     {
       "t": 80,
@@ -48,7 +48,7 @@ export default {
       "t": 264,
       "label": "D · Violin melody moving towards G",
       "m": "D",
-      "mNote": "F♯ moves to G before the C-major closing group."
+      "mNote": "F♯ moves to G before the C major closing group."
     }
   ],
   "cues": [
@@ -101,7 +101,7 @@ export default {
       "bar": { "n": "268", "occ": 1 },
       "kind": "music",
       "title": "Oboe Adagio, bar 268",
-      "text": "The orchestra stops after a G-major chord. The oboe continues alone, marked Adagio, descending through F, E♭ and D, then turning around the line before another held D.",
+      "text": "The orchestra stops after a G major chord. The oboe continues alone, marked Adagio, descending through F, E♭ and D, then turning around the line before another held D.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Symphony No. 5, I, bar 268; Mutopia 941, oboe solo marked Adagio and accompanying rests."

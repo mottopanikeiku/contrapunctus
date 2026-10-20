@@ -16,8 +16,8 @@ export default {
   "intro": "Rachmaninoff plays his <i>Sérénade</i>, Op. 3 No. 5, which he wrote at nineteen. A few soft notes around F lead into a waltz, which fades to near silence before a final loud chord.",
   "sections": [
     { "t": 0, "label": "A · Sostenuto, turning figures over F", "m": "A", "mNote": "Sostenuto: small turning figures over a left-hand F." },
-    { "t": 56, "label": "B · Tempo di Valse", "m": "B", "mNote": "Bass notes and offbeat chords accompany the melody" },
-    { "t": 164, "label": "Coda · pppp chords, final ff chord", "m": "Coda", "mNote": "Chords marked pppp lead to a final chord marked ff." }
+    { "t": 56, "label": "B · Tempo di Valse", "m": "B", "mNote": "Bass notes and offbeat chords accompany the melody." },
+    { "t": 164, "label": "Coda · Chords at pppp, final ff chord", "m": "Coda", "mNote": "Chords marked pppp lead to a final chord marked ff." }
   ],
   "cues": [
     { "t": 0, "kind": "music", "title": "Opening, Sostenuto", "text": "The left hand begins on F, <i>pp</i>, in a slow 3/8. Small turning figures move around that note before the right hand enters with chords.", "basis": "score-proportion", "precision": "passage", "evidence": "Sérénade, first version (1892), collected piano edition, p. 284: Sostenuto, 3/8, pp, left-hand F and turning figures. https://s9.imslp.org/files/imglnks/usimg/d/df/IMSLP39537-PMLP05664-Rachmaninoff-Op3-Serenade-Ver1892.pdf" },
@@ -44,7 +44,7 @@ export default {
       "id": "into-the-close",
       "title": "Waltz bass stops before final chord",
       "from": "B · Tempo di Valse",
-      "to": "Coda · pppp chords, final ff chord",
+      "to": "Coda · Chords at pppp, final ff chord",
       "at": { "t": 164 },
       "span": [152, 176],
       "how": "<p>The waltz bass stops and the piano moves into descending chords, marked <i>ppp</i> and then <i>pppp</i>. Small turning figures continue above the bass. The piece ends on a single <i>ff</i> chord under a fermata.</p>",

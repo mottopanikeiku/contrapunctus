@@ -4,11 +4,11 @@
   "composer": "saint-saens",
   "group": "century",
   "work": "Le Cygne, from Le Carnaval des animaux",
-  "question": "What happens to the cello’s long song when marimba replaces piano?",
+  "question": "Bokor plays the cello melody with a pianist; Weilerstein plays it with a marimba player.",
   "intro": "At the White House on 4 November 2009, Alisa Weilerstein played <i>Le Cygne</i> with sixteen-year-old Jason Yoder at the marimba. Judith Bokor’s earlier Columbia disc has a pianist accompanying the cello. In both arrangements Saint-Saëns’s long melody is played over broken chords.",
   "recordings": [
     { "listen": "saint-saens-cygne-bokor", "label": "Judith Bokor", "year": 1925, "note": "A Columbia recording for cello and piano, issued on D 9758." },
-    { "listen": "saint-saens-cygne-weilerstein", "label": "Alisa Weilerstein · Jason Yoder", "year": 2009, "note": "Live at the White House, with sixteen-year-old Jason Yoder’s marimba accompanying the cello." }
+    { "listen": "saint-saens-cygne-weilerstein", "label": "Alisa Weilerstein, Jason Yoder", "year": 2009, "note": "Live at the White House, with sixteen-year-old Jason Yoder’s marimba accompanying the cello." }
   ],
   "reference": "saint-saens-cygne-bokor",
   "passages": [

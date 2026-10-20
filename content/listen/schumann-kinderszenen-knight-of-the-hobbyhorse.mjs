@@ -7,18 +7,18 @@ export default {
   order: 90,
   work: 'Kinderszenen, Op. 15',
   movement: 'No. 9 · Ritter vom Steckenpferd — Knight of the Hobbyhorse',
-  set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 9, of: 13 },
+  set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 9, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'C major',
   forces: 'Piano',
   performers: 'Donald Betts',
   recorded: '2005',
   source: { file: 'File:Robert Schumann - scenes from childhood, op. 15 - ix. knight of the hobbyhorse.ogg' },
-  intro: '“Ritter vom Steckenpferd” (Knight of the Hobbyhorse), No. 9 of <i>Kinderszenen</i>, Op. 15, depicts a child galloping on a stick horse. Its C-major chords fall off the beat above a steady bass.',
+  intro: '“Ritter vom Steckenpferd” (Knight of the Hobbyhorse), No. 9 of <i>Kinderszenen</i>, Op. 15, depicts a child galloping on a stick horse. Its C major chords fall off the beat above a steady bass.',
 
   sections: [
     { t: 0, label: 'A · Offbeat chords in C major', m: 'A', mNote: 'The right hand starts each bar with a rest.' },
-    { t: 13, label: 'B · Same rhythm at fortissimo', m: 'B', mNote: 'Chromatic bass notes beneath the same bounding rhythm' },
+    { t: 13, label: 'B · Same rhythm at fortissimo', m: 'B', mNote: 'Chromatic bass notes beneath the same bounding rhythm.' },
   ],
 
   cues: [
@@ -35,7 +35,7 @@ export default {
       to: 'B · Same rhythm at fortissimo',
       at: { t: 13 },
       span: [7, 20],
-      how: '<p>The first strain closes in C major. The second keeps the right hand’s quaver rest and offbeat chords, and the left hand moves into chromatic notes. Its longer bass notes continue underneath the offbeat attacks. Later the C-major chords return marked <i>fortissimo</i>.</p>',
+      how: '<p>The first strain closes in C major. The second keeps the right hand’s quaver rest and offbeat chords, and the left hand moves into chromatic notes. Its longer bass notes continue underneath the offbeat attacks. Later the C major chords return marked <i>fortissimo</i>.</p>',
       devices: ['motivic link'],
       basis: 'score-proportion',
       precision: 'passage',

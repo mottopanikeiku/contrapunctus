@@ -4,8 +4,8 @@
   "composer": "chopin",
   "group": "century",
   "work": "Étude in E minor, Op. 25 No. 5",
-  "question": "What changes when Chopin’s semitone clashes give way to a melody?",
-  "intro": "Chopin’s tune repeatedly lands on the adjacent semitone before reaching its note. Goldstein and Neeman move from these quick semitone clashes to a slower song in E major, low in the piano. The opening then returns with its clipped chords.",
+  "question": "Goldstein, on an Érard of 1851, and Neeman play the étude’s semitone clashes and its slower middle section in E major.",
+  "intro": "Chopin’s tune repeatedly sounds the adjacent semitone before reaching its note. Goldstein and Neeman move from these quick semitone clashes to a slower song in E major, low in the piano. The opening then returns with its clipped chords.",
   "recordings": [
     { "listen": "chopin-etude-op25-5", "label": "Edward Neeman, c. 2014", "year": 2014, "note": "Neeman’s teacher Larry Sitsky wrote his First Piano Sonata for him; Neeman made its first recording." },
     { "listen": "chopin-etude-op25-5-goldstein", "label": "Martha Goldstein", "year": null, "note": "Goldstein’s Érard was built in Paris in 1851 and restored with its original hammers and action." }
@@ -14,14 +14,14 @@
   "passages": [
     { "label": "Opening with semitone clashes", "t": 12, "note": "Quick semitone clashes interrupt the tune. The opening has short, clipped chords and brief pauses." },
     { "label": "Middle section in E major", "t": 60, "note": "In E major, the left hand plays a broad melody while the right hand moves up and down around it." },
-    { "label": "Return of the E-minor opening", "t": 150, "note": "The quick E-minor opening returns after the long central song, with its short phrases and semitone steps." }
+    { "label": "Return of the E minor opening", "t": 150, "note": "The quick E minor opening returns after the long central song, with its short phrases and semitone steps." }
   ],
   "sources": [
     { "title": "Neeman — recording dedication by Musopen", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._5_in_E_minor_%27Wrong_Note%27_(Edward_Neeman).flac" },
     { "title": "Goldstein — Érard 1851; session undated", "url": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_Opus_25_-_Twelve_Grand_Etudes_-_e_minor.ogg" },
     { "title": "Excluded Pachmann transfer — CC BY-NC-SA 3.0", "url": "https://archive.org/metadata/ChopinEtudeInEMajorOp.25No.5/metadata" },
     { "title": "Mieczysław Tomaszewski, Chopin Institute — the scherzando opening, cello-like middle melody and return", "url": "https://chopin.nifc.pl/en/chopin/kompozycja/191" },
-    { "title": "Op. 25 No. 5 — semitone dissonances, E-major middle section and return", "url": "https://en.wikipedia.org/wiki/%C3%89tude_Op._25%2C_No._5_%28Chopin%29" },
+    { "title": "Op. 25 No. 5 — semitone dissonances, E major middle section and return", "url": "https://en.wikipedia.org/wiki/%C3%89tude_Op._25%2C_No._5_%28Chopin%29" },
     { "title": "Pandora Records — Goldstein’s 1851 Érard and the preservation of its original hammers and action", "url": "https://www.ibiblio.org/pandora/vorbis/historical_instruments/Chopin_etudes/Readme.html" },
     { "title": "Australian National University — Neeman’s teachers and first recording of Sitsky’s Piano Sonata No. 1", "url": "https://music.cass.anu.edu.au/people/dr-edward-neeman" }
   ]

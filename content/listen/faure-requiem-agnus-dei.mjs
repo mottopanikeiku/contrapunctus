@@ -18,7 +18,7 @@ export default {
     { t: 92, label: 'A′ · Tenor melody returns', m: 'A′', mNote: 'The tenor melody returns over the separate string melody.' },
     { t: 138, label: 'C · Lux aeterna, opening on held C', m: 'C' },
     { t: 238, label: 'D · Introit theme returns, D minor', m: 'D' },
-    { t: 304, label: 'A″ · Strings alone in D major', m: 'A″', mNote: 'The opening string melody returns a minor third lower' },
+    { t: 304, label: 'A″ · Strings alone in D major', m: 'A″', mNote: 'The opening string melody returns a minor third lower.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening melody, violins and violas', text: 'Violins and violas begin an F major melody. After six instrumental bars the tenors enter with a different melody above it. The violas continue their line, and the basses play plucked notes underneath.', basis: 'score-proportion', precision: 'passage', evidence: 'Fauré, Requiem, Hamelle full score (1901), pp. 70–73: six instrumental bars precede the tenor entry. https://s9.imslp.org/files/imglnks/usimg/4/4c/IMSLP30151-PMLP21398-Faure-Op048fs.pdf' },
@@ -76,7 +76,7 @@ export default {
       to: 'D · Introit theme returns, D minor',
       at: { t: 238 },
       span: [224, 251],
-      how: '<p>The strings come to rest on D, and fermatas halt the music. The flowing 3/4 gives way to common time and <i>Molto largo</i>. A forceful D fades as the choir enters pianissimo on “Requiem aeternam”. The D minor harmony and slow tempo of the Introit return.</p>',
+      how: '<p>The strings come to rest on D, and fermatas halt the music. The flowing 3/4 changes to common time and <i>Molto largo</i>. A forceful D fades as the choir enters pianissimo on “Requiem aeternam”. The D minor harmony and slow tempo of the Introit return.</p>',
       devices: ['fermata', 'tempo change', 'metre change', 'motivic link'],
       basis: 'score-proportion',
       precision: 'passage',

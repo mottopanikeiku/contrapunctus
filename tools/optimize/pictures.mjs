@@ -1,6 +1,10 @@
 import { parse } from 'parse5';
 const escape = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
-const widths = (image) => [...[160, 480, 960].filter((width) => width < image.w), image.w];
+// Responsive widths below each source width (the source itself is the last candidate). Chrome picks the
+// smallest candidate covering slot width × DPR: 750 serves full-bleed images on 412px phones at DPR 1.75
+// (721px) and 375px phones at DPR 2, which otherwise jumped from 480 to 960.
+export const RENDITIONS = [160, 480, 750, 960];
+const widths = (image) => [...RENDITIONS.filter((width) => width < image.w), image.w];
 const rendition = (image, width) => width === image.w ? image.src : image.src.replace(/\.webp$/, `-${width}.webp`);
 function srcset(image, base, format, formats) {
   return widths(image).map((width) => {
@@ -26,7 +30,7 @@ export function pictureHTML(html, relative, art, formats) {
   const lookup = new Map();
   for (const image of Object.values(art)) {
     lookup.set(image.src, image);
-    for (const width of [160, 480, 960]) lookup.set(image.src.replace(/\.webp$/, `-${width}.webp`), image);
+    for (const width of RENDITIONS) lookup.set(image.src.replace(/\.webp$/, `-${width}.webp`), image);
   }
   const edits = [], doc = parse(html, { sourceCodeLocationInfo: true });
   const base = relative === '404.html' ? '/contrapunctus/' : '../'.repeat(relative.split('/').length - 1);

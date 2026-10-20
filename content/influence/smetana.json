@@ -7,7 +7,7 @@
       "to": "liszt",
       "kind": "dedicated",
       "year": 1848,
-      "title": "Smetana’s six piano pieces dedicated to Liszt",
+      "title": "Smetana’s Six morceaux caractéristiques, dedicated to Liszt",
       "works": {
         "from": "Six morceaux caractéristiques, Op. 1 (completed 23 March 1848), inscribed to Liszt",
         "to": "Liszt’s reply of 30 March 1848"
@@ -38,14 +38,14 @@
       "to": "smetana",
       "kind": "heard",
       "year": 1870,
-      "title": "Smetana at Wagner’s music dramas in Munich",
+      "title": "Smetana at Wagner performances, Munich, 1868–72",
       "works": {
         "from": "Die Meistersinger (Munich, 1868); Das Rheingold and Die Walküre (Munich, summer 1870); Tristan und Isolde (Munich, 1872)",
         "to": "Smetana’s opera Dalibor (first performed 16 May 1868), which critics called Wagnerian"
       },
       "claim": "<p>Wellek records that Smetana travelled to Munich in 1868 for <i>Die Meistersinger</i>; in the summer of 1870 for <i>Das Rheingold</i> and <i>Die Walküre</i>, the second of which filled him with boundless admiration, and on that visit he met [[liszt]]; and in 1872 for <i>Tristan</i>, which he took for the ideal of a music drama. At Gothenburg in 1857–58 the society he directed performed choruses from <i>Tannhäuser</i> and <i>Lohengrin</i>, and in his own concerts he presented his arrangement of the <i>Tannhäuser</i> overture for four pianos. Conservative critics called <i>Dalibor</i> a work in the wake of Wagner’s principles, and after <i>The Brandenburgers</i> he was accused of being a Wagnerian. He said that he wrote <i>The Bartered Bride</i> “aus Trotz”, out of defiance.</p>",
       "status": "inferred",
-      "note": "Wellek reports the journeys, Smetana’s admiration for Tristan and the critics’ charge of Wagnerism, and Smetana’s letter to Liszt of 1858 lists the Wagner pieces he conducted. No statement by Smetana naming a passage of Wagner as a source for a passage of his own has been consulted, so the effect on the music is not established here.",
+      "note": "Wellek reports the journeys, Smetana’s admiration for Tristan and the critics’ charge of Wagnerism, and Smetana’s letter to Liszt of 1858 lists the Wagner pieces he conducted. No statement by Smetana naming a passage of Wagner as a source for a passage of his own has been consulted, so the effect on the music is not established.",
       "sources": [
         {
           "title": "Bronislav Wellek, Friedrich Smetana (Prague, 1895)",

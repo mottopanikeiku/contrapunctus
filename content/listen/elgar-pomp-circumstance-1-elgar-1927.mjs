@@ -21,11 +21,11 @@ export default {
   intro: 'Elgar conducts the Royal Albert Hall Orchestra in his first electrical recording of the march, made in 1926. The march is quick and marked “with much fire”, and the well-known trio comes in its middle.',
   sections: [
     { t: 0, label: 'Intro · Off-beat orchestral opening in E♭', m: 'Intro', mNote: 'The orchestra begins in E♭, a semitone above the home key.' },
-    { t: 12, label: 'A · The quick march', m: 'A', mNote: 'Short string phrases over a bounding bass' },
-    { t: 72, label: 'B · Trio in G major', m: 'B', mNote: 'Violins, clarinets and horns play the long tune together' },
+    { t: 12, label: 'A · The quick march', m: 'A', mNote: 'Short string phrases over a bounding bass.' },
+    { t: 72, label: 'B · Trio in G major', m: 'B', mNote: 'Violins, clarinets and horns play the long tune together.' },
     { t: 128, label: 'A′ · The quick march again', m: 'A′', mNote: 'The strings play their short, accented phrases again.' },
     { t: 190, label: 'B′ · Trio theme in D major', m: 'B′', mNote: 'The trio theme returns in D major, marked Molto maestoso.' },
-    { t: 246, label: 'Coda · march figures and broad tune', m: 'Coda', mNote: 'Quick figures interrupt the broad tune' },
+    { t: 246, label: 'Coda · March figures and broad tune', m: 'Coda', mNote: 'Quick figures interrupt the broad tune.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening in E♭', text: 'Elgar began his march in D with an off-beat outburst in E♭. The music then moves down a semitone before the march proper begins. Above the first bar he wrote <i>Allegro, con molto fuoco</i> (fast, with much fire).', basis: 'score-proportion', precision: 'passage', evidence: 'Boosey orchestral score, opening page and rehearsal A. https://s9.imslp.org/files/imglnks/usimg/6/6e/IMSLP24159-PMLP23738-Elgar_-_Pomp_and_Circumstance%2C_Op._39%2C_No._1.pdf. The opening E♭ is also discussed by the Elgar Society: https://www.elgar.org/3pomp.htm' },

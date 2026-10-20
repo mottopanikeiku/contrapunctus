@@ -12,7 +12,7 @@ export default {
     ['Trained', 'Private lessons with [[rimsky-korsakov|Rimsky-Korsakov]], 1905–08'],
     ['Homes', 'Russia · Switzerland, 1914–20 · France, 1920–39 · United States, 1939–71'],
     ['Theatre', 'Diaghilev’s Ballets Russes · Ramuz’s travelling theatre · Balanchine · Auden and Kallman'],
-    ['At the desk', 'Ballets, operas, symphonies and sacred music; composing and recording into his eighties'],
+    ['Output', 'Ballets, operas, symphonies and sacred music; composing and recording into his eighties'],
   ],
 
   life: `
@@ -41,11 +41,11 @@ export default {
 <p>He went on conducting and recording, and left performances of nearly all his music. <i>Requiem Canticles</i> (1966) sets only fragments of the Latin mass for the dead and ends with a postlude of chords, silences and tolling bells. He moved to New York in 1969 and died there on 6 April 1971. The <i>Canticles</i> were performed at his funeral in Venice. His grave is on San Michele, near Diaghilev’s.</p>`,
 
   sound: [
-    { aspect: 'Accent & pulse', glyph: '𝅘𝅥', html: `<p>Stravinsky moved accents without moving the beat. The first eight bars of “Augurs of Spring” stay in 2/4, with six heavy attacks placed irregularly over the strings’ steady quavers. The horns reinforce those attacks. In the “Sacrificial Dance” he changed the bar lengths themselves. A short group is interrupted by an even shorter one, and the dancers have to count afresh.</p>` },
+    { aspect: 'Accent and pulse', glyph: '𝅘𝅥', html: `<p>Stravinsky moved accents without moving the beat. The first eight bars of “Augurs of Spring” stay in 2/4, with six heavy attacks placed irregularly over the strings’ steady quavers. The horns reinforce those attacks. In the “Sacrificial Dance” he changed the bar lengths themselves. A short group is interrupted by an even shorter one, and the dancers have to count afresh.</p>` },
     { aspect: 'Chords', glyph: '♯', html: `<p>The <i>Petrushka</i> chord puts C major and F♯ major together, and the two triads form semitone clashes. The “Augurs” chord in <i>The Rite</i> stacks E♭7 above F♭ major and is repeated with shifting accents. A whole passage can run on one chord, with the horns marking the accents.</p>` },
     { aspect: 'Scales', glyph: '♮', html: `<p>The [[workshop#octatonic|octatonic scale]] alternates semitones and whole tones. Rimsky-Korsakov used it to represent magic, and Stravinsky inherited it from him along with the fairy tales. Its eight notes can supply both triads of the <i>Petrushka</i> chord. In <i>The Firebird</i>, symmetrical scales help distinguish the enchanted creatures from the princesses, whose round dance is set to a folk tune first played by the oboe.</p>` },
     { aspect: 'Multiple tunes', glyph: '𝄢', html: `<p>At the <i>Petrushka</i> fair, street musicians play over one another. A tune on flutes and clarinets continues while another attraction starts up, and each part on its own is easy to follow. In <i>Histoire du soldat</i>, the bass repeats a plain accompaniment while the violin above it groups its notes differently.</p>` },
-    { aspect: 'Attack', glyph: '𝆑', html: `<p>Four pianos and percussion accompany the voices in <i>Les Noces</i>, and each syllable can fall on a hammer stroke. The <i>Symphony of Psalms</i> keeps two pianos and omits violins and violas, so the choir is set against hard-edged wind chords. <i>Apollo</i> is scored for strings alone and distinguishes just as exactly between a plucked note, a short bow-stroke and a sustained melodic line.</p>` },
+    { aspect: 'Attack', glyph: '𝆑', html: `<p>Four pianos and percussion accompany the voices in <i>Les Noces</i>, and each syllable can fall on a hammer stroke. The <i>Symphony of Psalms</i> keeps two pianos and omits violins and violas, so the choir is set against hard-edged wind chords. <i>Apollo</i> is scored for strings alone and distinguishes as exactly between a plucked note, a short bow-stroke and a sustained melodic line.</p>` },
     { aspect: 'Old music', glyph: '𝄋', html: `<p>In <i>Pulcinella</i>, an eighteenth-century melody keeps its outline while the accompaniment adds an extra dissonance or an awkwardly placed accent. <i>The Rake’s Progress</i> draws on more of the older forms: harpsichord recitative, arias and ensembles, and an epilogue in which the characters step out of the story as they do in <i>Don Giovanni</i>.</p>` },
   ],
 

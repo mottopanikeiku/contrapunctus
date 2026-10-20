@@ -8,8 +8,7 @@ export default {
     "id": "debussy-childrens-corner",
     "title": "Children’s Corner",
     "part": 4,
-    "of": 6
-  },
+    "of": 6, "unit": "pieces" },
   "year": "1906–08",
   "key": "D minor",
   "forces": "Piano",
@@ -29,7 +28,7 @@ export default {
   "intro": "“The Snow Is Dancing” is the fourth piece of Debussy’s <i>Children’s Corner</i>, in which small rapid notes pass between the pianist’s hands. Debussy set a slow melody against this figuration, and at the close the figuration rises towards the top of the keyboard.",
   "sections": [
     { "t": 0, "label": "A · Alternating semiquavers around a slow tune", "m": "A", "mNote": "Alternating semiquavers surround a slow tune." },
-    { "t": 44, "label": "B · Triplets against the accompaniment", "m": "B", "mNote": "Repeated upper notes sound against the accompaniment" },
+    { "t": 44, "label": "B · Triplets against the accompaniment", "m": "B", "mNote": "Repeated upper notes sound against the accompaniment." },
     { "t": 84, "label": "A′ · Return of the alternating notes", "m": "A′", "mNote": "The alternating notes return and climb towards the treble." }
   ],
   "cues": [

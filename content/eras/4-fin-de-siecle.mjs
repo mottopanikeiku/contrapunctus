@@ -6,8 +6,8 @@ export default {
   span: '1880–1918',
   from: 1880,
   to: 1918,
-  accent: '#9a741f',
-  subtitle: "The orchestra at night",
+  accent: '#7a5a12',
+  subtitle: "Large orchestras, song and stage",
   hero: {
     file: 'File:Gustav Klimt - Beethovenfries, "Die Leiden der schwachen Menschheit" und "Der wohlgerüstete Starke" (Tafel 3, linke Langwand) - 5987-3 - Österreichische Galerie Belvedere.jpg',
     artist: 'Gustav Klimt',
@@ -23,11 +23,11 @@ export default {
 <p>By this time a score could call on several sizes of the same instrument. A clarinettist might change to a bass clarinet; a fourth bassoon player could take up the contrabassoon. [[mahler|Mahler]]’s Third Symphony needs eight horns, two harpists and two timpanists, as well as women’s and children’s choruses. Its first movement opens with a horn call. The same score includes a minuet with a solo oboe.</p>
 <aside class="note"><b>Large forces, small textures</b>Mahler’s Third places a brass solo offstage in its third movement. The solo is heard over a quiet accompaniment.</aside>
 <p>[[richard-strauss|Strauss]]’s <i>Don Quixote</i>, composed in 1897, gives the knight to a solo cello and gives Sancho Panza parts for bass clarinet, tenor tuba and viola. In the second variation the knight attacks a flock of sheep, and the orchestra imitates their bleating. Later a wind machine depicts the rush of air during an imaginary flight on a wooden horse.</p>
-<h3><span class="sc">The tonal argument</span>Common-tone modulation and unresolved keys</h3>
-<p>A chord can change its surroundings while keeping one note in place. In the example below, C major becomes A♭ major with C still sounding. A♭ can then be renamed G♯ and kept inside an E-major chord. The bass moves through three major chords without a dominant–tonic cadence. A melody can continue through the change while the bass makes the larger move.</p>
-<p>Strauss left the keys unreconciled at the end of <i>Also sprach Zarathustra</i>. High woodwinds play B major more and more softly, while the basses return to C, the note on which the work began. The two keys stay a semitone apart, and the work ends without resolving them.</p>
-<p>[[rachmaninoff|Rachmaninoff]]’s Second Piano Concerto begins with the piano alone, playing bell-like chords. When the orchestra’s C-minor melody enters, the soloist plays an accompaniment beneath it. The piano can support a long orchestral phrase and still be clearly heard, because the hands move through the chords while the sustaining pedal keeps the low notes sounding. Later the piano has a melodic passage of its own.</p>
-<p>[[scriabin|Scriabin]] wrote for a keyboard of another kind. His <i>Prometheus: The Poem of Fire</i>, composed in 1909–10, includes a part for a keyboard controlling coloured light. A solo piano plays with a large orchestra; near the end, a chorus can join, singing wordless vowels. The work ends on an F♯-major chord. At the Moscow premiere in 1911 Scriabin played the piano part, but the light part was not performed.</p>
+<h3><span class="sc">Harmony</span>Common-tone modulation and unresolved keys</h3>
+<p>A chord can change its surroundings while keeping one note in place. In the example below, C major becomes A♭ major with C still sounding. A♭ can then be renamed G♯ and kept inside an E major chord. The bass moves through three major chords without a dominant–tonic cadence. A melody can continue through the change while the bass makes the larger move.</p>
+<p>Strauss left the keys unreconciled at the end of <i>Also sprach Zarathustra</i>. High woodwinds play B major more and more softly, while the basses return to C, the note on which the work began. The two keys stay a semitone apart.</p>
+<p>[[rachmaninoff|Rachmaninoff]]’s Second Piano Concerto begins with the piano alone, playing bell-like chords. When the orchestra’s C minor melody enters, the soloist plays an accompaniment beneath it. The piano can support a long orchestral phrase and still be clearly heard, because the hands move through the chords while the sustaining pedal keeps the low notes sounding. Later the piano has a melodic passage of its own.</p>
+<p>[[scriabin|Scriabin]] wrote for a keyboard of another kind. His <i>Prometheus: The Poem of Fire</i>, composed in 1909–10, includes a part for a keyboard controlling coloured light. A solo piano plays with a large orchestra; near the end, a chorus can join, singing wordless vowels. The work ends on an F♯ major chord. At the Moscow première in 1911 Scriabin played the piano part, but the light part was not performed.</p>
 <h3><span class="sc">The human voice</span>Song, symphony, stage</h3>
 <p>In Mahler’s <i>Das Lied von der Erde</i>, written in 1908–09, two singers take turns through six movements with orchestra. The final farewell is built from short phrases, with stretches where the voice sings over very sparse accompaniment. At the end, the C major chord contains an added sixth, A, held in the flute and clarinet. The singer repeats “ewig”, forever, as the orchestra thins out.</p>
 <aside class="note"><b>Heterophony</b>A flute can decorate a tune while an oboe plays its simpler outline. Both follow the same melody, meeting on some notes and parting on others.</aside>
@@ -35,7 +35,7 @@ export default {
 <p>In [[puccini|Puccini]]’s <i>Tosca</i> Cavaradossi is to be executed, and Tosca believes the firing squad will only pretend to shoot him. While he waits for the execution, he sings <i>E lucevan le stelle</i>, recalling their nights together. The aria lasts a few minutes. When the stage action resumes, the firing squad shoots him with real bullets.</p>
 <p>In the fourth movement of Mahler’s Third Symphony, an alto sings Nietzsche’s midnight song, asking what deep midnight says, over slow rocking notes in the orchestra. In the next movement, children imitate bells with “bimm, bamm”.</p>
 <h3><span class="sc">The institutions</span>Theatres, exhibitions and recordings</h3>
-<p>Getting a new opera into a theatre could take years. Prague turned down <i>Jenůfa</i> before its Brno premiere and went on rejecting it afterwards. The Prague production came in 1916, with changes made by the conductor Karel Kovařovic. Max Brod then translated the libretto into German and brought the opera to the attention of Universal Edition.</p>
+<p>Getting a new opera into a theatre could take years. Prague turned down <i>Jenůfa</i> before its Brno première and went on rejecting it afterwards. The Prague production came in 1916, with changes made by the conductor Karel Kovařovic. Max Brod then translated the libretto into German and brought the opera to the attention of Universal Edition.</p>
 <p>Vienna’s Secession exhibition of 1902 placed Beethoven at the centre of a room. Max Klinger supplied the sculpture; Klimt painted his <i>Beethoven Frieze</i> for a neighbouring wall. Twenty-one artists worked on the exhibition under Josef Hoffmann. Klimt’s figures pass through suffering towards an embrace and a choir of angels, following a reading of Beethoven’s Ninth.</p>
 <aside class="note"><b>A side of a record</b>An acoustic recording collected sound through a horn. Its short playing time could force a composer to cut a piece before recording it.</aside>
 <p>On 26 June 1914 [[elgar|Elgar]] conducted his first recording of <i>Pomp and Circumstance</i> No. 1. The ensemble was made up of about thirty musicians recruited from London orchestras. The march was cut to just over four minutes and began with its big trio tune. Customers could buy Elgar’s own performance on disc, with the music rearranged to fit it.</p>
@@ -45,7 +45,7 @@ export default {
     { term: 'Orchestral song', html: '<p>A song for a solo voice accompanied by an orchestra. It may have been written for these forces or arranged from an earlier version for voice and piano.</p>' },
     { term: 'Tone poem', html: '<p>An orchestral piece, usually in one continuous movement, written around a story, character, landscape or other stated subject. “Symphonic poem” means the same thing.</p>' },
     { term: 'Enharmonic reinterpretation', html: '<p>Giving a note or chord a new role in the harmony by changing its spelling. G♯ and A♭ share a key on an equal-tempered piano, but their names describe different relationships to the notes around them.</p>' },
-    { term: 'Added sixth', html: '<p>A note a sixth above a chord’s root, included alongside the ordinary three notes of the chord. Adding A to C–E–G makes a C-major chord with an added sixth.</p>' },
+    { term: 'Added sixth', html: '<p>A note a sixth above a chord’s root, included alongside the ordinary three notes of the chord. Adding A to C–E–G makes a C major chord with an added sixth.</p>' },
     { term: 'Pedal point', html: '<p>A note held or repeated while the chords around it change. It usually lies in the bass and may clash with some of the passing harmonies.</p>' },
     { term: 'Heterophony', html: '<p>Two or more versions of the same melody sounding together. One part may add ornaments or change the rhythm while another keeps the simpler tune.</p>' },
   ],

@@ -14,12 +14,12 @@ export default {
   source: { file: 'File:Edward Elgar - cello concerto in e minor, op. 85 - iv. allegro.ogg' },
   intro: 'The finale of Elgar’s Cello Concerto in E minor, Op. 85 (Allegro — Moderato — Allegro ma non troppo) opens at a vigorous pace until the cello breaks it off. Near the end, themes from the Adagio and from the concerto’s opening return before a brief, fast close.',
   sections: [
-    { t: 0, label: 'Intro · Orchestra, then cello recitative', m: 'Intro', mNote: 'A brisk orchestral flourish, then the cello’s recitative' },
+    { t: 0, label: 'Intro · Orchestra, then cello recitative', m: 'Intro', mNote: 'A brisk orchestral flourish, then the cello’s recitative.' },
     { t: 85, label: 'A · March theme, cello, Allegro ma non troppo', m: 'A', mNote: 'Allegro ma non troppo, marked risoluto.' },
     { t: 236, label: 'B · Cello and orchestra alternate phrases', m: 'B', mNote: 'Short orchestral phrases come between the cello’s longer lines.' },
     { t: 398, label: 'C · Rapid figures and cantabile cello', m: 'C', mNote: 'The soloist alternates rapid runs with broad phrases.' },
     { t: 544, label: 'D · Long solo for cello', m: 'D', mNote: 'The late cello solo extends through pauses and changing tempos.' },
-    { t: 634, label: 'E · cello, the concerto’s opening recitative', m: 'E', mNote: 'The concerto’s opening recitative delays the final Allegro.' },
+    { t: 634, label: 'E · Cello, the concerto’s opening recitative', m: 'E', mNote: 'The concerto’s opening recitative delays the final Allegro.' },
     { t: 676, label: 'Coda · Allegro in E minor', m: 'Coda', mNote: 'The Allegro returns and closes in E minor.' },
   ],
   cues: [

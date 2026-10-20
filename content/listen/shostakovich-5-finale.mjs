@@ -23,7 +23,7 @@ export default {
   sections: [
     { t: 0, label: 'A · Brass march theme over timpani', m: 'A', mNote: 'Trumpets, trombones and tuba play the march theme over timpani.' },
     { t: 196, label: 'B · Quiet violins', m: 'B', mNote: 'The brass recede and the violins continue.' },
-    { t: 312, label: 'Link · Low winds and drum', m: 'Link', mNote: 'Low woodwinds and drum lead into the return of the march' },
+    { t: 312, label: 'Link · Low winds and drum', m: 'Link', mNote: 'Low woodwinds and drum lead into the return of the march.' },
     { t: 398, label: 'A′ · Brass over repeated string notes', m: 'A′', mNote: 'Brass phrases lengthen over repeated notes in the strings.' },
     { t: 436, label: 'Coda · D major, repeated A', m: 'Coda', mNote: 'High repeated notes continue over sustained brass chords.' },
   ],

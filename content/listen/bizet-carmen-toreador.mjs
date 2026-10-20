@@ -9,7 +9,7 @@ export default {
   sections: [
     { t: 0, label: 'A · Toast and bullfight narrative, sung in Italian', m: 'A' },
     { t: 63, label: 'B · Toreador, take care', m: 'B' },
-    { t: 93, label: 'A′ · Second verse, minor-key narrative', m: 'A′', mNote: 'The minor-key narrative returns for the second verse.' },
+    { t: 93, label: 'A′ · Second verse, minor-key narrative', m: 'A′' },
     { t: 154, label: 'B′ · Refrain, major key, final statement', m: 'B′', mNote: 'The major-key tune closes the song.' },
   ],
   cues: [

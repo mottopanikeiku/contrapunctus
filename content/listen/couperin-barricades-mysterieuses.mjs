@@ -15,7 +15,7 @@ export default {
     { "t": 0, "label": "A · Refrain in B♭ major", "m": "A", "mNote": "Four voices enter at different moments in B♭ major." },
     { "t": 18, "label": "B · Two couplets and their refrains", "m": "B", "mNote": "Short episodes lead back to the opening tune." },
     { "t": 52, "label": "C · Third couplet, longer", "m": "C", "mNote": "The bass moves farther beneath the tied notes." },
-    { "t": 76, "label": "A′ · Refrain returns in B♭", "m": "A′", "mNote": "The refrain's voices close together on B♭." }
+    { "t": 76, "label": "A′ · Refrain returns in B♭", "m": "A′", "mNote": "The refrain’s voices close together on B♭." }
   ],
   "cues": [
     {

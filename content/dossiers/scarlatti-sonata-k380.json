@@ -69,7 +69,7 @@
       "value": null,
       "status": "unknown",
       "sourceIds": ["commons"],
-      "note": "Restoration, equalisation, noise reduction, edits and speed correction are undocumented. The analysis’s global B-major estimate is not proof of transposition, mistuning or a wrong file; the score’s key is E major and local estimates include E near the close."
+      "note": "Restoration, equalisation, noise reduction, edits and speed correction are undocumented. The analysis’s global B major estimate is not proof of transposition, mistuning or a wrong file; the score’s key is E major and local estimates include E near the close."
     }
   },
   "digital": {

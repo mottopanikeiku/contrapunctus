@@ -1,7 +1,7 @@
 export default {
   id: 'leoncavallo-vesti-caruso-1902',
   composer: null,
-  guest: { name: 'Ruggero Leoncavallo', born: 1857, died: 1919 },
+  guest: { name: 'Ruggero Leoncavallo', family: 'Leoncavallo', born: 1857, died: 1919 },
   concert: false,
   order: 1,
   work: 'Pagliacci',
@@ -19,7 +19,7 @@ export default {
   sections: [
     { t: 0, label: 'A · Tenor and piano', m: 'A', mNote: 'Caruso sings Canio; Cottone plays the piano accompaniment.' },
     { t: 46, label: 'B · Canio’s aria with piano', m: 'B', mNote: 'Canio sings of laughing while grieving.' },
-    { t: 78, label: 'C · The tenor’s last phrases', m: 'C', mNote: 'Voice and piano take the aria to its close' },
+    { t: 78, label: 'C · The tenor’s last phrases', m: 'C', mNote: 'Voice and piano take the aria to its close.' },
     { t: 100, label: 'Coda · Closing bars, piano accompaniment', m: 'Coda', mNote: 'The end of the aria with piano accompaniment.' },
   ],
   cues: [

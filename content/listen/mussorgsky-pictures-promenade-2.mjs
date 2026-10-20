@@ -7,7 +7,7 @@ export default {
   order: 2,
   work: 'Pictures at an Exhibition',
   movement: 'Promenade — Moderato comodo e con delicatezza',
-  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 3, of: 15 },
+  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 3, of: 15, unit: 'pieces' },
   year: '1874',
   key: 'A♭ major',
   forces: 'Orchestra',
@@ -24,7 +24,7 @@ export default {
 
   cues: [
     { t: 0, kind: 'music', title: 'Promenade in A♭ major, horn', text: 'The horn plays the tune and the woodwinds reply. Mussorgsky marks this Promenade “with delicacy”. The tune keeps its alternating bars of five and six beats, now in A♭ major.', basis: 'score-proportion', precision: 'passage', evidence: 'Lamm’s piano text, Promenade II, bars 1–4; Ravel’s horn and wind scoring is described by Orrin Howard for the LA Phil. This recording’s orchestration is inferred as Ravel’s. https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/promenade-2.ly ; https://www.laphil.com/musicdb/pieces/557/pictures-at-an-exhibition' },
-    { t: 42, kind: 'music', title: 'Closing bars and attacca', text: 'The closing bars climb into high octaves and slow down. A high B♭ sounds softly above an E♭-major chord. Mussorgsky marks <i>attacca</i>, so the next picture begins without a break.', basis: 'score-proportion', precision: 'passage', evidence: 'Lamm’s piano text, Promenade II, bars 9–12: ritardando, high octaves, final E♭ harmony with B♭ above, pp and attacca. https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/promenade-2.ly' },
+    { t: 42, kind: 'music', title: 'Closing bars and attacca', text: 'The closing bars climb into high octaves and slow down. A high B♭ sounds softly above an E♭ major chord. Mussorgsky marks <i>attacca</i>, so the next picture begins without a break.', basis: 'score-proportion', precision: 'passage', evidence: 'Lamm’s piano text, Promenade II, bars 9–12: ritardando, high octaves, final E♭ harmony with B♭ above, pp and attacca. https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/promenade-2.ly' },
   ],
 
   transitions: [
@@ -43,7 +43,7 @@ export default {
     },
     {
       id: 'into-slowing-close',
-      title: 'Low E♭ and A♭ give way to octaves',
+      title: 'Low E♭ and A♭, then octaves',
       from: 'B · The tune varied',
       to: 'C · High B♭ octaves, final E♭ chord',
       at: { t: 42 },

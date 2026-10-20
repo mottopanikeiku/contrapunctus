@@ -15,7 +15,7 @@ export default {
   },
   "intro": "Martin Wörner plays Rachmaninoff’s Prelude in C♯ minor, Op. 3 No. 2, in a private recording made in May 2005. The piece opens with three notes, moves into a rush of triplets and ends with a return in very large chords.",
   "sections": [
-    { "t": 0, "label": "A · Bells, then rushing triplets", "m": "A", "mNote": "A–G♯–C♯ leads into the quiet chordal reply" },
+    { "t": 0, "label": "A · Bells, then rushing triplets", "m": "A", "mNote": "A–G♯–C♯ leads into the quiet chordal reply." },
     { "t": 92, "label": "B · Agitato, triplet figuration", "m": "B", "mNote": "The central Agitato rises in triplets to descending chords." },
     { "t": 132, "label": "C · Return of the bell chords", "m": "C", "mNote": "The opening chords return, written across four staves." },
     { "t": 194, "label": "D · Quiet chords over C♯", "m": "D", "mNote": "A low C♯ holds beneath the final chords." }

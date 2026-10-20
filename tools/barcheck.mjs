@@ -4,7 +4,7 @@ import { createRequire } from 'node:module';
 import { loadContent } from '../src/content.mjs';
 
 const require = createRequire(import.meta.url);
-const ABCJS = require('../docs/assets/vendor/abcjs-basic-min.js');
+const ABCJS = require('../src/assets/vendor/abcjs-basic-min.js');
 const C = await loadContent();
 const sources = [];
 for (const c of C.composers) (c.score ?? []).forEach((s) => sources.push([c.slug, s]));
