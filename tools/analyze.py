@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Analyse one recording for the Listening Room.
+"""Analyse one recording for the Concert Hall.
 
 usage: .venv/bin/python tools/analyze.py <audio file> <out.json> <out.txt>
 

@@ -20,7 +20,7 @@ export default {
       evidence: 'Victor 55225, advertised as “Out today” in the Chicago Tribune, 5 September 1924, p. 17: https://commons.wikimedia.org/wiki/File:Victor_Records_ad,_Sept_5,_1924_in_Chicago_Tribune.jpg . Library of Congress National Jukebox identifies both sides, recorded 10 June 1924: https://www.loc.gov/item/jukebox-70342/?fo=json and https://www.loc.gov/item/jukebox-70335/?fo=json . US sound-recording term expired after 100 years under 17 USC 1401(a)(2)(B)(ii); territorial US basis, not worldwide clearance.',
     },
   },
-  intro: 'Gershwin played the piano in the first recording of his Rhapsody in Blue, made in 1924 with Paul Whiteman’s band and with Ross Gorman’s sliding clarinet. Both sides of the record are heard here; this nine-minute version cuts about a third of the score.',
+  intro: 'Gershwin played the piano in the first recording of his <i>Rhapsody in Blue</i>, made in 1924 with Paul Whiteman’s band and with Ross Gorman’s sliding clarinet. Both sides of the record are heard here; this nine-minute version cuts about a third of the score.',
   sections: [
     { t: 0, label: 'A · Clarinet, band, piano cadenzas', m: 'A' },
     { t: 186, label: 'B · Train rhythms and stride piano', m: 'B' },
@@ -49,7 +49,7 @@ export default {
       t: 186,
       kind: 'music',
       title: 'Scherzo, “Train” and “Stride” themes',
-      text: 'The faster section combines repeated train-like rhythms with stride piano, in which the left hand jumps between bass notes and chords. To fit the music onto two sides, the record omits the ‘Shuffle’ tune and the third cadenza. After the piano’s stride solo it moves almost directly to the slow melody.',
+      text: 'The faster section combines repeated train-like rhythms with stride piano, in which the left hand jumps between bass notes and chords. To fit the music onto two sides, the record omits the “Shuffle” tune and the third cadenza. After the piano’s stride solo it moves almost directly to the slow melody.',
       basis: 'score-proportion',
       precision: 'passage',
       evidence: 'David Schiff, Gershwin: Rhapsody in Blue (Cambridge University Press), pp. 7–9, Table 1: the scherzo begins with the “Train” theme at rehearsal 9, followed by “Stride” at rehearsal 12; column G marks the 1924 recording’s cuts, from the “Shuffle” at rehearsal 14 and from bar 196 to bar 298, which takes in Cadenza 3 and most of the grand cadenza before the slow movement at rehearsal 28. https://assets.cambridge.org/97805215/59539/excerpt/9780521559539_excerpt.pdf',

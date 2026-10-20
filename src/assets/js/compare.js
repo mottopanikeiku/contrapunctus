@@ -10,7 +10,7 @@ export async function compareLinks(listenId) {
 }
 
 /** Piecewise-linear interpolation; invert by exchanging axes. Plateaus use their midpoint. */
-export function mapTime(map, time, inverse = false) {
+function mapTime(map, time, inverse = false) {
   if (!map?.length || !Number.isFinite(time)) return null;
   const from = inverse ? 1 : 0, to = 1 - from;
   if (time < map[0][from] || time > map[map.length - 1][from]) return null;
@@ -36,6 +36,7 @@ export async function mount(app) {
   const play = $('[data-cmp-play]'), seek = $('[data-cmp-seek]'), stop = $('[data-cmp-stop]');
   const now = $('[data-cmp-now]'), clock = $('[data-cmp-time]'), duration = $('[data-cmp-duration]');
   const referenceTime = $('[data-cmp-reference-time]'), status = $('[data-cmp-status]'), playhead = $('[data-cmp-playhead]');
+  const chart = playhead?.ownerSVGElement, chartLeft = Number(chart?.dataset.left ?? 0), chartWidth = (chart?.viewBox.baseVal.width ?? 0) - chartLeft - Number(chart?.dataset.right ?? 0);
   const cards = [...root.querySelectorAll('[data-cmp-card]')];
   const selectors = [...root.querySelectorAll('[data-cmp-select]')];
   const passages = [...root.querySelectorAll('[data-cmp-passage]')];
@@ -60,15 +61,17 @@ export async function mount(app) {
     now.textContent = r.label;
     clock.textContent = fmt(owns ? player.time : fromReference(id, ref) ?? 0);
     duration.textContent = `/ ${fmt(r.duration)}`;
-    referenceTime.textContent = ref == null ? 'no matched time' : fmt(ref);
+    referenceTime.textContent = ref == null ? 'no matching point' : fmt(ref);
     const bounds = r.listen === data.reference ? [0, data.duration] : r.map?.length ? [r.map[0][0], r.map.at(-1)[0]] : null;
     seek.disabled = busy || !bounds;
     if (bounds) { seek.min = bounds[0]; seek.max = bounds[1]; }
     if (ref != null) seek.value = ref;
     seek.setAttribute('aria-valuetext', ref == null ? 'No matching time in the reference' : `${fmt(ref)} in the reference recording`);
     play.disabled = busy;
-    play.textContent = owns && player.playing ? 'Pause' : 'Play';
-    play.setAttribute('aria-label', `${owns && player.playing ? 'Pause' : 'Play'} ${r.label}`);
+    const playing = owns && player.playing;
+    play.classList.toggle('on', playing);
+    play.textContent = playing ? 'Pause' : 'Play';
+    play.setAttribute('aria-label', `${playing ? 'Pause' : 'Play'} ${r.label}`);
     for (const card of cards) card.classList.toggle('is-selected', card.dataset.cmpCard === id);
     for (const button of selectors) {
       const target = button.dataset.cmpSelect, active = target === id;
@@ -81,13 +84,15 @@ export async function mount(app) {
     }
     for (const line of lines) line.classList.toggle('is-selected', line.dataset.cmpLine === id);
     for (const button of passages) {
+      const active = sequence?.passage === Number(button.dataset.cmpPassage);
       button.disabled = busy || passageSpans[Number(button.dataset.cmpPassage)].length < 2;
-      button.setAttribute('aria-pressed', String(sequence?.passage === Number(button.dataset.cmpPassage)));
+      button.setAttribute('aria-pressed', String(active));
+      button.textContent = active ? 'Stop' : 'Play each version';
     }
     stop.hidden = !sequence;
     stop.disabled = !sequence;
     playhead.setAttribute('visibility', owns && ref != null ? 'visible' : 'hidden');
-    if (ref != null) { const x = 58 + ref / data.duration * 844; playhead.setAttribute('x1', x); playhead.setAttribute('x2', x); }
+    if (ref != null) { const x = chartLeft + ref / data.duration * chartWidth; playhead.setAttribute('x1', x); playhead.setAttribute('x2', x); }
   }
 
   function takeConcert() {
@@ -125,7 +130,7 @@ export async function mount(app) {
         }).catch(() => { if (alive && token === operation) fail('Could not play the recording; try its original source below.'); });
       }
       refresh();
-    } catch (error) {
+    } catch {
       if (!alive || token !== operation) return;
       changing = false;
       fail('Could not load the recording; try its original source below.');
@@ -169,7 +174,7 @@ export async function mount(app) {
   try { await player.getProgramme(); }
   catch { say('The player could not load. The notes, the charts and the recording sources below are still available.'); return () => {}; }
   if (!root.isConnected) return () => {};
-  say('Press Play; selecting another recording continues from the matching point.');
+  say('');
   on(root, 'click', (event) => {
     const select = event.target.closest('[data-cmp-select]');
     if (select) {
@@ -180,13 +185,14 @@ export async function mount(app) {
       if (owns && time == null) { say('No match at this point; choose a passage below.'); return; }
       clearSequence();
       const start = time ?? recordings.get(id).map?.[0]?.[1] ?? 0;
-      say(time == null ? `Selected ${recordings.get(id).label} at its first matched passage.` : `Matched phrase · ${fmt(ref)} in the reference → ${fmt(start)} in ${recordings.get(id).label}.`);
+      say(time == null ? `Selected ${recordings.get(id).label} at its first matched passage.` : `${recordings.get(id).label} from ${fmt(start)}, the point that matches ${fmt(ref)} in the reference recording.`);
       activate(id, start, owns && player.playing);
       return;
     }
     const passage = event.target.closest('[data-cmp-passage]');
     if (passage) {
       const i = Number(passage.dataset.cmpPassage), spans = passageSpans[i];
+      if (sequence?.passage === i) { operation++; awaitingStart = false; clearSequence('Passage stopped.'); if (ownsTrack()) player.pause(); refresh(); return; }
       if (spans.length < 2) { say('This passage needs two matching recordings to play a comparison.'); return; }
       clearSequence(); sequence = { passage: i, spans, index: 0 };
       const omitted = data.recordings.length - spans.length;
@@ -207,7 +213,7 @@ export async function mount(app) {
   on(seek, 'input', () => {
     const ref = Number(seek.value), time = fromReference(selected, ref);
     if (time == null) return;
-    clearSequence(`Reference position ${fmt(ref)} · ${fmt(time)} in ${recordings.get(selected).label}.`); referencePosition = ref;
+    clearSequence(`${fmt(time)} in ${recordings.get(selected).label}, matching ${fmt(ref)} in the reference recording.`); referencePosition = ref;
     if (player.track?.id === selected) { changing = true; player.seek(time); changing = false; refresh(); }
     else activate(selected, time, false);
   });
@@ -222,10 +228,14 @@ export async function mount(app) {
   off.push(player.on('seek', () => { if (!changing) { clearSequence(); refresh(); } }));
   off.push(player.on('timeupdate', () => { refresh(); armBoundary(); }));
   off.push(player.on('play', () => { refresh(); armBoundary(); }));
-  off.push(player.on('playing', () => { refresh(); armBoundary(); }));
+  off.push(player.on('playing', () => {
+    if (!sequence && ownsTrack() && (!status.textContent || status.textContent.startsWith('Paused'))) say(`Playing ${recordings.get(player.track.id).label}.`);
+    refresh(); armBoundary();
+  }));
   off.push(player.on('pause', () => {
     clearTimeout(timer); timer = 0;
     if (!changing && !busy && !awaitingStart && !player.playing && sequence) clearSequence('Paused; choose a passage to hear each version again.');
+    else if (!changing && !busy && !awaitingStart && !player.playing && ownsTrack()) say(`Paused at ${fmt(player.time)}.`);
     refresh();
   }));
   off.push(player.on('ended', () => { if (sequence && !busy) advance(); else refresh(); }));

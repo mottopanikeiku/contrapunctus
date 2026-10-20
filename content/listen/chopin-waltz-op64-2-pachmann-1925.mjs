@@ -27,15 +27,15 @@ export default {
   },
   "intro": "Vladimir de Pachmann recorded two Chopin pieces on this side of HMV DB 860 in 1925: the Étude in F major, Op. 25 No. 3, followed by the Waltz in C♯ minor, Op. 64 No. 2. Pachmann, born in 1848, made the recording by the new electrical process.",
   "sections": [
-    { "t": 0, "label": "A · Étude in F major", "m": "A", "mNote": "Four piano voices move in a galloping rhythm" },
+    { "t": 0, "label": "A · Étude in F major", "m": "A", "mNote": "Four piano voices move in a galloping rhythm." },
     { "t": 68, "label": "B · Étude in F major continued", "m": "B", "mNote": "The quick sideways leaps in both hands continue." },
-    { "t": 117, "label": "C · Waltz in C♯ minor", "m": "C", "mNote": "Held melody notes above a three-beat accompaniment" },
+    { "t": 117, "label": "C · Waltz in C♯ minor", "m": "C", "mNote": "Held melody notes above a three-beat accompaniment." },
     { "t": 164, "label": "D · Waltz melody and running quavers", "m": "D", "mNote": "The right hand alternates the melody with quick descending phrases." },
-    { "t": 262, "label": "E · Waltz, closing chords in C♯ minor", "m": "E", "mNote": "The record side ends with the Waltz in C♯ minor." }
+    { "t": 262, "label": "E · Waltz, closing chords in C♯ minor", "m": "E" }
   ],
   "cues": [
     {
-      "t": 0, "kind": "form", "title": "The Étude comes first",
+      "t": 0, "kind": "form", "title": "Étude Op. 25 No. 3 before the Waltz",
       "text": "The first piece is Chopin’s F major Étude, Op. 25 No. 3. Its hands jump sideways while four voices share the galloping rhythm. Pachmann puts it before the C♯ minor Waltz on a single HMV record side.",
       "basis": "documented", "precision": "passage",
       "evidence": "Programme order: https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2. Étude’s four voices and lateral hand movements: https://en.wikipedia.org/wiki/Étude_Op._25,_No._3_(Chopin)"
@@ -48,7 +48,7 @@ export default {
     },
     {
       "t": 117, "kind": "music", "title": "Opening of the C♯ minor Waltz",
-      "text": "The C♯ minor Waltz begins with a melody in paired notes, held across the bar line. Short turning figures follow it, over a bass note and two chords in the left hand. The four voices of the Étude give way to three beats in the bar.",
+      "text": "The C♯ minor Waltz begins with a melody in paired notes, held across the bar line. Short turning figures follow it, over a bass note and two chords in the left hand. The four voices of the Étude are followed by three beats in the bar.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Waltz opening, Knute Snortum engraving (2023), p. 1. The established section boundary marks the change of work. https://s9.imslp.org/files/imglnks/usimg/2/28/IMSLP879636-PMLP2373-waltz-op64-no2.pdf"
     },

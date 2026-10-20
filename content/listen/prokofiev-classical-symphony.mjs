@@ -23,9 +23,9 @@ export default {
   intro: 'Prokofiev’s Symphony No. 1 in D major, Op. 25, the “Classical”, lasts less than a quarter of an hour and has four movements, an Allegro, a Larghetto, a Gavotte and a Molto vivace finale. Nicolai Malko conducts the Philharmonia Orchestra.',
   sections: [
     { t: 0, label: 'A · Allegro, D major', m: 'A' },
-    { t: 253, label: 'B · Larghetto: the long melody', m: 'B' },
+    { t: 253, label: 'B · Larghetto, the long melody', m: 'B' },
     { t: 488, label: 'C · Gavotte', m: 'C' },
-    { t: 578, label: 'D · Finale: Molto vivace', m: 'D' },
+    { t: 578, label: 'D · Finale, Molto vivace', m: 'D' },
   ],
   cues: [
     {

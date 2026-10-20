@@ -15,9 +15,9 @@ export default {
   sections: [
     { t: 0, label: 'Intro · Off-beat opening phrases', m: 'Intro', mNote: 'Short, forceful phrases open the march.' },
     { t: 12, label: 'A · The quick march', m: 'A', mNote: 'The march moves forward in accents and running notes.' },
-    { t: 80, label: 'B · Trio melody', m: 'B', mNote: 'Broad phrases over a steady accompaniment' },
-    { t: 200, label: 'A′ · Quick march theme again', m: 'A′', mNote: 'Short phrases replace the trio’s long notes' },
-    { t: 266, label: 'B′ · Trio melody, final statement', m: 'B′', mNote: 'The trio melody returns for its final statement.' },
+    { t: 80, label: 'B · Trio melody', m: 'B', mNote: 'Broad phrases over a steady accompaniment.' },
+    { t: 200, label: 'A′ · Quick march theme again', m: 'A′', mNote: 'Short phrases replace the trio’s long notes.' },
+    { t: 266, label: 'B′ · Trio melody, final statement', m: 'B′' },
     { t: 330, label: 'Coda · Return of the march figures', m: 'Coda', mNote: 'The quick figures return before the final chord.' },
   ],
   cues: [

@@ -17,8 +17,8 @@ export default {
   "sections": [
     { "t": 0, "label": "A · Octaves in G♭ major", "m": "A", "mNote": "Four semiquavers to each beat, with sharply contrasted touches." },
     { "t": 22, "label": "B · Octaves over leaping bass", "m": "B", "mNote": "The left hand alternates between bass notes and chords." },
-    { "t": 32, "label": "C · Four-note figure continued", "m": "C", "mNote": "Slurred pairs and detached octaves alternate throughout" },
-    { "t": 48, "label": "D · Closing section in G♭", "m": "D", "mNote": "The right hand flies high above G♭-major chords" }
+    { "t": 32, "label": "C · Four-note figure continued", "m": "C", "mNote": "Slurred pairs and detached octaves alternate throughout." },
+    { "t": 48, "label": "D · Closing section in G♭", "m": "D", "mNote": "The right hand plays high above G♭ major chords." }
   ],
   "cues": [
     {

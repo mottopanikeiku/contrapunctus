@@ -2,7 +2,7 @@ export default {
   id: 'schubert-winterreise-fruhlingstraum',
   composer: 'schubert',
   order: 4.11,
-  set: { id: 'schubert-winterreise', title: 'Winterreise, D. 911 (selected songs)', part: 11, of: 24 },
+  set: { id: 'schubert-winterreise', title: 'Winterreise, D. 911 (selected songs)', part: 11, of: 24, unit: 'songs' },
   work: 'Winterreise, D. 911',
   movement: '11. Frühlingstraum',
   year: '1827',
@@ -18,7 +18,7 @@ export default {
   // Christian Utz, ZGMTH 18 (2021), https://www.gmth.de/zeitschrift/artikel/1132.aspx
   // Score: OpenScore Lieder (CC0), Winterreise No. 11, https://musescore.com/openscore-lieder-corpus/scores/5023603
   sections: [
-    { t: 0, label: 'Intro · Piano introduction in 6/8', m: 'Intro', mNote: 'Soft broken chords accompany the melody in the piano' },
+    { t: 0, label: 'Intro · Piano introduction in 6/8', m: 'Intro', mNote: 'Soft broken chords accompany the melody in the piano.' },
     { t: 16, label: 'A · May flowers and birdsong', m: 'A', mNote: 'The voice enters over the piano’s rhythm.' },
     { t: 60, label: 'B · Schnell, cockcrow, short piano chords', m: 'B', mNote: 'Schnell: short piano chords end the dream section.' },
     { t: 90, label: 'C · Langsam, repeated chords, 2/4', m: 'C', mNote: 'Langsam: repeated chords in a slower 2/4.' },
@@ -82,7 +82,7 @@ export default {
       to: 'A′ · Dream music returns, with a lover',
       at: { t: 122 },
       span: [110, 134],
-      how: '<p>At bar 44 the marking Wie oben restores the opening tempo and 6/8. The piano plays four bars of the A-major music from the opening. The voice re-enters at bar 48 with Müller’s fourth stanza, a dream of kisses and returned love.</p>',
+      how: '<p>At bar 44 the marking Wie oben restores the opening tempo and 6/8. The piano plays four bars of the A major music from the opening. The voice re-enters at bar 48 with Müller’s fourth stanza, a dream of kisses and returned love.</p>',
       devices: ['metre change', 'tempo change', 'motivic link'],
       basis: 'score-proportion',
       precision: 'passage',

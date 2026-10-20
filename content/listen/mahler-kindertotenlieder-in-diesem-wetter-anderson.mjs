@@ -6,8 +6,7 @@ export default {
     "id": "mahler-kindertotenlieder-anderson",
     "title": "Kindertotenlieder — Marian Anderson",
     "part": 5,
-    "of": 5
-  },
+    "of": 5, "unit": "songs" },
   "concert": false,
   "work": "Kindertotenlieder",
   "movement": "V. In diesem Wetter, in diesem Braus",
@@ -37,11 +36,11 @@ export default {
       "t": 185,
       "label": "B · Lullaby with celesta beneath",
       "m": "B",
-      "mNote": "Anderson repeats the weather words over rocking strings"
+      "mNote": "Anderson repeats the weather words over rocking strings."
     },
     {
       "t": 275,
-      "label": "Coda · bassoon and horns after the voice",
+      "label": "Coda · Bassoon and horns after the voice",
       "m": "Coda",
       "mNote": "Bassoon and horns continue after the voice stops."
     }
@@ -68,7 +67,7 @@ export default {
     {
       "t": 70,
       "kind": "world",
-      "title": "The fears that come too late",
+      "title": "The parent’s fears",
       "text": "Rückert’s parent worries that the children might fall ill, then that they might die tomorrow. Each fear collapses as soon as it is spoken. “Das sind nun eitle Gedanken” — those are idle thoughts now. The children have already been carried away.",
       "basis": "documented",
       "precision": "passage",
@@ -169,7 +168,7 @@ export default {
       "id": "orchestral-postlude",
       "title": "Horns take over the lullaby",
       "from": "B · Lullaby with celesta beneath",
-      "to": "Coda · bassoon and horns after the voice",
+      "to": "Coda · Bassoon and horns after the voice",
       "at": { "t": 275 },
       "span": [265, 287],
       "how": "<p>Anderson’s last “Haus” ends while the violas continue their rocking figure. Divided cellos sustain beneath them. Horn and bassoon enter with soft phrases marked <i>weich</i> and carry the major-key lullaby into the instrumental ending without a break.</p>",

@@ -4,7 +4,7 @@ export default {
   order: 2,
   work: 'Pictures at an Exhibition',
   movement: 'VI. “Samuel” Goldenberg und “Schmuÿle” — Andante',
-  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 10, of: 15 },
+  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 10, of: 15, unit: 'pieces' },
   year: '1874',
   key: 'B♭ minor',
   forces: 'Orchestra',
@@ -15,8 +15,8 @@ export default {
 
   sections: [
     { t: 0, label: 'A · Goldenberg theme in unison', m: 'A', mNote: 'Low woodwinds and strings play in unison.' },
-    { t: 40, label: 'B · Schmuÿle: repeated muted-trumpet notes', m: 'B', mNote: 'A muted trumpet repeats its phrase above woodwind chords.' },
-    { t: 66, label: 'A′ · Both themes combined', m: 'A′', mNote: 'Goldenberg’s low tune sounds beneath Schmuÿle’s repeated notes' },
+    { t: 40, label: 'B · Schmuÿle, repeated muted-trumpet notes', m: 'B', mNote: 'A muted trumpet repeats its phrase above woodwind chords.' },
+    { t: 66, label: 'A′ · Both themes combined', m: 'A′', mNote: 'Goldenberg’s low tune sounds beneath Schmuÿle’s repeated notes.' },
     { t: 102, label: 'Coda · Con dolore, then emphatic close', m: 'Coda', mNote: 'The music slows, marked con dolore, before the emphatic close.' },
   ],
 
@@ -32,7 +32,7 @@ export default {
       id: 'into-schmuyle',
       title: 'Muted trumpet enters over held D♭',
       from: 'A · Goldenberg theme in unison',
-      to: 'B · Schmuÿle: repeated muted-trumpet notes',
+      to: 'B · Schmuÿle, repeated muted-trumpet notes',
       at: { t: 39 },
       span: [30, 50],
       how: '<p>Goldenberg’s phrase ends on D♭. That note is held beneath the next passage, and the melody moves to a high register in repeated notes. In Ravel’s scoring it goes to a muted trumpet over woodwind chords. Mussorgsky changes the marking from <i>Andante</i> to <i>Andantino</i>.</p>',
@@ -44,7 +44,7 @@ export default {
     {
       id: 'into-both-themes',
       title: 'Goldenberg’s theme returns under Schmuÿle',
-      from: 'B · Schmuÿle: repeated muted-trumpet notes',
+      from: 'B · Schmuÿle, repeated muted-trumpet notes',
       to: 'A′ · Both themes combined',
       at: { t: 66 },
       span: [58, 78],

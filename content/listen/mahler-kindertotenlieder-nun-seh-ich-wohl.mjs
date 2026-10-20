@@ -6,8 +6,7 @@ export default {
     "id": "mahler-kindertotenlieder",
     "title": "Kindertotenlieder",
     "part": 2,
-    "of": 5
-  },
+    "of": 5, "unit": "songs" },
   "work": "Kindertotenlieder",
   "movement": "II. Nun seh’ ich wohl, warum so dunkle Flammen",
   "year": "1901–04",
@@ -24,19 +23,19 @@ export default {
       "t": 0,
       "label": "A · Cellos",
       "m": "A",
-      "mNote": "Cellos climb before the baritone enters"
+      "mNote": "Cellos climb before the baritone enters."
     },
     {
       "t": 146,
       "label": "B · Harp arpeggios in D major",
       "m": "B",
-      "mNote": "Harp arpeggios beneath the children’s imagined words"
+      "mNote": "Harp arpeggios beneath the children’s imagined words."
     },
     {
       "t": 180,
       "label": "A′ · Fate refuses",
       "m": "A′",
-      "mNote": "Flute and low strings recall earlier phrases"
+      "mNote": "Flute and low strings recall earlier phrases."
     },
     {
       "t": 274,
@@ -118,7 +117,7 @@ export default {
       "to": "B · Harp arpeggios in D major",
       "at": { "t": 146 },
       "span": [136, 158],
-      "how": "<p>A ritardando slows “mit eurem”. At <i>Tempo I</i> the key signature changes to two sharps and the harp plays a spread D-major chord. Cellos and basses play D pizzicato below it, and flute, clarinet and bassoon hold sustained notes above. The voice reaches “Leuchten” (shining), marked <i>warm</i>.</p>",
+      "how": "<p>A ritardando slows “mit eurem”. At <i>Tempo I</i> the key signature changes to two sharps and the harp plays a spread D major chord. Cellos and basses play D pizzicato below it, and flute, clarinet and bassoon hold sustained notes above. The voice reaches “Leuchten” (shining), marked <i>warm</i>.</p>",
       "devices": ["tempo change", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -131,7 +130,7 @@ export default {
       "to": "A′ · Fate refuses",
       "at": { "t": 180 },
       "span": [170, 192],
-      "how": "<p>The D-major passage moves through A7 into G minor. The flute plays the high line and the violas hold sustained notes below. After the vocal phrase the cellos change from pizzicato to arco, and horn and bassoon carry fragments into the next stanza.</p>",
+      "how": "<p>The D major passage moves through A7 into G minor. The flute plays the high line and the violas hold sustained notes below. After the vocal phrase the cellos change from pizzicato to arco, and horn and bassoon carry fragments into the next stanza.</p>",
       "devices": ["motivic link", "orchestration change", "link passage"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -139,7 +138,7 @@ export default {
     },
     {
       "id": "postlude",
-      "title": "Harp arpeggio to the closing C-minor chord",
+      "title": "Harp arpeggio to the closing C minor chord",
       "from": "A′ · Fate refuses",
       "to": "Coda · Rising harp figure, C minor",
       "at": { "t": 274 },

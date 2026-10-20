@@ -21,19 +21,19 @@ export default {
     }
   },
   "concert": false,
-  "intro": "Alfred Cortot recorded the two G♭-major études, Op. 10 No. 5 and Op. 25 No. 9, on this complete 1920 Victor disc side, playing the running triplets of <i>Black Keys</i> and then the clipped leaps of <i>Butterfly</i>. The pause between the two pieces is kept as it was in the original pairing.",
+  "intro": "Alfred Cortot recorded the two G♭ major études, Op. 10 No. 5 and Op. 25 No. 9, on this complete 1920 Victor disc side, playing the running triplets of <i>Black Keys</i> and then the clipped leaps of <i>Butterfly</i>. The pause between the two pieces is kept as it was in the original pairing.",
   "sections": [
-    { "t": 0, "label": "A · Black Keys: triplets and chords", "m": "A", "mNote": "The right hand plays on the black keys" },
-    { "t": 28.3, "label": "B · Black Keys, D♭-major middle section", "m": "B", "mNote": "Left-hand calls accompany the continuing right-hand triplets." },
-    { "t": 53.9, "label": "A′ · Black Keys: G♭-major return and close", "m": "A′", "mNote": "The opening returns before wide arpeggios and closing octaves." },
-    { "t": 96.5, "label": "C · Butterfly: staccato leaps and slurred pairs", "m": "C", "mNote": "Short right-hand groups mix detached notes with slurred pairs." }
+    { "t": 0, "label": "A · Black Keys, triplets and chords", "m": "A", "mNote": "The right hand plays on the black keys." },
+    { "t": 28.3, "label": "B · Black Keys, D♭ major middle section", "m": "B", "mNote": "Left-hand calls accompany the continuing right-hand triplets." },
+    { "t": 53.9, "label": "A′ · Black Keys, G♭ major return and close", "m": "A′", "mNote": "The opening returns before wide arpeggios and closing octaves." },
+    { "t": 96.5, "label": "C · Butterfly, staccato leaps and slurred pairs", "m": "C", "mNote": "Short right-hand groups mix detached notes with slurred pairs." }
   ],
   "cues": [
     {
       "t": 0,
       "kind": "music",
       "title": "Black notes, two hands",
-      "text": "<i>Black Keys</i> begins with right-hand triplets above detached left-hand chords. Chopin writes quick changes from loud to soft: the opening phrase speaks boldly, then answers lower down the piano. The running notes are marked <i>legato</i>.",
+      "text": "<i>Black Keys</i> begins with right-hand triplets above detached left-hand chords. Chopin writes quick changes from loud to soft: the opening phrase is loud and is answered lower down the piano. The running notes are marked <i>legato</i>.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Opening articulation and dynamic contrasts: https://en.wikipedia.org/wiki/Étude_Op._10,_No._5_(Chopin). The Alfred Cortot Archives confirms both études on matrix B-23953, take 2, recorded 22 April 1920 at Camden: https://www.cortotarchives.org/recordings/11."
@@ -79,8 +79,8 @@ export default {
     {
       "id": "into-black-keys-middle",
       "title": "D♭ major under the running triplets",
-      "from": "A · Black Keys: triplets and chords",
-      "to": "B · Black Keys, D♭-major middle section",
+      "from": "A · Black Keys, triplets and chords",
+      "to": "B · Black Keys, D♭ major middle section",
       "at": { "t": 28.3 },
       "span": [18.3, 40.3],
       "how": "<p>The first étude modulates to D♭ major. The right hand continues its triplets on the black keys while the left hand changes the bass and the chords. Later in this middle section, short left-hand figures sound beneath the right hand’s <i>sempre legatissimo</i>.</p>",
@@ -92,8 +92,8 @@ export default {
     {
       "id": "into-black-keys-return",
       "title": "Return to G♭ major and the coda",
-      "from": "B · Black Keys, D♭-major middle section",
-      "to": "A′ · Black Keys: G♭-major return and close",
+      "from": "B · Black Keys, D♭ major middle section",
+      "to": "A′ · Black Keys, G♭ major return and close",
       "at": { "t": 53.9 },
       "span": [43.9, 65.9],
       "how": "<p>From bar 49 the left hand leads back to G♭ major, and the first étude’s opening figure returns. The dynamic falls to <i>pianissimo</i>. The coda follows with broad arpeggios and ends with a run of black-key octaves in both hands.</p>",
@@ -104,12 +104,12 @@ export default {
     },
     {
       "id": "between-etudes",
-      "title": "Between two G♭-major études",
-      "from": "A′ · Black Keys: G♭-major return and close",
-      "to": "C · Butterfly: staccato leaps and slurred pairs",
+      "title": "Between two G♭ major études",
+      "from": "A′ · Black Keys, G♭ major return and close",
+      "to": "C · Butterfly, staccato leaps and slurred pairs",
       "at": { "t": 96.5 },
       "span": [86.5, 108.5],
-      "how": "<p><i>Black Keys</i> ends in G♭ major and the piano stops. <i>Butterfly</i> begins in the same key, marked <i>Allegro assai</i>. The triplets give way to short right-hand groups, some slurred and some detached, over a light accompaniment.</p>",
+      "how": "<p><i>Black Keys</i> ends in G♭ major and the piano stops. <i>Butterfly</i> begins in the same key, marked <i>Allegro assai</i>. The triplets are replaced by short right-hand groups, some slurred and some detached, over a light accompaniment.</p>",
       "devices": ["general pause", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",

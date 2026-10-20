@@ -4,7 +4,7 @@ export default {
   order: 2,
   work: 'Pictures at an Exhibition',
   movement: 'V. Ballet des poussins dans leurs coques — Scherzino, vivo leggiero',
-  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 9, of: 15 },
+  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 9, of: 15, unit: 'pieces' },
   year: '1874',
   key: 'F major',
   forces: 'Orchestra',
@@ -14,10 +14,10 @@ export default {
   intro: 'The fifth movement of <i>Pictures at an Exhibition</i>, a Scherzino marked vivo leggiero, is based on Hartmann’s design dressing child dancers as chicks still inside their eggs. Mussorgsky set it with hopping figures and trills, and Ravel’s orchestration adds woodwinds, harps and plucked strings.',
 
   sections: [
-    { t: 0, label: 'A · Scherzino in F major, vivo leggiero', m: 'A', mNote: 'Grace notes and short chords, marked light and lively' },
+    { t: 0, label: 'A · Scherzino in F major, vivo leggiero', m: 'A', mNote: 'Grace notes and short chords, marked light and lively.' },
     { t: 34, label: 'B · Trio, trills above low F', m: 'B', mNote: 'The trio holds F in the bass beneath trills above.' },
     { t: 62, label: 'A′ · Scherzino reprise, vivo leggiero', m: 'A′', mNote: 'The scherzino returns without its trio.' },
-    { t: 75, label: 'Coda · held D♭ to F major', m: 'Coda', mNote: 'A held D♭ grows softer before a soft F major chord.' },
+    { t: 75, label: 'Coda · Held D♭ to F major', m: 'Coda', mNote: 'A held D♭ grows softer before a soft F major chord.' },
   ],
 
   cues: [
@@ -56,7 +56,7 @@ export default {
       id: 'into-coda',
       title: 'Held D♭ into the coda',
       from: 'A′ · Scherzino reprise, vivo leggiero',
-      to: 'Coda · held D♭ to F major',
+      to: 'Coda · Held D♭ to F major',
       at: { t: 75 },
       span: [68, 78],
       how: '<p>A D♭ is held across the first two bars of the four-bar coda. The last short figure moves from G♯ to A, and an F major chord marked pianissimo ends the dance. After the chord Mussorgsky wrote a rest under a fermata.</p>',

@@ -6,8 +6,7 @@ export default {
     "id": "mahler-kindertotenlieder",
     "title": "Kindertotenlieder",
     "part": 3,
-    "of": 5
-  },
+    "of": 5, "unit": "songs" },
   "work": "Kindertotenlieder",
   "movement": "III. Wenn dein Mütterlein",
   "year": "1901–04",
@@ -24,7 +23,7 @@ export default {
       "t": 0,
       "label": "A · Cor anglais, bassoons, pizzicato cellos",
       "m": "A",
-      "mNote": "Cor anglais and bassoons above plucked cellos"
+      "mNote": "Cor anglais and bassoons above plucked cellos."
     },
     {
       "t": 114,

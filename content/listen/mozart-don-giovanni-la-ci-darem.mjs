@@ -8,8 +8,7 @@ export default {
     "id": "mozart-don-giovanni",
     "title": "Don Giovanni, K. 527",
     "part": 11,
-    "of": 41
-  },
+    "of": 41, "unit": "numbers" },
   "year": "1787",
   "key": "A major",
   "forces": "Soprano, baritone and orchestra",
@@ -32,13 +31,13 @@ export default {
       "t": 0,
       "label": "A · Andante in A major, voices alternate",
       "m": "A",
-      "mNote": "Giovanni and Zerlina sing separately in the A-major Andante."
+      "mNote": "Giovanni and Zerlina sing separately in the A major Andante."
     },
     {
       "t": 78,
       "label": "A′ · Shorter exchanges, Giovanni and Zerlina",
       "m": "A′",
-      "mNote": "Giovanni repeats his offer between Zerlina’s replies"
+      "mNote": "Giovanni repeats his offer between Zerlina’s replies."
     },
     {
       "t": 142,
@@ -87,7 +86,7 @@ export default {
     {
       "t": 180,
       "kind": "world",
-      "title": "Elvira's entrance after the duet",
+      "title": "Elvira’s entrance after the duet",
       "text": "In the opera, Donna Elvira interrupts the couple as soon as the duet ends. “Stop, wretch!” she calls to Giovanni, and she takes Zerlina away.",
       "basis": "documented",
       "precision": "passage",
@@ -103,7 +102,7 @@ export default {
       "at": {
         "t": 78
       },
-      "how": "<p>The A-major invitation returns in shorter phrases. Giovanni starts his offer again between Zerlina’s replies, and the bass plays short pulses beneath quiet string chords. Zerlina then sings a descending chromatic line on “Non son più forte” (I can resist no longer). The pause comes after this line, before “Andiam”.</p>",
+      "how": "<p>The A major invitation returns in shorter phrases. Giovanni starts his offer again between Zerlina’s replies, and the bass plays short pulses beneath quiet string chords. Zerlina then sings a descending chromatic line on “Non son più forte” (I can resist no longer). The pause comes after this line, before “Andiam”.</p>",
       "devices": [
         "motivic link",
         "texture change"
@@ -120,7 +119,7 @@ export default {
       "at": {
         "t": 142
       },
-      "how": "<p>After Zerlina’s assent, a fermata halts the music. The <i>Andante</i> in 2/4 gives way to an <i>Allegro</i> in 6/8, still in A major. Held bass notes sustain the accompaniment, and the two singers move together in parallel thirds.</p>",
+      "how": "<p>After Zerlina’s assent, a fermata halts the music. The <i>Andante</i> in 2/4 is followed by an <i>Allegro</i> in 6/8, still in A major. Held bass notes sustain the accompaniment, and the two singers move together in parallel thirds.</p>",
       "devices": [
         "fermata",
         "tempo change",

@@ -15,7 +15,7 @@ export default {
     { t: 0, label: 'A · Russian song over violin harmonics', m: 'A' },
     { t: 64, label: 'B · Cor anglais melody', m: 'B' },
     { t: 160, label: 'C · Horns, trombones, full orchestra', m: 'C' },
-    { t: 232, label: 'B · Cor anglais and cellos, letter E', m: 'B′', mNote: 'The cellos share the melody with the cor anglais.' },
+    { t: 232, label: 'B′ · Cor anglais and cellos, letter E', m: 'B′', mNote: 'The cellos share the melody with the cor anglais.' },
     { t: 358, label: 'D · Letter G, horn over pizzicato strings', m: 'D' },
     { t: 408, label: 'Coda · Flute solo and muted violins', m: 'Coda' },
   ],

@@ -9,10 +9,10 @@ export default {
   epithet: 'Pianist whose playing drew orchestral sound from the keyboard, and who at the end of his life turned to sparse music at the piano.',
   portrait: { file: 'File:Franz Liszt by Nadar, March 1886.png', caption: 'Liszt photographed by Nadar in Paris, March 1886.', focus: '50% 23%' },
   facts: [
-    ['Teachers', 'Carl Czerny and Antonio Salieri in Vienna; Anton Reicha in Paris'],
+    ['Trained', 'Carl Czerny and Antonio Salieri in Vienna; Anton Reicha in Paris'],
     ['Homes', 'Paris · Weimar · Rome · Budapest'],
     ['Teaching', 'Free masterclasses; founding president of the Budapest music academy, 1875'],
-    ['Music', 'Piano works and transcriptions; thirteen symphonic poems; symphonies, concertos and sacred music'],
+    ['Output', 'Piano works and transcriptions; thirteen symphonic poems; symphonies, concertos and sacred music'],
   ],
   life: `
 <p class="dropcap">Writing from Albano in June 1839, Liszt told Princess Cristina Belgiojoso about the concerts he had been giving alone in Rome. No singer came on between his pieces, and no other soloist shared the bill. He played his transcription of the <i>William Tell</i> Overture, fantasies on opera tunes, studies and improvisations. Between numbers he talked to the audience. “The concert is me,” he joked.</p>
@@ -31,7 +31,7 @@ export default {
 <h3><span class="sc">Weimar</span>Symphonic poems and the Sonata</h3>
 <p>He stopped regular paid touring in 1847 and settled in Weimar in 1848 with Princess Carolyne zu Sayn-Wittgenstein. As conductor of the court orchestra he could try out new works and revise his own. In 1850 he conducted the première of [[wagner|Wagner]]’s <i>Lohengrin</i>; Wagner, in exile, could not attend. The symphonic poems, the <i>Faust</i> and <i>Dante</i> symphonies, and the B minor Sonata belong to these years. Assistants helped him prepare orchestral scores, which he continued to alter in rehearsal.</p>
 <p>A symphonic poem could take its starting point from a picture, a poem or a historical figure. <i>Les Préludes</i> began as an overture connected with Joseph Autran’s poems; the link to Lamartine came later. Its opening idea becomes a broad melody or a march as Liszt changes the rhythm and accompaniment. In the <i>Faust Symphony</i>, Mephistopheles distorts Faust’s own themes into caricatures.</p>
-<p>The B minor Sonata, completed in 1853 and dedicated to [[schumann|Schumann]], performs its transformations without a stated literary programme. The repeated notes hammered out near the beginning, at bar 13, become a tender melody marked <i>cantando espressivo</i> at bar 153. A slow movement and a fugato fit inside the continuous span; old ideas keep turning up in new clothes. Hans von Bülow gave the first public performance in Berlin in 1857. Liszt had replaced his original loud ending with the quiet B major close that we hear today.</p>
+<p>The B minor Sonata, completed in 1853 and dedicated to [[schumann|Schumann]], performs its transformations without a stated literary programme. The repeated notes hammered out near the beginning, at bar 13, become a melody marked <i>cantando espressivo</i> at bar 153. A slow movement and a fugato fit inside the continuous span, and the early themes return in new forms. Hans von Bülow gave the first public performance in Berlin in 1857. Liszt had replaced his original loud ending with a quiet B major close.</p>
 <p>Young musicians also came to Weimar to learn from him. His masterclasses in later life were free, and his generosity extended to composers whose works he conducted, arranged or recommended to publishers. His advocacy of programme music put him at the centre of the “New German School”. Arguments with the circle around [[brahms|Brahms]] could make the musical press resemble a quarrel between political parties.</p>
 <h3><span class="sc">Rome, Weimar, Budapest</span>The abbé</h3>
 <aside class="note"><b>Minor orders</b>Liszt received the tonsure and minor orders in 1865. These made him a cleric, entitled to wear ecclesiastical dress, but did not ordain him as a priest. The familiar title Abbé Liszt belongs to these later years.</aside>
@@ -47,7 +47,7 @@ export default {
     { aspect: 'Water', glyph: '𝆏', html: `<p>In <i>Les jeux d’eaux à la Villa d’Este</i>, Liszt wrote repeated notes and broken chords in the upper register of the keyboard. He also wrote a verse from John’s Gospel into the score. [[ravel|Ravel]]’s <i>Jeux d’eau</i> later took up this piano writing for splashing water.</p>` },
   ],
   works: [
-    { year: '1851', title: 'Hungarian Rhapsody No. 2 in C♯ minor', cat: 'S. 244/2', forces: 'Piano', note: 'A slow <i>lassú</i> gives way to the quick <i>friss</i>. The piano imitates a band’s flourishes, pauses and increases in speed.' },
+    { year: '1851', title: 'Hungarian Rhapsody No. 2 in C♯ minor', cat: 'S. 244/2', forces: 'Piano', note: 'A slow <i>lassú</i> is followed by the quick <i>friss</i>. The piano imitates a band’s flourishes, pauses and increases in speed.' },
     { year: '1852', title: 'Transcendental Études', cat: 'S. 139', forces: 'Piano', note: 'The final version of twelve studies first written in 1826. In <i>Chasse-neige</i>, tremolos spread across the keyboard.' },
     { year: '1853', title: 'Piano Sonata in B minor', cat: 'S. 178', forces: 'Piano', note: 'A few themes provide the material for one continuous movement, which includes a slow section and a fugato. The manuscript preserves the loud ending that Liszt replaced with a quiet close.' },
     { year: '1854', title: 'Les Préludes', titleHtml: '<em>Les Préludes</em>', cat: 'S. 97', forces: 'Orchestra', note: 'First performed in Weimar in 1854. Its connection with Lamartine followed earlier work on an overture to poems by Joseph Autran.' },
@@ -123,7 +123,7 @@ I grasp nothing, and embrace the whole world.`,
   ],
   recordings: [
     { work: 'Piano Sonata in B minor', performers: 'Martha Argerich', label: 'Deutsche Grammophon', note: 'Argerich’s playing changes suddenly between quiet and forceful passages, in the fugato and across the single movement.' },
-    { work: 'Années de pèlerinage, Books I and II', performers: 'Alfred Brendel', label: 'Philips', note: 'My choice for hearing how the travel pieces are built. Brendel plays <i>Vallée d’Obermann</i> and the Italian book.' },
+    { work: 'Années de pèlerinage, Books I and II', performers: 'Alfred Brendel', label: 'Philips', note: 'Chosen for hearing how the travel pieces are built. Brendel plays <i>Vallée d’Obermann</i> and the Italian book.' },
     { work: 'Hungarian Rhapsodies', performers: 'György Cziffra', label: 'EMI', note: 'Wild tempo changes and formidable octaves. Cziffra treats the rhapsodies as a virtuoso’s working repertory and takes liberties with the tune before playing it at full speed.' },
   ],
   lineage: {

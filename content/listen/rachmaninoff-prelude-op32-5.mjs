@@ -14,8 +14,8 @@ export default {
   "sections": [
     { "t": 0, "label": "A · Melody above five-note groups", "m": "A", "mNote": "The left hand plays running figures beneath a slow upper melody." },
     { "t": 58, "label": "B · Melody in lower voice", "m": "B", "mNote": "A lower melody sounds beneath quick right-hand figures." },
-    { "t": 120, "label": "A′ · First melody in G major", "m": "A′", "mNote": "A tempo: the opening melody returns over five-note groups" },
-    { "t": 152, "label": "Coda · High figures and a trill", "m": "Coda", "mNote": "The right hand climbs, then holds a trill" }
+    { "t": 120, "label": "A′ · First melody in G major", "m": "A′", "mNote": "A tempo: the opening melody returns over five-note groups." },
+    { "t": 152, "label": "Coda · High figures and a trill", "m": "Coda", "mNote": "The right hand climbs, then holds a trill." }
   ],
   "cues": [
     { "t": 0, "kind": "music", "title": "Left-hand quintuplets and melody", "text": "The left hand plays five-note groups before the melody enters above it, marked <i>dolce</i>. Long notes in the right hand are held over the accompaniment. Triplets in the melody set three against five.", "basis": "score-proportion", "precision": "passage", "evidence": "Gutheil first edition (1911), p. 22: Moderato, left-hand quintuplets and a dolce melody with triplets. https://s9.imslp.org/files/imglnks/usimg/e/e0/IMSLP105591-PMLP02018-Rachmaninov_-_32_-_13_Preludes_(ed.Gutheil).pdf" },

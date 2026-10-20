@@ -2,7 +2,7 @@ export default {
   id: 'mahler-das-lied-einsame',
   composer: 'mahler',
   order: 41,
-  set: { id: 'mahler-das-lied-von-der-erde', title: 'Das Lied von der Erde', part: 2, of: 6 },
+  set: { id: 'mahler-das-lied-von-der-erde', title: 'Das Lied von der Erde', part: 2, of: 6, unit: 'songs' },
   work: 'Das Lied von der Erde',
   movement: 'II. Der Einsame im Herbst — Etwas schleichend. Ermüdet',
   year: '1908–09',
@@ -20,8 +20,8 @@ export default {
 
   "sections": [
     { "t": 0, "label": "A · Oboe solo over muted violins", "m": "A", "mNote": "A solo oboe plays above quavers in the muted violins." },
-    { "t": 166, "label": "B · Wind bending the flowers", "m": "B", "mNote": "Clarinet trills accompany the alto’s line" },
-    { "t": 246, "label": "C · Strings without voice", "m": "C", "mNote": "Violins and violas play a long crescendo" },
+    { "t": 166, "label": "B · Wind bending the flowers", "m": "B", "mNote": "Clarinet trills accompany the alto’s line." },
+    { "t": 246, "label": "C · Strings without voice", "m": "C", "mNote": "Violins and violas play a long crescendo." },
     { "t": 298, "label": "A′ · Return of opening material, alto", "m": "A′", "mNote": "The moving quavers return beneath the alto line." },
     { "t": 460, "label": "D · Sun of love, E♭ major, alto", "m": "D", "mNote": "Two harps play beneath the alto in E♭ major." },
     { "t": 488, "label": "Coda · Oboe and woodwinds after the voice", "m": "Coda", "mNote": "The voice stops; the woodwinds play the closing bars." },

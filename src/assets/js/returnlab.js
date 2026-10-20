@@ -72,7 +72,7 @@ export function mount(app) {
       for (let pitch = Math.ceil(low / 12) * 12; pitch <= high; pitch += 12) {
         const y = yAt(pitch);
         ink.strokeStyle = '#e9cf8c13'; ink.beginPath(); ink.moveTo(30, y); ink.lineTo(width - 12, y); ink.stroke();
-        ink.fillStyle = '#9b8c73'; ink.font = `10px ${font}`; ink.fillText(`C${pitch / 12 - 1}`, 5, y);
+        ink.fillStyle = '#9b8c73'; ink.font = `12px ${font}`; ink.fillText(`C${pitch / 12 - 1}`, 4, y);
       }
       for (const change of d.changes) {
         const i = key === 'a' ? change.ia : change.ib;
@@ -83,7 +83,7 @@ export function mount(app) {
         const bar = d.pairs[i][key], x = xAt(i), w = xAt(i + 1) - x;
         ink.strokeStyle = '#c9a65a29'; ink.beginPath(); ink.moveTo(x, top - 5); ink.lineTo(x, top + laneH + 5); ink.stroke();
         if (bar && (i - offset) % labelStep === 0) {
-          ink.fillStyle = '#b6a78f'; ink.font = `11px ${font}`; ink.fillText(bar.n, x + 2, top - 12);
+          ink.fillStyle = '#b6a78f'; ink.font = `12px ${font}`; ink.fillText(bar.n, x + 2, top - 12);
         }
         if (!bar) {
           ink.save(); ink.beginPath(); ink.rect(x, top, w, laneH); ink.clip();
@@ -120,17 +120,21 @@ export function mount(app) {
     ctx.fillStyle = ctx.strokeStyle; ctx.beginPath(); ctx.arc(x, top - 6, 3, 0, Math.PI * 2); ctx.fill();
   }
 
+  // Round ticks (1, 2, 2.5 or 5 times a power of ten), so the axis reads 0 · 2 · 4 · 6 s, not 7.3 s.
+  const niceStep = (max) => { const raw = max / 3, power = 10 ** Math.floor(Math.log10(raw)); return [1, 2, 2.5, 5, 10].map((m) => m * power).find((s) => s >= raw); };
+  const tickLabel = (v, unit) => `${+v.toFixed(3)}${unit ? `\u00a0${unit}` : ''}`;
   function renderChart() {
-    const w = Math.max(280, chart.clientWidth), h = 190, left = 35, right = 12, top = 13, bottom = 30;
+    const w = Math.max(280, chart.clientWidth), h = 190, left = 46, right = 12, top = 13, bottom = 30;
     chartWidth = chart.clientWidth;
     const field = metric.value;
     let max = 0;
     for (let i = offset; i < endColumn(); i++) for (const key of ['a', 'b']) max = Math.max(max, d.pairs[i][key]?.[field] ?? 0);
-    max = max ? max * 1.08 : 1;
+    const step = niceStep(max || 1);
+    max = Math.max(step, Math.ceil(max * 1.04 / step) * step);
     const X = (i) => left + ((i - offset + .5) / visible()) * (w - left - right);
     const Y = (value) => top + (1 - value / max) * (h - top - bottom);
     const unit = field === 'd' ? 's' : '';
-    const ticks = [0, max / 2, max].map((v) => `<line x1="${left}" x2="${w - right}" y1="${Y(v)}" y2="${Y(v)}" stroke="#c9a65a25"/><text x="${left - 5}" y="${Y(v) + 4}" fill="#b0a18b" font-size="11" text-anchor="end">${v.toFixed(field === 'd' ? 1 : 2)}${unit}</text>`).join('');
+    const ticks = Array.from({ length: Math.round(max / step) + 1 }, (_, i) => i * step).map((v) => `<line x1="${left}" x2="${w - right}" y1="${Y(v)}" y2="${Y(v)}" stroke="#c9a65a25"/><text x="${left - 6}" y="${Y(v) + 4}" fill="#b0a18b" font-size="12" text-anchor="end">${tickLabel(v, unit)}</text>`).join('');
     const line = (key, colour) => {
       let path = '', pen = false, points = '';
       for (let i = offset; i < endColumn(); i++) {
@@ -141,7 +145,7 @@ export function mount(app) {
       }
       return `<path d="${path}" fill="none" stroke="${colour}" stroke-width="1.8"${key === 'b' ? ' stroke-dasharray="5 3"' : ''}/>${points}`;
     };
-    chart.innerHTML = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${field === 'd' ? 'Seconds per bar' : 'Volume'}, A in gold and B in dashed blue, matching columns ${offset + 1} to ${endColumn()}">${ticks}${line('a', A_COLOUR)}${line('b', B_COLOUR)}<text x="${left}" y="${h - 5}" fill="#b0a18b" font-size="11">${offset + 1}</text><text x="${(w + left - right) / 2}" y="${h - 5}" fill="#b0a18b" font-size="11" text-anchor="middle">matching columns</text><text x="${w - right}" y="${h - 5}" fill="#b0a18b" font-size="11" text-anchor="end">${endColumn()}</text></svg>`;
+    chart.innerHTML = `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${field === 'd' ? 'Seconds per bar' : 'Volume'}, A in gold and B in dashed blue, aligned bars ${offset + 1} to ${endColumn()}">${ticks}${line('a', A_COLOUR)}${line('b', B_COLOUR)}<text x="${left}" y="${h - 5}" fill="#b0a18b" font-size="12">${offset + 1}</text><text x="${(w + left - right) / 2}" y="${h - 5}" fill="#b0a18b" font-size="12" text-anchor="middle">aligned bars</text><text x="${w - right}" y="${h - 5}" fill="#b0a18b" font-size="12" text-anchor="end">${endColumn()}</text></svg>`;
     $('[data-rl-chart-caption]').textContent = field === 'd'
       ? 'A higher point means a longer bar, including any pauses or added notes. Gold is A; dashed blue is B. The chart shows the bars selected above.'
       : 'Average volume within each bar. Gold is A; dashed blue is B. Gaps mark bars with no counterpart.';
@@ -166,7 +170,9 @@ export function mount(app) {
   }
   const resize = new ResizeObserver(fit);
   resize.observe(canvas); resize.observe(chart);
+  // Canvas labels use the webfonts, whose sheet is applied after the first paint.
   document.fonts?.ready.then(() => { if (alive) { renderMap(); renderChart(); } });
+  if (document.fonts) on(document.fonts, 'loadingdone', () => { renderMap(); renderChart(); });
   on(windowSelect, 'change', () => { windowSize = Number(windowSelect.value); offset = 0; follow = false; view(); });
   on(previous, 'click', () => { offset -= visible(); follow = false; view(); });
   on(next, 'click', () => { offset += visible(); follow = false; view(); });

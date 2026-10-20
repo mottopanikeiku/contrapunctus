@@ -8,10 +8,10 @@ import { pathToFileURL } from 'node:url';
 import { lookup, normalizeTitle } from './commons.mjs';
 import roster from '../content/roster.mjs';
 import { readFile, readdir } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
 const require = createRequire(import.meta.url);
-const ABCJS = require('../docs/assets/vendor/abcjs-basic-min.js');
+const ABCJS = require('../src/assets/vendor/abcjs-basic-min.js');
 const slugs = new Set(Object.values(roster).flat());
 // Composers before Bach (concert prologue) are valid recording composers too.
 try { for (const c of (await import(new URL('../content/precursors.mjs', import.meta.url).href)).default) slugs.add(c.slug); } catch {}
@@ -196,6 +196,16 @@ for (const f of files) {
     if (mod.slug && !slugs.has(mod.slug)) err(f, `slug ${mod.slug} is not in content/roster.mjs`);
     if (mod.era && !eras.has(mod.era)) err(f, `unknown era ${mod.era}`);
     if (mod.slug && path.basename(f, '.mjs') !== mod.slug) err(f, `file name must be ${mod.slug}.mjs`);
+    // An album belongs in one place: “Recommended recordings” (recordings) or “Where to hear it” (content/elsewhere), not both.
+    try {
+      const listed = JSON.parse(readFileSync(path.join(ROOT, 'content/elsewhere', `${mod.slug}.json`), 'utf8')).items ?? [];
+      const norm = (s) => String(s ?? '').replace(/<[^>]+>/g, '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+      const lead = (p) => norm(String(p ?? '').split(/[;,(]/)[0]);
+      for (const r of mod.recordings ?? []) for (const it of listed) {
+        const a = norm(r.work), b = norm(it.work), p = lead(r.performers), q = lead(it.performers);
+        if (a && b && (a.includes(b) || b.includes(a)) && p && q && (p.includes(q) || q.includes(p))) warn(f, `“${r.work}” (${r.performers}) is also in content/elsewhere/${mod.slug}.json; keep one entry`);
+      }
+    } catch (e) { if (e.code !== 'ENOENT') throw e; }
     if (!mod.born?.year || !mod.born?.place) err(f, 'born needs {year, date, place}');
     if (mod.died && (!mod.died.year || !mod.died.place)) err(f, 'died needs {year, date, place} or null for living composers');
     if (!mod.portrait?.file) err(f, 'portrait.file missing');
@@ -257,8 +267,8 @@ for (const f of files) {
         if (c.kind === 'listen') err(f, `cue "${c.title}": kind "listen" is retired; say what happens (music/form)`);
         else if (!kinds.has(c.kind)) err(f, `bad cue kind ${c.kind}`);
         if (!c.title || !c.text) err(f, `cue at ${c.t} needs title and text`);
-        const words = (c.text ?? '').split(/\s+/).length;
-        if (words > 58) err(f, `cue at ${c.t} has ${words} words (max 55)`);
+        const words = (c.text ?? '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+        if (words > 55) err(f, `cue at ${c.t} has ${words} words (max 55)`);
       }
       if (mod.orchestra) {
         const O = mod.orchestra, IDS = new Set(['piccolo', 'flutes', 'oboes', 'cor-anglais', 'clarinets', 'e-flat-clarinet', 'bass-clarinet', 'bassoons', 'contrabassoon', 'saxophones', 'horns', 'trumpets', 'cornets', 'trombones', 'euphoniums', 'tuba', 'timpani', 'percussion', 'harp', 'celesta', 'piano', 'organ', 'harpsichord', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-violin', 'solo-voice', 'chorus']);
@@ -286,7 +296,7 @@ for (const f of files) {
         if (tr.at?.t != null && (tr.at.t < 0 || tr.at.t > dur)) err(f, `transition ${name}: at.t outside recording`);
         if (tr.at?.bar && tr.basis !== 'score-aligned') err(f, `transition ${name}: bar anchors require basis score-aligned`);
         const words = (tr.how ?? '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
-        if (!words || words > 90) err(f, `transition ${name}: how must be 1–80 words (has ${words})`);
+        if (!words || words > 80) err(f, `transition ${name}: how must be 1–80 words (has ${words})`);
         for (const dv of tr.devices ?? []) if (!DEVICES.has(dv)) err(f, `transition ${name}: unknown device "${dv}"`);
         if (!(tr.devices ?? []).length) err(f, `transition ${name}: needs at least one device`);
         if (!BASES.has(tr.basis) || !['moment', 'passage'].includes(tr.precision) || !tr.evidence) err(f, `transition ${name}: needs basis, precision, evidence`);

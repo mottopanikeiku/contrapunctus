@@ -23,10 +23,10 @@ export default {
       evidence: 'Columbia Masterworks ML 5144 (US mono LP). A Columbia advertisement in The American Record Guide for November 1956 (vol. 23 no. 3) lists the Serenade, Isaac Stern and the Symphony of the Air, ML 5144, among five Bernstein recordings “issued for the first time”, and the December 1956 issue lists it again. The Internet Archive carrier record and Discogs date the LP 1956; Sony’s reissue of the Eryximachus movement gives the recording date, 19 April 1956, and “Originally released 1956”. This territorial phonogram basis does not remove copyright in Bernstein’s composition. https://archive.org/details/sim_american-record-guide_1956-11_23_3 https://archive.org/details/sim_american-record-guide_1956-12_23_4 https://archive.org/details/lp_serenade-for-violin-solo-strings-and-percu_leonard-bernstein-symphony-of-the-air-isaa https://www.discogs.com/release/5995545 https://www.youtube.com/watch?v=vZ6lhjkhZk0',
     },
   },
-  intro: 'The first movement of Bernstein’s violin Serenade (after Plato’s Symposium), played by Isaac Stern, who was the soloist at the first performance in 1954, with Bernstein conducting. The movement opens with a slow fugato for the soloist, followed by a fast sonata-allegro on the same material.',
+  intro: 'Isaac Stern, who was the soloist at the first performance in 1954, plays the first movement of Bernstein’s violin Serenade (after Plato’s <i>Symposium</i>), with Bernstein conducting. The movement opens with a slow fugato for the soloist, followed by a fast sonata-allegro on the same material.',
   sections: [
     { t: 0, label: 'A · Lento, solo violin begins fugato', m: 'A' },
-    { t: 183, label: 'B · Allegro marcato, Pausanias', m: 'B', mNote: 'Sonata-allegro built on the opening fugato' },
+    { t: 183, label: 'B · Allegro marcato, Pausanias', m: 'B', mNote: 'Sonata-allegro built on the opening fugato.' },
   ],
   cues: [
     {

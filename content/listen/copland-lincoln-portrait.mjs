@@ -20,7 +20,7 @@ export default {
       evidence: 'Columbia Masterworks MS 6040, dated 1959 in the Internet Archive carrier record; sleeve credits Carl Sandburg, André Kostelanetz and the New York Philharmonic, and prints Library of Congress card numbers R59-1007 to R59-1009. Discogs dates the stereo issue and its mono twin ML 5347 to 1959. This territorial phonogram basis does not remove copyright in Copland’s composition. https://archive.org/metadata/lp_a-lincoln-portrait-new-england-triptych_andr-kostelanetz-the-new-york-philharmonic/metadata https://www.discogs.com/release/17565760',
     },
   },
-  intro: 'Copland’s <i>Lincoln Portrait</i>, with Carl Sandburg, Lincoln’s biographer, as narrator and André Kostelanetz, who commissioned the piece, conducting. Before the narration begins, the orchestra plays two nineteenth-century tunes in a slow opening section and a faster middle section.',
+  intro: 'Carl Sandburg, Lincoln’s biographer, is the narrator in Copland’s <i>Lincoln Portrait</i>, and André Kostelanetz, who commissioned the piece, conducts. Before the narration begins, the orchestra plays two nineteenth-century tunes in a slow opening section and a faster middle section.',
   sections: [
     { t: 0, label: 'A · Slow orchestral portrait', m: 'A' },
     { t: 244, label: 'B · Quick middle section', m: 'B' },
@@ -31,7 +31,7 @@ export default {
       t: 0,
       kind: 'form',
       title: 'Slow opening section',
-      text: 'The slow opening, the first of the work’s three sections, is played by the orchestra before the narrator speaks. In his note for the Boston Symphony’s 1943 performance, Copland described this part as a portrait of Lincoln’s fatality and gentleness. The orchestra plays broad phrases before the narrator names Lincoln.',
+      text: 'The slow opening, the first of the work’s three sections, is played by the orchestra before the narrator speaks. In his note for the Boston Symphony’s 1943 performance, Copland described this part as a portrait of Lincoln’s fatality and gentleness.',
       basis: 'score-proportion',
       precision: 'passage',
       evidence: 'Copland’s note for the Boston Symphony’s 1943 performance, reproduced by the LA Phil, describes the first of the work’s three sections. https://www.laphil.com/works/lincoln-portrait',
@@ -75,8 +75,8 @@ export default {
     {
       t: 728,
       kind: 'music',
-      title: 'Final section, narrator',
-      text: 'Copland gives the final section to a speaking voice, with passages drawn from Lincoln’s speeches and writings. The work is scored for narrator and orchestra.',
+      title: 'Lincoln’s speeches and writings',
+      text: 'Copland gives the final section to a speaking voice, with passages drawn from Lincoln’s speeches and writings.',
       basis: 'general',
       precision: 'passage',
       evidence: 'The Aaron Copland Fund catalogue specifies narrator and orchestra, with text arranged from Lincoln’s speeches; Copland’s three-section account explains the final section’s framing purpose. https://www.aaroncopland.com/works/lincoln-portrait/ ; https://www.laphil.com/works/lincoln-portrait',

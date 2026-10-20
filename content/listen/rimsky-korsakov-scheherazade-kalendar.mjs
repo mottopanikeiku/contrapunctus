@@ -23,11 +23,11 @@ export default {
   "sections": [
     { "t": 0, "label": "Frame · Violin and harp return", "m": "Frame", "mNote": "The violin plays Scheherazade’s recitative again." },
     { "t": 34, "label": "A · Bassoon solo over muted double basses", "m": "A", "mNote": "Four double basses play beneath the bassoon solo." },
-    { "t": 178, "label": "B · Brass fanfares interrupt", "m": "B", "mNote": "Short calls replace the long woodwind phrases" },
-    { "t": 245, "label": "Link · Clarinet and plucked strings", "m": "Link", "mNote": "A free clarinet solo over soft repeated string chords" },
+    { "t": 178, "label": "B · Brass fanfares interrupt", "m": "B", "mNote": "Short calls replace the long woodwind phrases." },
+    { "t": 245, "label": "Link · Clarinet and plucked strings", "m": "Link", "mNote": "A free clarinet solo over soft repeated string chords." },
     { "t": 276, "label": "Dev · Brass march, expanded", "m": "Dev", "mNote": "Piccolo and percussion join the orchestral march." },
     { "t": 386, "label": "A′ · Bassoon theme returns", "m": "A′", "mNote": "A bassoon cadenza restates the opening melody." },
-    { "t": 440, "label": "A″ · Kalender theme, full orchestra", "m": "A″", "mNote": "Winds and strings take up the bassoon’s melody" },
+    { "t": 440, "label": "A″ · Kalender theme, full orchestra", "m": "A″", "mNote": "Winds and strings take up the bassoon’s melody." },
     { "t": 522, "label": "Coda · Wind phrases, then B major", "m": "Coda", "mNote": "The final Animato moves to the major chord." }
   ],
   "cues": [
@@ -124,8 +124,8 @@ export default {
     {
       "t": 522,
       "kind": "form",
-      "title": "Closing Animato and B-major chord",
-      "text": "Short woodwind phrases lead into the last page, marked <i>Animato</i>. Strings play rapid figures beneath brass chords, and timpani reinforce the bass. The B-minor tale ends on a sharp B-major chord.",
+      "title": "Closing Animato and B major chord",
+      "text": "Short woodwind phrases lead into the last page, marked <i>Animato</i>. Strings play rapid figures beneath brass chords, and timpani reinforce the bass. The B minor tale ends on a sharp B major chord.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Full score, closing pages, especially printed p. 53: Animato and final B-major chord. https://archive.org/download/Cantorion_sheet_music_collection_5/6217645a277f7b147a1088840c0845b4.pdf"
@@ -139,7 +139,7 @@ export default {
       "to": "A · Bassoon solo over muted double basses",
       "at": { "t": 34 },
       "span": [24, 49],
-      "how": "<p>The violin cadenza slows, marked <i>ritardando assai</i>. At the <i>Andantino</i> the bassoon begins its B-minor tune above four muted double basses.</p>",
+      "how": "<p>The violin cadenza slows, marked <i>ritardando assai</i>. At the <i>Andantino</i> the bassoon begins its B minor tune above four muted double basses.</p>",
       "devices": ["cadenza", "orchestration change", "register change", "tempo change"],
       "basis": "score-proportion",
       "precision": "passage",

@@ -26,7 +26,7 @@ export default {
       "t": 0,
       "label": "Intro · Tuba and solo cello",
       "m": "Intro",
-      "mNote": "A descending phrase above low organ and plucked strings"
+      "mNote": "A descending phrase above low organ and plucked strings."
     },
     {
       "t": 224,
@@ -124,7 +124,7 @@ export default {
       "t": 400,
       "kind": "life",
       "title": "Dedication to Ernest Boulanger",
-      "text": "Above the title Boulanger wrote ‘à la mémoire de mon cher Papa’ (to the memory of my dear Papa). Ernest Boulanger died in 1900, when she was six. The dedication stands over the psalm’s first low instrumental notes.",
+      "text": "Above the title Boulanger wrote “à la mémoire de mon cher Papa” (to the memory of my dear Papa). Ernest Boulanger died in 1900, when she was six. The dedication stands over the psalm’s first low instrumental notes.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Lili Boulanger’s dedication on the first page of Psalm 130, completed in 1917, Durand full score (1925), p. 1. Ernest Boulanger’s death and Lili’s age are given in Helen Julia Minors’s preface (2011). https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1001.html"
@@ -360,7 +360,7 @@ export default {
     },
     {
       "id": "into-last-gathering",
-      "title": "Held chords give way to runs",
+      "title": "Held chord, then runs",
       "from": "D · Contralto and tenor in canon",
       "to": "E · Allegro, low voices and fast strings",
       "at": {

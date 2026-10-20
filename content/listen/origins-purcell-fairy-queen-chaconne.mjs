@@ -20,7 +20,7 @@ export default {
       "t": 0,
       "label": "A · Dotted strings over a walking bass",
       "m": "A",
-      "mNote": "Dotted violin phrases above three steady bass notes"
+      "mNote": "Dotted violin phrases above three steady bass notes."
     },
     {
       "t": 24,
@@ -38,13 +38,13 @@ export default {
       "t": 94,
       "label": "D · Bass returns",
       "m": "D",
-      "mNote": "Short bass notes alternate with rests"
+      "mNote": "Short bass notes alternate with rests."
     },
     {
       "t": 114,
       "label": "E · Moving bass beneath the violins",
       "m": "E",
-      "mNote": "Moving bass notes under the final dance phrases"
+      "mNote": "Moving bass notes under the final dance phrases."
     }
   ],
   "cues": [

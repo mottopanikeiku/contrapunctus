@@ -11,8 +11,8 @@ export default {
   source: { file: 'File:ICBSA Verdi - Messa da requiem parte 03, Dies irae.ogg' },
   intro: 'This is the opening number of the <i>Dies irae</i> sequence in Verdi’s <i>Messa da Requiem</i>. It begins with four orchestral blows, and the chorus moves from a full-throated cry to a murmur.',
   sections: [
-    { t: 0, label: 'A · Four strokes; chorus over rushing strings', m: 'A', mNote: 'Rushing strings accompany the chorus’s cry of judgement' },
-    { t: 66, label: 'A′ · Chorus repeats Dies irae over strings', m: 'A′', mNote: 'Single choral parts repeat “Dies irae” above the strings' },
+    { t: 0, label: 'A · Four strokes; chorus over rushing strings', m: 'A', mNote: 'Rushing strings accompany the chorus’s cry of judgement.' },
+    { t: 66, label: 'A′ · Chorus repeats Dies irae over strings', m: 'A′', mNote: 'Single choral parts repeat “Dies irae” above the strings.' },
     { t: 96, label: 'B · Repeated syllables over pizzicato bass', m: 'B', mNote: 'Repeated syllables, plucked bass notes and short rising string runs.' },
   ],
   cues: [

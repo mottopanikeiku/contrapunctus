@@ -1,13 +1,14 @@
 {
   "id": "vienna-1900",
   "title": "Vienna, 1900",
-  "subtitle": "Mahler’s harp, Klimt’s embrace, Schoenberg’s sung quartet",
+  "subtitle": "Mahler, Schoenberg and the Vienna Secession",
   "minutes": 23,
   "hero": {
     "file": "File:Klimt - Diesen Kuss der ganzen Welt.jpeg",
-    "caption": "The embracing lovers at the end of Gustav Klimt’s <i>Beethoven Frieze</i>, painted for the Vienna Secession in 1902."
+    "caption": "The embracing lovers at the end of Gustav Klimt’s <i>Beethoven Frieze</i>, painted for the Vienna Secession in 1901–02.",
+    "focus": "50% 6%"
   },
-  "intro": "In 1902 Mahler conducted Beethoven at the Secession, where Klimt had painted monsters, figures of longing and a final embrace. Six years later, in Vienna, a soprano performed with the Rosé Quartet and sang words about air from another planet. Part of the audience laughed.",
+  "intro": "In 1902 Mahler conducted Beethoven at the Secession, where Klimt had painted monsters, figures of longing and a final embrace. Six years later, in Vienna, part of the audience laughed while a soprano and the Rosé Quartet performed Schoenberg’s setting of words about air from another planet.",
   "stations": [
     {
       "id": "s1",
@@ -35,7 +36,7 @@
       "id": "s2",
       "title": "Beethoven at the Secession",
       "listen": { "id": "mahler-5-adagietto", "from": 276, "to": 415 },
-      "art": { "file": "File:Klimt - Diesen Kuss der ganzen Welt.jpeg", "caption": "Klimt’s embracing couple, 1902. The <i>Beethoven Frieze</i> ends with lovers, a choir and Schiller’s kiss for the whole world." },
+      "art": { "file": "File:Klimt - Diesen Kuss der ganzen Welt.jpeg", "caption": "Klimt’s embracing couple, 1901–02. The <i>Beethoven Frieze</i> ends with lovers, a choir and Schiller’s kiss for the whole world." },
       "score": null,
       "map": { "composer": "mahler", "year": 1902 },
       "edge": null,
@@ -97,7 +98,7 @@
     },
     {
       "id": "s5",
-      "title": "Four strings",
+      "title": "The finale’s string introduction",
       "listen": { "id": "schoenberg-quartet-2-entrueckung", "from": 0, "to": 74 },
       "art": null,
       "score": null,
@@ -116,7 +117,7 @@
     },
     {
       "id": "s6",
-      "title": "Air from another planet",
+      "title": "The soprano enters",
       "listen": { "id": "schoenberg-quartet-2-entrueckung", "from": 74, "to": 168 },
       "art": null,
       "score": null,
@@ -178,7 +179,7 @@
     },
     {
       "id": "s9",
-      "title": "Silence in the hall",
+      "title": "The instrumental coda",
       "listen": { "id": "schoenberg-quartet-2-entrueckung", "from": 472, "to": 627.9 },
       "art": null,
       "score": null,
@@ -193,10 +194,10 @@
       ],
       "sources": [
         { "title": "Arnold Schönberg Center: instrumental coda and Schoenberg’s 1936–37 Los Angeles recollection, quoted here", "url": "https://schoenberg.at/en/schoenberg/kompositionen/second-string-quartet-op-10" },
-        { "title": "Contrapunctus recording guide: Entrückung’s F♯-major ending and timing evidence", "url": "../hall.html#schoenberg-quartet-2-entrueckung" },
+        { "title": "Contrapunctus recording guide: Entrückung’s F♯ major ending and timing evidence", "url": "../hall.html#schoenberg-quartet-2-entrueckung" },
         { "title": "Universal Edition: Harmonielehre and its dedication", "url": "https://www.universaledition.com/en/Works/Harmonielehre/P0041937" },
         { "title": "Mahler Foundation: Schoenberg’s 1911 memorial dedication to Mahler", "url": "https://www.mahlerfoundation.org/mahler/contemporaries/arnold-schoenberg/" },
-        { "title": "Charles Wilson, Chandos CHAN 9939 booklet, pp. 8–11: the quartet’s F♯-minor opening and final F♯ major", "url": "https://www.chandos.net/chanimages/Booklets/CH9939.pdf" }
+        { "title": "Charles Wilson, Chandos CHAN 9939 booklet, pp. 8–11: the quartet’s F♯ minor opening and final F♯ major", "url": "https://www.chandos.net/chanimages/Booklets/CH9939.pdf" }
       ]
     }
   ]

@@ -42,7 +42,7 @@ export default {
       "t": 660,
       "label": "C · Andante in F♯ major",
       "m": "C",
-      "mNote": "A slow melody over moving chords"
+      "mNote": "A slow melody over moving chords."
     },
     {
       "t": 1045,
@@ -60,7 +60,7 @@ export default {
       "t": 1456,
       "label": "Coda · Andante, opening ideas recalled",
       "m": "Coda",
-      "mNote": "Andante, then the first three ideas in reverse order"
+      "mNote": "Andante, then the first three ideas in reverse order."
     }
   ],
   "cues": [
@@ -68,7 +68,7 @@ export default {
       "t": 0,
       "kind": "music",
       "title": "Opening, bars 1–7",
-      "text": "Two low Gs, separated by rests, are followed by a descending scale. Liszt marks the piano <i>sotto voce</i>, under the breath. The scale falls twice, with different intervals the second time, and no B-minor chord sounds yet.",
+      "text": "Two low Gs, separated by rests, are followed by a descending scale. Liszt marks the piano <i>sotto voce</i>, under the breath. The scale falls twice, with different intervals the second time, and no B minor chord sounds yet.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Bars 1–7, Bärenreiter score (1983), reproduced in Alan Tang’s analysis: https://www.classicalmusic-notes.com/liszt-sonata-1/. The opening example shows the G octaves, rests, altered descending scales and sotto voce marking."
@@ -158,7 +158,7 @@ export default {
       "t": 660,
       "kind": "form",
       "title": "Andante sostenuto in F♯ major, 3/4",
-      "text": "The Andante sostenuto, at bar 331, is in F♯ major and three beats to the bar. A quiet melody moves over soft piano chords. The earlier singing tune and the Grandioso return within this slow section, leading to a broad F♯-major climax at bar 397.",
+      "text": "The Andante sostenuto, at bar 331, is in F♯ major and three beats to the bar. A quiet melody moves over soft piano chords. The earlier singing tune and the Grandioso return within this slow section, leading to a broad F♯ major climax at bar 397.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Andante sostenuto, bar 331, and the returns leading to the F♯-major chord at bar 397: Bärenreiter score (1983), illustrated and discussed at https://www.classicalmusic-notes.com/liszt-sonata-1/."
@@ -185,7 +185,7 @@ export default {
       "t": 850,
       "kind": "music",
       "title": "Climax and return of the slow theme",
-      "text": "The slow section reaches its climax on a broad F♯-major chord. As the chord is held, a rising scale in the left hand leads back to the slow theme, now accompanied by left-hand scales moving up and down.",
+      "text": "The slow section reaches its climax on a broad F♯ major chord. As the chord is held, a rising scale in the left hand leads back to the slow theme, now accompanied by left-hand scales moving up and down.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Alan Tang, “Understanding Liszt’s Sonata in B Minor (Part 1)”: the climax at bar 397 and the return of the Andante theme, in the Bärenreiter score on IMSLP. https://www.classicalmusic-notes.com/liszt-sonata-1/"
@@ -329,7 +329,7 @@ export default {
         198,
         220
       ],
-      "how": "<p>After the D-major Grandioso at bar 105, the principal theme returns in the piano at bar 120, marked <i>dolce con grazia</i>. At the <i>cantando espressivo</i> at bar 153, Liszt doubles the note values of the repeated-note figure, and triplets in the accompaniment sit under the new melodic line.</p>",
+      "how": "<p>After the D major Grandioso at bar 105, the principal theme returns in the piano at bar 120, marked <i>dolce con grazia</i>. At the <i>cantando espressivo</i> at bar 153, Liszt doubles the note values of the repeated-note figure, and triplets in the accompaniment sit under the new melodic line.</p>",
       "devices": [
         "motivic link",
         "decrescendo",

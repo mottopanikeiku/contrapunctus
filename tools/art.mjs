@@ -3,24 +3,28 @@
 //   node tools/art.mjs search "Bocklin Isle of the Dead"     -> candidate File: titles
 //   node tools/art.mjs check "File:A.jpg" "File:B.jpg"       -> existence, license, size
 //   node tools/art.mjs fetch                                 -> download every File: referenced in content/
-//   node tools/art.mjs derive [160|480|960]                  -> local renditions (no downloads)
+//   node tools/art.mjs derive [160|480|750|960]              -> local renditions (no downloads)
 import { mkdir, readFile, writeFile, readdir, stat, unlink } from 'node:fs/promises';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import path from 'node:path';
 import { lookup, search, normalizeTitle, UA } from './commons.mjs';
 import { loadContent, collectFiles, artId } from '../src/content.mjs';
+import { RENDITIONS } from './optimize/pictures.mjs';
 
 const run = promisify(execFile);
 const ROOT = path.resolve(import.meta.dirname, '..');
 const IMG = path.join(ROOT, 'docs/assets/img/art');
 const CACHE = path.join(ROOT, 'content/art.json');
 
-/** Tiny cameo and responsive painting renditions; originals remain untouched. */
-export async function derivatives(file, widths = [160, 480, 960]) {
-  for (const w of widths) {
+/** Tiny cameo and responsive painting renditions narrower than the source; originals remain untouched.
+ *  A rendition at or above the source width would only re-encode the original, so none is made. */
+export async function derivatives(file, widths = RENDITIONS) {
+  const { stdout } = await run('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width', '-of', 'csv=p=0', file]);
+  const source = Number(stdout.trim());
+  for (const w of widths.filter((w) => w < source)) {
     const dst = file.replace(/\.webp$/, `-${w}.webp`);
-    await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', file, '-vf', `scale='min(${w},iw)':-2`, '-c:v', 'libwebp', '-quality', '74', dst]);
+    await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', file, '-vf', `scale=${w}:-2`, '-c:v', 'libwebp', '-quality', '74', dst]);
   }
 }
 
@@ -74,18 +78,18 @@ if (cmd === 'search') {
     .filter(([t]) => liveTitles.has(t)).sort(([a], [b]) => a.localeCompare(b)));
   await writeFile(CACHE, JSON.stringify(sorted, null, 1) + '\n');
   // Drop images no longer referenced.
-  const live = new Set([...liveTitles].flatMap((t) => [`${artId(t)}.webp`, ...[160, 480, 960].map((w) => `${artId(t)}-${w}.webp`)]));
+  const live = new Set([...liveTitles].flatMap((t) => [`${artId(t)}.webp`, ...RENDITIONS.filter((w) => w < (sorted[t]?.w ?? Infinity)).map((w) => `${artId(t)}-${w}.webp`)]));
   for (const f of await readdir(IMG)) if (!live.has(f)) await unlink(path.join(IMG, f));
   if (missing.length) {
     console.log(`\nMISSING on Commons:\n  ${missing.join('\n  ')}`);
     process.exitCode = 1;
   }
 } else if (cmd === 'derive') {
-  const widths = args.length ? args.map(Number) : [160, 480, 960];
-  if (widths.some((w) => ![160, 480, 960].includes(w))) throw new Error('derive widths must be 160, 480 or 960');
-  const files = (await readdir(IMG)).filter((f) => f.endsWith('.webp') && !/-(160|480|960)\.webp$/.test(f));
+  const widths = args.length ? args.map(Number) : RENDITIONS;
+  if (widths.some((w) => !RENDITIONS.includes(w))) throw new Error(`derive widths must be ${RENDITIONS.join(', ')}`);
+  const files = (await readdir(IMG)).filter((f) => f.endsWith('.webp') && !new RegExp(`-(${RENDITIONS.join('|')})\\.webp$`).test(f));
   for (const f of files) await derivatives(path.join(IMG, f), widths);
   console.log(`derived ${files.length} images at ${widths.join(', ')} px`);
 } else {
-  console.log('usage: node tools/art.mjs search <query> | check <File:...>... | fetch | derive [160|480|960]');
+  console.log(`usage: node tools/art.mjs search <query> | check <File:...>... | fetch | derive [${RENDITIONS.join('|')}]`);
 }

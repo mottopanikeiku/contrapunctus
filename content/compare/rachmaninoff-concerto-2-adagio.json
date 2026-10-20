@@ -3,7 +3,7 @@
   "title": "Piano Concerto No. 2, Adagio: Rachmaninoff and Richter",
   "composer": "rachmaninoff",
   "work": "Piano Concerto No. 2, Op. 18 — II. Adagio sostenuto, opening-side comparison only",
-  "question": "How do Rachmaninoff and Richter keep the Adagio’s melody continuous as it passes from flute and clarinet to piano?",
+  "question": "Rachmaninoff and Richter play the Adagio’s opening, where the melody passes from flute and clarinet to the piano.",
   "intro": "Muted strings make the short modulation from C minor to E major, and the piano enters quietly with a repeated figure. Flute and clarinet play a melody that the piano later takes over. Rachmaninoff and Stokowski recorded these opening phrases in Philadelphia in 1929; Richter and Wisłocki recorded them with the Warsaw Philharmonic in 1959.",
   "group": "composer-performers",
   "recordings": [
@@ -51,7 +51,7 @@
         "medianConfidence": 0.854,
         "transposeB": 1,
         "scope": "Adagio opening 78-rpm side only. Historical lead-in and side-end material are excluded from alignment; neither source has been joined, transposed or speed-corrected for playback.",
-        "pitchEvidence": "cache/analysis/rachmaninoff-concerto-2-adagio-rachmaninoff-1929-side1.txt frequently estimates F-major pitch content from 1:45 to 2:30, where the reference opening is E-centred. tools/compare.py --transpose-b 1 rolls only the historical chroma down one semitone. The noisy report does not establish a fixed original tuning or the cause of the mismatch.",
+        "pitchEvidence": "cache/analysis/rachmaninoff-concerto-2-adagio-rachmaninoff-1929-side1.txt frequently estimates F major pitch content from 1:45 to 2:30, where the reference opening is E-centred. tools/compare.py --transpose-b 1 rolls only the historical chroma down one semitone. The noisy report does not establish a fixed original tuning or the cause of the mismatch.",
         "inspection": "Ten-second path samples advance through [20,20.12], [100,79.32] and [180,144.08]. Confidence dips locally in the reference’s 50–70-second span, which has no authored passage button or precise tempo claim. Overall confidence does not establish beat-exact correspondence."
       }
     ]

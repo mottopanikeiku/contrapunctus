@@ -2,7 +2,7 @@ export default {
   id: 'mahler-das-lied-trinklied',
   composer: 'mahler',
   order: 40,
-  set: { id: 'mahler-das-lied-von-der-erde', title: 'Das Lied von der Erde', part: 1, of: 6 },
+  set: { id: 'mahler-das-lied-von-der-erde', title: 'Das Lied von der Erde', part: 1, of: 6, unit: 'songs' },
   work: 'Das Lied von der Erde',
   movement: 'I. Das Trinklied vom Jammer der Erde — Allegro pesante',
   year: '1908–09',
@@ -19,14 +19,14 @@ export default {
   intro: 'In the first song of <i>Das Lied von der Erde</i>, the wine is ready, and the singer calls for a song about death before anyone drinks. Carl Martin Öhmann sang it with Carl Schuricht in Amsterdam in 1939. The horns open the song, and the refrain rises a semitone each time it returns.',
 
   sections: [
-    { t: 0, label: 'A · horns and the golden cup', m: 'A', mNote: 'The tenor sings against horns and flutter-tongued flutes.' },
+    { t: 0, label: 'A · Horns and the golden cup', m: 'A', mNote: 'The tenor sings against horns and flutter-tongued flutes.' },
     { t: 58, label: 'B · Strings, harps and solo violin', m: 'B', mNote: 'Strings, harps and a solo violin play softly.' },
-    { t: 102, label: 'R · First refrain, G minor', m: 'R', mNote: 'The first refrain is in G minor.' },
-    { t: 125, label: 'C · Second stanza: cellar and lute', m: 'C', mNote: 'The opening fanfares return before the second stanza.' },
+    { t: 102, label: 'R · First refrain, G minor', m: 'R' },
+    { t: 125, label: 'C · Second stanza, cellar and lute', m: 'C', mNote: 'The opening fanfares return before the second stanza.' },
     { t: 220, label: 'R′ · Refrain in A♭ minor', m: 'R′', mNote: 'The same words, a semitone higher.' },
     { t: 248, label: 'Dev · Interlude for the orchestra', m: 'Dev', mNote: 'An interlude leads to the earth’s returning spring.' },
     { t: 380, label: 'A′ · Opening fanfares; the ape on graves', m: 'A′', mNote: 'The opening fanfares surround a moonlit apparition on the graves.' },
-    { t: 468, label: 'R″ · Toast in A major, final refrain', m: 'R″', mNote: 'A-major toast, then the last refrain in A minor' },
+    { t: 468, label: 'R″ · Toast in A major, final refrain', m: 'R″', mNote: 'A major toast, then the last refrain in A minor.' },
     { t: 513, label: 'Coda · Horns after the last “Tod”', m: 'Coda', mNote: 'The first tempo returns for the orchestral close.' },
   ],
 
@@ -51,7 +51,7 @@ export default {
     {
       id: 'into-quiet-stanza',
       title: 'Into “Wenn der Kummer naht”',
-      from: 'A · horns and the golden cup',
+      from: 'A · Horns and the golden cup',
       to: 'B · Strings, harps and solo violin',
       at: { t: 58 },
       span: [44, 76],
@@ -78,7 +78,7 @@ export default {
       id: 'into-lute-and-wine',
       title: 'The horn call returns at Tempo I',
       from: 'R · First refrain, G minor',
-      to: 'C · Second stanza: cellar and lute',
+      to: 'C · Second stanza, cellar and lute',
       at: { t: 125 },
       span: [110, 140],
       how: '<p>The held “Tod” meets a diminished-seventh chord over G at bar 90. <i>Tempo I subito</i> then brings back the horn call, with flutter-tongued flutes and glockenspiel. Open trumpets join the fanfare as it returns, and the strings play repeated notes.</p>',
@@ -90,7 +90,7 @@ export default {
     {
       id: 'into-second-refrain',
       title: 'Second refrain a semitone higher',
-      from: 'C · Second stanza: cellar and lute',
+      from: 'C · Second stanza, cellar and lute',
       to: 'R′ · Refrain in A♭ minor',
       at: { t: 220 },
       span: [200, 238],
@@ -128,7 +128,7 @@ export default {
     },
     {
       id: 'into-last-stanza',
-      title: 'Ape’s howl to the A-major toast',
+      title: 'Ape’s howl to the A major toast',
       from: 'A′ · Opening fanfares; the ape on graves',
       to: 'R″ · Toast in A major, final refrain',
       at: { t: 468 },

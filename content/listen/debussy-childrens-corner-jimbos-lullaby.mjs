@@ -8,8 +8,7 @@ export default {
     "id": "debussy-childrens-corner",
     "title": "Children’s Corner",
     "part": 2,
-    "of": 6
-  },
+    "of": 6, "unit": "pieces" },
   "year": "1906–08",
   "key": "B♭ major",
   "forces": "Piano",
@@ -26,10 +25,10 @@ export default {
       "evidence": "Columbia Masterworks ML 4366, 1951; Internet Archive item metadata and original carrier: https://archive.org/details/lp_childrens-corner-suite-forest-scenes-o_claude-debussy-robert-schumann-robert-c_0. Territorial EU basis; US status not established."
     }
   },
-  "intro": "“Jimbo’s Lullaby”, the second piece of Debussy’s Children’s Corner, is the song of an elephant, and it begins at the bottom of the piano. Robert Casadesus plays it. The small tune later rises to the treble and keeps its rocking rhythm.",
+  "intro": "“Jimbo’s Lullaby”, the second piece of Debussy’s <i>Children’s Corner</i>, is the song of an elephant, and it begins at the bottom of the piano. Robert Casadesus plays it. The small tune later rises to the treble and keeps its rocking rhythm.",
   "sections": [
     { "t": 0, "label": "A · Low solo melody", "m": "A", "mNote": "A low melody stops between soft answering phrases." },
-    { "t": 50, "label": "B · Longer tune over descending accompaniment", "m": "B", "mNote": "A longer tune over a descending accompaniment." },
+    { "t": 50, "label": "B · Longer tune over descending accompaniment", "m": "B" },
     { "t": 138, "label": "A′ · Lullaby theme returns", "m": "A′", "mNote": "The tune returns above soft moving notes." }
   ],
   "cues": [

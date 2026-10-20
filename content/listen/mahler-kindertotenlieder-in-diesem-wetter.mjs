@@ -6,8 +6,7 @@ export default {
     "id": "mahler-kindertotenlieder",
     "title": "Kindertotenlieder",
     "part": 5,
-    "of": 5
-  },
+    "of": 5, "unit": "songs" },
   "work": "Kindertotenlieder",
   "movement": "V. In diesem Wetter, in diesem Braus",
   "year": "1901–04",
@@ -18,13 +17,13 @@ export default {
   "source": {
     "file": "File:Mahler - Kindertotenlieder, V (Fischer-Dieskau, Kempe, 1955).ogg"
   },
-  "intro": "“In diesem Wetter, in diesem Braus” is the fifth and last song of <i>Kindertotenlieder</i>: a father rages at the weather, then sings his children to sleep, and the storm music gives way to a lullaby with celesta. Dietrich Fischer-Dieskau sings with the Berlin Philharmonic under Rudolf Kempe.",
+  "intro": "“In diesem Wetter, in diesem Braus” is the fifth and last song of <i>Kindertotenlieder</i>: a father rages at the weather, then sings his children to sleep, and the storm music is followed by a lullaby with celesta. Dietrich Fischer-Dieskau sings with the Berlin Philharmonic under Rudolf Kempe.",
   "sections": [
     {
       "t": 0,
       "label": "A · The father in the storm",
       "m": "A",
-      "mNote": "Winds, trembling cellos and sharp harp chords"
+      "mNote": "Winds, trembling cellos and sharp harp chords."
     },
     {
       "t": 170,
@@ -36,7 +35,7 @@ export default {
       "t": 190,
       "label": "B · Lullaby in D major",
       "m": "B",
-      "mNote": "Celesta and soft strings play a rocking figure beneath the baritone"
+      "mNote": "Celesta and soft strings play a rocking figure beneath the baritone."
     },
     {
       "t": 300,
@@ -145,7 +144,7 @@ export default {
       "to": "Link · Piccolo and small bell",
       "at": { "t": 170 },
       "span": [160, 182],
-      "how": "<p>At rehearsal 8 the piccolo holds a high D above the orchestra as it falls back. The small bell repeats its notes over harp chords and low bassoon. At <i>Allmählich langsamer</i> the falling string phrases slow down, and the D-minor storm music thins out.</p>",
+      "how": "<p>At rehearsal 8 the piccolo holds a high D above the orchestra as it falls back. The small bell repeats its notes over harp chords and low bassoon. At <i>Allmählich langsamer</i> the falling string phrases slow down, and the D minor storm music thins out.</p>",
       "devices": ["decrescendo", "tempo change", "texture change", "link passage"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -171,7 +170,7 @@ export default {
       "to": "Coda · Horns after the voice",
       "at": { "t": 300 },
       "span": [290, 312],
-      "how": "<p>The voice ends on “Haus” and the violas carry on with their rocking figure. Divided cellos hold the bass. Horn and bassoon lines enter above, marked <i>weich</i> (soft). The D-major postlude follows on from the lullaby without a pause.</p>",
+      "how": "<p>The voice ends on “Haus” and the violas carry on with their rocking figure. Divided cellos hold the bass. Horn and bassoon lines enter above, marked <i>weich</i> (soft). The D major postlude follows on from the lullaby without a pause.</p>",
       "devices": ["texture change", "orchestration change", "decrescendo"],
       "basis": "score-proportion",
       "precision": "passage",

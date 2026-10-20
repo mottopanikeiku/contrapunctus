@@ -25,7 +25,7 @@ export default {
     { t: 0, label: 'Intro · Orchestra alone', m: 'Intro' },
     { t: 58, label: 'A · The exiles’ shared melody', m: 'A' },
     { t: 154, label: 'B · Chorus on the prophets’ golden harp', m: 'B', mNote: 'The chorus divides into harmony.' },
-    { t: 194, label: 'C · prayer for endurance', m: 'C' },
+    { t: 194, label: 'C · Prayer for endurance', m: 'C' },
   ],
   cues: [
     {

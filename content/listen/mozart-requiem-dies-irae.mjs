@@ -13,9 +13,9 @@ export default {
   source: { file: 'File:W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 03. Dies irae.ogg' },
   intro: 'The Dies irae, marked Allegro assai, is the third section of the Requiem in D minor, K. 626, in which the choir sings the text of the Day of Judgement over rapid string figures. Bruno Walter conducts the Vienna forces in Süssmayr’s completion.',
   sections: [
-    { t: 0, label: 'A · Choir in four parts, Allegro assai', m: 'A', mNote: 'Four choral parts enter together over fast strings' },
-    { t: 62, label: 'B · Repeated notes in the basses', m: 'B', mNote: 'Repeated bass notes break into the upper voices’ phrases' },
-    { t: 80, label: 'C · All four voices together', m: 'C', mNote: 'All four voices move to the close in D minor' },
+    { t: 0, label: 'A · Choir in four parts, Allegro assai', m: 'A', mNote: 'Four choral parts enter together over fast strings.' },
+    { t: 62, label: 'B · Repeated notes in the basses', m: 'B', mNote: 'Repeated bass notes break into the upper voices’ phrases.' },
+    { t: 80, label: 'C · All four voices together', m: 'C', mNote: 'All four voices move to the close in D minor.' },
   ],
   cues: [
     { bar: { n: '1', occ: 1 }, kind: 'music', title: 'Opening of the Dies irae', text: 'The four choral parts enter together in D minor on “Dies irae”, day of wrath, the opening of the Latin Requiem Sequence. The violins play repeated notes and the bass moves in broken chords. Trumpets and timpani mark the beat.', basis: 'score-aligned', precision: 'moment', evidence: 'Breitkopf & Härtel score (1877), Dies irae, bars 1–8; Martin Norbäck’s public-domain engraving: https://www.mutopiaproject.org/ftp/MozartWA/KV626/dies_irae/dies_irae-a4.pdf. The text is the opening of the Latin Requiem Sequence.' },
@@ -24,7 +24,7 @@ export default {
   ],
   transitions: [
     { id: 'into-divided-voices', title: 'Choir halts on A; basses lead on', from: 'A · Choir in four parts, Allegro assai', to: 'B · Repeated notes in the basses', at: { t: 62 }, span: [53, 76], how: '<p>The choir stops on A major, the dominant of D minor. The basses then sing a repeated figure alone, and the other three parts follow in longer notes. Bassoons double the bass line. The violins play quick repeated notes and then climb through the reply of the upper voices. The tempo remains <i>Allegro assai</i>.</p>', devices: ['half cadence', 'texture change', 'register change', 'motivic link'], basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel score (1877), Dies irae, bars 40–49; Norbäck engraving, pp. 6–7.' },
-    { id: 'into-final-drive', title: 'Full choir at “Quantus tremor”', from: 'B · Repeated notes in the basses', to: 'C · All four voices together', at: { t: 80 }, span: [72, 93], how: '<p>All four choral parts take up “Quantus tremor”, with their repeated notes now sung together, and the orchestral bass resumes its running broken chords. Trumpets and timpani punctuate the return. The violins continue the fast pulse through the final judgement and the short D-minor postlude.</p>', devices: ['texture change', 'motivic link'], basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel score (1877), Dies irae, bars 50–68; Norbäck engraving, pp. 7–9.' },
+    { id: 'into-final-drive', title: 'Full choir at “Quantus tremor”', from: 'B · Repeated notes in the basses', to: 'C · All four voices together', at: { t: 80 }, span: [72, 93], how: '<p>All four choral parts take up “Quantus tremor”, with their repeated notes now sung together, and the orchestral bass resumes its running broken chords. Trumpets and timpani punctuate the return. The violins continue the fast pulse through the final judgement and the short D minor postlude.</p>', devices: ['texture change', 'motivic link'], basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel score (1877), Dies irae, bars 50–68; Norbäck engraving, pp. 7–9.' },
   ],
   orchestra: {
     ensemble: ['bassoons', 'trumpets', 'timpani', 'organ', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'chorus'],

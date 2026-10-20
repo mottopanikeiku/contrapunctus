@@ -14,7 +14,7 @@ export default {
   intro: 'Alisa Weilerstein plays <i>The Swan</i>, the thirteenth movement of <i>Le Carnaval des animaux</i>, at the White House with Jason Yoder, a sixteen-year-old marimba player. He plays the accompaniment on the marimba beneath her bowed melody.',
   sections: [
     { t: 0, label: 'A · Cello melody above marimba', m: 'A' },
-    { t: 62, label: 'B · Melody climbs and turns, cello and marimba', m: 'B', mNote: 'The cello holds long notes over separate marimba strokes' },
+    { t: 62, label: 'B · Melody climbs and turns, cello and marimba', m: 'B', mNote: 'The cello holds long notes over separate marimba strokes.' },
     { t: 92, label: 'C · Cello melody over marimba', m: 'C', mNote: 'The marimba plays continuous broken chords under the cello.' },
     { t: 124, label: 'Coda · Cello’s final G', m: 'Coda' },
   ],

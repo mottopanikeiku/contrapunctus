@@ -19,9 +19,9 @@ export default {
   },
   intro: 'The suite consists of a march, an intermezzo and a second march built from nine English folk songs; it was written for military band and is played here in an orchestral arrangement. The Columbia Broadcasting Symphony under Howard Barlow recorded it in December 1939.',
   sections: [
-    { t: 0, label: 'I · March, “Seventeen Come Sunday”', m: 'A' },
-    { t: 182, label: 'II · Intermezzo, “My Bonny Boy”', m: 'B' },
-    { t: 499, label: 'III · March, Folk Songs from Somerset', m: 'C' },
+    { t: 0, label: 'A · March, “Seventeen Come Sunday”', m: 'A' },
+    { t: 182, label: 'B · Intermezzo, “My Bonny Boy”', m: 'B' },
+    { t: 499, label: 'C · March, Folk Songs from Somerset', m: 'C' },
   ],
   cues: [
     {
@@ -63,8 +63,8 @@ export default {
     {
       t: 150,
       kind: 'form',
-      title: 'Reprise and final chord',
-      text: 'The reprise brings back the opening material. The movement ends on a Picardy third, a major chord at the close of music that has leaned toward the minor.',
+      title: 'Reprise and Picardy third',
+      text: 'The reprise brings back the opening material. The movement ends on a Picardy third, a major chord at the close of music that has leaned towards the minor.',
       basis: 'score-proportion',
       precision: 'passage',
       evidence: 'Burns: the unease is “soon relieved as the reprise begins”; Burgess Hill Symphony Orchestra programme note: “the very last chord … is what is called a Picardy Third”. https://www.bhso.org.uk/work/vaughan-williams-english-folk-song-suite-4/',
@@ -144,7 +144,7 @@ export default {
     {
       t: 670,
       kind: 'form',
-      title: 'Reprise and final chord',
+      title: 'Reprise and final chord, last march',
       text: 'A reprise of the opening tune ends the march, which the Burgess Hill Symphony Orchestra’s programme note described as bringing “proceedings to an abrupt and good-humoured end”. The whole orchestra plays a final big chord.',
       basis: 'score-proportion',
       precision: 'passage',

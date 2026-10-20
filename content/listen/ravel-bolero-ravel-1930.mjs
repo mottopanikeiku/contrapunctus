@@ -18,8 +18,8 @@ export default {
     { "t": 0, "label": "A · Drum, plucked strings and flute", "m": "A", "mNote": "The first tune begins over C and G." },
     { "t": 202, "label": "B · Solo winds over the drum", "m": "B", "mNote": "The two tunes pass between solo instruments in turn." },
     { "t": 460, "label": "C · Reed choir, trombone, woodwinds", "m": "C", "mNote": "Oboes and clarinets, solo trombone, then woodwinds with first violins." },
-    { "t": 660, "label": "D · Both violin sections join the tune", "m": "D", "mNote": "First and second violins, each divided, play with the woodwinds" },
-    { "t": 912, "label": "E · The turn into E major", "m": "E", "mNote": "The bass leaves its C-major pattern." },
+    { "t": 660, "label": "D · Both violin sections join the tune", "m": "D", "mNote": "First and second violins, each divided, play with the woodwinds." },
+    { "t": 912, "label": "E · The turn into E major", "m": "E", "mNote": "The bass leaves its C major pattern." },
     { "t": 932, "label": "F · Trombone slides and final chord", "m": "F", "mNote": "The full orchestra returns to C major." }
   ],
   "cues": [
@@ -36,7 +36,7 @@ export default {
       "evidence": "Manuel Cornejo’s Maurice Ravel chronology (1930): the second recording of Boléro, at the Bal Bullier, with the Lamoureux orchestra prepared by Albert Wolff and conducted by the composer, and the first recording of Menuet antique conducted by Wolff in the same session: https://boleravel.fr/wp-content/uploads/RAVEL_Chronology_2018.pdf. Phonobase entry 6574 also records that Wolff prepared the orchestra: https://phonobase.org/en/fiche/6574"
     },
     {
-      "t": 105, "kind": "world", "title": "Fandango, later Boléro, 1928",
+      "t": 105, "kind": "world", "title": "<i>Fandango</i>, later <i>Boléro</i>, 1928",
       "text": "On 13 July 1928 Ravel hurried back to Paris after Joaquín Nin told him that Albéniz’s <i>Iberia</i> could not be orchestrated. He then worked on a piece of his own. Its working title was <i>Fandango</i>, and the definitive title became <i>Boléro</i>.",
       "basis": "documented", "precision": "passage",
       "evidence": "Manuel Cornejo’s Maurice Ravel chronology (1928), 13 July: hurried return to Paris because Albéniz’s Iberia could not be orchestrated (information from Joaquín Nin), and work on Fandango, whose definitive title becomes Boléro: https://boleravel.fr/wp-content/uploads/RAVEL_Chronology_2018.pdf. The original title Fandango and the ballet for Ida Rubinstein’s company: Peter Laki’s programme note, adapted for The Cleveland Orchestra: https://www.clevelandorchestra.com/posts/ravels-bolero"
@@ -48,7 +48,7 @@ export default {
       "evidence": "Gustave Samazeuilh’s recollection, quoted in Arbie Orenstein, Ravel: Man and Musician (1991), p. 98, and in A Ravel Reader (1990; 2003): “I’m going to try and repeat it a number of times without any development, gradually increasing the orchestra” (full-text excerpts seen; the “insistent quality” sentence and the page numbers were not checked in the books)."
     },
     {
-      "t": 180, "kind": "world", "title": "Coppola’s recording of Boléro",
+      "t": 180, "kind": "world", "title": "Coppola’s recording of <i>Boléro</i>",
       "text": "Ravel sat beside Piero Coppola at the conductor’s own recording of <i>Boléro</i>. Near the end Coppola increased the tempo by a fraction. Ravel jumped up and pulled at his jacket (“not so fast”), and the orchestra began again.",
       "basis": "documented", "precision": "passage",
       "evidence": "Piero Coppola, Dix-sept ans de musique à Paris (1944), pp. 105–108, quoted in translation in Arbie Orenstein, A Ravel Reader (1990; 2003), p. 540 (full-text excerpt seen: “increased the tempo by a fraction. Ravel jumped up, came over and pulled …”). Cornejo’s chronology confirms that Ravel attended the session: https://boleravel.fr/wp-content/uploads/RAVEL_Chronology_2018.pdf"

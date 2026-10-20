@@ -20,7 +20,7 @@
     ],
     "status": "documented",
     "sourceIds": ["label-3", "label-4", "rca-review"],
-    "note": "The original labels and RCA's contemporary advertisement name all four performing credits. The sources consulted do not allocate the first and second piano parts to the individual pianists."
+    "note": "The original labels and RCA’s contemporary advertisement name all four performing credits. The sources consulted do not allocate the first and second piano parts to the individual pianists."
   },
   "session": {
     "date": {
@@ -48,7 +48,7 @@
       "value": "DM-1235; record 12-0368",
       "status": "documented",
       "sourceIds": ["label-3", "label-4", "rca-review"],
-      "note": "The automatic-sequence album contains three 12-inch records. RCA's September 1948 magazine advertises both M-1235 and DM-1235. The Larghetto occupies record 12-0368 in the transferred DM set."
+      "note": "The automatic-sequence album contains three 12-inch records. RCA’s September 1948 magazine advertises both M-1235 and DM-1235. The Larghetto occupies record 12-0368 in the transferred DM set."
     },
     "matrixTakeSides": {
       "value": "Sides 3–4: 12-0368-A and 12-0368-B; matrices D7-RC-8226 and D7-RC-8227",
@@ -94,7 +94,7 @@
       "value": "Territorial EU public-domain basis: commercial publication in 1948, before 1963.",
       "status": "documented",
       "sourceIds": ["rca-review", "archive", "eu-term"],
-      "note": "RCA's September 1948 magazine advertises M/DM-1235 with performers, format and prices. Under the project's pre-1963 phonogram rule, the former 50-year term expired before the 2013 extension. The recording is not offered under a Creative Commons licence; US recording status is not established."
+      "note": "RCA’s September 1948 magazine advertises M/DM-1235 with performers, format and prices. Under the project’s pre-1963 phonogram rule, the former 50-year term expired before the 2013 extension. The recording is not offered under a Creative Commons licence; US recording status is not established."
     },
     "creditLine": "Francis Poulenc, Concerto for Two Pianos, FP 61: II. Larghetto; Arthur Whittemore and Jack Lowe, RCA Victor Symphony Orchestra, Dimitri Mitropoulos. Recorded 1947; RCA Victor Red Seal DM-1235, published 1948. Shellackophile collection / Internet Archive transfer. Territorial EU phonogram basis only; the underlying composition remains separately protected.",
     "licenseUrl": ""

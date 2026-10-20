@@ -3,6 +3,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { parse } from 'parse5';
 import * as fontkit from 'fontkit';
 import { OUT, ROOT, files, hash } from './cache.mjs';
+import { RENDITIONS } from './pictures.mjs';
 
 const all = await files(OUT), paths = new Set(all);
 const errors = [], referencedAvif = new Set(), modules = new Set();
@@ -83,6 +84,13 @@ for (const file of all) {
   if (relative === 'glossary.html') check(critical.includes('content-visibility:auto'), `${relative}: glossary containment is missing from critical CSS`);
 }
 for (const file of all.filter((file) => file.endsWith('.avif'))) check(referencedAvif.has(file), `Unreferenced AVIF: ${path.relative(OUT, file)}`);
+// A responsive rendition at or above its source width only re-encodes the original (tools/art.mjs never makes one).
+const artWidths = new Map(Object.values(JSON.parse(await readFile(path.join(ROOT, 'content/art.json'), 'utf8'))).map((image) => [path.join(OUT, image.src), image.w]));
+const renditionName = new RegExp(`-(${RENDITIONS.join('|')})\\.webp$`);
+for (const file of all.filter((file) => renditionName.test(file))) {
+  const width = artWidths.get(file.replace(renditionName, '.webp'));
+  if (width) check(Number(file.match(/-(\d+)\.webp$/)[1]) < width, `Redundant rendition at or above source width: ${path.relative(OUT, file)}`);
+}
 for (const name of modules) check(paths.has(path.join(OUT, `assets/js/${name}.js`)), `Page module missing: ${name}`);
 const manifest = JSON.parse(await readFile(path.join(OUT, 'assets/fonts/manifest.json'), 'utf8'));
 const fontNames = new Set(manifest.map((face) => face.name));

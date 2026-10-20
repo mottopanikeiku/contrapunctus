@@ -16,7 +16,7 @@ export default {
   source: { file: 'File:Infernal Dance from The Firebird by Stravinsky.ogg' },
   intro: 'The United States Marine Band, conducted by John R. Bourgeois, plays Thomas Knox’s concert-band arrangement of Kashchei’s <i>Infernal Dance</i> from <i>The Firebird</i>. In the ballet the dance is the Firebird’s spell on the sorcerer and his creatures.',
   sections: [
-    { t: 0, label: 'A · Kashchei’s dance: short figures, sharp accents', m: 'A', mNote: 'Short figures, sharp accents and wide leaps.' },
+    { t: 0, label: 'A · Kashchei’s dance, short figures and sharp accents', m: 'A', mNote: 'Short figures, sharp accents and wide leaps.' },
     { t: 108, label: 'B · The longer melody', m: 'B', mNote: 'The melody stretches across the beat.' },
     { t: 144, label: 'A′ · Return of the short figures', m: 'A′', mNote: 'The short figures of the opening return.' },
     { t: 194, label: 'Dev · Repeated figures before the ending', m: 'Dev', mNote: 'Repeated figures lead to the ending.' },

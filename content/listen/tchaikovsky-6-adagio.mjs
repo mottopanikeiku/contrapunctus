@@ -23,8 +23,8 @@ export default {
   "sections": [
     { "t": 0, "label": "Intro · Adagio, bassoon and low strings", "m": "Intro", "mNote": "A four-note bassoon phrase rises above the double basses." },
     { "t": 98, "label": "A · Allegro non troppo, viola theme", "m": "A", "mNote": "The bassoon’s phrase returns as a quick, detached viola tune." },
-    { "t": 266, "label": "B · D-major melody, muted strings", "m": "B", "mNote": "Muted violins and cellos play the melody in long phrases." },
-    { "t": 538, "label": "Dev · The orchestra breaks in", "m": "Dev", "mNote": "The opening tune is pulled apart in racing string passages" },
+    { "t": 266, "label": "B · D major melody, muted strings", "m": "B", "mNote": "Muted violins and cellos play the melody in long phrases." },
+    { "t": 538, "label": "Dev · The orchestra breaks in", "m": "Dev", "mNote": "The opening tune is pulled apart in racing string passages." },
     { "t": 838, "label": "B′ · String melody in B major", "m": "B′", "mNote": "The broad string melody returns in the tonic major." },
     { "t": 930, "label": "Coda · Winds over pizzicato strings, B major", "m": "Coda", "mNote": "Descending pizzicato strings accompany the quiet close in B major." }
   ],
@@ -50,7 +50,7 @@ export default {
     {
       "t": 198,
       "kind": "life",
-      "title": "Letter to Vladimir Davydov, 1893",
+      "title": "Letter to Davydov on the sketches, 1893",
       "text": "In February 1893 Tchaikovsky told his nephew Vladimir Davydov that he had finished the sketches for the first movement in less than four days. “You can’t imagine how blissful I feel,” he wrote, “in the conviction that my time is not yet passed, and to work is still possible.”",
       "basis": "documented",
       "precision": "passage",
@@ -60,7 +60,7 @@ export default {
       "t": 266,
       "kind": "form",
       "title": "Second subject, muted strings",
-      "text": "Muted violins and cellos play the D-major melody after the short viola notes. Tchaikovsky marked it <i>teneramente, molto cantabile, con espansione</i>.",
+      "text": "Muted violins and cellos play the D major melody after the short viola notes. Tchaikovsky marked it <i>teneramente, molto cantabile, con espansione</i>.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Queensland Symphony Orchestra, Symphony No. 6 learning resource, p. 8, reproduces the Andante string theme and its expression markings. The D-major second subject is also identified at https://en.wikipedia.org/wiki/Symphony_No._6_(Tchaikovsky)."
@@ -68,7 +68,7 @@ export default {
     {
       "t": 317,
       "kind": "world",
-      "title": "Letter to Vladimir Davydov, 1893",
+      "title": "Letter to Davydov on the programme, 1893",
       "text": "In a letter of 11/23 February 1893, Tchaikovsky told Vladimir Davydov that the symphony had a programme which would remain an enigma: “Let them guess.” He also said he had wept while composing it in his head on his travels. The autograph score bears a dedication to Davydov.",
       "basis": "documented",
       "precision": "passage",
@@ -154,12 +154,12 @@ export default {
     },
     {
       "id": "join-2",
-      "title": "Pause before the D-major Andante",
+      "title": "Pause before the D major Andante",
       "from": "A · Allegro non troppo, viola theme",
-      "to": "B · D-major melody, muted strings",
+      "to": "B · D major melody, muted strings",
       "at": { "t": 266 },
       "span": [256, 281],
-      "how": "<p>The quick music slows, and an ascending arpeggio passes from cellos to violas. After a pause, muted violins and cellos begin the D-major Andante, marked <i>teneramente, molto cantabile, con espansione</i> (tenderly, very singing, with breadth).</p>",
+      "how": "<p>The quick music slows, and an ascending arpeggio passes from cellos to violas. After a pause, muted violins and cellos begin the D major Andante, marked <i>teneramente, molto cantabile, con espansione</i> (tenderly, very singing, with breadth).</p>",
       "devices": ["tempo change", "general pause", "orchestration change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -168,7 +168,7 @@ export default {
     {
       "id": "join-3",
       "title": "Clarinet solo into the development",
-      "from": "B · D-major melody, muted strings",
+      "from": "B · D major melody, muted strings",
       "to": "Dev · The orchestra breaks in",
       "at": { "t": 538 },
       "span": [528, 553],

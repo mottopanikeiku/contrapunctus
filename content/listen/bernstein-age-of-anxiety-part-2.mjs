@@ -7,7 +7,7 @@ export default {
   order: 2,
   work: 'Symphony No. 2, The Age of Anxiety',
   movement: 'Part II: The Dirge; The Masque; The Epilogue',
-  set: { id: 'bernstein-age-of-anxiety', title: 'Symphony No. 2, The Age of Anxiety', part: 2, of: 2 },
+  set: { id: 'bernstein-age-of-anxiety', title: 'Symphony No. 2, The Age of Anxiety', part: 2, of: 2, unit: 'parts' },
   year: '1949',
   key: '',
   forces: 'Piano and orchestra',
@@ -24,7 +24,7 @@ export default {
       evidence: 'Columbia Masterworks ML 4325 (US mono LP). The American Record Guide for January 1951 (vol. 17 no. 5) reviews the LP at $4.85, and The New Records for March 1951 (vol. 19 no. 1) reviews both the LP and the 78-rpm album MM-946; Discogs dates the US LP to 1950. The Internet Archive transfer note gives the recording date, 27 February 1950, and the performers. This territorial phonogram basis does not remove copyright in Bernstein’s composition. https://archive.org/details/sim_american-record-guide_1951-01_17_5 https://archive.org/details/TNR19 https://www.discogs.com/release/5727420 https://archive.org/details/ml-4325-bernstein-sym-2-ii',
     },
   },
-  intro: 'Part II of the Second Symphony, The Age of Anxiety, in the original 1949 version, comprising the Dirge, the Masque for piano and percussion, and an Epilogue in which the soloist plays only a closing chord. Lukas Foss was the soloist and Bernstein conducted, in a recording made in February 1950.',
+  intro: 'Part II of the Second Symphony, <i>The Age of Anxiety</i>, in its original 1949 version, comprises the Dirge, the Masque for piano and percussion, and an Epilogue in which the soloist plays only a closing chord. Lukas Foss was the soloist and Bernstein conducted, in a recording made in February 1950.',
   sections: [
     { t: 0, label: 'A · The Dirge, Largo', m: 'A' },
     { t: 341, label: 'B · The Masque, Extremely fast', m: 'B' },

@@ -16,12 +16,12 @@ export default {
   intro: 'The Allegro opens Handel’s <i>Water Music</i> Suite No. 2 in D, HWV 349. Trumpets begin with a fanfare and the horns follow over a running bass, and the two groups play separately until the whole orchestra takes up one tune.',
 
   sections: [
-    { t: 0, label: 'A · Trumpets call, horns answer', m: 'A', mNote: 'Fanfare, quick string replies, then horns over the bass' },
+    { t: 0, label: 'A · Trumpets call, horns answer', m: 'A', mNote: 'Fanfare, quick string replies, then horns over the bass.' },
     { t: 18.2, label: 'B · Short chords after a pause', m: 'B', mNote: 'The orchestra plays short detached chords and rising figures.' },
     { t: 30.3, label: 'C · Trumpets lead, D major', m: 'C', mNote: 'Oboes and violins play D major arpeggios.' },
-    { t: 46.7, label: 'D · Short phrases exchanged between brass groups', m: 'D', mNote: 'The two groups alternate bar by bar' },
+    { t: 46.7, label: 'D · Short phrases exchanged between brass groups', m: 'D', mNote: 'The two groups alternate bar by bar.' },
     { t: 59.6, label: 'C′ · Trumpet passage returns', m: 'C′', mNote: 'Trumpets, arpeggios, then horns with bassoon and continuo.' },
-    { t: 75.6, label: 'E · The whole orchestra together', m: 'E', mNote: 'One dotted tune above running strings and bass' },
+    { t: 75.6, label: 'E · The whole orchestra together', m: 'E', mNote: 'One dotted tune above running strings and bass.' },
     { t: 96, label: 'Coda · Adagio for strings', m: 'Coda', mNote: 'The winds rest; six slower string chords end the movement.' },
   ],
 

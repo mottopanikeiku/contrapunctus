@@ -17,9 +17,9 @@ export default {
   intro: 'Grieg played a two-minute abridged version of <i>Wedding Day at Troldhaugen</i>, Op. 65 No. 6, his own wedding-anniversary march, in this acoustic recording made in Paris in 1903. The piece uses short chords, low D octaves and quick triplets.',
   sections: [
     { t: 0, label: 'A · March in D major', m: 'A', mNote: 'The march opens with low octaves and short chords.' },
-    { t: 46, label: 'B · March theme continued', m: 'B', mNote: 'Quick triplets in the piano melody' },
+    { t: 46, label: 'B · March theme continued', m: 'B', mNote: 'Quick triplets in the piano melody.' },
     { t: 74, label: 'C · Chords across the keyboard', m: 'C', mNote: 'The march is set in octaves and full chords.' },
-    { t: 98, label: 'D · The shortened close', m: 'D', mNote: 'Grieg ends his two-minute version' },
+    { t: 98, label: 'D · The shortened close', m: 'D', mNote: 'Grieg ends his two-minute version.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening, played by Grieg', text: 'Grieg marks the opening <i>Tempo di Marcia un poco vivace</i>, a march with a little life in it. Low D octaves alternate with clipped chords, and a quick triplet leads into the melody. Grieg himself plays in this recording, made in Paris on 2 May 1903.', basis: 'score-proportion', precision: 'passage', evidence: 'Grieg, Op. 65 No. 6, bars 1–10, Louis Oesterle edition, typeset by David Whipple for Mutopia: https://www.mutopiaproject.org/ftp/GriegE/O65/troldhaugen/troldhaugen-a4.pdf. Grieg’s Paris session of 2 May 1903, matrix 2149F: https://www.marstonrecords.com/products/legendary-piano' },

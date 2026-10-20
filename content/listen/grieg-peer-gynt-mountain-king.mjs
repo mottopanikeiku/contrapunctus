@@ -14,7 +14,7 @@ export default {
   intro: '“In the Hall of the Mountain King”, the fourth movement of the Peer Gynt Suite No. 1, Op. 46, depicts the troll king’s hall from Ibsen’s <i>Peer Gynt</i>, and its single four-bar tune is repeated and quickened until the whole orchestra plays it. The Czech National Symphony Orchestra performs it for the Musopen project.',
   sections: [
     { t: 0, label: 'A · The tune enters, pianissimo', m: 'A' },
-    { t: 65, label: 'A′ · the same theme, growing', m: 'A′' },
+    { t: 65, label: 'A′ · The same theme, growing', m: 'A′' },
     { t: 101, label: 'A″ · Più vivo, fortissimo', m: 'A″', mNote: 'Faster and louder through to the end.' },
     { t: 133, label: 'Coda · Single chords between rests', m: 'Coda' },
   ],

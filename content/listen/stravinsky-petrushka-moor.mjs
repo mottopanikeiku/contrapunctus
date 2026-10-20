@@ -8,7 +8,7 @@ export default {
   order: 6,
   work: 'Petrushka (1911 original version)',
   movement: 'III. The Moor’s room',
-  set: { id: 'stravinsky-petrushka', title: 'Petrushka (1911 original version)', part: 3, of: 4 },
+  set: { id: 'stravinsky-petrushka', title: 'Petrushka (1911 original version)', part: 3, of: 4, unit: 'tableaux' },
   year: '1910–11',
   key: '',
   forces: 'Orchestra with piano, celesta and two harps',
@@ -28,7 +28,7 @@ export default {
   intro: 'The third tableau of Stravinsky’s <i>Petrushka</i>, heard here in the original 1911 version, takes place in the Moor’s room. The Ballerina courts Petrushka’s rival to a cornet solo and a pair of borrowed waltzes, and her partner dances in two while she dances in three.',
   sections: [
     { t: 0, label: 'A · Offstage drums and Feroce chords', m: 'A', mNote: 'Offstage drums lead to Feroce chords in strings and wind.' },
-    { t: 26, label: 'B · Bassoons, clarinet and bass clarinet', m: 'B', mNote: 'Low bassoons lead into clarinet and bass clarinet in octaves' },
+    { t: 26, label: 'B · Bassoons, clarinet and bass clarinet', m: 'B', mNote: 'Low bassoons lead into clarinet and bass clarinet in octaves.' },
     { t: 194, label: 'C · Cornet and military drum', m: 'C', mNote: 'The Ballerina performs her short solo.' },
     { t: 235, label: 'D · Lanner waltzes against duple metre', m: 'D', mNote: 'Lanner’s waltz tunes are combined with a partner’s dance in two.' },
     { t: 384, label: 'E · Petrushka’s entrance, muted brass', m: 'E', mNote: 'Muted brass play Petrushka’s cry in the Moor’s room.' },

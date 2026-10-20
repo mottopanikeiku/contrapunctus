@@ -87,6 +87,6 @@ If I had four dromedaries.`, note: '<p>In the poem Don Pedro has four camels and
   reading: [
     'Roger Nichols, <i>Poulenc: A Biography</i> (Yale University Press, 2020) — the life, working relationships and music examined together.',
     'Pierre Bernac, <i>Francis Poulenc: The Man and His Songs</i>, translated by Winifred Radford (Gollancz, 1977) — the singer’s detailed account of interpretation and text.',
-    '<a href="https://poulenc.fr/en/biography/">Association des Amis de Francis Poulenc, chronological biography</a> — dates, premieres and performers; the site also supplies the FP catalogue.',
+    '<a href="https://poulenc.fr/en/biography/">Association des Amis de Francis Poulenc, chronological biography</a> — dates, premières and performers; the site also supplies the FP catalogue.',
   ],
 };

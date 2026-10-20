@@ -14,13 +14,13 @@ export default {
     archive: { item: '78_the-prophet_feodor-chaliapin-poushkin-rimsky-korsakow_gbia7040685b', file: 'The Prophet - Feodor Chaliapin - Poushkin.mp3' },
     rights: { basis: 'us-published-before-cutoff', published: 1922, evidence: ['https://adp.library.ucsb.edu/index.php/objects/refer/162250', 'https://adp.library.ucsb.edu/index.php/matrix/refer/2000007905'] },
   },
-  intro: 'Rimsky-Korsakov’s setting of Pushkin’s poem, in which a man crossing the desert meets a six-winged angel who tears him apart and remakes him as a prophet. Chaliapin sings with Percy Pitt and orchestra, recorded at Hayes in 1921.',
+  intro: 'In Rimsky-Korsakov’s <i>The Prophet</i>, a setting of Pushkin’s poem, a man crossing the desert meets a six-winged angel who tears him apart and remakes him as a prophet. Chaliapin sings with Percy Pitt and orchestra, recorded at Hayes in 1921.',
   sections: [
-    { t: 0, label: 'A · Andante: the bass voice enters', m: 'A', mNote: 'The voice opens Pushkin’s vision in measured phrases.' },
+    { t: 0, label: 'A · Andante, the bass voice enters', m: 'A', mNote: 'The voice opens Pushkin’s vision in measured phrases.' },
     { t: 80, label: 'B · Voice above rippling accompaniment', m: 'B', mNote: 'The bass sings of the newly opened senses.' },
     { t: 115, label: 'C · Orchestral interlude', m: 'C', mNote: 'The accompaniment links the verses of the poem.' },
-    { t: 130, label: 'D · Bass line moving forward', m: 'D', mNote: 'The vocal line moves in repeated notes' },
-    { t: 170, label: 'E · Tempo I', m: 'E', mNote: 'Tempo I: the tempo of the opening returns.' },
+    { t: 130, label: 'D · Bass line moving forward', m: 'D', mNote: 'The vocal line moves in repeated notes.' },
+    { t: 170, label: 'E · Tempo I', m: 'E', mNote: 'The opening tempo returns.' },
     { t: 190, label: 'F · The prophet’s final charge', m: 'F', mNote: 'Con forza e maestoso (forcefully and majestically).' },
   ],
   cues: [

@@ -1,10 +1,10 @@
 export default {
   intro: 'Stokowski arranged the organ Toccata and Fugue in D minor, BWV 565, for a large orchestra with six horns, four trumpets and four trombones. This is the opening disc side of his 1927 recording with the Philadelphia Orchestra.',
   sections: [
-    { t: 0, label: 'Intro · Opening D-minor flourish', m: 'Intro', mNote: 'The organ’s octave gestures are scored as orchestral phrases.' },
+    { t: 0, label: 'Intro · Opening D minor flourish', m: 'Intro', mNote: 'The organ’s octave gestures are scored as orchestral phrases.' },
     { t: 54, label: 'A · Toccata runs and held chords', m: 'A', mNote: 'Fast runs alternate with sustained chords.' },
-    { t: 122, label: 'B · Toccata: closing flourishes', m: 'B', mNote: 'The free opening moves towards its cadence in D minor.' },
-    { t: 192, label: 'C · Fugue: running subject', m: 'C', mNote: 'The subject passes through the orchestral parts.' },
+    { t: 122, label: 'B · Toccata, closing flourishes', m: 'B', mNote: 'The free opening moves towards its cadence in D minor.' },
+    { t: 192, label: 'C · Fugue, running subject', m: 'C', mNote: 'The subject passes through the orchestral parts.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Stokowski’s orchestration of the opening', text: 'The opening flourishes and pauses were written for a single organist. Stokowski spreads them across an orchestra with a large brass section, two harps and celesta.', basis: 'general', precision: 'passage', evidence: 'Orrin Howard’s Los Angeles Philharmonic note gives the instrumentation of Stokowski’s transcription. https://www.laphil.com/works/toccata-and-fugue-in-d-minor-bwv-565-bach-arr-stokowski' },

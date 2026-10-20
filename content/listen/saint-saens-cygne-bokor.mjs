@@ -17,7 +17,7 @@ export default {
   intro: 'Judith Bokor plays “Le Cygne”, the thirteenth movement of <i>Le Carnaval des animaux</i> (<i>The Carnival of the Animals</i>), for cello and piano. The cello plays a long melody over continuous figuration in the piano.',
   sections: [
     { t: 0, label: 'A · Cello melody over piano broken chords', m: 'A' },
-    { t: 58, label: 'B · Cello melody rises and turns', m: 'B', mNote: 'Long cello notes over running semiquavers in the piano' },
+    { t: 58, label: 'B · Cello melody rises and turns', m: 'B', mNote: 'Long cello notes over running semiquavers in the piano.' },
     { t: 86, label: 'C · Cello melody in long phrases', m: 'C', mNote: 'The piano continues its figuration beneath the cello’s sustained melody.' },
     { t: 130, label: 'Coda · The cello’s last G', m: 'Coda' },
   ],

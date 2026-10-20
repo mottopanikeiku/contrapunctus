@@ -20,7 +20,7 @@ export const tours = [
   { id: 'score-satie', title: 'Score view: Satie’s First Gymnopédie', promise: 'The engraved score with the current bar highlighted, and the same music in the Notes view.', duration: '≈ 1 min', feature: 'Score · coloured notes', steps: [
     step(satie, '.t-play', 'Play', 'Play starts the First Gymnopédie.', 'play', 'on-event'),
     step(satie, '.views [data-view="score"]', 'Score', 'Choose Score. The gold highlight moves through the printed bars with the recording.', 'click', 'on-click'),
-    step(satie, '.sheet-cap', 'Score source', 'The caption names the score and explains the timing. Timings are aligned automatically and have not yet been checked by ear. Selecting a bar plays from there.'),
+    step(satie, '.sheet-cap', 'Score source', 'The caption names the score; its timing is aligned automatically and has not yet been checked by ear. The § opens the edition and licence. Selecting a bar plays from there.'),
     step(satie, '.views [data-view="notes"]', 'Notes', 'Choose Notes to show each voice in its own colour, with pitches and lengths taken from the score.', 'click', 'on-click'),
   ] },
   { id: 'hall-views', title: 'Views of Beethoven’s Fifth', promise: 'The Score, Notes, Orchestra, Form and Sound views, on the first movement of Beethoven’s Fifth Symphony.', duration: '≈ 2 min', feature: 'Score · Notes · Orchestra · Form · Sound', steps: [
@@ -30,7 +30,7 @@ export const tours = [
     step(hall, '.views [data-view="orchestra"]', 'Orchestra', 'Choose Orchestra. Each instrument group lights up while its part sounds. The same view is available for Boléro.', 'click', 'on-click'),
     step(hall, '.views [data-view="form"]', 'Form', 'Choose Form for the sections, with arcs joining each theme to its return. Selecting a section plays from its start.', 'click', 'on-click'),
     step(hall, '.views [data-view="sound"]', 'Sound', 'Choose Sound for the recording’s frequencies and loudness, with an estimate of its harmony.', 'click', 'on-click'),
-    step(hall, '.widen', 'Enlarge the view', 'F or this corner button enlarges the view; F again restores it.', 'key:F', 'on-event'),
+    step(hall, '.widen', 'Enlarge the view', 'F, or Enlarge under the view, fills the hall with it; F again restores it.', 'key:F', 'on-event'),
     step('guide.html#hall-views', '.np', 'Player bar', 'Playback continues while a chapter or lesson is open; the player bar has a pause button on every page.'),
   ] },
   { id: 'hall-joins', title: 'Joins between sections', promise: 'The silence before the horn call in Beethoven’s Fifth, and how the score prepares it.', duration: '≈ 2 min', feature: 'Joins · timeline markers · sources', steps: [
@@ -42,7 +42,7 @@ export const tours = [
   ] },
   { id: 'recording-sources', title: 'Recording details and sources', promise: 'The session, the original disc, the digital transfer and a citation for one recording.', duration: '≈ 2 min', feature: 'Recording details · other performances · downloads', steps: [
     step('hall.html#rachmaninoff-prelude-c-sharp-minor', '[data-tab="piece"]', 'Recording', 'Choose Recording for the performers, session, original disc and digital transfer.', 'click', 'on-click'),
-    step('hall.html#rachmaninoff-prelude-c-sharp-minor', '.dossier', 'Evidence labels', 'Documented facts have a cited source; inferred ones are reasoned from evidence. Disputed entries give alternatives, and unknown dates stay unknown.'),
+    step('hall.html#rachmaninoff-prelude-c-sharp-minor', '.dossier', 'Evidence labels', 'Documented facts have a cited source; inferred ones are reasoned from evidence. Disputed entries give alternatives, and unknown entries are marked Unknown.'),
     step('hall.html#rachmaninoff-prelude-c-sharp-minor', '.others-l', 'Other performances', 'Each link opens a comparison of the same music; each card there identifies its performance and transfer.'),
     step('hall.html#rachmaninoff-prelude-c-sharp-minor', '.tab-piece .cite', 'Citation', 'A citation with the performer, the recording source and the Hall link.'),
     step('sources.html#downloads', '#downloads', 'Download the register', 'The recording register as CSV or JSON, with separate fields for facts, evidence labels, sources and alternatives.'),
@@ -75,10 +75,10 @@ export const tours = [
     step(map, '[data-action="encounters"]', 'Encounters', 'Open Encounters for the composers whose dates overlap in the selected city.', 'click', 'on-click'),
     step(map, '.am-card-content', 'City records', 'The card gives dates and sources. The City menu selects another place.'),
   ] },
-  { id: 'vienna-journey', title: 'Guided journey: Vienna 1900', promise: 'Recordings, paintings and sources for Vienna around 1900, station by station.', duration: '≈ 1 min', feature: 'Guided Journeys · music · paintings · sources', steps: [
+  { id: 'vienna-journey', title: 'Guided journey: Vienna, 1900', promise: 'Recordings, paintings and sources for Vienna around 1900, station by station.', duration: '≈ 1 min', feature: 'Guided journeys · music · paintings · sources', steps: [
     step(journey, '[data-j-play]', 'Begin', 'Begin plays the stations in order; Pause stops at the current station for reading or looking at a painting.', 'click', 'on-click'),
     step(journey, '.j-station.is-current .j-narration', 'Station text', 'Each station pairs a recording excerpt with a text and an exhibit; short notes appear as the excerpt plays.'),
-    step(journey, '.j-station.is-current .j-sources summary', 'Sources', 'Open the sources for the excerpt’s times, its sources and a link to the full recording in the Hall.', 'click', 'on-click'),
+    step(journey, '.j-station.is-current .j-sources summary', 'Sources', 'Open Sources & recording for the excerpt’s times, its sources and a link to the full recording in the Hall.', 'click', 'on-click'),
     step(journey, '[data-j-next]', 'Next station', 'Next or a numbered station changes station; after the tour the arrow keys do the same. The current station is saved in this browser.', 'click', 'on-click'),
   ] },
   { id: 'composer-citation', title: 'Composer chapter: Mahler', promise: 'Contents, influences, further reading and citation in Mahler’s chapter.', duration: '≈ 2 min', feature: 'Composer chapters · influences · reading · citations', steps: [

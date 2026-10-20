@@ -6,7 +6,7 @@ export default {
   id: 'ravel-miroirs-oiseaux-tristes',
   composer: 'ravel',
   order: 21,
-  set: { id: 'ravel-miroirs', title: 'Miroirs', part: 2, of: 5 },
+  set: { id: 'ravel-miroirs', title: 'Miroirs', part: 2, of: 5, unit: 'pieces' },
   work: 'Miroirs',
   movement: 'II. Oiseaux tristes — Très lent',
   year: '1904–05',
@@ -19,7 +19,7 @@ export default {
 
   "sections": [
     { "t": 0, "label": "A · Solitary call on B♭, très lent", "m": "A", "mNote": "The upper call begins without accompaniment." },
-    { "t": 58, "label": "B · E major, calls and echoes", "m": "B", "mNote": "Louder calls are echoed more softly over the moving left hand" },
+    { "t": 58, "label": "B · E major, calls and echoes", "m": "B", "mNote": "Louder calls are echoed more softly over the moving left hand." },
     { "t": 108, "label": "A′ · The call returns in D minor", "m": "A′", "mNote": "The short–long call returns above held chords." },
     { "t": 142, "label": "Cadenza · Runs without bar lines", "m": "Cadenza", "mNote": "The pianist stretches the rising and falling figures." },
     { "t": 160, "label": "Link · Three measured bars", "m": "Link", "mNote": "The original tempo returns and stops on a fermata." },

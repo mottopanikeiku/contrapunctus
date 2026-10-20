@@ -1,7 +1,7 @@
 export default {
   id: 'leoncavallo-vesti-caruso-1907',
   composer: null,
-  guest: { name: 'Ruggero Leoncavallo', born: 1857, died: 1919 },
+  guest: { name: 'Ruggero Leoncavallo', family: 'Leoncavallo', born: 1857, died: 1919 },
   concert: false,
   order: 2,
   work: 'Pagliacci',
@@ -18,9 +18,9 @@ export default {
   intro: 'Caruso sings “Recitar!… Vesti la giubba”, the recitative and aria that close Act I of <i>Pagliacci</i>, with orchestra. In the recitative Canio cries out that he is expected to act, and in the aria he orders himself to laugh.',
   sections: [
     { t: 0, label: 'A · Canio’s recitative “Recitar!”', m: 'A', mNote: 'Canio, a husband, faces the performance still to come.' },
-    { t: 58, label: 'B · Tenor and orchestra', m: 'B', mNote: 'Canio’s solo continues, accompanied by the orchestra.' },
-    { t: 96, label: 'C · The clown’s lament', m: 'C', mNote: 'The aria sets grief as a series of commands to perform' },
-    { t: 142, label: 'Coda · Closing bars', m: 'Coda', mNote: 'The last part of Canio’s solo scene' },
+    { t: 58, label: 'B · Tenor and orchestra', m: 'B' },
+    { t: 96, label: 'C · The clown’s lament', m: 'C', mNote: 'The aria sets grief as a series of commands to perform.' },
+    { t: 142, label: 'Coda · Closing bars', m: 'Coda' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Recitative, “Recitar!”', text: 'Canio’s recitative comes before the aria. He can scarcely grasp what he is saying or doing, yet the performance must go on. His first word, “Recitar!”, means “To act!”', basis: 'general', precision: 'passage', evidence: 'Leoncavallo, Pagliacci (1892), Act I, “Recitar! Mentre preso dal delirio”; translation from the Italian libretto. The Victor 88061 attribution supplies the 17 March 1907 date; the transferred disc’s matrix remains unconfirmed. https://www.opera-arias.com/leoncavallo/pagliacci/vesti-la-giubba/' },

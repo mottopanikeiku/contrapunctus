@@ -8,8 +8,7 @@ export default {
     "id": "elgar-enigma",
     "title": "Enigma Variations, Op. 36",
     "part": 10,
-    "of": 14
-  },
+    "of": 14, "unit": "parts" },
   "year": "1898–99",
   "key": "G major",
   "forces": "Orchestra",
@@ -22,7 +21,7 @@ export default {
   "sections": [
     {
       "t": 0,
-      "label": "Var 10 · “Dorabella”, Intermezzo: Allegretto",
+      "label": "Var 10 · “Dorabella”, Allegretto, muted violins",
       "m": "Var 10",
       "mNote": "Muted violins play over plucked bass notes."
     },
@@ -34,7 +33,7 @@ export default {
     },
     {
       "t": 104,
-      "label": "Var 10 · “Dorabella”, Intermezzo: Allegretto",
+      "label": "Var 10 · Short wind phrases and muted strings",
       "m": "Var 10",
       "mNote": "Short wind phrases alternate with muted strings."
     }
@@ -72,12 +71,12 @@ export default {
     {
       "id": "broader-line",
       "title": "The flute’s phrase over pizzicato strings",
-      "from": "Var 10 · “Dorabella”, Intermezzo: Allegretto",
+      "from": "Var 10 · “Dorabella”, Allegretto, muted violins",
       "to": "Var 10 · Flute melody over violin figures",
       "at": {
         "t": 64
       },
-      "how": "<p>The G-major dance stays at Allegretto. Over pizzicato cellos and basses, the flute holds its melody across the bar lines. The oboes play short figures between its phrases, and the muted violins continue their off-beat figures.</p>",
+      "how": "<p>The G major dance stays at Allegretto. Over pizzicato cellos and basses, the flute holds its melody across the bar lines. The oboes play short figures between its phrases, and the muted violins continue their off-beat figures.</p>",
       "devices": [
         "orchestration change",
         "texture change"

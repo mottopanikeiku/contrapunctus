@@ -3,13 +3,13 @@ export default {
   born: { year: 1866, date: '17 May 1866', place: 'Honfleur, Normandy, France' },
   died: { year: 1925, date: '1 July 1925', place: 'Paris' },
   era: 'french',
-  epithet: 'Composer of the <i>Gymnopédies</i>, who asked pianists to prepare for 840 repetitions with ‘serious immobilities’.',
+  epithet: 'Composer of the Gymnopédies, who asked pianists to prepare for 840 repetitions with “serious immobilities”.',
   portrait: { file: 'File:Erik Satie - BNF1.jpeg', caption: 'Erik Satie; photographer unknown. Bibliothèque nationale de France.', focus: '50% 22%' },
   facts: [
-    ['Training', 'Paris Conservatoire; returned to study at the Schola Cantorum in 1905, aged thirty-nine'],
+    ['Trained', 'Paris Conservatoire; returned to study at the Schola Cantorum in 1905, aged thirty-nine'],
     ['Home', 'Honfleur, then Montmartre; a room in Arcueil from 1898 until his death'],
-    ['Stage partners', 'Cocteau, Picasso and Massine for <i>Parade</i>; Picabia and René Clair for <i>Relâche</i>'],
-    ['On the page', 'Piano miniatures, songs, ballets, <i>Socrate</i> and the comic <i>Memoirs of an Amnesiac</i>'],
+    ['Collaborators', 'Cocteau, Picasso and Massine for <i>Parade</i>; Picabia and René Clair for <i>Relâche</i>'],
+    ['Output', 'Piano miniatures, songs, ballets, <i>Socrate</i> and the comic <i>Memoirs of an Amnesiac</i>'],
   ],
   life: `
 <p class="dropcap">In April 1912 Erik Satie told the readers of the <i>Revue musicale S.I.M.</i> that he preferred measuring sounds to hearing them. He reported the results of his equipment. A B♭ examined through a phonoscope was so repulsive that he called his servant to look at it; an ordinary F♯, emitted by a large tenor, weighed ninety-three kilograms. “I get more pleasure from measuring a sound than from hearing it,” he wrote. The essay belonged to his <i>Memoirs of an Amnesiac</i>.</p>
@@ -39,7 +39,7 @@ export default {
     { aspect: 'Harmony', glyph: '♮', html: '<p>The First <i>Gymnopédie</i> opens with G major seventh followed by D major seventh. F♯ belongs to both chords, so one note is held while the bass moves. Each chord is sustained long enough to be heard on its own, and the tune enters above the pattern only after the pattern has been established.</p>' },
     { aspect: 'Repetition', glyph: '𝄆', html: '<p>In <i>Vexations</i>, the same bass line is played alone and then with two different sets of chords. The manuscript asks for 840 repetitions. In the film music for <i>Entr’acte</i>, repeated blocks keep the orchestra playing until the next visual cue.</p>' },
     { aspect: 'Words on the page', glyph: '𝄾', html: '<p>A direction in the <i>Gnossiennes</i> reads “Open your head”. It gives the pianist no tempo or metronome marking. In <i>Sports et divertissements</i> the calligraphy is part of the work and shares the page with small scenes and jokes. The notes are precisely placed. The player has to decide whether, and how, a direction written as an absurd sentence should affect touch.</p>' },
-    { aspect: 'Quotation & endings', glyph: '𝄋', html: '<p><i>Embryons desséchés</i> quotes Chopin’s funeral march and labels it Schubert. At the end of the set, a series of loud F major cadences repeats the close of the piece several times over.</p>' },
+    { aspect: 'Quotation and endings', glyph: '𝄋', html: '<p><i>Embryons desséchés</i> quotes Chopin’s funeral march and labels it Schubert. At the end of the set, a series of loud F major cadences repeats the close of the piece several times over.</p>' },
     { aspect: 'Voice', glyph: '𝄞', html: '<p><i>Socrate</i> gives Plato’s prose to women’s voices, often setting a syllable to each note. The accompaniment repeats small figures while the singer describes a walk, a conversation or the drinking of hemlock. Satie keeps the narrative moving through its most painful sentences.</p>' },
   ],
   works: [

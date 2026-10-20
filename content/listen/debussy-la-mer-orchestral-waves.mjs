@@ -50,7 +50,7 @@ export default {
       "t": 310,
       "label": "Coda · Harps, then solo flute",
       "m": "Coda",
-      "mNote": "Harp figures and wind fragments give way to high string harmonics."
+      "mNote": "Harp figures and wind fragments are followed by high string harmonics."
     }
   ],
   "cues": [

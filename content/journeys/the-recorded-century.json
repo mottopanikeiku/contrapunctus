@@ -17,7 +17,7 @@
       "compare": "leoncavallo-vesti-caruso",
       "text": "<p>On 30 November 1902 in Milan, Enrico Caruso recorded <i>Vesti la giubba</i> with Salvatore Cottone at the piano. Both performed into a horn. Sound entering the horn vibrated a diaphragm, which moved the stylus cutting the groove, so the voices and instruments supplied all the energy themselves. In acoustic studios, a performer’s distance from the horn could determine whether an accompaniment was audible or overwhelmed the singer. On this recording Cottone’s piano plays separate, percussive notes beneath Caruso’s sustained tenor. In the aria, Leoncavallo’s clown Canio has to perform despite his grief.</p>",
       "cues": [
-        { "at": 0, "text": "Cottone accompanies Caruso at the piano; there are two performers." },
+        { "at": 0, "text": "Cottone accompanies Caruso at the piano." },
         { "at": 50, "text": "The tenor’s phrase grows again above the piano’s separate attacks." },
         { "at": 85, "text": "Caruso sustains the broad phrase while Cottone keeps the accompaniment moving." },
         { "at": 108, "text": "Voice and piano close the short side." }
@@ -76,7 +76,7 @@
     },
     {
       "id": "s4",
-      "title": "Paderewski’s unhurried tempo",
+      "title": "Paderewski and rubato",
       "listen": { "id": "chopin-nocturne-op15-2-paderewski", "from": 0, "to": 144 },
       "art": null,
       "score": null,
@@ -110,7 +110,7 @@
       "text": "<p>Rachmaninoff recorded the Prelude for Edison in 1919; it was a piece he had brought with him from Russia. The Diamond Disc was issued to buyers in December 1920. The excerpt begins at the <i>Agitato</i>, where triplets carry the tune towards the return of the opening chords. The score sets that return out on four staves, although only two hands are playing. The chords then die away into the quiet coda, and the last sounds are widely spaced.</p>",
       "cues": [
         { "at": 112, "text": "The melody runs through triplets towards the chordal return." },
-        { "at": 138, "text": "The opening call returns across four printed staves and the pianist’s two hands." },
+        { "at": 138, "text": "The opening call returns, written on four staves for the pianist’s two hands." },
         { "at": 207, "text": "Quiet, widely spaced chords finish the coda." }
       ],
       "sources": [
@@ -130,7 +130,7 @@
       "map": null,
       "edge": null,
       "compare": "rachmaninoff-prelude-c-sharp-minor",
-      "text": "<p>Two years later, Rachmaninoff recorded the Prelude again, for Victor. The studio still recorded through a horn. The quick central passage follows the quiet opening and drives towards the familiar chords, here recorded on another day by another company. He presses the triplets forwards and still gives the returning chords ample room. In this performance the great return is already close when the excerpt begins. After it, in the coda, the hands move apart and the dynamic falls to quiet.</p>",
+      "text": "<p>Two years later, Rachmaninoff recorded the Prelude again, for Victor. The studio still recorded through a horn. The quick central passage follows the quiet opening and drives towards the familiar chords, here recorded on another day by another company. He presses the triplets forwards and still gives the returning chords ample room. In this performance the chordal return is already close when the excerpt begins. After it, in the coda, the hands move apart and the dynamic falls to quiet.</p>",
       "cues": [
         { "at": 94, "text": "After the quiet opening, the piano moves in the agitated middle section." },
         { "at": 120, "text": "The broad chords return across the keyboard." },
@@ -171,7 +171,7 @@
     },
     {
       "id": "s8",
-      "title": "Chaliapin’s acoustic horn recording of the prophet",
+      "title": "Chaliapin’s acoustic recording of The Prophet, 1921",
       "listen": { "id": "rimsky-korsakov-prophet-chaliapin-1921", "from": 4, "to": 224 },
       "art": null,
       "score": null,
@@ -197,14 +197,14 @@
     },
     {
       "id": "s9",
-      "title": "The prophet’s return to the studio",
+      "title": "The Prophet: the electrical recording, 1927",
       "listen": { "id": "rimsky-korsakov-prophet-chaliapin-1927", "from": 4, "to": 259 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": "rimsky-korsakov-prophet",
-      "text": "<p>On 20 October 1927 Chaliapin recorded <i>The Prophet</i> in London with Albert Coates, six years after the acoustic side with Percy Pitt. In this electrical recording he sings Pushkin’s text again and takes more time over the whole song. There are quiet orchestral passages between the main vocal declamations. In the last section God speaks, and the text turns outwards: the remade man is to cross seas and lands and set human hearts alight with his words. Chaliapin sings this command above a busy accompaniment. After his last syllable the orchestra continues to the final chords.</p>",
+      "text": "<p>On 20 October 1927 Chaliapin recorded <i>The Prophet</i> in London with Albert Coates, six years after the acoustic side with Percy Pitt. In this electrical recording he sings Pushkin’s text again and takes more time over the whole song. There are quiet orchestral passages between the main vocal declamations. In the last section God commands the remade man to cross seas and lands and set human hearts alight with his words. Chaliapin sings this command above a busy accompaniment. After his last syllable the orchestra continues to the final chords.</p>",
       "cues": [
         { "at": 40, "text": "Chaliapin shapes the opening in measured, speech-like phrases." },
         { "at": 90, "text": "The accompaniment moves beneath the sustained bass line." },

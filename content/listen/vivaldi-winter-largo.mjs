@@ -21,9 +21,9 @@ export default {
   },
   "intro": "The Largo of “Winter”, RV 297, from Vivaldi’s <i>The Four Seasons</i>, sets the solo violin by the fire while the orchestral violins play the rain against the window. Vivaldi wrote the raindrops pizzicato and forte, with the bass kept quiet beneath them.",
   "sections": [
-    { "t": 0, "label": "A · Solo violin over pizzicato, Largo", "m": "A", "mNote": "Bowed solo violin above pizzicato violins and bass" },
+    { "t": 0, "label": "A · Solo violin over pizzicato, Largo", "m": "A", "mNote": "Bowed solo violin above pizzicato violins and bass." },
     { "t": 58, "label": "A′ · Opening melody returns from B♭", "m": "A′", "mNote": "The opening tune returns in B♭ and moves towards E♭." },
-    { "t": 114, "label": "Coda · solo E♭ over pizzicato violins", "m": "Coda", "mNote": "The solo violin holds E♭; the pizzicato violins continue." }
+    { "t": 114, "label": "Coda · Solo E♭ over pizzicato violins", "m": "Coda" }
   ],
   "cues": [
     {
@@ -80,9 +80,9 @@ export default {
       "id": "closing-tonic",
       "title": "Held solo E♭ over pizzicato arpeggios",
       "from": "A′ · Opening melody returns from B♭",
-      "to": "Coda · solo E♭ over pizzicato violins",
+      "to": "Coda · Solo E♭ over pizzicato violins",
       "at": { "t": 114 },
-      "how": "<p>The solo’s D rises to E♭ and is held. Beneath the held note the orchestral violins continue their pizzicato E♭-major arpeggios until the final fermata.</p>",
+      "how": "<p>The solo’s D rises to E♭ and is held. Beneath the held note the orchestral violins continue their pizzicato E♭ major arpeggios until the final fermata.</p>",
       "devices": ["perfect cadence", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",

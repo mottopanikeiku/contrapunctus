@@ -2,8 +2,8 @@ export default {
   intro: 'This is the first side of the 1945 Decca recording of the <i>Waltz of the Flowers</i> from the <i>Nutcracker</i> Suite by Stanford Robinson and the National Symphony Orchestra of London. It contains the opening of the waltz, with the harp’s long flourish and the horn theme.',
   sections: [
     { t: 0, label: 'Intro · Wind chords and harp cadenza', m: 'Intro', mNote: 'The harp plays long runs of broken chords before the waltz.' },
-    { t: 72, label: 'A · horns begin the D-major waltz', m: 'A', mNote: 'The horns play above a three-beat string accompaniment.' },
-    { t: 108, label: 'B · Answering phrases above the strings', m: 'B', mNote: 'Long melodies pass above bass notes and offbeat chords' },
+    { t: 72, label: 'A · Horns begin the D major waltz', m: 'A', mNote: 'The horns play above a three-beat string accompaniment.' },
+    { t: 108, label: 'B · Answering phrases above the strings', m: 'B', mNote: 'Long melodies pass above bass notes and offbeat chords.' },
     { t: 136, label: 'C · Waltz continues, D major', m: 'C', mNote: 'The three-beat accompaniment continues under the later phrases.' },
   ],
   cues: [

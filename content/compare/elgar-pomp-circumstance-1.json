@@ -1,9 +1,9 @@
 {
   "id": "elgar-pomp-circumstance-1",
-  "title": "Pomp and Circumstance March No. 1 in three recordings",
+  "title": "Pomp and Circumstance March No. 1, in three recordings",
   "composer": "elgar",
   "work": "Pomp and Circumstance — March No. 1, Op. 39",
-  "question": "How much can the big tune broaden before the march loses its stride?",
+  "question": "Elgar, Stock and the United States Marine Band play the march and the broadening of its trio tune.",
   "intro": "“I’ve got a tune that will knock ’em — knock ’em flat,” Elgar told Dora Penny in May 1901. Twenty-five years later he and Frederick Stock recorded the march on opposite sides of the Atlantic; Stock’s recording included Chicago’s grand organ. In the version by the United States Marine Band, wind and brass play the lines that strings play in the orchestral score.",
   "group": "composer-performers",
   "recordings": [
@@ -15,7 +15,7 @@
   "passages": [
     { "label": "Return of the quick march", "t": 140, "note": "The quick march returns in D major. The strings play short phrases and fast runs above the bass." },
     { "label": "March before the trio", "t": 170, "note": "Accented phrases keep the orchestra in march time; the long trio melody has not yet entered." },
-    { "label": "Final trio, Molto maestoso", "t": 195, "note": "The famous tune returns in D major, marked <i>Molto maestoso</i>. High violins play above the full orchestra." },
+    { "label": "Final trio, Molto maestoso", "t": 195, "note": "The trio tune returns in D major, marked <i>Molto maestoso</i>. High violins play above the full orchestra." },
     { "label": "Broadening of the trio tune", "t": 240, "note": "The tune broadens towards its final held notes. After the cadence, a last passage of quick march music follows." }
   ],
   "sources": [

@@ -4,7 +4,7 @@ const studyUrl = 'https://publishing.cdlib.org/ucpressebooks/public/book/stravin
 export default {
   id: 'stravinsky-rite-adoration', composer: 'stravinsky', order: 2,
   work: 'The Rite of Spring', movement: 'Part I. Adoration of the Earth',
-  set: { id: 'stravinsky-rite', title: 'The Rite of Spring', part: 1, of: 2 },
+  set: { id: 'stravinsky-rite', title: 'The Rite of Spring', part: 1, of: 2, unit: 'parts' },
   year: '1911–13', key: '', forces: 'Orchestra',
   performers: 'Columbia Symphony Orchestra; Igor Stravinsky', recorded: '5–6 January 1960',
   source: {
@@ -14,13 +14,13 @@ export default {
   intro: 'Part I of <i>The Rite of Spring</i>, “Adoration of the Earth”, opens with a solo bassoon on a high C, and a few minutes later the strings play a repeated, stamping chord. Stravinsky conducts the Columbia Symphony Orchestra in this 1960 recording.',
   sections: [
     { t: 0, label: 'Intro · Bassoon solo in high register', m: 'Intro', mNote: 'A solo bassoon melody; other woodwinds enter in layers.' },
-    { t: 180, label: 'A · Augurs of Spring', m: 'A', mNote: 'Strings stamp; horns shift the accents' },
-    { t: 363, label: 'B · Ritual of Abduction', m: 'B', mNote: 'Running strings and sharp wind cries' },
+    { t: 180, label: 'A · Augurs of Spring', m: 'A', mNote: 'Strings stamp; horns shift the accents.' },
+    { t: 363, label: 'B · Ritual of Abduction', m: 'B', mNote: 'Running strings and sharp wind cries.' },
     { t: 438, label: 'C · Spring Rounds, two clarinets, heavy dance', m: 'C', mNote: 'Two clarinets play before the heavy dance begins.' },
-    { t: 628, label: 'D · Ritual of the Rival Tribes', m: 'D', mNote: 'Low brass set against quick, high figures' },
-    { t: 745, label: 'E · Procession of the Sage', m: 'E', mNote: 'Tubas and horns play the procession theme' },
-    { t: 788, label: 'Link · The Sage kisses the earth', m: 'Link', mNote: 'Low winds, a quiet bass and held strings' },
-    { t: 818, label: 'F · Dance of the Earth', m: 'F', mNote: 'Bass drum and rushing strings enter' },
+    { t: 628, label: 'D · Ritual of the Rival Tribes', m: 'D', mNote: 'Low brass set against quick, high figures.' },
+    { t: 745, label: 'E · Procession of the Sage', m: 'E', mNote: 'Tubas and horns play the procession theme.' },
+    { t: 788, label: 'Link · The Sage kisses the earth', m: 'Link', mNote: 'Low winds, a quiet bass and held strings.' },
+    { t: 818, label: 'F · Dance of the Earth', m: 'F', mNote: 'Bass drum and rushing strings enter.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening bassoon solo', text: 'The bassoon opens alone, high in its range, with a short melody that turns around C. Other wind instruments then enter one by one, each with a phrase of its own.', basis: 'score-proportion', precision: 'passage', evidence: 'Full score, pp. 1–4, opening and rehearsal figures 1–4: ' + scoreUrl },
@@ -35,7 +35,7 @@ export default {
     { t: 818, kind: 'form', title: 'Final dance of Part I, Prestissimo', text: 'The bass drum starts the next dance. Winds and strings rise, and the full orchestra plays repeated figures. The marking is <i>Prestissimo</i>, and the dance follows the brief stillness of the Sage.', basis: 'score-proportion', precision: 'passage', evidence: 'Full score, pp. 74–85, rehearsal figure 72 to the end of Part I: ' + scoreUrl },
   ],
   transitions: [
-    { id: 'into-augurs', title: 'Introduction into the stamping chord', from: 'Intro · Bassoon solo in high register', to: 'A · Augurs of Spring', at: { t: 180 }, how: '<p>The bassoon’s opening phrase returns and the other wind instruments drop out. Plucked violins start a short repeating figure. At <i>Tempo giusto</i>, second violins, violas, cellos and basses stamp the F♭-major/E♭-seventh chord, and horns mark the irregular accents.</p>', devices: ['texture change', 'orchestration change', 'tempo change'], basis: 'score-proportion', precision: 'passage', evidence: 'Full score, pp. 11–12, rehearsal figures 12–13: ' + scoreUrl },
+    { id: 'into-augurs', title: 'Introduction into the stamping chord', from: 'Intro · Bassoon solo in high register', to: 'A · Augurs of Spring', at: { t: 180 }, how: '<p>The bassoon’s opening phrase returns and the other wind instruments drop out. Plucked violins start a short repeating figure. At <i>Tempo giusto</i>, second violins, violas, cellos and basses stamp the F♭ major/E♭-seventh chord, and horns mark the irregular accents.</p>', devices: ['texture change', 'orchestration change', 'tempo change'], basis: 'score-proportion', precision: 'passage', evidence: 'Full score, pp. 11–12, rehearsal figures 12–13: ' + scoreUrl },
     { id: 'into-abduction', title: 'Augurs to Presto, violins running', from: 'A · Augurs of Spring', to: 'B · Ritual of Abduction', at: { t: 363 }, how: '<p>The heavy close of the Augurs breaks into <i>Presto</i>. Running violin figures and short high-wind calls cut across held horn notes, and the low strings play sharply repeated attacks.</p>', devices: ['tempo change', 'texture change', 'orchestration change'], basis: 'score-proportion', precision: 'passage', evidence: 'Full score, pp. 31–34, rehearsal figures 36–37: ' + scoreUrl },
     { id: 'into-rounds', title: 'Clarinets in octaves under flute trills', from: 'B · Ritual of Abduction', to: 'C · Spring Rounds, two clarinets, heavy dance', at: { t: 438 }, how: '<p>The fast dance stops. At <i>Tranquillo</i>, the flutes trill while E♭ clarinet and bass clarinet play in octaves; brass and strings are silent. The bass clarinet is now the lowest voice. The wind passage leads into the slower, heavy string chords of <i>Sostenuto e pesante</i>.</p>', devices: ['tempo change', 'orchestration change', 'texture change'], basis: 'score-proportion', precision: 'passage', evidence: 'Full score, pp. 44–47, rehearsal figures 47–49: ' + scoreUrl },
     { id: 'into-rivals', title: 'Round dance to low brass, Molto allegro', from: 'C · Spring Rounds, two clarinets, heavy dance', to: 'D · Ritual of the Rival Tribes', at: { t: 628 }, how: '<p>The round dance ends with its quiet music for flutes and clarinets. At <i>Molto allegro</i> the trombones and tubas enter, and the bassoons and horns reply. Low strings reinforce the tread. Within a few bars, quick high figures break across the heavy phrase.</p>', devices: ['tempo change', 'register change', 'orchestration change'], basis: 'score-proportion', precision: 'passage', evidence: 'Full score, pp. 53–55, rehearsal figures 56–57: ' + scoreUrl + '. Van den Toorn, p. 19: ' + studyUrl },

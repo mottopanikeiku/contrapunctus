@@ -19,7 +19,7 @@ export default {
   "source": {
     "file": "File:Vivaldi - Four Seasons 4 Winter mvt 1 Allegro non molto - John Harrison violin.oga"
   },
-  "intro": "The first movement, Allegro non molto, of Winter, RV 297, from <i>The Four Seasons</i>. The strings depict shivering, stamping feet and chattering teeth, and between these passages the solo violin plays runs of demisemiquavers over the orchestra.",
+  "intro": "In the first movement, Allegro non molto, of Winter, RV 297, from <i>The Four Seasons</i>, the strings depict shivering, stamping feet and chattering teeth, and between these passages the solo violin plays runs of demisemiquavers over the orchestra.",
   "sections": [
     { "t": 0, "label": "A · Repeated notes, strings, bass upwards", "m": "A", "mNote": "Repeated notes enter from the bass upwards; the violin adds trills." },
     { "t": 38, "label": "B · Violin broken-chord passage", "m": "B", "mNote": "Rapid broken chords in the violin interrupt the shivering figure." },
@@ -92,7 +92,7 @@ export default {
       "from": "A · Repeated notes, strings, bass upwards",
       "to": "B · Violin broken-chord passage",
       "at": { "t": 38 },
-      "how": "<p>The shivering passage moves from F minor to C minor. The solo violin begins the wind on C, leaping an octave and then running through the notes of a C-minor chord. The orchestra interrupts with short returns of the shivering rhythm. The marking stays Allegro non molto.</p>",
+      "how": "<p>The shivering passage moves from F minor to C minor. The solo violin begins the wind on C, leaping an octave and then running through the notes of a C minor chord. The orchestra interrupts with short returns of the shivering rhythm. The marking stays Allegro non molto.</p>",
       "devices": ["texture change", "register change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -140,7 +140,7 @@ export default {
       "from": "A″ · Refrain in E♭ major",
       "to": "D · Solo violin, repeated semiquavers",
       "at": { "t": 141 },
-      "how": "<p>The soloist leaves the E♭-major refrain for another rapid passage. At bar 47 the repeated semiquavers carry the inscription <i>Batter li denti</i>. The episode moves through A♭ major and C minor and reaches F minor for the last tutti.</p>",
+      "how": "<p>The soloist leaves the E♭ major refrain for another rapid passage. At bar 47 the repeated semiquavers carry the inscription <i>Batter li denti</i>. The episode moves through A♭ major and C minor and reaches F minor for the last tutti.</p>",
       "devices": ["orchestration change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -152,7 +152,7 @@ export default {
       "from": "D · Solo violin, repeated semiquavers",
       "to": "A′ · Stamping music in F minor",
       "at": { "t": 181 },
-      "how": "<p>The solo episode reaches F minor, and the full strings take up the stamping music. Rapid repeated notes alternate with broken chords. The final refrain is built on this denser part of the earlier tutti and continues with it to the F-minor cadence.</p>",
+      "how": "<p>The solo episode reaches F minor, and the full strings take up the stamping music. Rapid repeated notes alternate with broken chords. The final refrain is built on this denser part of the earlier tutti and continues with it to the F minor cadence.</p>",
       "devices": ["motivic link", "orchestration change", "perfect cadence"],
       "basis": "score-proportion",
       "precision": "passage",

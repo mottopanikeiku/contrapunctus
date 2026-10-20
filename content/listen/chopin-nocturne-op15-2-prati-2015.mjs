@@ -13,7 +13,7 @@ export default {
   "source": {
     "file": "File:Fryderyk Chopin - Nocturne op. 15 n.2 Fis-dur - Patrizia Prati.ogg"
   },
-  "intro": "Patrizia Prati plays Chopin’s Nocturne in F♯ major, Op. 15 No. 2, in the empty rooms of the Museum of Romanticism in Madrid. In the middle of the piece, the opening melody takes a quick, murmuring form.",
+  "intro": "Patrizia Prati plays Chopin’s Nocturne in F♯ major, Op. 15 No. 2, in the empty rooms of the Museum of Romanticism in Madrid. In the middle of the piece, a quick section marked <i>doppio movimento</i> interrupts the opening melody, which returns with new ornaments.",
   "sections": [
     { "t": 0, "label": "A · Melody in F♯ major", "m": "A", "mNote": "The melody moves above a left-hand accompaniment." },
     { "t": 90, "label": "B · Middle section, doppio movimento", "m": "B", "mNote": "Dotted rhythms over a leaping bass, marked doppio movimento." },

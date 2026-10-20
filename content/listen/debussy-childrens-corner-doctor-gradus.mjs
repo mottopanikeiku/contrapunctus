@@ -8,8 +8,7 @@ export default {
     "id": "debussy-childrens-corner",
     "title": "Children’s Corner",
     "part": 1,
-    "of": 6
-  },
+    "of": 6, "unit": "pieces" },
   "year": "1906–08",
   "key": "C major",
   "forces": "Piano",
@@ -26,11 +25,11 @@ export default {
       "evidence": "Columbia Masterworks ML 4366, 1951; Internet Archive item metadata and original carrier: https://archive.org/details/lp_childrens-corner-suite-forest-scenes-o_claude-debussy-robert-schumann-robert-c_0. Territorial EU basis; US status not established."
     }
   },
-  "intro": "Robert Casadesus plays “Doctor Gradus ad Parnassum”, the first of the six pieces in Debussy’s Children’s Corner, written for his daughter Chouchou. It begins as a piano exercise in C major and moves onto the black keys before closing at a fast tempo.",
+  "intro": "Robert Casadesus plays “Doctor Gradus ad Parnassum”, the first of the six pieces in Debussy’s <i>Children’s Corner</i>, written for his daughter Chouchou. It begins as a piano exercise in C major and moves onto the black keys before closing at a fast tempo.",
   "sections": [
-    { "t": 0, "label": "A · The C-major exercise", "m": "A", "mNote": "Semiquavers run around a slower tune." },
+    { "t": 0, "label": "A · The C major exercise", "m": "A", "mNote": "Semiquavers run around a slower tune." },
     { "t": 50, "label": "B · Held chords, five flats", "m": "B", "mNote": "Held chords interrupt the running notes; key signature of five flats." },
-    { "t": 74, "label": "A′ · C-major exercise returns, then accelerates", "m": "A′", "mNote": "The C-major exercise returns and accelerates." }
+    { "t": 74, "label": "A′ · C major exercise returns, then accelerates", "m": "A′" }
   ],
   "cues": [
     { "t": 0, "kind": "music", "title": "Opening semiquavers over C pedal", "text": "The right hand plays semiquaver figures up and down the white keys above a low C. A slower melody soon enters between the semiquavers. Debussy marks the touch <i>égal et sans sécheresse</i>: even and without dryness.", "basis": "score-proportion", "precision": "passage", "evidence": "Debussy, Children’s Corner, Durand (1908), plate D. & F. 7188, p. 1: opening C pedal, semiquaver figures, slower upper notes and égal et sans sécheresse. https://s9.imslp.org/files/imglnks/usimg/0/0d/IMSLP252526-PMLP02387-Debussy%2C_Claude-Childrens_Corner_Durand_7188_filter.pdf" },
@@ -41,7 +40,7 @@ export default {
     {
       "id": "into-wandering-respite",
       "title": "Retenu, held chords, then D♭ major",
-      "from": "A · The C-major exercise",
+      "from": "A · The C major exercise",
       "to": "B · Held chords, five flats",
       "at": { "t": 50 },
       "span": [42, 62],
@@ -55,7 +54,7 @@ export default {
       "id": "into-exercise-return",
       "title": "From D♭ back to C",
       "from": "B · Held chords, five flats",
-      "to": "A′ · C-major exercise returns, then accelerates",
+      "to": "A′ · C major exercise returns, then accelerates",
       "at": { "t": 74 },
       "span": [65, 85],
       "how": "<p>The black-key passage slows again, marked <i>Retenu</i>. Debussy cancels the five-flat signature and restores <i>1° Tempo</i>. C returns in the bass, and the right hand takes up its first semiquaver figure, pianissimo. The figure soon spreads across both hands, and the tempo increases under the marking <i>En animant peu à peu</i>.</p>",

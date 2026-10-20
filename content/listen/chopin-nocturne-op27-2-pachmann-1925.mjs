@@ -28,11 +28,11 @@ export default {
   "intro": "Pachmann recorded the Nocturne in D♭ major, Op. 27 No. 2, on his own Baldwin piano at Hayes in June 1925. The critic who reviewed the disc that December praised its phrasing and noted that the famous pianist stayed silent between the notes.",
   "sections": [
     { "t": 0, "label": "A · Melody over D♭ accompaniment", "m": "A", "mNote": "The left hand plays alone before the melody enters on F." },
-    { "t": 34, "label": "B · Duet in thirds", "m": "B", "mNote": "B♭ in the bass changes the harmony to minor" },
+    { "t": 34, "label": "B · Duet in thirds", "m": "B", "mNote": "B♭ in the bass changes the harmony to minor." },
     { "t": 90, "label": "C · Opening melody again, D♭ major", "m": "C", "mNote": "The melody restarts on F above D♭, marked dolce." },
-    { "t": 130, "label": "D · Duet in C♯ minor", "m": "D", "mNote": "G♯ in the bass under close right-hand voices" },
+    { "t": 130, "label": "D · Duet in C♯ minor", "m": "D", "mNote": "G♯ in the bass under close right-hand voices." },
     { "t": 158, "label": "E · Third statement of the theme, D♭", "m": "E", "mNote": "The opening theme returns before a long ornamental passage." },
-    { "t": 218, "label": "F · Coda over D♭ pedal", "m": "F", "mNote": "Changing chords above a recurring D♭ bass" }
+    { "t": 218, "label": "F · Coda over D♭ pedal", "m": "F", "mNote": "Changing chords above a recurring D♭ bass." }
   ],
   "cues": [
     {
@@ -93,7 +93,7 @@ export default {
       "bar": { "n": "75", "occ": 1 },
       "kind": "music",
       "title": "Rising sixths and final chord",
-      "text": "The right hand rises in sixths, marked <i>dolcissimo e diminuendo</i> (very sweetly and growing softer). The final D♭-major chord is held under a fermata.",
+      "text": "The right hand rises in sixths, marked <i>dolcissimo e diminuendo</i> (very sweetly and growing softer). The final D♭ major chord is held under a fermata.",
       "basis": "score-aligned",
       "precision": "moment",
       "evidence": "Claude Debussy edition (1915), bars 75–77: rising sixths, dolcissimo e diminuendo, pianissimo and final fermata. https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=486"

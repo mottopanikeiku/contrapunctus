@@ -26,8 +26,8 @@ export default {
   "concert": false,
   "intro": "Eugen d’Albert, a pupil of Liszt, recorded Chopin’s Nocturne in F♯ major, Op. 15 No. 2 (Larghetto), in 1916. Wilhelm Kempff remembered d’Albert’s singing tone and a hand poised over a single black key.",
   "sections": [
-    { "t": 0, "label": "A · A♯ above the bass", "m": "A", "mNote": "A curling melody above bass notes and soft chords" },
-    { "t": 88, "label": "B · Doppio movimento, sotto voce", "m": "B", "mNote": "Doppio movimento and sotto voce." },
+    { "t": 0, "label": "A · A♯ above the bass", "m": "A", "mNote": "A curling melody above bass notes and soft chords." },
+    { "t": 88, "label": "B · Doppio movimento, sotto voce", "m": "B" },
     { "t": 124, "label": "A′ · Larghetto theme, F♯ major", "m": "A′", "mNote": "The quick figures stop before the opening upbeat comes back." }
   ],
   "cues": [

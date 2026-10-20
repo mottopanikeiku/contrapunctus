@@ -14,7 +14,7 @@ export default {
 
   sections: [
     { t: 0, label: 'A · Repeated notes and trills', m: 'A', mNote: 'Three-beat phrases modulate from E major to B major.' },
-    { t: 84, label: 'A · First half repeated, E major', m: 'A', mNote: 'The first half repeats from E major.' },
+    { t: 84, label: 'A · First half repeated, E major', m: 'A' },
     { t: 168, label: 'B · New phrase over B', m: 'B', mNote: 'The second half begins in the dominant key.' },
     { t: 244, label: 'B · Second half, returning to E', m: 'B', mNote: 'The second half modulates back to E major.' },
   ],
@@ -30,7 +30,7 @@ export default {
     {
       id: 'repeat-first-half', title: 'From B major back to E major',
       from: 'A · Repeated notes and trills', to: 'A · First half repeated, E major', at: { t: 84 }, span: [73, 98],
-      how: '<p>A descending run and a trill close the first half in B major. At the repeat the right hand plays the opening E-major phrase again, which begins with three repeated trills. The left hand rests for the first four bars.</p>',
+      how: '<p>A descending run and a trill close the first half in B major. At the repeat the right hand plays the opening E major phrase again, which begins with three repeated trills. The left hand rests for the first four bars.</p>',
       devices: ['perfect cadence', 'motivic link', 'texture change'], basis: 'score-proportion', precision: 'passage',
       evidence: 'Piano edition, bars 39–40 followed by bars 1–4. https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP691879-PMLP297350-keyboard_Sonata_in_E_major,_K.380.pdf',
     },
@@ -42,9 +42,9 @@ export default {
       evidence: 'Piano edition, bars 40–44. https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP691879-PMLP297350-keyboard_Sonata_in_E_major,_K.380.pdf',
     },
     {
-      id: 'repeat-second-half', title: 'E-major close and return to B',
+      id: 'repeat-second-half', title: 'E major close and return to B',
       from: 'B · New phrase over B', to: 'B · Second half, returning to E', at: { t: 244 }, span: [232, 260],
-      how: '<p>The final descending run ends on E, with the same note low in the bass. When the repeat is taken, the music returns to the B-major opening of the second half. After the held ending, the left hand resumes its regular three-beat accompaniment.</p>',
+      how: '<p>The final descending run ends on E, with the same note low in the bass. When the repeat is taken, the music returns to the B major opening of the second half. After the held ending, the left hand resumes its regular three-beat accompaniment.</p>',
       devices: ['perfect cadence', 'motivic link'], basis: 'score-proportion', precision: 'passage',
       evidence: 'Piano edition, bars 77–78 and return to bar 41. https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP691879-PMLP297350-keyboard_Sonata_in_E_major,_K.380.pdf',
     },

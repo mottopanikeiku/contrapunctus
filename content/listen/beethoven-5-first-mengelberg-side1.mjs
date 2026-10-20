@@ -17,8 +17,7 @@ export default {
     "id": "beethoven-5-mengelberg-1939",
     "title": "Symphony No. 5, first movement — historical disc sides",
     "part": 1,
-    "of": 2
-  },
+    "of": 2, "unit": "sides" },
   "intro": "Willem Mengelberg conducts the Concertgebouw Orchestra in the first movement, Allegro con brio, of Beethoven’s Symphony No. 5 in C minor, Op. 67. This is the first of two disc sides, which runs from the four-note opening in octaves to the soft exchanges of the development; the movement continues on the second side.",
   "sections": [
     {
@@ -31,7 +30,7 @@ export default {
       "t": 48,
       "label": "B · Horn call and violin melody",
       "m": "B",
-      "mNote": "E♭ major; repeated notes continue beneath the melody"
+      "mNote": "E♭ major; repeated notes continue beneath the melody."
     },
     {
       "t": 188,

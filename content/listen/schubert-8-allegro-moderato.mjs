@@ -14,13 +14,13 @@ export default {
     archive: { item: 'SchubertSymphonyNo.8unfinished_347', file: '01_schubertNo.8M1.mp3' },
     rights: { basis: 'eu-published-before-1963', published: 1928, evidence: 'Recorded 28 and 30 April 1927 and first issued on Victor 6663–6665 in album M-16 (Internet Archive description; Pristine Classical PASC 483 notes, https://www.pristineclassical.com/products/pasc483). A Victor advertisement in The Golden Book Magazine of January 1928 (PDF p. 20, https://commons.wikimedia.org/wiki/File:The_Golden_Book_1928-01.pdf) offers Records Nos. 6663-4-5 by Stokowski and the Philadelphia Symphony Orchestra, so the set was on sale by January 1928; the exact first issue date is not established. The Internet Archive item carries a CC0 licence URL declared by the uploader; US status is not established because the recording was made after 1925.' },
   },
-  intro: 'Schubert’s <i>Unfinished</i> begins with cellos and basses alone, then oboe and clarinet play the melody over the violins. Leopold Stokowski conducts the Philadelphia Orchestra in this 1927 recording of the first movement.',
+  intro: 'Schubert’s “Unfinished” begins with cellos and basses alone, then oboe and clarinet play the melody over the violins. Leopold Stokowski conducts the Philadelphia Orchestra in this 1927 recording of the first movement.',
   // Sources: https://en.wikipedia.org/wiki/Symphony_No._8_(Schubert)
   // https://www.pristineclassical.com/products/pasc483
   // Score: Schubert, Symphonie in H moll (unvollendet), Schubert’s Werke, Serie 1 Nr. 8 (Breitkopf & Härtel, 1885), IMSLP #73284, printed pp. 1–18
   sections: [
-    { t: 0, label: 'A · Low strings, then two woodwinds', m: 'A', mNote: 'B minor, then the cellos’ melody in G major' },
-    { t: 194, label: 'Dev · Low-string opening theme in E minor', m: 'Dev', mNote: 'The opening phrase rises to a climax led by trombones' },
+    { t: 0, label: 'A · Low strings, then two woodwinds', m: 'A', mNote: 'B minor, then the cellos’ melody in G major.' },
+    { t: 194, label: 'Dev · Low-string opening theme in E minor', m: 'Dev', mNote: 'The opening phrase rises to a climax led by trombones.' },
     { t: 360, label: 'A′ · Oboe and clarinet return', m: 'A′', mNote: 'The violin murmur returns beneath the oboe and clarinet.' },
     { t: 546, label: 'Coda · Low strings, B minor', m: 'Coda', mNote: 'The opening phrase returns and leads to the final chords.' },
   ],
@@ -47,7 +47,7 @@ export default {
       to: 'Dev · Low-string opening theme in E minor',
       at: { t: 194 },
       span: [182, 210],
-      how: '<p>The exposition ends with B held in the second bassoon and first horn beneath an F♯-major chord. The development then begins softly in E minor. Cellos and basses play the opening phrase again, and the higher strings take it up.</p>',
+      how: '<p>The exposition ends with B held in the second bassoon and first horn beneath an F♯ major chord. The development then begins softly in E minor. Cellos and basses play the opening phrase again, and the higher strings take it up.</p>',
       devices: ['tonic pedal', 'direct modulation', 'motivic link'],
       basis: 'score-proportion',
       precision: 'passage',
@@ -60,7 +60,7 @@ export default {
       to: 'A′ · Oboe and clarinet return',
       at: { t: 360 },
       span: [344, 378],
-      how: '<p>The orchestral outburst dies away into soft phrases for flute and oboe. Oboe and clarinet then play the B-minor melody again over murmuring violins and plucked lower strings. The eight-bar introduction is omitted.</p>',
+      how: '<p>The orchestral outburst dies away into soft phrases for flute and oboe. Oboe and clarinet then play the B minor melody again over murmuring violins and plucked lower strings. The eight-bar introduction is omitted.</p>',
       devices: ['decrescendo', 'orchestration change', 'motivic link'],
       basis: 'score-proportion',
       precision: 'passage',

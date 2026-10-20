@@ -13,7 +13,7 @@ export default {
     "file": "File:PDP-CH - Nocturne in F-sharp major, Op. 15, No. 2 - Chopin - Ignacy Jan Paderewski - Hmv-db375-05616.flac"
   },
   "concert": false,
-  "intro": "Chopin’s Nocturne in F♯ major, Op. 15 No. 2 (Larghetto), recorded by Paderewski in New York in May 1917. His playing uses rolled chords and lets the hands sound at different moments.",
+  "intro": "Paderewski recorded Chopin’s Nocturne in F♯ major, Op. 15 No. 2 (Larghetto), in New York in May 1917. His playing uses rolled chords and lets the hands sound at different moments.",
   "sections": [
     { "t": 0, "label": "A · Melody in F♯ major, Larghetto", "m": "A", "mNote": "Decorated right-hand melody above bass notes and chords." },
     { "t": 96, "label": "B · Doppio movimento, dotted theme", "m": "B", "mNote": "Doppio movimento begins sotto voce over a C♯ bass." },
@@ -33,7 +33,7 @@ export default {
       "t": 56,
       "kind": "world",
       "title": "Victor recording, New York, 1917",
-      "text": "On 14 May 1917 Paderewski recorded this nocturne for Victor in New York, and the company issued the first take. He returned on 18 June to record Chopin’s G♭-major <i>Butterfly</i> Étude.",
+      "text": "On 14 May 1917 Paderewski recorded this nocturne for Victor in New York, and the company issued the first take. He returned on 18 June to record Chopin’s G♭ major <i>Butterfly</i> Étude.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "APR 7505 session listing: Nocturne, matrix C 19781-1, 14 May 1917; Étude Op. 25 No. 9, 18 June 1917. https://www.musicweb-international.com/classrev/2017/May/Paderewski_American_7505.htm"

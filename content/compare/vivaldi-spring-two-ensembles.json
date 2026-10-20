@@ -4,10 +4,10 @@
   "composer": "vivaldi",
   "group": "century",
   "work": "The Four Seasons · Spring, RV 269 — I. Allegro",
-  "question": "How do the solo violin’s birdsong passages and the orchestral ritornello differ between these two performances?",
+  "question": "Two ensembles play the orchestral ritornello and the solo violin’s birdsong and storm passages.",
   "intro": "Vivaldi’s <i>Spring</i> opens in E major with a refrain for the strings. Bird calls interrupt it, then a storm, and the refrain returns between these episodes. John Harrison recorded it live with the Wichita State University Chamber Players in 2000; the second performance comes from Musopen.",
   "recordings": [
-    { "listen": "vivaldi-spring-allegro", "label": "John Harrison · Wichita State University Chamber Players · Robert Turizziani", "year": 2000, "note": "Harrison’s live, unedited performance at Wiedemann Recital Hall, Wichita State University, on 6 February 2000." },
+    { "listen": "vivaldi-spring-allegro", "label": "John Harrison, Wichita State University Chamber Players, Robert Turizziani", "year": 2000, "note": "Harrison’s live, unedited performance at Wiedemann Recital Hall, Wichita State University, on 6 February 2000." },
     { "listen": "vivaldi-spring-allegro-modena", "label": "Modena Chamber Orchestra", "year": null, "note": "A solo violin and chamber orchestra, issued by Musopen as part of <i>The Four Seasons</i>." }
   ],
   "reference": "vivaldi-spring-allegro",

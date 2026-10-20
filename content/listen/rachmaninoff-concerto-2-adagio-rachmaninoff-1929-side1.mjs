@@ -24,7 +24,7 @@ export default {
       ],
     },
   },
-  intro: 'The opening 78-rpm side of the Adagio sostenuto from Rachmaninoff’s Piano Concerto No. 2, Op. 18, recorded in 1929. Rachmaninoff plays the piano part, accompanying the flute and clarinet in the movement’s opening melody, and Leopold Stokowski conducts the Philadelphia Orchestra.',
+  intro: 'This is the opening 78-rpm side of the Adagio sostenuto from Rachmaninoff’s Piano Concerto No. 2, Op. 18, recorded in 1929. Rachmaninoff plays the piano part, accompanying the flute and clarinet in the movement’s opening melody, and Leopold Stokowski conducts the Philadelphia Orchestra.',
   sections: [
     { t: 0, label: 'Intro · Muted strings modulate to E major', m: 'Intro', mNote: 'Slow chords modulate from C minor to the new key.' },
     { t: 28, label: 'A · Flute and clarinet over piano', m: 'A', mNote: 'The long melody sounds above repeated piano arpeggios.' },

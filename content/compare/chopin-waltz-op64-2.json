@@ -3,8 +3,8 @@
   "title": "Chopin, Waltz Op. 64 No. 2, in four recordings",
   "composer": "chopin",
   "work": "Waltz in C♯ minor, Op. 64 No. 2",
-  "question": "How do these four pianists make the circling tune answer the slower melodies?",
-  "intro": "Paderewski, Pachmann, Rummel and Gurevich all begin with the same opening, a melody held back over a bass that keeps moving. Chopin sets quick quavers running between that C♯-minor melody and a second one in D♭ major. The circling refrain returns repeatedly and closes the piece.",
+  "question": "Paderewski, Pachmann, Rummel and Gurevich play the circling quaver refrain between the slower C♯ minor and D♭ major melodies.",
+  "intro": "Paderewski, Pachmann, Rummel and Gurevich all begin with the same opening, a melody held back over a bass that keeps moving. Chopin sets quick quavers running between that C♯ minor melody and a second one in D♭ major. The circling refrain returns repeatedly and closes the piece.",
   "group": "golden-age",
   "recordings": [
     {
@@ -62,7 +62,7 @@
     {
       "label": "Return of the opening melody",
       "t": 164,
-      "note": "The opening C♯-minor melody returns with its held notes and short answering flourishes, and the quick refrain closes the piece."
+      "note": "The opening C♯ minor melody returns with its held notes and short answering flourishes, and the quick refrain closes the piece."
     }
   ],
   "sources": [

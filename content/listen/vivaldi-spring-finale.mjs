@@ -19,15 +19,15 @@ export default {
   "source": {
     "file": "File:Vivaldi - Four Seasons 1 Spring mvt 3 Allegro - John Harrison violin.oga"
   },
-  "intro": "The finale of Spring, RV 269, from Vivaldi’s The Four Seasons is a Danza pastorale for nymphs and shepherds, in which the violins play over the long E and B of a country bagpipe. The dance moves into C♯ minor and E minor before it returns to the home key.",
+  "intro": "The finale of Spring, RV 269, from Vivaldi’s <i>The Four Seasons</i> is a Danza pastorale for nymphs and shepherds, in which the violins play over the long E and B of a country bagpipe. The dance moves into C♯ minor and E minor before it returns to the home key.",
   "sections": [
-    { "t": 0, "label": "A · The bagpipe dance", "m": "A", "mNote": "A violin tune above long-held E and B" },
-    { "t": 34, "label": "B · The soloist leaves the drone", "m": "B", "mNote": "Rising sequences and a chromatic bass lead towards C♯ minor" },
+    { "t": 0, "label": "A · The bagpipe dance", "m": "A", "mNote": "A violin tune above long-held E and B." },
+    { "t": 34, "label": "B · The soloist leaves the drone", "m": "B", "mNote": "Rising sequences and a chromatic bass lead towards C♯ minor." },
     { "t": 59, "label": "A′ · Refrain in C♯ minor", "m": "A′", "mNote": "The refrain returns in C♯ minor and moves to B major." },
     { "t": 90, "label": "C · Solo violin episode with strings", "m": "C", "mNote": "The solo moves through several keys over sustained bass notes." },
     { "t": 150, "label": "A″ · Dance refrain in E minor", "m": "A″", "mNote": "The refrain begins in E major, then G♯ becomes G♮." },
     { "t": 185, "label": "D · Solo violin over pedal B", "m": "D", "mNote": "The bass holds B while the upper strings rest." },
-    { "t": 212, "label": "A · The last E-major dance", "m": "A", "mNote": "The full strings return to E major" }
+    { "t": 212, "label": "A · The last E major dance", "m": "A", "mNote": "The full strings return to E major." }
   ],
   "cues": [
     {
@@ -159,7 +159,7 @@ export default {
       "id": "last-refrain",
       "title": "E major after the long B",
       "from": "D · Solo violin over pedal B",
-      "to": "A · The last E-major dance",
+      "to": "A · The last E major dance",
       "at": { "t": 212 },
       "how": "<p>The bass moves from its long B to E, and the full strings resume the dance in E major. The soloist rejoins the orchestral violins. Long E and B notes support the last phrases, including their piano echo.</p>",
       "devices": ["dominant pedal", "motivic link", "orchestration change"],

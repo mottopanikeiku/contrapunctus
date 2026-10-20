@@ -11,8 +11,8 @@ export default {
   facts: [
     ['Trained', 'Frank Bridge privately; Royal College of Music, 1930–33, with John Ireland'],
     ['Home', 'Lowestoft and London; North America, 1939–42; then Suffolk'],
-    ['Close collaborators', 'Peter Pears · Eric Crozier · Imogen Holst · Mstislav Rostropovich'],
-    ['Built', 'English Opera Group, 1947 · Aldeburgh Festival, 1948 · Snape Maltings Concert Hall, 1967'],
+    ['Collaborators', 'Peter Pears · Eric Crozier · Imogen Holst · Mstislav Rostropovich'],
+    ['Founded', 'English Opera Group, 1947 · Aldeburgh Festival, 1948 · Snape Maltings Concert Hall, 1967'],
   ],
   life: `
 <p class="dropcap">Benjamin Britten grew up in a house facing the North Sea at Lowestoft. His father was a dentist; his mother, Edith, sang and encouraged his music. Born on St Cecilia’s Day, 22 November 1913, he learnt piano and viola and filled exercise books with compositions. At the Norwich Festival in 1924 he heard Frank Bridge conduct <i>The Sea</i>. In 1927 his viola teacher, Audrey Alston, introduced him to its composer.</p>
@@ -129,9 +129,6 @@ And each slow dusk a drawing-down of blinds.`,
     },
   ],
   recordings: [
-    { work: 'Peter Grimes', performers: 'Peter Pears, Claire Watson, James Pease; Royal Opera House Chorus and Orchestra, Benjamin Britten', year: '1958', label: 'Decca', note: 'This is the first choice for the words. Pears makes Grimes’s speech as troubling as his singing. Britten keeps the Borough scenes at a brisk pace around him, and Claire Watson sings Ellen.' },
-    { work: 'War Requiem', performers: 'Galina Vishnevskaya, Peter Pears, Dietrich Fischer-Dieskau; London Symphony Orchestra, Melos Ensemble, Bach Choir and Highgate School Choir; Benjamin Britten', year: '1963', label: 'Decca', note: 'The three soloists Britten had wanted for Coventry, finally recorded together. Vishnevskaya is heard in contrast with Pears and Fischer-Dieskau, who sing Owen’s poems.' },
-    { work: 'Serenade for Tenor, Horn and Strings', performers: 'Peter Pears, Barry Tuckwell; London Symphony Orchestra, Benjamin Britten', year: '1963', label: 'Decca', note: 'Pears’s handling of the poems is the main reason to choose this recording first. Tuckwell plays as an equal partner in the horn’s exposed calls, in the passage around Blake’s rose and in the last offstage echo.' },
   ],
   lineage: {
     from: ['Henry Purcell', 'Frank Bridge', 'mahler', 'berg', 'stravinsky'],

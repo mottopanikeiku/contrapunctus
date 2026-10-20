@@ -26,19 +26,19 @@ export default {
     "part": 3,
     "of": 3
   },
-  "intro": "The finale of <i>La Mer</i>, ‘Dialogue du vent et de la mer’, opens with low strings playing beneath timpani and bass drum. Calls from the first movement return, and a brass chorale sounds in the final fast passage, which ends in D♭ major.",
+  "intro": "The finale of <i>La Mer</i>, “Dialogue du vent et de la mer”, opens with low strings playing beneath timpani and bass drum. Calls from the first movement return, and a brass chorale sounds in the final fast passage, which ends in D♭ major.",
   "sections": [
     {
       "t": 0,
       "label": "A · Low strings and muted trumpet call",
       "m": "A",
-      "mNote": "Low strings accompany a phrase on muted trumpet"
+      "mNote": "Low strings accompany a phrase on muted trumpet."
     },
     {
       "t": 134,
       "label": "B · Wind phrases over running strings",
       "m": "B",
-      "mNote": "Long wind phrases stretch above the quick accompaniment"
+      "mNote": "Long wind phrases stretch above the quick accompaniment."
     },
     {
       "t": 234,
@@ -54,9 +54,9 @@ export default {
     },
     {
       "t": 378,
-      "label": "Coda · Brass chorale and D♭-major close",
+      "label": "Coda · Brass chorale and D♭ major close",
       "m": "Coda",
-      "mNote": "The brass chorale returns before the D♭-major ending."
+      "mNote": "The brass chorale returns before the D♭ major ending."
     }
   ],
   "cues": [
@@ -117,7 +117,7 @@ export default {
     {
       "t": 324,
       "kind": "life",
-      "title": "Debussy conducts La Mer, Paris, 1908",
+      "title": "Debussy conducts <i>La Mer</i>, Paris, 1908",
       "text": "On 19 and 26 January 1908 Debussy conducted <i>La Mer</i> himself with the Paris orchestra. The work had met resistance in 1905, and these performances brought him his greatest public success since <i>Pelléas et Mélisande</i>.",
       "basis": "documented",
       "precision": "passage",
@@ -145,7 +145,7 @@ export default {
   "transitions": [
     {
       "id": "into-quieter-centre",
-      "title": "Brass exchanges give way to harps",
+      "title": "Brass exchanges, then harps",
       "from": "B · Wind phrases over running strings",
       "to": "C · Flutes, harps and strings",
       "at": {
@@ -165,7 +165,7 @@ export default {
       "id": "into-final-drive",
       "title": "Brass chorale into Très animé",
       "from": "D · Brass above the moving strings",
-      "to": "Coda · Brass chorale and D♭-major close",
+      "to": "Coda · Brass chorale and D♭ major close",
       "at": {
         "t": 378
       },

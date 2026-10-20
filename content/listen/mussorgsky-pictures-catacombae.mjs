@@ -4,7 +4,7 @@ export default {
   order: 2,
   work: 'Pictures at an Exhibition',
   movement: 'VIII. Catacombae (Sepulcrum romanum) — Largo',
-  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 12, of: 15 },
+  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 12, of: 15, unit: 'pieces' },
   year: '1874',
   key: '',
   forces: 'Orchestra',
@@ -15,7 +15,7 @@ export default {
 
   sections: [
     { t: 0, label: 'A · Largo, sustained brass chords', m: 'A', mNote: 'The chords are held as long notes under fermatas.' },
-    { t: 42, label: 'B · G major turning to G minor', m: 'B', mNote: 'B♮ becomes B♭ above a low G' },
+    { t: 42, label: 'B · G major turning to G minor', m: 'B', mNote: 'B♮ becomes B♭ above a low G.' },
     { t: 94, label: 'Coda · Chords above a held F♯', m: 'Coda', mNote: 'The bass holds while the chords above it change.' },
   ],
 

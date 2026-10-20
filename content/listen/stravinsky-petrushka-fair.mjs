@@ -8,7 +8,7 @@ export default {
   order: 4,
   work: 'Petrushka (1911 original version)',
   movement: 'I. The Shrovetide Fair',
-  set: { id: 'stravinsky-petrushka', title: 'Petrushka (1911 original version)', part: 1, of: 4 },
+  set: { id: 'stravinsky-petrushka', title: 'Petrushka (1911 original version)', part: 1, of: 4, unit: 'tableaux' },
   year: '1910–11',
   key: '',
   forces: 'Orchestra with piano, celesta and two harps',
@@ -27,7 +27,7 @@ export default {
   },
   intro: 'The first tableau of Petrushka is set at a fair in St Petersburg, where a flute plays over an imitation of an accordion, street dancers compete for customers and a magician brings three puppets to life. Ernest Ansermet conducts the original 1911 score, which places a piano within the orchestra.',
   sections: [
-    { t: 0, label: 'A · Flute melody over the fair', m: 'A', mNote: 'Clarinets and horns play rocking figures beneath the flute’s tune' },
+    { t: 0, label: 'A · Flute melody over the fair', m: 'A', mNote: 'Clarinets and horns play rocking figures beneath the flute’s tune.' },
     { t: 100, label: 'B · Organ-grinder and music box', m: 'B', mNote: 'Street entertainers interrupt the crowd’s dancing.' },
     { t: 200, label: 'A′ · Return of the crowd music', m: 'A′', mNote: 'The barker’s call sounds and the revellers’ music returns.' },
     { t: 318, label: 'C · The magician’s flute', m: 'C', mNote: 'Low bassoons, celesta and harp play before the magician’s trick.' },

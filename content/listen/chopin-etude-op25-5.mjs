@@ -12,10 +12,10 @@ export default {
   "source": {
     "file": "File:Chopin - 12 Études, Op. 25 - No. 5 in E minor 'Wrong Note' (Edward Neeman).flac"
   },
-  "intro": "Chopin’s Étude in E minor, Op. 25 No. 5, marked Vivace, is built on quick semitone clashes, and its middle section is an E-major melody in the low register of the piano. Edward Neeman plays.",
+  "intro": "Chopin’s Étude in E minor, Op. 25 No. 5, marked Vivace, is built on quick semitone clashes, and its middle section is an E major melody in the low register of the piano. Edward Neeman plays.",
   "sections": [
     { "t": 0, "label": "A · Semitone clashes and short chords", "m": "A", "mNote": "Quick dissonances break into light, scherzando piano writing." },
-    { "t": 54, "label": "B · Left-hand melody in E major", "m": "B", "mNote": "A low melody under rising and falling figures in the right hand" },
+    { "t": 54, "label": "B · Left-hand melody in E major", "m": "B", "mNote": "A low melody under rising and falling figures in the right hand." },
     { "t": 148, "label": "A′ · E minor, opening material returns", "m": "A′", "mNote": "The broken rhythms and quick clashes return after the middle section." },
     { "t": 186, "label": "Coda · E major, fortissimo", "m": "Coda", "mNote": "Full chords and an upward flourish close in E major." }
   ],
@@ -83,7 +83,7 @@ export default {
       "to": "B · Left-hand melody in E major",
       "at": { "t": 54 },
       "span": [44, 66],
-      "how": "<p>The E-minor scherzando closes and the <i>Più lento</i> begins in E major. The left hand plays a sustained melody in the cello’s range. The right hand plays rising and falling figures in place of the clipped chords and semitone clashes of the opening.</p>",
+      "how": "<p>The E minor scherzando closes and the <i>Più lento</i> begins in E major. The left hand plays a sustained melody in the cello’s range. The right hand plays rising and falling figures in place of the clipped chords and semitone clashes of the opening.</p>",
       "devices": ["tempo change", "texture change", "register change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -91,12 +91,12 @@ export default {
     },
     {
       "id": "into-scherzando-return",
-      "title": "Return of the E-minor opening",
+      "title": "Return of the E minor opening",
       "from": "B · Left-hand melody in E major",
       "to": "A′ · E minor, opening material returns",
       "at": { "t": 148 },
       "span": [138, 160],
-      "how": "<p>The E-major section closes, and the quick E-minor opening returns. The left hand gives up its long melody, and the piano resumes the short broken chords and semitone dissonances. The marking <i>scherzando</i> again applies to the clipped exchange between the hands.</p>",
+      "how": "<p>The E major section closes, and the quick E minor opening returns. The left hand gives up its long melody, and the piano resumes the short broken chords and semitone dissonances. The marking <i>scherzando</i> again applies to the clipped exchange between the hands.</p>",
       "devices": ["tempo change", "texture change", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -109,7 +109,7 @@ export default {
       "to": "Coda · E major, fortissimo",
       "at": { "t": 186 },
       "span": [176, 198],
-      "how": "<p>The E-minor scherzando music returns and leads into a forceful coda. <i>Fortissimo</i> chords and a rising flourish on the piano establish E major, the key of the middle section.</p>",
+      "how": "<p>The E minor scherzando music returns and leads into a forceful coda. <i>Fortissimo</i> chords and a rising flourish on the piano establish E major, the key of the middle section.</p>",
       "devices": ["texture change", "register change", "crescendo build"],
       "basis": "score-proportion",
       "precision": "passage",

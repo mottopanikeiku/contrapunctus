@@ -1,12 +1,12 @@
 export default {
   slug: 'chopin', name: 'Frédéric Chopin', given: 'Frédéric', family: 'Chopin',
-  born: { year: 1810, date: '1 March 1810 by his family’s reckoning; the parish register gives 22 February', place: 'Żelazowa Wola, Duchy of Warsaw' },
+  born: { year: 1810, date: '1 March 1810', place: 'Żelazowa Wola, Duchy of Warsaw' },
   died: { year: 1849, date: '17 October 1849', place: 'Paris' },
   era: 'romantic',
   epithet: 'Composer for the piano, known for music that drew on operatic singing and on the irregular accents of the mazurka.',
   portrait: { file: 'File:Frédéric Chopin - Eugène Delacroix - Musée du Louvre Peintures RF 1717.jpg', caption: 'Chopin by Eugène Delacroix, 1838; a fragment of his double portrait with George Sand. Musée du Louvre.', focus: '50% 23%' },
   facts: [
-    ['Teachers', 'Wojciech Żywny; composition with Józef Elsner in Warsaw, 1826–29'],
+    ['Trained', 'Wojciech Żywny; composition with Józef Elsner in Warsaw, 1826–29'],
     ['Homes', 'Warsaw · Paris from 1831 · summers at Nohant'],
     ['Livelihood', 'Piano lessons, publishing and occasional concerts'],
     ['Instrument', 'The piano, from a few lines of mazurka to concertos and sonatas'],
@@ -121,7 +121,7 @@ a dear, sweet song.`, note: `<p>Chopin set Witwicki’s <i>Wiosna</i> in 1838 an
   ],
   recordings: [
     { work: 'Nocturnes', performers: 'Ivan Moravec', label: 'Connoisseur Society', note: 'The recording to start with for singing tone at the piano. Moravec gives the melody room and plays its returning notes each with a slightly different colour.' },
-    { work: 'Mazurkas', performers: 'Arthur Rubinstein', label: 'RCA', note: 'My first choice for the dances. The pulse stays firm under flexible phrasing, and the slower, kujawiak-like pieces are played with warmth. The stereo cycle has the clearest recorded sound.' },
+    { work: 'Mazurkas', performers: 'Arthur Rubinstein', label: 'RCA', note: 'The first choice for the dances. The pulse stays firm under flexible phrasing, and the slower, kujawiak-like pieces are played with warmth. The stereo cycle has the clearest recorded sound.' },
     { work: 'Études, Opp. 10 and 25', performers: 'Maurizio Pollini', label: 'Deutsche Grammophon', note: 'Brisk and unsentimental. The rapid figures are played cleanly over a firm bass, and the difficult passages are played without strain.' },
     { work: 'Twenty-four Preludes, Op. 28', performers: 'Martha Argerich', label: 'Deutsche Grammophon', note: 'The cycle is played with impatience and at times with ferocity; No. 16 is taken very fast, and the E minor Prelude reaches a fierce climax.' },
     { work: 'Ballades', performers: 'Krystian Zimerman', label: 'Deutsche Grammophon', note: 'The long spans are controlled throughout. Repeated phrases are varied by small changes of touch, and the climaxes are prepared well in advance.' },

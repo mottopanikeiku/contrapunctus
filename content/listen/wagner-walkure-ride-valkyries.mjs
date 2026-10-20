@@ -12,13 +12,13 @@ export default {
   "source": {
     "file": "File:Richard Wagner - Ride of the Valkyries.ogg"
   },
-  "intro": "The Ride of the Valkyries, an orchestral excerpt from Wagner’s Die Walküre, WWV 86B, has rushing strings and a loping brass tune. This Edison disc from 1921 lasts four minutes.",
+  "intro": "The Ride of the Valkyries, an orchestral excerpt from Wagner’s <i>Die Walküre</i>, WWV 86B, has rushing strings and a loping brass tune. This Edison disc from 1921 lasts four minutes.",
   "sections": [
     {
       "t": 0,
       "label": "Intro · Upward string runs under woodwind",
       "m": "Intro",
-      "mNote": "Upward string runs pass beneath the woodwind"
+      "mNote": "Upward string runs pass beneath the woodwind."
     },
     {
       "t": 48,
@@ -36,7 +36,7 @@ export default {
       "t": 164,
       "label": "A′ · Brass calls over rapid strings",
       "m": "A′",
-      "mNote": "Brass hold long notes above faster string figures"
+      "mNote": "Brass hold long notes above faster string figures."
     },
     {
       "t": 240,

@@ -18,7 +18,7 @@ export default {
   sections: [
     { t: 0, label: 'A · Hymn melody in two keys', m: 'A', mNote: 'A B♭ melody sounds above A♭ bass chords.' },
     { t: 74, label: 'A′ · Fifth Symphony motto among dissonant chords', m: 'A′', mNote: 'Repeated notes from the Fifth Symphony are heard at the climaxes.' },
-    { t: 178, label: 'B · Scottish songs at the piano', m: 'B', mNote: 'A parlour tune twice comes close to Wagner’s wedding music' },
+    { t: 178, label: 'B · Scottish songs at the piano', m: 'B', mNote: 'A parlour tune twice comes close to Wagner’s wedding music.' },
     { t: 262, label: 'Link · Parlour tune with chromatic inflection', m: 'Link', mNote: 'Chromatic notes are added to the song-like phrases.' },
     { t: 288, label: 'A″ · The whole tune in C major', m: 'A″', mNote: 'Broad piano chords join the earlier fragments into one tune.' },
     { t: 330, label: 'Coda · B♭ recalled, close in C major', m: 'Coda', mNote: 'B♭ returns briefly; the last chord is in C major.' },

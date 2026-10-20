@@ -6,8 +6,7 @@ export default {
     "id": "mahler-kindertotenlieder-anderson",
     "title": "Kindertotenlieder — Marian Anderson",
     "part": 2,
-    "of": 5
-  },
+    "of": 5, "unit": "songs" },
   "concert": false,
   "work": "Kindertotenlieder",
   "movement": "II. Nun seh’ ich wohl, warum so dunkle Flammen",
@@ -78,7 +77,7 @@ export default {
       "t": 116,
       "kind": "form",
       "title": "Third stanza, rehearsal 3",
-      "text": "At rehearsal 3 Anderson sings the children’s imagined reply, that they want to remain close. The harp plays broad D-major arpeggios, with soft winds above. Mahler marks the voice “warm”.",
+      "text": "At rehearsal 3 Anderson sings the children’s imagined reply, that they want to remain close. The harp plays broad D major arpeggios, with soft winds above. Mahler marks the voice “warm”.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 26–27, rehearsal 3; Rückert’s third stanza and the vocal marking warm."
@@ -110,7 +109,7 @@ export default {
       "to": "B · The children’s wish, D major",
       "at": { "t": 116 },
       "span": [106, 128],
-      "how": "<p>The voice holds back before “Leuchten” (shining). At <i>Tempo I</i>, the harp plays a D-major arpeggio above plucked D notes in the cellos and basses. Flute, clarinet and bassoon sustain, and Anderson’s line broadens under the direction <i>warm</i>.</p>",
+      "how": "<p>The voice holds back before “Leuchten” (shining). At <i>Tempo I</i>, the harp plays a D major arpeggio above plucked D notes in the cellos and basses. Flute, clarinet and bassoon sustain, and Anderson’s line broadens under the direction <i>warm</i>.</p>",
       "devices": ["tempo change", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",

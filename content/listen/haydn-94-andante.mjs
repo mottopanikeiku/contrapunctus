@@ -16,11 +16,11 @@ export default {
   // https://www.haydn2032.com/en/about-joseph-haydn
   sections: [
     { t: 0, label: 'Theme · Strings, then a full-orchestra chord', m: 'Theme', mNote: 'The tune is repeated and ends on a full-orchestra chord.' },
-    { t: 84, label: 'Var 1 · First violins decorate the theme', m: 'Var 1', mNote: 'Second violins and violas play the melody underneath' },
-    { t: 164, label: 'Var 2 · C minor, forte', m: 'Var 2', mNote: 'The violins exchange phrases as the harmony moves through darker keys' },
+    { t: 84, label: 'Var 1 · First violins decorate the theme', m: 'Var 1', mNote: 'Second violins and violas play the melody underneath.' },
+    { t: 164, label: 'Var 2 · C minor, forte', m: 'Var 2', mNote: 'The violins exchange phrases as the harmony moves through darker keys.' },
     { t: 244, label: 'Var 3 · Oboe, then flute duet', m: 'Var 3', mNote: 'The melody returns in C major in the winds.' },
-    { t: 318, label: 'Var 4 · Full orchestra, march rhythm', m: 'Var 4', mNote: 'Full orchestra alternates with strings and bassoon, played quietly' },
-    { t: 402, label: 'Coda · Winds over a held C', m: 'Coda', mNote: 'The strings play new chords beneath the theme' },
+    { t: 318, label: 'Var 4 · Full orchestra, march rhythm', m: 'Var 4', mNote: 'Full orchestra alternates with strings and bassoon, played quietly.' },
+    { t: 402, label: 'Coda · Winds over a held C', m: 'Coda', mNote: 'The strings play new chords beneath the theme.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening theme and fortissimo chord', text: 'The violins play a short theme in C major, and the bass adds a note at the start of each bar. The first phrase is repeated pianissimo, with pizzicato strings. Then the full orchestra plays a fortissimo G major chord.', basis: 'score-proportion', precision: 'passage', evidence: 'Andante, bars 1–16: the string theme, pianissimo pizzicato repeat and G major chord. https://de.wikipedia.org/wiki/94._Sinfonie_(Haydn)' },

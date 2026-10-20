@@ -20,7 +20,7 @@ export default {
   intro: 'In the slow dance of the D major <i>Water Music</i> suite, trumpets and horns hold long notes beneath the oboes and violins. The brass rest during a middle strain, and then the opening returns.',
 
   sections: [
-    { t: 0, label: 'A · Lentement, oboes and violins', m: 'A', mNote: 'Oboes and violins over held brass notes' },
+    { t: 0, label: 'A · Lentement, oboes and violins', m: 'A', mNote: 'Oboes and violins over held brass notes.' },
     { t: 34.3, label: 'A · First strain repeated', m: 'A', mNote: 'The same nineteen bars, ending under a fermata.' },
     { t: 68.1, label: 'B · A strain without brass', m: 'B', mNote: 'Oboes begin the new phrase; the strings join them.' },
     { t: 98.6, label: 'A · Return of the first strain', m: 'A', mNote: 'The first strain returns once and closes on its fermata.' },

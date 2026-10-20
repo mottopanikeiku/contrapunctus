@@ -14,10 +14,10 @@ export default {
   intro: 'The Notturno, marked Andante, is the slow third movement of Borodin’s String Quartet No. 2 in D major. It is in A major, and the cello plays the main theme over a syncopated accompaniment. Wright and Forrest adapted that theme in 1953 for the musical <i>Kismet</i>.',
   sections: [
     { t: 0, label: 'A · Cello theme over syncopated accompaniment', m: 'A' },
-    { t: 62, label: 'A · First violin, cello on long notes, letter A', m: 'A′' },
+    { t: 62, label: 'A′ · First violin, cello on long notes, letter A', m: 'A′' },
     { t: 155, label: 'B · Faster central section', m: 'B' },
     { t: 246, label: 'C · Cantabile passage and build', m: 'C' },
-    { t: 335, label: 'A · Tempo I, cello theme returns', m: 'A″', mNote: 'The cello plays the theme again, marked fp cant. espressivo.' },
+    { t: 335, label: 'A″ · Tempo I, cello theme returns', m: 'A″', mNote: 'The cello plays the theme again, marked fp cant. espressivo.' },
     { t: 398, label: 'Coda · Pizzicato, sustained notes, final statement', m: 'Coda' },
   ],
   cues: [

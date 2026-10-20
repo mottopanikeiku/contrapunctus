@@ -20,11 +20,11 @@ export default {
       evidence: 'Vanguard VSD-2085, dated 1961 in the Internet Archive carrier record; the sleeve identifies Fritz Mahler and the Hartford Symphony Orchestra. Discogs dates the stereo issue and its mono twin VRS-1067 to 1961, and records a copy stamped “May 20 1961”. This territorial phonogram basis does not remove copyright in Copland’s composition. https://archive.org/metadata/lp_three-jewish-poems-for-orchestra-fanfare_ernest-bloch-aaron-copland-the-hartford-sy/metadata https://www.discogs.com/release/5098889',
     },
   },
-  intro: 'Copland’s Orchestral Variations is his orchestration of his 1930 piano work, twenty variations and a coda built on four notes, E, C, E♭ and C♯. A soft horn plays the ringing C♯ of the opening, and parts of the keyboard’s hard-edged lines become a duet for flute and oboe.',
+  intro: 'Copland’s <i>Orchestral Variations</i> is his orchestration of his 1930 piano work, twenty variations and a coda built on four notes, E, C, E♭ and C♯. A soft horn plays the ringing C♯ of the opening, and parts of the keyboard’s hard-edged lines become a duet for flute and oboe.',
   sections: [
-    { t: 0, label: 'Theme and early variations', m: 'Theme' },
-    { t: 362, label: 'Variation 11 · Woodwind variation at the centre', m: 'Var 11' },
-    { t: 398, label: 'Variations 12–20 · Quickening', m: 'Var 12–20' },
+    { t: 0, label: 'Theme · Four-note motif and early variations', m: 'Theme' },
+    { t: 362, label: 'Var 11 · Woodwind variation at the centre', m: 'Var 11' },
+    { t: 398, label: 'Var 12–20 · Quickening', m: 'Var 12–20' },
     { t: 690, label: 'Coda · Broad orchestral chords', m: 'Coda' },
   ],
   cues: [

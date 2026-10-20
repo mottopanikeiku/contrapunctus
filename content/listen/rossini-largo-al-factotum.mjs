@@ -22,7 +22,7 @@ export default {
   },
   intro: '“Largo al factotum” is Figaro’s entrance aria in Act I of <i>Il barbiere di Siviglia</i>, sung as he arrives at dawn with a guitar round his neck. Titta Ruffo recorded it acoustically for Victor in 1920.',
   sections: [
-    { t: 0, label: 'A · Figaro\'s self-praise', m: 'A' },
+    { t: 0, label: 'A · Figaro’s self-praise', m: 'A' },
     { t: 94, label: 'B · The barber’s trade', m: 'B' },
     { t: 142, label: 'C · The customers’ calls', m: 'C' },
   ],

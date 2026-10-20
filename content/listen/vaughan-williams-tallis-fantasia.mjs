@@ -10,7 +10,7 @@ export default {
   performers: 'The U.S. Army Strings, U.S. Army Band “Pershing’s Own”',
   recorded: '',
   source: { file: "File:Banda dell'esercito degli Stati uniti, Ralph Vaughan Williams, Fantasia on a Theme by Thomas Tallis.ogg" },
-  intro: 'Vaughan Williams’s Fantasia on a Theme by Thomas Tallis is scored for two string orchestras and a solo quartet and is built on a sixteenth-century psalm tune; he first conducted it in Gloucester Cathedral in 1910. The U.S. Army Strings play it here.',
+  intro: 'Vaughan Williams’s <i>Fantasia on a Theme by Thomas Tallis</i> is scored for two string orchestras and a solo quartet and is built on a sixteenth-century psalm tune; he first conducted it in Gloucester Cathedral in 1910. The U.S. Army Strings play it here.',
   sections: [
     { t: 0, label: 'Intro · Soft chords and pizzicato fragments', m: 'Intro' },
     { t: 67, label: 'A · Tallis’s theme, stated twice', m: 'A' },

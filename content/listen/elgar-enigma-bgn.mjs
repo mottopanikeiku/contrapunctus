@@ -8,8 +8,7 @@ export default {
     "id": "elgar-enigma",
     "title": "Enigma Variations, Op. 36",
     "part": 12,
-    "of": 14
-  },
+    "of": 14, "unit": "parts" },
   "year": "1898–99",
   "key": "G minor",
   "forces": "Orchestra",
@@ -24,7 +23,7 @@ export default {
       "t": 0,
       "label": "Var 12 · Andante, Nevinson’s solo cello",
       "m": "Var 12",
-      "mNote": "Solo cello plays over soft lower strings"
+      "mNote": "Solo cello plays over soft lower strings."
     },
     {
       "t": 38,
@@ -77,7 +76,7 @@ export default {
       "at": {
         "t": 112
       },
-      "how": "<p>Elgar writes <i>diminuendo molto</i> across the winds and strings at the close of the G-minor Andante. The flutes and oboes stop first, then the bassoons and horns. The basses are silent, and the orchestral cellos hold a low note beneath the soloist’s last upward phrase and its long pause.</p>",
+      "how": "<p>Elgar writes <i>diminuendo molto</i> across the winds and strings at the close of the G minor Andante. The flutes and oboes stop first, then the bassoons and horns. The basses are silent, and the orchestral cellos hold a low note beneath the soloist’s last upward phrase and its long pause.</p>",
       "devices": [
         "decrescendo",
         "orchestration change",

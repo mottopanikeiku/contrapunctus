@@ -1,24 +1,24 @@
 {
   "id": "death-and-the-dies-irae",
   "title": "Death and the Dies irae",
-  "subtitle": "Funeral chant for bells, bones and piano",
+  "subtitle": "A medieval funeral chant and its later uses",
   "minutes": 21,
   "hero": {
     "file": "File:The Triumph of Death by Pieter Bruegel the Elder.jpg",
-    "caption": "Pieter Bruegel the Elder, <i>The Triumph of Death</i>, about 1562. Skeletons overrun a barren landscape."
+    "caption": "Pieter Bruegel the Elder, <i>The Triumph of Death</i>, c. 1562. Skeletons overrun a barren landscape."
   },
-  "intro": "A single voice leads into funeral bells, rattling bows and loud piano chords. The <i>Dies irae</i> appears in works by Berlioz, Liszt, Saint-Saëns and Rachmaninoff, and Verdi set its Latin words in his Requiem.",
+  "intro": "A plainchant hymn for one voice comes first. The <i>Dies irae</i> appears in works by Berlioz, Liszt, Saint-Saëns and Rachmaninoff, and Verdi set its Latin words in his Requiem.",
   "stations": [
     {
       "id": "s1",
       "title": "A hymn for one voice",
       "listen": { "id": "origins-pange-lingua", "from": 0, "to": 205.15 },
-      "art": { "file": "File:The Triumph of Death by Pieter Bruegel the Elder.jpg", "caption": "Bruegel’s <i>The Triumph of Death</i>, about 1562. Death rides a chestnut horse ahead of an army of skeletons." },
+      "art": { "file": "File:The Triumph of Death by Pieter Bruegel the Elder.jpg", "caption": "Bruegel’s <i>The Triumph of Death</i>, c. 1562. Death rides a chestnut horse ahead of an army of skeletons." },
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>Gareth Hughes sings <i>Pange lingua</i> unaccompanied, with a breath between each Latin phrase. The stanza melody of the Eucharistic hymn returns with new words for each verse.</p><p>At Catholic funerals the <a href=\"../influence.html#thread-dies-irae\"><i>Dies irae</i></a> was sung to a sterner melody. Its first eight notes in the Vatican <i>Graduale</i> are F–E–F–D–E–C–D–D. Berlioz later set that melody low in his orchestra. In Bruegel’s <i>The Triumph of Death</i>, skeletons have already crossed the landscape, driving the living before them.</p>",
+      "text": "<p>Gareth Hughes sings <i>Pange lingua</i> unaccompanied, with a breath between the Latin phrases. The stanza melody of the Eucharistic hymn returns with new words for each verse.</p><p>At Catholic funerals the <a href=\"../influence.html#thread-dies-irae\"><i>Dies irae</i></a> was sung to a sterner melody. Its first eight notes in the Vatican <i>Graduale</i> are F–E–F–D–E–C–D–D. Berlioz later set that melody low in his orchestra. In Bruegel’s <i>The Triumph of Death</i>, skeletons have already crossed the landscape, driving the living before them.</p>",
       "cues": [
         { "at": 0, "text": "Gareth Hughes sings <i>Pange lingua</i>, the Latin Eucharistic hymn, in a single unaccompanied line." },
         { "at": 68, "text": "The stanza melody returns with new Latin words." },
@@ -78,29 +78,29 @@
     },
     {
       "id": "s4",
-      "title": "Liszt’s changing piano style",
+      "title": "Liszt’s B minor Sonata",
       "listen": { "id": "liszt-sonata-b-minor", "from": 0, "to": 208 },
       "art": null,
       "score": null,
       "map": { "composer": "liszt", "year": 1853 },
       "edge": "berlioz-fantastique-dies-irae--liszt-totentanz",
       "compare": null,
-      "text": "<p>Liszt’s B-minor Sonata begins with low Gs and a falling scale. The piano then leaps into octaves and plays a repeated note. A few minutes later come broad D-major chords marked <i>Grandioso</i>.</p><p>Liszt had heard the première of Berlioz’s <i>Symphonie fantastique</i> in 1830 and transcribed it for piano in 1833. In <i>Totentanz</i> he wrote variations for piano and orchestra on the <i>Dies irae</i>. In the Sonata, beneath the broad <i>Grandioso</i> melody, the accompaniment continues to strike repeated quavers.</p>",
+      "text": "<p>Liszt’s B minor Sonata begins with low Gs and a falling scale. The piano then leaps into octaves and plays a repeated note. A few minutes later come broad D major chords marked <i>Grandioso</i>.</p><p>Liszt had heard the première of Berlioz’s <i>Symphonie fantastique</i> in 1830 and transcribed it for piano in 1833. In <i>Totentanz</i> he wrote variations for piano and orchestra on the <i>Dies irae</i>. In the Sonata, beneath the broad <i>Grandioso</i> melody, the accompaniment continues to strike repeated quavers.</p>",
       "cues": [
-        { "at": 0, "text": "Low Gs and falling scales begin Liszt’s B-minor Sonata, with silence between the phrases." },
+        { "at": 0, "text": "Low Gs and falling scales begin Liszt’s B minor Sonata, with silence between the phrases." },
         { "at": 40, "text": "The piano plays leaping octaves, then strikes a repeated note." },
-        { "at": 160, "text": "Broad D-major chords open the Grandioso; repeated quavers continue beneath the melody." }
+        { "at": 160, "text": "Broad D major chords open the Grandioso; repeated quavers continue beneath the melody." }
       ],
       "sources": [
         { "title": "The Hector Berlioz Website: Liszt at the première and the 1833 transcription", "url": "http://www.hberlioz.com/Predecessors/liszt.htm" },
         { "title": "John Mangum, Los Angeles Philharmonic: Totentanz and its Dies irae variations", "url": "https://www.laphil.com/works/totentanz" },
-        { "title": "Alan Tang: B-minor Sonata, opening motifs and Grandioso", "url": "https://www.classicalmusic-notes.com/liszt-sonata-1/" },
-        { "title": "Contrapunctus: Berlioz and Liszt", "url": "../influence.html#berlioz-fantastique-dies-irae--liszt-totentanz" }
+        { "title": "Alan Tang: B minor Sonata, opening motifs and Grandioso", "url": "https://www.classicalmusic-notes.com/liszt-sonata-1/" },
+        { "title": "Contrapunctus: Berlioz and Liszt", "url": "../influence.html#edge-berlioz-fantastique-dies-irae--liszt-totentanz" }
       ]
     },
     {
       "id": "s5",
-      "title": "Death’s fiddle and rattling bows",
+      "title": "Chant and round combined; col legno",
       "listen": { "id": "berlioz-fantastique-sabbat", "from": 490, "to": 673 },
       "art": null,
       "score": null,
@@ -143,23 +143,23 @@
     },
     {
       "id": "s7",
-      "title": "Three notes and a painted boat",
+      "title": "Rachmaninoff’s Prelude and Böcklin’s painting",
       "listen": { "id": "rachmaninoff-prelude-c-sharp-minor", "from": 0, "to": 138 },
       "art": { "file": "File:Arnold Böcklin - Die Toteninsel I (Basel, Kunstmuseum).jpg", "caption": "Arnold Böcklin, <i>Isle of the Dead</i>, first version, 1880. A figure in a white cloak stands beside a shrouded coffin in the boat." },
       "score": null,
       "map": { "composer": "rachmaninoff", "year": 1909 },
       "edge": "gregorian-chant--rachmaninoff-isle-dies-irae",
       "compare": null,
-      "text": "<p>Rachmaninoff plays his C♯-minor Prelude in this 1919 recording. It opens with three low notes, A–G♯–C♯, and the answering chords are played very quietly. The right hand then plays running triplets, with a descending melody carried inside them.</p><p>Böcklin’s <i>Isle of the Dead</i> shows a white-cloaked figure and a coffin in a boat approaching the island. Rachmaninoff saw a black-and-white reproduction of it in 1907. His orchestral <i>Isle of the Dead</i> uses the <i>Dies irae</i> in fragments and in longer phrases. In the Prelude, the triplets lead to a return of the three opening bass notes.</p>",
+      "text": "<p>Rachmaninoff plays his C♯ minor Prelude in this 1919 recording. It opens with three low notes, A–G♯–C♯, and the answering chords are played very quietly. The right hand then plays running triplets, with a descending melody carried inside them.</p><p>Böcklin’s <i>Isle of the Dead</i> shows a white-cloaked figure and a coffin in a boat approaching the island. Rachmaninoff saw a black-and-white reproduction of it in 1907. His orchestral <i>Isle of the Dead</i> uses the <i>Dies irae</i> in fragments and in longer phrases. In the Prelude, the triplets lead to a return of the three opening bass notes.</p>",
       "cues": [
-        { "at": 0, "text": "Rachmaninoff’s C♯-minor Prelude opens with A–G♯–C♯ in low octaves, followed by quiet chords." },
+        { "at": 0, "text": "Rachmaninoff’s C♯ minor Prelude opens with A–G♯–C♯ in low octaves, followed by quiet chords." },
         { "at": 64, "text": "A descending melody sounds inside the right hand’s running triplets." },
         { "at": 112, "text": "The Prelude’s triplets lead to the return of its opening chords." }
       ],
       "sources": [
         { "title": "Timothy Judd: Isle of the Dead, the monochrome reproduction and Dies irae material", "url": "https://thelistenersclub.com/2019/09/18/rachmaninovs-isle-of-the-dead-a-tone-poem-in-black-and-white/" },
         { "title": "Commons: Böcklin’s first version, Basel, 1880", "url": "https://commons.wikimedia.org/wiki/File:Arnold_B%C3%B6cklin_-_Die_Toteninsel_I_(Basel,_Kunstmuseum).jpg" },
-        { "title": "Rachmaninoff: C♯-minor Prelude, Mutopia score", "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf" },
+        { "title": "Rachmaninoff: C♯ minor Prelude, Mutopia score", "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf" },
         { "title": "Commons: Rachmaninoff’s 1919 Edison Prelude recording", "url": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_performs_Rachmaninoff%27s_Prelude_in_C_sharp_minor,_Op._3.ogg" },
         { "title": "Kunstmuseum Basel: Böcklin’s first Isle of the Dead and its white-cloaked figure", "url": "https://kunstmuseumbasel.ch/en/exhibitions/2020/encountering-b%C3%B6cklin/leaflet" },
         { "title": "Lucy Parham, Pianist: the Prelude’s chords, triplets and bell sonorities", "url": "https://www.pianistmagazine.com/blogs/how-to-play-rachmaninovs-prelude-in-c-sharp-minor-op-3-no-2/" }
@@ -167,21 +167,21 @@
     },
     {
       "id": "s8",
-      "title": "Piano passage",
+      "title": "The Prelude’s loud return and coda",
       "listen": { "id": "rachmaninoff-prelude-c-sharp-minor", "from": 138, "to": 227.9 },
       "art": null,
       "score": null,
       "map": { "composer": "rachmaninoff", "year": 1934 },
       "edge": "gregorian-chant--rachmaninoff-paganini-dies-irae",
       "compare": null,
-      "text": "<p>At the return in the C♯-minor Prelude, the quiet opening chords are spread across four staves, two for each hand, and marked <i>fff pesante</i>, very loud and heavy. The three-note opening figure is now played in these chords.</p><p>In the <i>Rhapsody on a Theme of Paganini</i> of 1934, Rachmaninoff gave the piano another melody of this weight. Variation VII sets the <i>Dies irae</i> in chords against Paganini’s tune in bassoons and plucked cellos. After its climax the Prelude grows quieter. A low C♯ is held beneath changing chords, and the final C♯-minor chord fades to <i>ppp</i>.</p>",
+      "text": "<p>At the return in the C♯ minor Prelude, the quiet opening chords are spread across four staves, two for each hand, and marked <i>fff pesante</i>, very loud and heavy. The three-note opening figure is now played in these chords.</p><p>In the <i>Rhapsody on a Theme of Paganini</i> of 1934, Rachmaninoff gave the piano another melody of this weight. Variation VII sets the <i>Dies irae</i> in chords against Paganini’s tune in bassoons and plucked cellos. After its climax the Prelude grows quieter. A low C♯ is held beneath changing chords, and the final C♯ minor chord fades to <i>ppp</i>.</p>",
       "cues": [
         { "at": 138, "text": "Running triplets lead to the Prelude’s huge return, written on four staves." },
         { "at": 207, "text": "A low C♯ sounds in the bass of the coda, with quieter chords above it." }
       ],
       "sources": [
         { "title": "Calvin Dotsey, Houston Symphony: Paganini Rhapsody, variation VII and its two materials", "url": "https://houstonsymphony.org/rachmaninoff-rhapsody-paganini/" },
-        { "title": "Rachmaninoff: C♯-minor Prelude, four-stave return and coda", "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf" },
+        { "title": "Rachmaninoff: C♯ minor Prelude, four-stave return and coda", "url": "https://www.mutopiaproject.org/ftp/RachmaninoffS/O3/rach-prelude-op3-no2/rach-prelude-op3-no2-a4.pdf" },
         { "title": "Hector Berlioz: chant and round combined", "url": "http://www.hberlioz.com/Scores/fantas.htm" },
         { "title": "Lucy Parham, Pianist: the Prelude’s bell-like climax and quiet ending", "url": "https://www.pianistmagazine.com/blogs/how-to-play-rachmaninovs-prelude-in-c-sharp-minor-op-3-no-2/" }
       ]

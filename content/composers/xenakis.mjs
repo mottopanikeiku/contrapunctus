@@ -14,7 +14,7 @@ export default {
     ['Turning points', '<i>Metastaseis</i> 1954 · <i>Pithoprakta</i> 1956 · Philips Pavilion 1958 · Polytope de Cluny 1972 · UPIC 1977'],
     ['Output', 'Orchestral, choral, chamber and percussion works · tape and computer music · polytopes · buildings and urban projects'],
   ],
-  quote: { text: 'The laws of the calculus of probabilities entered composition through musical necessity.', source: 'Xenakis, Formalized Music, quoted in Erik Christensen and Lise C. Bjerno, “Iannis Xenakis’s Pithoprakta: A Phenomenological Approach”, Meta-Xenakis (Open Book Publishers, 2024), chapter 18' },
+  quote: { text: 'The laws of the calculus of probabilities entered composition through musical necessity.', source: 'Xenakis, <i>Formalized Music</i>, quoted in Erik Christensen and Lise C. Bjerno, “Iannis Xenakis’s Pithoprakta: A Phenomenological Approach”, <i>Meta-Xenakis</i> (Open Book Publishers, 2024), chapter 18' },
   life: `
 <p class="dropcap">In 1951 Iannis Xenakis, an engineer in Le Corbusier’s Paris studio, took some of his scores to [[messiaen|Olivier Messiaen]]. Nadia Boulanger had declined to teach him and had sent him to Annette Dieudonné, a harmony teacher at the Conservatoire, who recommended Messiaen. Messiaen no longer gave private lessons but let him sit in on his class. According to Nouritza Matossian’s biography, he told Xenakis that he was Greek, an architect and trained in advanced mathematics: “Take advantage of these things. Do them in your music.”</p>
 <h3><span class="sc">1922–47</span>Brăila, Athens and Paris</h3>
@@ -52,8 +52,8 @@ export default {
     { year: '1956–57', title: 'Achorripsis', titleHtml: '<i>Achorripsis</i>', forces: '21 instruments', note: 'Structure calculated from Poisson’s law. First played in Buenos Aires in 1958 under Scherchen; the French première followed on 8 August 1959.' },
     { year: '1958', title: 'Concret PH', titleHtml: '<i>Concret PH</i>', forces: 'Tape', note: 'About two and three-quarter minutes, made at the GRM for the Philips Pavilion and played between performances of Varèse’s <i>Poème électronique</i>.' },
     { year: '1960–61', title: 'Herma', titleHtml: '<i>Herma</i>', forces: 'Piano', note: 'Pitch sets combined by union, intersection and complement. First played by Yuji Takahashi in Tokyo on 2 February 1962.' },
-    { year: '1962', title: 'ST/10', titleHtml: '<i>ST/10-1, 080262</i>', forces: 'Ten instruments; also a string-quartet version, <i>ST/4</i>', note: 'Calculated with an IBM 7090. First played on 24 May 1962 at the IBM France headquarters.' },
-    { year: '1963–64', title: 'Eonta', titleHtml: '<i>Eonta</i>', forces: 'Piano, 2 trumpets and 3 trombones', note: 'Commissioned by the Domaine Musical; first played on 16 December 1964 with Yuji Takahashi, conducted by Boulez.' },
+    { year: '1962', title: 'ST/10', titleHtml: '<i>ST/10-1, 080262</i>', forces: 'Ten instruments; also a string-quartet version, ST/4', note: 'Calculated with an IBM 7090. First played on 24 May 1962 at the IBM France headquarters.' },
+    { year: '1963–64', title: 'Eonta', titleHtml: '<i>Eonta</i>', forces: 'Piano, two trumpets and three trombones', note: 'Commissioned by the Domaine Musical; first played on 16 December 1964 with Yuji Takahashi, conducted by Boulez.' },
     { year: '1965–66', title: 'Nomos Alpha', titleHtml: '<i>Nomos Alpha</i>', forces: 'Solo cello', note: 'Sections ordered by the rotations of a cube. First played by Siegfried Palm in Bremen on 5 May 1966.' },
     { year: '1965–66', title: 'Terretektorh', titleHtml: '<i>Terretektorh</i>', forces: '88 players scattered among the audience', note: 'Each player also has a woodblock, whip, maracas and siren. First played at Royan on 3 April 1966 by the ORTF Philharmonic under Scherchen.' },
     { year: '1968', title: 'Nuits', titleHtml: '<i>Nuits</i>', forces: '12 solo voices or mixed choir', note: 'Subtitled “Sumerian, Assyrian, Achaean and other phonemes”. First sung at Royan on 7 April 1968 under Marcel Couraud.' },
@@ -144,9 +144,6 @@ C ^C _E F | ^F A c2 |]`,
     },
   ],
   recordings: [
-    { work: 'Metastaseis (original version A); Terretektorh; Nomos Gamma', performers: 'Orchestra Sinfonica Nazionale della RAI, Turin; Residentie Orkest, The Hague; Arturo Tamayo', year: 'Live, 2008 and 2011; released 2017', label: 'Mode Records, mode 299', note: 'The first recording of the original version of <i>Metastaseis</i>, for sixty-five players. <i>Terretektorh</i> and <i>Nomos Gamma</i> were recorded live at the Holland Festival in Amsterdam, with the orchestra dispersed among the audience.' },
-    { work: 'Metastaseis; Pithoprakta; ST/48; Achorripsis; Syrmos; Hiketides Suite', performers: 'Luxembourg Philharmonic Orchestra; Arturo Tamayo', year: '2008', label: 'Timpani', note: 'Metastaseis and Pithoprakta with Achorripsis, <i>ST/48</i>, <i>Syrmos</i> and a suite from the music for <i>Hiketides</i>. Volume 5 of Timpani’s Xenakis orchestral series.' },
-    { work: 'Pléiades; Persephassa', performers: 'Les Percussions de Strasbourg: Minh-Tâm Nguyen, Alexandre Esperet, François Papirer, Thibaut Weber, Hsin-Hsuan Wu, Yi-Ping Yang', year: 'Released 2022', label: 'Percussions de Strasbourg', note: 'The ensemble gave the first performance of <i>Persephassa</i> in 1969. This is the recording of its sixtieth-anniversary year by the current players.' },
     { work: 'Hibiki Hana Ma; Polytope de Cluny', performers: 'Tape works, mixed for stereo and 5.1 surround by Gérard Pape', year: 'Issued by 2008', label: 'Mode Records, mode 203', note: 'Two eight-channel works of the early 1970s. The <i>Polytope de Cluny</i> transfer is from the original analogue master tape and <i>Hibiki Hana Ma</i> from the multitrack digital masters; the DVD edition adds the film <i>Vasarely</i>.' },
   ],
   lineage: {

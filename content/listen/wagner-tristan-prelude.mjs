@@ -16,8 +16,7 @@ export default {
     "id": "wagner-tristan-excerpts",
     "title": "Tristan und Isolde — Prelude and Liebestod",
     "part": 1,
-    "of": 2
-  },
+    "of": 2, "unit": "excerpts" },
   "intro": "The Prelude to Act I of Wagner’s <i>Tristan und Isolde</i>, WWV 90, is heard here in its concert version. It opens with a four-note phrase in the cellos that leads to the woodwind, and the motion by a single semitone in that opening recurs throughout the prelude.",
   "sections": [
     {
@@ -42,13 +41,13 @@ export default {
       "t": 298,
       "label": "Dev · Strings climb beneath the woodwind",
       "m": "Dev",
-      "mNote": "Quick string figures climb beneath longer wind notes"
+      "mNote": "Quick string figures climb beneath longer wind notes."
     },
     {
       "t": 450,
       "label": "C · Whole orchestra, rising line",
       "m": "C",
-      "mNote": "Brass and woodwind rise above rushing strings"
+      "mNote": "Brass and woodwind rise above rushing strings."
     },
     {
       "t": 468,
@@ -86,7 +85,7 @@ export default {
       "t": 110,
       "kind": "music",
       "title": "Violin melody, bars 17–22",
-      "text": "The violin melody continues without the stops of the opening phrases, over violas and cellos, and each new idea begins before the previous one has ended. Wagner marks the rising first- and second-violin figures ‘auf dem G’, so they are played on the G string.",
+      "text": "The violin melody continues without the stops of the opening phrases, over violas and cellos, and each new idea begins before the previous one has ended. Wagner marks the rising first- and second-violin figures “auf dem G”, so they are played on the G string.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf score, pp. 3–4; p. 4 marks the rising first- and second-violin figures ‘auf dem G’. University of Texas, bars 17–22: https://www.laits.utexas.edu/tristan/prelude2.php."
@@ -103,8 +102,8 @@ export default {
     {
       "t": 270,
       "kind": "world",
-      "title": "The ‘glance’ motif",
-      "text": "The melody known as ‘the glance’ is tied to a scene told in the opera. Isolde stood over the wounded Tristan with his sword. He looked into her eyes, and she could not kill him.",
+      "title": "The “glance” motif",
+      "text": "The melody known as “the glance” is tied to a scene told in the opera. Isolde stood over the wounded Tristan with his sword. He looked into her eyes, and she could not kill him.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "University of Texas, analysis of the glance motif and its Act I dramatic origin: https://www.laits.utexas.edu/tristan/prelude2.php. The sword and wounded Tristan appear in the Act I narrative, summarised at https://en.wikipedia.org/wiki/Tristan_und_Isolde."
@@ -131,7 +130,7 @@ export default {
       "t": 470,
       "kind": "music",
       "title": "Timpani roll on E",
-      "text": "The brass stop. The timpani roll softly on E while the strings and wind play short phrases over a thinning orchestra. Wagner marks the passage ‘allmählich im Zeitmass etwas zurückhaltend’, and material from the opening returns.",
+      "text": "The brass stop. The timpani roll softly on E while the strings and wind play short phrases over a thinning orchestra. Wagner marks the passage “allmählich im Zeitmass etwas zurückhaltend”, and material from the opening returns.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Breitkopf score, pp. 12–13, after rehearsal C: E timpani roll, withdrawn brass, string fragments, ‘allmählich im Zeitmass etwas zurückhaltend’. University of Texas, return of the opening material in bars 94–106: https://www.laits.utexas.edu/tristan/prelude5.php."
@@ -159,7 +158,7 @@ export default {
         84,
         106
       ],
-      "how": "<p>The violins carry the rising melody into a longer phrase. Violas and cellos begin moving beneath it, and the bass changes note while the upper lines continue. The semitone steps of the opening remain, and rests no longer separate each phrase. On the following rise, Wagner marks the violins to play on the G string (‘auf dem G’).</p>",
+      "how": "<p>The violins carry the rising melody into a longer phrase. Violas and cellos begin moving beneath it, and the bass changes note while the upper lines continue. The semitone steps of the opening remain, and rests no longer separate each phrase. On the following rise, Wagner marks the violins to play on the G string (“auf dem G”).</p>",
       "devices": [
         "motivic link",
         "texture change",
@@ -181,7 +180,7 @@ export default {
         458,
         480
       ],
-      "how": "<p>After rehearsal C the violins fall from the climax in rapid runs. The brass stop, the bass thins out, and a quiet timpani roll holds E beneath shorter phrases in the wind and strings. Wagner marks a gradual slowing, ‘allmählich im Zeitmass etwas zurückhaltend’. The long rising line breaks up again into short phrases.</p>",
+      "how": "<p>After rehearsal C the violins fall from the climax in rapid runs. The brass stop, the bass thins out, and a quiet timpani roll holds E beneath shorter phrases in the wind and strings. Wagner marks a gradual slowing, “allmählich im Zeitmass etwas zurückhaltend”. The long rising line breaks up again into short phrases.</p>",
       "devices": [
         "decrescendo",
         "texture change",

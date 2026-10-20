@@ -13,9 +13,9 @@ export default {
   source: { file: 'File:Messiah Hallelujah Chorus 1916.ogg' },
   intro: 'The Oratorio Chorus recorded the <i>Hallelujah</i> chorus from Handel’s <i>Messiah</i>, HWV 56, on an Edison Diamond Disc in 1916. The four choral parts set a handful of biblical phrases in short repeated cries, long held proclamations and imitative entries.',
   sections: [
-    { t: 0, label: 'A · Hallelujah: choral exclamations with orchestra', m: 'A', mNote: 'Short choral cries of “Hallelujah” alternate with instrumental phrases.' },
+    { t: 0, label: 'A · “Hallelujah”, choral exclamations with orchestra', m: 'A', mNote: 'Short choral cries of “Hallelujah” alternate with instrumental phrases.' },
     { t: 72, label: 'B · Choir in longer phrases', m: 'B', mNote: 'Longer phrases interrupt the quick acclamations.' },
-    { t: 120, label: 'C · Long held notes over quick entries', m: 'C', mNote: 'Long held notes above the moving choral parts' },
+    { t: 120, label: 'C · Long held notes over quick entries', m: 'C', mNote: 'Long held notes above the moving choral parts.' },
     { t: 160, label: 'D · Voices combined', m: 'D', mNote: 'The choir combines its leaping tune and repeated cries.' },
     { t: 205, label: 'Coda · Final Hallelujah, D major', m: 'Coda', mNote: 'The final statement closes in D major.' },
   ],

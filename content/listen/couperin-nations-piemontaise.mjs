@@ -17,7 +17,7 @@ export default {
     { "t": 0, "label": "A · Long notes, Gravement", "m": "A", "mNote": "Violin and flute overlap above the shared bass." },
     { "t": 90, "label": "B · Vivement, upper parts and bass", "m": "B", "mNote": "Runs pass between the upper parts and the bass." },
     { "t": 134, "label": "C · Gravement, with even notes", "m": "C", "mNote": "The upper parts hold long notes while the bass moves." },
-    { "t": 202, "label": "D · Vivement et marqué", "m": "D", "mNote": "Quick figures with clearly marked beginnings" },
+    { "t": 202, "label": "D · Vivement et marqué", "m": "D", "mNote": "Quick figures with clearly marked beginnings." },
     { "t": 274, "label": "E · Two airs, major and minor", "m": "E", "mNote": "A major-key air returns after a second air in the minor." },
     { "t": 514, "label": "F · Gravement et marqué", "m": "F", "mNote": "Dotted figures above a held bass." },
     { "t": 545, "label": "G · Légèrement, in six-eight", "m": "G", "mNote": "Running quavers pass through all three parts." }
@@ -60,7 +60,7 @@ export default {
       "evidence": "Score, first Air, pp. 12–13: first dessus alone above the bass in bars 1–7, second dessus enters in bar 8. https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf"
     },
     {
-      "t": 345, "kind": "world", "title": "The four ordres of Les Nations",
+      "t": 345, "kind": "world", "title": "The four ordres of <i>Les Nations</i>",
       "text": "The four ordres of <i>Les Nations</i> are named after France, Spain, the Empire and Piedmont. Each opens with a sonata in the Italian style, followed by French dances. In this ordre the printed score follows the sonata with an allemande marked “nobly, and without slowness”.",
       "basis": "documented", "precision": "passage",
       "evidence": "Collection and design: https://earlymusicreview.com/francois-couperin-les-nations-1726/. Allemande marking, ‘Noblement, et sans lenteur’, score p. 20: https://s9.imslp.org/files/imglnks/usimg/2/25/IMSLP779316-PMLP297657-Couperin_-_La_Pi%C3%A9montoise.pdf. English translation is literal."
@@ -72,7 +72,7 @@ export default {
       "evidence": "Couperin, L’Art de toucher le clavecin (1716), opening instructions on grimaces, the mirror and “la clef de l’instrument” (Nicolas Sceaux’s transcription, p. 2–3): https://musebaroque.fr/archives/Partitions/Couperin_clavecin2.pdf"
     },
     {
-      "t": 485, "kind": "world", "title": "Preface to Les Nations, 1726",
+      "t": 485, "kind": "world", "title": "Preface to <i>Les Nations</i>, 1726",
       "text": "In his preface to <i>Les Nations</i> (1726), Couperin named both Corelli and Lully, “both of whose compositions I shall love as long as I live”. The book contains Italian sonatas and French dances.",
       "basis": "documented", "precision": "passage",
       "evidence": "Couperin, preface to Les Nations (1726), in the English translation quoted by Brian Robins. https://earlymusicreview.com/francois-couperin-les-nations-1726/"

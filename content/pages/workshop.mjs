@@ -7,8 +7,8 @@ export default {
   lede: 'In a Bach fugue a second voice enters while the first continues. In Ravel’s <i>Boléro</i> the same tune changes in character when the clarinet takes it over from the flute. Eighteen lessons examine details of this kind, using passages from real scores and short, playable examples.',
   lessons: [
     {
-      id: 'counterpoint', numeral: 'i', label: 'Melodies together', heading: 'Counterpoint: room for another voice',
-      question: 'Counterpoint: independent melodies sounding together',
+      id: 'counterpoint', numeral: 'i', label: 'Melodies together', heading: 'Counterpoint',
+      question: 'Independent melodies sounding together',
       listen: [{ id: 'couperin-nations-piemontaise', t: 95, why: 'Violin and flute exchange quick figures, and the bass joins in with runs of its own.' }],
       html: `
 <p>Counterpoint combines melodies that are each independent enough to be followed on their own. In [[couperin|Couperin]]’s <i>La Piémontoise</i>, violin and flute pass short phrases between them while the bass plays its own line. Each note belongs both to a melody moving through time and to the chord sounding at that moment.</p>
@@ -66,13 +66,13 @@ C4 | D4 | E4 | F4 |]`,
       ],
     },
     {
-      id: 'fugue', numeral: 'ii', label: 'One tune, several voices', heading: 'Fugue: the tune comes back with company',
+      id: 'fugue', numeral: 'ii', label: 'One tune, several voices', heading: 'Fugue',
       question: 'New voice entering while earlier voices continue singing',
       listen: [{ id: 'bach-wtc1-fugue-b-minor', t: 14, why: 'The answer takes up the B minor fugue’s winding subject while the first voice continues above it.' }],
       html: `
 <p>A fugue states a tune on its own before other tunes are set around it. In bars 1–2 of [[bach|Bach]]’s C major Fugue, BWV 846, an inner voice rises C–D–E–F, turns round G and continues. This is the <i>subject</i>. During bar 2 a higher voice starts the same tune on G. The first voice continues to move beneath it.</p>
 <aside class="note"><b>Voices on a keyboard</b>“Alto”, “soprano”, “tenor” and “bass” name the four lines, from their positions on the staff. One player supplies all four. The score example isolates the opening alto.</aside>
-<p>The second entrance is the <i>answer</i>, usually starting a fifth above or a fourth below the subject. A real answer preserves every interval; a tonal answer adjusts some intervals to keep the exchange close to the home key. BWV 846 has a real answer. Its opening entries arrive in the unusual order subject, answer, answer, subject: alto, soprano, tenor, bass.</p>
+<p>The second entrance is the <i>answer</i>, usually starting a fifth above or a fourth below the subject. A real answer preserves every interval; a tonal answer adjusts some intervals to keep the exchange close to the home key. BWV 846 has a real answer. Its opening entries come in the unusual order subject, answer, answer, subject: alto, soprano, tenor, bass.</p>
 <p>A recurring tune that accompanies the subject is a <i>countersubject</i>. It often has to work both above and below its partner, using [[workshop#counterpoint|invertible counterpoint]]. BWV 846 has no regular countersubject. Bach’s C minor Fugue, BWV 847, has two. By the end of its eight-bar exposition all three voices have entered. Bar 9 begins an <i>episode</i>, in which fragments of the subject move through a sequence without a complete statement of the tune.</p>
 <aside class="note"><b>Other ways to alter a subject</b>Augmentation lengthens its note values. Melodic inversion turns upward intervals downward and downward intervals upward. Neither operation requires a change of tempo.</aside>
 <p>In <i>stretto</i>, one voice starts the subject before another has finished it. After its opening entries the C major Fugue contains many of these overlaps. The subject has to fit against a delayed copy of itself, sometimes against several copies. Bach builds the fugue on these overlapping entries and introduces no new theme.</p>`,
@@ -94,15 +94,15 @@ z C D E F3/2 G/4 F/4 E A | D G- G/2 A/2 G/2 F/2 E/2 F/2 E/2 D/2 C/2 D/2 C/2 B,/2
       arts: [],
     },
     {
-      id: 'figured-bass', numeral: 'iii', label: 'The accompanist’s shorthand', heading: 'Figured bass: a chord in a few figures',
-      question: 'Figured bass and the player’s realised accompaniment',
+      id: 'figured-bass', numeral: 'iii', label: 'The accompanist’s shorthand', heading: 'Figured bass',
+      question: 'Bass figures and the player’s realised accompaniment',
       listen: [{ id: 'couperin-nations-piemontaise', t: 0, why: 'Gamba and keyboard share the bass beneath violin and flute; the keyboard fills out the chords.' }],
       html: `
 <p>Figured bass tells an accompanist which notes belong above a written bass line. In the opening of Couperin’s <i>La Piémontoise</i>, four players share three lines. Violin and flute take the upper parts, and gamba and keyboard share the bass. The keyboard player also supplies chords, choosing how widely to spread them and when to repeat them. This shared bass part, with its chords, is called the <i>basso continuo</i>.</p>
 <aside class="note"><b>Counting upwards</b>A 6 over C calls for A, six letter names above C. A 6 over E calls for C. The key signature supplies the appropriate sharps or flats.</aside>
-<p>A bare bass note usually implies a third and fifth above it. The figure 6 normally means a third and sixth: over E in C major, G and C make a C-major chord with its third at the bottom. A 6/4 over G calls for C and E. At a cadence those notes can fall to B and D while G is held. The figures 6–5 and 4–3 describe the two downward steps.</p>
+<p>A bare bass note usually implies a third and fifth above it. The figure 6 normally means a third and sixth: over E in C major, G and C make a C major chord with its third at the bottom. A 6/4 over G calls for C and E. At a cadence those notes can fall to B and D while G is held. The figures 6–5 and 4–3 describe the two downward steps.</p>
 <p>An accidental beside a figure alters that interval; an accidental on its own usually alters the third. The figures leave many choices to the player. E–G–C and G–C–E both realise a 6 over a bass E, but their top lines lead to different notes. Under a singer holding a dissonant note, the player may need to add a chord; during a long instrumental note, the player may add a short answering phrase.</p>
-<aside class="note"><b>Two kinds of shorthand</b>The modern symbol “C/E” names a C-major chord over E. A continuo figure 6 over E names the intervals above that bass. Both can lead to the same notes.</aside>
+<aside class="note"><b>Two kinds of shorthand</b>The modern symbol “C/E” names a C major chord over E. A continuo figure 6 over E names the intervals above that bass. Both can lead to the same notes.</aside>
 <p>In the example, the right hand holds E–G–C while the bass moves from C to E. The chord keeps its name, but the figures change. At the end the accompanist leads the individual voices into the final chord, with B rising to C and F falling to E.</p>`,
       score: [
         {
@@ -127,16 +127,16 @@ V:2
       arts: [],
     },
     {
-      id: 'temperament', numeral: 'iv', label: 'Tuning the keyboard', heading: 'Temperament: the fifths will not quite fit',
+      id: 'temperament', numeral: 'iv', label: 'Tuning the keyboard', heading: 'Temperament',
       question: 'Keyboard tuning: distributing an unavoidable small discrepancy',
       html: `
-<p>A pure fifth and a pure major third cannot both be kept on a keyboard. Four pure fifths, C–G–D–A–E, produce an E that is noticeably higher than the E of a pure C-major third once the octaves are brought together. A tuner has to decide where to make the adjustment, and the resulting compromise is called a <i>temperament</i>.</p>
+<p>A pure fifth and a pure major third cannot both be kept on a keyboard. Four pure fifths, C–G–D–A–E, produce an E that is noticeably higher than the E of a pure C major third once the octaves are brought together. A tuner has to decide where to make the adjustment, and the resulting compromise is called a <i>temperament</i>.</p>
 <aside class="note"><b>The arithmetic</b>A pure fifth has the frequency ratio 3:2; a pure major third, 5:4. Four pure fifths, reduced by two octaves, give 81:64. The difference from 5:4 is the syntonic comma, 81:80, about 21.51 cents. A cent is one hundredth of an equal-tempered semitone.</aside>
 <p>Twelve pure fifths do not close the circle. They exceed seven octaves by about 23.46 cents, the Pythagorean comma, 531441:524288. Quarter-comma meantone narrows each regular fifth by about 5.38 cents, which makes its major thirds pure. On a conventional twelve-note keyboard the closing interval is then badly out of tune; it is called the “wolf”. G♯ and A♭ need separate keys, and some old keyboards provide them.</p>
 <p>Unequal well temperaments spread the adjustments so that all twenty-four major and minor keys are usable, while their thirds and fifths differ in size. Equal temperament divides the octave into twelve equal semitones, each with the ratio 2<sup>1/12</sup>. Its fifth is 700 cents; its major third is 400 cents, wider than pure by about 13.69 cents. [[bach|Bach]]’s <i>Well-Tempered Clavier</i> ranges through every key, from its opening C major to the closing B minor.</p>
 <aside class="note"><b>Bach’s tuning</b>The title promises access to every key. It does not specify the exact temperament, and proposed reconstructions of Bach’s tuning differ.</aside>
 <p>The buttons below play the compromise. Each pair of notes contains upper tones, called <i>partials</i>. When two partials nearly coincide, they produce a regular throbbing, or beating. Over the low A used here, the equal-tempered fifth beats slowly and the equal-tempered major third beats much faster. With the pure ratios, the corresponding partials coincide and that particular beating stops.</p>
-<div class="lab" data-lab="tuning"><h4>Tuning laboratory</h4><div class="row"><button type="button" data-ratio="1.5" data-say="The matching upper tones meet at 660 Hz; this pair has no beating.">Pure fifth, 3:2</button><button type="button" data-ratio="1.4983070768766815" data-say="The upper tones sound at 660 and 659.255 Hz: about three beats every four seconds.">Equal-tempered fifth</button></div><div class="row"><button type="button" data-ratio="1.25" data-say="The matching upper tones meet at 1100 Hz; this pair has no beating.">Pure major third, 5:4</button><button type="button" data-ratio="1.2599210498948732" data-say="The upper tones sound at 1100 and 1108.731 Hz: about 8.73 beats each second.">Equal-tempered third</button><button type="button" data-ratio="1.265625" data-say="The upper tones sound at 1100 and 1113.75 Hz: 13.75 beats each second.">Pythagorean third</button></div><p class="readout">Each button pairs the same low A, tuned to 220 Hz, with a note above it.</p></div>`,
+<div class="lab" data-lab="tuning"><h3>Tuning laboratory</h3><div class="row"><button type="button" data-ratio="1.5" data-say="The matching upper tones meet at 660 Hz; this pair has no beating.">Pure fifth, 3:2</button><button type="button" data-ratio="1.4983070768766815" data-say="The upper tones sound at 660 and 659.255 Hz: about three beats every four seconds.">Equal-tempered fifth</button></div><div class="row"><button type="button" data-ratio="1.25" data-say="The matching upper tones meet at 1100 Hz; this pair has no beating.">Pure major third, 5:4</button><button type="button" data-ratio="1.2599210498948732" data-say="The upper tones sound at 1100 and 1108.731 Hz: about 8.73 beats each second.">Equal-tempered third</button><button type="button" data-ratio="1.265625" data-say="The upper tones sound at 1100 and 1113.75 Hz: 13.75 beats each second.">Pythagorean third</button></div><p class="readout">Each button pairs the same low A, tuned to 220 Hz, with a note above it.</p></div>`,
       score: [
         {
           kicker: 'Schematic · equal-tempered reference', title: 'A fifth and a major third above A',
@@ -155,7 +155,7 @@ V:1
       arts: [],
     },
     {
-      id: 'harmony', numeral: 'v', label: 'Chords finding home', heading: 'Harmony: why G7 wants to reach C',
+      id: 'harmony', numeral: 'v', label: 'Chords and cadences', heading: 'Harmony',
       question: 'Voice leading and harmonic arrival',
       listen: [{ id: 'couperin-nations-piemontaise', t: 590, why: 'The sonade’s running lines converge on the closing cadence.' }],
       html: `
@@ -200,14 +200,14 @@ V:1
 V:2
 %%MIDI program 0
 "C"C,4 | "Am"A,,4 | "D7"D,4 | "G"G,4 |]`,
-          caption: 'An invented progression from C towards G. A minor belongs to both keys. In bar 3, F♯ leads up to G while C leads down to B. The final G-major chord becomes a new tonic if the music that follows confirms it.',
+          caption: 'An invented progression from C towards G. A minor belongs to both keys. In bar 3, F♯ leads up to G while C leads down to B. The final G major chord becomes a new tonic if the music that follows confirms it.',
         },
       ],
       arts: [],
     },
     {
-      id: 'sonata-form', numeral: 'vi', label: 'Departure and return', heading: 'Sonata form: bringing the second theme home',
-      question: 'Beethoven: a familiar melody returns in a new key',
+      id: 'sonata-form', numeral: 'vi', label: 'Keys in a movement', heading: 'Sonata form',
+      question: 'Beethoven’s Fifth: the second theme returns in C major',
       listen: [
         { id: 'beethoven-5-first', t: 54, why: 'The first violins play in E♭ major while the opening short–short–short–long rhythm continues beneath them.' },
         { id: 'beethoven-5-first', t: 350, why: 'The second group returns in C major, on the same home note as the opening music.' },
@@ -217,7 +217,7 @@ V:2
 <aside class="note"><b>Exposition</b>The opening section establishes the home key and a contrasting key. In a major-key movement, the new key is often the dominant; in a minor-key movement, often the relative major. C minor and E♭ major share a key signature.</aside>
 <p>The <i>development</i> works on what the exposition has introduced. Beethoven starts his at bar 125, after the exposition repeat. The horn call returns in altered form; strings answer with D♭ falling to C. Later, the four-note rhythm is reduced to isolated chords passed between winds and strings.</p>
 <p>The <i>recapitulation</i> brings back the principal themes and changes the route between them. Beethoven’s second group now reaches C major, with bassoons taking the call previously played by horns. Beneath the violin melody, the opening rhythm continues. After the <i>coda</i>, the movement’s closing section, the Fifth’s first movement ends in C minor.</p>
-<aside class="note"><b>Second group in another key</b>In the <i>Waldstein</i> Sonata, Op. 53, Beethoven sends the C-major exposition to E major. At the return, the second group first appears in A major before reaching C.</aside>
+<aside class="note"><b>Second group in another key</b>In the “Waldstein” Sonata, Op. 53, Beethoven sends the C major exposition to E major. At the return, the second group first appears in A major before reaching C.</aside>
 <p>A sonata-form movement does not need a second tune. It can use the same theme in both key areas, which are defined by the key in which the music settles. In the Fifth, the four-note rhythm of the opening continues beneath the new violin theme. At bars 65–66, the cellos play three short B♭s and a longer E♭.</p>`,
       score: [
         {
@@ -237,7 +237,7 @@ V:1
       arts: [],
     },
     {
-      id: 'chromaticism', numeral: 'vii', label: 'Sharps and flats at work', heading: 'Chromaticism: the force of a semitone',
+      id: 'chromaticism', numeral: 'vii', label: 'Notes outside the key', heading: 'Chromaticism',
       question: 'Chromatic alteration and chord function',
       listen: [{ id: 'wagner-tannhauser-overture', t: 70, why: 'In this concert-band performance, the pilgrims’ hymn continues in long phrases while the chords beneath it change.' }],
       html: `
@@ -278,10 +278,10 @@ V:1
       arts: [],
     },
     {
-      id: 'tristan-chord', numeral: 'viii', label: 'An unfinished sentence', heading: 'The Tristan chord: a resolution that keeps us waiting',
+      id: 'tristan-chord', numeral: 'viii', label: 'Wagner’s opening chord', heading: 'The Tristan chord',
       question: 'Wagner: the unresolved dominant',
       html: `
-<p>The <i>Tristan</i> chord is the first harmony in [[wagner|Wagner]]’s <i>Tristan und Isolde</i>. After the cellos’ opening phrase, F–B–D♯–G♯ sounds in bar 2. The oboe’s G♯ rises. By bar 3 the harmony has reached E7, the dominant of A minor, which would normally resolve to an A-minor chord. Wagner follows it with a silence.</p>
+<p>The <i>Tristan</i> chord is the first harmony in [[wagner|Wagner]]’s <i>Tristan und Isolde</i>. After the cellos’ opening phrase, F–B–D♯–G♯ sounds in bar 2. The oboe’s G♯ rises. By bar 3 the harmony has reached E7, the dominant of A minor, which would normally resolve to an A minor chord. Wagner follows it with a silence.</p>
 <aside class="note"><b>Four notes</b>Above the bass F, B makes an augmented fourth, D♯ an augmented sixth and the high G♯ an augmented ninth. Rewritten F–A♭–C♭–E♭, the same piano keys would form a half-diminished seventh.</aside>
 <p>One influential explanation treats G♯ as an <i>appoggiatura</i>, a note leaning towards its neighbour A. That A would complete F–A–B–D♯, a French augmented sixth preparing E. The oboe continues upwards, G♯–A–A♯–B, a four-note phrase that moves across the changing harmony.</p>
 <aside class="note"><b>Two readings</b>The appoggiatura reading explains the chord’s tonal function. John Rothgeb’s analysis treats the whole G♯–A–A♯–B ascent as an ornament arriving early over the F bass. Both readings depend on the movement of the voices across bars 2–3.</aside>
@@ -344,7 +344,7 @@ V:1
       ],
     },
     {
-      id: 'modes', numeral: 'x', label: 'Another note feels like home', heading: 'Modes: the white keys change their meaning',
+      id: 'modes', numeral: 'x', label: 'Other centres on the white keys', heading: 'Modes',
       question: 'White-key scale with D as final: Dorian mode',
       html: `
 <p>A mode gives a familiar set of notes a different centre. The piano’s white keys make C major when C is the tonal centre. With D as the resting note, they make D Dorian: D–E–F–G–A–B–C. F gives it a minor third, and B♮ gives it a major sixth. Ordinary D natural minor has B♭.</p>
@@ -384,7 +384,7 @@ V:1
       arts: [],
     },
     {
-      id: 'whole-tone', numeral: 'xi', label: 'A scale without semitones', heading: 'Whole-tone harmony: six equal steps',
+      id: 'whole-tone', numeral: 'xi', label: 'A scale without semitones', heading: 'Whole-tone harmony',
       question: 'Debussy’s whole-tone scale: six equal steps, no leading note',
       html: `
 <p>The whole-tone scale has six notes, each a whole tone from the next: C–D–E–F♯–G♯–A♯, then C again. There are no semitones and no perfect fifths. C has the same neighbours, at the same distances, as every other note. A long bass note can still make one pitch stand out. In Debussy’s <i>Voiles</i> the bass keeps returning to low B♭.</p>
@@ -411,8 +411,8 @@ C D E | ^F ^G ^A | "C augmented"[CE^G]3 | "D augmented"[D^F^A]3 |]`,
       arts: [],
     },
     {
-      id: 'octatonic', numeral: 'xii', label: 'Semitone, tone, semitone', heading: 'Octatonic harmony: eight notes with several centres',
-      question: 'Two major chords from one unfamiliar scale',
+      id: 'octatonic', numeral: 'xii', label: 'Semitone, tone, semitone', heading: 'Octatonic harmony',
+      question: 'Two major chords from one eight-note scale',
       html: `
 <p>An octatonic scale alternates semitones and whole tones. From C, one version runs C–D♭–E♭–E–F♯–G–A–B♭, then back to C. Its eight notes include C major’s C–E–G and F♯ major’s F♯–A♯–C♯, with A♯ and C♯ respelled as B♭ and D♭. Two chords a tritone apart can therefore share the same scale.</p>
 <aside class="note"><b>Three possible collections</b>Moving an octatonic collection up a minor third reproduces its original notes. Only the starting position and the transpositions one and two semitones above it give distinct collections. Messiaen called the octatonic scale his second mode of limited transposition.</aside>
@@ -438,12 +438,12 @@ C _D _E =E | ^F G A _B | "F-sharp diminished 7"[^F,A,C_E]4 | "C-sharp diminished
       arts: [],
     },
     {
-      id: 'atonality', numeral: 'xiii', label: 'Beyond the home key', heading: 'Atonality: connections without a tonic',
+      id: 'atonality', numeral: 'xiii', label: 'Beyond the home key', heading: 'Atonality',
       question: 'Note groups as structure without dominant–tonic cadence',
       listen: [{ id: 'schoenberg-quartet-2-entrueckung', t: 0, why: 'The four string parts rise and cross one another before the soprano enters, and no home key is established beneath them.' }],
       html: `
 <p>Atonal music abandons the rule of tonic and dominant. At the opening of the finale of [[schoenberg|Schoenberg]]’s Second String Quartet, the strings play chromatic lines before a soprano enters. The movement’s title is <i>Entrückung</i>, rapture. In places its harmony has no home key, although tonal cadences return elsewhere in the movement.</p>
-<aside class="note"><b>Before the row</b>The quartet dates from 1907–08 and the Three Piano Pieces, Op. 11, from 1909. Schoenberg developed his twelve-tone method later. Atonal music can be composed without a twelve-note row.</aside>
+<aside class="note"><b>Before the row</b>The quartet dates from 1907–08 and the Three Piano Pieces, Op. 11, from 1909. Schoenberg developed his twelve-note method later. Atonal music can be composed without a twelve-note row.</aside>
 <p>A recurring group of intervals can hold such music together. The invented C–C♯–F figure below rises one semitone, then four. G–G♯–C repeats those distances a fifth higher. C–B–G turns both movements downwards. In each figure the small step comes first and the larger one second.</p>
 <p>A composer can spread those notes across the keyboard or sound them together as a chord. <i>Pitch-class analysis</i> sets aside the octave differences to describe such relationships. Every C belongs to one pitch class. The ear also hears how far apart the notes are, which instrument plays them and how long the gaps last. A high violin harmonic and a low cello note can belong to the same pitch class and have very different effects.</p>
 <aside class="note"><b>Consonant intervals remain</b>A major third or perfect fifth can occur inside an atonal passage. An isolated C–E–G chord establishes a key only when the surrounding music supports C as tonic.</aside>
@@ -473,10 +473,10 @@ V:1
       ],
     },
     {
-      id: 'twelve-tone', numeral: 'xiv', label: 'Twelve notes in order', heading: 'Twelve-tone writing: one row, many phrases',
+      id: 'twelve-tone', numeral: 'xiv', label: 'Twelve notes in order', heading: 'Twelve-note writing',
       question: 'Schoenberg: fixed pitch order, free rhythm',
       html: `
-<p>Twelve-tone writing starts with an ordering of all twelve chromatic pitch classes, each used once. Schoenberg’s <i>Suite for Piano</i>, Op. 25, is based on E–F–G–D♭–G♭–E♭–A♭–D–B–C–A–B♭. That row can supply a melody, be divided between several voices or be grouped into chords. It fixes neither the note lengths nor the octave in which each note sounds.</p>
+<p>Twelve-note writing starts with an ordering of all twelve chromatic pitch classes, each used once. Schoenberg’s <i>Suite for Piano</i>, Op. 25, is based on E–F–G–D♭–G♭–E♭–A♭–D–B–C–A–B♭. That row can supply a melody, be divided between several voices or be grouped into chords. It fixes neither the note lengths nor the octave in which each note sounds.</p>
 <aside class="note"><b>Bach in the row</b>The last four notes, read backwards, are B♭–A–C–B♮. In German notation B means B♭ and H means B♮, so the row can spell B–A–C–H.</aside>
 <p>The row has four standard forms. The <i>prime</i> gives the chosen order. <i>Inversion</i> reverses the direction of each interval, so E–F becomes E–E♭. <i>Retrograde</i> reads the order backwards; retrograde inversion reads the inverted order backwards. Each form can begin on any of twelve pitch levels, which gives forty-eight possibilities before any duplicates caused by symmetry in the row.</p>
 <p>Schoenberg used only eight of those possibilities in Op. 25, the four forms and their transpositions by a tritone. His Gavotte and Musette have different characters, and the Prelude moves forward on repeated pitches from bar 3. Immediate repetitions of a note do not break a row’s ordering, and the method does not forbid repeating a pitch that has just sounded.</p>
@@ -513,7 +513,7 @@ V:1
       arts: [],
     },
     {
-      id: 'rhythm', numeral: 'xv', label: 'Where the accents fall', heading: 'Rhythm: two beats can become three',
+      id: 'rhythm', numeral: 'xv', label: 'Where the accents fall', heading: 'Rhythm',
       question: 'Steady pulse under conflicting larger groupings',
       listen: [{ id: 'ravel-quartet-scherzo', t: 0, why: 'Plucked strings set groups of three quavers against groups of two, so the six quavers of the dance can be counted in two ways at once.' }],
       html: `
@@ -559,7 +559,7 @@ C,2 G,2 | C,2 G,2 |]`,
       arts: [],
     },
     {
-      id: 'orchestration', numeral: 'xvi', label: 'Choosing the player', heading: 'Orchestration: the flute hands over its tune',
+      id: 'orchestration', numeral: 'xvi', label: 'Choosing the player', heading: 'Orchestration',
       question: 'Same notes, different instrument: changes of timbre',
       listen: [
         { id: 'ravel-bolero', t: 13, why: 'A solo flute plays the first tune over the snare drum and the bass’s alternating C and G.' },
@@ -595,7 +595,7 @@ z8 | z8 | c2 d2 e2 g2 | f2 e2 d4 |]`,
       arts: [],
     },
     {
-      id: 'minimalism', numeral: 'xvii', label: 'A pattern begins to change', heading: 'Minimalism: two players slip apart',
+      id: 'minimalism', numeral: 'xvii', label: 'Repetition and gradual change', heading: 'Minimalism',
       question: 'Repeated figure against a partner one note ahead',
       html: `
 <p>In late 1966, [[reich|Steve Reich]] made a tape loop of a short piano pattern and tried playing along with it. He had already developed phasing with tape recorders and now wanted to do it with live performers. <i>Piano Phase</i> (1967) begins with two pianists repeating the same figure together. One speeds up slightly until the parts are one note apart. The overlapping notes form patterns that neither pianist plays alone.</p>
@@ -603,7 +603,7 @@ z8 | z8 | c2 d2 e2 g2 | f2 e2 d4 |]`,
 <p>Terry Riley gave performers a different freedom in <i>In C</i> (1964). All the players have the same fifty-three patterns in the same order, and each player chooses how many times to repeat a pattern before moving on to the next. Riley asked the players to stay within two or three patterns of one another. A repeated high C can keep the quaver pulse while the neighbouring patterns interlock.</p>
 <p>Philip Glass’s <i>Two Pages</i> lengthens and shortens a repeating line. The technique is called <i>additive process</i>, in which a figure returns with an extra piece attached or with a piece removed. An invented C–D–E could become C–D–E–G, then C–D–E–G–A. The notes keep their speed, but the beginning comes round later.</p>
 <aside class="note"><b>A different use of few notes</b>[[part|Pärt]]’s tintinnabuli joins a melodic line to a second voice drawn from a fixed triad. Its rules determine which triad note is placed beside each melody note.</aside>
-<p>In Pärt’s <i>Für Alina</i> (1976), the piano pairs a free-moving melody with notes of the B-minor triad. Phrases gain a note at a time, then lose them again. The second example below invents a simpler rule in A minor: each melody note receives the nearest strictly lower A, C or E. When the melody reaches F, the partner is E, leaving a bare semitone between them.</p>`,
+<p>In Pärt’s <i>Für Alina</i> (1976), the piano pairs a free-moving melody with notes of the B minor triad. Phrases gain a note at a time, then lose them again. The second example below invents a simpler rule in A minor: each melody note receives the nearest strictly lower A, C or E. When the melody reaches F, the partner is E, leaving a bare semitone between them.</p>`,
       score: [
         {
           kicker: 'Schematic · two phase positions', title: 'One-quaver advance in the lower pattern',
@@ -645,7 +645,7 @@ A A c c | e c c A |]`,
       arts: [],
     },
     {
-      id: 'spectralism', numeral: 'xviii', label: 'The notes inside a note', heading: 'Spectralism: an ensemble inside a low E',
+      id: 'spectralism', numeral: 'xviii', label: 'Harmonic spectra', heading: 'Spectralism',
       question: 'Overtones of one note as a chord',
       html: `
 <p>An instrumental note usually combines a fundamental with higher tones. In an ideal <i>harmonic spectrum</i>, these upper tones vibrate at two, three, four and more times the frequency of the fundamental. Over a low E, the first few fall near E, B, E, G♯, B, D and E. Differences in their relative strengths help make a bowed string sound different from a horn playing the same note.</p>

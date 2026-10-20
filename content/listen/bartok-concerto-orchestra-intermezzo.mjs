@@ -21,7 +21,7 @@ export default {
       evidence: 'First issued in 1948: Klára Móricz, critical-edition Comments, source RecR, https://www.henle.de/media/7c/05/ab/1697725629/7001-1697725628-sync.pdf . Columbia MM-793, released 22 November 1948 according to https://musicbase.net/the-complete-columbia-album-collection-1xfda0q . Contemporary corroboration identifies set 793 and ML-4102 as the same Pittsburgh/Reiner performance: https://www.newyorker.com/magazine/1949/03/12/concert-records . Territorial EU basis only; US status not established.',
     },
   },
-  intro: 'The fourth movement, Intermezzo interrotto (Allegretto), of the Concerto for Orchestra, Sz. 116. An oboe tune and a broad viola melody are interrupted by a clarinet playing a march from Shostakovich’s Seventh Symphony, and the trombones follow with a pair of slides.',
+  intro: 'In the fourth movement, Intermezzo interrotto (Allegretto), of the Concerto for Orchestra, Sz. 116, an oboe tune and a broad viola melody are interrupted by a clarinet playing a march from Shostakovich’s Seventh Symphony, and the trombones follow with a pair of slides.',
   sections: [
     { t: 0, label: 'A · Oboe theme, changing metres', m: 'A', mNote: 'The oboe plays the theme in changing metres over pizzicato strings.' },
     { t: 70, label: 'B · Calmo, viola melody over harps', m: 'B', mNote: 'Calmo. Broad viola melody, taken up by violins and cor anglais.' },
@@ -29,7 +29,7 @@ export default {
     { t: 130, label: 'X · Clarinet march with trombone glissandi', m: 'X', mNote: 'A borrowed march speeds up under brass glissandi and woodwind figures.' },
     { t: 182, label: 'B′ · Song theme reprised, muted strings', m: 'B′', mNote: 'Muted violins and violas play the theme over harp chords.' },
     { t: 202, label: 'A″ · First theme, oboe, flute, clarinet', m: 'A″', mNote: 'The first theme passes between solo winds.' },
-    { t: 232, label: 'Coda · Flute cadenza', m: 'Coda', mNote: 'The flute plays over held horns and strings' },
+    { t: 232, label: 'Coda · Flute cadenza', m: 'Coda', mNote: 'The flute plays over held horns and strings.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Oboe theme in changing metres', text: 'After a short string introduction, the oboe plays a tune in bars of changing length. Violas and cellos accompany it pizzicato.', basis: 'score-proportion', precision: 'passage', evidence: `Boosey & Hawkes full score, plate B. & H. 9009, p. 68: opening string chords, oboe tune and changing metres: ${SCORE}` },

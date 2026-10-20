@@ -23,9 +23,9 @@ export default {
     { t: 0, label: 'A · Low strings, high strings', m: 'A', mNote: 'Cellos and basses exchange sharp phrases with the violins.' },
     { t: 180, label: 'B · Long violin melody', m: 'B', mNote: 'Harp and repeated notes in the lower strings accompany the melody.' },
     { t: 322, label: 'Dev · Development, low piano and cellos', m: 'Dev', mNote: 'The piano, in its low register, and cellos begin the development.' },
-    { t: 540, label: 'C · Opening theme, brass and strings', m: 'C', mNote: 'Brass chords and strings take up the opening material, enlarged' },
+    { t: 540, label: 'C · Opening theme, brass and strings', m: 'C', mNote: 'Brass chords and strings take up the opening material, enlarged.' },
     { t: 660, label: 'B′ · Flute and horn', m: 'B′', mNote: 'The long melody returns above quiet repeated notes in the strings.' },
-    { t: 810, label: 'Coda · Violin, harp, then celesta', m: 'Coda', mNote: 'Muted strings accompany the last solos and celesta scales' },
+    { t: 810, label: 'Coda · Violin, harp, then celesta', m: 'Coda', mNote: 'Muted strings accompany the last solos and celesta scales.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening string exchange', text: 'Cellos and basses leap from D to B♭, and the violins follow. Rests separate the phrases as they pass across the orchestra. Winds and brass do not play.', basis: 'score-proportion', precision: 'passage', evidence: `Shostakovich, Symphony No. 5, Muzgiz full score, plate M. 16313 Г, p. 3: Moderato, opening string exchange. ${score}` },

@@ -9,7 +9,7 @@ export default {
     ['Trained', 'Piano with José Tragó in Madrid (first prize, 1899); composition with Felipe Pedrell from 1901'],
     ['Paris, 1907–14', 'Guided by Paul Dukas and Debussy; friends with Albéniz, Ravel and Ricardo Viñes'],
     ['Collaborators', 'Gregorio Martínez Sierra and María Lejárraga · Diaghilev and Massine · Picasso · Lorca'],
-    ['Output', 'An opera, a gitanería and a ballet, a nocturne for piano and orchestra, songs, a puppet opera and a harpsichord concerto; Atlántida unfinished'],
+    ['Output', 'An opera, a gitanería and a ballet, a nocturne for piano and orchestra, songs, a puppet opera and a harpsichord concerto; <i>Atlántida</i> unfinished'],
   ],
   quote: { text: 'For everything that concerns my trade, my homeland is Paris.', source: 'Falla to Ignacio Zuloaga, Granada, 12 February 1923; Archivo Manuel de Falla' },
   life: `
@@ -53,8 +53,8 @@ export default {
     { year: '1916–17', title: 'El corregidor y la molinera', forces: 'Mimed play for small orchestra', note: 'Falla and the Martínez Sierras’ version of Alarcón’s <i>El sombrero de tres picos</i>, given at the Teatro Eslava, Madrid, on 7 April 1917 under Joaquín Turina. Diaghilev asked for a ballet.' },
     { year: '1919', title: 'El sombrero de tres picos', forces: 'Ballet; orchestra', note: 'Massine’s ballet for the Ballets Russes, with Picasso’s curtain, sets and costumes, first danced at the Alhambra Theatre, London, on 22 July 1919. Falla drew two suites from it in 1921.' },
     { year: '1919', title: 'Fantasía bética', forces: 'Piano', note: 'Written after a commission from Arthur Rubinstein, who gave the first performance in New York on 8 February 1920.' },
-    { year: '1920', title: 'Homenaje pour le Tombeau de Claude Debussy', forces: 'Guitar; also arranged for piano', note: 'The first piece Falla completed in Granada, for a memorial issue of <i>La Revue musicale</i>. Marie-Louise Casadesus gave the first performance on a harp-lute in Paris on 24 January 1921.' },
     { year: '1919–23', title: 'El retablo de maese Pedro', forces: 'Puppet opera after Cervantes; small orchestra', note: 'Commissioned by the Princesse de Polignac in 1918 and staged in her Paris palace on 25 June 1923, with puppets by Hermenegildo Lanz and designs by Manuel Ángeles Ortiz.' },
+    { year: '1920', title: 'Homenaje pour le Tombeau de Claude Debussy', forces: 'Guitar; also arranged for piano', note: 'The first piece Falla completed in Granada, for a memorial issue of <i>La Revue musicale</i>. Marie-Louise Casadesus gave the first performance on a harp-lute in Paris on 24 January 1921.' },
     { year: '1923–26', title: 'Concerto', forces: 'Harpsichord (or piano), flute, oboe, clarinet, violin and cello', note: 'Written at Wanda Landowska’s request. She and soloists of the Orquestra Pau Casals gave the first performance in Barcelona on 5 November 1926, with Falla conducting.' },
     { year: '1927–46', title: 'Atlántida', forces: 'Large-scale stage work; unfinished', note: 'Conceived in 1927 and worked on until his last months in Argentina. The score was unfinished at his death.' },
     { year: '1935', title: 'Pour le tombeau de Paul Dukas', forces: 'Piano', note: 'Written for <i>La Revue musicale</i> after Dukas died in May 1935; Joaquín Nin-Culmell gave the first performance in Paris on 28 April 1936.' },
@@ -109,8 +109,6 @@ they can put the question.`, note: '<p>The voice enters on these lines in the fo
     { work: 'Siete canciones populares españolas', performers: 'María Barrientos, soprano; Manuel de Falla, piano', year: '1928–30', label: 'Columbia', note: 'The composer played the piano parts. Recorded in Paris from 31 March 1928.' },
     { work: 'El amor brujo', performers: 'Carol Brice, contralto; Pittsburgh Symphony Orchestra, Fritz Reiner', year: '1946', label: 'Columbia Masterworks; reissued by Sony Classical', note: 'All thirteen numbers of the ballet, recorded at the Syria Mosque, Pittsburgh, on 5 February 1946.' },
     { work: 'Noches en los jardines de España', performers: 'Clifford Curzon, piano; National Symphony Orchestra, Enrique Jordá', year: '1945', label: 'Decca', note: 'A 78-rpm set made at Kingsway Hall, London. Curzon recorded the work again with Jordá for an LP in 1951.' },
-    { work: 'Noches en los jardines de España · El sombrero de tres picos', performers: 'Alicia de Larrocha, piano; Teresa Berganza, mezzo-soprano; Orchestre de la Suisse Romande, Sergiu Comissiona and Ernest Ansermet', label: 'Decca', note: 'One disc with Nights and the complete ballet, with Berganza singing in the Hat.' },
-    { work: 'Fantasía bética · Homenaje · Cuatro piezas españolas', performers: 'Garrick Ohlsson, piano', year: '2016', label: 'Hyperion, CDA68177', note: 'Falla’s piano music in a single programme, recorded at St Silas the Martyr, Kentish Town, in November 2016.' },
   ],
   lineage: { from: ['Felipe Pedrell', 'debussy', 'Paul Dukas', 'Isaac Albéniz', 'scarlatti', 'Cante jondo'], to: ['Ernesto Halffter', 'poulenc'], note: '<p>Pedrell taught him from 1901. Dukas and Debussy were his guides in Paris, and Albéniz found him a grant. The link with Scarlatti is one of repertoire; Falla played fourteen of his sonatas at the Ateneo de Granada in 1927. Ernesto Halffter was his pupil and conducted the Orquesta Bética de Cámara that Falla founded in Seville. [[poulenc|Poulenc]] took the theme of the Pantomima for his third Novelette.</p>' },
   reading: [

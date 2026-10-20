@@ -32,13 +32,13 @@ export default {
       "t": 0,
       "label": "A · Four notes in the violins",
       "m": "A",
-      "mNote": "C–D–F–E meets quicker string figures"
+      "mNote": "C–D–F–E meets quicker string figures."
     },
     {
       "t": 154,
       "label": "Dev · Four notes passed between instruments",
       "m": "Dev",
-      "mNote": "Strings and winds take up the themes in changing keys"
+      "mNote": "Strings and winds take up the themes in changing keys."
     },
     {
       "t": 226,

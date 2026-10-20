@@ -6,9 +6,9 @@ export default {
   epithet: 'Composer and New York life-insurance salesman whose music sets a hymn heard across a river against a marching band.',
   portrait: { file: 'File:Charles Ives grad photo.jpg', caption: 'Charles Ives at his Yale graduation, 1898; photographer unidentified.', focus: '50% 23%' },
   facts: [
-    ['Teachers', 'His father George Ives; Horatio Parker at Yale, 1894–98'],
-    ['Day jobs', 'Church organist until 1902; insurance executive at Ives & Myrick'],
-    ['Paid for himself', '<i>Concord</i> Sonata and <i>Essays Before a Sonata</i>, 1920; <i>114 Songs</i>, 1922'],
+    ['Trained', 'His father George Ives; Horatio Parker at Yale, 1894–98'],
+    ['Livelihood', 'Church organist until 1902; insurance executive at Ives & Myrick'],
+    ['Self-published', '<i>Concord</i> Sonata and <i>Essays Before a Sonata</i>, 1920; <i>114 Songs</i>, 1922'],
     ['Home ground', 'Danbury bands and hymn singing; the New England of Emerson and Thoreau'],
   ],
   life: `
@@ -42,12 +42,12 @@ export default {
   ],
   works: [
     { year: 'c. 1891–92', title: 'Variations on “America”', forces: 'Organ', note: 'Written at seventeen, the piece puts the tune of <i>God Save the King</i> through a series of organists’ devices. William Schuman later made the orchestral arrangement.' },
-    { year: 'c. 1902–9', title: 'Symphony No. 2', forces: 'Orchestra', note: 'The five movements bring American songs into a European symphony. Bernstein gave the first performance in 1951, half a century after the work was begun.' },
-    { year: 'c. 1908–11', title: 'Symphony No. 3 “The Camp Meeting”', forces: 'Chamber orchestra', note: 'Hymn tunes from Ives’s church years fill its three movements. Lou Harrison conducted the 1946 première; the Pulitzer followed in 1947.' },
+    { year: 'c. 1902–09', title: 'Symphony No. 2', forces: 'Orchestra', note: 'The five movements bring American songs into a European symphony. Bernstein gave the first performance in 1951, half a century after the work was begun.' },
     { year: '1904–13', title: 'A Symphony: New England Holidays', titleHtml: '<i>A Symphony: New England Holidays</i>', forces: 'Orchestra; chorus in the final movement', note: 'The four occasions are Washington’s Birthday, Decoration Day, the Fourth of July, and Thanksgiving and Forefathers’ Day. In <i>Decoration Day</i>, the town band plays a quick march as it returns from the cemetery.' },
-    { year: 'c. 1909; revised c. 1936', title: 'Central Park in the Dark', titleHtml: '<i>Central Park in the Dark</i>', forces: 'Chamber orchestra, including two pianos', note: 'Quiet strings play beneath a growing din of popular tunes and city sounds. The strings continue after the din stops.' },
+    { year: 'c. 1908–11', title: 'Symphony No. 3 “The Camp Meeting”', forces: 'Chamber orchestra', note: 'Hymn tunes from Ives’s church years fill its three movements. Lou Harrison conducted the 1946 première; the Pulitzer followed in 1947.' },
     { year: '1908; revised 1930–35', title: 'The Unanswered Question', titleHtml: '<i>The Unanswered Question</i>', forces: 'Trumpet, four woodwinds and strings', note: 'A trumpet repeats the same short question while four winds answer more and more frantically. The slow strings continue after the last answer.' },
     { year: 'c. 1908–21; revised 1929, 1933–35', title: 'Three Places in New England', titleHtml: '<i>Three Places in New England</i>', forces: 'Orchestra; also a reduced-orchestra version', note: 'The Shaw memorial in Boston, a child’s Fourth of July picnic and a honeymoon walk beside the Housatonic. Slonimsky first performed the reduced-orchestra version in 1931.' },
+    { year: 'c. 1909; revised c. 1936', title: 'Central Park in the Dark', titleHtml: '<i>Central Park in the Dark</i>', forces: 'Chamber orchestra, including two pianos', note: 'Quiet strings play beneath a growing din of popular tunes and city sounds. The strings continue after the din stops.' },
     { year: '1910–25', title: 'Symphony No. 4', forces: 'Large orchestra, chorus, keyboards and separately coordinated groups', note: 'A chorus sings a hymn in the opening movement. The second movement combines several tempos at once and is notoriously difficult to conduct. The first complete performance took place in 1965, eleven years after Ives died.' },
     { year: 'c. 1916–19; revised 1920s–40s', title: 'Piano Sonata No. 2 “Concord, Mass., 1840–60”', forces: 'Piano; optional additional flute and viola passages', note: 'Four New England literary portraits, with quotations from Beethoven’s Fifth running through them. In <i>Hawthorne</i> the pianist uses a felt-covered board to play clusters on the black keys; in <i>Thoreau</i> a flute may join the pianist.' },
     { year: '1922', title: '114 Songs', titleHtml: '<i>114 Songs</i>', forces: 'Voice and piano', note: 'Ives paid to publish this collection of songs written over several decades. It printed the sentimental songs beside the dissonant ones and the political protests.' },

@@ -6,16 +6,16 @@ export default {
   born: { year: 1926, date: '19 February 1926', place: 'Lugoj, Romania' },
   died: null,
   era: 'after-1945',
-  epithet: 'Composer known for <i>Játékok</i>, which began as children’s piano games and grew to include pieces for friends, birthdays and farewells.',
+  epithet: 'Composer known for Játékok, which began as children’s piano games and grew to include pieces for friends, birthdays and farewells.',
   portrait: { file: 'File:Kurtág György-001 (cropped).jpg', caption: 'Photograph of György Kurtág by Lenke Szilágyi, 2014.', focus: '50% 25%' },
   facts: [
-    ['Teachers', 'Magda Kardos in Timișoara; Veress, Farkas, Kadosa and Weiner in Budapest'],
+    ['Trained', 'Magda Kardos in Timișoara; Veress, Farkas, Kadosa and Weiner in Budapest'],
     ['Teaching', 'Piano and chamber music at the Liszt Academy from 1967'],
-    ['Partnership', 'Married the pianist Márta Kinsker in 1947; they performed Bach and <i>Játékok</i> together'],
+    ['Marriage', 'Married the pianist Márta Kinsker in 1947; they performed Bach and <i>Játékok</i> together'],
     ['On stage', '<i>Troussova</i>, Paris 1981 · <i>Fin de partie</i>, Milan 2018'],
   ],
   life: `
-<p class="dropcap">Kurtág was eleven or twelve when his parents named the symphony coming from the radio: [[schubert|Schubert]]’s <i>Unfinished</i>. He was astonished that anyone could recognise such music. When he heard it again alone, he recognised it himself. “I asked for and was given the score,” he told Bálint András Varga in their 1982–85 interview; he then learned the piano arrangement. At home he and his mother played Beethoven symphonies four hands, sometimes far beyond their abilities, and read on regardless.</p>
+<p class="dropcap">Kurtág was eleven or twelve when his parents named the symphony coming from the radio: [[schubert|Schubert]]’s “Unfinished”. He was astonished that anyone could recognise such music. When he heard it again alone, he recognised it himself. “I asked for and was given the score,” he told Bálint András Varga in their 1982–85 interview; he then learned the piano arrangement. At home he and his mother played Beethoven symphonies four hands, sometimes far beyond their abilities, and read on regardless.</p>
 <p>He was born in Lugoj in 1926, in the Banat, where Hungarian, Romanian and German were everyday languages. In nearby Timișoara his piano teacher Magda Kardos entrusted him with younger pupils, so he began teaching while still a teenager. At the Budapest Academy’s entrance examinations in September 1945 he met [[ligeti|György Ligeti]], whose scores he already regarded as the work of a fully formed musician. Both young men had grown up with [[bartok|Bartók]] as their great example.</p>
 <p>Kurtág began his studies in Budapest in 1946. He studied composition with Sándor Veress and then Ferenc Farkas, piano with Pál Kadosa and chamber music with Leó Weiner. He qualified in piano and chamber music in 1951 and in composition four years later. The pianist Márta Kinsker became the first reader and critic of his new pieces, and he trusted her ear through every later crisis. They married in 1947.</p>
 <h3><span class="sc">Paris, 1957–58</span>Paris and Marianne Stein</h3>
@@ -128,8 +128,6 @@ with harmonies and everlasting reward and peace.`,
     },
   ],
   recordings: [
-    { work: 'Játékok · Bach transcriptions', performers: 'György and Márta Kurtág, piano', label: 'ECM New Series', note: 'A recording of his piano music. Between the four Bach transcriptions come the short pieces, some of them abrupt. Both players share one keyboard.' },
-    { work: 'Kafka-Fragmente', performers: 'Juliane Banse, soprano; András Keller, violin', label: 'ECM New Series', note: 'Banse changes vocal colour from fragment to fragment, and Keller gives the violin a part equal to the voice. In this cycle a few seconds of speech can open into a scene several minutes long.' },
     { work: 'Music for String Instruments', performers: 'Keller Quartet', label: 'ECM New Series', note: 'The Keller players studied with Kurtág, and they play with firm attacks. The disc pairs Op. 1, the first work in his catalogue, with <i>Officium breve</i>, a later quartet that draws heavily on other composers’ music.' },
     { work: 'Kurtág / Ligeti: Music for Viola', performers: 'Kim Kashkashian, viola', year: '2012', label: 'ECM New Series', note: 'Kashkashian plays the Kurtág pieces from <i>The Carenza Jig</i> to the broken phrases of <i>Faltering Words</i>. She and Manfred Eicher chose the order of Kurtág’s pieces, which are followed by Ligeti’s much larger Sonata.' },
   ],

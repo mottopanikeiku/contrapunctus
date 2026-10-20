@@ -20,13 +20,13 @@ export default {
   },
   intro: 'The first movement of Mozart’s Piano Concerto No. 21 in C major, K. 467, Allegro maestoso, opens with a quiet march in the strings; the piano enters and, after a pause, trills above the returning theme. Artur Schnabel is the soloist with Malcolm Sargent and the London Symphony Orchestra, and plays his own cadenza.',
   sections: [
-    { t: 0, label: 'A · A quiet march in strings', m: 'A', mNote: 'Woodwinds answer before the full orchestra joins' },
+    { t: 0, label: 'A · A quiet march in strings', m: 'A', mNote: 'Woodwinds answer before the full orchestra joins.' },
     { t: 128, label: 'A′ · Piano trill above the march', m: 'A′', mNote: 'The soloist adds new themes to the orchestra’s opening material.' },
     { t: 334, label: 'Link · Orchestra, G major cadences', m: 'Link', mNote: 'G major cadences lead to a quieter string continuation.' },
     { t: 392, label: 'Dev · New piano theme', m: 'Dev', mNote: 'A minor-key melody leads into rapid runs for the piano.' },
     { t: 480, label: 'A″ · String march returns in C major', m: 'A″', mNote: 'The opening tune returns in C major.' },
     { t: 676, label: 'Cadenza · Schnabel’s unaccompanied solo cadenza', m: 'Cadenza', mNote: 'Schnabel plays his own cadenza, unaccompanied.' },
-    { t: 774, label: 'Coda · Orchestra, C major', m: 'Coda', mNote: 'Winds and strings close the C major movement' },
+    { t: 774, label: 'Coda · Orchestra, C major', m: 'Coda', mNote: 'Winds and strings close the C major movement.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening march, strings', text: 'The strings begin a march in C major, piano, in short, separated notes. The woodwind reply, and fuller orchestral phrases follow. The piano does not play during this opening.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel full score (1878), Broude reprint, I, pp. 1–6. Hannah Chan-Hartley describes the orchestral march and wind replies: https://nac-cna.ca/en/event/notes/36107.' },

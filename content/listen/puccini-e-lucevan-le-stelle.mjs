@@ -1,7 +1,7 @@
 export default {
   id: 'puccini-e-lucevan-le-stelle', composer: 'puccini', order: 4,
   work: 'Tosca', movement: 'Act III · E lucevan le stelle — piano-accompanied recording',
-  set: { id: 'puccini-tosca-arias', title: 'Tosca — three arias', part: 3, of: 3 },
+  set: { id: 'puccini-tosca-arias', title: 'Tosca — three arias', part: 3, of: 3, unit: 'arias' },
   year: '1900', key: '', forces: 'Tenor and piano',
   performers: 'Enrico Caruso, tenor; Salvatore Cottone, piano', recorded: '11 April 1902',
   source: { file: 'File:E lucevan le stelle (1902).opus' },
@@ -9,7 +9,7 @@ export default {
   sections: [
     { t: 0, label: 'A · Cavaradossi recalls the night with Tosca', m: 'A', mNote: 'Cavaradossi recalls the stars and the garden gate.' },
     { t: 80, label: 'B · Kisses and embraces, tenor and piano', m: 'B', mNote: 'The tenor sings of holding Tosca in his arms.' },
-    { t: 124, label: 'C · Cavaradossi facing death', m: 'C', mNote: 'The memory ends with Cavaradossi facing death.' },
+    { t: 124, label: 'C · Cavaradossi facing death', m: 'C' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'Cavaradossi’s aria, Act III', text: 'On the roof of Castel Sant’Angelo, Cavaradossi recalls another night, with stars overhead, the scent of the earth and a garden gate creaking. The aria opens “E lucevan le stelle” (“And the stars were shining”). Caruso sings it here with piano accompaniment.', basis: 'general', precision: 'passage', evidence: 'Illica and Giacosa, Tosca (1900), Act III, Cavaradossi’s aria; text and setting in the La Scala libretto, pp. 38–39: https://www.teatroallascala.org/static/upload/tos/tosca-libretto-accessibile.pdf . Piano credit: https://commons.wikimedia.org/wiki/File:E_lucevan_le_stelle_(1902).opus . Translation ours; the opening line has the variant lucevan/lucevano.' },

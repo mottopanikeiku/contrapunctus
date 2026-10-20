@@ -122,9 +122,6 @@ but you, our God.`,
     },
   ],
   recordings: [
-    { work: 'Tabula rasa', performers: 'Gidon Kremer, Tatjana Grindenko, Alfred Schnittke, Lithuanian Chamber Orchestra, Saulius Sondeckis', year: '1984', label: 'ECM New Series', note: 'This is the recording to start with. It is by the first solo violinists, with Schnittke playing the prepared piano. Kremer and Keith Jarrett’s <i>Fratres</i> opens the same album.' },
-    { work: 'Alina', performers: 'Alexander Malter, Vladimir Spivakov, Sergej Bezrodny and Dietmar Schwalke', year: '1999', label: 'ECM New Series', note: 'The album contains two works. Malter’s long performances of <i>Für Alina</i> are placed between three accounts of <i>Spiegel im Spiegel</i>. Pärt and Eicher recorded the players in a Frankfurt church.' },
-    { work: 'Passio', performers: 'The Hilliard Ensemble and instrumentalists, Paul Hillier', year: '1988', label: 'ECM New Series', note: 'An essential account of the long Passion. The Hilliards sing steadily and with nearly no vibrato, so each interval is clearly heard; their performances convinced Pärt that the score worked after he had spent years doubting it.' },
     { work: 'Te Deum', performers: 'Estonian Philharmonic Chamber Choir, Tallinn Chamber Orchestra, Tõnu Kaljuste', year: '1993', label: 'ECM New Series', note: 'A good introduction to Pärt’s larger choral works. The wind-harp drone lies beneath the voices, and the climaxes are loud and full. The programme also includes <i>Magnificat</i>, <i>Silouan’s Song</i> and <i>Berliner Messe</i>.' },
   ],
   lineage: {

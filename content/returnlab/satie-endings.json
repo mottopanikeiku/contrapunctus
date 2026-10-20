@@ -2,10 +2,10 @@
   "id": "satie-endings",
   "track": "satie-gymnopedie-1",
   "title": "Satie: the ending",
-  "question": "Satie’s alteration of the tune’s final eight bars",
+  "question": "Satie changes the last eight bars of the tune when it returns.",
   "kind": "varied return",
   "status": "provisional",
-  "intro": "Thirty-one bars return unchanged, with the same piano melody, bass notes and chords. The last eight bars then differ. F♮ replaces F♯, and the piece ends in D minor after its first D-major close.",
+  "intro": "Thirty-one bars return unchanged, with the same piano melody, bass notes and chords. The last eight bars then differ. F♮ replaces F♯, and the piece ends in D minor after its first D major close.",
   "first": {
     "label": "Melody and first ending",
     "from": { "n": "1", "occ": 1 },

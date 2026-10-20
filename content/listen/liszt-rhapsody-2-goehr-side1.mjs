@@ -1,10 +1,10 @@
 export default {
-  intro: 'Liszt’s Hungarian Rhapsody No. 2 in C♯ minor, S. 244/2, in an orchestral version played by the National Symphony Orchestra of London under Walter Goehr, recorded at Kingsway Hall in 1945. This is the opening disc side only.',
+  intro: 'Walter Goehr conducts the National Symphony Orchestra of London in an orchestral version of Liszt’s Hungarian Rhapsody No. 2 in C♯ minor, S. 244/2, recorded at Kingsway Hall in 1945. This is the opening disc side only.',
   sections: [
-    { t: 0, label: 'A · Opening phrases, orchestral arrangement', m: 'A', mNote: 'Liszt’s opening phrases in an orchestral arrangement.' },
-    { t: 72, label: 'B · Softer orchestral continuation', m: 'B', mNote: 'A softer continuation after the opening phrases.' },
+    { t: 0, label: 'A · Opening phrases, orchestral arrangement', m: 'A' },
+    { t: 72, label: 'B · Softer orchestral continuation', m: 'B' },
     { t: 150, label: 'C · Orchestral phrases, louder', m: 'C', mNote: 'The orchestral phrases return at full strength.' },
-    { t: 212, label: 'D · Orchestra, softer continuation', m: 'D', mNote: 'A quieter continuation towards the end of the side' },
+    { t: 212, label: 'D · Orchestra, softer continuation', m: 'D' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Lassan, slow opening section', text: 'Liszt begins with the Lassan, the rhapsody’s slow half. Grave phrases stand beside capricious short turns before the fast dance takes over. Liszt wrote the original for one pianist; in this recording Goehr directs an orchestra.', basis: 'general', precision: 'passage', evidence: 'The Lassan’s contrasting character is described at https://en.wikipedia.org/wiki/Hungarian_Rhapsody_No._2. The recording source identifies the orchestral performers but leaves the arranger unidentified: https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London,_Walter_Goehr_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Decca-k1321-ar9230.flac.' },

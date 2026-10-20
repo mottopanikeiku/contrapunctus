@@ -1,7 +1,7 @@
 export default {
   "intro": "Rachmaninoff recorded Chopin’s <i>Minute Waltz</i> for Victor in 1923, one composer-pianist playing the music of another. A long melody and an unaccompanied trill interrupt the famous circling notes.",
   "sections": [
-    { "t": 0, "label": "A · Quavers around A♭", "m": "A", "mNote": "The left hand enters after the opening right-hand figure" },
+    { "t": 0, "label": "A · Quavers around A♭", "m": "A", "mNote": "The left hand enters after the opening right-hand figure." },
     { "t": 36, "label": "B · Sostenuto middle section", "m": "B", "mNote": "Sostenuto: longer notes above the waltz accompaniment." },
     { "t": 72, "label": "A′ · Return of the running figure", "m": "A′", "mNote": "The circling figure returns, then the bass enters." },
     { "t": 110, "label": "Coda · D♭ major", "m": "Coda", "mNote": "A final scale leads to a closing chord." }

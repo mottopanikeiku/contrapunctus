@@ -14,9 +14,9 @@ export default {
   intro: 'The first movement of Grieg’s only piano concerto opens with a timpani roll, after which the piano plays descending fortissimo chords. Neal O’Doan plays the whole movement, cadenza included, with the University of Washington Symphony conducted by Peter Erős.',
   sections: [
     { t: 0, label: 'A · Flourish, then the first theme', m: 'A', mNote: 'Timpani roll and piano cascade; the woodwinds then play the theme.' },
-    { t: 124, label: 'B · Second theme, cellos, C major', m: 'B', mNote: 'Second theme: a long melody in the cellos' },
+    { t: 124, label: 'B · Second theme, cellos, C major', m: 'B', mNote: 'Second theme: a long melody in the cellos.' },
     { t: 258, label: 'Dev · Themes broken into fragments', m: 'Dev' },
-    { t: 338, label: 'A′ · First theme returns, piano, softly', m: 'A′', mNote: 'First theme in piano chords, then second theme in A major' },
+    { t: 338, label: 'A′ · First theme returns, piano, softly', m: 'A′', mNote: 'First theme in piano chords, then second theme in A major.' },
     { t: 545, label: 'Cadenza · Piano alone', m: 'Cadenza' },
     { t: 729, label: 'Coda · New theme for oboes and bassoons', m: 'Coda' },
   ],

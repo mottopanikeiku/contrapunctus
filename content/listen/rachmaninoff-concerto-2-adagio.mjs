@@ -15,13 +15,13 @@ export default {
   source: { file: 'File:Sergei Rachmaninov - Concerto no. 2 for Piano and Orchestra in C minor - 2. Adagio sostenuto (Sviatoslav Richter, Stanisław Wisłocki, Warsaw National Philharmonic Orchestra, 1959).flac' },
   intro: 'In the Adagio sostenuto of the Piano Concerto No. 2, Op. 18, a flute begins the long melody and a clarinet continues it, while Sviatoslav Richter plays arpeggios on the piano beneath them. A stormy middle section comes before the movement returns to E major.',
   sections: [
-    { t: 0, label: 'Intro · Muted strings modulate to E major', m: 'Intro', mNote: 'Four slow bars modulate from C minor' },
-    { t: 35, label: 'A · Flute and clarinet over piano', m: 'A', mNote: 'A long wind melody above repeated piano arpeggios' },
+    { t: 0, label: 'Intro · Muted strings modulate to E major', m: 'Intro', mNote: 'Four slow bars modulate from C minor.' },
+    { t: 35, label: 'A · Flute and clarinet over piano', m: 'A', mNote: 'A long wind melody above repeated piano arpeggios.' },
     { t: 255, label: 'B · Short phrases over piano semiquavers', m: 'B', mNote: 'The winds alternate with the piano in brief phrases.' },
-    { t: 442, label: 'Cadenza · Solo piano cadenza', m: 'Cadenza', mNote: 'Orchestral chords alternate with solo piano runs' },
+    { t: 442, label: 'Cadenza · Solo piano cadenza', m: 'Cadenza', mNote: 'Orchestral chords alternate with solo piano runs.' },
     { t: 524, label: 'A′ · Slow theme in E major', m: 'A′', mNote: 'E major arpeggios accompany the violin melody as it returns.' },
     { t: 639, label: 'A″ · Piano chords with wind replies', m: 'A″', mNote: 'The piano plays the melody above broken chords; flutes play staccato.' },
-    { t: 680, label: 'Coda · The last E major chords', m: 'Coda', mNote: 'Wind phrases fall silent above the sustained strings' },
+    { t: 680, label: 'Coda · The last E major chords', m: 'Coda', mNote: 'Wind phrases fall silent above the sustained strings.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Introduction, C minor to E major', text: 'Muted strings begin in C minor, the key of the first movement. Clarinets, bassoons and horns join their slow chords as the notes move by semitones. The four-bar introduction modulates to E major, where the piano enters with arpeggios.', basis: 'score-proportion', precision: 'passage', evidence: 'Gutheil full score, Boosey & Hawkes reprint, p. 48: four-bar introduction, muted strings, wind entries and E major piano entrance. https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP528309-PMLP01953-Rachmaninoff_-_Piano_Concerto_No._2_(orch._score).pdf' },

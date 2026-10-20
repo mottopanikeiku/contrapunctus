@@ -19,7 +19,7 @@ export default {
   intro: 'Rachmaninoff wrote <i>Polichinelle</i>, Op. 3 No. 4 (Allegro vivace), at nineteen; it alternates loud, heavy notes with soft, rapid flurries and has a song-like middle section. The composer plays it in this 1923 recording.',
 
   sections: [
-    { t: 0, label: 'A · fff notes and ppp grace-note figures', m: 'A', mNote: 'Allegro vivace; fff notes alternate with ppp grace-note figures' },
+    { t: 0, label: 'A · Notes at fff, grace-note figures at ppp', m: 'A', mNote: 'Allegro vivace; fff notes alternate with ppp grace-note figures.' },
     { t: 94, label: 'B · Agitato, melody within running notes', m: 'B', mNote: 'An accented melody runs over long bass notes.' },
     { t: 158, label: 'A′ · Return of the opening theme', m: 'A′', mNote: 'Grace notes return, played quietly, before the final detached chords.' },
   ],
@@ -37,7 +37,7 @@ export default {
     {
       id: 'into-the-agitato',
       title: 'Descent into the <i>Agitato</i>',
-      from: 'A · fff notes and ppp grace-note figures',
+      from: 'A · Notes at fff, grace-note figures at ppp',
       to: 'B · Agitato, melody within running notes',
       at: { t: 94 },
       span: [82, 106],

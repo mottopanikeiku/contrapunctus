@@ -1,9 +1,9 @@
 export default {
   intro: 'Stokowski and the Philadelphia Orchestra play Liszt’s Hungarian Rhapsody No. 2 in C♯ minor, S. 244/2, in Karl Müller-Berghaus’s orchestral arrangement. This is the opening disc side of their 1936 recording.',
   sections: [
-    { t: 0, label: 'A · Slow introduction, C♯ minor, orchestra', m: 'A', mNote: 'Liszt’s slow opening, arranged for orchestra' },
+    { t: 0, label: 'A · Slow introduction, C♯ minor, orchestra', m: 'A', mNote: 'Liszt’s slow opening, arranged for orchestra.' },
     { t: 90, label: 'B · Continuation after the opening phrases', m: 'B', mNote: 'A quieter section following the opening phrases.' },
-    { t: 154, label: 'C · Orchestral phrases continue', m: 'C', mNote: 'Liszt’s phrases continue on the first disc side' },
+    { t: 154, label: 'C · Orchestral phrases continue', m: 'C' },
     { t: 202, label: 'D · Orchestral phrases return, stronger', m: 'D', mNote: 'Stronger orchestral phrases return before the side ends.' },
   ],
   cues: [

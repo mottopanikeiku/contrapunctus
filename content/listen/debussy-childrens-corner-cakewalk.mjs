@@ -8,8 +8,7 @@ export default {
     "id": "debussy-childrens-corner",
     "title": "Children’s Corner",
     "part": 6,
-    "of": 6
-  },
+    "of": 6, "unit": "pieces" },
   "year": "1906–08",
   "key": "E♭ major",
   "forces": "Piano",
@@ -26,11 +25,11 @@ export default {
       "evidence": "Columbia Masterworks ML 4366, 1951; Internet Archive item metadata and original carrier: https://archive.org/details/lp_childrens-corner-suite-forest-scenes-o_claude-debussy-robert-schumann-robert-c_0. Territorial EU basis; US status not established."
     }
   },
-  "intro": "Robert Casadesus plays “Golliwogg’s Cake-Walk”, the sixth piece of Debussy’s Children’s Corner. The cakewalk quotes a phrase from Wagner’s <i>Tristan</i>, marked “with great emotion”.",
+  "intro": "Robert Casadesus plays “Golliwogg’s Cake-Walk”, the sixth piece of Debussy’s <i>Children’s Corner</i>. The cakewalk quotes a phrase from Wagner’s <i>Tristan</i>, marked “with great emotion”.",
   "sections": [
-    { "t": 0, "label": "A · The E♭-major dance", "m": "A", "mNote": "Syncopations over a steady bass-and-chord accompaniment" },
-    { "t": 52, "label": "B · Wagner’s Tristan quotation, middle section", "m": "B", "mNote": "Wagner’s phrase alternates with clipped grace-note figures" },
-    { "t": 120, "label": "A′ · Cakewalk theme returns, E♭ major", "m": "A′", "mNote": "The first tempo and the E♭-major syncopations return." }
+    { "t": 0, "label": "A · The E♭ major dance", "m": "A", "mNote": "Syncopations over a steady bass-and-chord accompaniment." },
+    { "t": 52, "label": "B · Wagner’s Tristan quotation, middle section", "m": "B", "mNote": "Wagner’s phrase alternates with clipped grace-note figures." },
+    { "t": 120, "label": "A′ · Cakewalk theme returns, E♭ major", "m": "A′", "mNote": "The first tempo and the E♭ major syncopations return." }
   ],
   "cues": [
     { "t": 0, "kind": "music", "title": "Syncopated tune over bass and chords", "text": "The tune places its accents across the beat while the left hand plays a regular bass-and-chord accompaniment. Debussy marks it <i>très net et très sec</i> — very clear and very dry. Sudden loud notes stand out among the quieter ones.", "basis": "score-proportion", "precision": "passage", "evidence": "Debussy, Children’s Corner, Durand (1908), plate D. & F. 7188, pp. 24–25: syncopation, bass-and-chord accompaniment, contrasting dynamics and très net et très sec. https://s9.imslp.org/files/imglnks/usimg/0/0d/IMSLP252526-PMLP02387-Debussy%2C_Claude-Childrens_Corner_Durand_7188_filter.pdf" },
@@ -42,11 +41,11 @@ export default {
     {
       "id": "into-expressive-interruption",
       "title": "The middle section in G♭ major",
-      "from": "A · The E♭-major dance",
+      "from": "A · The E♭ major dance",
       "to": "B · Wagner’s Tristan quotation, middle section",
       "at": { "t": 52 },
       "span": [42, 66],
-      "how": "<p>The E♭-major dance thins out to short exchanges between the hands. The key signature changes from three flats to six, and the marking <i>Un peu moins vite</i> slows the tempo. Grace-note chords over repeated bass notes open the G♭-major middle section, and the piano then plays the chromatic phrase from <i>Tristan</i>.</p>",
+      "how": "<p>The E♭ major dance thins out to short exchanges between the hands. The key signature changes from three flats to six, and the marking <i>Un peu moins vite</i> slows the tempo. Grace-note chords over repeated bass notes open the G♭ major middle section, and the piano then plays the chromatic phrase from <i>Tristan</i>.</p>",
       "devices": ["tempo change", "texture change", "direct modulation"],
       "basis": "score-proportion",
       "precision": "passage",

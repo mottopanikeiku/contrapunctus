@@ -42,7 +42,7 @@ export default {
       "t": 204,
       "label": "Dev · Clarinet in F♯ minor",
       "m": "Dev",
-      "mNote": "Wide leaps and running figures above the strings"
+      "mNote": "Wide leaps and running figures above the strings."
     },
     {
       "t": 272,
@@ -149,7 +149,7 @@ export default {
       "at": {
         "t": 84
       },
-      "how": "<p>The orchestra continues the A major refrain, then gives way to a longer clarinet melody over quieter strings. The solo phrases and a changing bass lead towards E major. The six-eight pulse continues beneath the more sustained clarinet line.</p>",
+      "how": "<p>The orchestra continues the A major refrain, and a longer clarinet melody follows over quieter strings. The solo phrases and a changing bass lead towards E major. The six-eight pulse continues beneath the more sustained clarinet line.</p>",
       "devices": [
         "link passage",
         "orchestration change",
@@ -203,7 +203,7 @@ export default {
       "at": {
         "t": 272
       },
-      "how": "<p>The central minor-key passage gives way to the flowing clarinet melody of the earlier episode. The strings play more quietly beneath the solo as the music moves back towards the home-key region. Mozart holds back the complete A major refrain and brings the secondary tune back first.</p>",
+      "how": "<p>The central minor-key passage is followed by the flowing clarinet melody of the earlier episode. The strings play more quietly beneath the solo as the music moves back towards the home-key region. Mozart holds back the complete A major refrain and brings the secondary tune back first.</p>",
       "devices": [
         "motivic link",
         "texture change",

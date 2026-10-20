@@ -22,9 +22,9 @@ export default {
   },
   intro: 'Günter Kehr conducts the complete Symphony in B minor, Wq 182/5, the fifth of the six string symphonies Bach wrote for Baron van Swieten. Its three movements are marked Allegretto, Larghetto and Presto, and quiet violin phrases alternate with abrupt loud passages.',
   sections: [
-    { t: 0, label: 'A · Allegretto: exchanges between the violins', m: 'A', mNote: 'Soft violin phrases alternate with fast passages in the strings' },
-    { t: 276, label: 'B · Larghetto: short phrases, sudden accents', m: 'B', mNote: 'Slurred violin figures alternate with sudden loud passages' },
-    { t: 502, label: 'C · Presto: chords against running strings', m: 'C', mNote: 'Clipped chords over a running bass; both halves repeated' },
+    { t: 0, label: 'A · Allegretto: exchanges between the violins', m: 'A', mNote: 'Soft violin phrases alternate with fast passages in the strings.' },
+    { t: 276, label: 'B · Larghetto: short phrases, sudden accents', m: 'B', mNote: 'Slurred violin figures alternate with sudden loud passages.' },
+    { t: 502, label: 'C · Presto: chords against running strings', m: 'C', mNote: 'Clipped chords over a running bass; both halves repeated.' },
   ],
   cues: [
     {

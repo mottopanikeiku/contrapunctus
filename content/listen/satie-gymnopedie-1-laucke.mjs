@@ -16,7 +16,7 @@ export default {
   sections: [
     { t: 0, label: 'A · Bass and plucked chords, Lent', m: 'A', mNote: 'The slow three-beat accompaniment plays before the melody enters.' },
     { t: 37.5, label: 'B · Melody in a lower register', m: 'B', mNote: 'A held melody note sounds across changing chords.' },
-    { t: 82.3, label: 'A′ · Opening material again', m: 'A′', mNote: 'Bass and chords introduce the opening melody again' },
+    { t: 82.3, label: 'A′ · Opening material again', m: 'A′', mNote: 'Bass and chords introduce the opening melody again.' },
     { t: 148.8, label: 'B′ · Closing phrase in the minor', m: 'B′', mNote: 'The closing phrase uses a flattened third.' },
   ],
   cues: [

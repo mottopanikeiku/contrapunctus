@@ -26,19 +26,19 @@ export default {
       "t": 0,
       "label": "A · Ripples and crossed hands",
       "m": "A",
-      "mNote": "Short notes dart above and below the right hand’s semiquavers"
+      "mNote": "Short notes dart above and below the right hand’s semiquavers."
     },
     {
       "t": 120,
       "label": "B · The spring in full flow",
       "m": "B",
-      "mNote": "Scales and arpeggios carry the tune across the keyboard"
+      "mNote": "Scales and arpeggios carry the tune across the keyboard."
     },
     {
       "t": 148,
       "label": "A′ · The ripples subside",
       "m": "A′",
-      "mNote": "The flowing piano writing continues towards the close"
+      "mNote": "The flowing piano writing continues towards the close."
     }
   ],
   "cues": [

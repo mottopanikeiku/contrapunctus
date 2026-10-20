@@ -23,11 +23,11 @@ export default {
   "sections": [
     { "t": 0, "label": "A · Piano, accented dance theme", "m": "A", "mNote": "The finale opens with a Ukrainian tune in B♭ minor." },
     { "t": 62, "label": "B · Contrasting violin melody in D♭ major", "m": "B", "mNote": "The violins introduce the contrasting tune in D♭ major." },
-    { "t": 91, "label": "A′ · Piano’s B♭-minor dance theme returns", "m": "A′", "mNote": "Descending scales lead back to the clipped B♭-minor tune." },
+    { "t": 91, "label": "A′ · Piano’s B♭ minor dance theme returns", "m": "A′", "mNote": "Descending scales lead back to the clipped B♭ minor tune." },
     { "t": 158, "label": "B′ · Broad theme in E♭ major", "m": "B′", "mNote": "The broad tune returns a tone higher." },
     { "t": 179, "label": "A″ · Refrain, extended", "m": "A″", "mNote": "The refrain returns with scales, arpeggios and a longer build." },
     { "t": 250, "label": "Link · Piano octaves prepare B♭", "m": "Link", "mNote": "Octave runs in the piano lead to the broad final theme." },
-    { "t": 306, "label": "B″ · Broad melody, full orchestra, B♭ major", "m": "B″", "mNote": "The broad melody returns in B♭ major." },
+    { "t": 306, "label": "B″ · Broad melody, full orchestra, B♭ major", "m": "B″" },
     { "t": 337, "label": "Coda · Allegro vivo to the end", "m": "Coda", "mNote": "Quick piano figures and orchestral chords close in B♭ major." }
   ],
   "cues": [
@@ -35,7 +35,7 @@ export default {
       "t": 0,
       "kind": "music",
       "title": "Piano entry, Ukrainian song",
-      "text": "After a brief orchestral opening, the piano enters with a Ukrainian song, <i>Go on, go on Ivan</i>. The B♭-minor dance theme is built from short phrases with displaced accents.",
+      "text": "After a brief orchestral opening, the piano enters with a Ukrainian song, <i>Go on, go on Ivan</i>. The B♭ minor dance theme is built from short phrases with displaced accents.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Ukrainian song identified under Related Works at https://en.tchaikovsky-research.net/index.php?title=Piano_Concerto_No._1. Opening and piano theme: https://tonic-chord.com/tchaikovsky-piano-concerto-no-1-analysis/."
@@ -62,7 +62,7 @@ export default {
       "t": 158,
       "kind": "form",
       "title": "Second theme in E♭ major",
-      "text": "The broad melody returns in E♭ major, a tone above its first appearance. Descending scales lead back to the piano’s B♭-minor dance.",
+      "text": "The broad melody returns in E♭ major, a tone above its first appearance. Descending scales lead back to the piano’s B♭ minor dance.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Finale, second appearance of the contrasting theme in E♭ major and descending transition: https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky); bars 133–158 in https://tonic-chord.com/tchaikovsky-piano-concerto-no-1-analysis/."
@@ -107,7 +107,7 @@ export default {
       "t": 337,
       "kind": "music",
       "title": "Coda, Allegro vivo",
-      "text": "The marking changes to <i>Allegro vivo</i>. Rapid piano figures lead into the final B♭-major chords, and the concerto closes on a dominant–tonic cadence.",
+      "text": "The marking changes to <i>Allegro vivo</i>. Rapid piano figures lead into the final B♭ major chords, and the concerto closes on a dominant–tonic cadence.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Final coda marking and perfect authentic cadence: https://en.wikipedia.org/wiki/Piano_Concerto_No._1_(Tchaikovsky)."
@@ -116,7 +116,7 @@ export default {
   "transitions": [
     {
       "id": "join-1",
-      "title": "Violins enter with the D♭-major melody",
+      "title": "Violins enter with the D♭ major melody",
       "from": "A · Piano, accented dance theme",
       "to": "B · Contrasting violin melody in D♭ major",
       "at": { "t": 62 },
@@ -131,10 +131,10 @@ export default {
       "id": "join-2",
       "title": "Down the scales to B♭ minor",
       "from": "B · Contrasting violin melody in D♭ major",
-      "to": "A′ · Piano’s B♭-minor dance theme returns",
+      "to": "A′ · Piano’s B♭ minor dance theme returns",
       "at": { "t": 91 },
       "span": [81, 106],
-      "how": "<p>Descending scales lead away from the D♭-major melody. The harmony moves through F major to B♭ minor, and the piano’s dance returns in a shortened form.</p>",
+      "how": "<p>Descending scales lead away from the D♭ major melody. The harmony moves through F major to B♭ minor, and the piano’s dance returns in a shortened form.</p>",
       "devices": ["retransition", "motivic link", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -143,7 +143,7 @@ export default {
     {
       "id": "join-3",
       "title": "The broad tune returns in E♭",
-      "from": "A′ · Piano’s B♭-minor dance theme returns",
+      "from": "A′ · Piano’s B♭ minor dance theme returns",
       "to": "B′ · Broad theme in E♭ major",
       "at": { "t": 158 },
       "span": [148, 173],
@@ -160,7 +160,7 @@ export default {
       "to": "A″ · Refrain, extended",
       "at": { "t": 179 },
       "span": [169, 194],
-      "how": "<p>Descending scales lead the music from the E♭-major theme back towards B♭ minor. The piano plays the refrain again, then a longer succession of scales and arpeggios that leads into the coda.</p>",
+      "how": "<p>Descending scales lead the music from the E♭ major theme back towards B♭ minor. The piano plays the refrain again, then a longer succession of scales and arpeggios that leads into the coda.</p>",
       "devices": ["retransition", "motivic link", "sequence"],
       "basis": "score-proportion",
       "precision": "passage",
@@ -181,7 +181,7 @@ export default {
     },
     {
       "id": "join-6",
-      "title": "Dominant preparation to the B♭-major melody",
+      "title": "Dominant preparation to the B♭ major melody",
       "from": "Link · Piano octaves prepare B♭",
       "to": "B″ · Broad melody, full orchestra, B♭ major",
       "at": { "t": 306 },
@@ -199,7 +199,7 @@ export default {
       "to": "Coda · Allegro vivo to the end",
       "at": { "t": 337 },
       "span": [327, 352],
-      "how": "<p>The broad melody gives way to the <i>Allegro vivo</i>. The piano plays quick figures against emphatic orchestral chords, and the last bars close in B♭ major with a perfect cadence from F to B♭.</p>",
+      "how": "<p>The broad melody is followed by the <i>Allegro vivo</i>. The piano plays quick figures against emphatic orchestral chords, and the last bars close in B♭ major with a perfect cadence from F to B♭.</p>",
       "devices": ["tempo change", "texture change", "perfect cadence"],
       "basis": "score-proportion",
       "precision": "passage",

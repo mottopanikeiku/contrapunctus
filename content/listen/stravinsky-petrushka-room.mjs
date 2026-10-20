@@ -8,7 +8,7 @@ export default {
   order: 5,
   work: 'Petrushka (1911 original version)',
   movement: 'II. Petrushka’s room',
-  set: { id: 'stravinsky-petrushka', title: 'Petrushka (1911 original version)', part: 2, of: 4 },
+  set: { id: 'stravinsky-petrushka', title: 'Petrushka (1911 original version)', part: 2, of: 4, unit: 'tableaux' },
   year: '1910–11',
   key: '',
   forces: 'Orchestra with piano, celesta and two harps',
@@ -28,9 +28,9 @@ export default {
   intro: 'In the second tableau of Petrushka, heard here in the 1911 original version, Petrushka is kicked into his room and left alone with his fury. Two clarinets play his cry, sounding C major and F♯ major together.',
   sections: [
     { t: 0, label: 'A · Petrushka’s cry, clarinets and piano', m: 'A', mNote: 'Two clarinets play clashing lines; the piano then takes over.' },
-    { t: 72, label: 'B · Adagietto: piano, flutes and xylophone', m: 'B', mNote: 'Adagietto for piano, flutes and xylophone.' },
+    { t: 72, label: 'B · Adagietto, piano, flutes and xylophone', m: 'B' },
     { t: 166, label: 'C · Petrushka dances for the Ballerina', m: 'C', mNote: 'Allegro; he courts her with awkward leaps.' },
-    { t: 188, label: 'D · Clarinet cadenza, piano arpeggios', m: 'D', mNote: 'Clarinet cadenza over piano arpeggios after the Ballerina leaves' },
+    { t: 188, label: 'D · Clarinet cadenza, piano arpeggios', m: 'D', mNote: 'Clarinet cadenza over piano arpeggios after the Ballerina leaves.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'C major and F♯ major clarinets', text: 'A foot kicks Petrushka through the door. Two clarinets play arpeggios on C major and F♯ major together for his cry. The piano takes up the figure and runs it up and down the keyboard.', basis: 'score-proportion', precision: 'passage', evidence: `Édition Russe full score, plate R.M.V. 127, pp. 63–65, rehearsals 48–51; stage direction and paired clarinet arpeggios. ${scoreUrl}` },
@@ -41,8 +41,8 @@ export default {
     { t: 245, kind: 'music', title: 'Clarinet cadenza, rehearsal 61', text: 'The two clarinets bring back Petrushka’s cry in a slow cadenza. C major and F♯ major still sound together. The curtain closes on the same pair of chords that is associated with him at the beginning.', basis: 'score-proportion', precision: 'passage', evidence: `Édition Russe score, p. 77, rehearsal 61: paired clarinet cadenza before the curtain passage. ${scoreUrl}` },
   ],
   transitions: [
-    { id: 'into-lament', title: 'Piano run into the Adagietto', from: 'A · Petrushka’s cry, clarinets and piano', to: 'B · Adagietto: piano, flutes and xylophone', at: { t: 72 }, span: [60, 88], how: '<p>A held orchestral chord breaks off at a pause. At rehearsal 52 the piano plays a soft, rising run, close to a glissando, into the <i>Adagietto</i>. Flutes repeat a rocking figure above the piano’s low notes, and clarinets and xylophone add short taps. Brass and strings rest.</p>', devices: ['fermata', 'tempo change', 'texture change', 'orchestration change'], basis: 'score-proportion', precision: 'passage', evidence: `Édition Russe score, p. 67, rehearsal 52. ${scoreUrl}` },
-    { id: 'into-visit', title: 'Flute and piano music to <i>Allegro</i>', from: 'B · Adagietto: piano, flutes and xylophone', to: 'C · Petrushka dances for the Ballerina', at: { t: 166 }, span: [155, 180], how: '<p>At rehearsals 55–56 (Édition Russe score, pp. 69–70) the music for flute and piano gives way to <i>Allegro</i>. Bassoons and oboes play repeated notes and the piano plays arpeggios. Bars of two crotchets alternate with bars of three. The strings move between pizzicato and arco while Petrushka dances.</p>', devices: ['tempo change', 'metre change', 'orchestration change'], basis: 'score-proportion', precision: 'passage', evidence: `Édition Russe score, pp. 69–70, rehearsals 55–56. ${scoreUrl}` },
+    { id: 'into-lament', title: 'Piano run into the Adagietto', from: 'A · Petrushka’s cry, clarinets and piano', to: 'B · Adagietto, piano, flutes and xylophone', at: { t: 72 }, span: [60, 88], how: '<p>A held orchestral chord breaks off at a pause. At rehearsal 52 the piano plays a soft, rising run, close to a glissando, into the <i>Adagietto</i>. Flutes repeat a rocking figure above the piano’s low notes, and clarinets and xylophone add short taps. Brass and strings rest.</p>', devices: ['fermata', 'tempo change', 'texture change', 'orchestration change'], basis: 'score-proportion', precision: 'passage', evidence: `Édition Russe score, p. 67, rehearsal 52. ${scoreUrl}` },
+    { id: 'into-visit', title: 'Flute and piano music to <i>Allegro</i>', from: 'B · Adagietto, piano, flutes and xylophone', to: 'C · Petrushka dances for the Ballerina', at: { t: 166 }, span: [155, 180], how: '<p>At rehearsals 55–56 (Édition Russe score, pp. 69–70) the music for flute and piano is followed by <i>Allegro</i>. Bassoons and oboes play repeated notes and the piano plays arpeggios. Bars of two crotchets alternate with bars of three. The strings move between pizzicato and arco while Petrushka dances.</p>', devices: ['tempo change', 'metre change', 'orchestration change'], basis: 'score-proportion', precision: 'passage', evidence: `Édition Russe score, pp. 69–70, rehearsals 55–56. ${scoreUrl}` },
     { id: 'into-despair', title: 'Clarinet cadenza after the dance', from: 'C · Petrushka dances for the Ballerina', to: 'D · Clarinet cadenza, piano arpeggios', at: { t: 188 }, span: [176, 205], how: '<p>The dance stops. A solo clarinet extends its cadenza, marked <i>molto ritardando</i> and <i>lamentoso assai</i>, over held notes in the cellos. The piano then plays rushing arpeggios, and a call on the cor anglais follows.</p>', devices: ['cadenza', 'tempo change', 'texture change', 'orchestration change'], basis: 'score-proportion', precision: 'passage', evidence: `Édition Russe score, pp. 73–74, after rehearsal 58. ${scoreUrl}` },
   ],
   orchestra: {

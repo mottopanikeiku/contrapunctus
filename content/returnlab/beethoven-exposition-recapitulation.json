@@ -2,7 +2,7 @@
   "id": "beethoven-exposition-recapitulation",
   "track": "beethoven-5-first",
   "title": "Beethoven: the changed return",
-  "question": "The second theme’s return in C major",
+  "question": "The second theme returns in C major; in the exposition it was in E♭ major.",
   "kind": "tonal return",
   "status": "provisional",
   "intro": "The opening G–G–G–E♭ returns an octave higher in the first violins. Then the orchestra stops for an oboe, alone. Bassoons take the horns’ call, and the second tune comes back in C major.",
@@ -154,7 +154,7 @@
     {
       "a": ["1", 1],
       "b": ["248", 1],
-      "text": "The opening G–G–G–E♭ comes back an octave higher in the first violins, G5–E♭5 replacing G4–E♭4. An F fills the quaver-rest at bar 248. Flutes and oboes, silent in bars 1–5, now join the C-minor return."
+      "text": "The opening G–G–G–E♭ comes back an octave higher in the first violins, G5–E♭5 replacing G4–E♭4. An F fills the quaver-rest at bar 248. Flutes and oboes, silent in bars 1–5, now join the C minor return."
     },
     {
       "a": ["7", 1],
@@ -194,7 +194,7 @@
     {
       "a": null,
       "b": ["319", 1],
-      "text": "The flute plays the C-major tune again in bars 319–322, accompanied by oboes and bassoons. The violins stop for these four added bars, which are inserted at the point where bars 74 and 75 met in the exposition."
+      "text": "The flute plays the C major tune again in bars 319–322, accompanied by oboes and bassoons. The violins stop for these four added bars, which are inserted at the point where bars 74 and 75 met in the exposition."
     },
     {
       "a": ["75", 1],
@@ -219,7 +219,7 @@
     {
       "a": ["122", 1],
       "b": null,
-      "text": "An E♭–G–B♭ chord in bar 122 and two silent bars close the exposition. The return runs straight on to the C-major chord at bar 374, where the coda begins. That chord falls outside these paired passages."
+      "text": "An E♭–G–B♭ chord in bar 122 and two silent bars close the exposition. The return runs straight on to the C major chord at bar 374, where the coda begins. That chord falls outside these paired passages."
     }
   ],
   "listenFor": "An oboe plays alone while the orchestra stops; then the bassoons play the horn call and the violins play the second theme in C major.",

@@ -8,8 +8,7 @@ export default {
     "id": "elgar-enigma",
     "title": "Enigma Variations, Op. 36",
     "part": 5,
-    "of": 14
-  },
+    "of": 14, "unit": "parts" },
   "year": "1898–99",
   "key": "C minor",
   "forces": "Orchestra",
@@ -23,14 +22,13 @@ export default {
     {
       "t": 0,
       "label": "A · Theme in C minor, cellos and basses",
-      "m": "A",
-      "mNote": "Cellos and basses play the theme in C minor."
+      "m": "A"
     },
     {
       "t": 32,
       "label": "B · C major, flute and oboe replies",
       "m": "B",
-      "mNote": "C major, with quick replies from flute and oboe"
+      "mNote": "C major, with quick replies from flute and oboe."
     },
     {
       "t": 98,
@@ -77,7 +75,7 @@ export default {
       "at": {
         "t": 32
       },
-      "how": "<p>The C-minor bass melody comes to rest on C, and E♮ turns the harmony to C major. A solo flute runs upwards and oboes and clarinets exchange short phrases. The strings drop to <i>pianissimo</i>, and the Moderato tempo continues.</p>",
+      "how": "<p>The C minor bass melody comes to rest on C, and E♮ turns the harmony to C major. A solo flute runs upwards and oboes and clarinets exchange short phrases. The strings drop to <i>pianissimo</i>, and the Moderato tempo continues.</p>",
       "devices": [
         "direct modulation",
         "texture change",

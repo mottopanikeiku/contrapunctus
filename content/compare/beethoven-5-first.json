@@ -3,7 +3,7 @@
   "title": "Beethoven’s Fifth, first movement, in four recordings",
   "composer": "beethoven",
   "work": "Symphony No. 5 in C minor, Op. 67 — first movement",
-  "question": "Why do the same four notes sound so different from one conductor to another?",
+  "question": "In each of four recordings the conductor sets how long the held notes of the opening motto last.",
   "intro": "In November 1913, Arthur Nikisch recorded Beethoven’s Fifth with the Berlin Philharmonic, playing into a recording horn. Odeon’s house orchestra had recorded it two years earlier. Mengelberg’s Concertgebouw and the Skidmore College Orchestra are compared with them here at the first three Gs. Each conductor sets how long the fourth note is held.",
   "group": "century",
   "recordings": [
@@ -21,7 +21,7 @@
     },
     {
       "listen": "beethoven-5-first-mengelberg-side1",
-      "label": "Willem Mengelberg",
+      "label": "Willem Mengelberg, 1940",
       "year": 1940,
       "note": "This opening side has Mengelberg with the Concertgebouw Orchestra, which he had led since 1895."
     },
@@ -29,7 +29,7 @@
       "listen": "beethoven-5-first",
       "label": "Skidmore College Orchestra",
       "year": null,
-      "note": "Skidmore takes the exposition repeat, so the horns’ call and the soft E♭-major violin tune are heard twice."
+      "note": "Skidmore takes the exposition repeat, so the horns’ call and the soft E♭ major violin tune are heard twice."
     }
   ],
   "reference": "beethoven-5-first",
@@ -47,7 +47,7 @@
     {
       "label": "Horn call and second subject",
       "t": 150,
-      "note": "A short chord and a pause precede the horns. Their wide call leads into the violins’ soft E♭-major tune."
+      "note": "A short chord and a pause precede the horns. Their wide call leads into the violins’ soft E♭ major tune."
     },
     {
       "label": "Development",

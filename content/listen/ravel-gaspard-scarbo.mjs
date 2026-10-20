@@ -12,15 +12,15 @@ export default {
   performers: 'Andriy Makarevych, piano',
   recorded: '1 April 2014',
   source: { file: 'File:Maurice Ravel - Gaspard de la nuit - 3. Scarbo.flac' },
-  set: { id: 'ravel-gaspard-de-la-nuit', title: 'Gaspard de la nuit', part: 3, of: 3 },
-  "intro": "Scarbo, marked Modéré, is the third piece of Ravel’s Gaspard de la nuit. Scarbo is the creature who scratches at the bed curtains, vanishes and comes back larger than the room, and Ravel writes soft repeated notes, very wide leaps and long silences for him.",
+  set: { id: 'ravel-gaspard-de-la-nuit', title: 'Gaspard de la nuit', part: 3, of: 3, unit: 'pieces' },
+  "intro": "Scarbo, marked Modéré, is the third piece of Ravel’s <i>Gaspard de la nuit</i>. Scarbo is the creature who scratches at the bed curtains, vanishes and comes back larger than the room, and Ravel writes soft repeated notes, very wide leaps and long silences for him.",
   "sections": [
     { "t": 0, "label": "A · Low opening figure, repeated notes", "m": "A", "mNote": "A repeated-note figure follows the low opening figure." },
     { "t": 36, "label": "B · Vif, leaps across the keyboard", "m": "B", "mNote": "Vif. The two hands move apart in leaps." },
-    { "t": 128, "label": "Dev · Repeated notes and rising chords", "m": "Dev", "mNote": "Short figures return in wider leaps and chords" },
+    { "t": 128, "label": "Dev · Repeated notes and rising chords", "m": "Dev", "mNote": "Short figures return in wider leaps and chords." },
     { "t": 308, "label": "A′ · Opening figure returns in the bass", "m": "A′", "mNote": "The opening drumming figure moves down into the bass." },
-    { "t": 390, "label": "B′ · Return of the dance", "m": "B′", "mNote": "Quick figures emerge from the low repeated notes" },
-    { "t": 510, "label": "Dev · Final chords of the development", "m": "Dev", "mNote": "Leaps and repeated chords fill the keyboard" },
+    { "t": 390, "label": "B′ · Return of the dance", "m": "B′", "mNote": "Quick figures emerge from the low repeated notes." },
+    { "t": 510, "label": "Dev · Final chords of the development", "m": "Dev", "mNote": "Leaps and repeated chords fill the keyboard." },
     { "t": 564, "label": "Coda · Quiet repeated chords", "m": "Coda", "mNote": "Quiet repeated chords stop without slowing." }
   ],
   "cues": [

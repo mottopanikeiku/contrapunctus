@@ -18,7 +18,7 @@ Read `content/listen/debussy-faune.mjs` in full first; it is the exemplar. House
 
 ## The file: `content/listen/<id>.mjs`
 
-`id` = `<composer-slug>-<short-work-slug>`, e.g. `bach-wtc1-prelude-fugue-c`, `ravel-bolero`. The file name equals the id.
+`id` = `<composer-slug>-<short-work-slug>`, e.g. `satie-gymnopedie-1`, `ravel-bolero`. The file name equals the id.
 
 ```js
 export default {
@@ -29,8 +29,10 @@ export default {
   recorded: '1958' | '',
   tuning: 415,   // ONLY for period-instrument recordings at a non-modern pitch; omit for A = 440/442
   source: { file: 'File:<exact Commons title>' },
+  set: { id, title, part, of, unit? },  // OPTIONAL: one of several recordings that make up a work; unit is the plural
+                                        // name of its parts ('songs', 'variations', 'sides'…), default 'movements'
   intro: 'One or two sentences: what this is and the one thing that makes it worth hearing.',
-  sections: [{ t: seconds, label: 'A · Flute alone', m: 'A', mNote? }, ...],  // 3–8 large formal sections
+  sections: [{ t: seconds, label: 'A · Flute alone', m: 'A', mNote? }, ...],  // the large formal sections, usually 3–8
   cues: [{ t | bar, kind, title, text, basis, precision, evidence }, ...],
   transitions: [...],   // optional, see CONTRACTS.md
 };
@@ -49,8 +51,8 @@ Period-instrument ensembles often play at A = 415 Hz, a semitone below modern pi
   - `form` — where we are: the start of a section, a return, the coda.
   - `life` / `world` — the composer, the première, the people, the reception. Put these where the music does not need comment (a repeat, a long held passage).
   - `listen` — retired. Say what happens instead of telling the reader what to do.
-- `title`: 2–6 words, concrete. “Harp, then horns”, not “A broad early swell”.
-- `text`: at most 55 words, present tense, plain. Name the instrument, the key, the marking. A note may be one sentence.
+- `title`: a plain, concrete label of at most 8 words. “Harp, then horns”, not “A broad early swell”.
+- `text`: at most 55 words, plain. Describe the music in the present tense and history in the past tense. Name the instrument, the key, the marking. A note may be one sentence.
 - `precision: 'passage'` notes must stay true if they appear ten seconds early or late: write about the passage (“The middle section moves to G♭ …”), not the instant.
 - `evidence` is shown to readers under “Evidence”. One or two plain sentences naming the source: the score (edition, bars), a letter, a book with page, a programme note with its URL. Never decibels, file paths, “the report” or analysis figures.
 

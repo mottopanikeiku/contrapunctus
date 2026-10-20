@@ -13,7 +13,7 @@ export default {
   ],
   quote: {
     text: 'What came to me as a revelation was the use of rhythm in developing an overall structure in music.',
-    source: 'Philip Glass on his work with Ravi Shankar in Paris, quoted in Tim Page’s notes to Two Pages / Contrary Motion / Music in Fifths / Music in Similar Motion (Nonesuch, 1994)',
+    source: 'Philip Glass on his work with Ravi Shankar in Paris, quoted in Tim Page’s notes to <i>Two Pages / Contrary Motion / Music in Fifths / Music in Similar Motion</i> (Nonesuch, 1994)',
   },
   life: `
 <p class="dropcap">Philip Glass was born in Baltimore on 31 January 1937. His father, Ben Glass, repaired radios and then sold records, and Philip worked in the shop from the age of twelve; at fifteen he was buying the classical stock. Ben took home unsold records, among them Shostakovich quartets, to find out what was wrong with them. Philip began on the violin at six and studied flute at the Peabody Conservatory from the age of eight. He entered the University of Chicago in 1952, went on to the Juilliard School in New York to study composition with William Bergsma and Vincent Persichetti, and took his master’s degree in 1961.</p>
@@ -124,10 +124,6 @@ z8 | z8 | z8 | C,4 G,,4 |]`, caption: 'An invented four-bar schematic of the ord
       note: '<p>These frames show the second, widely televised demolition of a Pruitt–Igoe building in April 1972, after the first on 16 March. Footage of the demolition appears in <i>Koyaanisqatsi</i>, and Glass’s cue for it is titled <i>Pruit Igoe</i> on the 1983 soundtrack album. Alex Ross noted in 2005 that the project’s architect, Minoru Yamasaki, also designed the World Trade Center.</p>' },
   ],
   recordings: [
-    { work: 'Einstein on the Beach', performers: 'Philip Glass Ensemble, Michael Riesman; Paul Zukofsky, violin', year: '1978–79', label: 'Tomato; CBS Masterworks (now Sony Classical)', note: 'The first recording, made in 1978 and abridged to four LPs; the CBS Masterworks set is dated 1979. By Glass’s account the 1993 Nonesuch recording runs about 190 minutes against some 160 in 1978.' },
-    { work: 'Glassworks', performers: 'Philip Glass Ensemble, Michael Riesman', year: '1982', label: 'CBS Masterworks (now Sony Classical)', note: 'Glass’s first album for the label, recorded at Green Street Recording, New York. Gramophone called it “an excellent introduction” to this music.' },
-    { work: 'Akhnaten', performers: 'Stuttgart State Opera Orchestra and Chorus, Dennis Russell Davies; Paul Esswood, Milagro Vargas', year: '1987', label: 'Sony Classical', note: 'Made with the company and conductor of the 1984 première, at the Karlshöhe Church and Tonstudio Bauer, Ludwigsburg. A recording of the Metropolitan Opera performance of 23 November 2019 appeared on Orange Mountain Music in 2021.' },
-    { work: 'String Quartets Nos. 5, 4, 2 and 3', performers: 'Kronos Quartet', year: '1995', label: 'Nonesuch', note: 'No. 3 is the six-movement quartet drawn from the <i>Mishima</i> film score. No. 5 was written for this ensemble.' },
     { work: 'Koyaanisqatsi (complete original soundtrack)', performers: 'Philip Glass Ensemble, Michael Riesman', year: '2009', label: 'Orange Mountain Music', note: 'Thirteen tracks and over 76 minutes, against six tracks and 45 minutes on the 1983 album.' },
   ],
   lineage: {

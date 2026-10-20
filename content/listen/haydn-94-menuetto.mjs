@@ -18,7 +18,7 @@ export default {
   sections: [
     { t: 0, label: 'A · Menuetto in G major, Allegro molto', m: 'A', mNote: 'Flute, bassoon and first violins play the tune.' },
     { t: 94, label: 'B · Trio, first violins and bassoon', m: 'B', mNote: 'The Trio stays in G major, marked piano.' },
-    { t: 154, label: 'A′ · Minuet da capo, full orchestra', m: 'A′', mNote: 'Da capo repeat of the minuet’s opening tune' },
+    { t: 154, label: 'A′ · Minuet da capo, full orchestra', m: 'A′', mNote: 'Da capo repeat of the minuet’s opening tune.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening theme of the minuet', text: 'Flute, bassoon and first violins play the minuet’s opening tune, which leaps through G major in crotchets. The marking is <i>Allegro molto</i>.', basis: 'score-proportion', precision: 'passage', evidence: 'Menuetto, bars 1–8: leading instruments, crotchet motion and tempo marking. https://de.wikipedia.org/wiki/94._Sinfonie_(Haydn)' },

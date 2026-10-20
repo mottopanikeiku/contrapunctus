@@ -24,7 +24,7 @@ export default {
   sections: [
     { t: 0, label: 'A · Solo piano', m: 'A' },
     { t: 168, label: 'B · Plus allant, both pianos', m: 'B' },
-    { t: 314, label: 'A′ · Opening theme again', m: 'A′', mNote: 'Piano melody over pizzicato strings, then a winding second-piano line' },
+    { t: 314, label: 'A′ · Opening theme again', m: 'A′', mNote: 'Piano melody over pizzicato strings, then a winding second-piano line.' },
     { t: 380, label: 'Coda · Final piano figure', m: 'Coda' },
   ],
   cues: [

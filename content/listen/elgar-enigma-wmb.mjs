@@ -8,8 +8,7 @@ export default {
     "id": "elgar-enigma",
     "title": "Enigma Variations, Op. 36",
     "part": 4,
-    "of": 14
-  },
+    "of": 14, "unit": "parts" },
   "year": "1898–99",
   "key": "G minor",
   "forces": "Orchestra",

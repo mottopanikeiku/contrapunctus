@@ -7,7 +7,7 @@ export default {
   order: 1,
   work: 'Symphony No. 2, The Age of Anxiety',
   movement: 'Part I: Prologue; The Seven Ages; The Seven Stages',
-  set: { id: 'bernstein-age-of-anxiety', title: 'Symphony No. 2, The Age of Anxiety', part: 1, of: 2 },
+  set: { id: 'bernstein-age-of-anxiety', title: 'Symphony No. 2, The Age of Anxiety', part: 1, of: 2, unit: 'parts' },
   year: '1949',
   key: '',
   forces: 'Piano and orchestra',
@@ -26,9 +26,9 @@ export default {
   },
   intro: 'Bernstein conducts the Philharmonic-Symphony Orchestra of New York, with Lukas Foss as soloist, in a recording made in February 1950, within a year of the first performance of his Second Symphony, <i>The Age of Anxiety</i>. Part I contains the Prologue and the two sets of seven variations.',
   sections: [
-    { t: 0, label: 'A · Prologue', m: 'Intro' },
-    { t: 141, label: 'B · The Seven Ages, Variations 1–7', m: 'Var 1–7' },
-    { t: 641, label: 'C · The Seven Stages, Variations 8–14', m: 'Var 8–14' },
+    { t: 0, label: 'Intro · Prologue', m: 'Intro' },
+    { t: 141, label: 'Var 1–7 · The Seven Ages', m: 'Var 1–7' },
+    { t: 641, label: 'Var 8–14 · The Seven Stages', m: 'Var 8–14' },
   ],
   cues: [
     {

@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "An illustrated atlas of classical composers, Bach to the present.",
+  "description": "An illustrated atlas of Western art music from plainchant to the present, with historical recordings and aligned scores.",
   "scripts": {
     "art": "node tools/art.mjs fetch",
     "build": "node src/build.mjs",
-    "validate": "node tools/validate.mjs content/composers/*.mjs content/eras/*.mjs content/pages/*.mjs",
+    "validate": "node tools/validate.mjs content/*.mjs content/composers/*.mjs content/eras/*.mjs content/pages/*.mjs content/listen/*.mjs content/dossiers/*.json content/compare/*.json content/journeys/*.json content/returnlab/*.json content/geo/*.json content/elsewhere/*.json content/bibliography/*.json && node tools/validate-influence.mjs",
     "serve": "node tools/perf-preview.mjs 8080 docs",
     "measure": "node tools/optimize/measure.mjs"
   },

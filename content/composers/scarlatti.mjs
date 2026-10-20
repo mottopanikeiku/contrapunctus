@@ -6,7 +6,7 @@ export default {
   born: { year: 1685, date: '26 October 1685', place: 'Naples' },
   died: { year: 1757, date: '23 July 1757', place: 'Madrid' },
   era: 'baroque',
-  epithet: 'A royal teacher known for his keyboard sonatas.',
+  epithet: 'Composer and royal teacher, known for his keyboard sonatas.',
   portrait: { file: 'File:Retrato de Domenico Scarlatti.jpg', caption: 'Scarlatti wearing the insignia of the Order of Santiago, c. 1738; formerly attributed to Domingo Antonio Velasco.', focus: '50% 24%' },
   facts: [
     ['Family', 'Alessandro Scarlatti’s sixth child; born in 1685, the year of Bach and Handel'],
@@ -19,7 +19,7 @@ export default {
 <h3><span class="sc">Italy</span>Naples, Rome and the <i>Stabat Mater</i></h3>
 <p>Domenico was born in Naples on 26 October 1685, the same year as [[bach]] and [[handel]], the sixth of Alessandro’s ten children. His family included singers as well as composers, and several of them worked in opera. He became a salaried royal organist at fifteen. In Rome he served Maria Casimira, the widowed Queen of Poland, who maintained a theatre in her Palazzo Zuccari. Scarlatti supplied her with seven operas between 1710 and 1714, working with the poet Carlo Sigismondo Capece and the stage designer Filippo Juvarra.</p>
 <aside class="note"><b>Ten voices</b>The <i>Stabat Mater</i> calls for four sopranos, two altos, two tenors and two basses, with continuo. Its place and date of composition remain open. The Roman years are a traditional attribution, and Lisbon is another possibility.</aside>
-<p>At St Peter’s he became assistant director of the Cappella Giulia in 1713 and its head the following year. The <i>Stabat Mater</i> is written for ten independent voices. They sing together in the passages about the grieving mother, then divide into smaller groups. At ‘Inflammatus et accensus’ a tenor begins a long melisma, which the other voices take up in turn. The final ‘Amen’ changes pace again and ends in a fast triple time.</p>
+<p>At St Peter’s he became assistant director of the Cappella Giulia in 1713 and its head the following year. The <i>Stabat Mater</i> is written for ten independent voices. They sing together in the passages about the grieving mother, then divide into smaller groups. At “Inflammatus et accensus” a tenor begins a long melisma, which the other voices take up in turn. The final ‘Amen’ changes pace again and ends in a fast triple time.</p>
 <h3><span class="sc">Lisbon and Spain</span>Maria Bárbara</h3>
 <p>He arrived in Lisbon on 29 November 1719. João V had been waiting impatiently for him, and Queen Maria Anna accompanied him at the keyboard while he sang. His duties included teaching the king’s brother António and his daughter Maria Bárbara. The princess became an exceptional keyboard player. The association that began with these lessons lasted for the rest of Scarlatti’s life, through her marriage, her accession to the Spanish throne and the accumulation of hundreds of sonatas.</p>
 <p>Maria Bárbara married the future Ferdinand VI in 1729. Scarlatti joined her in Spain later that year, first at Seville, where the court remained until 1733, then in Madrid and the royal residences around it. In Portugal he had directed court music. In Spain his work centred on the princess’s private music-making. She was his pupil, owned harpsichords and early pianos, and assembled a substantial music library.</p>
@@ -41,11 +41,11 @@ export default {
     { aspect: 'Space for a voice', glyph: '𝆏', html: `<p>K. 208 is marked <i>Adagio e cantabile</i>, a slow tempo with a singing line, and its ornaments are part of the melody. K. 87 is written in several voices set close together, with held notes sounding against the notes next to them. K. 208 has a single melodic line over accompaniment, and K. 87 divides its material among several voices.</p>` },
   ],
   works: [
-    { year: 'Early eighteenth century', title: 'Stabat Mater', forces: 'Ten voices and continuo', note: 'The four soprano parts give the upper voices unusual scope to combine and divide. Near the end, a tenor run at ‘Inflammatus et accensus’ passes through the ensemble.' },
-    { year: '1738–39, publication', title: 'Essercizi per gravicembalo', cat: 'K. 1–30', forces: 'Keyboard', note: 'The thirty sonatas dedicated to João V include the pastoral D minor K. 9 and end with the G minor fugue K. 30. Scarlatti’s preface addressed amateur and professional players on equal terms.' },
+    { year: 'Early eighteenth century', title: 'Stabat Mater', forces: 'Ten voices and continuo', note: 'The four soprano parts give the upper voices unusual scope to combine and divide. Near the end, a tenor run at “Inflammatus et accensus” passes through the ensemble.' },
+    { year: 'Published 1738–39', title: 'Essercizi per gravicembalo', cat: 'K. 1–30', forces: 'Keyboard', note: 'The thirty sonatas dedicated to João V include the pastoral D minor K. 9 and end with the G minor fugue K. 30. Scarlatti’s preface addressed amateur and professional players on equal terms.' },
     { year: '1742, Venice copy', title: 'Sonata in B minor', cat: 'K. 87', forces: 'Keyboard', note: 'The hands begin close together and sustain several voices in stepwise motion and suspensions.' },
     { year: '1749, Venice copy', title: 'Sonata in D major', cat: 'K. 119', forces: 'Keyboard', note: 'The sonata is built on thick, dissonant chords. Some of these chords span more than an octave.' },
-    { year: '1753, Venice copy', title: 'Sonata in A major', cat: 'K. 208', forces: 'Keyboard', note: 'Marked <i>Adagio e cantabile</i>, with a decorated upper melody. The date is that of the Venice manuscript; the day of composition is not known.' },
+    { year: '1753, Venice copy', title: 'Sonata in A major', cat: 'K. 208', forces: 'Keyboard', note: 'Marked <i>Adagio e cantabile</i>, with a decorated upper melody. The date is that of the Venice manuscript; the date of composition is not known.' },
     { year: '1754, Venice copy', title: 'Sonata in E major', cat: 'K. 380', forces: 'Keyboard', note: 'The piece moves in a measured triple time, with calls on repeated notes. The writing lies comfortably under two hands.' },
     { year: '1756, Venice copy', title: 'Sonata in F minor', cat: 'K. 466', forces: 'Keyboard', note: 'A chain of cadences forms a sustained lament while Scarlatti keeps changing the harmony around it.' },
   ],

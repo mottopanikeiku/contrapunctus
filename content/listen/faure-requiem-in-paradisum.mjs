@@ -16,7 +16,7 @@ export default {
     { t: 0, label: 'A · Sopranos over the organ’s broken chords', m: 'A' },
     { t: 64, label: 'B · More voices enter on “Jerusalem”', m: 'B' },
     { t: 94, label: 'C · Sopranos with organ, harp, strings', m: 'C', mNote: 'The sopranos begin again over organ, harp and muted strings.' },
-    { t: 128, label: 'D · Sopranos: the Lazarus text', m: 'D' },
+    { t: 128, label: 'D · Sopranos, the Lazarus text', m: 'D' },
     { t: 152, label: 'E · The choir’s final requiem', m: 'E', mNote: 'All voices sing together on the word for rest.' },
   ],
   cues: [
@@ -58,7 +58,7 @@ export default {
       id: 'into-lazarus',
       title: 'Lazarus in the soprano line',
       from: 'C · Sopranos with organ, harp, strings',
-      to: 'D · Sopranos: the Lazarus text',
+      to: 'D · Sopranos, the Lazarus text',
       at: { t: 128 },
       span: [116, 140],
       how: '<p>The sopranos continue with “Et cum Lazaro quondam paupere” (and with Lazarus, once a poor man). Organ and harp continue their broken chords, and the muted strings crescendo. The vocal line climbs towards “aeternam”, eternal.</p>',
@@ -70,7 +70,7 @@ export default {
     {
       id: 'into-requiem',
       title: 'The choir closes in D major',
-      from: 'D · Sopranos: the Lazarus text',
+      from: 'D · Sopranos, the Lazarus text',
       to: 'E · The choir’s final requiem',
       at: { t: 152 },
       span: [142, 164],

@@ -19,7 +19,7 @@ export default {
   "source": {
     "file": "File:Corelli - Concerto Grosso Op. 6 No. 4 - 1. Adagio - Allegro.ogg"
   },
-  "intro": "The first movement, Adagio — Allegro, of Corelli’s Concerto grosso in D major, Op. 6 No. 4, played by the Advent Chamber Orchestra. Four slow bars open the movement, and the two solo violins then exchange phrases through the Allegro.",
+  "intro": "The Advent Chamber Orchestra plays the first movement, Adagio — Allegro, of Corelli’s Concerto grosso in D major, Op. 6 No. 4. Four slow bars open the movement, and the two solo violins then exchange phrases through the Allegro.",
   "sections": [
     {
       "t": 0,
@@ -111,13 +111,13 @@ export default {
   "transitions": [
     {
       "id": "adagio-to-allegro",
-      "title": "From A-major chord to solo violin",
+      "title": "From A major chord to solo violin",
       "from": "Intro · Adagio, four bars",
       "to": "A · Violins in imitation",
       "at": {
         "t": 20
       },
-      "how": "<p>The Adagio holds an A-major chord, the dominant of D. The bass and accompanying strings stop, and the first solo violin begins the Allegro alone. The second solo violin follows with the same quick figure.</p>",
+      "how": "<p>The Adagio holds an A major chord, the dominant of D. The bass and accompanying strings stop, and the first solo violin begins the Allegro alone. The second solo violin follows with the same quick figure.</p>",
       "devices": [
         "tempo change",
         "texture change",
@@ -153,7 +153,7 @@ export default {
       "at": {
         "t": 102
       },
-      "how": "<p>After the A-major cadence, the first solo violin sets off again over the bass. This time the second violin enters with the running notes once its partner’s phrase has finished. The two violins trade places as the bass moves through changing harmonies.</p>",
+      "how": "<p>After the A major cadence, the first solo violin sets off again over the bass. This time the second violin enters with the running notes once its partner’s phrase has finished. The two violins trade places as the bass moves through changing harmonies.</p>",
       "devices": [
         "motivic link",
         "sequence"
@@ -170,7 +170,7 @@ export default {
       "at": {
         "t": 152
       },
-      "how": "<p>The bass reaches D and the strings complete their cadence. The repeat (bars 26–51) returns to the second section’s A-major opening, and the solo violins again pass the running line between them. Its final cadence brings the bass back to D.</p>",
+      "how": "<p>The bass reaches D and the strings complete their cadence. The repeat (bars 26–51) returns to the second section’s A major opening, and the solo violins again pass the running line between them. Its final cadence brings the bass back to D.</p>",
       "devices": [
         "perfect cadence",
         "motivic link"

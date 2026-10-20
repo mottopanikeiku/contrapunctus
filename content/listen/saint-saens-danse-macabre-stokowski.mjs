@@ -63,7 +63,7 @@ export default {
       t: 291,
       kind: 'world',
       title: 'Xylophone in the orchestra',
-      text: 'Saint-Saëns added a xylophone to the orchestra, an instrument only recently admitted to the symphony orchestra; it imitates the rattling of the skeletons’ bones. In 1886 he quoted this dance in ‘Fossils’, a movement of <i>The Carnival of the Animals</i>.',
+      text: 'Saint-Saëns added a xylophone to the orchestra, an instrument only recently admitted to the symphony orchestra; it imitates the rattling of the skeletons’ bones. In 1886 he quoted this dance in “Fossils”, a movement of <i>The Carnival of the Animals</i>.',
       basis: 'documented',
       precision: 'passage',
       evidence: 'The Palazzetto Bru Zane Mediabase says the xylophone, only recently brought into the symphony orchestra, imitates the skeletons’ rattling bones, and that Saint-Saëns quotes the Danse macabre in the “Fossiles” movement of Le Carnaval des animaux (1886). https://www.bruzanemediabase.com/en/exploration/works/danse-macabre-camille-saint-saens',

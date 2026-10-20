@@ -9,7 +9,7 @@ export default {
   epithet: 'Composer who completed his First Symphony at the age of forty-three and began his Second beside an Austrian lake the following summer.',
   portrait: { file: 'File:JohannesBrahms.jpg', caption: 'Johannes Brahms, photographed by C. Brasch in Berlin, 1889.', focus: '50% 23%' },
   facts: [
-    ['Training', 'Piano with Otto Cossel; piano and composition with Eduard Marxsen in Hamburg'],
+    ['Trained', 'Piano with Otto Cossel; piano and composition with Eduard Marxsen in Hamburg'],
     ['Posts', 'Detmold, 1857–59 · Vienna Singakademie, 1863–64 · Gesellschaft der Musikfreunde, 1872–75'],
     ['Home and summers', 'Vienna; summers in Baden-Baden, Pörtschach, Mürzzuschlag and Bad Ischl'],
     ['Output', 'Four symphonies, four concertos, chamber music, piano pieces, songs and choral works; no opera'],
@@ -42,9 +42,9 @@ export default {
     { aspect: 'A tune built from thirds', glyph: '𝄋', html: `<p>The Fourth Symphony opens B–G, then E–C, falling thirds separated by upward leaps. The same interval supplies the notes for the rest of the melody. Brahms lengthened the thirds, changed their rhythm or moved them into another part, and the connection to the opening remains audible. [[schoenberg|Schoenberg]] called this process developing variation, in which a theme is already being developed during its first statement.</p>` },
     { aspect: 'Placement of the downbeat', glyph: '𝅘𝅥', html: `<p>Brahms can set three beats against two, or carry a melody across a bar line while the accompaniment keeps the metre underneath. The opening horn phrase of the Second Symphony obscures where a bar begins. A [[workshop#rhythm|hemiola]] works in a related way, with two bars of three crotchets regrouped as three groups of two.</p>` },
     { aspect: 'The bass line', glyph: '𝄢', html: `<p>In the finale of the Fourth Symphony an eight-bar progression returns again and again while the orchestra changes what happens around it. At times the tune is plainly audible; at others a flute solo draws attention away from the progression beneath. The Handel Variations for piano also keep the bass in view. Even where the surface becomes elaborate, much of the original theme remains beneath it.</p>` },
-    { aspect: 'Major mode', glyph: '♭', html: `<p>The Third Symphony opens in F major with the motto F–A♭–F, whose middle note comes from the minor scale. This clash between major and minor recurs in Brahms. In the Second Symphony, the second theme, which resembles a lullaby, begins in F♯ minor. The melody is easy to sing, but the accompanying chords are not settled.</p>` },
+    { aspect: 'Major and minor', glyph: '♭', html: `<p>The Third Symphony opens in F major with the motto F–A♭–F, whose middle note comes from the minor scale. This clash between major and minor recurs in Brahms. In the Second Symphony, the second theme, which resembles a lullaby, begins in F♯ minor. The melody is easy to sing, but the accompanying chords are not settled.</p>` },
     { aspect: 'Another player’s solo', glyph: '𝄞', html: `<p>A horn opens the Second Piano Concerto, and the piano answers. In its slow movement a solo cello plays the first long melody. In the Adagio of the Violin Concerto an oboe plays the melody before the solo violin enters. In several of his concertos Brahms wrote passages in which the soloist accompanies other instruments.</p>` },
-    { aspect: 'The way home', glyph: '𝄆', html: `<p>The Clarinet Quintet ends with a theme and five variations. Near the end, music from the first movement returns. The Third Symphony also returns to its opening material in its final pages, played softly. In both works Brahms ended with a phrase already heard.</p>` },
+    { aspect: 'Returning openings', glyph: '𝄆', html: `<p>The Clarinet Quintet ends with a theme and five variations. Near the end, music from the first movement returns. The Third Symphony also returns to its opening material in its final pages, played softly.</p>` },
   ],
   works: [
     { year: '1859', title: 'Piano Concerto No. 1 in D minor', cat: 'Op. 15', forces: 'Piano and orchestra', note: 'Brahms played the Hanover première with Joachim conducting, and was hissed at Leipzig five days later. The piano enters quietly after a long, loud orchestral opening.' },
@@ -91,7 +91,7 @@ B2 G2 | e2 c2 | a2 f2 | ^d2 B2 |]`,
     },
     {
       kicker: 'Hemiola — schematic',
-      title: 'Hemiola',
+      title: 'Three minims across two bars of three',
       abc: `X:3
 T:Hemiola schematic
 M:3/4
@@ -174,9 +174,9 @@ touch sacred strings.`,
     },
   ],
   recordings: [
-    { work: 'Piano Concertos Nos. 1 and 2', performers: 'Emil Gilels, Berlin Philharmonic, Eugen Jochum', label: 'Deutsche Grammophon', note: 'Gilels plays the First’s stormy passages with weight and takes the Second’s slow movement at a patient pace. Jochum gives the Berlin strings full room in reply; the piano is powerful and the orchestra keeps its own weight.' },
+    { work: 'Piano Concertos Nos. 1 and 2', performers: 'Emil Gilels, Berlin Philharmonic, Eugen Jochum', label: 'Deutsche Grammophon', note: 'Gilels plays the First’s stormy passages with weight and takes the Second’s slow movement at a patient pace. Jochum gives the Berlin strings full room in reply.' },
     { work: 'Ein deutsches Requiem', performers: 'Elisabeth Schwarzkopf, Dietrich Fischer-Dieskau, Philharmonia Orchestra and Chorus, Otto Klemperer', year: '1961', label: 'EMI', note: 'A grave, spacious reading with a firm tread beneath the choral lines. The fugues gain weight and stay clear. Schwarzkopf sings the soprano movement.' },
-    { work: 'Clarinet Quintet', performers: 'Karl Leister, Amadeus Quartet', label: 'Deutsche Grammophon', note: 'Leister’s rounded tone blends with the Amadeus strings. The five players keep a close ensemble, especially where the clarinet’s flourishes in the slow movement give way to quiet ensemble playing.' },
+    { work: 'Clarinet Quintet', performers: 'Karl Leister, Amadeus Quartet', label: 'Deutsche Grammophon', note: 'Leister’s rounded tone blends with the Amadeus strings. The five players keep a close ensemble, especially after the clarinet’s flourishes in the slow movement.' },
   ],
   lineage: {
     from: ['bach', 'handel', 'haydn', 'mozart', 'beethoven', 'schubert', 'schumann', 'clara-schumann'],

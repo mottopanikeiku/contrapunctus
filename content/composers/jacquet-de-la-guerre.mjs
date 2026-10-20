@@ -4,7 +4,7 @@ export default {
   died: { year: 1729, date: '27 June 1729', place: 'Paris' },
   era: 'baroque',
   epithet: 'Parisian harpsichordist and composer who played for Louis XIV as a child and published harpsichord suites, violin sonatas, cantatas and the opera Céphale et Procris.',
-  portrait: { file: 'File:Elisabeth Claude Jacquet de La Guerre - L. Crepy sculp. - btv1b8421266c.jpg', caption: 'Medal of Élisabeth Claude Jacquet de La Guerre, obverse and reverse, engraved by L. Crépy and dated 1729. Bibliothèque nationale de France.', focus: '50% 12%' },
+  portrait: { file: 'File:Elisabeth Claude Jacquet de La Guerre - L. Crepy sculp. - btv1b8421266c.jpg', caption: 'Obverse of the medal of Élisabeth Claude Jacquet de La Guerre, from Louis Crépy’s engraving of both sides, dated 1729. Bibliothèque nationale de France.', focus: '78% 0%', zoom: 1.25 },
   facts: [
     ['Trained', 'In Paris with her father, the organist Claude Jacquet; harpsichord and singing at court from the age of five'],
     ['At court', 'Played for Louis XIV as a child; three or four years at Madame de Montespan’s side; left the court on her marriage in 1684'],
@@ -87,10 +87,6 @@ D4 ^C2 | D4 A,2 | _B,2 G,2 A,2 | F,4 E,2 |]`, caption: 'Bars 1–4 of the Menuet
     { relation: 'shared-context', type: 'painting', frame: 'mat', file: 'File:Jacquet de La Guerre - Céphale et Procris, title page of 1st edition score, Paris 1694.jpg', artist: 'Élisabeth Jacquet de La Guerre and Joseph-François Duché de Vancy', title: 'Céphale et Procris, title page of the printed score', date: '1694', medium: 'Engraved and printed music', collection: 'Bibliothèque nationale de France, Paris', note: '<p>The title page reads “Céphale et Procris, tragédie mise en musique par Mademoiselle de La Guerre”, with the imprint of Christophe Ballard, “seul imprimeur du Roy pour la musique”, rue Saint-Jean-de-Beauvais, and the date M. DC. XCIV. A decorated panel with a seated figure holding a lyre fills the middle of the page.</p>' },
   ],
   recordings: [
-    { work: 'Pièces de clavecin, suites from the 1687 and 1707 books', performers: 'Blandine Verlet, harpsichord', year: '1998', label: 'Auvidis', note: 'The recording has twenty-six tracks. The set opens with the D minor suite of 1687, whose Chaconne l’Inconstante runs 3:28 in this performance.' },
-    { work: 'Sonates pour le violon (1707)', performers: 'Les Dominos; Florence Malgoire, violin', year: '2011', label: 'Outhere', note: 'All six sonatas, 34 tracks, with each movement listed separately.' },
-    { work: 'Le Sommeil d’Ulisse; Samson; harpsichord pieces; violin sonata in D minor', performers: 'Isabelle Desrochers, soprano; Les Voix Humaines; Christine Payeux', year: '2000', label: 'Alpha', note: 'Two cantatas, a Prélude and a Chaconne for harpsichord in A minor, and a sonata for violin and continuo in D minor. The Sommeil movement of Le Sommeil d’Ulisse lasts 7:52.' },
-    { work: 'Céphale et Procris', performers: 'Reinoud Van Mechelen, Deborah Cachet, Ema Nikolovska, Marc Mauillon; Chœur de Chambre de Namur; A Nocte Temporis', year: '2024', label: 'Château de Versailles Spectacles, CVS119', note: 'The opera complete on two CDs, released on 9 February 2024.' },
   ],
   lineage: { from: ['Claude Jacquet', 'Jean-Baptiste Lully', 'Arcangelo Corelli'], to: ['Louis-Claude Daquin'], note: '<p>Her father Claude Jacquet taught her. Radio France’s biographical note places <i>Céphale et Procris</i> in the line of Lully, and the sonata she wrote for Brossard and for the king belongs to the genre that came to France from Italy. The same note lists her godson Louis-Claude Daquin among her pupils.</p>' },
   reading: [

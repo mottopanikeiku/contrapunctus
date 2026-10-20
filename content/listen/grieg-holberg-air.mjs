@@ -11,13 +11,13 @@ export default {
   performers: 'Marine Chamber Orchestra of the United States Marine Band; Maj. Jason K. Fettig, conductor',
   recorded: '17 August 2013, Alexandria, Virginia',
   source: { file: 'File:Grieg\'s Suite for Strings, Op. 40, "From Holberg’s Time" - IV. Air - Chamber Orchestra - United States Marine Band.mp3' },
-  intro: 'The Air, marked <i>Andante religioso</i>, is the slow G-minor fourth movement of Grieg’s <i>From Holberg’s Time</i>, Op. 40, for strings, written in honour of a playwright born in Bergen in 1684. The Marine Chamber Orchestra plays it under Jason K. Fettig.',
+  intro: 'The Air, marked <i>Andante religioso</i>, is the slow G minor fourth movement of Grieg’s <i>From Holberg’s Time</i>, Op. 40, for strings, written in honour of a playwright born in Bergen in 1684. The Marine Chamber Orchestra plays it under Jason K. Fettig.',
   sections: [
     { t: 0, label: 'A · Air theme in G minor', m: 'A' },
     { t: 60, label: 'A · The strain played again', m: 'A' },
     { t: 125, label: 'B · Middle section in B♭ major', m: 'B' },
     { t: 185, label: 'Link · Passage before the return', m: 'Link' },
-    { t: 230, label: 'A′ · The melody comes back', m: 'A′', mNote: 'G minor again, with the lower strings in the tune' },
+    { t: 230, label: 'A′ · The melody comes back', m: 'A′', mNote: 'G minor again, with the lower strings in the tune.' },
     { t: 298, label: 'Coda · Fading to a held chord', m: 'Coda' },
   ],
   cues: [

@@ -3,8 +3,8 @@
   "title": "Chopin, Nocturne Op. 15 No. 2, in five recordings",
   "composer": "chopin",
   "work": "Nocturne in F♯ major, Op. 15 No. 2",
-  "question": "How much does the quiet, fast middle section change the melody when it returns?",
-  "intro": "The F♯-major melody is heavily ornamented, and the middle section is faster. Chopin marked it <i>doppio movimento</i>, twice the motion, and asked for the opening of that passage to be played <i>sotto voce</i>. Paderewski’s recordings, made twenty years apart, are listed here alongside those of Liszt’s pupil d’Albert and the younger pianists Faulkner and Prati.",
+  "question": "Five recordings, two of them by Paderewski, play the ornamented melody, the faster middle section and the return.",
+  "intro": "The F♯ major melody is heavily ornamented, and the middle section is faster. Chopin marked it <i>doppio movimento</i>, twice the motion, and asked for the opening of that passage to be played <i>sotto voce</i>. Paderewski’s recordings, made twenty years apart, are listed here alongside those of Liszt’s pupil d’Albert and the younger pianists Faulkner and Prati.",
   "group": "golden-age",
   "recordings": [
     {
@@ -46,9 +46,9 @@
       "note": "The right hand plays small flourishes around a sustained melody, and evenly spaced bass notes and chords sit beneath the phrase."
     },
     {
-      "label": "F♯-minor phrase, dolcissimo",
+      "label": "F♯ minor phrase, dolcissimo",
       "t": 74,
-      "note": "The F♯-minor phrase falls from its high notes, its little runs marked <i>dolcissimo</i> — very sweetly."
+      "note": "The F♯ minor phrase falls from its high notes, its little runs marked <i>dolcissimo</i> — very sweetly."
     },
     {
       "label": "Middle section, dotted melody",

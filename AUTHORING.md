@@ -75,9 +75,8 @@ The second version of each has more information and no performance.
 ## Files and tools
 
 - Composer: `content/composers/<slug>.mjs`, slug from `content/roster.mjs`, `era` = the roster key.
-- Validate your own files only: `node tools/validate.mjs content/composers/<slug>.mjs`. It must print `ok`. It checks schema, links, ABC notation and that every Commons file exists.
-- Find images: `node tools/art.mjs search "Bocklin Isle of the Dead"`, then `node tools/art.mjs check "File:Exact title.jpg"` to see size, licence, artist and date.
-- Do **not** run `tools/art.mjs fetch`, `src/build.mjs`, or any git command. Do not edit files you do not own.
+- Validate the files you change: `node tools/validate.mjs content/composers/<slug>.mjs`. It must print `ok`. It checks schema, links, ABC notation and that every Commons file exists.
+- Find images: `node tools/art.mjs search "Bocklin Isle of the Dead"`, then `node tools/art.mjs check "File:Exact title.jpg"` to see size, licence, artist and date. `node tools/art.mjs fetch` downloads newly referenced images and makes their narrower renditions.
 
 ## Schema (composer)
 
@@ -88,7 +87,7 @@ export default {
   died: { year, date, place } | null,            // null for living composers
   era,                                            // roster key
   epithet: 'One plain sentence, specific to this composer.',
-  portrait: { file: 'File:…', caption: 'What, by whom, when.', focus: '50% 25%' },  // focus = CSS object-position for crops
+  portrait: { file: 'File:…', caption: 'What, by whom, when.', focus: '50% 25%' },  // focus = CSS object-position for crops; optional zoom (e.g. 1.25) enlarges the crop about the focus point
   facts: [['Trained', '…'], ['Posts', '…'], ['Output', '…']],                         // 3–4 rows, short
   quote: { text, source },                        // optional, well attested only
   life: `<p class="dropcap">…</p> <aside class="note"><b>Label</b>…</aside> <h3><span class="sc">kicker</span>Heading</h3> <blockquote>…<footer>source</footer></blockquote>`,
@@ -103,7 +102,7 @@ export default {
 ```
 
 - `life`: the first paragraph has `class="dropcap"`. `<aside class="note">` is a margin note (a technical aside, a source, a definition) — place it immediately *before* the paragraph it annotates; 2–4 per life. `<h3><span class="sc">…</span>…</h3>` splits long lives into sections.
-- `sound` aspects are displayed as plain text labels; the v3 templates do not render decorative glyphs.
+- `sound` aspects show their `glyph` (a musical symbol in Noto Music) beside the label; choose one that names the aspect plainly (♮ harmony, 𝄞 line, 𝄢 bass) or omit it.
 - Cross-links: `[[slug]]` or `[[slug|label]]` for composers; `[[era:romantic|Romanticism]]`; `[[workshop#sonata-form|sonata form]]`; `[[origins#chant|plainchant]]`.
 
 Workshop anchors: `counterpoint`, `fugue`, `figured-bass`, `temperament`, `sonata-form`, `harmony`, `chromaticism`, `tristan-chord`, `leitmotif`, `modes`, `whole-tone`, `octatonic`, `atonality`, `twelve-tone`, `rhythm`, `orchestration`, `minimalism`, `spectralism`.
@@ -203,10 +202,9 @@ node tools/validate.mjs content/glossary.mjs content/bibliography/*.json
 node tools/validate-influence.mjs
 ```
 
-The integration owner builds with `node src/build.mjs`, then checks desktop
-(1440×900) and mobile (390×844), including navigation while the persistent
-player is playing. No recording page should create another audio element.
-The abcjs vendor loads on demand for score figures, not on every page.
-Influence cameos use a 160-pixel rendition. The integration owner can generate
-these from already-fetched local originals with `node tools/art.mjs derive 160`;
-this does not require downloading the artworks again.
+After `node src/build.mjs`, check desktop (1440×900) and mobile (390×844),
+including navigation while the persistent player is playing. No recording page
+should create another audio element. The abcjs vendor loads on demand for score
+figures, not on every page. Influence cameos use the 160-pixel rendition, which
+`node tools/art.mjs derive 160` makes from already-fetched originals without
+downloading them again.

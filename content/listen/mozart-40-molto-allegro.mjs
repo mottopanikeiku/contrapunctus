@@ -11,14 +11,14 @@ export default {
   performers: 'Musopen Symphony (Commons credit; ensemble attribution disputed)',
   recorded: '',
   source: { file: 'File:Mozart - Symphony No. 40 in G minor, K550 - I. Molto allegro (Musopen Symphony).flac' },
-  intro: 'The first movement, Molto allegro, of the Symphony No. 40, K. 550, in G minor. The violas are already playing when the violins begin the first theme, and its falling semitone returns in fragments throughout the movement and in the second theme, which comes back changed.',
+  intro: 'In the first movement, Molto allegro, of Mozart’s Symphony No. 40 in G minor, K. 550, the violas are already playing when the violins begin the first theme. Its falling semitone returns in fragments throughout the movement and in the second theme, which comes back changed.',
   sections: [
-    { t: 0, label: 'A · Violins over violas, G minor', m: 'A', mNote: 'Repeated notes and a falling semitone in G minor' },
+    { t: 0, label: 'A · Violins over violas, G minor', m: 'A', mNote: 'Repeated notes and a falling semitone in G minor.' },
     { t: 50, label: 'B · Second theme, strings and winds, B♭', m: 'B', mNote: 'The second theme moves in small chromatic steps.' },
     { t: 120, label: 'Dev · Opening theme in F♯ minor', m: 'Dev', mNote: 'The opening theme is broken into overlapping fragments.' },
     { t: 194, label: 'A′ · G minor, violin theme', m: 'A′', mNote: 'The opening returns, with a longer connecting passage.' },
-    { t: 265, label: 'B′ · Second theme in G minor', m: 'B′', mNote: 'Strings and winds exchange the melody in G minor' },
-    { t: 338, label: 'Coda · Held winds, then final chords', m: 'Coda', mNote: 'Wind instruments hold notes before the full orchestra\'s closing chords.' },
+    { t: 265, label: 'B′ · Second theme in G minor', m: 'B′', mNote: 'Strings and winds exchange the melody in G minor.' },
+    { t: 338, label: 'Coda · Held winds, then final chords', m: 'Coda', mNote: 'Wind instruments hold notes before the full orchestra’s closing chords.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening, violas and violins', text: 'The violas set up an accompaniment in repeated notes. Over it the violins repeat a note and fall a semitone, then repeat the figure. There is no opening chord before the theme.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel full score (1880), I, opening bars. The violin theme and its development are discussed by Matthew Lorenzon, ABC Classic: https://www.abc.net.au/listen/classic/read-and-watch/music-reads/mozart-symphony-no-40-sonata-form/10160386.' },

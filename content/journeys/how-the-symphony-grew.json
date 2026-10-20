@@ -1,10 +1,10 @@
 {
   "id": "how-the-symphony-grew",
   "title": "How the symphony grew",
-  "subtitle": "Haydn’s sudden chord to Mahler’s last few strings",
+  "subtitle": "From Haydn’s “Surprise” Symphony to Mahler’s Ninth",
   "minutes": 24,
-  "hero": { "file": "File:Hanover-Square-Rooms-concert.jpg", "caption": "A concert in London’s Hanover Square Rooms. Engraving in <i>The Illustrated London News</i>, 24 June 1843." },
-  "intro": "At the Hanover Square Rooms in 1792, Haydn startled London with a single chord. A little over a century later, the last page of Mahler’s Ninth needs only strings, played softly.",
+  "hero": { "file": "File:Hanover-Square-Rooms-concert.jpg", "caption": "A concert in London’s Hanover Square Rooms. Engraving in <i>The Illustrated London News</i>, 24 June 1843.", "zoom": 1.14 },
+  "intro": "At the Hanover Square Rooms in 1792, Haydn’s new symphony interrupted a quiet tune with a single loud chord. A little over a century later, the last page of Mahler’s Ninth is for strings alone, played softly.",
   "stations": [
     {
       "id": "s1",
@@ -15,7 +15,7 @@
       "map": { "composer": "haydn", "year": 1791 },
       "edge": null,
       "compare": null,
-      "text": "<p>London, 23 March 1792. At Salomon’s concert in the Hanover Square Rooms, Haydn’s new symphony had the strings play a short, plain tune. They repeat it more softly. Then the whole orchestra plays one fortissimo chord, with timpani. Haydn wrote the symphony during his first London visit. The slow movement sets its C-major tune as a series of variations. In the first variation the second violins and violas keep the melody while the first violins play semiquavers around it.</p>",
+      "text": "<p>London, 23 March 1792. At Salomon’s concert in the Hanover Square Rooms, Haydn’s new symphony had the strings play a short, plain tune. They repeat it more softly. Then the whole orchestra plays one fortissimo chord, with timpani. Haydn wrote the symphony during his first London visit. The slow movement sets its C major tune as a series of variations. In the first variation the second violins and violas keep the melody while the first violins play semiquavers around it.</p>",
       "cues": [
         { "at": 0, "text": "The strings begin a short tune in C major, with a bass note at the start of each bar." },
         { "at": 38, "text": "The quiet repeat ends with a single fortissimo chord from the whole orchestra, including timpani." },
@@ -23,7 +23,7 @@
       ],
       "sources": [
         { "title": "Orrin Howard, LA Phil: Symphony No. 94 — London, date, forces and variations", "url": "https://www.laphil.com/works/symphony-no-94-surprise" },
-        { "title": "Haydn recording guide: Theme, Var 1 and the Orchestra timeline", "url": "../hall.html#haydn-94-andante" },
+        { "title": "Haydn recording guide: theme, first variation and the Orchestra timeline", "url": "../hall.html#haydn-94-andante" },
         { "title": "YourClassical: Salomon’s Hanover Square concert of 23 March 1792 and the symphony’s premiere", "url": "https://www.yourclassical.org/episode/2008/03/23/a-good-story-but-not-exactly-true-says-haydn" },
         { "title": "Haydn’s Symphony No. 94: Andante theme and first-variation scoring, bars 1–48", "url": "https://de.wikipedia.org/wiki/94._Sinfonie_(Haydn)" },
         { "title": "Commons: Hanover Square Rooms concert engraving, Illustrated London News, 24 June 1843; public domain", "url": "https://commons.wikimedia.org/wiki/File:Hanover-Square-Rooms-concert.jpg" }
@@ -31,14 +31,14 @@
     },
     {
       "id": "s2",
-      "title": "Mozart’s return by a different route",
+      "title": "Mozart: the G minor recapitulation",
       "listen": { "id": "mozart-40-molto-allegro", "from": 120, "to": 338 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>Three years before Haydn’s London visit, Mozart wrote his G-minor Symphony, K. 550. It opens with a repeated figure in the violins. In the development, fragments of it pass between strings and winds, and each repetition moves into a less stable key. Mozart then brings the opening back in G minor. The recapitulation is longer than the exposition because the bridge between the themes modulates further. The second theme, first heard in B♭ major, returns in G minor, with semitone clashes in the woodwind and strings.</p>",
+      "text": "<p>Three years before Haydn’s London visit, Mozart wrote his G minor Symphony, K. 550. It opens with a repeated figure in the violins. In the development, fragments of it pass between strings and winds, and each repetition moves into a less stable key. Mozart then brings the opening back in G minor. The recapitulation is longer than the exposition because the bridge between the themes modulates further. The second theme, first heard in B♭ major, returns in G minor, with semitone clashes in the woodwind and strings.</p>",
       "cues": [
         { "at": 130, "text": "Scraps of the opening violin figure pass between instruments and through changing keys." },
         { "at": 205, "text": "The opening returns in G minor; the bridge between the themes is now longer." },
@@ -59,11 +59,11 @@
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>Mozart wrote the <i>Jupiter</i> Symphony in the summer of 1788, the same summer as the G-minor. In the finale the four-note tune C–D–F–E keeps its long notes while quicker figures pass it, and one part can begin before another has finished. The return to C major is followed by further development. In the coda five themes are combined, each keeping its own rhythm as they pass between the instruments. Trumpets and timpani join the final C-major chords.</p>",
+      "text": "<p>Mozart wrote the “Jupiter” Symphony in the summer of 1788, the same summer as the G minor. In the finale the four-note tune C–D–F–E keeps its long notes while quicker figures pass it, and one part can begin before another has finished. The return to C major is followed by further development. In the coda five themes are combined, each keeping its own rhythm as they pass between the instruments. Trumpets and timpani join the final C major chords.</p>",
       "cues": [
         { "at": 245, "text": "The four-note tune returns in C major, with quicker figures moving around it." },
         { "at": 385, "text": "In the coda five themes are combined, with long notes set against running figures and short replies." },
-        { "at": 420, "text": "Trumpets and timpani reinforce the final C-major chords as the running lines converge." }
+        { "at": 420, "text": "Trumpets and timpani reinforce the final C major chords as the running lines converge." }
       ],
       "sources": [
         { "title": "K. Dawn Grapes, Fort Collins Symphony: the 1788 Jupiter and its five-theme coda", "url": "https://fcsymphony.org/mozart-41-jupiter/" },
@@ -81,7 +81,7 @@
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>The Fifth’s opening rhythm continues to work long after its first statement. In the development it passes between instruments and through changing keys, and the exchanges eventually shrink to isolated chords, with silence between the replies. When the opening returns at bar 248, winds and brass reinforce it. At bar 268 the orchestra stops, leaving an oboe alone in an <i>Adagio</i>. Later, bassoons take the call previously played by horns, and the second theme returns in C major, a minor third below its earlier E♭ major.</p>",
+      "text": "<p>The Fifth’s opening rhythm recurs long after its first statement. In the development it passes between instruments and through changing keys, and the exchanges eventually shrink to isolated chords, with silence between the replies. When the opening returns at bar 248, winds and brass reinforce it. At bar 268 the orchestra stops, leaving an oboe alone in an <i>Adagio</i>. Later, bassoons take the call previously played by horns, and the second theme returns in C major, a minor third below its earlier E♭ major.</p>",
       "cues": [
         { "at": 203.1, "text": "The opening rhythm moves through new pitches and keys as the development begins." },
         { "at": 257.23, "text": "Winds and strings exchange slow chords; the replies grow shorter, with rests between them." },
@@ -120,14 +120,14 @@
     },
     {
       "id": "s6",
-      "title": "Bruckner and the string writing",
+      "title": "Bruckner: the scherzo of the Seventh",
       "listen": { "id": "bruckner-7-scherzo", "from": 0, "to": 198 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>A short repeated figure in the strings opens the scherzo of the Seventh, in A minor. Over it a trumpet plays a call and the clarinet answers; this exchange supplies much of the material for a movement built on large orchestral crescendos. Bruckner returns repeatedly to the same short figures, moves them between instruments and builds them into long crescendos. Between the loud passages the brass play quietly: trombones and tuba join in a soft chorale while the strings continue to move. Another crescendo begins before the excerpt ends. After it comes the slower trio in F major, in which quiet timpani introduce a melody for the violins.</p>",
+      "text": "<p>A short repeated figure in the strings opens the scherzo of the Seventh, in A minor. Over it a trumpet plays a call and the clarinet answers; this exchange supplies much of the movement’s material. Bruckner returns repeatedly to the same short figures, moves them between instruments and builds them into long crescendos. Between the loud passages the brass play quietly: trombones and tuba join in a soft chorale while the strings continue to move. Another crescendo begins before the excerpt ends. After it comes the slower trio in F major, in which quiet timpani introduce a melody for the violins.</p>",
       "cues": [
         { "at": 0, "text": "A short repeated figure in the strings opens the scherzo, and a trumpet call rises above it." },
         { "at": 40, "text": "Brass and timpani join the strings in the first loud passage." },
@@ -137,7 +137,7 @@
       "sources": [
         { "title": "Bruckner, Seventh Symphony: 1885 full score, Scherzo and Trio", "url": "https://imslp.org/wiki/Symphony_No.7_in_E_major,_WAB_107_(Bruckner,_Anton)" },
         { "title": "Steve Lacoste, LA Phil: Bruckner’s Seventh and its orchestration", "url": "https://www.laphil.com/works/symphony-no-7-bruckner" },
-        { "title": "Burgess Hill Symphony Orchestra: A-minor scherzo, trumpet and clarinet phrases, repeated string figure", "url": "https://www.bhso.org.uk/work/bruckner-symphony-no-7/" },
+        { "title": "Burgess Hill Symphony Orchestra: A minor scherzo, trumpet and clarinet phrases, repeated string figure", "url": "https://www.bhso.org.uk/work/bruckner-symphony-no-7/" },
         { "title": "Bruckner scherzo guide: A, B, C and movement-specific Orchestra roster", "url": "../hall.html#bruckner-7-scherzo" }
       ]
     },
@@ -161,23 +161,23 @@
         { "title": "Tchaikovsky Research: Symphony No. 6 and Letter 4865, 11/23 February 1893", "url": "https://en.tchaikovsky-research.net/pages/Symphony_No._6" },
         { "title": "Tchaikovsky to Vladimir Davydov, Klin, 11/23 February 1893, Letter 4865; Russian text, translated here", "url": "https://en.tchaikovsky-research.net/pages/Letter_4865" },
         { "title": "Modeste Tchaikovsky, The Life and Letters, edited by Rosa Newmarch, pp. 702–703: February 1893 letter to Vladimir Davydov", "url": "https://www.gutenberg.org/files/45259/45259-h/45259-h.htm#page_702" },
-        { "title": "Boston Symphony: the finale’s low-brass transition and B-minor ending", "url": "https://www.bso.org/works/tchaikovsky-symphony-no-6" },
+        { "title": "Boston Symphony: the finale’s low-brass transition and B minor ending", "url": "https://www.bso.org/works/tchaikovsky-symphony-no-6" },
         { "title": "Finale guide: approximate Link and B′ sections, closing Orchestra reduction", "url": "../hall.html#tchaikovsky-6-finale" }
       ]
     },
     {
       "id": "s8",
-      "title": "Mahler and silence in the symphony",
+      "title": "Mahler: the last page of the Ninth",
       "listen": { "id": "mahler-9-adagio", "from": 950, "to": 1110.3 },
       "art": null,
       "score": null,
       "map": null,
       "edge": null,
       "compare": null,
-      "text": "<p>The last page of Mahler’s Ninth begins with muted second violins. The marking is <i>Adagissimo</i>, slower still. Only strings remain, and the long melodies of the finale have broken into phrases of a few notes, separated by rests. One note is held after the others stop, and another, played softly, follows it. A viola plays a small upward turn inside the last D♭-major chord.</p>",
+      "text": "<p>The last page of Mahler’s Ninth begins with muted second violins. The marking is <i>Adagissimo</i>, slower still. Only strings remain, and the long melodies of the finale have broken into phrases of a few notes, separated by rests. One note is held after the others stop, and another, played softly, follows it. A viola plays a small upward turn inside the last D♭ major chord.</p>",
       "cues": [
         { "at": 960, "text": "<i>Adagissimo</i>: muted second violins begin the final page, with strings alone and long rests between phrases." },
-        { "at": 1080, "text": "The viola plays its phrase upwards inside the last D♭-major chord, and the remaining notes die away." }
+        { "at": 1080, "text": "The viola plays its phrase upwards inside the last D♭ major chord, and the remaining notes die away." }
       ],
       "sources": [
         { "title": "Mahler, Ninth Symphony: first-edition score, finale, especially printed page 180", "url": "https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP353450-PMLP48640-Mahler_Symphony_9_.pdf" },

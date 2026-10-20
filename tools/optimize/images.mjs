@@ -2,6 +2,7 @@ import path from 'node:path';
 import { readFile, unlink } from 'node:fs/promises';
 import sharp from 'sharp';
 import { ROOT, OUT, CACHE, cached, eachLimit, hash, optional, save } from './cache.mjs';
+import { RENDITIONS } from './pictures.mjs';
 
 // Keep the reviewed WebP pixels unless an AVIF rendition is smaller and
 // passes a conservative 40 dB PSNR screen. Mixed-format candidate sets retain
@@ -14,7 +15,7 @@ export async function optimizeImages(out = OUT) {
   await eachLimit([...new Map(Object.values(art).map((image) => [image.src, image])).values()], 2, async (image) => {
     const original = await readFile(path.join(out, image.src));
     const digest = hash(original), candidates = [];
-    for (const width of [...[160, 480, 960].filter((width) => width < image.w), image.w]) {
+    for (const width of [...RENDITIONS.filter((width) => width < image.w), image.w]) {
       const webp = width === image.w ? image.src : image.src.replace(/\.webp$/, `-${width}.webp`);
       let input = webp === image.src ? original : await optional(path.join(out, webp));
       if (!input) {
@@ -53,7 +54,7 @@ export async function optimizeImages(out = OUT) {
     }
     // Only referenced picture sources enter docs/. Rejected experiments stay
     // in the hash cache, not in the shipped site or version control.
-    for (const webp of [image.src, ...[160, 480, 960].map((width) => image.src.replace(/\.webp$/, `-${width}.webp`))]) {
+    for (const webp of [image.src, ...RENDITIONS.map((width) => image.src.replace(/\.webp$/, `-${width}.webp`))]) {
       const avif = webp.replace(/\.webp$/, '.avif');
       if (!published.has(avif)) await unlink(path.join(out, avif)).catch((error) => { if (error.code !== 'ENOENT') throw error; });
     }

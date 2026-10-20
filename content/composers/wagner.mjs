@@ -9,7 +9,7 @@ export default {
   epithet: 'Composer who placed the orchestra beneath the stage at Bayreuth, hidden from the audience.',
   portrait: { file: 'File:LenbachRichardWagner.jpg', caption: 'Richard Wagner, painted by Franz von Lenbach, 1881–82.', focus: '50% 24%' },
   facts: [
-    ['Training', 'Theodor Weinlig, Leipzig, 1831; then the daily work of provincial opera houses'],
+    ['Trained', 'Theodor Weinlig, Leipzig, 1831; then the daily work of provincial opera houses'],
     ['Posts', 'Dresden court conductor, 1843–49 · Bayreuth Festival founder, 1876'],
     ['Words', 'Wrote his own librettos; published essays on theatre, music and politics'],
     ['Output', 'Thirteen completed operas, including the four evenings of the <i>Ring</i>'],

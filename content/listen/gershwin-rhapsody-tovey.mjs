@@ -130,7 +130,7 @@ export default {
       t: 900,
       kind: 'world',
       title: 'Gershwin’s 1924 recording',
-      text: 'Gershwin’s own 1924 record lasts about nine minutes. Roughly a third of the score was cut to fit one two-sided disc, including the ‘Shuffle’ tune, the third cadenza and most of the grand cadenza.',
+      text: 'Gershwin’s own 1924 record lasts about nine minutes. Roughly a third of the score was cut to fit one two-sided disc, including the “Shuffle” tune, the third cadenza and most of the grand cadenza.',
       basis: 'documented',
       precision: 'passage',
       evidence: 'Farrington, p. 2, documents the two-sided record and the approximate proportion cut. Schiff, Table 1, pp. 8–9, column G, marks the 1924 recording’s cuts: from the “Shuffle” at rehearsal 14, and from bar 196 to bar 298, which takes in Cadenza 3, the solo Shuffle and most of the grand cadenza. https://www.loc.gov/static/programs/national-recording-preservation-board/documents/RhapsodyInBlue.pdf https://assets.cambridge.org/97805215/59539/excerpt/9780521559539_excerpt.pdf',

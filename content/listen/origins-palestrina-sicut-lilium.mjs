@@ -14,8 +14,8 @@ export default {
 
   sections: [
     { t: 0, label: 'A · Lily among thorns, imitative entries', m: 'A', mNote: 'The upper voice begins; four other voices take up its phrase.' },
-    { t: 96, label: 'B · My beloved among the daughters', m: 'B', mNote: 'Inner voices enter while the upper voice holds its note' },
-    { t: 214, label: 'C · Alleluia passes through the choir', m: 'C', mNote: 'Overlapping Alleluias lead to the five-part close' },
+    { t: 96, label: 'B · My beloved among the daughters', m: 'B', mNote: 'Inner voices enter while the upper voice holds its note.' },
+    { t: 214, label: 'C · Alleluia passes through the choir', m: 'C', mNote: 'Overlapping Alleluias lead to the five-part close.' },
   ],
   cues: [
     { t: 0, kind: 'music', title: 'Opening entries, five voices', text: 'The highest voice begins alone. The alto takes up its phrase, then the tenor; the bass and second tenor enter later. Each voice begins “Sicut lilium” while another is still singing the line.', basis: 'score-proportion', precision: 'passage', evidence: 'Palestrina’s Werke, volume I, edited by Theodor de Witt (Breitkopf & Härtel, 1862), No. 21, pp. 90–91: the five opening entries. https://s9.imslp.org/files/imglnks/usimg/f/f5/IMSLP55722-PMLP115176-Tomus_I.pdf' },

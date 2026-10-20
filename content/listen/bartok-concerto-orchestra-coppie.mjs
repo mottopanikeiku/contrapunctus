@@ -25,7 +25,7 @@ export default {
   sections: [
     { t: 0, label: 'Intro · Side drum alone, snares off', m: 'Intro', mNote: 'Seven bars on the side drum, with the snares off.' },
     { t: 12, label: 'A · Five wind duets', m: 'A', mNote: 'Bassoons, oboes, clarinets, flutes, then muted trumpets.' },
-    { t: 158, label: 'B · Brass chorale over the drum', m: 'B', mNote: 'Long brass chords; the drum keeps its little pattern' },
+    { t: 158, label: 'B · Brass chorale over the drum', m: 'B', mNote: 'Long brass chords; the drum keeps its little pattern.' },
     { t: 216, label: 'A′ · Duets return, three bassoons', m: 'A′', mNote: 'The paired duets return with additional instruments playing around them.' },
     { t: 330, label: 'Coda · Wind chord and side drum', m: 'Coda', mNote: 'The wind chord fades, and the side drum plays alone to close.' },
   ],

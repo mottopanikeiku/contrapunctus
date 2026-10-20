@@ -1,122 +1,199 @@
-/* Shared by every page: the gilded now-playing bar, the search dialog, the entrance to the hall.
-   Uses literal colours because the Atlas (paper) and the hall (night) define different variables. */
+/* Shared by every page, the Hall included: the design tokens, the focus ring, the now-playing bar,
+   the search dialog, the glossary popover and the entrance to the hall. */
 
-#cp-tour-error { position: fixed; z-index: 10001; right: 1rem; bottom: 1rem; max-width: min(28rem, calc(100% - 2rem)); padding: 1rem; border: 1px solid #c9a65a; background: #211a13; color: #efe5d2; }
+/* ---------- design tokens: the one palette and type scale ---------- */
+:root {
+  /* paper pages */
+  --paper: #f3ecdf;
+  --paper-2: #ebe2d0;
+  --paper-3: #e0d4bd;
+  --paper-ink: #1c1813;
+  --paper-ink-2: #3d352c;
+  --paper-muted: #665a4c;    /* 5.7:1 on paper, 4.6:1 on paper-3 */
+  --paper-rule: #cdbfa6;
+  --paper-rule-2: #b9a88a;
+  /* role tokens: paper by default; .night/.is-night and .paper switch them */
+  --ink: var(--paper-ink);
+  --ink-2: var(--paper-ink-2);
+  --muted: var(--paper-muted);
+  --rule: var(--paper-rule);
+  --rule-2: var(--paper-rule-2);
+  --rubric: #8d2318;
+  --accent: var(--rubric);   /* pages and chapters set their own accent on body or a section */
+  --gold: #a8843a;           /* gilt rules and marks on paper */
+  /* night pages and bands */
+  --night: #13110e;
+  --night-2: #1d1a16;        /* a raised surface on night: cards, dialogs */
+  --night-ink: #e8dfcd;
+  --night-ink-2: #cdbfa8;
+  --night-muted: #a39783;    /* 6.6:1 on night */
+  --night-rule: rgba(230, 203, 133, .2);
+  --night-rule-2: rgba(230, 203, 133, .42);
+  --night-gold: #c9a65a;     /* gilt rules and glyphs on night */
+  --gold-hi: #e6cb85;        /* gilt text on night: kickers, titles, focus */
 
-/* ---------- now playing: a slim gilded bar that follows the reader through the Atlas ---------- */
-.np {
-  position: fixed; z-index: 60; left: 50%; bottom: max(.9rem, env(safe-area-inset-bottom));
-  translate: -50% 0; width: min(46rem, calc(100vw - 1.6rem));
-  display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto auto auto; grid-template-rows: auto auto; align-items: center; column-gap: .9rem;
-  padding: .55rem .9rem .5rem .55rem;
-  background: linear-gradient(180deg, rgba(29, 25, 20, .94), rgba(15, 13, 10, .96));
-  color: #efe5d2;
-  border: 1px solid rgba(230, 203, 133, .38);
-  border-radius: 999px;
-  box-shadow: 0 18px 50px -12px rgba(0, 0, 0, .7), inset 0 1px 0 rgba(255, 240, 200, .08);
-  backdrop-filter: blur(10px);
-  font: 400 1rem/1.2 'EB Garamond', Garamond, serif;
-  animation: np-in .7s cubic-bezier(.2, .7, .1, 1);
+  --display: 'Cormorant Garamond', 'Cormorant', Garamond, 'Times New Roman', serif;
+  --text: 'EB Garamond', Garamond, 'Times New Roman', serif;
+  --caps: 'Cormorant SC', 'Cormorant Garamond', serif;
+  --glyph: 'Noto Music', 'Bravura Text', 'Segoe UI Symbol', serif;
+  /* small-caps labels: one size per role on every page */
+  --fs-kicker: .95rem;       /* running heads above titles and sections */
+  --fs-small: .84rem;        /* meta, dates, tags, control labels */
+  --fs-caption: .95rem;      /* captions, notes and other secondary text */
+  --ls-caps: .14em;
+
+  --measure: 37rem;
+  --margin-col: 15rem;
+  --gutter: clamp(1.25rem, 4vw, 3rem);
+  --ease: cubic-bezier(.2, .7, .1, 1);
 }
-@keyframes np-in { from { opacity: 0; translate: -50% 1.5rem; } }
-.np::before { content: ''; position: absolute; inset: 3px; border-radius: inherit; border: 1px solid rgba(230, 203, 133, .12); pointer-events: none; }
-.np button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
-.np-play {
-  grid-row: 1 / 3; width: 2.6rem; height: 2.6rem; border-radius: 50%;
-  border: 1px solid rgba(230, 203, 133, .7) !important; color: #f1dc9e !important;
-  background: radial-gradient(circle at 35% 30%, rgba(233, 207, 140, .25), rgba(233, 207, 140, .04)) !important;
-  font-size: .85rem !important; letter-spacing: -.1em;
-  transition: background .3s, transform .2s;
+/* A night band or a night page: the same roles, night values. */
+.night, .is-night {
+  --ink: var(--night-ink);
+  --ink-2: var(--night-ink-2);
+  --muted: var(--night-muted);
+  --rule: var(--night-rule);
+  --rule-2: var(--night-rule-2);
+  --focus: var(--gold-hi);
 }
-.np-play:hover { background: radial-gradient(circle at 35% 30%, rgba(233, 207, 140, .45), rgba(233, 207, 140, .1)) !important; transform: scale(1.04); }
-.np-now { min-width: 0; display: flex; gap: .55rem; align-items: baseline; text-decoration: none; color: inherit; white-space: nowrap; overflow: hidden; }
-.np-c { font: italic 500 1.12rem/1.1 'Cormorant Garamond', Garamond, serif; color: #f1dc9e; flex: none; }
-.np-w { color: #cdbfa8; overflow: hidden; text-overflow: ellipsis; font-size: .95rem; }
-.np-track { grid-column: 3 / 4; grid-row: 2; padding: .35rem 0 .1rem; cursor: pointer; }
-.np-prog { height: 2px; background: rgba(230, 203, 133, .18); border-radius: 2px; overflow: hidden; }
-.np-prog span { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #a8843a, #f1dc9e); }
-.np-time { grid-row: 1 / 3; font: 500 .8rem 'EB Garamond', serif; font-variant-numeric: tabular-nums; color: #8f826f; }
-.np-next { grid-row: 1 / 3; color: #cdbfa8 !important; font-size: .9rem !important; padding: .3rem !important; }
-.np-next:hover { color: #f1dc9e !important; }
-.np-hall {
-  grid-row: 1 / 3; font: 600 .7rem 'Cormorant SC', 'Cormorant Garamond', serif; letter-spacing: .2em; text-transform: lowercase;
-  color: #f1dc9e; text-decoration: none; padding: .45rem .8rem; border: 1px solid rgba(230, 203, 133, .45); border-radius: 999px; white-space: nowrap;
+/* A paper panel inside a night page: back to the paper roles, rubric accent. */
+.paper {
+  --ink: var(--paper-ink);
+  --ink-2: var(--paper-ink-2);
+  --muted: var(--paper-muted);
+  --rule: var(--paper-rule);
+  --rule-2: var(--paper-rule-2);
+  --accent: var(--rubric);
+  --focus: var(--rubric);
+  color: var(--ink);
 }
-.np-hall:hover { background: rgba(233, 207, 140, .12); }
-html.np-on body { padding-bottom: 5rem; }
+/* One focus ring: the accent on paper, gilt on night (set --focus on any dark ground). */
+:focus-visible { outline: 2px solid var(--focus, var(--accent)); outline-offset: 3px; }
+/* Programmatic focus after a page change (for screen readers) needs no visible ring. */
+[tabindex="-1"]:focus { outline: none; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+
+#cp-tour-error { position: fixed; z-index: 10001; right: 1rem; bottom: 1rem; max-width: min(28rem, calc(100% - 2rem)); padding: 1rem; border: 1px solid var(--night-gold); background: var(--night-2); color: var(--night-ink); }
+
+/* ---------- now playing: a full-width ruled bar, the same idiom as the Hall's transport ---------- */
+/* The bar's height; the space is reserved inside the dark footer, so no paper shows under it. */
+html.np-on { --np-h: calc(3.75rem + env(safe-area-inset-bottom)); }
+html.np-on .colophon::after { content: ''; display: block; height: var(--np-h); }
 html.np-on .lightbox[open] ~ #cp-persist .np { display: none; }
+.np {
+  --focus: var(--gold-hi);
+  position: fixed; z-index: 60; left: 0; right: 0; bottom: 0; min-height: var(--np-h, 3.75rem);
+  display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto auto auto; grid-template-rows: auto auto; align-content: center; align-items: center; column-gap: 1rem;
+  padding: .4rem clamp(1rem, 3vw, 2.4rem) calc(.4rem + env(safe-area-inset-bottom));
+  background: var(--night); color: var(--night-ink);
+  border-top: 1px solid var(--night-rule-2);
+  font: 400 1rem/1.2 var(--text);
+}
+.np button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.np .np-play, .np .np-next { grid-row: 1 / 3; width: 2.75rem; height: 2.75rem; display: grid; grid-auto-flow: column; place-content: center; place-items: center; font-size: 0; }
+.np .np-play { grid-column: 1; border: 1px solid var(--night-gold); border-radius: 50%; color: var(--gold-hi); transition: background .3s, color .3s; }
+.np .np-play:hover { background: var(--night-gold); color: var(--night); }
+/* Drawn, not typed: ▶ and ⏭ become colour emoji on some phones. app.js keeps the aria-label current. */
+.np .np-play::before { content: ''; margin-left: .18rem; border-left: .55rem solid currentColor; border-block: .34rem solid transparent; }
+.np .np-play[aria-label='Pause']::before { width: .52rem; height: .64rem; margin: 0; border: 0; border-inline: .17rem solid currentColor; }
+.np .np-next { grid-column: 5; color: var(--night-ink-2); }
+.np .np-next:hover { color: var(--gold-hi); }
+.np .np-next::before { content: ''; border-left: .5rem solid currentColor; border-block: .32rem solid transparent; }
+.np .np-next::after { content: ''; width: .12rem; height: .64rem; background: currentColor; }
+.np-i { grid-column: 2; grid-row: 1 / 3; width: 1.9rem; height: 2.4rem; border-radius: 50%; object-fit: cover; border: 1px solid rgba(230, 203, 133, .6); box-shadow: 0 0 0 2px var(--night), 0 0 0 3px rgba(230, 203, 133, .25); filter: sepia(.15); }
+.np-i[hidden] { display: none; }
+.np-now { grid-column: 3; min-width: 0; display: flex; gap: .55rem; align-items: baseline; text-decoration: none; color: inherit; white-space: nowrap; overflow: hidden; }
+.np-now:hover .np-c { text-decoration: underline; text-decoration-color: var(--night-rule-2); text-underline-offset: .18em; }
+.np-c { flex: none; font: italic 500 1.12rem/1.15 var(--display); color: var(--gold-hi); }
+.np-w { overflow: hidden; text-overflow: ellipsis; font-size: .95rem; color: var(--night-ink-2); }
+/* The progress line; its padding makes a 24 px seek target without thickening the rule. */
+.np-track { grid-column: 3; grid-row: 2; margin: -.45rem 0 -.6rem; padding: .7rem 0; cursor: pointer; }
+.np-prog { height: 2px; background: var(--night-rule); overflow: hidden; }
+.np-prog span { display: block; height: 100%; width: 0; background: var(--gold-hi); }
+.np-time { grid-column: 4; grid-row: 1 / 3; font: 500 .95rem var(--display); font-feature-settings: 'lnum', 'tnum'; color: var(--night-ink-2); white-space: nowrap; }
+.np-hall {
+  grid-column: 6; grid-row: 1 / 3; display: inline-flex; align-items: center; min-height: 2.75rem; padding: .45rem .9rem;
+  border: 1px solid var(--night-rule-2); font: 600 var(--fs-small) var(--caps); letter-spacing: var(--ls-caps); text-transform: lowercase; font-variant: small-caps;
+  color: var(--night-ink-2); text-decoration: none; white-space: nowrap;
+}
+.np-hall:hover { color: var(--gold-hi); border-color: var(--night-gold); }
+/* Phones: play, the piece with its progress, the position, next. The title itself opens the Hall. */
 @media (max-width: 640px) {
-  .np { grid-template-columns: auto minmax(0, 1fr) auto; bottom: max(.5rem, env(safe-area-inset-bottom)); border-radius: 1.4rem; }
-  .np-time, .np-hall { display: none; }
-  .np-now { flex-direction: column; gap: 0; }
+  .np { grid-template-columns: auto minmax(0, 1fr) auto auto; column-gap: .75rem; }
+  .np-i, .np-hall { display: none; }
+  .np-now, .np-track { grid-column: 2; }
+  .np-now { flex-direction: column; align-items: stretch; gap: 0; }
+  .np-time { grid-column: 3; font-size: .9rem; }
+  .np .np-next { grid-column: 4; }
 }
 
 /* ---------- search ---------- */
 dialog.srch {
+  --focus: var(--gold-hi);
   width: min(44rem, calc(100vw - 1.6rem)); max-height: min(78vh, 44rem); margin: 9vh auto auto; padding: 0;
-  background: linear-gradient(180deg, #1d1914, #12100d); color: #efe5d2;
-  border: 1px solid rgba(230, 203, 133, .4); border-radius: 4px;
-  box-shadow: 0 40px 120px -20px rgba(0, 0, 0, .8), inset 0 0 0 4px rgba(13, 11, 9, 1), inset 0 0 0 5px rgba(230, 203, 133, .18);
-  font: 400 1.05rem/1.4 'EB Garamond', Garamond, serif; overflow: hidden;
+  background: linear-gradient(180deg, var(--night-2), var(--night)); color: var(--night-ink);
+  border: 1px solid var(--night-rule-2); border-radius: 0;
+  box-shadow: inset 0 0 0 4px var(--night), inset 0 0 0 5px var(--night-rule);
+  font: 400 1.05rem/1.4 var(--text); overflow: hidden;
 }
-dialog.srch[open] { display: flex; flex-direction: column; animation: srch-in .35s cubic-bezier(.2, .7, .1, 1); }
-@keyframes srch-in { from { opacity: 0; transform: translateY(-.8rem) scale(.985); } }
-dialog.srch::backdrop { background: rgba(8, 7, 5, .72); backdrop-filter: blur(3px); }
-.srch-box { display: flex; align-items: center; gap: .8rem; padding: 1rem 1.2rem; border-bottom: 1px solid rgba(230, 203, 133, .22); }
-.srch-box .glyph { font: 1.6rem 'Noto Music', serif; color: #c9a65a; line-height: 1; }
-.srch-box input { flex: 1; min-width: 0; background: none; border: 0; outline: 0; color: #f6ecd6; font: italic 400 1.6rem/1.2 'Cormorant Garamond', Garamond, serif; }
-.srch-box input::placeholder { color: #6f6455; }
-.srch-close { background: none; border: 0; color: #8f826f; font-size: 1.6rem; cursor: pointer; line-height: 1; }
+dialog.srch[open] { display: flex; flex-direction: column; animation: srch-in .2s ease-out; }
+@keyframes srch-in { from { opacity: 0; } }
+dialog.srch::backdrop { background: rgba(8, 7, 5, .78); }
+.srch-box { display: flex; align-items: center; gap: .6rem; padding: .6rem .6rem .6rem 1.2rem; border-bottom: 1px solid var(--night-rule); }
+.srch-box .glyph { font: 1.6rem var(--glyph); color: var(--night-gold); line-height: 1; }
+.srch-box input { flex: 1; min-width: 0; min-height: 44px; background: none; border: 0; outline: 0; color: var(--night-ink); font: italic 400 1.6rem/1.2 var(--display); }
+.srch-box input::placeholder { color: var(--night-muted); opacity: 1; }
+.srch-box input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+.srch-box:has(input:focus-visible) { box-shadow: inset 0 -1px var(--gold-hi); }
+.srch-close { flex: none; display: grid; place-items: center; width: 44px; height: 44px; padding: 0; background: none; border: 0; color: var(--night-muted); font: 1.7rem/1 var(--display); cursor: pointer; }
+.srch-close:hover { color: var(--gold-hi); }
 .srch-results { list-style: none; margin: 0; padding: .4rem; overflow: auto; }
-.srch-results a { display: grid; grid-template-columns: 7.5rem 1fr; column-gap: 1rem; padding: .6rem .8rem; color: inherit; text-decoration: none; border-radius: 3px; }
-.srch-results a:hover, .srch-results a.sel { background: rgba(233, 207, 140, .09); box-shadow: inset 2px 0 0 #c9a65a; }
-.srch-t { grid-row: 1 / 3; font: 600 .66rem 'Cormorant SC', serif; letter-spacing: .2em; text-transform: lowercase; color: #c9a65a; padding-top: .3rem; }
-.srch-n { font: italic 500 1.2rem/1.2 'Cormorant Garamond', serif; color: #f6ecd6; }
-.srch-s { font-size: .9rem; color: #8f826f; }
-.srch-hint { padding: 1rem .8rem; color: #8f826f; font-style: italic; }
-@media (max-width: 640px) { .srch-results a { grid-template-columns: 1fr; } .srch-t { grid-row: auto; padding: 0; } dialog.srch { margin-top: 1rem; } }
+.srch-results a { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); column-gap: 1rem; padding: .6rem .8rem; color: inherit; text-decoration: none; }
+.srch-results a:hover, .srch-results a.sel { background: rgba(233, 207, 140, .09); box-shadow: inset 2px 0 0 var(--night-gold); }
+.srch-t { grid-row: 1 / 3; font: 600 var(--fs-small) var(--caps); letter-spacing: var(--ls-caps); text-transform: lowercase; font-variant: small-caps; color: var(--night-gold); padding-top: .3rem; }
+.srch-n { font: italic 500 1.2rem/1.2 var(--display); color: var(--night-ink); }
+.srch-s { font-size: var(--fs-caption); color: var(--night-muted); }
+.srch-hint { padding: 1rem .8rem; color: var(--night-muted); font-style: italic; }
+@media (max-width: 640px) { .srch-results a { grid-template-columns: minmax(0, 1fr); } .srch-t { grid-row: auto; padding: 0; } dialog.srch { margin-top: 1rem; } .srch-box input { font-size: 1.25rem; } }
 
 /* ---------- the entrance to the hall, on the title page ---------- */
 .hero-doors { display: flex; flex-wrap: wrap; align-items: center; gap: 1.2rem 2rem; margin-top: 2.2rem; }
+.hero-doors .more { color: var(--night-ink-2); }
+.hero-doors .more:hover { color: var(--gold-hi); }
+/* The browse links take their own row under the two doors. */
+.hero-browse { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 0 2rem; margin: -.4rem 0 0; }
+/* The two doors share one width, side by side or stacked. */
 .enter-hall {
-  position: relative; display: grid; gap: .15rem; padding: 1.05rem 1.6rem 1.1rem; text-decoration: none; color: #f6ecd6;
-  background: linear-gradient(180deg, rgba(20, 17, 13, .55), rgba(20, 17, 13, .78));
+  position: relative; display: grid; gap: .15rem; flex: 1 1 22rem; max-width: 28rem; padding: 1.05rem 1.6rem 1.1rem; text-decoration: none; color: var(--night-ink);
+  background: rgba(20, 17, 13, .72);
   border: 1px solid rgba(230, 203, 133, .75);
-  box-shadow: inset 0 0 0 4px rgba(13, 11, 9, .55), inset 0 0 0 5px rgba(230, 203, 133, .3), 0 20px 60px -20px rgba(0, 0, 0, .8);
-  backdrop-filter: blur(6px);
-  transition: background .4s, box-shadow .4s, transform .4s cubic-bezier(.2, .7, .1, 1);
+  box-shadow: inset 0 0 0 4px rgba(13, 11, 9, .55), inset 0 0 0 5px var(--night-rule);
+  transition: background-color .3s, border-color .3s;
 }
-.enter-hall:hover { background: linear-gradient(180deg, rgba(60, 46, 22, .6), rgba(30, 24, 16, .85)); box-shadow: inset 0 0 0 4px rgba(13, 11, 9, .55), inset 0 0 0 5px rgba(230, 203, 133, .55), 0 28px 70px -20px rgba(0, 0, 0, .9), 0 0 40px -10px rgba(233, 207, 140, .35); }
-.eh-k { font: 600 .7rem 'Cormorant SC', serif; letter-spacing: .3em; text-transform: lowercase; color: #e9cf8c; }
-.eh-t { font: italic 500 clamp(1.7rem, 3vw, 2.3rem)/1.05 'Cormorant Garamond', serif; padding-right: 1.4rem; }
-.eh-s { font: 400 .92rem 'EB Garamond', serif; color: #cdbfa8; }
-.hero-browse { font: 600 .74rem 'Cormorant SC', serif; letter-spacing: .24em; text-transform: lowercase; color: #cdbfa8; text-decoration: none; border-bottom: 1px solid rgba(230, 203, 133, .35); padding-bottom: .2rem; }
-.hero-browse:hover { color: #f1dc9e; }
+.enter-hall:hover { background: rgba(38, 30, 18, .86); border-color: var(--gold-hi); }
+.eh-k { font: 600 var(--fs-small) var(--caps); letter-spacing: var(--ls-caps); text-transform: lowercase; font-variant: small-caps; color: var(--gold-hi); }
+.eh-t { font: italic 500 clamp(1.7rem, 3vw, 2.3rem)/1.05 var(--display); padding-right: 1.4rem; }
+.eh-s { font: 400 var(--fs-caption) var(--text); color: var(--night-ink-2); }
+/* The Web's door keeps its own sea-green, as the Web keeps its own palette. */
+.enter-web { border-color: rgba(159, 195, 198, .6); box-shadow: inset 0 0 0 4px rgba(13, 11, 9, .55), inset 0 0 0 5px rgba(159, 195, 198, .22); }
+.enter-web:hover { border-color: #bcd6d8; }
+.enter-web .eh-k { color: #bcd6d8; }
+@media (max-width: 640px) { .hero-doors { gap: .8rem; } .enter-hall { width: 100%; padding: .85rem 2.4rem .9rem 1.2rem; } .eh-t { font-size: 1.6rem; } }
 
 /* ---------- glossary popover: a small gilded card, the same in the Atlas and the hall ---------- */
 .term-popover {
+  --focus: var(--gold-hi);
   position: fixed; z-index: 80; width: min(22rem, calc(100vw - 1.5rem)); padding: .95rem 1.1rem 1rem;
-  background: linear-gradient(170deg, #221d16, #141109); color: #efe5d2;
-  border: 1px solid rgba(230, 203, 133, .55); border-radius: 3px;
-  box-shadow: inset 0 0 0 3px #0d0b09, inset 0 0 0 4px rgba(230, 203, 133, .18), 0 24px 60px -16px rgba(0, 0, 0, .75);
-  font: 400 1rem/1.45 'EB Garamond', Garamond, serif;
-  animation: term-in .25s cubic-bezier(.2, .7, .1, 1);
+  background: linear-gradient(170deg, var(--night-2), var(--night)); color: var(--night-ink);
+  border: 1px solid var(--night-rule-2);
+  box-shadow: inset 0 0 0 3px var(--night), inset 0 0 0 4px var(--night-rule);
+  font: 400 1rem/1.45 var(--text);
+  animation: term-in .2s ease-out;
 }
-@keyframes term-in { from { opacity: 0; transform: translateY(4px); } }
-.term-popover strong { display: block; padding-right: 1.5rem; font: italic 500 1.35rem/1.15 'Cormorant Garamond', Garamond, serif; color: #f1dc9e; }
-.term-popover p { margin: .4rem 0 .6rem; color: #d9cdb6; }
-.term-popover a { font: 600 .68rem 'Cormorant SC', serif; letter-spacing: .18em; text-transform: lowercase; color: #e9cf8c; text-decoration: none; border-bottom: 1px solid rgba(230, 203, 133, .4); }
-.term-popover button { position: absolute; top: .35rem; right: .5rem; background: none; border: 0; color: #8f826f; font-size: 1.3rem; cursor: pointer; line-height: 1; }
-.term-popover button:hover { color: #f1dc9e; }
+@keyframes term-in { from { opacity: 0; } }
+.term-popover strong { display: block; padding-right: 2.2rem; font: italic 500 1.35rem/1.15 var(--display); color: var(--gold-hi); }
+.term-popover p { margin: .4rem 0 .6rem; color: var(--night-ink-2); }
+.term-popover a { display: inline-block; padding-block: .3rem; font: 600 var(--fs-small) var(--caps); letter-spacing: var(--ls-caps); text-transform: lowercase; font-variant: small-caps; color: var(--gold-hi); text-decoration: underline 1px var(--night-rule-2); text-underline-offset: .35em; }
+.term-popover button { position: absolute; top: 0; right: 0; display: grid; place-items: center; width: 44px; height: 44px; padding: 0; background: none; border: 0; color: var(--night-muted); font: 1.4rem/1 var(--display); cursor: pointer; }
+.term-popover button:hover { color: var(--gold-hi); }
 
-.enter-web { border-color: rgba(159, 195, 198, .6); box-shadow: inset 0 0 0 4px rgba(13, 11, 9, .55), inset 0 0 0 5px rgba(159, 195, 198, .22), 0 20px 60px -20px rgba(0, 0, 0, .8); }
-.enter-web .eh-k { color: #bcd6d8; }
-.enter-web::after { color: #bcd6d8; }
-@media (max-width: 640px) { .hero-doors { gap: .8rem; } .enter-hall { width: 100%; padding: .85rem 2.4rem .9rem 1.2rem; } .eh-t { font-size: 1.6rem; } }
-
-.np-i { grid-row: 1 / 3; width: 2.1rem; height: 2.6rem; border-radius: 50%; object-fit: cover; border: 1px solid rgba(230, 203, 133, .6); box-shadow: 0 0 0 2px #120f0b, 0 0 0 3px rgba(230, 203, 133, .25); filter: sepia(.15); }
-.np-i[hidden] { display: none; }
-@media (max-width: 640px) { .np { grid-template-columns: auto auto minmax(0, 1fr) auto; } }
-
-/* Programmatic focus after a page change (for screen readers) needs no visible ring. */
-[tabindex="-1"]:focus { outline: none; }

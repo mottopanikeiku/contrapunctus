@@ -19,7 +19,7 @@ export default {
       "t": 0,
       "label": "Intro · The pedals begin alone",
       "m": "Intro",
-      "mNote": "Four bars for the feet before the hands join"
+      "mNote": "Four bars for the feet before the hands join."
     },
     {
       "t": 108,

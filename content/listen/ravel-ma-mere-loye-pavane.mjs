@@ -4,12 +4,12 @@ export default {
   year: '1908–10', key: 'A minor', forces: 'Piano four hands',
   performers: 'Duo Campion/Vachon', recorded: '1992',
   source: { file: "File:Ravel Duo Campion-Vachon Ma Mere l'oye 1 Pavane de la Belle au bois dormant.OGG" },
-  set: { id: 'ravel-ma-mere-loye', title: 'Ma mère l’Oye — piano duet', part: 1, of: 5 },
+  set: { id: 'ravel-ma-mere-loye', title: 'Ma mère l’Oye — piano duet', part: 1, of: 5, unit: 'pieces' },
   "intro": "The Pavane of Sleeping Beauty opens <i>Ma mère l’Oye</i> with twenty quiet bars for four hands at one piano. The melody passes between the two players.",
   "sections": [
     { "t": 0, "label": "A · Tune in the low part, reply above", "m": "A", "mNote": "The lower player starts the tune; the upper player replies." },
     { "t": 38, "label": "B · Upper melody in steady quavers", "m": "B", "mNote": "Quavers carry the tune through the middle of the keyboard." },
-    { "t": 72, "label": "A′ · the high tune returns", "m": "A′", "mNote": "The opening answer returns over repeated notes" }
+    { "t": 72, "label": "A′ · The high tune returns", "m": "A′", "mNote": "The opening answer returns over repeated notes." }
   ],
   "cues": [
     {
@@ -43,7 +43,7 @@ export default {
     },
     {
       "id": "upper-return", "title": "Return of the high melody",
-      "from": "B · Upper melody in steady quavers", "to": "A′ · the high tune returns",
+      "from": "B · Upper melody in steady quavers", "to": "A′ · The high tune returns",
       "at": { t: 72 }, "span": [64, 90],
       "how": "<p>The upper part returns to its high melody at <i>pp</i>, with repeated notes below it. The lower player restores the earlier accompaniment. A rallentando and a fermata lengthen the final bar.</p>",
       "devices": ["motivic link", "tempo change", "fermata"],

@@ -14,13 +14,13 @@ export default {
     archive: { item: 'lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne', file: 'disc1/01.02. Quintet In C Major, Op. 163: Second Movement: Adagio.mp3' },
     rights: { basis: 'eu-published-before-1963', published: 1953, evidence: 'Columbia Masterworks ML 4714 / SL-183, publication date 1953 on the Internet Archive item (an LP digitisation, one file per movement, listed in several vinyl collections including the Boston Public Library’s); Discogs gives the recording as made at the Prades Festival in 1952. The 1953 date comes from the item and the Discogs master release and is not independently verified. US status is not established.' },
   },
-  intro: 'The Adagio of Schubert’s String Quintet in C major, D. 956, opens with three inner voices playing while a violin and a pizzicato cello frame them; an F-minor middle section follows, and the opening returns altered. Pablo Casals and his Prades colleagues perform.',
+  intro: 'The Adagio of Schubert’s String Quintet in C major, D. 956, opens with three inner voices playing while a violin and a pizzicato cello frame them; an F minor middle section follows, and the opening returns altered. Pablo Casals and his Prades colleagues perform.',
   // Sources: https://en.wikipedia.org/wiki/String_Quintet_(Schubert)
   // https://classicalguy.substack.com/p/building-a-collection-24-schuberts (Blumhofer’s programme note; Prades recording context)
   // https://en.wikipedia.org/wiki/Pablo_Casals
   // Score: Schubert, Streichquintett C-dur, Franz Schubert’s Werke, Serie IV No. 1 (Breitkopf & Härtel, 1890, plate F.S. 22), IMSLP #885759, printed pp. 17–25 (the last three bars are on p. 25, above the start of the Scherzo)
   sections: [
-    { t: 0, label: 'A · melody in three voices, plucked cello', m: 'A', mNote: 'Second violin, viola and first cello sustain the melody.' },
+    { t: 0, label: 'A · Melody in three voices, plucked cello', m: 'A', mNote: 'Second violin, viola and first cello sustain the melody.' },
     { t: 270, label: 'B · F minor, violin and cello duet', m: 'B', mNote: 'Bowed bass and off-beat inner strings accompany the duet.' },
     { t: 478, label: 'A′ · E major, demisemiquavers in second cello', m: 'A′', mNote: 'The second cello plays running demisemiquavers beneath the returning melody.' },
     { t: 748, label: 'Coda · F minor inflection before final E major', m: 'Coda', mNote: 'The middle section’s key, F minor, returns in the last three bars.' },
@@ -36,14 +36,14 @@ export default {
     { t: 478, kind: 'form', title: 'Return of E major', text: 'E major returns. The three inner players take up their broad melody again, while the second cello now plays running demisemiquavers and exchanges flourishes with the first violin.', basis: 'score-proportion', precision: 'passage', evidence: 'Misha Donat’s note describes the first-violin and second-cello dialogue around the unchanged inner melody. The demisemiquavers are identified in the Adagio account at https://en.wikipedia.org/wiki/String_Quintet_(Schubert); https://www.hyperion-records.co.uk/dw.asp?dc=W6016_67864.' },
     { t: 540, kind: 'world', title: 'Casals at Prades', text: 'Pablo Casals made the small French town of Prades his home. Its first festival, in 1950, was devoted to Bach. The 1952 festival, recorded by Columbia and heard here, was the first given entirely to chamber music.', basis: 'documented', precision: 'passage', evidence: 'Columbia Masterworks LP sleeve notes (Internet Archive item lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne): the 1950 Bach festival, the recordings made at the Festival of 1952, and the third festival as the first devoted entirely to chamber music. https://archive.org/details/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne' },
     { t: 610, kind: 'world', title: 'Percy Scholes on chamber music', text: 'In <i>The Oxford Companion to Music</i>, Percy Scholes found “an intimacy” in the best chamber music “that comes from the impression of a conversation amongst the participants”. His poetic definition of it was “The Music of Friends”. The Columbia sleeve for this recording quoted him.', basis: 'documented', precision: 'passage', evidence: 'Percy Scholes, <i>The Oxford Companion to Music</i>, entry “Chamber Music”: “There is an intimacy about the best chamber music that comes from the impression of a conversation amongst the participants. A poetic definition of it is ‘The Music of Friends’.” Quoted in the Columbia Masterworks LP sleeve notes (Internet Archive item lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne). https://archive.org/details/lp_casals-festival-at-prades-third-series-qui_franz-schubert-isaac-stern-alexander-schne' },
-    { t: 680, kind: 'world', title: 'Tully Potter in The Strad', text: 'Reviewing this recording in The Strad, Tully Potter called Tortelier’s pizzicatos in the Adagio “superb”. He wrote that “groans from Casals” “only increase the tension”, and he heard “tremendous thrust” in the central section.', basis: 'documented', precision: 'passage', evidence: 'Tully Potter, review of the July 1952 Prades recording of the quintet (reissued on Minuet 428419), The Strad, December 2016: “groans from Casals only increase the tension”. https://www.thestrad.com/schubert-string-quintet-in-c-major-d956-schumann-piano-trio-no1-in-d-minor/4804.article' },
+    { t: 680, kind: 'world', title: 'Tully Potter in The Strad', text: 'Reviewing this recording in <i>The Strad</i>, Tully Potter called Tortelier’s pizzicatos in the Adagio “superb”. He wrote that “groans from Casals” “only increase the tension”, and he heard “tremendous thrust” in the central section.', basis: 'documented', precision: 'passage', evidence: 'Tully Potter, review of the July 1952 Prades recording of the quintet (reissued on Minuet 428419), The Strad, December 2016: “groans from Casals only increase the tension”. https://www.thestrad.com/schubert-string-quintet-in-c-major-d956-schumann-piano-trio-no1-in-d-minor/4804.article' },
     { t: 748, kind: 'music', title: 'F minor in the final bars', text: 'The last three bars turn briefly to F minor, the key of the middle section, before closing in E major.', basis: 'score-proportion', precision: 'passage', evidence: 'Breitkopf & Härtel score (1890), Adagio, final three bars; harmonic close described at https://en.wikipedia.org/wiki/String_Quintet_(Schubert).' },
   ],
   transitions: [
     {
       id: 'into-storm',
       title: 'E major to F minor, fortissimo',
-      from: 'A · melody in three voices, plucked cello',
+      from: 'A · Melody in three voices, plucked cello',
       to: 'B · F minor, violin and cello duet',
       at: { t: 270 },
       span: [258, 286],
@@ -60,7 +60,7 @@ export default {
       to: 'A′ · E major, demisemiquavers in second cello',
       at: { t: 478 },
       span: [430, 500],
-      how: '<p>The F-minor passage ends in quiet, separated chords. These lead back to E major and the sustained inner melody. The first violin and second cello now exchange quick flourishes around the other three players.</p>',
+      how: '<p>The F minor passage ends in quiet, separated chords. These lead back to E major and the sustained inner melody. The first violin and second cello now exchange quick flourishes around the other three players.</p>',
       devices: ['decrescendo', 'texture change', 'retransition'],
       basis: 'score-proportion',
       precision: 'passage',
@@ -68,7 +68,7 @@ export default {
     },
     {
       id: 'into-coda',
-      title: 'The F-minor chord returns',
+      title: 'The F minor chord returns',
       from: 'A′ · E major, demisemiquavers in second cello',
       to: 'Coda · F minor inflection before final E major',
       at: { t: 748 },

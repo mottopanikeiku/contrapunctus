@@ -19,7 +19,7 @@ export default {
   "source": {
     "file": "File:12 - Vivaldi Winter mvt 3 Allegro - John Harrison violin.ogg"
   },
-  "intro": "The third movement, Allegro, of Winter, RV 297, from Vivaldi’s The Four Seasons opens with the solo violin on the ice over a long held F in the bass, and soon all the players are slipping. The concerto ends with the Sirocco and the north wind fighting through the strings.",
+  "intro": "The third movement, Allegro, of Winter, RV 297, from Vivaldi’s <i>The Four Seasons</i> opens with the solo violin on the ice over a long held F in the bass, and soon all the players are slipping. The concerto ends with the Sirocco and the north wind fighting through the strings.",
   "sections": [
     { "t": 0, "label": "A · Solo violin over F pedal", "m": "A", "mNote": "The solo violin plays above a sustained F in the bass." },
     { "t": 20.5, "label": "B · Strings over C, descending figures", "m": "B", "mNote": "The strings enter over C and play descending figures." },
@@ -119,7 +119,7 @@ export default {
       "from": "D · Short string phrases, C minor",
       "to": "E · Lento, E♭ major, without basses",
       "at": { "t": 119 },
-      "how": "<p>The C-minor solo ends on G. At the Lento the upper strings begin in E♭ major, and the basso is silent for nineteen bars. The violin’s opening G–F–E♭ is now played in quavers under the words <i>Il Vento Sirocco</i>.</p>",
+      "how": "<p>The C minor solo ends on G. At the Lento the upper strings begin in E♭ major, and the basso is silent for nineteen bars. The violin’s opening G–F–E♭ is now played in quavers under the words <i>Il Vento Sirocco</i>.</p>",
       "devices": ["tempo change", "orchestration change", "texture change"],
       "basis": "score-proportion",
       "precision": "passage",

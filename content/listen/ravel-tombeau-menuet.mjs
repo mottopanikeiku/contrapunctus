@@ -5,17 +5,17 @@ export default {
   "performers": "azuma, piano", "recorded": "January 2007",
   "source": { "file": "File:Maurice Ravel - azuma - Le Tombeau de Couperin. V. Menuet (live).opus" },
   "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin — piano version", "part": 5, "of": 6 },
-  "intro": "The fifth movement of Ravel’s Le Tombeau de Couperin is a minuet in G major with a musette, a dance over a bagpipe-like drone, as its middle section. When the minuet returns, Ravel combines the two dances at the keyboard.",
+  "intro": "The fifth movement of Ravel’s <i>Le Tombeau de Couperin</i> is a minuet in G major with a musette, a dance over a bagpipe-like drone, as its middle section. When the minuet returns, Ravel combines the two dances at the keyboard.",
   "sections": [
     { "t": 0, "label": "A · Minuet in G major", "m": "A", "mNote": "An ornamented melody above a moving bass." },
-    { "t": 110, "label": "B · Musette over a drone", "m": "B", "mNote": "G minor, with held bass notes under moving chords" },
+    { "t": 110, "label": "B · Musette over a drone", "m": "B", "mNote": "G minor, with held bass notes under moving chords." },
     { "t": 188, "label": "A′ · Minuet over musette chords", "m": "A′", "mNote": "The minuet returns above the musette’s chords." },
     { "t": 238, "label": "Coda · Melody over left-hand arpeggios", "m": "Coda", "mNote": "Left-hand arpeggios continue, then the tempo slows to the close." },
   ],
   "cues": [
     {
       "t": 0, "kind": "music", "title": "Opening of the Menuet",
-      "text": "A turn ornaments the first note of the melody. The tune moves in three beats over an independent bass line. Ravel marked the G-major opening <i>pianissimo</i> and <i>Allegro moderato</i>.",
+      "text": "A turn ornaments the first note of the melody. The tune moves in three beats over an independent bass line. Ravel marked the G major opening <i>pianissimo</i> and <i>Allegro moderato</i>.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand piano score (1918), Menuet, p. 20; Piano Practical Editions, bars 1–8, p. 34. https://ks15.imslp.org/files/imglnks/usimg/4/48/IMSLP560971-PMLP4975-Le_Tombeau_de_Couperin.pdf",
     },
@@ -57,7 +57,7 @@ export default {
     },
     {
       "t": 285, "kind": "music", "title": "Silently depressed keys, final bars",
-      "text": "The closing page asks for much slowing, then <i>Très lent</i>. At the end Ravel told the pianist to press keys silently. The pedal clears, and only the notes whose dampers remain raised ring into the final G-major chord.",
+      "text": "The closing page asks for much slowing, then <i>Très lent</i>. At the end Ravel told the pianist to press keys silently. The pedal clears, and only the notes whose dampers remain raised ring into the final G major chord.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand piano score (1918), Menuet, final bars; Piano Practical Editions, bars 124–128, p. 38, and commentary on bar 127: sans faire vibrer means to depress the keys silently.",
     },
@@ -66,7 +66,7 @@ export default {
     {
       "id": "into-musette", "title": "From the Menuet to the Musette", "from": "A · Minuet in G major", "to": "B · Musette over a drone",
       "at": { "t": 110 }, "span": [100, 125],
-      "how": "<p>The repeated strain of the minuet closes, and the piano begins the <i>Musette</i> softly. G remains the home note, and B♭ replaces B♮. Held bass notes support the moving chords. E♮ places the G-minor dance in the Dorian mode. The bar stays in three beats.</p>",
+      "how": "<p>The repeated strain of the minuet closes, and the piano begins the <i>Musette</i> softly. G remains the home note, and B♭ replaces B♮. Held bass notes support the moving chords. E♮ places the G minor dance in the Dorian mode. The bar stays in three beats.</p>",
       "devices": ["texture change", "tonic pedal"], "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand piano score (1918), pp. 20–21; Piano Practical Editions, Menuet, bars 31–40, p. 35.",
     },

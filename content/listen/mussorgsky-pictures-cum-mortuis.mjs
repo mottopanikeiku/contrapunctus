@@ -4,7 +4,7 @@ export default {
   order: 2,
   work: 'Pictures at an Exhibition',
   movement: 'Cum mortuis in lingua mortua — Andante non troppo, con lamento',
-  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 13, of: 15 },
+  set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 13, of: 15, unit: 'pieces' },
   year: '1874',
   key: 'B minor',
   forces: 'Orchestra',

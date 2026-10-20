@@ -8,7 +8,7 @@ export default {
   id: 'ravel-miroirs-alborada',
   composer: 'ravel',
   order: 23,
-  set: { id: 'ravel-miroirs', title: 'Miroirs', part: 4, of: 5 },
+  set: { id: 'ravel-miroirs', title: 'Miroirs', part: 4, of: 5, unit: 'pieces' },
   work: 'Miroirs',
   movement: 'IV. Alborada del gracioso — Assez vif',
   year: '1904–05',
@@ -24,7 +24,7 @@ export default {
     { "t": 95, "label": "B · Plus lent, solo melody", "m": "B", "mNote": "Plus lent: an unaccompanied melody alternates with strummed chords." },
     { "t": 234, "label": "Link · Repeated A in the bass", "m": "Link", "mNote": "The dance rhythm returns over a repeated A in the bass." },
     { "t": 264, "label": "A′ · Dry chords over E♭", "m": "A′", "mNote": "The opening strummed chords return at ppp in a new key." },
-    { "t": 304, "label": "Coda · Staccato chords accelerating to D major", "m": "Coda", "mNote": "Quiet chords accelerate towards the D-major ending." }
+    { "t": 304, "label": "Coda · Staccato chords accelerating to D major", "m": "Coda", "mNote": "Quiet chords accelerate towards the D major ending." }
   ],
 
   "cues": [

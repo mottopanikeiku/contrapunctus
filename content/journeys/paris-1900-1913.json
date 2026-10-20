@@ -1,14 +1,14 @@
 {
   "id": "paris-1900-1913",
   "title": "Paris, 1900–1913",
-  "subtitle": "Quiet piano music, paintings of water and dance",
+  "subtitle": "From Satie’s first Gymnopédie to The Rite of Spring",
   "minutes": 21,
   "hero": { "file": "File:Monet - Impression, Sunrise.jpg", "caption": "Claude Monet, <i>Impression, soleil levant</i>, 1872, Musée Marmottan Monet. An orange sun over the boats in the harbour at Le Havre, in mist." },
-  "intro": "Satie set a melody over two quiet piano chords; twenty-five years later, Stravinsky wrote music in which the orchestra stamps. Between them came Debussy’s sea and clouds, Ravel’s birds and plucked strings, and the dancers who brought the Ballets Russes to Paris.",
+  "intro": "Satie set a melody over two quiet piano chords; twenty-five years later, Stravinsky wrote a stamping dance for orchestra. Between them came Debussy’s sea and clouds, Ravel’s birds and plucked strings, and the Ballets Russes in Paris.",
   "stations": [
     {
       "id": "s1",
-      "title": "Satie and the unresolved note",
+      "title": "Satie’s first Gymnopédie",
       "listen": { "id": "satie-gymnopedie-1", "from": 2.18, "to": 90.34 },
       "art": null,
       "score": { "listen": "satie-gymnopedie-1", "bar": "1" },
@@ -53,7 +53,7 @@
     },
     {
       "id": "s3",
-      "title": "Flute, harp and orange sun",
+      "title": "Debussy’s Nuages and Monet’s harbour",
       "listen": { "id": "debussy-nocturnes-nuages", "from": 268, "to": 372 },
       "art": { "file": "File:Monet - Impression, Sunrise.jpg", "caption": "Claude Monet, <i>Impression, soleil levant</i>, 1872. An orange sun and dark boats against the mist over the harbour at Le Havre." },
       "score": null,
@@ -97,12 +97,12 @@
       "id": "s5",
       "title": "Hokusai’s wave on the cover of Debussy’s score",
       "listen": { "id": "debussy-la-mer-dawn", "from": 0, "to": 180 },
-      "art": { "file": "File:Katsushika Hokusai - Thirty-Six Views of Mount Fuji- The Great Wave Off the Coast of Kanagawa - Google Art Project.jpg", "caption": "Katsushika Hokusai, <i>Under the Wave off Kanagawa</i>, c. 1830–32, colour woodblock print. The wave arches over small boats, with Mount Fuji beyond." },
+      "art": { "file": "File:Katsushika Hokusai - Thirty-Six Views of Mount Fuji- The Great Wave Off the Coast of Kanagawa - Google Art Project.jpg", "caption": "Katsushika Hokusai, <i>The Great Wave off Kanagawa</i>, c. 1830–32, colour woodblock print. The wave arches over small boats, with Mount Fuji beyond." },
       "score": null,
       "map": null,
       "edge": "hokusai--debussy-la-mer-cover",
       "compare": null,
-      "text": "<p>The United States Air Force Band plays the opening of <i>La Mer</i> in Lawrence Odom’s concert-band transcription. A low B is held beneath the opening; short phrases enter above it, one at a time. Later, groups of two and three notes cross one another. When Durand published the score in 1905, its cover carried an adapted detail of Hokusai’s wave. In the complete print, narrow boats lie under the curling crest, and Mount Fuji stands far behind them, beyond the reach of the water.</p>",
+      "text": "<p>The United States Air Force Band plays the opening of <i>La Mer</i> in Lawrence Odom’s concert-band transcription. A low B is held beneath the opening; short phrases enter above it, one at a time. Later, groups of two and three notes cross one another. When Durand published the score in 1905, its cover carried an adapted detail of Hokusai’s wave. In the complete print, narrow boats lie under the curling crest, and Mount Fuji stands far behind them.</p>",
       "cues": [
         { "at": 0, "text": "Odom’s concert-band transcription opens over a held low B, with short phrases above it." },
         { "at": 68, "text": "The low notes are held while shorter phrases begin to move above them." },
@@ -120,7 +120,7 @@
     },
     {
       "id": "s6",
-      "title": "Birds in summer heat",
+      "title": "Ravel’s Oiseaux tristes",
       "listen": { "id": "ravel-miroirs-oiseaux-tristes", "from": 0, "to": 142 },
       "art": null,
       "score": null,
@@ -168,7 +168,7 @@
     },
     {
       "id": "s8",
-      "title": "Bassoon and orchestra",
+      "title": "The opening bassoon solo",
       "listen": { "id": "stravinsky-rite-adoration", "from": 0, "to": 180 },
       "art": null,
       "score": null,
@@ -190,7 +190,7 @@
     },
     {
       "id": "s9",
-      "title": "Stamping strings and horn strikes",
+      "title": "Augurs of Spring: the repeated chord",
       "listen": { "id": "stravinsky-rite-adoration", "from": 180, "to": 363 },
       "art": null,
       "score": null,
@@ -202,7 +202,7 @@
         { "at": 185, "text": "The strings repeat their crowded chord; horns pick out certain strokes with extra force." },
         { "at": 225, "text": "The dance opens in 2/4, with quiet strokes filling the uneven gaps between the accents." },
         { "at": 305, "text": "The dance grows louder around its recurring figures, then grows quieter again." },
-        { "at": 345, "text": "A repeated tread holds beneath the shorter phrases, with the orchestra stamping and speaking at once." }
+        { "at": 345, "text": "A repeated tread holds beneath the shorter phrases." }
       ],
       "sources": [
         { "title": "Pieter C. van den Toorn: Augurs, rehearsal 13, chord and accent analysis", "url": "https://publishing.cdlib.org/ucpressebooks/public/book/stravinsky-and-the-rite-of-spring.html#d0e3499" },

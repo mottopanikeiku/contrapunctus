@@ -10,7 +10,7 @@ export default {
   portrait: { file: 'File:Photograph of Alexander Scriabin in 1914.jpg', caption: 'Alexander Scriabin in 1914.', focus: '50% 20%' },
   facts: [
     ['Trained', 'Moscow Conservatory, 1888–92: Safonov, Taneyev and Arensky'],
-    ['Taught', 'Piano professor at the Moscow Conservatory from 1898'],
+    ['Teaching', 'Piano professor at the Moscow Conservatory from 1898'],
     ['Patrons', 'Publisher Mitrofan Belyayev; conductor Serge Koussevitzky'],
     ['Output', 'Ten piano sonatas; three symphonies; a concerto; <i>The Poem of Ecstasy</i> and <i>Prometheus</i>'],
   ],
@@ -39,9 +39,9 @@ export default {
   sound: [
     { aspect: 'Six-note harmony', glyph: '♯', html: `<p>In <i>Prometheus</i>, C–F♯–B♭–E–A–D and transpositions of that collection can supply both a chord and a melody. The collection returns repeatedly, over changing bass notes. Elsewhere Scriabin draws on [[workshop#octatonic|octatonic]] scales. In a late sonata the harmony can stay unresolved for pages, and the strongest arrivals are made by a trill, an accent or a sudden leap.</p>` },
     { aspect: 'Unequal divisions', glyph: '𝅘𝅥', html: `<p>Three notes in one hand can run against five in the other, or a melody can pause while its accompaniment continues. Scriabin notated these cross-rhythms precisely. The early Op. 11 Preludes already vary the bar: No. 16 alternates 5/8 and 4/8, and in No. 19 the accompanying figures start before the beat.</p>` },
-    { aspect: 'Trills & tremolos', glyph: '𝄞', html: `<p>In the Tenth Sonata the trills accumulate and spread into different registers of the keyboard. In <i>Vers la flamme</i>, widely separated chords grow increasingly busy until the texture is filled with tremolos.</p>` },
+    { aspect: 'Trills and tremolos', glyph: '𝄞', html: `<p>In the Tenth Sonata the trills accumulate and spread into different registers of the keyboard. In <i>Vers la flamme</i>, widely separated chords grow increasingly busy until the texture is filled with tremolos.</p>` },
     { aspect: 'Sonata shapes', glyph: '𝄋', html: `<p>The Fourth joins a slow movement to a fast one; the Fifth through Tenth each occupy one movement. Within them, contrasting ideas are introduced, developed and brought back. Scriabin’s eruptions are carefully placed. The Fifth’s opening rush interrupts the music again later, while the Ninth takes its gentle material into a brutal march.</p>` },
-    { aspect: 'Orchestra & light', glyph: '𝄐', html: `<p>The trumpet in <i>The Poem of Ecstasy</i> plays over a very large orchestra. <i>Prometheus</i> has a solo piano part and adds two lines for light on a single stave. One line changes colour quickly with the chords, and a slower sequence follows the larger course of the work. At the end, chorus, organ and orchestra arrive together on F♯ major, and the light was meant to be dazzling.</p>` },
+    { aspect: 'Orchestra and light', glyph: '𝄐', html: `<p>The trumpet in <i>The Poem of Ecstasy</i> plays over a very large orchestra. <i>Prometheus</i> has a solo piano part and adds two lines for light on a single stave. One line changes colour quickly with the chords, and a slower sequence follows the larger course of the work. At the end, chorus, organ and orchestra arrive together on F♯ major, and the light was meant to be dazzling.</p>` },
   ],
   works: [
     { year: '1888–96', title: 'Twenty-four Preludes', cat: 'Op. 11', forces: 'Piano', note: 'Chopin’s scheme of twenty-four keys, set with Scriabin’s own rhythms. Dates and place-names on the pieces record his travels through Europe.' },
@@ -100,7 +100,7 @@ V:2
     { work: 'Piano Concerto', performers: 'Vladimir Ashkenazy; London Philharmonic Orchestra, Lorin Maazel', year: '1971', label: 'Decca', note: 'A lyrical performance with firm orchestral support. Decca’s Kingsway Hall recording gives the piano room without losing detail in the strings. The slow variations are the centre of the work.' },
     { work: 'The Poem of Ecstasy · Prometheus', performers: 'Anatol Ugorski, piano in Prometheus; Chicago Symphony Orchestra and Chorus, Pierre Boulez', year: '1995–96', label: 'Deutsche Grammophon', note: 'Best for <i>Prometheus</i>: Boulez separates the wind voices and gives Ugorski’s solo passages a firm setting. The playing is clear, though <i>Ecstasy</i> could use more abandon.' },
   ],
-  lineage: { from: ['chopin', 'liszt', 'wagner', 'Russian Symbolism and Theosophy'], to: ['Nikolai Roslavets', 'Samuil Feinberg', 'Olivier Messiaen', 'prokofiev'], note: `<p>Scriabin took the singing style of piano writing and many of his favourite forms from Chopin. Later composers took up his harmonies: Roslavets built his own method around synthetic chords, and Feinberg extended the sonata. [[prokofiev|Prokofiev]] dedicated <i>Dreams</i> to him in 1910. [[messiaen|Messiaen]] also used colour and selected scales, with a very different religious imagination.</p>` },
+  lineage: { from: ['chopin', 'liszt', 'wagner', 'Russian Symbolism and Theosophy'], to: ['Nikolai Roslavets', 'Samuil Feinberg', 'messiaen', 'prokofiev'], note: `<p>Scriabin took the singing style of piano writing and many of his favourite forms from Chopin. Later composers took up his harmonies: Roslavets built his own method around synthetic chords, and Feinberg extended the sonata. [[prokofiev|Prokofiev]] dedicated <i>Dreams</i> to him in 1910. [[messiaen|Messiaen]] also used colour and selected scales, with a very different religious imagination.</p>` },
   reading: [
     'Faubion Bowers, <i>Scriabin: A Biography</i>, revised edition (Dover, 1996) — extensive biographical material; distinguish contemporary testimony from retrospective anecdote.',
     'James M. Baker, <i>The Music of Alexander Scriabin</i> (Yale, 1986) — close harmonic analysis of the transition from tonal to late practice.',

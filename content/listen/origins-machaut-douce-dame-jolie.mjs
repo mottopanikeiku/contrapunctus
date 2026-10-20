@@ -21,7 +21,7 @@ export default {
   intro: 'Lambert Murphy recorded two old French songs with harp and lute in New York in 1915, Machaut’s <i>Douce dame jolie</i> and Janequin’s <i>L’espoir que j’ai</i>. Both are sung in Weckerlin’s arrangements and together fill one side of a Victor record.',
 
   sections: [
-    { t: 0, label: 'A · Two French songs, harp and lute', m: 'A', mNote: 'Machaut, then Janequin, in Weckerlin’s arrangements' },
+    { t: 0, label: 'A · Two French songs, harp and lute', m: 'A', mNote: 'Machaut, then Janequin, in Weckerlin’s arrangements.' },
   ],
   cues: [
     { t: 0, kind: 'form', title: 'Two songs on one side', text: 'Machaut’s <i>Douce dame jolie</i> comes first and Janequin’s <i>L’espoir que j’ai</i> second. Murphy sings arrangements from Weckerlin’s <i>Échos du temps passé</i>, with Stefano Di Stefano on harp and William Carlino on lute.', basis: 'documented', precision: 'passage', evidence: 'Victor 45083-B, matrix B-15595, take 4: label order, arrangements and personnel are documented by the Discography of American Historical Recordings. https://adp.library.ucsb.edu/index.php/matrix/refer/700000578' },

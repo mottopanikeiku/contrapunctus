@@ -13,7 +13,7 @@ styles. Dynamics, hairpins, pedalling, fingering, stems, layout and editorial te
 import argparse
 from collections import Counter, defaultdict
 from fractions import Fraction
-from math import gcd, lcm
+from math import lcm
 from pathlib import Path
 import re
 import xml.etree.ElementTree as ET
