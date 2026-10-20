@@ -1,0 +1,521 @@
+{
+  "uniqueScoreAttacks": 978,
+  "audioDetectedOnsets": 748,
+  "medianAbsoluteOnsetDeviation": 0.06478372356693995,
+  "noteWeightedMedianDeviation": 0.05548924220852314,
+  "p95AbsoluteOnsetDeviation": 0.2337032774350078,
+  "fractionWithin150ms": 0.8476482617586912,
+  "regions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 55,
+      "median": 0.05967080630701904,
+      "p95": 0.2070089648262407,
+      "max": 0.27091612614037874,
+      "adaptiveMedian": 0.04476770553182341,
+      "adaptiveP95": 0.1442847176079736
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 96,
+      "median": 0.06012010230448972,
+      "p95": 0.21268839318673027,
+      "max": 0.3009422296050204,
+      "adaptiveMedian": 0.043814863154564954,
+      "adaptiveP95": 0.13984525787058777
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 90,
+      "median": 0.0624274244581553,
+      "p95": 0.25487518456995095,
+      "max": 0.38761443337024915,
+      "adaptiveMedian": 0.03601974898486304,
+      "adaptiveP95": 0.10200844407530682
+    },
+    {
+      "start": 24.0,
+      "end": 32.0,
+      "attacks": 94,
+      "median": 0.06556129040763459,
+      "p95": 0.3239164293624438,
+      "max": 0.40359463165111364,
+      "adaptiveMedian": 0.03553050677635561,
+      "adaptiveP95": 0.1217114182882442
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 102,
+      "median": 0.06807506723619738,
+      "p95": 0.3065559115118868,
+      "max": 0.3881500158202833,
+      "adaptiveMedian": 0.034341744449715605,
+      "adaptiveP95": 0.0912947384380146
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 97,
+      "median": 0.07002959711015677,
+      "p95": 0.31370818172230736,
+      "max": 0.42777131782947464,
+      "adaptiveMedian": 0.03332252280758041,
+      "adaptiveP95": 0.09245981648472233
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 77,
+      "median": 0.05985827664400034,
+      "p95": 0.15563170384433253,
+      "max": 0.20719717344301358,
+      "adaptiveMedian": 0.040195907820468335,
+      "adaptiveP95": 0.10479528555607517
+    },
+    {
+      "start": 56.0,
+      "end": 64.0,
+      "attacks": 97,
+      "median": 0.05566273796339516,
+      "p95": 0.1637752728998506,
+      "max": 0.21768048304591758,
+      "adaptiveMedian": 0.03042965248115337,
+      "adaptiveP95": 0.08226591256658787
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 75,
+      "median": 0.07390695037705086,
+      "p95": 0.24290999578126388,
+      "max": 0.28741048357326804,
+      "adaptiveMedian": 0.03552154195011781,
+      "adaptiveP95": 0.08328859489531765
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 66,
+      "median": 0.07484885039287548,
+      "p95": 0.1966732914095921,
+      "max": 0.3020570321151581,
+      "adaptiveMedian": 0.03967884828350776,
+      "adaptiveP95": 0.08826823946630569
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "attacks": 95,
+      "median": 0.058201629489019524,
+      "p95": 0.18456655065129154,
+      "max": 0.27236816431998534,
+      "adaptiveMedian": 0.034855376259045556,
+      "adaptiveP95": 0.08966066814322886
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 34,
+      "median": 0.07439441280389048,
+      "p95": 0.21540480145546748,
+      "max": 0.32414491377939214,
+      "adaptiveMedian": 0.034164293624449726,
+      "adaptiveP95": 0.07503124505621271
+    }
+  ],
+  "worstFiveOnsetRegions": [
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 66,
+      "median": 0.07484885039287548,
+      "p95": 0.1966732914095921,
+      "max": 0.3020570321151581,
+      "adaptiveMedian": 0.03967884828350776,
+      "adaptiveP95": 0.08826823946630569
+    },
+    {
+      "start": 88.0,
+      "end": 96.0,
+      "attacks": 34,
+      "median": 0.07439441280389048,
+      "p95": 0.21540480145546748,
+      "max": 0.32414491377939214,
+      "adaptiveMedian": 0.034164293624449726,
+      "adaptiveP95": 0.07503124505621271
+    },
+    {
+      "start": 64.0,
+      "end": 72.0,
+      "attacks": 75,
+      "median": 0.07390695037705086,
+      "p95": 0.24290999578126388,
+      "max": 0.28741048357326804,
+      "adaptiveMedian": 0.03552154195011781,
+      "adaptiveP95": 0.08328859489531765
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "attacks": 97,
+      "median": 0.07002959711015677,
+      "p95": 0.31370818172230736,
+      "max": 0.42777131782947464,
+      "adaptiveMedian": 0.03332252280758041,
+      "adaptiveP95": 0.09245981648472233
+    },
+    {
+      "start": 32.0,
+      "end": 40.0,
+      "attacks": 102,
+      "median": 0.06807506723619738,
+      "p95": 0.3065559115118868,
+      "max": 0.3881500158202833,
+      "adaptiveMedian": 0.034341744449715605,
+      "adaptiveP95": 0.0912947384380146
+    }
+  ],
+  "worstFiveAdaptiveRegions": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "attacks": 55,
+      "median": 0.05967080630701904,
+      "p95": 0.2070089648262407,
+      "max": 0.27091612614037874,
+      "adaptiveMedian": 0.04476770553182341,
+      "adaptiveP95": 0.1442847176079736
+    },
+    {
+      "start": 8.0,
+      "end": 16.0,
+      "attacks": 96,
+      "median": 0.06012010230448972,
+      "p95": 0.21268839318673027,
+      "max": 0.3009422296050204,
+      "adaptiveMedian": 0.043814863154564954,
+      "adaptiveP95": 0.13984525787058777
+    },
+    {
+      "start": 48.0,
+      "end": 56.0,
+      "attacks": 77,
+      "median": 0.05985827664400034,
+      "p95": 0.15563170384433253,
+      "max": 0.20719717344301358,
+      "adaptiveMedian": 0.040195907820468335,
+      "adaptiveP95": 0.10479528555607517
+    },
+    {
+      "start": 72.0,
+      "end": 80.0,
+      "attacks": 66,
+      "median": 0.07484885039287548,
+      "p95": 0.1966732914095921,
+      "max": 0.3020570321151581,
+      "adaptiveMedian": 0.03967884828350776,
+      "adaptiveP95": 0.08826823946630569
+    },
+    {
+      "start": 16.0,
+      "end": 24.0,
+      "attacks": 90,
+      "median": 0.0624274244581553,
+      "p95": 0.25487518456995095,
+      "max": 0.38761443337024915,
+      "adaptiveMedian": 0.03601974898486304,
+      "adaptiveP95": 0.10200844407530682
+    }
+  ],
+  "worstFiveHarmonicRegions": [
+    {
+      "start": 88.0,
+      "meanCosine": 0.5383610167546429
+    },
+    {
+      "start": 32.0,
+      "meanCosine": 0.5960182818703178
+    },
+    {
+      "start": 16.0,
+      "meanCosine": 0.6040834748921983
+    },
+    {
+      "start": 72.0,
+      "meanCosine": 0.6053597805146589
+    },
+    {
+      "start": 24.0,
+      "meanCosine": 0.6136983146909004
+    }
+  ],
+  "sections": [
+    {
+      "bar": "26",
+      "occ": 1,
+      "editorial": 28.3,
+      "aligned": 28.68441860465116,
+      "difference": 0.3844186046511595,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "50",
+      "occ": 1,
+      "editorial": 53.9,
+      "aligned": 54.11186046511628,
+      "difference": 0.2118604651162812,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    },
+    {
+      "bar": "85",
+      "occ": 1,
+      "editorial": 96.5,
+      "aligned": 92.6660465116279,
+      "difference": -3.833953488372103,
+      "note": "Nearest bar locator only; original section has no score-bar assertion."
+    }
+  ],
+  "anchors": [
+    {
+      "label": "first",
+      "bar": "1",
+      "occ": 1,
+      "scoreQ": 0.0,
+      "audioSeconds": 3.7,
+      "nearestOnsetDeviation": 0.008027210884353764
+    },
+    {
+      "label": "middle",
+      "bar": "41",
+      "occ": 1,
+      "scoreQ": 81.83333333333331,
+      "audioSeconds": 44.28398255813953,
+      "nearestOnsetDeviation": 0.1080188393186674
+    },
+    {
+      "label": "last",
+      "bar": "85",
+      "occ": 1,
+      "scoreQ": 168.0,
+      "audioSeconds": 92.6660465116279,
+      "nearestOnsetDeviation": 0.016402467963942513
+    }
+  ],
+  "heldNotes": [
+    {
+      "bar": "85",
+      "occ": 1,
+      "midi": 30,
+      "voice": "lower",
+      "durationQ": 4.0,
+      "onset": 92.6660465116279,
+      "offset": 94.59999999999998,
+      "durationSeconds": 1.933953488372083
+    },
+    {
+      "bar": "85",
+      "occ": 1,
+      "midi": 42,
+      "voice": "lower",
+      "durationQ": 4.0,
+      "onset": 92.6660465116279,
+      "offset": 94.59999999999998,
+      "durationSeconds": 1.933953488372083
+    },
+    {
+      "bar": "85",
+      "occ": 1,
+      "midi": 54,
+      "voice": "upper",
+      "durationQ": 4.0,
+      "onset": 92.6660465116279,
+      "offset": 94.59999999999998,
+      "durationSeconds": 1.933953488372083
+    }
+  ],
+  "recurrence": [],
+  "zeroOrNegativeDurations": 0,
+  "minimumNoteDuration": 0.017616279069766705,
+  "collapsedAttackIntervals": 0,
+  "meanPathChromaCosine": 0.6529947151319323,
+  "endAnchor": {
+    "scoreQ": 172.0,
+    "audioSeconds": 94.59999999999998,
+    "decodedDuration": 163.41877551020409,
+    "activeEndMinus45dB": 159.1960090702948,
+    "configuredEnd": {
+      "seconds": 94.6,
+      "basis": "MEAS: the display end of Op. 10 No. 5 on this two-étude side. After the final G-flat chord (92.67 s) its bands decay into the transfer's surface noise by 94.6 s (F-sharp4 -48 dB, F-sharp3 -52 dB; total -18.6 dB, the same as the noise-only gap 94.7-96.3 s). Op. 25 No. 9 begins at 96.4 s (its opening B-flat4 jumps -30 -> -10 dB at 96.4 s), and the rest of the side is not covered by this score. This is not a measured key release; the whole-file -45 dB RMS end lies after Op. 25 No. 9."
+    }
+  },
+  "roundedCollapsedAttackIntervals": 0,
+  "id": "chopin-etude-op10-5-cortot",
+  "tuningHz": 444.09,
+  "audioSha256": "2fe876f99ad5156e022db65cbc5455966987dff4bab3ca96ccb8d0f71d40c8e8",
+  "software": {
+    "librosa": "0.11.0",
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mido": "1.3.3"
+  },
+  "scoreProvenance": [
+    "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",
+    "Edition: the Paris first edition of Études Op. 10 (M. Schlesinger), catalogued by NIFC Chopin First Editions Online as 010-1b-Sm-005 (RISM 300605128, PL-Wbfc 1628/n); encoding Tomasz Sierawski, editing Jędrzej Mróz and Emilia Ziętek. The performer's edition is not established; first-edition readings can differ from later editions.",
+    "Conversion: tools/align/humdrum_convert.py reads the unchanged **kern tokens (Humdrum line timing, spine splits/merges, explicit sounding pitches, ties, graces, tuplets) and writes plain MusicXML for the pinned LilyPond 2.24.4 converter. Dynamics, hairpins, pedalling, fingering, stems, layout comments, *rscale display scaling, cue size and editorial text are not converted; slurs are kept only when both ends lie in one encoded voice. Voices are the encoded Humdrum sub-spines on each staff (MusicXML voices 1-4 upper, 5-8 lower), labelled here only as upper/lower staff.",
+    "Source token correction with print reference: 010-1b-Sm-005.krn line 91 (bar 4, under 8va) encodes the middle note of the last right-hand triplet as `24dad-`, which contains two pitch names and is not a valid **kern pitch; read as D-flat6 (`24ddd-`). Print, viewed 19 Oct 2026 in OCVE page images: the French first edition (10-1-Sm, M. Schlesinger, p. 20, bar 4, the first bar of the second system; https://chopinonline.ac.uk/ocve/browse/pageview/63226/) engraves this group under 8a as A-flat above the staff, D-flat on the fourth line, D-flat above the staff, i.e. sounding A-flat6, D-flat6, D-flat7. The encoding's parallel bar 12 has the same group as `24aaa-` / `24ddd-` / `24dddd-` (lines 223-226). The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report.",
+    "Source token correction with print reference: 010-1b-Sm-005.krn line 788 (bar 47, under 8va) encodes the middle note of the last right-hand triplet as `24ede-` (two pitch names); read as E-flat6 (`24eee-`), between the D-flat6 notes of lines 787/789. Print, viewed 19 Oct 2026: French first edition (10-1-Sm, M. Schlesinger, p. 22, bar 47; https://chopinonline.ac.uk/ocve/browse/pageview/63228/) engraves every lower triplet of the bar under 8a as D-flat, E-flat, D-flat (one staff step up and back), the last one included. The bar's other three groups are encoded `24dddd-`/`24eeee-`/`24dddd-` and `24ddd-`/`24eee-`/`24ddd-` (lines 776-786). The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report.",
+    "Source token correction with print reference: 010-1b-Sm-005.krn line 1357 (bar 83, first right-hand chord, last note under 8va) encodes the upper chord member as `24gbg-'` (two pitch names) beside `24bb-`; read as G-flat6 (`24ggg-'`). Print, viewed 19 Oct 2026: French first edition (10-1-Sm, M. Schlesinger, p. 24, bar 83; https://chopinonline.ac.uk/ocve/browse/pageview/63230/) engraves this staccato sixteenth chord at the end of the 8a line as G-flat in the space above the treble staff with B-flat on the middle line, i.e. sounding G-flat6/B-flat5, over the left hand's G-flat4. The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report.",
+    "Recording: Alfred Cortot, Victor 64989 (matrix B-23953, take 2), Camden, 22 April 1920; acoustic. The disc side continues with Op. 25 No. 9 (from about 96.5 s), which this Op. 10 No. 5 score does not cover (content/listen module)."
+  ],
+  "sectionAnchorPairsSeconds": [
+    [
+      25.94,
+      28.3
+    ],
+    [
+      51.519999999999996,
+      53.9
+    ],
+    [
+      88.7860465116279,
+      92.66
+    ]
+  ],
+  "sourceChecks": {
+    "musicxmlConversion": "LilyPond 2.24.4 with per-note ties, source-owned clefs and explicit structure/spanner guards",
+    "humdrumConversion": "Original **kern tokens converted by tools/align/humdrum_convert.py to plain MusicXML (notes, rests, ties, tuplets, graces, one-voice slurs, fermatas, simple articulations/ornaments, clefs, keys, meters, barline styles)",
+    "humdrumInventory": {
+      "regularAttacks": 1628,
+      "graceNotes": 1,
+      "maximumRegularOnsetDifferenceQuarters": 0.0,
+      "matched": true,
+      "graceValuesShortenedForMidi": 0,
+      "tokenCorrections": [
+        {
+          "line": 91,
+          "old": "24dad-",
+          "new": "24ddd-",
+          "basis": "Source token correction with print reference: 010-1b-Sm-005.krn line 91 (bar 4, under 8va) encodes the middle note of the last right-hand triplet as `24dad-`, which contains two pitch names and is not a valid **kern pitch; read as D-flat6 (`24ddd-`). Print, viewed 19 Oct 2026 in OCVE page images: the French first edition (10-1-Sm, M. Schlesinger, p. 20, bar 4, the first bar of the second system; https://chopinonline.ac.uk/ocve/browse/pageview/63226/) engraves this group under 8a as A-flat above the staff, D-flat on the fourth line, D-flat above the staff, i.e. sounding A-flat6, D-flat6, D-flat7. The encoding's parallel bar 12 has the same group as `24aaa-` / `24ddd-` / `24dddd-` (lines 223-226). The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report."
+        },
+        {
+          "line": 788,
+          "old": "24ede-",
+          "new": "24eee-",
+          "basis": "Source token correction with print reference: 010-1b-Sm-005.krn line 788 (bar 47, under 8va) encodes the middle note of the last right-hand triplet as `24ede-` (two pitch names); read as E-flat6 (`24eee-`), between the D-flat6 notes of lines 787/789. Print, viewed 19 Oct 2026: French first edition (10-1-Sm, M. Schlesinger, p. 22, bar 47; https://chopinonline.ac.uk/ocve/browse/pageview/63228/) engraves every lower triplet of the bar under 8a as D-flat, E-flat, D-flat (one staff step up and back), the last one included. The bar's other three groups are encoded `24dddd-`/`24eeee-`/`24dddd-` and `24ddd-`/`24eee-`/`24ddd-` (lines 776-786). The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report."
+        },
+        {
+          "line": 1357,
+          "old": "24gbg-'",
+          "new": "24ggg-'",
+          "basis": "Source token correction with print reference: 010-1b-Sm-005.krn line 1357 (bar 83, first right-hand chord, last note under 8va) encodes the upper chord member as `24gbg-'` (two pitch names) beside `24bb-`; read as G-flat6 (`24ggg-'`). Print, viewed 19 Oct 2026: French first edition (10-1-Sm, M. Schlesinger, p. 24, bar 83; https://chopinonline.ac.uk/ocve/browse/pageview/63230/) engraves this staccato sixteenth chord at the end of the 8a line as G-flat in the space above the treble staff with B-flat on the middle line, i.e. sounding G-flat6/B-flat5, over the left hand's G-flat4. The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report."
+        }
+      ]
+    }
+  },
+  "endpointMeasurements": [
+    {
+      "label": "first",
+      "scoreQ": 0.0,
+      "audioSeconds": 3.7,
+      "peakSeconds": 3.74,
+      "window": [
+        3.6,
+        3.8
+      ],
+      "midiPitches": [
+        54,
+        58,
+        61,
+        66,
+        90
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total) and the fresh overlay work/chopin-etude-op10-5-cortot-0-11.7.png. First: the transfer is digitally quiet to 0.7 s; groove noise (MIDI 25-40 rumble and a flat -40 dB high band, total about -21 dB) starts at 0.8-0.9 s, but the first musical attack, the right hand's G-flat6 with the left-hand G-flat chord (q0), rises at 3.66-3.74 s (F-sharp4 -30 -> -11 dB, total -15 -> -6 dB, first large DLNCO peak), followed by B-flat6 3.76, D-flat6 3.88 and G-flat6 3.96 s. The broad 0-3 s first-pass window chose 2.86 s, inside the groove noise. Last: bar 85's G-flat1/G-flat2/G-flat3 whole notes (q168) rise at 92.6-92.7 s (F-sharp4 -32 -> -9 dB, F-sharp3 -44 -> -25 dB; primary onset 92.682 s), after the high G-flat chord of bar 84 (q167; A-sharp4/A-sharp5/F-sharp6 jump at 91.8-91.9 s) and the descending bar-83/84 octaves. The broad 85-96 s window chose 91.28 s, the bar-84 G-flat octave.",
+      "mappedAudioSeconds": 3.7,
+      "mappingDeviationSeconds": 0.0
+    },
+    {
+      "label": "last",
+      "scoreQ": 168.0,
+      "audioSeconds": 92.66,
+      "peakSeconds": 92.72,
+      "window": [
+        92.5,
+        92.8
+      ],
+      "midiPitches": [
+        30,
+        42,
+        54
+      ],
+      "basis": "MEAS, cached pitch features (dB re the 95th-percentile total) and the fresh overlay work/chopin-etude-op10-5-cortot-0-11.7.png. First: the transfer is digitally quiet to 0.7 s; groove noise (MIDI 25-40 rumble and a flat -40 dB high band, total about -21 dB) starts at 0.8-0.9 s, but the first musical attack, the right hand's G-flat6 with the left-hand G-flat chord (q0), rises at 3.66-3.74 s (F-sharp4 -30 -> -11 dB, total -15 -> -6 dB, first large DLNCO peak), followed by B-flat6 3.76, D-flat6 3.88 and G-flat6 3.96 s. The broad 0-3 s first-pass window chose 2.86 s, inside the groove noise. Last: bar 85's G-flat1/G-flat2/G-flat3 whole notes (q168) rise at 92.6-92.7 s (F-sharp4 -32 -> -9 dB, F-sharp3 -44 -> -25 dB; primary onset 92.682 s), after the high G-flat chord of bar 84 (q167; A-sharp4/A-sharp5/F-sharp6 jump at 91.8-91.9 s) and the descending bar-83/84 octaves. The broad 85-96 s window chose 91.28 s, the bar-84 G-flat octave.",
+      "mappedAudioSeconds": 92.6660465116279,
+      "mappingDeviationSeconds": 0.006046511627900486
+    }
+  ],
+  "adaptiveOnsetCount": 1122,
+  "adaptiveMedianDeviation": 0.036443534778253905,
+  "gateReasons": [],
+  "elapsedSeconds": 0.40181856096023694,
+  "dtwSteps": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dtwStepWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "bars": 85,
+    "notes": 1629,
+    "voices": 2
+  },
+  "published": true,
+  "configSha256": "8879de327d9d99ae9902e63873ed3a3420fa62d53d65d231a517702394730f2b",
+  "sourceDownloads": [
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/010-1b-Sm-005.krn",
+      "file": "010-1b-Sm-005.krn",
+      "sha256": "a6d4c1aac80c3475c7fc8fed6ed8c26149536160e7159b5d3c2e152d886544a5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+      "file": "LICENSE.txt",
+      "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+    }
+  ],
+  "comparison": {
+    "previousScore": false,
+    "byteIdentical": null,
+    "numericallyEquivalent": null
+  },
+  "overlays": [
+    "work/chopin-etude-op10-5-cortot-0-8.png",
+    "work/chopin-etude-op10-5-cortot-0-11.7.png",
+    "work/chopin-etude-op10-5-cortot-8-16.png",
+    "work/chopin-etude-op10-5-cortot-16-24.png",
+    "work/chopin-etude-op10-5-cortot-32-40.png",
+    "work/chopin-etude-op10-5-cortot-40-48.png",
+    "work/chopin-etude-op10-5-cortot-40.284-52.284.png",
+    "work/chopin-etude-op10-5-cortot-48-56.png",
+    "work/chopin-etude-op10-5-cortot-64-72.png",
+    "work/chopin-etude-op10-5-cortot-72-80.png",
+    "work/chopin-etude-op10-5-cortot-88-96.png",
+    "work/chopin-etude-op10-5-cortot-88.666-100.666.png"
+  ]
+}

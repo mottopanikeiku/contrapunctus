@@ -24,12 +24,15 @@ export default {
       ]
     }
   },
-  "intro": "Eugen d’Albert, a pupil of Liszt, plays Chopin’s Étude in G♭ major, Op. 25 No. 9, the <i>Butterfly</i>, in an Odeon recording made in 1912–13. The étude is written in short slurs and detached octaves.",
+  "intro": "Eugen d’Albert, a pupil of Liszt, plays Chopin’s Étude in G♭ major, Op. 25 No. 9, the <i>Butterfly</i>, in an Odeon recording made in 1912–13. The étude is written in short slurs and detached octaves. D’Albert plays bars 1–36 twice before the reprise, a repeat that the printed score does not have.",
   "sections": [
     { "t": 0, "label": "A · Short slurs and detached octaves", "m": "A", "mNote": "The right hand alternates slurred pairs with detached notes." },
-    { "t": 28, "label": "B · octaves across the keyboard", "m": "B", "mNote": "The four-note figure changes key and climbs." },
-    { "t": 52, "label": "C · The short figure returns", "m": "C", "mNote": "Right-hand octaves continue above the left hand’s leaps" },
-    { "t": 80, "label": "D · The last piano chords fade", "m": "D", "mNote": "The study closes and the piano falls silent" }
+    { "t": 17.8, "label": "B · Octaves over leaping bass", "m": "B", "mNote": "Bar 17; the left hand alternates bass notes and chords." },
+    { "t": 27.8, "label": "C · Four-note figure continued", "m": "C", "mNote": "Bar 25; slurred pairs and detached octaves alternate." },
+    { "t": 42.6, "label": "A · From bar 1 again", "m": "A", "mNote": "D’Albert returns to bar 1; the score has no repeat." },
+    { "t": 58.8, "label": "B · Bar 17, second time", "m": "B", "mNote": "The left hand alternates bass notes and chords." },
+    { "t": 67.1, "label": "C · Bar 25, second time", "m": "C", "mNote": "Slurred pairs and detached octaves alternate." },
+    { "t": 80.8, "label": "D · Closing section in G♭", "m": "D", "mNote": "Bar 37 to the end." }
   ],
   "cues": [
     {

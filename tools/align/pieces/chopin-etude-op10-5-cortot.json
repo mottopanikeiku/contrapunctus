@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "id": "chopin-etude-op10-5-cortot",
+  "source": {
+    "title": "Étude in G♭ major, Op. 10 No. 5",
+    "edition": "First edition, M. Schlesinger, Paris (Études Op. 10; RISM 300605128, PL-Wbfc 1628/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+    "encoder": "Tomasz Sierawski (encoding); Jędrzej Mróz, Emilia Ziętek (editing); NIFC Chopin Heritage in Open Access project",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/010-1b-Sm-005.krn",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+    "main": "etude.ly",
+    "humdrum": "010-1b-Sm-005.krn",
+    "musicxml": "010-1b-Sm-005.musicxml",
+    "humdrumCorrections": [
+      {
+        "line": 91,
+        "old": "24dad-",
+        "new": "24ddd-",
+        "basis": "Source token correction with print reference: 010-1b-Sm-005.krn line 91 (bar 4, under 8va) encodes the middle note of the last right-hand triplet as `24dad-`, which contains two pitch names and is not a valid **kern pitch; read as D-flat6 (`24ddd-`). Print, viewed 19 Oct 2026 in OCVE page images: the French first edition (10-1-Sm, M. Schlesinger, p. 20, bar 4, the first bar of the second system; https://chopinonline.ac.uk/ocve/browse/pageview/63226/) engraves this group under 8a as A-flat above the staff, D-flat on the fourth line, D-flat above the staff, i.e. sounding A-flat6, D-flat6, D-flat7. The encoding's parallel bar 12 has the same group as `24aaa-` / `24ddd-` / `24dddd-` (lines 223-226). The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report."
+      },
+      {
+        "line": 788,
+        "old": "24ede-",
+        "new": "24eee-",
+        "basis": "Source token correction with print reference: 010-1b-Sm-005.krn line 788 (bar 47, under 8va) encodes the middle note of the last right-hand triplet as `24ede-` (two pitch names); read as E-flat6 (`24eee-`), between the D-flat6 notes of lines 787/789. Print, viewed 19 Oct 2026: French first edition (10-1-Sm, M. Schlesinger, p. 22, bar 47; https://chopinonline.ac.uk/ocve/browse/pageview/63228/) engraves every lower triplet of the bar under 8a as D-flat, E-flat, D-flat (one staff step up and back), the last one included. The bar's other three groups are encoded `24dddd-`/`24eeee-`/`24dddd-` and `24ddd-`/`24eee-`/`24ddd-` (lines 776-786). The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report."
+      },
+      {
+        "line": 1357,
+        "old": "24gbg-'",
+        "new": "24ggg-'",
+        "basis": "Source token correction with print reference: 010-1b-Sm-005.krn line 1357 (bar 83, first right-hand chord, last note under 8va) encodes the upper chord member as `24gbg-'` (two pitch names) beside `24bb-`; read as G-flat6 (`24ggg-'`). Print, viewed 19 Oct 2026: French first edition (10-1-Sm, M. Schlesinger, p. 24, bar 83; https://chopinonline.ac.uk/ocve/browse/pageview/63230/) engraves this staccato sixteenth chord at the end of the 8a line as G-flat in the space above the treble staff with B-flat on the middle line, i.e. sounding G-flat6/B-flat5, over the left hand's G-flat4. The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report."
+      }
+    ],
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/010-1b-Sm-005.krn",
+        "file": "010-1b-Sm-005.krn",
+        "sha256": "a6d4c1aac80c3475c7fc8fed6ed8c26149536160e7159b5d3c2e152d886544a5"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+        "file": "LICENSE.txt",
+        "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "music": "\\new StaffGroup << \\new Staff = \"upper-1\" { \\PartPOneVoiceOne } \\new Staff = \"lower-5\" { \\PartPOneVoiceFive } \\new Staff = \"lower-6\" { \\PartPOneVoiceSix } >>"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        "upper-1:"
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        "lower-5:",
+        "lower-6:"
+      ]
+    }
+  ],
+  "bars": {
+    "first": 1,
+    "count": 85,
+    "quarters": 2,
+    "order": [
+      [
+        1,
+        85
+      ]
+    ],
+    "description": "Bars 1-85 once in written order. The source has no repeat signs; nothing is cut or repeated. Bar 85 holds the closing G-flat whole notes as printed (four quarters in a 2/4 bar), not clamped.",
+    "overrides": {
+      "85": 4
+    }
+  },
+  "endpoints": {
+    "first": [
+      3.6,
+      3.8
+    ],
+    "last": [
+      92.5,
+      92.8
+    ],
+    "end": {
+      "seconds": 94.6,
+      "basis": "MEAS: the display end of Op. 10 No. 5 on this two-étude side. After the final G-flat chord (92.67 s) its bands decay into the transfer's surface noise by 94.6 s (F-sharp4 -48 dB, F-sharp3 -52 dB; total -18.6 dB, the same as the noise-only gap 94.7-96.3 s). Op. 25 No. 9 begins at 96.4 s (its opening B-flat4 jumps -30 -> -10 dB at 96.4 s), and the rest of the side is not covered by this score. This is not a measured key release; the whole-file -45 dB RMS end lies after Op. 25 No. 9."
+    },
+    "basis": "MEAS, cached pitch features (dB re the 95th-percentile total) and the fresh overlay work/chopin-etude-op10-5-cortot-0-11.7.png. First: the transfer is digitally quiet to 0.7 s; groove noise (MIDI 25-40 rumble and a flat -40 dB high band, total about -21 dB) starts at 0.8-0.9 s, but the first musical attack, the right hand's G-flat6 with the left-hand G-flat chord (q0), rises at 3.66-3.74 s (F-sharp4 -30 -> -11 dB, total -15 -> -6 dB, first large DLNCO peak), followed by B-flat6 3.76, D-flat6 3.88 and G-flat6 3.96 s. The broad 0-3 s first-pass window chose 2.86 s, inside the groove noise. Last: bar 85's G-flat1/G-flat2/G-flat3 whole notes (q168) rise at 92.6-92.7 s (F-sharp4 -32 -> -9 dB, F-sharp3 -44 -> -25 dB; primary onset 92.682 s), after the high G-flat chord of bar 84 (q167; A-sharp4/A-sharp5/F-sharp6 jump at 91.8-91.9 s) and the descending bar-83/84 octaves. The broad 85-96 s window chose 91.28 s, the bar-84 G-flat octave."
+  },
+  "boundaries": [],
+  "provenance": [
+    "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",
+    "Edition: the Paris first edition of Études Op. 10 (M. Schlesinger), catalogued by NIFC Chopin First Editions Online as 010-1b-Sm-005 (RISM 300605128, PL-Wbfc 1628/n); encoding Tomasz Sierawski, editing Jędrzej Mróz and Emilia Ziętek. The performer's edition is not established; first-edition readings can differ from later editions.",
+    "Conversion: tools/align/humdrum_convert.py reads the unchanged **kern tokens (Humdrum line timing, spine splits/merges, explicit sounding pitches, ties, graces, tuplets) and writes plain MusicXML for the pinned LilyPond 2.24.4 converter. Dynamics, hairpins, pedalling, fingering, stems, layout comments, *rscale display scaling, cue size and editorial text are not converted; slurs are kept only when both ends lie in one encoded voice. Voices are the encoded Humdrum sub-spines on each staff (MusicXML voices 1-4 upper, 5-8 lower), labelled here only as upper/lower staff.",
+    "Source token correction with print reference: 010-1b-Sm-005.krn line 91 (bar 4, under 8va) encodes the middle note of the last right-hand triplet as `24dad-`, which contains two pitch names and is not a valid **kern pitch; read as D-flat6 (`24ddd-`). Print, viewed 19 Oct 2026 in OCVE page images: the French first edition (10-1-Sm, M. Schlesinger, p. 20, bar 4, the first bar of the second system; https://chopinonline.ac.uk/ocve/browse/pageview/63226/) engraves this group under 8a as A-flat above the staff, D-flat on the fourth line, D-flat above the staff, i.e. sounding A-flat6, D-flat6, D-flat7. The encoding's parallel bar 12 has the same group as `24aaa-` / `24ddd-` / `24dddd-` (lines 223-226). The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report.",
+    "Source token correction with print reference: 010-1b-Sm-005.krn line 788 (bar 47, under 8va) encodes the middle note of the last right-hand triplet as `24ede-` (two pitch names); read as E-flat6 (`24eee-`), between the D-flat6 notes of lines 787/789. Print, viewed 19 Oct 2026: French first edition (10-1-Sm, M. Schlesinger, p. 22, bar 47; https://chopinonline.ac.uk/ocve/browse/pageview/63228/) engraves every lower triplet of the bar under 8a as D-flat, E-flat, D-flat (one staff step up and back), the last one included. The bar's other three groups are encoded `24dddd-`/`24eeee-`/`24dddd-` and `24ddd-`/`24eee-`/`24ddd-` (lines 776-786). The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report.",
+    "Source token correction with print reference: 010-1b-Sm-005.krn line 1357 (bar 83, first right-hand chord, last note under 8va) encodes the upper chord member as `24gbg-'` (two pitch names) beside `24bb-`; read as G-flat6 (`24ggg-'`). Print, viewed 19 Oct 2026: French first edition (10-1-Sm, M. Schlesinger, p. 24, bar 83; https://chopinonline.ac.uk/ocve/browse/pageview/63230/) engraves this staccato sixteenth chord at the end of the 8a line as G-flat in the space above the treble staff with B-flat on the middle line, i.e. sounding G-flat6/B-flat5, over the left hand's G-flat4. The downloaded bytes are unchanged; the correction is applied in memory and retained in the check report.",
+    "Recording: Alfred Cortot, Victor 64989 (matrix B-23953, take 2), Camden, 22 April 1920; acoustic. The disc side continues with Op. 25 No. 9 (from about 96.5 s), which this Op. 10 No. 5 score does not cover (content/listen module)."
+  ]
+}

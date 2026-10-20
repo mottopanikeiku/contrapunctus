@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "id": "chopin-ballade-2",
+  "source": {
+    "title": "Ballade No. 2 in F major, Op. 38",
+    "edition": "First edition, Breitkopf & Härtel, Leipzig (RISM 1001006241, PL-Wbfc 2668/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+    "encoder": "Leszek Kubiak (encoding); Emilia Ziętek, Antoni Szymański (editing); NIFC Chopin Heritage in Open Access project",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/038-1-BH.krn",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+    "main": "ballade.ly",
+    "humdrum": "038-1-BH.krn",
+    "musicxml": "038-1-BH.musicxml",
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/038-1-BH.krn",
+        "file": "038-1-BH.krn",
+        "sha256": "5c8cac04b410548ebaf1428a85cc3d3488825e6350b4431d8596668f20a89643"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+        "file": "LICENSE.txt",
+        "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "music": "\\new StaffGroup << \\new Staff = \"upper-1\" { \\PartPOneVoiceOne } \\new Staff = \"upper-2\" { \\PartPOneVoiceTwo } \\new Staff = \"upper-3\" { \\PartPOneVoiceThree } \\new Staff = \"lower-5\" { \\PartPOneVoiceFive } \\new Staff = \"lower-6\" { \\PartPOneVoiceSix } >>"
+  },
+  "voices": [
+    {
+      "id": "upper",
+      "name": "Piano — upper staff",
+      "tracks": [
+        "upper-1:",
+        "upper-2:",
+        "upper-3:"
+      ]
+    },
+    {
+      "id": "lower",
+      "name": "Piano — lower staff",
+      "tracks": [
+        "lower-5:",
+        "lower-6:"
+      ]
+    }
+  ],
+  "bars": {
+    "first": 0,
+    "count": 204,
+    "quarters": 3,
+    "overrides": {
+      "0": 2
+    },
+    "order": [
+      [
+        0,
+        203
+      ]
+    ],
+    "description": "Pickup (bar 0, two quarters) and bars 1-203 once in written order: Andantino, Presto con fuoco, the return, the second Presto, the Agitato coda and the closing Andantino reminiscence. The source has no repeat signs; nothing is cut or repeated."
+  },
+  "endpoints": {
+    "first": [
+      0,
+      6
+    ],
+    "last": [
+      440,
+      494.6
+    ],
+    "basis": "Broad first-pass windows."
+  },
+  "boundaries": [],
+  "provenance": [
+    "Source licence: The Fryderyk Chopin Institute (NIFC), Chopin First Editions Online, Humdrum repository pl-wnifc/humdrum-chopin-first-editions at commit 95dfb105c1669c72d10b04088566154f12d3dc1c. Its LICENSE.txt (downloaded and hash-pinned with the score) grants CC BY 4.0 and requires acknowledging its first five lines: 'First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0'. The .krn file carries no conflicting file-level copyright record. The derived score.json and engraved sheets are adaptations under CC BY 4.0 and must keep this attribution; CC BY has no share-alike obligation.",
+    "Edition: the Leipzig first edition of the Ballade Op. 38 (Breitkopf & Härtel), catalogued by NIFC Chopin First Editions Online as 038-1-BH (RISM 1001006241, PL-Wbfc 2668/n); encoding Leszek Kubiak, editing Emilia Ziętek and Antoni Szymański. The performer's edition is not established; first-edition readings can differ from later editions.",
+    "Conversion: tools/align/humdrum_convert.py reads the unchanged **kern tokens (Humdrum line timing, spine splits/merges, explicit sounding pitches, ties, graces, tuplets) and writes plain MusicXML for the pinned LilyPond 2.24.4 converter. Dynamics, hairpins, pedalling, fingering, stems, layout comments, *rscale display scaling, cue size and editorial text are not converted; slurs are kept only when both ends lie in one encoded voice. Voices are the encoded Humdrum sub-spines on each staff (MusicXML voices 1-4 upper, 5-8 lower), labelled here only as upper/lower staff.",
+    "Recording: Frank Lévy, piano (content/listen module)."
+  ]
+}

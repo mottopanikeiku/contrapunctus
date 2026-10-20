@@ -1,0 +1,103 @@
+{
+  "id": "chopin-etude-op10-5-cortot",
+  "verdict": "fail",
+  "reviewer": "RevScoresChopin",
+  "date": "2026-10-19",
+  "scope": "MEAS: independent review of the public score.json and four-page sheet pack (Alfred Cortot, acoustic transfer of a two-étude side: Op. 10 No. 5, then Op. 25 No. 9). Covers:\n- the three token corrections (lines 91, 788, 1357), checked against first-edition page images;\n- a converter re-run with --config, licence and attribution;\n- bar order, gates and the sheet pack;\n- the opening, the end and the display end;\n- a register-aware per-bar lag scan, with pitch bands and onset lists over bars 59–72;\n- reviewer overlays;\n- reading the Concert Hall sheet-follow code for the part of the side after the score ends.\nNot aural review; no browser run.",
+  "defects": [
+    {
+      "basis": "MEAS",
+      "code": "BARS_67_69_LIT_ABOUT_1S_EARLY",
+      "finding": "Blocking. After the bar-66 'Smorz' cadence Cortot holds the B-flat4 long before the 'a Tempo' bar 67, but the published map compresses that hold.\n\nThe bar-66 B-flat4 (q131, published 71.94 s) rises at 72.37 s (+37 dB to −10 dB, the strongest rise in 70.8–77.6 s). The fresh-CQT overlay rev-chopin-etude-op10-5-cortot-71.2-77.8.png shows it held to about 73.6 s.\n\nBars 67–68 then sound about 0.8–1.0 s after the published bars. Published times against measured band rises:\n- bar 67 downbeat G-flat4: 72.48 s against 73.52 s (+21 dB);\n- bar 68 D-flat6 / G-flat5 / E-flat6: published 73.54 / 73.80 / 73.63 s against 74.33 / 74.58 / 74.65 s;\n- bar 68 A-flat5 / B-flat5 / D-flat5 quarter: published 74.07 / 74.15 / 74.33 s against 75.06 / 75.14 / 75.28 s. The D-flat5 rise (+34 dB to −1 dB) is the strongest in the window. The published positions show only weak rises (A-flat5 74.10 s at −34 dB, B-flat5 74.16 s at −41 dB).\n\nBar 69 (published 74.71 s; G-flat5 A-flat5 B-flat5 A-flat5 G-flat5 D-flat5, then A-flat5 D-flat6 E-flat6 D-flat6 A-flat5) is less clear-cut. Its first-half run partly coincides with the strong 74.97–75.28 s rises, which also fit bar 68's second half. A second, equally strong full run then follows: G-flat5 75.70, A-flat5 75.76, B-flat5 75.85, A-flat5 75.94, G-flat5 75.99 and D-flat5 76.08 s, then D-flat6 76.22 and E-flat6 76.33 s. Under the published map that second run falls where bar 69's second half is expected (A-flat5 75.62, D-flat6 75.84, E-flat6 76.05 s), and there is no place for it. Only the shifted map explains both runs, with bar 69 at about 75.55 s.\n\nBar 70's downbeat G-flat5 with the left-hand chord rises at 76.56–76.57 s against published 76.31 s. Bar 71 (77.508 s) is back in place, with G-flat4 at 77.53 s.\n\nThe register-aware lag scan independently prefers +1.08 s for bar 67 (gain 1.34) and +1.00 s for bar 68 (gain 1.37). Its bar-69 value (−1.20 s, gain 1.24) is uninformative, because bar 69's first half repeats bar 68's second half. Result: bars 67–69 are lit about 0.8–1.0 s early, bar 70 about 0.25 s early, and bar 66 shows for 1.1 s of its 2.1 s.\n\nThe REPORT's local check ('bars 63–68 … q131 B-flat4 is 0.3 s early') and its rejection of the Neeman-DTW departure 'up to 1 s at bars 64–70' did not catch this. The band evidence agrees with that departure for bars 67–69.\n\nFix (approximate, ±0.1 s): constrain q131 near 72.37 s, q132 (bar 67) near 73.52 s, q134 (bar 68) near 74.3–74.4 s, q135.5 (D-flat5) near 75.28 s, q136 (bar 69) near 75.55 s and q138 (bar 70) near 76.56 s. Then re-check bars 66–70 with bands."
+    },
+    {
+      "basis": "MEAS",
+      "code": "HALL_HIGHLIGHT_PERSISTS_THROUGH_OP25_9",
+      "finding": "Blocking for this recording; the fix is in site code or in the publication choice. The score ends at 94.6 s (bar 85 at 92.666 s; endpoints.end 94.6 s). The recording runs to 163.42 s (receipt decodedDuration), and Op. 25 No. 9 starts at 96.4 s; the listen module's section C 'Butterfly' starts at 96.5 s.\n\nIn src/assets/js/room.js, barAt(t) (lines 180–186) returns the last bar whose start is ≤ t + 0.02, with frac = 1 for the last bar. sheetView().draw (lines 273–296) has no score-end test. So for every t after 92.67 s the highlight box stays on bar 85 with all its noteheads lit.\n\n[INFERENCE, from the code; no browser run] Throughout Op. 25 No. 9 (about 67 s, 41% of the side) the Hall therefore shows a false score position for a piece the score does not cover.\n\nFix, either:\n- sheetView should hide the highlight and unlight the notes once t passes the score's end (the maximum note end, here 94.6 s, or an explicit end field); or\n- withhold the publication until the Hall can do that.\nThe score.json data themselves are correct here."
+    }
+  ],
+  "observations": [
+    {
+      "basis": "MEAS",
+      "code": "CHROMA_LAG_UNINFORMATIVE",
+      "finding": "This is non-blocking. The étude stays on black-key pentatonic material, so a chroma lag scan is near-flat: zero lag scores 0.613, and only 46 of 85 bars fit best within 0.3 s. The register-aware scan and pitch bands were used instead; it puts 65/85 bars within 0.1 s. Its 20 other bars:\n- bars 12, 24, 28, 33, 34, 37, 38, 40, 48, 56, 58 and 80, with gains ≤1.15;\n- bars 61 (+1.04 s, 1.30) and 82 (+1.04 s, 1.90): bars 61/62 and 81/82 have identical right hands, and the 85–96 s overlay shows bars 79–83 on the measured energy;\n- bars 64 (−1.48 s, 1.17), 65 (−0.24 s, 1.41), 66 (+0.12 s, 1.70) and 70 (+0.08 s, 1.78): bars 64–65 land on the energy in the 63–72 s overlay;\n- bars 67–69: see the defect."
+    },
+    {
+      "basis": "MEAS",
+      "code": "OTTAVA_PRINTED_AT_SOUNDING_PITCH",
+      "finding": "This is display only, as for the other Chopin packs. The 8a passages (for example bars 4, 47, 65 and 67–68) are engraved at sounding pitch with many ledger lines."
+    }
+  ],
+  "report": {
+    "basis": "MEAS",
+    "path": "tools/align/REPORT.md#score-round-4--19-october-2026-scoreround4",
+    "finding": "The REPORT's figures match the config, receipt and public file:\n- endpoint windows: first [3.6, 3.8] → 3.70 s; last [92.5, 92.8] → 92.666 s;\n- endpoints.end 94.6 s, with its noise-gap basis;\n- no constraints;\n- the gates;\n- score SHA-256 175bee75….\nThe candidate equals the public file; results equal checks; the config and audio hashes match. The REPORT's local-check claim for bars 63–68 is contradicted (see defect BARS_67_69_LIT_ABOUT_1S_EARLY)."
+  },
+  "gates": {
+    "basis": "MEAS",
+    "checks": "tools/align/work/chopin-etude-op10-5-cortot-checks.json",
+    "primaryMedianSeconds": 0.064784,
+    "primaryP95Seconds": 0.233703,
+    "maximumAnchorDeviationSeconds": 0.108019,
+    "maximumLocalRegionMedianSeconds": 0.044768,
+    "minimumPublishedNoteDurationSeconds": 0.018,
+    "minimumPublishedDistinctAttackIntervalSeconds": 0.017,
+    "zeroOrNegativeDurations": 0,
+    "collapsedAttackIntervals": 0,
+    "roundedCollapsedAttackIntervals": 0,
+    "recomputedReasons": []
+  },
+  "barMap": {
+    "basis": "MEAS",
+    "performedBars": 85,
+    "distinctEngravedBars": 85,
+    "sheetPages": 4,
+    "svgBarSetEqualsIndex": true,
+    "derivedBars": [],
+    "unresolvedScoreBars": [],
+    "finding": "All 1,629 notes lie inside their bar, and bar times increase. check_contract.py prints 'ok … 85 bars; 1629 notes; 2 source-defined voices'. All four pages were rasterised and inspected: 21 justified systems, bars 1–85, and bar 85's whole notes with the fermata and final barline."
+  },
+  "order": {
+    "basis": "MEAS",
+    "finding": "Bars 1–85 once. The print has no repeat signs. The score covers only Op. 10 No. 5, the first étude on the side."
+  },
+  "independentChecks": {
+    "basis": "MEAS",
+    "scripts": "~/.cache/direction-scratch/revr4/reglag.py; ~/.cache/direction-scratch/revchopin/band.py, onsets.py, overlay.py, gaps.py, lagscan.py",
+    "converter": "humdrum_convert.py --config … --verovio printed 'KERN 010-1b-Sm-005.krn regular 1628 grace 1 end_q 172.0 barlines 86 corrections 3'. Verovio: 1,637/1,637 notes; the one timing difference is the grace measure. The regenerated MusicXML is byte-identical to the derivative. The .krn (SHA-256 a6d4c1aa…) is identical at 95dfb105 and on master.",
+    "tokenCorrections": "EXT: CFEO page images at full IIIF resolution from the French first edition (10-1-Sm, M. Schlesinger) and the Kistner edition (10-1-KI):\n- Line 91, bar 4 (Schlesinger p. 20): the middle note of the last right-hand triplet under 8a sits on the fourth line (D-flat), so `24dad-` → `24ddd-` (D-flat6) is correct. The Kistner p. 20 shows the same D. The Schlesinger page has an extra mark at the last note's ledger line. It looks like ink, and the encoding's single D-flat7 is kept.\n- Line 788, bar 47 (p. 22): every lower triplet of the bar under 8a reads D-flat, E-flat, D-flat, including the last, so `24ede-` → `24eee-` (E-flat6) is correct.\n- Line 1357, bar 83 (p. 24): the first staccato sixteenth chord at the end of the 8a line is G-flat above the staff over B-flat, so `24gbg-'` → `24ggg-'` (G-flat6, beside B-flat5) is correct.\nThe print has 85 bars, and page 24 holds bars 65–85.",
+    "endpoints": "Groove noise starts at about 0.8 s. The first attack, at 3.70 s, lands on the measured bar-1 energy (0–8 s overlay). Bar 83's descending octaves, bar 84's chord at 91.85 s and bar 85 at 92.67 s match the 85–96 s overlay. The bar-85 bands decay by about 94.5 s, consistent with the 94.6 s display end.",
+    "bars59to72": "Bands and an onset list over 70.8–77.8 s (see defect). Bars 59–65 (63–72 s overlay) land on the energy: the bar-60 D-flat5 at 64.05 s, the bar-64 G-flat4/A-flat4/D-flat5 chord at 68.07 s, and the bar-65 descending run from about 70.6 to 71.3 s."
+  },
+  "overlays": {
+    "basis": "MEAS",
+    "inspected": [
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op10-5-cortot-0-8.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op10-5-cortot-63-72.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op10-5-cortot-71-80.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op10-5-cortot-71.2-77.8.png",
+      "~/.cache/direction-scratch/revchopin/rev-chopin-etude-op10-5-cortot-85-96.png"
+    ],
+    "finding": "Bars 1–4, 59–66, 71–73 and 79–85 land on the measured energy. Bars 67–69 are published on the held B-flat4 and on weak rises; their figures sound about 0.8–1.0 s later."
+  },
+  "source": {
+    "basis": "EXT",
+    "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/010-1b-Sm-005.krn",
+    "opened": true,
+    "licenseEvidence": "The pinned LICENSE.txt (SHA-256 430533a2…) grants CC BY 4.0 'Provided that you acknowledge the source of the data (the first five lines of this file).' The .krn has no !!!YEC/!!!COP record.",
+    "attribution": "score.json carries license 'CC BY 4.0', licenseUrl, url, and source.attribution containing all five LICENSE lines verbatim, with status provisional and review.by null. The provenance records all three token corrections with their print references.",
+    "edition": "First edition, M. Schlesinger, Paris (Études Op. 10; RISM 300605128, PL-Wbfc 1628/n), encoded in Humdrum by NIFC, Chopin First Editions Online",
+    "encoder": "Tomasz Sierawski (encoding); Jędrzej Mróz, Emilia Ziętek (editing); NIFC",
+    "license": "CC BY 4.0"
+  },
+  "version": {
+    "basis": "INFERENCE",
+    "finding": "Op. 10 No. 5 is played once in written order, with a large ritardando and hold at bars 66–67. The tuning estimate of 444.09 Hz probably reflects transfer speed. The performer's edition is not established."
+  },
+  "status": {
+    "basis": "MEAS",
+    "value": "provisional",
+    "namedAuralReview": false
+  },
+  "limitations": "MEAS: No aural review, build or browser run by RevScoresChopin, and no alignment command run. On this acoustic transfer the high register (8a figures) is weak, so bars 67–69 were located mainly from the B-flat4 hold and the mid-register figures. The corrected times proposed in the fix are approximate, to about ±0.1 s. The display defect is derived from reading the code. Public score SHA-256 175bee75e156a906604330ff02e7d0456ba90cf8a259e1ef81b4b9b4d0382cff."
+}

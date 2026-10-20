@@ -1,0 +1,25 @@
+{
+  "title": "Ballade No. 2 in F major, Op. 38",
+  "edition": "First edition, Breitkopf & Härtel, Leipzig (RISM 1001006241, PL-Wbfc 2668/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+  "encoder": "Leszek Kubiak (encoding); Emilia Ziętek, Antoni Szymański (editing); NIFC Chopin Heritage in Open Access project",
+  "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/038-1-BH.krn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+  "main": "ballade.ly",
+  "humdrum": "038-1-BH.krn",
+  "musicxml": "038-1-BH.musicxml",
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/038-1-BH.krn",
+      "file": "038-1-BH.krn",
+      "sha256": "5c8cac04b410548ebaf1428a85cc3d3488825e6350b4431d8596668f20a89643"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+      "file": "LICENSE.txt",
+      "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+    }
+  ],
+  "accessed": "2026-10-19"
+}

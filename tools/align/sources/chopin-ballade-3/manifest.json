@@ -1,0 +1,25 @@
+{
+  "title": "Ballade No. 3 in A♭ major, Op. 47",
+  "edition": "First edition, Breitkopf & Härtel, Leipzig (RISM 1001013816, PL-Wbfc 3944/n), encoded in Humdrum by the Fryderyk Chopin Institute (NIFC), Chopin First Editions Online",
+  "encoder": "Jędrzej Mróz (encoding); Mateusz Mrugas, Jędrzej Mróz (editing); NIFC Chopin Heritage in Open Access project",
+  "url": "https://github.com/pl-wnifc/humdrum-chopin-first-editions/blob/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/047-1-BH.krn",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "First Editions of Fryderyk Chopin's Music. Copyright 2017-2021 The Fryderyk Chopin Institute (https://nifc.pl). Website: https://chopinscores.org. Digital scores: https://github.com/pl-wnifc/humdrum-chopin-first-editions. License: https://creativecommons.org/licenses/by/4.0",
+  "main": "ballade.ly",
+  "humdrum": "047-1-BH.krn",
+  "musicxml": "047-1-BH.musicxml",
+  "downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/kern/047-1-BH.krn",
+      "file": "047-1-BH.krn",
+      "sha256": "ea7936185057c39e569e9294db7de22530e94c4307e4e67c672a9ed2f4b24cce"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pl-wnifc/humdrum-chopin-first-editions/95dfb105c1669c72d10b04088566154f12d3dc1c/LICENSE.txt",
+      "file": "LICENSE.txt",
+      "sha256": "430533a2646f16c8c7b58d919b13e0f8dfc5afb334c1915eceea2bf8c19551f9"
+    }
+  ],
+  "accessed": "2026-10-19"
+}

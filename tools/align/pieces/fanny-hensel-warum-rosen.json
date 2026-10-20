@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "id": "fanny-hensel-warum-rosen",
+  "source": {
+    "title": "Sechs Lieder, Op. 1 — No. 3 Warum sind denn die Rosen so blass",
+    "edition": "OpenScore Lieder transcription of the Bote & Bock first edition (Berlin, 1846, plate B. et B. 1046; IMSLP #99178)",
+    "encoder": "OpenScore Lieder contributors",
+    "url": "https://github.com/OpenScore/Lieder/tree/main/scores/Hensel%2C_Fanny/6_Lieder%2C_Op.1/3_Warum_sind_denn_die_Rosen_so_blass",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "main": "song.ly",
+    "musicxml": "lc5004640.mxl",
+    "musicxmlImplicitMeasures": [
+      1
+    ],
+    "downloads": [
+      {
+        "url": "https://raw.githubusercontent.com/OpenScore/Lieder/main/scores/Hensel%2C_Fanny/6_Lieder%2C_Op.1/3_Warum_sind_denn_die_Rosen_so_blass/lc5004640.mxl",
+        "file": "lc5004640.mxl",
+        "sha256": "797232d1a90f47423f7a2c14b1a0dcece7c7af326787b02ec87d64c2939dd9f2"
+      }
+    ]
+  },
+  "extraction": {
+    "mode": "compiled-midi",
+    "music": "\\new StaffGroup << \\new Staff = \"voice\" \\with { instrumentName = \"Voice\" } { \\PartPOneVoiceOne } \\new Staff = \"piano-upper\" \\with { instrumentName = \"Piano upper staff\" } { \\PartPTwoVoiceOne } \\new Staff = \"piano-lower\" \\with { instrumentName = \"Piano lower staff\" } { \\PartPTwoVoiceFive } >>"
+  },
+  "voices": [
+    {
+      "id": "voice",
+      "name": "Voice (soprano)",
+      "tracks": [
+        "voice:"
+      ]
+    },
+    {
+      "id": "piano-upper",
+      "name": "Piano upper staff",
+      "tracks": [
+        "piano-upper:"
+      ]
+    },
+    {
+      "id": "piano-lower",
+      "name": "Piano lower staff",
+      "tracks": [
+        "piano-lower:"
+      ]
+    }
+  ],
+  "bars": {
+    "first": 0,
+    "count": 42,
+    "quarters": 3,
+    "overrides": {
+      "0": 0.5
+    },
+    "order": [
+      [
+        0,
+        41
+      ]
+    ],
+    "description": "Piano eighth-note pickup (bar 0) and bars 1–41 once in written order: piano introduction, the four stanzas (the first and third, and the second and fourth, to the same music, written out), the repeated last line and the piano close. The source has no repeat signs. XML measure 1 is the pickup; LilyPond bar numbering is used."
+  },
+  "endpoints": {
+    "first": [
+      1.1,
+      1.3
+    ],
+    "last": [
+      134.2,
+      134.45
+    ],
+    "basis": "MEAS, cached pitch features (work/fanny-hensel-warum-rosen-features.npz, dB re the 95th-percentile total) and the fresh overlay work/fanny-hensel-warum-rosen-0-9.28.png. First: the piano's eighth-note pickup E5 (q0, MIDI 76) is the first sound of the file; total energy is -52 to -68 dB before 1.1 s, and the E5 band rises -42 -> -11 dB over 1.20-1.32 s (primary onsets 1.207/1.300 s). The broad 0-4 s first-pass window chose 3.76 s, the bar-1 second-half E5, and compressed the pickup and bar 1 into 0.2 s. The bar-1 E5/G-sharp2 then rises at 1.96-2.0 s and the q2 E5 at 3.68 s. Last: the final A5 (bar 41, q120.5, fermata) rises -47 -> -15 dB at 134.2-134.4 s (primary onset 134.385 s), after the bar-40 arpeggio's C5 129.6, C4 131.6, E4 132.0, C5 133.1 and E5 133.5 s rises; total energy decays below -45 dB after 139.2 s."
+  },
+  "boundaries": [],
+  "provenance": [
+    "OpenScore Lieder releases its scores under CC0 (https://github.com/OpenScore/Lieder#license-and-acknowledgement); the MusicXML carries rights 'OpenScore (CC0)' and its README links the source PDF, IMSLP #99178 (Bote & Bock, Berlin, 1846, plate B. et B. 1046). Exact downloaded MXL bytes match the SHA-256 pinned in this config.",
+    "Source part P1 is the voice (one treble line with lyrics); P2 is the piano with MusicXML voice 1 on the upper staff and voice 5 on the lower staff. Each is a separate MIDI track in one simultaneous compilation, not inferred from register. Two print-object=\"no\" rests in piano voice 5 (bars 40-41) are omitted by the converter. Voice labels are encoding identities, not separated audio stems.",
+    "XML measure 1 is the eighth-note pickup (MuseScore numbers it 1); it is marked implicit so that LilyPond numbers it bar 0 and the following bars 1-41. LilyPond 2.24.4 reports a harmless bar-check warning at -1/8 for the converter's bar check after \\partial 8. No notes or durations change.",
+    "Recording: duo Béla (Adèle Bérard, soprano; Laura Lazayre, piano), Amiens, 22 January 2026 (Wikimedia Commons, CC BY-SA 4.0; the site-hosted MP3 is extracted from it). The tuning estimate is +1 cent (440.25 Hz) and the source is in A minor at printed pitch, so no transposition is applied; the soprano sounds as written.",
+    "Inspection (MEAS, not aural): every stanza start (bars 3, 11, 20, 28 and the coda's bar 37), the piano close (bar 39), the bar-40 arpeggio and the final A5 were compared with pitch-band rises; a per-note dominant-pitch ranking (MIDI 60-88, first <=0.6 s) of the 142 sung notes is reported in REPORT.md."
+  ],
+  "engraving": {
+    "staff": 17,
+    "width": 240,
+    "height": 320,
+    "music": "<< \\new Staff = \"voice\" \\with { instrumentName = \"Voice\" } << \\new Voice = \"PartPOneVoiceOne\" { \\PartPOneVoiceOne } \\new Lyrics \\lyricsto \"PartPOneVoiceOne\" { \\PartPOneVoiceOneLyricsOne } >> \\new PianoStaff \\with { instrumentName = \"Piano\" } << \\new Staff = \"1\" { \\PartPTwoVoiceOne } \\new Staff = \"2\" { \\PartPTwoVoiceFive } >> >>"
+  },
+  "anchors": [
+    {
+      "scoreQ": 42,
+      "window": [
+        45.0,
+        45.3
+      ],
+      "label": "bar-14-voice-E5-wa",
+      "basis": "MEAS: the voice's E5 'wa-' with piano F4 (q42, last eighth of bar 14) rises -19.6 -> +1.2 dB re the 95th percentile at 45.10-45.18 s (detector edge 45.12 s; primary onset 45.163 s). The unconstrained map put it at 45.297 s, about 0.18 s late, with q41 and q41.5-q41.75 0.08-0.18 s late (F2/F5 edge 44.10 s against 44.181 s)."
+    },
+    {
+      "scoreQ": 93,
+      "window": [
+        100.0,
+        100.35
+      ],
+      "label": "bar-31-voice-E5-o",
+      "basis": "MEAS: the same figure in bar 31, the voice's E5 'o' with piano F4 (q93), rises -19.9 -> +0.8 dB at 100.16-100.24 s (detector edge 100.18 s). The unconstrained map put it at 100.359 s, about 0.18 s late; the F2/F5 group at q92 had its edge at 99.06 s against a mapped 99.242 s."
+    }
+  ]
+}
