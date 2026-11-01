@@ -105,7 +105,7 @@ Independent audit: **19 October 2026**. Read `AUTHORING.md`, the composer and th
 
 ## Restored
 
-Restored from `6c893484` or newly sourced, in the current voice. The three “Editorial handling” removals were kept: no rehearsal-difficulty explanation of the Fourth’s withdrawal, no compulsory-rejoicing reading of the Fifth’s ending, no Stalin-portrait reading of the Tenth’s scherzo outside the *Testimony* margin note, and no *Testimony* sentence presented as Shostakovich’s own speech. Only two restorations were completed; the remaining omitted material the earlier page carried (the Eighth Symphony’s C minor opening and passacaglia, the Second Trio’s Largo and finale, the Seventh’s Adagio, *Rothschild’s Violin* and Weinberg detail, the Fifteenth Quartet’s movement titles, the Fifteenth Symphony’s interruptions) was not re-verified in this pass and is not restored.
+Restored from the earlier version or newly sourced, in the current voice. The three “Editorial handling” removals were kept: no rehearsal-difficulty explanation of the Fourth’s withdrawal, no compulsory-rejoicing reading of the Fifth’s ending, no Stalin-portrait reading of the Tenth’s scherzo outside the *Testimony* margin note, and no *Testimony* sentence presented as Shostakovich’s own speech. Only two restorations were completed; the remaining omitted material the earlier page carried (the Eighth Symphony’s C minor opening and passacaglia, the Second Trio’s Largo and finale, the Seventh’s Adagio, *Rothschild’s Violin* and Weinberg detail, the Fifteenth Quartet’s movement titles, the Fifteenth Symphony’s interruptions) was not re-verified in this pass and is not restored.
 
 | Restored text | Source and result |
 | --- | --- |

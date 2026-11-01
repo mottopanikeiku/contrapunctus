@@ -76,7 +76,7 @@ Checked 2026-10 against sources opened in this pass. Quotations are our translat
 
 ## Restored
 
-Restored from `6c893484` or newly sourced, rewritten in the current voice. “Cornejo” is the [documentary chronology by Manuel Cornejo](https://boleravel.fr/wp-content/uploads/RAVEL_Chronology_2018.pdf) (English by Frank Daykin), opened in full. None of the corrections above was reintroduced: Gedalge/Fauré dates stay as corrected, *L’heure espagnole* is still “composed in 1907”, the Pavane orchestration stays 1909, the operation date stays “December 1937”, and the Daphnis dawn wording is unchanged. Not restored: the old “Three layers, two hands” note, the “Jeux d’eau” sentence on the damper pedal and decay (general, not checked), the Ma mère l’Oye ballet’s added numbers (only a Wikipedia statement was found), and Diaghilev’s verdict on *La Valse* (only Wikipedia).
+Restored from the earlier version or newly sourced, rewritten in the current voice. “Cornejo” is the [documentary chronology by Manuel Cornejo](https://boleravel.fr/wp-content/uploads/RAVEL_Chronology_2018.pdf) (English by Frank Daykin), opened in full. None of the corrections above was reintroduced: Gedalge/Fauré dates stay as corrected, *L’heure espagnole* is still “composed in 1907”, the Pavane orchestration stays 1909, the operation date stays “December 1937”, and the Daphnis dawn wording is unchanged. Not restored: the old “Three layers, two hands” note, the “Jeux d’eau” sentence on the damper pedal and decay (general, not checked), the Ma mère l’Oye ballet’s added numbers (only a Wikipedia statement was found), and Diaghilev’s verdict on *La Valse* (only Wikipedia).
 
 | Restored text | Source and result |
 | --- | --- |

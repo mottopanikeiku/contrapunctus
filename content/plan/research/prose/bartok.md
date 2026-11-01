@@ -97,7 +97,7 @@ Unresolved reader-facing claims: none. Source-level discrepancies (the Balázs a
 
 ## Restored
 
-Restored from `6c893484` or newly sourced, in the current voice. The Lendvai axes and golden-section excursus, the defensive disclaimers on the Csontváry pairings and the unchecked claim that Reiner recorded *Music for Strings, Percussion and Celesta* in 1958 were not reintroduced; the “peasant music” discussion and the Takács recording-session detail (Neumarkt) were left out because no fetched source supports their wording. “Chronicles” means Béla Bartók Jr., [*Chronicles of Béla Bartók’s Life*](https://mki.gov.hu/assets/books/mki_2021_bartok_en.pdf), a day-by-day chronology (English), opened in full; it quotes Bartók’s letters in translation and the English below is that translation.
+Restored from the earlier version or newly sourced, in the current voice. The Lendvai axes and golden-section excursus, the defensive disclaimers on the Csontváry pairings and the unchecked claim that Reiner recorded *Music for Strings, Percussion and Celesta* in 1958 were not reintroduced; the “peasant music” discussion and the Takács recording-session detail (Neumarkt) were left out because no fetched source supports their wording. “Chronicles” means Béla Bartók Jr., [*Chronicles of Béla Bartók’s Life*](https://mki.gov.hu/assets/books/mki_2021_bartok_en.pdf), a day-by-day chronology (English), opened in full; it quotes Bartók’s letters in translation and the English below is that translation.
 
 | Restored text | Source and result |
 | --- | --- |

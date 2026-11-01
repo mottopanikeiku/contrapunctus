@@ -88,7 +88,7 @@ Checked 18 October 2026 against sources opened directly (URLs below). Labels: ME
 
 ## Restored
 
-Restored from `6c893484` or newly sourced, in the current voice. No deathbed scene, no claim that the *Unfinished* stopped because of illness or death, no illness-to-work causation, and no uncertain retrospective diagnosis outside the margin note was introduced. Not restored: the specific recording details the earlier page gave for Mackerras (Caird Hall, Dundee, 10–12 March 1998) and Lupu (Corseaux, December 1991; 1994 issue), because the pages opened (Hyperion, the Britten Pears Arts article and the two BBC Music Magazine reviews) do not carry them; and the earlier description of the *Great* Symphony’s A minor Andante (oboe melody growing into an orchestral crisis), which rests on no fetched analytical note.
+Restored from the earlier version or newly sourced, in the current voice. No deathbed scene, no claim that the *Unfinished* stopped because of illness or death, no illness-to-work causation, and no uncertain retrospective diagnosis outside the margin note was introduced. Not restored: the specific recording details the earlier page gave for Mackerras (Caird Hall, Dundee, 10–12 March 1998) and Lupu (Corseaux, December 1991; 1994 issue), because the pages opened (Hyperion, the Britten Pears Arts article and the two BBC Music Magazine reviews) do not carry them; and the earlier description of the *Great* Symphony’s A minor Andante (oboe melody growing into an orchestral crisis), which rests on no fetched analytical note.
 
 | Restored text | Source and result |
 | --- | --- |
