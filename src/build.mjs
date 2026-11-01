@@ -371,18 +371,37 @@ const fmtTime = (d) => `${Math.floor(d / 60)}:${String(Math.round(d % 60)).padSt
 // Durations never break inside a figure and its unit (“48 h 34 min”).
 const hours = (secs) => secs >= 3600 ? `${Math.floor(secs / 3600)}\u00a0h ${Math.round((secs % 3600) / 60)}\u00a0min` : `${Math.round(secs / 60)}\u00a0min`;
 
-/** The composer's own works[] entry for a hosted work: exact title match first, then the longest whole-word prefix. */
+// Catalogue values include subdivisions, ranges and lists: Op. 28 is not Op. 28 No. 4.
+const WORK_CATALOGUE = /\b(Op(?:p)?|BWV|HWV|Hob|K|D|RV|S|Sz|BB|B|Wq|H|WAB|FP|TrV|WWV|JB|EJG|W)\.?\s*((?:[IVX]+:)?\d+[a-z]?(?:(?:\s*[:/.,–-]\s*|\s+and\s+)\d+[a-z]?)*)(?:\s*,?\s+Nos?\.?\s*(\d+[a-z]?(?:\s*[–-]\s*\d+[a-z]?)?))?/gi;
+const catalogueMatches = (s) => [...plain(s).matchAll(WORK_CATALOGUE)];
+const catalogueLabel = (s) => catalogueMatches(s).map(([text]) => text).join(' · ');
+
+function workIdentity(title, cat = '') {
+  const text = plain(title).split(/;| — /)[0];
+  const catalogues = catalogueMatches(`${text} ${cat}`).map(([, system, value, number]) => ({
+    system: system.toLowerCase().replace(/^opp$/, 'op'),
+    value: `${value}${number ? ` no ${number}` : ''}`.toLowerCase().replace(/\s/g, '').replace(/-/g, '–'),
+  }));
+  const keys = [];
+  const name = text.replace(WORK_CATALOGUE, '').replace(/\s+in\s+([A-G])([♯♭#b]|-sharp|-flat)?(?:\s+(major|minor))?(?=$|[\s,;:“”"'()·])/gi, (_, pitch, accidental = '', mode = '') => {
+    keys.push(`${pitch.toLowerCase()}${accidental.replace(/♯|#|-sharp/g, 'sharp').replace(/♭|b|-flat/g, 'flat')} ${mode.toLowerCase()}`.trim());
+    return '';
+  });
+  // Unlike URL slugs, identities keep the complete title and every work number.
+  return { name: fold(name).replace(/[“”‘’"']/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim(), catalogues, keys };
+}
+
+/** Inherit only an unambiguous full-title match with compatible catalogue numbers and keys. */
 function matchWork(c, title) {
-  const target = workSlug(title);
-  let best = null;
-  for (const w of c.works ?? []) {
-    for (const s of [workSlug(w.title), workSlug(`${w.title} ${w.cat ?? ''}`)]) {
-      if (!s) continue;
-      const hit = s === target || (target.startsWith(s) && target[s.length] === '-') || (s.startsWith(target) && s[target.length] === '-');
-      if (hit && (!best || s.length > best.len)) best = { w, len: s.length };
-    }
-  }
-  return best?.w ?? null;
+  const target = workIdentity(title);
+  const matches = (c.works ?? []).filter((w) => {
+    const entry = workIdentity(w.title, w.cat);
+    if (entry.name !== target.name) return false;
+    if (target.catalogues.some((a) => entry.catalogues.some((b) => a.system === b.system && a.value !== b.value))) return false;
+    if (target.keys.length && entry.keys.length && target.keys.join(';') !== entry.keys.join(';')) return false;
+    return true;
+  });
+  return matches.length === 1 ? matches[0] : null;
 }
 
 function collectWorks(prog) {
@@ -399,7 +418,7 @@ function collectWorks(prog) {
   }
   for (const w of WORKS.values()) {
     w.listens.sort((a, b) => (a.concert === false) - (b.concert === false) || (!a.set) - (!b.set) || (a.set?.part ?? 0) - (b.set?.part ?? 0) || (a.order ?? 1) - (b.order ?? 1));
-    w.entry = matchWork(w.composer, w.title);
+    w.entry = matchWork(w.composer, w.listens[0].work);
     if (w.entry && !workOfEntry.has(w.entry)) workOfEntry.set(w.entry, w.slug);
     w.duration = w.listens.filter((l) => l.concert !== false).reduce((a, l) => a + (progById.get(l.id)?.duration ?? 0), 0);
     w.first = Math.min(...w.listens.map((l) => setPos(l)));
@@ -614,7 +633,7 @@ function workPage(w) {
   const ids = new Set(w.listens.map((l) => l.id));
   const first = w.listens.find((l) => l.concert !== false) ?? w.listens[0];
   const portrait = rendition(art[normalizeTitle(c.portrait.file)]?.src ?? null, 160);
-  const meta = [entry?.year ?? first.year, entry?.cat, entry?.forces ?? first.forces].filter(Boolean).join(' · ');
+  const meta = [entry?.year ?? first.year, entry?.cat ?? catalogueLabel(w.title), entry?.forces ?? first.forces].filter(Boolean).join(' · ');
   const recording = (l) => {
     const t = progById.get(l.id);
     return `<li class="w-rec"><div class="w-rec-head">${hearButton(l.id, 0, 'Play')}<div><span class="w-mv">${esc(l.movement || l.work)}</span><span class="w-perf">${esc([l.performers, l.recorded].filter(Boolean).join(' · '))}</span></div><span class="w-dur">${fmtTime(t?.duration ?? 0)}</span></div>${l.intro ? `<p class="w-intro">${rich(ctx, l.intro)}</p>` : ''}${notes(l)}<p class="w-hall"><a class="more" href="../hall.html#${attr(l.id)}">Open in the Concert Hall${t?.hasSheet ? ', with the score' : ''}</a></p></li>`;

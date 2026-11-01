@@ -134,7 +134,7 @@ Ran `node tools/validate.mjs content/composers/messiaen.mjs` from the project ro
 
 ## Restored
 
-Restored from `966bad62` or newly sourced, in the current voice. The two dropped explanations named under “Omissions and source cautions” (harmonisation compensating for birdsong timbre; Loriod’s differentiation of registers and attacks) stay out, as does any claim that *Mode de valeurs* is an independently ordered series for every parameter. “Dingle excerpt” means the [Cambridge University Press excerpt of *The Life of Messiaen*](https://assets.cambridge.org/97805216/32201/excerpt/9780521632201_excerpt.htm), opened in full.
+Restored from `6c893484` or newly sourced, in the current voice. The two dropped explanations named under “Omissions and source cautions” (harmonisation compensating for birdsong timbre; Loriod’s differentiation of registers and attacks) stay out, as does any claim that *Mode de valeurs* is an independently ordered series for every parameter. “Dingle excerpt” means the [Cambridge University Press excerpt of *The Life of Messiaen*](https://assets.cambridge.org/97805216/32201/excerpt/9780521632201_excerpt.htm), opened in full.
 
 | Restored text | Source and result |
 | --- | --- |

@@ -85,7 +85,7 @@ Existing Hall-specific observations remain attached to their original recordings
 
 ## Restored
 
-Material from the version at commit `966bad62` that came back into the current voice, with the source opened for each claim. Ids, `aka`, kinds, `see` lists and every `hear` coordinate are unchanged (checked by script against the old file). Every correction listed in ‘Claims removed or narrowed’ still stands. Entry html now runs to about 10,900 words (7,200 before this pass; 12,600 in the old version, counted the same way).
+Material from the version at commit `6c893484` that came back into the current voice, with the source opened for each claim. Ids, `aka`, kinds, `see` lists and every `hear` coordinate are unchanged (checked by script against the old file). Every correction listed in ‘Claims removed or narrowed’ still stands. Entry html now runs to about 10,900 words (7,200 before this pass; 12,600 in the old version, counted the same way).
 
 ### Score claims (bar numbers, pitches, markings)
 
