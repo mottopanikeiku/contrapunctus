@@ -1,8 +1,8 @@
 export default {
   kicker: 'An illustrated atlas of composers · Bach to the present',
-  tagline: 'Western art music from Bach to the present, with historical recordings and the scores. The chapters cover how the harmony works, where the forms came from, what each composer took from the others, and the paintings and poems connected with the music.',
-  description: 'An illustrated atlas of classical composers from Bach to the present, with technical listening notes, playable score examples, the origins of musical forms, and paintings and poems from the same periods.',
-  colophon: 'An atlas of composers and their music. Dates follow the standard biographies; catalogue numbers follow the modern thematic catalogues (BWV, K., D., Op.). Where a story is legend and not documented, the text says so.',
+  tagline: 'Classical composers, historical recordings and scores, with the paintings and poems connected with the music.',
+  description: 'An illustrated atlas of classical composers from Bach to the present, with historical recordings, timed listening notes, playable scores, maps and musical connections.',
+  colophon: 'Dates follow the standard biographies; catalogue numbers follow the thematic catalogues (BWV, K., D., Op.). Sources appear on each page.',
 
 
   heroSlides: [
@@ -17,19 +17,18 @@ export default {
 
   preludeTitle: 'Introduction',
   prelude: `
-<p class="dropcap">The Concert Hall plays historical and openly licensed recordings, from plainchant to Boulez’s <i>Le Marteau sans maître</i>, in the order the composers were born. Short notes appear as the music reaches them, and where a score is available, the page moves with the sound. Each of the evenings below can also be played straight through without choosing individual pieces.</p>
-<p>Each composer has a chapter. It gives the life, in the composer’s own words where they survive; what the music is made of; the works to start with; short examples to play; and the paintings and poems associated with the music. Every piece in the Hall has a page of its own, with all its recordings and all its notes.</p>
-<aside class="note"><b>Copyright</b>Recordings first published in 1963 or later are still protected. The Hall therefore has nothing by Ligeti, Reich and several other recent composers, and its Messiaen, Britten and Boulez come from records issued before 1963. The chapters point to the labels’ and artists’ own recordings.</aside>
-<p>The chapters overlap, as the periods of music do. In 1909 [[rachmaninoff|Rachmaninoff]] wrote his Third Piano Concerto for his first American tour, and [[schoenberg|Schoenberg]] wrote his Three Piano Pieces, Op. 11, which have no home key. The Web of Influence and the Map follow the connections between composers, such as a copied score, a borrowed tune or two composers in the same city in the same year.</p>
-<p>Where a story is legend, the text says whose legend it is. The sources are given on every page.</p>`,
+<p class="dropcap">The Concert Hall plays historical and openly licensed recordings, from plainchant to Boulez’s <i>Le Marteau sans maître</i>, in the order the composers were born. Listening notes appear during playback, and aligned scores follow the recording bar by bar. The evenings below play a selection of pieces in order.</p>
+<p>Composer chapters cover the life, the music and the works to start with, alongside playable examples, paintings and poems. Letters and memoirs supply the composers’ own words. Each work page gathers its recordings and listening notes.</p>
+<aside class="note"><b>Recordings and copyright</b>The Hall uses historical recordings first published before 1963 and newer recordings with open licences. For Ligeti, Reich and other recent composers, the chapters link to recordings on the artists’ and labels’ own channels.</aside>
+<p>The chapters overlap, as the periods of music do. In 1909 [[rachmaninoff|Rachmaninoff]] wrote his Third Piano Concerto for his first American tour, and [[schoenberg|Schoenberg]] wrote his Three Piano Pieces, Op. 11, which have no home key. The Web of Influence and the Map connect the chapters through copied scores, borrowed tunes and composers who lived in the same city.</p>`,
 
 
   erasTitle: 'Bach to the present in seven chapters',
-  erasLede: 'Each chapter opens with a painting from its own years and an account of the changes in harmony, in form and in the instruments themselves.',
+  erasLede: 'Paintings and music from each period, with accounts of changes in harmony, form and instruments.',
 
   programmesTitle: 'Evenings',
-  programmesLede: 'Each plays straight through in the Concert Hall, with the notes and, where available, the score, and stops at the end.',
-  lifelinesLede: 'Every composer in the atlas on one axis. Bach died the year Haydn turned eighteen; Brahms heard the thirty-year-old Mahler conduct <i>Don Giovanni</i> in Budapest in 1890 and praised it; Rachmaninoff outlived Ravel and Mahler and died two years before Bartók.',
+  programmesLede: 'A selection of recordings to play in order, with listening notes and available scores. Playback stops at the end of the evening.',
+  lifelinesLede: 'Bach died the year Haydn turned eighteen. Brahms heard Mahler conduct <i>Don Giovanni</i> in Budapest in 1890 and praised it. Rachmaninoff outlived Ravel and Mahler, dying two years before Bartók.',
   timelineLede: 'Lifespans of every composer in the atlas, set against the events and artworks of their times, drawn to scale. Schubert lived thirty-one years, Mozart thirty-five, Lili Boulanger twenty-four.',
   galleryLede: 'Paintings, drawings, prints and poems from the atlas, hung salon-style. Each one links to the music it is associated with.',
 
@@ -37,11 +36,11 @@ export default {
     lede: 'An illustrated atlas of Western art music, built around playable recordings and readable scores.',
     html: `<p class="dropcap">Contrapunctus is an atlas of Western art music in seven chapters, from Bach to the present, with a prologue that reaches back to plainchant.</p>
 <h2><span class="sc">The recordings</span>Public domain and Creative Commons</h2>
-<p>Every recording in the Concert Hall is in the public domain or under a Creative Commons licence, drawn from Wikimedia Commons and the Internet Archive. That gives the Hall Nikisch conducting Beethoven in 1913, Rachmaninoff playing Rachmaninoff and Stravinsky conducting <i>The Rite of Spring</i>. It also means the Hall cannot play most music written since 1945; for those composers the chapters point to the recordings worth hearing on the labels’ and artists’ own channels. Each recording has a dossier noting who played, when and where, with the evidence for each.</p>
-<h2><span class="sc">The scores</span>Engraved in the browser</h2>
-<p>Short examples are written in ABC notation and engraved in the browser with abcjs, and each has a Play button that sounds it. For some pieces a public-domain edition has been aligned with the recording bar by bar, so the Hall can turn the pages with the music.</p>
+<p>The Concert Hall draws public-domain and Creative Commons recordings from Wikimedia Commons and the Internet Archive. These include Nikisch conducting Beethoven in 1913, Rachmaninoff playing Rachmaninoff and Stravinsky conducting <i>The Rite of Spring</i>. For much of the music written since 1945, the chapters link to the labels’ and artists’ own channels. Recording details list the performers, dates, locations and sources.</p>
+<h2><span class="sc">The scores</span>Notation and playback</h2>
+<p>Short examples use ABC notation, engraved and played in the browser with abcjs. Longer scores come from public-domain or openly licensed encodings. Where an edition has been aligned with a recording, the Hall highlights its bars and turns the pages during playback.</p>
 <h2><span class="sc">The writing</span>Quotations and sources</h2>
-<p>Quotations name who said them, to whom and when. The notes in the Hall carry their sources under “Evidence”; the influence connections, places and recordings carry theirs in full, and <a href="sources.html">Sources &amp; method</a> explains how evidence is labelled. Where a story is legend, the text says whose legend it is.</p>`,
+<p>Quotations name the speaker, recipient and date where known. Listening notes, musical connections, places and recordings link to their sources. <a href="sources.html">Sources &amp; method</a> explains the source labels and how score timings are estimated.</p>`,
     coda: '<p>Corrections are welcome as issues on the project’s <a href="https://github.com/mottopanikeiku/contrapunctus/issues">GitHub repository</a>.</p>',
   },
 

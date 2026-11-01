@@ -164,7 +164,7 @@ ${staff}
   const body = `<article class="rl-page rl-index"><header class="rl-hero">${painting(backdrop)}<div class="wrap rl-heading">
   <p class="crumbs"><a href="../hall.html">The Concert Hall</a><span aria-hidden="true"> / </span>The Return Lab</p>
   <span class="kicker">Score & performance</span><h1>The Return <i>Lab</i></h1>
-  <p class="rl-question">Passages beside their repeats and returns, in one recording.</p><p class="rl-intro">Each study pairs a passage with its repeat or return (a literal repeat, a new ending, a return in another key), plays both from the same recording and sets their bars side by side.</p>
+  <p class="rl-question">A musical passage and its return, side by side.</p><p class="rl-intro">Play both passages from the same recording and compare their scores. The studies cover literal repeats, changed endings and returns in another key.</p>
   <p class="rl-honesty"><span class="sc">About the timings</span> Bar times are aligned automatically and await checking by ear.</p>
 </div></header>
 <div class="wrap rl-content"><div class="rl-section-title"><span class="kicker">${list.length} listening studies</span><h2>Studies</h2></div>

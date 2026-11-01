@@ -34,7 +34,7 @@ export default {
   intro: 'One or two sentences: what this is and the one thing that makes it worth hearing.',
   sections: [{ t: seconds, label: 'A · Flute alone', m: 'A', mNote? }, ...],  // the large formal sections, usually 3–8
   cues: [{ t | bar, kind, title, text, basis, precision, evidence }, ...],
-  transitions: [...],   // optional, see CONTRACTS.md
+  transitions: [...],   // optional, see CONTENT.md
 };
 ```
 

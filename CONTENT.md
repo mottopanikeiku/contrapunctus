@@ -1,4 +1,4 @@
-# Data contracts
+# Content formats
 
 Each concern lives in its own file. The generator (`src/build.mjs`) merges them.
 
@@ -10,12 +10,11 @@ Each concern lives in its own file. The generator (`src/build.mjs`) merges them.
 | Score notes aligned to the recording | `docs/assets/data/<id>/score.json` | `node tools/score.mjs <id> --publish` |
 | Level trace | `docs/assets/listen/<id>.json` | `node tools/audio.mjs analyze` |
 
-## Wording rules (site-wide)
+## Timing and source labels
 
-- Score-derived notes (`basis: 'score-aligned'`) say in their evidence line that they are “Timed from the score, aligned to this recording automatically”. An aligned score has a timing status of **provisional** (automatic alignment, not yet checked by ear) or **reviewed** (a named listener checked it against the score); the Hall shows it only after an independent review of the alignment (`content/plan/reviews/score-<id>.json`).
-- Nothing is called "exact". Machine estimates are called estimates.
-- A level trace is "relative level within this recording". It is never loudness, dynamics, or a comparison between recordings.
-- No machine-generated chord or Roman-numeral labels are published. Chord spans appear only where an editor wrote them (`basis: "editorial"`).
+- Score-derived notes (`basis: 'score-aligned'`) use the evidence line “Timed from the score, aligned to this recording automatically”. An aligned score is **provisional** until a named listener checks it by ear. The build also requires a passing review in `content/plan/reviews/score-<id>.json` before showing new alignments.
+- A level trace describes relative level within one recording. It cannot compare loudness between recordings.
+- Chord spans are written by an editor (`basis: "editorial"`).
 
 ## Listening notes: `content/listen/<id>.mjs` → `cues[]`
 
@@ -54,7 +53,7 @@ Each concern lives in its own file. The generator (`src/build.mjs`) merges them.
 }
 ```
 
-An empty `relations` array is a valid, honest answer.
+Use an empty `relations` array when no repeats or returns have been identified.
 
 ## Score notes aligned to a recording: `docs/assets/data/<id>/score.json`
 
@@ -76,9 +75,9 @@ An empty `relations` array is a valid, honest answer.
 
 - `notes` rows are `[onset_s, duration_s, midi, voiceIndex, barIndex]`, where `barIndex` indexes `bars` (the performed occurrence).
 - `voices` are named only when the encoding really distinguishes them (separate staves or LilyPond voices). A MIDI channel or a register range is never presented as a contrapuntal voice.
-- Reproducible publication uses `node tools/score.mjs <id> [--publish]` and the recording-specific `tools/align/pieces/<id>.json`. Only an existing `content/listen/<id>.mjs` is eligible. Source URLs and SHA-256 digests, selected movement/variables, sounding-pitch corrections, performed bar order and endpoint inspection windows are explicit inputs; originals remain unchanged.
-- Publication requires a primary unique-attack median ≤0.15 s, first/middle/last onset deviation ≤0.5 s, every nonempty eight-second local-normalised median ≤0.3 s, no collapsed notes/attacks, and a valid rounded score contract. A numeric pass never overrides an observed wrong edition, pitch or repeat order and never implies aural review.
-- Fresh candidate/check JSON and pitch-energy PNG overlays remain in `tools/align/work/`. Without `--publish`, public files are untouched; with it, engraving and sheetpacking must succeed before replacing `score.json` and `sheet/`. Notehead/rest `data-bar` and `data-pos` retain printed score coordinates; `bars[].occ` distinguishes repeated traversals. Source licences remain distinct from recording rights.
+- `node tools/score.mjs <id> [--publish]` uses `tools/align/pieces/<id>.json` and requires an existing `content/listen/<id>.mjs`. The config specifies source URLs and SHA-256 digests, movement selection, pitch corrections, performed bar order and endpoint inspection windows. Downloaded originals remain unchanged.
+- Before writing a score, the pipeline requires a primary unique-attack median ≤0.15 s, first/middle/last onset deviation ≤0.5 s, every nonempty eight-second local-normalised median ≤0.3 s, no collapsed notes/attacks, and valid rounded score data. These checks cannot detect every wrong edition, pitch or repeat order; the alignment still needs checking by ear.
+- Candidate JSON and pitch-energy PNGs go in `tools/align/work/`. Without `--publish`, public files are untouched. With it, engraving and sheetpacking must succeed before replacing `score.json` and `sheet/`. Notehead/rest `data-bar` and `data-pos` retain printed score coordinates; `bars[].occ` distinguishes repeated traversals. Score licences are separate from recording rights.
 - Engraved whiteout is paper, not ink: source white masks use `var(--paper, #fbf5e6)` and retain their order above earlier ink and below later annotations. Ordinary black ink inherits `currentColor`; other explicit source colours survive packing. Paper masks do not create barline geometry.
 - Inline score examples embedded in main-score markups retain their visible notation but do not supply main-score bar identities or staff/barline tags. A local annotation bar 1 must not create another opening-bar box on a later page. Real timed cue/ossia staves remain part of main-score instrumentation.
 
@@ -398,13 +397,12 @@ birth/figure years remain in chronological order, years before 1650 are
 compressed, and crowded generations receive more horizontal room. The axis is
 not a uniform scale of elapsed years; an edge’s year dates the event. Cameo and
 nameplate positions are computed deterministically at build time, not by a
-browser force-layout. Mobile presents a birth-order timeline. The public batch
-and Hall schemas are unchanged. The build writes
-`docs/assets/influence.json` for the compact Hall index; its schema is unchanged.
+browser force-layout. Mobile presents a birth-order timeline.
+`docs/assets/influence.json` contains the compact Hall index.
 `docs/assets/influence-details.json` is fetched on demand for cards and has
 the shape `{ edges: { "<id>": Edge }, threads: { "<id>": Thread } }`.
-Connection titles and full thread records live in this lazy payload rather
-than the initial page payload, to support the 400 KB initial-page budget.
+Connection titles and full thread records live in this lazy payload to keep
+the initial page below 400 KB.
 `influenceSection(ctx, slug)` supplies the sourced inheritance section between
 a composer’s Life and Works; the generator guards against an absent module.
 Validate batches with `node tools/validate-influence.mjs`; schema validation

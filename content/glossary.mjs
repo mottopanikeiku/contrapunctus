@@ -1,4 +1,4 @@
-// Glossary of listening vocabulary (schema: CONTRACTS.md, “Glossary”).
+// Glossary of listening vocabulary (schema: CONTENT.md, “Glossary”).
 // Entries are grouped by kind for editing; the default export is one flat array.
 // `hear` pointers use times and bars taken from content/listen/*.mjs (cues, sections, transitions).
 

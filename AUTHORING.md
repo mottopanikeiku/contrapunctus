@@ -188,7 +188,7 @@ D,4 A,,4 | …|]
 - Citation boxes offer Chicago and BibTeX. They assert no publication date;
   the displayed build date is only a suggested access date.
 
-Influence research lives in `content/influence/<batch>.json`; `CONTRACTS.md`
+Influence research lives in `content/influence/<batch>.json`; `CONTENT.md`
 defines edges, figures, motif threads and notation exhibits. A connection
 needs a concrete mechanism and a real source URL. Specify what is uncertain
 for inferred or disputed claims. Verify ABC against the linked public-domain
