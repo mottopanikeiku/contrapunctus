@@ -6,7 +6,7 @@ Exemplars for structure and fields: `content/composers/debussy.mjs` and `content
 
 ## Voice
 
-The site must not read as machine-written. Machine prose is recognisable less by its words than by its devices: every paragraph built to the same shape, every note ending on a turn of phrase, instruments that “refuse” and “remember”, tidy lists of three. A human expert writes unevenly, says the plain thing plainly, and stops when the information runs out.
+Describe the music precisely and attribute historical claims to their sources. Vary sentence and paragraph structure, and stop when the information runs out.
 
 ### What to write
 
@@ -17,7 +17,7 @@ The site must not read as machine-written. Machine prose is recognisable less by
 - **Opinion sparingly, and signed.** “The place to start is…” on a recordings list is the site’s view; elsewhere, judgments belong to named people.
 - **Uneven is fine.** One-sentence notes, a long sentence followed by a short one, a paragraph of dates. Do not shape every note as three sentences of fifteen words.
 
-### Devices that make prose read as machine-made (do not use)
+### Prose devices to avoid
 
 - **The closing line.** Never end a note or paragraph with a sentence that sums up, reframes or turns a phrase. Not: “The rests carry the joke.” “<i>Pagodes</i> is what he took home.” “The family’s everyday words survive the child.” “The piece discovers that it has much more to say.” End on the last fact.
 - **Personification** of instruments, keys, themes and works (above).
@@ -27,7 +27,7 @@ The site must not read as machine-written. Machine prose is recognisable less by
 - **Mood adverbs and hedging softeners**: quietly, gently, simply, just, almost, somehow, something, a kind of, a sort of, as if, seems.
 - **Programme-note pastiche vocabulary**, unless inside a quotation: luminous, radiant, shimmering, glowing, haunting, poignant, wistful, yearning, aching, brooding, lush, tender, delicate, playful, sly, mischievous, delicious(ly), magical, dreamlike, otherworldly, ethereal, sweeping, soaring, blooms, blossoms, unfolds, lands, arrives (of music), breathes, lingers, weaves, conjures, evokes.
 - **Addressing the reader**: “you”, “we”, “Listen for”, “Notice”, “Imagine”, rhetorical questions.
-- The old list still applies: tapestry, delve, testament to, timeless, masterful, myriad, resonate with, vibrant, breathtaking, nuanced, showcase, realm, seamless, elevate, captivating, unparalleled, profound, soundscape, “genius”, “in the world of”, “the listener”, “a different kind of”, “gives way to”.
+- **Other wording to avoid:** tapestry, delve, testament to, timeless, masterful, myriad, resonate with, vibrant, breathtaking, nuanced, showcase, realm, seamless, elevate, captivating, unparalleled, profound, soundscape, “genius”, “in the world of”, “the listener”, “a different kind of”, “gives way to”.
 
 ### Titles and labels
 
@@ -38,7 +38,7 @@ Titles are labels, as in a catalogue or a score’s table of contents. No metaph
 - Section labels in `sections[]`: letter and plain description (“A · Theme in the violas”), never an image.
 - Interface text uses nouns and plain verbs: “Programme”, “Recordings”, “Play from the beginning”, “Copy link”. Not invitations (“Follow the threads”, “Enter and listen”) or arrows in prose.
 
-### Confidence in the text, doubt in the drawer
+### Sources and uncertainty
 
 - The text states the best-supported reading plainly. Sources, alternatives and caveats belong in `evidence` (Hall notes), dossiers, `sources` lists and margin notes.
 - Mention doubt in the text only when the doubt is itself the fact: “His family kept his birthday on 1 March; the parish register gives 22 February.”
@@ -47,7 +47,7 @@ Titles are labels, as in a catalogue or a score’s table of contents. No metaph
 
 ### Mechanical checks
 
-`tools/validate.mjs` reports machine language (decibels, “relative level”, “the report”, file paths), defensive hedging, instructions to the reader, contrast by negation above one per 250 words, personified instruments and the pastiche vocabulary above. It cannot see closing lines or rhythmic triplets; authors and reviewers must.
+`tools/validate.mjs` flags decibels, “relative level”, “the report” and file paths, along with defensive hedging, instructions to the reader, contrast by negation above one per 250 words, personified instruments and the pastiche vocabulary above. Review closing lines and rhythmic triplets separately; the validator does not detect them.
 
 ### Quotations
 
@@ -124,6 +124,11 @@ Keep numbered works distinct, and name the movement or arrangement beside
 the link. The separate composer `recordings` array recommends recordings worth
 seeking out; it does not establish that the site hosts them.
 
+Work pages inherit metadata and notes from a composer `works[]` entry only
+when work numbers, catalogue numbers and keys agree wherever present. Without
+a matching entry, they use the listening record's metadata and `intro`.
+See [Work pages](CONTENT.md#work-pages) for the matching order and page contents.
+
 Lineage entries are connections, not an implied teaching chain. Keep the
 authored lineage note’s qualifications. The separate inheritance block draws
 on researched influence edges rather than turning every lineage name into a
@@ -195,7 +200,7 @@ for inferred or disputed claims. Verify ABC against the linked public-domain
 score, identify transpositions, and omit an exhibit rather than approximate it.
 Do not confuse a poem’s setting, an artwork’s depiction and a musical quotation.
 
-Validate only the content you own:
+Validate the content files you change:
 
 ```sh
 node tools/validate.mjs content/glossary.mjs content/bibliography/*.json

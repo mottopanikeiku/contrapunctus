@@ -175,9 +175,14 @@ work (the movements of a set and rival performances), grouped by the listen
 file's `work` title with any key phrase (“in C♯ minor”) removed. Each recording
 shows its intro, all its notes and joins with play-from buttons, and a Hall link;
 the page also links comparisons, journeys, influence edges with an exhibit from
-these recordings, and glossary terms whose `hear` points at them. The composer's
-matching `works[]` entry (exact title, else longest whole-word prefix) supplies
-the lede, year and forces. Composer headers list works rather than movements.
+these recordings, and glossary terms whose `hear` points at them.
+
+Keep numbered works distinct. A composer `works[]` entry can supply metadata
+and notes only when work numbers, catalogue numbers and keys agree wherever
+present. Among those entries, match the exact title first, otherwise the
+longest whole-word prefix. The matching entry supplies its `note` as the lede,
+plus the year and forces. Without a matching composer entry, use the listening
+record's `intro`, year and forces. Composer headers list works rather than movements.
 Recordings by guests and prologue composers have no work page.
 `works/index.html` lists every work page by chapter and composer; radio chips
 filter it by forces (orchestra, keyboard, voices, chamber, matched on the

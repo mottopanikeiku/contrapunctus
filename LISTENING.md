@@ -2,7 +2,7 @@
 
 A real recording plays while the Hall shows the score, the orchestra or the sound, and short notes appear as the music reaches them. The notes say what is happening in the music and, in the quiet stretches, something worth knowing about the composer and the work's world. Most readers glance at a note and go back to listening, so each one has to earn its place.
 
-Read `content/listen/debussy-faune.mjs` in full first; it is the exemplar. House style is in `AUTHORING.md`. Composer biographies live in `content/composers/<slug>.mjs`; draw life and world notes from them and never contradict them.
+Before adding a recording, read `content/listen/debussy-faune.mjs` for a complete example. House style is in `AUTHORING.md`. Composer biographies live in `content/composers/<slug>.mjs`; draw life and world notes from them and never contradict them.
 
 ## Choosing a recording
 
@@ -14,7 +14,7 @@ Read `content/listen/debussy-faune.mjs` in full first; it is the exemplar. House
    - One complete movement or piece, ideally **3–14 minutes**. Never a fragment that cuts off mid-phrase.
    - The best performance and sound available: professional or major-conservatory ensembles over amateur recordings. **Never a synthesized or MIDI rendering.**
    - The work that shows the composer best. A famous, characteristic movement beats an obscure complete piece.
-4. If nothing meets these rules, write no file and say so in your report.
+4. Omit recordings that don't meet these requirements.
 
 ## The file: `content/listen/<id>.mjs`
 
@@ -58,13 +58,13 @@ Period-instrument ensembles often play at A = 415 Hz, a semitone below modern pi
 
 ## Timing
 
-You cannot hear the recording, so anchor every time to something established:
+Anchor cue times to score-aligned bars, established section boundaries or verified existing timings:
 
 1. **Score-aligned bars.** Where `docs/assets/data/<id>/score.json` exists, use `bar: { n, occ }` and `basis: 'score-aligned'` for anything tied to a moment.
 2. **Section boundaries.** The recording's `sections[].t` are the established formal joins. A `form` or `music` note about a new section goes at (or just after) its boundary, with `basis: 'score-proportion'` and `precision: 'passage'`.
 3. **Existing times.** Keep an existing note's `t` when the event it names is known to be there.
 
-Never name an instrument entrance, a sung word or a bar number at a moment unless one of these supports it. When you cannot place an event, write about the whole passage or the whole piece, or write a `life`/`world` note. Key estimates from audio can confuse a key with its dominant or relative; never rely on them alone.
+Never name an instrument entrance, a sung word or a bar number at a moment unless one of these supports it. If an event's timing is uncertain, write about the whole passage or the whole piece, or write a `life`/`world` note. Key estimates from audio can confuse a key with its dominant or relative; never rely on them alone.
 
 `life` and `world` notes need no timing evidence, but they must be facts you are certain of, with the source in `evidence`.
 

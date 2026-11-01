@@ -1,6 +1,6 @@
 # Provisional score alignment
 
-`node tools/score.mjs <listen-id> [--publish]` runs the config-driven pipeline for an existing `content/listen/<id>.mjs` recording. It does not transcribe recordings or claim that anybody listened to them. Published files have `status: "provisional"` and `review.by: null`. Numerical results and decisions are in [REPORT.md](REPORT.md); each new piece has its own heading.
+`node tools/score.mjs <listen-id> [--publish]` runs the config-driven pipeline for an existing `content/listen/<id>.mjs` recording. The tool aligns an existing score to a recording; published timings stay provisional until checked by ear. Published files have `status: "provisional"` and `review.by: null`. Numerical results and decisions are in [REPORT.md](REPORT.md); each piece has its own heading.
 
 ## One command
 
@@ -164,7 +164,7 @@ Each `sources/<id>/manifest.json` records the source, edition, encoder, licence,
 
 ## Alignment and publication gates
 
-**MEAS method:** decode mono at 22,050 Hz, estimate tuning with `librosa.estimate_tuning(resolution=0.01)`, and set the Sync Toolbox pitch/onset filterbank offset in cents. `tuningHz = 440 × 2^(semitones/12)` is a global recording estimate, not a claim about stretch tuning or orchestral practice.
+**Tuning:** decode mono at 22,050 Hz, estimate tuning with `librosa.estimate_tuning(resolution=0.01)`, and set the Sync Toolbox pitch/onset filterbank offset in cents. `tuningHz = 440 × 2^(semitones/12)` is a global recording estimate, not a claim about stretch tuning or orchestral practice.
 
 At 50 frames/s, use log-compressed pitch chroma and decaying locally normalised chroma onset (DLNCO). Symbolic features come directly from performed events with equal note weights, not encoder playback mix. Sync Toolbox memory-restricted multiscale DTW uses four smoothing/downsampling levels, 100,000-cell recursion threshold, standard horizontal/vertical/diagonal steps and equal chroma/onset cost weights. `make_path_strictly_monotonic` removes ambiguous runs before interpolation; no invented minimum note durations or synthetic replacement audio.
 
