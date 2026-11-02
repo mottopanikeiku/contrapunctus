@@ -4,7 +4,7 @@ export default {
   concert: false,
   order: 91,
   work: 'Cello Concerto in E minor, Op. 85',
-  movement: 'IV. Allegro — Moderato — Allegro ma non troppo',
+  movement: 'IV. Allegro, Moderato, Allegro ma non troppo',
   set: { id: 'elgar-cello-concerto-skidmore', title: 'Cello Concerto in E minor, Op. 85', part: 4, of: 4 },
   year: '1919',
   key: 'E minor',
@@ -12,7 +12,7 @@ export default {
   performers: 'Skidmore College Orchestra; cellist and conductor uncredited',
   recorded: '',
   source: { file: 'File:Edward Elgar - cello concerto in e minor, op. 85 - iv. allegro.ogg' },
-  intro: 'The finale of Elgar’s Cello Concerto in E minor, Op. 85 (Allegro — Moderato — Allegro ma non troppo) opens at a vigorous pace until the cello breaks it off. Near the end, themes from the Adagio and from the concerto’s opening return before a brief, fast close.',
+  intro: 'The finale of Elgar’s Cello Concerto in E minor, Op. 85 (Allegro, Moderato, Allegro ma non troppo) opens at a vigorous pace until the cello breaks it off. Near the end, themes from the Adagio and from the concerto’s opening return before a brief, fast close.',
   sections: [
     { t: 0, label: 'Intro · Orchestra, then cello recitative', m: 'Intro', mNote: 'A brisk orchestral flourish, then the cello’s recitative.' },
     { t: 85, label: 'A · March theme, cello, Allegro ma non troppo', m: 'A', mNote: 'Allegro ma non troppo, marked risoluto.' },

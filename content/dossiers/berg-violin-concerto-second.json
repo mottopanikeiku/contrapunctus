@@ -3,7 +3,7 @@
   "work": {
     "title": "Violin Concerto",
     "catalogue": "",
-    "movement": "II. Allegro — Adagio — Coda",
+    "movement": "II. Allegro, Adagio, Coda",
     "version": {
       "value": "Berg’s score for solo violin and orchestra; the edition the performers used is not stated.",
       "status": "unknown",
@@ -90,7 +90,7 @@
       "note": "Rights in the composition are stated separately from rights in the recording."
     },
     "recording": {
-      "value": "Rule 3 — territorial EU public domain: first published before 1963; reviewed in September 1941 and listed in Columbia’s catalogue of 1942.",
+      "value": "Rule 3, territorial EU public domain: first published before 1963; reviewed in September 1941 and listed in Columbia’s catalogue of 1942.",
       "status": "documented",
       "sourceIds": ["amlover", "catalog"],
       "note": "The Internet Archive item carries a CC BY-NC-SA 3.0 licence label from the uploader. That label does not meet the site’s licence rules and is not relied on. The United States status of a 1940 recording is not established."
@@ -101,7 +101,7 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — BERG: Violin Concerto (Krasner, Cleveland Orchestra, Rodzinski): metadata and file inventory",
+      "title": "Internet Archive: BERG: Violin Concerto (Krasner, Cleveland Orchestra, Rodzinski): metadata and file inventory",
       "url": "https://archive.org/metadata/BERGViolinConcerto-NEWTRANSFER",
       "locator": "metadata.description (performers, set number, matrices XCO 29764–29769, recording date, transfer credit); files 01.I.AndanteAllegretto.mp3 and 02.Ii.AllegroAdagioCoda.mp3 (12:19); licenseurl",
       "accessed": "2026-10-19"
@@ -122,28 +122,28 @@
     },
     {
       "id": "bso",
-      "title": "Michael Steinberg — programme note on Berg’s Violin Concerto, Boston Symphony Orchestra",
+      "title": "Michael Steinberg: programme note on Berg’s Violin Concerto, Boston Symphony Orchestra",
       "url": "https://www.bso.org/works/berg-violin-concerto",
       "locator": "Commission, première on 19 April 1936, Manon Gropius, description of the second movement and of the chorale variations",
       "accessed": "2026-10-19"
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Violin Concerto (Berg, Alban)",
+      "title": "IMSLP: Violin Concerto (Berg, Alban)",
       "url": "https://imslp.org/wiki/Violin_Concerto_(Berg,_Alban)",
       "locator": "Public-domain notice (Canada, life-plus-50 and life-plus-70 countries; probably still protected in the United States); first publication 1936",
       "accessed": "2026-10-19"
     },
     {
       "id": "sonybox",
-      "title": "Artur Rodziński, The Cleveland Orchestra — The Complete Columbia Album Collection (Sony Classical, 2023), listing on Discogs",
+      "title": "Artur Rodziński, The Cleveland Orchestra: The Complete Columbia Album Collection (Sony Classical, 2023), listing on Discogs",
       "url": "https://www.discogs.com/release/28988224-Artur-Rodzi%C5%84skiCleveland-Orchestra-The-Complete-Columbia-Album-Collection",
       "locator": "CD 13: “Recorded: … Cleveland, Severance Hall, December 15, 1940” for the Berg concerto tracks",
       "accessed": "2026-10-19"
     },
     {
       "id": "oron",
-      "title": "Bach Cantatas Website — Berg, Violin Concerto: discography, part 1 (1900–1949)",
+      "title": "Bach Cantatas Website: Berg, Violin Concerto: discography, part 1 (1900–1949)",
       "url": "https://www.bach-cantatas.com/Arran/OT-Berg-VC-Rec1.htm",
       "locator": "Entry 3: Krasner, Rodziński, Cleveland Orchestra, Dec 15, 1940, Severance Hall; Columbia ML-4857; Naxos CD total 22:52",
       "accessed": "2026-10-19"

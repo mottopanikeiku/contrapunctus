@@ -3,7 +3,7 @@ export default {
   "composer": "elgar",
   "order": 1,
   "work": "Variations on an Original Theme “Enigma”, Op. 36",
-  "movement": "Theme and I. “C.A.E.” — Andante; L’istesso tempo",
+  "movement": "Theme and I. “C.A.E.”, Andante; L’istesso tempo",
   "set": {
     "id": "elgar-enigma",
     "title": "Enigma Variations, Op. 36",

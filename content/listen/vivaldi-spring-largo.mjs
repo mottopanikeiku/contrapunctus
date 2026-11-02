@@ -32,7 +32,7 @@ export default {
       "bar": { "n": "1", "occ": 1 },
       "kind": "music",
       "title": "Opening, sonnet and accompaniment",
-      "text": "“E quindi Sul fiorito ameno prato / Al caro mormorio di fronde e piante” — “And then, on the pleasant flowered meadow, to the gentle murmur of leaves and plants.” Vivaldi’s 1725 sonnet places the goatherd under trees. Two violin parts play dotted rhythms beneath the solo melody.",
+ "text": "“E quindi Sul fiorito ameno prato / Al caro mormorio di fronde e piante” (“And then, on the pleasant flowered meadow, to the gentle murmur of leaves and plants.”) Vivaldi’s 1725 sonnet places the goatherd under trees. Two violin parts play dotted rhythms beneath the solo melody.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Spring sonnet, letter F; translation ours. Mutopia score after Performers’ Facsimiles, II, bars 1–7: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301. The sonnets were published anonymously with Op. 8."
@@ -41,7 +41,7 @@ export default {
       "bar": { "n": "8", "occ": 1 },
       "kind": "music",
       "title": "The dog, viola",
-      "text": "“Dorme’l Caprar col fido can’ à lato” — “The goatherd sleeps with his faithful dog beside him.” The viola plays the bark, two notes followed by a rest, marked always very loud and sharply attacked. The continuo is silent throughout.",
+ "text": "“Dorme’l Caprar col fido can’ à lato” (“The goatherd sleeps with his faithful dog beside him.”) The viola plays the bark, two notes followed by a rest, marked always very loud and sharply attacked. The continuo is silent throughout.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Spring sonnet, 1725, letter F; translation ours. Mutopia score, II: viola marked Il Cane che grida and sempre molto forte, e Strappato; continuo tacet for all 39 bars: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
@@ -134,7 +134,7 @@ export default {
     "solo": "solo-violin",
     "basis": "documented",
     "source": {
-      "title": "Vivaldi, Spring, RV 269 — Mutopia 301, after Performers’ Facsimiles",
+ "title": "Vivaldi, Spring, RV 269: Mutopia 301, after Performers’ Facsimiles",
       "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301",
       "locator": "II. Largo, all 39 bars. The continuo is marked tacet; this stable-texture overview does not claim that each part plays every instant."
     },

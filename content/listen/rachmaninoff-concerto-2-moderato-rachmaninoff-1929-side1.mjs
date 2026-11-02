@@ -3,7 +3,7 @@ export default {
   composer: 'rachmaninoff',
   order: 80,
   work: 'Piano Concerto No. 2, Op. 18',
-  movement: 'I. Moderato — opening 78-rpm side only',
+  movement: 'I. Moderato, opening 78-rpm side only',
   concert: false,
   year: '1900–01',
   key: 'C minor',

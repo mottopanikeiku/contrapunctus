@@ -3,7 +3,7 @@
   "work": {
     "title": "Cello Concerto in E minor",
     "catalogue": "Op. 85",
-    "movement": "IV. Allegro — Moderato — Allegro ma non troppo",
+    "movement": "IV. Allegro, Moderato, Allegro ma non troppo",
     "version": {
       "value": null,
       "status": "unknown",
@@ -125,7 +125,7 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Skidmore/Musopen Elgar finale",
+      "title": "Wikimedia Commons: Skidmore/Musopen Elgar finale",
       "url": "https://commons.wikimedia.org/wiki/File:Edward_Elgar_-_cello_concerto_in_e_minor,_op._85_-_iv._allegro.ogg",
       "locator": "File-description wikitext inspected: Skidmore attribution, blank session date, quoted recording-specific Musopen permission, attribution request, PD-author and permission ticket. Audio metadata supplies playable MP3 derivative.",
       "accessed": "2026-10-17"
@@ -139,7 +139,7 @@
     },
     {
       "id": "elgar",
-      "title": "Internet Archive — Elgar biographical dates and first recording",
+      "title": "Internet Archive: Elgar biographical dates and first recording",
       "url": "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
       "locator": "Creator identifies Edward Elgar as 1857–1934; composition rights are treated separately from this modern recording.",
       "accessed": "2026-10-17"

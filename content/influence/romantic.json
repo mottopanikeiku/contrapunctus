@@ -111,7 +111,7 @@
       "status": "documented",
       "sources": [
         {
-          "title": "The Hector Berlioz Website: Berlioz in Paris — Théâtre de l’Odéon",
+          "title": "Théâtre de l’Odéon: The Hector Berlioz Website: Berlioz in Paris",
           "url": "http://www.hberlioz.com/Paris/BPOdeon.html",
           "locator": "paragraph beginning “On 11 September 1827”"
         },
@@ -142,7 +142,7 @@
           "locator": "opening paragraphs"
         },
         {
-          "title": "The Hector Berlioz Website: Berlioz in Paris — Conservatoire",
+          "title": "The Hector Berlioz Website: Berlioz in Paris, Conservatoire",
           "url": "http://www.hberlioz.com/Paris/BPConservatoire.html",
           "locator": "paragraph on the Société des concerts, 1828"
         }
@@ -701,7 +701,7 @@
       "status": "documented",
       "sources": [
         {
-          "title": "The Hector Berlioz Website: Berlioz in Germany — Leipzig",
+          "title": "The Hector Berlioz Website: Berlioz in Germany, Leipzig",
           "url": "http://www.hberlioz.com/Germany/leipzig.htm",
           "locator": "Introduction; chronology for 1843; letter of February 1843 (CG no. 806)"
         },

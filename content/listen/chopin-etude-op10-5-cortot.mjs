@@ -3,7 +3,7 @@ export default {
   "composer": "chopin",
   "order": 20,
   "work": "Étude in G♭ major, Op. 10 No. 5; Étude in G♭ major, Op. 25 No. 9",
-  "movement": "Black Keys, followed by Butterfly — complete disc side",
+  "movement": "Black Keys, followed by Butterfly: complete disc side",
   "year": "1829–37",
   "key": "G♭ major",
   "forces": "Piano",

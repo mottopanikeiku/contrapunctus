@@ -89,7 +89,7 @@
       "note": "The IMSLP work page carries a notice that the work is not in the public domain in life-plus-70 countries. The end date of 2027 is computed from Sibelius’s death in 1957, which the site’s Sibelius biography gives as 20 September 1957. This dossier does not claim the composition is out of copyright in the EU. The programme’s rule applies to the sound recording, not the composition."
     },
     "recording": {
-      "value": "Rule 3 — EU public domain (territorial): first published before 1963 (RCA LSC 2342, October 1959; SB 207, May 1960).",
+      "value": "Rule 3, EU public domain (territorial): first published before 1963 (RCA LSC 2342, October 1959; SB 207, May 1960).",
       "status": "documented",
       "sourceIds": ["booklet", "ia-item"],
       "note": "Territorial only: the recording’s first publication in 1959–60 predates 1963, so its EU 50-year term had expired before the 2013 extension. The United States status of a 1958–59 sound recording is not established here. The Internet Archive item carries no licence URL; its metadata and description contain no non-commercial restriction. The item belongs to a general “folksoundomy” collection and was uploaded by a third party, not by the rights holder."
@@ -100,28 +100,28 @@
   "sources": [
     {
       "id": "ia-item",
-      "title": "Internet Archive — Sibelius: Symphony No. 2 in D, Op. 43, complete (Monteux–LSO 1958)",
+      "title": "Internet Archive: Sibelius: Symphony No. 2 in D, Op. 43, complete (Monteux–LSO 1958)",
       "url": "https://archive.org/details/sibelius-2-compl-monteux-lso",
       "locator": "Description: movement times at 0:01, 10:18, 24:54 and 31:08; “London Symphony Orchestra, Pierre Monteux, cond. Decca–RCA, recorded in Kingsway Hall, June 20, 1958”; files list: one VBR MP3 of 2,637 s; metadata has no licence URL; public date 2023-06-11.",
       "accessed": "2026-10-17"
     },
     {
       "id": "booklet",
-      "title": "Decca Classics — Pierre Monteux: The Complete Decca/Philips Recordings (booklet)",
+      "title": "Decca Classics: Pierre Monteux: The Complete Decca/Philips Recordings (booklet)",
       "url": "https://d24ku69pnn7av2.cloudfront.net/decca-classics-booklets/2020/02894834711X_Pierre_Monteux_Booklet.pdf",
       "locator": "PDF page 20, printed p. 39 (track list with movement times 10.16, 14.36, 6.15, 12.49, with Elgar’s Enigma Variations marked *); PDF page 21, printed p. 40 (Kingsway Hall, London, 18–20 June 1958 and 24 & 25 June 1958*; producers John Culshaw and James Walker*; balance engineer Kenneth Wilkinson; “First released as: RCA LSC 2342 (October 1959) / SB 207 (May 1960); DECCA SDD 234 (September 1970)”); PDF page 26, printed pp. 50–51 (essay).",
       "accessed": "2026-10-17"
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Symphony No. 2, Op. 43 (Sibelius, Jean)",
+      "title": "IMSLP: Symphony No. 2, Op. 43 (Sibelius, Jean)",
       "url": "https://imslp.org/wiki/Symphony_No.2,_Op.43_(Sibelius,_Jean)",
       "locator": "Copyright notice (public domain in Canada, the United States and life-plus-50 countries; not in life-plus-70 countries); first performance 8 March 1902; first publication Helsinki: Fazer & Westerlund, 1903.",
       "accessed": "2026-10-17"
     },
     {
       "id": "sibelius-society",
-      "title": "Sibelius Society of Finland — Second symphony op. 43 (1902)",
+      "title": "Sibelius Society of Finland: Second symphony op. 43 (1902)",
       "url": "https://sibelius.klubi.fi/english/musiikki/ork_sinf_02.htm",
       "locator": "First version 1902 and final version 1903; première 8 March 1902 (Helsinki) and 10 November 1903 (Stockholm); movement notes.",
       "accessed": "2026-10-17"

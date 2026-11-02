@@ -12,7 +12,7 @@
         {
           "kind": "label",
           "url": "https://www.warnerclassics.com/release/gershwin-porgy-and-bess-0",
-          "title": "Warner Classics — Rattle’s Porgy and Bess"
+          "title": "Warner Classics: Rattle’s Porgy and Bess"
         }
       ]
     },
@@ -27,7 +27,7 @@
         {
           "kind": "label",
           "url": "https://www.warnerclassics.com/release/gershwin-rhapsody",
-          "title": "Warner Classics — Previn’s Gershwin orchestral works"
+          "title": "Warner Classics: Previn’s Gershwin orchestral works"
         }
       ]
     },
@@ -42,34 +42,34 @@
         {
           "kind": "label",
           "url": "https://www.nonesuch.com/albums/gershwin-plays-gershwin-piano-rolls",
-          "title": "Nonesuch — Gershwin Plays Gershwin: The Piano Rolls"
+          "title": "Nonesuch: Gershwin Plays Gershwin: The Piano Rolls"
         }
       ]
     }
   ],
   "sources": [
     {
-      "title": "Warner Classics — Porgy and Bess; Rattle, White, Haymon, Glyndebourne Chorus and London Philharmonic credits",
+      "title": "Warner Classics: Porgy and Bess; Rattle, White, Haymon, Glyndebourne Chorus and London Philharmonic credits",
       "url": "https://www.warnerclassics.com/release/gershwin-porgy-and-bess-0"
     },
     {
-      "title": "The Gershwin estate — Porgy and Bess, 1935 stage work and song titles",
+      "title": "The Gershwin estate: Porgy and Bess, 1935 stage work and song titles",
       "url": "https://gershwin.com/publications/porgy-and-bess/"
     },
     {
-      "title": "Warner Classics — Previn and the LSO, Gershwin orchestral works; pianist and conductor credits",
+      "title": "Warner Classics: Previn and the LSO, Gershwin orchestral works; pianist and conductor credits",
       "url": "https://www.warnerclassics.com/release/gershwin-rhapsody"
     },
     {
-      "title": "The Gershwin estate — Concerto in F, 1925 and Gershwin’s own orchestration",
+      "title": "The Gershwin estate: Concerto in F, 1925 and Gershwin’s own orchestration",
       "url": "https://gershwin.com/publications/concerto-in-f/"
     },
     {
-      "title": "The Gershwin estate — An American in Paris, 1928; taxi-horn shopping with Mabel Schirmer",
+      "title": "The Gershwin estate: An American in Paris, 1928; taxi-horn shopping with Mabel Schirmer",
       "url": "https://gershwin.com/publications/an-american-in-paris-concert-work/"
     },
     {
-      "title": "Nonesuch — Gershwin Plays Gershwin: The Piano Rolls; concert-grand realisation, 1992–93 recording credits, track timings and Frank Milne attribution",
+      "title": "Nonesuch: Gershwin Plays Gershwin: The Piano Rolls; concert-grand realisation, 1992–93 recording credits, track timings and Frank Milne attribution",
       "url": "https://www.nonesuch.com/albums/gershwin-plays-gershwin-piano-rolls"
     }
   ]

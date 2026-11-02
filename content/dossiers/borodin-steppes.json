@@ -99,21 +99,21 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Borodin, In the Steppes of Central Asia (Musopen Symphony)",
+      "title": "Wikimedia Commons: Borodin, In the Steppes of Central Asia (Musopen Symphony)",
       "url": "https://commons.wikimedia.org/wiki/File:Borodin_-_In_the_Steppes_of_Central_Asia_(Musopen_Symphony).flac",
       "locator": "Artists: Musopen Symphony; date 2012; recording tag PD-author (Musopen); composition tag PD-old-auto-expired, death year 1887; uploaded 12 November 2024 by Kcx36 from the Internet Archive’s Musopen collection.",
       "accessed": "2026-10-19"
     },
     {
       "id": "musopen-ia",
-      "title": "Internet Archive — Musopen Collection as FLAC",
+      "title": "Internet Archive: Musopen Collection as FLAC",
       "url": "https://archive.org/details/MusopenCollectionAsFlac",
       "locator": "Description: Musopen Kickstarter music, project completed in 2012; lists “Borodin - In The Steppes Of Central Asia”; licence URL: Public Domain Mark 1.0.",
       "accessed": "2026-10-19"
     },
     {
       "id": "bso",
-      "title": "Boston Symphony Orchestra — Overture to Prince Igor (Harlow Robinson)",
+      "title": "Boston Symphony Orchestra: Overture to Prince Igor (Harlow Robinson)",
       "url": "https://www.bso.org/works/overture-to-prince-igor",
       "locator": "Quick facts: Borodin died in Saint Petersburg on 27 February 1887.",
       "accessed": "2026-10-19"

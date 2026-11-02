@@ -61,7 +61,7 @@ export default {
     { year: '1916–17', title: 'Violin Sonata', forces: 'Violin and piano', note: 'His last completed work. He played the piano at the première, with Gaston Poulet, in May 1917.' },
   ],
   score: [
-    { kicker: 'Voiles — schematic pitch material', title: 'Six equally spaced notes above B♭', abc: `X:1
+    { kicker: 'Voiles: schematic pitch material', title: 'Six equally spaced notes above B♭', abc: `X:1
 T:Whole-tone field (schematic)
 M:4/4
 L:1/4
@@ -75,7 +75,7 @@ C D E ^F | ^G _B c2 | c _B ^G ^F | E D C2 |]
 V:2
 %%MIDI program 0
 _B,,4 | _B,,4 | _B,,4 | _B,,4 |]`, caption: 'The six notes of <i>Voiles</i>, laid out as a scale over its held low B♭. Every step is a whole tone, so the scale has no leading note and no perfect fifth, and no note functions as a tonic. Schematic; not a quotation from the score.' },
-    { kicker: 'Voiles — contrasting collection', title: 'Change of intervals on five black keys', abc: `X:2
+    { kicker: 'Voiles: contrasting collection', title: 'Change of intervals on five black keys', abc: `X:2
 T:Pentatonic contrast (schematic)
 M:4/4
 L:1/4
@@ -83,7 +83,7 @@ Q:1/4=76
 K:C
 %%MIDI program 0
 ^F ^G ^A ^c | ^d ^c ^A ^G | ^F2 ^A ^c | ^d2 ^F2 |]`, caption: 'The five black-key notes that interrupt <i>Voiles</i> for six bars. The steps are uneven here, with minor thirds among the whole tones, and the collection includes a perfect fifth (F♯–C♯). Schematic; not a quotation from the score.' },
-    { kicker: 'Parallel harmony — schematic', title: 'Parallel chords (planing)', abc: `X:3
+    { kicker: 'Parallel harmony: schematic', title: 'Parallel chords (planing)', abc: `X:3
 T:Parallel dominant-ninth sonorities (schematic)
 M:4/4
 L:1/4
@@ -96,9 +96,9 @@ K:C
     { relation: 'documented-use',
       type: 'painting', frame: 'mat', file: 'File:Katsushika Hokusai - Thirty-Six Views of Mount Fuji- The Great Wave Off the Coast of Kanagawa - Google Art Project.jpg', artist: 'Katsushika Hokusai', title: 'The Great Wave off Kanagawa', date: 'c. 1830–32', medium: 'Colour woodblock print', collection: 'Tokyo National Museum', note: '<p>Debussy asked for Hokusai’s wave, cropped and redrawn, on the cover of Durand’s first edition of <i>La Mer</i> in 1905. He collected Japanese prints and lacquer; the goldfish of <i>Poissons d’or</i> were those on a lacquer panel he owned.</p>' },
     { relation: 'shared-context',
-      type: 'painting', frame: 'gilt', file: 'File:James Abbott McNeill Whistler - Nocturne- Blue and Silver - Chelsea - Google Art Project.jpg', artist: 'James McNeill Whistler', title: 'Nocturne: Blue and Silver — Chelsea', date: '1871', medium: 'Oil on wood', collection: 'Tate, London', note: '<p>Whistler took the word “nocturne” from music for his night paintings of the Thames. Debussy took it back for his orchestral triptych of 1899, and explained that the title meant “all the various impressions and the special effects of light that the word suggests”.</p>' },
+      type: 'painting', frame: 'gilt', file: 'File:James Abbott McNeill Whistler - Nocturne- Blue and Silver - Chelsea - Google Art Project.jpg', artist: 'James McNeill Whistler', title: 'Nocturne: Blue and Silver, Chelsea', date: '1871', medium: 'Oil on wood', collection: 'Tate, London', note: '<p>Whistler took the word “nocturne” from music for his night paintings of the Thames. Debussy took it back for his orchestral triptych of 1899, and explained that the title meant “all the various impressions and the special effects of light that the word suggests”.</p>' },
     { relation: 'documented-use',
-      type: 'poem', author: 'Stéphane Mallarmé', title: 'L’Après-midi d’un faune — opening', date: '1876', lang: 'French', translator: 'Our translation', original: `Ces nymphes, je les veux perpétuer.
+      type: 'poem', author: 'Stéphane Mallarmé', title: 'L’Après-midi d’un faune: opening', date: '1876', lang: 'French', translator: 'Our translation', original: `Ces nymphes, je les veux perpétuer.
 Si clair,
 Leur incarnat léger, qu’il voltige dans l’air
 Assoupi de sommeils touffus.
@@ -119,9 +119,9 @@ Did I love a dream?`, note: '<p>These are the first lines of the faun’s monolo
   ],
   lineage: { from: ['chopin', 'wagner', 'mussorgsky', 'rameau', 'Javanese gamelan', 'Stéphane Mallarmé'], to: ['ravel', 'messiaen', 'boulez', 'bartok', 'Tōru Takemitsu'], note: '<p>[[ravel|Ravel]], thirteen years younger, was frequently compared with him; their friendship cooled in 1904–05. [[bartok|Bartók]] came to know his music in 1907, when Kodály brought scores back from Paris. [[messiaen|Messiaen]] was given the vocal score of <i>Pelléas</i> at the age of ten. [[boulez|Boulez]] made the neglected <i>Jeux</i> a central work for his own generation.</p>' },
   reading: [
-    'François Lesure, <i>Claude Debussy: A Critical Biography</i>, translated and edited by Marie Rolf (University of Rochester Press, 2019) — documentary chronology with attention to sources and revisions.',
-    'Roy Howat, <i>Debussy in Proportion</i> (Cambridge University Press, 1983) — a detailed, arguable account of formal proportions; read with the scores open.',
-    'Claude Debussy, <i>Debussy on Music</i>, collected by François Lesure, translated and edited by Richard Langham Smith (Secker & Warburg, 1977) — the criticism, including the writings of Monsieur Croche.',
-    '<a href="https://www.chambermusicsociety.org/about-the-music/composers/claude-debussy">Stephen Walsh, biography for the Chamber Music Society of Lincoln Center</a> — a concise account of the training, encounters and late sonatas.',
+    'François Lesure, <i>Claude Debussy: A Critical Biography</i>, translated and edited by Marie Rolf (University of Rochester Press, 2019): documentary chronology with attention to sources and revisions.',
+    'Roy Howat, <i>Debussy in Proportion</i> (Cambridge University Press, 1983): a detailed, arguable account of formal proportions; read with the scores open.',
+    'Claude Debussy, <i>Debussy on Music</i>, collected by François Lesure, translated and edited by Richard Langham Smith (Secker & Warburg, 1977): the criticism, including the writings of Monsieur Croche.',
+    '<a href="https://www.chambermusicsociety.org/about-the-music/composers/claude-debussy">Stephen Walsh, biography for the Chamber Music Society of Lincoln Center</a>: a concise account of the training, encounters and late sonatas.',
   ],
 };

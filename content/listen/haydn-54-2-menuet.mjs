@@ -4,7 +4,7 @@ export default {
   order: 0.3,
   set: { id: 'haydn-quartet-54-2', title: 'String Quartet in C major, Op. 54 No. 2', part: 3, of: 4 },
   work: 'String Quartet in C major, Op. 54 No. 2, Hob. III:57',
-  movement: 'III. Menuetto: Allegretto — Trio',
+  movement: 'III. Menuetto: Allegretto, Trio',
   year: '1788',
   key: 'C major',
   forces: 'String quartet',

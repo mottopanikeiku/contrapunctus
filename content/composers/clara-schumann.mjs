@@ -55,7 +55,7 @@ export default {
   ],
   score: [
     { kicker: 'Variation workshop', title: 'Varied surface over a retained bass', abc: `X:1
-T:Theme and variation — schematic
+T:Theme and variation: schematic
 M:2/4
 L:1/8
 Q:1/4=66
@@ -114,9 +114,9 @@ my love for you will not end.`, note: `<p>Clara included this setting in the Rü
   ],
   lineage: { from: ['bach', 'beethoven', 'chopin', 'Friedrich Wieck', 'schumann'], to: ['brahms', 'Fanny Davies', 'Adelina de Lara'], note: `<p>[[brahms|Brahms]] sent her music to play and judge, and her performances helped it reach the public. Fanny Davies and Adelina de Lara carried her teaching into their own concert careers and recordings. She performed Robert’s piano music in concert and also edited it.</p>` },
   reading: [
-    'Nancy B. Reich, <i>Clara Schumann: The Artist and the Woman</i> (Cornell, revised edition 2001) — the documentary biography that re-established the scale of her professional career.',
-    'Joe Davies, editor, <i>Clara Schumann Studies</i> (Cambridge, 2021) — composition, performance, reception and the work of musical institutions.',
-    '<a href="https://www.schumann-portal.de/Part_II.html">Schumann Portal: Clara’s biography</a> — career, family, tours and teaching, with references to the correspondence.',
-    '<a href="https://www.kannehmasons.com/project/romance-the-piano-music-of-clara-schumann/">Romance: recording and personnel</a> — the documented Decca programme.',
+    'Nancy B. Reich, <i>Clara Schumann: The Artist and the Woman</i> (Cornell, revised edition 2001): the documentary biography that re-established the scale of her professional career.',
+    'Joe Davies, editor, <i>Clara Schumann Studies</i> (Cambridge, 2021): composition, performance, reception and the work of musical institutions.',
+    '<a href="https://www.schumann-portal.de/Part_II.html">Schumann Portal: Clara’s biography</a>: career, family, tours and teaching, with references to the correspondence.',
+    '<a href="https://www.kannehmasons.com/project/romance-the-piano-music-of-clara-schumann/">Romance: recording and personnel</a>: the documented Decca programme.',
   ],
 };

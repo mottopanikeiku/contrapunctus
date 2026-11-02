@@ -135,7 +135,7 @@
       "note": "The composition-only PD-old-70 tag does not license this 1926 sound recording."
     },
     "recording": {
-      "value": "territorial — European recording-rights expiry; first publication documented before 1963.",
+      "value": "territorial: European recording-rights expiry; first publication documented before 1963.",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -149,21 +149,21 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Sargent Hallelujah, Electrola EJ 39",
+      "title": "Wikimedia Commons: Sargent Hallelujah, Electrola EJ 39",
       "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Royal_Choral_Society_-_Malcolm_Sargent_-_Messiah_-_Hallelujah_Chorus_-_Electrola-ej39-04871.flac",
       "locator": "File wikitext: first recording 2 April 1926, first release 1927, performers and venue; source link and composition-only PD-old-70 tag.",
       "accessed": "2026-10-17"
     },
     {
       "id": "pool",
-      "title": "Public Domain Project — Electrola-ej39-04871",
+      "title": "Public Domain Project: Electrola-ej39-04871",
       "url": "http://pool.publicdomainproject.org/index.php?title=Electrola-ej39-04871",
       "locator": "Current oldid 39091: performer credits; session; first release 1926 (disagrees with Commons import); matrix E-CR.237-1A; public-domain claim; Martin Osterwalder collection. No NC licence shown.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dnb",
-      "title": "German National Library — Hallelujah, Electrola EJ 39",
+      "title": "German National Library: Hallelujah, Electrola EJ 39",
       "url": "https://d-nb.info/380148439",
       "locator": "Catalogue: side 2 of 2, label number 04871, matrix E-CR.237-1A, Royal Choral Society and Royal Albert Hall Orchestra; recorded during the 2 April 1926 Royal Albert Hall concert.",
       "accessed": "2026-10-17"

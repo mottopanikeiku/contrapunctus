@@ -59,7 +59,7 @@ export default {
     { year: '1882–83', title: 'String Quartet No. 2 in D minor', forces: 'String quartet', note: 'Begun in June 1882 and finished on 12 March 1883. First performed at the Konvikt, Prague, on 3 January 1884.' },
   ],
   score: [
-    { kicker: 'Vltava — quoted, bars 39–42', title: 'Main theme, violins', abc: `X:1
+    { kicker: 'Vltava: quoted, bars 39–42', title: 'Main theme, violins', abc: `X:1
 T:Vltava, main theme, violin I, bars 39–42
 M:6/8
 L:1/8
@@ -68,7 +68,7 @@ K:Em
 V:1 name="Vln. I"
 %%MIDI program 40
 B | e2 f g2 a | b2 b b3 | c'3 c'3 |]`, caption: 'Violin I in the Eulenburg miniature score of <i>Má vlast</i> No. 2, revised by Wilhelm Zemánek (Leipzig, 1914; Internet Archive copy). An upbeat B leads to the theme at bar 40, where Smetana’s rehearsal number 40 stands. Two crotchet–quaver pairs rise from E to A, bar 41 repeats B, and bar 42 holds C for two dotted crotchets. The oboes play the same rhythm. The other strings play rocking semiquavers marked <i>sempre ondeggiante</i>. Dynamics and slurs are omitted.' },
-    { kicker: 'The Bartered Bride — quoted, opening bars', title: 'The overture, bars 1–2', abc: `X:2
+    { kicker: 'The Bartered Bride: quoted, opening bars', title: 'The overture, bars 1–2', abc: `X:2
 T:The Bartered Bride, overture, bars 1–2, right hand
 M:C|
 L:1/8
@@ -77,7 +77,7 @@ K:F
 V:1 name="Piano RH"
 %%MIDI program 0
 z2 z G c4- | c d c2 c G c2 |]`, caption: 'The right hand of the piano-vocal score published by Bote &amp; Bock, Berlin, 1892 (Internet Archive scan of the University of North Carolina copy). The overture is in F major and in cut time, marked Vivacissimo. After two rests, an upbeat G leads to a minim C tied into bar 2, where C–D–C and C–G–C follow with an accent on each crotchet. Dynamics, slurs and the left hand are omitted.' },
-    { kicker: 'String Quartet No. 1 — quoted, finale, bars 222–230', title: 'Held high E, violin I', abc: `X:3
+    { kicker: 'String Quartet No. 1: quoted, finale, bars 222–230', title: 'Held high E, violin I', abc: `X:3
 T:String Quartet No. 1, finale, bars 222–230, violin I
 M:2/4
 L:1/8
@@ -96,10 +96,10 @@ z4 | z4 | e'4- | e'4- | e'4- | e'4- | e'4- | e'4- | e' z z2 |]`, caption: 'Violi
   ],
   lineage: { from: ['Josef Proksch', 'liszt', 'wagner', 'mozart'], to: ['dvorak', 'Zdeněk Fibich', 'Adolf Čech'], note: '<p>The blind Josef Proksch taught him counterpoint and composition in Prague. [[liszt]] accepted the dedication of the <i>Morceaux caractéristiques</i> in 1848, helped to have them published, and in 1880 asked for the parts of the quartet. Smetana heard [[wagner]]’s music dramas in Munich in 1868, 1870 and 1872. Wellek wrote in 1895 that [[mozart]]’s <i>Figaro</i> was the nearest model for <i>The Bartered Bride</i> and, by Smetana’s own account, his ideal at the time. [[dvorak]] played viola under him at the premières of 1866 and 1868 and at the first performance of the quartet. Zdeněk Fibich followed him at the conductor’s desk of the Provisional Theatre in 1875, and Adolf Čech conducted the first performances of <i>Vltava</i> and of the whole of <i>Má vlast</i>.</p>' },
   reading: [
-    'Bronislav Wellek, <i>Friedrich Smetana</i> (Prague: Dominicus, 1895) — an early biography in German that prints Smetana’s letters to Liszt, the programmes of <i>Má vlast</i> and his description of the quartet.',
-    'František Bartoš (ed.), <i>Bedřich Smetana: Letters and Reminiscences</i> (Prague: Artia, 1955) — Smetana’s letters and recollections by those who knew him. Hoppe and Rosanowski cite the German Artia edition of 1954, <i>Smetana in Briefen und Erinnerungen</i>, for his diary and for the accounts of Hostinský and Čech.',
-    'Brian Large, <i>Smetana</i> (New York: Praeger, 1970) — a full-length biography with a bibliography at pp. 460–461.',
-    'John Clapham, <i>Smetana</i> (London: Dent; New York: Octagon Books, 1972) — a biography in English of 161 pages, with a bibliography at pp. 147–149.',
-    'Ulrich Hoppe and Frank Rosanowski, “The deafness of Bedrich Smetana”, <i>GMS Zeitschrift für Audiologie</i> 6 (2024) — the course of the illness from the composer’s own descriptions, the case for syphilis and the objections to it.',
+    'Bronislav Wellek, <i>Friedrich Smetana</i> (Prague: Dominicus, 1895): an early biography in German that prints Smetana’s letters to Liszt, the programmes of <i>Má vlast</i> and his description of the quartet.',
+    'František Bartoš (ed.), <i>Bedřich Smetana: Letters and Reminiscences</i> (Prague: Artia, 1955): Smetana’s letters and recollections by those who knew him. Hoppe and Rosanowski cite the German Artia edition of 1954, <i>Smetana in Briefen und Erinnerungen</i>, for his diary and for the accounts of Hostinský and Čech.',
+    'Brian Large, <i>Smetana</i> (New York: Praeger, 1970): a full-length biography with a bibliography at pp. 460–461.',
+    'John Clapham, <i>Smetana</i> (London: Dent; New York: Octagon Books, 1972): a biography in English of 161 pages, with a bibliography at pp. 147–149.',
+    'Ulrich Hoppe and Frank Rosanowski, “The deafness of Bedrich Smetana”, <i>GMS Zeitschrift für Audiologie</i> 6 (2024): the course of the illness from the composer’s own descriptions, the case for syphilis and the objections to it.',
   ],
 };

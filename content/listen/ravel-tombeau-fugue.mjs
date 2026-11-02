@@ -4,7 +4,7 @@ export default {
   "year": "1914–17", "key": "E minor", "forces": "Piano",
   "performers": "Alan Chan, piano", "recorded": "",
   "source": { "file": "File:Maurice Ravel - Le Tombeau de Couperin. II. Fugue.opus" },
-  "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin — piano version", "part": 2, "of": 6 },
+  "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin: piano version", "part": 2, "of": 6 },
   "intro": "Alan Chan plays the Fugue, the second movement of <i>Le Tombeau de Couperin</i>. The movement is a three-voice fugue on a short off-beat subject and is dedicated to the memory of Jean Cruppi.",
   "sections": [
     { "t": 0, "label": "A · Subject entries in three voices", "m": "A", "mNote": "The short subject enters in each of the three parts." },

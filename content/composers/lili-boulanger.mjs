@@ -53,7 +53,7 @@ export default {
     { year: '1918', title: 'Pie Jesu', forces: 'Solo voice, string quartet, harp and organ', note: 'Dictated to Nadia when Lili could no longer write. The prayer for rest is set for solo voice and a few instruments, each of them exposed.' },
   ],
   score: [
-    { kicker: 'Pedal and friction — schematic', title: 'Fixed bass under changing upper chords', abc: `X:1
+    { kicker: 'Pedal and friction: schematic', title: 'Fixed bass under changing upper chords', abc: `X:1
 T:Pedal and semitone friction (schematic)
 M:4/4
 L:1/4
@@ -96,9 +96,9 @@ Her gaze had the look of lavender flowers.`, note: '<p>At the opening of <i>Clai
   ],
   lineage: { from: ['faure', 'debussy', 'Paul Vidal', 'Nadia Boulanger', 'French psalm and cantata traditions'], to: ['Nadia Boulanger’s preservation and performance work', 'Later French choral repertory'], note: '<p>Fauré came to the family home and played while Lili sang his songs. Vidal taught her composition; Nadia worked beside her and later kept her scores in circulation. The famous teaching line through Copland, Carter, Piston, Glass and Quincy Jones was Nadia’s. Lili’s psalms and her <i>Pie Jesu</i> are in the choral repertory.</p>' },
   reading: [
-    'Caroline Potter, <i>Nadia and Lili Boulanger</i> (Ashgate, 2006) — the two careers studied together, with musical analysis.',
-    'Léonie Rosenstiel, <i>The Life and Works of Lili Boulanger</i> (Fairleigh Dickinson University Press, 1978) — an early documentary study drawing on family material.',
-    '<a href="https://guides.loc.gov/feminism-french-women-history/famous/lili-boulanger">Library of Congress, Lili Boulanger research guide</a> — biographical orientation and a bibliography of archival studies.',
-    '<a href="https://www.chandos.net/products/catalogue/CHAN%209745">Chandos CHAN 9745</a> — recording credits and repertoire for the orchestral and choral works.',
+    'Caroline Potter, <i>Nadia and Lili Boulanger</i> (Ashgate, 2006): the two careers studied together, with musical analysis.',
+    'Léonie Rosenstiel, <i>The Life and Works of Lili Boulanger</i> (Fairleigh Dickinson University Press, 1978): an early documentary study drawing on family material.',
+    '<a href="https://guides.loc.gov/feminism-french-women-history/famous/lili-boulanger">Library of Congress, Lili Boulanger research guide</a>: biographical orientation and a bibliography of archival studies.',
+    '<a href="https://www.chandos.net/products/catalogue/CHAN%209745">Chandos CHAN 9745</a>: recording credits and repertoire for the orchestral and choral works.',
   ],
 };

@@ -4,7 +4,7 @@ export default {
   composer: 'tchaikovsky',
   order: 2,
   work: 'Symphony No. 6 in B minor “Pathétique”, Op. 74',
-  movement: 'IV. Finale — Adagio lamentoso',
+  movement: 'IV. Finale, Adagio lamentoso',
   set: { id: 'tchaikovsky-symphony-6', title: 'Symphony No. 6 in B minor, Op. 74 “Pathétique”', part: 4, of: 4 },
   year: '1893',
   key: 'B minor',

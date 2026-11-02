@@ -43,7 +43,7 @@ export default {
       "bar": { "n": "51", "occ": 1 },
       "kind": "music",
       "title": "Falling and running on the ice",
-      "text": "“Gir forte Sdruzziolar, cader à terra / Di nuovo ir Sopra ’l giaccio e correr forte” — “Turn sharply, slip, fall to the ground; go back onto the ice and run hard.” The orchestra plays falling scales. Then the solo violin climbs in detached semiquavers.",
+      "text": "“Gir forte Sdruzziolar, cader à terra / Di nuovo ir Sopra ’l giaccio e correr forte” (“Turn sharply, slip, fall to the ground; go back onto the ice and run hard.”) The orchestra plays falling scales. Then the solo violin climbs in detached semiquavers.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letters H–I; translation ours. Mutopia score, III, bars 40–60, including Cader à terra at bar 48 and Correr forte at bar 51: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -52,7 +52,7 @@ export default {
       "bar": { "n": "89", "occ": 1 },
       "kind": "music",
       "title": "Sonnet line L, the ice breaking",
-      "text": "“Sin ch’il giaccio Si rompe, e Si disserra” — “Until the ice breaks and splits open.” The strings break off their running figures with short notes and rests. Brief bursts of demisemiquavers fill the gaps, and then the soloist takes over again.",
+      "text": "“Sin ch’il giaccio Si rompe, e Si disserra” (“Until the ice breaks and splits open.”) The strings break off their running figures with short notes and rests. Brief bursts of demisemiquavers fill the gaps, and then the soloist takes over again.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter L; translation ours. Mutopia score, III, bars 85–100, especially the rests and short figures at bars 89–92: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -61,7 +61,7 @@ export default {
       "bar": { "n": "101", "occ": 1 },
       "kind": "music",
       "title": "Sirocco episode, Lento",
-      "text": "“Sentir uscir dalle ferrate porte” — “To hear emerging from the iron gates.” The sonnet describes the winds. For the Sirocco, Vivaldi marked the music Lento in E♭ major and left out the bass entirely, so only the upper strings play.",
+      "text": "“Sentir uscir dalle ferrate porte” (“To hear emerging from the iron gates.”) The sonnet describes the winds. For the Sirocco, Vivaldi marked the music Lento in E♭ major and left out the bass entirely, so only the upper strings play.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter M; translation ours. Mutopia score, III, bars 101–119, marked Il Vento Sirocco and Lento, with basso tacet: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -70,7 +70,7 @@ export default {
       "bar": { "n": "120", "occ": 1 },
       "kind": "music",
       "title": "Closing section, sonnet letter N",
-      "text": "“Sirocco, Borea, e tutti i Venti in guerra” — “Sirocco, Boreas, and all the winds at war.” Solo runs alternate with short orchestral passages, and the strings move towards F minor. The sonnet ends: “Quest’è ’l verno, mà tal, che gioja apporte” — “This is winter, yet it brings joy.”",
+      "text": "“Sirocco, Borea, e tutti i Venti in guerra” (“Sirocco, Boreas, and all the winds at war.”) Solo runs alternate with short orchestral passages, and the strings move towards F minor. The sonnet ends: “Quest’è ’l verno, mà tal, che gioja apporte” (“This is winter, yet it brings joy.”)",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter N and final line; translation ours. Mutopia score, III, bars 120–153; the last line is printed above the closing bars: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -162,7 +162,7 @@ export default {
     "solo": "solo-violin",
     "basis": "score-proportion",
     "source": {
-      "title": "Vivaldi, The Four Seasons — Mutopia score after Performers’ Facsimiles",
+      "title": "Vivaldi, The Four Seasons: Mutopia score after Performers’ Facsimiles",
       "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351",
       "locator": "III. Allegro; solo opening, basso pedals, bars 101–119 basso tacet, and final wind episodes. Passage-level participation, not individual attack alignment; cellos/basses represent the written basso part, with no claim about keyboard realization."
     },

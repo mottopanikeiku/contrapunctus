@@ -3,7 +3,7 @@
   "work": {
     "title": "Messa da Requiem",
     "catalogue": "",
-    "movement": "Dies irae — opening number of the sequence",
+    "movement": "Dies irae: opening number of the sequence",
     "version": {
       "value": "Opening Dies irae number only; not the whole sequence or Requiem",
       "status": "documented",
@@ -137,14 +137,14 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — ICBSA Verdi, Messa da requiem parte 03, Dies irae",
+      "title": "Wikimedia Commons: ICBSA Verdi, Messa da requiem parte 03, Dies irae",
       "url": "https://commons.wikimedia.org/wiki/File:ICBSA_Verdi_-_Messa_da_requiem_parte_03,_Dies_irae.ogg",
       "locator": "Summary, broad performance-date field, record ID, file-history attribution conflict and CC BY-SA 4.0 licence",
       "accessed": "2026-10-16"
     },
     {
       "id": "score",
-      "title": "Verdi, Requiem — Eulenburg full score, plate E.E.4864",
+      "title": "Verdi, Requiem: Eulenburg full score, plate E.E.4864",
       "url": "https://ks15.imslp.org/files/imglnks/usimg/7/71/IMSLP407348-PMLP01812-Verdi_Requiem_whole.pdf",
       "locator": "PDF pages21–42: opening Dies irae number; page43 begins Tuba mirum",
       "accessed": "2026-10-16"

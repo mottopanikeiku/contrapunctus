@@ -52,7 +52,7 @@
   },
   "carrier": {
     "label": {
-      "value": "Musopen — Musopen Kickstarter Project",
+      "value": "Musopen: Musopen Kickstarter Project",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -141,28 +141,28 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Brahms Symphony No. 1, movement 3 (Musopen Symphony), FLAC",
+      "title": "Wikimedia Commons: Brahms Symphony No. 1, movement 3 (Musopen Symphony), FLAC",
       "url": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._1_in_C_minor,_Op._68_-_III._Un_poco_allegretto_e_grazioso_(Musopen_Symphony).flac?oldid=963505096",
       "locator": "Summary: work, artist credit, date and Musopen/Internet Archive sources. Licensing: separate Recording release by Musopen and Musical composition status. File history and Transcode status: upload and derivative dates.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured metadata for Brahms Symphony No. 1, movement 3",
+      "title": "Wikimedia Commons: structured metadata for Brahms Symphony No. 1, movement 3",
       "url": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._1_in_C_minor,_Op._68_-_III._Un_poco_allegretto_e_grazioso_(Musopen_Symphony).flac#structureddata",
       "locator": "Structured data: inception 2012, audio/flac, duration 294.9649375 seconds, SHA-1 11bdf66c565e1d3f1c7f9029dae9331a18eaf481. These are the host’s metadata statements, not independent session documentation.",
       "accessed": "2026-10-16"
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Musopen Collection as FLAC",
+      "title": "Internet Archive: Musopen Collection as FLAC",
       "url": "https://archive.org/metadata/MusopenCollectionAsFlac",
       "locator": "metadata.description identifies the completed 2012 Kickstarter project; licenseurl is the Public Domain Mark; addeddate/publicdate are August 2012. File Brahms_SymphonyNo.1inCMinor/JohannesBrahms-SymphonyNo.1InCMinorOp.68-03-UnPocoAllegrettoEGrazioso.flac: artist Czech National Symphony Orchestra, album Musopen Kickstarter Project, track 54, SHA-1 11bdf66c565e1d3f1c7f9029dae9331a18eaf481. No conductor, session venue or session date is supplied.",
       "accessed": "2026-10-16"
     },
     {
       "id": "work-catalogue",
-      "title": "Brahms-Institut — Symphony No. 1, Op. 68: work catalogue and first edition",
+      "title": "Brahms-Institut: Symphony No. 1, Op. 68: work catalogue and first edition",
       "url": "https://brahmsinstitut.de/Archiv/web/bihl_digital/jb_werkekatalog/op_068.html",
       "locator": "Composition history 1862–1876; premiere 4 November 1876 under Otto Dessoff; first-edition full score, Simrock, October 1877, plate 7957. The first edition is the guide’s score reference, not a documented edition used in this session.",
       "accessed": "2026-10-16"

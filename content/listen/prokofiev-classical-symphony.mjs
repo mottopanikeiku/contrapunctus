@@ -3,7 +3,7 @@ export default {
   composer: 'prokofiev',
   order: 3,
   work: 'Symphony No. 1 in D major, Op. 25, “Classical”',
-  movement: 'Complete · Allegro — Larghetto — Gavotte — Molto vivace',
+  movement: 'Complete · Allegro, Larghetto, Gavotte, Molto vivace',
   year: '1916–17',
   key: 'D major',
   forces: 'Orchestra',

@@ -2,7 +2,7 @@
   "id": "beethoven-5-first",
   "title": "Beethoven’s Fifth, first movement, in four recordings",
   "composer": "beethoven",
-  "work": "Symphony No. 5 in C minor, Op. 67 — first movement",
+  "work": "Symphony No. 5 in C minor, Op. 67: first movement",
   "question": "In each of four recordings the conductor sets how long the held notes of the opening motto last.",
   "intro": "In November 1913, Arthur Nikisch recorded Beethoven’s Fifth with the Berlin Philharmonic, playing into a recording horn. Odeon’s house orchestra had recorded it two years earlier. Mengelberg’s Concertgebouw and the Skidmore College Orchestra are compared with them here at the first three Gs. Each conductor sets how long the fourth note is held.",
   "group": "century",
@@ -62,35 +62,35 @@
   ],
   "sources": [
     {
-      "title": "Internet Archive — recording item",
+      "title": "Internet Archive: recording item",
       "url": "https://archive.org/details/BeethovenFifth1910"
     },
     {
-      "title": "Science Museum Group Journal — Nikisch recording",
+      "title": "Science Museum Group Journal: Nikisch recording",
       "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/"
     },
     {
-      "title": "James Hepokoski, “Listen and Be Amazed!” (JAMS 76/1, 2023) — August 1911 sessions; attributes the unnamed Odeon conductor to Eduard Künneke",
+      "title": "James Hepokoski, “Listen and Be Amazed!” (JAMS 76/1, 2023): August 1911 sessions; attributes the unnamed Odeon conductor to Eduard Künneke",
       "url": "https://api.crossref.org/works/10.1525/jams.2023.76.1.113"
     },
     {
-      "title": "Internet Archive — recording item",
+      "title": "Internet Archive: recording item",
       "url": "https://archive.org/details/Beethoven_Sinf5-1_BPhO-Nikisch_EQ"
     },
     {
-      "title": "Wikimedia Commons — recording file",
+      "title": "Wikimedia Commons: recording file",
       "url": "https://commons.wikimedia.org/wiki/File:Telefunken-sk2210-022110.ogg"
     },
     {
-      "title": "Modern reference — recording and musical dossier",
+      "title": "Modern reference: recording and musical dossier",
       "url": "../sources.html#dossier-beethoven-5-first"
     },
     {
-      "title": "Beethoven, Symphony No. 5, first movement — Mutopia orchestral score, bars 1–5, 29–62, 125–130 and 374 onwards",
+      "title": "Beethoven, Symphony No. 5, first movement: Mutopia orchestral score, bars 1–5, 29–62, 125–130 and 374 onwards",
       "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941"
     },
     {
-      "title": "Concertgebouw Orchestra — Mengelberg’s tenure, 1895–1945",
+      "title": "Concertgebouw Orchestra: Mengelberg’s tenure, 1895–1945",
       "url": "https://www.concertgebouworkest.nl/en/orchestra/conductors/willem-mengelberg-1871-1951/"
     }
   ],

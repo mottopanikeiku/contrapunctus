@@ -6,7 +6,7 @@ export default {
   composer: 'bartok',
   order: 2,
   work: 'Concerto for Orchestra, Sz. 116',
-  movement: 'I. Introduzione — Andante non troppo; Allegro vivace',
+  movement: 'I. Introduzione, Andante non troppo; Allegro vivace',
   set: { id: 'bartok-concerto-orchestra', title: 'Concerto for Orchestra', part: 1, of: 5 },
   year: '1943 (revised 1945)',
   key: 'F',
@@ -21,7 +21,7 @@ export default {
       evidence: 'First issued in 1948: Klára Móricz, critical-edition Comments, source RecR, https://www.henle.de/media/7c/05/ab/1697725629/7001-1697725628-sync.pdf . Columbia Masterworks MM-793, discs 12918–23-D, released 22 November 1948 according to https://musicbase.net/the-complete-columbia-album-collection-1xfda0q . Contemporary corroboration: Douglas Watt identifies Columbia set 793 and LP ML-4102 as the same Pittsburgh/Reiner performance, https://www.newyorker.com/magazine/1949/03/12/concert-records . Territorial EU basis only; US status not established.',
     },
   },
-  intro: 'Fritz Reiner conducts the Pittsburgh Symphony in this 1946 recording of the first movement of the Concerto for Orchestra, Sz. 116, Introduzione — Andante non troppo; Allegro vivace. Cellos and basses climb through fourths, and later the brass play a fugue.',
+  intro: 'Fritz Reiner conducts the Pittsburgh Symphony in this 1946 recording of the first movement of the Concerto for Orchestra, Sz. 116, Introduzione, Andante non troppo; Allegro vivace. Cellos and basses climb through fourths, and later the brass play a fugue.',
   sections: [
     { t: 0, label: 'Intro · Andante non troppo, cellos and basses', m: 'Intro', mNote: 'Rising fourths beneath muted strings and flute figures.' },
     { t: 174, label: 'A · Violins launch the Allegro', m: 'A', mNote: 'Quick violin phrases meet sharp wind and horn replies.' },

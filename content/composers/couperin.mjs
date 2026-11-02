@@ -111,8 +111,8 @@ C,4 | F,4 | G,4 | C,4 |]`,
     note: `<p>Couperin named Corelli and Lully in his chamber music and, in the works devoted to them, brought them together on Parnassus. [[rameau|Rameau]] used the same French dances and ornament signs, and went on to write harpsichord pieces depicting hens and Cyclopes. [[debussy|Debussy]] admired <i>Les Barricades mystérieuses</i>; [[ravel|Ravel]] put Couperin’s name in the title of his own memorial suite of French dances.</p>`,
   },
   reading: [
-    'David Tunley, <i>François Couperin and “The Perfection of Music”</i> (Ashgate, 2004) — the French and Italian elements considered through the works.',
-    'François Couperin, <i>L’Art de toucher le clavecin</i> (1716; revised 1717) — the primary source for touch, fingering and ornament; read beside the tables in the harpsichord books.',
-    '<a href="https://www.operaroyal-versailles.fr/genre-event/couperin/">Opéra Royal, Versailles: François Couperin</a> — the court appointments and the circumstances of the <i>Concerts royaux</i>.',
+    'David Tunley, <i>François Couperin and “The Perfection of Music”</i> (Ashgate, 2004): the French and Italian elements considered through the works.',
+    'François Couperin, <i>L’Art de toucher le clavecin</i> (1716; revised 1717): the primary source for touch, fingering and ornament; read beside the tables in the harpsichord books.',
+    '<a href="https://www.operaroyal-versailles.fr/genre-event/couperin/">Opéra Royal, Versailles: François Couperin</a>: the court appointments and the circumstances of the <i>Concerts royaux</i>.',
   ],
 };

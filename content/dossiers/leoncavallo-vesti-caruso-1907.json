@@ -29,9 +29,9 @@
     "licenseUrl": "https://www.law.cornell.edu/uscode/text/17/1401"
   },
   "sources": [
-    { "id": "archive", "title": "Internet Archive — Caruso Vesti la giubba, GBIA0276270A", "url": "https://archive.org/metadata/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a", "locator": "No licenseurl; date 1907; Victrola 88061; acoustic tenor with orchestra; transfer personnel and four-stylus method; selected MP3 derivative.", "accessed": "2026-10-17" },
-    { "id": "dahr", "title": "DAHR — Victor C-4317", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200006029", "locator": "17 March 1907, New York; take 1 issued as 88061, take 2 held; original orchestral accompaniment and distinction from later electric dubs.", "accessed": "2026-10-17" },
-    { "id": "work", "title": "Vesti la giubba — dramatic text and opera", "url": "https://en.wikipedia.org/wiki/Vesti_la_giubba", "locator": "1892 opera and recitative/aria text.", "accessed": "2026-10-17" }
+    { "id": "archive", "title": "Internet Archive: Caruso Vesti la giubba, GBIA0276270A", "url": "https://archive.org/metadata/78_pagliacci-vesti-la-giubba-on-with-the-play-act-1_enrico-caruso-ruggiero-leonc_gbia0276270a", "locator": "No licenseurl; date 1907; Victrola 88061; acoustic tenor with orchestra; transfer personnel and four-stylus method; selected MP3 derivative.", "accessed": "2026-10-17" },
+    { "id": "dahr", "title": "DAHR: Victor C-4317", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200006029", "locator": "17 March 1907, New York; take 1 issued as 88061, take 2 held; original orchestral accompaniment and distinction from later electric dubs.", "accessed": "2026-10-17" },
+    { "id": "work", "title": "Vesti la giubba: dramatic text and opera", "url": "https://en.wikipedia.org/wiki/Vesti_la_giubba", "locator": "1892 opera and recitative/aria text.", "accessed": "2026-10-17" }
   ],
   "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
 }

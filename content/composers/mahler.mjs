@@ -25,7 +25,7 @@ export default {
 <p>That left only the summers for composing. From 1893 he worked beside the Attersee, later moving to the Wörthersee and then Toblach, with a one-room composing hut at each place. He wrote in the mornings and walked in the afternoons; the winters he spent at the opera house. When Bruno Walter visited Steinbach in the summer of 1896 and admired the mountains, Mahler told him, as Walter remembered it: “No need to look up there — I’ve composed it all away!”</p>
 <h3><span class="sc">The symphonies</span>Ten symphonies</h3>
 <aside class="note"><b>Progressive tonality</b>Several symphonies end in a different key from the one they began in: the Second (C minor → E♭), Fourth (G → E), Fifth (C♯ minor → D) and Ninth (D → D♭).</aside>
-<p>The First (1888) begins with the strings holding a single A across seven octaves, marked <i>wie ein Naturlaut</i> — like a sound of nature — while woodwinds play falling fourths over it and a clarinet plays a cuckoo call, a fourth instead of the usual third. Its slow movement is a funeral march built on the round <i>Frère Jacques</i> in the minor, introduced by a muted solo double bass in its high register. The Second, “Resurrection”, took six years and drew on an idea that came to him at the funeral of the conductor Hans von Bülow in 1894, when a choir sang Klopstock’s hymn <i>Aufersteh’n</i> from the organ loft. The Third is in six movements and lasts about a hundred minutes; its sequence moves from inanimate nature through flowers, animals and humanity (Nietzsche’s <i>Midnight Song</i>) to the angels and, finally, love.</p>
+<p>The First (1888) begins with the strings holding a single A across seven octaves, marked <i>wie ein Naturlaut</i> (like a sound of nature) while woodwinds play falling fourths over it and a clarinet plays a cuckoo call, a fourth instead of the usual third. Its slow movement is a funeral march built on the round <i>Frère Jacques</i> in the minor, introduced by a muted solo double bass in its high register. The Second, “Resurrection”, took six years and drew on an idea that came to him at the funeral of the conductor Hans von Bülow in 1894, when a choir sang Klopstock’s hymn <i>Aufersteh’n</i> from the organ loft. The Third is in six movements and lasts about a hundred minutes; its sequence moves from inanimate nature through flowers, animals and humanity (Nietzsche’s <i>Midnight Song</i>) to the angels and, finally, love.</p>
 <p>The middle symphonies, Five, Six and Seven, have no sung texts and no programmes. The Sixth, which acquired the nickname “Tragic” in Mahler’s lifetime, is in four movements in classical form, in A minor, and blows from a hammer punctuate its finale. The Eighth (1906) is a choral work in two parts, setting the Latin hymn <i>Veni, Creator Spiritus</i> and the closing scene of Goethe’s <i>Faust</i>. It was first performed in Munich in 1910 by over a thousand performers and was the biggest public triumph of his life.</p>
 <h3><span class="sc">1907</span>Vienna Opera, bereavement and illness</h3>
 <p>In one year he left the Vienna Opera after a press campaign, lost his elder daughter Maria to scarlet fever and diphtheria, and was told he had a heart-valve defect. The works that followed were <i>Das Lied von der Erde</i>, the Ninth and the unfinished Tenth. In them the harmony moves towards the edge of tonality, the counterpoint is dense, and the endings fade into silence. In New York he conducted at the Metropolitan Opera and then the Philharmonic. He fell ill there in February 1911 with bacterial endocarditis, sailed back to Europe, and died in Vienna in May. He was fifty.</p>
@@ -165,7 +165,7 @@ in my love, in my song.`,
     {
       relation: 'documented-use',
       type: 'poem',
-      author: 'Gustav Mahler, after Hans Bethge', title: 'Der Abschied — closing lines', date: '1908',
+      author: 'Gustav Mahler, after Hans Bethge', title: 'Der Abschied: closing lines', date: '1908',
       lang: 'German', translator: 'Our translation',
       original: `Die liebe Erde allüberall
 blüht auf im Lenz und grünt
@@ -177,7 +177,7 @@ blossoms in spring and grows green
 again! Everywhere and forever
 the distances shine blue!
 Forever … forever …`,
-      note: `<p>Bethge’s <i>Die chinesische Flöte</i> (1907) gave Mahler loose German paraphrases of Tang poets — Li Bai, Wang Wei, Meng Haoran — already filtered through French and German translations. For the end of <i>Der Abschied</i> Mahler stopped adapting and wrote these lines himself.</p>`,
+      note: `<p>Bethge’s <i>Die chinesische Flöte</i> (1907) gave Mahler loose German paraphrases of Tang poets (Li Bai, Wang Wei, Meng Haoran), already filtered through French and German translations. For the end of <i>Der Abschied</i> Mahler stopped adapting and wrote these lines himself.</p>`,
     },
   ],
 
@@ -197,9 +197,9 @@ Forever … forever …`,
   },
 
   reading: [
-    'Henry-Louis de La Grange, <i>Gustav Mahler</i>, 4 vols (Oxford, 1995–2008) — the standard life.',
+    'Henry-Louis de La Grange, <i>Gustav Mahler</i>, 4 vols (Oxford, 1995–2008): the standard life.',
     'Theodor W. Adorno, <i>Mahler: A Musical Physiognomy</i> (1960; trans. E. Jephcott, Chicago, 1992).',
     'Deryck Cooke, <i>Gustav Mahler: An Introduction to His Music</i> (Faber, 1980).',
-    'Alma Mahler, <i>Gustav Mahler: Memories and Letters</i> — vivid and partisan; read alongside La Grange.',
+    'Alma Mahler, <i>Gustav Mahler: Memories and Letters</i>: vivid and partisan; read alongside La Grange.',
   ],
 };

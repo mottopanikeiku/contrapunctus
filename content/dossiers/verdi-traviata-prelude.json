@@ -44,14 +44,14 @@
       "note": "The Public Domain Project date is repeated by Commons, while DAHR gives a different month for the same matrix. Neither date has been silently selected; no recording ledger or labelled source disc was inspected to settle the discrepancy.",
       "alternatives": [
         {
-          "value": "18 October 1929 — Public Domain Project and Commons.",
+          "value": "18 October 1929: Public Domain Project and Commons.",
           "sourceIds": [
             "pdp",
             "commons"
           ]
         },
         {
-          "value": "18 March 1929 — DAHR matrix CVE-48936.",
+          "value": "18 March 1929: DAHR matrix CVE-48936.",
           "sourceIds": [
             "dahr"
           ]
@@ -142,7 +142,7 @@
       "note": "The source catalogue gives Verdi’s death year as 1901. This does not determine rights in the 1929 recording."
     },
     "recording": {
-      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "value": "Rule 3, territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons",
@@ -153,7 +153,7 @@
       "note": "Commons describes first release in 1930; the Public Domain Project identifies Electrola EJ 423, order 6-0755, matrix CVE-48936, and tentatively dates first release to 1930. The 1929 session-day disagreement does not affect the pre-1963 release bound. The source’s worldwide expiry claim and its website’s CC BY-SA notice are not used as a sound-recording licence. Usable under the programme’s pre-1963 European sound-recording rule; the former 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US sound-recording status is not established. A recording date alone is not represented as an independently verified first-publication date.",
       "alternatives": [
         {
-          "value": "Public-domain recording worldwide — claim made by the Public Domain Project and reproduced by Commons.",
+          "value": "Public-domain recording worldwide: claim made by the Public Domain Project and reproduced by Commons.",
           "sourceIds": [
             "pdp",
             "commons"
@@ -174,63 +174,63 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — PDP-CH - New York Philharmonic - Arturo Toscanini - La traviata - Prelude - Act 1 - Electrola-ej423-6-0755.flac",
+      "title": "Wikimedia Commons: PDP-CH - New York Philharmonic - Arturo Toscanini - La traviata - Prelude - Act 1 - Electrola-ej423-6-0755.flac",
       "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_La_traviata_-_Prelude_-_Act_1_-_Electrola-ej423-6-0755.flac?oldid=392869837",
       "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured and embedded metadata",
+      "title": "Wikimedia Commons: structured and embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_La_traviata_-_Prelude_-_Act_1_-_Electrola-ej423-6-0755.flac#structureddata",
       "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "pdp",
-      "title": "Public Domain Project — Electrola EJ 423 / 6-0755",
+      "title": "Public Domain Project: Electrola EJ 423 / 6-0755",
       "url": "http://pool.publicdomainproject.org/index.php?title=Electrola-ej423-6-0755",
       "locator": "Recording catalogue: Verdi, Act I Prelude; Toscanini / New York Philharmonic; Carnegie Hall; 18 October 1929; Electrola EJ 423, face 6-0755, matrix CVE-48936. First release is marked ‘1930?’. Licensing asserts worldwide public-domain status.",
       "accessed": "2026-10-16"
     },
     {
       "id": "dahr",
-      "title": "DAHR — Victor matrix CVE-48936",
+      "title": "DAHR: Victor matrix CVE-48936",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/800022722",
       "locator": "La traviata: Prelude to Act 1; Toscanini / New York Philharmonic; Carnegie Hall, 18 March 1929; take 3 master. Gramophone face 6-0755 and Victor 6994 appear in the issue list.",
       "accessed": "2026-10-16"
     },
     {
       "id": "us-recordings",
-      "title": "United States Code — 17 USC § 1401",
+      "title": "United States Code: 17 USC § 1401",
       "url": "https://www.law.cornell.edu/uscode/text/17/1401",
       "locator": "Section (a)(2): protection periods for pre-1972 sound recordings; recordings first published in 1923–1946 generally have a 100-year period. This postdates the source catalogue’s broad US-expiry assertion.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:PDP-CH - New York Philharmonic - Arturo Toscanini - La traviata - Prelude - Act 1 - Electrola-ej423-6-0755.flac",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:PDP-CH - New York Philharmonic - Arturo Toscanini - La traviata - Prelude - Act 1 - Electrola-ej423-6-0755.flac",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:PDP-CH - New York Philharmonic - Arturo Toscanini - La traviata - Prelude - Act 1 - Electrola-ej423-6-0755.flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-term",
-      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "title": "Directive 2011/77/EU: non-revival of expired phonogram terms",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Recitals 1–3; Article 1(3), inserting Article 10(5): extension applies to performances and phonograms still protected on 1 November 2013.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-audio",
-      "title": "Wikimedia Commons — recording-specific scope of PD-EU-audio",
+      "title": "Wikimedia Commons: recording-specific scope of PD-EU-audio",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Template and documentation concern performers’ and producers’ rights, not merely composition copyright; territorial European expiry.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-electrola-release",
-      "title": "Public Domain Project — Electrola EJ 423 / 6-0755",
+      "title": "Public Domain Project: Electrola EJ 423 / 6-0755",
       "url": "https://pool.publicdomainproject.org/index.php?title=Electrola-ej423-6-0755",
       "locator": "Original carrier and matrix CVE-48936; first release 1930?; source worldwide/US expiry claims are not relied upon.",
       "accessed": "2026-10-17"

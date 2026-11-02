@@ -3,7 +3,7 @@
   "work": {
     "title": "Symphony No. 1 in C minor",
     "catalogue": "Op. 68",
-    "movement": "IV. Adagio — Più andante — Allegro non troppo, ma con brio — Più allegro",
+    "movement": "IV. Adagio; Più andante; Allegro non troppo, ma con brio; Più allegro",
     "version": {
       "value": null,
       "status": "unknown",
@@ -52,7 +52,7 @@
   },
   "carrier": {
     "label": {
-      "value": "Musopen — Musopen Kickstarter Project",
+      "value": "Musopen: Musopen Kickstarter Project",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -135,34 +135,34 @@
       ],
       "note": "The file’s Licensing section separates “Recording” from “Musical composition”. The recording-specific Musopen release is the eligibility basis, not the composition’s age. The upstream collection also links to the Public Domain Mark; no non-commercial restriction is stated there. This reports the source’s express release and does not independently audit contractual ownership."
     },
-    "creditLine": "Johannes Brahms, Symphony No. 1 in C minor, Op. 68, IV. Adagio — Più andante — Allegro non troppo, ma con brio — Più allegro; Czech National Symphony Orchestra. Conductor and session date unestablished. Musopen Kickstarter Project / Internet Archive, via Wikimedia Commons; explicit Musopen public-domain recording release.",
+    "creditLine": "Johannes Brahms, Symphony No. 1 in C minor, Op. 68, IV. Adagio; Più andante; Allegro non troppo, ma con brio; Più allegro; Czech National Symphony Orchestra. Conductor and session date unestablished. Musopen Kickstarter Project / Internet Archive, via Wikimedia Commons; explicit Musopen public-domain recording release.",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Brahms Symphony No. 1, movement 4 (Musopen Symphony), FLAC",
+      "title": "Wikimedia Commons: Brahms Symphony No. 1, movement 4 (Musopen Symphony), FLAC",
       "url": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._1_in_C_minor,_Op._68_-_IV._Adagio_-_Piu_andante_-_Allegro_non_troppo,_ma_con_brio_-_Piu_allegro_(Musopen_Symphony).flac?oldid=1096311460",
       "locator": "Summary: work, artist credit, date and Musopen/Internet Archive sources. Licensing: separate Recording release by Musopen and Musical composition status. File history and Transcode status: upload and derivative dates.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured metadata for Brahms Symphony No. 1, movement 4",
+      "title": "Wikimedia Commons: structured metadata for Brahms Symphony No. 1, movement 4",
       "url": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._1_in_C_minor,_Op._68_-_IV._Adagio_-_Piu_andante_-_Allegro_non_troppo,_ma_con_brio_-_Piu_allegro_(Musopen_Symphony).flac#structureddata",
       "locator": "Structured data: inception 2012, audio/flac, duration 1016.884375 seconds, SHA-1 3d146c073ab6016ae2da7b80334444dbf03d17c9. These are the host’s metadata statements, not independent session documentation.",
       "accessed": "2026-10-16"
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Musopen Collection as FLAC",
+      "title": "Internet Archive: Musopen Collection as FLAC",
       "url": "https://archive.org/metadata/MusopenCollectionAsFlac",
       "locator": "metadata.description identifies the completed 2012 Kickstarter project; licenseurl is the Public Domain Mark; addeddate/publicdate are August 2012. File Brahms_SymphonyNo.1inCMinor/JohannesBrahms-SymphonyNo.1InCMinorOp.68-04-Adagio-PiAndante-AllegroNonTroppoMaConBrio.flac: artist Czech National Symphony Orchestra, album Musopen Kickstarter Project, track 55, SHA-1 3d146c073ab6016ae2da7b80334444dbf03d17c9. No conductor, session venue or session date is supplied.",
       "accessed": "2026-10-16"
     },
     {
       "id": "work-catalogue",
-      "title": "Brahms-Institut — Symphony No. 1, Op. 68: work catalogue and first edition",
+      "title": "Brahms-Institut: Symphony No. 1, Op. 68: work catalogue and first edition",
       "url": "https://brahmsinstitut.de/Archiv/web/bihl_digital/jb_werkekatalog/op_068.html",
       "locator": "Composition history 1862–1876; premiere 4 November 1876 under Otto Dessoff; first-edition full score, Simrock, October 1877, plate 7957. The first edition is the guide’s score reference, not a documented edition used in this session.",
       "accessed": "2026-10-16"

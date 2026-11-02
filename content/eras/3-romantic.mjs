@@ -94,7 +94,7 @@ V:1
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Johann Wolfgang von Goethe', title: 'Erlkönig — opening stanzas', date: '1782',
+      type: 'poem', author: 'Johann Wolfgang von Goethe', title: 'Erlkönig: opening stanzas', date: '1782',
       lang: 'German', translator: 'Our translation',
       original: `Wer reitet so spät durch Nacht und Wind?
 Es ist der Vater mit seinem Kind;

@@ -194,10 +194,10 @@ C _D _E =E ^F G A _B | c _B A G ^F =E _E _D |]`,
   },
 
   reading: [
-    'Richard Taruskin, <i>Stravinsky and the Russian Traditions</i>, 2 vols (Oxford, 1996) — the Russian musical, theatrical and folkloric sources, tested against the composer’s later recollections.',
-    'Stephen Walsh, <i>Stravinsky: A Creative Spring</i> (1999) and <i>Stravinsky: The Second Exile</i> (2006) — a two-volume documentary life extending beyond the famous ballets.',
-    'Pieter C. van den Toorn, <a href="https://publishing.cdlib.org/ucpressebooks/public/book/stravinsky-and-the-rite-of-spring.html"><i>Stravinsky and The Rite of Spring: The Beginnings of a Musical Language</i></a> (California, 1987) — detailed arguments about pulse, metre, pitch collections and revisions; examples 15–18 document the “Augurs” accents.',
-    'Boosey &amp; Hawkes, <a href="https://www.boosey.com/composer/Igor+Stravinsky?ttype=BIOGRAPHY">Stravinsky biography and work catalogue</a> — dates, scoring and links to the publisher’s individual work records.',
-    'Harvard, <a href="https://poetry.harvard.edu/stravinsky-auden-kallman">Stravinsky, Auden, &amp; Kallman</a> — documents the collaboration behind <i>The Rake’s Progress</i>.',
+    'Richard Taruskin, <i>Stravinsky and the Russian Traditions</i>, 2 vols (Oxford, 1996): the Russian musical, theatrical and folkloric sources, tested against the composer’s later recollections.',
+    'Stephen Walsh, <i>Stravinsky: A Creative Spring</i> (1999) and <i>Stravinsky: The Second Exile</i> (2006): a two-volume documentary life extending beyond the famous ballets.',
+    'Pieter C. van den Toorn, <a href="https://publishing.cdlib.org/ucpressebooks/public/book/stravinsky-and-the-rite-of-spring.html"><i>Stravinsky and The Rite of Spring: The Beginnings of a Musical Language</i></a> (California, 1987): detailed arguments about pulse, metre, pitch collections and revisions; examples 15–18 document the “Augurs” accents.',
+    'Boosey &amp; Hawkes, <a href="https://www.boosey.com/composer/Igor+Stravinsky?ttype=BIOGRAPHY">Stravinsky biography and work catalogue</a>: dates, scoring and links to the publisher’s individual work records.',
+    'Harvard, <a href="https://poetry.harvard.edu/stravinsky-auden-kallman">Stravinsky, Auden, &amp; Kallman</a>: documents the collaboration behind <i>The Rake’s Progress</i>.',
   ],
 };

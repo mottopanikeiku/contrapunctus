@@ -131,21 +131,21 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Symphony No. 5, II. Andante con moto",
+      "title": "Wikimedia Commons: Symphony No. 5, II. Andante con moto",
       "url": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_ii._andante_con_moto.ogg?oldid=658946501",
       "locator": "Summary, Recording subsection of Licensing, file history, and Transcode status. ",
       "accessed": "2026-10-17"
     },
     {
       "id": "commons-data",
-      "title": "Commons — embedded and structured metadata",
+      "title": "Commons: embedded and structured metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_ii._andante_con_moto.ogg#structureddata",
       "locator": "Encoder, recording rights, and (where supplied) duration and VRT ticket. Structured data is not independent confirmation of the file description.",
       "accessed": "2026-10-17"
     },
     {
       "id": "musopen",
-      "title": "Musopen — upstream page named by Commons",
+      "title": "Musopen: upstream page named by Commons",
       "url": "https://musopen.org/music/113/ludwig-van-beethoven/symphony-no-5-in-cm-op-67/",
       "locator": "Linked in Commons’ recording-rights statement; direct access returned HTTP 403. No further session metadata is claimed from this unavailable page.",
       "accessed": "2026-10-17"
@@ -159,7 +159,7 @@
     },
     {
       "id": "eastman",
-      "title": "Eastman School of Music — Beethoven Symphony Basics, Symphony No. 5",
+      "title": "Eastman School of Music: Beethoven Symphony Basics, Symphony No. 5",
       "url": "https://www.esm.rochester.edu/beethoven/symphony-no-5/",
       "locator": "Composition history, dedication, instrumentation and movement structure. The illustrated video’s timings are not used for this recording.",
       "accessed": "2026-10-17"

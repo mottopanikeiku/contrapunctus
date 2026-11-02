@@ -16,7 +16,7 @@ export default {
   "composer": "tchaikovsky",
   "order": 111,
   "concert": false,
-  "work": "Nutcracker Suite — Waltz of the Flowers",
+  "work": "Nutcracker Suite; Waltz of the Flowers",
   "movement": "Opening disc side only",
   "year": "1891–92",
   "key": "D major",

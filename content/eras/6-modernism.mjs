@@ -95,7 +95,7 @@ V:1
     },
     {
       relation: 'editorial-comparison',
-      type: 'poem', author: 'Guillaume Apollinaire', title: 'Zone — opening', date: '1913, in Alcools',
+      type: 'poem', author: 'Guillaume Apollinaire', title: 'Zone: opening', date: '1913, in Alcools',
       lang: 'French', translator: 'Our translation',
       original: `À la fin tu es las de ce monde ancien
 Bergère ô tour Eiffel le troupeau des ponts bêle ce matin

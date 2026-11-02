@@ -128,7 +128,7 @@
       "note": "Debussy died in 1918. This is a term assessment of the composition, not a blanket clearance for unidentified modern editions or every jurisdiction."
     },
     "recording": {
-      "value": "Rule 3 — territorial EU public domain: lawful commercial publication in 1956, before 1963.",
+      "value": "Rule 3: territorial EU public domain: lawful commercial publication in 1956, before 1963.",
       "status": "documented",
       "sourceIds": [
         "archive",
@@ -137,34 +137,34 @@
       ],
       "note": "The 1956 Mercury mono LP publication predates 1963; under the programme’s rule its former 50-year phonogram term expired before the 2013 extension. First lawful publication anywhere is the relevant event; a US LP release can supply that date. US recording status is not established. This is not a Creative Commons licence or worldwide clearance."
     },
-    "creditLine": "Claude Debussy, La Mer — II. Jeux de vagues; Detroit Symphony Orchestra, Paul Paray. Mercury MG 50101 (mono, 1956); Internet Archive LP transfer. Territorial EU public-domain basis; US recording status not established.",
+    "creditLine": "Claude Debussy, La Mer: II. Jeux de vagues; Detroit Symphony Orchestra, Paul Paray. Mercury MG 50101 (mono, 1956); Internet Archive LP transfer. Territorial EU public-domain basis; US recording status not established.",
     "licenseUrl": ""
   },
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Mercury MG 50101 transfer metadata",
+      "title": "Internet Archive: Mercury MG 50101 transfer metadata",
       "url": "https://archive.org/metadata/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/metadata",
       "locator": "Publisher Mercury; publisher-catalog-number MG 50101; issue date 1956; United States; Paray / Detroit Symphony; ripping_date field 20201121083807 and ripping_operator; transfer equipment lineage.",
       "accessed": "2026-10-17"
     },
     {
       "id": "label-scan",
-      "title": "Mercury MG 50101 — scanned original LP labels",
+      "title": "Mercury MG 50101: scanned original LP labels",
       "url": "https://archive.org/download/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony_djvu.txt",
       "locator": "Side 1: Ibéria and Prélude à l’après-midi d’un faune; side 2: all three La Mer movements. Names Paul Paray and Detroit Symphony Orchestra. Side markings are not treated as pressing matrices.",
       "accessed": "2026-10-17"
     },
     {
       "id": "archive-files",
-      "title": "Internet Archive — selected digital derivative",
+      "title": "Internet Archive: selected digital derivative",
       "url": "https://archive.org/metadata/lp_ibria-la-mer-prelude-to-the-afternoon-of_paul-paray-claude-debussy-detroit-symphony/files",
       "locator": "Selected track: disc1/02.02. Play Of The Waves.mp3; listed as VBR MP3 derivative from the LP transfer.",
       "accessed": "2026-10-17"
     },
     {
       "id": "label-session",
-      "title": "Eloquence / Decca — Paul Paray: The Mercury Masters, vol.1",
+      "title": "Eloquence / Decca: Paul Paray: The Mercury Masters, vol.1",
       "url": "https://www.eloquenceclassics.com/releases-archive/paul-paray-the-mercury-masters-vol-1-1953-1957/",
       "locator": "CD 15 recording information: La Mer and Ibéria, Old Orchestra Hall, Detroit, 3–4 December 1955. Original stereo issue SR 90010 dated 1958; that is not the mono MG 50101 issue date.",
       "accessed": "2026-10-17"
@@ -178,21 +178,21 @@
     },
     {
       "id": "composer",
-      "title": "IMSLP — Claude Debussy biographical dates",
+      "title": "IMSLP: Claude Debussy biographical dates",
       "url": "https://imslp.org/wiki/Category:Debussy,_Claude",
       "locator": "22 August 1862–25 March 1918.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2011/77/EU — sound-recording term and transition",
+      "title": "Directive 2011/77/EU: sound-recording term and transition",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077",
       "locator": "Recitals 1–3; Article 1(2) and 1(3): former 50-year term, first lawful publication, and extension only where still protected on 1 November 2013.",
       "accessed": "2026-10-17"
     },
     {
       "id": "programme-note",
-      "title": "Susan Key — LA Phil La Mer programme note",
+      "title": "Susan Key: LA Phil La Mer programme note",
       "url": "https://www.laphil.com/works/la-mer",
       "locator": "Work context and broad musical design; not a source for this performance’s exact timings.",
       "accessed": "2026-10-17"

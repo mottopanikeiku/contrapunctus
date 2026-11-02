@@ -80,7 +80,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Eric Pancer — recordist (credited as taper)",
+      "value": "Eric Pancer: recordist (credited as taper)",
       "status": "documented",
       "sourceIds": [
         "archive"
@@ -140,28 +140,28 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Mahler Symphony no. 2, III. In ruhig fließender Bewegung.ogg",
+      "title": "Wikimedia Commons: Mahler Symphony no. 2, III. In ruhig fließender Bewegung.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_no._2%2C_III._In_ruhig_flie%C3%9Fender_Bewegung.ogg?oldid=1030566307",
       "locator": "Summary, Licensing, Metadata and Transcode status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Resurrection! (DuPage Symphony, 22 May 2004)",
+      "title": "Internet Archive: Resurrection! (DuPage Symphony, 22 May 2004)",
       "url": "https://archive.org/metadata/dupageso-2004-05-22",
       "locator": "metadata.description, date, taper, source, publisher, licenseurl and notes; files dso-2004-05-22_3.mp3 and .ogg, including original/derivative relation, duration and album tag. Duration uses source Ogg metadata rounded to hundredths.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "Gustav Mahler — biographical dates",
+      "title": "Gustav Mahler: biographical dates",
       "url": "https://en.wikipedia.org/wiki/Gustav_Mahler",
       "locator": "Lead: 7 July 1860–18 May 1911.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright term",
+      "title": "Directive 2006/116/EC: copyright term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8.",
       "accessed": "2026-10-17"

@@ -57,10 +57,10 @@ export default {
   ],
   score: [
     {
-      kicker: 'Short Ride in a Fast Machine — rhythmic schematic',
+      kicker: 'Short Ride in a Fast Machine: rhythmic schematic',
       title: 'Accent pattern over four equal beats',
       abc: `X:1
-T:Pulse against regrouping — schematic
+T:Pulse against regrouping: schematic
 M:4/4
 L:1/8
 Q:1/4=132
@@ -76,10 +76,10 @@ C2 C2 C2 C2 | C2 C2 C2 C2 |]`,
       caption: 'A schematic with invented pitches and rhythms. The lower line plays four equal crotchets; the chords above group eight quavers as 3 + 3 + 2, then 2 + 3 + 3. Some accents fall between the beats. In the actual fanfare the woodblock pulse is marked fortissimo.',
     },
     {
-      kicker: 'Shaker Loops — process schematic',
+      kicker: 'Shaker Loops: process schematic',
       title: 'Two short cells with a shared quaver',
       abc: `X:2
-T:Unequal loops — schematic
+T:Unequal loops: schematic
 M:4/4
 L:1/8
 Q:1/4=112
@@ -104,7 +104,7 @@ V:2
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Walt Whitman', title: 'The Wound-Dresser — excerpt', date: '1865; later revised', lang: 'English',
+      type: 'poem', author: 'Walt Whitman', title: 'The Wound-Dresser: excerpt', date: '1865; later revised', lang: 'English',
       original: `Bearing the bandages, water and sponge,
 Straight and swift to my wounded I go,
 Where they lie on the ground after the battle brought in,
@@ -146,8 +146,8 @@ Nor ever chaste, except you ravish me.`,
     note: `<p>Kirchner brought a direct connection to [[schoenberg|Schoenberg]] into Adams’s lessons at Harvard. From [[reich|Reich]], Riley and Glass Adams learned what repeated notes could do, and he also absorbed the sound of Ellington’s brass. He named [[mahler|Mahler]], [[sibelius|Sibelius]], Debussy and the young Schoenberg as presences in <i>Harmonielehre</i>, and he made the second climax of its slow movement an explicit salute to Mahler’s Tenth.</p>`,
   },
   reading: [
-    'John Adams, <i>Hallelujah Junction: Composing an American Life</i> (Farrar, Straus and Giroux, 2008) — memoir, technical explanation and a partisan account of postwar musical institutions.',
-    'Thomas May, ed., <i>The John Adams Reader: Essential Writings on an American Composer</i> (Amadeus Press, 2006) — interviews, programme notes and criticism of the earlier career.',
-    '<a href="https://www.earbox.com/">Earbox, John Adams’s website</a> — the composer’s work notes distinguish the written scores from the anecdotes that have gathered around them.',
+    'John Adams, <i>Hallelujah Junction: Composing an American Life</i> (Farrar, Straus and Giroux, 2008): memoir, technical explanation and a partisan account of postwar musical institutions.',
+    'Thomas May, ed., <i>The John Adams Reader: Essential Writings on an American Composer</i> (Amadeus Press, 2006): interviews, programme notes and criticism of the earlier career.',
+    '<a href="https://www.earbox.com/">Earbox, John Adams’s website</a>: the composer’s work notes distinguish the written scores from the anecdotes that have gathered around them.',
   ],
 };

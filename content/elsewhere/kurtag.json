@@ -2,7 +2,7 @@
   "composer": "kurtag",
   "items": [
     {
-      "work": "Játékok — selections",
+      "work": "Játékok: selections",
       "year": "from 1973",
       "performers": "György Kurtág and Márta Kurtág (piano)",
       "recorded": "July 1996",
@@ -12,12 +12,12 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/7bKQ5VzqjTNMmpg7MTxpne",
-          "title": "Kurtág, Bach: Játékok — ECM Records on Spotify"
+          "title": "Kurtág, Bach: Játékok, ECM Records on Spotify"
         },
         {
           "kind": "label",
           "url": "https://ecmrecords.com/product/jatekok-gyorgy-kurtag-marta-kurtag/",
-          "title": "Játékok — ECM Records catalogue"
+          "title": "Játékok: ECM Records catalogue"
         }
       ]
     },
@@ -32,12 +32,12 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/3UlnVzqEabXLt9gAG1ssVh",
-          "title": "Kafka-Fragmente — ECM Records on Spotify"
+          "title": "Kafka-Fragmente: ECM Records on Spotify"
         },
         {
           "kind": "label",
           "url": "https://ecmrecords.com/product/gyorgy-kurtag-kafka-fragmente-juliane-banse-andras-keller/",
-          "title": "Kafka-Fragmente — ECM Records catalogue"
+          "title": "Kafka-Fragmente: ECM Records catalogue"
         }
       ]
     },
@@ -52,39 +52,39 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/5hh8BbVRERN3R2KC3jIQo6",
-          "title": "Stele — Deutsche Grammophon on Spotify"
+          "title": "Stele: Deutsche Grammophon on Spotify"
         },
         {
           "kind": "label",
           "url": "https://www.deutschegrammophon.com/de/katalog/produkte/stockhausen-gruppen-kurtag-abbado-4300",
-          "title": "Stele, Grabstein für Stephan and Gruppen — Deutsche Grammophon catalogue"
+          "title": "Stele, Grabstein für Stephan and Gruppen: Deutsche Grammophon catalogue"
         }
       ]
     }
   ],
   "sources": [
     {
-      "title": "ECM Records — Játékok: programme, performers, recording date and reviews",
+      "title": "ECM Records: Játékok: programme, performers, recording date and reviews",
       "url": "https://ecmrecords.com/product/jatekok-gyorgy-kurtag-marta-kurtag/"
     },
     {
-      "title": "IRCAM — Játékok: András Wilheim’s account of the piano collection, begun in 1973",
+      "title": "IRCAM: Játékok: András Wilheim’s account of the piano collection, begun in 1973",
       "url": "https://resources.ircam.fr/en/work/jatekok"
     },
     {
-      "title": "ECM Records — Kafka-Fragmente: composition, Keller’s collaboration, recording sessions and reviews",
+      "title": "ECM Records: Kafka-Fragmente: composition, Keller’s collaboration, recording sessions and reviews",
       "url": "https://ecmrecords.com/product/gyorgy-kurtag-kafka-fragmente-juliane-banse-andras-keller/"
     },
     {
-      "title": "Deutsche Grammophon — Stockhausen: Gruppen / Kurtág: Grabstein für Stephan, Stele, catalogue 447 761-2",
+      "title": "Deutsche Grammophon: Stockhausen: Gruppen / Kurtág: Grabstein für Stephan, Stele, catalogue 447 761-2",
       "url": "https://www.deutschegrammophon.com/de/katalog/produkte/stockhausen-gruppen-kurtag-abbado-4300"
     },
     {
-      "title": "Budapest Music Center — Stele, Op. 33: date, dedication, instrumentation and movements",
+      "title": "Budapest Music Center: Stele, Op. 33: date, dedication, instrumentation and movements",
       "url": "https://info.bmc.hu/en/compositions/1112887460-stele-op-33"
     },
     {
-      "title": "Deutsche Grammophon — Berliner Philharmoniker Centenary Edition booklet, disc 44: Stele recording credits",
+      "title": "Deutsche Grammophon: Berliner Philharmoniker Centenary Edition booklet, disc 44: Stele recording credits",
       "url": "https://cdn.naxosmusiclibrary.com/sharedfiles/booklets/DGG/booklet-00028947920809.pdf"
     }
   ]

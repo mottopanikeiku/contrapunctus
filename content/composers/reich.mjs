@@ -59,7 +59,7 @@ export default {
   ],
   score: [
     {
-      kicker: 'Clapping Music — schematic rotations',
+      kicker: 'Clapping Music: schematic rotations',
       title: 'Pattern of three, two, one, two, with rests',
       abc: `X:1
 T:Clapping Music - reduced alignment diagram
@@ -78,7 +78,7 @@ CCCz CCzC zCCz | CCzC CzCz CCzC | CCzC CzCz CCzC | CzCC zCzC CzCC |]`,
       caption: 'A schematic of eight claps in twelve pulses, shown first with both parts together, then with the lower part one pulse ahead, then two. In Reich’s score each position is repeated much longer. The Cs stand for unpitched claps, and the 12/8 signature helps count the spaces. Each shift changes which claps coincide and which fall in the other player’s rests.',
     },
     {
-      kicker: 'Piano Phase — schematic snapshots',
+      kicker: 'Piano Phase: schematic snapshots',
       title: 'Twelve-note pattern, offset by one position',
       abc: `X:2
 T:Piano Phase - alignment snapshots
@@ -130,9 +130,9 @@ and night makes knowledge known to night.`,
     note: `<p>[[bach|Bach]]’s Fifth Brandenburg Concerto and [[stravinsky|Stravinsky]]’s <i>Rite of Spring</i> were records Reich knew as a teenager. Riley’s <i>In C</i> gave him practical experience of repeated phrases, and Ghanaian drummers showed him how independent patterns could fit together. Gradual phasing was Reich’s own contribution to [[workshop#minimalism|minimalism]]. [[adams|John Adams]] used the steady beat and repeating cells in <i>Shaker Loops</i> (1978), written for seven strings.</p>`,
   },
   reading: [
-    'Steve Reich, <i>Writings on Music, 1965–2000</i>, edited by Paul Hillier (Oxford University Press, 2002) — programme notes and essays, including the early account of audible process.',
-    'Steve Reich, <i>Conversations</i> (Hanover Square Press, 2022) — exchanges with performers, composers and artists about the practical making of the work.',
-    'Reich’s programme notes for <a href="https://stevereich.com/composition/clapping-music/">Clapping Music</a>, <a href="https://stevereich.com/composition/tehillim/">Tehillim</a> and <a href="https://stevereich.com/composition/different-trains/">Different Trains</a> — primary accounts of the processes and their sources.',
-    'Robert Hutchinson, <a href="https://musictheory.pugetsound.edu/mt21c/PhaseShifting.html">Phase Shifting</a>, <i>Music Theory for the 21st-Century Classroom</i> — notated examples of the clapping and piano patterns.',
+    'Steve Reich, <i>Writings on Music, 1965–2000</i>, edited by Paul Hillier (Oxford University Press, 2002): programme notes and essays, including the early account of audible process.',
+    'Steve Reich, <i>Conversations</i> (Hanover Square Press, 2022): exchanges with performers, composers and artists about the practical making of the work.',
+    'Reich’s programme notes for <a href="https://stevereich.com/composition/clapping-music/">Clapping Music</a>, <a href="https://stevereich.com/composition/tehillim/">Tehillim</a> and <a href="https://stevereich.com/composition/different-trains/">Different Trains</a>: primary accounts of the processes and their sources.',
+    'Robert Hutchinson, <a href="https://musictheory.pugetsound.edu/mt21c/PhaseShifting.html">Phase Shifting</a>, <i>Music Theory for the 21st-Century Classroom</i>: notated examples of the clapping and piano patterns.',
   ],
 };

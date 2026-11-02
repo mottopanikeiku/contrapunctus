@@ -116,7 +116,7 @@
       "note": "This is the stated basis for the underlying composition. The government-work claim for the US Navy transcription and recording is a separate issue."
     },
     "recording": {
-      "value": "Rule 1 — recording-specific public-domain release: PD-USGov-Military-Navy (US-law basis).",
+      "value": "Rule 1, recording-specific public-domain release: PD-USGov-Military-Navy (US-law basis).",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons",
@@ -130,35 +130,35 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Till Eulenspiegel's Merry Pranks - United States Navy Band.opus",
+      "title": "Wikimedia Commons: Till Eulenspiegel's Merry Pranks - United States Navy Band.opus",
       "url": "https://commons.wikimedia.org/wiki/File:Till_Eulenspiegel%27s_Merry_Pranks_-_United_States_Navy_Band.opus?oldid=1263822001",
       "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured and embedded metadata",
+      "title": "Wikimedia Commons: structured and embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Till_Eulenspiegel%27s_Merry_Pranks_-_United_States_Navy_Band.opus#structureddata",
       "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "usaf",
-      "title": "United States Air Force — public-domain music collection",
+      "title": "United States Air Force: public-domain music collection",
       "url": "https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/",
       "locator": "Source linked by Commons for the military-band recording. The page returned HTTP 403 on access; the album and track identification below are taken from Commons, not independently recovered from this page.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Till Eulenspiegel's Merry Pranks - United States Navy Band.opus",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Till Eulenspiegel's Merry Pranks - United States Navy Band.opus",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1263822001&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Till Eulenspiegel's Merry Pranks - United States Navy Band.opus; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-us-government",
-      "title": "17 U.S.C. § 105 — United States Government works",
+      "title": "17 U.S.C. § 105: United States Government works",
       "url": "https://www.law.cornell.edu/uscode/text/17/105",
       "locator": "Subsection (a): US copyright protection is unavailable for works of the US Government; historical notes distinguish foreign protection.",
       "accessed": "2026-10-17"

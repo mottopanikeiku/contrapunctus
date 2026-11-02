@@ -3,7 +3,7 @@
   "work": {
     "title": "Symphonie fantastique",
     "catalogue": "Op. 14",
-    "movement": "IV. Marche au supplice — Allegretto non troppo",
+    "movement": "IV. Marche au supplice, Allegretto non troppo",
     "version": {
       "value": null,
       "status": "unknown",
@@ -116,7 +116,7 @@
       "note": "Hector Berlioz died in 1869. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
     },
     "recording": {
-      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "value": "Rule 3, territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons",
@@ -125,20 +125,20 @@
       ],
       "note": "Commons applies PD-EU-audio and attributes the Markevitch/Lamoureux recording to 1962; the dossier separately preserves the label’s 1961 session documentation. Both candidate years precede 1963. Usable under the programme’s pre-1963 European sound-recording rule; the former 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US sound-recording status is not established. A recording date alone is not represented as an independently verified first-publication date."
     },
-    "creditLine": "Hector Berlioz: Symphonie fantastique, IV. Marche au supplice — Igor Markevitch, Orchestre Lamoureux. Internet Archive source, via Wikimedia Commons. Commons tags the recording PD-EU-audio; rights outside that scope are not established.",
+    "creditLine": "Hector Berlioz: Symphonie fantastique, IV. Marche au supplice; Igor Markevitch, Orchestre Lamoureux. Internet Archive source, via Wikimedia Commons. Commons tags the recording PD-EU-audio; rights outside that scope are not established.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
   },
   "sources": [
     {
       "id": "label",
-      "title": "Eloquence / Deutsche Grammophon — Igor Markevitch: The Deutsche Grammophon Legacy",
+      "title": "Eloquence / Deutsche Grammophon: Igor Markevitch: The Deutsche Grammophon Legacy",
       "url": "https://www.eloquenceclassics.com/releases/igor-markevitch-the-deutsche-grammophon-legacy/",
       "locator": "CD 9 repertoire and recording details: Salle de la Mutualité, 11–17 January 1961; original DG issue 138712.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Hector Berlioz - Symphonie fantastique, op. 14 - 4. Marche au supplice (Igor Markevitch, Orchestre Lamoureux, 1962).ogg",
+      "title": "Wikimedia Commons: File:Hector Berlioz - Symphonie fantastique, op. 14 - 4. Marche au supplice (Igor Markevitch, Orchestre Lamoureux, 1962).ogg",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=1190184410",
       "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
       "accessed": "2026-10-16"
@@ -152,42 +152,42 @@
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Berlioz: Symphonie Fantastique",
+      "title": "Internet Archive: Berlioz: Symphonie Fantastique",
       "url": "https://archive.org/metadata/BerliozSymphonieFantastiqueMarkevitch/metadata",
       "locator": "description, creator and date (1962); separate publicdate and addeddate (13 June 2018). No label, session venue or transfer credit is supplied.",
       "accessed": "2026-10-16"
     },
     {
       "id": "composer",
-      "title": "Wikimedia Commons — Hector Berlioz",
+      "title": "Wikimedia Commons: Hector Berlioz",
       "url": "https://commons.wikimedia.org/wiki/Creator:Hector_Berlioz",
       "locator": "Composer’s life dates; used only for the explicitly scoped composition-rights inference.",
       "accessed": "2026-10-16"
     },
     {
       "id": "eu-rights",
-      "title": "Wikimedia Commons — PD-EU-audio",
+      "title": "Wikimedia Commons: PD-EU-audio",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Licence-tag text and documentation: performers’ and producers’ rights in the European Union; separate composition and United States bases are required.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Hector Berlioz - Symphonie fantastique, op. 14 - 4. Marche au supplice (Igor Markevitch, Orchestre Lamoureux, 1962).ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Hector Berlioz - Symphonie fantastique, op. 14 - 4. Marche au supplice (Igor Markevitch, Orchestre Lamoureux, 1962).ogg",
       "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&revids=1048736444%7C1029369215%7C1259318927%7C1146394215%7C658946491%7C1190184410%7C848584084%7C1126687476%7C1030746393%7C1055787249",
       "locator": "Opened file-description wikitext for File:Hector Berlioz - Symphonie fantastique, op. 14 - 4. Marche au supplice (Igor Markevitch, Orchestre Lamoureux, 1962).ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-term",
-      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "title": "Directive 2011/77/EU: non-revival of expired phonogram terms",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Recitals 1–3; Article 1(3), inserting Article 10(5): extension applies to performances and phonograms still protected on 1 November 2013.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-audio",
-      "title": "Wikimedia Commons — recording-specific scope of PD-EU-audio",
+      "title": "Wikimedia Commons: recording-specific scope of PD-EU-audio",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Template and documentation concern performers’ and producers’ rights, not merely composition copyright; territorial European expiry.",
       "accessed": "2026-10-17"

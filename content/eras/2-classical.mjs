@@ -95,7 +95,7 @@ V:1
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Friedrich Schiller', title: 'An die Freude — first stanza', date: '1785; revised c. 1803',
+      type: 'poem', author: 'Friedrich Schiller', title: 'An die Freude: first stanza', date: '1785; revised c. 1803',
       lang: 'German', translator: 'Our translation',
       original: `Freude, schöner Götterfunken,
 Tochter aus Elysium,

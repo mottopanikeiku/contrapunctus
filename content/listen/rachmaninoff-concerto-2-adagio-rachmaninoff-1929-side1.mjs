@@ -3,7 +3,7 @@ export default {
   composer: 'rachmaninoff',
   order: 81,
   work: 'Piano Concerto No. 2, Op. 18',
-  movement: 'II. Adagio sostenuto — opening 78-rpm side only',
+  movement: 'II. Adagio sostenuto, opening 78-rpm side only',
   concert: false,
   year: '1900–01',
   key: 'E major',

@@ -120,7 +120,7 @@
       "note": "The public-domain 1880 orchestral score documents the composition; this does not by itself license Walter’s recording."
     },
     "recording": {
-      "value": "Rule 3 — EU territorial route for a recording published before 1963",
+      "value": "Rule 3: EU territorial route for a recording published before 1963",
       "status": "inferred",
       "sourceIds": [
         "archive",
@@ -134,7 +134,7 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive: Walter — Jupiter / Haffner, Columbia MS 6255",
+      "title": "Internet Archive: Walter, Jupiter / Haffner, Columbia MS 6255",
       "url": "https://archive.org/metadata/lp_symphony-no-41-jupiter-symphony-no-35-haf_bruno-walter-columbia-symphony-orchestra-w_0",
       "locator": "metadata: creator, date/year 1961, publisher, publisher-catalog-number, source, lineage, ripping_date and ripping_operator; files entry disc1/02.01. Symphony No. 41, In C Major, K. 551 (\"Jupiter\"): IV - Finale.mp3.",
       "accessed": "2026-10-17"

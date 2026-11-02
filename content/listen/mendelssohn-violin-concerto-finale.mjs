@@ -1,14 +1,14 @@
 // Form, link, fanfare, key plan, first conductor, legacy: https://en.wikipedia.org/wiki/Violin_Concerto_(Mendelssohn)
 // Dedication, bar counts, instrumentation: https://imslp.org/wiki/Violin_Concerto_in_E_minor,_Op.64_(Mendelssohn,_Felix)
 // Score used for page references: IMSLP, Breitkopf & Härtel full score (Rietz edition), printed pp. 37–55 (PDF pages 38–56)
-// Performance credit (uploader’s YouTube description): Soojin Han, violin; Hankyung Arte Philharmonic; Seokwon Hong, conductor; Seoul Arts Centre Concert Hall, 23 September 2022 — https://www.youtube.com/watch?v=aegrdfHxXRA
+// Performance credit (uploader’s YouTube description): Soojin Han, violin; Hankyung Arte Philharmonic; Seokwon Hong, conductor; Seoul Arts Centre Concert Hall, 23 September 2022: https://www.youtube.com/watch?v=aegrdfHxXRA
 // Recording licence (YouTube CC-BY template on Commons): https://commons.wikimedia.org/wiki/File:Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor,_Op._64,_MWV_O_14_-_III._Allegretto_non_troppo-Allegro_molto_vivace.ogg
 export default {
   id: 'mendelssohn-violin-concerto-finale',
   composer: 'mendelssohn',
   order: 30,
   work: 'Violin Concerto in E minor, Op. 64',
-  movement: 'III. Allegretto non troppo — Allegro molto vivace',
+  movement: 'III. Allegretto non troppo, Allegro molto vivace',
   set: { id: 'mendelssohn-violin-concerto', title: 'Violin Concerto in E minor, Op. 64', part: 3, of: 3 },
   year: '1838–44',
   key: 'E major',
@@ -136,7 +136,7 @@ export default {
     ensemble: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'solo-violin'],
     solo: 'solo-violin',
     basis: 'score-proportion',
-    source: { title: 'Mendelssohn, Violin Concerto in E minor, Op. 64, full score (Leipzig: Breitkopf & Härtel; Rietz edition, Serie 4 No. 18)', url: 'https://imslp.org/wiki/Violin_Concerto_in_E_minor,_Op.64_(Mendelssohn,_Felix)', locator: 'III. Allegretto non troppo — Allegro molto vivace, pp. 37–55: string link and fanfares, p. 37; orchestral theme and development, pp. 42–45; solo trills with woodwinds, p. 52; closing pages, pp. 53–55.' },
+    source: { title: 'Mendelssohn, Violin Concerto in E minor, Op. 64, full score (Leipzig: Breitkopf & Härtel; Rietz edition, Serie 4 No. 18)', url: 'https://imslp.org/wiki/Violin_Concerto_in_E_minor,_Op.64_(Mendelssohn,_Felix)', locator: 'III. Allegretto non troppo, Allegro molto vivace, pp. 37–55: string link and fanfares, p. 37; orchestral theme and development, pp. 42–45; solo trills with woodwinds, p. 52; closing pages, pp. 53–55.' },
     timeline: [
       { t: 0, playing: ['solo-violin', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['solo-violin'], note: 'The soloist and strings play the fourteen-bar E-minor link; winds, brass and timpani are silent.' },
       { t: 50, playing: ['bassoons', 'horns', 'trumpets', 'timpani', 'solo-violin'], lead: ['trumpets'], note: 'Bassoons, horns, trumpets and timpani play two short fanfares, answered by the solo violin.' },

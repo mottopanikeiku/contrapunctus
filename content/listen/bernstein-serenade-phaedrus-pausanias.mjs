@@ -6,7 +6,7 @@ export default {
   composer: 'bernstein',
   order: 3,
   work: 'Serenade (after Plato’s Symposium)',
-  movement: 'I. Phaedrus; Pausanias — Lento; Allegro marcato',
+  movement: 'I. Phaedrus; Pausanias, Lento; Allegro marcato',
   year: '1954',
   key: '',
   forces: 'Solo violin, strings, harp and percussion',

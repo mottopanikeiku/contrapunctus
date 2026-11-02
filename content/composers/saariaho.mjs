@@ -59,10 +59,10 @@ export default {
   ],
   score: [
     {
-      kicker: 'Harmonic series — schematic',
+      kicker: 'Harmonic series: schematic',
       title: 'Overtones of a low C',
       abc: `X:1
-T:Fundamental and partials — schematic
+T:Fundamental and partials: schematic
 M:4/4
 L:1/4
 Q:1/4=48
@@ -78,10 +78,10 @@ V:2
       caption: 'This illustrative schematic shows a low C and its first eleven harmonics, spread across two staves. The upper B♭ and F quarter-sharp are approximations, because the natural series extends beyond the piano’s tuning. Saariaho’s own experiments also drew on rougher cello sounds containing several pitches, as in <i>Lichtbogen</i>.',
     },
     {
-      kicker: 'Bow pressure — schematic',
+      kicker: 'Bow pressure: schematic',
       title: 'Four bars on the same C',
       abc: `X:2
-T:From friction towards pitch — schematic
+T:From friction towards pitch: schematic
 M:4/4
 L:1/4
 Q:1/4=48
@@ -103,7 +103,7 @@ V:1
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Jaufre Rudel', title: 'Lanquan li jorn son lonc e may — first stanza', date: 'Twelfth century', lang: 'Occitan', translator: 'Our translation',
+      type: 'poem', author: 'Jaufre Rudel', title: 'Lanquan li jorn son lonc e may: first stanza', date: 'Twelfth century', lang: 'Occitan', translator: 'Our translation',
       original: `Lanquan li jorn son lonc e may
 M’es belhs dous chans d’auzelhs de lonh,
 E quan mi suy partitz de lay,
@@ -122,7 +122,7 @@ are worth more to me than frozen winter.`,
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Anonymous', title: 'Vida of Jaufre Rudel — opening', date: 'Thirteenth-century biographical tradition', lang: 'Occitan', translator: 'Our translation',
+      type: 'poem', author: 'Anonymous', title: 'Vida of Jaufre Rudel: opening', date: 'Thirteenth-century biographical tradition', lang: 'Occitan', translator: 'Our translation',
       original: `Jaufres Rudels de Blaia si fo mout gentils hom, princes de Blaia.
 Et enamoret se de la comtessa de Tripol, ses vezer, per lo ben qu’el n’auzi dire als pelerins que venguen d’Antiocha.
 E fez de leis mains vers ab bons sons, ab paubres motz.`,
@@ -143,8 +143,8 @@ He made many verses about her, with good melodies and poor words.`,
     note: `<p>Heininen taught her how to keep building a piece, and Grisey and Murail gave her confidence in her own hearing. She welcomed programmes that paired her work with [[debussy|Debussy]] and [[ligeti|Ligeti]]. She often worked out new musical ideas alongside a player, as with Hoitenga speaking through the flute or Karttunen producing new sounds with his bow.</p>`,
   },
   reading: [
-    'Tim Howell, Jon Hargreaves and Michael Rofe, eds, <i>Kaija Saariaho: Visions, Narratives, Dialogues</i> (Ashgate, 2011) — analytical essays on timbre, form and the turn towards theatre.',
-    '<a href="https://ressources.ircam.fr/en/kaija-saariaho">IRCAM biography and work catalogue</a> — training, chronology and the technical context of the early music.',
-    '<a href="https://saariaho.org/">Estate of Kaija Saariaho</a> — work descriptions, performance information and documentation of the electronic parts.',
+    'Tim Howell, Jon Hargreaves and Michael Rofe, eds, <i>Kaija Saariaho: Visions, Narratives, Dialogues</i> (Ashgate, 2011): analytical essays on timbre, form and the turn towards theatre.',
+    '<a href="https://ressources.ircam.fr/en/kaija-saariaho">IRCAM biography and work catalogue</a>: training, chronology and the technical context of the early music.',
+    '<a href="https://saariaho.org/">Estate of Kaija Saariaho</a>: work descriptions, performance information and documentation of the electronic parts.',
   ],
 };

@@ -3,7 +3,7 @@
   "work": {
     "title": "Symphony No. 94 in G major “Surprise”",
     "catalogue": "Hob. I:94",
-    "movement": "I. Adagio cantabile — Vivace assai",
+    "movement": "I. Adagio cantabile, Vivace assai",
     "version": {
       "value": null,
       "status": "unknown",
@@ -87,7 +87,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Bob Varney — transfer from original Victor 78s",
+      "value": "Bob Varney: transfer from original Victor 78s",
       "status": "documented",
       "sourceIds": [
         "archive"
@@ -133,7 +133,7 @@
       "note": "Haydn died in 1809. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
     },
     "recording": {
-      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "value": "Rule 3, territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -145,90 +145,90 @@
       "note": "Commons applies PD-EU-audio to the Koussevitzky/Boston recording attributed to 1929, and the Internet Archive item carries a Creative Commons public-domain licence URL, not treated here as authority to waive Victor’s rights. The programme’s pre-1963 European rule applies because the 50-year term had expired before the 2013 extension; Young gives the release as September 1929, which supports first publication well before 1963. This is territorial, not a worldwide licence; US status is not established.",
       "alternatives": [
         {
-          "value": "PD-EU-audio — European performers’ and producers’ rights claimed expired.",
+          "value": "PD-EU-audio: European performers’ and producers’ rights claimed expired.",
           "sourceIds": [
             "commons",
             "eu-audio"
           ]
         },
         {
-          "value": "Creative Commons public-domain dedication — licence URL on the Internet Archive item.",
+          "value": "Creative Commons public-domain dedication: licence URL on the Internet Archive item.",
           "sourceIds": [
             "archive"
           ]
         }
       ]
     },
-    "creditLine": "Joseph Haydn, Symphony No. 94, I. Adagio cantabile — Vivace assai; Boston Symphony Orchestra, Serge Koussevitzky, April 1929. Victor set M-55; transfer by Bob Varney, Internet Archive, via Wikimedia Commons. Rights metadata conflicts; no worldwide recording clearance is asserted.",
+    "creditLine": "Joseph Haydn, Symphony No. 94, I. Adagio cantabile, Vivace assai; Boston Symphony Orchestra, Serge Koussevitzky, April 1929. Victor set M-55; transfer by Bob Varney, Internet Archive, via Wikimedia Commons. Rights metadata conflicts; no worldwide recording clearance is asserted.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Haydn; Symphony No. 94 \"Surprise\", 1. Adagio – Vivace assai.ogg",
+      "title": "Wikimedia Commons: Haydn; Symphony No. 94 \"Surprise\", 1. Adagio – Vivace assai.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Haydn;_Symphony_No._94_%22Surprise%22,_1._Adagio_%E2%80%93_Vivace_assai.ogg",
       "locator": "File-description wikitext: Description, Date 1929-01-01, Source (Internet Archive item Haydn_Symphony_No_94_Surprise), Author, and licence template PD-EU-audio.",
       "accessed": "2026-10-17"
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Haydn Symphony No. 94",
+      "title": "Internet Archive: Haydn Symphony No. 94",
       "url": "https://archive.org/metadata/Haydn_Symphony_No_94_Surprise",
       "locator": "metadata.description: Koussevitzky and Boston Symphony, recorded in 1929, transfer from the original Victor 78 set M-55 by Bob Varney; file HaydnSurprise.mp3, 1248.44 s; licenseurl creativecommons.org/licenses/publicdomain/; added 13 December 2008.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dahr-date",
-      "title": "DAHR — Recordings made Wednesday, April 24, 1929",
+      "title": "DAHR: Recordings made Wednesday, April 24, 1929",
       "url": "https://adp.library.ucsb.edu/index.php/date/browse/1929-04-24",
       "locator": "Three Victor 12-inch matrices, CVE-48986, -48987 and -48988, titled Symphony no. 6, in G major (“Surprise”), Boston Symphony Orchestra; Serge Koussevitzky, first take date 4/24/1929.",
       "accessed": "2026-10-17"
     },
     {
       "id": "arsc",
-      "title": "Edward D. Young — Discography of Koussevitzky recordings, ARSC Journal 21/1 (1990)",
+      "title": "Edward D. Young: Discography of Koussevitzky recordings, ARSC Journal 21/1 (1990)",
       "url": "https://www.arsc-amp.org/journals/v21/v21n1p45-129.pdf",
       "locator": "Printed p. 81 (PDF p. 37): the 22 April 1929 Symphony Hall, Boston session heading; the Haydn Symphony No. 94 entry (released 9/29, M-55 7058/60) with matrix, issued takes and recording dates of all six sides, including CVE-48988 takes 2 and 3.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dahr-a",
-      "title": "DAHR — Victor matrix CVE-48984",
+      "title": "DAHR: Victor matrix CVE-48984",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/800022770",
       "locator": "Andante, part 3; master take 1, 22 April 1929, Symphony Hall, Boston; Victor 7059 and set M-55. Opened for the set’s place and carrier.",
       "accessed": "2026-10-17"
     },
     {
       "id": "bolig",
-      "title": "John R. Bolig — His Master’s Voice Celebrity Series Recordings and Historical Reissues, 1924–1958",
+      "title": "John R. Bolig: His Master’s Voice Celebrity Series Recordings and Historical Reissues, 1924–1958",
       "url": "https://www.examenapium.it/cs/biblio/Bolig2020.pdf",
       "locator": "Koussevitzky’s Symphony No. 94 entries: 1st movement, Vivace assai, part 2, CVE-48986 take 2; 3rd movement, Menuetto, CVE-48987 take 1; 4th movement, Allegro di molto, CVE-48988 take 3, all 24 April 1929. The text was read from an extract of this PDF; the host refused a direct re-fetch on 17 October 2026.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "Wikipedia — Joseph Haydn",
+      "title": "Wikipedia: Joseph Haydn",
       "url": "https://en.wikipedia.org/wiki/Joseph_Haydn",
       "locator": "Lead paragraph: 31 March 1732 – 31 May 1809.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright term",
+      "title": "Directive 2006/116/EC: copyright term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-extension",
-      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "title": "Directive 2011/77/EU: transitional sound-recording term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Article 1(3), inserting Article 10(5): the extended term applies to phonograms still protected on 1 November 2013.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-audio",
-      "title": "Wikimedia Commons — PD-EU-audio",
+      "title": "Wikimedia Commons: PD-EU-audio",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Template and documentation: expiry of European performers’ and producers’ rights; the underlying composition requires a separate basis; territorial.",
       "accessed": "2026-10-17"

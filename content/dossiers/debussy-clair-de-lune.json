@@ -131,7 +131,7 @@
       "note": "Debussy died in 1918; the suite was published in 1905. This is territorial composition-term reasoning, not worldwide clearance or clearance of an unidentified modern performing edition."
     },
     "recording": {
-      "value": "Rule 3 — EU public-domain term basis for a phonogram published before 1963; territorial, not worldwide.",
+      "value": "Rule 3: EU public-domain term basis for a phonogram published before 1963; territorial, not worldwide.",
       "status": "documented",
       "sourceIds": [
         "archive",
@@ -147,84 +147,84 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Clair de lune, HMV C.3485",
+      "title": "Internet Archive: Clair de lune, HMV C.3485",
       "url": "https://archive.org/metadata/78_clair-de-lune-moonlight_benno-moiseiwitsch-debussy_gbia3042373b/metadata",
       "locator": "Item metadata: Benno Moiseiwitsch, piano; Suite bergamasque no. 3; His Master’s Voice C.3485; catalogue date 1946; matrix 2EA10890-1; George Blood transfer project and Phoebe Pugh credit. The 2024 public and added dates are repository dates.",
       "accessed": "2026-10-18"
     },
     {
       "id": "carrier-label",
-      "title": "His Master’s Voice — original C.3485 label and runout image",
+      "title": "His Master’s Voice: original C.3485 label and runout image",
       "url": "https://archive.org/download/78_clair-de-lune-moonlight_benno-moiseiwitsch-debussy_gbia3042373b/78_clair-de-lune-moonlight_benno-moiseiwitsch-debussy_gbia3042373b_itemimage.jpg",
       "locator": "Viewed original label: Made in England, speed 78, C.3485, 2EA.10890, Benno Moiseiwitsch, pianoforte solo, No. 3 from Suite Bergamasque. The runout and item metadata identify 2EA10890-1. The label itself does not print a publication date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "archive-files",
-      "title": "Internet Archive — selected transfer and derivative provenance",
+      "title": "Internet Archive: selected transfer and derivative provenance",
       "url": "https://archive.org/metadata/78_clair-de-lune-moonlight_benno-moiseiwitsch-debussy_gbia3042373b/files",
       "locator": "Friendly-named preferred FLAC: 24-bit FLAC, 259.86 seconds; comment identifies the 3.5mil ET stylus and equalisation Turnover 375, Rolloff −12. The exact selected friendly-named MP3 is its VBR access derivative. This is not a switch to another transfer.",
       "accessed": "2026-10-18"
     },
     {
       "id": "moiseiwitsch-discography",
-      "title": "Classical Pianists — Benno Moiseiwitsch recording chronology",
+      "title": "Classical Pianists: Benno Moiseiwitsch recording chronology",
       "url": "https://classical-pianists.net/viii/benno-moiseiwitsch/chronology-2/",
       "locator": "Entry BM-C#051: 28 February 1946, Abbey Road Studio 3, London, England; Debussy Clair de lune; matrix 2EA10890-1, mastered. The matrix matches the selected primary carrier. This is secondary session documentation, not a DAHR record.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dahr-consulted",
-      "title": "Discography of American Historical Recordings — consultation",
+      "title": "Discography of American Historical Recordings: consultation",
       "url": "https://adp.library.ucsb.edu/",
       "locator": "DAHR homepage consulted; performer/title and exact matrix searches did not yield an identifiable entry for British HMV 2EA10890. The direct interactive route presented an access challenge. No DAHR session, take or release corroboration is claimed; this does not establish that the database contains no relevant entry.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score-catalogue",
-      "title": "Sibley Music Library — Suite bergamasque, E. Fromont, 1905",
+      "title": "Sibley Music Library: Suite bergamasque, E. Fromont, 1905",
       "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemVersionId=11883",
       "locator": "Library record identifies Debussy (1862–1918), the 1905 Paris Fromont edition, piano score, public-domain access and contents: Prélude, Menuet, Clair de lune, Passepied. Persistent identifier: http://hdl.handle.net/1802/12331.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score",
-      "title": "Debussy — Suite bergamasque, 1905 Fromont score",
+      "title": "Debussy: Suite bergamasque, 1905 Fromont score",
       "url": "https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=12015&itemFileId=27374",
       "locator": "Viewed Clair de lune on printed/PDF pp. 14–19, plate E. 1404 F.: D♭ major, 9/8, Andante très expressif; chordal opening, Tempo rubato, un poco mosso, Calmato, a Tempo I and morendo. This is evidence for the written work, not the performing copy used at the 1946 session.",
       "accessed": "2026-10-17"
     },
     {
       "id": "work-catalogue",
-      "title": "IMSLP — Suite bergamasque, CD 82 (L. 75)",
+      "title": "IMSLP: Suite bergamasque, CD 82 (L. 75)",
       "url": "https://imslp.org/wiki/Suite_bergamasque_%28Debussy%2C_Claude%29",
       "locator": "Work information: four movements; 1890–1905 composition/revision history; June 1905 publication; Clair de lune is movement III, not a self-contained one-movement suite.",
       "accessed": "2026-10-17"
     },
     {
       "id": "verlaine",
-      "title": "Paul Verlaine — Clair de lune, Fêtes galantes",
+      "title": "Paul Verlaine: Clair de lune, Fêtes galantes",
       "url": "https://fr.wikisource.org/wiki/F%C3%AAtes_galantes_(1891)/Clair_de_lune",
       "locator": "Viewed poem in the 1891 Vanier edition, pp. 5–6: masks and bergamasques, lute, dancing, uncertain happiness, moonlight and fountains. The poem first appeared in Fêtes galantes in 1869; the separate work page identifies that publication. Used as literary context, not a bar-by-bar programme.",
       "accessed": "2026-10-17"
     },
     {
       "id": "verlaine-date",
-      "title": "Wikisource — Verlaine’s Clair de lune, publication identification",
+      "title": "Wikisource: Verlaine’s Clair de lune, publication identification",
       "url": "https://fr.wikisource.org/wiki/Clair_de_lune_%28Verlaine%29",
       "locator": "Identifies the poem as part of Fêtes galantes (1869); the opened 1891 text is a later edition of the poem.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright and related-rights terms",
+      "title": "Directive 2006/116/EC: copyright and related-rights terms",
       "url": "https://eur-lex.europa.eu/eli/dir/2006/116/oj/eng",
       "locator": "Articles 1, 3 and 8: ordinary composition term and pre-extension phonogram terms and calendar calculation. Territorial term reasoning, not a licence.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-extension",
-      "title": "Directive 2011/77/EU — phonogram term extension",
+      "title": "Directive 2011/77/EU: phonogram term extension",
       "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng",
       "locator": "Article 1(3), inserting Article 10(5): the extended terms concern recordings still protected on 1 November 2013; Article 2 gives the implementation date. Earlier expired terms are not revived by this rule.",
       "accessed": "2026-10-17"

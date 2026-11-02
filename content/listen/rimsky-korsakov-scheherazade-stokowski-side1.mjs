@@ -16,7 +16,7 @@ export default {
   "composer": "rimsky-korsakov",
   "order": 108,
   "concert": false,
-  "work": "Scheherazade, Op. 35 — III. The Young Prince and the Young Princess",
+  "work": "Scheherazade, Op. 35; III. The Young Prince and the Young Princess",
   "movement": "Opening disc side only",
   "year": "1888",
   "key": "G major",

@@ -94,8 +94,8 @@ V:1 name="Piano"
   ],
   lineage: { from: ['Mikhail Glinka', 'Alexander Dargomyzhsky', 'Mily Balakirev', 'Alexander Pushkin', 'Russian speech and song'], to: ['debussy', 'ravel', 'janacek', 'shostakovich'], note: `<p>[[ravel|Ravel]] gave the trumpet and saxophone parts in his orchestration of <i>Pictures</i>. [[shostakovich|Shostakovich]] worked directly on the operas and death songs; [[debussy|Debussy]] admired Mussorgsky’s sung speech. [[janacek|Janáček]] shared his attention to the patterns of a person speaking, with short repeated notes, sudden leaps and phrases broken off abruptly.</p>` },
   reading: [
-    'Caryl Emerson, <i>The Life of Musorgsky</i> (Cambridge, 1999) — biography attentive to the evidence behind the familiar legends.',
-    'David Brown, <i>Musorgsky: His Life and Works</i> (Oxford, 2002) — a detailed account of the compositions and their revisions.',
-    'Richard Taruskin, <i>Musorgsky: Eight Essays and an Epilogue</i> (Princeton, 1993) — challenges the opposition between an untutored original and supposedly academic correctors.',
+    'Caryl Emerson, <i>The Life of Musorgsky</i> (Cambridge, 1999): biography attentive to the evidence behind the familiar legends.',
+    'David Brown, <i>Musorgsky: His Life and Works</i> (Oxford, 2002): a detailed account of the compositions and their revisions.',
+    'Richard Taruskin, <i>Musorgsky: Eight Essays and an Epilogue</i> (Princeton, 1993): challenges the opposition between an untutored original and supposedly academic correctors.',
   ],
 };

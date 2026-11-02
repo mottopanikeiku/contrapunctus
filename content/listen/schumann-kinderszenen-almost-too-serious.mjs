@@ -7,7 +7,7 @@ export default {
   composer: 'schumann',
   order: 100,
   work: 'Kinderszenen, Op. 15',
-  movement: 'No. 10 · Fast zu ernst — Almost Too Serious',
+  movement: 'No. 10 · Fast zu ernst (Almost Too Serious)',
   set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 10, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'G♯ minor',

@@ -3,7 +3,7 @@ export default {
   "composer": "chopin",
   "order": 10,
   "work": "Ballade No. 2 in F major, Op. 38",
-  "movement": "Andantino — Presto con fuoco",
+  "movement": "Andantino, Presto con fuoco",
   "year": "1836–39",
   "key": "F major",
   "forces": "Piano",

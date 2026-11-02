@@ -58,7 +58,7 @@ export default {
   ],
   score: [
     {
-      kicker: 'Brass chorale and pause — schematic',
+      kicker: 'Brass chorale and pause: schematic',
       title: 'Harmonic block with a defined edge',
       abc: `X:1
 T:Chorale block schematic
@@ -77,7 +77,7 @@ C,4 | F,,4 | G,,4 | C,4 | z4 |]`,
       caption: 'A schematic brass chorale over C–F–G–C. All the parts stop together and a whole bar is left empty, marked as clearly as the chords. Bruckner’s symphonies use this kind of separation on a much larger scale.',
     },
     {
-      kicker: 'The Bruckner rhythm — schematic',
+      kicker: 'The Bruckner rhythm: schematic',
       title: 'Two notes followed by three',
       abc: `X:2
 T:Duplet and triplet
@@ -127,9 +127,9 @@ it is without fault.`,
     note: `<p>[[mahler|Mahler]] helped arrange the Third for piano duet and later conducted the masses and the <i>Te Deum</i>. His own symphonies kept Bruckner’s long spans and added songs and street music. In the Fifth, themes from earlier movements return, as in [[beethoven|Beethoven]]’s Ninth. The Seventh uses Wagner tubas, an instrument taken over directly from [[wagner|Wagner]]. Franz Schmidt and Hans Rott belong to the Austrian symphonic tradition that grew up around these scores.</p>`,
   },
   reading: [
-    'Robert Simpson, <i>The Essence of Bruckner</i> (Gollancz, revised edition 1992) — a conductor-conscious account of harmonic movement and symphonic proportions.',
-    'Julian Horton, <i>Bruckner’s Symphonies: Analysis, Reception and Cultural Politics</i> (Cambridge, 2004) — connects the scores with the competing stories told about them.',
-    'John Williamson, ed., <i>The Cambridge Companion to Bruckner</i> (Cambridge, 2004) — biography, sacred music, symphonies and interpretation.',
-    'John F. Berky, <a href="https://www.abruckner.com/">The Bruckner Discography</a> — a practical guide to recordings, versions and editions.',
+    'Robert Simpson, <i>The Essence of Bruckner</i> (Gollancz, revised edition 1992): a conductor-conscious account of harmonic movement and symphonic proportions.',
+    'Julian Horton, <i>Bruckner’s Symphonies: Analysis, Reception and Cultural Politics</i> (Cambridge, 2004): connects the scores with the competing stories told about them.',
+    'John Williamson, ed., <i>The Cambridge Companion to Bruckner</i> (Cambridge, 2004): biography, sacred music, symphonies and interpretation.',
+    'John F. Berky, <a href="https://www.abruckner.com/">The Bruckner Discography</a>: a practical guide to recordings, versions and editions.',
   ],
 };

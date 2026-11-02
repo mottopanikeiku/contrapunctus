@@ -59,7 +59,7 @@ export default {
   ],
   score: [
     { kicker: 'Suite for Piano, Op. 25', title: 'Twelve-note row ending with Bach', abc: `X:1
-T:Op. 25 row — pitch schematic
+T:Op. 25 row: pitch schematic
 M:4/4
 L:1/4
 Q:1/4=88
@@ -67,7 +67,7 @@ K:C
 %%MIDI program 0
 E F G _D | _G _E _A D | B C A _B | "B-A-C-H"_B A C =B |]`, caption: 'A schematic of the Op. 25 row. The first three bars contain its twelve notes; the fourth reverses the last four to give B♭–A–C–B♮, or B–A–C–H in German. The equal note lengths are for demonstration; Schoenberg supplied his own rhythms in each piece.' },
     { kicker: 'Five Orchestral Pieces, Op. 16, No. 3', title: 'The five pitches of Farben', abc: `X:2
-T:Farben chord — schematic
+T:Farben chord: schematic
 M:4/4
 L:1/4
 Q:1/4=48
@@ -77,7 +77,7 @@ V:1
 %%MIDI program 48
 [C,^G,B,EA]4- | [C,^G,B,EA]4 |]`, caption: 'A schematic of the opening five-note chord of <i>Farben</i>: C–G♯–B–E–A, from bottom to top. Here it lasts two bars. In the score, its notes pass between instruments and begin to shift by small steps.' },
     { kicker: 'Pierrot lunaire, performing technique', title: 'Written rhythm, pitch moving away', abc: `X:3
-T:Sprechstimme — invented contour schematic
+T:Sprechstimme: invented contour schematic
 M:3/4
 L:1/4
 Q:1/4=72
@@ -120,9 +120,9 @@ The moon pours down in waves at night.`, note: `<p>The poem turns moonlight into
   ],
   lineage: { from: ['bach', 'beethoven', 'brahms', 'wagner', 'mahler', 'Alexander Zemlinsky'], to: ['berg', 'webern', 'boulez', 'cage', 'Hanns Eisler'], note: `<p>Zemlinsky taught him, Mahler defended him, and Bach and Brahms remained his models. Berg and Webern took his teaching into very different music, Berg towards opera and Webern towards compressed instrumental pieces. Cage’s lessons with him in California also began with musical craft.</p>` },
   reading: [
-    'Joseph Auner, <i>A Schoenberg Reader: Documents of a Life</i> (Yale, 2003) — letters and writings placed beside the works and political events.',
-    'Walter Frisch, <i>The Early Works of Arnold Schoenberg, 1893–1908</i> (California, 1993) — detailed analysis of the tonal music before the break.',
-    'Arnold Schoenberg, <i>Style and Idea</i>, edited by Leonard Stein, translated by Leo Black (California, 1975) — the essays on Brahms, composition and twelve-note technique.',
-    '<a href="https://www.schoenberg.at/en/schoenberg/timeline">Arnold Schönberg Center: chronology</a> and <a href="https://www.schoenberg.at/en/schoenberg/kompositionen/suite-for-piano-op-25">Op. 25 work commentary</a> — documentary dates and the row’s B–A–C–H construction.',
+    'Joseph Auner, <i>A Schoenberg Reader: Documents of a Life</i> (Yale, 2003): letters and writings placed beside the works and political events.',
+    'Walter Frisch, <i>The Early Works of Arnold Schoenberg, 1893–1908</i> (California, 1993): detailed analysis of the tonal music before the break.',
+    'Arnold Schoenberg, <i>Style and Idea</i>, edited by Leonard Stein, translated by Leo Black (California, 1975): the essays on Brahms, composition and twelve-note technique.',
+    '<a href="https://www.schoenberg.at/en/schoenberg/timeline">Arnold Schönberg Center: chronology</a> and <a href="https://www.schoenberg.at/en/schoenberg/kompositionen/suite-for-piano-op-25">Op. 25 work commentary</a>: documentary dates and the row’s B–A–C–H construction.',
   ],
 };

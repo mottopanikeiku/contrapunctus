@@ -4,7 +4,7 @@ export default {
   year: '1908–10', key: 'A minor', forces: 'Piano four hands',
   performers: 'Duo Campion/Vachon', recorded: '1992',
   source: { file: "File:Ravel Duo Campion-Vachon Ma Mere l'oye 1 Pavane de la Belle au bois dormant.OGG" },
-  set: { id: 'ravel-ma-mere-loye', title: 'Ma mère l’Oye — piano duet', part: 1, of: 5, unit: 'pieces' },
+  set: { id: 'ravel-ma-mere-loye', title: 'Ma mère l’Oye: piano duet', part: 1, of: 5, unit: 'pieces' },
   "intro": "The Pavane of Sleeping Beauty opens <i>Ma mère l’Oye</i> with twenty quiet bars for four hands at one piano. The melody passes between the two players.",
   "sections": [
     { "t": 0, "label": "A · Tune in the low part, reply above", "m": "A", "mNote": "The lower player starts the tune; the upper player replies." },

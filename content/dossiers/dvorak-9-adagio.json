@@ -3,7 +3,7 @@
   "work": {
     "title": "Symphony No. 9 in E minor “From the New World”, Op. 95",
     "catalogue": "Op. 95",
-    "movement": "I. Adagio — Allegro molto",
+    "movement": "I. Adagio, Allegro molto",
     "version": {
       "value": null,
       "status": "unknown",
@@ -110,20 +110,20 @@
       "note": "The composer died in 1904. This assessment does not cover a later edition or arrangement."
     },
     "recording": {
-      "value": "Rule 1 — explicit Musopen public-domain release of the sound recording",
+      "value": "Rule 1: explicit Musopen public-domain release of the sound recording",
       "status": "documented",
       "sourceIds": [
         "commons"
       ],
       "note": "Commons applies PD-author by Musopen to the recording. This is a recording release, not an inference from the composer’s death or the composition date. Courtesy attribution and resale requests in the historic Musopen wording are not a non-commercial licence."
     },
-    "creditLine": "Performers uncredited — Symphony No. 9 in E minor “From the New World”, Op. 95, I. Adagio — Allegro molto. Public-domain recording release by Musopen, via Wikimedia Commons.",
+    "creditLine": "Performers uncredited: Symphony No. 9 in E minor “From the New World”, Op. 95, I. Adagio, Allegro molto. Public-domain recording release by Musopen, via Wikimedia Commons.",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - i. adagio - allegro molto.ogg",
+      "title": "Wikimedia Commons: File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - i. adagio - allegro molto.ogg",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=1055787242",
       "locator": "File-description revision: description, source, author, date and recording-specific licensing template.",
       "accessed": "2026-10-17"

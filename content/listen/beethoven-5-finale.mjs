@@ -3,7 +3,7 @@ export default {
   composer: 'beethoven',
   order: 4,
   work: 'Symphony No. 5, Op. 67',
-  movement: 'IV. Allegro — Presto',
+  movement: 'IV. Allegro, Presto',
   set: { id: 'beethoven-5', title: 'Symphony No. 5, Op. 67', part: 4, of: 4 },
   year: '1804–08',
   key: 'C major',

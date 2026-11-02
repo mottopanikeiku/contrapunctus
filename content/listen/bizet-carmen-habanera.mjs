@@ -1,6 +1,6 @@
 export default {
   id: 'bizet-carmen-habanera', composer: 'bizet', order: 1,
-  work: 'Carmen', movement: 'Act I · Habanera — L’amour est un oiseau rebelle',
+  work: 'Carmen', movement: 'Act I · Habanera: L’amour est un oiseau rebelle',
   year: '1873–75', key: 'D minor / D major', forces: 'Soprano and orchestra',
   performers: 'Geraldine Farrar, soprano; orchestra conducted by Walter B. Rogers',
   recorded: '9 December 1914, New York',

@@ -44,7 +44,7 @@ export default {
   ],
   works: [
     { year: '1891–92', title: 'Kullervo', titleHtml: '<i>Kullervo</i>', cat: 'Op. 7', forces: 'Soprano, baritone, male chorus and orchestra', note: 'The young composer’s breakthrough in Helsinki. Its five movements draw on the <i>Kalevala</i>, and the long third movement tells of Kullervo’s disastrous encounter with his sister.' },
-    { year: '1895–96; revised later', title: 'Lemminkäinen', titleHtml: '<i>Lemminkäinen</i> — Four Legends', cat: 'Op. 22', forces: 'Orchestra', note: 'The cor anglais has the solo in <i>The Swan of Tuonela</i>; <i>Lemminkäinen’s Return</i> is built on short, repeated figures. Sibelius continued revising the legends and their order for decades.' },
+    { year: '1895–96; revised later', title: 'Lemminkäinen', titleHtml: '<i>Lemminkäinen</i>: Four Legends', cat: 'Op. 22', forces: 'Orchestra', note: 'The cor anglais has the solo in <i>The Swan of Tuonela</i>; <i>Lemminkäinen’s Return</i> is built on short, repeated figures. Sibelius continued revising the legends and their order for decades.' },
     { year: '1898–99; revised 1900', title: 'Symphony No. 1 in E minor', cat: 'Op. 39', forces: 'Orchestra', note: 'The clarinet’s opening solo returns in the finale, enlarged for strings. Both outer movements end with two plucked chords.' },
     { year: '1899–1900', title: 'Finlandia', titleHtml: '<i>Finlandia</i>', cat: 'Op. 26', forces: 'Orchestra', note: 'Written for the 1899 Press Celebrations, which were held in defiance of Russian censorship. Its hymn was first played without words, by the woodwinds and then the strings.' },
     { year: '1901–02', title: 'Symphony No. 2 in D major', cat: 'Op. 43', forces: 'Orchestra', note: 'Sketches made in Rapallo link the slow movement to Don Juan and Death. The scherzo’s rising bridge opens directly into the D major finale.' },
@@ -57,7 +57,7 @@ export default {
     { year: '1926', title: 'Tapiola', titleHtml: '<i>Tapiola</i>', cat: 'Op. 112', forces: 'Orchestra', note: 'Walter Damrosch commissioned this forest music for New York. The ideas in the score, including the violent storm, grow out of the opening figure in the strings.' },
   ],
   score: [
-    { kicker: 'Modal hearing', title: 'D minor and D Dorian — schematic', abc: `X:1
+    { kicker: 'Modal hearing', title: 'D minor and D Dorian: schematic', abc: `X:1
 T:Minor and Dorian - schematic
 M:4/4
 L:1/4
@@ -96,9 +96,9 @@ E,2 E,2 | E,2 E,2 | E,2 E,2 | E,2 E,2 | B,,4 | E,4 |]`, caption: 'A schematic wi
   ],
   lineage: { from: ['beethoven', 'tchaikovsky', 'bruckner', 'Finnish runo singing', 'The Kalevala'], to: ['vaughan-williams', 'William Walton', 'Einojuhani Rautavaara', 'saariaho'], note: '<p>Vaughan Williams dedicated his Fifth Symphony to Sibelius “without permission”. The symphony shares with Sibelius long-held bass notes and short figures that grow into long paragraphs. Sibelius’s own models included Beethoven’s quartets, the symphonies he heard in Vienna and the Finnish singers he sought out in Karelia. Saariaho, also Finnish and much later, wrote in a different harmonic language.</p>' },
   reading: [
-    'Erik Tawaststjerna, <i>Sibelius</i>, trans. Robert Layton, 3 vols (Faber, 1976–97) — the principal documentary biography in English.',
-    'James Hepokoski, <i>Sibelius: Symphony No. 5</i> (Cambridge, 1993) — revision and the transformation of symphonic form.',
-    'Daniel M. Grimley, <i>Jean Sibelius: Life, Music, Silence</i> (Reaktion, 2021) — landscape, cultural identity and the long late period.',
-    '<a href="https://www.sibelius.klubi.fi/english/elamankaari/sib_viides_sinfonia.htm">Sibelius’s Fifth Symphony and the war years</a> — chronology and the diary evidence behind the swans.',
+    'Erik Tawaststjerna, <i>Sibelius</i>, trans. Robert Layton, 3 vols (Faber, 1976–97): the principal documentary biography in English.',
+    'James Hepokoski, <i>Sibelius: Symphony No. 5</i> (Cambridge, 1993): revision and the transformation of symphonic form.',
+    'Daniel M. Grimley, <i>Jean Sibelius: Life, Music, Silence</i> (Reaktion, 2021): landscape, cultural identity and the long late period.',
+    '<a href="https://www.sibelius.klubi.fi/english/elamankaari/sib_viides_sinfonia.htm">Sibelius’s Fifth Symphony and the war years</a>: chronology and the diary evidence behind the swans.',
   ],
 };

@@ -55,7 +55,7 @@ export default {
     { year: '1923–24', title: 'String Quartet in E minor', cat: 'Op. 121', forces: 'Two violins, viola and cello', note: 'His last work, completed in September 1924, begins with the viola and ends in E major. Fauré’s damaged hearing kept him from hearing a performance.' },
   ],
   score: [
-    { kicker: 'Modal cadence — schematic', title: 'G♮ or G♯ before A', abc: `X:1
+    { kicker: 'Modal cadence: schematic', title: 'G♮ or G♯ before A', abc: `X:1
 T:Two minor-key cadences (schematic)
 M:4/4
 L:1/4
@@ -63,7 +63,7 @@ Q:1/4=64
 K:Am
 %%MIDI program 19
 "v"[EGB]4 | "i"[EAc]4 | "V"[E^GB]4 | "i"[EAc]4 |]`, caption: 'A schematic of two minor-key cadences. In the first, E minor moves to A minor with G♮ unaltered. In the second, G is sharpened, so that it lies a semitone below A and leads more strongly to it.' },
-    { kicker: 'Common-note harmony — schematic', title: 'Held note with changing chords', abc: `X:2
+    { kicker: 'Common-note harmony: schematic', title: 'Held note with changing chords', abc: `X:2
 T:Common note and third-related roots (schematic)
 M:4/4
 L:1/4
@@ -119,8 +119,8 @@ The tall, slender fountains among the marble statues.`, note: '<p>Fauré set thi
   ],
   lineage: { from: ['saint-saens', 'Louis Niedermeyer', 'schumann', 'chopin', 'Renaissance church polyphony'], to: ['ravel', 'Charles Koechlin', 'Nadia Boulanger', 'Florent Schmitt'], note: '<p>At the school, Saint-Saëns played Schumann, Liszt and Wagner to his pupils at the piano, and he later helped Fauré find work. Ravel, Koechlin, Schmitt and Nadia Boulanger all studied in Fauré’s class at the Conservatoire, and each went a different way. Ravel dedicated his String Quartet to Fauré in 1903. Twenty years later Fauré began a string quartet of his own.</p>' },
   reading: [
-    'Jean-Michel Nectoux, <i>Gabriel Fauré: A Musical Life</i>, translated by Roger Nichols (Cambridge University Press, 1991) — the central documentary and analytical study.',
-    'Jessica Duchen, <i>Gabriel Fauré</i> (Phaidon, 2000) — an illustrated introduction attentive to the working musician.',
-    '<a href="https://brahms.ircam.fr/fr/composer/gabriel-faure/biography">IRCAM, biography and work catalogue</a> — institutional chronology and the teaching appointments.',
+    'Jean-Michel Nectoux, <i>Gabriel Fauré: A Musical Life</i>, translated by Roger Nichols (Cambridge University Press, 1991): the central documentary and analytical study.',
+    'Jessica Duchen, <i>Gabriel Fauré</i> (Phaidon, 2000): an illustrated introduction attentive to the working musician.',
+    '<a href="https://brahms.ircam.fr/fr/composer/gabriel-faure/biography">IRCAM, biography and work catalogue</a>: institutional chronology and the teaching appointments.',
   ],
 };

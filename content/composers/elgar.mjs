@@ -80,7 +80,7 @@ V:1 name="Strings"
     { relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:John Joseph Barker (1824-1904) - Near the Malvern Hills - 3063 - Government Art Collection.jpg', artist: 'John Joseph Barker', title: 'Near Malvern Hills', date: 'c. 1860', medium: 'Oil on canvas', collection: 'Government Art Collection, United Kingdom', note: '<p>Two drovers, one riding and one walking, take cattle along a lane towards a town. Barker’s Malvern country is a working landscape. Elgar knew its roads on foot and by bicycle. At Birchwood Lodge he wrote with the hills in view, and Alice carried manuscripts and proofs to the post.</p>' },
     { relation: 'documented-use',
-      type: 'poem', author: 'John Henry Newman', title: 'The Dream of Gerontius — the Angel’s farewell', date: '1865', lang: 'English', original: `Softly and gently, dearly-ransomed soul,
+      type: 'poem', author: 'John Henry Newman', title: 'The Dream of Gerontius: the Angel’s farewell', date: '1865', lang: 'English', original: `Softly and gently, dearly-ransomed soul,
 In my most loving arms I now enfold thee,
 And, o’er the penal waters, as they roll,
 I poise thee, and I lower thee, and hold thee.
@@ -97,8 +97,8 @@ Sinking deep, deeper, into the dim distance.`, note: '<p>In Newman’s poem the 
   ],
   lineage: { from: ['beethoven', 'mendelssohn', 'schumann', 'wagner', 'Worcester and the Three Choirs Festival'], to: ['William Walton', 'britten', 'Michael Tippett'], note: '<p>[[mendelssohn|Mendelssohn]] appears in <i>Enigma</i> as a direct quotation; [[beethoven|Beethoven]] appears through the conversation recalled in <i>Nimrod</i>. Elgar drew on [[wagner|Wagner]]’s recurring orchestral themes to build the drama of <i>Gerontius</i>. [[britten|Britten]] later conducted and recorded that work with Peter Pears and Yvonne Minton. Elgar’s own recordings preserve the string players’ slides and his freely changing tempos.</p>' },
   reading: [
-    'Jerrold Northrop Moore, <i>Edward Elgar: A Creative Life</i> (Oxford, 1984) — a detailed reconstruction from letters, diaries and sketches.',
-    'Julian Rushton, <i>Elgar: Enigma Variations</i> (Cambridge, 1999) — the musical construction, with the cryptographic claims kept in proportion.',
-    '<a href="https://www.elgar.org/2english.htm">The Elgar Society: biography and work guides</a> — chronology, premières and the documented friends behind the variations.',
+    'Jerrold Northrop Moore, <i>Edward Elgar: A Creative Life</i> (Oxford, 1984): a detailed reconstruction from letters, diaries and sketches.',
+    'Julian Rushton, <i>Elgar: Enigma Variations</i> (Cambridge, 1999): the musical construction, with the cryptographic claims kept in proportion.',
+    '<a href="https://www.elgar.org/2english.htm">The Elgar Society: biography and work guides</a>: chronology, premières and the documented friends behind the variations.',
   ],
 };

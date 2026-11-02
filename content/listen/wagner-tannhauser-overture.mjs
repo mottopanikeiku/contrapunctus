@@ -5,7 +5,7 @@ export default {
   composer: 'wagner',
   order: 1,
   work: 'Tannhäuser, WWV 70',
-  movement: 'Overture — concert-band arrangement',
+  movement: 'Overture: concert-band arrangement',
   year: '1843–45',
   key: '',
   forces: 'Concert band',
@@ -25,7 +25,7 @@ export default {
   cues: [
     { t: 0, kind: 'music', title: 'Pilgrims’ hymn, opening statement', text: 'The hymn begins quietly in clarinet, bassoon and horns. In the opera, its long B♭ major phrases belong to the pilgrims travelling to Rome. Sousa keeps the scoring spare, and the band’s brightest instruments rest.', basis: 'score-proportion', precision: 'passage', evidence: 'John Philip Sousa’s band transcription, printed p. 1, Andante maestoso: solo B♭ clarinet, bassoons, horns, lower clarinets and bass. https://www.marineband.marines.mil/Portals/175/Docs/Sheet%20Music/Tannhauser/tannhauser_score.pdf?ver=2018-10-17-112418-240. Dramatic identification: Marc Mandel, Boston Symphony programme note, https://www.bso.org/works/overture-and-venusberg-music-from-tannh%C3%A4user.' },
     { t: 145, kind: 'music', title: 'Hymn in the brass, clarinet semiquavers', text: 'The brass play the hymn in broad, even notes. Above them the first clarinets play continuous semiquavers in 3/4, taking the part Wagner wrote for the orchestral strings.', basis: 'score-proportion', precision: 'passage', evidence: 'Sousa band score, opening full hymn, including printed pp. 10–12: brass melody and first-clarinet semiquavers in 3/4.' },
-    { t: 250, kind: 'world', title: 'The song contest at the Wartburg', text: 'Tannhäuser leaves Venus’s realm, then sings her praises at the Wartburg song contest. The other singers turn on him. Elisabeth protects him, and he joins the pilgrims bound for Rome.', basis: 'documented', precision: 'passage', evidence: 'Marc Mandel, Boston Symphony programme note, plot synopsis and account of the overture: https://www.bso.org/works/overture-and-venusberg-music-from-tannh%C3%A4user.' },
+    { t: 250, kind: 'world', title: 'The song contest at the Wartburg', text: 'Tannhäuser leaves the Venusberg, then sings her praises at the Wartburg song contest. The other singers turn on him. Elisabeth protects him, and he joins the pilgrims bound for Rome.', basis: 'documented', precision: 'passage', evidence: 'Marc Mandel, Boston Symphony programme note, plot synopsis and account of the overture: https://www.bso.org/works/overture-and-venusberg-music-from-tannh%C3%A4user.' },
     { t: 310, kind: 'music', title: 'Venusberg music, Allegro', text: 'From bar 82, Venus’s music begins with short running figures in the clarinets, followed by the upper woodwind at pp. The bass and heavy brass stop. Wagner changes the hymn’s three-beat metre to common time and marks the passage Allegro.', basis: 'score-proportion', precision: 'passage', evidence: 'Sousa band score, printed pp. 19–20, bar 82 onwards: Allegro, change from 3/4 to common time, lower-clarinet figures and pp upper-wind answers.' },
     { t: 458, kind: 'music', title: 'Solo clarinet, rehearsal D', text: 'At rehearsal D the solo clarinet plays a long melody. Flute, piccolo and E♭ clarinet play running figures around it. The bass and brass have extended rests.',
       basis: 'score-proportion', precision: 'passage', evidence: 'Sousa band score, printed pp. 39–42, quieter episode at rehearsal D: solo clarinet and upper-wind figures, with extended rests in bass and brass.' },

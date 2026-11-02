@@ -3,7 +3,7 @@ export default {
   "composer": "wagner",
   "order": 10,
   "work": "Die Walküre, WWV 86B",
-  "movement": "Ride of the Valkyries — orchestral excerpt",
+  "movement": "Ride of the Valkyries: orchestral excerpt",
   "year": "1854–56",
   "key": "B minor → B major",
   "forces": "Orchestra",

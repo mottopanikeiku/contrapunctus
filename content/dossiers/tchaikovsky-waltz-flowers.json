@@ -120,7 +120,7 @@
       "note": "The musical-composition tag is PD-old-auto-expired, deathyear=1893. The separate Lawrence Odom arrangement is tagged as a U.S. Air Force federal-government work; no worldwide claim is made for that arrangement."
     },
     "recording": {
-      "value": "Rule 1 — recording-specific public-domain release: PD-USGov-Military-Air Force (US-law basis).",
+      "value": "Rule 1: recording-specific public-domain release: PD-USGov-Military-Air Force (US-law basis).",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons",
@@ -162,14 +162,14 @@
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Waltz of the Flowers - Concert Band - United States Air Force Band.mp3",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Waltz of the Flowers - Concert Band - United States Air Force Band.mp3",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Waltz of the Flowers - Concert Band - United States Air Force Band.mp3; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-us-government",
-      "title": "17 U.S.C. § 105 — United States Government works",
+      "title": "17 U.S.C. § 105: United States Government works",
       "url": "https://www.law.cornell.edu/uscode/text/17/105",
       "locator": "Subsection (a): US copyright protection is unavailable for works of the US Government; historical notes distinguish foreign protection.",
       "accessed": "2026-10-17"

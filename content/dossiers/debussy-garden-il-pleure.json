@@ -149,7 +149,7 @@
       "note": "Debussy died in 1918 and Verlaine in 1896. No modern translation is reproduced; national exceptions and modern editions require separate consideration."
     },
     "recording": {
-      "value": "Rule 2 — US public domain: original G&T commercial issue dated 1904, before the 1925 cutoff.",
+      "value": "Rule 2: US public domain: original G&T commercial issue dated 1904, before the 1925 cutoff.",
       "status": "documented",
       "sourceIds": [
         "archive",
@@ -165,63 +165,63 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Il pleure dans mon cœur",
+      "title": "Internet Archive: Il pleure dans mon cœur",
       "url": "https://archive.org/metadata/78_ilpleuredansmacouer_318_15/metadata",
       "locator": "G&T catalogue 33449; date 1904; coverage Paris; Mary Garden and Debussy; soprano/piano; ten-inch disc; transfer at 74 rpm; stylus string 25 without stated units. The 2019 repository dates are not session or transfer dates.",
       "accessed": "2026-10-17"
     },
     {
       "id": "bnf",
-      "title": "Bibliothèque nationale de France — historical Debussy recording catalogue",
+      "title": "Bibliothèque nationale de France: historical Debussy recording catalogue",
       "url": "https://catalogue.bnf.fr/ark:/12148/cb38388874b",
       "locator": "Subnotice 6 names Mary Garden, soprano, and Claude Debussy, piano, recorded in 1904. Its carrier is the later 1937 RCA/IRCC reissue, not the original G&T disc transferred here.",
       "accessed": "2026-10-17"
     },
     {
       "id": "ircc-discography",
-      "title": "The Record Collector — International Record Collectors Club discography",
+      "title": "The Record Collector: International Record Collectors Club discography",
       "url": "https://www.therecordcollector.org/articles/HRSandIRCCdiscographies/internationalrecordcollectorsclub.php",
       "locator": "IRCC 107: Garden, soprano; Debussy, piano; Paris 1904; matrix 3074F; original G&T 33449; later transfer matrix 0EA5670-1.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dahr",
-      "title": "Discography of American Historical Recordings — Mary Garden",
+      "title": "Discography of American Historical Recordings: Mary Garden",
       "url": "https://adp.library.ucsb.edu/names/102667",
       "locator": "Performer entry consulted for discographic cross-checking. Its displayed Victor/Columbia records do not establish the French G&T matrix here; no unrelated American matrix or session date is imported.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score",
-      "title": "Debussy — Ariettes oubliées no. 2, voice-and-piano score",
+      "title": "Debussy: Ariettes oubliées no. 2, voice-and-piano score",
       "url": "https://s9.imslp.org/files/imglnks/usimg/8/83/IMSLP14819-Debussy_-_Ariettes_oubli%C3%A9es_%28voice_and_piano%29.pdf",
       "locator": "Printed pp. 12–17 (PDF 4–9), poem and voice/piano notation inspected visually. Exact edition used at the 1904 session not established.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "IMSLP — Claude Debussy biographical dates",
+      "title": "IMSLP: Claude Debussy biographical dates",
       "url": "https://imslp.org/wiki/Category:Debussy,_Claude",
       "locator": "Debussy died on 25 March 1918.",
       "accessed": "2026-10-17"
     },
     {
       "id": "lyricist",
-      "title": "IMSLP — Paul Verlaine biographical dates",
+      "title": "IMSLP: Paul Verlaine biographical dates",
       "url": "https://imslp.org/wiki/Category:Verlaine,_Paul",
       "locator": "Verlaine died on 8 January 1896.",
       "accessed": "2026-10-17"
     },
     {
       "id": "us-term",
-      "title": "United States Copyright Office — Classics Protection and Access Act",
+      "title": "United States Copyright Office: Classics Protection and Access Act",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
       "locator": "Term: recordings first published before 1923 ceased receiving the specified federal remedies after 31 December 2021. The programme also permits publication through 1925 as of 2026.",
       "accessed": "2026-10-17"
     },
     {
       "id": "phonobase",
-      "title": "Phonobase 12051 — Garden/Debussy, G&T 33449",
+      "title": "Phonobase 12051: Garden/Debussy, G&T 33449",
       "url": "https://phonobase.org/fiche/12051",
       "locator": "A separate contemporary acoustic copy, Paris 1904, catalogue GC 33449, matrix 3074-ii, 74 rpm. Phonobase’s 2018 digitisation date belongs to that other copy, not to this IA transfer.",
       "accessed": "2026-10-17"

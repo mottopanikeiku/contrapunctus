@@ -50,7 +50,7 @@ export default {
       t: 114,
       kind: 'form',
       title: 'Middle section, più animato',
-      text: '<i>Più animato</i> — more animated. From bar 25, rapid figures break up the strings’ long phrases, and the piano plays forte chords. This contrasting middle section of the Andante is in E minor.',
+      text: '<i>Più animato</i> (more animated). From bar 25, rapid figures break up the strings’ long phrases, and the piano plays forte chords. This contrasting middle section of the Andante is in E minor.',
       basis: 'score-proportion',
       precision: 'passage',
       evidence: 'First edition, printed pp. 21–22: più animato at bar 25, forte piano chords and rapid string figures. The LA Phil programme note describes the Andante’s contrasting E-minor middle section: https://www.laphil.com/works/piano-trio',

@@ -2,7 +2,7 @@
   "id": "mahler-5-adagietto",
   "title": "Mahler, Symphony No. 5, Adagietto, in two recordings",
   "composer": "mahler",
-  "work": "Symphony No. 5 — IV. Adagietto",
+  "work": "Symphony No. 5: IV. Adagietto",
   "question": "Mengelberg in 1926 and the Peabody Symphony Orchestra play the Adagietto’s violin melody over the harp.",
   "intro": "Mahler scored the movement for strings and harp, with a violin melody that repeatedly crosses the bar-line. Mengelberg’s Concertgebouw players slide together between notes and push forward through the short pickups, then slow down when the theme returns. The second performance is by the Peabody Symphony Orchestra, taken from its complete recording of the Fifth.",
   "group": "century",
@@ -18,14 +18,14 @@
     { "label": "High violins, ascending cellos", "t": 555, "note": "High violins sustain the line while the cellos climb below. Mahler asked for broad bow strokes as the phrase approaches its last swell." }
   ],
   "sources": [
-    { "title": "Yale University Library — Mengelberg’s rubato and coordinated portamento", "url": "https://guides.library.yale.edu/c.php?g=525668&p=4452898" },
-    { "title": "Internet Archive — supplied Columbia L 1798 transfer and metadata", "url": "https://archive.org/details/willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926" },
-    { "title": "Wanganui Chronicle, 3 March 1928 — contemporary L 1798 review", "url": "https://paperspast.natlib.govt.nz/newspapers/WC19280303.2.96.16.2" },
-    { "title": "Wikimedia Commons — existing Peabody recording and CC0 declaration", "url": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_IV._Adagietto.ogg" },
-    { "title": "Peabody upstream item — complete Fifth Symphony and public-domain dedication; upload date is not a session date", "url": "https://archive.org/metadata/Mahler_Symphony_5" },
-    { "title": "Measured full-file alignment — median confidence 0.863; no trims", "url": "../assets/data/compare/mahler-5-adagietto/mahler-5-adagietto-mengelberg-1926.json" },
-    { "title": "Mengelberg transfer — generated duration and audio features", "url": "../assets/listen/mahler-5-adagietto-mengelberg-1926.json" },
-    { "title": "Peabody recording — generated duration and audio features", "url": "../assets/listen/mahler-5-adagietto.json" },
-    { "title": "Mahler — Adagietto full score, Peters plate 9015, pp. 178–182: violin melody, harp and final broad bow strokes", "url": "https://s9.imslp.org/files/imglnks/usimg/0/04/IMSLP13083-Mahler-Symphony_No.5_IV.pdf" }
+    { "title": "Yale University Library: Mengelberg’s rubato and coordinated portamento", "url": "https://guides.library.yale.edu/c.php?g=525668&p=4452898" },
+    { "title": "Internet Archive: supplied Columbia L 1798 transfer and metadata", "url": "https://archive.org/details/willem-mengelberg-cgo-col-l-1798-wax-1548-9-1926" },
+    { "title": "Wanganui Chronicle, 3 March 1928: contemporary L 1798 review", "url": "https://paperspast.natlib.govt.nz/newspapers/WC19280303.2.96.16.2" },
+    { "title": "Wikimedia Commons: existing Peabody recording and CC0 declaration", "url": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_IV._Adagietto.ogg" },
+    { "title": "Peabody upstream item: complete Fifth Symphony and public-domain dedication; upload date is not a session date", "url": "https://archive.org/metadata/Mahler_Symphony_5" },
+    { "title": "Measured full-file alignment: median confidence 0.863; no trims", "url": "../assets/data/compare/mahler-5-adagietto/mahler-5-adagietto-mengelberg-1926.json" },
+    { "title": "Mengelberg transfer: generated duration and audio features", "url": "../assets/listen/mahler-5-adagietto-mengelberg-1926.json" },
+    { "title": "Peabody recording: generated duration and audio features", "url": "../assets/listen/mahler-5-adagietto.json" },
+    { "title": "Mahler: Adagietto full score, Peters plate 9015, pp. 178–182: violin melody, harp and final broad bow strokes", "url": "https://s9.imslp.org/files/imglnks/usimg/0/04/IMSLP13083-Mahler-Symphony_No.5_IV.pdf" }
   ]
 }

@@ -64,7 +64,7 @@ export default {
     { year: '1931', title: 'Commotio', titleHtml: '<i>Commotio</i>', cat: 'Op. 58', forces: 'Organ', note: 'Finished by early March 1931. First played at Aarhus Cathedral on 14 August 1931 by Emilius Bangert.' },
   ],
   score: [
-    { kicker: 'Wind Quintet, III — quoted', title: 'Hymn tune as theme of the variations', abc: `X:1
+    { kicker: 'Wind Quintet, III: quoted', title: 'Hymn tune as theme of the variations', abc: `X:1
 T:Wind Quintet, Op. 43, III, Tema con variazioni, flute
 M:3/4
 L:1/8
@@ -73,7 +73,7 @@ K:A
 V:1 name="Flute"
 %%MIDI program 73
 e | a g a3 f | e d c3 e | a g a2 b2 | c'4 a2 | e' c' d'3 b | c' a f3 g | a b c'2 b2 | a4 z2 |]`, caption: 'The flute part in the first eight bars of the <i>Tema con variazioni</i>, with the pick-up bar, marked <i>Un poco andantino</i> and <i>p</i>, from the first edition (Wilhelm Hansen, Copenhagen, 1923, p. 26). The oboe, clarinet, horn and bassoon play beneath it. The tune is the melody of Nielsen’s hymn <i>Min Jesus, lad mit Hjerte faa</i>. The tempo in this example is set for playback and is not Nielsen’s.' },
-    { kicker: 'Op. 10 No. 4 — quoted', title: 'Sang bag ploven: vocal part', abc: `X:2
+    { kicker: 'Op. 10 No. 4: quoted', title: 'Sang bag ploven: vocal part', abc: `X:2
 T:Sang bag ploven, Op. 10 No. 4, voice, pick-up and bars 1-3
 M:4/4
 L:1/8
@@ -107,10 +107,10 @@ the hard stones into bread.`, note: '<p>The first of six stanzas, in the spellin
   ],
   lineage: { from: ['brahms', 'wagner', 'mozart', 'liszt', 'Niels W. Gade', 'Johan Svendsen', 'Orla Rosenhoff'], to: ['Mogens Wöldike', 'Nancy Dalberg', 'Knud Jeppesen'], note: '<p>Nielsen heard [[wagner]]’s <i>Ring</i> at Dresden in September 1890, on his first stay in Germany. In Vienna in 1894 he gave his First Symphony to [[brahms]], who later let him know through the critic William Behrend that he thought it good. According to the <i>Dansk Biografisk Leksikon</i>, [[mozart]] was the one of the great classics who stood nearest to him, and the Wind Quintet began in a rehearsal of a Mozart piece. Knud Ketting writes that the idea of a symphony in one span is said to have come from [[liszt]]’s B minor Sonata, which his friend Henrik Knudsen had played to him. Niels W. Gade and Johan Svendsen were the older composers of his student years in Copenhagen, and Svendsen conducted the First Symphony. Orla Rosenhoff taught him counterpoint. Mogens Wöldike, Nancy Dalberg and Knud Jeppesen were pupils of his.</p>' },
   reading: [
-    '<a href="https://biografiskleksikon.lex.dk/Carl_Nielsen">“Carl Nielsen”, Dansk Biografisk Leksikon</a> — the standard short life in Danish, with a survey of the works and a bibliography.',
-    '<a href="https://www.carlnielsen.dk/gb/bio/">Knud Ketting, Carl Nielsen biography, Carl Nielsen Society</a> — a long web biography in English, drawn on the diaries and letters, with the stories behind each work.',
-    '<a href="https://www.kb.dk/en/find-materials/collections/sheet-music-collection/music-editions-and-lists-works-royal-danish-library">The Carl Nielsen Edition, Royal Danish Library</a> — free scores and prefaces for every symphony, both operas and the chamber music, with the sources and first performances.',
-    '<a href="https://www.kb.dk/dcm/cnw.html">Catalogue of Carl Nielsen’s Works (CNW), Royal Danish Library</a> — a dated list of every work with sources, first performances and letters.',
-    '<a href="https://carlnielsencorrespondence.dk/">Carl Nielsen Brevudgaven (The Carl Nielsen Letter Edition), ed. John Fellow</a> — his letters and diaries, with English translations and facsimiles.',
+    '<a href="https://biografiskleksikon.lex.dk/Carl_Nielsen">“Carl Nielsen”, Dansk Biografisk Leksikon</a>: the standard short life in Danish, with a survey of the works and a bibliography.',
+    '<a href="https://www.carlnielsen.dk/gb/bio/">Knud Ketting, Carl Nielsen biography, Carl Nielsen Society</a>: a long web biography in English, drawn on the diaries and letters, with the stories behind each work.',
+    '<a href="https://www.kb.dk/en/find-materials/collections/sheet-music-collection/music-editions-and-lists-works-royal-danish-library">The Carl Nielsen Edition, Royal Danish Library</a>: free scores and prefaces for every symphony, both operas and the chamber music, with the sources and first performances.',
+    '<a href="https://www.kb.dk/dcm/cnw.html">Catalogue of Carl Nielsen’s Works (CNW), Royal Danish Library</a>: a dated list of every work with sources, first performances and letters.',
+    '<a href="https://carlnielsencorrespondence.dk/">Carl Nielsen Brevudgaven (The Carl Nielsen Letter Edition), ed. John Fellow</a>: his letters and diaries, with English translations and facsimiles.',
   ],
 };

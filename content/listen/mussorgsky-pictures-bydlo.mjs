@@ -3,7 +3,7 @@ export default {
   composer: 'mussorgsky',
   order: 2,
   work: 'Pictures at an Exhibition',
-  movement: 'IV. Bydło — Sempre moderato, pesante',
+  movement: 'IV. Bydło, Sempre moderato, pesante',
   set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 7, of: 15, unit: 'pieces' },
   year: '1874',
   key: 'G♯ minor',
@@ -21,7 +21,7 @@ export default {
   ],
 
   cues: [
-    { t: 0, kind: 'music', title: 'Tuba solo in G♯ minor', text: 'The tuba plays the melody in G♯ minor over a bass of four quavers to the bar. Mussorgsky marks the music <i>pesante</i> — heavy. Ravel starts it quietly.', basis: 'score-proportion', precision: 'passage', evidence: 'Lamm’s piano edition, opening bars and Sempre moderato, pesante; Joanna Wyld, Philharmonia listening guide, 7 April 2022, p. 7: https://philharmonia-assets.s3.amazonaws.com/uploads/2022/04/07.04.22_RFH-online.pdf. Ravel attribution for this recording remains inferred.' },
+    { t: 0, kind: 'music', title: 'Tuba solo in G♯ minor', text: 'The tuba plays the melody in G♯ minor over a bass of four quavers to the bar. Mussorgsky marks the music <i>pesante</i> (heavy). Ravel starts it quietly.', basis: 'score-proportion', precision: 'passage', evidence: 'Lamm’s piano edition, opening bars and Sempre moderato, pesante; Joanna Wyld, Philharmonia listening guide, 7 April 2022, p. 7: https://philharmonia-assets.s3.amazonaws.com/uploads/2022/04/07.04.22_RFH-online.pdf. Ravel attribution for this recording remains inferred.' },
     { t: 50, kind: 'form', title: 'Middle section, bars 21–34', text: 'In the middle passage the chords move higher, and the tune is harmonised with A major and D major chords. The bass climbs in steps. The quaver accompaniment continues beneath it without a break.', basis: 'score-proportion', precision: 'passage', evidence: 'Lamm’s piano edition, bars 21–34: higher chordal writing, A and D major chords, and continuous quaver accompaniment: https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/bydlo.ly' },
     { t: 78, kind: 'world', title: 'Title and subject of <i>Bydło</i>', text: 'The title is Polish for cattle. The picture behind the music is Hartmann’s ox-drawn wagon on enormous wheels, which Mussorgsky explained privately to Stasov. The wagon does not appear in the title, which is only <i>Bydło</i>.', basis: 'documented', precision: 'passage', evidence: 'Michael Steinberg, Boston Symphony programme note, gives the translation and Mussorgsky’s explanation to Stasov: https://www.bso.org/works/pictures-at-an-exhibition' },
     { t: 118, kind: 'music', title: 'Ending of Bydło', text: 'The melody breaks into fragments and the steps in the bass grow quieter. In Ravel’s orchestration only harp and plucked double bass are left at the end.', basis: 'score-proportion', precision: 'passage', evidence: 'Lamm’s piano edition, bars 55–64, including perdendosi; harp and plucked double bass: Joanna Wyld, Philharmonia listening guide, p. 7.' },

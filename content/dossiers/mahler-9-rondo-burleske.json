@@ -3,7 +3,7 @@
   "work": {
     "title": "Symphony No. 9",
     "catalogue": "GMW 50",
-    "movement": "III. Rondo-Burleske — Allegro assai. Sehr trotzig",
+    "movement": "III. Rondo-Burleske, Allegro assai. Sehr trotzig",
     "version": {
       "value": null,
       "status": "unknown",
@@ -144,69 +144,69 @@
       ],
       "note": "The inspected template expressly concerns expired performer and producer rights in the European Union. This package is admitted on that territorial recording-rights basis, not merely the composition’s age. United States status is not established; no worldwide public-domain clearance is asserted."
     },
-    "creditLine": "Gustav Mahler, Symphony No. 9, III. Rondo-Burleske — Allegro assai. Sehr trotzig; Vienna Philharmonic, Bruno Walter, conductor. Public concert, 16 January 1938, Großer Musikvereinssaal, Vienna. Unidentified audio CD via Wikimedia Commons; recording tagged PD-EU-audio (territorial, not established as US public domain).",
+    "creditLine": "Gustav Mahler, Symphony No. 9, III. Rondo-Burleske: Allegro assai. Sehr trotzig; Vienna Philharmonic, Bruno Walter, conductor. Public concert, 16 January 1938, Großer Musikvereinssaal, Vienna. Unidentified audio CD via Wikimedia Commons; recording tagged PD-EU-audio (territorial, not established as US public domain).",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Mahler - Symphony N° 9 - III (B. Walter, 1938).ogg",
+      "title": "Wikimedia Commons: Mahler - Symphony N° 9 - III (B. Walter, 1938).ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Mahler_-_Symphony_N%C2%B0_9_-_III_(B._Walter,_1938).ogg",
       "locator": "File-description Summary, date, performers, source “Cd audio”, Licensing PD-EU-audio, duration and MP3 transcode. The recording-specific template was inspected separately from generic Public domain metadata.",
       "accessed": "2026-10-17"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — embedded recording metadata",
+      "title": "Wikimedia Commons: embedded recording metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Mahler_-_Symphony_N%C2%B0_9_-_III_(B._Walter,_1938).ogg#Metadata",
       "locator": "Ogg metadata: digitising field 1962 and Xiph.Org libVorbis I 20100325 (Everywhere). These tags do not independently date the performance, CD issue or transfer.",
       "accessed": "2026-10-17"
     },
     {
       "id": "programme",
-      "title": "International Gustav Mahler Society — Wiener Philharmoniker 1937/38, fifth subscription concert",
+      "title": "International Gustav Mahler Society: Wiener Philharmoniker 1937/38, fifth subscription concert",
       "url": "https://www.gustav-mahler.org/libraryid/10405",
       "locator": "Original printed programme V-002-001296: 16 January 1938; Großer Musikvereinssaal, Vienna; Vienna Philharmonic and Bruno Walter; Mahler Ninth and Mozart K. 504.",
       "accessed": "2026-10-17"
     },
     {
       "id": "loc",
-      "title": "Erik Ryding — Mahler Symphony No. 9: Bruno Walter, conductor; Vienna Philharmonic Orchestra (1938)",
+      "title": "Erik Ryding: Mahler Symphony No. 9: Bruno Walter, conductor; Vienna Philharmonic Orchestra (1938)",
       "url": "https://lcweb2.loc.gov/static/programs/national-recording-preservation-board/documents/MahlerSymphonyNo9.pdf",
       "locator": "National Recording Registry essay, added 2015, pp. 1–4: premiere, performance date, Gaisberg and Gregory, alternating wax machines, Walter’s later account, and historical context.",
       "accessed": "2026-10-17"
     },
     {
       "id": "pristine",
-      "title": "Pristine Classical PASC389 — Walter Mahler Symphony No. 9 (1938)",
+      "title": "Pristine Classical PASC389: Walter Mahler Symphony No. 9 (1938)",
       "url": "https://www.pristineclassical.com/products/pasc389",
       "locator": "Reissue metadata: 15–16 January 1938; HMV DB 8569–8578; matrices 2VH 7027–7046; Andrew Rose’s separate 2013 transfer. Reproduced Gramophone review gives side allocation. Not a proven source in the Commons transfer chain.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dahr",
-      "title": "Discography of American Historical Recordings — Gustav Mahler",
+      "title": "Discography of American Historical Recordings: Gustav Mahler",
       "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/102815/Mahler_Gustav",
       "locator": "Composer discography consulted as a matrix-identification lead. The inspected listing did not establish the Walter Ninth’s takes or identify the source CD; it is not cited as proof of absence from DAHR.",
       "accessed": "2026-10-17"
     },
     {
       "id": "catalogue",
-      "title": "Mahler-Online — Symphony No. 9, GMW 50",
+      "title": "Mahler-Online: Symphony No. 9, GMW 50",
       "url": "https://acdh-ch.pages.oeaw.ac.at/muwi/mahler-mei/mahler-wv-static/GMW_050.html",
       "locator": "Work identity, 1909–10 composition history, Toblach/New York, manuscript stages, 26 June 1912 premiere and first publication.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright term",
+      "title": "Directive 2006/116/EC: copyright term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: ordinary authorial life-plus-70 term and calculation from the following 1 January. No universal recording clearance is inferred.",
       "accessed": "2026-10-17"
     },
     {
       "id": "pd-eu",
-      "title": "Wikimedia Commons — PD-EU-audio recording-rights template",
+      "title": "Wikimedia Commons: PD-EU-audio recording-rights template",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Template states expiry of performer and producer rights for the sound recording in the EU; documentation distinguishes those rights from copyright in the underlying composition.",
       "accessed": "2026-10-17"

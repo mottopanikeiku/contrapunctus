@@ -83,7 +83,7 @@ V:1 name="Piano"
     { relation: 'shared-context',
       type: 'painting', frame: 'mat', file: 'File:The Golden Cockerel (Bilibin) 10.jpg', artist: 'Ivan Bilibin', title: 'Illustration to Pushkin’s The Golden Cockerel', date: '1907', medium: 'Colour book illustration', collection: '', note: `<p>This is a book illustration, published in 1907, the year Rimsky-Korsakov finished his opera. Bilibin later designed Sergei Zimin’s Moscow production of 1909, giving its scenery the flat, sharply outlined character of a popular print. The Bolshoi’s production that year used a different artist, Konstantin Korovin, and a text that changed Dodon from a tsar into a commander.</p>` },
     { relation: 'documented-use',
-      type: 'poem', author: 'Alexander Pushkin', title: 'The Golden Cockerel — final couplet', date: '1834; published 1835', lang: 'Russian', translator: 'Our translation', original: `Сказка ложь, да в ней намек!
+      type: 'poem', author: 'Alexander Pushkin', title: 'The Golden Cockerel: final couplet', date: '1834; published 1835', lang: 'Russian', translator: 'Our translation', original: `Сказка ложь, да в ней намек!
 Добрым молодцам урок.`, translation: `The tale is a lie, but there’s a hint in it:
 A lesson for good young men.`, note: `<p>The censor removed this couplet from the tale’s first publication in 1835; Pushkin protested in his diary. Rimsky-Korsakov and his librettist Vladimir Belsky later had their own dealings with the censors over the same story.</p>` },
   ],
@@ -94,9 +94,9 @@ A lesson for good young men.`, note: `<p>The censor removed this couplet from th
   ],
   lineage: { from: ['Mikhail Glinka', 'Mily Balakirev', 'liszt', 'Russian folk song and Orthodox chant'], to: ['stravinsky', 'prokofiev', 'Alexander Glazunov', 'Anatoly Lyadov', 'Ottorino Respighi'], note: `<p>Glinka and [[liszt|Liszt]] supplied models for the young composer’s sea music and supernatural scales. [[stravinsky|Stravinsky]] learnt at his desk, orchestrating piano reductions and comparing them with the originals; [[prokofiev|Prokofiev]] took his orchestration class at the Conservatory. In <i>The Firebird</i>, Stravinsky still gives Kashchei’s magic octatonic harmony and the human characters folk-like, diatonic tunes, the same distinction his teacher had drawn.</p>` },
   reading: [
-    'Nikolai Rimsky-Korsakov, <i>My Musical Life</i>, translated by Judah A. Joffe — the composer’s indispensable, partisan retrospective account.',
-    'Nikolai Rimsky-Korsakov, <i>Principles of Orchestration</i>, edited by Maximilian Steinberg — examples are most useful when read alongside the complete scores.',
-    'Marina Frolova-Walker, <i>Russian Music and Nationalism: From Glinka to Stalin</i> (Yale, 2007) — places the nationalist categories in their institutional and political history.',
-    '<a href="https://www.tretyakovgallerymagazine.com/articles/1-2012-34/nikolai-rimsky-korsakov-opera-golden-cockerel">Tretyakov Gallery Magazine, “Nikolai Rimsky-Korsakov. Opera ‘The Golden Cockerel’”</a> — the opera’s censorship and visual history.',
+    'Nikolai Rimsky-Korsakov, <i>My Musical Life</i>, translated by Judah A. Joffe: the composer’s indispensable, partisan retrospective account.',
+    'Nikolai Rimsky-Korsakov, <i>Principles of Orchestration</i>, edited by Maximilian Steinberg: examples are most useful when read alongside the complete scores.',
+    'Marina Frolova-Walker, <i>Russian Music and Nationalism: From Glinka to Stalin</i> (Yale, 2007): places the nationalist categories in their institutional and political history.',
+    '<a href="https://www.tretyakovgallerymagazine.com/articles/1-2012-34/nikolai-rimsky-korsakov-opera-golden-cockerel">Tretyakov Gallery Magazine, “Nikolai Rimsky-Korsakov. Opera ‘The Golden Cockerel’”</a>: the opera’s censorship and visual history.',
   ],
 };

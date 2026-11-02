@@ -93,7 +93,7 @@ V:1
   arts: [
     {
       relation: 'documented-use',
-      type: 'poem', author: 'George Crabbe', title: 'The Borough, Letter XXII — Peter Grimes', date: '1810', lang: 'English',
+      type: 'poem', author: 'George Crabbe', title: 'The Borough, Letter XXII: Peter Grimes', date: '1810', lang: 'English',
       original: `He nursed the feelings these dull scenes produce,
 And loved to stop beside the opening sluice;
 Where the small stream, confined in narrow bound,
@@ -136,9 +136,9 @@ And each slow dusk a drawing-down of blinds.`,
     note: `<p>Purcell supplied the tune for <i>The Young Person’s Guide</i>. Bridge taught Britten to question every note, and London’s concerts introduced him to the music of [[mahler|Mahler]], [[berg|Berg]] and [[stravinsky|Stravinsky]]. Oliver Knussen, whose father played bass in <i>Curlew River</i>, recalled Britten urging him in 1964 to learn counterpoint. Pears invited Knussen to become an Aldeburgh director in 1983, and [[ades|Thomas Adès]] was artistic director from 1999 to 2008. The festival also gave first performances of music by Harrison Birtwistle.</p>`,
   },
   reading: [
-    'Paul Kildea, <i>Benjamin Britten: A Life in the Twentieth Century</i> (Allen Lane, 2013) — biography with sustained attention to his performing and institutional work.',
-    'Mervyn Cooke, <i>Britten: War Requiem</i> (Cambridge, 1996) — the commission, texts, musical structure and early performances.',
-    '<a href="https://www.brittenpearsarts.org/news/benjamin-britten">Britten Pears Arts, “Benjamin Britten”</a> — archive-based biography and links to individual work guides.',
-    '<a href="https://anthology.lib.virginia.edu/work/Owen/owen-anthem">University of Virginia, “Anthem for Doomed Youth”</a> — text checked against the 1920 edition of Owen’s poems.',
+    'Paul Kildea, <i>Benjamin Britten: A Life in the Twentieth Century</i> (Allen Lane, 2013): biography with sustained attention to his performing and institutional work.',
+    'Mervyn Cooke, <i>Britten: War Requiem</i> (Cambridge, 1996): the commission, texts, musical structure and early performances.',
+    '<a href="https://www.brittenpearsarts.org/news/benjamin-britten">Britten Pears Arts, “Benjamin Britten”</a>: archive-based biography and links to individual work guides.',
+    '<a href="https://anthology.lib.virginia.edu/work/Owen/owen-anthem">University of Virginia, “Anthem for Doomed Youth”</a>: text checked against the 1920 edition of Owen’s poems.',
   ],
 };

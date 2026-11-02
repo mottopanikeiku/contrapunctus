@@ -41,7 +41,7 @@ export default {
   orchestra: {
     ensemble: ['piccolo', 'flutes', 'oboes', 'clarinets', 'e-flat-clarinet', 'bassoons', 'horns', 'trumpets', 'cornets', 'trombones', 'tuba', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Berlioz, Songe d’une nuit du Sabbat — orchestral score', url: 'http://www.hberlioz.com/scosupp/symfantas5.pdf', locator: 'Introduction, bars 1–20; idée fixe, bars 21–78; bells from bar 102; Dies irae from bar 127; witches’ round from bar 241; combined themes from bar 414; col legno, bars 444–460. The tuba symbol shows the two ophicleide parts; percussion includes the bells.' },
+    source: { title: 'Berlioz, Songe d’une nuit du Sabbat: orchestral score', url: 'http://www.hberlioz.com/scosupp/symfantas5.pdf', locator: 'Introduction, bars 1–20; idée fixe, bars 21–78; bells from bar 102; Dies irae from bar 127; witches’ round from bar 241; combined themes from bar 414; col legno, bars 444–460. The tuba symbol shows the two ophicleide parts; percussion includes the bells.' },
     timeline: [
       { t: 0, playing: ['timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'violins-2'], note: 'Muted upper strings tremble above rising cello and bass figures and soft timpani strokes.' },
       { t: 90, playing: ['clarinets', 'timpani', 'percussion', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['clarinets'], note: 'A C clarinet plays the idée fixe over quiet drums; the strings join the crescendo.' },

@@ -54,7 +54,7 @@ export default {
     { year: '1924', title: 'Relâche, with Cinéma for Entr’acte', forces: 'Orchestra; ballet and film', note: 'Picabia’s ballet included René Clair’s film, in which Satie himself appears with a cannon. The film score gives the conductor repeatable passages to fit the projected action.' },
   ],
   score: [
-    { kicker: 'Gymnopédie No. 1 — accompaniment reduction', title: 'G major seventh, then D major seventh', abc: `X:1
+    { kicker: 'Gymnopédie No. 1: accompaniment reduction', title: 'G major seventh, then D major seventh', abc: `X:1
 T:Gymnopedie No. 1: opening harmony, reduced
 M:3/4
 L:1/4
@@ -68,7 +68,7 @@ z [Bdf]2 | z [Acf]2 | z [Bdf]2 | z [Acf]2 |]
 V:2
 %%MIDI program 0
 G,, z2 | D,, z2 | G,, z2 | D,, z2 |]`, caption: 'A schematic of the First <i>Gymnopédie</i>’s opening accompaniment, with the upper notes brought together and the melody omitted. The bass falls on beat one, the chord on beat two. F♯ is held in both chords. It is the seventh above G in the first and the third above D in the second, and C♯ supplies the new seventh.' },
-    { kicker: 'Repeated blocks — schematic', title: 'Duration without crescendo', abc: `X:2
+    { kicker: 'Repeated blocks: schematic', title: 'Duration without crescendo', abc: `X:2
 T:Repeatable unit (schematic)
 M:2/4
 L:1/4
@@ -90,8 +90,8 @@ K:C
   ],
   lineage: { from: ['Montmartre cabaret', 'Albert Roussel', 'Plainchant', 'French dance forms'], to: ['debussy', 'ravel', 'poulenc', 'cage', 'Darius Milhaud'], note: '<p>Roussel taught him counterpoint; Debussy orchestrated two <i>Gymnopédies</i>; Ravel played the early pieces in public. Milhaud helped with furniture music and remained a friend. [[poulenc|Poulenc]] kept returning to Satie’s example, even after their quarrel. In 1963 Cage presented <i>Vexations</i>, until then a private manuscript, in concert.</p>' },
   reading: [
-    'Robert Orledge, <i>Satie the Composer</i> (Cambridge University Press, 1990) — close work with the manuscripts and composing procedures.',
-    'Caroline Potter, <i>Erik Satie: A Parisian Composer and His World</i> (Boydell, 2016) — the city, collaborators and work beyond the familiar piano miniatures.',
-    'Mary E. Davis, <i>Erik Satie</i> (Reaktion, 2007) — a concise life attentive to dress, design and other arts.',
+    'Robert Orledge, <i>Satie the Composer</i> (Cambridge University Press, 1990): close work with the manuscripts and composing procedures.',
+    'Caroline Potter, <i>Erik Satie: A Parisian Composer and His World</i> (Boydell, 2016): the city, collaborators and work beyond the familiar piano miniatures.',
+    'Mary E. Davis, <i>Erik Satie</i> (Reaktion, 2007): a concise life attentive to dress, design and other arts.',
   ],
 };

@@ -3,7 +3,7 @@
   "work": {
     "title": "Gaspard de la nuit",
     "catalogue": "M. 55",
-    "movement": "II. Le Gibet — Très lent",
+    "movement": "II. Le Gibet, Très lent",
     "version": {
       "value": "Original solo-piano movement; performing edition unidentified.",
       "status": "documented",
@@ -124,34 +124,34 @@
       ],
       "note": "The licence is reported from the source page, not inferred from the age of the composition. The uploader describes this as their own recording."
     },
-    "creditLine": "Maurice Ravel, Gaspard de la nuit, II. Le Gibet — Très lent; OE1FEU. Own recording dated 3 April 2020, Kaisersaal, Vienna; via Wikimedia Commons; CC BY-SA 4.0.",
+    "creditLine": "Maurice Ravel, Gaspard de la nuit, II. Le Gibet: Très lent; OE1FEU. Own recording dated 3 April 2020, Kaisersaal, Vienna; via Wikimedia Commons; CC BY-SA 4.0.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Maurice Ravel- Gaspard de la Nuit- II Le Gibet.flac",
+      "title": "Wikimedia Commons: Maurice Ravel- Gaspard de la Nuit- II Le Gibet.flac",
       "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel-_Gaspard_de_la_Nuit-_II_Le_Gibet.flac",
       "locator": "File description: identification, performers, date, source and licence; audio duration and transcoded MP3. Raw wikitext and the audio-info endpoint were inspected.",
       "accessed": "2026-10-17"
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Gaspard de la nuit",
+      "title": "IMSLP: Gaspard de la nuit",
       "url": "https://imslp.org/wiki/Gaspard_de_la_nuit_(Ravel%2C_Maurice)",
       "locator": "Work information and original scoring; first publication 1909.",
       "accessed": "2026-10-17"
     },
     {
       "id": "us-term",
-      "title": "U.S. Copyright Office — Duration of Copyright, Circular 15A",
+      "title": "U.S. Copyright Office: Duration of Copyright, Circular 15A",
       "url": "https://www.copyright.gov/circs/circ15a.pdf",
       "locator": "Pages 2–3: maximum 95-year term for pre-1978 publications and restored foreign works; this is a jurisdiction-specific term calculation.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score",
-      "title": "Ravel — Gaspard de la nuit, Durand plate D. & F. 7207",
+      "title": "Ravel: Gaspard de la nuit, Durand plate D. & F. 7207",
       "url": "https://s9.imslp.org/files/imglnks/usimg/6/6a/IMSLP246875-PMLP02576-Ravel,_Maurice-Gaspard_de_la_nuit_Durand_7207_scan.pdf",
       "locator": "1909 edition; Ondine pp. 3–14, Le Gibet pp. 17–20, Scarbo pp. 23–42. The scan was rendered and the relevant score pages inspected.",
       "accessed": "2026-10-17"

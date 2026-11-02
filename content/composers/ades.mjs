@@ -56,10 +56,10 @@ export default {
   ],
   score: [
     {
-      kicker: 'Aligned interval cycles — schematic',
+      kicker: 'Aligned interval cycles: schematic',
       title: 'Three rules, six chords',
       abc: `X:1
-T:Aligned cycles — schematic
+T:Aligned cycles: schematic
 M:3/4
 L:1/4
 Q:1/4=66
@@ -79,10 +79,10 @@ V:3
       caption: 'A schematic, with invented notes, of the interval cycles used in the Piano Quintet and <i>The Tempest</i>. The top line rises by whole tones, the middle by minor thirds and the bass by major thirds. The three lines begin together on a widely spaced C major chord, and each following chord comes from the next step in all three. Enharmonic spellings keep the notes readable.',
     },
     {
-      kicker: 'The Four Quarters — metric schematic',
+      kicker: 'The Four Quarters: metric schematic',
       title: 'The twenty-fifth semiquaver',
       abc: `X:2
-T:25/16 grouped 8 + 3 + 8 + 6 — schematic
+T:25/16 grouped 8 + 3 + 8 + 6: schematic
 M:25/16
 L:1/16
 Q:1/4=88
@@ -129,9 +129,9 @@ Into something rich and strange.`,
     note: `<p>Adès has played [[couperin|Couperin]] and [[janacek|Janáček]] and worked with Dowland’s music at the piano. He has also engaged with [[schubert|Schubert]] and [[debussy|Debussy]]. [[kurtag|Kurtág]] coached him as a chamber musician. In 2007 Adès arranged two of Nancarrow’s studies for player piano for two pianos, so that their competing speeds are played by human hands.</p>`,
   },
   reading: [
-    'Thomas Adès and Tom Service, <i>Thomas Adès: Full of Noises</i> (Faber and Faber, 2012) — conversations about compositional processes, interpretation and strongly held judgements of other composers.',
-    'Edward Venn and Philip Stoecker, eds, <i>Thomas Adès Studies</i> (Cambridge, 2022) — detailed analyses of harmony, form, theatre and cultural reference.',
-    '<a href="https://ressources.ircam.fr/en/composer/thomas-ades/workcourse">Hélène Cao, IRCAM survey of Adès’s works</a> — interval-generating procedures and their relationship to quotation and dramatic subjects.',
-    '<a href="https://thomasades.com/">Thomas Adès’s official website</a> — compositions, performance chronology and discography.',
+    'Thomas Adès and Tom Service, <i>Thomas Adès: Full of Noises</i> (Faber and Faber, 2012): conversations about compositional processes, interpretation and strongly held judgements of other composers.',
+    'Edward Venn and Philip Stoecker, eds, <i>Thomas Adès Studies</i> (Cambridge, 2022): detailed analyses of harmony, form, theatre and cultural reference.',
+    '<a href="https://ressources.ircam.fr/en/composer/thomas-ades/workcourse">Hélène Cao, IRCAM survey of Adès’s works</a>: interval-generating procedures and their relationship to quotation and dramatic subjects.',
+    '<a href="https://thomasades.com/">Thomas Adès’s official website</a>: compositions, performance chronology and discography.',
   ],
 };

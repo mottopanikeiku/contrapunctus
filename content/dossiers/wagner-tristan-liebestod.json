@@ -3,7 +3,7 @@
   "work": {
     "title": "Tristan und Isolde, WWV 90",
     "catalogue": "WWV 90",
-    "movement": "Liebestod — “Mild und leise”",
+    "movement": "Liebestod: “Mild und leise”",
     "version": {
       "value": "Act III closing scene with soprano, “Mild und leise”",
       "status": "documented",
@@ -18,7 +18,7 @@
     "value": [
       {
         "name": "Nanny Larsen-Todsen",
-        "role": "soprano — Isolde"
+        "role": "soprano: Isolde"
       },
       {
         "name": "Bayreuth Festival Orchestra",
@@ -158,7 +158,7 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Larsen-Todsen — Preiser LV 174 side A",
+      "title": "Larsen-Todsen: Preiser LV 174 side A",
       "url": "https://archive.org/metadata/nanny-larsen-todsen-preiser-lv-174-side-a",
       "locator": "Description track 3, original Columbia L 2206 (1928); files list MP3 derivative and PDM rights URL.",
       "accessed": "2026-10-17"
@@ -172,14 +172,14 @@
     },
     {
       "id": "naxos",
-      "title": "1928 Tristan — Naxos Historical rear inlay",
+      "title": "1928 Tristan: Naxos Historical rear inlay",
       "url": "https://cdn.naxos.com/SharedFiles/pdf/rear/8.110200-02r.pdf",
       "locator": "Karl Elmendorff, Bayreuth Festival Orchestra, August 1928 at Wagner Theater; matrix series includes WAX 3986/87. This is a different transfer.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score",
-      "title": "Vocal and orchestral Liebestod — Sibley score",
+      "title": "Vocal and orchestral Liebestod: Sibley score",
       "url": "https://hdl.handle.net/1802/13070",
       "locator": "Breitkopf excerpt score pp. 14–30, with Isolde’s vocal part.",
       "accessed": "2026-10-17"

@@ -3,7 +3,7 @@ export default {
   "composer": "wagner",
   "order": 10,
   "work": "Tristan und Isolde, WWV 90",
-  "movement": "Prelude to Act I — concert version",
+  "movement": "Prelude to Act I: concert version",
   "year": "1857–59",
   "key": "A minor (opening tonal reference)",
   "forces": "Orchestra",
@@ -14,7 +14,7 @@ export default {
   },
   "set": {
     "id": "wagner-tristan-excerpts",
-    "title": "Tristan und Isolde — Prelude and Liebestod",
+    "title": "Tristan und Isolde: Prelude and Liebestod",
     "part": 1,
     "of": 2, "unit": "excerpts" },
   "intro": "The Prelude to Act I of Wagner’s <i>Tristan und Isolde</i>, WWV 90, is heard here in its concert version. It opens with a four-note phrase in the cellos that leads to the woodwind, and the motion by a single semitone in that opening recurs throughout the prelude.",

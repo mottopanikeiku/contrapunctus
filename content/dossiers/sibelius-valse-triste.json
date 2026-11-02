@@ -74,7 +74,7 @@
       "note": ""
     },
     "matrixTakeSides": {
-      "value": "FX 51 — Valse triste",
+      "value": "FX 51: Valse triste",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -154,7 +154,7 @@
       ]
     },
     "recording": {
-      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "value": "Rule 3, territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
       "status": "inferred",
       "sourceIds": [
         "rights-audit-commons",
@@ -191,7 +191,7 @@
     },
     {
       "id": "upstream",
-      "title": "Internet Archive: Judith Bokor — Columbia, 1924–1925",
+      "title": "Internet Archive: Judith Bokor, Columbia, 1924–1925",
       "url": "https://archive.org/metadata/3-judith-bokor-col-d-17144-fx-16-17-kol-nidrei_202309",
       "locator": "Description discography row 6: Valse triste, matrix FX 51, 5 June 1925, Columbia D 12801. File: 6 Judith Bokor - Col D 12801 FX 51 Sibelius.flac; addeddate is 22 September 2023.",
       "accessed": "2026-10-16"
@@ -240,28 +240,28 @@
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Judith Bokor plays Valse triste by Sibelius.flac",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Judith Bokor plays Valse triste by Sibelius.flac",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Judith Bokor plays Valse triste by Sibelius.flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-term",
-      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "title": "Directive 2011/77/EU: non-revival of expired phonogram terms",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Recitals 1–3; Article 1(3), inserting Article 10(5): extension applies to performances and phonograms still protected on 1 November 2013.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-audio",
-      "title": "Wikimedia Commons — recording-specific scope of PD-EU-audio",
+      "title": "Wikimedia Commons: recording-specific scope of PD-EU-audio",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Template and documentation concern performers’ and producers’ rights, not merely composition copyright; territorial European expiry.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-bokor-discography",
-      "title": "Internet Archive — Judith Bokor Columbia discography",
+      "title": "Internet Archive: Judith Bokor Columbia discography",
       "url": "https://archive.org/metadata/3-judith-bokor-col-d-17144-fx-16-17-kol-nidrei_202309/metadata",
       "locator": "Description table row 6 identifies Valse triste, matrix FX 51, recorded 5 June 1925, Columbia D 12801. No first-publication date is supplied.",
       "accessed": "2026-10-17"

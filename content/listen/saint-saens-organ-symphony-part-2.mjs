@@ -3,7 +3,7 @@ export default {
   composer: 'saint-saens',
   order: 3,
   work: 'Symphony No. 3 in C minor, Op. 78 “Organ”',
-  movement: 'Part II — Scherzo · Presto · Maestoso · Allegro',
+  movement: 'Part II: Scherzo · Presto · Maestoso · Allegro',
   set: { id: 'saint-saens-symphony-3', title: 'Symphony No. 3 in C minor, Op. 78 “Organ”', part: 2, of: 2, unit: 'parts' },
   year: '1886',
   key: 'C minor',

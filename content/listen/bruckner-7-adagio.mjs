@@ -13,7 +13,7 @@ export default {
   composer: 'bruckner',
   order: 20,
   work: 'Symphony No. 7 in E major, WAB 107',
-  movement: 'II. Adagio — Sehr feierlich und sehr langsam',
+  movement: 'II. Adagio, Sehr feierlich und sehr langsam',
   set: { id: 'bruckner-symphony-7', title: 'Symphony No. 7 in E major', part: 2, of: 4 },
   year: '1881–83',
   key: 'C♯ minor',

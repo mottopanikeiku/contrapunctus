@@ -129,7 +129,7 @@
       "note": "Mozart died in 1791. This term calculation does not clear an unidentified modern edition or reconstruction."
     },
     "recording": {
-      "value": "Rule 1 — CC BY-SA 2.0, through the documented EFF Open Audio License release",
+      "value": "Rule 1, CC BY-SA 2.0, through the documented EFF Open Audio License release",
       "status": "documented",
       "sourceIds": [
         "commons"
@@ -149,14 +149,14 @@
     },
     {
       "id": "soniventorum",
-      "title": "Soni Ventorum Wind Quintet — archive",
+      "title": "Soni Ventorum Wind Quintet: archive",
       "url": "https://soniventorum.com/soniventorum_archives.html",
       "locator": "Mozart, Concerto in A major, K. 622: University Symphony, Abraham Kaplan and William McColl using an instrument of his own construction; performed December 1987.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright term",
+      "title": "Directive 2006/116/EC: copyright term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1 and 8; ordinary copyright term for the original composition.",
       "accessed": "2026-10-17"

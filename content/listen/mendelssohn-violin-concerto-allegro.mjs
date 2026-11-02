@@ -1,7 +1,7 @@
 // Form, cadenza, history, Joachim: https://en.wikipedia.org/wiki/Violin_Concerto_(Mendelssohn)
 // First performance, dedication, bar counts, instrumentation: https://imslp.org/wiki/Violin_Concerto_in_E_minor,_Op.64_(Mendelssohn,_Felix)
 // Score used for page references: IMSLP, Breitkopf & Härtel full score (Rietz edition), printed pp. 1–27, https://imslp.org/wiki/Violin_Concerto_in_E_minor,_Op.64_(Mendelssohn,_Felix)
-// Performance credit (uploader’s YouTube description): Soojin Han, violin; Hankyung Arte Philharmonic; Seokwon Hong, conductor; Seoul Arts Centre Concert Hall, 23 September 2022 — https://www.youtube.com/watch?v=aegrdfHxXRA
+// Performance credit (uploader’s YouTube description): Soojin Han, violin; Hankyung Arte Philharmonic; Seokwon Hong, conductor; Seoul Arts Centre Concert Hall, 23 September 2022: https://www.youtube.com/watch?v=aegrdfHxXRA
 // Recording licence (YouTube CC-BY template on Commons): https://commons.wikimedia.org/wiki/File:Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor,_Op._64,_MWV_O_14_-_I._Allegro_molto_appassionato.ogg
 export default {
   id: 'mendelssohn-violin-concerto-allegro',

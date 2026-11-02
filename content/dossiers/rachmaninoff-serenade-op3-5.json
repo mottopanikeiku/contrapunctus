@@ -3,7 +3,7 @@
   "work": {
     "title": "Sérénade",
     "catalogue": "Op. 3 No. 5",
-    "movement": "Sostenuto — Tempo di Valse",
+    "movement": "Sostenuto, Tempo di Valse",
     "version": {
       "value": "Original (1892) version of the Sérénade, as played by the composer in 1922; performing text not identified",
       "status": "inferred",
@@ -150,7 +150,7 @@
       ],
       "note": "DAHR’s catalogue records for Victor 66129 and 816 give a publication date of [1922], and an Internet Archive digitisation of Victrola 66129 gives 1922; both are catalogue-derived years, not release days. The 1925 Victor catalogue lists the Serenade (Op. 3, No. 5) coupled with the Minuet from L’Arlésienne, which establishes publication no later than 1925 independently of the session date. The Archive item’s Public Domain Mark is noted but not relied on. The 1992 booklet carries an all-rights-reserved reissue notice: no claim is made that its text, artwork or compilation is public domain, or that any new creative contribution to the mastering is cleared worldwide."
     },
-    "creditLine": "Sergei Rachmaninoff, piano — Sérénade, Op. 3 No. 5. Victor 66129 and 816, matrix B-27110 take 5 (New York, 4 November 1922). Digital source: RCA/BMG Complete Recordings (1992), CD 10, via Internet Archive; Public Domain Mark 1.0 is the item’s licence statement.",
+    "creditLine": "Sergei Rachmaninoff, piano: Sérénade, Op. 3 No. 5. Victor 66129 and 816, matrix B-27110 take 5 (New York, 4 November 1922). Digital source: RCA/BMG Complete Recordings (1992), CD 10, via Internet Archive; Public Domain Mark 1.0 is the item’s licence statement.",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
   },
   "sources": [

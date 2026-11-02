@@ -130,7 +130,7 @@ V:1 name="Piano"
     {
       relation: 'documented-use',
       type: 'poem',
-      author: 'John of Patmos; Latin Vulgate tradition', title: 'Revelation 10:1, 5–6 — the angel’s oath', date: 'First century CE; Clementine Vulgate edition, 1598',
+      author: 'John of Patmos; Latin Vulgate tradition', title: 'Revelation 10:1, 5–6: the angel’s oath', date: 'First century CE; Clementine Vulgate edition, 1598',
       lang: 'Latin', translator: 'Our translation',
       original: `Et vidi alium angelum fortem descendentem de cælo amictum nube,
 et iris in capite ejus, et facies ejus erat ut sol,
@@ -178,11 +178,11 @@ that time would be no more.`,
   },
 
   reading: [
-    'Peter Hill and Nigel Simeone, <i>Messiaen</i> (Yale University Press, 2005) — documentary biography using diaries, correspondence and testimony from Yvonne Loriod.',
-    'Christopher Dingle, <i>The Life of Messiaen</i> (Cambridge University Press, 2007) — a chronological account; the <a href="https://assets.cambridge.org/97805216/32201/excerpt/9780521632201_excerpt.htm">publisher’s opening chapter</a> documents the literary childhood, Debussy discovery and Sainte-Chapelle visits.',
-    'Rebecca Rischin, <i>For the End of Time: The Story of the Messiaen Quartet</i> (Cornell University Press, 2003; expanded edition 2006) — the musicians, captivity and conflicting memories of the première.',
-    'Olivier Messiaen, <i>Technique de mon langage musical</i>, 2 vols (Alphonse Leduc, 1944) — the composer’s definitions and notated examples of modes, added values and non-retrogradable rhythms.',
-    'Nigel Simeone, <a href="https://www.hyperion-records.co.uk/dw.asp?dc=W15787_120126">notes on the Quartet</a> (Signum, 2008) — prints Pasquier’s corrections to the première story and identifies the earlier sources of the two <i>Louanges</i>.',
-    '<a href="https://www.bso.org/exhibits/koussevitzky-as-patron-commissioning-messiaens-turangalila-symphonie">Boston Symphony Orchestra: Koussevitzky and the Turangalîla commission</a> — institutional documentation of the commission and 1949 première.',
+    'Peter Hill and Nigel Simeone, <i>Messiaen</i> (Yale University Press, 2005): documentary biography using diaries, correspondence and testimony from Yvonne Loriod.',
+    'Christopher Dingle, <i>The Life of Messiaen</i> (Cambridge University Press, 2007): a chronological account; the <a href="https://assets.cambridge.org/97805216/32201/excerpt/9780521632201_excerpt.htm">publisher’s opening chapter</a> documents the literary childhood, Debussy discovery and Sainte-Chapelle visits.',
+    'Rebecca Rischin, <i>For the End of Time: The Story of the Messiaen Quartet</i> (Cornell University Press, 2003; expanded edition 2006): the musicians, captivity and conflicting memories of the première.',
+    'Olivier Messiaen, <i>Technique de mon langage musical</i>, 2 vols (Alphonse Leduc, 1944): the composer’s definitions and notated examples of modes, added values and non-retrogradable rhythms.',
+    'Nigel Simeone, <a href="https://www.hyperion-records.co.uk/dw.asp?dc=W15787_120126">notes on the Quartet</a> (Signum, 2008): prints Pasquier’s corrections to the première story and identifies the earlier sources of the two <i>Louanges</i>.',
+    '<a href="https://www.bso.org/exhibits/koussevitzky-as-patron-commissioning-messiaens-turangalila-symphonie">Boston Symphony Orchestra: Koussevitzky and the Turangalîla commission</a>: institutional documentation of the commission and 1949 première.',
   ],
 };

@@ -57,7 +57,7 @@ V:1 name="Intervals"
 <p>At Rupertsberg in the twelfth century, Hildegard of Bingen wrote chants for her nuns with leaps and long melismas that took the voice beyond the range of many older melodies. Near the end of her life, a dispute over a burial brought an interdict on the community, and the women had to recite their services instead of singing them. Writing to the prelates of Mainz in 1178–79, Hildegard told them that those who unjustly silenced a church would “lose their share in the angels’ praises in heaven”.</p>`,
       score: [{
         kicker: 'Quotation · medieval sequence',
-        title: 'Dies irae — first stanza',
+        title: 'Dies irae: first stanza',
         abc: `X:2
 T:Dies irae
 M:none
@@ -124,7 +124,7 @@ w: ut re mi fa sol la ut re mi fa sol la ut re mi fa sol la`,
         {
           relation: 'documented-use',
           type: 'poem', author: 'Traditionally attributed to Paul the Deacon',
-          title: 'Ut queant laxis — first stanza', date: 'Eighth century', lang: 'Latin', translator: 'Our translation',
+          title: 'Ut queant laxis: first stanza', date: 'Eighth century', lang: 'Latin', translator: 'Our translation',
           original: `Ut queant laxis
 resonare fibris
 mira gestorum

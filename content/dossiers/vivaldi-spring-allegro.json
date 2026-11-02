@@ -1,7 +1,7 @@
 {
   "id": "vivaldi-spring-allegro",
   "work": {
-    "title": "The Four Seasons — Spring",
+    "title": "The Four Seasons: Spring",
     "catalogue": "Op. 8 No. 1; RV 269",
     "movement": "I. Allegro",
     "version": {
@@ -81,7 +81,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Gmaxwell — addition of ReplayGain tags",
+      "value": "Gmaxwell: addition of ReplayGain tags",
       "status": "documented",
       "sourceIds": [
         "commons"
@@ -123,20 +123,20 @@
       "note": "Antonio Vivaldi died in 1741. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
     },
     "recording": {
-      "value": "Rule 1 — recording licence/release: CC BY-SA 4.0 International, selected from the 1.0-or-later grant.",
+      "value": "Rule 1, recording licence/release: CC BY-SA 4.0 International, selected from the 1.0-or-later grant.",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons"
       ],
       "note": "Commons identifies John Harrison as recording copyright holder and uses self|cc-by-sa-1.0+ with his name; version 4.0 is selected from the later-version grant. The performance date is explicitly 6 February 2000. Retain attribution and share-alike terms."
     },
-    "creditLine": "Antonio Vivaldi: Spring, Op. 8 No. 1, RV 269, I. Allegro — John Harrison, violin; Wichita State University Chamber Players; Robert Turizziani, conductor, 6 February 2000. Recording copyright John Harrison, CC BY-SA 4.0, via Wikimedia Commons; MP3 access derivative.",
+    "creditLine": "Antonio Vivaldi: Spring, Op. 8 No. 1, RV 269, I. Allegro: John Harrison, violin; Wichita State University Chamber Players; Robert Turizziani, conductor, 6 February 2000. Recording copyright John Harrison, CC BY-SA 4.0, via Wikimedia Commons; MP3 access derivative.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin.oga",
+      "title": "Wikimedia Commons: File:Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin.oga",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=1189153589",
       "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
       "accessed": "2026-10-16"
@@ -150,7 +150,7 @@
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin.oga",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin.oga",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin.oga; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"

@@ -3,7 +3,7 @@ export default {
   "composer": "dvorak",
   "order": 5,
   "work": "Symphony No. 9 in E minor “From the New World”, Op. 95",
-  "movement": "III. Scherzo — Molto vivace",
+  "movement": "III. Scherzo, Molto vivace",
   "set": {
     "id": "dvorak-symphony-9",
     "title": "Symphony No. 9 in E minor “From the New World”, Op. 95",

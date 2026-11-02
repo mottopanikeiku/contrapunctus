@@ -4,7 +4,7 @@ export default {
   "order": 24,
   "set": { "id": "ravel-miroirs", "title": "Miroirs", "part": 5, "of": 5, "unit": "pieces" },
   "work": "Miroirs",
-  "movement": "V. La vallée des cloches — Très lent",
+  "movement": "V. La vallée des cloches, Très lent",
   "year": "1904–05",
   "key": "C♯ minor",
   "forces": "Piano",
@@ -40,7 +40,7 @@ export default {
     },
     {
       "t": 98, "kind": "form", "title": "Central melody, <i>Largement chanté</i>",
-      "text": "<i>Largement chanté</i> — broadly sung. A long melody begins among the repeated bell figures. Its phrases move from note to note over the sustained low bass, and it is the broadest melodic writing in the piece.",
+      "text": "<i>Largement chanté</i> (broadly sung). A long melody begins among the repeated bell figures. Its phrases move from note to note over the sustained low bass, and it is the broadest melodic writing in the piece.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Demets first edition (1906), PDF pp. 45–47; Fyr, paragraph 15, distinguishes the central melodic carillon from the eleven shorter repeating bell figures.",
     },

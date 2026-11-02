@@ -39,7 +39,7 @@ export default {
       "bar": { "n": "9", "occ": 1 },
       "kind": "music",
       "title": "Pizzicato rain, orchestral violins",
-      "text": "“Mentre la pioggia fuor bagna ben cento” — “While outside the rain soaks a hundred others.” The orchestral violins play pizzicato throughout. After its first cadence in B♭ major, the solo melody starts again from B♭ and moves back towards E♭.",
+      "text": "“Mentre la pioggia fuor bagna ben cento” (“While outside the rain soaks a hundred others.”) The orchestral violins play pizzicato throughout. After its first cadence in B♭ major, the solo melody starts again from B♭ and moves back towards E♭.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter E; translation ours. Italian text at https://nac-cna.ca/en/event/notes/36996; Mutopia score, II, bars 8–16, with La Pioggia and Pizziccati forte in the orchestral violins."
@@ -101,7 +101,7 @@ export default {
     "solo": "solo-violin",
     "basis": "score-proportion",
     "source": {
-      "title": "Vivaldi, The Four Seasons — Mutopia score after Performers’ Facsimiles",
+      "title": "Vivaldi, The Four Seasons: Mutopia score after Performers’ Facsimiles",
       "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351",
       "locator": "II. Largo, all 18 bars; stable bowed-solo / pizzicato-violin / quiet-bass texture. Passage-level participation, not individual attack alignment; cellos/basses represent the written basso part, with no claim about keyboard realization."
     },

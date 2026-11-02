@@ -59,7 +59,7 @@ export default {
   ],
   score: [
     {
-      kicker: 'Játékok — schematic',
+      kicker: 'Játékok: schematic',
       title: 'Attack, space, reply',
       abc: `X:1
 T:Keyboard gestures - schematic
@@ -73,7 +73,7 @@ V:1 name="Piano"
       caption: 'Schematic, invented for this page: C–D–E–F sound together, then the same white-note cluster is repeated an octave higher and quietly. A whole bar separates them; the final rest has a fermata. The fixed pitches here illustrate the attack and pause; in <i>Játékok</i> a hand movement often determines the notes.',
     },
     {
-      kicker: 'Chamber writing — schematic',
+      kicker: 'Chamber writing: schematic',
       title: 'Semitone shared between players',
       abc: `X:2
 T:Interval and reply - schematic
@@ -137,8 +137,8 @@ with harmonies and everlasting reward and peace.`,
     note: `<p>These connections appear in the music itself. [[bach|Bach]] is the source of the four-hand transcriptions; [[schumann|Schumann]] is the source of characters and of a clarinet–viola–piano trio; [[webern|Webern]] is the source of a canon in <i>Officium breve</i>. [[bartok|Bartók]] lies behind the idea that a child’s piano piece can be a composer’s experiment. [[ligeti|Ligeti]] brought Kurtág to Stockhausen and urged him towards Beckett. Kurtág’s pupils included András Schiff and the Keller Quartet.</p>`,
   },
   reading: [
-    'Bálint András Varga, <i>György Kurtág: Three Interviews and Ligeti Homages</i> (University of Rochester Press, 2009) — the composer discussing his work and his friendship with Ligeti.',
-    '<a href="https://www.universaledition.com/en/Contacts/Kurtag-Gyoergy/">Universal Edition biography</a> — the Paris crisis, Marianne Stein and the significance of Op. 1.',
-    '<a href="https://ecmrecords.com/artists/gyorgy-kurtag/">ECM’s Kurtág discography</a> — documented recordings by the composer, Márta Kurtág and their close interpreters.',
+    'Bálint András Varga, <i>György Kurtág: Three Interviews and Ligeti Homages</i> (University of Rochester Press, 2009): the composer discussing his work and his friendship with Ligeti.',
+    '<a href="https://www.universaledition.com/en/Contacts/Kurtag-Gyoergy/">Universal Edition biography</a>: the Paris crisis, Marianne Stein and the significance of Op. 1.',
+    '<a href="https://ecmrecords.com/artists/gyorgy-kurtag/">ECM’s Kurtág discography</a>: documented recordings by the composer, Márta Kurtág and their close interpreters.',
   ],
 };

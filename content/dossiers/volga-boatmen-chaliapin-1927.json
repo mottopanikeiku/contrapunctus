@@ -151,7 +151,7 @@
       "note": "The source gives the arrangers’ deaths as 1938 and 1937. No claim of worldwide clearance is made."
     },
     "recording": {
-      "value": "territorial — European public domain; first published 1928",
+      "value": "territorial: European public domain; first published 1928",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -166,35 +166,35 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Song of the Volga Boatmen, DB 1103",
+      "title": "Wikimedia Commons: Song of the Volga Boatmen, DB 1103",
       "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Feodor_Chaliapin_-_The_Song_of_the_Volga_Boatmen_-_Russian_folk_song_-_Fyodor_Keneman_-_Gramophone-db1103-2-022051.flac",
       "locator": "Summary: date, matrix, conductor, first release 1928; source and transcode status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "upstream",
-      "title": "Swiss Foundation Public Domain — original collection entry",
+      "title": "Swiss Foundation Public Domain: original collection entry",
       "url": "https://pool.publicdomainproject.org/index.php?title=Gramophone-db1103-2-022051",
       "locator": "Carrier, first recording and release dates, source references, equipment categories and rights statement.",
       "accessed": "2026-10-17"
     },
     {
       "id": "discography",
-      "title": "Feodor Chaliapin — complete discography",
+      "title": "Feodor Chaliapin: complete discography",
       "url": "https://artmusiclounge.files.wordpress.com/2016/03/chaliapin-discography.pdf",
       "locator": "Page 5: 20 October 1927; Cc10957-2 and Cc11709-1. Page 6 lists Cc11709-2 as unpublished.",
       "accessed": "2026-10-17"
     },
     {
       "id": "work",
-      "title": "DAHR — earlier recording of the Chaliapin–Keneman arrangement",
+      "title": "DAHR: earlier recording of the Chaliapin–Keneman arrangement",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000007686",
       "locator": "Arrangement attribution and forces, not evidence for the 1927 session.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2011/77/EU — recording term extension",
+      "title": "Directive 2011/77/EU: recording term extension",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Recital 1 and Article 1(3): extension applies to recordings still protected on 1 November 2013.",
       "accessed": "2026-10-17"

@@ -2,7 +2,7 @@ export default {
   "id": "lili-boulanger-psalm-24",
   "composer": "lili-boulanger",
   "order": 3,
-  "work": "Psalm 24 — La terre appartient à l’Éternel",
+  "work": "Psalm 24; La terre appartient à l’Éternel",
   "movement": "",
   "year": "1916",
   "key": "E minor",

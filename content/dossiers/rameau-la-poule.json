@@ -86,7 +86,7 @@
       "note": "Commons applies PD-old-70-expired to the work; Rameau died in 1764. This is separate from copyright in the recorded performance or an unidentified edition."
     },
     "recording": {
-      "value": "Territorial — Commons PD-EU-audio sound-recording status",
+      "value": "Territorial: Commons PD-EU-audio sound-recording status",
       "status": "documented",
       "sourceIds": ["commons", "rights-tag"],
       "note": "The sound-recording-specific PD-EU-audio tag is the programme’s acceptance basis. It states expiry of European performers’ and producers’ rights. US public-domain status is not established and is not asserted. The composition’s public-domain statement does not establish the recording’s US status, and the session date is not substituted for a proven first-publication date."
@@ -95,12 +95,12 @@
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
   },
   "sources": [
-    { "id": "commons", "title": "Wikimedia Commons — La Poule, Marcelle Meyer", "url": "https://commons.wikimedia.org/wiki/File:Jean-Philippe_Rameau_-_La_Poule_(Marcelle_Meyer,_1953).flac", "locator": "Author session, Source DF 98/99, Date/upload distinction and Licensing; opened revision 508310590.", "accessed": "2026-10-17" },
-    { "id": "discography", "title": "Classical Pianists — Marcelle Meyer chronology", "url": "https://classical-pianists.net/viii/marcelle-meyer/chronology/", "locator": "MaMe-C#015: Rameau books, Salle Adyar, 29–30 October 1953, DF 98/99 LP.", "accessed": "2026-10-17" },
-    { "id": "score", "title": "Rameau — Nouvelles suites, keyboard score scan", "url": "https://archive.org/download/imslp-suites-de-pices-de-clavecin-rameau-jean-philippe/Rameau_-_nouvelles_suite.pdf", "locator": "PDF pp. 27–30, printed pp. 86–89: La Poule, opening syllables, first-strain repeat, second strain and final cadence. All four pages viewed.", "accessed": "2026-10-17" },
-    { "id": "score-item", "title": "Internet Archive — Nouvelles suites de pièces de clavecin", "url": "https://archive.org/details/imslp-suites-de-pices-de-clavecin-rameau-jean-philippe", "locator": "Work record and available public-domain score scans; collection publication metadata gives 1728.", "accessed": "2026-10-17" },
-    { "id": "biography", "title": "Jean-Philippe Rameau — biographical and work overview", "url": "https://en.wikipedia.org/wiki/Jean-Philippe_Rameau", "locator": "Life: 1722 treatise and 1733 first opera; harpsichord music: G-major/minor grouping. Compared with the existing composer biography.", "accessed": "2026-10-17" },
-    { "id": "rights-tag", "title": "Wikimedia Commons — PD-EU-audio", "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio", "locator": "Recording-specific European term statement; explicitly separate from underlying composition copyright.", "accessed": "2026-10-17" }
+    { "id": "commons", "title": "Wikimedia Commons: La Poule, Marcelle Meyer", "url": "https://commons.wikimedia.org/wiki/File:Jean-Philippe_Rameau_-_La_Poule_(Marcelle_Meyer,_1953).flac", "locator": "Author session, Source DF 98/99, Date/upload distinction and Licensing; opened revision 508310590.", "accessed": "2026-10-17" },
+    { "id": "discography", "title": "Classical Pianists: Marcelle Meyer chronology", "url": "https://classical-pianists.net/viii/marcelle-meyer/chronology/", "locator": "MaMe-C#015: Rameau books, Salle Adyar, 29–30 October 1953, DF 98/99 LP.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Rameau: Nouvelles suites, keyboard score scan", "url": "https://archive.org/download/imslp-suites-de-pices-de-clavecin-rameau-jean-philippe/Rameau_-_nouvelles_suite.pdf", "locator": "PDF pp. 27–30, printed pp. 86–89: La Poule, opening syllables, first-strain repeat, second strain and final cadence. All four pages viewed.", "accessed": "2026-10-17" },
+    { "id": "score-item", "title": "Internet Archive: Nouvelles suites de pièces de clavecin", "url": "https://archive.org/details/imslp-suites-de-pices-de-clavecin-rameau-jean-philippe", "locator": "Work record and available public-domain score scans; collection publication metadata gives 1728.", "accessed": "2026-10-17" },
+    { "id": "biography", "title": "Jean-Philippe Rameau: biographical and work overview", "url": "https://en.wikipedia.org/wiki/Jean-Philippe_Rameau", "locator": "Life: 1722 treatise and 1733 first opera; harpsichord music: G-major/minor grouping. Compared with the existing composer biography.", "accessed": "2026-10-17" },
+    { "id": "rights-tag", "title": "Wikimedia Commons: PD-EU-audio", "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio", "locator": "Recording-specific European term statement; explicitly separate from underlying composition copyright.", "accessed": "2026-10-17" }
   ],
   "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
 }

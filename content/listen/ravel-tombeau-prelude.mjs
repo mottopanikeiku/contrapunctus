@@ -4,7 +4,7 @@ export default {
   "year": "1914–17", "key": "E minor", "forces": "Piano",
   "performers": "Isaac David, piano", "recorded": "2017",
   "source": { "file": "File:Maurice Ravel - Isaac David - Le Tombeau de Couperin. I. Prélude.opus" },
-  "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin — piano version", "part": 1, "of": 6 },
+  "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin: piano version", "part": 1, "of": 6 },
   "intro": "The Prélude is the first movement of Ravel’s memorial suite <i>Le Tombeau de Couperin</i>, and its line is carried in continuous rapid semiquavers. Isaac David plays the original version for piano.",
   "sections": [
     { "t": 0, "label": "A · Semiquavers with ornaments, E minor", "m": "A", "mNote": "Long held notes sound over quick E minor semiquaver figures." },

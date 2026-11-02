@@ -100,63 +100,63 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Columbia MS 6216 transfer metadata",
+      "title": "Internet Archive: Columbia MS 6216 transfer metadata",
       "url": "https://archive.org/metadata/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/metadata",
       "locator": "Date 1960; publisher Columbia Masterworks; catalogue MS 6216; United States; artists; equipment lineage; ripping_date 20210730073437.",
       "accessed": "2026-10-19"
     },
     {
       "id": "archive-files",
-      "title": "Internet Archive — Webern's fourth piece access derivative",
+      "title": "Internet Archive: Webern's fourth piece access derivative",
       "url": "https://archive.org/metadata/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/files",
       "locator": "disc1/02.05. Six Pieces For Orchestra, Op. 6: No. 4.mp3, 207.74 seconds; VBR MP3; 24-bit FLAC side transfer also listed.",
       "accessed": "2026-10-19"
     },
     {
       "id": "label-scan",
-      "title": "Columbia Masterworks MS 6216 — original stereo labels",
+      "title": "Columbia Masterworks MS 6216: original stereo labels",
       "url": "https://archive.org/download/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a/lp_three-pieces-for-orchestra-op6-begleitung_robert-craft-columbia-symphony-orchestra-a.pdf",
       "locator": "PDF pp. 2 and 4, side 2: Robert Craft conducting the Columbia Symphony Orchestra; Webern No. 4 is band 5; MS 6216 and label matrix XSM 51683. Labels inspected visually.",
       "accessed": "2026-10-19"
     },
     {
       "id": "audio-review",
-      "title": "Audio, August 1961 — review of Columbia MS 6216",
+      "title": "Audio, August 1961: review of Columbia MS 6216",
       "url": "https://www.worldradiohistory.com/Archive-All-Audio/Archive-Audio/60s/Audio-1961-Aug.pdf",
       "locator": "PDF p. 71: Berg Three Pieces, Schoenberg Begleitungsmusik and Webern Six Pieces; Columbia Symphony, Robert Craft; MS 6216 stereo, ML 5616 mono. Establishes publication by August 1961.",
       "accessed": "2026-10-19"
     },
     {
       "id": "version-review",
-      "title": "High Fidelity, September 1979 — Webern recording comparison",
+      "title": "High Fidelity, September 1979: Webern recording comparison",
       "url": "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/70s/High-Fidelity-1979-09.pdf",
       "locator": "Printed and PDF p. 129, left column: explicitly states that Craft recorded the first version of Op. 6 on Columbia MS 6216, whereas his complete-Webern set uses the later 1928 version. Inspected visually.",
       "accessed": "2026-10-18"
     },
     {
       "id": "score",
-      "title": "Webern — Six Pieces for Orchestra, original 1909 version",
+      "title": "Webern: Six Pieces for Orchestra, original 1909 version",
       "url": "https://imslp.eu/files/imglnks/euimg/2/2d/IMSLP424298-PMLP02079-Op._6_6_Pieces_Original_copy.pdf",
       "locator": "Universal Edition, plate UE 6646, 1961 corrected edition of the original version; movement IV, printed pp. 16–22, bars 1–40, inspected visually: percussion opening with distant low bells, alto flute at bar 19 followed by horn and muted trumpet, separate bass-drum strokes, brass climax, ritardando and percussion-only ending.",
       "accessed": "2026-10-18"
     },
     {
       "id": "work-catalogue",
-      "title": "IMSLP — Six Pieces for Large Orchestra, Op. 6",
+      "title": "IMSLP: Six Pieces for Large Orchestra, Op. 6",
       "url": "https://imslp.org/wiki/6_Pieces_for_Large_Orchestra%2C_Op.6_%28Webern%2C_Anton%29",
       "locator": "1909 composition and 1928 revision; original Langsam, Marcia funebre heading, 1913 first publication and 1961 corrected engraving of the original version.",
       "accessed": "2026-10-18"
     },
     {
       "id": "programme-note",
-      "title": "Robert Markow — Tokyo Metropolitan Symphony note on Webern's Six Pieces",
+      "title": "Robert Markow: Tokyo Metropolitan Symphony note on Webern's Six Pieces",
       "url": "https://www.tmso.or.jp/e/concert/detail/detail.php?id=3582",
       "locator": "Programme for 13 December 2022 supplies Webern's life dates. Its movement commentary concerns the 1928 revision, not Craft's MS 6216 recording; the original score and version-review source establish this entry's musical details.",
       "accessed": "2026-10-19"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2011/77/EU — phonogram term and transition",
+      "title": "Directive 2011/77/EU: phonogram term and transition",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0077",
       "locator": "Recitals 1–3 and Article 1(2)–(3): former 50-year phonogram term and extension for recordings still protected on 1 November 2013.",
       "accessed": "2026-10-19"

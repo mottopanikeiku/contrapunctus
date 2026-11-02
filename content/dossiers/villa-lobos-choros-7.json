@@ -89,7 +89,7 @@
       "note": "Rights in the composition are stated separately from rights in the recording. The IMSLP work page places the work in its category for works not in the public domain in the EU and gives no United States status."
     },
     "recording": {
-      "value": "Rule 3 — territorial EU public domain: first published before 1963; on sale as an import in the United States by February 1936.",
+      "value": "Rule 3, territorial EU public domain: first published before 1963; on sale as an import in the United States by February 1936.",
       "status": "documented",
       "sourceIds": ["american", "archive"],
       "note": "The February 1936 notice announces the importation of the record, so the disc had been published by then. The item description dates the export issue “1932 or later” and the United States issue January 1937, citing a 1937 review that was not consulted. The United States status of a recording made in Brazil in 1932 is not established."
@@ -100,7 +100,7 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Victor 11214 Villa-Lobos Chôros No.7 (Septet), Victor Brazil Orchestra, Villa-Lobos: metadata and file inventory",
+      "title": "Internet Archive: Victor 11214 Villa-Lobos Chôros No.7 (Septet), Victor Brazil Orchestra, Villa-Lobos: metadata and file inventory",
       "url": "https://archive.org/metadata/victor-11214-villa-lobos-choros-no7-victor-brazil-orchestra-villa-lobos",
       "locator": "metadata.description (ensemble, recording date, matrices, issue dates, catalogue number, transfer credit, contemporary sources); FLAC comment field; files 11214-A and 11214-B label images; MP3 derivative 08:36",
       "accessed": "2026-10-19"
@@ -114,35 +114,35 @@
     },
     {
       "id": "imslp",
-      "title": "IMSLP — List of works by Heitor Villa-Lobos",
+      "title": "IMSLP: List of works by Heitor Villa-Lobos",
       "url": "https://imslp.org/wiki/List_of_works_by_Heitor_Villa-Lobos",
       "locator": "W199: scoring including off-stage tam-tam, dedication to Arnaldo Guinle, premiere in Rio, Eschig 1928 and 1955; W207: Chôros No. 5 dedicated to Arnaldo Guinle",
       "accessed": "2026-10-19"
     },
     {
       "id": "imslpwork",
-      "title": "IMSLP — Chôros No.7, W199 (Villa-Lobos, Heitor)",
+      "title": "IMSLP: Chôros No.7, W199 (Villa-Lobos, Heitor)",
       "url": "https://imslp.org/wiki/Ch%C3%B4ros_No.7,_W199_(Villa-Lobos,_Heitor)",
       "locator": "General Information: scoring with tam-tam ad lib. (offstage), dedication, first performance 1925-09-17, first publication 1928; category WorkNonPD-EU",
       "accessed": "2026-10-19"
     },
     {
       "id": "museu",
-      "title": "Museu Villa-Lobos — Choros n° 7, manuscript 1993.21.0036",
+      "title": "Museu Villa-Lobos: Choros n° 7, manuscript 1993.21.0036",
       "url": "https://museuvillalobos.acervos.museus.gov.br/partituras/choros-n-7/",
       "locator": "Execuções: first performance 17 September 1925, Rio de Janeiro, Escola Nacional de Música, with Ary Ferreira (flute) and Newton Pádua (cello); duration 8’39”",
       "accessed": "2026-10-19"
     },
     {
       "id": "wright",
-      "title": "Simon Wright — note to Hyperion CDA66257 (Villa-Lobos: Bachianas brasileiras Nos 1 & 5), 1987",
+      "title": "Simon Wright: note to Hyperion CDA66257 (Villa-Lobos: Bachianas brasileiras Nos 1 & 5), 1987",
       "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66257",
       "locator": "Paragraph on the offer from the administration of the Federal District in February 1932",
       "accessed": "2026-10-19"
     },
     {
       "id": "guinle",
-      "title": "Clóvis Bulcão — Os Guinle: a história de uma dinastia (Intrínseca), first chapter excerpt",
+      "title": "Clóvis Bulcão: Os Guinle: a história de uma dinastia (Intrínseca), first chapter excerpt",
       "url": "https://www.intrinseca.com.br/upload/livros/1%C2%BACAP_OsGuinle_ISSUU.pdf",
       "locator": "Timeline entry for 1923: Villa-Lobos settles in Paris, financed by Arnaldo Guinle",
       "accessed": "2026-10-19"

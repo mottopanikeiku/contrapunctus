@@ -3,7 +3,7 @@
   "work": {
     "title": "Carmen",
     "catalogue": "Macdonald catalogue 9",
-    "movement": "Act II: Escamillo’s couplets — Toreador Song",
+    "movement": "Act II: Escamillo’s couplets (Toreador Song)",
     "version": {
       "value": "Italian-language solo recording, beginning Con voi ber affè mi fia caro, with orchestral accompaniment",
       "status": "documented",
@@ -104,12 +104,12 @@
     "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pasquale_Amato,_Georges_Bizet,_Chanson_du_tor%C3%A9ador,_Carmen.ogg"
   },
   "sources": [
-    { "id": "commons", "title": "Wikimedia Commons — Pasquale Amato, Chanson du toréador, Carmen", "url": "https://commons.wikimedia.org/wiki/File:Pasquale_Amato,_Georges_Bizet,_Chanson_du_tor%C3%A9ador,_Carmen.ogg", "locator": "Description, matrix, Camden session, original Archive provenance, licensing, noise reduction, file history and MP3 transcode", "accessed": "2026-10-19" },
-    { "id": "discography", "title": "Truesound Transfers TT-3080 — Pasquale Amato 4", "url": "https://www.truesoundtransfers.de/Titellisten/TT3080.htm", "locator": "Track 3: Italian incipit, Amato, Victor orchestra, Walter B. Rogers, Victor 88327, C11213-1, Camden, 09.11.1911", "accessed": "2026-10-19" },
-    { "id": "loc", "title": "Library of Congress National Jukebox — Canzone del toreador, Victor 88327, matrix C-11213, take 1", "url": "https://www.loc.gov/item/jukebox-131050/?fo=json", "locator": "Italian-language baritone solo with harp and orchestra; Amato, Victor Orchestra, Walter B. Rogers, Francis J. Lapitino (harp); Camden, New Jersey; recording date 1911-11-09; rights statement on recordings published before 1923", "accessed": "2026-10-18" },
-    { "id": "catalogue", "title": "Hugh Macdonald — Bizet Catalogue: Carmen", "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Carmen.html", "locator": "Catalogue 9; work identity, original version, publications and later translations", "accessed": "2026-10-19" },
-    { "id": "score", "title": "Carmen, vocal score arranged by the composer — Choudens, Paris (archive.org copy catalogued 1883)", "url": "https://archive.org/details/carmenopracomi00bize", "locator": "No. 14, Couplets, printed p. 128 and pp. 131–143; the digitised copy lacks pp. 129–130. Refrain’s F-major key and ‘avec fatuité’ marking on p. 131; chorus refrain at the close of no. 27, p. 350. The archive catalogues this copy as 1883, described as the 1875 version with certain cuts, not as the 1875 first edition.", "accessed": "2026-10-19" },
-    { "id": "us-law", "title": "U.S. Copyright Office — Classics Protection and Access Act", "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/", "locator": "Term: protection for recordings first published before 1923 ended on 31 December 2021", "accessed": "2026-10-19" }
+    { "id": "commons", "title": "Wikimedia Commons: Pasquale Amato, Chanson du toréador, Carmen", "url": "https://commons.wikimedia.org/wiki/File:Pasquale_Amato,_Georges_Bizet,_Chanson_du_tor%C3%A9ador,_Carmen.ogg", "locator": "Description, matrix, Camden session, original Archive provenance, licensing, noise reduction, file history and MP3 transcode", "accessed": "2026-10-19" },
+    { "id": "discography", "title": "Truesound Transfers TT-3080: Pasquale Amato 4", "url": "https://www.truesoundtransfers.de/Titellisten/TT3080.htm", "locator": "Track 3: Italian incipit, Amato, Victor orchestra, Walter B. Rogers, Victor 88327, C11213-1, Camden, 09.11.1911", "accessed": "2026-10-19" },
+    { "id": "loc", "title": "Library of Congress National Jukebox: Canzone del toreador, Victor 88327, matrix C-11213, take 1", "url": "https://www.loc.gov/item/jukebox-131050/?fo=json", "locator": "Italian-language baritone solo with harp and orchestra; Amato, Victor Orchestra, Walter B. Rogers, Francis J. Lapitino (harp); Camden, New Jersey; recording date 1911-11-09; rights statement on recordings published before 1923", "accessed": "2026-10-18" },
+    { "id": "catalogue", "title": "Hugh Macdonald: Bizet Catalogue: Carmen", "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Carmen.html", "locator": "Catalogue 9; work identity, original version, publications and later translations", "accessed": "2026-10-19" },
+    { "id": "score", "title": "Carmen, vocal score arranged by the composer: Choudens, Paris (archive.org copy catalogued 1883)", "url": "https://archive.org/details/carmenopracomi00bize", "locator": "No. 14, Couplets, printed p. 128 and pp. 131–143; the digitised copy lacks pp. 129–130. Refrain’s F-major key and ‘avec fatuité’ marking on p. 131; chorus refrain at the close of no. 27, p. 350. The archive catalogues this copy as 1883, described as the 1875 version with certain cuts, not as the 1875 first edition.", "accessed": "2026-10-19" },
+    { "id": "us-law", "title": "U.S. Copyright Office: Classics Protection and Access Act", "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/", "locator": "Term: protection for recordings first published before 1923 ended on 31 December 2021", "accessed": "2026-10-19" }
   ],
   "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-19" }
 }

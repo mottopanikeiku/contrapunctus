@@ -3,7 +3,7 @@ export default {
   composer: 'elgar',
   order: 1,
   work: 'Variations on an Original Theme “Enigma”, Op. 36',
-  movement: 'IX. Nimrod — Adagio',
+  movement: 'IX. Nimrod, Adagio',
   set: { id: 'elgar-enigma', title: 'Enigma Variations, Op. 36', part: 9, of: 14, unit: 'parts' },
   year: '1898–99',
   key: 'E♭ major',

@@ -57,7 +57,7 @@ export default {
     { year: '1953', title: 'Dances in the Canebrakes', titleHtml: '<i>Dances in the Canebrakes</i>', forces: 'Piano', note: 'Three late dances: <i>Nimble Feet</i>, <i>Tropical Noon</i> and <i>Silk Hat and Walking Cane</i>.' },
   ],
   score: [
-    { kicker: 'Melody — schematic', title: 'Five notes', abc: `X:1
+    { kicker: 'Melody: schematic', title: 'Five notes', abc: `X:1
 T:Minor pentatonic melody (schematic)
 M:4/4
 L:1/8
@@ -66,7 +66,7 @@ K:Em
 V:1 name="Piano"
 %%MIDI program 0
 E2 G2 A2 B2 | d2 B2 A2 G2 | E2 G A B2 d2 | B2 A2 E4 |]`, caption: 'An invented melody using E, G, A, B and D, a minor pentatonic collection with no semitone steps. This schematic isolates one resource behind spiritual-like melodic writing; Price’s own themes differ from it in shape and rhythm.' },
-    { kicker: 'Dance — schematic', title: 'Melody and beat', abc: `X:2
+    { kicker: 'Dance: schematic', title: 'Melody and beat', abc: `X:2
 T:Straight and syncopated rhythm (schematic)
 M:4/4
 L:1/8
@@ -80,7 +80,7 @@ C2 E2 G2 E2 | C E3 G E3 | C2 E2 G2 E2 | C E3 G E3 |]
 V:2
 %%MIDI program 0
 C,2 G,2 C,2 G,2 | C,2 G,2 C,2 G,2 | C,2 G,2 C,2 G,2 | C,2 G,2 C,2 G,2 |]`, caption: 'An invented demonstration of syncopation. The bass plays four even beats; in bars two and four the upper line holds notes that began between them. Price used syncopation of this kind in the Juba movements of her orchestral works.' },
-    { kicker: 'Late harmony — schematic', title: 'D major and F minor', abc: `X:3
+    { kicker: 'Late harmony: schematic', title: 'D major and F minor', abc: `X:3
 T:Contrasting triads (schematic)
 M:4/4
 L:1/4
@@ -102,9 +102,9 @@ V:1 name="Chords"
   ],
   lineage: { from: ['dvorak', 'Samuel Coleridge-Taylor', 'African American spirituals'], to: ['Margaret Bonds', 'Marian Anderson', 'Samantha Ege', 'Er-Gene Kahng'], note: '<p>[[dvorak|Dvořák]] and Samuel Coleridge-Taylor offered models for building concert music from African American sources. Price taught Margaret Bonds; Anderson carried her songs into recital programmes. Ege and Kahng belong here as later scholar-performers who brought manuscript works to the piano and violin repertories.</p>' },
   reading: [
-    'Rae Linda Brown, <i>The Heart of a Woman: The Life and Music of Florence B. Price</i>, edited by Guthrie P. Ramsey Jr. (University of Illinois Press, 2020) — the starting biography, joining the working life to the major scores.',
-    'Samantha Ege, <i>South Side Impresarios: How Race Women Transformed Chicago’s Classical Music Scene</i> (University of Illinois Press, 2024) — the women, homes and organisations behind the public performances.',
-    'Florence Price, <i>Symphonies Nos. 1 and 3</i>, edited by Rae Linda Brown and Wayne Shirley, Music of the United States of America 19 (A-R Editions, 2008) — the two full scores with English critical commentary.',
-    'Michael Lively, “Multi-Linear Continuity and ‘Songs to the Dark Virgin’ by Florence Price”, <i>College Music Symposium</i> 63, no. 1 (2023) — a close harmonic reading whose interpretation of Hughes’s poem is deliberately arguable.',
+    'Rae Linda Brown, <i>The Heart of a Woman: The Life and Music of Florence B. Price</i>, edited by Guthrie P. Ramsey Jr. (University of Illinois Press, 2020): the starting biography, joining the working life to the major scores.',
+    'Samantha Ege, <i>South Side Impresarios: How Race Women Transformed Chicago’s Classical Music Scene</i> (University of Illinois Press, 2024): the women, homes and organisations behind the public performances.',
+    'Florence Price, <i>Symphonies Nos. 1 and 3</i>, edited by Rae Linda Brown and Wayne Shirley, Music of the United States of America 19 (A-R Editions, 2008): the two full scores with English critical commentary.',
+    'Michael Lively, “Multi-Linear Continuity and ‘Songs to the Dark Virgin’ by Florence Price”, <i>College Music Symposium</i> 63, no. 1 (2023): a close harmonic reading whose interpretation of Hughes’s poem is deliberately arguable.',
   ],
 };

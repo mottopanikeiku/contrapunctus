@@ -3,7 +3,7 @@
   "work": {
     "title": "From Holberg’s Time (Holberg Suite)",
     "catalogue": "Op. 40",
-    "movement": "IV. Air — Andante religioso",
+    "movement": "IV. Air, Andante religioso",
     "version": {
       "value": "Version for string orchestra (1885)",
       "status": "documented",
@@ -100,35 +100,35 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Grieg’s Suite for Strings, Op. 40, IV. Air (United States Marine Band)",
+      "title": "Wikimedia Commons: Grieg’s Suite for Strings, Op. 40, IV. Air (United States Marine Band)",
       "url": "https://commons.wikimedia.org/wiki/File:Grieg%27s_Suite_for_Strings,_Op._40,_%22From_Holberg%E2%80%99s_Time%22_-_IV._Air_-_Chamber_Orchestra_-_United_States_Marine_Band.mp3",
       "locator": "Description: Maj Jason K. Fettig conducting; Marine Chamber Orchestra, 17 August 2013, Rachel M. Schlesinger Concert Hall and Arts Center, Northern Virginia Community College, Alexandria, Va.; performance date 2013-08-17; licences PD-old-auto-expired (1907) and PD-USGov-Military-Marines; uploaded 27 June 2021 by Mysterymanblue.",
       "accessed": "2026-10-18"
     },
     {
       "id": "marineband",
-      "title": "United States Marine Band — Web Exclusives (Internet Archive capture, 12 August 2014)",
+      "title": "United States Marine Band: Web Exclusives (Internet Archive capture, 12 August 2014)",
       "url": "https://web.archive.org/web/20140812020859/http://www.marineband.marines.mil/AudioResources/WebExclusives.aspx",
       "locator": "Page title “Web Exclusives”; author United States Marine Band; description “Marine Band web exclusive audio downloads”. Source cited by the Commons file; the listing itself did not render in the capture.",
       "accessed": "2026-10-18"
     },
     {
       "id": "marines-template",
-      "title": "Wikimedia Commons — Template:PD-USGov-Military-Marines",
+      "title": "Wikimedia Commons: Template:PD-USGov-Military-Marines",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Marines",
       "locator": "Licence text: a work of a United States Marine or employee, taken or made as part of official duties; a work of the U.S. federal government in the public domain.",
       "accessed": "2026-10-18"
     },
     {
       "id": "bso",
-      "title": "Matthew Mendez — Boston Symphony Orchestra programme note on From Holberg’s Time",
+      "title": "Matthew Mendez: Boston Symphony Orchestra programme note on From Holberg’s Time",
       "url": "https://www.bso.org/works/grieg-holberg-suite",
       "locator": "Piano version completed July 1884 for the Holberg bicentenary; string version completed by March 1885; Air: G minor, Andante religioso, relative-major middle section.",
       "accessed": "2026-10-18"
     },
     {
       "id": "nbl",
-      "title": "Finn Benestad — Edvard Grieg, Norsk biografisk leksikon",
+      "title": "Finn Benestad: Edvard Grieg, Norsk biografisk leksikon",
       "url": "https://nbl.snl.no/Edvard_Grieg",
       "locator": "Dates: died 4 September 1907; the suite written for the 200th anniversary of Holberg’s birth, 3 December 1884.",
       "accessed": "2026-10-18"

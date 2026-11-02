@@ -3,7 +3,7 @@ export default {
   composer: 'mussorgsky',
   order: 2,
   work: 'Pictures at an Exhibition',
-  movement: 'X. La grande porte de Kiev — Allegro alla breve. Maestoso. Con grandezza',
+  movement: 'X. La grande porte de Kiev; Allegro alla breve. Maestoso. Con grandezza',
   set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 15, of: 15, unit: 'pieces' },
   year: '1874',
   key: 'E♭ major',

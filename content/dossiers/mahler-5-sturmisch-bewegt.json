@@ -143,35 +143,35 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Mahler Symphony No. 5, II. Stürmisch bewegt, mit größter Vehemenz.ogg",
+      "title": "Wikimedia Commons: Mahler Symphony No. 5, II. Stürmisch bewegt, mit größter Vehemenz.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5%2C_II._St%C3%BCrmisch_bewegt%2C_mit_gr%C3%B6%C3%9Fter_Vehemenz.ogg?oldid=525137707",
       "locator": "Summary, Licensing, original-file duration, transcode table and embedded Metadata. The Source URL selects movement IV, although the file title and embedded movement tag identify this movement.",
       "accessed": "2026-10-17"
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Mahler Symphony 5",
+      "title": "Internet Archive: Mahler Symphony 5",
       "url": "https://archive.org/metadata/Mahler_Symphony_5",
       "locator": "metadata.creator, licenseurl, addeddate and publicdate; files 02.PSO020103-Mahler-5-II.mp3 and 02.PSO020103-Mahler-5-II.ogg. Item describes complete movements I–V.",
       "accessed": "2026-10-17"
     },
     {
       "id": "classical-connect",
-      "title": "Classical Connect — Symphony No. 5, Peabody Symphony Orchestra",
+      "title": "Classical Connect: Symphony No. 5, Peabody Symphony Orchestra",
       "url": "https://www.classicalconnect.com/Orchestral_Music/Mahler/Symphony_No._5/3521",
       "locator": "Credits Hajime Teri Murai and states ‘Recorded on 02/01/2003, uploaded on 06/07/2010’. Consulted as a candidate provenance lead; the page does not expose an audio filename establishing identity with the selected Commons/Archive files.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "Gustav Mahler — biographical dates",
+      "title": "Gustav Mahler: biographical dates",
       "url": "https://en.wikipedia.org/wiki/Gustav_Mahler",
       "locator": "Biographical dates: 1860–1911.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright term",
+      "title": "Directive 2006/116/EC: copyright term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January. No recording-rights calculation is made from this source.",
       "accessed": "2026-10-17"

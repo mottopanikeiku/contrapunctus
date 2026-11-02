@@ -2,7 +2,7 @@
   "id": "elgar-pomp-circumstance-1",
   "title": "Pomp and Circumstance March No. 1, in three recordings",
   "composer": "elgar",
-  "work": "Pomp and Circumstance — March No. 1, Op. 39",
+  "work": "Pomp and Circumstance: March No. 1, Op. 39",
   "question": "Elgar, Stock and the United States Marine Band play the march and the broadening of its trio tune.",
   "intro": "“I’ve got a tune that will knock ’em — knock ’em flat,” Elgar told Dora Penny in May 1901. Twenty-five years later he and Frederick Stock recorded the march on opposite sides of the Atlantic; Stock’s recording included Chicago’s grand organ. In the version by the United States Marine Band, wind and brass play the lines that strings play in the orchestral score.",
   "group": "composer-performers",
@@ -19,17 +19,17 @@
     { "label": "Broadening of the trio tune", "t": 240, "note": "The tune broadens towards its final held notes. After the cadence, a last passage of quick march music follows." }
   ],
   "sources": [
-    { "title": "Elgar Society — first electrical recording, 27 April 1926", "url": "https://www.elgar.org/3pomp-d.htm" },
-    { "title": "DAHR — Stock’s CVE-37282 session, issued take and organist", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800011535" },
-    { "title": "The Talking Machine World — January and July 1927 Victor release lists, pp. 131 and 157", "url": "https://archive.org/download/talkingmachinewo23bill/talkingmachinewo23bill_djvu.txt" },
-    { "title": "Victrola 6648-B — orchestra and grand organ label", "url": "https://archive.org/download/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b.jpg" },
-    { "title": "Wikimedia Commons — Marine Band recording, official source and government-work declaration", "url": "https://commons.wikimedia.org/wiki/File:ELGAR_Pomp_and_Circumstance_in_D,_Opus_39,_No._1_-_United_States_Marine_Band.mp3" },
-    { "title": "Elgar Society — the march and its contrasting trio", "url": "https://www.elgar.org/3pomp-a.htm" },
-    { "title": "Elgar–Stock alignment — exact 5–258-second trims; median confidence 0.964", "url": "../assets/data/compare/elgar-pomp-circumstance-1/elgar-pomp-circumstance-1-stock-1926.json" },
-    { "title": "Elgar–Marine Band alignment — exact reprise-and-trio trims and −2-semitone feature shift; median confidence 0.964", "url": "../assets/data/compare/elgar-pomp-circumstance-1/elgar-pomp-circumstance-1-usmb.json" },
-    { "title": "Elgar transfer — generated duration and audio features", "url": "../assets/listen/elgar-pomp-circumstance-1-elgar-1927.json" },
-    { "title": "Stock transfer — generated duration and audio features", "url": "../assets/listen/elgar-pomp-circumstance-1-stock-1926.json" },
-    { "title": "Marine Band — generated duration and audio features", "url": "../assets/listen/elgar-pomp-circumstance-1-usmb.json" },
-    { "title": "Elgar, March No. 1 — orchestral score, rehearsals M–T; organ enters at the final trio", "url": "https://s9.imslp.org/files/imglnks/usimg/6/6e/IMSLP24159-PMLP23738-Elgar_-_Pomp_and_Circumstance%2C_Op._39%2C_No._1.pdf" }
+    { "title": "Elgar Society: first electrical recording, 27 April 1926", "url": "https://www.elgar.org/3pomp-d.htm" },
+    { "title": "DAHR: Stock’s CVE-37282 session, issued take and organist", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800011535" },
+    { "title": "The Talking Machine World: January and July 1927 Victor release lists, pp. 131 and 157", "url": "https://archive.org/download/talkingmachinewo23bill/talkingmachinewo23bill_djvu.txt" },
+    { "title": "Victrola 6648-B: orchestra and grand organ label", "url": "https://archive.org/download/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b/78_pomp-and-circumstance-march-no-1-in-d-pompa-y-circumstancia-marcha-no-1_c_gbia0295275b.jpg" },
+    { "title": "Wikimedia Commons: Marine Band recording, official source and government-work declaration", "url": "https://commons.wikimedia.org/wiki/File:ELGAR_Pomp_and_Circumstance_in_D,_Opus_39,_No._1_-_United_States_Marine_Band.mp3" },
+    { "title": "Elgar Society: the march and its contrasting trio", "url": "https://www.elgar.org/3pomp-a.htm" },
+    { "title": "Elgar–Stock alignment: exact 5–258-second trims; median confidence 0.964", "url": "../assets/data/compare/elgar-pomp-circumstance-1/elgar-pomp-circumstance-1-stock-1926.json" },
+    { "title": "Elgar–Marine Band alignment: exact reprise-and-trio trims and −2-semitone feature shift; median confidence 0.964", "url": "../assets/data/compare/elgar-pomp-circumstance-1/elgar-pomp-circumstance-1-usmb.json" },
+    { "title": "Elgar transfer: generated duration and audio features", "url": "../assets/listen/elgar-pomp-circumstance-1-elgar-1927.json" },
+    { "title": "Stock transfer: generated duration and audio features", "url": "../assets/listen/elgar-pomp-circumstance-1-stock-1926.json" },
+    { "title": "Marine Band: generated duration and audio features", "url": "../assets/listen/elgar-pomp-circumstance-1-usmb.json" },
+    { "title": "Elgar, March No. 1: orchestral score, rehearsals M–T; organ enters at the final trio", "url": "https://s9.imslp.org/files/imglnks/usimg/6/6e/IMSLP24159-PMLP23738-Elgar_-_Pomp_and_Circumstance%2C_Op._39%2C_No._1.pdf" }
   ]
 }

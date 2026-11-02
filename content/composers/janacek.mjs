@@ -62,7 +62,7 @@ K:C
 V:1 name="Voice"
 %%MIDI program 52
 E E G2 F E z2 | E2 E G F2 E2 |]`, caption: 'A schematic of speech-like phrasing. Both bars use E–E–G–F–E. The first clips the opening syllables and leaves a pause; the second stretches them across the bar.' },
-    { kicker: 'Ostinato and harmonic change', title: 'Repeated cell in changing surroundings — schematic', abc: `X:2
+    { kicker: 'Ostinato and harmonic change', title: 'Repeated cell in changing surroundings: schematic', abc: `X:2
 T:Ostinato across a harmonic cut - schematic
 M:2/4
 L:1/8
@@ -89,8 +89,8 @@ V:2
   ],
   lineage: { from: ['dvorak', 'Pavel Křížkovský', 'Moravian folk song', 'Russian literature'], to: ['bartok', 'britten', 'kurtag', 'Twentieth-century Czech opera'], note: '<p>Křížkovský trained the chorister; [[dvorak|Dvořák]] became the young conductor’s friend. Janáček drew material from Moravian singers and Russian books, and his voice was unlike either man’s. [[bartok|Bartók]] was a fellow collector; Britten’s stage characters and Kurtág’s compressed pieces are later neighbours. Mackerras and Tyrrell restored Janáček’s scores for opera houses.</p>' },
   reading: [
-    'John Tyrrell, <i>Janáček: Years of a Life</i>, 2 vols (Faber, 2006–07) — the documentary biography, with the late-life legends tested against the evidence.',
-    'Michael Beckerman, <i>Janáček as Theorist</i> (Pendragon, 1994) — the composer’s unusual ideas about harmony, rhythm and musical perception.',
-    '<a href="https://www.leosjanacek.eu/en/how-he-created/">Leoš Janáček: How he created</a> — the Moravian Museum’s account of folk-song collection, speech notebooks and compositional practice.',
+    'John Tyrrell, <i>Janáček: Years of a Life</i>, 2 vols (Faber, 2006–07): the documentary biography, with the late-life legends tested against the evidence.',
+    'Michael Beckerman, <i>Janáček as Theorist</i> (Pendragon, 1994): the composer’s unusual ideas about harmony, rhythm and musical perception.',
+    '<a href="https://www.leosjanacek.eu/en/how-he-created/">Leoš Janáček: How he created</a>: the Moravian Museum’s account of folk-song collection, speech notebooks and compositional practice.',
   ],
 };

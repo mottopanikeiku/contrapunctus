@@ -3,7 +3,7 @@ export default {
   composer: 'grieg',
   order: 3,
   work: 'From Holberg’s Time, Op. 40',
-  movement: 'IV. Air — Andante religioso',
+  movement: 'IV. Air, Andante religioso',
   set: { id: 'grieg-holberg-suite', title: 'From Holberg’s Time, Op. 40', part: 4, of: 5 },
   year: '1884–85',
   key: 'G minor',

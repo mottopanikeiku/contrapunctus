@@ -34,7 +34,7 @@ export default {
     },
     {
       "t": 48, "kind": "music", "title": "Très lointain, over low B octaves",
-      "text": "<i>Très lointain</i> — very distant. Low B octaves are held beneath a melody in closely spaced chords. The walking bass of the opening has stopped, and the chords move together above the held notes.",
+      "text": "<i>Très lointain</i> (very distant). Low B octaves are held beneath a melody in closely spaced chords. The walking bass of the opening has stopped, and the chords move together above the held notes.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Demets piano edition, p. 2: Très lointain, pp, low B octaves and the B-minor chordal melody.",
     },

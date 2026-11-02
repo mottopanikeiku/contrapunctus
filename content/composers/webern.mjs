@@ -57,16 +57,16 @@ export default {
     { year: '1941–43', title: 'Cantata No. 2', cat: 'Op. 31', forces: 'Soprano, bass, mixed chorus and orchestra', note: 'Six movements set texts by Hildegard Jone, with alto saxophone and celesta among the orchestral instruments. The first performance was given in Brussels in 1950, five years after Webern’s death.' },
   ],
   score: [
-    { kicker: 'Symphony, Op. 21 — pitch schematic', title: 'Retrograde of the row, transposed by a tritone', abc: `X:1
-T:Op. 21 row — pitch schematic
+    { kicker: 'Symphony, Op. 21: pitch schematic', title: 'Retrograde of the row, transposed by a tritone', abc: `X:1
+T:Op. 21 row: pitch schematic
 M:3/4
 L:1/4
 Q:1/4=72
 K:C
 %%MIDI program 0
 A ^F G | ^G E F | B _B D | ^C =C _E |]`, caption: 'Schematic of the Symphony’s twelve-note row, in equal durations and a compact register. Reversing A–F♯–G–G♯–E–F–B–B♭–D–C♯–C–E♭ produces the same sequence transposed by six semitones. The four bars show the pitches only, without the Symphony’s rhythm or orchestration.' },
-    { kicker: 'Concerto, Op. 24 — pitch schematic', title: 'A three-note cell in four forms', abc: `X:2
-T:Op. 24 row — trichord schematic
+    { kicker: 'Concerto, Op. 24: pitch schematic', title: 'A three-note cell in four forms', abc: `X:2
+T:Op. 24 row: trichord schematic
 M:3/4
 L:1/4
 Q:1/4=80
@@ -113,9 +113,9 @@ The purple marks of melancholy.`, note: `<p>Webern set these fourteen lines in 1
   ],
   lineage: { from: ['Heinrich Isaac', 'bach', 'brahms', 'mahler', 'schoenberg'], to: ['boulez', 'stravinsky', 'ligeti', 'Karlheinz Stockhausen', 'Luigi Dallapiccola'], note: `<p>Webern learnt counterpoint by editing Isaac for Guido Adler and by composing under [[schoenberg|Schoenberg]]. In his orchestration of [[bach|Bach]]’s Ricercar the counterpoint is set in changing instruments. After his death, [[boulez|Boulez]] took the scores into concerts and made two complete recording surveys; Robert Craft’s advocacy helped bring them to [[stravinsky|Stravinsky]] during his turn to serial composition.</p>` },
   reading: [
-    'Kathryn Bailey, <i>The Life of Webern</i> (Cambridge, 1998) — biography, conducting career and the difficult political record.',
-    'Kathryn Bailey, <i>The Twelve-Note Music of Anton Webern</i> (Cambridge, 1991) — formal and row analysis of the serial works.',
-    '<a href="https://anton-webern.ch/en/anton-webern/overview.html">Anton Webern Gesamtausgabe: biography and chronology</a> — documentary information maintained by the complete-edition project.',
-    '<a href="https://viva.pressbooks.pub/openmusictheory/chapter/twelve-tone-analysis-examples-webern-op-21-and-24/">Mark Gotham, analysis of Opp. 21 and 24 in <i>Open Music Theory</i></a> — the canons, row symmetries and instrumental allocation; <a href="https://www.lieder.net/lieder/get_text.html?TextId=15920">LiederNet: <i>Abendland II</i></a> — the German text and scoring.',
+    'Kathryn Bailey, <i>The Life of Webern</i> (Cambridge, 1998): biography, conducting career and the difficult political record.',
+    'Kathryn Bailey, <i>The Twelve-Note Music of Anton Webern</i> (Cambridge, 1991): formal and row analysis of the serial works.',
+    '<a href="https://anton-webern.ch/en/anton-webern/overview.html">Anton Webern Gesamtausgabe: biography and chronology</a>: documentary information maintained by the complete-edition project.',
+    '<a href="https://viva.pressbooks.pub/openmusictheory/chapter/twelve-tone-analysis-examples-webern-op-21-and-24/">Mark Gotham, analysis of Opp. 21 and 24 in <i>Open Music Theory</i></a>: the canons, row symmetries and instrumental allocation; <a href="https://www.lieder.net/lieder/get_text.html?TextId=15920">LiederNet: <i>Abendland II</i></a>: the German text and scoring.',
   ],
 };

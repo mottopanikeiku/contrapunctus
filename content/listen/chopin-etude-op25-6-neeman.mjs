@@ -1,5 +1,5 @@
 export default {
-  intro: 'Edward Neeman plays Chopin’s Étude in G♯ minor, Op. 25 No. 6 (“Thirds”), which Chopin marked <i>sotto voce</i> — in an undertone. A right-hand trill leads into scales of paired notes, and the left hand plays a slower melody.',
+  intro: 'Edward Neeman plays Chopin’s Étude in G♯ minor, Op. 25 No. 6 (“Thirds”), which Chopin marked <i>sotto voce</i> (in an undertone). A right-hand trill leads into scales of paired notes, and the left hand plays a slower melody.',
   sections: [
     { t: 0, label: 'A · Trill in thirds, right hand', m: 'A', mNote: 'The right hand opens playing two notes at a time.' },
     { t: 44, label: 'B · Left-hand melody beneath right-hand thirds', m: 'B', mNote: 'The left hand plays a slower melody beneath the right-hand thirds.' },

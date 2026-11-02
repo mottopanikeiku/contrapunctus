@@ -59,7 +59,7 @@ export default {
   ],
   score: [
     { kicker: 'Symphonie fantastique · first movement', title: 'Opening of the idée fixe', abc: `X:1
-T:Idee fixe — opening
+T:Idee fixe: opening
 M:C
 L:1/8
 Q:1/4=132
@@ -68,7 +68,7 @@ V:1 name="Melody"
 %%MIDI program 73
 G | G8- | G2 c2 G3 e | e4 f4- | f4 e4 | e4 d4- | d4 c4 | c8 |]`, caption: 'A schematic reduction of the idée fixe’s opening, with its upbeat and seven full bars; accompaniment, dynamics and subsidiary slurs are omitted. Flute and first violins play the melody in C major. The phrase has a held G, two upward reaches and slowly descending notes tied across the barlines.' },
     { kicker: 'Orchestration laboratory', title: 'Single pitch collection shared by two orchestral bodies', abc: `X:2
-T:Register changes the chord — schematic
+T:Register changes the chord: schematic
 M:4/4
 L:1/4
 Q:1/4=60
@@ -101,13 +101,13 @@ and now a great image of me will pass beneath the earth.`, note: `<p>Dido addres
   recordings: [
     { work: 'Symphonie fantastique', performers: 'Boston Symphony Orchestra, Charles Munch', year: '1954', label: 'RCA', note: 'The waltz is light in rhythm, and the march is played hard. Munch takes the changes of mood quickly, faster than in more measured performances.' },
     { work: 'Les Troyens', performers: 'Jon Vickers, Josephine Veasey, Berit Lindholm; Royal Opera House forces, Colin Davis', label: 'Philips', note: 'Vickers presents Aeneas as a formidable and troubled figure; Veasey’s Dido commands the court and softens her voice in private. Davis gives the ceremonial scenes time without losing sight of the characters in them.' },
-    { work: 'Les Nuits d’été', performers: 'Régine Crespin, Orchestre de la Suisse Romande, Ernest Ansermet', year: '1963', label: 'Decca', note: 'Crespin’s French has bite and long breath. Her grand manner suits the rose’s ghost and the grief of <i>Sur les lagunes</i>; for the rustic outing of <i>Villanelle</i> it is more elegant than needed.' },
+    { work: 'Les Nuits d’été', performers: 'Régine Crespin, Orchestre de la Suisse Romande, Ernest Ansermet', year: '1963', label: 'Decca', note: 'Crespin’s French has bite and long breath. Her grand manner suits the rose’s ghost and the grief of <i>Sur les lagunes</i>; for the rustic outing of <i>Villanelle</i> it is more refined than needed.' },
     { work: 'Grande Messe des morts', performers: 'London Symphony Orchestra and Chorus, Colin Davis', label: 'Philips', note: 'Davis keeps the quiet choral pages grave, and the brass summons follows from what comes before it. The exposed voices in <i>Quaerens me</i> matter as much as the percussion.' },
   ],
   lineage: { from: ['Gluck', 'beethoven', 'Shakespeare', 'Virgil'], to: ['liszt', 'wagner', 'richard-strauss', 'mahler', 'rimsky-korsakov'], note: `<p>Gluck taught him how to use an orchestra in the theatre; [[beethoven|Beethoven]] opened the symphony to a new scale of ambition. [[liszt|Liszt]] transcribed the <i>Fantastique</i> for piano and revived <i>Benvenuto Cellini</i>. [[richard-strauss|Strauss]] expanded the orchestration treatise. A precedent for the distant instruments and intrusive marches in [[mahler|Mahler]]’s symphonies can be heard in Berlioz’s separated brass and returning idée fixe.</p>` },
   reading: [
-    'David Cairns, <i>Berlioz</i>, 2 vols (Faber, revised edition 1999) — biography grounded in correspondence and the practical conditions of performance.',
-    'Hector Berlioz, <i>Mémoires</i>, translated by David Cairns as <i>The Memoirs of Hector Berlioz</i> — a primary document whose narrative artistry requires a critical reader.',
-    '<a href="https://www.hberlioz.com/">The Hector Berlioz Website</a> — scores, contemporary documents, chronology and accounts of places associated with the composer.',
+    'David Cairns, <i>Berlioz</i>, 2 vols (Faber, revised edition 1999): biography grounded in correspondence and the practical conditions of performance.',
+    'Hector Berlioz, <i>Mémoires</i>, translated by David Cairns as <i>The Memoirs of Hector Berlioz</i>: a primary document whose narrative artistry requires a critical reader.',
+    '<a href="https://www.hberlioz.com/">The Hector Berlioz Website</a>: scores, contemporary documents, chronology and accounts of places associated with the composer.',
   ],
 };

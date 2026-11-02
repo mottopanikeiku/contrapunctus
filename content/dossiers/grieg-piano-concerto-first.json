@@ -101,21 +101,21 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Grieg, Concerto in A minor, 1st movement",
+      "title": "Wikimedia Commons: Grieg, Concerto in A minor, 1st movement",
       "url": "https://commons.wikimedia.org/wiki/File:Edvard_Grieg_-_Concerto_in_A_minor,_1st_movement.ogg",
       "locator": "Description: Peter Erős conducts the University of Washington Symphony orchestra; Neal O’Doan, piano. Source: the Al Goldstein collection in the Pandora Music repository at ibiblio.org. Date: ?. Licence: CC BY-SA 2.0.",
       "accessed": "2026-10-18"
     },
     {
       "id": "pandora",
-      "title": "Pandora Records — ibiblio repository notice (Internet Archive capture, 13 October 2007)",
+      "title": "Pandora Records: ibiblio repository notice (Internet Archive capture, 13 October 2007)",
       "url": "https://web.archive.org/web/20071013081509/http://music.ibiblio.org/pub/multimedia/pandora/vorbis/Read.html",
       "locator": "History: Pandora Records established 1973, active for over ten years; master tapes archived. License: “available for free download subject to the EFF OAL”. Thanks: some recordings made and repaired by Glenn White.",
       "accessed": "2026-10-18"
     },
     {
       "id": "nbl",
-      "title": "Finn Benestad — Edvard Grieg, Norsk biografisk leksikon",
+      "title": "Finn Benestad: Edvard Grieg, Norsk biografisk leksikon",
       "url": "https://nbl.snl.no/Edvard_Grieg",
       "locator": "Dates: died 4 September 1907; concerto composed 1868–69 at Søllerød, first performed in Copenhagen on 3 April 1869.",
       "accessed": "2026-10-18"

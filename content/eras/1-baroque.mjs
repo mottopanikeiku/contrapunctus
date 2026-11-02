@@ -99,7 +99,7 @@ C,4 | F,4 | B,,4 | E,4 | A,,4 | D,4 | G,,4 | C,4 |]`,
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'John Dryden', title: 'A Song for St Cecilia’s Day — opening', date: '1687',
+      type: 'poem', author: 'John Dryden', title: 'A Song for St Cecilia’s Day: opening', date: '1687',
       lang: 'English',
       original: `From harmony, from heavenly harmony,
 This universal frame began.

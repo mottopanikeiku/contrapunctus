@@ -51,7 +51,7 @@
   },
   "carrier": {
     "label": {
-      "value": "Chiara Bertoglio — digital publisher",
+      "value": "Chiara Bertoglio: digital publisher",
       "status": "documented",
       "sourceIds": [
         "upstream"
@@ -127,7 +127,7 @@
       "note": "No. 3 was first published in 1857; Schubert died in 1828. Modern editions are a separate rights question."
     },
     "recording": {
-      "value": "Rule 1 — recording licence/release: CC BY 3.0 Unported.",
+      "value": "Rule 1, recording licence/release: CC BY 3.0 Unported.",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons"
@@ -161,7 +161,7 @@
     },
     {
       "id": "upstream",
-      "title": "IMSLP: 4 Impromptus, D. 899 — Chiara Bertoglio recording",
+      "title": "IMSLP: 4 Impromptus, D. 899, Chiara Bertoglio recording",
       "url": "https://imslp.org/wiki/4_Impromptus%2C_D.899_(Schubert%2C_Franz)",
       "locator": "Performances, recording #262601 (PMLP02062-03.mp3): uploader Schiarak, 20 December 2012; performer and publisher Chiara Bertoglio, CC BY 3.0. General Information: No. 3 first published 1857.",
       "accessed": "2026-10-16"
@@ -196,7 +196,7 @@
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Schubert's Impromptu no. 3 in G-flat major, D.899 - Chiara Bertoglio.ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Schubert's Impromptu no. 3 in G-flat major, D.899 - Chiara Bertoglio.ogg",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Schubert's Impromptu no. 3 in G-flat major, D.899 - Chiara Bertoglio.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"

@@ -61,7 +61,7 @@ export default {
     { year: '1938–39', title: 'Homenajes', forces: 'Orchestral suite', note: 'Built from earlier works and projects. Falla conducted the first performance at the Teatro Colón, Buenos Aires, on 18 November 1939.' },
   ],
   score: [
-    { kicker: 'Andalusian cadence — invented schematic', title: 'Four chords, falling A–G–F–E', abc: `X:1
+    { kicker: 'Andalusian cadence: invented schematic', title: 'Four chords, falling A–G–F–E', abc: `X:1
 T:Andalusian cadence (schematic)
 M:4/4
 L:1/4
@@ -75,7 +75,7 @@ V:1
 V:2
 %%MIDI program 24
 A,4 | G,4 | F,4 | E,4 |]`, caption: 'An invented four-bar schematic: A minor, G major, F major and E major, with the bass stepping down A–G–F–E. This descending progression is the cadence of flamenco guitar playing, and it ends on the major chord a semitone below F. It quotes no Falla score.' },
-    { kicker: 'Phrygian with a raised third — invented schematic', title: 'E mode with semitone and augmented second', abc: `X:2
+    { kicker: 'Phrygian with a raised third: invented schematic', title: 'E mode with semitone and augmented second', abc: `X:2
 T:E Phrygian with raised third (schematic)
 M:4/4
 L:1/4
@@ -83,7 +83,7 @@ Q:1/4=80
 K:C
 %%MIDI program 24
 E F ^G A | B c d e | e d c B | A ^G F E |]`, caption: 'The scale rising and falling from E: a semitone from E to F, an augmented second from F to G♯, then A, B, C, D, E. The semitone above the tonic and the major third together give the colour associated with Andalusian song. The example is invented for illustration and is not quoted from any work.' },
-    { kicker: 'The guitar — the instrument’s tuning', title: 'Six open strings at sounding pitch', abc: `X:3
+    { kicker: 'The guitar: the instrument’s tuning', title: 'Six open strings at sounding pitch', abc: `X:3
 T:Guitar open strings (schematic)
 M:4/4
 L:1/4
@@ -97,7 +97,7 @@ E,,A,, D, G, | B, E [E,,A,,D,G,B,E]2 |]`, caption: 'The six open strings of a gu
     { relation: 'documented-use', type: 'painting', frame: 'gilt', file: 'File:Goya.pelele.prado.jpg', artist: 'Francisco de Goya', title: 'El pelele (The Straw Manikin)', date: '1791–92', medium: 'Oil on canvas; design for a royal weaving', collection: 'Museo del Prado, Madrid', note: '<p>On 21 October 1918 Falla sent Diaghilev, in London, a postcard of this picture with a popular tune written out across it. The tune came back in <i>El sombrero de tres picos</i>. Goya’s four young women in majas’ dress toss a straw dummy in a blanket; at the end of the ballet the villagers toss the Corregidor in one.</p>' },
     { relation: 'shared-context', type: 'painting', frame: 'mat', file: 'File:Santiago Rusiñol - Gardens of the Generalife - Google Art Project (588574).jpg', artist: 'Santiago Rusiñol', title: 'Gardens of the Generalife', date: '1895', medium: 'Conté pencil and coloured pencil on paper', collection: 'Museu Nacional d’Art de Catalunya, Barcelona', note: '<p>The Generalife is the first of the three gardens in <i>Noches en los jardines de España</i>. Rusiñol drew its terraces in 1895; twenty years later he invited Falla to his house at Sitges, the Cau Ferrat, where Falla worked intensively on the piece.</p>' },
     { relation: 'documented-use', type: 'painting', frame: 'mat', file: "File:(Lettre de Maurice Ravel à Manuel de Falla, Montfort l'Amaury, 26 juin 1923) (photocopie) - btv1b550163614 (1 of 4).jpg", artist: 'Maurice Ravel', title: 'Letter to Manuel de Falla, Montfort-l’Amaury', date: '26 June 1923', medium: 'Autograph letter, first page (photocopy)', collection: 'Bibliothèque nationale de France, Département de la Musique', note: '<p>Written the day after the staged première of <i>El retablo de maese Pedro</i> in the Princesse de Polignac’s palace. Ravel told Falla that, as he had told the Princesse, he could not come, though he had hoped to the last, and that he hoped Falla would not leave Paris without seeing him. He asked him to come out to lunch at Montfort-l’Amaury one of these days.</p>' },
-    { relation: 'documented-use', type: 'poem', author: 'Traditional', title: 'Jota — first couplet, as set by Falla', date: 'Set in 1914', lang: 'Spanish', original: `Dicen que no nos queremos
+    { relation: 'documented-use', type: 'poem', author: 'Traditional', title: 'Jota: first couplet, as set by Falla', date: 'Set in 1914', lang: 'Spanish', original: `Dicen que no nos queremos
 porque no nos ven hablar;
 a tu corazón y al mío
 se lo pueden preguntar.`, translator: 'Our translation', translation: `They say we do not love each other
@@ -112,10 +112,10 @@ they can put the question.`, note: '<p>The voice enters on these lines in the fo
   ],
   lineage: { from: ['Felipe Pedrell', 'debussy', 'Paul Dukas', 'Isaac Albéniz', 'scarlatti', 'Cante jondo'], to: ['Ernesto Halffter', 'poulenc'], note: '<p>Pedrell taught him from 1901. Dukas and Debussy were his guides in Paris, and Albéniz found him a grant. The link with Scarlatti is one of repertoire; Falla played fourteen of his sonatas at the Ateneo de Granada in 1927. Ernesto Halffter was his pupil and conducted the Orquesta Bética de Cámara that Falla founded in Seville. [[poulenc|Poulenc]] took the theme of the Pantomima for his third Novelette.</p>' },
   reading: [
-    'Carol A. Hess, <i>Sacred Passions: The Life and Music of Manuel de Falla</i> (Oxford University Press, 2005) — a biography that draws on the Granada archive.',
-    'Carol A. Hess, <i>Manuel de Falla and Modernism in Spain, 1898–1936</i> (University of Chicago Press, 2001) — places Falla in the cultural arguments of his time.',
-    'Manuel de Falla, <i>On Music and Musicians</i> (Marion Boyars, 1979) — his own essays in English, first collected in Spanish as <i>Escritos sobre música y músicos</i>.',
-    'Jaime Pahissa, <i>Vida y obra de Manuel de Falla</i> (Ricordi Americana, 1947) — written by an exiled Catalan composer who took notes at Los Espinillos in 1944.',
-    '<a href="https://www.manueldefalla.com/en/chronology">Archivo Manuel de Falla, chronology and life pages</a> — year-by-year dates with extracts from the letters in the Granada archive.',
+    'Carol A. Hess, <i>Sacred Passions: The Life and Music of Manuel de Falla</i> (Oxford University Press, 2005): a biography that draws on the Granada archive.',
+    'Carol A. Hess, <i>Manuel de Falla and Modernism in Spain, 1898–1936</i> (University of Chicago Press, 2001): places Falla in the cultural arguments of his time.',
+    'Manuel de Falla, <i>On Music and Musicians</i> (Marion Boyars, 1979): his own essays in English, first collected in Spanish as <i>Escritos sobre música y músicos</i>.',
+    'Jaime Pahissa, <i>Vida y obra de Manuel de Falla</i> (Ricordi Americana, 1947): written by an exiled Catalan composer who took notes at Los Espinillos in 1944.',
+    '<a href="https://www.manueldefalla.com/en/chronology">Archivo Manuel de Falla, chronology and life pages</a>: year-by-year dates with extracts from the letters in the Granada archive.',
   ],
 };

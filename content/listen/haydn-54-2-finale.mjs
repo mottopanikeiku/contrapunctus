@@ -4,14 +4,14 @@ export default {
   order: 0.4,
   set: { id: 'haydn-quartet-54-2', title: 'String Quartet in C major, Op. 54 No. 2', part: 4, of: 4 },
   work: 'String Quartet in C major, Op. 54 No. 2, Hob. III:57',
-  movement: 'IV. Finale: Adagio — Presto — Adagio',
+  movement: 'IV. Finale: Adagio, Presto, Adagio',
   year: '1788',
   key: 'C major',
   forces: 'String quartet',
   performers: 'The Danish String Quartet',
   recorded: 'May 2015',
   source: { file: 'File:The Danish String Quartet - Haydn\'s String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - IV. Finale adagio-Presto-Adagio.ogg' },
-  intro: 'Haydn ended the String Quartet in C major, Op. 54 No. 2, Hob. III:57, with a finale marked Adagio — Presto — Adagio. A brief Presto interrupts the Adagio, and the slow music then returns to close the movement pianissimo.',
+  intro: 'Haydn ended the String Quartet in C major, Op. 54 No. 2, Hob. III:57, with a finale marked Adagio, Presto, Adagio. A brief Presto interrupts the Adagio, and the slow music then returns to close the movement pianissimo.',
   // Sources: Laurie Shulman, programme note, https://pac.uga.edu/wp-content/uploads/2022/05/Schumann-Quartet-program-pages.pdf
   // Score: Haydn, String Quartet Op. 54 No. 2 (Eulenburg, ed. Altmann), IMSLP #05812, printed pp. 193–198
   // https://en.wikipedia.org/wiki/Danish_String_Quartet; https://www.youtube.com/watch?v=dGgmFFMFICc

@@ -3,7 +3,7 @@ export default {
   composer: 'saint-saens',
   order: 2,
   work: 'Symphony No. 3 in C minor, Op. 78 “Organ”',
-  movement: 'Part I — Adagio · Allegro moderato · Poco adagio',
+  movement: 'Part I: Adagio · Allegro moderato · Poco adagio',
   set: { id: 'saint-saens-symphony-3', title: 'Symphony No. 3 in C minor, Op. 78 “Organ”', part: 1, of: 2, unit: 'parts' },
   year: '1886',
   key: 'C minor',

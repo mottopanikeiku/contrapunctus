@@ -3,7 +3,7 @@
   "work": {
     "title": "Das Lied von der Erde",
     "catalogue": "",
-    "movement": "I. Das Trinklied vom Jammer der Erde — Allegro pesante",
+    "movement": "I. Das Trinklied vom Jammer der Erde, Allegro pesante",
     "version": {
       "value": null,
       "status": "unknown",
@@ -153,28 +153,28 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Das Lied von der Erde (Mahler), Concertgebouw Amsterdam, Carl Schuricht (5. X. 1939)",
+      "title": "Internet Archive: Das Lied von der Erde (Mahler), Concertgebouw Amsterdam, Carl Schuricht (5. X. 1939)",
       "url": "https://archive.org/metadata/06-das-lied-von-der-erde-mahler-concertgebouw-amsterdam-carl-schuricht-5.-x.-193",
       "locator": "metadata: creator, date 1939-10-05, licenseurl (Public Domain Mark 1.0), description; file “01 - Das Lied von der Erde (Mahler) - Concertgebouw Amsterdam Carl SCHURICHT (5.X.1939) - Carl Martin ÖHMANN (Tenor) - 1.Das Trinklied vom Jammer der Erde.mp3” (VBR MP3 189 kbps, 536.03 s), original WAV.",
       "accessed": "2026-10-17"
     },
     {
       "id": "mf-history",
-      "title": "Mahler Foundation — History: Das Lied von der Erde",
+      "title": "Mahler Foundation: History: Das Lied von der Erde",
       "url": "https://mahlerfoundation.org/mahler/compositions/das-lied-von-der-erde/das-lied-von-der-erde-history/",
       "locator": "Recordings, versions with female and male soloists: Schuricht, Thorborg and Öhmann, Royal Concertgebouw Orchestra, “October 1939 broadcast concert, live (Bel Age CD, from acetates)”.",
       "accessed": "2026-10-17"
     },
     {
       "id": "mahler-archives",
-      "title": "The Mahler Archives — Das Lied von der Erde: texts and Chinese sources",
+      "title": "The Mahler Archives: Das Lied von der Erde: texts and Chinese sources",
       "url": "http://www.mahlerarchives.net/Archive%20documents/DLvDE/DLvDE.htm",
       "locator": "One page per song (Der_Jugend.htm, Der_Trunkene.htm, Der_Abschied.htm and others): Chinese poem, French, Heilmann and Bethge versions beside Mahler’s text.",
       "accessed": "2026-10-17"
     },
     {
       "id": "cleveland",
-      "title": "The Cleveland Orchestra — Das Lied von der Erde, note by Peter Laki",
+      "title": "The Cleveland Orchestra: Das Lied von der Erde, note by Peter Laki",
       "url": "https://www.clevelandorchestra.com/works/das-lied-von-der-erde",
       "locator": "Paragraphs on each of the six movements, including the porcelain pavilion of Von der Jugend.",
       "accessed": "2026-10-17"
@@ -188,7 +188,7 @@
     },
     {
       "id": "tenor-history",
-      "title": "History of the Tenor — Carl Martin Öhman",
+      "title": "History of the Tenor: Carl Martin Öhman",
       "url": "https://historyofthetenor.com/carl-ohman/",
       "locator": "Swedish tenor, 1887–1967; Berlin ensemble to 1937; pupils Nicolai Gedda and Martti Talvela.",
       "accessed": "2026-10-17"
@@ -202,42 +202,42 @@
     },
     {
       "id": "mf-intro",
-      "title": "Mahler Foundation — Introduction: Das Lied von der Erde",
+      "title": "Mahler Foundation: Introduction: Das Lied von der Erde",
       "url": "https://mahlerfoundation.org/mahler/compositions/das-lied-von-der-erde/das-lied-von-der-erde-introduction/",
       "locator": "Hans Bethge (1876–1946), Die chinesische Flöte; the six songs and their Chinese poets.",
       "accessed": "2026-10-17"
     },
     {
       "id": "wp-schuricht",
-      "title": "Wikipedia — Carl Schuricht",
+      "title": "Wikipedia: Carl Schuricht",
       "url": "https://en.wikipedia.org/wiki/Carl_Schuricht",
       "locator": "Life and career: the 5 October 1939 Amsterdam performance of Das Lied von der Erde, disrupted by a heckler; Mahler banned in Germany 1933–45.",
       "accessed": "2026-10-17"
     },
     {
       "id": "wp-thorborg",
-      "title": "Wikipedia — Kerstin Thorborg",
+      "title": "Wikipedia: Kerstin Thorborg",
       "url": "https://en.wikipedia.org/wiki/Kerstin_Thorborg",
       "locator": "Biography: the 1939 Concertgebouw recording under Schuricht.",
       "accessed": "2026-10-17"
     },
     {
       "id": "wp-lied",
-      "title": "Wikipedia — Das Lied von der Erde",
+      "title": "Wikipedia: Das Lied von der Erde",
       "url": "https://en.wikipedia.org/wiki/Das_Lied_von_der_Erde",
       "locator": "Composition, Reception and Text sections: Mahler’s death on 18 May 1911; premiere 20 November 1911; Bethge’s Die chinesische Flöte.",
       "accessed": "2026-10-17"
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Das Lied von der Erde, GMW 49 (Mahler, Gustav)",
+      "title": "IMSLP: Das Lied von der Erde, GMW 49 (Mahler, Gustav)",
       "url": "https://imslp.org/wiki/Das_Lied_von_der_Erde,_GMW_49_(Mahler,_Gustav)",
       "locator": "Complete Score #20582: Vienna, Universal Edition, 1912, plate U.E. 3637; Copyright Public Domain.",
       "accessed": "2026-10-17"
     },
     {
       "id": "ue-hefling",
-      "title": "Universal Edition — Das Lied von der Erde, work introduction by Stephen E. Hefling",
+      "title": "Universal Edition: Das Lied von der Erde, work introduction by Stephen E. Hefling",
       "url": "https://www.universaledition.com/en/Works/Das-Lied-von-der-Erde/P0109538",
       "locator": "Composition in summer 1908; Bethge’s 83 paraphrases; seven poems chosen.",
       "accessed": "2026-10-17"

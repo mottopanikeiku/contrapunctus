@@ -152,9 +152,9 @@ C ^C _E F | ^F A c2 |]`,
     note: `<p>[[messiaen|Messiaen]] let Xenakis attend his class, and Xenakis credited his analyses of his own works and his combinatorial thinking. He said that he first heard [[debussy|Debussy]] and [[bartok|Bartók]] in Athens in December 1944, and that he had imitated Bartók in his early pieces. Le Corbusier’s studio taught him to think of a whole before its details. Scherchen conducted and championed his early works and published his essays in <i>Gravesaner Blätter</i>. Jean-Pierre Guézec and David Del Tredici were among his students at Tanglewood in 1963, and <i>Charisma</i> (1971) was written in memory of Guézec. Mode’s CCMIX set collects UPIC works by Risset, Estrada, Roads and Pape alongside Xenakis’s own <i>Mycenae Alpha</i>.</p>`,
   },
   reading: [
-    'Bálint András Varga, <i>Conversations with Iannis Xenakis</i> (Faber and Faber, 1996) — two interviews, from 1980 and 1989, on his wartime years, Le Corbusier’s studio, Messiaen and his own scores.',
-    'Iannis Xenakis, <i>Formalized Music: Thought and Mathematics in Composition</i>, revised edition, edited by Sharon Kanach (Pendragon Press, 1992) — the composer’s own account of his stochastic, symbolic and sieve methods.',
-    '<a href="https://www.iannis-xenakis.org/en/dictionary/">A Xenakis Dictionary</a>, edited by Dimitris Exarchos (Les Amis de Xenakis, 2023) — signed entries on sieve theory, group theory, polytopes, the UPIC and the undulating glass panes.',
-    '<a href="https://books.openbookpublishers.com/10.11647/obp.0390/contents.xhtml">Sharon Kanach and Peter Nelson, eds., <i>Meta-Xenakis</i></a> (Open Book Publishers, 2024) — open-access essays, including Guy Pimienta on the Le Corbusier studio (chapter 22).',
+    'Bálint András Varga, <i>Conversations with Iannis Xenakis</i> (Faber and Faber, 1996): two interviews, from 1980 and 1989, on his wartime years, Le Corbusier’s studio, Messiaen and his own scores.',
+    'Iannis Xenakis, <i>Formalized Music: Thought and Mathematics in Composition</i>, revised edition, edited by Sharon Kanach (Pendragon Press, 1992): the composer’s own account of his stochastic, symbolic and sieve methods.',
+    '<a href="https://www.iannis-xenakis.org/en/dictionary/">A Xenakis Dictionary</a>, edited by Dimitris Exarchos (Les Amis de Xenakis, 2023): signed entries on sieve theory, group theory, polytopes, the UPIC and the undulating glass panes.',
+    '<a href="https://books.openbookpublishers.com/10.11647/obp.0390/contents.xhtml">Sharon Kanach and Peter Nelson, eds., <i>Meta-Xenakis</i></a> (Open Book Publishers, 2024): open-access essays, including Guy Pimienta on the Le Corbusier studio (chapter 22).',
   ],
 };

@@ -21,7 +21,7 @@
       },
       {
         "name": "John R. Bourgeois",
-        "role": "conductor — embedded credit"
+        "role": "conductor: embedded credit"
       }
     ],
     "status": "documented",
@@ -141,7 +141,7 @@
       ]
     },
     "recording": {
-      "value": "Rule 1 — recording-specific public-domain release: PD-USGov-Military-Marine (US-law basis).",
+      "value": "Rule 1, recording-specific public-domain release: PD-USGov-Military-Marine (US-law basis).",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons",
@@ -155,56 +155,56 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Infernal Dance from The Firebird by Stravinsky.ogg",
+      "title": "Wikimedia Commons: Infernal Dance from The Firebird by Stravinsky.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Infernal_Dance_from_The_Firebird_by_Stravinsky.ogg?oldid=911313164",
       "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured and embedded metadata",
+      "title": "Wikimedia Commons: structured and embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Infernal_Dance_from_The_Firebird_by_Stravinsky.ogg#structureddata",
       "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "marine-source",
-      "title": "United States Marine Band — Courtly Dances source audio",
+      "title": "United States Marine Band: Courtly Dances source audio",
       "url": "https://www.marineband.marines.mil/Portals/175/Docs/Audio/Educational_Series/courtly_dances/infernal_dance_of_kastchei_from_the_firebird.mp3",
       "locator": "Original audio URL explicitly cited in Commons. The path names Courtly Dances; it does not supply a session date or a carrier catalogue number.",
       "accessed": "2026-10-16"
     },
     {
       "id": "score",
-      "title": "IMSLP — The Firebird",
+      "title": "IMSLP: The Firebird",
       "url": "https://imslp.org/wiki/The_Firebird_(Stravinsky,_Igor)",
       "locator": "Work information: first publication 1910, Moscow, P. Jurgenson. Copyright warning distinguishes US/Canadian public-domain status from life-plus-70 jurisdictions.",
       "accessed": "2026-10-16"
     },
     {
       "id": "composer",
-      "title": "Igor Stravinsky — biographical dates",
+      "title": "Igor Stravinsky: biographical dates",
       "url": "https://en.wikipedia.org/wiki/Igor_Stravinsky",
       "locator": "Lead: 17 June 1882 – 6 April 1971; this contradicts the Commons copyright template’s deathyear=1936.",
       "accessed": "2026-10-16"
     },
     {
       "id": "eu-term",
-      "title": "EU Directive 2006/116/EC — copyright duration",
+      "title": "EU Directive 2006/116/EC: copyright duration",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: ordinary life-plus-70 term, calculated from 1 January after the relevant event.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Infernal Dance from The Firebird by Stravinsky.ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Infernal Dance from The Firebird by Stravinsky.ogg",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1208738189%7C1227005699%7C955665701%7C1220972757%7C911313164%7C963517023%7C1191098375%7C392869837%7C1189153589%7C1183107191&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Infernal Dance from The Firebird by Stravinsky.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-us-government",
-      "title": "17 U.S.C. § 105 — United States Government works",
+      "title": "17 U.S.C. § 105: United States Government works",
       "url": "https://www.law.cornell.edu/uscode/text/17/105",
       "locator": "Subsection (a): US copyright protection is unavailable for works of the US Government; historical notes distinguish foreign protection.",
       "accessed": "2026-10-17"

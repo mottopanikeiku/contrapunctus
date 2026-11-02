@@ -147,35 +147,35 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — The Prophet",
+      "title": "Internet Archive: The Prophet",
       "url": "https://archive.org/metadata/78_the-prophet_feodor-chaliapin-poushkin-rimsky-korsakow_gbia7040685b",
       "locator": "metadata, preferred FLAC/MP3 file records, transfer credits, technical notes and issue number.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dahr-session",
-      "title": "DAHR — Cc550, take 1",
+      "title": "DAHR: Cc550, take 1",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000007905",
       "locator": "Date, place, issued take, personnel and issue links.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dahr-issue",
-      "title": "DAHR — Victor 6058",
+      "title": "DAHR: Victor 6058",
       "url": "https://adp.library.ucsb.edu/index.php/objects/refer/162250",
       "locator": "Matrix coupling and MARC 264 publication statement [1922].",
       "accessed": "2026-10-17"
     },
     {
       "id": "work",
-      "title": "IMSLP — 2 Romances, Op. 49",
+      "title": "IMSLP: 2 Romances, Op. 49",
       "url": "https://imslp.org/wiki/2_Romances,_Op.49_(Rimsky-Korsakov,_Nikolay)",
       "locator": "No. 2: The Prophet; composition 1897, first publication 1898; text by Pushkin.",
       "accessed": "2026-10-17"
     },
     {
       "id": "us-term",
-      "title": "US Copyright Office — pre-1972 sound-recording terms",
+      "title": "US Copyright Office: pre-1972 sound-recording terms",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
       "locator": "Term section: recordings first published before 1923; 1923–1946 recordings receive 95 years plus five years.",
       "accessed": "2026-10-17"

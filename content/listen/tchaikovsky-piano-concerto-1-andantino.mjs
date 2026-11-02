@@ -3,7 +3,7 @@ export default {
   "composer": "tchaikovsky",
   "order": 4,
   "work": "Piano Concerto No. 1 in B♭ minor, Op. 23",
-  "movement": "II. Andantino semplice — Prestissimo",
+  "movement": "II. Andantino semplice, Prestissimo",
   "set": {
     "id": "tchaikovsky-piano-concerto-1",
     "title": "Piano Concerto No. 1 in B♭ minor, Op. 23",

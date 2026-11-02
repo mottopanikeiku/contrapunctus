@@ -6,7 +6,7 @@ export default {
   composer: 'schumann',
   order: 120,
   work: 'Kinderszenen, Op. 15',
-  movement: 'No. 12 · Kind im Einschlummern — Child Falling Asleep',
+  movement: 'No. 12 · Kind im Einschlummern (Child Falling Asleep)',
   set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 12, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'E minor – E major',

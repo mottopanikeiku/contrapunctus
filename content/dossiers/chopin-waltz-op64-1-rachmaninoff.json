@@ -120,7 +120,7 @@
       "note": "This field concerns the underlying composition, separately from the sound-recording permission. No claim is made about an unidentified modern edition."
     },
     "recording": {
-      "value": "US public-domain sound recording — published in or before 1925",
+      "value": "US public-domain sound recording: published in or before 1925",
       "status": "documented",
       "sourceIds": [
         "source",
@@ -128,20 +128,20 @@
       ],
       "note": "Programme rule 2. Source identifies the 1923 issue and carrier; no non-commercial transfer licence was found in the inspected source. No worldwide public-domain claim is made."
     },
-    "creditLine": "Waltz in D♭ major, Op. 64 No. 1 (“Minute”); Sergei Rachmaninoff, piano (Steinway). US public-domain sound recording — published in or before 1925. Source: Wikimedia Commons.",
+    "creditLine": "Waltz in D♭ major, Op. 64 No. 1 (“Minute”); Sergei Rachmaninoff, piano (Steinway). US public-domain sound recording, published in or before 1925. Source: Wikimedia Commons.",
     "licenseUrl": "https://www.law.cornell.edu/uscode/text/17/1401"
   },
   "sources": [
     {
       "id": "source",
-      "title": "Wikimedia Commons — Minute Waltz, by Chopin - Performed by Sergej Rachmaninoff.ogg",
+      "title": "Wikimedia Commons: Minute Waltz, by Chopin - Performed by Sergej Rachmaninoff.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Minute_Waltz,_by_Chopin_-_Performed_by_Sergej_Rachmaninoff.ogg",
       "locator": "Recording description, source attribution, licence and file metadata; inspected independently of the comparison plan.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dahr",
-      "title": "DAHR — Victor matrix B-24192",
+      "title": "DAHR: Victor matrix B-24192",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/700009401",
       "locator": "Session dates, locations and issued takes.",
       "accessed": "2026-10-17"

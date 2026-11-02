@@ -1,7 +1,7 @@
 {
   "id": "lili-boulanger-psalm-24",
   "work": {
-    "title": "Psalm 24 — La terre appartient à l’Éternel",
+    "title": "Psalm 24: La terre appartient à l’Éternel",
     "catalogue": "",
     "movement": "",
     "version": {
@@ -149,7 +149,7 @@
       "note": "Boulanger died in 1918. This is a territorial term calculation for the original music, not a worldwide clearance or a claim about an unidentified modern edition. The biblical or liturgical text is not used as evidence for the sound-recording rights."
     },
     "recording": {
-      "value": "Rule 3 — territorial EU sound-recording public domain: lawful publication documented by 1960, before 1963.",
+      "value": "Rule 3, territorial EU sound-recording public domain: lawful publication documented by 1960, before 1963.",
       "status": "documented",
       "sourceIds": [
         "sleeve",
@@ -159,97 +159,97 @@
       ],
       "note": "The original commercial mono release LPBR 6059 is dated 1960; the sleeve carries ©1960 Belock, corroborated by the label discography. The rule concerns first lawful publication anywhere, not first EU publication. On the former fifty-year term this phonogram was no longer protected before the 2013 extension. US recording status is not established. No worldwide public-domain claim, Creative Commons licence or modern-remaster release is inferred."
     },
-    "creditLine": "Lili Boulanger, Psalm 24 — La terre appartient à l’Éternel; Michel Sénéchal, tenor; J. J. Grunenwald, organ; Chorale Élisabeth Brasseur; members of the Orchestre des Concerts Lamoureux; Igor Markevitch, conductor. Everest LPBR 6059, side B1, published 1960; recorded at Salle Pleyel, session date unestablished. Internet Archive vinyl transfer, ripping date 18 September 2021. Territorial EU rule 3; US recording status not established.",
+    "creditLine": "Lili Boulanger, Psalm 24 (La terre appartient à l’Éternel); Michel Sénéchal, tenor; J. J. Grunenwald, organ; Chorale Élisabeth Brasseur; members of the Orchestre des Concerts Lamoureux; Igor Markevitch, conductor. Everest LPBR 6059, side B1, published 1960; recorded at Salle Pleyel, session date unestablished. Internet Archive vinyl transfer, ripping date 18 September 2021. Territorial EU rule 3; US recording status not established.",
     "licenseUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077"
   },
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — mono Everest LPBR 6059 transfer metadata",
+      "title": "Internet Archive: mono Everest LPBR 6059 transfer metadata",
       "url": "https://archive.org/metadata/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d",
       "locator": "metadata: date 1960, publisher Everest, external_identifier catalogue LPBR 6059, source Vinyl LP, lineage, ripping_operator, ripping_date 20210918003915, ripping_software_version and ripping_scanner. files: exact access track disc1/02.01. Psaume 24.mp3; original side FLACs and track-level VBR MP3 derivatives. MP3 original points to the item’s segments JSON; no undocumented restoration is inferred.",
       "accessed": "2026-10-17"
     },
     {
       "id": "sleeve",
-      "title": "Everest LPBR 6059 — original sleeve transcription",
+      "title": "Everest LPBR 6059: original sleeve transcription",
       "url": "https://archive.org/download/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d/lp_du-fond-de-labime-psaume-24-psaume-129_lili-boulanger-igor-markevitch-orchestre-d_djvu.txt",
       "locator": "Back sleeve: LPBR 6059, ©1960 Belock Instrument Corp., recording at Salle Pleyel in Paris on Everest equipment, Igor Markevitch conducting, recording under Nadia Boulanger’s direction; stereo counterpart SDBR 3059 named separately.",
       "accessed": "2026-10-17"
     },
     {
       "id": "release",
-      "title": "Discogs — exact mono release and insert-image catalogue",
+      "title": "Discogs: exact mono release and insert-image catalogue",
       "url": "https://api.discogs.com/releases/6056852",
       "locator": "Release 6056852: Everest LPBR 6059, mono LP, US, 1960; tracks A and B1–B4; reported side runouts LPBR-6059-1-T1 and LPBR-6059-2-T1. The attached YouTube videos describe other performances and are not sources for this stream.",
       "accessed": "2026-10-17"
     },
     {
       "id": "insert-front",
-      "title": "Everest LPBR 6059 — visually inspected insert front",
+      "title": "Everest LPBR 6059: visually inspected insert front",
       "url": "https://i.discogs.com/XrNcaeuOsiqmWirxmPgDAtlexW1ImUbc9UpE5Aw4kkg/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNTY4/NTItMTQ3MzM1MDk5/Ny02MDQ1LmpwZWc.jpeg",
       "locator": "Album header: Igor Markevitch conducting Orchestre Lamoureux and Chorale Elisabeth Brasseur; organ J. J. Grunenwald; named soloist roster; recording direction Nadia Boulanger. Psalm 130’s individual heading names Oralia Dominguez and Raymond Amade.",
       "accessed": "2026-10-17"
     },
     {
       "id": "discography",
-      "title": "David Edwards and Mike Callahan — Everest Classical Album Discography",
+      "title": "David Edwards and Mike Callahan: Everest Classical Album Discography",
       "url": "https://www.bsnpubs.com/decca/deccadist/everest%20classical.pdf",
       "locator": "2018 discography, p. 5: LPBR 6059 mono / SDBR 3059 stereo, [1960], Boulanger programme. Corroborates the sleeve’s publication-year evidence, not a session date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "label",
-      "title": "Everest — SDBR 3059 programme and per-track credits",
+      "title": "Everest: SDBR 3059 programme and per-track credits",
       "url": "https://www.evereststereo.com/album/sdbr-3059/",
       "locator": "Official stereo counterpart page identifies Dominguez and Amade for Psalm 130; Sénéchal for Psalm 24 and Vieille prière; Mollet for Psalm 129; Fauqueur for Pie Jesu. This corroborates the visually inspected mono insert; the stereo stream is not used.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score",
-      "title": "Lili Boulanger — original Durand full score",
+      "title": "Lili Boulanger: original Durand full score",
       "url": "https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP306314-PMLP430957-psalm_24_lili_boulanger_4.pdf",
       "locator": "Nomenclature and printed pp. 1, 4–9, 17–18. The nomenclature says Harpe in the singular. Optional horn support of the opening choir is not asserted as a recording-specific choice. Representative passage snapshots, placed approximately using the cached level/novelty report and score order. Not continuous player detection; individual rests are not mapped.",
       "accessed": "2026-10-17"
     },
     {
       "id": "work",
-      "title": "IMSLP — work and publication record",
+      "title": "IMSLP: work and publication record",
       "url": "https://imslp.org/wiki/Psaume_XXIV_(Boulanger,_Lili)",
       "locator": "General Information: composition and publication dates, scoring, text and work identity. The linked original full score was opened and visually inspected; this catalogue page alone is not used to infer instrumental entrances.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "Library of Congress — Lili Boulanger",
+      "title": "Library of Congress: Lili Boulanger",
       "url": "https://guides.loc.gov/feminism-french-women-history/famous/lili-boulanger",
       "locator": "Biographical dates 1893–1918; first woman to win the composition Prix de Rome in 1913; Villa Medici and the sisters’ wartime support work.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — term of protection",
+      "title": "Directive 2006/116/EC: term of protection",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1 and 8: ordinary authorial life-plus-70 term and calculation from the following 1 January; Article 3’s historical phonogram term is read with the 2011 extension’s transition rule. Recording and composition rights remain separate.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-extension",
-      "title": "Directive 2011/77/EU — phonogram extension and transition",
+      "title": "Directive 2011/77/EU: phonogram extension and transition",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Article 1 amendments: extended phonogram protection applies to recordings still protected on 1 November 2013. The 1960 publication evidence puts this recording’s former fifty-year term before that transition. This is a territorial EU basis, not a worldwide licence or US clearance.",
       "accessed": "2026-10-17"
     },
     {
       "id": "insert-middle",
-      "title": "Everest LPBR 6059 — visually inspected per-track insert",
+      "title": "Everest LPBR 6059: visually inspected per-track insert",
       "url": "https://i.discogs.com/YRlMh__FB1Z6EXv1xxcm1OfoUrYyEvbGNCKMou0f0aI/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNTY4/NTItMTQ3MzM1MDk5/OS01NzcxLmpwZWc.jpeg",
-      "locator": "Individual work heading supplies the named soloist for Psalm 24 — La terre appartient à l’Éternel. Notes by David Noakes; ©1960 Belock footer on the final insert leaf. For Psalm 129, the preceding continuation on the last leaf describes women’s wordless closing voices.",
+      "locator": "Individual work heading supplies the named soloist for Psalm 24 (La terre appartient à l’Éternel). Notes by David Noakes; ©1960 Belock footer on the final insert leaf. For Psalm 129, the preceding continuation on the last leaf describes women’s wordless closing voices.",
       "accessed": "2026-10-17"
     },
     {
       "id": "preface",
-      "title": "Scholarly preface — Psalm 24 — La terre appartient à l’Éternel",
+      "title": "Scholarly preface: Psalm 24 (La terre appartient à l’Éternel)",
       "url": "https://repertoire-explorer.musikmph.de/wp-content/uploads/vorworte_prefaces/1146.html",
       "locator": "Helen Julia Minors (2011) for the psalms; Konstantin Galluhn (2010), English translation Bradford Robinson, for Vieille prière. Composition, performance history and score structure. Speculative psychological readings and unsupported numerical symbolism are not adopted.",
       "accessed": "2026-10-17"

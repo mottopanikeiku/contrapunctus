@@ -11,7 +11,7 @@
       "what": "She was born Florence Beatrice Smith, and her mother gave her her first music lessons.",
       "status": "documented",
       "sources": [
-        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Encyclopedia of Arkansas: Dan Dykema, Florence Price", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
         { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
       ]
     },
@@ -26,7 +26,7 @@
       "what": "Studied at the New England Conservatory, receiving an organ soloist’s diploma and a piano teacher’s diploma in 1906.",
       "status": "documented",
       "sources": [
-        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Encyclopedia of Arkansas: Dan Dykema, Florence Price", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
         { "title": "NEC Archives: A Celebration of NEC’s African American Legacy", "url": "https://necmusic.edu/about/news/archives-celebration-necs-african-american-legacy/" },
         { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
       ]
@@ -42,7 +42,7 @@
       "what": "Taught music at Cotton Plant Academy after returning from Boston.",
       "status": "documented",
       "sources": [
-        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Encyclopedia of Arkansas: Dan Dykema, Florence Price", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
         { "title": "GeoNames: Cotton Plant", "url": "https://www.geonames.org/4106733/cotton-plant.html" }
       ]
     },
@@ -57,7 +57,7 @@
       "what": "Taught music at Shorter College.",
       "status": "documented",
       "sources": [
-        { "title": "Rae Linda Brown: Symphony No. 1 in E minor — biographical chronology", "url": "https://americansymphony.org/concert-notes/symphony-no-1-in-e-minor/" },
+        { "title": "Rae Linda Brown: Symphony No. 1 in E minor, biographical chronology", "url": "https://americansymphony.org/concert-notes/symphony-no-1-in-e-minor/" },
         { "title": "Mapcarta: North Little Rock, OpenStreetMap place record", "url": "https://mapcarta.com/North_Little_Rock" }
       ]
     },
@@ -72,7 +72,7 @@
       "what": "Headed the music department at Clark University.",
       "status": "documented",
       "sources": [
-        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Encyclopedia of Arkansas: Dan Dykema, Florence Price", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
         { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
       ]
     },
@@ -87,7 +87,7 @@
       "what": "Returned to marry Thomas Jewell Price in September 1912; taught piano in her own studio before the family moved to Chicago in 1927.",
       "status": "documented",
       "sources": [
-        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Encyclopedia of Arkansas: Dan Dykema, Florence Price", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
         { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
       ]
     },
@@ -102,8 +102,8 @@
       "what": "Settled on the South Side and worked as a teacher, pianist, organist and composer; Estella and Margaret Bonds were close friends and collaborators.",
       "status": "documented",
       "sources": [
-        { "title": "Arionne Nettles: Florence Price and Black Chicago — WBEZ", "url": "https://www.wbez.org/curious-city/2022/07/21/who-was-florence-price" },
-        { "title": "Dan Dykema, Florence Price — death date", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Arionne Nettles: Florence Price and Black Chicago, WBEZ", "url": "https://www.wbez.org/curious-city/2022/07/21/who-was-florence-price" },
+        { "title": "Dan Dykema, Florence Price: death date", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
         { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
       ]
     },
@@ -118,7 +118,7 @@
       "work": "Symphony No. 1 in E minor",
       "status": "documented",
       "sources": [
-        { "title": "Phillip Huscher: Florence Price’s Symphony No. 1 — Chicago Symphony Orchestra", "url": "https://chicagosymphony.org/inside-the-music/article/17666/florence-prices-symphony-no-1" },
+        { "title": "Phillip Huscher: Florence Price’s Symphony No. 1, Chicago Symphony Orchestra", "url": "https://chicagosymphony.org/inside-the-music/article/17666/florence-prices-symphony-no-1" },
         { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
       ]
     },
@@ -147,7 +147,7 @@
       "what": "Returned for a concert of her own compositions at Dunbar High School, sponsored by the Philander Smith College Alumni Association.",
       "status": "documented",
       "sources": [
-        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Encyclopedia of Arkansas: Dan Dykema, Florence Price", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
         { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
       ]
     },
@@ -176,7 +176,7 @@
       "what": "Died in Chicago after more than a quarter-century based in the city.",
       "status": "documented",
       "sources": [
-        { "title": "Dan Dykema, Florence Price — Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
+        { "title": "Encyclopedia of Arkansas: Dan Dykema, Florence Price", "url": "https://encyclopediaofarkansas.net/entries/florence-beatrice-smith-price-1742/" },
         { "title": "Wikipedia city coordinate records", "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=coordinates&colimit=max&titles=Little_Rock%2C_Arkansas%7CBoston%7CAtlanta%7CChicago%7CDetroit" }
       ]
     }

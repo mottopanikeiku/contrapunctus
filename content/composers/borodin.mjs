@@ -51,7 +51,7 @@ export default {
     { year: '1886–87', title: 'Symphony No. 3 in A minor (unfinished)', forces: 'Orchestra', note: 'Two movements were written down by Glazunov from Borodin’s sketches and from memory and played in 1887–88.' },
   ],
   score: [
-    { kicker: 'In the Steppes of Central Asia — bars 5–9', title: 'Russian song in the clarinet', abc: `X:1
+    { kicker: 'In the Steppes of Central Asia: bars 5–9', title: 'Russian song in the clarinet', abc: `X:1
 T:In the Steppes of Central Asia, bars 5-9, first clarinet (sounding pitch)
 M:2/4
 L:1/16
@@ -59,7 +59,7 @@ Q:1/4=92
 K:A
 %%MIDI program 71
 e6 d c | B4 c4 | A4 E4 | B6 c B | A4 e4 |]`, caption: 'The first clarinet’s entry, marked <i>p cantabile</i>, at sounding pitch. The part is printed for clarinet in A, a minor third higher, and is written here in A major. Melody only. The tempo mark is Allegretto con moto, crotchet = 92. Under it the violins hold high harmonics, and a horn takes up the tune at bar 17. Checked against the typeset full score on IMSLP (file 1016329) and a second typeset score (file 283781).' },
-    { kicker: 'Whole-tone scale — schematic', title: 'Six whole-tone steps', abc: `X:2
+    { kicker: 'Whole-tone scale: schematic', title: 'Six whole-tone steps', abc: `X:2
 T:Whole-tone scale (schematic)
 M:4/4
 L:1/4
@@ -67,7 +67,7 @@ Q:1/4=80
 K:C
 %%MIDI program 0
 C D E ^F | ^G ^A c2 |]`, caption: 'A whole-tone scale from C, in six equal steps of a whole tone each. The Russian Biographical Dictionary describes such a scale in <i>The Sleeping Princess</i> and traces it to Glinka’s overture to <i>Ruslan</i> and Dargomyzhsky’s <i>The Stone Guest</i>. This invented example shows the scale only and quotes no passage by Borodin.' },
-    { kicker: 'Stacked fifths — schematic', title: 'Fifths built one above another', abc: `X:3
+    { kicker: 'Stacked fifths: schematic', title: 'Fifths built one above another', abc: `X:3
 T:Chords of stacked fifths (schematic)
 M:4/4
 L:1/4
@@ -86,9 +86,9 @@ K:C
   ],
   lineage: { from: ['Mily Balakirev', 'Nikolay Zinin', 'mendelssohn', 'beethoven', 'liszt'], to: ['rimsky-korsakov', 'Alexander Glazunov', 'Robert Wright', 'George Forrest'], note: '<p>Balakirev guided his first symphony; Zinin taught him chemistry. Borodin described himself in his student years as “impregnated with Mendelssohnism”, and his First Quartet takes a theme from [[beethoven|Beethoven]]’s Op. 130. [[liszt|Liszt]] praised his symphonies at Weimar and received the dedication of the <i>Steppes</i>. [[rimsky-korsakov|Rimsky-Korsakov]] and Glazunov completed <i>Prince Igor</i>. In 1953 Robert Wright and George Forrest adapted Borodin’s melodies for the Broadway musical <i>Kismet</i>.</p>' },
   reading: [
-    'Alfred Habets, <i>Borodin and Liszt</i>, translated by Rosa Newmarch (Digby, Long, second edition, c. 1896) — a life with Borodin’s letters to his wife and friends, among them his accounts of Weimar in 1877 and 1881.',
-    'Nikolay Rimsky-Korsakov, <i>My Musical Life</i>, translated by Judah A. Joffe (Knopf, 1923) — the circle, the flat on Liteyny Prospekt and the completion of <i>Prince Igor</i>, told by a friend.',
-    'Serge Dianin, <i>Borodin</i> (Oxford University Press, 1963) — chapters on the life, the symphonies, chamber music, songs and the operas, with a list of works.',
-    'Takashi Okazoe, ‘Overview on the history of organofluorine chemistry’, <i>Proceedings of the Japan Academy, Series B</i> 85 (2009) — places Borodin’s benzoyl fluoride of 1862 in the history of fluorine chemistry.',
+    'Alfred Habets, <i>Borodin and Liszt</i>, translated by Rosa Newmarch (Digby, Long, second edition, c. 1896): a life with Borodin’s letters to his wife and friends, among them his accounts of Weimar in 1877 and 1881.',
+    'Nikolay Rimsky-Korsakov, <i>My Musical Life</i>, translated by Judah A. Joffe (Knopf, 1923): the circle, the flat on Liteyny Prospekt and the completion of <i>Prince Igor</i>, told by a friend.',
+    'Serge Dianin, <i>Borodin</i> (Oxford University Press, 1963): chapters on the life, the symphonies, chamber music, songs and the operas, with a list of works.',
+    'Takashi Okazoe, ‘Overview on the history of organofluorine chemistry’, <i>Proceedings of the Japan Academy, Series B</i> 85 (2009): places Borodin’s benzoyl fluoride of 1862 in the history of fluorine chemistry.',
   ],
 };

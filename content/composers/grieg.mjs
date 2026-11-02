@@ -63,7 +63,7 @@ export default {
     { year: '1906', title: 'Four Psalms', cat: 'Op. 74', forces: 'Baritone and mixed choir', note: 'His last work, on old Norwegian tunes and texts. He called the settings “free arrangements”.' },
   ],
   score: [
-    { kicker: 'The Grieg motif — schematic', title: 'A falling second, then a third', abc: `X:1
+    { kicker: 'The Grieg motif: schematic', title: 'A falling second, then a third', abc: `X:1
 T:The Grieg motif, two forms (schematic)
 M:4/4
 L:1/4
@@ -71,7 +71,7 @@ Q:1/4=72
 K:Am
 %%MIDI program 0
 A ^G E2 | A G E2 |]`, caption: 'The turn that Finn Benestad calls the Grieg motif, in its two forms: a falling minor second and major third (A–G♯–E), then a falling major second and minor third (A–G–E). The example is a schematic of the pitch shapes and is not quoted from a work.' },
-    { kicker: 'Peer Gynt Suite No. 1, “In the Hall of the Mountain King” — bars 1–4', title: 'The tune of the troll king’s hall', abc: `X:2
+    { kicker: 'Peer Gynt Suite No. 1, “In the Hall of the Mountain King”: bars 1–4', title: 'The tune of the troll king’s hall', abc: `X:2
 T:In the Hall of the Mountain King, bars 1-4
 M:4/4
 L:1/8
@@ -79,7 +79,7 @@ Q:1/4=138
 K:Bm
 %%MIDI program 70
 .B,.C.D.E !>!F.D.F2 | !>!^E.C.^E2 !>!=E.=C.E2 | .B,.C.D.E !>!F.D.F.B | .A.F.D.F !>!A4 |]`, caption: 'The tune that opens the movement, marked <i>pp</i> and <i>e sempre staccato</i>. Melody only, with the octave adjusted from the piano score typeset after The University Society edition of 1918 (Mutopia Project). Staccato dots and accents are as printed. In bar 2 the tune moves from E♯ to E natural. It is repeated many times, louder and faster each time.' },
-    { kicker: 'Troldtog, Op. 54 No. 3 — bars 2–5', title: 'Chromatic descent in semitones: the dwarfs', abc: `X:3
+    { kicker: 'Troldtog, Op. 54 No. 3: bars 2–5', title: 'Chromatic descent in semitones: the dwarfs', abc: `X:3
 T:Troldtog (March of the Dwarfs), bars 2-5, right hand
 M:2/4
 L:1/8
@@ -97,9 +97,9 @@ z3 (D/4E/4F/4G/4 | .A) .[DFd] .[DFd] .[DF^c] | .[DF^c] .[DF=c] .[DF=c] .[DF=B] |
   ],
   lineage: { from: ['schumann', 'liszt', 'wagner', 'Rikard Nordraak', 'Ole Bull', 'Norwegian folk music'], to: ['rachmaninoff'], note: '<p>[[liszt]] told him to carry on. Grieg had studied [[schumann]]’s A minor concerto before he wrote his own, and he followed its pattern, with the same key, the same flourish for the soloist and no long orchestral exposition. From [[wagner]] came fourteen evenings of <i>Tannhäuser</i> in Leipzig and the Bayreuth reports of 1876. [[tchaikovsky]] became a friend in 1888 and inscribed <i>Hamlet</i> to him. [[rachmaninoff]] used the Grieg concerto as a model for his First Piano Concerto, begun in 1891. In <i>Gil Blas</i> in 1903 Debussy wrote that Grieg’s music left in the mouth the strange, charming taste of a pink bonbon stuffed with snow.</p>' },
   reading: [
-    'Finn Benestad and Dag Schjelderup-Ebbe, <i>Edvard Grieg: The Man and the Artist</i>, translated by William H. Halverson and Leland B. Sateren (University of Nebraska Press, 1988) — the standard life, with letters and diaries in a parallel column.',
-    'Daniel M. Grimley, <i>Grieg: Music, Landscape and Norwegian Identity</i> (Boydell Press, 2006) — asks what “Norwegian” meant in the music, and who decided.',
-    'Henry T. Finck, <i>Edvard Grieg</i> (John Lane, 1906) — a friend’s portrait, with Grieg’s own letters to the author about Liszt, Nordraak and his songs.',
-    '<a href="https://nbl.snl.no/Edvard_Grieg">Finn Benestad, “Edvard Grieg”, Norsk biografisk leksikon</a> — the best short account, in Norwegian, with dates and quotations from the letters.',
+    'Finn Benestad and Dag Schjelderup-Ebbe, <i>Edvard Grieg: The Man and the Artist</i>, translated by William H. Halverson and Leland B. Sateren (University of Nebraska Press, 1988): the standard life, with letters and diaries in a parallel column.',
+    'Daniel M. Grimley, <i>Grieg: Music, Landscape and Norwegian Identity</i> (Boydell Press, 2006): asks what “Norwegian” meant in the music, and who decided.',
+    'Henry T. Finck, <i>Edvard Grieg</i> (John Lane, 1906): a friend’s portrait, with Grieg’s own letters to the author about Liszt, Nordraak and his songs.',
+    '<a href="https://nbl.snl.no/Edvard_Grieg">Finn Benestad, “Edvard Grieg”, Norsk biografisk leksikon</a>: the best short account, in Norwegian, with dates and quotations from the letters.',
   ],
 };

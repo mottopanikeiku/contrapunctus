@@ -51,7 +51,7 @@ export default {
   orchestra: {
     ensemble: ['piccolo', 'flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bassoons', 'contrabassoon', 'timpani', 'percussion', 'harp', 'celesta', 'piano', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Symphony No. 5 — Muzgiz M. 16313 Г, historical full score', url: score, locator: `Printed pp. 85–108; PDF pp. 87–110. Brass absent. Three violin groups cannot map literally onto the diagram’s two violin IDs: violins-1/violins-2 jointly represent those groups. Score is public domain in Taiwan, not cleared for EU/US republication; exact performing edition unknown. Selected approximate passage snapshots use ${audio}; not an exhaustive instrument-on/off transcript.` },
+    source: { title: 'Symphony No. 5: Muzgiz M. 16313 Г, historical full score', url: score, locator: `Printed pp. 85–108; PDF pp. 87–110. Brass absent. Three violin groups cannot map literally onto the diagram’s two violin IDs: violins-1/violins-2 jointly represent those groups. Score is public domain in Taiwan, not cleared for EU/US republication; exact performing edition unknown. Selected approximate passage snapshots use ${audio}; not an exhaustive instrument-on/off transcript.` },
     timeline: [
       { t: 0, playing: ['violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-2'], note: 'The third violin group begins the opening, p. 85; its line is represented by violins-2. The lower strings enter later in the opening passage.' },
       { t: 120, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1'], note: 'High first-violin line and sustained divided strings, p. 87; broad opening-span placement.' },

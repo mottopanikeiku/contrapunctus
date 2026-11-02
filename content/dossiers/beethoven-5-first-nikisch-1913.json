@@ -139,21 +139,21 @@
   "sources": [
     {
       "id": "source",
-      "title": "Internet Archive — recording item",
+      "title": "Internet Archive: recording item",
       "url": "https://archive.org/details/Beethoven_Sinf5-1_BPhO-Nikisch_EQ",
       "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "history",
-      "title": "Science Museum Group Journal — Nikisch recording",
+      "title": "Science Museum Group Journal: Nikisch recording",
       "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/",
       "locator": "Session history, interpretation section, footnotes 8–9: date, full instrumentation, omitted repeat, 1914 issue and first-movement catalogue numbers.",
       "accessed": "2026-10-17"
     },
     {
       "id": "term",
-      "title": "US Copyright Office — pre 1972 sound recordings",
+      "title": "US Copyright Office: pre 1972 sound recordings",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
       "locator": "Recordings first published before 1923 and the annual expiration schedule for 1923–1946 publications; as of 2026 the cutoff is 1925.",
       "accessed": "2026-10-17"

@@ -56,8 +56,8 @@ export default {
     { year: '1938', title: 'Piano Trio in A minor', cat: 'Op. 150', forces: 'Piano trio', note: 'Composed at the MacDowell Colony; first played in New York on 15 January 1939.' },
   ],
   score: [
-    { kicker: 'Violin Sonata — quoted', title: 'The violin’s rising entry', abc: `X:1
-T:Violin Sonata in A minor, Op. 34, I — violin part
+    { kicker: 'Violin Sonata: quoted', title: 'The violin’s rising entry', abc: `X:1
+T:Violin Sonata in A minor, Op. 34, I: violin part
 M:3/4
 L:1/4
 Q:1/4=120
@@ -65,8 +65,8 @@ K:Am
 V:1 name="Violin"
 %%MIDI program 40
 z B, C | E G B | c e g | a3 |]`, caption: 'Quoted from the violin part of the first edition (A. P. Schmidt, 1899, on IMSLP). These are the violin’s first four bars, marked Allegro moderato and tranquillo, which follow five bars for piano alone. The line climbs through B–C, E–G–B and C–E–G to a held A.' },
-    { kicker: 'Browning song — quoted', title: 'The Year’s at the Spring: voice part', abc: `X:2
-T:The Year’s at the Spring, Op. 44 No. 1 — voice, bars 1–4
+    { kicker: 'Browning song: quoted', title: 'The Year’s at the Spring: voice part', abc: `X:2
+T:The Year’s at the Spring, Op. 44 No. 1: voice, bars 1–4
 M:3/4
 L:1/8
 Q:1/4=132
@@ -74,7 +74,7 @@ K:Bb
 V:1 name="Voice"
 %%MIDI program 52
 z2 (3:2:2F B2- (3BFF | G4- G z | z2 (3:2:2G c2- (3cGG | A4- A z |]`, caption: 'Quoted from the A. P. Schmidt print of 1900 (the B♭ edition), voice part only, marked Allegro di molto. In “The year’s at the spring, and day’s at the morn”, the second phrase repeats the first a step higher. The piano’s repeated chords are omitted here.' },
-    { kicker: 'Celtic cadence — invented schematic', title: 'Phrase cadence: third degree to tonic', abc: `X:3
+    { kicker: 'Celtic cadence: invented schematic', title: 'Phrase cadence: third degree to tonic', abc: `X:3
 T:A Gaelic-style close in E minor (schematic)
 M:6/4
 L:1/4
@@ -103,9 +103,9 @@ All’s right with the world!`, note: '<p>Pippa’s song from <i>Pippa Passes</i
   ],
   lineage: { from: ['dvorak', 'brahms', 'Robert Browning', 'Friedrich Schiller'], to: ['Marcella Craft'], note: '<p>Dvořák’s call for an American music prompted the “Gaelic” Symphony. Brahms’s quintet supplied the theme of her own quintet, and she set texts by Browning and Schiller. The soprano Marcella Craft sang her songs in Munich.</p>' },
   reading: [
-    'Adrienne Fried Block, <i>Amy Beach, Passionate Victorian: The Life and Work of an American Composer, 1867–1944</i> (Oxford University Press, 1998) — the standard biography.',
-    'Walter S. Jenkins, <i>The Remarkable Mrs. Beach, American Composer</i> (Harmonie Park Press, 1994) — a life drawn from her papers.',
-    'Jeanell Wise Brown, <i>Amy Beach and Her Chamber Music</i> (Scarecrow Press, 1994) — the sonata, quintet and later chamber works.',
-    'Adrienne Fried Block, ‘Why Amy Beach Succeeded as a Composer: The Early Years’, <i>Current Musicology</i> 36 (1983), 41–59 — the self-taught years.',
+    'Adrienne Fried Block, <i>Amy Beach, Passionate Victorian: The Life and Work of an American Composer, 1867–1944</i> (Oxford University Press, 1998): the standard biography.',
+    'Walter S. Jenkins, <i>The Remarkable Mrs. Beach, American Composer</i> (Harmonie Park Press, 1994): a life drawn from her papers.',
+    'Jeanell Wise Brown, <i>Amy Beach and Her Chamber Music</i> (Scarecrow Press, 1994): the sonata, quintet and later chamber works.',
+    'Adrienne Fried Block, ‘Why Amy Beach Succeeded as a Composer: The Early Years’, <i>Current Musicology</i> 36 (1983), 41–59: the self-taught years.',
   ],
 };

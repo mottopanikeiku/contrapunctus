@@ -102,21 +102,21 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Turangalila Symphonie (Vega 28.001/002): item record and file list",
+      "title": "Internet Archive: Turangalila Symphonie (Vega 28.001/002): item record and file list",
       "url": "https://archive.org/metadata/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l",
       "locator": "publisher Vega, publisher-catalog-number 28.001/002, country FR, date 1962; lineage; scandate 20220502; ripping_date 20220505; file disc2/03.01 Jardin Du Sommeil D'Amour.mp3, 613.42 s",
       "accessed": "2026-10-19"
     },
     {
       "id": "sleeve",
-      "title": "Vega 28.001/28.002 — scanned sleeve and labels (Internet Archive PDF and OCR text)",
+      "title": "Vega 28.001/28.002: scanned sleeve and labels (Internet Archive PDF and OCR text)",
       "url": "https://archive.org/details/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l",
       "locator": "Labels of faces 1–4 with timings (face 3: N° 6 Jardin du sommeil d’amour 10′05″) and notice (P) 1962; Messiaen’s note in French, English and German: commission, composition dates, first performance, cyclic themes",
       "accessed": "2026-10-19"
     },
     {
       "id": "segments",
-      "title": "Internet Archive — final track segmentation (segments.json)",
+      "title": "Internet Archive: final track segmentation (segments.json)",
       "url": "https://archive.org/download/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l/lp_turangalila-symphonie_olivier-messiaen-yvonne-loriod-jeanne-l_segments.json",
       "locator": "Jardin Du Sommeil D'Amour: initial 9.411–617.415 s, final 3.995–617.415 s",
       "accessed": "2026-10-19"
@@ -130,28 +130,28 @@
     },
     {
       "id": "heninger",
-      "title": "Barbara Heninger — Turangalîla-Symphony programme note, Redwood Symphony",
+      "title": "Barbara Heninger: Turangalîla-Symphony programme note, Redwood Symphony",
       "url": "https://redwoodsymphony.org/piece/turangalila-symphony/",
       "locator": "Reprints Messiaen’s programme note for the first performance, movement by movement (V, VI, VIII, X)",
       "accessed": "2026-10-19"
     },
     {
       "id": "wikipedia",
-      "title": "Wikipedia — Turangalîla-Symphonie",
+      "title": "Wikipedia: Turangalîla-Symphonie",
       "url": "https://en.wikipedia.org/wiki/Turangal%C3%AEla-Symphonie",
       "locator": "Premiere of 2 December 1949: Bernstein, Loriod, Ginette Martenot; Koussevitzky’s illness; revision of the orchestration in 1990; Messiaen (1908–1992)",
       "accessed": "2026-10-19"
     },
     {
       "id": "laphil",
-      "title": "Los Angeles Philharmonic — Trois petites liturgies de la présence divine (programme note)",
+      "title": "Los Angeles Philharmonic: Trois petites liturgies de la présence divine (programme note)",
       "url": "https://www.laphil.com/works/trois-petites-liturgies-de-la-presence-divine",
       "locator": "“About this Piece”: Yvonne Loriod, who would later become Messiaen’s second wife in 1961",
       "accessed": "2026-10-19"
     },
     {
       "id": "wikipediaJeanne",
-      "title": "Wikipedia — Jeanne Loriod",
+      "title": "Wikipedia: Jeanne Loriod",
       "url": "https://en.wikipedia.org/wiki/Jeanne_Loriod",
       "locator": "Opening paragraph: younger sister of Yvonne Loriod; recorded the Turangalîla-Symphonie six times",
       "accessed": "2026-10-19"

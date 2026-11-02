@@ -54,7 +54,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Eric Xi Xin Liang — performance and recording",
+      "value": "Eric Xi Xin Liang: performance and recording",
       "status": "documented",
       "sourceIds": ["commons"],
       "note": "The source explicitly credits Liang as the recording creator. Uploader D. Benjamin Miller is not thereby a transfer or mastering engineer; no separate engineer is named."
@@ -86,46 +86,46 @@
       "note": "The notice cites Ives’s death in 1954 and publication before 1931, separately from the recording’s licence. Gann distinguishes 1920 printing and January 1921 circulation from the revised 1947 edition. Because the performing edition is unknown, later revisions and editorial additions are not independently cleared here. IMSLP marks the revised score non-public-domain in the United States."
     },
     "recording": {
-      "value": "Rule 1 — explicit sound-recording licence: Creative Commons Attribution 4.0 International",
+      "value": "Rule 1, explicit sound-recording licence: Creative Commons Attribution 4.0 International",
       "status": "documented",
       "sourceIds": ["commons", "imslp"],
       "note": "The opened Commons page explicitly labels the Recording CC BY 4.0 and names Liang as performance/recording creator. The separate composition public-domain notice is not used as the recording licence. IMSLP’s matching audio entry also states CC BY 4.0. Attribution and a licence link are required; the 2024 recording is not claimed to be public domain."
     },
-    "creditLine": "Charles Ives, Piano Sonata No. 2, ‘Concord, Mass., 1840–60’, IV. Thoreau — Eric Xi Xin Liang, piano and recording (2024). Recording licensed CC BY 4.0. Via Wikimedia Commons; MP3 access derivative of the supplied FLAC, with no additional audio editing by Contrapunctus. No additional performer is documented.",
+    "creditLine": "Charles Ives, Piano Sonata No. 2, ‘Concord, Mass., 1840–60’, IV. Thoreau: Eric Xi Xin Liang, piano and recording (2024). Recording licensed CC BY 4.0. Via Wikimedia Commons; MP3 access derivative of the supplied FLAC, with no additional audio editing by Contrapunctus. No additional performer is documented.",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Ives, Piano Sonata No. 2, IV. Thoreau, Eric Xi Xin Liang",
+      "title": "Wikimedia Commons: Ives, Piano Sonata No. 2, IV. Thoreau, Eric Xi Xin Liang",
       "url": "https://commons.wikimedia.org/w/index.php?title=File:Ives_-_Piano_Sonata_No.2_-_IV._Thoreau_(Eric_Xi_Xin_Liang).flac&oldid=898769979",
       "locator": "Summary: date 2024, source and performance/recording attribution; Licensing: separate Recording and Musical composition notices; File history: 14 July 2024 upload; Transcode status: MP3 derivative. Cached access-file analysis measures 631.0 seconds.",
       "accessed": "2026-10-17"
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Piano Sonata No. 2, S.88, recording and edition catalogue",
+      "title": "IMSLP: Piano Sonata No. 2, S.88, recording and edition catalogue",
       "url": "https://imslp.org/index.php?title=Piano_Sonata_No.2,_S.88_(Ives,_Charles)&oldid=4709840",
       "locator": "Liang audio group, file 922792: piano, publisher Eric Xi Xin Liang 2024 and CC BY 4.0; no flautist or performing edition named. Separate score listings distinguish the first edition and revised 1947 text. Entries inspected in the page’s HTML.",
       "accessed": "2026-10-17"
     },
     {
       "id": "gann",
-      "title": "Kyle Gann — Following the Concord Sonata, Charles Ives Society",
+      "title": "Kyle Gann: Following the Concord Sonata, Charles Ives Society",
       "url": "https://charlesives.org/node/6616",
       "locator": "Thoreau section: introduction, walking episodes, A–C–G ostinato, late cyclic melody, optional flute and alternative without it, unresolved closing texture. Chronology distinguishes composition, editions and performance history.",
       "accessed": "2026-10-17"
     },
     {
       "id": "essays",
-      "title": "Charles Ives — Essays Before a Sonata",
+      "title": "Charles Ives: Essays Before a Sonata",
       "url": "https://www.gutenberg.org/cache/epub/3673/pg3673-images.html#thoreau",
       "locator": "Thoreau essay: opening on listening beyond the concert room and concluding imagined autumn day at Walden, the walks, submission to nature, distant bell and flute. Ives’s own prose is distinguished from the modern editorial biographical sketch.",
       "accessed": "2026-10-17"
     },
     {
       "id": "biography",
-      "title": "Jan Swafford — Ives The Man: His Life",
+      "title": "Jan Swafford: Ives The Man: His Life",
       "url": "https://charlesives.org/ives-man-his-life",
       "locator": "‘soul mates’: marriage to Harmony Twichell in June 1908, the subsequent creative period and parallel insurance career.",
       "accessed": "2026-10-17"

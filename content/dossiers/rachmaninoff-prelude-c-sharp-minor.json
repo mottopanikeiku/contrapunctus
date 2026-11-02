@@ -50,7 +50,7 @@
   },
   "carrier": {
     "label": {
-      "value": "Edison Records — Diamond Disc",
+      "value": "Edison Records: Diamond Disc",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -79,7 +79,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Adam Cuerden — cleanup and restoration; source audio published by the United States National Park Service",
+      "value": "Adam Cuerden: cleanup and restoration; source audio published by the United States National Park Service",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -128,7 +128,7 @@
       "note": "The notice scopes its life-term assertion to countries with life plus 80 years or fewer. This concerns Rachmaninoff’s composition, not an assertion that any modern edition is unrestricted."
     },
     "recording": {
-      "value": "Rule 2 — sound recording public domain in the United States (first published by 1925).",
+      "value": "Rule 2, sound recording public domain in the United States (first published by 1925).",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons",
@@ -143,7 +143,7 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Sergei Rachmaninoff performs Rachmaninoff's Prelude in C sharp minor, Op. 3.ogg",
+      "title": "Wikimedia Commons: File:Sergei Rachmaninoff performs Rachmaninoff's Prelude in C sharp minor, Op. 3.ogg",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=1204343741",
       "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
       "accessed": "2026-10-16"
@@ -157,35 +157,35 @@
     },
     {
       "id": "original",
-      "title": "Wikimedia Commons — Prelude 3 2 Rach playing.ogg",
+      "title": "Wikimedia Commons: Prelude 3 2 Rach playing.ogg",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=1094407918",
       "locator": "Summary gives New York City, 24 April 1919, and links the National Park Service source. The restored file explicitly identifies this earlier Commons file as its source copy.",
       "accessed": "2026-10-16"
     },
     {
       "id": "nps",
-      "title": "National Park Service — Edison National Historic Site: Classical Instrumental",
+      "title": "National Park Service: Edison National Historic Site: Classical Instrumental",
       "url": "https://web.archive.org/web/20071108225217/http://www.nps.gov/archive/edis/edisonia/classical.htm",
       "locator": "Entry ‘Prelude in C sharp minor, Op. 3’: Edison Diamond Disc, matrix 6742-C-2-3 [2-1], recording year 1919, release 82187-R, December 1920, NPS object EDIS 73898; audio link EDIS-SRP-0192-13.mp3. Archived 8 November 2007; page states updated 5 November 2004.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Sergei Rachmaninoff performs Rachmaninoff's Prelude in C sharp minor, Op. 3.ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Sergei Rachmaninoff performs Rachmaninoff's Prelude in C sharp minor, Op. 3.ogg",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1258921827%7C661044101%7C642919319%7C1111732218%7C509438495%7C999902261%7C718748653%7C901919689%7C1204343741%7C718302093&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Sergei Rachmaninoff performs Rachmaninoff's Prelude in C sharp minor, Op. 3.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-us-term",
-      "title": "US Copyright Office — terms for pre-1972 sound recordings",
+      "title": "US Copyright Office: terms for pre-1972 sound recordings",
       "url": "https://www.copyright.gov/music-modernization/faq.html",
       "locator": "Title II: first publication determines the term; 1923–1946 recordings receive 95 years plus five years. Publications through 1925 have expired by 1 January 2026.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-edison-publication",
-      "title": "National Park Service — Edison catalogue, archived 8 November 2007",
+      "title": "National Park Service: Edison catalogue, archived 8 November 2007",
       "url": "https://web.archive.org/web/20071108225217/http://www.nps.gov/archive/edis/edisonia/classical.htm",
       "locator": "Prelude in C sharp minor, Op. 3: Edison Diamond Disc 82187-R, matrix 6742-C-2-3 [2-1], recording 1919, release December 1920, museum object EDIS 73898.",
       "accessed": "2026-10-17"

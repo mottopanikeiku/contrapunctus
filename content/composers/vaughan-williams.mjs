@@ -64,7 +64,7 @@ export default {
     { year: '1957–58', title: 'Symphony No. 9', titleHtml: 'Symphony No. 9 in E minor', forces: 'Orchestra with three saxophones and flugelhorn', note: 'First performed by the Royal Philharmonic under Malcolm Sargent on 2 April 1958, less than five months before his death.' },
   ],
   score: [
-    { kicker: 'Phrygian mode — schematic', title: 'White notes from E to E', abc: `X:1
+    { kicker: 'Phrygian mode: schematic', title: 'White notes from E to E', abc: `X:1
 T:E Phrygian (schematic)
 M:4/4
 L:1/4
@@ -76,7 +76,7 @@ E F G A | B c d e | e d c B | A G F E |]
 V:2 name="Viola" clef=alto
 %%MIDI program 41
 E,2 G,2 | B,2 E2 | G2 B,2 | G,2 E,2 |]`, caption: 'A schematic, not a quotation. The Phrygian mode is the piano’s white notes from E to E; the rising phrase e–f–g–a–g–f–e that Steve Schwartz’s guide describes in the <i>Tallis Fantasia</i> uses the same pattern. The semitone between E and F at the bottom of the scale is the mode’s flat second.' },
-    { kicker: 'Dorian mode — schematic', title: 'The folk scale of My Bonny Boy', abc: `X:2
+    { kicker: 'Dorian mode: schematic', title: 'The folk scale of My Bonny Boy', abc: `X:2
 T:F Dorian (schematic)
 M:4/4
 L:1/4
@@ -88,7 +88,7 @@ F G A B | c d e f | f e d c | B A G F |]
 V:2 name="Cello" clef=bass
 %%MIDI program 42
 F,,2 C,2 | F,2 C2 | F,2 C,2 | F,,4 |]`, caption: 'This is a schematic scale and does not reproduce any bar of the Folk Song Suite. F Dorian has the notes of E♭ major starting on F, so its sixth degree, D, is natural; the raised sixth distinguishes it from the F minor scale. The oboe tune that opens the Intermezzo of the <i>English Folk Song Suite</i> is in this mode.' },
-    { kicker: 'Picardy third — schematic', title: 'Minor chord with a major ending', abc: `X:3
+    { kicker: 'Picardy third: schematic', title: 'Minor chord with a major ending', abc: `X:3
 T:Minor to major on the same root (schematic)
 M:4/4
 L:1/2
@@ -105,7 +105,7 @@ G,,2 G,,2 |]`, caption: 'A schematic cadence, not a quotation. A G minor chord (
     { relation: 'documented-use', type: 'painting', frame: 'mat', file: 'File:William Blake - Book of Job, Plate 14, When the Morning Stars Sang Together - B1978.43.1516 - Yale Center for British Art.jpg', artist: 'William Blake', title: 'When the Morning Stars Sang Together (Illustrations of the Book of Job, plate 14)', date: '1825', medium: 'Engraving', collection: 'Yale Center for British Art, New Haven', note: '<p>Geoffrey Keynes, a surgeon and Blake scholar, saw dramatic groupings and gestures in the plates of the <i>Illustrations of the Book of Job</i> and proposed a ballet. Gwen Raverat, Vaughan Williams’s cousin, helped design it. The masque that resulted includes a Pavane and a Galliard of the Sons of the Morning. In plate 14 the morning stars stand in a row above the seated Creator, with the text “When the morning Stars sang together” beneath.</p>' },
     { relation: 'shared-context', type: 'painting', frame: 'gilt', file: "File:Corot - LE SOIR (PRAIRIE BOISÉE AU BORD D'UN LAC), R218.jpg", artist: 'Jean-Baptiste-Camille Corot', title: 'Le soir (prairie boisée au bord d’un lac)', date: 'c. 1848', medium: 'Oil on canvas, in a painted oval', collection: 'Private collection; offered at Sotheby’s, New York, 2018', note: '<p>Writing to Ursula Wood in 1938, Vaughan Williams recalled the ambulance route at Écoivres as “a wonderful Corot-like landscape in the sunset”. This oval evening scene, with cattle by a lake and a hill town against a pink sky, was catalogued in an 1897 sale as an effect of the setting sun.</p>' },
     { relation: 'shared-context', type: 'painting', frame: 'mat', file: 'File:Gloucester Cathedral Nave, Gloucestershire, UK - Diliff.jpg', artist: 'Diliff', title: 'Gloucester Cathedral, the nave seen from the west', date: '9 July 2014', medium: 'Photograph', collection: 'Wikimedia Commons', note: '<p>The <i>Fantasia on a Theme by Thomas Tallis</i> was first played in Gloucester Cathedral on 6 September 1910, before an audience of about two thousand. Vaughan Williams divided his strings into three groups, which play in alternation across the building.</p>' },
-    { relation: 'documented-use', type: 'poem', author: 'George Meredith', title: 'The Lark Ascending — the lines in Vaughan Williams’s score', date: '1881', lang: 'English', original: `He rises and begins to round,
+    { relation: 'documented-use', type: 'poem', author: 'George Meredith', title: 'The Lark Ascending: the lines in Vaughan Williams’s score', date: '1881', lang: 'English', original: `He rises and begins to round,
 He drops the silver chain of sound,
 Of many links without a break,
 In chirrup, whistle, slur and shake [ … ]
@@ -125,10 +125,10 @@ In light, and then the fancy sings.`, note: '<p>Vaughan Williams chose these thr
   ],
   lineage: { from: ['Hubert Parry', 'Thomas Tallis', 'Gustav Holst', 'ravel', 'sibelius'], to: ['Herbert Howells', 'Gordon Jacob'], note: '<p>Parry taught him at the Royal College and introduced him to an English choral tradition. Tallis’s psalm tune became the basis of the <i>Fantasia</i>. Holst was his closest friend and critic. Ravel gave him three months of lessons in 1907–08. The Fifth Symphony is dedicated to Sibelius, who replied in 1946. Howells was in the audience at Gloucester in 1910 and later received the dedication of <i>Hodie</i>. Gordon Jacob, his pupil, made the orchestration of the Folk Song Suite that is most often heard today.</p>' },
   reading: [
-    'Hugh Cobbe (ed.), <i>Letters of Ralph Vaughan Williams 1895–1958</i> (Oxford University Press, 2008) — some 750 letters selected from the composer’s correspondence, in his own words.',
-    'Ursula Vaughan Williams, <i>R.V.W.: A Biography of Ralph Vaughan Williams</i> (Oxford University Press, 1964) — the widow’s account, a key study and a mine of information for later researchers.',
-    'Michael Kennedy, <i>The Works of Ralph Vaughan Williams</i> (Oxford University Press, 1980) — an authoritative account of his musical life, with a chronological list of works.',
-    'Alain Frogley and Aidan J. Thomson (eds), <i>The Cambridge Companion to Vaughan Williams</i> (Cambridge University Press, 2013) — essays by leading scholars, including one on his large choral works and the British festival tradition.',
-    'Ralph Vaughan Williams, <i>National Music and Other Essays</i> (Oxford University Press, second edition 1987) — his own writings on folk song, nationalism and fellow composers, with a new introduction by Michael Kennedy.',
+    'Hugh Cobbe (ed.), <i>Letters of Ralph Vaughan Williams 1895–1958</i> (Oxford University Press, 2008): some 750 letters selected from the composer’s correspondence, in his own words.',
+    'Ursula Vaughan Williams, <i>R.V.W.: A Biography of Ralph Vaughan Williams</i> (Oxford University Press, 1964): the widow’s account, a key study and a mine of information for later researchers.',
+    'Michael Kennedy, <i>The Works of Ralph Vaughan Williams</i> (Oxford University Press, 1980): an authoritative account of his musical life, with a chronological list of works.',
+    'Alain Frogley and Aidan J. Thomson (eds), <i>The Cambridge Companion to Vaughan Williams</i> (Cambridge University Press, 2013): essays by leading scholars, including one on his large choral works and the British festival tradition.',
+    'Ralph Vaughan Williams, <i>National Music and Other Essays</i> (Oxford University Press, second edition 1987): his own writings on folk song, nationalism and fellow composers, with a new introduction by Michael Kennedy.',
   ],
 };

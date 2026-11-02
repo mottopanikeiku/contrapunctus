@@ -127,7 +127,7 @@
       "note": "The catalogue gives Mahler’s dates as 1860–1911 and Rückert’s as 1788–1866. This refers to the historical composition and text, not an unidentified modern performing edition; the catalogue’s inconsistent publication year is not adopted."
     },
     "recording": {
-      "value": "Territorial — Commons applies PD-EU-audio to the sound recording.",
+      "value": "Territorial: Commons applies PD-EU-audio to the sound recording.",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -141,35 +141,35 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Mahler - Kindertotenlieder, IV (Fischer-Dieskau, Kempe, 1955).ogg",
+      "title": "Wikimedia Commons: Mahler - Kindertotenlieder, IV (Fischer-Dieskau, Kempe, 1955).ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Mahler_-_Kindertotenlieder%2C_IV_%28Fischer-Dieskau%2C_Kempe%2C_1955%29.ogg?oldid=1195390141",
       "locator": "File description: performers, recording date, CD source and PD-EU-audio licensing template; embedded Metadata and Transcode status. The named revision freezes the provenance claim.",
       "accessed": "2026-10-16"
     },
     {
       "id": "score-catalogue",
-      "title": "Sibley Music Library — Kindertotenlieder, C. F. Kahnt plate 4460",
+      "title": "Sibley Music Library: Kindertotenlieder, C. F. Kahnt plate 4460",
       "url": "https://urresearch.rochester.edu/institutionalPublicationPublicView.action?institutionalItemId=18098&versionNumber=1",
       "locator": "Full-score catalogue: five song titles, composer and poet dates, publisher and plate, 86-page miniature orchestral score; “This item is in the public domain.” The catalogue’s 1900 date predates completion and is not used.",
       "accessed": "2026-10-16"
     },
     {
       "id": "work-catalogue",
-      "title": "Paul Banks — Kindertotenlieder work catalogue",
+      "title": "Paul Banks: Kindertotenlieder work catalogue",
       "url": "https://www.mahlercat.org.uk/Pages/KtL/KtL.htm",
       "locator": "Composition chronology, versions, original keys, scoring, first performance and publication history.",
       "accessed": "2026-10-16"
     },
     {
       "id": "pd-eu-audio",
-      "title": "Wikimedia Commons — PD-EU-audio template",
+      "title": "Wikimedia Commons: PD-EU-audio template",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Licensing text: expiry of performers’ and producers’ sound-recording rights in the EU; not a substitute for composition copyright.",
       "accessed": "2026-10-16"
     },
     {
       "id": "naxos",
-      "title": "Naxos Historical 8.111300 — reissue back cover",
+      "title": "Naxos Historical 8.111300: reissue back cover",
       "url": "https://cdn.naxos.com/SharedFiles/pdf/rear/8.111300r.pdf",
       "locator": "Tracks 5–9: Fischer-Dieskau, Berlin Philharmonic, Rudolf Kempe; recorded 20–21 June 1955 at Jesus-Christus-Kirche, Berlin. Reissue production and restoration credits belong to Naxos, not the Commons source.",
       "accessed": "2026-10-16"

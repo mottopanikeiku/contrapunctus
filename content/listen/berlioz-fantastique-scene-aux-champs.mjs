@@ -2,7 +2,7 @@
 // Score commentary: http://www.hberlioz.com/Scores/sfantastique.htm
 export default {
   id: 'berlioz-fantastique-scene-aux-champs', composer: 'berlioz', order: 30,
-  work: 'Symphonie fantastique, Op. 14', movement: 'III. Scène aux champs — Adagio',
+  work: 'Symphonie fantastique, Op. 14', movement: 'III. Scène aux champs, Adagio',
   set: { id: 'berlioz-symphonie-fantastique', title: 'Symphonie fantastique, Op. 14', part: 3, of: 5 },
   year: '1830', key: 'F major', forces: 'Orchestra with offstage oboe and four timpanists',
   performers: 'Igor Markevitch, Orchestre Lamoureux', recorded: '11–17 January 1961',
@@ -38,7 +38,7 @@ export default {
   orchestra: {
     ensemble: ['flutes', 'oboes', 'cor-anglais', 'clarinets', 'bassoons', 'horns', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Berlioz, Scène aux champs — orchestral score', url: 'http://www.hberlioz.com/scosupp/symfantas3.pdf', locator: 'Shepherds’ calls, bars 1–20; pastoral theme from bar 20; central idée fixe, bars 87–102; returning call and thunder, bars 175–196; final string chords, bars 197–199.' },
+    source: { title: 'Berlioz, Scène aux champs: orchestral score', url: 'http://www.hberlioz.com/scosupp/symfantas3.pdf', locator: 'Shepherds’ calls, bars 1–20; pastoral theme from bar 20; central idée fixe, bars 87–102; returning call and thunder, bars 175–196; final string chords, bars 197–199.' },
     timeline: [
       { t: 0, playing: ['cor-anglais', 'oboes'], lead: ['cor-anglais', 'oboes'], note: 'Cor anglais and distant oboe exchange unaccompanied calls.' },
       { t: 80, playing: ['cor-anglais', 'oboes', 'violas'], lead: ['cor-anglais', 'oboes'], note: 'Muted, divided violas join the shepherds’ calls.' },

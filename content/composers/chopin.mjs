@@ -61,7 +61,7 @@ export default {
   ],
   score: [
     { kicker: 'Nocturne workshop', title: 'A held dissonance', abc: `X:1
-T:Bel canto and appoggiatura — schematic
+T:Bel canto and appoggiatura: schematic
 M:6/8
 L:1/8
 Q:3/8=42
@@ -73,7 +73,7 @@ V:2 name="Accompaniment" clef=bass
 %%MIDI program 0
 D,A,F A,DF | B,,F,B, DFB, | A,,E,G, CEG | D,A,F A,DF |]`, caption: 'A schematic of a melodic line above broken chords. In bar 1, G♭ is held against D♭ major and resolves to F; in bar 3, D♭ delays the C in A♭7. A triplet ornaments the line between the longer notes.' },
     { kicker: 'Mazurka workshop', title: 'Accent on beat two', abc: `X:2
-T:Second-beat weight — schematic
+T:Second-beat weight: schematic
 M:3/4
 L:1/4
 Q:1/4=126
@@ -128,9 +128,9 @@ a dear, sweet song.`, note: `<p>Chopin set Witwicki’s <i>Wiosna</i> in 1838 an
   ],
   lineage: { from: ['bach', 'mozart', 'John Field', 'Vincenzo Bellini', 'Polish dance traditions'], to: ['liszt', 'faure', 'debussy', 'scriabin', 'rachmaninoff'], note: `<p>Field supplied the nocturne, Bellini the example of an ornamented singing line, and Bach the discipline of independent voices. [[liszt|Liszt]], [[debussy|Debussy]] and [[scriabin|Scriabin]] took up and extended Chopin’s concert étude; [[faure|Fauré]] returned to the nocturne and the barcarolle.</p>` },
   reading: [
-    'Jim Samson, <i>Chopin</i> (Oxford, 1996) — a concise life with close attention to genre and form.',
-    'Jean-Jacques Eigeldinger, <i>Chopin: Pianist and Teacher as Seen by His Pupils</i> (Cambridge, 1986) — the essential collection of evidence about touch, fingering, phrasing and rubato.',
-    'Jim Samson, <i>The Music of Chopin</i> (Routledge & Kegan Paul, 1985) — analysis connecting voice-leading to larger formal designs.',
-    '<a href="https://chopin.nifc.pl/en/chopin/osoba/1_chopin_fryderyk">The Fryderyk Chopin Institute</a> — biography, work catalogue, sources and performance research.',
+    'Jim Samson, <i>Chopin</i> (Oxford, 1996): a concise life with close attention to genre and form.',
+    'Jean-Jacques Eigeldinger, <i>Chopin: Pianist and Teacher as Seen by His Pupils</i> (Cambridge, 1986): the essential collection of evidence about touch, fingering, phrasing and rubato.',
+    'Jim Samson, <i>The Music of Chopin</i> (Routledge & Kegan Paul, 1985): analysis connecting voice-leading to larger formal designs.',
+    '<a href="https://chopin.nifc.pl/en/chopin/osoba/1_chopin_fryderyk">The Fryderyk Chopin Institute</a>: biography, work catalogue, sources and performance research.',
   ],
 };

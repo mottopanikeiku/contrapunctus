@@ -133,9 +133,9 @@ and let perpetual light shine on them.`,
     note: `<p>[[bartok|Bartók]] stands close behind the Hungarian works; [[debussy|Debussy]] remained a model for Ligeti’s piano writing. In the 1980s he also studied Nancarrow’s records and Simha Arom’s Central African recordings. In Hamburg, Unsuk Chin studied with him from 1985 to 1988. He encouraged her to look beyond the prevailing avant-garde.</p>`,
   },
   reading: [
-    'Richard Steinitz, <i>György Ligeti: Music of the Imagination</i> (Faber, 2003) — biography, technical explanations and the composer’s changing intellectual interests.',
-    'Richard Toop, <i>György Ligeti</i> (Phaidon, 1999) — a compact account with musical examples and historical context.',
-    '<a href="https://www.chambermusicsociety.org/about-the-music/composers/gyoergy-ligeti-19232006-biography-music-more">Paul Griffiths, “György Ligeti”</a>, Chamber Music Society of Lincoln Center — chronology and a guide to the chamber works.',
-    '<a href="https://www.schott-music.com/en/musica-ricercata-noc38244.html">Schott Music, <i>Musica ricercata</i></a> — publisher’s work record and edition.',
+    'Richard Steinitz, <i>György Ligeti: Music of the Imagination</i> (Faber, 2003): biography, technical explanations and the composer’s changing intellectual interests.',
+    'Richard Toop, <i>György Ligeti</i> (Phaidon, 1999): a compact account with musical examples and historical context.',
+    '<a href="https://www.chambermusicsociety.org/about-the-music/composers/gyoergy-ligeti-19232006-biography-music-more">Paul Griffiths, “György Ligeti”</a>, Chamber Music Society of Lincoln Center: chronology and a guide to the chamber works.',
+    '<a href="https://www.schott-music.com/en/musica-ricercata-noc38244.html">Schott Music, <i>Musica ricercata</i></a>: publisher’s work record and edition.',
   ],
 };

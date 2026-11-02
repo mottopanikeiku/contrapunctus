@@ -100,42 +100,42 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Handel's Water Music - 11. Allegro - Chamber Orchestra - United States Marine Band.opus",
+      "title": "Wikimedia Commons: File:Handel's Water Music - 11. Allegro - Chamber Orchestra - United States Marine Band.opus",
       "url": "https://commons.wikimedia.org/wiki/File:Handel%27s_Water_Music_-_11._Allegro_-_Chamber_Orchestra_-_United_States_Marine_Band.opus",
       "locator": "File description (raw wikitext and API): performer, title, description, composition_date 1717-07-17, performance_date 2017-01-29, source (YouTube playlist), licence templates PD-old-auto-expired (1759) and PD-USGov-Military-Marines; file history (upload 2021-06-28, user Mysterymanblue, pattypan); Opus 48 kHz stereo, 125.181 s.",
       "accessed": "2026-10-17"
     },
     {
       "id": "video",
-      "title": "United States Marine Band — HANDEL Water Music: 11. Allegro (YouTube)",
+      "title": "United States Marine Band: HANDEL Water Music: 11. Allegro (YouTube)",
       "url": "https://www.youtube.com/watch?v=FFrZgE9QnlY",
       "locator": "Watch-page metadata: channel United States Marine Band, published 2018-04-30, length 125 s, description naming the ensemble, the hall, the date, the conductor and the programme PDF; thumbnails and storyboard frames viewed for the instruments on stage.",
       "accessed": "2026-10-17"
     },
     {
       "id": "playlist",
-      "title": "United States Marine Band — HANDEL Water Music (YouTube playlist)",
+      "title": "United States Marine Band: HANDEL Water Music (YouTube playlist)",
       "url": "https://www.youtube.com/playlist?list=PLA7no0L9zTk5BREIP7PeHDYv4trx-g5kS",
       "locator": "Playlist description and list of nine movement videos (HWV 349 movements 11–15 and HWV 350 movements 16, 17, 19, 21); last updated 4 December 2020.",
       "accessed": "2026-10-17"
     },
     {
       "id": "programme",
-      "title": "Marine Chamber Orchestra, 29 January 2017 — concert programme and notes (Wayback capture of the Marine Band PDF)",
+      "title": "Marine Chamber Orchestra, 29 January 2017: concert programme and notes (Wayback capture of the Marine Band PDF)",
       "url": "https://web.archive.org/web/20251101025231id_/https://www.marineband.marines.mil/Portals/175/Docs/Programs/170129.pdf?ver=2017-01-24-094649-630",
       "locator": "Page 1: date, time, hall, conductor, running order after the intermission (11, 12, 16, 17/18, 14, 15, 19/20, 21/22, 13) and the copyright notice; later pages: notes on Handel. The live Marine Band address returned HTTP 403 to the retrieval, so the archived capture of 1 November 2025 was read.",
       "accessed": "2026-10-17"
     },
     {
       "id": "template",
-      "title": "Wikimedia Commons — Template:PD-USGov-Military-Marines",
+      "title": "Wikimedia Commons: Template:PD-USGov-Military-Marines",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Marines",
       "locator": "Licence text: work of a United States Marine or employee, taken or made as part of official duties.",
       "accessed": "2026-10-17"
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Water Music Suite No.2, HWV 349 (Handel)",
+      "title": "IMSLP: Water Music Suite No.2, HWV 349 (Handel)",
       "url": "https://imslp.org/wiki/Water_Music_Suite_No.2,_HWV_349_(Handel,_George_Frideric)",
       "locator": "General Information: five movements (Allegro 50 bars), instrumentation (2 oboes, bassoon, 2 horns, 2 trumpets, strings, continuo), first performance 1717-07-17, first publication 1733.",
       "accessed": "2026-10-17"
@@ -149,7 +149,7 @@
     },
     {
       "id": "arnold",
-      "title": "Handel, The Celebrated Water-musick in score (London: Samuel Arnold, 1788) — Bibliothèque nationale de France scan on Wikimedia Commons",
+      "title": "Handel, The Celebrated Water-musick in score (London: Samuel Arnold, 1788), Bibliothèque nationale de France scan on Wikimedia Commons",
       "url": "https://commons.wikimedia.org/wiki/File:The_celebrated_Water-musick._In_score._Composed_in_the_year_1716._By_G._F._Handel_-_btv1b10072587v_(19_of_30).jpg",
       "locator": "Printed pp. 35–39 (Commons images 19–21 of 30): the Allegro for trumpets, horns, oboes, bassoon, strings and figured bass. Commons tags the scans PD-old-auto-expired, PD-France and PD-US-expired.",
       "accessed": "2026-10-17"

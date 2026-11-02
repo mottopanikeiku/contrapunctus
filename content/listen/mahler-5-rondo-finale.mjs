@@ -1,6 +1,6 @@
 export default {
   id: 'mahler-5-rondo-finale', composer: 'mahler', order: 14,
-  work: 'Symphony No. 5', movement: 'V. Rondo-Finale — Allegro',
+  work: 'Symphony No. 5', movement: 'V. Rondo-Finale, Allegro',
   set: { id: 'mahler-symphony-5', title: 'Symphony No. 5', part: 5, of: 5 },
   year: '1901–02', key: 'D major', forces: 'Orchestra',
   performers: 'Peabody Symphony Orchestra', recorded: '',

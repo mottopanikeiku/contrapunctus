@@ -12,7 +12,7 @@
         {
           "kind": "label",
           "url": "https://moderecords.com/catalog/050cage/",
-          "title": "Mode Records — Sonatas and Interludes"
+          "title": "Mode Records: Sonatas and Interludes"
         }
       ]
     },
@@ -27,7 +27,7 @@
         {
           "kind": "label",
           "url": "https://moderecords.com/catalog/147cage/",
-          "title": "Mode Records — Music of Changes"
+          "title": "Mode Records: Music of Changes"
         }
       ]
     },
@@ -42,7 +42,7 @@
         {
           "kind": "label",
           "url": "https://moderecords.com/catalog/243_cagecd/",
-          "title": "Mode Records — The Works for Percussion 2"
+          "title": "Mode Records: The Works for Percussion 2"
         }
       ]
     },
@@ -57,38 +57,38 @@
         {
           "kind": "label",
           "url": "https://moderecords.com/catalog/239_cage/",
-          "title": "Mode Records — The Number Pieces 6"
+          "title": "Mode Records: The Number Pieces 6"
         }
       ]
     }
   ],
   "sources": [
     {
-      "title": "Mode 50 — performer, Steinway O preparations and reproduced review identifying the 1994 Frankfurt sessions; checked 18 October 2026",
+      "title": "Mode 50: performer, Steinway O preparations and reproduced review identifying the 1994 Frankfurt sessions; checked 18 October 2026",
       "url": "https://moderecords.com/catalog/050cage/"
     },
     {
-      "title": "John Cage Trust — Sonatas and Interludes: dates, dedication, sixteen sonatas, four interludes and forty-five prepared notes",
+      "title": "John Cage Trust: Sonatas and Interludes: dates, dedication, sixteen sonatas, four interludes and forty-five prepared notes",
       "url": "https://data-johncage.org/pp/John-Cage-Work-Detail.cfm?work_ID=188"
     },
     {
-      "title": "Mode 147 — Martine Joste, complete track list and description; session date not established; checked 18 October 2026",
+      "title": "Mode 147: Martine Joste, complete track list and description; session date not established; checked 18 October 2026",
       "url": "https://moderecords.com/catalog/147cage/"
     },
     {
-      "title": "John Cage Trust — Music of Changes: chance composition and fixed performing instructions",
+      "title": "John Cage Trust: Music of Changes: chance composition and fixed performing instructions",
       "url": "https://data-johncage.org/pp/John-Cage-Work-Detail.cfm?work_ID=134"
     },
     {
-      "title": "Mode 243 — Third Coast Percussion, June 2011 DeKalb sessions, track list and filmed edition; checked 18 October 2026",
+      "title": "Mode 243: Third Coast Percussion, June 2011 DeKalb sessions, track list and filmed edition; checked 18 October 2026",
       "url": "https://moderecords.com/catalog/243_cagecd/"
     },
     {
-      "title": "John Cage Trust — Third Construction: 1941, phrase proportions and instruments",
+      "title": "John Cage Trust: Third Construction: 1941, phrase proportions and instruments",
       "url": "https://data-johncage.org/pp/John-Cage-Work-Detail.cfm?work_ID=204"
     },
     {
-      "title": "Mode 239 — Essential Music, 1993–94 recordings, Number Pieces and Cage-approved bottles in Five; checked 18 October 2026",
+      "title": "Mode 239: Essential Music, 1993–94 recordings, Number Pieces and Cage-approved bottles in Five; checked 18 October 2026",
       "url": "https://moderecords.com/catalog/239_cage/"
     }
   ]

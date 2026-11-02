@@ -3,7 +3,7 @@
   "work": {
     "title": "Prelude in D♭ major, Op. 28 No. 15",
     "catalogue": "Op. 28 No. 15",
-    "movement": "Sostenuto — Raindrop",
+    "movement": "Sostenuto, Raindrop",
     "version": {
       "value": null,
       "status": "unknown",
@@ -65,7 +65,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Ivan Ilić — original IMSLP upload; Wikimedia Commons mirror",
+      "value": "Ivan Ilić: original IMSLP upload; Wikimedia Commons mirror",
       "status": "documented",
       "sourceIds": [
         "source"

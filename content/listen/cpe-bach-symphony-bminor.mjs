@@ -3,7 +3,7 @@ export default {
   composer: 'cpe-bach',
   order: 3,
   work: 'Symphony in B minor, Wq 182/5',
-  movement: 'Allegretto — Larghetto — Presto',
+  movement: 'Allegretto, Larghetto, Presto',
   year: '1773',
   key: 'B minor',
   forces: 'Strings and continuo',

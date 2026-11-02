@@ -4,7 +4,7 @@ export default {
   order: 0.9,
   set: { id: 'haydn-94', title: 'Symphony No. 94 “Surprise”', part: 1, of: 4 },
   work: 'Symphony No. 94 “Surprise”',
-  movement: 'I. Adagio cantabile — Vivace assai',
+  movement: 'I. Adagio cantabile, Vivace assai',
   year: '1791',
   key: 'G major',
   forces: 'Orchestra',
@@ -78,7 +78,7 @@ export default {
   orchestra: {
     ensemble: ['flutes', 'oboes', 'bassoons', 'horns', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Haydn, Symphony No. 94, full score (Leipzig: Breitkopf & Härtel, ed. Rietz, plate 8876, [1855])', url: 'https://imslp.org/wiki/Symphony_No.94_in_G_major,_Hob.I:94_(Haydn,_Joseph)', locator: 'Adagio cantabile — Vivace assai, printed pp. 1–18: wind-and-string introduction, violin opening and orchestral returns.' },
+    source: { title: 'Haydn, Symphony No. 94, full score (Leipzig: Breitkopf & Härtel, ed. Rietz, plate 8876, [1855])', url: 'https://imslp.org/wiki/Symphony_No.94_in_G_major,_Hob.I:94_(Haydn,_Joseph)', locator: 'Adagio cantabile, Vivace assai, printed pp. 1–18: wind-and-string introduction, violin opening and orchestral returns.' },
     timeline: [
       { t: 0, playing: ['flutes', 'oboes', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['oboes'], note: 'Oboes and bassoons play above a held horn note. The low strings answer, and a flute joins the repeated wind phrase.' },
       { t: 88, playing: ['violins-1', 'violins-2'], lead: ['violins-1', 'violins-2'], note: 'The two violin sections begin the Vivace quietly on their own.' },

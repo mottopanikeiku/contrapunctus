@@ -3,7 +3,7 @@ export default {
   composer: 'beethoven',
   order: 7,
   work: 'Piano Sonata No. 23, Op. 57 “Appassionata”',
-  movement: 'III. Allegro ma non troppo — Presto',
+  movement: 'III. Allegro ma non troppo, Presto',
   set: { id: 'beethoven-sonata-23', title: 'Piano Sonata No. 23, Op. 57 “Appassionata”', part: 3, of: 3 },
   year: '1804–06',
   key: 'F minor',

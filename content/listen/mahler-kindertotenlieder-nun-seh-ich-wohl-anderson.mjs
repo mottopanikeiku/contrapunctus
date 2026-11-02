@@ -4,7 +4,7 @@ export default {
   "order": 36,
   "set": {
     "id": "mahler-kindertotenlieder-anderson",
-    "title": "Kindertotenlieder — Marian Anderson",
+    "title": "Kindertotenlieder: Marian Anderson",
     "part": 2,
     "of": 5, "unit": "songs" },
   "concert": false,
@@ -50,7 +50,7 @@ export default {
       "t": 0,
       "kind": "music",
       "title": "Opening cello phrase",
-      "text": "The cellos play a rising phrase, and winds and plucked strings join it. Anderson’s opening words take up the same rising line. Mahler marks the song “Ruhig, nicht schleppend” — calm, without dragging.",
+      "text": "The cellos play a rising phrase, and winds and plucked strings join it. Anderson’s opening words take up the same rising line. Mahler marks the song “Ruhig, nicht schleppend” (calm, without dragging).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460, p. 18; our translation of Mahler’s marking. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"
@@ -59,7 +59,7 @@ export default {
       "t": 34,
       "kind": "world",
       "title": "Rückert’s text, a sonnet",
-      "text": "“Doch ahnt’ ich nicht” — yet I did not suspect. In Rückert’s poem the parent recalls a brightness in the children’s eyes and now reads it as a farewell. The poem is a sonnet of fourteen lines, and its last lines turn to the stars.",
+      "text": "“Doch ahnt’ ich nicht” (yet I did not suspect). In Rückert’s poem the parent recalls a brightness in the children’s eyes and now reads it as a farewell. The poem is a sonnet of fourteen lines, and its last lines turn to the stars.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rückert, Nun seh’ ich wohl, German text at https://en.wikipedia.org/wiki/Kindertotenlieder#Text; our translation. The sonnet form is discussed at https://geertwoltjer.nl/Songs/MahlerAnalysis/Mahler2.html"

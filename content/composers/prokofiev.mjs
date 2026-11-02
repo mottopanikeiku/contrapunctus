@@ -196,13 +196,13 @@ Sonya answered something reluctantly.
   },
 
   reading: [
-    'David Nice, <i>Prokofiev: From Russia to the West, 1891–1935</i> (Yale, 2003) — the early life, international career and music before permanent settlement in Moscow.',
-    'Simon Morrison, <i>The People’s Artist: Prokofiev’s Soviet Years</i> (Oxford, 2009) — archival evidence for commissions, revisions, censorship and the final years; a corrective to a simple homecoming narrative.',
-    'Simon Morrison, <i>The Love and Wars of Lina Prokofiev</i> (Harvill Secker, 2013) — restores Lina’s career, marriage and imprisonment to the account.',
-    'Boris Berman, <i>Prokofiev’s Piano Sonatas: A Guide for the Listener and the Performer</i> (Yale, 2008) — form, voicing, articulation and practical choices at the keyboard.',
-    'Sergey Prokofiev, <i>Diaries</i>, translated and annotated by Anthony Phillips, 3 volumes (Faber, 2006–12) — contemporary observations through 1933, distinct from the later autobiographical account.',
-    'David Nice’s chronology and the <a href="https://www.boosey.com/downloads/prokofjew_werkverzeichnis.pdf">Boosey &amp; Hawkes work list</a> — opus numbers, forces, revisions and performance histories; consult individual scores for musical detail.',
-    'Herbert Glass on the <a href="https://www.laphil.com/works/symphony-no-1-classical">Classical Symphony</a>, and Laurel E. Fay on <a href="https://www.laphil.com/works/alexander-nevsky-with-film">Alexander Nevsky</a>, Los Angeles Philharmonic programme notes — the autobiographical Haydn passage and the distinction between film score and cantata.',
-    'The Russian Museum’s <a href="https://rusmuseumvrm.ru/data/collections/painting/19_20/rerih_n._k._idoli._eskiz._1901._zh-1961/index.php">Idols catalogue record</a> — identifies the reproduced 1901 sketch as gouache on cardboard.',
+    'David Nice, <i>Prokofiev: From Russia to the West, 1891–1935</i> (Yale, 2003): the early life, international career and music before permanent settlement in Moscow.',
+    'Simon Morrison, <i>The People’s Artist: Prokofiev’s Soviet Years</i> (Oxford, 2009): archival evidence for commissions, revisions, censorship and the final years; a corrective to a simple homecoming narrative.',
+    'Simon Morrison, <i>The Love and Wars of Lina Prokofiev</i> (Harvill Secker, 2013): restores Lina’s career, marriage and imprisonment to the account.',
+    'Boris Berman, <i>Prokofiev’s Piano Sonatas: A Guide for the Listener and the Performer</i> (Yale, 2008): form, voicing, articulation and practical choices at the keyboard.',
+    'Sergey Prokofiev, <i>Diaries</i>, translated and annotated by Anthony Phillips, 3 volumes (Faber, 2006–12): contemporary observations through 1933, distinct from the later autobiographical account.',
+    'David Nice’s chronology and the <a href="https://www.boosey.com/downloads/prokofjew_werkverzeichnis.pdf">Boosey &amp; Hawkes work list</a>: opus numbers, forces, revisions and performance histories; consult individual scores for musical detail.',
+    'Herbert Glass on the <a href="https://www.laphil.com/works/symphony-no-1-classical">Classical Symphony</a>, and Laurel E. Fay on <a href="https://www.laphil.com/works/alexander-nevsky-with-film">Alexander Nevsky</a>, Los Angeles Philharmonic programme notes: the autobiographical Haydn passage and the distinction between film score and cantata.',
+    'The Russian Museum’s <a href="https://rusmuseumvrm.ru/data/collections/painting/19_20/rerih_n._k._idoli._eskiz._1901._zh-1961/index.php">Idols catalogue record</a>: identifies the reproduced 1901 sketch as gouache on cardboard.',
   ],
 };

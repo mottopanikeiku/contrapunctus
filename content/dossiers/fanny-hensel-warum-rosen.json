@@ -3,7 +3,7 @@
   "work": {
     "title": "Warum sind denn die Rosen so blass",
     "catalogue": "Op. 1, No. 3; H-U 312",
-    "movement": "No. 3 of Sechs Lieder, Op. 1 — Andante",
+    "movement": "No. 3 of Sechs Lieder, Op. 1, Andante",
     "version": {
       "value": "Complete song as printed in Op. 1 No. 3, sung in the printed key (A minor), with the repeat of the last line",
       "status": "inferred",
@@ -100,7 +100,7 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Warum sind denn die Rosen so blass – Fanny Mendelssohn, Heinrich Heine.webm",
+      "title": "Wikimedia Commons: Warum sind denn die Rosen so blass – Fanny Mendelssohn, Heinrich Heine.webm",
       "url": "https://commons.wikimedia.org/wiki/File:Warum_sind_denn_die_Rosen_so_blass_%E2%80%93_Fanny_Mendelssohn,_Heinrich_Heine.webm",
       "locator": "Description (duo Béla; Adèle Bérard, soprano; Laura Lazayre, piano; ICCARE days, Amiens, 22–23 January 2026), date 2026-01-22, author Magiraud, source “Own work”, CC BY-SA 4.0, upload 2026-01-23 09:08 UTC, SHA-1 e876d1fc…, links to OpenScore Lieder as the score.",
       "accessed": "2026-10-19"
@@ -121,35 +121,35 @@
     },
     {
       "id": "cc-by-sa",
-      "title": "Creative Commons — Attribution-ShareAlike 4.0 International",
+      "title": "Creative Commons: Attribution-ShareAlike 4.0 International",
       "url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "locator": "Attribution, indication of changes and share-alike terms.",
       "accessed": "2026-10-19"
     },
     {
       "id": "iccare-event",
-      "title": "PEPR ICCARE — Science ouverte, données ouvertes et musique (event page and programme)",
+      "title": "PEPR ICCARE: Science ouverte, données ouvertes et musique (event page and programme)",
       "url": "https://pepr-iccare.fr/events/science-ouverte-donnees-ouvertes-et-musique/",
       "locator": "Journées d’accélération, Amiens, Logis du Roy, 22–23 January 2026; programme for Thursday 22 January, 18:00–19:00: “Récital chant-piano du duo Béla avec captation libre”, Adèle Bérard (soprano) and Laura Lazayres (piano), introduced by Mathieu Giraud (CNRS).",
       "accessed": "2026-10-19"
     },
     {
       "id": "osm-logis",
-      "title": "OpenStreetMap — Logis du Roi, Amiens (way 140252353)",
+      "title": "OpenStreetMap: Logis du Roi, Amiens (way 140252353)",
       "url": "https://www.openstreetmap.org/way/140252353",
       "locator": "Building “Logis du Roi”, Passage du Logis du Roi, Amiens; centre 49.8929230 N, 2.2998796 E, which matches the Commons camera location.",
       "accessed": "2026-10-19"
     },
     {
       "id": "imslp-work",
-      "title": "IMSLP — Warum sind denn die Rosen so blass, H.312 (Hensel, Fanny)",
+      "title": "IMSLP: Warum sind denn die Rosen so blass, H.312 (Hensel, Fanny)",
       "url": "https://imslp.org/wiki/Warum_sind_denn_die_Rosen_so_blass,_H.312_(Hensel,_Fanny)",
       "locator": "H.312; Op. 1 No. 3; key A minor; first published 1846 in 6 Lieder, Op. 1; text by Heinrich Heine; voice and piano.",
       "accessed": "2026-10-19"
     },
     {
       "id": "imslp-op1",
-      "title": "IMSLP — 6 Lieder, Op. 1 (Hensel, Fanny)",
+      "title": "IMSLP: 6 Lieder, Op. 1 (Hensel, Fanny)",
       "url": "https://imslp.org/wiki/6_Lieder,_Op.1_(Hensel,_Fanny)",
       "locator": "First edition, Berlin: Bote & Bock, n.d. [1846], plate B. et B. 1046 (IMSLP #99178), public domain, scanned by the Staatsbibliothek zu Berlin; No. 3 is the Heine setting.",
       "accessed": "2026-10-19"
@@ -163,21 +163,21 @@
     },
     {
       "id": "openscore",
-      "title": "OpenScore Lieder Corpus — Hensel, 6 Lieder, Op. 1, No. 3",
+      "title": "OpenScore Lieder Corpus: Hensel, 6 Lieder, Op. 1, No. 3",
       "url": "https://github.com/OpenScore/Lieder/tree/main/scores/Hensel%2C_Fanny/6_Lieder%2C_Op.1/3_Warum_sind_denn_die_Rosen_so_blass",
       "locator": "README names IMSLP file 99178 as the source; MusicXML encoding in 6/8 with no key signature, 42 measures counting the quaver upbeat, and the repeated last line in the sung text.",
       "accessed": "2026-10-19"
     },
     {
       "id": "lieder-net",
-      "title": "LiederNet — Warum sind denn die Rosen so blaß? (Heinrich Heine)",
+      "title": "LiederNet: Warum sind denn die Rosen so blaß? (Heinrich Heine)",
       "url": "https://www.lieder.net/lieder/get_text.html?TextId=7780",
       "locator": "Text confirmed against Buch der Lieder (Hamburg, 1827), p. 129; Lyrisches Intermezzo no. 23; Heine 1797–1856; Hensel 1805–1847, op. 1 no. 3 (1837), published 1846.",
       "accessed": "2026-10-19"
     },
     {
       "id": "naxos-booklet",
-      "title": "Naxos 8.570981, Mendelssohn-Hensel: Lieder, Vol. 1 — booklet notes by Caroline Waight",
+      "title": "Naxos 8.570981, Mendelssohn-Hensel: Lieder, Vol. 1, booklet notes by Caroline Waight",
       "url": "https://stor.imslp.org/naxos/booklets/booklet-8.570981.pdf",
       "locator": "Essay: Warum sind denn die Rosen so blass (1837) among the Heine settings; Op. 1 the first music she chose to publish, in 1846.",
       "accessed": "2026-10-19"
@@ -191,7 +191,7 @@
     },
     {
       "id": "letters",
-      "title": "Fanny Hensel Research — Briefe",
+      "title": "Fanny Hensel Research: Briefe",
       "url": "https://fannyhensel.de/?page_id=138",
       "locator": "Letters to Felix of 22 November 1836 (publishing: “Hensel wünscht es, Du bist dagegen”) and 9 July 1846 (“ich fange an herauszugeben”; Herr Bock’s offer for her songs).",
       "accessed": "2026-10-19"

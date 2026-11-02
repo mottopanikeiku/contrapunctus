@@ -5,7 +5,7 @@ export default {
   composer: 'ravel',
   order: 70,
   work: 'Gaspard de la nuit',
-  movement: 'I. Ondine — Lent',
+  movement: 'I. Ondine, Lent',
   year: '1908',
   key: 'C♯ major',
   forces: 'Piano',
@@ -31,7 +31,7 @@ export default {
     },
     {
       "t": 105, "kind": "world", "title": "Bertrand’s poem <i>Ondine</i>",
-      "text": "In Bertrand’s poem, Ondine touches a moonlit window and offers the man inside her ring. “Mon palais est bâti fluide, au fond du lac” — “My palace is built of water, at the bottom of the lake.” She asks him to marry her and become king of the lakes.",
+      "text": "In Bertrand’s poem, Ondine touches a moonlit window and offers the man inside her ring. “Mon palais est bâti fluide, au fond du lac” (“My palace is built of water, at the bottom of the lake.”) She asks him to marry her and become king of the lakes.",
       "basis": "documented", "precision": "passage",
       "evidence": "Aloysius Bertrand, Ondine, reproduced before the movement in Durand’s Gaspard de la nuit (1909), from the Mercure de France edition of 1908. Second and fourth paragraphs; our translation."
     },
@@ -55,7 +55,7 @@ export default {
     },
     {
       "t": 370, "kind": "form", "title": "Closing passage in C♯ major",
-      "text": "Both hands play a rapid passage, <i>Rapide et brillant</i>, which slows and is followed by <i>ppp</i> arpeggios in C♯ major. Bertrand’s last image is “mes vitraux bleus” — “my blue stained-glass windows” — with water streaming down them.",
+      "text": "Both hands play a rapid passage, <i>Rapide et brillant</i>, which slows and is followed by <i>ppp</i> arpeggios in C♯ major. Bertrand’s last image is “mes vitraux bleus” (“my blue stained-glass windows”) with water streaming down them.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Durand score, p. 14: Rapide et brillant, retenez peu à peu, ppp and return to C♯ major. Quotation from Bertrand’s Ondine, final paragraph, printed before the music in the 1909 edition; our translation."
     }

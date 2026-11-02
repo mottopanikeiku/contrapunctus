@@ -62,15 +62,15 @@ export default {
     { year: '1921', title: 'Sonatas for oboe, clarinet and bassoon', cat: 'Opp. 166–168', forces: 'Wind instrument and piano', note: 'Begun in Algeria in the spring of 1921 and finished in Paris.' },
   ],
   score: [
-    { kicker: 'The chant — quoted', title: 'Dies irae, before Saint-Saëns', abc: `X:1
-T:Dies irae — chant incipit
+    { kicker: 'The chant: quoted', title: 'Dies irae, before Saint-Saëns', abc: `X:1
+T:Dies irae: chant incipit
 M:none
 L:1/4
 Q:1/4=90
 K:Ddor
 %%MIDI program 68
 F E F D E C D D |]`, caption: 'The opening eight notes of the plainchant sequence, as printed in the Vatican Graduale Romanum of 1908, p. 83*. Equal note lengths are an editorial aid, because the chant has a free rhythm. In Danse macabre the woodwinds play the melody in a major key.' },
-    { kicker: 'The solo violin — schematic', title: 'Open strings and the tritone', abc: `X:2
+    { kicker: 'The solo violin: schematic', title: 'Open strings and the tritone', abc: `X:2
 T:Scordatura violin (schematic)
 M:4/4
 L:1/4
@@ -106,9 +106,9 @@ And long live death and equality!`, note: '<p>The first and last stanzas of the 
   ],
   lineage: { from: ['Charlotte Masson', 'Camille Stamaty', 'François Benoist', 'liszt', 'berlioz'], to: ['faure', 'André Messager', 'Eugène Gigout'], note: '<p>His great-aunt gave him his first piano lessons, Stamaty taught him the Kalkbrenner method and Benoist the organ. Liszt championed him from the 1850s and had <i>Samson et Dalila</i> staged. Fauré, Gigout and, later, Messager were his pupils at the École Niedermeyer.</p>' },
   reading: [
-    'Camille Saint-Saëns, <i>Musical Memories</i>, trans. Edwin Gile Rich (Small, Maynard, 1919) — the composer on childhood, the old Conservatoire and Liszt; free on Project Gutenberg.',
-    'The Société Camille Saint-Saëns, <i>Chronologie</i> (camille-saint-saens.org) — the fullest dated account, with quotations from his letters.',
-    'Sabina Teller Ratner, <i>Camille Saint-Saëns 1835–1921: A Thematic Catalogue of His Complete Works</i>, vol. 1 (Oxford University Press, 2002) — the standard catalogue of the instrumental works.',
-    'Hugh Macdonald, <i>Saint-Saëns and the Stage</i> (Cambridge University Press, 2019) — the operas, incidental music and film score.',
+    'Camille Saint-Saëns, <i>Musical Memories</i>, trans. Edwin Gile Rich (Small, Maynard, 1919): the composer on childhood, the old Conservatoire and Liszt; free on Project Gutenberg.',
+    'The Société Camille Saint-Saëns, <i>Chronologie</i> (camille-saint-saens.org): the fullest dated account, with quotations from his letters.',
+    'Sabina Teller Ratner, <i>Camille Saint-Saëns 1835–1921: A Thematic Catalogue of His Complete Works</i>, vol. 1 (Oxford University Press, 2002): the standard catalogue of the instrumental works.',
+    'Hugh Macdonald, <i>Saint-Saëns and the Stage</i> (Cambridge University Press, 2019): the operas, incidental music and film score.',
   ],
 };

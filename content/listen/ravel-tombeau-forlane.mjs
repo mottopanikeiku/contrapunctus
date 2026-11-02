@@ -4,7 +4,7 @@ export default {
   "year": "1914–17", "key": "E minor", "forces": "Piano",
   "performers": "azuma, piano", "recorded": "January 2007",
   "source": { "file": "File:Maurice Ravel - azuma - Le Tombeau de Couperin. III. Forlane (live).opus" },
-  "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin — piano version", "part": 3, "of": 6 },
+  "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin: piano version", "part": 3, "of": 6 },
   "intro": "The Forlane, the third movement of <i>Le Tombeau de Couperin</i>, takes the rhythm of an old dance and sets it to chords that move in unexpected directions. It is dedicated to the memory of Gabriel Deluc, a Basque painter killed in the First World War.",
   "sections": [
     { "t": 0, "label": "A · Dotted dance in six", "m": "A", "mNote": "Long–short figures over chromatic chords." },

@@ -5,7 +5,7 @@ export default {
   composer: 'ravel',
   order: 71,
   work: 'Gaspard de la nuit',
-  movement: 'II. Le Gibet — Très lent',
+  movement: 'II. Le Gibet, Très lent',
   year: '1908',
   key: 'E♭ minor',
   forces: 'Piano',
@@ -30,7 +30,7 @@ export default {
     },
     {
       "t": 72, "kind": "world", "title": "Bertrand’s poem <i>Le Gibet</i>",
-      "text": "Bertrand’s poem lists small, horrible sounds near a hanged man, among them a fly at the dead man’s ear and a spider making his necktie. The source is named in the line “C’est la cloche qui tinte” — “It is the bell that tolls.” Beyond the town walls, the setting sun reddens the hanging body.",
+      "text": "Bertrand’s poem lists small, horrible sounds near a hanged man, among them a fly at the dead man’s ear and a spider making his necktie. The source is named in the line “C’est la cloche qui tinte” (“It is the bell that tolls.”) Beyond the town walls, the setting sun reddens the hanging body.",
       "basis": "documented", "precision": "passage",
       "evidence": "Aloysius Bertrand, Le Gibet, Gaspard de la nuit, Mercure de France edition (1895), pp. 245–246; our translation. https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Le_Gibet"
     },

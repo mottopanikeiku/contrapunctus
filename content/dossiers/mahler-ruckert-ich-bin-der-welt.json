@@ -3,7 +3,7 @@
   "work": {
     "title": "Rückert-Lieder",
     "catalogue": "GMW 41 (orchestral version)",
-    "movement": "Ich bin der Welt abhanden gekommen — concert-band arrangement",
+    "movement": "Ich bin der Welt abhanden gekommen: concert-band arrangement",
     "version": {
       "value": "Arrangement for soprano, English horn solo and concert band; arranger not identified",
       "status": "inferred",
@@ -161,7 +161,7 @@
     },
     {
       "id": "ue",
-      "title": "Universal Edition: Mahler, Ich bin der Welt abhanden gekommen — from “Rückert-Lieder” (1901) for voice and orchestra",
+      "title": "Universal Edition: Mahler, Ich bin der Welt abhanden gekommen, from “Rückert-Lieder” (1901) for voice and orchestra",
       "url": "https://www.universaledition.com/en/Works/Ich-bin-der-Welt-abhanden-gekommen/P0086596",
       "locator": "Essay by Reinhold Kubik (autumn 2008): first draft dated 16 August 1901, the premiere of 29 January 1905 in the Brahms-Saal, Mahler’s remark about small halls, and the relation to the Fifth Symphony’s Adagietto.",
       "accessed": "2026-10-17"

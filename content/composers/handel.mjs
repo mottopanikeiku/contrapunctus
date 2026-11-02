@@ -103,7 +103,7 @@ V:1 name="Strings"
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'John Dryden', title: 'Alexander’s Feast — closing stanza', date: '1697', lang: 'English',
+      type: 'poem', author: 'John Dryden', title: 'Alexander’s Feast: closing stanza', date: '1697', lang: 'English',
       original: `Let old Timotheus yield the prize,
 Or both divide the crown:
 He raised a mortal to the skies;
@@ -123,8 +123,8 @@ She drew an angel down.`,
     note: `<p>[[mozart|Mozart]] added wind instruments to <i>Messiah</i> for Baron van Swieten’s performances. [[haydn|Haydn]] heard England’s Handel tradition before writing his own late oratorios. Choral societies went on enlarging the forces. Later performers cut the ensembles down again, with the horn obbligato in Caesar’s aria and the quick exchanges in <i>Messiah</i> among their reasons.</p>`,
   },
   reading: [
-    'Donald Burrows, <i>Handel</i>, second edition (Oxford, 2012) — the life reconstructed through performances, institutions and documents.',
-    'Winton Dean, <i>Handel’s Dramatic Oratorios and Masques</i> (Oxford, 1959) — detailed musical and dramatic criticism of the English works.',
-    '<a href="https://foundlingmuseum.org.uk/object/messiah-libretto-2/">Foundling Museum, <i>Messiah</i> libretto</a>; <a href="https://foundlingmuseum.org.uk/object/belongings-handels-will/">Handel’s will</a> — primary objects documenting his support for the hospital.',
+    'Donald Burrows, <i>Handel</i>, second edition (Oxford, 2012): the life reconstructed through performances, institutions and documents.',
+    'Winton Dean, <i>Handel’s Dramatic Oratorios and Masques</i> (Oxford, 1959): detailed musical and dramatic criticism of the English works.',
+    '<a href="https://foundlingmuseum.org.uk/object/messiah-libretto-2/">Foundling Museum, <i>Messiah</i> libretto</a>; <a href="https://foundlingmuseum.org.uk/object/belongings-handels-will/">Handel’s will</a>: primary objects documenting his support for the hospital.',
   ],
 };

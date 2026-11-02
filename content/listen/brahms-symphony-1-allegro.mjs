@@ -6,7 +6,7 @@ export default {
   composer: 'brahms',
   order: 10,
   work: 'Symphony No. 1 in C minor, Op. 68',
-  movement: 'I. Un poco sostenuto — Allegro — Meno allegro',
+  movement: 'I. Un poco sostenuto, Allegro, Meno allegro',
   set: { id: 'brahms-symphony-1', title: 'Symphony No. 1 in C minor, Op. 68', part: 1, of: 4 },
   year: '1876',
   key: 'C minor',
@@ -44,7 +44,7 @@ export default {
   orchestra: {
     ensemble: ['flutes', 'oboes', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Brahms, Symphony No. 1, Simrock first-edition full score, plate 7957 (1877)', url: 'https://brahmsinstitut.de/Archiv/web/bihl_digital/jb_erstdrucke/op_068_part_s_003.html', locator: 'I. Un poco sostenuto — Allegro — Meno allegro, pp. 3–26; introduction, themes, development, return at bar 340 and coda at bar 475. Bar references follow Kelly Dean Hansen’s score guide.' },
+    source: { title: 'Brahms, Symphony No. 1, Simrock first-edition full score, plate 7957 (1877)', url: 'https://brahmsinstitut.de/Archiv/web/bihl_digital/jb_erstdrucke/op_068_part_s_003.html', locator: 'I. Un poco sostenuto, Allegro, Meno allegro, pp. 3–26; introduction, themes, development, return at bar 340 and coda at bar 475. Bar references follow Kelly Dean Hansen’s score guide.' },
     timeline: [
       { t: 0, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'cellos', 'timpani'], note: 'Violins and cellos climb against descending winds and repeated timpani C.' },
       { t: 38, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'cellos'], note: 'Plucked string figures answer one another above soft wind harmony.' },

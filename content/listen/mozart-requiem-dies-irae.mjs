@@ -3,7 +3,7 @@ export default {
   composer: 'mozart',
   order: 22,
   work: 'Requiem in D minor, K. 626',
-  movement: 'III. Dies irae — Allegro assai',
+  movement: 'III. Dies irae, Allegro assai',
   set: { id: 'mozart-requiem', title: 'Requiem in D minor, K. 626', part: 3, of: 14 },
   year: '1791–92',
   key: 'D minor',
@@ -19,7 +19,7 @@ export default {
   ],
   cues: [
     { bar: { n: '1', occ: 1 }, kind: 'music', title: 'Opening of the Dies irae', text: 'The four choral parts enter together in D minor on “Dies irae”, day of wrath, the opening of the Latin Requiem Sequence. The violins play repeated notes and the bass moves in broken chords. Trumpets and timpani mark the beat.', basis: 'score-aligned', precision: 'moment', evidence: 'Breitkopf & Härtel score (1877), Dies irae, bars 1–8; Martin Norbäck’s public-domain engraving: https://www.mutopiaproject.org/ftp/MozartWA/KV626/dies_irae/dies_irae-a4.pdf. The text is the opening of the Latin Requiem Sequence.' },
-    { bar: { n: '40', occ: 1 }, kind: 'music', title: '“Quantus tremor”, choral basses', text: 'The choral basses sing “Quantus tremor” — how great the trembling — on repeated notes set against the beat, beginning in the second half of bar 40. Sopranos, altos and tenors reply with the words of the day of wrath. The violins keep up their fast figuration throughout.', basis: 'score-aligned', precision: 'moment', evidence: 'Breitkopf & Härtel score (1877), Dies irae, bars 40–49; Norbäck engraving, pp. 6–7. The basses begin their repeated-note figure in the second half of bar 40.' },
+    { bar: { n: '40', occ: 1 }, kind: 'music', title: '“Quantus tremor”, choral basses', text: 'The choral basses sing “Quantus tremor” (how great the trembling) on repeated notes set against the beat, beginning in the second half of bar 40. Sopranos, altos and tenors reply with the words of the day of wrath. The violins keep up their fast figuration throughout.', basis: 'score-aligned', precision: 'moment', evidence: 'Breitkopf & Härtel score (1877), Dies irae, bars 40–49; Norbäck engraving, pp. 6–7. The basses begin their repeated-note figure in the second half of bar 40.' },
     { bar: { n: '66', occ: 1 }, kind: 'form', title: 'Instrumental close', text: 'The choir stops after the first beat of bar 65, and bars 66–68 are for orchestra alone. Violins, bassoons and the bass line keep moving until the final D minor chord cuts them off.', basis: 'score-aligned', precision: 'moment', evidence: 'Breitkopf & Härtel score (1877), Dies irae, bars 65–68; Norbäck engraving, p. 9. The choir rests after the first beat of bar 65; bars 66–68 are wholly instrumental.' },
   ],
   transitions: [

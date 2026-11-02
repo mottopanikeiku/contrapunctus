@@ -3,7 +3,7 @@
   "title": "Liszt, Hungarian Rhapsody No. 2, in three recordings",
   "composer": "liszt",
   "group": "century",
-  "work": "Hungarian Rhapsody No. 2, S. 244/2 — shared opening",
+  "work": "Hungarian Rhapsody No. 2, S. 244/2: shared opening",
   "question": "One piano recording and two orchestral ones, from 1919, 1936 and 1945, play the rhapsody’s opening.",
   "intro": "Liszt opens with accented chords, pauses and quick flourishes. Rachmaninoff plays the piano original; Stokowski’s Philadelphia players use Karl Müller-Berghaus’s orchestration. Goehr adds a London performance from Kingsway Hall. In all three recordings this opening begins the first disc side.",
   "recordings": [
@@ -18,10 +18,10 @@
     { "label": "Melody in chords", "t": 48, "note": "The melody is filled out in chords, while the bass keeps its heavy tread." }
   ],
   "sources": [
-    { "title": "Rachmaninoff — Edison 82169-R, part I", "url": "https://commons.wikimedia.org/wiki/File:Second_Hungarian_Rhapsody.ogg" },
-    { "title": "Stokowski — 1936 recording, July 1937 release", "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra_-_Stokowski_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Hmv-db3086-2a03100.flac" },
-    { "title": "Goehr — Kingsway Hall, 1945, first side; the source does not identify an arranger", "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London,_Walter_Goehr_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Decca-k1321-ar9230.flac" },
-    { "title": "Liszt — piano score, edited by Homer N. Bartlett: opening call and Lassan, first page", "url": "https://vmirror.imslp.org/files/imglnks/usimg/5/5b/IMSLP00374-Liszt_-_Hungarian_Rhapsody_02.pdf" },
-    { "title": "Rachmaninoff Performance Diary — first Edison sessions and ten released recordings", "url": "https://rachmaninoffdiary.com/diary-entry/gramophone-recording" }
+    { "title": "Rachmaninoff: Edison 82169-R, part I", "url": "https://commons.wikimedia.org/wiki/File:Second_Hungarian_Rhapsody.ogg" },
+    { "title": "Stokowski: 1936 recording, July 1937 release", "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra_-_Stokowski_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Hmv-db3086-2a03100.flac" },
+    { "title": "Goehr: Kingsway Hall, 1945, first side; the source does not identify an arranger", "url": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London,_Walter_Goehr_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Decca-k1321-ar9230.flac" },
+    { "title": "Liszt: piano score, edited by Homer N. Bartlett: opening call and Lassan, first page", "url": "https://vmirror.imslp.org/files/imglnks/usimg/5/5b/IMSLP00374-Liszt_-_Hungarian_Rhapsody_02.pdf" },
+    { "title": "Rachmaninoff Performance Diary: first Edison sessions and ten released recordings", "url": "https://rachmaninoffdiary.com/diary-entry/gramophone-recording" }
   ]
 }

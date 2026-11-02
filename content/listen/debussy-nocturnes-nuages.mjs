@@ -3,7 +3,7 @@ export default {
   composer: 'debussy',
   order: 20,
   work: 'Nocturnes',
-  movement: 'I. Nuages — Modéré',
+  movement: 'I. Nuages, Modéré',
   set: { id: 'debussy-nocturnes', title: 'Nocturnes', part: 1, of: 3 },
   year: '1897–99',
   key: 'B minor',

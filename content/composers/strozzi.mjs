@@ -51,7 +51,7 @@ export default {
     { year: '1664', title: 'Arie, Op. 8', titleHtml: '<i>Arie</i>, Op. 8', forces: 'Solo voice and continuo; two violins in one piece', note: 'Five cantatas, six arias and a serenata, dedicated to Sophia, Duchess of Brunswick-Lüneburg. <i>Hor che Apollo</i> adds two violins.' },
   ],
   score: [
-    { kicker: 'Op. 6, 1657 — quoted', title: 'Amore è bandito, bars 1–2', abc: `X:1
+    { kicker: 'Op. 6, 1657: quoted', title: 'Amore è bandito, bars 1–2', abc: `X:1
 T:Amore è bandito, bars 1–2 (voice)
 M:12/8
 L:1/8
@@ -60,7 +60,7 @@ K:Bb
 V:1 name="Voice"
 %%MIDI program 52
 z2 f d c B f d f e c f | d2 F G A B A G A B G>F |]`, caption: 'The voice part of bars 1–2 from Luigi Torchi’s edition (<i>Eleganti canzoni ed arie italiane del secolo XVII</i>, Ricordi, 1895, no. 13, p. 34), read from the public-domain scan on IMSLP. The signature has two flats and the metre is 12/8. Bar 1 has a crotchet rest and ten quavers, the text running “A-mo-re è ban-di-to a-man-ti”; bar 2 has a crotchet D, eight quavers, a dotted quaver and a semiquaver. Torchi’s tempo (<i>Allegro brillante</i>) and dynamic (<i>mf</i>) are his additions; the breath mark he prints above the staff after the crotchet in bar 2 is not reproduced, the metronome mark is for playback only, and his piano part is left out.' },
-    { kicker: 'Descending tetrachord — invented schematic', title: 'Descending bass from G to D', abc: `X:2
+    { kicker: 'Descending tetrachord: invented schematic', title: 'Descending bass from G to D', abc: `X:2
 T:Descending tetrachord (schematic)
 M:3/4
 L:1/4
@@ -89,9 +89,9 @@ that takes my breath and weighs on my heart?`, note: '<p>The first three lines o
   ],
   lineage: { from: ['Francesco Cavalli', 'Giulio Strozzi', 'Claudio Monteverdi'], to: ['Luigi Dallapiccola'], note: '<p>Cavalli taught her, and Giulio Strozzi wrote the texts of her first book and brought her into the Incogniti and the Unisoni. Glixon found an affinity between some of the 1644 madrigals and Monteverdi’s last books, and R. L. Kendrick compared her motet <i>Quis dabit mihi</i> with a scene from his <i>Il ritorno d’Ulisse in patria</i>; she never called herself his pupil. Dallapiccola orchestrated <i>Amor dormiglione</i> for the concert of 4 May 1940.</p>' },
   reading: [
-    'Beth L. Glixon, “Strozzi, Barbara”, <i>Dizionario Biografico degli Italiani</i>, vol. 94 (Istituto della Enciclopedia Italiana, 2019) — the current archival biography, with sources for each document.',
-    'Ellen Rosand, “Barbara Strozzi, <i>virtuosissima cantatrice</i>: The Composer’s Voice”, <i>Journal of the American Musicological Society</i> 31 (1978) — the study of her patrons, texts and musical style that later accounts draw on.',
-    'Beth L. Glixon and Wendy Heller, eds., <i>Barbara Strozzi in Context</i> (Cambridge University Press, 2026) — essays on her family, on Giulio Strozzi and on the Venetian setting.',
-    'Susan Clermont, “Barbara Strozzi at 400”, <i>In The Muse</i> (Library of Congress, 2019) — the Library’s copy of Op. 7 and the dedication of that book.',
+    'Beth L. Glixon, “Strozzi, Barbara”, <i>Dizionario Biografico degli Italiani</i>, vol. 94 (Istituto della Enciclopedia Italiana, 2019): the current archival biography, with sources for each document.',
+    'Ellen Rosand, “Barbara Strozzi, <i>virtuosissima cantatrice</i>: The Composer’s Voice”, <i>Journal of the American Musicological Society</i> 31 (1978): the study of her patrons, texts and musical style that later accounts draw on.',
+    'Beth L. Glixon and Wendy Heller, eds., <i>Barbara Strozzi in Context</i> (Cambridge University Press, 2026): essays on her family, on Giulio Strozzi and on the Venetian setting.',
+    'Susan Clermont, “Barbara Strozzi at 400”, <i>In The Muse</i> (Library of Congress, 2019): the Library’s copy of Op. 7 and the dedication of that book.',
   ],
 };

@@ -3,7 +3,7 @@
   "work": {
     "title": "String Quartet No. 2 in D major",
     "catalogue": "No opus number",
-    "movement": "III. Notturno — Andante",
+    "movement": "III. Notturno, Andante",
     "version": {
       "value": "Complete third movement; edition not identified",
       "status": "inferred",
@@ -99,21 +99,21 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Borodin, String Quartet No. 2, III. Notturno (Musopen String Quartet)",
+      "title": "Wikimedia Commons: Borodin, String Quartet No. 2, III. Notturno (Musopen String Quartet)",
       "url": "https://commons.wikimedia.org/wiki/File:Borodin_-_String_Quartet_No._2_in_D_major_-_III._Notturno._Andante_(Musopen_String_Quartet).flac",
       "locator": "Artists: Musopen String Quartet; date 2012; recording tag PD-author (Musopen); composition tag PD-old-auto-expired, death year 1887; uploaded 12 November 2024 by Kcx36 from the Internet Archive’s Musopen collection.",
       "accessed": "2026-10-19"
     },
     {
       "id": "musopen-ia",
-      "title": "Internet Archive — Musopen Collection as FLAC",
+      "title": "Internet Archive: Musopen Collection as FLAC",
       "url": "https://archive.org/details/MusopenCollectionAsFlac",
       "locator": "Description: Musopen Kickstarter music, project completed in 2012; lists “Borodin String Quartet No 1” and “No 2” under String Quartets; licence URL: Public Domain Mark 1.0.",
       "accessed": "2026-10-19"
     },
     {
       "id": "bso",
-      "title": "Boston Symphony Orchestra — Overture to Prince Igor (Harlow Robinson)",
+      "title": "Boston Symphony Orchestra: Overture to Prince Igor (Harlow Robinson)",
       "url": "https://www.bso.org/works/overture-to-prince-igor",
       "locator": "Quick facts: Borodin died in Saint Petersburg on 27 February 1887.",
       "accessed": "2026-10-19"

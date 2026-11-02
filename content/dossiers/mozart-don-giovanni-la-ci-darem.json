@@ -140,7 +140,7 @@
       "note": "The historical score and text are distinguished from the recording and from any later translation."
     },
     "recording": {
-      "value": "Rule 2 — United States recording published in 1920, before the programme cutoff",
+      "value": "Rule 2: United States recording published in 1920, before the programme cutoff",
       "status": "inferred",
       "sourceIds": [
         "dahr-disc",
@@ -183,7 +183,7 @@
     },
     {
       "id": "score",
-      "title": "Mozart, Don Giovanni — historical vocal score",
+      "title": "Mozart, Don Giovanni: historical vocal score",
       "url": "https://imslp.org/wiki/Don_Giovanni,_K.527_(Mozart,_Wolfgang_Amadeus)",
       "locator": "No. 7, Là ci darem la mano; Italian text, Andante 2/4 and Allegro 6/8. The arrangement heard on the acoustic disc is not identified.",
       "accessed": "2026-10-17"

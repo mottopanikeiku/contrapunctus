@@ -81,7 +81,7 @@ V:1 name="Keyboard"
     { relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Adolph Menzel - Flötenkonzert Friedrichs des Großen in Sanssouci - Google Art Project.jpg', artist: 'Adolph Menzel', title: 'Flute Concert of Frederick the Great at Sanssouci', date: '1850–52', medium: 'Oil on canvas', collection: 'Alte Nationalgalerie, Berlin', note: '<p>Menzel’s nineteenth-century reconstruction puts Frederick at the centre of the room and Bach at the harpsichord, watching him. For nearly three decades Bach’s job was to supply the accompaniment while his employer played the flute. The candlelight in the picture belongs to Menzel’s staging of the Prussian past.</p>' },
     { relation: 'documented-use',
-      type: 'poem', author: 'Christian Fürchtegott Gellert', title: 'Die Ehre Gottes aus der Natur — first stanza', date: '1757', lang: 'German', translator: 'Our translation', original: `Die Himmel rühmen des Ewigen Ehre,
+      type: 'poem', author: 'Christian Fürchtegott Gellert', title: 'Die Ehre Gottes aus der Natur: first stanza', date: '1757', lang: 'German', translator: 'Our translation', original: `Die Himmel rühmen des Ewigen Ehre,
 Ihr Schall pflanzt seinen Namen fort.
 Ihn rühmt der Erdkreis, ihn preisen die Meere;
 Vernimm, o Mensch, ihr göttlich Wort!`, translation: `The heavens proclaim the Eternal’s honour;
@@ -89,7 +89,7 @@ their sound carries his name onwards.
 The earth proclaims him, the seas praise him;
 hear, human being, their divine word!`, note: '<p>Gellert published these devotional poems in 1757; Bach published his settings of the whole collection the following year. In <i>Die Ehre Gottes aus der Natur</i>, the keyboard keeps moving while the singer holds longer notes. Gellert received a copy from Bach in March 1758. [[beethoven|Beethoven]] later set six Gellert poems in Op. 48.</p>' },
     { relation: 'shared-context',
-      type: 'poem', author: 'Carl Philipp Emanuel Bach', title: 'Versuch — the performer’s feeling', date: '1753, Part I, chapter 3, §13', lang: 'German prose', translator: 'Our translation', original: 'Indem ein Musickus nicht anders rühren kan, er sey dann selbst gerührt; so muß er nothwendig sich selbst in alle Affecten setzen können, welche er bey seinen Zuhörern erregen will; er giebt ihnen seine Empfindungen zu verstehen und bewegt sie solchergestalt am besten zur Mit-Empfindung.', translation: 'Since a musician cannot move others unless he is himself moved, he must necessarily be able to put himself into all the states of feeling that he wishes to arouse in his listeners; he makes his feelings understood by them and in this way moves them most effectively to share those feelings.', note: '<p>In the passages that follow, Bach asked the player to become sad in sorrowful music and to change when the mood changed. He also defended appropriate facial expression, holding that to sit like a carved figure at the keyboard was no virtue.</p>' },
+      type: 'poem', author: 'Carl Philipp Emanuel Bach', title: 'Versuch: the performer’s feeling', date: '1753, Part I, chapter 3, §13', lang: 'German prose', translator: 'Our translation', original: 'Indem ein Musickus nicht anders rühren kan, er sey dann selbst gerührt; so muß er nothwendig sich selbst in alle Affecten setzen können, welche er bey seinen Zuhörern erregen will; er giebt ihnen seine Empfindungen zu verstehen und bewegt sie solchergestalt am besten zur Mit-Empfindung.', translation: 'Since a musician cannot move others unless he is himself moved, he must necessarily be able to put himself into all the states of feeling that he wishes to arouse in his listeners; he makes his feelings understood by them and in this way moves them most effectively to share those feelings.', note: '<p>In the passages that follow, Bach asked the player to become sad in sorrowful music and to change when the mood changed. He also defended appropriate facial expression, holding that to sit like a carved figure at the keyboard was no virtue.</p>' },
   ],
   recordings: [
     { work: 'Six String Symphonies, Wq 182', performers: 'The English Concert, Trevor Pinnock', label: 'Archiv Produktion', note: 'The best short introduction to Bach’s orchestral writing. Pinnock keeps the attacks exact, the slow movement of the B♭ major symphony sounds improvised, and the finale of the B minor symphony is played with sharp attack.' },
@@ -97,8 +97,8 @@ hear, human being, their divine word!`, note: '<p>Gellert published these devoti
   ],
   lineage: { from: ['bach', 'Georg Philipp Telemann', 'German rhetorical and devotional traditions'], to: ['haydn', 'beethoven'], note: '<p>[[haydn|Haydn]] learnt from the sonatas at his own keyboard; [[beethoven|Beethoven]] was still requesting Emanuel’s works from Breitkopf & Härtel in July 1809. The <i>Essay</i> taught fingering, the accompaniment of singers and the treatment of dissonance to readers Bach never met.</p>' },
   reading: [
-    'C. P. E. Bach, <i>Essay on the True Art of Playing Keyboard Instruments</i>, trans. William J. Mitchell (Norton, 1949) — the treatise complete in English.',
-    'David Schulenberg, <i>The Music of Carl Philipp Emanuel Bach</i> (University of Rochester Press, 2014) — detailed analysis across the genres.',
-    '<a href="https://www.cpebach.org/">C. P. E. Bach: The Complete Works</a> — open editorial introductions, chronology and catalogue information; the starting point for dates and versions.',
+    'C. P. E. Bach, <i>Essay on the True Art of Playing Keyboard Instruments</i>, trans. William J. Mitchell (Norton, 1949): the treatise complete in English.',
+    'David Schulenberg, <i>The Music of Carl Philipp Emanuel Bach</i> (University of Rochester Press, 2014): detailed analysis across the genres.',
+    '<a href="https://www.cpebach.org/">C. P. E. Bach: The Complete Works</a>: open editorial introductions, chronology and catalogue information; the starting point for dates and versions.',
   ],
 };

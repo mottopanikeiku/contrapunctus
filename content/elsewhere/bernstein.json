@@ -2,7 +2,7 @@
   "composer": "bernstein",
   "items": [
     {
-      "work": "Chichester Psalms — I. Psalm 108, verse 2, and Psalm 100",
+      "work": "Chichester Psalms: I. Psalm 108, verse 2, and Psalm 100",
       "year": "1965",
       "performers": "Israel Philharmonic Orchestra; Wiener Jeunesse-Chor; Leonard Bernstein",
       "recorded": "23 August 1977, Philharmonie, Berlin",
@@ -12,12 +12,12 @@
         {
           "kind": "youtube",
           "url": "https://www.youtube.com/watch?v=3kBsS0RVFgk",
-          "title": "Leonard Bernstein: Chichester Psalms — I. Psalm 108 (Verse 2) and 100 (entire)"
+          "title": "Leonard Bernstein: Chichester Psalms, I. Psalm 108 (Verse 2) and 100 (entire)"
         }
       ]
     },
     {
-      "work": "Candide — Overture",
+      "work": "Candide: Overture",
       "year": "1956",
       "performers": "London Symphony Orchestra; Leonard Bernstein",
       "recorded": "13 December 1989, Barbican Theatre, London",
@@ -27,7 +27,7 @@
         {
           "kind": "youtube",
           "url": "https://www.youtube.com/watch?v=ovFVC2ZsOc4",
-          "title": "Leonard Bernstein — Overture to Candide | London Symphony Orchestra / Bernstein"
+          "title": "Leonard Bernstein: Overture to Candide | London Symphony Orchestra / Bernstein"
         }
       ]
     },
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "work": "West Side Story — complete recording",
+      "work": "West Side Story: complete recording",
       "year": "1984–85",
       "performers": "Kiri Te Kanawa, José Carreras, Tatiana Troyanos, Kurt Ollmann, Marilyn Horne; orchestra and chorus conducted by Leonard Bernstein",
       "recorded": "September 1984, New York",
@@ -57,7 +57,7 @@
         {
           "kind": "apple",
           "url": "https://music.apple.com/gb/album/bernstein-west-side-story/1452642884",
-          "title": "Bernstein: West Side Story — Te Kanawa, Carreras, Troyanos, Ollmann, Horne, Bernstein on Apple Music"
+          "title": "Bernstein: West Side Story, Te Kanawa, Carreras, Troyanos, Ollmann, Horne, Bernstein on Apple Music"
         }
       ]
     }

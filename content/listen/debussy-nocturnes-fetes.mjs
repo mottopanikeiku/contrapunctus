@@ -3,7 +3,7 @@ export default {
   composer: 'debussy',
   order: 21,
   work: 'Nocturnes',
-  movement: 'II. Fêtes — Animé et très rythmé',
+  movement: 'II. Fêtes, Animé et très rythmé',
   set: { id: 'debussy-nocturnes', title: 'Nocturnes', part: 2, of: 3 },
   year: '1897–99',
   key: '',

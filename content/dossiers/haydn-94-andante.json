@@ -87,7 +87,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Bob Varney — transfer from original Victor 78s",
+      "value": "Bob Varney: transfer from original Victor 78s",
       "status": "documented",
       "sourceIds": [
         "archive"
@@ -131,7 +131,7 @@
       "note": "The composer died in 1809. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
     },
     "recording": {
-      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "value": "Rule 3, territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons",
@@ -141,14 +141,14 @@
       "note": "Commons applies PD-EU-audio to the Koussevitzky/Boston recording attributed to 1929. The alternative CC0 metadata is not needed and is not treated as authority to waive Victor’s rights. Usable under the programme’s pre-1963 European sound-recording rule; the former 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US sound-recording status is not established. A recording date alone is not represented as an independently verified first-publication date.",
       "alternatives": [
         {
-          "value": "PD-EU-audio — European performers’ and producers’ rights claimed expired.",
+          "value": "PD-EU-audio: European performers’ and producers’ rights claimed expired.",
           "sourceIds": [
             "commons",
             "eu-audio"
           ]
         },
         {
-          "value": "CC0 — dedication asserted by Commons Structured data.",
+          "value": "CC0: dedication asserted by Commons Structured data.",
           "sourceIds": [
             "commons-data"
           ]
@@ -161,91 +161,91 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Haydn; Symphony No. 94 \"Surprise\", 2. Andante.ogg",
+      "title": "Wikimedia Commons: Haydn; Symphony No. 94 \"Surprise\", 2. Andante.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Haydn;_Symphony_No._94_%22Surprise%22,_2._Andante.ogg?oldid=638011151",
       "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured and embedded metadata",
+      "title": "Wikimedia Commons: structured and embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Haydn;_Symphony_No._94_%22Surprise%22,_2._Andante.ogg#structureddata",
       "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Haydn Symphony No. 94",
+      "title": "Internet Archive: Haydn Symphony No. 94",
       "url": "https://archive.org/metadata/Haydn_Symphony_No_94_Surprise",
       "locator": "metadata.description: Koussevitzky and Boston Symphony, 1929; transfer from original Victor 78 set M-55 by Bob Varney. Uploaded in December 2008; upload is not the session or transfer date.",
       "accessed": "2026-10-16"
     },
     {
       "id": "dahr-a",
-      "title": "DAHR — Victor matrix CVE-48984",
+      "title": "DAHR: Victor matrix CVE-48984",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/800022770",
       "locator": "Second movement, Andante, part 3; master take 1, 22 April 1929, Symphony Hall, Boston; Victor 7059 and M-55. The disc uses the older symphony number 6; DAHR identifies Hob. I:94.",
       "accessed": "2026-10-16"
     },
     {
       "id": "dahr-b",
-      "title": "DAHR — Victor matrix CVE-48985",
+      "title": "DAHR: Victor matrix CVE-48985",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/800022771",
       "locator": "Second movement, Andante concluded, part 4; take 3, 22 April 1929, Symphony Hall, Boston; Victor 7059 and M-55.",
       "accessed": "2026-10-16"
     },
     {
       "id": "composer",
-      "title": "Joseph Haydn — biographical dates",
+      "title": "Joseph Haydn: biographical dates",
       "url": "https://en.wikipedia.org/wiki/Joseph_Haydn",
       "locator": "Lead paragraph: composer’s death year.",
       "accessed": "2026-10-16"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright term",
+      "title": "Directive 2006/116/EC: copyright term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "eu-audio",
-      "title": "Wikimedia Commons — PD-EU-audio",
+      "title": "Wikimedia Commons: PD-EU-audio",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Template and documentation: expiry of European performers’ and producers’ rights after 50 or 70 years; underlying composition requires a separate rights basis.",
       "accessed": "2026-10-16"
     },
     {
       "id": "eu-extension",
-      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "title": "Directive 2011/77/EU: transitional sound-recording term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Article 1(3), inserting Article 10(5): extension applies to phonograms still protected on 1 November 2013.",
       "accessed": "2026-10-16"
     },
     {
       "id": "us-recordings",
-      "title": "17 U.S.C. § 1401 — pre-1972 sound recordings",
+      "title": "17 U.S.C. § 1401: pre-1972 sound recordings",
       "url": "https://www.law.cornell.edu/uscode/text/17/1401",
       "locator": "Section (a)(2): terms depend on first publication; post-1956 recordings fixed before 15 February 1972 remain within the statutory term until 15 February 2067.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Haydn; Symphony No. 94 \"Surprise\", 2. Andante.ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Haydn; Symphony No. 94 \"Surprise\", 2. Andante.ogg",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1177337502%7C1285956118%7C638011151%7C1264375355%7C1118001688%7C1003399466%7C1113441804%7C808915645%7C525137715%7C963510501&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Haydn; Symphony No. 94 \"Surprise\", 2. Andante.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-term",
-      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "title": "Directive 2011/77/EU: non-revival of expired phonogram terms",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Recitals 1–3; Article 1(3), inserting Article 10(5): extension applies to performances and phonograms still protected on 1 November 2013.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-audio",
-      "title": "Wikimedia Commons — recording-specific scope of PD-EU-audio",
+      "title": "Wikimedia Commons: recording-specific scope of PD-EU-audio",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Template and documentation concern performers’ and producers’ rights, not merely composition copyright; territorial European expiry.",
       "accessed": "2026-10-17"

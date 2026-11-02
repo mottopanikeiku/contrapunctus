@@ -85,7 +85,7 @@ V:1 name="Theme"
     { relation: 'shared-context',
       type: 'painting', frame: 'mat', file: 'File:Europe a Prophecy, copy D, object 1 (Bentley 1, Erdman i, Keynes i) British Museum.jpg', artist: 'William Blake', title: 'The Ancient of Days, frontispiece to Europe a Prophecy', date: '1794', medium: 'Relief etching with colour', collection: 'British Museum, London', note: '<p>Blake’s Urizen bends out of a circle of fire with a pair of compasses, giving the world its dimensions. Blake made the print in London in 1794, during Haydn’s second visit. Four years later came Haydn’s <i>The Creation</i>, with its eventual C major chord.</p>' },
     { relation: 'documented-use',
-      type: 'poem', author: 'John Milton', title: 'Paradise Lost, Book VII — before the creation of humanity', date: '1667; revised edition 1674', lang: 'English', original: `Now Heaven in all her glory shone, and rolled
+      type: 'poem', author: 'John Milton', title: 'Paradise Lost, Book VII: before the creation of humanity', date: '1667; revised edition 1674', lang: 'English', original: `Now Heaven in all her glory shone, and rolled
 Her motions, as the great First Mover’s hand
 First wheeled their course; Earth in her rich attire
 Consummate lovely smiled; air, water, earth,
@@ -106,9 +106,9 @@ Govern the rest, self-knowing`, note: '<p>Milton fills the earth with creatures,
   ],
   lineage: { from: ['cpe-bach', 'Nicola Porpora', 'Georg Christoph Wagenseil', 'Austrian church and dance music'], to: ['mozart', 'beethoven', 'schubert'], note: '<p>[[mozart|Mozart]] offered Haydn six quartets; [[beethoven|Beethoven]] brought him counterpoint exercises. In both cases the scores were on the table. Haydn’s example also runs through [[schubert|Schubert]], where a small phrase can furnish a long movement and a familiar tune can return in changed surroundings.</p>' },
   reading: [
-    'H. C. Robbins Landon, <i>Haydn: Chronicle and Works</i>, 5 vols (Thames & Hudson, 1976–80) — documentary biography on a large scale.',
-    'James Webster, <i>Haydn’s “Farewell” Symphony and the Idea of Classical Style</i> (Cambridge, 1991) — close analysis that resists tidy period labels.',
-    'David Wyn Jones, <i>The Life of Haydn</i> (Cambridge, 2009) — a concise account of the institutions and practical conditions behind the music.',
-    'Charles Rosen, <i>The Classical Style</i> (1971; expanded edition, Norton, 1997) — Haydn, Mozart and Beethoven understood through harmonic and formal processes.',
+    'H. C. Robbins Landon, <i>Haydn: Chronicle and Works</i>, 5 vols (Thames & Hudson, 1976–80): documentary biography on a large scale.',
+    'James Webster, <i>Haydn’s “Farewell” Symphony and the Idea of Classical Style</i> (Cambridge, 1991): close analysis that resists tidy period labels.',
+    'David Wyn Jones, <i>The Life of Haydn</i> (Cambridge, 2009): a concise account of the institutions and practical conditions behind the music.',
+    'Charles Rosen, <i>The Classical Style</i> (1971; expanded edition, Norton, 1997): Haydn, Mozart and Beethoven understood through harmonic and formal processes.',
   ],
 };

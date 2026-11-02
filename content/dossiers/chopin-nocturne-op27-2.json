@@ -116,7 +116,7 @@
       "note": "Composition rights are distinct from the rights in Lévy’s recording."
     },
     "recording": {
-      "value": "Rule 1 — recording release: PD-author public-domain dedication by Musopen.",
+      "value": "Rule 1, recording release: PD-author public-domain dedication by Musopen.",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons"
@@ -129,28 +129,28 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Chopin - Nocturne No. 8 in D-flat major, Op. 27 No. 2 (Frank Levy).flac",
+      "title": "Wikimedia Commons: Chopin - Nocturne No. 8 in D-flat major, Op. 27 No. 2 (Frank Levy).flac",
       "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._8_in_D-flat_major,_Op._27_No._2_(Frank_Levy).flac?oldid=1123916421",
       "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured and embedded metadata",
+      "title": "Wikimedia Commons: structured and embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._8_in_D-flat_major,_Op._27_No._2_(Frank_Levy).flac#structureddata",
       "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "release",
-      "title": "Musopen — Set Chopin Free project update",
+      "title": "Musopen: Set Chopin Free project update",
       "url": "https://www.kickstarter.com/projects/Musopen/set-chopin-free/posts/1193714",
       "locator": "Upstream source cited in Commons wikitext and Structured data. Direct access returned HTTP 403; no additional session details were extracted.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Chopin - Nocturne No. 8 in D-flat major, Op. 27 No. 2 (Frank Levy).flac",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Chopin - Nocturne No. 8 in D-flat major, Op. 27 No. 2 (Frank Levy).flac",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1123916421&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Chopin - Nocturne No. 8 in D-flat major, Op. 27 No. 2 (Frank Levy).flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"

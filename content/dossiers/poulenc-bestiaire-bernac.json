@@ -88,7 +88,7 @@
       "note": "Rights in the composition are stated separately from rights in the recording. The United States status of the music is not established here."
     },
     "recording": {
-      "value": "Rule 3 — territorial EU public domain: first published before 1963; on sale as an import by April 1947 and reviewed in The Gramophone in 1947.",
+      "value": "Rule 3, territorial EU public domain: first published before 1963; on sale as an import by April 1947 and reviewed in The Gramophone in 1947.",
       "status": "documented",
       "sourceIds": ["gss47", "gram47"],
       "note": "The United States status of a recording made in France in the 1940s is not established."
@@ -99,7 +99,7 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — LE BESTIAIRE (Pierre Bernac & Francis Poulenc): metadata and file inventory",
+      "title": "Internet Archive: LE BESTIAIRE (Pierre Bernac & Francis Poulenc): metadata and file inventory",
       "url": "https://archive.org/metadata/78_le-bestiaire_pierre-bernac-francis-poulenc-apollinaire-poulenc_gbia0525306a",
       "locator": "metadata.description (matrix 2EA10804-1, catalogue D.B.6299, stylus and equalisation note), collections georgeblood and 78rpm_bowling_green; file LE BESTIAIRE - PIERRE BERNAC & FRANCIS POULENC.mp3 (4:44)",
       "accessed": "2026-10-19"
@@ -120,14 +120,14 @@
     },
     {
       "id": "johnson",
-      "title": "Graham Johnson — note on Le bestiaire, ou Cortège d’Orphée, FP 15a, Hyperion CDA68021/4",
+      "title": "Graham Johnson: note on Le bestiaire, ou Cortège d’Orphée, FP 15a, Hyperion CDA68021/4",
       "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W12466_68021",
       "locator": "Apollinaire’s collection, the twelve settings, the reduction to six, the dedication to Durey, and the six poems chosen (numbers 10, 4, 17, 19, 22, 23)",
       "accessed": "2026-10-19"
     },
     {
       "id": "wikisource",
-      "title": "Apollinaire — Le Bestiaire, ou Cortège d’Orphée (1911), French Wikisource",
+      "title": "Apollinaire: Le Bestiaire, ou Cortège d’Orphée (1911), French Wikisource",
       "url": "https://fr.wikisource.org/wiki/Le_Bestiaire,_ou_Cort%C3%A8ge_d%E2%80%99Orph%C3%A9e",
       "locator": "Table of contents with page numbers; the pages for Le Dromadaire (16), La Chèvre du Thibet (10), La Sauterelle (24), Le Dauphin (27), L’Écrevisse (30) and La Carpe (31)",
       "accessed": "2026-10-19"

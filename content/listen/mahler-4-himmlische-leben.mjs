@@ -10,7 +10,7 @@ export default {
   order: 6,
   set: { id: 'mahler-symphony-4', title: 'Symphony No. 4 in G major', part: 4, of: 4 },
   work: 'Symphony No. 4',
-  movement: 'IV. Sehr behaglich — Das himmlische Leben',
+  movement: 'IV. Sehr behaglich, Das himmlische Leben',
   year: '1899–1900',
   key: 'G major, ending in E major',
   forces: 'Soprano and orchestra',

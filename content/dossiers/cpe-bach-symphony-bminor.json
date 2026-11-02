@@ -3,7 +3,7 @@
   "work": {
     "title": "Symphony in B minor",
     "catalogue": "Wq 182/5; H.661",
-    "movement": "Allegretto — Larghetto — Presto",
+    "movement": "Allegretto, Larghetto, Presto",
     "version": {
       "value": "Original string-orchestra work, all three movements",
       "status": "documented",
@@ -100,77 +100,77 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Vox DL 463-1 carrier and transfer metadata",
+      "title": "Internet Archive: Vox DL 463-1 carrier and transfer metadata",
       "url": "https://archive.org/metadata/lp_the-sons-of-bach-vol-1-symphonies-cham_carl-philipp-emanuel-bach-mainzer-kamme/metadata",
       "locator": "Date 1959; publisher VOX; catalogue DL 463-1; country US; source Vinyl LP; named artists; transfer equipment lineage; ripping_date 20221029092156 and ripping_operator account.",
       "accessed": "2026-10-18"
     },
     {
       "id": "label-scan",
-      "title": "Vox DL 463-1 — original sleeve and labels",
+      "title": "Vox DL 463-1: original sleeve and labels",
       "url": "https://archive.org/download/lp_the-sons-of-bach-vol-1-symphonies-cham_carl-philipp-emanuel-bach-mainzer-kamme/lp_the-sons-of-bach-vol-1-symphonies-cham_carl-philipp-emanuel-bach-mainzer-kamme.pdf",
       "locator": "PDF page 2: copyright 1959, monaural carrier and mastering credit. Page 4: side-two label, band 1, all three symphony movements, Mainzer Kammerorchester, Günter Kehr, ‘Rec. in Germany’, DL 463-1 B and M-1118-B. Label and sleeve inspected visually. Robert Cushman’s sleeve notes incorrectly describe the Wq 182 symphonies as published in 1773; the modern critical introduction establishes their manuscript circulation.",
       "accessed": "2026-10-18"
     },
     {
       "id": "archive-files",
-      "title": "Internet Archive — complete symphony access derivative",
+      "title": "Internet Archive: complete symphony access derivative",
       "url": "https://archive.org/metadata/lp_the-sons-of-bach-vol-1-symphonies-cham_carl-philipp-emanuel-bach-mainzer-kamme/files",
       "locator": "disc1/02.01. Symphony #5 In B Minor (Allegretto - Larghetto - Presto).mp3; VBR MP3, length 758.93; originating side-two FLAC listed as 24-bit FLAC.",
       "accessed": "2026-10-18"
     },
     {
       "id": "score",
-      "title": "C. P. E. Bach: The Complete Works, III/2 — Symphony V in B minor",
+      "title": "C. P. E. Bach: The Complete Works, III/2, Symphony V in B minor",
       "url": "https://www.cpebach.org/pdfs/works/Series%20III/III-2/III-2-Wq182-5.pdf",
       "locator": "Edited by Sarah Adams, 2006, printed pp. 60–73. Openings of all three movements, Larghetto dynamics on pp. 67–68, and Presto repeat signs and ending on pp. 70 and 73 inspected visually. Musical cues describe whole movements or their opening paragraphs; no bar-by-bar timing or ear review is asserted.",
       "accessed": "2026-10-18"
     },
     {
       "id": "edition-introduction",
-      "title": "Sarah Adams — introduction to Six Symphonies for Baron van Swieten",
+      "title": "Sarah Adams: introduction to Six Symphonies for Baron van Swieten",
       "url": "https://www.cpebach.org/pdfs/introductions/III-2-Intro.pdf",
       "locator": "Pp. xi–xii: Hamburg, 1773, scoring and commission; pp. xii–xiv: Reichardt’s 1814 recollection of the trial performance at Büsch’s house; pp. xiv–xv: Westphal’s 1777 catalogue, 1789 letter and later publication history.",
       "accessed": "2026-10-18"
     },
     {
       "id": "symphonies-preface",
-      "title": "Peter Wollny — preface to the C. P. E. Bach symphonies",
+      "title": "Peter Wollny: preface to the C. P. E. Bach symphonies",
       "url": "https://www.cpebach.org/prefaces/symphonies-preface",
       "locator": "Three-movement design, binary finales with repeated halves, continuo scoring and the 1773 van Swieten set.",
       "accessed": "2026-10-18"
     },
     {
       "id": "work-catalogue",
-      "title": "IMSLP — Symphony in B minor, H.661",
+      "title": "IMSLP: Symphony in B minor, H.661",
       "url": "https://imslp.org/wiki/Symphony_in_B_minor,_H.661_(Bach,_Carl_Philipp_Emanuel)",
       "locator": "Catalogue equivalence Wq 182/5 and H.661; key, 1773 composition date, scoring and the three movement titles.",
       "accessed": "2026-10-18"
     },
     {
       "id": "chronology",
-      "title": "C. P. E. Bach: The Complete Works — chronology",
+      "title": "C. P. E. Bach: The Complete Works, chronology",
       "url": "https://cpebach.org/timeline/chronology",
       "locator": "1773 lists Wq 182/5; 14 December 1788 records the composer’s death.",
       "accessed": "2026-10-18"
     },
     {
       "id": "timing-reference",
-      "title": "AWA — Mainz Chamber Orchestra / Günter Kehr reissue track listing",
+      "title": "AWA: Mainz Chamber Orchestra / Günter Kehr reissue track listing",
       "url": "https://s.awa.fm/track/5ac4cc61bcd8e7781455",
       "locator": "Lists the three Kehr movements as 4:30, 3:44 and 4:20. These rounded durations corroborate the broad movement divisions around 4:36 and 8:22 in the selected LP transfer; they do not supply bar-level alignment. The reissue calls movement I Allegro, while the original Vox label and critical score give Allegretto.",
       "accessed": "2026-10-18"
     },
     {
       "id": "publication-review",
-      "title": "HiFi/Stereo Review, January 1961 — review of Vox DL 463-1",
+      "title": "HiFi/Stereo Review, January 1961: review of Vox DL 463-1",
       "url": "https://www.worldradiohistory.com/Archive-All-Audio/Archive-HiFI-Stereo/60s/HiFi-Stereo-Review-1961-01.pdf",
       "locator": "Printed and PDF p. 58: B minor and D major symphonies, Mainzer Kammerorchester, Günter Kehr, Vox DL 463-1 and retail price. The issue cover dates the review January 1961. Establishes commercial publication before 1963 independently of the sleeve copyright notice.",
       "accessed": "2026-10-18"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2011/77/EU — phonogram term and transition",
+      "title": "Directive 2011/77/EU: phonogram term and transition",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Recitals 1–3 and Article 1(2)–(3): former 50-year term, lawful publication, and extension for phonograms still protected on 1 November 2013.",
       "accessed": "2026-10-18"

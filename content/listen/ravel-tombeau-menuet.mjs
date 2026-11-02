@@ -4,7 +4,7 @@ export default {
   "year": "1914–17", "key": "G major", "forces": "Piano",
   "performers": "azuma, piano", "recorded": "January 2007",
   "source": { "file": "File:Maurice Ravel - azuma - Le Tombeau de Couperin. V. Menuet (live).opus" },
-  "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin — piano version", "part": 5, "of": 6 },
+  "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin: piano version", "part": 5, "of": 6 },
   "intro": "The fifth movement of Ravel’s <i>Le Tombeau de Couperin</i> is a minuet in G major with a musette, a dance over a bagpipe-like drone, as its middle section. When the minuet returns, Ravel combines the two dances at the keyboard.",
   "sections": [
     { "t": 0, "label": "A · Minuet in G major", "m": "A", "mNote": "An ornamented melody above a moving bass." },

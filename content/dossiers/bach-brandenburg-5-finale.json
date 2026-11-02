@@ -135,7 +135,7 @@
       "note": "Bach died in 1750; this does not clear an unidentified modern edition."
     },
     "recording": {
-      "value": "Rule 1 — sound-recording licence: Creative Commons Attribution-ShareAlike 2.0 Generic.",
+      "value": "Rule 1, sound-recording licence: Creative Commons Attribution-ShareAlike 2.0 Generic.",
       "status": "documented",
       "sourceIds": [
         "commons"
@@ -148,28 +148,28 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Brandenburg Concerto No. 5, III. Allegro",
+      "title": "Wikimedia Commons: Brandenburg Concerto No. 5, III. Allegro",
       "url": "https://commons.wikimedia.org/wiki/File:Bach_-_Brandenburg_Concerto_5_-_3._Allegro.ogg",
       "locator": "Summary, Description/Author discrepancy where applicable, Date, Permission, Licensing, file history, embedded metadata and transcode table.",
       "accessed": "2026-10-17"
     },
     {
       "id": "programme",
-      "title": "Advent Chamber Orchestra — Music of the Bach Family programme",
+      "title": "Advent Chamber Orchestra: Music of the Bach Family programme",
       "url": "https://www.ibiblio.org/pandora/vorbis/chamber_orchestra/MAR-08/readme.html",
       "locator": "Programme heading dates 10 and 17 February 2008; BWV 1050 movement order and named soloists.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score",
-      "title": "Bach-Gesellschaft, volume XIX (1871) — Brandenburg Concerto No. 5",
+      "title": "Bach-Gesellschaft, volume XIX (1871): Brandenburg Concerto No. 5",
       "url": "https://s9.imslp.org/files/imglnks/usimg/e/ed/IMSLP02043-BWV1050.pdf",
       "locator": "Printed pp. 152–164; independently viewed score supplies instrumentation and formal commentary, not the recording’s performing edition.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "Bach-Archiv Leipzig — Johann Sebastian Bach: a chronology",
+      "title": "Bach-Archiv Leipzig: Johann Sebastian Bach: a chronology",
       "url": "https://www.bach-leipzig.de/en/neutral/johann-sebastian-bach-%E2%94%80-chronology",
       "locator": "Entries 1703, 1717, 1723 and 1750.",
       "accessed": "2026-10-17"

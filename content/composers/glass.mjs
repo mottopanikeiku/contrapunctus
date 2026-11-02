@@ -68,7 +68,7 @@ export default {
     { year: '2021–23', title: 'Symphony No. 15 (“Lincoln”)', forces: 'Baritone and orchestra', note: 'Eight movements. First performed by the Boston Symphony Orchestra at Tanglewood on 5 July 2026.' },
   ],
   score: [
-    { kicker: 'Additive process — invented schematic', title: 'Five, six and seven notes', abc: `X:1
+    { kicker: 'Additive process: invented schematic', title: 'Five, six and seven notes', abc: `X:1
 T:Additive process (schematic)
 M:5/8
 L:1/8
@@ -78,7 +78,7 @@ V:1 name="Keyboard"
 %%MIDI program 16
 V:1
 c e g e c | c e g e c | [M:6/8] c e g e c e | c e g e c e | [M:7/8] c e g e c e g | c e g e c e g |]`, caption: 'An invented six-bar schematic of the technique as Tim Page and Glass describe it. A five-note figure is played twice, then a six-note figure twice, then a seven-note figure twice. The outline of the figure stays the same while each pair of bars adds one eighth note. These notes are not from a Glass score.' },
-    { kicker: 'Rhythmic cycle — invented schematic', title: 'Patterns of three and four', abc: `X:2
+    { kicker: 'Rhythmic cycle: invented schematic', title: 'Patterns of three and four', abc: `X:2
 T:Two cycles (schematic)
 M:3/4
 L:1/8
@@ -92,7 +92,7 @@ V:1
 !>!g a b !>!g a b | !>!g a b !>!g a b |]
 V:2
 !>!C, E, D, E, !>!C, E, | D, E, !>!C, E, D, E, |]`, caption: 'An invented two-bar schematic of a rhythmic cycle. The accents fall every three quavers in the upper line and every four in the lower, so they coincide at the start and again after twelve quavers, where the cycle begins again. These notes are not from a Glass score.' },
-    { kicker: 'Order of entries — invented schematic', title: 'One line, fourths above and below, bass', abc: `X:3
+    { kicker: 'Order of entries: invented schematic', title: 'One line, fourths above and below, bass', abc: `X:3
 T:Layered entries (schematic)
 M:4/4
 L:1/8
@@ -132,10 +132,10 @@ z8 | z8 | z8 | C,4 G,,4 |]`, caption: 'An invented four-bar schematic of the ord
     note: '<p>Boulanger taught Glass harmony and counterpoint in Paris from 1964. Shankar was his collaborator in Paris and again in New York, where Glass also worked with the tabla player Alla Rakha, and the method Glass called additive process derived from that work. Glass later acknowledged that his early style owed a great deal to Darius Milhaud, with whom he studied at Aspen. He named Bach’s unaccompanied violin pieces when he explained why he built on the arpeggio. In New York he knew Terry Riley, [[reich|Steve Reich]] and Jon Gibson, who were working along similar lines. The programme note of the Boston Symphony Orchestra names Glass with Riley and Reich among the minimalist composers whose consonance, pulsation and repetition gave [[adams|John Adams]] a sense of licence to pursue similar directions.</p>',
   },
   reading: [
-    'Philip Glass, <i>Words Without Music: A Memoir</i> (Liveright, 2015) — the composer’s account of Baltimore, Paris, India and New York, with his father’s record store and his day jobs.',
-    'Philip Glass, <i>Music by Philip Glass</i>, edited by Robert T. Jones (Harper &amp; Row, 1987; Da Capo Press, 1995) — Glass on his early pieces and the portrait operas; Tim Page’s notes quote it on Einstein.',
-    'Keith Potter, <i>Four Musical Minimalists</i> (Cambridge University Press, 2000) — treats Glass together with La Monte Young, Terry Riley and Steve Reich.',
-    'Richard Kostelanetz, ed., <i>Writings on Glass: Essays, Interviews, Criticism</i> (Schirmer Books, 1997; University of California Press, 1999) — critical responses and conversations.',
-    'Tim Page, essay on <i>Einstein on the Beach</i> for the Library of Congress National Recording Registry (2012) — a short account of the opera’s origin, text and music.',
+    'Philip Glass, <i>Words Without Music: A Memoir</i> (Liveright, 2015): the composer’s account of Baltimore, Paris, India and New York, with his father’s record store and his day jobs.',
+    'Philip Glass, <i>Music by Philip Glass</i>, edited by Robert T. Jones (Harper &amp; Row, 1987; Da Capo Press, 1995): Glass on his early pieces and the portrait operas; Tim Page’s notes quote it on Einstein.',
+    'Keith Potter, <i>Four Musical Minimalists</i> (Cambridge University Press, 2000): treats Glass together with La Monte Young, Terry Riley and Steve Reich.',
+    'Richard Kostelanetz, ed., <i>Writings on Glass: Essays, Interviews, Criticism</i> (Schirmer Books, 1997; University of California Press, 1999): critical responses and conversations.',
+    'Tim Page, essay on <i>Einstein on the Beach</i> for the Library of Congress National Recording Registry (2012): a short account of the opera’s origin, text and music.',
   ],
 };

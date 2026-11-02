@@ -1,6 +1,6 @@
 export default {
   id: 'mahler-5-trauermarsch', composer: 'mahler', order: 10,
-  work: 'Symphony No. 5', movement: 'I. Trauermarsch — In gemessenem Schritt. Streng. Wie ein Kondukt',
+  work: 'Symphony No. 5', movement: 'I. Trauermarsch, In gemessenem Schritt. Streng. Wie ein Kondukt',
   set: { id: 'mahler-symphony-5', title: 'Symphony No. 5', part: 1, of: 5 },
   year: '1901–02', key: 'C♯ minor', forces: 'Orchestra',
   performers: 'Peabody Symphony Orchestra', recorded: '',

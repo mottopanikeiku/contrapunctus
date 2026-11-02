@@ -41,7 +41,7 @@ export default {
   orchestra: {
     ensemble: ['piccolo', 'flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Symphony No. 5 — Muzgiz M. 16313 Г, historical full score', url: score, locator: `Printed pp. 52–84; PDF pp. 54–86. Viewed score is public domain in Taiwan, not cleared for EU/US republication; exact performing edition unknown. Selected passage snapshots with approximate timing from ${audio}, not a complete instrument-on/off transcription.` },
+    source: { title: 'Symphony No. 5: Muzgiz M. 16313 Г, historical full score', url: score, locator: `Printed pp. 52–84; PDF pp. 54–86. Viewed score is public domain in Taiwan, not cleared for EU/US republication; exact performing edition unknown. Selected passage snapshots with approximate timing from ${audio}, not a complete instrument-on/off transcription.` },
     timeline: [
       { t: 0, playing: ['cellos', 'basses'], lead: ['cellos', 'basses'], note: 'Opening low-string theme, p. 52/rehearsal 48.' },
       { t: 70, playing: ['horns', 'bassoons', 'cellos', 'basses', 'timpani', 'percussion'], lead: ['horns'], note: 'Horn-led later opening span, p. 62/rehearsal 56; regional placement before the 1:28 withdrawal.' },

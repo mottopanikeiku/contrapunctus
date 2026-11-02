@@ -12,7 +12,7 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/35j0ZY4GzQ1AomKU0dUR6Z",
-          "title": "Spotify · Asyla, Tevot, Polaris — London Symphony Orchestra and Thomas Adès"
+          "title": "Spotify · Asyla, Tevot, Polaris: London Symphony Orchestra and Thomas Adès"
         },
         {
           "kind": "label",
@@ -32,12 +32,12 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/7b013AoSOqRbur5sLblr5O",
-          "title": "Spotify · The Tempest — Royal Opera House and Thomas Adès"
+          "title": "Spotify · The Tempest: Royal Opera House and Thomas Adès"
         },
         {
           "kind": "label",
           "url": "https://www.warnerclassics.com/release/thomas-ades-tempest",
-          "title": "Warner Classics · The Tempest — Covent Garden recording"
+          "title": "Warner Classics · The Tempest: Covent Garden recording"
         }
       ]
     },
@@ -52,7 +52,7 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/53XoO2L84YzW756O6tiqOj",
-          "title": "Spotify · Adès Conducts Adès — Kirill Gerstein and Boston Symphony Orchestra"
+          "title": "Spotify · Adès Conducts Adès: Kirill Gerstein and Boston Symphony Orchestra"
         },
         {
           "kind": "label",
@@ -64,35 +64,35 @@
   ],
   "sources": [
     {
-      "title": "LSO Live LSO0798-D — Asyla instrumentation, Ecstasio and March 2016 recording details",
+      "title": "LSO Live LSO0798-D: Asyla instrumentation, Ecstasio and March 2016 recording details",
       "url": "https://lsolive.lso.co.uk/products/lso0798-d-ades"
     },
     {
-      "title": "Warner Classics — The Tempest catalogue and official streaming destination",
+      "title": "Warner Classics: The Tempest catalogue and official streaming destination",
       "url": "https://www.warnerclassics.com/release/thomas-ades-tempest"
     },
     {
-      "title": "Faber Music — Meredith Oakes’s programme note and The Tempest vocal roles",
+      "title": "Faber Music: Meredith Oakes’s programme note and The Tempest vocal roles",
       "url": "https://www.fabermusic.com/music/tempest-the-3269"
     },
     {
-      "title": "Faber Music — The Tempest recording announcement, original cast and live 2007 Covent Garden provenance",
+      "title": "Faber Music: The Tempest recording announcement, original cast and live 2007 Covent Garden provenance",
       "url": "https://www.fabermusic.com/news/ad%C3%A8s-the-tempest-on-disc-1150"
     },
     {
-      "title": "Thomas Adès — The Tempest composition catalogue, dated 2003",
+      "title": "Thomas Adès: The Tempest composition catalogue, dated 2003",
       "url": "https://thomasades.com/compositions/the_tempest"
     },
     {
-      "title": "Deutsche Grammophon — Adès Conducts Adès, performers and March 2019 live première recording",
+      "title": "Deutsche Grammophon: Adès Conducts Adès, performers and March 2019 live première recording",
       "url": "https://www.deutschegrammophon.com/en/catalogue/products/ades-conducts-ades-thomas-ades-11910"
     },
     {
-      "title": "Faber Music — Adès’s Concerto for Piano and Orchestra programme note, commission and première",
+      "title": "Faber Music: Adès’s Concerto for Piano and Orchestra programme note, commission and première",
       "url": "https://www.fabermusic.com/music/concerto-for-piano-and-orchestra"
     },
     {
-      "title": "Thomas Adès — Concerto for Piano and Orchestra composition catalogue, dated 2018",
+      "title": "Thomas Adès: Concerto for Piano and Orchestra composition catalogue, dated 2018",
       "url": "https://thomasades.com/compositions/concerto_for_piano_and_orchestra"
     }
   ]

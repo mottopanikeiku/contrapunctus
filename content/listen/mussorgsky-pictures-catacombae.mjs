@@ -3,7 +3,7 @@ export default {
   composer: 'mussorgsky',
   order: 2,
   work: 'Pictures at an Exhibition',
-  movement: 'VIII. Catacombae (Sepulcrum romanum) — Largo',
+  movement: 'VIII. Catacombae (Sepulcrum romanum), Largo',
   set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 12, of: 15, unit: 'pieces' },
   year: '1874',
   key: '',

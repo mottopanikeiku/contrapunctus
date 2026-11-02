@@ -10,7 +10,7 @@ export default {
   order: 2,
   set: { id: 'mahler-symphony-2', title: 'Symphony No. 2 in C minor “Resurrection”', part: 4, of: 5 },
   work: 'Symphony No. 2 “Resurrection”',
-  movement: 'IV. Urlicht — Sehr feierlich, aber schlicht',
+  movement: 'IV. Urlicht; Sehr feierlich, aber schlicht',
   year: '1888–94',
   key: 'D♭ major',
   forces: 'Alto and orchestra',

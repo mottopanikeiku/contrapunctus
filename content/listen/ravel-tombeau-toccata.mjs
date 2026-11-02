@@ -4,7 +4,7 @@ export default {
   "year": "1914–17", "key": "E minor", "forces": "Piano",
   "performers": "Marcelle Meyer, piano", "recorded": "5–8 March 1954",
   "source": { "file": "File:Maurice Ravel - Le Tombeau de Couperin - Toccata (Marcelle Meyer).flac" },
-  "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin — piano version", "part": 6, "of": 6 },
+  "set": { "id": "ravel-tombeau-de-couperin", "title": "Le Tombeau de Couperin: piano version", "part": 6, "of": 6 },
   "intro": "Marcelle Meyer plays the Toccata, the finale of <i>Le Tombeau de Couperin</i>. Repeated notes begin softly and spread across the keyboard, and the movement opens in E minor and ends in E major.",
   "sections": [
     { "t": 0, "label": "A · Repeated notes between the hands", "m": "A", "mNote": "Staccato semiquavers, played quietly, alternate between the hands." },

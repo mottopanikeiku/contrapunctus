@@ -2,7 +2,7 @@ export default {
   "id": "lili-boulanger-psalm-130",
   "composer": "lili-boulanger",
   "order": 2,
-  "work": "Psalm 130 — Du fond de l’abîme",
+  "work": "Psalm 130; Du fond de l’abîme",
   "movement": "",
   "year": "1914–17",
   "key": "B♭ minor",
@@ -205,7 +205,7 @@ export default {
       "t": 1095,
       "kind": "form",
       "title": "Canon for contralto and tenor",
-      "text": "Domínguez sings a new phrase very softly, and Raymond Amade’s tenor repeats it a fifth lower. Their lines overlap above rising flute figures and falling organ notes. The marking is <i>Sans lenteur</i> — without dragging.",
+      "text": "Domínguez sings a new phrase very softly, and Raymond Amade’s tenor repeats it a fifth lower. Their lines overlap above rising flute figures and falling organ notes. The marking is <i>Sans lenteur</i> (without dragging).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, pp. 70–73, figure 19: Sans lenteur, contralto and tenor canon with flute, harp and organ. The fifth-below imitation is also described in Helen Julia Minors’s preface (2011)."

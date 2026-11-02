@@ -5,7 +5,7 @@ export default {
   composer: 'ravel',
   order: 72,
   work: 'Gaspard de la nuit',
-  movement: 'III. Scarbo — Modéré',
+  movement: 'III. Scarbo, Modéré',
   year: '1908',
   key: 'G♯ minor / B major',
   forces: 'Piano',
@@ -38,7 +38,7 @@ export default {
     },
     {
       "t": 72, "kind": "world", "title": "Scarbo in Bertrand’s poem",
-      "text": "Bertrand’s narrator hears Scarbo laughing in his alcove, then “grincer son ongle sur la soie des courtines de mon lit” — “his nail scraping the silk curtains of my bed”. The dwarf spins on one foot and rolls around the room like a witch’s dropped spindle.",
+      "text": "Bertrand’s narrator hears Scarbo laughing in his alcove, then “grincer son ongle sur la soie des courtines de mon lit” (“his nail scraping the silk curtains of my bed”). The dwarf spins on one foot and rolls around the room like a witch’s dropped spindle.",
       "basis": "documented", "precision": "passage",
       "evidence": "Aloysius Bertrand, Scarbo, Gaspard de la nuit, Mercure de France edition (1895), pp. 247–248, second and third paragraphs; our translation. https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Scarbo_2"
     },
@@ -56,7 +56,7 @@ export default {
     },
     {
       "t": 432, "kind": "world", "title": "Bertrand’s “Scarbo”, fourth paragraph",
-      "text": "In Bertrand’s poem the dwarf grows between the narrator and the moon “comme le clocher d’une cathédrale gothique” — “like the tower of a Gothic cathedral”. A little golden bell shakes on his pointed cap.",
+      "text": "In Bertrand’s poem the dwarf grows between the narrator and the moon “comme le clocher d’une cathédrale gothique” (“like the tower of a Gothic cathedral”). A little golden bell shakes on his pointed cap.",
       "basis": "documented", "precision": "passage",
       "evidence": "Bertrand, Scarbo, Mercure de France edition (1895), p. 248, fourth paragraph; our translation. https://fr.wikisource.org/wiki/Gaspard_de_la_nuit_(%C3%A9d._1895)/Scarbo_2"
     },

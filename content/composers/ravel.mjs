@@ -69,7 +69,7 @@ export default {
     { year: '1914–17; orchestrated 1919', title: 'Le Tombeau de Couperin', titleHtml: '<i>Le Tombeau de Couperin</i>', forces: 'Piano; four-movement orchestral version', note: 'Six piano movements bearing the names of seven men killed in the war. The orchestral version keeps the Prélude, Forlane, Menuet and Rigaudon; the Fugue and Toccata remain piano-only.' },
     { year: '1917–25', title: 'L’Enfant et les sortilèges', titleHtml: '<i>L’Enfant et les sortilèges</i> (The Child and the Spells)', forces: 'One-act opera: soloists, chorus and orchestra; libretto by Colette', note: 'A destructive child is confronted by the furniture, crockery and animals he has harmed. First performed in Monte Carlo in 1925 under Victor de Sabata.' },
     { year: '1919–20', title: 'La Valse', titleHtml: '<i>La Valse</i>', forces: 'Orchestra; also versions for piano and for two pianos', note: 'Waltzing couples are seen through clouds in an imperial ballroom around 1855. In a letter of 1922 to Maurice Emmanuel, Ravel rejected a political reading of the work’s collapse.' },
-    { year: '1922', title: 'Pictures at an Exhibition — orchestration', titleHtml: '<i>Pictures at an Exhibition</i> — orchestration of Mussorgsky', forces: 'Orchestra, including alto saxophone, celesta, two harps and percussion', note: 'Koussevitzky commissioned this orchestration of Mussorgsky’s 1874 piano suite. The solo trumpet in the <i>Promenade</i>, the saxophone in <i>The Old Castle</i> and the high tuba in <i>Bydło</i> were Ravel’s choices.' },
+    { year: '1922', title: 'Pictures at an Exhibition; orchestration', titleHtml: '<i>Pictures at an Exhibition</i>: orchestration of Mussorgsky', forces: 'Orchestra, including alto saxophone, celesta, two harps and percussion', note: 'Koussevitzky commissioned this orchestration of Mussorgsky’s 1874 piano suite. The solo trumpet in the <i>Promenade</i>, the saxophone in <i>The Old Castle</i> and the high tuba in <i>Bydło</i> were Ravel’s choices.' },
     { year: '1928', title: 'Boléro', titleHtml: '<i>Boléro</i>', forces: 'Ballet for large orchestra, including saxophones and two snare drums', note: 'Two tunes and a two-bar drum pattern, repeated through a long crescendo. After a long stretch in C major, the music turns to E major near the end. Nijinska’s production for Ida Rubinstein opened at the Paris Opéra on 22 November 1928.' },
     { year: '1929–30', title: 'Piano Concerto for the Left Hand in D major', forces: 'Left-hand piano and orchestra', note: 'Commissioned by the war-wounded Paul Wittgenstein, who played the first performance in Vienna on 5 January 1932. Low strings and contrabassoon open a single movement in which the piano part carries bass, chords and melody with one hand and the pedal.' },
     { year: '1929–31', title: 'Piano Concerto in G major', forces: 'Piano and orchestra', note: 'Dedicated to Marguerite Long, who gave the first performance in January 1932. The E major Adagio opens with a long piano solo; later the cor anglais plays the melody while the piano accompanies with running figuration.' },
@@ -106,7 +106,7 @@ V:1 name="Melody"
       caption: 'The melody quoted from bars 1–2 of the piano original, with accompaniment and slurs omitted. The first G lasts five quavers and is held across the middle of the bar before the melody moves on. The <a href="https://blog.henle.de/en/2025/01/13/naturally-artificing-maurice-ravel-on-his-150th-birthday/">Henle excerpt</a> shows the full piano writing. The playback uses a horn sound, the instrument Ravel later gave the melody in his orchestration.',
     },
     {
-      kicker: 'Harmony workshop — schematic',
+      kicker: 'Harmony workshop: schematic',
       title: 'Parallel major ninth chords',
       abc: `X:3
 T:Parallel major ninths - schematic
@@ -120,7 +120,7 @@ V:1 name="Piano"
       caption: 'A schematic of parallel major-ninth chords. Every chord has a root, third, fifth, major seventh and ninth; the whole shape moves by a tone without changing its spacing. The F♯ and C♯ in the second chord already lie outside C major.',
     },
     {
-      kicker: 'Piano Trio, first movement — rhythmic schematic',
+      kicker: 'Piano Trio, first movement: rhythmic schematic',
       title: 'Eight quavers grouped three, two, three',
       abc: `X:4
 T:Three plus two plus three - schematic
@@ -147,7 +147,7 @@ V:1 name="Grouping"
     {
       relation: 'documented-use',
       type: 'poem',
-      author: 'Aloysius Bertrand', title: 'Ondine — opening and closing paragraphs', date: '1842; text from the 1895 edition',
+      author: 'Aloysius Bertrand', title: 'Ondine: opening and closing paragraphs', date: '1842; text from the 1895 edition',
       lang: 'French', translator: 'Our translation',
       original: `— « Écoute ! — Écoute ! — C’est moi, c’est Ondine qui frôle de ces gouttes d’eau les losanges sonores de ta fenêtre illuminée par les mornes rayons de la lune ; et voici, en robe de moire, la dame châtelaine qui contemple à son balcon la belle nuit étoilée et le beau lac endormi.
 
@@ -202,7 +202,7 @@ An imperial court, about 1855.`,
 
   recordings: [
     { work: 'Piano Concerto in G major', performers: 'Martha Argerich, Berlin Philharmonic, Claudio Abbado', year: '1967', label: 'Deutsche Grammophon', note: 'Argerich and Abbado take the quick movements with strong rhythmic spring and keep the Adagio separate from them in pace and character. The original coupling was Prokofiev’s Third Concerto.' },
-    { work: 'Daphnis et Chloé — complete ballet', performers: 'London Symphony Orchestra, Royal Opera House Chorus, Pierre Monteux', year: '1959', label: 'Decca', note: 'Monteux conducted the première in 1912. The recording includes the chorus and the long approach to the dawn; Douglas Robinson directs the singers.' },
+    { work: 'Daphnis et Chloé: complete ballet', performers: 'London Symphony Orchestra, Royal Opera House Chorus, Pierre Monteux', year: '1959', label: 'Decca', note: 'Monteux conducted the première in 1912. The recording includes the chorus and the long approach to the dawn; Douglas Robinson directs the singers.' },
     { work: 'Boléro', performers: 'Orchestre des Concerts Lamoureux, Maurice Ravel', year: '1930', label: 'Polydor', note: 'Ravel conducted this recording, after Albert Wolff had prepared the orchestra, and it belongs beside any modern account. The <a href="https://phonobase.org/en/fiche/6574">original Polydor discs, 566030–31</a>, preserve the composer’s handling of the work’s long crescendo.' },
     { work: 'Gaspard de la nuit', performers: 'Samson François, piano', year: '1967', label: 'EMI', note: 'François’s later stereo recording. His playing suits the sudden entrances and disappearances of Scarbo, one of Bertrand’s creatures.' },
     { work: 'Shéhérazade', performers: 'Régine Crespin, Orchestre de la Suisse Romande, Ernest Ansermet', year: '1963', label: 'Decca', note: 'Crespin sings <i>Asie</i> with a large voice. Recorded in Geneva and coupled with Berlioz’s <i>Les Nuits d’été</i>, another cycle of French orchestral songs.' },
@@ -217,10 +217,10 @@ An imperial court, about 1855.`,
   },
 
   reading: [
-    'Roger Nichols, <a href="https://yalebooks.yale.edu/book/9780300187762/ravel/"><i>Ravel</i></a> (Yale University Press, 2011) — a documentary biography attentive to letters, performers and the gap between public reserve and private testimony.',
-    'Arbie Orenstein, ed., <i>A Ravel Reader: Correspondence, Articles, Interviews</i> (Columbia University Press, 1990) — the essential English-language collection of primary documents, including the autobiographical sketch dictated to Roland-Manuel in 1928.',
-    'Deborah Mawer, ed., <i>The Cambridge Companion to Ravel</i> (Cambridge University Press, 2000) — essays on the musical language, cultural setting and performance traditions; useful alongside scores.',
-    'Peter Kaminsky, ed., <i>Unmasking Ravel: New Perspectives on the Music</i> (University of Rochester Press, 2011) — analytical essays on form, harmony, literary models and the different kinds of artifice in the music.',
-    'The <a href="https://www.montfortlamaury.fr/culture-tourisme/sites-et-monuments/la-maison-musee-de-maurice-ravel/?lang=en">Musée Maurice Ravel at Le Belvédère</a> — the surviving house, piano and collections; a material source for the miniature mechanisms and constructed interiors discussed in the biographies.',
+    'Roger Nichols, <a href="https://yalebooks.yale.edu/book/9780300187762/ravel/"><i>Ravel</i></a> (Yale University Press, 2011): a documentary biography attentive to letters, performers and the gap between public reserve and private testimony.',
+    'Arbie Orenstein, ed., <i>A Ravel Reader: Correspondence, Articles, Interviews</i> (Columbia University Press, 1990): the essential English-language collection of primary documents, including the autobiographical sketch dictated to Roland-Manuel in 1928.',
+    'Deborah Mawer, ed., <i>The Cambridge Companion to Ravel</i> (Cambridge University Press, 2000): essays on the musical language, cultural setting and performance traditions; useful alongside scores.',
+    'Peter Kaminsky, ed., <i>Unmasking Ravel: New Perspectives on the Music</i> (University of Rochester Press, 2011): analytical essays on form, harmony, literary models and the different kinds of artifice in the music.',
+    'The <a href="https://www.montfortlamaury.fr/culture-tourisme/sites-et-monuments/la-maison-musee-de-maurice-ravel/?lang=en">Musée Maurice Ravel at Le Belvédère</a>: the surviving house, piano and collections; a material source for the miniature mechanisms and constructed interiors discussed in the biographies.',
   ],
 };

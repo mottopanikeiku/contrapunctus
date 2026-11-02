@@ -6,7 +6,7 @@ export default {
   composer: 'schumann',
   order: 110,
   work: 'Kinderszenen, Op. 15',
-  movement: 'No. 11 · Fürchtenmachen — Frightening',
+  movement: 'No. 11 · Fürchtenmachen (Frightening)',
   set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 11, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'E minor – G major',

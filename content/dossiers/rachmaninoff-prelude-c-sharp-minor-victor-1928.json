@@ -150,35 +150,35 @@
   "sources": [
     {
       "id": "source",
-      "title": "Internet Archive — recording item",
+      "title": "Internet Archive: recording item",
       "url": "https://archive.org/details/prelude-in-c-sharp-minor",
       "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "matrix",
-      "title": "DAHR — Victor BVE-25650",
+      "title": "DAHR: Victor BVE-25650",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/700010910/BVE-25650-Prelude_in_C_sharp_minor",
       "locator": "Issued take 23 recorded 4 April 1928 in New York.",
       "accessed": "2026-10-17"
     },
     {
       "id": "issue",
-      "title": "DAHR — Victor 1326",
+      "title": "DAHR: Victor 1326",
       "url": "https://adp.library.ucsb.edu/index.php/object/detail/86692/Victor_1326",
       "locator": "Catalogue couples the electrical Prelude with Spinning Song; MARC publication [1928].",
       "accessed": "2026-10-17"
     },
     {
       "id": "uk-issue",
-      "title": "DAHR — Gramophone DA-996",
+      "title": "DAHR: Gramophone DA-996",
       "url": "https://adp.library.ucsb.edu/index.php/objects/refer/79186",
       "locator": "British Gramophone issue of the same take; MARC publication [1928].",
       "accessed": "2026-10-17"
     },
     {
       "id": "term",
-      "title": "EU Directive 2011/77 — transitional term provisions",
+      "title": "EU Directive 2011/77: transitional term provisions",
       "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng",
       "locator": "Article 1(3), inserting Article 10(5): the extended term applies to phonograms still protected under the former rules as at 1 November 2013. An expired pre-1963 publication term is not revived.",
       "accessed": "2026-10-17"

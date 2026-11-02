@@ -65,7 +65,7 @@ export default {
     { year: '1958', title: 'Floresta do Amazonas', titleHtml: '<i>Floresta do Amazonas</i>', cat: 'W551', forces: 'Soprano, male chorus and orchestra', note: 'Drawn from his score for the MGM film <i>Green Mansions</i>. The United Artists recording with Bidú Sayão and the Symphony of the Air, conducted by the composer, is dated 1959; IMSLP records a partial first performance in Rio on 21 November 1969.' },
   ],
   score: [
-    { kicker: 'Yará (Anacleto de Medeiros) — bars 1–2', title: 'A schottische used by Villa-Lobos', abc: `X:1
+    { kicker: 'Yará (Anacleto de Medeiros): bars 1–2', title: 'A schottische used by Villa-Lobos', abc: `X:1
 T:Yara, bars 1-2, top line of the right hand
 C:Anacleto de Medeiros
 M:4/4
@@ -74,7 +74,7 @@ Q:1/4=100
 K:Am
 %%MIDI program 0
 e A A B c (d/c/) B A | (gf) d e f2 z2 |]`, caption: 'Anacleto de Medeiros, <i>Yará</i> (Schottisch), bars 1–2: the top line of the right hand, in A minor, from the piano edition by Eduardo Virgilio published by Musica Brasilis under CC BY-SA 4.0. The left hand is omitted. Villa-Lobos took a melody from this piece for Chôros No. 10 (Jorge Coli’s note to BIS-CD-1520).' },
-    { kicker: 'Tango brasileiro accompaniment — schematic', title: 'Dotted bass, off-beat chords', abc: `X:2
+    { kicker: 'Tango brasileiro accompaniment: schematic', title: 'Dotted bass, off-beat chords', abc: `X:2
 T:Tango brasileiro accompaniment (schematic)
 M:2/4
 L:1/16
@@ -88,7 +88,7 @@ z2 [CEG]2 z2 [CEG]2 | z2 [B,DG]2 z2 [B,DG]2 | z2 [CEG]2 z2 [CEG]2 | z2 [B,DG]2 z
 V:2
 %%MIDI program 0
 C,3 C, C,3 C, | G,,3 G,, G,,3 G,, | C,3 C, C,3 C, | G,,3 G,, G,,3 G,, |]`, caption: 'An invented schematic of the accompaniment pattern in bars 1–3 of Ernesto Nazareth’s <i>Odeon</i> (1909), a tango brasileiro in E major, repeated here over four bars. The bass moves in dotted quavers and semiquavers, and a quaver chord follows a rest on each beat. The pitches here are invented; the rhythm is read from the Musica Brasilis edition (CC BY-SA 4.0). Chôros No. 1 is dedicated to Nazareth.' },
-    { kicker: 'Guitar, continuous arpeggio — schematic', title: 'Right-hand pattern over changing chords', abc: `X:3
+    { kicker: 'Guitar, continuous arpeggio: schematic', title: 'Right-hand pattern over changing chords', abc: `X:3
 T:Continuous arpeggio (schematic)
 M:6/8
 L:1/8
@@ -106,9 +106,9 @@ K:Em
   ],
   lineage: { from: ['bach', 'Ernesto Nazareth', 'Anacleto de Medeiros', 'Arthur Rubinstein'], to: ['Andrés Segovia', 'Bidú Sayão'], note: '<p>[[bach]] is the model named in the <i>Bachianas Brasileiras</i>. An aunt played his preludes and fugues to the boy, and Villa-Lobos later transcribed them for cellos. Ernesto Nazareth, a composer of tangos brasileiros, received the dedication of Chôros No. 1, and the melody of Chôros No. 10 comes from a schottische by Anacleto de Medeiros. Arthur Rubinstein played his music on tours and was the dedicatee of <i>Rudepoema</i>. Andrés Segovia asked for one étude and received twelve, and gave the first performance of the Guitar Concerto. Bidú Sayão sang the Ária of No. 5 in New York in 1939 and recorded it with the composer.</p>' },
   reading: [
-    'David P. Appleby, <i>Heitor Villa-Lobos: A Life (1887–1959)</i> (Scarecrow Press, 2002) — a biography based on the composer’s papers and correspondence. The W numbers above are Appleby’s, as given in IMSLP’s list of works, which names his earlier <i>Bio-Bibliography</i> (Greenwood Press, 1988) as its main source.',
-    'Gerard Béhague, <i>Heitor Villa-Lobos: The Search for Brazil’s Musical Soul</i> (Institute of Latin American Studies, University of Texas at Austin, 1994) — chapters on his biography, musical language and eclecticism.',
-    'Simon Wright, <i>Villa-Lobos</i> (Oxford University Press, 1992) — a short study of the music in the Oxford Studies of Composers series.',
-    '<a href="https://doi.org/10.1017/S1478572223000129">Eduardo Sato, “Cannibalizing Bach: Villa-Lobos in Europe, 1936”, <i>Twentieth-Century Music</i> 21/2 (2024), 263–295</a> — an open-access article that reads the 1936 trip to Prague and Berlin as the start of the phase that culminated in the Bachianas.',
+    'David P. Appleby, <i>Heitor Villa-Lobos: A Life (1887–1959)</i> (Scarecrow Press, 2002): a biography based on the composer’s papers and correspondence. The W numbers above are Appleby’s, as given in IMSLP’s list of works, which names his earlier <i>Bio-Bibliography</i> (Greenwood Press, 1988) as its main source.',
+    'Gerard Béhague, <i>Heitor Villa-Lobos: The Search for Brazil’s Musical Soul</i> (Institute of Latin American Studies, University of Texas at Austin, 1994): chapters on his biography, musical language and eclecticism.',
+    'Simon Wright, <i>Villa-Lobos</i> (Oxford University Press, 1992): a short study of the music in the Oxford Studies of Composers series.',
+    '<a href="https://doi.org/10.1017/S1478572223000129">Eduardo Sato, “Cannibalizing Bach: Villa-Lobos in Europe, 1936”, <i>Twentieth-Century Music</i> 21/2 (2024), 263–295</a>: an open-access article that reads the 1936 trip to Prague and Berlin as the start of the phase that culminated in the Bachianas.',
   ],
 };

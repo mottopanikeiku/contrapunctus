@@ -54,7 +54,7 @@ export default {
   ],
   score: [
     { kicker: 'Carmen · Habanera', title: 'Four attacks over the same bass', abc: `X:1
-T:Habanera — opening bass
+T:Habanera: opening bass
 M:2/4
 L:1/16
 Q:1/4=72
@@ -62,7 +62,7 @@ K:Dm
 V:1 clef=bass
 %%MIDI program 0
 D,,2 z A,, D,2 A,,2 | D,,2 z A,, D,2 A,,2 |]`, caption: 'The first two bars of the piano-reduction bass, from Bizet’s own <i>Carmen</i> vocal score, Choudens, 1875, p. 49. Dynamics, slurs and staccato marks are omitted. D–A–D–A returns beneath the voice, with a semiquaver rest after the first D.' },
-    { kicker: 'Carmen · Toreador Song — schematic', title: 'Chord altered by one note', abc: `X:2
+    { kicker: 'Carmen · Toreador Song: schematic', title: 'Chord altered by one note', abc: `X:2
 T:F minor to F major (schematic)
 M:4/4
 L:1/4
@@ -81,8 +81,8 @@ V:1
   ],
   lineage: { from: ['Charles Gounod', 'Fromental Halévy', 'rossini', 'Gaetano Donizetti'], to: ['tchaikovsky', 'Ernest Guiraud', 'George Balanchine'], note: '<p>Bizet explicitly acknowledged Gounod as his model; Halévy was his teacher. <i>Don Procopio</i> descends from Italian buffa. Among the later connections, [[tchaikovsky|Tchaikovsky]] admired <i>Carmen</i>, Guiraud prepared recitatives and the second <i>L’Arlésienne</i> suite, and Balanchine took the youthful Symphony in C into the ballet theatre in 1947.</p>' },
   reading: [
-    'Hugh Macdonald, <i>Bizet</i> (Oxford University Press, 2014) — a life reconstructed through the work; his open-access <i>Bizet Catalogue</i> separates a finished score from a failed project or a posthumous adaptation.',
-    'Susan McClary, <i>Georges Bizet: Carmen</i> (Cambridge University Press, 1992) — the opera’s treatment of gender, class and its imagined Spain, with close attention to the music.',
-    'Mina Curtiss, <i>Bizet and His World</i> (Alfred A. Knopf, 1958) — the letters and the Parisian theatrical society around them; best read beside later scholarship on the surviving scores.',
+    'Hugh Macdonald, <i>Bizet</i> (Oxford University Press, 2014): a life reconstructed through the work; his open-access <i>Bizet Catalogue</i> separates a finished score from a failed project or a posthumous adaptation.',
+    'Susan McClary, <i>Georges Bizet: Carmen</i> (Cambridge University Press, 1992): the opera’s treatment of gender, class and its imagined Spain, with close attention to the music.',
+    'Mina Curtiss, <i>Bizet and His World</i> (Alfred A. Knopf, 1958): the letters and the Parisian theatrical society around them; best read beside later scholarship on the surviving scores.',
   ],
 };

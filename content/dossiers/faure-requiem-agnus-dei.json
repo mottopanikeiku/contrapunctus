@@ -125,7 +125,7 @@
       "note": "Gabriel Fauré died in 1924. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
     },
     "recording": {
-      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "value": "Rule 3, territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons",
@@ -134,13 +134,13 @@
       ],
       "note": "Commons applies PD-EU-audio to the Erato/Frémaux recording and supplies 10 August 1962. Whether that is a session or issue date remains unresolved; its year precedes 1963. Usable under the programme’s pre-1963 European sound-recording rule; the former 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US sound-recording status is not established. A recording date alone is not represented as an independently verified first-publication date."
     },
-    "creditLine": "Gabriel Fauré: Requiem, Op. 48, V. Agnus Dei — Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo, Louis Frémaux. Erato source, via Wikimedia Commons; Commons tags the recording PD-EU-audio, not worldwide public domain.",
+    "creditLine": "Gabriel Fauré: Requiem, Op. 48, V. Agnus Dei: Chorale Philippe Caillard; Orchestre national de l’Opéra de Monte-Carlo, Louis Frémaux. Erato source, via Wikimedia Commons; Commons tags the recording PD-EU-audio, not worldwide public domain.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Fauré - Requiem - V. Agnus Dei.flac",
+      "title": "Wikimedia Commons: File:Fauré - Requiem - V. Agnus Dei.flac",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=1177337502",
       "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
       "accessed": "2026-10-16"
@@ -154,42 +154,42 @@
     },
     {
       "id": "composer",
-      "title": "IRCAM — Gabriel Fauré: biography",
+      "title": "IRCAM: Gabriel Fauré: biography",
       "url": "https://brahms.ircam.fr/fr/composer/gabriel-faure/biography",
       "locator": "Composer’s life dates; used only for the explicitly scoped composition-rights inference.",
       "accessed": "2026-10-16"
     },
     {
       "id": "work",
-      "title": "Requiem (Fauré) — work and scoring reference",
+      "title": "Requiem (Fauré): work and scoring reference",
       "url": "https://en.wikipedia.org/wiki/Requiem_(Faur%C3%A9)",
       "locator": "Opening work identity, History and Structure and scoring: Op. 48, versions and the distinction between the choral Agnus Dei and movements with solo voices. Not evidence of the edition used at this session.",
       "accessed": "2026-10-16"
     },
     {
       "id": "eu-rights",
-      "title": "Wikimedia Commons — PD-EU-audio",
+      "title": "Wikimedia Commons: PD-EU-audio",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Licence-tag text and documentation: European Union performers’ and producers’ rights, not a worldwide rights clearance.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Fauré - Requiem - V. Agnus Dei.flac",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Fauré - Requiem - V. Agnus Dei.flac",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1177337502%7C1285956118%7C638011151%7C1264375355%7C1118001688%7C1003399466%7C1113441804%7C808915645%7C525137715%7C963510501&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Fauré - Requiem - V. Agnus Dei.flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-term",
-      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "title": "Directive 2011/77/EU: non-revival of expired phonogram terms",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Recitals 1–3; Article 1(3), inserting Article 10(5): extension applies to performances and phonograms still protected on 1 November 2013.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-audio",
-      "title": "Wikimedia Commons — recording-specific scope of PD-EU-audio",
+      "title": "Wikimedia Commons: recording-specific scope of PD-EU-audio",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Template and documentation concern performers’ and producers’ rights, not merely composition copyright; territorial European expiry.",
       "accessed": "2026-10-17"

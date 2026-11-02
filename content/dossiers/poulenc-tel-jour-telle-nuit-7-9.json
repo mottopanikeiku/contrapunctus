@@ -88,7 +88,7 @@
       "note": "Rights in the composition are stated separately from rights in the recording. The dates of death are those given in the cited note; the United States status of the music and the poems is not established here."
     },
     "recording": {
-      "value": "Rule 3 — territorial EU public domain: first published before 1963; listed as an import by March 1948.",
+      "value": "Rule 3, territorial EU public domain: first published before 1963; listed as an import by March 1948.",
       "status": "documented",
       "sourceIds": ["gss48"],
       "note": "The United States status of a recording made in France in the 1940s is not established."
@@ -99,7 +99,7 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — TEL JOUR TELLE NUIT No. 3 (Pierre Bernac & Francis Poulenc): metadata and file inventory",
+      "title": "Internet Archive: TEL JOUR TELLE NUIT No. 3 (Pierre Bernac & Francis Poulenc): metadata and file inventory",
       "url": "https://archive.org/metadata/78_tel-jour-telle-nuit-no-3_pierre-bernac-francis-poulenc-poulenc_gbia0553972a",
       "locator": "metadata.description (songs a–c, matrix 2EA11110-1, catalogue D.B.6384, stylus and equalisation note), collections georgeblood and 78rpm_goodfriend; file TEL JOUR TELLE NUIT No. 3 - PIERRE BERNAC & FRANCIS POULENC.mp3 (4:46). The companion items for the other sides give matrices 2EA11108-2 and 2EA11109-1 (D.B.6383) and 2EA11131 (Dans le jardin d’Anna)",
       "accessed": "2026-10-19"
@@ -113,14 +113,14 @@
     },
     {
       "id": "johnson",
-      "title": "Graham Johnson — note on Tel jour telle nuit, FP 86, Hyperion CDH55366",
+      "title": "Graham Johnson: note on Tel jour telle nuit, FP 86, Hyperion CDH55366",
       "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W4310_66147",
       "locator": "Composition at Noizay and Lyon, December 1936 to January 1937; the dedicatees; Éluard’s four proposed titles; Éluard’s dates 1895–1952 in the page header",
       "accessed": "2026-10-19"
     },
     {
       "id": "check",
-      "title": "John Check — “Poulenc’s voice”, review of Roger Nichols, Poulenc: A Biography, The New Criterion, 21 May 2020",
+      "title": "John Check: “Poulenc’s voice”, review of Roger Nichols, Poulenc: A Biography, The New Criterion, 21 May 2020",
       "url": "https://newcriterion.com/dispatch/poulencs-voice/",
       "locator": "Paragraph on “Nous avons fait la nuit”: the leap on “Je ris encore” and the piano postlude after “toujours nouveau”",
       "accessed": "2026-10-19"

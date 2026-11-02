@@ -3,7 +3,7 @@
   "work": {
     "title": "String Quartet in C major, Op. 54 No. 2",
     "catalogue": "Hob. III:57",
-    "movement": "III. Menuetto: Allegretto — Trio",
+    "movement": "III. Menuetto: Allegretto, Trio",
     "version": {
       "value": null,
       "status": "unknown",
@@ -129,13 +129,13 @@
       ],
       "note": "This is rule 1 of the programme’s rights rule, an explicit recording release. The Commons file page records the YouTube CC-BY status of the source video. The sources do not show who applied that setting; it is taken to be the channel owner who posted the concert film, and it covers the video as posted."
     },
-    "creditLine": "Joseph Haydn, String Quartet in C major, Op. 54 No. 2, III. Menuetto: Allegretto — Trio; The Danish String Quartet, live at the Tel Aviv Museum of Art, May 2015. Video credited to Gilad Shabani, concert series music director Ilan Rechtman. Via Wikimedia Commons from YouTube; Creative Commons Attribution 3.0.",
+    "creditLine": "Joseph Haydn, String Quartet in C major, Op. 54 No. 2, III. Menuetto: Allegretto, Trio; The Danish String Quartet, live at the Tel Aviv Museum of Art, May 2015. Video credited to Gilad Shabani, concert series music director Ilan Rechtman. Via Wikimedia Commons from YouTube; Creative Commons Attribution 3.0.",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — The Danish String Quartet - Haydn's String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - III. Minuet allegretto-Trio.ogg",
+      "title": "Wikimedia Commons: The Danish String Quartet - Haydn's String Quartet No. 42 in C major, Op. 54, No. 2, Hob.III-57 - III. Minuet allegretto-Trio.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:The_Danish_String_Quartet_-_Haydn's_String_Quartet_No._42_in_C_major,_Op._54,_No._2,_Hob.III-57_-_III._Minuet_allegretto-Trio.ogg",
       "locator": "File-description wikitext: Description, Date 2015-07-24, Source {{From YouTube}} dGgmFFMFICc, Author, and licence template {{YouTube CC-BY}}; Commons licence field CC BY 3.0; duration and MP3 transcode.",
       "accessed": "2026-10-17"
@@ -149,28 +149,28 @@
     },
     {
       "id": "dsq",
-      "title": "Wikipedia — Danish String Quartet",
+      "title": "Wikipedia: Danish String Quartet",
       "url": "https://en.wikipedia.org/wiki/Danish_String_Quartet",
       "locator": "History section: debut at the Copenhagen Summer Festival in 2002; named the Danish String Quartet in 2008 when cellist Fredrik Schøyen Sjölin joined.",
       "accessed": "2026-10-17"
     },
     {
       "id": "cc-by",
-      "title": "Creative Commons — Attribution 3.0 Unported deed",
+      "title": "Creative Commons: Attribution 3.0 Unported deed",
       "url": "https://creativecommons.org/licenses/by/3.0/",
       "locator": "Deed: share and adapt for any purpose, even commercially, with attribution.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "Wikipedia — Joseph Haydn",
+      "title": "Wikipedia: Joseph Haydn",
       "url": "https://en.wikipedia.org/wiki/Joseph_Haydn",
       "locator": "Lead paragraph: 31 March 1732 – 31 May 1809.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright term",
+      "title": "Directive 2006/116/EC: copyright term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
       "accessed": "2026-10-17"

@@ -4,7 +4,7 @@
   "name": "Dies irae",
   "summary": "The medieval Requiem sequence <i>Dies irae</i>, on the Day of Judgement, opens F–E–F–D. Berlioz parodied the chant in the finale of the <i>Symphonie fantastique</i> and Saint-Saëns in <i>Danse macabre</i>; Liszt wrote variations on it in <i>Totentanz</i>, and Rachmaninoff and Crumb quoted it.",
   "abcNote": "Opening eight notes checked against the Vatican Graduale Romanum (1908), p. 83*, through GregoBase. Pitches are preserved. Equal note lengths and the playback tempo are editorial aids; the chant itself has a free rhythm.",
-  "abc": "X:1\nT:Dies irae — chant incipit\nM:none\nL:1/4\nQ:1/4=90\nK:Ddor\nF E F D E C D D |]",
+  "abc": "X:1\nT:Dies irae: chant incipit\nM:none\nL:1/4\nQ:1/4=90\nK:Ddor\nF E F D E C D D |]",
   "source": {
    "title": "Graduale Romanum (Vatican, 1908), p. 83*; GregoBase no. 3441, opening phrase and GABC transcription",
    "url": "https://gregobase.selapa.net/chant.php?id=3441"
@@ -15,7 +15,7 @@
   "name": "B–A–C–H",
   "summary": "B♭–A–C–B♮ spells Bach in German note names. The unfinished fugue printed with <i>The Art of Fugue</i> introduces it as its third subject. Schumann, Liszt, Rimsky-Korsakov and Reger wrote fugues and variations on the four notes, and Webern and Pärt began a twelve-note row and a ten-note sequence with them.",
   "abcNote": "Checked against the third subject of the unfinished Art of Fugue, Bach-Gesellschaft engraving, p. 100. The cell is shown an octave higher with its rhythm normalised to equal crotchets; playback tempo is editorial.",
-  "abc": "X:1\nT:B–A–C–H — pitch cell, rhythm normalised\nM:4/4\nL:1/4\nQ:1/4=72\nK:C\n_B A c =B |]",
+  "abc": "X:1\nT:B–A–C–H: pitch cell, rhythm normalised\nM:4/4\nL:1/4\nQ:1/4=72\nK:C\n_B A c =B |]",
   "source": {
    "title": "Bach-Gesellschaft Ausgabe XXV/1, p. 100: unfinished fugue, third subject (score excerpt)",
    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/B.W.XXV.%281%29p100_-_third_subject_of_the_unfinished_fugue_of_Art_of_Fugue.jpg"
@@ -26,7 +26,7 @@
   "name": "The Tristan chord",
   "summary": "The Tristan chord, F–B–D♯–G♯, sounds in bar 2 of the prelude to Wagner’s <i>Tristan und Isolde</i> and does not resolve by the usual rules; Wagner scholars label the opening motive “Longing”. Debussy turned it into a syncopated arpeggio in <i>Golliwogg’s Cakewalk</i>, and Berg quoted the Tristan motif in the last movement of the <i>Lyric Suite</i>.",
   "abcNote": "Prelude, bar 2: F–B–D♯–G♯ in the original register, checked against the linked score image. The chord is isolated from its 6/8 phrase; its four-beat duration and playback tempo are editorial.",
-  "abc": "X:1\nT:Tristan — isolated sonority\nM:4/4\nL:1/4\nQ:1/4=60\nK:C\n[F,B,^D^G]4 |]",
+  "abc": "X:1\nT:Tristan: isolated sonority\nM:4/4\nL:1/4\nQ:1/4=60\nK:C\n[F,B,^D^G]4 |]",
   "source": {
    "title": "University of Texas at Austin, Tristan und Isolde motives: Prelude to Act I, bars 1–3, score image",
    "url": "https://www.laits.utexas.edu/tristan/motive1-3.php"
@@ -37,7 +37,7 @@
   "name": "The lament bass",
   "summary": "The bass descends through a fourth and then repeats. In Purcell’s <i>When I am laid in earth</i> it fills the descent from G to D with every semitone, and Dido sings her farewell over it. Monteverdi, Biber, Bach and Beethoven also built pieces on the descending ground.",
   "abcNote": "Purcell’s ground for ‘When I am laid in earth’, in G minor and 3/2, checked against the cited bass transcription and its embedded LilyPond source. The transcription retains the initial minim upbeat and final incomplete bar; playback tempo is editorial.",
-  "abc": "X:1\nT:Dido’s lament — ground bass\nM:3/2\nL:1/2\nQ:1/2=52\nK:Gm clef=bass\nG, | ^F,2 =F, | =E,2 _E, | D,2 B,, | C, D,2 | G,,2 |]",
+  "abc": "X:1\nT:Dido’s lament: ground bass\nM:3/2\nL:1/2\nQ:1/2=52\nK:Gm clef=bass\nG, | ^F,2 =F, | =E,2 _E, | D,2 B,, | C, D,2 | G,,2 |]",
   "source": {
    "title": "Purcell, Dido’s Lament: Analysis, engraved ground-bass example and embedded LilyPond source",
    "url": "https://en.wikipedia.org/wiki/Dido%27s_Lament#Analysis"
@@ -48,7 +48,7 @@
   "name": "La Folia",
   "summary": "<i>La Folia</i> is an old Iberian dance tune with a standard harmonic scheme. Vivaldi’s Trio Sonata RV 63 begins with the first violin stating the tune slowly in D minor; in the variations the violins play fast running figures. Corelli, Marais, Geminiani, C. P. E. Bach, Liszt and Rachmaninoff also used it.",
   "abcNote": "Vivaldi RV 63, opening eight bars, first violin in the original D minor, checked against the complete score edited by Louise Cawte. Playback tempo is editorial. Vivaldi’s setting belongs to the older Folia tradition.",
-  "abc": "X:1\nT:La Folia — Vivaldi RV 63, bars 1–8\nM:3/4\nL:1/8\nQ:1/4=60\nK:Dm\nd2 d3 d | ^c2 c3 c | d2 d3 d | e2 e3 e | f2 f3 f | e2 e3 e | d2 d3 d | ^c6 |]",
+  "abc": "X:1\nT:La Folia: Vivaldi RV 63, bars 1–8\nM:3/4\nL:1/8\nQ:1/4=60\nK:Dm\nd2 d3 d | ^c2 c3 c | d2 d3 d | e2 e3 e | f2 f3 f | e2 e3 e | d2 d3 d | ^c6 |]",
   "source": {
    "title": "Vivaldi, Trio Sonata RV 63, first page, first violin bars 1–8; Louise Cawte edition (IMSLP 280769)",
    "url": "https://vmirror.imslp.org/files/imglnks/usimg/1/1b/IMSLP280769-PMLP126430-follia_score.pdf"
@@ -59,7 +59,7 @@
   "name": "Ode to Joy",
   "summary": "Beethoven’s tune in the finale of the Ninth Symphony, first performed in Vienna on 7 May 1824, sets Schiller’s <i>An die Freude</i>. It begins on a repeated note and moves by step. The finale theme of Brahms’s First Symphony recalls it, the Council of Europe adopted the melody as its wordless anthem in 1972, and in Berlin in 1989 Bernstein conducted the finale with <i>Freiheit</i> sung in place of <i>Freude</i>.",
   "abcNote": "Four-bar soprano line from the cited public-domain hymn arrangement in G major, transposed from the symphony’s D major. The register follows the hymn version; playback tempo is editorial.",
-  "abc": "X:1\nT:Ode to Joy — hymn version in G major\nM:4/4\nL:1/4\nQ:1/4=100\nK:G\nB B c d | d c B A | G G A B | B3/2 A/2 A2 |]",
+  "abc": "X:1\nT:Ode to Joy: hymn version in G major\nM:4/4\nL:1/4\nQ:1/4=100\nK:G\nB B c d | d c B A | G G A B | B3/2 A/2 A2 |]",
   "source": {
    "title": "Mutopia Project, Ode to Joy, public-domain SATB arrangement, soprano bars 1–4; LilyPond source",
    "url": "https://www.mutopiaproject.org/ftp/BeethovenLv/ode/ode.ly"
@@ -70,7 +70,7 @@
   "name": "Frère Jacques",
   "summary": "In the third movement of Mahler’s First Symphony the round <i>Frère Jacques</i> (<i>Bruder Martin</i>) is played in D minor by a solo double bass over a timpani ostinato, and a canon is built from it. The bassoon and cellos join the round. The Beatles sang it in the backing vocals of <i>Paperback Writer</i> in 1966.",
   "abcNote": "Mahler 1, III, bars 3–6: solo double bass, with the additional F–E quaver turn, checked against the linked score. The transcription gives sounding pitch, one octave below the written notes, and omits timpani and subsequent canonic entries; playback tempo is editorial.",
-  "abc": "X:1\nT:Mahler 1, III — solo bass, sounding pitch\nM:4/4\nL:1/4\nQ:1/4=56\nK:Dm clef=bass\nD, E, F,/2 E,/2 D, | D, E, F,/2 E,/2 D, | F, G, A,2 | F, G, A,2 |]",
+  "abc": "X:1\nT:Mahler 1, III: solo bass, sounding pitch\nM:4/4\nL:1/4\nQ:1/4=56\nK:Dm clef=bass\nD, E, F,/2 E,/2 D, | D, E, F,/2 E,/2 D, | F, G, A,2 | F, G, A,2 |]",
   "source": {
    "title": "Mahler, Symphony No. 1, movement III, score extract, first page: solo double bass bars 3–6",
    "url": "https://www.mfiles.co.uk/scores/Mahler1-3ext.jpg"

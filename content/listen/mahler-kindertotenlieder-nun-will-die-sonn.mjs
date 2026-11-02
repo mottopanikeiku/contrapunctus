@@ -152,7 +152,7 @@ export default {
       "to": "A″ · Reprise, a lamp goes out",
       "at": { "t": 232 },
       "span": [222, 244],
-      "how": "<p>Marked <i>zurückkehrend</i> — returning — the flute’s running notes soften around the oboe’s opening phrase. Horns hold below; glockenspiel notes punctuate the retreat. The strings fall silent before the last couplet restores the D minor vocal melody.</p>",
+      "how": "<p>Marked <i>zurückkehrend</i> (returning), the flute’s running notes soften around the oboe’s opening phrase. Horns hold below; glockenspiel notes punctuate the retreat. The strings fall silent before the last couplet restores the D minor vocal melody.</p>",
       "devices": ["decrescendo", "retransition", "motivic link"],
       "basis": "score-proportion",
       "precision": "passage",

@@ -41,19 +41,19 @@
       "note": "The filename says November 1959, the description says November 1956, and embedded metadata labels 1954 as ‘Date and time of digitising’. That last tag is not established as either a session date or a genuine digitisation date. The 1928 date elsewhere on Commons concerns the composition.",
       "alternatives": [
         {
-          "value": "November 1959 — filename attribution.",
+          "value": "November 1959: filename attribution.",
           "sourceIds": [
             "commons"
           ]
         },
         {
-          "value": "November 1956 — description attribution.",
+          "value": "November 1956: description attribution.",
           "sourceIds": [
             "commons"
           ]
         },
         {
-          "value": "1954 — unexplained embedded ‘Date and time of digitising’ tag; not a verified session date.",
+          "value": "1954: unexplained embedded ‘Date and time of digitising’ tag; not a verified session date.",
           "sourceIds": [
             "commons-data"
           ]
@@ -98,7 +98,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Pablo Varela — audio restoration",
+      "value": "Pablo Varela: audio restoration",
       "status": "documented",
       "sourceIds": [
         "commons-data"
@@ -141,7 +141,7 @@
       "note": "The tag concerns a copyright term measured from the composer’s death. It is not a recording licence, nor a worldwide determination of composition rights."
     },
     "recording": {
-      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "value": "Rule 3, territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons",
@@ -157,49 +157,49 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Bolero-Maurice Ravel-Berlin Symphonic Orchestra-Ferenc Fricsay-November 1959.ogg",
+      "title": "Wikimedia Commons: Bolero-Maurice Ravel-Berlin Symphonic Orchestra-Ferenc Fricsay-November 1959.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-Berlin_Symphonic_Orchestra-Ferenc_Fricsay-November_1959.ogg?oldid=1091171287",
       "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured and embedded metadata",
+      "title": "Wikimedia Commons: structured and embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-Berlin_Symphonic_Orchestra-Ferenc_Fricsay-November_1959.ogg#structureddata",
       "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "upstream",
-      "title": "Affordance — Cher Maurice Ravel",
+      "title": "Affordance: Cher Maurice Ravel",
       "url": "http://affordance.typepad.com//mon_weblog/2016/05/cher-maurice-ravel.html",
       "locator": "Source link in the Commons wikitext. Attempts to retrieve the historic post were redirected to an unavailable domain-parking page; its assertions could not be checked independently.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Bolero-Maurice Ravel-Berlin Symphonic Orchestra-Ferenc Fricsay-November 1959.ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Bolero-Maurice Ravel-Berlin Symphonic Orchestra-Ferenc Fricsay-November 1959.ogg",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1091171287&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Bolero-Maurice Ravel-Berlin Symphonic Orchestra-Ferenc Fricsay-November 1959.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-term",
-      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "title": "Directive 2011/77/EU: non-revival of expired phonogram terms",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Recitals 1–3; Article 1(3), inserting Article 10(5): extension applies to performances and phonograms still protected on 1 November 2013.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-eu-audio",
-      "title": "Wikimedia Commons — recording-specific scope of PD-EU-audio",
+      "title": "Wikimedia Commons: recording-specific scope of PD-EU-audio",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Template and documentation concern performers’ and producers’ rights, not merely composition copyright; territorial European expiry.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-fricsay-carriers",
-      "title": "Recordsale — Fricsay/RIAS Boléro original commercial editions",
+      "title": "Recordsale: Fricsay/RIAS Boléro original commercial editions",
       "url": "https://recordsale.de/en/artists/maurice-ravel/albums/bolero-symphonie-classique-op-25",
       "locator": "Available releases: DGG 17 042, France 1955; LPE 17 042, Germany 1958; also 1963 reissue. Notes give a 1953 session; this carrier has not been audio-matched to the Commons transfer and does not resolve its conflicting dates.",
       "accessed": "2026-10-17"

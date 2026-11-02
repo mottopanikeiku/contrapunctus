@@ -133,20 +133,20 @@
       "note": "François Couperin died in 1733. This assessment concerns the original composition, not a later edition, arrangement or this recording; it is not a worldwide rights clearance."
     },
     "recording": {
-      "value": "Rule 1 — recording licence/release: CC BY-SA 3.0 Unported.",
+      "value": "Rule 1, recording licence/release: CC BY-SA 3.0 Unported.",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons"
       ],
       "note": "The performer/uploader’s self licence is cc-by-sa-3.0 and covers the New Comma Baroque recording made on 10 September 2012. Retain attribution and share-alike terms."
     },
-    "creditLine": "François Couperin: Les Nations, La Piémontaise · Sonade — New Comma Baroque: Matthew C. Cataldi, Leighann Daihl, Phillip W. Serna and Emily J. Morlan, 10 September 2012. Recording supplied by Phillipwserna, CC BY-SA 3.0, via Wikimedia Commons; MP3 access derivative.",
+    "creditLine": "François Couperin: Les Nations, La Piémontaise · Sonade (New Comma Baroque): Matthew C. Cataldi, Leighann Daihl, Phillip W. Serna and Emily J. Morlan, 10 September 2012. Recording supplied by Phillipwserna, CC BY-SA 3.0, via Wikimedia Commons; MP3 access derivative.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Francois Couperin (c.1631-1708-12) - Sonade from Quatrième Ordre La Piemontaise L'Astree from Les Nations Sonades et Suites de Simphonies en Trio (Paris, 1726).ogg",
+      "title": "Wikimedia Commons: File:Francois Couperin (c.1631-1708-12) - Sonade from Quatrième Ordre La Piemontaise L'Astree from Les Nations Sonades et Suites de Simphonies en Trio (Paris, 1726).ogg",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=1259997577",
       "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
       "accessed": "2026-10-16"
@@ -160,14 +160,14 @@
     },
     {
       "id": "score",
-      "title": "IMSLP — Les Nations",
+      "title": "IMSLP: Les Nations",
       "url": "https://imslp.org/wiki/Les_nations_(Couperin,_Fran%C3%A7ois)",
       "locator": "General Information: publication in 1726, fourth ordre and trio instrumentation. This source does not document the pitch used at the 2012 session.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Francois Couperin (c.1631-1708-12) - Sonade from Quatrième Ordre La Piemontaise L'Astree from Les Nations Sonades et Suites de Simphonies en Trio (Paris, 1726).ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Francois Couperin (c.1631-1708-12) - Sonade from Quatrième Ordre La Piemontaise L'Astree from Les Nations Sonades et Suites de Simphonies en Trio (Paris, 1726).ogg",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1259997577&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Francois Couperin (c.1631-1708-12) - Sonade from Quatrième Ordre La Piemontaise L'Astree from Les Nations Sonades et Suites de Simphonies en Trio (Paris, 1726).ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"

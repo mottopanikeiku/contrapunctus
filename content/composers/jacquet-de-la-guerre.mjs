@@ -52,7 +52,7 @@ export default {
     { year: '1721', title: 'Te Deum', cat: 'EJG.50', forces: 'Grand motet', note: 'Performed in the chapel of the Louvre in August 1721 in thanks for the recovery of Louis XV. Lost.' },
   ],
   score: [
-    { kicker: 'Chaconne l’Inconstante — quotation', title: 'The refrain, bars 1–4', abc: `X:1
+    { kicker: 'Chaconne l’Inconstante: quotation', title: 'The refrain, bars 1–4', abc: `X:1
 T:Chaconne l’Inconstante, refrain (bars 1–4)
 M:3/4
 L:1/4
@@ -66,7 +66,7 @@ V:1
 V:2
 %%MIDI program 6
 D, ^C, B,, | z E,, F,,- | F,, G,,/ A,,/ B,,/ G,,/ | A,,2 z & z A,,, D,, |]`, caption: 'Bars 1–4 of the refrain of the Chaconne l’Inconstante, from the D minor suite of the 1687 book, transcribed from the edition by Steve Wiberg (Due West Editions, 2007), which follows the first printing. The refrain has two sharps in its key signature, in D major; the first couplet cancels them. The left hand rests on the first beat of bar 2, the right hand divides into two voices in bars 3 and 4, and the left hand divides in bar 4. Ornament signs and the repeat mark are left out.' },
-    { kicker: 'Menuet — quotation', title: 'Opening phrase, bars 1–4', abc: `X:2
+    { kicker: 'Menuet: quotation', title: 'Opening phrase, bars 1–4', abc: `X:2
 T:Menuet, Suite in D minor (bars 1–4)
 M:3/4
 L:1/8
@@ -90,9 +90,9 @@ D4 ^C2 | D4 A,2 | _B,2 G,2 A,2 | F,4 E,2 |]`, caption: 'Bars 1–4 of the Menuet
   ],
   lineage: { from: ['Claude Jacquet', 'Jean-Baptiste Lully', 'Arcangelo Corelli'], to: ['Louis-Claude Daquin'], note: '<p>Her father Claude Jacquet taught her. Radio France’s biographical note places <i>Céphale et Procris</i> in the line of Lully, and the sonata she wrote for Brossard and for the king belongs to the genre that came to France from Italy. The same note lists her godson Louis-Claude Daquin among her pupils.</p>' },
   reading: [
-    'Catherine Cessac, <i>Élisabeth Jacquet de La Guerre, une femme compositeur sous le règne de Louis XIV</i> (Actes Sud, 1995) — the fullest biography, by the scholar who compiled the catalogue of her works.',
-    'Élisabeth-Claude Jacquet de La Guerre, <i>The Collected Works</i>, six volumes (The Broude Trust, 2005–13) — the modern edition of the harpsichord, instrumental, vocal and dramatic music, with a biographical essay by Mary Cyr.',
-    '<a href="https://philidor.cmbv.fr/Publications/Catalogues-d-auteur/Catalogue-de-l-aeuvre-d-Elisabeth-Jacquet-de-La-Guerre-1665-1729">Catherine Cessac, Catalogue de l’œuvre d’Élisabeth Jacquet de La Guerre</a> (Centre de musique baroque de Versailles, Philidor) — sources, dedications and contemporary reviews for each collection.',
-    'Évrard Titon du Tillet, <i>Le Parnasse françois</i> (Paris, 1732), entry CCXLIX — a long entry on her life and works, written three years after her death.',
+    'Catherine Cessac, <i>Élisabeth Jacquet de La Guerre, une femme compositeur sous le règne de Louis XIV</i> (Actes Sud, 1995): the fullest biography, by the scholar who compiled the catalogue of her works.',
+    'Élisabeth-Claude Jacquet de La Guerre, <i>The Collected Works</i>, six volumes (The Broude Trust, 2005–13): the modern edition of the harpsichord, instrumental, vocal and dramatic music, with a biographical essay by Mary Cyr.',
+    '<a href="https://philidor.cmbv.fr/Publications/Catalogues-d-auteur/Catalogue-de-l-aeuvre-d-Elisabeth-Jacquet-de-La-Guerre-1665-1729">Catherine Cessac, Catalogue de l’œuvre d’Élisabeth Jacquet de La Guerre</a> (Centre de musique baroque de Versailles, Philidor): sources, dedications and contemporary reviews for each collection.',
+    'Évrard Titon du Tillet, <i>Le Parnasse françois</i> (Paris, 1732), entry CCXLIX: a long entry on her life and works, written three years after her death.',
   ],
 };

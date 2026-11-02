@@ -74,7 +74,7 @@
   },
   "carrier": {
     "label": {
-      "value": "Musopen — digital Kickstarter project",
+      "value": "Musopen: digital Kickstarter project",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -148,7 +148,7 @@
       "note": "Commons separates the expired composition copyright from the recording dedication; Mozart died in 1791."
     },
     "recording": {
-      "value": "Rule 1 — explicit PD-author public-domain dedication of the recording by Musopen",
+      "value": "Rule 1: explicit PD-author public-domain dedication of the recording by Musopen",
       "status": "documented",
       "sourceIds": [
         "commons"

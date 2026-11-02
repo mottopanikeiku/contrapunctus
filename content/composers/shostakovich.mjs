@@ -101,7 +101,7 @@ V:2 name="Bassoon" clef=bass
     },
     {
       kicker: 'Passacaglia · schematic',
-      title: 'Bass phrase, two turns — schematic',
+      title: 'Bass phrase, two turns: schematic',
       abc: `X:3
 T:Ground bass - schematic
 M:3/4
@@ -138,7 +138,7 @@ D, F, A,, | B,, A,, D, | D, F, A,, | B,, A,, D, |]`,
     {
       relation: 'documented-use',
       type: 'poem',
-      author: 'Nikolai Gogol', title: 'The Nose — Kovalyov meets his nose', date: '1836',
+      author: 'Nikolai Gogol', title: 'The Nose: Kovalyov meets his nose', date: '1836',
       lang: 'Russian', translator: 'Our translation',
       original: `Вы ошибаетесь, милостивый государь. Я сам по себе.
 Притом между нами не может быть никаких тесных отношений.
@@ -167,10 +167,10 @@ I, however, serve in education.`,
   },
 
   reading: [
-    'Laurel E. Fay, <i>Shostakovich: A Life</i> (Oxford University Press, 1999) — a documentary biography that distinguishes contemporary evidence from subsequent interpretation.',
-    'Elizabeth Wilson, <i>Shostakovich: A Life Remembered</i>, revised edition (Faber, 2006) — testimony from performers, relatives and colleagues, with the differences between their recollections left visible.',
-    'Isaak Glikman, <i>Story of a Friendship: The Letters of Dmitry Shostakovich to Isaak Glikman, 1941–1975</i>, translated by Anthony Phillips (Cornell University Press, 2001) — essential for the Eighth Quartet’s autobiographical explanation.',
-    'Malcolm Hamrick Brown, ed., <i>A Shostakovich Casebook</i> (Indiana University Press, 2004) — documentary and critical examinations of the <i>Testimony</i> controversy, including Fay’s research.',
-    '<a href="https://shostakovich-en.ru/1en">DSCH Publishers: documentary chronology and work catalogue</a> — manuscripts, première information, letters and discographies; the <a href="https://shostakovich.ru/47ru">1936</a> and <a href="https://shostakovich.ru/59ru">1948</a> files reproduce evidence of the official attacks.',
+    'Laurel E. Fay, <i>Shostakovich: A Life</i> (Oxford University Press, 1999): a documentary biography that distinguishes contemporary evidence from subsequent interpretation.',
+    'Elizabeth Wilson, <i>Shostakovich: A Life Remembered</i>, revised edition (Faber, 2006): testimony from performers, relatives and colleagues, with the differences between their recollections left visible.',
+    'Isaak Glikman, <i>Story of a Friendship: The Letters of Dmitry Shostakovich to Isaak Glikman, 1941–1975</i>, translated by Anthony Phillips (Cornell University Press, 2001): essential for the Eighth Quartet’s autobiographical explanation.',
+    'Malcolm Hamrick Brown, ed., <i>A Shostakovich Casebook</i> (Indiana University Press, 2004): documentary and critical examinations of the <i>Testimony</i> controversy, including Fay’s research.',
+    '<a href="https://shostakovich-en.ru/1en">DSCH Publishers: documentary chronology and work catalogue</a>: manuscripts, première information, letters and discographies; the <a href="https://shostakovich.ru/47ru">1936</a> and <a href="https://shostakovich.ru/59ru">1948</a> files reproduce evidence of the official attacks.',
   ],
 };

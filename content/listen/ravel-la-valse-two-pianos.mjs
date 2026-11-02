@@ -81,7 +81,7 @@ export default {
     ensemble: ['piano'],
     basis: 'score-proportion',
     source: {
-      title: 'Ravel, La valse — composer’s two-piano transcription, Durand, 1920',
+      title: 'Ravel, La valse: composer’s two-piano transcription, Durand, 1920',
       url: 'https://s9.imslp.org/files/imglnks/usimg/c/ce/IMSLP06112-Ravel_-_La_Valse_(trans._Ravel_-_2_pianos).pdf',
       locator: 'Ravel’s two-piano version, plate D. & F. 9897, pp. 1–42. Both players share the piano row.',
     },

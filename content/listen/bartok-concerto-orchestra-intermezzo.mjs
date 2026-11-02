@@ -6,7 +6,7 @@ export default {
   composer: 'bartok',
   order: 5,
   work: 'Concerto for Orchestra, Sz. 116',
-  movement: 'IV. Intermezzo interrotto — Allegretto',
+  movement: 'IV. Intermezzo interrotto, Allegretto',
   set: { id: 'bartok-concerto-orchestra', title: 'Concerto for Orchestra', part: 4, of: 5 },
   year: '1943 (revised 1945)',
   key: '',

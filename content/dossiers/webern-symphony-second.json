@@ -88,7 +88,7 @@
       "note": "Rights in the composition are stated separately from rights in the recording."
     },
     "recording": {
-      "value": "Rule 3 — territorial EU public domain: first published before 1963; the LP was reviewed in June 1950.",
+      "value": "Rule 3, territorial EU public domain: first published before 1963; the LP was reviewed in June 1950.",
       "status": "documented",
       "sourceIds": ["argjune", "argfeb"],
       "note": "The United States status of a 1950 recording is not established. The Internet Archive item carries no licence label and belongs to the Archive’s “Unlocked Recordings” collection, whose description says works there may already be in the public domain; its metadata has no restriction flag and the MP3 downloads without a login."
@@ -99,7 +99,7 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Symphony Opus 21 (Webern; René Leibowitz, Pro Arte Quartet, Paris Chamber Orchestra): metadata and file inventory",
+      "title": "Internet Archive: Symphony Opus 21 (Webern; René Leibowitz, Pro Arte Quartet, Paris Chamber Orchestra): metadata and file inventory",
       "url": "https://archive.org/metadata/lp_symphony-opus-21_anton-webern-ren-leibowitz-pro-arte-quarte",
       "locator": "metadata.title, creator, date 1950, collections, notes (“scratchy disc”), tracklist; file disc1/01.02. Symphony Opus 21 II.mp3 (2:46)",
       "accessed": "2026-10-19"
@@ -120,14 +120,14 @@
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Symphony, Op.21 (Webern, Anton)",
+      "title": "IMSLP: Symphony, Op.21 (Webern, Anton)",
       "url": "https://imslp.org/wiki/Symphony,_Op.21_(Webern,_Anton)",
       "locator": "Score listings: Universal Edition, 1929 (U.E. 9752 and U.E. 12198); Muzgiz reprint",
       "accessed": "2026-10-19"
     },
     {
       "id": "omt",
-      "title": "Mark Gotham — Analysis Examples: Webern Op. 21 and 24, Open Music Theory",
+      "title": "Mark Gotham: Analysis Examples: Webern Op. 21 and 24, Open Music Theory",
       "url": "https://viva.pressbooks.pub/openmusictheory/chapter/twelve-tone-analysis-examples-webern-op-21-and-24/",
       "locator": "Movement 2: theme, seven variations and coda, with measure ranges and midpoints",
       "accessed": "2026-10-19"

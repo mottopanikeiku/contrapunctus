@@ -50,7 +50,7 @@ export default {
   orchestra: {
     ensemble: ['piccolo', 'flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'harp', 'celesta', 'piano', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Symphony No. 5 — Muzgiz M. 16313 Г, historical full score', url: score, locator: `Printed pp. 3–51; PDF pp. 5–53. Viewed historical score, hosted as public domain in Taiwan, not cleared for EU/US republication. Exact performing edition unknown. Selected passage snapshots, not a complete instrument-on/off transcription; approximate times use ${audio}.` },
+    source: { title: 'Symphony No. 5: Muzgiz M. 16313 Г, historical full score', url: score, locator: `Printed pp. 3–51; PDF pp. 5–53. Viewed historical score, hosted as public domain in Taiwan, not cleared for EU/US republication. Exact performing edition unknown. Selected passage snapshots, not a complete instrument-on/off transcription; approximate times use ${audio}.` },
     timeline: [
       { t: 0, playing: ['violins-1', 'violins-2', 'cellos', 'basses'], lead: ['cellos', 'violins-1'], note: 'Opening exchange across low and high strings; p. 3. A passage snapshot includes successive replies; the low and high strings do not play together on the first attack.' },
       { t: 200, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'basses', 'harp'], lead: ['violins-1'], note: 'Long violin line over patterned lower strings and harp, pp. 8–10/rehearsal 9 and following; proportional placement within the quieter B span, supported by the report’s sustained low levels after 3:15.' },

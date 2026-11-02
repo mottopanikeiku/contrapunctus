@@ -63,7 +63,7 @@ export default {
   ],
   score: [
     { kicker: 'Carnaval · the ASCH cipher', title: 'A town name as four pitch classes', abc: `X:1
-T:ASCH — pitches quoted, rhythm regularised
+T:ASCH: pitches quoted, rhythm regularised
 M:4/4
 L:1/4
 Q:1/4=72
@@ -72,7 +72,7 @@ V:1 name="Cipher"
 %%MIDI program 0
 "A"A2 "Es"_e2 | "C"c2 "H"B2 |]`, caption: 'A schematic using the pitch classes of the third <i>Sphinx</i> in <i>Carnaval</i>: A–E♭–C–B♮. Here they are written as regular minims; Schumann’s original has no measured rhythm. In German note names Es gives S, and H is B♮. <a href="https://en.wikisource.org/wiki/A_Dictionary_of_Music_and_Musicians/Carneval">The three Sphinxes</a>.' },
     { kicker: 'Dichterliebe · harmonic workshop', title: 'An unresolved dominant', abc: `X:2
-T:Cadence and withheld cadence — schematic
+T:Cadence and withheld cadence: schematic
 M:4/4
 L:1/4
 Q:1/4=60
@@ -114,8 +114,8 @@ my longing and desire.`, note: `<p>Heine’s poem is a confession, and the belov
   ],
   lineage: { from: ['bach', 'beethoven', 'schubert', 'Jean Paul', 'E. T. A. Hoffmann'], to: ['brahms', 'tchaikovsky', 'elgar', 'mahler'], note: `<p>Schumann’s music draws on Bach’s fugues, Beethoven’s returning themes and Jean Paul’s masked balls. He was a friend and advocate of the young [[brahms|Brahms]], and heard the promise of an orchestra in Brahms’s sonatas. [[tchaikovsky|Tchaikovsky]] took Schumann’s short pieces for children as a model for his own <i>Children’s Album</i>.</p>` },
   reading: [
-    'John Daverio, <i>Robert Schumann: Herald of a “New Poetic Age”</i> (Oxford, 1997) — literary culture and compositional technique considered together.',
-    'Charles Rosen, <i>The Romantic Generation</i> (Harvard, 1995) — particularly useful on fragment, memory and the relation between the played and imagined voice.',
-    '<a href="https://www.schumann-portal.de/">Schumann Portal</a> — documents, chronology and research on both Robert and Clara.',
+    'John Daverio, <i>Robert Schumann: Herald of a “New Poetic Age”</i> (Oxford, 1997): literary culture and compositional technique considered together.',
+    'Charles Rosen, <i>The Romantic Generation</i> (Harvard, 1995): particularly useful on fragment, memory and the relation between the played and imagined voice.',
+    '<a href="https://www.schumann-portal.de/">Schumann Portal</a>: documents, chronology and research on both Robert and Clara.',
   ],
 };

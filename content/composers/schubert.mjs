@@ -67,7 +67,7 @@ export default {
 
   score: [
     {
-      kicker: 'Erlkönig, D. 328 — accompaniment schematic',
+      kicker: 'Erlkönig, D. 328: accompaniment schematic',
       title: 'Triplets on every beat',
       abc: `X:1
 T:Repeated-octave triplets - schematic
@@ -86,7 +86,7 @@ G,,8 | G,,8 |]`,
       caption: 'A schematic of the <i>Erlkönig</i> accompaniment. The repeated G octaves divide each beat into three strokes, and the held bass isolates that pulse. In the song, the left hand moves and the harmony changes beneath the four characters, who are all sung by one voice.',
     },
     {
-      kicker: 'Der Leiermann, D. 911 No. 24 — harmonic schematic',
+      kicker: 'Der Leiermann, D. 911 No. 24: harmonic schematic',
       title: 'Hurdy-gurdy open fifth',
       abc: `X:2
 T:Open-fifth drone - schematic
@@ -100,7 +100,7 @@ V:1 name="Piano" clef=bass
       caption: 'A schematic of the A–E drone in the published A minor version of <i>Der Leiermann</i>. The fifth has no third, so on its own it is neither major nor minor. This example leaves out the turning piano figure and the singer, and repeats the drone once a bar.',
     },
     {
-      kicker: 'Harmony — a third-relation schematic',
+      kicker: 'Harmony: a third-relation schematic',
       title: 'C major to A♭ major by a common note',
       abc: `X:3
 T:Third-related keys - schematic
@@ -135,7 +135,7 @@ V:1 name="Piano"
     {
       relation: 'documented-use',
       type: 'poem',
-      author: 'Wilhelm Müller', title: 'Der Leiermann — first and last stanzas', date: 'Published 1823; collected 1824; set by Schubert 1827',
+      author: 'Wilhelm Müller', title: 'Der Leiermann: first and last stanzas', date: 'Published 1823; collected 1824; set by Schubert 1827',
       lang: 'German', translator: 'Our translation',
       original: `Drüben hinter’m Dorfe
 Steht ein Leiermann,
@@ -173,10 +173,10 @@ to the songs I sing?`,
   },
 
   reading: [
-    'Christopher H. Gibbs, <i>The Life of Schubert</i> (Cambridge University Press, 2000) — a concise account that separates the documented composer from the comfortable domestic legend.',
-    'Brian Newbould, <i>Schubert: The Music and the Man</i> (Gollancz, 1997) — biography integrated with detailed discussion of the instrumental works, including unfinished projects and disputed chronology.',
-    'Susan Youens, <i>Schubert’s Poets and the Making of Lieder</i> (Cambridge University Press, 1996) — restores the writers and their individual circumstances to songs too often discussed as autobiographical statements by the composer.',
-    '<a href="https://schubert-online.at/">Schubert Online</a>, Austrian Academy of Sciences and partner collections — digitised manuscripts, letters and early prints; a primary-source companion to the biographies.',
-    '<a href="https://data.onb.ac.at/nlv_lex/perslex/Sch/Schubert_Franz.html">Austrian National Library: Franz Schubert</a> — a compact German chronology drawn from the Austrian Biographical Dictionary, with links to archival holdings.',
+    'Christopher H. Gibbs, <i>The Life of Schubert</i> (Cambridge University Press, 2000): a concise account that separates the documented composer from the comfortable domestic legend.',
+    'Brian Newbould, <i>Schubert: The Music and the Man</i> (Gollancz, 1997): biography integrated with detailed discussion of the instrumental works, including unfinished projects and disputed chronology.',
+    'Susan Youens, <i>Schubert’s Poets and the Making of Lieder</i> (Cambridge University Press, 1996): restores the writers and their individual circumstances to songs too often discussed as autobiographical statements by the composer.',
+    '<a href="https://schubert-online.at/">Schubert Online</a>, Austrian Academy of Sciences and partner collections: digitised manuscripts, letters and early prints; a primary-source companion to the biographies.',
+    '<a href="https://data.onb.ac.at/nlv_lex/perslex/Sch/Schubert_Franz.html">Austrian National Library: Franz Schubert</a>: a compact German chronology drawn from the Austrian Biographical Dictionary, with links to archival holdings.',
   ],
 };

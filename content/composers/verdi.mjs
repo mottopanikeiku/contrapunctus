@@ -101,7 +101,7 @@ z z F | !>!d3 | d .F .d | .d .F .d |]`,
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'William Shakespeare', title: 'Macbeth, Act V, scene 5 — “Tomorrow”', date: 'c. 1606; first published 1623', lang: 'English',
+      type: 'poem', author: 'William Shakespeare', title: 'Macbeth, Act V, scene 5: “Tomorrow”', date: 'c. 1606; first published 1623', lang: 'English',
       original: `Tomorrow, and tomorrow, and tomorrow,
 Creeps in this petty pace from day to day,
 To the last syllable of recorded time;
@@ -126,9 +126,9 @@ Signifying nothing.`,
     note: `<p>[[puccini|Puccini]] inherited theatres and audiences that knew Verdi’s operas by heart. [[britten|Britten]]’s <i>War Requiem</i> draws on Verdi’s handling of the Mass for the Dead. Boito, himself a composer, supplied the words, cuts and theatrical inventions for Verdi’s last two operas.</p>`,
   },
   reading: [
-    'Julian Budden, <i>The Operas of Verdi</i>, 3 vols (Oxford, 1973–81) — the detailed account of sources, versions, vocal writing and dramatic construction.',
-    'Roger Parker, <i>Leonora’s Last Act: Essays in Verdian Discourse</i> (Princeton, 1997) — close readings that resist inherited legends about the operas.',
-    'Philip Gossett, <i>Divas and Scholars</i> (Chicago, 2006) — how editions, cuts, transpositions and performing decisions alter Italian opera.',
-    'Pinacoteca di Brera, <a href="https://pinacotecabrera.org/en/collezioni/collezione-on-line/portrait-of-alessandro-manzoni/">Hayez’s Manzoni</a> — the portrait’s collection history and context.',
+    'Julian Budden, <i>The Operas of Verdi</i>, 3 vols (Oxford, 1973–81): the detailed account of sources, versions, vocal writing and dramatic construction.',
+    'Roger Parker, <i>Leonora’s Last Act: Essays in Verdian Discourse</i> (Princeton, 1997): close readings that resist inherited legends about the operas.',
+    'Philip Gossett, <i>Divas and Scholars</i> (Chicago, 2006): how editions, cuts, transpositions and performing decisions alter Italian opera.',
+    'Pinacoteca di Brera, <a href="https://pinacotecabrera.org/en/collezioni/collezione-on-line/portrait-of-alessandro-manzoni/">Hayez’s Manzoni</a>: the portrait’s collection history and context.',
   ],
 };

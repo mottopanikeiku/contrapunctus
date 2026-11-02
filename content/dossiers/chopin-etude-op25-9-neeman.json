@@ -47,7 +47,7 @@
   },
   "carrier": {
     "label": {
-      "value": "Musopen — Set Chopin Free",
+      "value": "Musopen: Set Chopin Free",
       "status": "documented",
       "sourceIds": [
         "source"
@@ -129,14 +129,14 @@
   "sources": [
     {
       "id": "source",
-      "title": "Wikimedia Commons — recording file",
+      "title": "Wikimedia Commons: recording file",
       "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._9_in_G-Flat_major_%27Butterfly_Wings%27_(Edward_Neeman).flac",
       "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "term",
-      "title": "Wikimedia Commons — PD-author dedication",
+      "title": "Wikimedia Commons: PD-author dedication",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-author",
       "locator": "The template records release by the author into the public domain, with an unrestricted permission fallback where dedication is not legally possible. The recording file explicitly names Musopen as the dedicator.",
       "accessed": "2026-10-17"

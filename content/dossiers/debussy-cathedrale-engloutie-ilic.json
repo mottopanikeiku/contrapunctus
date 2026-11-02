@@ -116,34 +116,34 @@
       "note": "The historical composition is separate from the 2006 recording licence."
     },
     "recording": {
-      "value": "CC BY 3.0 — recording released by Ivan Ilić",
+      "value": "CC BY 3.0: recording released by Ivan Ilić",
       "status": "documented",
       "sourceIds": [
         "commons"
       ],
       "note": "The pianist is the stated author and uploader. Commons records reviewed permission ticket 2019081610007057; this is an explicit recording licence, not a composition-only tag."
     },
-    "creditLine": "Préludes, Book I; Ivan Ilić, piano. April 2006. Wikimedia Commons; CC BY 3.0 — recording released by Ivan Ilić. No audio editing by Contrapunctus.",
+    "creditLine": "Préludes, Book I; Ivan Ilić, piano. April 2006. Wikimedia Commons; CC BY 3.0: recording released by Ivan Ilić. No audio editing by Contrapunctus.",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — La Cathédrale engloutie - Claude Debussy - performed by Ivan Ilic.ogg",
+      "title": "Wikimedia Commons: La Cathédrale engloutie - Claude Debussy - performed by Ivan Ilic.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:La_Cath%C3%A9drale_engloutie_-_Claude_Debussy_-_performed_by_Ivan_Ilic.ogg",
       "locator": "Summary, source, licensing, file history and transcode table.",
       "accessed": "2026-10-17"
     },
     {
       "id": "work-catalogue",
-      "title": "IMSLP — Préludes, Livre 1, CD 125",
+      "title": "IMSLP: Préludes, Livre 1, CD 125",
       "url": "https://imslp.org/wiki/Pr%C3%A9ludes%2C_Livre_1%2C_CD_125_%28Debussy%2C_Claude%29",
       "locator": "General Information: CD 125 / L.117; movement 10; first publication Durand, 1910.",
       "accessed": "2026-10-17"
     },
     {
       "id": "work",
-      "title": "La cathédrale engloutie — written form and publication",
+      "title": "La cathédrale engloutie: written form and publication",
       "url": "https://en.wikipedia.org/wiki/La_cath%C3%A9drale_engloutie",
       "locator": "Published 1910; opening fifths, chordal statement and lower echo.",
       "accessed": "2026-10-17"

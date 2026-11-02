@@ -36,7 +36,7 @@ export default {
   orchestra: {
     ensemble: ['flutes', 'solo-violin', 'harpsichord'],
     basis: 'score-proportion',
-    source: { title: 'Bach, Brandenburg Concerto No. 5, BWV 1050 — Bach-Gesellschaft full score (1871)', url: 'https://s9.imslp.org/files/imglnks/usimg/e/ed/IMSLP02043-BWV1050.pdf', locator: 'II. Affettuoso, printed pp. 149–151: flute, solo violin and harpsichord alone. The dotted refrain passes through B minor, F♯ minor and G major before returning home.' },
+    source: { title: 'Bach, Brandenburg Concerto No. 5, BWV 1050: Bach-Gesellschaft full score (1871)', url: 'https://s9.imslp.org/files/imglnks/usimg/e/ed/IMSLP02043-BWV1050.pdf', locator: 'II. Affettuoso, printed pp. 149–151: flute, solo violin and harpsichord alone. The dotted refrain passes through B minor, F♯ minor and G major before returning home.' },
     timeline: [
       { t: 0, playing: ['flutes', 'solo-violin', 'harpsichord'], lead: ['solo-violin', 'flutes'], note: 'Violin and flute exchange a dotted phrase over the harpsichord’s bass. The keyboard answers between their statements.' },
       { t: 140, playing: ['flutes', 'solo-violin', 'harpsichord'], lead: ['flutes', 'harpsichord'], note: 'The flute begins the refrain in F♯ minor. The harpsichord answers with its written-out upper part.' },

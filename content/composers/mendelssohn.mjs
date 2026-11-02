@@ -55,7 +55,7 @@ export default {
   ],
   score: [
     { kicker: 'The Hebrides · opening bar', title: 'Falling figure in the low register', abc: `X:1
-T:The Hebrides — opening bar, repeated
+T:The Hebrides: opening bar, repeated
 M:C
 L:1/16
 Q:1/4=108
@@ -83,8 +83,8 @@ No more yielding but a dream,`, note: `<p>Puck asks the audience to treat the ev
   ],
   lineage: { from: ['bach', 'handel', 'mozart', 'beethoven', 'fanny-hensel'], to: ['schumann', 'brahms', 'Arthur Sullivan'], note: `<p>[[fanny-hensel|Fanny]] was his first close musical critic; [[schumann|Schumann]] became a colleague at the conservatoire and an advocate of his chamber music. His fast scherzos and his piano pieces in a singing style served later composers as models of the short piece. Arthur Sullivan received the first Mendelssohn Scholarship in 1856, which helped take him to Leipzig.</p>` },
   reading: [
-    'R. Larry Todd, <i>Mendelssohn: A Life in Music</i> (Oxford, 2003) — the standard modern account, attentive to revision and the family’s musical culture.',
-    'R. Larry Todd, <i>Mendelssohn: The Hebrides and Other Overtures</i> (Cambridge, 1993) — how the concert overtures are constructed.',
-    '<a href="https://artandmusic.yale.edu/romantic-landscapes/mendelssohn-scotland/mendelssohn-gallery2-letter-his-family">Yale: Mendelssohn’s letter to his family, August 1829</a> — documentary evidence for the Hebrides sketch before the visit to Staffa.',
+    'R. Larry Todd, <i>Mendelssohn: A Life in Music</i> (Oxford, 2003): the standard modern account, attentive to revision and the family’s musical culture.',
+    'R. Larry Todd, <i>Mendelssohn: The Hebrides and Other Overtures</i> (Cambridge, 1993): how the concert overtures are constructed.',
+    '<a href="https://artandmusic.yale.edu/romantic-landscapes/mendelssohn-scotland/mendelssohn-gallery2-letter-his-family">Yale: Mendelssohn’s letter to his family, August 1829</a>: documentary evidence for the Hebrides sketch before the visit to Staffa.',
   ],
 };

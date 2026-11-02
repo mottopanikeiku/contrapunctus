@@ -89,7 +89,7 @@ export default {
       "t": 570,
       "kind": "music",
       "title": "Horn theme and Woodbird figures",
-      "text": "The horn plays Siegfried’s tune in C major. Clarinet and flute follow with quick Woodbird figures from <i>Siegfried</i>, marked lustig — merrily.",
+      "text": "The horn plays Siegfried’s tune in C major. Clarinet and flute follow with quick Woodbird figures from <i>Siegfried</i>, marked lustig (merrily).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Schott full score, pp. 28–29: Lebhaft in C major, horn melody followed by clarinet and flute figures marked lustig. The operatic themes are identified in Gerald Larner’s programme note."
@@ -179,7 +179,7 @@ export default {
     ],
     "basis": "score-proportion",
     "source": {
-      "title": "Siegfried-Idyll — Schott full score, 1878, plate 22430",
+      "title": "Siegfried-Idyll: Schott full score, 1878, plate 22430",
       "url": "https://hdl.handle.net/1802/20380",
       "locator": "Printed pp. 1, 4, 8, 12, 24, 28, 31–32, 36, 45–46. Approximate score regions; the 1925 session’s exact staffing is not documented."
     },

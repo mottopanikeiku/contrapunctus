@@ -3,7 +3,7 @@ export default {
   composer: 'richard-strauss',
   order: 3,
   work: 'Four Last Songs',
-  movement: 'IV. Im Abendrot — Andante',
+  movement: 'IV. Im Abendrot, Andante',
   year: '1948',
   key: 'E♭ major',
   forces: 'Soprano and orchestra',

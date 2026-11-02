@@ -86,7 +86,7 @@ V:2
     { relation: 'shared-context',
       type: 'painting', frame: 'gilt', file: 'File:Hanuš Schwaiger - Water Gnome - Google Art Project.jpg', artist: 'Hanuš Schwaiger', title: 'Water Gnome (Vodník)', date: '1886', medium: 'Painting', collection: 'National Gallery Prague', note: `<p>Schwaiger’s creature comes from the same Czech folklore as Erben’s ballad and Dvořák’s symphonic poem, which was composed ten years after this painting. The goblin appeared repeatedly in Schwaiger’s work. In 1903 he illustrated a book of water-goblin tales written by his wife, Josefína.</p>` },
     { relation: 'documented-use',
-      type: 'poem', author: 'Karel Jaromír Erben', title: 'Vodník (The Water Goblin) — opening', date: '1853', lang: 'Czech', translator: 'Our translation', original: `Na topole nad jezerem
+      type: 'poem', author: 'Karel Jaromír Erben', title: 'Vodník (The Water Goblin): opening', date: '1853', lang: 'Czech', translator: 'Our translation', original: `Na topole nad jezerem
 seděl Vodník podvečerem:
 „Sviť, měsíčku, sviť,
 ať mi šije niť.
@@ -104,7 +104,7 @@ for dry ground and for water:
 shine, little moon, shine,
 so my thread can sew.”`, note: `<p>The goblin is sewing boots for his wedding tomorrow. By the end of Erben’s ballad he has torn the head from his own child and thrown it onto the mother’s doorstep. Dvořák made the rhythm of this sewing refrain into the goblin’s recurring orchestral phrase, which returns when he comes for revenge. <a href="https://czech.mml.ox.ac.uk/karel-jaromir-erben-kytice-1853-1861">Erben’s text</a>.</p>` },
     { relation: 'documented-use',
-      type: 'poem', author: 'Henry Wadsworth Longfellow', title: 'The Song of Hiawatha — the wedding dance', date: '1855', lang: 'English', original: `To the sound of flutes and singing,
+      type: 'poem', author: 'Henry Wadsworth Longfellow', title: 'The Song of Hiawatha: the wedding dance', date: '1855', lang: 'English', original: `To the sound of flutes and singing,
 To the sound of drums and voices,
 Rose the handsome Pau-Puk-Keewis,
 And began his mystic dances.
@@ -120,8 +120,8 @@ Through the shadows and the sunshine,`, note: `<p>Pau-Puk-Keewis begins slowly, 
   ],
   lineage: { from: ['beethoven', 'schubert', 'brahms', 'smetana', 'Czech and Moravian dance traditions'], to: ['Josef Suk', 'Vítězslav Novák', 'Harry T. Burleigh', 'William Grant Still'], note: `<p>[[brahms|Brahms]] found him a publisher and later corrected the proofs of <i>Dumky</i> while he was in America. Suk and Novák studied with him in Prague; Suk married his daughter Otilie. Burleigh sang spirituals to Dvořák, who encouraged him to preserve them in his own work. William Grant Still belongs to the later American history, in which Black musical traditions became the material of a symphony.</p>` },
   reading: [
-    'John Clapham, <i>Antonín Dvořák: Musician and Craftsman</i> (Faber, 1966) — a work-centred study that takes the construction as seriously as the melodies.',
-    'Michael Beckerman, <i>New Worlds of Dvořák: Searching in America for the Composer’s Inner Life</i> (Norton, 2003) — detailed arguments about the American works and their literary contexts.',
-    '<a href="https://www.antonin-dvorak.cz/en/work/symphony-no-9/">Antonín Dvořák: authoritative work catalogue</a> — dates, instrumentation, documentary excerpts and a careful account of the Ninth’s sources.',
+    'John Clapham, <i>Antonín Dvořák: Musician and Craftsman</i> (Faber, 1966): a work-centred study that takes the construction as seriously as the melodies.',
+    'Michael Beckerman, <i>New Worlds of Dvořák: Searching in America for the Composer’s Inner Life</i> (Norton, 2003): detailed arguments about the American works and their literary contexts.',
+    '<a href="https://www.antonin-dvorak.cz/en/work/symphony-no-9/">Antonín Dvořák: authoritative work catalogue</a>: dates, instrumentation, documentary excerpts and a careful account of the Ninth’s sources.',
   ],
 };

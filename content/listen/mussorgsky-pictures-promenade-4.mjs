@@ -6,7 +6,7 @@ export default {
   composer: 'mussorgsky',
   order: 2,
   work: 'Pictures at an Exhibition',
-  movement: 'Promenade — Tranquillo',
+  movement: 'Promenade, Tranquillo',
   set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 8, of: 15, unit: 'pieces' },
   year: '1874',
   key: '',

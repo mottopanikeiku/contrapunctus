@@ -65,7 +65,7 @@ export default {
     { year: '1988', title: 'Arias and Barcarolles', forces: 'Two singers and piano duet', note: 'First performed at the Equitable Center Auditorium, New York, on 9 May 1988.' },
   ],
   score: [
-    { kicker: 'Tritone — invented schematic', title: 'C to F♯', abc: `X:1
+    { kicker: 'Tritone: invented schematic', title: 'C to F♯', abc: `X:1
 T:A tritone (schematic)
 M:4/4
 L:1/4
@@ -74,7 +74,7 @@ K:C
 V:1 name="Piano"
 %%MIDI program 0
 C ^F G2 | ^F C2 z | C2 ^F2 | G4 |]`, caption: 'An invented four-bar schematic. C to F♯ spans three whole tones, the interval Jack Gottlieb called prominent throughout West Side Story; here it rises, falls and rises again, and the upper note then moves up a semitone to G. The notes are not taken from Bernstein’s score.' },
-    { kicker: 'Metre — invented schematic', title: '6/8 and 3/4 in alternate bars', abc: `X:2
+    { kicker: 'Metre: invented schematic', title: '6/8 and 3/4 in alternate bars', abc: `X:2
 T:6/8 and 3/4 in alternate bars (schematic)
 M:6/8
 L:1/8
@@ -83,7 +83,7 @@ K:C
 V:1 name="Accents"
 %%MIDI program 0
 !>!c cc !>!c cc | [M:3/4] !>!c2 !>!c2 !>!c2 | [M:6/8] !>!c cc !>!c cc | [M:3/4] !>!c2 !>!c2 !>!c2 |]`, caption: 'Bars alternate between 6/8, two groups of three quavers, and 3/4, three groups of two, with the quaver pulse constant. The Boston Symphony’s programme note writes the pattern of “America” as DA-da-da DA-da-da | DA DA DA. The pitches are invented, and the example does not quote any Bernstein melody.' },
-    { kicker: 'Minor seventh — invented schematic', title: 'B♭ up to A♭', abc: `X:3
+    { kicker: 'Minor seventh: invented schematic', title: 'B♭ up to A♭', abc: `X:3
 T:A rising minor seventh (schematic)
 M:4/4
 L:1/4
@@ -103,10 +103,10 @@ B2 _a2 | B2 _a2 | B4 |]`, caption: 'An invented schematic of the interval that t
   ],
   lineage: { from: ['copland', 'Serge Koussevitzky', 'Dimitri Mitropoulos', 'Fritz Reiner', 'Helen Coates', 'Marc Blitzstein'], to: ['Seiji Ozawa', 'John Mauceri', 'Stephen Sondheim'], note: '<p>Helen Coates taught him piano from 1932, and Fritz Reiner taught him conducting at Curtis. Koussevitzky took him into his Tanglewood class and later employed him as assistant. Copland gave advice on his compositions, though no formal lessons took place. Bernstein directed a student production of Blitzstein’s <i>The Cradle Will Rock</i> at Harvard, after which Blitzstein became a friend. Seiji Ozawa studied at Tanglewood and was his assistant at the Philharmonic, and John Mauceri restored music for the 1982 New York City Opera <i>Candide</i> under Bernstein’s supervision. Jack Gottlieb wrote that the innovations of the <i>West Side Story</i> team became material for Sondheim’s later work.</p>' },
   reading: [
-    'Humphrey Burton, <i>Leonard Bernstein</i> (Faber and Faber, new edition 2017) — a biography by the director of several of Bernstein’s concert films.',
-    'Nigel Simeone, ed., <i>The Leonard Bernstein Letters</i> (Yale University Press, 2013) — annotated correspondence, with the letters to Felicia and to his friends.',
-    'Carol J. Oja, <i>Bernstein Meets Broadway: Collaborative Art in a Time of War</i> (Oxford University Press, 2014) — the making of <i>Fancy Free</i> and <i>On the Town</i>.',
-    'Leonard Bernstein, <i>Findings</i> (1982) — essays, letters and speeches, including the remarks of 25 November 1963.',
-    'Jack Gottlieb, guide and commentary on <i>West Side Story</i> (2001), on the Leonard Bernstein Office website — the show’s sources, casting and use of the tritone.',
+    'Humphrey Burton, <i>Leonard Bernstein</i> (Faber and Faber, new edition 2017): a biography by the director of several of Bernstein’s concert films.',
+    'Nigel Simeone, ed., <i>The Leonard Bernstein Letters</i> (Yale University Press, 2013): annotated correspondence, with the letters to Felicia and to his friends.',
+    'Carol J. Oja, <i>Bernstein Meets Broadway: Collaborative Art in a Time of War</i> (Oxford University Press, 2014): the making of <i>Fancy Free</i> and <i>On the Town</i>.',
+    'Leonard Bernstein, <i>Findings</i> (1982): essays, letters and speeches, including the remarks of 25 November 1963.',
+    'Jack Gottlieb, guide and commentary on <i>West Side Story</i> (2001), on the Leonard Bernstein Office website: the show’s sources, casting and use of the tritone.',
   ],
 };

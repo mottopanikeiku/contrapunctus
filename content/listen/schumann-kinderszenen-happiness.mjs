@@ -7,7 +7,7 @@ export default {
   composer: 'schumann',
   order: 50,
   work: 'Kinderszenen, Op. 15',
-  movement: 'No. 5 · Glückes genug — Happy Enough',
+  movement: 'No. 5 · Glückes genug (Happy Enough)',
   set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 5, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'D major',

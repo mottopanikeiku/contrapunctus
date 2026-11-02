@@ -11,7 +11,7 @@ export default {
   composer: 'prokofiev',
   order: 2,
   work: 'Piano Sonata No. 2, Op. 14',
-  movement: 'Complete · Allegro ma non troppo — Scherzo — Andante — Vivace',
+  movement: 'Complete · Allegro ma non troppo, Scherzo, Andante, Vivace',
   year: '1912',
   key: 'D minor',
   forces: 'Piano',

@@ -12,17 +12,17 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/3D3dLscRKfP5b9zIr0FED9",
-          "title": "Tabula Rasa — ECM Records on Spotify"
+          "title": "Tabula Rasa: ECM Records on Spotify"
         },
         {
           "kind": "label",
           "url": "https://ecmrecords.com/product/arvo-part-tabula-rasa-gidon-kremer-keith-jarrett-tatjana-grindenko-alfred-schnittke-the-12-cellists-of-the-berlin-philharmonic-orchestra-staatsorchester-stuttgart-dennis-russell-davies-lithuan/",
-          "title": "Tabula Rasa — ECM Records catalogue"
+          "title": "Tabula Rasa: ECM Records catalogue"
         }
       ]
     },
     {
-      "work": "Spiegel im Spiegel — violin and piano",
+      "work": "Spiegel im Spiegel: violin and piano",
       "year": "1978",
       "performers": "Vladimir Spivakov (violin); Sergej Bezrodny (piano)",
       "recorded": "July 1995",
@@ -32,12 +32,12 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/1wkqPUdNQ1LOUzxthKmr9M",
-          "title": "Alina — ECM Records on Spotify"
+          "title": "Alina: ECM Records on Spotify"
         },
         {
           "kind": "label",
           "url": "https://ecmrecords.com/product/arvo-part-alina-vladimir-spivakov-sergej-bezrodny-dietmar-schwalke-alexander-malter/",
-          "title": "Alina — ECM Records catalogue"
+          "title": "Alina: ECM Records catalogue"
         }
       ]
     },
@@ -52,47 +52,47 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/1Js1IlOar8nBZxmArvjUFM",
-          "title": "Passio — ECM Records on Spotify"
+          "title": "Passio: ECM Records on Spotify"
         },
         {
           "kind": "label",
           "url": "https://ecmrecords.com/product/arvo-part-passio-the-hilliard-ensemble/",
-          "title": "Passio — ECM Records catalogue"
+          "title": "Passio: ECM Records catalogue"
         }
       ]
     }
   ],
   "sources": [
     {
-      "title": "ECM Records — Tabula Rasa: performers, original issue and critical reception",
+      "title": "ECM Records: Tabula Rasa: performers, original issue and critical reception",
       "url": "https://ecmrecords.com/product/arvo-part-tabula-rasa-gidon-kremer-keith-jarrett-tatjana-grindenko-alfred-schnittke-the-12-cellists-of-the-berlin-philharmonic-orchestra-staatsorchester-stuttgart-dennis-russell-davies-lithuan/"
     },
     {
-      "title": "Arvo Pärt Centre — Tabula rasa: composition, première and the two movements",
+      "title": "Arvo Pärt Centre: Tabula rasa: composition, première and the two movements",
       "url": "https://www.arvopart.ee/en/arvo-part/work/537/"
     },
     {
-      "title": "Jazz Discography Project — ECM 1275: the November 1977 Bonn live recording of Tabula rasa",
+      "title": "Jazz Discography Project: ECM 1275: the November 1977 Bonn live recording of Tabula rasa",
       "url": "https://www.jazzdisco.org/ecm-records/catalog-1200-series/"
     },
     {
-      "title": "ECM Records — Alina: July 1995 sessions, performers and Pärt’s participation",
+      "title": "ECM Records: Alina: July 1995 sessions, performers and Pärt’s participation",
       "url": "https://ecmrecords.com/product/arvo-part-alina-vladimir-spivakov-sergej-bezrodny-dietmar-schwalke-alexander-malter/"
     },
     {
-      "title": "Arvo Pärt Centre — Spiegel im Spiegel: original violin version, dedication and musical construction",
+      "title": "Arvo Pärt Centre: Spiegel im Spiegel: original violin version, dedication and musical construction",
       "url": "https://www.arvopart.ee/en/arvo-part/work/544/"
     },
     {
-      "title": "ECM Records — Passio: performers, recording venue and March 1988 session",
+      "title": "ECM Records: Passio: performers, recording venue and March 1988 session",
       "url": "https://ecmrecords.com/product/arvo-part-passio-the-hilliard-ensemble/"
     },
     {
-      "title": "Arvo Pärt Centre — Passio: Latin text, vocal roles, instrumentation and the Hilliard recording",
+      "title": "Arvo Pärt Centre: Passio: Latin text, vocal roles, instrumentation and the Hilliard recording",
       "url": "https://www.arvopart.ee/en/arvo-part/work/530/"
     },
     {
-      "title": "ECM Records — New Series 40: reception of the Tabula Rasa and Passio recordings",
+      "title": "ECM Records: New Series 40: reception of the Tabula Rasa and Passio recordings",
       "url": "https://ecmrecords.com/ecm-new-series-40/"
     }
   ]

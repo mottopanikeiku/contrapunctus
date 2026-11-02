@@ -181,10 +181,10 @@ V:2 name="Field"
   },
 
   reading: [
-    'David Cooper, <i>Béla Bartók</i> (Yale, 2015) — a biography connecting performance, family, research and composition.',
-    'László Somfai, <i>Béla Bartók: Composition, Concepts, and Autograph Sources</i> (University of California Press, 1996) — manuscript evidence against overly uniform theories of his method.',
-    'Vera Lampert, <i>Folk Music in Bartók’s Compositions: A Source Catalog</i> (Helikon, 2008), supplemented by the <a href="https://bartok-nepzene.zti.hu/en/">Bartók Archives database</a> — identifies borrowed melodies and preserves the distinction between source and arrangement.',
-    'Béla Bartók, <i>Essays</i>, edited by Benjamin Suchoff (Faber, 1976) — includes the Harvard lectures and writings on collecting, notation and the uses of peasant music.',
-    'Budapest Bartók Archives, <a href="https://www.zti.hu/en/ba/bela-bartok">biography</a>, <a href="https://zti.hu/en/ba/bartok-compositions/chronology">chronological catalogue</a> and <a href="https://www.zti.hu/bartok/exhibition/en_P7.htm">the 1931 letter to Octavian Beu</a> — institutional documentation for the dates, sources and distinction between national identity and musical borrowing.',
+    'David Cooper, <i>Béla Bartók</i> (Yale, 2015): a biography connecting performance, family, research and composition.',
+    'László Somfai, <i>Béla Bartók: Composition, Concepts, and Autograph Sources</i> (University of California Press, 1996): manuscript evidence against overly uniform theories of his method.',
+    'Vera Lampert, <i>Folk Music in Bartók’s Compositions: A Source Catalog</i> (Helikon, 2008), supplemented by the <a href="https://bartok-nepzene.zti.hu/en/">Bartók Archives database</a>: identifies borrowed melodies and preserves the distinction between source and arrangement.',
+    'Béla Bartók, <i>Essays</i>, edited by Benjamin Suchoff (Faber, 1976): includes the Harvard lectures and writings on collecting, notation and the uses of peasant music.',
+    'Budapest Bartók Archives, <a href="https://www.zti.hu/en/ba/bela-bartok">biography</a>, <a href="https://zti.hu/en/ba/bartok-compositions/chronology">chronological catalogue</a> and <a href="https://www.zti.hu/bartok/exhibition/en_P7.htm">the 1931 letter to Octavian Beu</a>: institutional documentation for the dates, sources and distinction between national identity and musical borrowing.',
   ],
 };

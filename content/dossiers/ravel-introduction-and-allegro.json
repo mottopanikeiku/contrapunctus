@@ -157,35 +157,35 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — US Marine Band Introduction and Allegro (Ravel).opus",
+      "title": "Wikimedia Commons: US Marine Band Introduction and Allegro (Ravel).opus",
       "url": "https://commons.wikimedia.org/wiki/File:US_Marine_Band_Introduction_and_Allegro_%28Ravel%29.opus",
       "locator": "File description: identification, performers, date, source and licence; audio duration and transcoded MP3. Raw wikitext and the audio-info endpoint were inspected.",
       "accessed": "2026-10-17"
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Introduction and Allegro",
+      "title": "IMSLP: Introduction and Allegro",
       "url": "https://imslp.org/wiki/Introduction_et_allegro_(Ravel%2C_Maurice)",
       "locator": "Work information and original scoring; first publication 1906.",
       "accessed": "2026-10-17"
     },
     {
       "id": "us-term",
-      "title": "U.S. Copyright Office — Duration of Copyright, Circular 15A",
+      "title": "U.S. Copyright Office: Duration of Copyright, Circular 15A",
       "url": "https://www.copyright.gov/circs/circ15a.pdf",
       "locator": "Pages 2–3: maximum 95-year term for pre-1978 publications and restored foreign works; this is a jurisdiction-specific term calculation.",
       "accessed": "2026-10-17"
     },
     {
       "id": "video",
-      "title": "U.S. Marine Band — source concert video",
+      "title": "U.S. Marine Band: source concert video",
       "url": "https://commons.wikimedia.org/wiki/File:RAVEL_Introduction_and_Allegro_for_Harp,_Flute,_Clarinet_and_String_Quartet_-_U.S._Marine_Band.webm",
       "locator": "Description identifies all seven players, 27 March 2022, John Philip Sousa Band Hall; source is official YouTube video ATWLm_UxC34.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score",
-      "title": "Ravel — Introduction et Allegro, original septet score",
+      "title": "Ravel: Introduction et Allegro, original septet score",
       "url": "https://commons.wikimedia.org/wiki/File:IMSLP06186-Ravel_-_Introduction_et_Allegro,_score.pdf",
       "locator": "Durand, 1906; the original seven-part full score, not the two-piano arrangement. Score thumbnails inspected, including printed pp. 3, 8, 11, 19, 25–29 and 39.",
       "accessed": "2026-10-17"

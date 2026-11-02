@@ -143,14 +143,14 @@
   "sources": [
     {
       "id": "source",
-      "title": "Internet Archive — recording item",
+      "title": "Internet Archive: recording item",
       "url": "https://archive.org/details/hmv-db860-chopin-nocturne-no8-op27no2-etudes-op25no3-waltz-no7-op64no2",
       "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "discography",
-      "title": "Alan Kelly — Gramophone Bb/Cc matrix series",
+      "title": "Alan Kelly: Gramophone Bb/Cc matrix series",
       "url": "https://gramophonecompanydiscography.com/PDF/File%20D%20-%20BB.pdf",
       "locator": "Cc6260-1: Étude Op25/3 followed by Waltz Op64/2, 26 June 1925; DB 860.",
       "accessed": "2026-10-17"
@@ -164,7 +164,7 @@
     },
     {
       "id": "term",
-      "title": "US Copyright Office — pre 1972 sound recordings",
+      "title": "US Copyright Office: pre 1972 sound recordings",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
       "locator": "Recordings first published before 1923 and the annual expiration schedule for 1923–1946 publications; as of 2026 the cutoff is 1925.",
       "accessed": "2026-10-17"

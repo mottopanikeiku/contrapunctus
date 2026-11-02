@@ -119,7 +119,7 @@
       "note": "Bach died in 1750. This does not clear a separately protected modern performing edition."
     },
     "recording": {
-      "value": "Rule 1 — explicit public-domain recording release by Musopen (Commons PD-author).",
+      "value": "Rule 1, explicit public-domain recording release by Musopen (Commons PD-author).",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -133,42 +133,42 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Goldberg Variations, Opening Aria",
+      "title": "Wikimedia Commons: Goldberg Variations, Opening Aria",
       "url": "https://commons.wikimedia.org/w/index.php?title=File:Bach%2C_J_S_-_Goldberg_Variations%2C_BWV988_-_01._Aria_(Shelley_Katz).flac&action=raw",
       "locator": "File description, performer attribution, original source, sound-recording licensing and transcode information.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "Bach-Archiv Leipzig — Johann Sebastian Bach: a chronology",
+      "title": "Bach-Archiv Leipzig: Johann Sebastian Bach: a chronology",
       "url": "https://www.bach-leipzig.de/en/neutral/johann-sebastian-bach-%E2%94%80-chronology",
       "locator": "Composer’s life dates and the cited career chronology.",
       "accessed": "2026-10-17"
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Musopen Collection as FLAC",
+      "title": "Internet Archive: Musopen Collection as FLAC",
       "url": "https://archive.org/metadata/MusopenCollectionAsFlac/metadata",
       "locator": "Description explicitly states the purchase and public-domain release of recordings and lists Goldberg Variations; completion in 2012, not a documented Katz session date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score",
-      "title": "Mutopia 979 — Goldberg Variations, Aria",
+      "title": "Mutopia 979: Goldberg Variations, Aria",
       "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV988/bwv-988-aria/bwv-988-aria.ly",
       "locator": "JD Erickson engraving from Bach-Gesellschaft, CC BY-SA 3.0; two repeated sixteen-bar halves, independent bass and ornamented upper line.",
       "accessed": "2026-10-17"
     },
     {
       "id": "work",
-      "title": "Netherlands Bach Society — BWV 988",
+      "title": "Netherlands Bach Society: BWV 988",
       "url": "https://www.bachvereniging.nl/en/bwv/bwv-988",
       "locator": "Publication in 1741, bass foundation of the thirty variations and caution about the Goldberg commission legend.",
       "accessed": "2026-10-17"
     },
     {
       "id": "publication",
-      "title": "Goldberg Variations — publication and surviving sources",
+      "title": "Goldberg Variations: publication and surviving sources",
       "url": "https://en.wikipedia.org/wiki/Goldberg_Variations",
       "locator": "Original title-page specification, Nuremberg publisher Balthasar Schmid, Forkel’s 1802 account, and distinction between the 1725 notebook and Anna Magdalena’s later Aria entry.",
       "accessed": "2026-10-17"

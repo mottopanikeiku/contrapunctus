@@ -10,7 +10,7 @@
       "kind": "born",
       "what": "Born in Paris to Adolphe Bizet and Aimée Delsarte. The marker shows the city, not the family home.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet: Brief Biography", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet: Brief Biography", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
     },
     {
       "name": "Paris Conservatoire",
@@ -22,7 +22,7 @@
       "kind": "studied",
       "what": "Enrolled before his tenth birthday; studied piano with Marmontel, organ with Benoist and composition with Fromental Halévy. Marker at the historic Conservatoire site.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet: Brief Biography, Conservatoire years", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }, { "title": "Palazzetto Bru Zane — Georges Bizet à Paris, the Conservatoire", "url": "https://www.bruzanemediabase.com/exploration/expositions/georges-bizet-paris" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet: Brief Biography, Conservatoire years", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }, { "title": "Palazzetto Bru Zane: Georges Bizet à Paris, the Conservatoire", "url": "https://www.bruzanemediabase.com/exploration/expositions/georges-bizet-paris" }]
     },
     {
       "name": "Bouffes-Parisiens, Paris",
@@ -34,7 +34,7 @@
       "work": "Le Docteur Miracle",
       "what": "First performance of his prize-winning one-act opera; Bizet’s setting alternated with Charles Lecocq’s setting of the same libretto.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet Catalogue: Le Docteur Miracle, performances", "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Docteur_Miracle.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet Catalogue: Le Docteur Miracle, performances", "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Docteur_Miracle.html" }]
     },
     {
       "name": "Villa Medici, Rome",
@@ -47,7 +47,7 @@
       "what": "Prix de Rome pensioner at the French Academy; composed Don Procopio and sent it home in place of the expected mass.",
       "work": "Don Procopio",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet: Brief Biography, the Roman sojourn", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet: Brief Biography, the Roman sojourn", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
     },
     {
       "name": "Anzio",
@@ -58,7 +58,7 @@
       "kind": "travelled",
       "what": "An excursion in the second year of his Rome residency; city-level marker.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet: Brief Biography, Italian journeys", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet: Brief Biography, Italian journeys", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
     },
     {
       "name": "Naples",
@@ -69,7 +69,7 @@
       "kind": "travelled",
       "what": "Visited southern Italy during his second year at the Villa Medici; city-level marker, without an asserted lodging address.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet: Brief Biography, Italian journeys", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet: Brief Biography, Italian journeys", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
     },
     {
       "name": "Pompeii",
@@ -80,7 +80,7 @@
       "kind": "travelled",
       "what": "Visited Pompeii during the journey that also took him to Naples. The marker is placed at the archaeological site and does not show a route within it.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet: Brief Biography, Italian journeys", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet: Brief Biography, Italian journeys", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
     },
     {
       "name": "Venice",
@@ -91,7 +91,7 @@
       "kind": "travelled",
       "what": "Visited with Ernest Guiraud on his return journey to France; city-level marker.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet: Brief Biography, departure from Italy", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet: Brief Biography, departure from Italy", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
     },
     {
       "name": "Le Vésinet",
@@ -103,7 +103,7 @@
       "kind": "lived",
       "what": "Spent summers in a cottage built by his father in the mid-1860s and returned during the Commune in 1871. These were intermittent stays. The marker shows the town and does not identify a particular cottage.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet: Brief Biography, 1864–66 and 1871", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet: Brief Biography, 1864–66 and 1871", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
     },
     {
       "name": "Bordeaux",
@@ -114,7 +114,7 @@
       "kind": "travelled",
       "what": "After the armistice he visited his mother-in-law with Geneviève before returning to Paris. City-level marker.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet: Brief Biography, the war and armistice", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet: Brief Biography, the war and armistice", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
     },
     {
       "name": "Compiègne",
@@ -125,7 +125,7 @@
       "kind": "lived",
       "what": "One of his places of refuge outside Paris during the Commune; he also stayed at Le Vésinet. City-level marker.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet: Brief Biography, the Commune", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet: Brief Biography, the Commune", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
     },
     {
       "name": "Bougival",
@@ -137,7 +137,7 @@
       "work": "Carmen",
       "what": "Worked on the orchestration of Carmen beside the Seine. This marker identifies Bougival, not an exact room or manuscript location.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet Catalogue: Carmen, letters of May and August 1874", "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Carmen.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet Catalogue: Carmen, letters of May and August 1874", "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Carmen.html" }]
     },
     {
       "name": "Opéra-Comique, Salle Favart, Paris",
@@ -149,7 +149,7 @@
       "work": "Carmen",
       "what": "First performance, with Célestine Galli-Marié as Carmen and Paul Lhérie as José. The second Salle Favart stood on this site; the present theatre is later.",
       "status": "documented",
-      "sources": [{ "title": "Palazzetto Bru Zane — Carmen: première at Salle Favart II", "url": "https://www.bruzanemediabase.com/exploration/oeuvres/carmen-meilhac-l-halevy-bizet" }, { "title": "Hugh Macdonald — Bizet Catalogue: Carmen, first performance", "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Carmen.html" }]
+      "sources": [{ "title": "Palazzetto Bru Zane: Carmen: première at Salle Favart II", "url": "https://www.bruzanemediabase.com/exploration/oeuvres/carmen-meilhac-l-halevy-bizet" }, { "title": "Hugh Macdonald: Bizet Catalogue: Carmen, first performance", "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Carmen.html" }]
     },
     {
       "name": "Bougival",
@@ -160,7 +160,7 @@
       "kind": "died",
       "what": "Died aged thirty-six, during Carmen’s first Paris run. City-level marker.",
       "status": "documented",
-      "sources": [{ "title": "Hugh Macdonald — Bizet: Brief Biography", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
+      "sources": [{ "title": "Hugh Macdonald: Bizet: Brief Biography", "url": "https://hdwlabs.artsci.wustl.edu/bizet/ref/biography.html" }]
     }
   ]
 }

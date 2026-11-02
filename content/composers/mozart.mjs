@@ -107,7 +107,7 @@ V:2
     { relation: 'documented-use',
       type: 'painting', frame: 'mat', file: 'File:Design for The Magic Flute- The Hall of Stars in the Palace of the Queen of the Night, Act 1, Scene 6 MET DT214829.jpg', artist: 'Karl Friedrich Thiele, after Karl Friedrich Schinkel', title: 'The Hall of Stars in the Palace of the Queen of the Night', date: '1847–49, after the design for the 1816 production', medium: 'Hand-coloured aquatint', collection: 'Metropolitan Museum of Art, New York', note: '<p>The Queen stands on a crescent moon beneath rows of stars that curve into a dome. Schinkel made this setting for the Berlin <i>Magic Flute</i> of 1816; Thiele’s later print records it. The singer is a small figure inside the painted sky. <a href="https://www.metmuseum.org/art/collection/search/359883">Museum catalogue.</a></p>' },
     { relation: 'documented-use',
-      type: 'poem', author: 'Johann Wolfgang von Goethe', title: 'Das Veilchen — opening', date: '1774; published 1775', lang: 'German', translator: 'Our translation', original: `Ein Veilchen auf der Wiese stand,
+      type: 'poem', author: 'Johann Wolfgang von Goethe', title: 'Das Veilchen: opening', date: '1774; published 1775', lang: 'German', translator: 'Our translation', original: `Ein Veilchen auf der Wiese stand,
 Gebückt in sich und unbekannt,
 Es war ein herzigs Veilchen.
 Da kam eine junge Schäferin
@@ -121,7 +121,7 @@ with light step and cheerful mind,
 this way, this way,
 across the meadow, singing:`, note: '<p>In Goethe’s poem a violet wishes to be picked by a passing girl, who treads on it instead. Mozart set the poem on 8 June 1785 and added words of his own at the end: <i>Das arme Veilchen!</i> After a pause he repeats the words that called it a dear little flower. <a href="https://kv.mozarteum.at/de/work/das-veilchen-5584">Köchel catalogue record.</a></p>' },
     { relation: 'documented-use',
-      type: 'poem', author: 'Lorenzo Da Ponte', title: 'Le nozze di Figaro — forgiveness in the final scene', date: '1786', lang: 'Italian', translator: 'Our translation', original: `IL CONTE: Contessa, perdono!
+      type: 'poem', author: 'Lorenzo Da Ponte', title: 'Le nozze di Figaro: forgiveness in the final scene', date: '1786', lang: 'Italian', translator: 'Our translation', original: `IL CONTE: Contessa, perdono!
 LA CONTESSA: Più docile io sono,
 e dico di sì.
 TUTTI: Ah tutti contenti
@@ -139,9 +139,9 @@ be content.`, note: '<p>Shortly before, the Count answered every plea for forgiv
   ],
   lineage: { from: ['Johann Christian Bach', 'Leopold Mozart', 'haydn', 'Italian opera'], to: ['beethoven', 'schubert', 'chopin', 'richard-strauss'], note: '<p>The dedication to Haydn went with music that the older composer had heard in Mozart’s rooms. Beethoven played the D minor Concerto and wrote cadenzas for its first movement and finale. His cadenzas return repeatedly to the rhythms Mozart had given the orchestra.</p>' },
   reading: [
-    'Maynard Solomon, <i>Mozart: A Life</i> (HarperCollins, 1995) — an interpretative biography; distinguish its psychological arguments from the documents it quotes.',
-    'Julian Rushton, <i>Mozart</i> (Oxford, 2006) — compact coverage of the music and its circumstances.',
-    'Charles Rosen, <i>The Classical Style</i> (1971; expanded edition, Norton, 1997) — harmonic rhythm, phrase and dramatic form examined together.',
-    '<a href="https://dme.mozarteum.at/">Digital Mozart Edition</a> — scores, letters and librettos; <a href="https://kv.mozarteum.at/">the digital Köchel catalogue</a> gives work identities and revised chronology.',
+    'Maynard Solomon, <i>Mozart: A Life</i> (HarperCollins, 1995): an interpretative biography; distinguish its psychological arguments from the documents it quotes.',
+    'Julian Rushton, <i>Mozart</i> (Oxford, 2006): compact coverage of the music and its circumstances.',
+    'Charles Rosen, <i>The Classical Style</i> (1971; expanded edition, Norton, 1997): harmonic rhythm, phrase and dramatic form examined together.',
+    '<a href="https://dme.mozarteum.at/">Digital Mozart Edition</a>: scores, letters and librettos; <a href="https://kv.mozarteum.at/">the digital Köchel catalogue</a> gives work identities and revised chronology.',
   ],
 };

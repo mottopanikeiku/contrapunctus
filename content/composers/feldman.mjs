@@ -116,9 +116,9 @@ V:2
     note: `<p>[[webern|Webern]] brought Feldman and [[cage|Cage]] together at Carnegie Hall; Wolpe had already introduced him to Varèse. Howard Skempton’s 1977 interview records a younger composer learning directly from Feldman’s talk about sounds and instruments. Bryn Harrison drew on ‘Crippled Symmetry’ when devising his own rhythmic grids. Jürg Frey studied Feldman’s scores in the 1980s and took encouragement from their plain decisions about how a piece could go on.</p>`,
   },
   reading: [
-    'Morton Feldman, <i>Give My Regards to Eighth Street: Collected Writings</i>, edited by B. H. Friedman (Exact Change, 2000) — essays on painters, notation, listening and rugs, including “Crippled Symmetry”.',
-    'David Cline, <i>The Graph Music of Morton Feldman</i> (Cambridge, 2016) — a technical study of what the early graphic scores specify and leave open.',
-    '<a href="https://ressources.ircam.fr/en/composer/morton-feldman/biography">IRCAM, Morton Feldman biography</a> — chronology, teachers, institutional posts and changes of notation.',
-    '<a href="https://www.universaledition.com/en/Works/Coptic-Light/P0010724">Universal Edition, <i>Coptic Light</i></a> — Feldman’s own explanation of the textiles and orchestral-pedal idea.',
+    'Morton Feldman, <i>Give My Regards to Eighth Street: Collected Writings</i>, edited by B. H. Friedman (Exact Change, 2000): essays on painters, notation, listening and rugs, including “Crippled Symmetry”.',
+    'David Cline, <i>The Graph Music of Morton Feldman</i> (Cambridge, 2016): a technical study of what the early graphic scores specify and leave open.',
+    '<a href="https://ressources.ircam.fr/en/composer/morton-feldman/biography">IRCAM, Morton Feldman biography</a>: chronology, teachers, institutional posts and changes of notation.',
+    '<a href="https://www.universaledition.com/en/Works/Coptic-Light/P0010724">Universal Edition, <i>Coptic Light</i></a>: Feldman’s own explanation of the textiles and orchestral-pedal idea.',
   ],
 };

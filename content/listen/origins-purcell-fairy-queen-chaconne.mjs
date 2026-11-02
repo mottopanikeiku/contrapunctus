@@ -173,7 +173,7 @@ export default {
     ],
     "basis": "score-proportion",
     "source": {
-      "title": "Purcell, The Fairy Queen — instrumental suite, Bart Dunn typesetting after Shedlock",
+      "title": "Purcell, The Fairy Queen: instrumental suite, Bart Dunn typesetting after Shedlock",
       "url": "https://s9.imslp.org/files/imglnks/usimg/6/69/IMSLP435506-PMLP237007-Suite_from_The_Fairy_Queen_Complete.pdf",
       "locator": "Chaconne, printed pp. 48–53: two violin parts, viola and basso. The cello desk represents the written basso part."
     },

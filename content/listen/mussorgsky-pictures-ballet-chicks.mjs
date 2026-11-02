@@ -3,7 +3,7 @@ export default {
   composer: 'mussorgsky',
   order: 2,
   work: 'Pictures at an Exhibition',
-  movement: 'V. Ballet des poussins dans leurs coques — Scherzino, vivo leggiero',
+  movement: 'V. Ballet des poussins dans leurs coques, Scherzino, vivo leggiero',
   set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 9, of: 15, unit: 'pieces' },
   year: '1874',
   key: 'F major',

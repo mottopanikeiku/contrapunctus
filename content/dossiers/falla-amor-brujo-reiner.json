@@ -148,56 +148,56 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Falla, El Amor Brujo (Reiner, 1946): item description",
+      "title": "Internet Archive: Falla, El Amor Brujo (Reiner, 1946): item description",
       "url": "https://archive.org/metadata/mm-633-falla-el-amor-brujo",
       "locator": "Description: Pittsburgh Symphony Orchestra, Fritz Reiner, Carol Brice; recorded 5 February 1946 at the Syria Mosque; issued March 1947 as Columbia Masterworks M-633 (12409-D to 12411-D) and MM-633 (12412-D to 12414-D); side and matrix list XCO 35816–35821; Brice credited on sides 1, 4 and 6.",
       "accessed": "2026-10-18"
     },
     {
       "id": "files",
-      "title": "Internet Archive — file inventory for the Reiner item",
+      "title": "Internet Archive: file inventory for the Reiner item",
       "url": "https://archive.org/metadata/mm-633-falla-el-amor-brujo/files",
       "locator": "MM633 Falla El Amor Brujo.mp3; VBR MP3; 1359.5 seconds; MD5 5b25ada5836204e20718743a867588c2.",
       "accessed": "2026-10-18"
     },
     {
       "id": "sony",
-      "title": "Discogs — Fritz Reiner: The Complete Columbia Album Collection (Sony Classical, 2020), box-set notes",
+      "title": "Discogs: Fritz Reiner: The Complete Columbia Album Collection (Sony Classical, 2020), box-set notes",
       "url": "https://www.discogs.com/release/19465918-Fritz-Reiner-The-Complete-Columbia-Album-Collection",
       "locator": "CD 6 notes: 78s 12409–11-D in set M-633, 12412–14-D in set MM-633, released 24 February 1947; LP ML 2006 (10-inch) released 28 June 1948; recording at the Syria Mosque, Pittsburgh, 5 February 1946; matrices XCO 35816-1 to 35821-1; Carol Brice, mezzo-soprano vocals credited on the box.",
       "accessed": "2026-10-18"
     },
     {
       "id": "discogs",
-      "title": "Discogs — master release: De Falla, Pittsburgh Symphony Orchestra with Fritz Reiner with Carol Brice, El Amor Brujo",
+      "title": "Discogs: master release: De Falla, Pittsburgh Symphony Orchestra with Fritz Reiner with Carol Brice, El Amor Brujo",
       "url": "https://www.discogs.com/master/1172777",
       "locator": "Year 1947; notes: “Recorded in 1946. Initial release in 1947 as Columbia Masterworks MM-633.”",
       "accessed": "2026-10-18"
     },
     {
       "id": "laphil",
-      "title": "Los Angeles Philharmonic — El amor brujo (programme note by John Henken)",
+      "title": "Los Angeles Philharmonic: El amor brujo (programme note by John Henken)",
       "url": "https://www.laphil.com/works/el-amor-brujo",
       "locator": "Pastora Imperio, Teatro Lara première April 1915, revisions 1916 and the ballet of 1925; the story of Candelas, Carmelo, Lucía and the ghost.",
       "accessed": "2026-10-18"
     },
     {
       "id": "archivo",
-      "title": "Archivo Manuel de Falla — chronology, Granada 1920–1939",
+      "title": "Archivo Manuel de Falla: chronology, Granada 1920–1939",
       "url": "https://www.manueldefalla.com/en/granada-1920-1939",
       "locator": "1925: the definitive ballet version of El amor brujo at the Trianon-Lyrique, Paris, 22 May.",
       "accessed": "2026-10-18"
     },
     {
       "id": "cedro",
-      "title": "CEDRO — Apuntes sobre el dominio público en España (14 April 2026)",
+      "title": "CEDRO: Apuntes sobre el dominio público en España (14 April 2026)",
       "url": "https://www.cedro.org/blog/articulo/blog.cedro.org/2026/04/14/apuntes-sobre-el-dominio-p%C3%BAblico-en-espa%C3%B1a",
       "locator": "Transitional provision 4: works of authors who died before 7 December 1987 keep the term of the 1879 law, the life of the author and 80 years.",
       "accessed": "2026-10-18"
     },
     {
       "id": "argentina",
-      "title": "Archivo Manuel de Falla — Argentina (1939–1946)",
+      "title": "Archivo Manuel de Falla: Argentina (1939–1946)",
       "url": "https://www.manueldefalla.com/en/argentina",
       "locator": "1946: Falla dies in his sleep on 14 November at Los Espinillos, near Alta Gracia.",
       "accessed": "2026-10-18"

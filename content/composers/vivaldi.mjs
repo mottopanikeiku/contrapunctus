@@ -145,8 +145,8 @@ at spring’s shining appearance.`,
     note: `<p>[[bach|Bach]] arranged Vivaldi’s concertos for organ and harpsichord, keeping their orchestral returns and writing new figuration for the keyboard player’s hands. Johann Georg Pisendel came from Dresden to Venice in 1716, studied with Vivaldi and carried his music north. Printed parts from Amsterdam and manuscripts preserved in Dresden kept these pieces in circulation after the Venetian performances had ended.</p>`,
   },
   reading: [
-    'Michael Talbot, <i>Vivaldi</i>, second edition (Dent, 1993) — a concise account of the documentary life and the music.',
-    'Michael Talbot, <i>The Vivaldi Compendium</i> (Boydell, 2011) — useful for people, institutions, sources and terminology.',
-    '<a href="https://www.treccani.it/enciclopedia/antonio-vivaldi_%28Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco%29/">Treccani, <i>Antonio Vivaldi</i></a> — the Venetian institutional and theatrical context.',
+    'Michael Talbot, <i>Vivaldi</i>, second edition (Dent, 1993): a concise account of the documentary life and the music.',
+    'Michael Talbot, <i>The Vivaldi Compendium</i> (Boydell, 2011): useful for people, institutions, sources and terminology.',
+    '<a href="https://www.treccani.it/enciclopedia/antonio-vivaldi_%28Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco%29/">Treccani, <i>Antonio Vivaldi</i></a>: the Venetian institutional and theatrical context.',
   ],
 };

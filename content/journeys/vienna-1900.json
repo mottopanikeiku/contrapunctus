@@ -27,7 +27,7 @@
       ],
       "sources": [
         { "title": "Vienna Secession: building history and Olbrich’s design", "url": "https://secession.at/building" },
-        { "title": "Commons: Secession building around 1900 — historical photograph and public-domain status", "url": "https://commons.wikimedia.org/wiki/File:Wiener_Secessionsgeb%C3%A4ude_um_1900.jpg" },
+        { "title": "Commons: Secession building around 1900, historical photograph and public-domain status", "url": "https://commons.wikimedia.org/wiki/File:Wiener_Secessionsgeb%C3%A4ude_um_1900.jpg" },
         { "title": "Mahler, Symphony No. 5, IV: Peters full score, pp. 178–182", "url": "https://s9.imslp.org/files/imglnks/usimg/0/04/IMSLP13083-Mahler-Symphony_No.5_IV.pdf" },
         { "title": "Mahler Foundation: Adagietto, scoring and form", "url": "https://mahlerfoundation.org/mahler/compositions/symphony-no-5/symphony-no-5-movement-4-adagietto-sehr-langsam/" }
       ]
@@ -51,7 +51,7 @@
         { "title": "Mahler Foundation: XIVth Secession exhibition and Mahler’s 14 April performance", "url": "https://mahlerfoundation.org/mahler/locations/austria/vienna/secession-exhibitions/" },
         { "title": "Mahler Foundation: the Adagietto’s middle section", "url": "https://mahlerfoundation.org/mahler/compositions/symphony-no-5/symphony-no-5-movement-4-adagietto-sehr-langsam/" },
         { "title": "Commons: Klimt’s concluding Beethoven Frieze panel", "url": "https://commons.wikimedia.org/wiki/File:Klimt_-_Diesen_Kuss_der_ganzen_Welt.jpeg" },
-        { "title": "Mahler, Adagietto: Peters full score, pp. 180–181 — Fließender, G-Saite and harp rests", "url": "https://s9.imslp.org/files/imglnks/usimg/0/04/IMSLP13083-Mahler-Symphony_No.5_IV.pdf" }
+        { "title": "Mahler, Adagietto: Peters full score, pp. 180–181, Fließender, G-Saite and harp rests", "url": "https://s9.imslp.org/files/imglnks/usimg/0/04/IMSLP13083-Mahler-Symphony_No.5_IV.pdf" }
       ]
     },
     {
@@ -124,7 +124,7 @@
       "map": null,
       "edge": "stefan-george--schoenberg-quartet-2",
       "compare": null,
-      "text": "<p>“Ich fühle Luft von anderem Planeten” — “I feel air from another planet.” The soprano begins with the opening line of Stefan George’s <i>Entrückung</i>, from his 1907 collection <i>Der siebente Ring</i>. In the poem, familiar faces fade in the darkness, and the trees and paths the speaker loved grow so pale that he hardly knows them. Schoenberg gave the words to a fifth musician, the soprano, who joins the two violins, viola and cello. The strings go on playing their own lines while she sings. In his performance instructions he asked for the passage to be as light as breath, with the voice set apart from the strings by its colour.</p>",
+      "text": "<p>“Ich fühle Luft von anderem Planeten” (“I feel air from another planet.”) The soprano begins with the opening line of Stefan George’s <i>Entrückung</i>, from his 1907 collection <i>Der siebente Ring</i>. In the poem, familiar faces fade in the darkness, and the trees and paths the speaker loved grow so pale that he hardly knows them. Schoenberg gave the words to a fifth musician, the soprano, who joins the two violins, viola and cello. The strings go on playing their own lines while she sings. In his performance instructions he asked for the passage to be as light as breath, with the voice set apart from the strings by its colour.</p>",
       "cues": [
         { "at": 75, "text": "The soprano enters with George’s words about air from another planet." },
         { "at": 145, "text": "The singer and strings continue their separate lines within the same phrase." }

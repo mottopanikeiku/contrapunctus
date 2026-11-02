@@ -4,7 +4,7 @@ export default {
   "order": 39,
   "set": {
     "id": "mahler-kindertotenlieder-anderson",
-    "title": "Kindertotenlieder — Marian Anderson",
+    "title": "Kindertotenlieder: Marian Anderson",
     "part": 5,
     "of": 5, "unit": "songs" },
   "concert": false,
@@ -68,7 +68,7 @@ export default {
       "t": 70,
       "kind": "world",
       "title": "The parent’s fears",
-      "text": "Rückert’s parent worries that the children might fall ill, then that they might die tomorrow. Each fear collapses as soon as it is spoken. “Das sind nun eitle Gedanken” — those are idle thoughts now. The children have already been carried away.",
+      "text": "Rückert’s parent worries that the children might fall ill, then that they might die tomorrow. Each fear collapses as soon as it is spoken. “Das sind nun eitle Gedanken” (those are idle thoughts now). The children have already been carried away.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rückert, In diesem Wetter, second and third stanzas; German text at https://en.wikipedia.org/wiki/Kindertotenlieder#Text. Our translation."
@@ -95,7 +95,7 @@ export default {
       "t": 185,
       "kind": "form",
       "title": "Final stanza, “Wie ein Wiegenlied”",
-      "text": "Mahler marks the final stanza “Wie ein Wiegenlied” — like a lullaby. Anderson repeats the weather words of the opening over celesta and rocking strings. In Rückert’s text the children now rest as safely as in their mother’s house, “von Gottes Hand bedecket” — covered by God’s hand.",
+      "text": "Mahler marks the final stanza “Wie ein Wiegenlied” (like a lullaby). Anderson repeats the weather words of the opening over celesta and rocking strings. In Rückert’s text the children now rest as safely as in their mother’s house, “von Gottes Hand bedecket” (covered by God’s hand).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 79–84: Mahler’s marking and Rückert’s last stanza; our translations. The score moves from D minor to D major; this transfer’s playback pitch is unverified."
@@ -122,7 +122,7 @@ export default {
       "t": 315,
       "kind": "world",
       "title": "Performance instruction in the score, 1905",
-      "text": "In a footnote on the first page of the score, Mahler described the five songs as “ein einheitliches, untrennbares Ganzes” — one unified, inseparable whole. He asked that their continuity be preserved, including through the pauses between songs, and that there be no applause.",
+      "text": "In a footnote on the first page of the score, Mahler described the five songs as “ein einheitliches, untrennbares Ganzes” (one unified, inseparable whole). He asked that their continuity be preserved, including through the pauses between songs, and that there be no applause.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Mahler’s performance instruction, C. F. Kahnt full score (1905), p. 3, footnote; our translation. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"

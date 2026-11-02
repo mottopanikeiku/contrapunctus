@@ -8,7 +8,7 @@ export default {
   order: 20,
   set: { id: 'ravel-miroirs', title: 'Miroirs', part: 1, of: 5, unit: 'pieces' },
   work: 'Miroirs',
-  movement: 'I. Noctuelles — Très léger',
+  movement: 'I. Noctuelles, Très léger',
   year: '1904–05',
   key: 'D♭ major',
   forces: 'Piano',

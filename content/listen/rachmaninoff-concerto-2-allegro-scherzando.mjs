@@ -5,7 +5,7 @@ export default {
   work: 'Piano Concerto No. 2, Op. 18',
   movement: 'III. Allegro scherzando',
   year: '1900–01',
-  key: 'C minor — C major',
+  key: 'C minor to C major',
   forces: 'Piano and orchestra',
   performers: 'Sviatoslav Richter; Warsaw National Philharmonic Orchestra; Stanisław Wisłocki',
   recorded: '1959',

@@ -12,7 +12,7 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/0sS1loCOhNJYmv3xB3P7dw",
-          "title": "Spotify · Avanti! and Hannu Lintu — Graal théâtre / Solar / Lichtbogen"
+          "title": "Spotify · Avanti! and Hannu Lintu: Graal théâtre / Solar / Lichtbogen"
         },
         {
           "kind": "label",
@@ -32,7 +32,7 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/0sS1loCOhNJYmv3xB3P7dw",
-          "title": "Spotify · John Storgårds, Avanti! and Hannu Lintu — Graal théâtre"
+          "title": "Spotify · John Storgårds, Avanti! and Hannu Lintu: Graal théâtre"
         },
         {
           "kind": "label",
@@ -52,7 +52,7 @@
         {
           "kind": "spotify",
           "url": "https://open.spotify.com/album/0U87oFi5yMbht78x78l5BE",
-          "title": "Spotify · L’Amour de loin — Kent Nagano"
+          "title": "Spotify · L’Amour de loin: Kent Nagano"
         },
         {
           "kind": "label",
@@ -64,31 +64,31 @@
   ],
   "sources": [
     {
-      "title": "Ondine ODE 997-2 — official streaming page",
+      "title": "Ondine ODE 997-2: official streaming page",
       "url": "https://ondine.lnk.to/ode9972"
     },
     {
-      "title": "Ondine ODE 997-2 booklet — Kimmo Korhonen’s notes, Avanti! personnel and October 2001 recording credit",
+      "title": "Ondine ODE 997-2 booklet: Kimmo Korhonen’s notes, Avanti! personnel and October 2001 recording credit",
       "url": "https://cdn.naxosmusiclibrary.com/sharedfiles/booklets/ODE/booklet-ODE997-2.pdf"
     },
     {
-      "title": "Wise Music Classical — Saariaho’s programme note for Lichtbogen",
+      "title": "Wise Music Classical: Saariaho’s programme note for Lichtbogen",
       "url": "https://www.wisemusicclassical.com/work/4340/Lichtbogen--Kaija-Saariaho/"
     },
     {
-      "title": "Wise Music Classical — Graal théâtre, chamber version and Saariaho’s programme note",
+      "title": "Wise Music Classical: Graal théâtre, chamber version and Saariaho’s programme note",
       "url": "https://www.wisemusicclassical.com/work/7857/Graal-thtre-chamber-version--Kaija-Saariaho/"
     },
     {
-      "title": "harmonia mundi HMC 801937.38 — L’Amour de loin catalogue and cast",
+      "title": "harmonia mundi HMC 801937.38: L’Amour de loin catalogue and cast",
       "url": "https://www.harmoniamundi.com/en/albums/lamour-de-loin/"
     },
     {
-      "title": "harmonia mundi HMC 801937.38 booklet — synopsis, Lichtbogen composition dates and March 2006 / October 2008 session credits",
+      "title": "harmonia mundi HMC 801937.38 booklet: synopsis, Lichtbogen composition dates and March 2006 / October 2008 session credits",
       "url": "https://www.harmoniamundi.com/wp-content/uploads/2022/12/liv1937.38.pdf"
     },
     {
-      "title": "IRCAM — L’Amour de loin composition dates and première personnel",
+      "title": "IRCAM: L’Amour de loin composition dates and première personnel",
       "url": "https://brahms.ircam.fr/fr/work/l%27amour-de-loin"
     }
   ]

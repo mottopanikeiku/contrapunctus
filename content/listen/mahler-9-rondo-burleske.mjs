@@ -3,7 +3,7 @@ export default {
   composer: 'mahler',
   order: 22,
   work: 'Symphony No. 9',
-  movement: 'III. Rondo-Burleske — Allegro assai. Sehr trotzig',
+  movement: 'III. Rondo-Burleske, Allegro assai. Sehr trotzig',
   set: { id: 'mahler-symphony-9', title: 'Symphony No. 9', part: 3, of: 4 },
   year: '1909–10',
   key: 'A minor',

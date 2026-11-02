@@ -8,7 +8,7 @@ export default {
   composer: 'schumann',
   order: 10,
   work: 'Kinderszenen, Op. 15',
-  movement: 'No. 1 · Von fremden Ländern und Menschen — Of Foreign Lands and Peoples',
+  movement: 'No. 1 · Von fremden Ländern und Menschen (Of Foreign Lands and Peoples)',
   set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 1, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'G major',

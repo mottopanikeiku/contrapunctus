@@ -3,7 +3,7 @@ export default {
   composer: 'chopin',
   order: 1,
   work: 'Ballade No. 1, Op. 23',
-  movement: 'Largo — Moderato',
+  movement: 'Largo, Moderato',
   year: '1831–35',
   key: 'G minor',
   forces: 'Piano',

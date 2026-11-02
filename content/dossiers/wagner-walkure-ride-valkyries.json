@@ -3,7 +3,7 @@
   "work": {
     "title": "Die Walküre, WWV 86B",
     "catalogue": "WWV 86B",
-    "movement": "Ride of the Valkyries — orchestral excerpt",
+    "movement": "Ride of the Valkyries: orchestral excerpt",
     "version": {
       "value": "Orchestral concert excerpt from the opening of Act III",
       "status": "documented",
@@ -133,21 +133,21 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Ride of the Valkyries — Commons file",
+      "title": "Ride of the Valkyries: Commons file",
       "url": "https://commons.wikimedia.org/wiki/File:Richard_Wagner_-_Ride_of_the_Valkyries.ogg",
       "locator": "Recording description, Edison template, current file history and Adam Cuerden noise-removal/equalisation processing.",
       "accessed": "2026-10-17"
     },
     {
       "id": "nps",
-      "title": "Thomas Edison National Historical Park — classical instrumental records",
+      "title": "Thomas Edison National Historical Park: classical instrumental records",
       "url": "https://www.nps.gov/edis/learn/photosmultimedia/classical-instrumental.htm",
-      "locator": "The Valkyrie—Ride of the Valkyries: American Symphony Orchestra; Edison 80638-R, matrix 7846-B-1-6; recorded 1921, released December 1921; EDIS 41877.",
+      "locator": "The Valkyrie: Ride of the Valkyries: American Symphony Orchestra; Edison 80638-R, matrix 7846-B-1-6; recorded 1921, released December 1921; EDIS 41877.",
       "accessed": "2026-10-17"
     },
     {
       "id": "us-term",
-      "title": "US Copyright Office — pre-1972 sound recordings",
+      "title": "US Copyright Office: pre-1972 sound recordings",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
       "locator": "Recordings first published before 1923 ended federal protection on 31 December 2021.",
       "accessed": "2026-10-17"

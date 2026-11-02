@@ -3,7 +3,7 @@
   "work": {
     "title": "Étude in G♭ major, Op. 10 No. 5",
     "catalogue": "Op. 10 No. 5",
-    "movement": "Vivace — Black Keys",
+    "movement": "Vivace, Black Keys",
     "version": {
       "value": null,
       "status": "unknown",
@@ -63,7 +63,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Musopen — Set Chopin Free project",
+      "value": "Musopen: Set Chopin Free project",
       "status": "documented",
       "sourceIds": [
         "source"

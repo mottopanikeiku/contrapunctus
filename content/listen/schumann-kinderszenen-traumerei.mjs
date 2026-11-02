@@ -8,7 +8,7 @@ export default {
   composer: 'schumann',
   order: 70,
   work: 'Kinderszenen, Op. 15',
-  movement: 'No. 7 · Träumerei — Dreaming',
+  movement: 'No. 7 · Träumerei (Dreaming)',
   set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 7, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'F major',

@@ -97,7 +97,7 @@ V:1 name="Keyboard"
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Jean Racine', title: 'Phèdre — Act I, scene 3', date: '1677', lang: 'French', translator: 'Our translation',
+      type: 'poem', author: 'Jean Racine', title: 'Phèdre: Act I, scene 3', date: '1677', lang: 'French', translator: 'Our translation',
       original: `Je le vis, je rougis, je pâlis à sa vue ;
 Un trouble s’éleva dans mon âme éperdue ;
 Mes yeux ne voyaient plus, je ne pouvais parler ;
@@ -121,8 +121,8 @@ I felt my whole body both freeze and burn.`,
     note: `<p>Lully supplied the five-act theatre, its French declamation and its dancers, and Rameau wrote more demanding harmonies and instrumental parts for it. [[berlioz|Berlioz]] admired Télaïre’s <i>Tristes apprêts</i>. [[debussy|Debussy]] attended the 1903 revival of <i>Castor et Pollux</i> and later placed <i>Hommage à Rameau</i> at the centre of his first book of <i>Images</i>.</p>`,
   },
   reading: [
-    'Cuthbert Girdlestone, <i>Jean-Philippe Rameau: His Life and Work</i> (1957; revised 1969) — extensive discussion of the stage works and their versions.',
-    'Thomas Christensen, <i>Rameau and Musical Thought in the Enlightenment</i> (Cambridge, 1993) — the changing theory placed within eighteenth-century science and philosophy.',
-    '<a href="https://www.loc.gov/item/2011563509/">Library of Congress, <i>Hippolyte et Aricie</i>, 1733 libretto</a> — a primary source for the first production.',
+    'Cuthbert Girdlestone, <i>Jean-Philippe Rameau: His Life and Work</i> (1957; revised 1969): extensive discussion of the stage works and their versions.',
+    'Thomas Christensen, <i>Rameau and Musical Thought in the Enlightenment</i> (Cambridge, 1993): the changing theory placed within eighteenth-century science and philosophy.',
+    '<a href="https://www.loc.gov/item/2011563509/">Library of Congress, <i>Hippolyte et Aricie</i>, 1733 libretto</a>: a primary source for the first production.',
   ],
 };

@@ -3,7 +3,7 @@ export default {
   "composer": "rachmaninoff",
   "order": 70,
   "work": "Sérénade, Op. 3 No. 5",
-  "movement": "Sostenuto — Tempo di Valse",
+  "movement": "Sostenuto, Tempo di Valse",
   "year": "1892",
   "key": "B♭ minor",
   "forces": "Piano",

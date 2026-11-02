@@ -6,7 +6,7 @@ export default {
   composer: 'schumann',
   order: 60,
   work: 'Kinderszenen, Op. 15',
-  movement: 'No. 6 · Wichtige Begebenheit — An Important Event',
+  movement: 'No. 6 · Wichtige Begebenheit (An Important Event)',
   set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 6, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'A major',

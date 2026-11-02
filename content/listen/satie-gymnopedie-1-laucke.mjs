@@ -4,7 +4,7 @@ export default {
   order: 20,
   concert: false,
   work: 'Trois Gymnopédies',
-  movement: 'I. Lent et douloureux — guitar arrangement',
+  movement: 'I. Lent et douloureux: guitar arrangement',
   year: '1888',
   key: 'A major (transposed from D major)',
   forces: 'Solo guitar',

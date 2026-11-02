@@ -99,9 +99,9 @@ V:1 name="Mode"
     { relation: 'documented-use',
       type: 'painting', frame: 'mat', file: 'File:Eroica Beethoven title.jpg', artist: 'Copyist, with alterations by Ludwig van Beethoven', title: 'Title page of the Eroica score, with Bonaparte’s name erased', date: '1804', medium: 'Ink on paper', collection: 'Gesellschaft der Musikfreunde, Vienna', note: '<p>The copyist Benjamin Gebauer wrote out this score; Beethoven corrected it and kept it until his death. Bonaparte’s name was scraped away, which left a hole in the page. The pianist Joseph Dessauer bought the manuscript at the estate auction and gave it to the Gesellschaft der Musikfreunde for Beethoven’s centenary in 1870.</p>' },
     { relation: 'shared-context',
-      type: 'poem', author: 'Ludwig van Beethoven', title: 'Heiligenstadt Testament — art and survival', date: '6 October 1802; postscript 10 October', lang: 'German prose', translator: 'Our translation', original: 'Es fehlte wenig, und ich endigte selbst mein Leben — nur sie die Kunst, sie hielt mich zurück, ach es dünkte mir unmöglich, die Welt eher zu verlassen, bis ich das alles hervorgebracht, wozu ich mich aufgelegt fühlte.', translation: 'Little was lacking, and I would have ended my life myself — only art held me back; ah, it seemed impossible to me to leave the world before I had brought forth everything that I felt capable of producing.', note: '<p>Writing to his brothers on 6 October 1802, Beethoven explained why he had withdrawn from people he wanted to be among. He recalled standing beside someone who could hear a distant flute while he heard nothing. The letter remained among his papers. Its opening asked those who called him hostile or misanthropic to reconsider.</p>' },
+      type: 'poem', author: 'Ludwig van Beethoven', title: 'Heiligenstadt Testament: art and survival', date: '6 October 1802; postscript 10 October', lang: 'German prose', translator: 'Our translation', original: 'Es fehlte wenig, und ich endigte selbst mein Leben — nur sie die Kunst, sie hielt mich zurück, ach es dünkte mir unmöglich, die Welt eher zu verlassen, bis ich das alles hervorgebracht, wozu ich mich aufgelegt fühlte.', translation: 'Little was lacking, and I would have ended my life myself — only art held me back; ah, it seemed impossible to me to leave the world before I had brought forth everything that I felt capable of producing.', note: '<p>Writing to his brothers on 6 October 1802, Beethoven explained why he had withdrawn from people he wanted to be among. He recalled standing beside someone who could hear a distant flute while he heard nothing. The letter remained among his papers. Its opening asked those who called him hostile or misanthropic to reconsider.</p>' },
     { relation: 'documented-use',
-      type: 'poem', author: 'Friedrich Schiller', title: 'An die Freude — opening stanza', date: '1785; revised 1803', lang: 'German', translator: 'Our translation', original: `Freude, schöner Götterfunken,
+      type: 'poem', author: 'Friedrich Schiller', title: 'An die Freude: opening stanza', date: '1785; revised 1803', lang: 'German', translator: 'Our translation', original: `Freude, schöner Götterfunken,
 Tochter aus Elysium,
 Wir betreten feuertrunken,
 Himmlische, dein Heiligtum!
@@ -126,9 +126,9 @@ where your gentle wing rests.`, note: '<p>Schiller’s 1785 ode originally made 
   ],
   lineage: { from: ['bach', 'cpe-bach', 'haydn', 'mozart', 'Handelian oratorio'], to: ['schubert', 'berlioz', 'brahms', 'wagner', 'mahler', 'bartok'], note: '<p>[[schubert|Schubert]] grew up playing Beethoven’s symphonies; [[berlioz|Berlioz]] heard them in Paris and began planning orchestras of his own. Later composers took different things from him: [[brahms|Brahms]] the small, persistent figures, [[mahler|Mahler]] the voices in the symphonies, [[bartok|Bartók]] the fugues and sudden dances in his quartets. The influence of Beethoven’s own teachers can also be heard in his music, especially Haydn’s habit of turning an ending into a joke.</p>' },
   reading: [
-    'Lewis Lockwood, <i>Beethoven: The Music and the Life</i> (Norton, 2003) — documents and close musical readings kept in contact.',
-    'William Kinderman, <i>Beethoven</i>, 2nd ed. (Oxford, 2009) — especially strong on sketches, variation and the late works.',
-    'Barry Cooper, <i>Beethoven</i>, 2nd ed. (Oxford, 2008) — a carefully sourced life with detailed chronology.',
-    '<a href="https://www.beethoven.de/">Beethoven-Haus Bonn</a> — digital manuscripts, letters, portraits and work documentation.',
+    'Lewis Lockwood, <i>Beethoven: The Music and the Life</i> (Norton, 2003): documents and close musical readings kept in contact.',
+    'William Kinderman, <i>Beethoven</i>, 2nd ed. (Oxford, 2009): especially strong on sketches, variation and the late works.',
+    'Barry Cooper, <i>Beethoven</i>, 2nd ed. (Oxford, 2008): a carefully sourced life with detailed chronology.',
+    '<a href="https://www.beethoven.de/">Beethoven-Haus Bonn</a>: digital manuscripts, letters, portraits and work documentation.',
   ],
 };

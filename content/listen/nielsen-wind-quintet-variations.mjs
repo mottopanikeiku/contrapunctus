@@ -9,7 +9,7 @@ export default {
   composer: 'nielsen',
   order: 2,
   work: 'Wind Quintet, Op. 43',
-  movement: 'III. Præludium — Tema med variationer',
+  movement: 'III. Præludium, Tema med variationer',
   year: '1922',
   key: 'A major',
   forces: 'Flute, oboe (cor anglais), clarinet, horn and bassoon',

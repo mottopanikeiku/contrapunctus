@@ -86,7 +86,7 @@
       "note": "Commons applies PD-old-70-expired to the composition; Couperin died in 1733. This does not clear an unidentified modern edition or the sound recording."
     },
     "recording": {
-      "value": "Territorial — Commons PD-EU-audio sound-recording status",
+      "value": "Territorial: Commons PD-EU-audio sound-recording status",
       "status": "documented",
       "sourceIds": ["commons", "rights-tag"],
       "note": "Accepted under the programme’s recording-specific PD-EU-audio rule, territorially. Commons states that European performers’ and producers’ terms have expired. US public-domain status is not established and is not asserted: the file also carries a pre-1972 US-recording copyright warning. Composition-only public-domain text and the generic structured-data label are not relied upon for recording rights."
@@ -95,12 +95,12 @@
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
   },
   "sources": [
-    { "id": "commons", "title": "Wikimedia Commons — Meyer, Les barricades mysterieuses", "url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_(Marcelle_Meyer,_1954).flac", "locator": "Summary, Source, Author, Licensing, File history and Transcode status; opened revision 1260418407.", "accessed": "2026-10-17" },
-    { "id": "discography", "title": "Classical Pianists — Marcelle Meyer chronology", "url": "https://classical-pianists.net/viii/marcelle-meyer/chronology/", "locator": "MaMe-C#016: 1953/1954, Salle Adyar, Couperin programme, DF 86. Earlier 1946 performance listed separately.", "accessed": "2026-10-17" },
-    { "id": "score", "title": "Couperin — Les Baricades Mistérieuses, Les Éditions Outremontaises", "url": "https://s9.imslp.org/files/imglnks/usimg/6/65/IMSLP128589-WIMA.0099-Couperin_6eOrdre_Les_Baricades.pdf", "locator": "Both pages: rondeau, three couplets, overlapping durations and return directions; modern engraving used for musical reference only.", "accessed": "2026-10-17" },
-    { "id": "work-index", "title": "IMSLP — Pièces de clavecin, Livre 2", "url": "https://imslp.org/wiki/Pi%C3%A8ces_de_clavecin,_Livre_2_(Couperin,_Fran%C3%A7ois)", "locator": "Sixième Ordre, harpsichord instrumentation and publication information.", "accessed": "2026-10-17" },
-    { "id": "biography", "title": "Opéra Royal — François Couperin", "url": "https://www.operaroyal-versailles.fr/genre-event/couperin/", "locator": "Life dates, royal-chapel appointment, harpsichord books and unresolved character-piece titles; compared with the existing composer biography.", "accessed": "2026-10-17" },
-    { "id": "rights-tag", "title": "Wikimedia Commons — PD-EU-audio", "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio", "locator": "Recording-specific territorial term statement and distinction from composition copyright.", "accessed": "2026-10-17" }
+    { "id": "commons", "title": "Wikimedia Commons: Meyer, Les barricades mysterieuses", "url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Couperin_-_Les_barricades_mysterieuses_(Marcelle_Meyer,_1954).flac", "locator": "Summary, Source, Author, Licensing, File history and Transcode status; opened revision 1260418407.", "accessed": "2026-10-17" },
+    { "id": "discography", "title": "Classical Pianists: Marcelle Meyer chronology", "url": "https://classical-pianists.net/viii/marcelle-meyer/chronology/", "locator": "MaMe-C#016: 1953/1954, Salle Adyar, Couperin programme, DF 86. Earlier 1946 performance listed separately.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Couperin: Les Baricades Mistérieuses, Les Éditions Outremontaises", "url": "https://s9.imslp.org/files/imglnks/usimg/6/65/IMSLP128589-WIMA.0099-Couperin_6eOrdre_Les_Baricades.pdf", "locator": "Both pages: rondeau, three couplets, overlapping durations and return directions; modern engraving used for musical reference only.", "accessed": "2026-10-17" },
+    { "id": "work-index", "title": "IMSLP: Pièces de clavecin, Livre 2", "url": "https://imslp.org/wiki/Pi%C3%A8ces_de_clavecin,_Livre_2_(Couperin,_Fran%C3%A7ois)", "locator": "Sixième Ordre, harpsichord instrumentation and publication information.", "accessed": "2026-10-17" },
+    { "id": "biography", "title": "Opéra Royal: François Couperin", "url": "https://www.operaroyal-versailles.fr/genre-event/couperin/", "locator": "Life dates, royal-chapel appointment, harpsichord books and unresolved character-piece titles; compared with the existing composer biography.", "accessed": "2026-10-17" },
+    { "id": "rights-tag", "title": "Wikimedia Commons: PD-EU-audio", "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio", "locator": "Recording-specific territorial term statement and distinction from composition copyright.", "accessed": "2026-10-17" }
   ],
   "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
 }

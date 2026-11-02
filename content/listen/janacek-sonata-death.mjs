@@ -3,7 +3,7 @@ export default {
   composer: 'janacek',
   order: 1,
   work: 'Piano Sonata 1. X. 1905',
-  movement: 'II. Smrt (Death) — Adagio',
+  movement: 'II. Smrt (Death), Adagio',
   year: '1905–06',
   key: 'E♭ minor',
   forces: 'Piano',

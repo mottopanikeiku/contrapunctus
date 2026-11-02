@@ -3,7 +3,7 @@
   "work": {
     "title": "Symphony No. 7 in E major",
     "catalogue": "WAB 107",
-    "movement": "III. Scherzo — Sehr schnell; Trio — Etwas langsamer",
+    "movement": "III. Scherzo, Sehr schnell; Trio, Etwas langsamer",
     "version": {
       "value": null,
       "status": "unknown",
@@ -162,20 +162,20 @@
       ],
       "note": "The Commons Copyright information template gives recording = CC BY-SA 4.0, the IMSLP performance entry states Creative Commons Attribution-ShareAlike 4.0, the embedded copyright tag reads CC BY-SA 4.0, and the Munich analysis page states the licence for the same recording with a rights-holder attribution pattern. The licence is that of the University of Music and Theatre Munich’s recording and is separate from the composition’s public-domain tag."
     },
-    "creditLine": "Anton Bruckner, Symphony No. 7, III. Scherzo — Sehr schnell; Trio — Etwas langsamer — Hochschulsymphonieorchester (Munich), Marcus Bosch; live recording, University of Music and Theatre Munich (credited 2020). CC BY-SA 4.0, via IMSLP and Wikimedia Commons.",
+    "creditLine": "Anton Bruckner, Symphony No. 7, III. Scherzo (Sehr schnell); Trio (Etwas langsamer). Hochschulsymphonieorchester (Munich), Marcus Bosch; live recording, University of Music and Theatre Munich (credited 2020). CC BY-SA 4.0, via IMSLP and Wikimedia Commons.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:HSO Bruckner-7 03.mp3",
+      "title": "Wikimedia Commons: File:HSO Bruckner-7 03.mp3",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=1142651921",
       "locator": "Summary: description, date, source, author; Licensing: Copyright information (recording CC BY-SA 4.0; composition PD-old-auto-expired, death year 1896). Raw wikitext read on the access date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Symphony No. 7 in E major, WAB 107 (Bruckner, Anton)",
+      "title": "IMSLP: Symphony No. 7 in E major, WAB 107 (Bruckner, Anton)",
       "url": "https://imslp.org/wiki/Symphony_No.7_in_E_major,_WAB_107_(Bruckner,_Anton)",
       "locator": "Recordings: #899192 (PMLP7929-2021-11-08 HP8 HSO Bruckner-7 03.mp3): Publisher Info. University of Music and Theatre Munich, 2020; Performers Hochschulsymphonieorchester (Munich), Marcus Bosch (conductor); Copyright CC BY-SA 4.0; Misc. Notes Live recording at the University of Music and Theatre Munich 2020. Page HTML retrieved directly (the listing is scripted in a browser).",
       "accessed": "2026-10-17"
@@ -196,14 +196,14 @@
     },
     {
       "id": "oma",
-      "title": "openmusic.academy — Anton Bruckner, Sinfonie Nr. 7 E-Dur (WAB 107) (analysis page with the same HSO München / Marcus Bosch recording)",
+      "title": "openmusic.academy: Anton Bruckner, Sinfonie Nr. 7 E-Dur (WAB 107) (analysis page with the same HSO München / Marcus Bosch recording)",
       "url": "https://openmusic.academy/docs/bmwvSwGA9xQFLhfL4GJukj/anton-bruckner-sinfonie-nr7-e-dur-wab-107",
       "locator": "Player captions: “Hochschulsymphonieorchester (München), Ltg. Marcus Bosch — Live-Konzertmitschnitt der Hochschule für Musik und Theater München 2020, Lizenz: CC BY-SA 4.0”; the page also states a rights-holder attribution pattern for the files.",
       "accessed": "2026-10-17"
     },
     {
       "id": "gasteig",
-      "title": "Gasteig München — Programme, November 2021 (PDF)",
+      "title": "Gasteig München: Programme, November 2021 (PDF)",
       "url": "https://www.gasteig.de/imgs/Gasteig_Nov2021_Web1.pdf?x66008=",
       "locator": "PDF page 16 by extraction; entry under “Mo 08”: coopERATIONEN – Benefizkonzert Yehudi Menuhin Live Music Now, HSO München, Raphaela Gromes (cello), Leitung Marcus Bosch, Schumann Cello Concerto and Bruckner Symphony No. 7 (HMTM), Isarphilharmonie, 19:00. The day heading was read from the extracted text layer.",
       "accessed": "2026-10-17"

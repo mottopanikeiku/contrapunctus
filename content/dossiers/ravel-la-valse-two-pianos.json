@@ -140,21 +140,21 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Ravel's La Valse for two pianos, M. 72a - O'Doan & O'Doan.ogg",
+      "title": "Wikimedia Commons: Ravel's La Valse for two pianos, M. 72a - O'Doan & O'Doan.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Ravel%27s_La_Valse_for_two_pianos%2C_M._72a_-_O%27Doan_%26_O%27Doan.ogg",
       "locator": "File description: identification, performers, date, source and licence; audio duration and transcoded MP3. Raw wikitext and the audio-info endpoint were inspected.",
       "accessed": "2026-10-17"
     },
     {
       "id": "imslp",
-      "title": "IMSLP — La valse",
+      "title": "IMSLP: La valse",
       "url": "https://imslp.org/wiki/La_valse_(Ravel%2C_Maurice)",
       "locator": "Work information and original scoring; first publication 1920. For two pianos: Ravel’s transcription, Durand plate D. & F. 9897; audio #66548 lists Nancy and Neal O’Doan, Pandora Records / Al Goldstein Archive, EFF Open Audio License, uploader Carolus (2010/6/7).",
       "accessed": "2026-10-17"
     },
     {
       "id": "us-term",
-      "title": "U.S. Copyright Office — Duration of Copyright, Circular 15A",
+      "title": "U.S. Copyright Office: Duration of Copyright, Circular 15A",
       "url": "https://www.copyright.gov/circs/circ15a.pdf",
       "locator": "Pages 2–3: maximum 95-year term for pre-1978 publications and restored foreign works; this is a jurisdiction-specific term calculation.",
       "accessed": "2026-10-17"
@@ -168,7 +168,7 @@
     },
     {
       "id": "score",
-      "title": "Ravel — La valse, transcription for two pianos by the composer",
+      "title": "Ravel: La valse, transcription for two pianos by the composer",
       "url": "https://s9.imslp.org/files/imglnks/usimg/c/ce/IMSLP06112-Ravel_-_La_Valse_(trans._Ravel_-_2_pianos).pdf",
       "locator": "Durand, 1920, plate D. & F. 9897. Title page identifies two pianos, four hands; this is not Garban’s one-piano four-hand arrangement.",
       "accessed": "2026-10-17"

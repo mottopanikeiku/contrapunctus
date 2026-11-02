@@ -7,7 +7,7 @@ export default {
   composer: 'schumann',
   order: 40,
   work: 'Kinderszenen, Op. 15',
-  movement: 'No. 4 · Bittendes Kind — Pleading Child',
+  movement: 'No. 4 · Bittendes Kind (Pleading Child)',
   set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 4, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'D major',

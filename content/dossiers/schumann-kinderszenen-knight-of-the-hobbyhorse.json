@@ -3,7 +3,7 @@
   "work": {
     "title": "Kinderszenen",
     "catalogue": "Op. 15",
-    "movement": "No. 9 · Ritter vom Steckenpferd — Knight of the Hobbyhorse",
+    "movement": "No. 9 · Ritter vom Steckenpferd (Knight of the Hobbyhorse)",
     "version": {
       "value": null,
       "status": "unknown",
@@ -135,28 +135,28 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Robert Schumann - scenes from childhood, op. 15 - ix. knight of the hobbyhorse.ogg",
+      "title": "Wikimedia Commons: File:Robert Schumann - scenes from childhood, op. 15 - ix. knight of the hobbyhorse.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_ix._knight_of_the_hobbyhorse.ogg",
       "locator": "File-description wikitext (page revision of 2026-06-06T23:36:12Z): Information template (description, source musopen.com, author line), licence line “Music: PD-old-100; Recording: PD-author, Musopen”, PermissionTicket 2008012110017088; file-history upload of 22 January 2008.",
       "accessed": "2026-10-17"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — embedded and structured file metadata",
+      "title": "Wikimedia Commons: embedded and structured file metadata",
       "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&titles=File%3ARobert+Schumann+-+scenes+from+childhood%2C+op.+15+-+ix.+knight+of+the+hobbyhorse.ogg&prop=videoinfo&viprop=url%7Csize%7Cmime%7Cextmetadata%7Cderivatives&redirects=1",
       "locator": "videoinfo: length 43.99 s, Ogg Vorbis, stereo, 44.1 kHz; embedded comments Title “Scenes from Childhood, Op. 15 - IX. Knight of the Hobbyhorse”, Album “The Inner Voice”, Album Artist and Artist “Donald Betts”, Composer “Robert Schumann”, TRACKNUMBER 9.",
       "accessed": "2026-10-17"
     },
     {
       "id": "album",
-      "title": "The Inner Voice — Donald Betts (innig.net album page)",
+      "title": "The Inner Voice: Donald Betts (innig.net album page)",
       "url": "https://innig.net/music/albums/betts-innervoice/",
       "locator": "Album credits: “Recorded May 2005 at Janet Wallace Concert Hall, Macalester College, St. Paul, Minnesota”; Piano Donald Betts; Recording and mastering Russ Borud; Editing and design Paul Cantrell; Production assistance Jane C. Betts; Copyright © 2005 Donald Betts. Track list begins with Scenes from Childhood.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "Robert Schumann — biographical dates",
+      "title": "Robert Schumann: biographical dates",
       "url": "https://en.wikipedia.org/wiki/Robert_Schumann",
       "locator": "Lead paragraph: composer’s death, 29 July 1856.",
       "accessed": "2026-10-17"

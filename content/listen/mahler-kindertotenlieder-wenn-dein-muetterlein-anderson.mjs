@@ -4,7 +4,7 @@ export default {
   "order": 37,
   "set": {
     "id": "mahler-kindertotenlieder-anderson",
-    "title": "Kindertotenlieder — Marian Anderson",
+    "title": "Kindertotenlieder: Marian Anderson",
     "part": 3,
     "of": 5, "unit": "songs" },
   "concert": false,

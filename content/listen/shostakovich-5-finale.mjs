@@ -45,7 +45,7 @@ export default {
   orchestra: {
     ensemble: ['piccolo', 'flutes', 'oboes', 'e-flat-clarinet', 'clarinets', 'bassoons', 'contrabassoon', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani', 'percussion', 'harp', 'piano', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Symphony No. 5 — Muzgiz M. 16313 Г, historical full score', url: score, locator: `Printed pp. 109–165; PDF pp. 111–167. The reported 37-bar cut (${cut}) is not located; selected broad snapshots must not be read as an uncut bar map. Viewed score is public domain in Taiwan, not cleared for EU/US republication; exact performing edition unknown. Timing evidence: ${audio}.` },
+    source: { title: 'Symphony No. 5: Muzgiz M. 16313 Г, historical full score', url: score, locator: `Printed pp. 109–165; PDF pp. 111–167. The reported 37-bar cut (${cut}) is not located; selected broad snapshots must not be read as an uncut bar map. Viewed score is public domain in Taiwan, not cleared for EU/US republication; exact performing edition unknown. Timing evidence: ${audio}.` },
     timeline: [
       { t: 0, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'trombones', 'tuba', 'timpani'], lead: ['trumpets', 'trombones', 'tuba', 'timpani'], note: 'Opening wind/brass attack, then brass march with timpani, p. 109; strings rest at first. Successive opening events grouped, not one static chord.' },
       { t: 40, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1', 'flutes'], note: 'Moving wind/string layers after the opening, p. 111 and following; approximate regional snapshot.' },

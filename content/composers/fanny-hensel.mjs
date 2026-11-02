@@ -53,7 +53,7 @@ export default {
   ],
   score: [
     { kicker: 'Piano-song workshop', title: 'Held voice above changing harmony', abc: `X:1
-T:Independent layers — schematic
+T:Independent layers: schematic
 M:4/4
 L:1/8
 Q:1/4=72
@@ -101,9 +101,9 @@ is only like a call out of dreams.`, note: `<p>In Eichendorff’s poem the walke
   ],
   lineage: { from: ['bach', 'beethoven', 'Carl Friedrich Zelter'], to: ['mendelssohn', 'Charles Gounod'], note: `<p>Fanny and [[mendelssohn|Felix]] sent each other scores and criticism throughout their lives. His judgement was a reason she delayed publishing, and her comments influenced his revisions. In Rome in 1840 Gounod heard her play Bach and Beethoven at the piano, and this was how he came to know Bach’s keyboard works. She played for him late into the night.</p>` },
   reading: [
-    'R. Larry Todd, <i>Fanny Hensel: The Other Mendelssohn</i> (Oxford, 2010) — the principal modern biography, with sustained discussion of the scores.',
-    'Marcia J. Citron, editor and translator, <i>The Letters of Fanny Hensel to Felix Mendelssohn</i> (Pendragon, 1987) — musical judgement and family negotiation in the composer’s own words.',
-    '<a href="https://fannyhensel.de/">Fanny Hensel Research</a> — chronology, sources and research on the manuscript legacy.',
-    '<a href="https://www.naxos.com/CatalogueDetail/?id=8.572781">Naxos: Hensel, Lieder Vol. 2</a> — documented recording and notes on the song repertory.',
+    'R. Larry Todd, <i>Fanny Hensel: The Other Mendelssohn</i> (Oxford, 2010): the principal modern biography, with sustained discussion of the scores.',
+    'Marcia J. Citron, editor and translator, <i>The Letters of Fanny Hensel to Felix Mendelssohn</i> (Pendragon, 1987): musical judgement and family negotiation in the composer’s own words.',
+    '<a href="https://fannyhensel.de/">Fanny Hensel Research</a>: chronology, sources and research on the manuscript legacy.',
+    '<a href="https://www.naxos.com/CatalogueDetail/?id=8.572781">Naxos: Hensel, Lieder Vol. 2</a>: documented recording and notes on the song repertory.',
   ],
 };

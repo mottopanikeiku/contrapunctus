@@ -61,7 +61,7 @@ export default {
   ],
   score: [
     {
-      kicker: 'Tristan und Isolde, Prelude — harmonic reduction',
+      kicker: 'Tristan und Isolde, Prelude: harmonic reduction',
       title: 'F–B–D♯–G♯, then E7',
       abc: `X:1
 T:Tristan harmonic reduction
@@ -75,7 +75,7 @@ V:1 name="Reduction"
       caption: 'A schematic of the Tristan chord and its E7 destination, in even note values. F falls to E and D♯ to D♮; B and G♯ stay in place in this simplified voicing. The moving notes between the two chords are omitted. E7 is the dominant of A minor and is left unresolved.',
     },
     {
-      kicker: 'Das Rheingold, Prelude — schematic',
+      kicker: 'Das Rheingold, Prelude: schematic',
       title: 'Motion within a single E♭ chord',
       abc: `X:2
 T:Rhinegold harmonic field
@@ -94,7 +94,7 @@ E,,6 | E,,6 | E,,6 | E,,6 |]`,
       caption: 'A schematic: notes of the E♭ major chord rise one after another above a held low E♭. In <i>Rheingold</i>, Wagner sustains this harmony for 136 bars, adding instruments and quicker movement until the river fills the stage.',
     },
     {
-      kicker: 'Tristan und Isolde, Prelude — pitch-cell schematic',
+      kicker: 'Tristan und Isolde, Prelude: pitch-cell schematic',
       title: 'Four-note chromatic ascent',
       abc: `X:3
 T:Tristan ascending cell
@@ -123,7 +123,7 @@ V:1 name="Oboe"
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Mathilde Wesendonck', title: 'Im Treibhaus — opening stanzas', date: '1858', lang: 'German', translator: 'Our translation',
+      type: 'poem', author: 'Mathilde Wesendonck', title: 'Im Treibhaus: opening stanzas', date: '1858', lang: 'German', translator: 'Our translation',
       original: `Hochgewölbte Blätterkronen,
 Baldachine von Smaragd:
 Kinder ihr aus fernen Zonen,
@@ -146,7 +146,7 @@ rises upward, sweet fragrance.`,
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Richard Wagner', title: 'Hans Sachs’s Wahn monologue — opening', date: 'Libretto completed 1862; opera completed 1867', lang: 'German', translator: 'Our translation',
+      type: 'poem', author: 'Richard Wagner', title: 'Hans Sachs’s Wahn monologue: opening', date: 'Libretto completed 1862; opera completed 1867', lang: 'German', translator: 'Our translation',
       original: `Wahn! Wahn!
 Überall Wahn!
 Wohin ich forschend blick’
@@ -178,9 +178,9 @@ in useless, frantic rage.`,
     note: `<p>[[mahler|Mahler]] learnt Wagner from the conductor’s desk, balancing these orchestras against singers night after night. [[bruckner|Bruckner]] brought Wagner tubas into the symphony. [[debussy|Debussy]] went to Bayreuth, and later quoted <i>Tristan</i> in <i>Golliwogg’s Cake-walk</i> to make fun of it. [[schoenberg|Schoenberg]] took Wagner’s chromaticism further, into music that eventually gave up a home key.</p>`,
   },
   reading: [
-    'Barry Millington, <i>The Sorcerer of Bayreuth</i> (Thames & Hudson, 2012) — an illustrated account that includes the politics and the theatre’s afterlife.',
-    'Thomas S. Grey, ed., <i>The Cambridge Companion to Wagner</i> (Cambridge, 2008) — essays on the works, performance and reception.',
-    'Deryck Cooke, <i>I Saw the World End</i> (Oxford, 1979) — unfinished but detailed reading of the Ring’s drama and musical relationships.',
-    'University of Texas, <a href="https://www.laits.utexas.edu/tristan/prelude.php">Tristan Prelude analysis</a> — a score-led account of the opening motifs and harmony.',
+    'Barry Millington, <i>The Sorcerer of Bayreuth</i> (Thames & Hudson, 2012): an illustrated account that includes the politics and the theatre’s afterlife.',
+    'Thomas S. Grey, ed., <i>The Cambridge Companion to Wagner</i> (Cambridge, 2008): essays on the works, performance and reception.',
+    'Deryck Cooke, <i>I Saw the World End</i> (Oxford, 1979): unfinished but detailed reading of the Ring’s drama and musical relationships.',
+    'University of Texas, <a href="https://www.laits.utexas.edu/tristan/prelude.php">Tristan Prelude analysis</a>: a score-led account of the opening motifs and harmony.',
   ],
 };

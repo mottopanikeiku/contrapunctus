@@ -6,7 +6,7 @@ export default {
   composer: 'bartok',
   order: 3,
   work: 'Concerto for Orchestra, Sz. 116',
-  movement: 'II. Giuoco delle coppie — Allegretto scherzando',
+  movement: 'II. Giuoco delle coppie, Allegretto scherzando',
   set: { id: 'bartok-concerto-orchestra', title: 'Concerto for Orchestra', part: 2, of: 5 },
   year: '1943 (revised 1945)',
   key: '',

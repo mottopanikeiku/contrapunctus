@@ -114,7 +114,7 @@
       "note": "The musical-composition tag is PD-old-100. This does not license a later edition, arrangement or recording."
     },
     "recording": {
-      "value": "Rule 1 — recording release: PD-author public-domain dedication by Musopen.",
+      "value": "Rule 1, recording release: PD-author public-domain dedication by Musopen.",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons"
@@ -162,7 +162,7 @@
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - ii. largo.ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - ii. largo.ogg",
       "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&revids=1048736444%7C1029369215%7C1259318927%7C1146394215%7C658946491%7C1190184410%7C848584084%7C1126687476%7C1030746393%7C1055787249",
       "locator": "Opened file-description wikitext for File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - ii. largo.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"

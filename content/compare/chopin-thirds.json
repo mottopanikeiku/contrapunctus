@@ -17,13 +17,13 @@
     { "label": "Scales in pairs", "t": 85, "note": "The right hand plays thirds up and down the keyboard while the left hand continues its phrase underneath." }
   ],
   "sources": [
-    { "title": "Neeman — Musopen recording", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._6_in_G-Sharp_minor_%27Thirds%27_(Edward_Neeman).flac" },
-    { "title": "Paderewski — Victor 917-B transfer", "url": "https://archive.org/details/78_etude-in-g-sharp-minor_ignace-jan-paderewski-chopin_gbia0183841b" },
-    { "title": "DAHR — Victor 917, publication 1923", "url": "https://adp.library.ucsb.edu/index.php/objects/detail/87088" },
-    { "title": "DAHR — matrix B-27918 and takes", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800001905" },
-    { "title": "Mieczysław Tomaszewski, Chopin Institute — Op. 25 No. 6 and the sotto voce marking", "url": "https://chopin.nifc.pl/en/chopin/kompozycja/192" },
-    { "title": "Fred Yu — the opening trill, running thirds and the relationship between the hands", "url": "https://www.ourchopin.com/analysis/etude25.html" },
-    { "title": "Australian National University — Neeman’s work on the sostenuto mechanism", "url": "https://music.cass.anu.edu.au/people/dr-edward-neeman" },
-    { "title": "USC Polish Music Center — Paderewski’s musical career and service as prime minister in 1919", "url": "https://polishmusic.usc.edu/research/composers/ignacy-jan-paderewski/" }
+    { "title": "Neeman: Musopen recording", "url": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._6_in_G-Sharp_minor_%27Thirds%27_(Edward_Neeman).flac" },
+    { "title": "Paderewski: Victor 917-B transfer", "url": "https://archive.org/details/78_etude-in-g-sharp-minor_ignace-jan-paderewski-chopin_gbia0183841b" },
+    { "title": "DAHR: Victor 917, publication 1923", "url": "https://adp.library.ucsb.edu/index.php/objects/detail/87088" },
+    { "title": "DAHR: matrix B-27918 and takes", "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800001905" },
+    { "title": "Mieczysław Tomaszewski, Chopin Institute: Op. 25 No. 6 and the sotto voce marking", "url": "https://chopin.nifc.pl/en/chopin/kompozycja/192" },
+    { "title": "Fred Yu: the opening trill, running thirds and the relationship between the hands", "url": "https://www.ourchopin.com/analysis/etude25.html" },
+    { "title": "Australian National University: Neeman’s work on the sostenuto mechanism", "url": "https://music.cass.anu.edu.au/people/dr-edward-neeman" },
+    { "title": "USC Polish Music Center: Paderewski’s musical career and service as prime minister in 1919", "url": "https://polishmusic.usc.edu/research/composers/ignacy-jan-paderewski/" }
   ]
 }

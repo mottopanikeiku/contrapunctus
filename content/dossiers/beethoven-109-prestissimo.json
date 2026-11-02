@@ -124,7 +124,7 @@
       "note": "Beethoven died in 1827. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
     },
     "recording": {
-      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "value": "Rule 3, territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -135,14 +135,14 @@
       "note": "Commons applies PD-EU-audio to Schnabel’s 1932 HMV recording and the Internet Archive item carries a Public Domain Mark 1.0 licence URL. The programme’s pre-1963 European rule applies because the 50-year term had expired before the 2013 extension. This is territorial, not a worldwide licence; US sound-recording status is not established. The exact first-publication date is not independently documented.",
       "alternatives": [
         {
-          "value": "PD-EU-audio — European performers’ and producers’ rights claimed expired.",
+          "value": "PD-EU-audio: European performers’ and producers’ rights claimed expired.",
           "sourceIds": [
             "commons",
             "eu-audio"
           ]
         },
         {
-          "value": "Public Domain Mark 1.0 — licence URL on the Internet Archive item.",
+          "value": "Public Domain Mark 1.0: licence URL on the Internet Archive item.",
           "sourceIds": [
             "upstream"
           ]
@@ -155,49 +155,49 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Klaviersonate Nr. 30 E-Dur op. 109 - II. Prestissimo.ogg",
+      "title": "Wikimedia Commons: Klaviersonate Nr. 30 E-Dur op. 109 - II. Prestissimo.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Klaviersonate_Nr._30_E-Dur_op._109_-_II._Prestissimo.ogg",
       "locator": "File-description wikitext: Description, Date 1932, Source (Internet Archive items beethovenschnabel4–8), Author, and licence template PD-EU-audio.",
       "accessed": "2026-10-17"
     },
     {
       "id": "upstream",
-      "title": "Internet Archive — Artur Schnabel, Beethoven Piano Sonatas vol. 8",
+      "title": "Internet Archive: Artur Schnabel, Beethoven Piano Sonatas vol. 8",
       "url": "https://archive.org/metadata/beethovenschnabel8",
       "locator": "metadata.description: “Nr. 30 op. 109: recorded 22.III.1932”; “first complete recording … by Artur Schnabel between 1932 and 1935 … His Master’s Voice”; file 095 - Klaviersonate Nr. 30 E-Dur op. 109 - II. Prestissimo.mp3; licenseurl Public Domain Mark 1.0; added 27 March 2020.",
       "accessed": "2026-10-17"
     },
     {
       "id": "discography",
-      "title": "MusicWeb International — Colin Clarke, review of Naxos Historical 8.110763",
+      "title": "MusicWeb International: Colin Clarke, review of Naxos Historical 8.110763",
       "url": "https://musicweb-international.com/classrev/2005/Mar05/Beethoven_schnable9_8110763.htm",
       "locator": "Heading: Op. 109, HMV DB 1822–24, recorded Abbey Road Studio No. 3 on 22 March 1932; sonata timing 20:21. The review concerns a separate Naxos transfer.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "Wikipedia — Ludwig van Beethoven",
+      "title": "Wikipedia: Ludwig van Beethoven",
       "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
       "locator": "Lead paragraph: baptised 17 December 1770 – 26 March 1827.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright term",
+      "title": "Directive 2006/116/EC: copyright term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-extension",
-      "title": "Directive 2011/77/EU — transitional sound-recording term",
+      "title": "Directive 2011/77/EU: transitional sound-recording term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Article 1(3), inserting Article 10(5): the extended term applies to phonograms still protected on 1 November 2013.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-audio",
-      "title": "Wikimedia Commons — PD-EU-audio",
+      "title": "Wikimedia Commons: PD-EU-audio",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio",
       "locator": "Template and documentation: expiry of European performers’ and producers’ rights; the underlying composition requires a separate basis; territorial.",
       "accessed": "2026-10-17"

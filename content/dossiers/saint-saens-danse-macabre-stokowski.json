@@ -101,56 +101,56 @@
   "sources": [
     {
       "id": "ia",
-      "title": "Internet Archive — Dance Macabre (Camille Saint-Saens; Stokowski; Philadelphia Orchestra)",
+      "title": "Internet Archive: Dance Macabre (Camille Saint-Saens; Stokowski; Philadelphia Orchestra)",
       "url": "https://archive.org/details/Saint-saensDanceMacabre",
       "locator": "Description: Stokowski, Philadelphia Orchestra, Thaddeus Rich, violin solo; transfer by Bob Varney from Victor 6505 issued in 1925; licence field CC BY 3.0; MP3 of 428.88 seconds.",
       "accessed": "2026-10-19"
     },
     {
       "id": "other",
-      "title": "Wikimedia Commons — PhiladelphiaSymphonyOrchestra-DanseMacabre.ogg",
+      "title": "Wikimedia Commons: PhiladelphiaSymphonyOrchestra-DanseMacabre.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:PhiladelphiaSymphonyOrchestra-DanseMacabre.ogg",
       "locator": "The other Internet Archive transfer of the same sides (concatenated Victor 6505-A and B, master numbers CVE-27929 and CVE-27930, record date 29 April 1925); 419 seconds.",
       "accessed": "2026-10-19"
     },
     {
       "id": "dahr1",
-      "title": "Discography of American Historical Recordings — Victor matrix CVE-27929. Danse macabre, op. 40 / Philadelphia Orchestra; Leopold Stokowski",
+      "title": "Discography of American Historical Recordings: Victor matrix CVE-27929. Danse macabre, op. 40 / Philadelphia Orchestra; Leopold Stokowski",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/800001918/CVE-27929-Danse_macabre_op._40",
       "locator": "Part 1; take 2 master, 4/29/1925, Camden, New Jersey; Victor 6505 and reissues; instrumentation field.",
       "accessed": "2026-10-19"
     },
     {
       "id": "dahr2",
-      "title": "Discography of American Historical Recordings — Victor matrix CVE-27930. Danse macabre, op. 40 / Philadelphia Orchestra; Leopold Stokowski",
+      "title": "Discography of American Historical Recordings: Victor matrix CVE-27930. Danse macabre, op. 40 / Philadelphia Orchestra; Leopold Stokowski",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/detail/800001920/CVE-27930-Danse_macabre_op._40",
       "locator": "Part 2; take 2 master, 4/29/1925, Camden, New Jersey; Victor 6505; take 3 destroyed.",
       "accessed": "2026-10-19"
     },
     {
       "id": "supp",
-      "title": "Victor Talking Machine Company — New Victor Records, catalogue supplement for 1 December 1925",
+      "title": "Victor Talking Machine Company: New Victor Records, catalogue supplement for 1 December 1925",
       "url": "https://archive.org/details/victor-dec-1st-1925",
       "locator": "Index of “Records issued since the last edition of the catalog”: Danse Macabre, Philadelphia Orch., 6505, 12-inch, $2.00. The Victor record catalog of 1926 (https://archive.org/details/catalogueofvicto00vict_3) lists it again, Orthophonic, 6505, 12-inch.",
       "accessed": "2026-10-19"
     },
     {
       "id": "tmpl",
-      "title": "Wikimedia Commons — Template:PD-US-record-expired",
+      "title": "Wikimedia Commons: Template:PD-US-record-expired",
       "url": "https://commons.wikimedia.org/wiki/Template:PD-US-record-expired",
       "locator": "Wording: public domain in the United States because published before 1 January 1926 (17 U.S.C. § 1401).",
       "accessed": "2026-10-19"
     },
     {
       "id": "brz",
-      "title": "Palazzetto Bru Zane Mediabase — Danse macabre",
+      "title": "Palazzetto Bru Zane Mediabase: Danse macabre",
       "url": "https://www.bruzanemediabase.com/en/exploration/works/danse-macabre-camille-saint-saens",
       "locator": "Première at the Théâtre du Châtelet, 24 January 1875; song of 1872 to Henri Cazalis’s poem; solo violin scordatura; xylophone; Fossiles quotation; Saint-Saëns’s remark to Durand of March 1876.",
       "accessed": "2026-10-19"
     },
     {
       "id": "societe",
-      "title": "Société Camille Saint-Saëns — Chronologie 1919–1921",
+      "title": "Société Camille Saint-Saëns: Chronologie 1919–1921",
       "url": "https://camille-saint-saens.org/1919-1921/",
       "locator": "16 December 1921: death at Algiers.",
       "accessed": "2026-10-18"

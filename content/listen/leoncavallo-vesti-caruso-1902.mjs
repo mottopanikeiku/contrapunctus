@@ -5,7 +5,7 @@ export default {
   concert: false,
   order: 1,
   work: 'Pagliacci',
-  movement: 'Vesti la giubba — piano-accompanied side',
+  movement: 'Vesti la giubba: piano-accompanied side',
   year: '1892',
   key: '',
   forces: 'Tenor and piano',

@@ -1,6 +1,6 @@
 export default {
   id: 'bizet-carmen-toreador', composer: 'bizet', order: 2,
-  work: 'Carmen', movement: 'Act II · Toreador Song — sung in Italian',
+  work: 'Carmen', movement: 'Act II · Toreador Song: sung in Italian',
   year: '1873–75', key: 'F minor / F major', forces: 'Baritone and orchestra',
   performers: 'Pasquale Amato, baritone; Victor orchestra, Walter B. Rogers',
   recorded: '1911, Camden, New Jersey',

@@ -131,7 +131,7 @@ V:2
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Martin Luther', title: 'Aus tiefer Not schrei ich zu dir — first stanza', date: '1524', lang: 'German', translator: 'Our translation',
+      type: 'poem', author: 'Martin Luther', title: 'Aus tiefer Not schrei ich zu dir: first stanza', date: '1524', lang: 'German', translator: 'Our translation',
       original: `Aus tiefer Not schrei ich zu dir,
 Herr Gott, erhör mein Rufen.
 Dein gnädig’ Ohren kehr zu mir
@@ -150,7 +150,7 @@ who, Lord, can stand before you?`,
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Philipp Nicolai', title: 'Wachet auf, ruft uns die Stimme — opening lines', date: '1599', lang: 'German', translator: 'Our translation',
+      type: 'poem', author: 'Philipp Nicolai', title: 'Wachet auf, ruft uns die Stimme: opening lines', date: '1599', lang: 'German', translator: 'Our translation',
       original: `Wachet auf, ruft uns die Stimme
 der Wächter sehr hoch auf der Zinne,
 wach auf, du Stadt Jerusalem!
@@ -171,7 +171,7 @@ where are you, wise maidens?`,
     { work: 'St Matthew Passion', performers: 'Collegium Vocale Gent, Philippe Herreweghe', label: 'Harmonia Mundi', note: 'An unforced account of the drama. The choir is light enough for the crowd’s quick interjections, and the chorales are sung on an intimate scale.' },
     { work: 'Mass in B minor', performers: 'Dunedin Consort, John Butt', label: 'Linn', note: 'The performance uses ten singers and nineteen instrumentalists. With forces of this size, individual lines can be heard in the quick choruses and in the eight-part writing.' },
     { work: 'Six Cello Suites', performers: 'Pablo Casals, cello', year: '1936–39', label: 'EMI', note: 'Casals leans on bass notes, slides between pitches and takes liberties with the dance rhythms.' },
-    { work: 'Cantatas — Bach Cantata Pilgrimage', performers: 'Monteverdi Choir, English Baroque Soloists, John Eliot Gardiner', label: 'Soli Deo Gloria', note: 'The 2000 pilgrimage recordings group the cantatas by their place in the church year; each programme brings together several cantatas Bach wrote for the same Sunday. Gardiner’s performances use a forceful attack and put weight on the words.' },
+    { work: 'Cantatas: Bach Cantata Pilgrimage', performers: 'Monteverdi Choir, English Baroque Soloists, John Eliot Gardiner', label: 'Soli Deo Gloria', note: 'The 2000 pilgrimage recordings group the cantatas by their place in the church year; each programme brings together several cantatas Bach wrote for the same Sunday. Gardiner’s performances use a forceful attack and put weight on the words.' },
   ],
   lineage: {
     from: ['Dieterich Buxtehude', 'Johann Pachelbel', 'Georg Böhm', 'vivaldi', 'Arcangelo Corelli', 'Lutheran chorales'],
@@ -179,9 +179,9 @@ where are you, wise maidens?`,
     note: `<p>Bach learnt from Buxtehude’s organ music and from the [[vivaldi|Vivaldi]] concertos he arranged for keyboard. Later composers worked from his scores. [[brahms|Brahms]] arranged the D minor Chaconne for the left hand alone, [[webern|Webern]] orchestrated the six-part ricercar, and [[shostakovich|Shostakovich]] wrote his own cycle of twenty-four preludes and fugues. [[cpe-bach|Carl Philipp Emanuel]] learnt the craft directly from his father.</p>`,
   },
   reading: [
-    'Christoph Wolff, <i>Johann Sebastian Bach: The Learned Musician</i> (Norton, 2000) — the career reconstructed through institutions, documents and musical work.',
-    'John Butt, <i>Bach’s Dialogue with Modernity: Perspectives on the Passions</i> (Cambridge, 2010) — the Passions as historically situated acts of interpretation.',
-    'Peter Williams, <i>The Organ Music of J. S. Bach</i>, second edition (Cambridge, 2003) — sources, attribution and close musical description.',
-    '<a href="https://www.bach-leipzig.de/de/node/3231">Bach-Archiv Leipzig, <i>Johann Sebastian Bach — A Chronology</i></a>; <a href="https://www.bach-digital.de/">Bach Digital</a> — documentary dates, manuscript descriptions and digitised sources.',
+    'Christoph Wolff, <i>Johann Sebastian Bach: The Learned Musician</i> (Norton, 2000): the career reconstructed through institutions, documents and musical work.',
+    'John Butt, <i>Bach’s Dialogue with Modernity: Perspectives on the Passions</i> (Cambridge, 2010): the Passions as historically situated acts of interpretation.',
+    'Peter Williams, <i>The Organ Music of J. S. Bach</i>, second edition (Cambridge, 2003): sources, attribution and close musical description.',
+    '<a href="https://www.bach-leipzig.de/de/node/3231">Bach-Archiv Leipzig, <i>Johann Sebastian Bach: A Chronology</i></a>; <a href="https://www.bach-digital.de/">Bach Digital</a>: documentary dates, manuscript descriptions and digitised sources.',
   ],
 };

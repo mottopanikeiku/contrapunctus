@@ -2,7 +2,7 @@
 // Score commentary: http://www.hberlioz.com/Scores/sfantastique.htm
 export default {
   id: 'berlioz-fantastique-un-bal', composer: 'berlioz', order: 20,
-  work: 'Symphonie fantastique, Op. 14', movement: 'II. Un bal — Valse. Allegro non troppo',
+  work: 'Symphonie fantastique, Op. 14', movement: 'II. Un bal, Valse. Allegro non troppo',
   set: { id: 'berlioz-symphonie-fantastique', title: 'Symphonie fantastique, Op. 14', part: 2, of: 5 },
   year: '1830', key: 'A major', forces: 'Orchestra with two harp parts',
   performers: 'Igor Markevitch, Orchestre Lamoureux', recorded: '11–17 January 1961',
@@ -36,7 +36,7 @@ export default {
   orchestra: {
     ensemble: ['piccolo', 'flutes', 'oboes', 'clarinets', 'horns', 'harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Berlioz, Un bal — orchestral score without the optional cornet', url: 'http://www.hberlioz.com/scosupp/symfantas2.pdf', locator: 'Introduction and waltz, bars 1–119; central idée fixe, bars 120–162; short return, bars 302–319; coda from bar 320.' },
+    source: { title: 'Berlioz, Un bal: orchestral score without the optional cornet', url: 'http://www.hberlioz.com/scosupp/symfantas2.pdf', locator: 'Introduction and waltz, bars 1–119; central idée fixe, bars 120–162; short return, bars 302–319; coda from bar 320.' },
     timeline: [
       { t: 0, playing: ['harp', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['harp', 'violins-1'], note: 'Tremolo strings prepare the successive entries of the two harp parts.' },
       { t: 35, playing: ['violins-1', 'violins-2', 'violas', 'cellos', 'basses'], lead: ['violins-1'], note: 'First violins play the waltz over bowed inner strings and plucked bass notes.' },

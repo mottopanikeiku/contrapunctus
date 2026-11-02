@@ -4,7 +4,7 @@ export default {
   concert: false,
   order: 6,
   work: 'Le Carnaval des animaux',
-  movement: 'XIII. Le Cygne — cello and marimba',
+  movement: 'XIII. Le Cygne: cello and marimba',
   year: '1886',
   key: 'G major',
   forces: 'Cello and marimba',

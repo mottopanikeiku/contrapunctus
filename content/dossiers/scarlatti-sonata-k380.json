@@ -86,7 +86,7 @@
       "note": "Commons applies PD-old-70-expired to the work; Scarlatti died in 1757. This does not establish recording rights or clear an unidentified performing edition."
     },
     "recording": {
-      "value": "Territorial — Commons PD-EU-audio sound-recording status",
+      "value": "Territorial: Commons PD-EU-audio sound-recording status",
       "status": "documented",
       "sourceIds": ["commons", "rights-tag"],
       "note": "The programme accepts the recording-specific PD-EU-audio statement territorially. US public-domain status is not established and is not asserted; Commons also carries its pre-1972 US-recording copyright warning. The generic public-domain metadata and composition-only tag are not the sound-recording clearance. No first-publication date is invented from November 1954."
@@ -95,12 +95,12 @@
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio"
   },
   "sources": [
-    { "id": "commons", "title": "Wikimedia Commons — Scarlatti Kk.380, Marcelle Meyer", "url": "https://commons.wikimedia.org/wiki/File:Domenico_Scarlatti_-_Sonate_en_mi_majeur_Kk.380_(Marcelle_Meyer,_1954).flac", "locator": "Summary, Author, DF 139 1-2 source, Licensing and File history; opened revision 1208738154. The displayed zero-bitrate transcode status is not used to deny an MP3 that the analyser successfully downloaded.", "accessed": "2026-10-17" },
-    { "id": "discography", "title": "Classical Pianists — Marcelle Meyer chronology", "url": "https://classical-pianists.net/viii/marcelle-meyer/chronology/", "locator": "MaMe-C#019: November 1954, Salle Adyar, K. 380, Les Discophiles Français DF 139 LP.", "accessed": "2026-10-17" },
-    { "id": "work-index", "title": "IMSLP — Keyboard Sonata in E major, K.380", "url": "https://imslp.org/wiki/Keyboard_Sonata_in_E_major,_K.380_(Scarlatti,_Domenico)", "locator": "Work identity, key, Andante commodo heading and source list. The generic 1754 date is qualified as a manuscript-copy date in the listening metadata.", "accessed": "2026-10-17" },
-    { "id": "score", "title": "Scarlatti — Sonata in E major, Longo keyboard edition", "url": "https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP691879-PMLP297350-keyboard_Sonata_in_E_major,_K.380.pdf", "locator": "Four-page score: 3/4 metre, first-half repeat after bar 40, second half and final repeat. Used for form and pitches, not to attribute later editorial dynamics or fingering to the composer.", "accessed": "2026-10-17" },
-    { "id": "biography", "title": "Cristina Fernandes — Scarlatti, Giuseppe Domenico, Treccani", "url": "https://www.treccani.it/enciclopedia/giuseppe-domenico-scarlatti_%28Dizionario-Biografico%29/", "locator": "Roman appointments, 1719 Portuguese service, 1729 move to Spain, manuscript-copy history and uncertain composition chronology; compared with the existing composer biography.", "accessed": "2026-10-17" },
-    { "id": "rights-tag", "title": "Wikimedia Commons — PD-EU-audio", "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio", "locator": "Recording-specific European performers’ and producers’ rights statement.", "accessed": "2026-10-17" }
+    { "id": "commons", "title": "Wikimedia Commons: Scarlatti Kk.380, Marcelle Meyer", "url": "https://commons.wikimedia.org/wiki/File:Domenico_Scarlatti_-_Sonate_en_mi_majeur_Kk.380_(Marcelle_Meyer,_1954).flac", "locator": "Summary, Author, DF 139 1-2 source, Licensing and File history; opened revision 1208738154. The displayed zero-bitrate transcode status is not used to deny an MP3 that the analyser successfully downloaded.", "accessed": "2026-10-17" },
+    { "id": "discography", "title": "Classical Pianists: Marcelle Meyer chronology", "url": "https://classical-pianists.net/viii/marcelle-meyer/chronology/", "locator": "MaMe-C#019: November 1954, Salle Adyar, K. 380, Les Discophiles Français DF 139 LP.", "accessed": "2026-10-17" },
+    { "id": "work-index", "title": "IMSLP: Keyboard Sonata in E major, K.380", "url": "https://imslp.org/wiki/Keyboard_Sonata_in_E_major,_K.380_(Scarlatti,_Domenico)", "locator": "Work identity, key, Andante commodo heading and source list. The generic 1754 date is qualified as a manuscript-copy date in the listening metadata.", "accessed": "2026-10-17" },
+    { "id": "score", "title": "Scarlatti: Sonata in E major, Longo keyboard edition", "url": "https://s9.imslp.org/files/imglnks/usimg/7/7d/IMSLP691879-PMLP297350-keyboard_Sonata_in_E_major,_K.380.pdf", "locator": "Four-page score: 3/4 metre, first-half repeat after bar 40, second half and final repeat. Used for form and pitches, not to attribute later editorial dynamics or fingering to the composer.", "accessed": "2026-10-17" },
+    { "id": "biography", "title": "Cristina Fernandes: Scarlatti, Giuseppe Domenico, Treccani", "url": "https://www.treccani.it/enciclopedia/giuseppe-domenico-scarlatti_%28Dizionario-Biografico%29/", "locator": "Roman appointments, 1719 Portuguese service, 1729 move to Spain, manuscript-copy history and uncertain composition chronology; compared with the existing composer biography.", "accessed": "2026-10-17" },
+    { "id": "rights-tag", "title": "Wikimedia Commons: PD-EU-audio", "url": "https://commons.wikimedia.org/wiki/Template:PD-EU-audio", "locator": "Recording-specific European performers’ and producers’ rights statement.", "accessed": "2026-10-17" }
   ],
   "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
 }

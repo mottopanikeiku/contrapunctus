@@ -64,7 +64,7 @@ export default {
       "t": 0,
       "kind": "music",
       "title": "Opening of movement III, low instruments",
-      "text": "<i>Animé et tumultueux</i> — animated and tumultuous. Timpani and bass drum roll softly while cellos and basses climb in short, twisting figures, and the tam-tam sounds. Most of the orchestra is still silent.",
+      "text": "<i>Animé et tumultueux</i> (animated and tumultuous). Timpani and bass drum roll softly while cellos and basses climb in short, twisting figures, and the tam-tam sounds. Most of the orchestra is still silent.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, movement III, printed p. 223: timpani, bass drum, tam-tam and low-string figures. https://s9.imslp.org/files/imglnks/usimg/b/b6/IMSLP15420-Debussy_-_La_Mer_%28orch._score%29.pdf"
@@ -136,7 +136,7 @@ export default {
       "t": 432,
       "kind": "music",
       "title": "Final chords in D♭ major",
-      "text": "After the orchestra’s last sustained chord in D♭ major, the timpani strike once more with the strings playing pizzicato. Debussy marks this final attack <i>sec</i> — dry.",
+      "text": "After the orchestra’s last sustained chord in D♭ major, the timpani strike once more with the strings playing pizzicato. Debussy marks this final attack <i>sec</i> (dry).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, final page, printed p. 279: final timpani and pizzicato string attack marked sec. Jacob Greenberg describes the same ending: https://www.bso.org/works/la-mer."

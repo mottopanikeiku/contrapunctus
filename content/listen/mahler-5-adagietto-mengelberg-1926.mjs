@@ -4,7 +4,7 @@ export default {
   order: 31,
   concert: false,
   work: 'Symphony No. 5',
-  movement: 'IV. Adagietto — Sehr langsam',
+  movement: 'IV. Adagietto, Sehr langsam',
   year: '1901–02',
   key: 'F major',
   forces: 'Strings and harp',

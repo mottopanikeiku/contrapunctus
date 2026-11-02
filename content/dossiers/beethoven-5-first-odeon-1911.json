@@ -28,11 +28,11 @@
     ],
     "alternatives": [
       {
-        "value": "Odeon Grand Orchestra; Friedrich Kark, conductor — older attribution",
+        "value": "Odeon Grand Orchestra; Friedrich Kark, conductor (older attribution)",
         "sourceIds": ["source", "history"]
       },
       {
-        "value": "Odeon company orchestra; Eduard Künneke, conductor — Hepokoski’s inference, not named on the original labels",
+        "value": "Odeon company orchestra; Eduard Künneke, conductor: Hepokoski’s inference, not named on the original labels",
         "sourceIds": ["reassessment"]
       }
     ],
@@ -49,11 +49,11 @@
       ],
       "alternatives": [
         {
-          "value": "1910 — Internet Archive and the 2015 Science Museum article",
+          "value": "1910: Internet Archive and the 2015 Science Museum article",
           "sourceIds": ["source", "history"]
         },
         {
-          "value": "August 1911 — James Hepokoski’s 2023 publisher-deposited abstract",
+          "value": "August 1911: James Hepokoski’s 2023 publisher-deposited abstract",
           "sourceIds": ["reassessment"]
         }
       ],
@@ -159,28 +159,28 @@
   "sources": [
     {
       "id": "source",
-      "title": "Internet Archive — recording item",
+      "title": "Internet Archive: recording item",
       "url": "https://archive.org/details/BeethovenFifth1910",
       "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "history",
-      "title": "Science Museum Group Journal — acoustic recording",
+      "title": "Science Museum Group Journal: acoustic recording",
       "url": "https://journal.sciencemuseum.ac.uk/article/acoustic-recording/",
       "locator": "Introduction and footnote 1 identify Odeon’s early commercial set; the older Kark/1910 attribution is not treated as settled.",
       "accessed": "2026-10-17"
     },
     {
       "id": "reassessment",
-      "title": "James Hepokoski, “Listen and Be Amazed!” (JAMS 76/1, 2023) — publisher-deposited abstract",
+      "title": "James Hepokoski, “Listen and Be Amazed!” (JAMS 76/1, 2023): publisher-deposited abstract",
       "url": "https://api.crossref.org/works/10.1525/jams.2023.76.1.113",
       "locator": "Opened Crossref record contains the author and full publisher-deposited abstract: Odeon’s Beethoven Fifth recorded in Berlin in August 1911; the unnamed conductor is inferred to be Künneke. Full article returned 403 and was not read.",
       "accessed": "2026-10-17"
     },
     {
       "id": "term",
-      "title": "US Copyright Office — pre 1972 sound recordings",
+      "title": "US Copyright Office: pre 1972 sound recordings",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
       "locator": "Recordings first published before 1923 and the annual expiration schedule for 1923–1946 publications; as of 2026 the cutoff is 1925.",
       "accessed": "2026-10-17"

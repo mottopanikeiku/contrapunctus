@@ -3,7 +3,7 @@ export default {
   "composer": "origins-corelli",
   "order": 1,
   "work": "Concerto grosso in D major, Op. 6 No. 4",
-  "movement": "I. Adagio — Allegro",
+  "movement": "I. Adagio, Allegro",
   "set": {
     "id": "origins-corelli-op6-4",
     "title": "Concerto grosso in D major, Op. 6 No. 4",
@@ -19,7 +19,7 @@ export default {
   "source": {
     "file": "File:Corelli - Concerto Grosso Op. 6 No. 4 - 1. Adagio - Allegro.ogg"
   },
-  "intro": "The Advent Chamber Orchestra plays the first movement, Adagio — Allegro, of Corelli’s Concerto grosso in D major, Op. 6 No. 4. Four slow bars open the movement, and the two solo violins then exchange phrases through the Allegro.",
+  "intro": "The Advent Chamber Orchestra plays the first movement, Adagio, Allegro, of Corelli’s Concerto grosso in D major, Op. 6 No. 4. Four slow bars open the movement, and the two solo violins then exchange phrases through the Allegro.",
   "sections": [
     {
       "t": 0,
@@ -192,7 +192,7 @@ export default {
     "solo": "solo-violin",
     "basis": "score-proportion",
     "source": {
-      "title": "Corelli, Op. 6 — full score, Concerto IV",
+      "title": "Corelli, Op. 6: full score, Concerto IV",
       "url": "https://s9.imslp.org/files/imglnks/usimg/5/5e/IMSLP128514-PMLP28008-Corelli_-_Op._6.pdf",
       "locator": "Printed pages 56–61: two solo violins and solo cello, ripieno violins, viola, bass and continuo."
     },

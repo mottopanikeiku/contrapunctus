@@ -2,7 +2,7 @@ export default {
   "id": "lili-boulanger-psalm-129",
   "composer": "lili-boulanger",
   "order": 4,
-  "work": "Psalm 129 — Ils m’ont assez opprimé dès ma jeunesse",
+  "work": "Psalm 129; Ils m’ont assez opprimé dès ma jeunesse",
   "movement": "",
   "year": "1916",
   "key": "D minor",

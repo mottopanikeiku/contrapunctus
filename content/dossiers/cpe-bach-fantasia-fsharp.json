@@ -125,7 +125,7 @@
       "note": "The source notes give C. P. E. Bach’s lifespan as 1714–1788. This does not remove rights in Joan Benson’s recording."
     },
     "recording": {
-      "value": "Rule 1 — recording licence/release: CC BY-SA 2.0 (EFF Open Audio License).",
+      "value": "Rule 1, recording licence/release: CC BY-SA 2.0 (EFF Open Audio License).",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons"
@@ -187,7 +187,7 @@
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Carl Phillipe Emanuel Bach - Freie Fantasie, F Sharp minor.ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Carl Phillipe Emanuel Bach - Freie Fantasie, F Sharp minor.ogg",
       "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&revids=1048736444%7C1029369215%7C1259318927%7C1146394215%7C658946491%7C1190184410%7C848584084%7C1126687476%7C1030746393%7C1055787249",
       "locator": "Opened file-description wikitext for File:Carl Phillipe Emanuel Bach - Freie Fantasie, F Sharp minor.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"

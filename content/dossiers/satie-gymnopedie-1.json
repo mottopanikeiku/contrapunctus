@@ -122,7 +122,7 @@
       "note": "The cited biography places publication in 1888 and Satie’s death in 1925. This does not determine the performance’s rights."
     },
     "recording": {
-      "value": "Rule 1 — recording licence/release: PD-author by Robin Alciatore; Musopen recording release.",
+      "value": "Rule 1, recording licence/release: PD-author by Robin Alciatore; Musopen recording release.",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons"
@@ -184,7 +184,7 @@
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Erik Satie - gymnopedies - la 1 ere. lent et douloureux.ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Erik Satie - gymnopedies - la 1 ere. lent et douloureux.ogg",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1232019273&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Erik Satie - gymnopedies - la 1 ere. lent et douloureux.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"

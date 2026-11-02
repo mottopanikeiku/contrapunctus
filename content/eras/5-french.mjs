@@ -11,7 +11,7 @@ export default {
   hero: {
     file: "File:James McNeill Whistler - Nocturne en bleu et or.jpg",
     artist: "James McNeill Whistler",
-    title: "Nocturne: Blue and Gold — Old Battersea Bridge",
+    title: "Nocturne: Blue and Gold, Old Battersea Bridge",
     date: "c. 1872–75",
     medium: "Oil on canvas",
     collection: "Tate Britain, London",
@@ -92,7 +92,7 @@ V:1
     {
       relation: 'editorial-comparison',
       type: 'poem',
-      author: 'Paul Verlaine', title: 'Art poétique — first and fourth stanzas', date: 'written 1874; published in Jadis et naguère, 1884',
+      author: 'Paul Verlaine', title: 'Art poétique: first and fourth stanzas', date: 'written 1874; published in Jadis et naguère, 1884',
       lang: 'French', translator: 'Our translation',
       original: `De la musique avant toute chose,
 Et pour cela préfère l’Impair

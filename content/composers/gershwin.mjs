@@ -58,7 +58,7 @@ export default {
     { year: '1937', title: 'Shall We Dance', forces: 'Film score; lyrics by Ira Gershwin', note: 'Astaire and Rogers, with <i>They Can’t Take That Away from Me</i> and <i>Let’s Call the Whole Thing Off</i>.' },
   ],
   score: [
-    { kicker: 'Charleston rhythm — schematic', title: 'Two attacks against four beats', abc: `X:1
+    { kicker: 'Charleston rhythm: schematic', title: 'Two attacks against four beats', abc: `X:1
 T:Charleston pulse (schematic)
 M:4/4
 L:1/8
@@ -72,7 +72,7 @@ V:1
 V:2
 %%MIDI program 0
 F,2 C2 F,2 C2 | F,2 C2 F,2 C2 |]`, caption: 'A schematic of the Charleston rhythm named in Gershwin’s note on the Concerto in F. The chords strike on beat one and the offbeat after beat two; the bass marks four even beats. The pitches and accompaniment are invented for this illustration.' },
-    { kicker: 'Syncopation — schematic', title: 'Note across the bar line', abc: `X:2
+    { kicker: 'Syncopation: schematic', title: 'Note across the bar line', abc: `X:2
 T:Accent held across a bar (schematic)
 M:4/4
 L:1/8
@@ -98,9 +98,9 @@ C,2 G,2 C,2 G,2 | C,2 G,2 C,2 G,2 | C,2 G,2 C,2 G,2 | C,2 G,2 C,2 G,2 |]`, capti
   ],
   lineage: { from: ['Jerome Kern', 'Charles Hambitzer', 'African American jazz and blues', 'debussy', 'ravel'], to: ['Duke Ellington', 'Charlie Parker', 'bernstein'], note: '<p>Gershwin’s piano and theatre training met the jazz and blues heard in New York; the slow movement of his concerto also shows his admiration for French orchestral writing. Jazz musicians in turn drew on his music. Ellington’s <i>Cotton Tail</i> uses the chords of <i>I Got Rhythm</i>, and bebop players made the same chord sequence a common resource. Bernstein became one of the <i>Rhapsody</i>’s most prominent interpreters.</p>' },
   reading: [
-    'Howard Pollack, <i>George Gershwin: His Life and Work</i> (University of California Press, 2007) — the large documentary account, with each major work placed in its working circumstances.',
-    'Larry Starr, <i>George Gershwin</i> (Yale University Press, 2011) — a compact study of the Broadway composer and his musical language.',
-    'Ira Gershwin, <i>Lyrics on Several Occasions</i> (1959; Limelight reprint, 2004) — a collaborator explains how words were fitted to music.',
-    'Richard Crawford, <i>The American Musical Landscape</i> (University of California Press, 1993), chapter 7 — how <i>I Got Rhythm</i> became a song, a jazz standard and the basis of other compositions.',
+    'Howard Pollack, <i>George Gershwin: His Life and Work</i> (University of California Press, 2007): the large documentary account, with each major work placed in its working circumstances.',
+    'Larry Starr, <i>George Gershwin</i> (Yale University Press, 2011): a compact study of the Broadway composer and his musical language.',
+    'Ira Gershwin, <i>Lyrics on Several Occasions</i> (1959; Limelight reprint, 2004): a collaborator explains how words were fitted to music.',
+    'Richard Crawford, <i>The American Musical Landscape</i> (University of California Press, 1993), chapter 7: how <i>I Got Rhythm</i> became a song, a jazz standard and the basis of other compositions.',
   ],
 };

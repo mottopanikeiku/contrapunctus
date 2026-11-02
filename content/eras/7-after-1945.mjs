@@ -104,7 +104,7 @@ A B c d | e d c B | A2 G2 | A4 |]`,
     },
     {
       relation: 'editorial-comparison',
-      type: 'poem', author: 'Henry David Thoreau', title: 'Walden — from “Sounds”', date: '1854',
+      type: 'poem', author: 'Henry David Thoreau', title: 'Walden: from “Sounds”', date: '1854',
       lang: 'English',
       original: `I did not read books the first summer; I hoed beans. Nay, I often did better than this. There were times when I could not afford to sacrifice the bloom of the present moment to any work, whether of the head or hands. I love a broad margin to my life.`,
       note: '<p>In <i>Walden</i>, Thoreau followed these words with an account of a morning spent in his doorway, from sunrise to noon, while birds sang around the house. Cage used another of his books, the <i>Journal</i>, for <i>Empty Words</i> (1974). Across its four parts he removed first sentences, then smaller units of language, until only letters and sounds were left for the voice.</p>',

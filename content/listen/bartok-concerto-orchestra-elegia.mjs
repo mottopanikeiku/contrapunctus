@@ -6,7 +6,7 @@ export default {
   composer: 'bartok',
   order: 4,
   work: 'Concerto for Orchestra, Sz. 116',
-  movement: 'III. Elegia — Andante non troppo',
+  movement: 'III. Elegia, Andante non troppo',
   set: { id: 'bartok-concerto-orchestra', title: 'Concerto for Orchestra', part: 3, of: 5 },
   year: '1943 (revised 1945)',
   key: '',

@@ -133,21 +133,21 @@
   "sources": [
     {
       "id": "source",
-      "title": "Internet Archive — recording item",
+      "title": "Internet Archive: recording item",
       "url": "https://archive.org/details/02-eugen-d-albert-syposium-1146",
       "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "original-track-list",
-      "title": "Symposium 1146 — original printed track list",
+      "title": "Symposium 1146: original printed track list",
       "url": "https://archive.org/download/02-eugen-d-albert-syposium-1146/D%27Albert%20tracks.jpg",
       "locator": "Opened image: tracks 12–13 share matrix xxB 5731 and original catalogue 76563; date 1912/3. Footer separately dates the compilation ©/℗ 1993. The exact first-release day is not supplied.",
       "accessed": "2026-10-17"
     },
     {
       "id": "term",
-      "title": "Directive 2011/77/EU — non-revival of expired phonogram terms",
+      "title": "Directive 2011/77/EU: non-revival of expired phonogram terms",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011L0077",
       "locator": "Article 1(3), inserting Article 10(5): extended protection applies to phonograms still protected under the former rules as at 1 November 2013; an expired pre-1963 publication term is not revived.",
       "accessed": "2026-10-17"

@@ -89,7 +89,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "R. Wolfe — transfer credited by Commons; Adam Cuerden — slight hiss reduction attributed from Commons upload context",
+      "value": "R. Wolfe: transfer credited by Commons; Adam Cuerden: slight hiss reduction attributed from Commons upload context",
       "status": "inferred",
       "sourceIds": [
         "commons"
@@ -133,7 +133,7 @@
       "note": "Commons marks the historical work public domain. This does not by itself establish the sound recording’s rights; the recording basis is separately documented below."
     },
     "recording": {
-      "value": "Rule 2 — United States public domain: original sound recording issued as Victor 89006 in 1907, before 1923.",
+      "value": "Rule 2, United States public domain: original sound recording issued as Victor 89006 in 1907, before 1923.",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -149,63 +149,63 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Caruso and Scotti, O Mimì",
+      "title": "Wikimedia Commons: Caruso and Scotti, O Mimì",
       "url": "https://commons.wikimedia.org/wiki/File:La_boh%C3%A8me,_O_Mim%C3%AC,_tu_pi%C3%B9_non_torni_(Caruso,_Scotti).ogg",
       "locator": "Description identifies C-4315, 1907; Source credits R. Wolfe; modification specifies slight hiss reduction; Adam Cuerden upload, PD-US/PD-old and MP3 derivative.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dahr",
-      "title": "DAHR — Victor matrix C-4315",
+      "title": "DAHR: Victor matrix C-4315",
       "url": "https://adp.library.ucsb.edu/index.php/matrix/refer/200006027",
       "locator": "Take 1, 17 March 1907 New York; Victor 89006 and 8000, Gramophone 054127; tenor/baritone duet with orchestra.",
       "accessed": "2026-10-17"
     },
     {
       "id": "issue",
-      "title": "DAHR — Victor 89006",
+      "title": "DAHR: Victor 89006",
       "url": "https://adp.library.ucsb.edu/index.php/objects/refer/56538",
       "locator": "MARC 264 gives Victor [1907]; C-4315 take 1; 12-inch single-faced Red Seal. Original issue, not proof of the transferred carrier.",
       "accessed": "2026-10-17"
     },
     {
       "id": "loc",
-      "title": "Library of Congress — Ah Mimi, tu piu, JSON catalogue",
+      "title": "Library of Congress: Ah Mimi, tu piu, JSON catalogue",
       "url": "https://www.loc.gov/item/jukebox-124594/?fo=json",
       "locator": "item.recording_date 1907-03-17, New York; Victor 8000, C-4315/1; Caruso tenor, Scotti baritone, with orchestra. LOC’s own stream is not used for this listening package.",
       "accessed": "2026-10-17"
     },
     {
       "id": "archive-unavailable",
-      "title": "Internet Archive — linked R. Wolfe transfer (not opened)",
+      "title": "Internet Archive: linked R. Wolfe transfer (not opened)",
       "url": "https://archive.org/details/OMimiTuPiuNonTorni",
       "locator": "Not opened: item page returned 404 and metadata endpoint could not retrieve item. No facts or numbers are cited from this unavailable source; R. Wolfe attribution is documented on Commons.",
       "accessed": "2026-10-17"
     },
     {
       "id": "synopsis",
-      "title": "Royal Opera House — La bohème, 3 October 2017 cinema programme",
+      "title": "Royal Opera House: La bohème, 3 October 2017 cinema programme",
       "url": "http://static.roh.org.uk/showings/la-boheme-live-2017/en.pdf",
       "locator": "Page 2, Acts I and IV: first meeting, café departure, two men recalling absent lovers, friends’ meal and Mimì’s later return.",
       "accessed": "2026-10-17"
     },
     {
       "id": "moses",
-      "title": "Julian Morton Moses — American Celebrity Recordings 1900–1925, UCSB Historical Discographies edition",
+      "title": "Julian Morton Moses: American Celebrity Recordings 1900–1925, UCSB Historical Discographies edition",
       "url": "https://adp-assets.library.ucsb.edu/AmericanCelebrityRecordings.pdf",
       "locator": "Introduction explains that artist sections group records by release years, not session dates. Caruso: Victor Red Seal 1906–1908 includes 89006 and 95200; 1909–1911 includes 87043. Destinn: Victor Red Seal 1914–1917 includes 88487. Opened as extracted text; not used to infer exact take or transfer pressing.",
       "accessed": "2026-10-17"
     },
     {
       "id": "biography",
-      "title": "Puccini Festival — Giacomo Puccini",
+      "title": "Puccini Festival: Giacomo Puccini",
       "url": "https://www.puccinifestival.it/en/giacomo-puccini/",
       "locator": "Biography and work entries: early church work, Milan studies, librettists, source authors, premieres, composer’s death in 1924.",
       "accessed": "2026-10-17"
     },
     {
       "id": "us-recording-term",
-      "title": "U.S. Copyright Office — Classics Protection and Access Act",
+      "title": "U.S. Copyright Office: Classics Protection and Access Act",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
       "locator": "Term: recordings first published before 1923 ceased receiving the specified federal remedies after 31 December 2021. Sound-recording basis, distinct from composition copyright.",
       "accessed": "2026-10-17"

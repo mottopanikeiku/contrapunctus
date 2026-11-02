@@ -135,14 +135,14 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Ravel Duo Campion-Vachon Ma Mere l'oye 1 Pavane de la Belle au bois dormant.OGG",
+      "title": "Wikimedia Commons: Ravel Duo Campion-Vachon Ma Mere l'oye 1 Pavane de la Belle au bois dormant.OGG",
       "url": "https://commons.wikimedia.org/wiki/File:Ravel_Duo_Campion-Vachon_Ma_Mere_l%27oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG",
       "locator": "Description, source, author, licensing and file history; not all dates describe recording sessions.",
       "accessed": "2026-10-17"
     },
     {
       "id": "commons-meta",
-      "title": "Wikimedia Commons — embedded metadata",
+      "title": "Wikimedia Commons: embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Ravel_Duo_Campion-Vachon_Ma_Mere_l%27oye_1_Pavane_de_la_Belle_au_bois_dormant.OGG#metadata",
       "locator": "Embedded author, copyright and digitising tags, where present; not independent confirmation of the file description.",
       "accessed": "2026-10-17"
@@ -156,21 +156,21 @@
     },
     {
       "id": "duo",
-      "title": "Duo Campion/Vachon — performer names",
+      "title": "Duo Campion/Vachon: performer names",
       "url": "https://commons.wikimedia.org/wiki/Duo_Campion/Vachon",
       "locator": "Guy Campion and Mario Vachon; the page embeds this recording.",
       "accessed": "2026-10-17"
     },
     {
       "id": "ircam",
-      "title": "IRCAM — Ma mère l’Oye",
+      "title": "IRCAM: Ma mère l’Oye",
       "url": "https://brahms.ircam.fr/fr/work/ma-mere-l%27oye",
       "locator": "Dedication to Mimie and Jean Godebski; premiere 20 April 1910 at the Salle Gaveau by Jeanne Leleu and Geneviève Durony. Information verified in page HTML.",
       "accessed": "2026-10-17"
     },
     {
       "id": "tales",
-      "title": "Ma mère l’Oye — literary sources",
+      "title": "Ma mère l’Oye: literary sources",
       "url": "https://en.wikipedia.org/wiki/Ma_m%C3%A8re_l%27Oye",
       "locator": "Sleeping Beauty and Tom Thumb from Charles Perrault; distinction between the duet, orchestral suite and expanded ballet.",
       "accessed": "2026-10-17"

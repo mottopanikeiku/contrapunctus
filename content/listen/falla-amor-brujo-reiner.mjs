@@ -92,7 +92,7 @@ export default {
       text: 'Side four holds a short scene, then the contralto’s Song of the will-o’-the-wisp. Roger Nichols compared it to <i>Carmen</i>: “love is not to be caught”. Meanwhile Lucía draws the ghost away from the lovers.',
       basis: 'documented',
       precision: 'passage',
-      evidence: 'Roger Nichols, booklet note for Garrick Ohlsson’s Falla recital (Hyperion CDA68177): the Canción del fuego fatuo — “as in Carmen, love is not to be caught”. Los Angeles Philharmonic note: Lucía seduces the ghost while the lovers kiss. Side 4 of the Columbia set carries No. 9, Scene, and No. 10, Song of the will-o’-the-wisp. https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68177 https://www.laphil.com/works/el-amor-brujo',
+      evidence: 'Roger Nichols, booklet note for Garrick Ohlsson’s Falla recital (Hyperion CDA68177): the Canción del fuego fatuo: “as in Carmen, love is not to be caught”. Los Angeles Philharmonic note: Lucía seduces the ghost while the lovers kiss. Side 4 of the Columbia set carries No. 9, Scene, and No. 10, Song of the will-o’-the-wisp. https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA68177 https://www.laphil.com/works/el-amor-brujo',
     },
     {
       t: 890,

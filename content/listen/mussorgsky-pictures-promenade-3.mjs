@@ -5,7 +5,7 @@ export default {
   composer: 'mussorgsky',
   order: 2,
   work: 'Pictures at an Exhibition',
-  movement: 'Promenade — Moderato non tanto, pesante',
+  movement: 'Promenade; Moderato non tanto, pesante',
   set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 5, of: 15, unit: 'pieces' },
   year: '1874',
   key: '',

@@ -6,7 +6,7 @@ export default {
   composer: 'schumann',
   order: 20,
   work: 'Kinderszenen, Op. 15',
-  movement: 'No. 2 · Kuriose Geschichte — A Curious Story',
+  movement: 'No. 2 · Kuriose Geschichte (A Curious Story)',
   set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 2, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'D major',

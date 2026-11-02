@@ -3,7 +3,7 @@
   "work": {
     "title": "Lyric Suite",
     "catalogue": "",
-    "movement": "III. Allegro misterioso — Trio estatico",
+    "movement": "III. Allegro misterioso, Trio estatico",
     "version": {
       "value": "Berg’s Lyric Suite for string quartet (the 1926 quartet version); the edition used by the performers is not stated.",
       "status": "documented",
@@ -91,7 +91,7 @@
       "note": "Rights in the composition are stated separately from rights in the recording."
     },
     "recording": {
-      "value": "Rule 3 — territorial EU public domain: first published before 1963; the American issue was advertised by March 1937.",
+      "value": "Rule 3, territorial EU public domain: first published before 1963; the American issue was advertised by March 1937.",
       "status": "documented",
       "sourceIds": ["arg37"],
       "note": "The item description gives earlier French and British issues, which were not checked in a second source. The United States status of a recording made in France in the 1930s is not established."
@@ -102,7 +102,7 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Berg Lyric Suite (Galimir Quartet, 1935): metadata and file inventory",
+      "title": "Internet Archive: Berg Lyric Suite (Galimir Quartet, 1935): metadata and file inventory",
       "url": "https://archive.org/metadata/bp-2-berg-suite-lyrique-iv",
       "locator": "metadata.description (players, c. 1935–36, Paris, Polydor 516.659–662, Decca CA-8244–8247, Brunswick-Polydor BP-2, records 95006–95009, Vox reissue 1948); file BP2 Berg Suite Lyrique (iii).mp3 (3:42)",
       "accessed": "2026-10-19"
@@ -116,21 +116,21 @@
     },
     {
       "id": "bso",
-      "title": "Michael Steinberg — programme note on Berg’s Violin Concerto, Boston Symphony Orchestra",
+      "title": "Michael Steinberg: programme note on Berg’s Violin Concerto, Boston Symphony Orchestra",
       "url": "https://www.bso.org/works/berg-violin-concerto",
       "locator": "Krasner and the Galimir Quartet; the secret dedication of the Lyric Suite; Berg’s death on 24 December 1935",
       "accessed": "2026-10-19"
     },
     {
       "id": "wiki",
-      "title": "Wikipedia — Lyric Suite (Berg)",
+      "title": "Wikipedia: Lyric Suite (Berg)",
       "url": "https://en.wikipedia.org/wiki/Lyric_Suite_(Berg)",
       "locator": "Dedications; the A–B–H–F motif; the form of the third movement; the list of recordings (Galimir Quartet, ca. 1935; Polydor 595.135–595.138; Brunswick Polydor BP-2, 1937)",
       "accessed": "2026-10-19"
     },
     {
       "id": "label",
-      "title": "Internet Archive — label photograph “BP2 label 3.JPG” in the item bp-2-berg-suite-lyrique-iv",
+      "title": "Internet Archive: label photograph “BP2 label 3.JPG” in the item bp-2-berg-suite-lyrique-iv",
       "url": "https://archive.org/download/bp-2-berg-suite-lyrique-iv/BP2%20label%203.JPG",
       "locator": "Brunswick Polydor 95007: “Made in U.S.A.”, “Recorded in France”, “In 8 Parts, Part III, Set No. BP-2”, “Third Movement: Allegro misterioso”, Galimir String Quartet of Vienna; label copy 1937 by Brunswick Record Corp.",
       "accessed": "2026-10-19"

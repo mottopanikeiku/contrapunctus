@@ -3,7 +3,7 @@ export default {
   composer: 'borodin',
   order: 2,
   work: 'String Quartet No. 2 in D major',
-  movement: 'III. Notturno — Andante',
+  movement: 'III. Notturno, Andante',
   set: { id: 'borodin-quartet-2', title: 'String Quartet No. 2 in D major', part: 3, of: 4 },
   year: '1881',
   key: 'A major',

@@ -142,7 +142,7 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — HMV D541/D545, provenance and supplied files",
+      "title": "Internet Archive: HMV D541/D545, provenance and supplied files",
       "url": "https://archive.org/details/httpsarchive.orgdetailselgar-concerto-for-violoncello-and-orchestra-in-e-minor-op-85-hmv-d-541-545",
       "locator": "Description: four movements and side durations; sessions and matrices; issue months and quoted contemporary reviews; transfer pitch note. Metadata inspected separately: no licenseurl or non-commercial restriction; one whole-concerto FLAC and its MP3 derivative.",
       "accessed": "2026-10-17"
@@ -163,7 +163,7 @@
     },
     {
       "id": "work",
-      "title": "Elgar Cello Concerto — recording and work history",
+      "title": "Elgar Cello Concerto: recording and work history",
       "url": "https://en.wikipedia.org/wiki/Cello_Concerto_(Elgar)",
       "locator": "Recordings: acoustic truncated version distinguished from complete 1928 recording; Music and History for the full concerto.",
       "accessed": "2026-10-17"

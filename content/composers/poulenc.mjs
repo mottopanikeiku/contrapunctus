@@ -20,7 +20,7 @@ export default {
 <h3><span class="sc">1920–32</span>Les Six and <i>Les Biches</i></h3>
 <aside class="note"><b>Les Six</b>Henri Collet named the group in two <i>Comœdia</i> articles in January 1920: Auric, Durey, Honegger, Milhaud, Poulenc and Tailleferre. Satie encouraged them, and Cocteau publicised them. Their styles soon diverged.</aside>
 <p>In 1921 Poulenc went to Charles Koechlin for lessons in counterpoint and composition, and he continued with him until 1925. He wanted the craft to support the tunes that came easily to him. <i>Les Biches</i>, staged by Diaghilev’s Ballets Russes in Monte Carlo in January 1924, made his name in the theatre. Nijinska choreographed a fashionable gathering of young men and women, with décor by Marie Laurencin. An offstage chorus sings old French verses. The orchestral suite omits the vocal numbers.</p>
-<p>Wanda Landowska commissioned the <i>Concert champêtre</i> and first played it in 1929, with Monteux conducting. Her powerful modern harpsichord could be heard against a full orchestra. The Princesse de Polignac commissioned both the Organ Concerto and the Concerto for Two Pianos. Poulenc and Jacques Février gave the first performance of the latter in Venice in September 1932. Near the end of its first movement, repeated piano figures recall the Balinese gamelan Poulenc had heard at the Paris Colonial Exhibition the previous year. The slow movement opens with a phrase in the manner of Mozart, played by one pianist alone.</p>
+<p>Wanda Landowska commissioned the <i>Concert champêtre</i> and first played it in 1929, with Monteux conducting. Her modern harpsichord was loud enough to be heard against a full orchestra. The Princesse de Polignac commissioned both the Organ Concerto and the Concerto for Two Pianos. Poulenc and Jacques Février gave the first performance of the latter in Venice in September 1932. Near the end of its first movement, repeated piano figures recall the Balinese gamelan Poulenc had heard at the Paris Colonial Exhibition the previous year. The slow movement opens with a phrase in the manner of Mozart, played by one pianist alone.</p>
 <p>In 1927 he bought Le Grand Coteau at Noizay, among the vineyards of Touraine. It gave him a place to work away from Paris. He kept both addresses, finishing scores at the country house and returning to the city for its singers, friends and new poems.</p>
 <h3><span class="sc">1934–43</span>Bernac, Rocamadour and <i>Figure humaine</i></h3>
 <aside class="note"><b>At the piano</b>Poulenc and Pierre Bernac gave recitals together regularly from 1935 until Bernac’s retirement in 1959. The composer accompanied the songs he was writing for the baritone.</aside>
@@ -53,7 +53,7 @@ export default {
     { year: '1962', title: 'Clarinet Sonata', cat: 'FP 184', forces: 'Clarinet and piano', note: 'Dedicated to Honegger’s memory, with a <i>Romanza</i> between two quick movements. Benny Goodman and Leonard Bernstein gave the première in April 1963, after Poulenc’s death.' },
   ],
   score: [
-    { kicker: 'Triadic juxtaposition — schematic', title: 'Clear chords, unexpected progression', abc: `X:1
+    { kicker: 'Triadic juxtaposition: schematic', title: 'Clear chords, unexpected progression', abc: `X:1
 T:Triadic cuts (schematic)
 M:4/4
 L:1/4
@@ -85,8 +85,8 @@ If I had four dromedaries.`, note: '<p>In the poem Don Pedro has four camels and
   ],
   lineage: { from: ['satie', 'Emmanuel Chabrier', 'mozart', 'stravinsky', 'Charles Koechlin'], to: ['Jean Françaix', 'Later French song and wind repertory'], note: '<p>He admired Chabrier’s bold chords, and [[mozart|Mozart]] gave him a model for a melody that could stand with very little accompaniment. Viñes introduced him to [[satie|Satie]], and Koechlin made him work at counterpoint. From [[stravinsky|Stravinsky]]’s ballets he learned the uses of a sharp instrumental attack.</p>' },
   reading: [
-    'Roger Nichols, <i>Poulenc: A Biography</i> (Yale University Press, 2020) — the life, working relationships and music examined together.',
-    'Pierre Bernac, <i>Francis Poulenc: The Man and His Songs</i>, translated by Winifred Radford (Gollancz, 1977) — the singer’s detailed account of interpretation and text.',
-    '<a href="https://poulenc.fr/en/biography/">Association des Amis de Francis Poulenc, chronological biography</a> — dates, premières and performers; the site also supplies the FP catalogue.',
+    'Roger Nichols, <i>Poulenc: A Biography</i> (Yale University Press, 2020): the life, working relationships and music examined together.',
+    'Pierre Bernac, <i>Francis Poulenc: The Man and His Songs</i>, translated by Winifred Radford (Gollancz, 1977): the singer’s detailed account of interpretation and text.',
+    '<a href="https://poulenc.fr/en/biography/">Association des Amis de Francis Poulenc, chronological biography</a>: dates, premières and performers; the site also supplies the FP catalogue.',
   ],
 };

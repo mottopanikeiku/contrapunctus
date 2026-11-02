@@ -3,7 +3,7 @@
   "work": {
     "title": "Symphony No. 4 in E minor",
     "catalogue": "Op. 98",
-    "movement": "IV. Allegro energico e passionato — Più allegro",
+    "movement": "IV. Allegro energico e passionato: Più allegro",
     "version": {
       "value": null,
       "status": "unknown",
@@ -17,11 +17,11 @@
     "value": [
       {
         "name": "Musopen Symphony",
-        "role": "orchestra — Commons page credit"
+        "role": "orchestra: Commons page credit"
       },
       {
         "name": "Czech National Symphony Orchestra",
-        "role": "orchestra — embedded FLAC credit"
+        "role": "orchestra: embedded FLAC credit"
       }
     ],
     "status": "disputed",
@@ -162,7 +162,7 @@
       "note": "The tag addresses the musical composition, including its pre-1931 publication basis in the United States; it is separate from the new recording."
     },
     "recording": {
-      "value": "Rule 1 — recording release: PD-author public-domain dedication by Musopen.",
+      "value": "Rule 1, recording release: PD-author public-domain dedication by Musopen.",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons"
@@ -175,42 +175,42 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Brahms - Symphony No. 4 in E minor, Op. 98 - IV. Allegro energico e passionato - Più allegro (Musopen Symphony).flac",
+      "title": "Wikimedia Commons: Brahms - Symphony No. 4 in E minor, Op. 98 - IV. Allegro energico e passionato - Più allegro (Musopen Symphony).flac",
       "url": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._4_in_E_minor,_Op._98_-_IV._Allegro_energico_e_passionato_-_Pi%C3%B9_allegro_(Musopen_Symphony).flac?oldid=963505268",
       "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured and embedded metadata",
+      "title": "Wikimedia Commons: structured and embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Brahms_-_Symphony_No._4_in_E_minor,_Op._98_-_IV._Allegro_energico_e_passionato_-_Pi%C3%B9_allegro_(Musopen_Symphony).flac#structureddata",
       "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Musopen Collection as FLAC",
+      "title": "Internet Archive: Musopen Collection as FLAC",
       "url": "https://archive.org/metadata/MusopenCollectionAsFlac/metadata",
       "locator": "description: Musopen Kickstarter project completed in 2012; Brahms Fourth included; FLAC conversion described as 32 bits per sample; publicdate 29 August 2012.",
       "accessed": "2026-10-16"
     },
     {
       "id": "musopen",
-      "title": "Musopen — Symphony No. 4 recording page",
+      "title": "Musopen: Symphony No. 4 recording page",
       "url": "https://musopen.org/music/67-symphony-no-4-in-e-minor-op-98/",
       "locator": "Source link in Commons; direct access returned HTTP 403.",
       "accessed": "2026-10-16"
     },
     {
       "id": "file-metadata",
-      "title": "Wikimedia Commons — Brahms finale embedded FLAC metadata",
+      "title": "Wikimedia Commons: Brahms finale embedded FLAC metadata",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ABrahms%20-%20Symphony%20No.%204%20in%20E%20minor%2C%20Op.%2098%20-%20IV.%20Allegro%20energico%20e%20passionato%20-%20Pi%C3%B9%20allegro%20(Musopen%20Symphony).flac&prop=videoinfo&viprop=metadata%7Csize%7Cmime",
       "locator": "videoinfo.metadata: VORBIS_COMMENT artist and albumartist = Czech National Symphony Orchestra; album = Musopen Kickstarter Project; date = 2012. FLAC STREAMINFO: 48,000 Hz, stereo, 24 bits per sample.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Brahms - Symphony No. 4 in E minor, Op. 98 - IV. Allegro energico e passionato - Più allegro (Musopen Symphony).flac",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Brahms - Symphony No. 4 in E minor, Op. 98 - IV. Allegro energico e passionato - Più allegro (Musopen Symphony).flac",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=963505268&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Brahms - Symphony No. 4 in E minor, Op. 98 - IV. Allegro energico e passionato - Più allegro (Musopen Symphony).flac; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"

@@ -3,7 +3,7 @@
   "work": {
     "title": "Miroirs",
     "catalogue": "M. 43",
-    "movement": "I. Noctuelles — Très léger",
+    "movement": "I. Noctuelles, Très léger",
     "version": {
       "value": "Original solo-piano version (1904–05)",
       "status": "documented",
@@ -133,28 +133,28 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Maurice Ravel - Miroirs - 1. Noctuelles.flac",
+      "title": "Wikimedia Commons: File:Maurice Ravel - Miroirs - 1. Noctuelles.flac",
       "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Miroirs_-_1._Noctuelles.flac?oldid=1285841712",
       "locator": "File description: performer, performance date, source, permission and licence template; credit line; file history (uploaded 3 April 2014).",
       "accessed": "2026-10-17"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — file metadata (API)",
+      "title": "Wikimedia Commons: file metadata (API)",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=timestamp|user|size|sha1|metadata|extmetadata&titles=File:Maurice%20Ravel%20-%20Miroirs%20-%201.%20Noctuelles.flac&format=json",
       "locator": "imageinfo: uploader, upload timestamp, size 35923672 bytes, SHA-1 506dc997a7b6b86f6038ebd437e3309df0563d9c, MIME type and licence fields.",
       "accessed": "2026-10-17"
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Miroirs, M.43 (Ravel, Maurice)",
+      "title": "IMSLP: Miroirs, M.43 (Ravel, Maurice)",
       "url": "https://imslp.org/wiki/Miroirs,_M.43_(Ravel,_Maurice)",
       "locator": "General Information: composition year 1904–05, first publication Paris: E. Demets, 1906, first performance 6 January 1906 (Ricardo Viñes), dedicatees.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "Maurice Ravel — biographical dates",
+      "title": "Maurice Ravel: biographical dates",
       "url": "https://en.wikipedia.org/wiki/Maurice_Ravel",
       "locator": "Lead: composer’s death year (1937).",
       "accessed": "2026-10-17"

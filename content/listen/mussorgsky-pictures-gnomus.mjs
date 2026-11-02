@@ -3,7 +3,7 @@ export default {
   composer: 'mussorgsky',
   order: 2,
   work: 'Pictures at an Exhibition',
-  movement: 'I. Gnomus — Vivo',
+  movement: 'I. Gnomus, Vivo',
   set: { id: 'mussorgsky-pictures', title: 'Pictures at an Exhibition', part: 2, of: 15, unit: 'pieces' },
   year: '1874',
   key: 'E♭ minor',

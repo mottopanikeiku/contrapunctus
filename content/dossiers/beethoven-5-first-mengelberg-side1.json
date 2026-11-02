@@ -3,7 +3,7 @@
   "work": {
     "title": "Symphony No. 5 in C minor, Op. 67",
     "catalogue": "Op. 67",
-    "movement": "I. Allegro con brio — side 1 of 2",
+    "movement": "I. Allegro con brio: side 1 of 2",
     "version": {
       "value": "First disc side only",
       "status": "documented",
@@ -133,14 +133,14 @@
   "sources": [
     {
       "id": "source",
-      "title": "Wikimedia Commons — recording file",
+      "title": "Wikimedia Commons: recording file",
       "url": "https://commons.wikimedia.org/wiki/File:Telefunken-sk2210-022110.ogg",
       "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "term",
-      "title": "EU Directive 2011/77 — transitional term provisions",
+      "title": "EU Directive 2011/77: transitional term provisions",
       "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj/eng",
       "locator": "Article 1(3), inserting Article 10(5): the extended term applies to phonograms still protected under the former rules as at 1 November 2013. An expired pre-1963 publication term is not revived.",
       "accessed": "2026-10-17"

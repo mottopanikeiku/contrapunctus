@@ -6,7 +6,7 @@ export default {
   composer: 'schumann',
   order: 80,
   work: 'Kinderszenen, Op. 15',
-  movement: 'No. 8 · Am Kamin — At the Fireside',
+  movement: 'No. 8 · Am Kamin (At the Fireside)',
   set: { id: 'schumann-kinderszenen', title: 'Kinderszenen, Op. 15', part: 8, of: 13, unit: 'pieces' },
   year: '1838',
   key: 'F major',

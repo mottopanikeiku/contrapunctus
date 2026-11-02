@@ -3,7 +3,7 @@ export default {
   composer: 'gershwin',
   order: 1,
   work: 'Rhapsody in Blue',
-  movement: '1924 abridged recording — both original sides',
+  movement: '1924 abridged recording: both original sides',
   year: '1924',
   key: 'B♭ major',
   forces: 'Piano and jazz band; orchestration by Ferde Grofé',

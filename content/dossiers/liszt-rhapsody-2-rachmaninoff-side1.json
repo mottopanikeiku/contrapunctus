@@ -115,20 +115,20 @@
       "note": "This field concerns the underlying composition, separately from the sound-recording permission. No claim is made about an unidentified modern edition."
     },
     "recording": {
-      "value": "US public-domain sound recording — published in or before 1925",
+      "value": "US public-domain sound recording: published in or before 1925",
       "status": "documented",
       "sourceIds": [
         "source"
       ],
       "note": "Programme rule 2. Source identifies the 1919 issue and carrier; no non-commercial transfer licence was found in the inspected source. No worldwide public-domain claim is made. Commons traces this file to the Library of Congress, not to the separately restricted UCSB cylinder transfers mentioned in the generic Edison template."
     },
-    "creditLine": "Hungarian Rhapsody No. 2 in C♯ minor, S. 244/2; Sergei Rachmaninoff, piano. First disc side only. US public-domain sound recording — published in or before 1925. Source: Wikimedia Commons.",
+    "creditLine": "Hungarian Rhapsody No. 2 in C♯ minor, S. 244/2; Sergei Rachmaninoff, piano. First disc side only. US public-domain sound recording, published in or before 1925. Source: Wikimedia Commons.",
     "licenseUrl": "https://www.law.cornell.edu/uscode/text/17/1401"
   },
   "sources": [
     {
       "id": "source",
-      "title": "Wikimedia Commons — Second Hungarian Rhapsody.ogg",
+      "title": "Wikimedia Commons: Second Hungarian Rhapsody.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Second_Hungarian_Rhapsody.ogg",
       "locator": "Recording description, source attribution, licence and file metadata; inspected independently of the comparison plan.",
       "accessed": "2026-10-17"

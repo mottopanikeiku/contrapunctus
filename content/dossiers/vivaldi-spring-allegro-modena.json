@@ -43,9 +43,9 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
   },
   "sources": [
-    { "id": "commons", "title": "Wikimedia Commons — The Modena Chamber Orchestra, Vivaldi’s Spring, I. Allegro", "url": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring,_RV_269_-_I._Allegro.ogg", "locator": "Summary, Licensing, file history and embedded Metadata read directly. Summary attribution Modena conflicts with Author tag Orpheus; pitch adjustment is explicit.", "accessed": "2026-10-17" },
-    { "id": "musopen", "title": "Musopen — The Four Seasons, Op. 8", "url": "https://musopen.org/music/14910-the-four-seasons-op-8/", "locator": "Upstream source linked by Commons. Direct access returned HTTP 403; not treated as independent confirmation of the Commons attribution or release statement.", "accessed": "2026-10-17" },
-    { "id": "score-commentary", "title": "José Rodríguez Alvira — Vivaldi, La Primavera, I. Allegro", "url": "https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/01.php", "locator": "Score-based movement outline: ritornellos, birds, running water, storm and return to E major. Used as commentary only; no audio is taken from this page.", "accessed": "2026-10-17" }
+    { "id": "commons", "title": "Wikimedia Commons: The Modena Chamber Orchestra, Vivaldi’s Spring, I. Allegro", "url": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring,_RV_269_-_I._Allegro.ogg", "locator": "Summary, Licensing, file history and embedded Metadata read directly. Summary attribution Modena conflicts with Author tag Orpheus; pitch adjustment is explicit.", "accessed": "2026-10-17" },
+    { "id": "musopen", "title": "Musopen: The Four Seasons, Op. 8", "url": "https://musopen.org/music/14910-the-four-seasons-op-8/", "locator": "Upstream source linked by Commons. Direct access returned HTTP 403; not treated as independent confirmation of the Commons attribution or release statement.", "accessed": "2026-10-17" },
+    { "id": "score-commentary", "title": "José Rodríguez Alvira: Vivaldi, La Primavera, I. Allegro", "url": "https://www.teoria.com/en/articles/2021/vivaldi-seasons/primavera/01.php", "locator": "Score-based movement outline: ritornellos, birds, running water, storm and return to E major. Used as commentary only; no audio is taken from this page.", "accessed": "2026-10-17" }
   ],
   "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-17" }
 }

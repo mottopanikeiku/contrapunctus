@@ -4,7 +4,7 @@ export default {
   order: 33,
   concert: false,
   work: 'Pomp and Circumstance, Op. 39',
-  movement: 'March No. 1 in D — concert-band arrangement',
+  movement: 'March No. 1 in D: concert-band arrangement',
   year: '1901',
   key: 'D major in the orchestral original; band version transposed',
   forces: 'Concert band; arrangement not identified',

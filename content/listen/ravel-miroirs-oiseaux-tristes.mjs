@@ -8,7 +8,7 @@ export default {
   order: 21,
   set: { id: 'ravel-miroirs', title: 'Miroirs', part: 2, of: 5, unit: 'pieces' },
   work: 'Miroirs',
-  movement: 'II. Oiseaux tristes — Très lent',
+  movement: 'II. Oiseaux tristes, Très lent',
   year: '1904–05',
   key: 'E♭ minor',
   forces: 'Piano',

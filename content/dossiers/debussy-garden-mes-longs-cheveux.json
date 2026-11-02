@@ -133,7 +133,7 @@
       "note": "Debussy died in 1918 and Maeterlinck in 1949. No modern translation is reproduced; national exceptions and modern editions require separate consideration."
     },
     "recording": {
-      "value": "Rule 2 — US public domain: original G&T commercial issue dated 1904, before the 1925 cutoff.",
+      "value": "Rule 2: US public domain: original G&T commercial issue dated 1904, before the 1925 cutoff.",
       "status": "documented",
       "sourceIds": [
         "archive",
@@ -148,56 +148,56 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Mes longs cheveux",
+      "title": "Internet Archive: Mes longs cheveux",
       "url": "https://archive.org/metadata/78_meslongscheveux_010_14/metadata",
       "locator": "G&T catalogue 33447; date 1904; coverage Paris; Mary Garden and Debussy; soprano/piano; ten-inch disc; transfer at 74 rpm; stylus string 35 without stated units. The 2019 repository dates are not session or transfer dates.",
       "accessed": "2026-10-17"
     },
     {
       "id": "bnf",
-      "title": "Bibliothèque nationale de France — historical Debussy recording catalogue",
+      "title": "Bibliothèque nationale de France: historical Debussy recording catalogue",
       "url": "https://catalogue.bnf.fr/ark:/12148/cb38388874b",
       "locator": "Subnotice 7 names Mary Garden, soprano, and Claude Debussy, piano, recorded in 1904. Its carrier is the later 1937 RCA/IRCC reissue, not the original G&T disc transferred here.",
       "accessed": "2026-10-17"
     },
     {
       "id": "ircc-discography",
-      "title": "The Record Collector — International Record Collectors Club discography",
+      "title": "The Record Collector: International Record Collectors Club discography",
       "url": "https://www.therecordcollector.org/articles/HRSandIRCCdiscographies/internationalrecordcollectorsclub.php",
       "locator": "IRCC 106: Garden, soprano; Debussy, piano; Paris 1904; matrix 3078F; original G&T 33447; later transfer matrix 0EA5669-1.",
       "accessed": "2026-10-17"
     },
     {
       "id": "dahr",
-      "title": "Discography of American Historical Recordings — Mary Garden",
+      "title": "Discography of American Historical Recordings: Mary Garden",
       "url": "https://adp.library.ucsb.edu/names/102667",
       "locator": "Performer entry consulted for discographic cross-checking. Its displayed Victor/Columbia records do not establish the French G&T matrix here; no unrelated American matrix or session date is imported.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score",
-      "title": "Debussy — Pelléas et Mélisande, 1902 Fromont vocal score",
+      "title": "Debussy: Pelléas et Mélisande, 1902 Fromont vocal score",
       "url": "https://s9.imslp.org/files/imglnks/usimg/d/d6/IMSLP33280-PMLP09094-Debussy-L088vsFR.pdf",
       "locator": "Title and cast pages (PDF 3–5); Act III scene 1, printed pp. 102–104 (PDF 108–110), inspected visually. Plate E. 1416 F.; piano interludes and unaccompanied vocal phrases.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "IMSLP — Claude Debussy biographical dates",
+      "title": "IMSLP: Claude Debussy biographical dates",
       "url": "https://imslp.org/wiki/Category:Debussy,_Claude",
       "locator": "Debussy died on 25 March 1918.",
       "accessed": "2026-10-17"
     },
     {
       "id": "lyricist",
-      "title": "IMSLP — Maurice Maeterlinck biographical dates",
+      "title": "IMSLP: Maurice Maeterlinck biographical dates",
       "url": "https://imslp.org/wiki/Category:Maeterlinck,_Maurice",
       "locator": "Maeterlinck died on 5 May 1949.",
       "accessed": "2026-10-17"
     },
     {
       "id": "us-term",
-      "title": "United States Copyright Office — Classics Protection and Access Act",
+      "title": "United States Copyright Office: Classics Protection and Access Act",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
       "locator": "Term: recordings first published before 1923 ceased receiving the specified federal remedies after 31 December 2021. The programme also permits publication through 1925 as of 2026.",
       "accessed": "2026-10-17"

@@ -3,7 +3,7 @@
   "work": {
     "title": "Concerto grosso in D major, Op. 6 No. 4",
     "catalogue": "Op. 6 No. 4",
-    "movement": "I. Adagio — Allegro",
+    "movement": "I. Adagio, Allegro",
     "version": {
       "value": "Opening Adagio–Allegro movement of the four-movement concerto grosso",
       "status": "documented",
@@ -121,28 +121,28 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Advent Chamber Orchestra, Corelli Op. 6 No. 4, first movement",
+      "title": "Wikimedia Commons: Advent Chamber Orchestra, Corelli Op. 6 No. 4, first movement",
       "url": "https://commons.wikimedia.org/wiki/File:Corelli_-_Concerto_Grosso_Op._6_No._4_-_1._Adagio_-_Allegro.ogg",
       "locator": "Description, 2005–2006 season, ensemble leadership, source collection, licence, file metadata and upload history.",
       "accessed": "2026-10-17"
     },
     {
       "id": "work",
-      "title": "IMSLP — 12 Concerti Grossi, Op. 6",
+      "title": "IMSLP: 12 Concerti Grossi, Op. 6",
       "url": "https://imslp.org/wiki/12_Concerti_Grossi,_Op.6_(Corelli,_Arcangelo)",
       "locator": "1714 Amsterdam publication, original title and concertino/ripieno scoring.",
       "accessed": "2026-10-17"
     },
     {
       "id": "individual",
-      "title": "IMSLP — Concerto grosso in D major, Op. 6 No. 4",
+      "title": "IMSLP: Concerto grosso in D major, Op. 6 No. 4",
       "url": "https://imslp.org/wiki/Concerto_grosso_in_D_major,_Op.6_No.4_(Corelli,_Arcangelo)",
       "locator": "Four-movement work and Adagio–Allegro first movement.",
       "accessed": "2026-10-17"
     },
     {
       "id": "score",
-      "title": "Corelli — Op. 6 full score, Concerto IV",
+      "title": "Corelli: Op. 6 full score, Concerto IV",
       "url": "https://s9.imslp.org/files/imglnks/usimg/5/5e/IMSLP128514-PMLP28008-Corelli_-_Op._6.pdf",
       "locator": "PDF pages 65–70, printed pages 56–61: four-bar Adagio and repeated Allegro strains. The printed keyboard realization is not assumed to be used in this recording.",
       "accessed": "2026-10-17"

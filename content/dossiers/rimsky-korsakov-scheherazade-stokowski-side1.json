@@ -1,7 +1,7 @@
 {
   "id": "rimsky-korsakov-scheherazade-stokowski-side1",
   "work": {
-    "title": "Scheherazade, Op. 35 — III. The Young Prince and the Young Princess",
+    "title": "Scheherazade, Op. 35: III. The Young Prince and the Young Princess",
     "catalogue": "",
     "movement": "Opening disc side only",
     "version": {
@@ -119,7 +119,7 @@
       "note": "This field concerns the underlying composition, separately from the sound-recording permission. No claim is made about an unidentified modern edition."
     },
     "recording": {
-      "value": "Territorial — EU public-domain sound recording, first published 1935",
+      "value": "Territorial: EU public-domain sound recording, first published 1935",
       "status": "documented",
       "sourceIds": [
         "source",
@@ -127,20 +127,20 @@
       ],
       "note": "Accepted under programme rule 3: first publication before 1963, so the EU 50-year recording term expired before the 2013 extension. US status is not established. The Commons composition-only PD-old-70 tag is not used as a sound-recording licence."
     },
-    "creditLine": "Scheherazade, Op. 35 — III. The Young Prince and the Young Princess; Philadelphia Orchestra, Leopold Stokowski. First disc side only. Territorial — EU public-domain sound recording, first published 1935. Source: Wikimedia Commons.",
+    "creditLine": "Scheherazade, Op. 35: III. The Young Prince and the Young Princess; Philadelphia Orchestra, Leopold Stokowski. First disc side only. Territorial: EU public-domain sound recording, first published 1935. Source: Wikimedia Commons.",
     "licenseUrl": "https://eur-lex.europa.eu/eli/dir/2011/77/oj"
   },
   "sources": [
     {
       "id": "source",
-      "title": "Wikimedia Commons — Hmv-db2525-2a84519.ogg",
+      "title": "Wikimedia Commons: Hmv-db2525-2a84519.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Hmv-db2525-2a84519.ogg",
       "locator": "Recording description, source attribution, licence and file metadata; inspected independently of the comparison plan.",
       "accessed": "2026-10-17"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2011/77/EU — extension and transitional rule",
+      "title": "Directive 2011/77/EU: extension and transitional rule",
       "url": "https://eur-lex.europa.eu/eli/dir/2011/77/oj",
       "locator": "Article 1, amending Directive 2006/116/EC; Article 10(5), protection still in force on 1 November 2013.",
       "accessed": "2026-10-17"

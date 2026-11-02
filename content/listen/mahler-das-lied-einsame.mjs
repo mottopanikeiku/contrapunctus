@@ -4,7 +4,7 @@ export default {
   order: 41,
   set: { id: 'mahler-das-lied-von-der-erde', title: 'Das Lied von der Erde', part: 2, of: 6, unit: 'songs' },
   work: 'Das Lied von der Erde',
-  movement: 'II. Der Einsame im Herbst — Etwas schleichend. Ermüdet',
+  movement: 'II. Der Einsame im Herbst, Etwas schleichend. Ermüdet',
   year: '1908–09',
   key: 'D minor',
   forces: 'Alto and orchestra',

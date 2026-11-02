@@ -159,21 +159,21 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Judith Bokor plays Le Cygne",
+      "title": "Wikimedia Commons: Judith Bokor plays Le Cygne",
       "url": "https://commons.wikimedia.org/wiki/File:Judith_Bokor_plays_Le_Cygne_by_Saint-Sa%C3%ABns.flac",
       "locator": "Summary: exact date and D 9768 attribution; composition-only licensing tags; upstream source.",
       "accessed": "2026-10-17"
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Bokor Columbia 1924–1925",
+      "title": "Internet Archive: Bokor Columbia 1924–1925",
       "url": "https://archive.org/metadata/3-judith-bokor-col-d-17144-fx-16-17-kol-nidrei_202309",
       "locator": "metadata.licenseurl absent; description discography row 9 F 87 circa 1925; FLAC/MP3 tags identify D 9758, cello and piano.",
       "accessed": "2026-10-17"
     },
     {
       "id": "work",
-      "title": "Le Cygne — instrumentation and score outline",
+      "title": "Le Cygne: instrumentation and score outline",
       "url": "https://en.wikipedia.org/wiki/Le_cygne",
       "locator": "Movement XIII; G major; cello and piano arrangements.",
       "accessed": "2026-10-17"

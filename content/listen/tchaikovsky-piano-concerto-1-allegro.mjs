@@ -3,7 +3,7 @@ export default {
   "composer": "tchaikovsky",
   "order": 3,
   "work": "Piano Concerto No. 1 in B♭ minor, Op. 23",
-  "movement": "I. Allegro non troppo e molto maestoso — Allegro con spirito",
+  "movement": "I. Allegro non troppo e molto maestoso, Allegro con spirito",
   "set": {
     "id": "tchaikovsky-piano-concerto-1",
     "title": "Piano Concerto No. 1 in B♭ minor, Op. 23",

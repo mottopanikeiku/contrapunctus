@@ -6,7 +6,7 @@ export default {
   composer: 'bruckner',
   order: 1,
   work: 'Symphony No. 7 in E major, WAB 107',
-  movement: 'III. Scherzo — Sehr schnell; Trio — Etwas langsamer',
+  movement: 'III. Scherzo, Sehr schnell; Trio, Etwas langsamer',
   set: { id: 'bruckner-symphony-7', title: 'Symphony No. 7 in E major', part: 3, of: 4 },
   year: '1881–83',
   key: 'A minor',

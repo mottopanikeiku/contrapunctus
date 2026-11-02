@@ -2,7 +2,7 @@
 // http://www.hberlioz.com/Scores/sfantastique.htm
 export default {
   id: 'berlioz-fantastique-reveries-passions', composer: 'berlioz', order: 10,
-  work: 'Symphonie fantastique, Op. 14', movement: 'I. Rêveries — Passions',
+  work: 'Symphonie fantastique, Op. 14', movement: 'I. Rêveries, Passions',
   set: { id: 'berlioz-symphonie-fantastique', title: 'Symphonie fantastique, Op. 14', part: 1, of: 5 },
   year: '1830', key: 'C major', forces: 'Orchestra',
   performers: 'Igor Markevitch, Orchestre Lamoureux', recorded: '11–17 January 1961',
@@ -35,7 +35,7 @@ export default {
   orchestra: {
     ensemble: ['piccolo', 'flutes', 'oboes', 'clarinets', 'bassoons', 'horns', 'trumpets', 'cornets', 'timpani', 'violins-1', 'violins-2', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Berlioz, Symphonie fantastique I — orchestral score', url: 'http://www.hberlioz.com/scosupp/symfantas1.pdf', locator: 'Largo introduction; first full idée fixe, bars 71–111; development from bar 168; late Allegro; Religiosamente from bar 513.' },
+    source: { title: 'Berlioz, Symphonie fantastique I: orchestral score', url: 'http://www.hberlioz.com/scosupp/symfantas1.pdf', locator: 'Largo introduction; first full idée fixe, bars 71–111; development from bar 168; late Allegro; Religiosamente from bar 513.' },
     timeline: [
       { t: 0, playing: ['flutes', 'oboes', 'clarinets', 'bassoons', 'horns'], lead: ['flutes', 'clarinets'], note: 'Flute and clarinet begin the repeated notes; oboe, bassoons and horns join the opening phrase.' },
       { t: 20, playing: ['violins-1', 'violins-2', 'violas', 'cellos'], lead: ['violins-1'], note: 'Muted first violins play above the other strings, with rests between their phrases.' },

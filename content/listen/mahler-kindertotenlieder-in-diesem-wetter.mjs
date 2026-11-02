@@ -67,7 +67,7 @@ export default {
       "t": 70,
       "kind": "world",
       "title": "First stanza, Rückert’s text",
-      "text": "The father in Rückert’s poem says repeatedly that he would never have sent his children out in such weather. He then corrects himself: “man hat sie getragen hinaus” — they were carried out. “Ich durfte nichts dazu sagen” — I was allowed no say in it.",
+      "text": "The father in Rückert’s poem says repeatedly that he would never have sent his children out in such weather. He then corrects himself: “man hat sie getragen hinaus” (they were carried out). “Ich durfte nichts dazu sagen” (I was allowed no say in it).",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Rückert, In diesem Wetter, first stanza as set by Mahler; German text at https://en.wikipedia.org/wiki/Kindertotenlieder#Text. Our translations."
@@ -94,7 +94,7 @@ export default {
       "t": 190,
       "kind": "form",
       "title": "Closing lullaby in D major",
-      "text": "The final section is marked “Langsam. Wie ein Wiegenlied” — slow, like a lullaby. Fischer-Dieskau repeats the words about the weather, now over celesta and rocking strings in D major. The children rest “als wie in der Mutter Haus” — as in their mother’s house.",
+      "text": "The final section is marked “Langsam. Wie ein Wiegenlied” (slow, like a lullaby). Fischer-Dieskau repeats the words about the weather, now over celesta and rocking strings in D major. The children rest “als wie in der Mutter Haus” (as in their mother’s house).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, pp. 79–84: lullaby marking, two-sharp signature and Rückert’s final stanza. Our translations."

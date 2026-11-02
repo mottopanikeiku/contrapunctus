@@ -57,7 +57,7 @@ export default {
   ],
   score: [
     {
-      kicker: 'Proportion — schematic',
+      kicker: 'Proportion: schematic',
       title: 'Durations of 2, 3, 5 and 8 units',
       abc: `X:1
 T:Fibonacci durations - schematic
@@ -71,7 +71,7 @@ V:1 name="Duration"
       caption: 'Schematic durations on a repeated C: two, three, five and eight quavers. After the first two, each span is the sum of its predecessors. The bar lines divide unequal lengths and do not impose a regular metre. These invented notes illustrate a proportion Gubaidulina used and do not quote a work.',
     },
     {
-      kicker: 'In croce — schematic',
+      kicker: 'In croce: schematic',
       title: 'Crossing of two registers',
       abc: `X:2
 T:Crossing registers - schematic
@@ -127,8 +127,8 @@ Lord, who will stand?`,
     note: `<p>Asked about her models by Nolan Gasser in 2012, Gubaidulina named [[bach|Bach]], [[webern|Webern]] and [[shostakovich|Shostakovich]]. She cited Bach for joining invention to intuition, Webern for clear construction and Shostakovich for tragedy. <i>Offertorium</i> draws on the first two in a single borrowed theme. Friedrich Lips and Elsbeth Moser, as performers, helped bring her work for the bayan into its concert repertoire.</p>`,
   },
   reading: [
-    'Michael Kurtz, <i>Sofia Gubaidulina: A Biography</i> (Indiana University Press, 2007) — the detailed account of her education, performers and religious thought.',
-    'Gerard McBurney, <a href="https://www.boosey.com/pages/cr/composer/composer_main?composerid=2710&amp;ttype=BIOGRAPHY">publisher biography</a> — a concise chronology, updated after her death.',
-    'Robert Kirzinger, <a href="https://www.bso.org/stories/in-memory-of-sofia-gubaidulina">In Memory of Sofia Gubaidulina</a> (Boston Symphony Orchestra, 2025) — documents the Boston premières, recording and unfinished commission.',
+    'Michael Kurtz, <i>Sofia Gubaidulina: A Biography</i> (Indiana University Press, 2007): the detailed account of her education, performers and religious thought.',
+    'Gerard McBurney, <a href="https://www.boosey.com/pages/cr/composer/composer_main?composerid=2710&amp;ttype=BIOGRAPHY">publisher biography</a>: a concise chronology, updated after her death.',
+    'Robert Kirzinger, <a href="https://www.bso.org/stories/in-memory-of-sofia-gubaidulina">In Memory of Sofia Gubaidulina</a> (Boston Symphony Orchestra, 2025): documents the Boston premières, recording and unfinished commission.',
   ],
 };

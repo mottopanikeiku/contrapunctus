@@ -59,7 +59,7 @@ export default {
     { year: '1962', title: 'Connotations', forces: 'Orchestra', note: 'Written for the opening of Philharmonic Hall at Lincoln Center. Twelve-note writing for a large orchestra, with a piano solo and an extensive percussion section.' },
   ],
   score: [
-    { kicker: 'Open fifths — invented schematic', title: 'Chord with an open middle', abc: `X:1
+    { kicker: 'Open fifths: invented schematic', title: 'Chord with an open middle', abc: `X:1
 T:Open spacing (schematic)
 M:4/4
 L:1/4
@@ -73,7 +73,7 @@ V:1
 V:2
 %%MIDI program 0
 C,4 | D,4 | E,4 | C,4 |]`, caption: 'An invented four-bar schematic. Each bass note supports a fifth and an octave, with no third. The gaps show the open spacing associated with Copland’s pastoral writing. These notes quote no Copland work.' },
-    { kicker: 'Syncopation — invented schematic', title: 'Three plus three plus two', abc: `X:2
+    { kicker: 'Syncopation: invented schematic', title: 'Three plus three plus two', abc: `X:2
 T:Accents against a steady beat (schematic)
 M:4/4
 L:1/8
@@ -91,7 +91,7 @@ C,2 C,2 C,2 C,2 | C,2 C,2 C,2 C,2 | D,2 D,2 D,2 D,2 | C,2 C,2 C,2 C,2 |]`, capti
   arts: [
     { relation: 'shared-context', type: 'painting', frame: 'mat', file: 'File:Allie Mae Burroughs.jpg', artist: 'Walker Evans', title: 'Allie Mae Burroughs, wife of a cotton sharecropper', date: '1936', medium: 'Photograph', collection: 'Library of Congress, Washington, DC', note: '<p>Evans photographed Burroughs in Hale County, Alabama. The photographs in his and James Agee’s <i>Let Us Now Praise Famous Men</i> supplied the world from which Erik Johns developed <i>The Tender Land</i>. Copland’s opera moves the setting to a Midwestern farm, and it has a harvest celebration.</p>' },
     { relation: 'shared-context', type: 'painting', frame: 'mat', file: 'File:Martha Graham and Bertram Ross.jpg', artist: 'Carl Van Vechten', title: 'Martha Graham and Bertram Ross', date: '27 June 1961', medium: 'Photograph', collection: 'Library of Congress, Washington, DC', note: '<p>Ross’s arm crosses Graham’s shoulders, and both faces are turned upwards. For <i>Appalachian Spring</i>, Graham sent Copland scripts and timings, then changed her choreography in response to his score. This portrait is later.</p>' },
-    { relation: 'documented-use', type: 'poem', author: 'Emily Dickinson', title: 'Mother Nature — opening', date: 'Published 1891', lang: 'English', original: `Nature, the gentlest mother,
+    { relation: 'documented-use', type: 'poem', author: 'Emily Dickinson', title: 'Mother Nature: opening', date: 'Published 1891', lang: 'English', original: `Nature, the gentlest mother,
 Impatient of no child,
 The feeblest or the waywardest,—
 Her admonition mild
@@ -102,16 +102,16 @@ Restraining rampant squirrel
 Or too impetuous bird.`, note: '<p>The first two stanzas in the public-domain text of <i>Poems: Second Series</i> (1891). Copland opened his Dickinson cycle with this poem, under its first line, <i>Nature, the gentlest mother</i>. The piano plays trills and fluttering figures for the birds in the poem.</p>' },
   ],
   recordings: [
-    { work: 'Appalachian Spring — extended suite for thirteen instruments', performers: 'Columbia Chamber Orchestra, Aaron Copland', year: '1973', label: 'Columbia / Sony Classical', note: 'The composer’s chamber recording is the one to start with for the thirteen-player sound. It includes restored dramatic passages and can be heard alongside the familiar orchestral suite. The original LP’s claim to present the original ballet is misleading.' },
-    { work: 'Appalachian Spring — orchestral suite', performers: 'Los Angeles Philharmonic, Leonard Bernstein', year: '1982', label: 'Deutsche Grammophon', note: 'Bernstein was a long-standing champion of Copland’s music. It makes a useful second recording after the chamber version, since the suite has cuts and uses a larger ensemble, and both change the scale of Graham’s story.' },
+    { work: 'Appalachian Spring: extended suite for thirteen instruments', performers: 'Columbia Chamber Orchestra, Aaron Copland', year: '1973', label: 'Columbia / Sony Classical', note: 'The composer’s chamber recording is the one to start with for the thirteen-player sound. It includes restored dramatic passages and can be heard alongside the familiar orchestral suite. The original LP’s claim to present the original ballet is misleading.' },
+    { work: 'Appalachian Spring: orchestral suite', performers: 'Los Angeles Philharmonic, Leonard Bernstein', year: '1982', label: 'Deutsche Grammophon', note: 'Bernstein was a long-standing champion of Copland’s music. It makes a useful second recording after the chamber version, since the suite has cuts and uses a larger ensemble, and both change the scale of Graham’s story.' },
     { work: 'Piano Variations', performers: 'Stephen Hough', year: '1997', label: 'Hyperion, CDA67005', note: 'For the hard-edged Copland who is overshadowed by the ballets. Hough’s recording of this short, concentrated work is included in his American piano anthology.' },
     { work: 'Twelve Poems of Emily Dickinson', performers: 'Barbara Bonney, soprano; André Previn, piano', label: 'Decca, American Songs', note: 'A complete Dickinson cycle, within a recital of American songs, alongside the orchestral favourites. Voice and piano are balanced equally.' },
   ],
   lineage: { from: ['Nadia Boulanger', 'stravinsky', 'Carlos Chávez', 'William Hamilton Stepp', 'Emily Dickinson'], to: ['bernstein'], note: '<p>Boulanger taught him; Chávez brought him to Mexico and conducted the <i>Short Symphony</i>; Stepp’s fiddle playing reached <i>Hoe-Down</i> through transcription. Bernstein was a younger friend and an informal pupil, then a conductor who gave the première of <i>Connotations</i> and recorded the music. His piano arrangements of <i>El Salón México</i> were among his first published works.</p>' },
   reading: [
-    'Aaron Copland and Vivian Perlis, <i>Copland: 1900 Through 1942</i> (St. Martin’s/Marek, 1984) and <i>Copland: Since 1943</i> (St. Martin’s Press, 1989) — the composer remembers, with other witnesses alongside him.',
-    'Howard Pollack, <i>Aaron Copland: The Life and Work of an Uncommon Man</i> (University of Illinois Press paperback, 2000) — the fullest route between the pieces, politics and private life.',
-    'Elizabeth B. Crist, <i>Music for the Common Man: Aaron Copland during the Depression and War</i> (Oxford University Press, 2005) — asks whose America the familiar ballets and public works represent.',
-    'Annegret Fauser, <i>Aaron Copland’s Appalachian Spring</i> (Oxford University Press, 2017) — restores Graham, the commission and wartime circumstances to a piece often heard as landscape alone.',
+    'Aaron Copland and Vivian Perlis, <i>Copland: 1900 Through 1942</i> (St. Martin’s/Marek, 1984) and <i>Copland: Since 1943</i> (St. Martin’s Press, 1989): the composer remembers, with other witnesses alongside him.',
+    'Howard Pollack, <i>Aaron Copland: The Life and Work of an Uncommon Man</i> (University of Illinois Press paperback, 2000): the fullest route between the pieces, politics and private life.',
+    'Elizabeth B. Crist, <i>Music for the Common Man: Aaron Copland during the Depression and War</i> (Oxford University Press, 2005): asks whose America the familiar ballets and public works represent.',
+    'Annegret Fauser, <i>Aaron Copland’s Appalachian Spring</i> (Oxford University Press, 2017): restores Graham, the commission and wartime circumstances to a piece often heard as landscape alone.',
   ],
 };

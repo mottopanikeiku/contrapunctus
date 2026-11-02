@@ -4,7 +4,7 @@ export default {
   order: 42,
   set: { id: 'mahler-das-lied-von-der-erde', title: 'Das Lied von der Erde', part: 3, of: 6, unit: 'songs' },
   work: 'Das Lied von der Erde',
-  movement: 'III. Von der Jugend — Behaglich heiter',
+  movement: 'III. Von der Jugend, Behaglich heiter',
   year: '1908–09',
   key: 'B♭ major',
   forces: 'Tenor and orchestra',

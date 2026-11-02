@@ -10,7 +10,7 @@ export default {
   order: 23,
   set: { id: 'ravel-miroirs', title: 'Miroirs', part: 4, of: 5, unit: 'pieces' },
   work: 'Miroirs',
-  movement: 'IV. Alborada del gracioso — Assez vif',
+  movement: 'IV. Alborada del gracioso, Assez vif',
   year: '1904–05',
   key: 'D minor',
   forces: 'Piano',

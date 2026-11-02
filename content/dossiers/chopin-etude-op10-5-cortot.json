@@ -3,7 +3,7 @@
   "work": {
     "title": "Étude in G♭ major, Op. 10 No. 5; Étude in G♭ major, Op. 25 No. 9",
     "catalogue": "Op. 10 No. 5; Op. 25 No. 9",
-    "movement": "Black Keys, followed by Butterfly — complete disc side",
+    "movement": "Black Keys, followed by Butterfly: complete disc side",
     "version": {
       "value": "Two titles on one original disc side",
       "status": "documented",
@@ -38,7 +38,7 @@
       "precision": "day"
     },
     "place": {
-      "value": "Camden, New Jersey, United States — Church Building",
+      "value": "Camden, New Jersey, United States: Church Building",
       "status": "documented",
       "sourceIds": [
         "dahr"

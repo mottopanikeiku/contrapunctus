@@ -6,7 +6,7 @@ export default {
   composer: 'bartok',
   order: 6,
   work: 'Concerto for Orchestra, Sz. 116',
-  movement: 'V. Finale — Pesante; Presto',
+  movement: 'V. Finale, Pesante; Presto',
   set: { id: 'bartok-concerto-orchestra', title: 'Concerto for Orchestra', part: 5, of: 5 },
   year: '1943 (revised 1945)',
   key: 'F major',

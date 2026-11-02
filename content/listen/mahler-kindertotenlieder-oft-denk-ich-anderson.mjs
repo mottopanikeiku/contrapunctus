@@ -4,7 +4,7 @@ export default {
   "order": 38,
   "set": {
     "id": "mahler-kindertotenlieder-anderson",
-    "title": "Kindertotenlieder — Marian Anderson",
+    "title": "Kindertotenlieder: Marian Anderson",
     "part": 4,
     "of": 5, "unit": "songs" },
   "concert": false,
@@ -80,7 +80,7 @@ export default {
       "t": 174,
       "kind": "music",
       "title": "Postlude, horn and bassoon",
-      "text": "The poem’s sunny heights take the voice upwards before the short instrumental ending. After Anderson stops, horn and bassoon continue, with harp and soft strings. The last chord is marked “morendo” — dying away.",
+      "text": "The poem’s sunny heights take the voice upwards before the short instrumental ending. After Anderson stops, horn and bassoon continue, with harp and soft strings. The last chord is marked “morendo” (dying away).",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Kahnt full score, p. 59, final phrase and postlude. The existing closing cue locates this passage; our translation of morendo."

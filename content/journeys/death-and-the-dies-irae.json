@@ -132,7 +132,7 @@
       "cues": [
         { "at": 0, "text": "Verdi’s setting of the Latin judgement scene opens with four orchestral blows and rushing figures." },
         { "at": 62, "text": "The orchestra plays more quietly, and the chorus’s words are heard clearly over the accompaniment." },
-        { "at": 102, "text": "‘Quantus tremor’ — ‘how great the trembling’ — breaks into quiet, repeated syllables." }
+        { "at": 102, "text": "‘Quantus tremor’ (‘how great the trembling’) breaks into quiet, repeated syllables." }
       ],
       "sources": [
         { "title": "Verdi, Requiem: Eulenburg score, opening Dies irae and following Tuba mirum", "url": "https://ks15.imslp.org/files/imglnks/usimg/7/71/IMSLP407348-PMLP01812-Verdi_Requiem_whole.pdf" },

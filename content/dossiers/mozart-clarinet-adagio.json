@@ -129,7 +129,7 @@
       "note": "The composer died in 1791. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
     },
     "recording": {
-      "value": "Rule 1 — recording licence/release: CC BY-SA 2.0 (EFF Open Audio License).",
+      "value": "Rule 1, recording licence/release: CC BY-SA 2.0 (EFF Open Audio License).",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons"
@@ -142,49 +142,49 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Wolfgang Amadeus Mozart - Clarinet Concerto - 2. Adagio.ogg",
+      "title": "Wikimedia Commons: Wolfgang Amadeus Mozart - Clarinet Concerto - 2. Adagio.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_2._Adagio.ogg?oldid=661044101",
       "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured and embedded metadata",
+      "title": "Wikimedia Commons: structured and embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Wolfgang_Amadeus_Mozart_-_Clarinet_Concerto_-_2._Adagio.ogg#structureddata",
       "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "soniventorum",
-      "title": "Soni Ventorum Wind Quintet — archive",
+      "title": "Soni Ventorum Wind Quintet: archive",
       "url": "https://soniventorum.com/soniventorum_archives.html",
       "locator": "Mozart, Concerto in A major for clarinet and orchestra, K. 622: William McColl, self-built basset clarinet; University Symphony Orchestra; Abraham Kaplan; December 1987.",
       "accessed": "2026-10-16"
     },
     {
       "id": "pandora",
-      "title": "Pandora Music at ibiblio — source repository",
+      "title": "Pandora Music at ibiblio: source repository",
       "url": "http://music.ibiblio.org/pub/multimedia/pandora/vorbis/index.html",
       "locator": "Repository cited by Commons as the Al Goldstein collection. The historic licence link returned 404; the original source chain is preserved without inventing a new licence statement.",
       "accessed": "2026-10-16"
     },
     {
       "id": "composer",
-      "title": "Wolfgang Amadeus Mozart — biographical dates",
+      "title": "Wolfgang Amadeus Mozart: biographical dates",
       "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
       "locator": "Lead paragraph: composer’s death year.",
       "accessed": "2026-10-16"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright term",
+      "title": "Directive 2006/116/EC: copyright term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Wolfgang Amadeus Mozart - Clarinet Concerto - 2. Adagio.ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Wolfgang Amadeus Mozart - Clarinet Concerto - 2. Adagio.ogg",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1258921827%7C661044101%7C642919319%7C1111732218%7C509438495%7C999902261%7C718748653%7C901919689%7C1204343741%7C718302093&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Wolfgang Amadeus Mozart - Clarinet Concerto - 2. Adagio.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"

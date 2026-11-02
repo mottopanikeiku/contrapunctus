@@ -32,7 +32,7 @@ export default {
 <p>In 1906 the family moved to Dresden, returning to Ivanovka for summers. There he wrote the Second Symphony, which he premiered successfully in St Petersburg in 1908. The slow movement has a long clarinet solo. Around it, the strings develop another melody, and the two lines build towards a climax. Ideas from the opening return across the four movements, which last about an hour.</p>
 <h3><span class="sc">1907–10</span><i>Isle of the Dead</i> and Third Concerto</h3>
 <p>In Paris in 1907 he saw a black-and-white reproduction of Böcklin’s <i>Isle of the Dead</i>. He composed the symphonic poem in Dresden in 1909 and conducted its première in Moscow on 18 April. He later saw a painted version in Leipzig and liked it less than the reproduction. The music is in 5/8, and its uneven bars of five quavers represent the rowing of the boat towards the island. A broader central section comes before the rowing figure returns. The brass play the medieval <i>Dies irae</i> chant, and the low strings close the work. The chant appears again in the Paganini <i>Rhapsody</i> and the <i>Symphonic Dances</i>.</p>
-<p>Rachmaninoff wrote the Third Concerto for his first American tour in 1909. It begins with a plain D minor theme in octaves, which the piano part then develops at length. For the first movement he wrote two cadenzas, a longer chordal one and a shorter, lighter one, which he played himself. Rachmaninoff gave the première in New York under Walter Damrosch on 28 November and played it with [[mahler|Mahler]] and the New York Philharmonic in January 1910. Mahler’s meticulous rehearsing impressed him. Afterwards he returned home. At the time few pianists took the concerto on.</p>
+<p>Rachmaninoff wrote the Third Concerto for his first American tour in 1909. It begins with a plain D minor theme in octaves, which the piano part then develops at length. For the first movement he wrote two cadenzas, a longer chordal one and a shorter, lighter one, which he played himself. Rachmaninoff gave the première in New York under Walter Damrosch on 28 November and played it with [[mahler|Mahler]] and the New York Philharmonic in January 1910. Mahler’s careful rehearsing impressed him. Afterwards he returned home. At the time few pianists took the concerto on.</p>
 <h3><span class="sc">1913–15</span><i>The Bells</i> and the <i>All-Night Vigil</i></h3>
 <p>An anonymous letter from a young admirer, later revealed to be a cello student in Moscow, brought him Konstantin Balmont’s Russian version of Poe’s <i>The Bells</i>. “In the drowsy quiet of a Roman afternoon, with Poe’s verses before me,” he remembered in 1913, “I heard the bell voices.” He began setting it for three soloists, chorus and orchestra in Rome, finished it at Ivanovka on 27 July 1913 and conducted the first performance in St Petersburg that November. Each of the four movements has its own bells, in turn sleigh bells, wedding bells, alarm bells and funeral bells. The third has no vocal soloist. In the fourth a cor anglais plays a lament before the baritone enters. In the final pages, after the last words about death, the strings move from C♯ minor to D♭ major.</p>
 <aside class="note"><b>The Vigil’s chants</b>Ten of its fifteen movements use existing znamenny, Kievan or Greek chants. Five use Rachmaninoff’s own melodies. The texts come from Vespers, Matins and the First Hour, sung in Church Slavonic.</aside>
@@ -163,7 +163,7 @@ V:1 name="Bass" clef=bass
     {
       relation: 'documented-use',
       type: 'poem',
-      author: 'Edgar Allan Poe', title: 'The Bells — opening section', date: '1849', lang: 'English',
+      author: 'Edgar Allan Poe', title: 'The Bells: opening section', date: '1849', lang: 'English',
       original: `Hear the sledges with the bells —
 Silver bells!
 What a world of merriment their melody foretells!
@@ -224,11 +224,11 @@ the features of a distant, unhappy girl.`,
   },
 
   reading: [
-    'Sergei Bertensson and Jay Leyda, with the assistance of Sophia Satina, <i>Sergei Rachmaninoff: A Lifetime in Music</i> (New York University Press, 1956) — letters and testimony from the composer’s circle; distinguish recollection from contemporary documentation.',
-    'Barrie Martyn, <i>Rachmaninoff: Composer, Pianist, Conductor</i> (Scolar Press, 1990) — the three professions treated together, with detailed discussion of the works and recorded performances.',
-    'Max Harrison, <i>Rachmaninoff: Life, Works, Recordings</i> (Continuum, 2005) — a work-by-work account that takes the orchestral and choral writing as seriously as the piano music.',
-    '<a href="https://en.tchaikovsky-research.net/pages/Sergei_Rachmaninoff">Tchaikovsky Research: Sergei Rachmaninoff</a> — letters, dates and source notes for the older composer’s encouragement, including the 1893 <i>Aleko</i> première.',
-    '<a href="https://www.rachmaninoff.org/">Rachmaninoff Network</a> — research resources and the concert diary; <a href="https://rachmaninoff.ch/en/history/">Sergei Rachmaninoff Foundation</a> — the documented history of Villa Senar.',
-    '<a href="https://rvb.ru/pushkin/01text/01versus/0423_36/1828/0467.htm">Russian Virtual Library: Pushkin’s “Не пой, красавица, при мне…”</a> and the <a href="https://www.eapoe.org/works/poems/bellse.htm">Edgar Allan Poe Society’s manuscript text of “The Bells”</a> — the original-language sources behind the song and choral symphony.',
+    'Sergei Bertensson and Jay Leyda, with the assistance of Sophia Satina, <i>Sergei Rachmaninoff: A Lifetime in Music</i> (New York University Press, 1956): letters and testimony from the composer’s circle; distinguish recollection from contemporary documentation.',
+    'Barrie Martyn, <i>Rachmaninoff: Composer, Pianist, Conductor</i> (Scolar Press, 1990): the three professions treated together, with detailed discussion of the works and recorded performances.',
+    'Max Harrison, <i>Rachmaninoff: Life, Works, Recordings</i> (Continuum, 2005): a work-by-work account that takes the orchestral and choral writing as seriously as the piano music.',
+    '<a href="https://en.tchaikovsky-research.net/pages/Sergei_Rachmaninoff">Tchaikovsky Research: Sergei Rachmaninoff</a>: letters, dates and source notes for the older composer’s encouragement, including the 1893 <i>Aleko</i> première.',
+    '<a href="https://www.rachmaninoff.org/">Rachmaninoff Network</a>: research resources and the concert diary; <a href="https://rachmaninoff.ch/en/history/">Sergei Rachmaninoff Foundation</a>: the documented history of Villa Senar.',
+    '<a href="https://rvb.ru/pushkin/01text/01versus/0423_36/1828/0467.htm">Russian Virtual Library: Pushkin’s “Не пой, красавица, при мне…”</a> and the <a href="https://www.eapoe.org/works/poems/bellse.htm">Edgar Allan Poe Society’s manuscript text of “The Bells”</a>: the original-language sources behind the song and choral symphony.',
   ],
 };

@@ -34,7 +34,7 @@ export default {
       "bar": { "n": "1", "occ": 1 },
       "kind": "music",
       "title": "Opening, bars 1–11",
-      "text": "The 1725 sonnet opens with “Aggiacciato tremar trà nevi algenti” — “To shiver, frozen, among icy snows.” Repeated string notes build upwards from the bass. The solo violin joins with a trill on each short note.",
+ "text": "The 1725 sonnet opens with “Aggiacciato tremar trà nevi algenti” (“To shiver, frozen, among icy snows.”) Repeated string notes build upwards from the bass. The solo violin joins with a trill on each short note.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, letter A; translation ours. Mutopia score after Performers’ Facsimiles, I, bars 1–11: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351. The sonnets were published anonymously with Op. 8."
@@ -43,7 +43,7 @@ export default {
       "bar": { "n": "12", "occ": 1 },
       "kind": "music",
       "title": "Solo violin, “Orrido Vento”",
-      "text": "“Al Severo Spirar d’orrido Vento” — “In the harsh breath of a dreadful wind.” The solo violin plays demisemiquavers in broken chords and descending scales. Short orchestral passages bring back the shivering figure.",
+ "text": "“Al Severo Spirar d’orrido Vento” (“In the harsh breath of a dreadful wind.”) The solo violin plays demisemiquavers in broken chords and descending scales. Short orchestral passages bring back the shivering figure.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter B; translation ours. Mutopia score, I, bars 12–18, solo marked Orrido Vento: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -52,7 +52,7 @@ export default {
       "bar": { "n": "22", "occ": 1 },
       "kind": "music",
       "title": "Stamping feet, bars 22–26",
-      "text": "“Correr battendo i piedi ogni momento” — “To run, stamping one’s feet at every moment.” Vivaldi set the repeated notes closer together. The semiquavers break into short bursts of demisemiquavers.",
+ "text": "“Correr battendo i piedi ogni momento” (“To run, stamping one’s feet at every moment.”) Vivaldi set the repeated notes closer together. The semiquavers break into short bursts of demisemiquavers.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter C; translation ours. Mutopia score, I, bars 20–26; the stamping inscription begins halfway through bar 22: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351."
@@ -70,7 +70,7 @@ export default {
       "bar": { "n": "47", "occ": 1 },
       "kind": "music",
       "title": "Solo violin, “Batter li denti”",
-      "text": "“E pel Soverchio gel batter i denti” — “And to chatter one’s teeth from the excessive frost.” The solo violin repeats short notes under the words <i>Batter li denti</i>. The repeated notes continue while the harmony passes through A♭ major and C minor towards F minor.",
+ "text": "“E pel Soverchio gel batter i denti” (“And to chatter one’s teeth from the excessive frost.”) The solo violin repeats short notes under the words <i>Batter li denti</i>. The repeated notes continue while the harmony passes through A♭ major and C minor towards F minor.",
       "basis": "score-aligned",
       "precision": "passage",
       "evidence": "Winter sonnet, 1725, letter D; translation ours. Mutopia score, I, bars 47–56; harmonic route in José Rodríguez Alvira’s commentary: https://www.teoria.com/en/articles/2022/vivaldi-seasons/inverno/01.php."
@@ -171,7 +171,7 @@ export default {
     "solo": "solo-violin",
     "basis": "score-proportion",
     "source": {
-      "title": "Vivaldi, The Four Seasons — Mutopia score after Performers’ Facsimiles",
+ "title": "Vivaldi, The Four Seasons: Mutopia score after Performers’ Facsimiles",
       "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=351",
       "locator": "I. Allegro non molto; opening staggered entries, solo passages and ritornellos. Passage-level participation, not individual attack alignment; cellos/basses represent the written basso part, with no claim about keyboard realization."
     },

@@ -110,7 +110,7 @@
       "note": "The composer died in 1893. This assessment does not cover a later edition or arrangement."
     },
     "recording": {
-      "value": "Rule 1 — CC0 1.0 Universal Public Domain Dedication stated for this recording file",
+      "value": "Rule 1, CC0 1.0 Universal Public Domain Dedication stated for this recording file",
       "status": "documented",
       "sourceIds": [
         "commons"
@@ -123,7 +123,7 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Tchaikovsky, Concerto No.1 in B-flat minor Op.23, III. Allegro.ogg",
+      "title": "Wikimedia Commons: File:Tchaikovsky, Concerto No.1 in B-flat minor Op.23, III. Allegro.ogg",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=994866309",
       "locator": "File-description revision: description, source, author, date and recording-specific licensing template.",
       "accessed": "2026-10-17"

@@ -10,7 +10,7 @@ export default {
   composer: 'fanny-hensel',
   order: 1,
   work: 'Warum sind denn die Rosen so blass',
-  movement: 'No. 3 of Sechs Lieder, Op. 1 — Andante',
+  movement: 'No. 3 of Sechs Lieder, Op. 1, Andante',
   year: '1837',
   key: 'A minor',
   forces: 'Voice and piano',

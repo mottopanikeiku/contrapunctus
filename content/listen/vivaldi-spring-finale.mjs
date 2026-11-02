@@ -3,7 +3,7 @@ export default {
   "composer": "vivaldi",
   "order": 3,
   "work": "The Four Seasons · Spring, RV 269",
-  "movement": "III. Allegro — Danza pastorale",
+  "movement": "III. Allegro, Danza pastorale",
   "set": {
     "id": "vivaldi-spring",
     "title": "The Four Seasons · Spring, RV 269",
@@ -34,7 +34,7 @@ export default {
       "t": 0,
       "kind": "music",
       "title": "Bagpipe drone in the bass",
-      "text": "“Di pastoral Zampogna al Suon festante” — “To the merry sound of a shepherd’s bagpipe.” The 1725 sonnet names the instrument for this dance. Long E and B notes in the bass imitate the bagpipe’s drone, and the violin tune moves in four groups of three quavers.",
+      "text": "“Di pastoral Zampogna al Suon festante” (“To the merry sound of a shepherd’s bagpipe.”) The 1725 sonnet names the instrument for this dance. Long E and B notes in the bass imitate the bagpipe’s drone, and the violin tune moves in four groups of three quavers.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Spring sonnet, letter G; translation ours. Mutopia score after Performers’ Facsimiles, III, bars 1–12, marked Danza Pastorale in 12/8: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301."
@@ -52,7 +52,7 @@ export default {
       "t": 96,
       "kind": "world",
       "title": "Spring sonnet, final lines, 1725",
-      "text": "“Danzan Ninfe e Pastor nel tetto amato / Di primavera all’apparir brillante” — “Nymphs and shepherds dance beneath their beloved shelter at spring’s brilliant arrival.” The sonnet places mythological nymphs beside working shepherds, and both dance to the same country dance.",
+ "text": "“Danzan Ninfe e Pastor nel tetto amato / Di primavera all’apparir brillante” (“Nymphs and shepherds dance beneath their beloved shelter at spring’s brilliant arrival.”) The sonnet places mythological nymphs beside working shepherds, and both dance to the same country dance.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Spring sonnet, 1725, final two lines, letter G; translation ours. The text is printed with the Mutopia score and reproduced at https://nac-cna.ca/en/event/notes/36996. The sonnets were published anonymously."
@@ -180,7 +180,7 @@ export default {
     "solo": "solo-violin",
     "basis": "score-proportion",
     "source": {
-      "title": "Vivaldi, The Four Seasons — Mutopia score after Performers’ Facsimiles",
+ "title": "Vivaldi, The Four Seasons: Mutopia score after Performers’ Facsimiles",
       "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301",
       "locator": "III. Allegro, especially bars 1–14, 22, 34–58, 71–89. Passage-level participation, not individual attack alignment; cellos/basses represent the written basso part, with no claim about keyboard realization."
     },

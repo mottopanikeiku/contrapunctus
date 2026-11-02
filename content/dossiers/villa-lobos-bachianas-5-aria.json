@@ -91,7 +91,7 @@
       "note": "Rights in the composition are stated separately from rights in the recording. This dossier does not assert that the composition is free of copyright."
     },
     "recording": {
-      "value": "Rule 3 — territorial EU public domain: first published before 1963 (Columbia 71670-D, listed in the 1946 catalogue).",
+      "value": "Rule 3, territorial EU public domain: first published before 1963 (Columbia 71670-D, listed in the 1946 catalogue).",
       "status": "documented",
       "sourceIds": ["catalogue", "labels"],
       "note": "The 1946 catalogue is a dated witness that the disc was on sale by then; the exact release date is not established. The Internet Archive item carries a CC BY-NC-ND 4.0 label chosen by the uploader, which is not relied on here. The United States status of a recording first published in 1945 or 1946 is not established."
@@ -102,7 +102,7 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Bachianas Brasileiras No. 5 (Bidú Sayão; Heitor Villa-Lobos): metadata and file inventory",
+      "title": "Internet Archive: Bachianas Brasileiras No. 5 (Bidú Sayão; Heitor Villa-Lobos): metadata and file inventory",
       "url": "https://archive.org/metadata/bachianas-brasileiras-no.-5",
       "locator": "metadata.description (performers, Columbia Masterworks 71670-D, equalisation and de-click notes), date 1945, licenseurl, publicdate; files Bachianas Brasileiras No. 5.mp3 (417.96 s), label1.jpg, label2.jpg",
       "accessed": "2026-10-19"
@@ -123,35 +123,35 @@
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Bachianas brasileiras No.5, W389-391 (Villa-Lobos, Heitor)",
+      "title": "IMSLP: Bachianas brasileiras No.5, W389-391 (Villa-Lobos, Heitor)",
       "url": "https://imslp.org/wiki/Bachianas_brasileiras_No.5,_W389-391_(Villa-Lobos,_Heitor)",
       "locator": "General Information: movements, key (A minor for the Ária), first performance 1939-03-25, first publication 1947, dedication, copyright notice for life-plus-70 countries and the United States",
       "accessed": "2026-10-19"
     },
     {
       "id": "newyorker",
-      "title": "John McCarten — Villa-Lobos, The New Yorker, 10 February 1945",
+      "title": "John McCarten: Villa-Lobos, The New Yorker, 10 February 1945",
       "url": "https://www.newyorker.com/magazine/1945/02/10/villa-lobos",
       "locator": "Talk of the Town: Villa-Lobos at the Waldorf, conducting the Philharmonic that week",
       "accessed": "2026-10-19"
     },
     {
       "id": "museu",
-      "title": "Museu Villa-Lobos — Bachianas Brasileiras n° 5, autograph full score 1994.21.0002",
+      "title": "Museu Villa-Lobos: Bachianas Brasileiras n° 5, autograph full score 1994.21.0002",
       "url": "https://museuvillalobos.acervos.museus.gov.br/partituras/bachianas-brasileiras-n-5-2",
       "locator": "Execuções: first performance 25 March 1939 in Rio with Ruth Valadares Correa; 4 May 1939 at the World’s Fair Hall, New York, with Bidu Sayão and Walter Burle-Marx, the first performance in the United States",
       "accessed": "2026-10-19"
     },
     {
       "id": "wright",
-      "title": "Simon Wright — note to Hyperion CDA66257 (Villa-Lobos: Bachianas brasileiras Nos 1 & 5), 1987",
+      "title": "Simon Wright: note to Hyperion CDA66257 (Villa-Lobos: Bachianas brasileiras Nos 1 & 5), 1987",
       "url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66257",
       "locator": "Paragraphs on the replaced text of the first movement, the second movement added in 1945, the ternary design and the doubling of the soprano by the leading cellist",
       "accessed": "2026-10-19"
     },
     {
       "id": "cueto",
-      "title": "Amancio Cueto Jr. — Villa-Lobos: Bachianas Brasileiras nº5, Euterpe – Blog de Música Clássica",
+      "title": "Amancio Cueto Jr.: Villa-Lobos: Bachianas Brasileiras nº5, Euterpe – Blog de Música Clássica",
       "url": "https://euterpe.blog.br/villa-lobos-bachianas-brasileiras-5",
       "locator": "Section 1, Aria (Cantilena): the melody on “Ah” repeated by the first cello, pizzicato accompaniment, recitative-like middle part with Ruth Valadares Corrêa’s poem, return of the melody sung bocca chiusa",
       "accessed": "2026-10-19"

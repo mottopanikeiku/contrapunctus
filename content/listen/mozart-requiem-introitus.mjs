@@ -3,7 +3,7 @@ export default {
   composer: 'mozart',
   order: 20,
   work: 'Requiem in D minor, K. 626',
-  movement: 'I. Introitus: Requiem aeternam — Adagio',
+  movement: 'I. Introitus: Requiem aeternam, Adagio',
   set: { id: 'mozart-requiem', title: 'Requiem in D minor, K. 626', part: 1, of: 14 },
   year: '1791',
   key: 'D minor',

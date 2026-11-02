@@ -135,14 +135,14 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Maurice Ravel - Le Tombeau de Couperin. II. Fugue.opus",
+      "title": "Wikimedia Commons: Maurice Ravel - Le Tombeau de Couperin. II. Fugue.opus",
       "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Le_Tombeau_de_Couperin._II._Fugue.opus",
       "locator": "Description, source, author, licensing and file history; not all dates describe recording sessions.",
       "accessed": "2026-10-17"
     },
     {
       "id": "commons-meta",
-      "title": "Wikimedia Commons — embedded metadata",
+      "title": "Wikimedia Commons: embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Le_Tombeau_de_Couperin._II._Fugue.opus#metadata",
       "locator": "Embedded author, copyright and digitising tags, where present; not independent confirmation of the file description.",
       "accessed": "2026-10-17"
@@ -156,28 +156,28 @@
     },
     {
       "id": "catalogue",
-      "title": "IMSLP — original piano suite",
+      "title": "IMSLP: original piano suite",
       "url": "https://imslp.org/wiki/Le_tombeau_de_Couperin_(piano)_(Ravel,_Maurice)",
       "locator": "Instrumentation, keys, six movements, 1918 first publication and public-domain first-edition scan.",
       "accessed": "2026-10-17"
     },
     {
       "id": "bnf",
-      "title": "Bibliothèque nationale de France — Le tombeau de Couperin, piano",
+      "title": "Bibliothèque nationale de France: Le tombeau de Couperin, piano",
       "url": "https://catalogue.bnf.fr/ark:/12148/cb13917720k",
       "locator": "Composition July 1914–November 1917; all six dedications; premiere by Marguerite Long, Salle Gaveau, 11 April 1919.",
       "accessed": "2026-10-17"
     },
     {
       "id": "lyon",
-      "title": "Coline Miallier — Le Tombeau de Couperin, Orchestre national de Lyon",
+      "title": "Coline Miallier: Le Tombeau de Couperin, Orchestre national de Lyon",
       "url": "https://www.auditorium-lyon.com/en/node/13646",
       "locator": "Notes dated 25 and 27 November 2021: each movement remembers a friend killed at the front; historical dance forms; separate 1919 orchestration.",
       "accessed": "2026-10-17"
     },
     {
       "id": "kansas",
-      "title": "Eric T. Williams — Le tombeau de Couperin, Kansas City Symphony",
+      "title": "Eric T. Williams: Le tombeau de Couperin, Kansas City Symphony",
       "url": "https://www.kcsymphony.org/wp-content/uploads/2024/03/FY24-CS10-Program-Book-Digital-2024-04-05.pdf",
       "locator": "Programme, 5–7 April 2024, printed pp. 5–7 (PDF pp. 7–9): wartime service, 1 October 1914 letter, Charlot, Deluc and Dreyfus, Couperin forlane transcription.",
       "accessed": "2026-10-17"

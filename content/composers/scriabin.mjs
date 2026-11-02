@@ -102,8 +102,8 @@ V:2
   ],
   lineage: { from: ['chopin', 'liszt', 'wagner', 'Russian Symbolism and Theosophy'], to: ['Nikolai Roslavets', 'Samuil Feinberg', 'messiaen', 'prokofiev'], note: `<p>Scriabin took the singing style of piano writing and many of his favourite forms from Chopin. Later composers took up his harmonies: Roslavets built his own method around synthetic chords, and Feinberg extended the sonata. [[prokofiev|Prokofiev]] dedicated <i>Dreams</i> to him in 1910. [[messiaen|Messiaen]] also used colour and selected scales, with a very different religious imagination.</p>` },
   reading: [
-    'Faubion Bowers, <i>Scriabin: A Biography</i>, revised edition (Dover, 1996) — extensive biographical material; distinguish contemporary testimony from retrospective anecdote.',
-    'James M. Baker, <i>The Music of Alexander Scriabin</i> (Yale, 1986) — close harmonic analysis of the transition from tonal to late practice.',
-    'Anna M. Gawboy and Justin Townsend, <a href="https://www.mtosmt.org/issues/mto.12.18.2/mto.12.18.2.gawboy_townsend.html">“Scriabin and the Possible”</a>, <i>Music Theory Online</i> 18/2 (2012) — documents the light part and separates the surviving sources from later colour-chart mythology.',
+    'Faubion Bowers, <i>Scriabin: A Biography</i>, revised edition (Dover, 1996): extensive biographical material; distinguish contemporary testimony from retrospective anecdote.',
+    'James M. Baker, <i>The Music of Alexander Scriabin</i> (Yale, 1986): close harmonic analysis of the transition from tonal to late practice.',
+    'Anna M. Gawboy and Justin Townsend, <a href="https://www.mtosmt.org/issues/mto.12.18.2/mto.12.18.2.gawboy_townsend.html">“Scriabin and the Possible”</a>, <i>Music Theory Online</i> 18/2 (2012): documents the light part and separates the surviving sources from later colour-chart mythology.',
   ],
 };

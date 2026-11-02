@@ -64,7 +64,7 @@ K:C
 V:1 name="Tpt in C"
 %%MIDI program 56
 !p!C2 G2 | c2-c3/2 !f!e/ |]`, caption: 'Quoted from bars 5–6 of <i>Also sprach Zarathustra</i>, the first trumpet at concert pitch. C–G–C gives a fifth and an octave; the final quaver adds E♮, immediately before the harmony changes. The <a href="https://commons.wikimedia.org/wiki/File:Strauss_APZ.jpg">opening brass staves</a> show the surrounding parts.' },
-    { kicker: 'Elektra, harmonic resource', title: 'Two simultaneous triads — schematic', abc: `X:2
+    { kicker: 'Elektra, harmonic resource', title: 'Two simultaneous triads: schematic', abc: `X:2
 T:Elektra chord - schematic
 M:4/4
 L:1/4
@@ -76,11 +76,11 @@ V:1 name="Piano"
   ],
   arts: [
     { relation: 'documented-use',
-      type: 'poem', author: 'Friedrich Nietzsche', title: 'Also sprach Zarathustra — Zarathustra’s prologue, §1', date: '1883', lang: 'German', translator: 'Our translation', original: 'Du grosses Gestirn! Was wäre dein Glück, wenn du nicht Die hättest, welchen du leuchtest!', translation: 'You great star! What would your happiness be if you did not have those upon whom you shine!', note: '<p>After ten years in the mountains, Zarathustra addresses the sun and prepares to descend to other people. Strauss begins his response with the low C and trumpet call of sunrise. Later headings, including the dance and the convalescent, come from other chapters of <a href="https://www.gutenberg.org/cache/epub/7205/pg7205-images.html">Nietzsche’s book</a>.</p>' },
+      type: 'poem', author: 'Friedrich Nietzsche', title: 'Also sprach Zarathustra: Zarathustra’s prologue, §1', date: '1883', lang: 'German', translator: 'Our translation', original: 'Du grosses Gestirn! Was wäre dein Glück, wenn du nicht Die hättest, welchen du leuchtest!', translation: 'You great star! What would your happiness be if you did not have those upon whom you shine!', note: '<p>After ten years in the mountains, Zarathustra addresses the sun and prepares to descend to other people. Strauss begins his response with the low C and trumpet call of sunrise. Later headings, including the dance and the convalescent, come from other chapters of <a href="https://www.gutenberg.org/cache/epub/7205/pg7205-images.html">Nietzsche’s book</a>.</p>' },
     { relation: 'shared-context',
       type: 'painting', frame: 'lacquer', file: 'File:Gustav Klimt, Judith II.jpg', artist: 'Gustav Klimt', title: 'Judith II (Salome)', date: '1909', medium: 'Oil on canvas', collection: 'Ca’ Pesaro, Venice', note: '<p>When Klimt showed this painting in Venice in 1910, the critic Gino Damerini called its woman a little sister of Wilde’s Salome. Judith was already being confused with Salome in the picture’s early reception. The painting shows her tense hands and the severed head, and it is placed here beside Strauss’s opera.</p>' },
     { relation: 'documented-use',
-      type: 'poem', author: 'Hugo von Hofmannsthal', title: 'Der Rosenkavalier — the Marschallin on time', date: '1911', lang: 'German', translator: 'Our translation', original: `Die Zeit, die ist ein sonderbar Ding.
+      type: 'poem', author: 'Hugo von Hofmannsthal', title: 'Der Rosenkavalier: the Marschallin on time', date: '1911', lang: 'German', translator: 'Our translation', original: `Die Zeit, die ist ein sonderbar Ding.
 Wenn man so hinlebt, ist sie rein gar nichts.
 Aber dann auf einmal,
 da spürt man nichts als sie.
@@ -99,9 +99,9 @@ it is also inside us.`, note: '<p>Hofmannsthal gave the Marschallin these words 
   ],
   lineage: { from: ['mozart', 'beethoven', 'liszt', 'wagner', 'Franz Strauss'], to: ['schoenberg', 'berg', 'Erich Wolfgang Korngold', 'Film orchestration'], note: '<p>Strauss kept both his father’s Mozart and his own Wagner. In <i>Ariadne</i> the same small orchestra accompanies a comedian’s patter and a soprano’s great lament. [[schoenberg|Schoenberg]] learnt from the tone poems, and Strauss helped him early in his career. [[berg|Berg]] and Korngold each took something different from Strauss’s operas. Berg took the use of the orchestra to show a character’s mind, and Korngold took its use in love scenes.</p>' },
   reading: [
-    'Norman Del Mar, <i>Richard Strauss: A Critical Commentary on His Life and Works</i>, 3 vols (Barrie & Rockliff, 1962–72) — detailed discussion of the scores.',
-    'Bryan Gilliam, <i>The Life of Richard Strauss</i> (Cambridge, 1999) — biography attentive to theatre, institutions and politics.',
-    '<i>A Working Friendship: The Correspondence between Richard Strauss and Hugo von Hofmannsthal</i>, trans. Hanns Hammelmann and Ewald Osers (Cambridge, 1961) — opera-making in the participants’ own arguments.',
-    '<a href="https://www.richardstrauss.at/strauss-und-der-nationalsozialismus.html">Richard Strauss and National Socialism</a> — the family archive’s account, to be read critically alongside independent biographies.',
+    'Norman Del Mar, <i>Richard Strauss: A Critical Commentary on His Life and Works</i>, 3 vols (Barrie & Rockliff, 1962–72): detailed discussion of the scores.',
+    'Bryan Gilliam, <i>The Life of Richard Strauss</i> (Cambridge, 1999): biography attentive to theatre, institutions and politics.',
+    '<i>A Working Friendship: The Correspondence between Richard Strauss and Hugo von Hofmannsthal</i>, trans. Hanns Hammelmann and Ewald Osers (Cambridge, 1961): opera-making in the participants’ own arguments.',
+    '<a href="https://www.richardstrauss.at/strauss-und-der-nationalsozialismus.html">Richard Strauss and National Socialism</a>: the family archive’s account, to be read critically alongside independent biographies.',
   ],
 };

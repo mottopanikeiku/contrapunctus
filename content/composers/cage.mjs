@@ -58,7 +58,7 @@ export default {
     { year: '1987', title: 'Two', forces: 'Flute and piano', note: 'The first of the Number Pieces. Time-brackets give the two players latitude over the placement of sounds within the allotted duration.' },
   ],
   score: [
-    { kicker: 'Rhythmic structure — schematic', title: 'One, one, two: one bar and four bars', abc: `X:1
+    { kicker: 'Rhythmic structure: schematic', title: 'One, one, two: one bar and four bars', abc: `X:1
 T:Nested proportions (invented schematic)
 M:4/4
 L:1/4
@@ -67,7 +67,7 @@ K:C
 V:1 name="Piano"
 %%MIDI program 0
 "Section I"C C C2 | "Section II"E E E2 | "Section III"G G G2 | G G G2 |]`, caption: 'An invented schematic of Cage’s small-and-large rhythmic proportions. Each bar divides its four beats 1:1:2; the three sections occupy one, one and two bars. C, E and G distinguish the sections. These pitches and this 1:1:2 miniature are editorial choices and are not taken from any Cage composition.' },
-    { kicker: 'Chance selection — schematic', title: 'Fixed phrase from sixteen random draws', abc: `X:2
+    { kicker: 'Chance selection: schematic', title: 'Fixed phrase from sixteen random draws', abc: `X:2
 T:Six-outcome chance table (invented schematic)
 M:4/4
 L:1/4
@@ -86,9 +86,9 @@ G A A D | C z A A | E z A E | G D z D |]`, caption: 'An original chance-derived 
   ],
   lineage: { from: ['schoenberg', 'satie', 'Henry Cowell', 'Gita Sarabhai', 'feldman', 'Marcel Duchamp'], to: ['Merce Cunningham', 'David Tudor', 'George Brecht', 'Dick Higgins', 'Toshi Ichiyanagi'], note: '<p>Cowell directed Cage towards Schoenberg; in place of structural harmony Cage used counted durations. [[feldman|Feldman]]’s graph scores helped prompt <i>Music of Changes</i>. Cunningham developed dance independent of the music, and Tudor took their work into live electronics. At the New School, Brecht, Higgins and Ichiyanagi brought composition into contact with the activities that later gathered around Fluxus.</p>' },
   reading: [
-    'John Cage, <i>Silence: Lectures and Writings</i>, 50th anniversary edition (Wesleyan University Press, 2013) — lectures whose pauses and layouts make the page part of the performance.',
-    'James Pritchett, <i>The Music of John Cage</i> (Cambridge University Press, 1993) — the essential account of what Cage actually did when composing, with close attention to chance and indeterminacy.',
-    'John Cage, <i>The Selected Letters of John Cage</i>, edited by Laura Kuhn (Wesleyan University Press, 2016) — correspondence for the working relationships behind the scores.',
-    'Kenneth Silverman, <i>Begin Again: A Biography of John Cage</i> (Northwestern University Press, 2012) — a substantial life placing the composer among dancers, artists and friends.',
+    'John Cage, <i>Silence: Lectures and Writings</i>, 50th anniversary edition (Wesleyan University Press, 2013): lectures whose pauses and layouts make the page part of the performance.',
+    'James Pritchett, <i>The Music of John Cage</i> (Cambridge University Press, 1993): the essential account of what Cage actually did when composing, with close attention to chance and indeterminacy.',
+    'John Cage, <i>The Selected Letters of John Cage</i>, edited by Laura Kuhn (Wesleyan University Press, 2016): correspondence for the working relationships behind the scores.',
+    'Kenneth Silverman, <i>Begin Again: A Biography of John Cage</i> (Northwestern University Press, 2012): a substantial life placing the composer among dancers, artists and friends.',
   ],
 };

@@ -75,7 +75,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Anne-Marie Sylvestre — recording producer",
+      "value": "Anne-Marie Sylvestre: recording producer",
       "status": "documented",
       "sourceIds": [
         "session-record"
@@ -119,7 +119,7 @@
       "note": "The composer died in 1750. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
     },
     "recording": {
-      "value": "Rule 1 — recording licence/release: CC0 1.0 Universal.",
+      "value": "Rule 1, recording licence/release: CC0 1.0 Universal.",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons"
@@ -132,56 +132,56 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Kimiko Ishizaka - Bach - Well-Tempered Clavier, Book 1 - 48 Fugue No. 24 in B minor, BWV 869.ogg",
+      "title": "Wikimedia Commons: Kimiko Ishizaka - Bach - Well-Tempered Clavier, Book 1 - 48 Fugue No. 24 in B minor, BWV 869.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier,_Book_1_-_48_Fugue_No._24_in_B_minor,_BWV_869.ogg?oldid=1029369215",
       "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured and embedded metadata",
+      "title": "Wikimedia Commons: structured and embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier,_Book_1_-_48_Fugue_No._24_in_B_minor,_BWV_869.ogg#structureddata",
       "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "project",
-      "title": "Open Well-Tempered Clavier — release announcement",
+      "title": "Open Well-Tempered Clavier: release announcement",
       "url": "https://welltemperedclavier.org/kimiko-ishizaka-releases-open-well-tempered-clavier.html",
       "locator": "Announcement dated 19 March 2015: studio recording released into the public domain; this is the release date, not the session.",
       "accessed": "2026-10-16"
     },
     {
       "id": "session-record",
-      "title": "Internet Archive — Open Well-Tempered Clavier project metadata",
+      "title": "Internet Archive: Open Well-Tempered Clavier project metadata",
       "url": "https://archive.org/metadata/OpenWell-TemperedClavier_Book_I/metadata",
       "locator": "description: all tracks recorded 4–9 July 2014, Teldex Studio, Berlin; Bösendorfer 280; producer Anne-Marie Sylvestre. The item title’s BWV endpoint is erroneous; track identification follows Commons.",
       "accessed": "2026-10-16"
     },
     {
       "id": "album-metadata",
-      "title": "Internet Archive — Bach: Well-Tempered Clavier, Book 1",
+      "title": "Internet Archive: Bach: Well-Tempered Clavier, Book 1",
       "url": "https://archive.org/metadata/bach-well-tempered-clavier-book-1/metadata",
       "locator": "rights: Released under CC0 1.0 Universal; source links to the artist’s album page. This later mirror is corroboration, not a claimed intermediate in the Commons upload.",
       "accessed": "2026-10-16"
     },
     {
       "id": "composer",
-      "title": "Johann Sebastian Bach — biographical dates",
+      "title": "Johann Sebastian Bach: biographical dates",
       "url": "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach",
       "locator": "Lead paragraph: composer’s death year.",
       "accessed": "2026-10-16"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright term",
+      "title": "Directive 2006/116/EC: copyright term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Kimiko Ishizaka - Bach - Well-Tempered Clavier, Book 1 - 48 Fugue No. 24 in B minor, BWV 869.ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Kimiko Ishizaka - Bach - Well-Tempered Clavier, Book 1 - 48 Fugue No. 24 in B minor, BWV 869.ogg",
       "url": "https://commons.wikimedia.org/w/api.php?format=json&formatversion=2&action=query&prop=revisions&rvprop=content%7Cids&rvslots=main&revids=1048736444%7C1029369215%7C1259318927%7C1146394215%7C658946491%7C1190184410%7C848584084%7C1126687476%7C1030746393%7C1055787249",
       "locator": "Opened file-description wikitext for File:Kimiko Ishizaka - Bach - Well-Tempered Clavier, Book 1 - 48 Fugue No. 24 in B minor, BWV 869.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"

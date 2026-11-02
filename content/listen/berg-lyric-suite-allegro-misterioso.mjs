@@ -6,7 +6,7 @@ export default {
   composer: 'berg',
   order: 2,
   work: 'Lyric Suite',
-  movement: 'III. Allegro misterioso — Trio estatico',
+  movement: 'III. Allegro misterioso, Trio estatico',
   year: '1925–26',
   key: '',
   forces: 'String quartet',

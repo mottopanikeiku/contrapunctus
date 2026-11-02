@@ -58,7 +58,7 @@ export default {
     { year: '1863', title: 'Petite messe solennelle', forces: 'Solo voices, chorus, two pianos and harmonium; later orchestrated', note: 'The original scoring was for chamber forces. At the end of his manuscript the composer asked God for admission to Paradise.' },
   ],
   score: [
-    { kicker: 'The Rossini crescendo — schematic', title: 'Phrase and sound', abc: `X:1
+    { kicker: 'The Rossini crescendo: schematic', title: 'Phrase and sound', abc: `X:1
 T:A repeated phrase gathering instruments (schematic)
 M:2/4
 L:1/8
@@ -76,7 +76,7 @@ z4 | !p!E G c G | !mf!E G c G | !f!E G c G |]
 V:3
 %%MIDI program 43
 z4 | z4 | !mf!C,2 G,,2 | !f!C,2 G,,2 |]`, caption: 'An invented four-bar schematic: the violin repeats the same notes, the clarinet enters, then the bass, while the dynamic increases. It isolates the accumulation heard in Rossini’s overtures. The notes are not a quotation.' },
-    { kicker: 'Coloratura — schematic', title: 'Plain line with added quick notes', abc: `X:2
+    { kicker: 'Coloratura: schematic', title: 'Plain line with added quick notes', abc: `X:2
 T:Melody and ornament (schematic)
 M:2/4
 L:1/16
@@ -100,9 +100,9 @@ CDEF EFGF | GABc GFED | DEFD B,CD B, | C8 |]`, caption: 'An invented schematic s
   ],
   lineage: { from: ['haydn', 'mozart', 'Giovanni Paisiello', 'Isabella Colbran'], to: ['Vincenzo Bellini', 'Gaetano Donizetti'], note: '<p>Malerbi introduced Rossini to [[haydn|Haydn]] and [[mozart|Mozart]] in Lugo; Paisiello’s <i>Barber</i> was the predecessor the 1816 libretto acknowledged. Colbran helped shape the serious operas through the roles written for her. Bellini admired <i>Guillaume Tell</i>, and Donizetti conducted the Bologna <i>Stabat Mater</i> in 1842.</p>' },
   reading: [
-    'Richard Osborne, <i>Rossini: His Life and Works</i>, second edition (Oxford University Press, 2007) — the life and the music together, including the long years after <i>Tell</i>.',
-    'Emanuele Senici, ed., <i>The Cambridge Companion to Rossini</i> (Cambridge University Press, 2004) — how the operas were written, sung, staged and edited.',
-    'Philip Gossett, <i>Divas and Scholars: Performing Italian Opera</i> (University of Chicago Press, 2006) — what cuts, ornaments and competing versions mean when an opera reaches the stage.',
-    'Fausto Petrella, <i>Spazio artistico e umorismo in musica. Il comico musicale e i suoi rapporti con il Witz</i>, <i>De Musica</i> 7 (2003) — the comic machinery of Rossini’s ensembles, discussed in section VIII; in Italian.',
+    'Richard Osborne, <i>Rossini: His Life and Works</i>, second edition (Oxford University Press, 2007): the life and the music together, including the long years after <i>Tell</i>.',
+    'Emanuele Senici, ed., <i>The Cambridge Companion to Rossini</i> (Cambridge University Press, 2004): how the operas were written, sung, staged and edited.',
+    'Philip Gossett, <i>Divas and Scholars: Performing Italian Opera</i> (University of Chicago Press, 2006): what cuts, ornaments and competing versions mean when an opera reaches the stage.',
+    'Fausto Petrella, <i>Spazio artistico e umorismo in musica. Il comico musicale e i suoi rapporti con il Witz</i>, <i>De Musica</i> 7 (2003): the comic machinery of Rossini’s ensembles, discussed in section VIII; in Italian.',
   ],
 };

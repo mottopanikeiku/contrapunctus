@@ -6,7 +6,7 @@ export default {
   composer: 'berg',
   order: 4,
   work: 'Violin Concerto',
-  movement: 'II. Allegro — Adagio — Coda',
+  movement: 'II. Allegro, Adagio, Coda',
   year: '1935',
   key: '',
   forces: 'Solo violin and orchestra',

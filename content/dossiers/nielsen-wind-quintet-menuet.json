@@ -93,7 +93,7 @@
       "note": "The dates are documented; the legal conclusion is ours. The Carl Nielsen Edition of 2003, used here only for bar numbers and the preface, is a separate publication under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 licence, and none of its text or music is reproduced."
     },
     "recording": {
-      "value": "Rule 3 — territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
+      "value": "Rule 3, territorial: sound recording public domain in the European Union (pre-1963 publication basis).",
       "status": "documented",
       "sourceIds": ["mq", "tnr", "archive", "kelly"],
       "note": "The set was listed as Danish Gramophone DB 5200–3 in The Musical Quarterly of April 1937 and reviewed as four 12-inch discs in The New Records of August 1937, so it was published by then. The uploader’s date of 1936 is not an independent source. The United States status of a Danish recording published in 1936 or 1937 is not established."
@@ -104,7 +104,7 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Nielsen Wind Quintet (first recording, 1936): metadata, file inventory and label scans",
+      "title": "Internet Archive: Nielsen Wind Quintet (first recording, 1936): metadata, file inventory and label scans",
       "url": "https://archive.org/metadata/db-5200-3-nielsen-wind-quintet-iii",
       "locator": "metadata.description (players, recording date, issue numbers, matrices and side contents, “Side 3 (2CS 295-4): Second movement (Menuet)”); label scan of HMV DB5201 A (2CS 295, “2 Sats: Menuet”); track (ii), 4:28",
       "accessed": "2026-10-19"
@@ -132,7 +132,7 @@
     },
     {
       "id": "cnw70",
-      "title": "Catalogue of Carl Nielsen’s Works (Royal Danish Library) — Quintet for flute, oboe, clarinet, horn and bassoon, Op. 43, CNW 70",
+      "title": "Catalogue of Carl Nielsen’s Works (Royal Danish Library): Quintet for flute, oboe, clarinet, horn and bassoon, Op. 43, CNW 70",
       "url": "https://www.kb.dk/dcm/cnw/document.xq?n=70",
       "locator": "Dedicatees; first edition (Wilhelm Hansen, Copenhagen 1923); performances of 30 April 1922 (private, Gothenburg), 9 October 1922 (Hagemann, Felumb, Oxenvad, Sørensen, Lassen) and 29 March 1923, Berlin (Gilbert-Jespersen)",
       "accessed": "2026-10-19"
@@ -146,7 +146,7 @@
     },
     {
       "id": "dbl",
-      "title": "Dansk Biografisk Leksikon — Carl Nielsen",
+      "title": "Dansk Biografisk Leksikon: Carl Nielsen",
       "url": "https://biografiskleksikon.lex.dk/Carl_Nielsen",
       "locator": "Death on 3 October 1931 in Copenhagen",
       "accessed": "2026-10-19"

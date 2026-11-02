@@ -4,7 +4,7 @@ export default {
   order: 14,
   set: { id: 'mahler-symphony-2', title: 'Symphony No. 2 in C minor “Resurrection”', part: 5, of: 5 },
   work: 'Symphony No. 2 “Resurrection”',
-  movement: 'V. Im Tempo des Scherzos — Wild herausfahrend',
+  movement: 'V. Im Tempo des Scherzos, Wild herausfahrend',
   year: '1888–94',
   key: 'E♭ major',
   forces: 'Soprano, alto, mixed chorus and orchestra',

@@ -99,21 +99,21 @@
   "sources": [
     {
       "id": "archive",
-      "title": "Internet Archive — Messiaen: La Nativite Du Seigneur (“The Nativity Of Our Lord”), Ernest White, Mercury Classics MG 10069: item record and file list",
+      "title": "Internet Archive: Messiaen: La Nativite Du Seigneur (“The Nativity Of Our Lord”), Ernest White, Mercury Classics MG 10069: item record and file list",
       "url": "https://archive.org/metadata/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen",
       "locator": "publisher Mercury Classics, publisher-catalog-number MG 10069, date 1952; lineage; scandate 20190918; ripping_date 20191008; file disc1/02.05 God Among Us.mp3, 7:08",
       "accessed": "2026-10-19"
     },
     {
       "id": "sleeve",
-      "title": "Mercury Classics MG 10069 — scanned sleeve (Internet Archive PDF and OCR text)",
+      "title": "Mercury Classics MG 10069: scanned sleeve (Internet Archive PDF and OCR text)",
       "url": "https://archive.org/details/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen",
       "locator": "Notes: “The Composer”, “The Music” (Messiaen’s preface and the epigraphs of the nine pieces), “The Artist and His Instrument” (Ernest White; the Methuen organ; “recording was accomplished in August of 1949 under the engineering supervision of H. Vose Greenough”)",
       "accessed": "2026-10-19"
     },
     {
       "id": "segments",
-      "title": "Internet Archive — final track segmentation (segments.json)",
+      "title": "Internet Archive: final track segmentation (segments.json)",
       "url": "https://archive.org/download/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen/lp_messiaen-la-nativite-du-seigneur-the-nativ_ernest-white-olivier-messiaen_segments.json",
       "locator": "God Among Us: initial 915.943–1319.348 s, final 890.892–1319.348 s",
       "accessed": "2026-10-19"
@@ -134,21 +134,21 @@
     },
     {
       "id": "wikipedia",
-      "title": "Wikipedia — La Nativité du Seigneur",
+      "title": "Wikipedia: La Nativité du Seigneur",
       "url": "https://en.wikipedia.org/wiki/La_Nativit%C3%A9_du_Seigneur",
       "locator": "Composition in Grenoble, summer 1935; première at La Trinité on 27 February 1936 shared by Daniel-Lesur (1–3), Langlais (4–6) and Grunenwald (7–9); Leduc publication in four books, IV for piece 9 alone",
       "accessed": "2026-10-19"
     },
     {
       "id": "weir",
-      "title": "Dame Gillian Weir — programme note on “Dieu parmi nous” (Hollywood Bowl / Los Angeles Philharmonic Association, © 2009)",
+      "title": "Dame Gillian Weir: programme note on “Dieu parmi nous” (Hollywood Bowl / Los Angeles Philharmonic Association, © 2009)",
       "url": "https://www.hollywoodbowl.com/musicdb/pieces/18/dieu-parmi-nous-from-la-nativite-du-seigneur",
       "locator": "Description of the piece: the descent of God, a few serene bars, increasing intensity, “until a dazzling toccata signals the Incarnation”",
       "accessed": "2026-10-19"
     },
     {
       "id": "wikipediaTurangalila",
-      "title": "Wikipedia — Turangalîla-Symphonie",
+      "title": "Wikipedia: Turangalîla-Symphonie",
       "url": "https://en.wikipedia.org/wiki/Turangal%C3%AEla-Symphonie",
       "locator": "Opening paragraph: Olivier Messiaen (1908–1992)",
       "accessed": "2026-10-19"

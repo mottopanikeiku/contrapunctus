@@ -114,8 +114,8 @@ That thou her maid art far more fair than she.`, note: `<p>Balakirev suggested S
   ],
   lineage: { from: ['mozart', 'schumann', 'Mikhail Glinka', 'Mily Balakirev', 'Alexander Pushkin', 'French and Italian opera'], to: ['rachmaninoff', 'stravinsky', 'prokofiev', 'shostakovich'], note: `<p>Some links are direct. [[rachmaninoff|Rachmaninoff]] arranged <i>The Sleeping Beauty</i> for piano duet, and [[stravinsky|Stravinsky]] built <i>The Fairy’s Kiss</i> from Tchaikovsky’s songs and piano pieces. The comparison with [[prokofiev|Prokofiev]] and [[shostakovich|Shostakovich]] is closest in their dance music, where each of them lets a waltz or march continue while the music around it goes badly wrong.</p>` },
   reading: [
-    'Roland John Wiley, <i>Tchaikovsky</i> (Oxford, 2009) — a documentary biography with sustained attention to the stage works.',
-    'David Brown, <i>Tchaikovsky: The Man and His Music</i> (Faber, 2006) — a concise version of Brown’s four-volume study.',
-    '<a href="https://en.tchaikovsky-research.net/pages/Tchaikovsky:_A_Life">Tchaikovsky Research, “Tchaikovsky: A Life”</a> — chronology, letters, work histories and careful treatment of disputed biographical claims.',
+    'Roland John Wiley, <i>Tchaikovsky</i> (Oxford, 2009): a documentary biography with sustained attention to the stage works.',
+    'David Brown, <i>Tchaikovsky: The Man and His Music</i> (Faber, 2006): a concise version of Brown’s four-volume study.',
+    '<a href="https://en.tchaikovsky-research.net/pages/Tchaikovsky:_A_Life">Tchaikovsky Research, “Tchaikovsky: A Life”</a>: chronology, letters, work histories and careful treatment of disputed biographical claims.',
   ],
 };

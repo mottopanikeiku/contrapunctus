@@ -43,7 +43,7 @@
       "note": "Official Marine Band recording in its educational album series."
     },
     "catalogue": {
-      "value": "Grand Scenes — album 20, track 2",
+      "value": "Grand Scenes: album 20, track 2",
       "status": "documented",
       "sourceIds": ["album", "booklet"],
       "note": "The official album page supplies the series number and running order. No separate commercial catalogue number is established."
@@ -89,12 +89,12 @@
       "note": "Rossini died in 1868. The official booklet states that its selections are public domain unless otherwise noted; it places no copyright exception on this overture. The qualified Sedlak attribution is retained rather than treating uncertain authorship as proof of rights."
     },
     "recording": {
-      "value": "US public domain — official United States Marine Band recording, tagged PD-USGov-Military-Marines by Wikimedia Commons.",
+      "value": "US public domain: official United States Marine Band recording, tagged PD-USGov-Military-Marines by Wikimedia Commons.",
       "status": "documented",
       "sourceIds": ["commons", "booklet", "us-government"],
       "note": "The official album and booklet corroborate the federal performance and production. Section 105 excludes qualifying US Government works from US copyright protection; this is not a Creative Commons licence or an assertion that every government work is public domain in every jurisdiction."
     },
-    "creditLine": "Gioachino Rossini — Guillaume Tell, Overture; wind transcription attributed to Wenzel Sedlak, adapted for this recording. United States Marine Band; Timothy Foley. Grand Scenes (recorded 2000), via Wikimedia Commons. Public domain US Government recording.",
+    "creditLine": "Gioachino Rossini: Guillaume Tell, Overture; wind transcription attributed to Wenzel Sedlak, adapted for this recording. United States Marine Band; Timothy Foley. Grand Scenes (recorded 2000), via Wikimedia Commons. Public domain US Government recording.",
     "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Marines"
   },
   "sources": [
@@ -114,28 +114,28 @@
     },
     {
       "id": "booklet",
-      "title": "United States Marine Band: Grand Scenes — booklet, notes by Frank P. Byrne",
+      "title": "United States Marine Band: Grand Scenes, booklet, notes by Frank P. Byrne",
       "url": "https://www.marineband.marines.mil/Portals/175/Docs/Audio/Educational_Series/grand_scenes/grand_scenes.pdf",
       "locator": "PDF pp. 5–6, overture and transcription notes; pp. 11–12, personnel, recording and production credits, public-domain statement",
       "accessed": "2026-10-18"
     },
     {
       "id": "work-history",
-      "title": "Rossini Opera Festival: Guillaume Tell — history and synopsis",
+      "title": "Rossini Opera Festival: Guillaume Tell, history and synopsis",
       "url": "https://www.rossinioperafestival.it/en/stories/guillaume-tell/",
       "locator": "Four-act opera; Paris première, 3 August 1829; Act I in the canton of Uri",
       "accessed": "2026-10-18"
     },
     {
       "id": "orchestral-note",
-      "title": "Orrin Howard: William Tell Overture — Los Angeles Philharmonic",
+      "title": "Orrin Howard: William Tell Overture, Los Angeles Philharmonic",
       "url": "https://www.laphil.com/works/william-tell-overture",
       "locator": "Original orchestral opening for five solo cellos, storm and pastoral melody with flute decorations",
       "accessed": "2026-10-18"
     },
     {
       "id": "composer",
-      "title": "Rossini Opera Festival: Gioachino Rossini — biographical sketch and opera chronology",
+      "title": "Rossini Opera Festival: Gioachino Rossini, biographical sketch and opera chronology",
       "url": "https://www.rossinioperafestival.it/en/foundation/rof-people/gioachino-rossini/",
       "locator": "1829 and 1868 entries",
       "accessed": "2026-10-18"

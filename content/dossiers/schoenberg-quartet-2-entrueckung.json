@@ -3,7 +3,7 @@
   "work": {
     "title": "String Quartet No. 2",
     "catalogue": "Op. 10",
-    "movement": "IV. Entrückung — Sehr langsam",
+    "movement": "IV. Entrückung, Sehr langsam",
     "version": {
       "value": "String quartet with soprano",
       "status": "documented",
@@ -119,7 +119,7 @@
       "note": "Commons gives Schoenberg’s death in 1951, a life-plus-70 scope and pre-1931 United States publication. This public-domain notice concerns the composition; it does not replace the quartet’s recording licence."
     },
     "recording": {
-      "value": "Rule 1 — recording licence/release: CC BY 3.0 Unported recording permission.",
+      "value": "Rule 1, recording licence/release: CC BY 3.0 Unported recording permission.",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons",
@@ -128,13 +128,13 @@
       ],
       "note": "The Commons Permission field explicitly grants free use of the Carmel Quartet’s 2007 recording under Creative Commons 3.0. MediaInfo P275 specifies Q14947546, identified by Wikidata as CC BY 3.0 Unported. The PD-old-70-expired template elsewhere concerns the composition and is not used as the recording basis."
     },
-    "creditLine": "Arnold Schoenberg: String Quartet No. 2, Op. 10, IV. Entrückung — Carmel String Quartet and Rona Israel-Kolatt, soprano (2007). Recording: CC BY 3.0, via Wikimedia Commons; MP3 access derivative. Composition rights are separate.",
+    "creditLine": "Arnold Schoenberg: String Quartet No. 2, Op. 10, IV. Entrückung: Carmel String Quartet and Rona Israel-Kolatt, soprano (2007). Recording: CC BY 3.0, via Wikimedia Commons; MP3 access derivative. Composition rights are separate.",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
   },
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Schoenberg Quartet No. 2 4th movement.OGG",
+      "title": "Wikimedia Commons: File:Schoenberg Quartet No. 2 4th movement.OGG",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=1255091829",
       "locator": "Summary: description, date, source, author and permission; Licensing; File history; embedded metadata. The source revision is fixed; current file metadata was retrieved on the access date.",
       "accessed": "2026-10-16"
@@ -148,21 +148,21 @@
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Schoenberg Quartet No. 2 4th movement.OGG",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Schoenberg Quartet No. 2 4th movement.OGG",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1255091829&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Schoenberg Quartet No. 2 4th movement.OGG; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-carmel-license",
-      "title": "Commons MediaInfo — Carmel recording licence",
+      "title": "Commons MediaInfo: Carmel recording licence",
       "url": "https://commons.wikimedia.org/w/api.php?action=wbgetentities&ids=M3948035&props=claims&format=json",
       "locator": "M3948035 P275 gives Q14947546 for the sound recording.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-cc-by-3-entity",
-      "title": "Wikidata — CC BY 3.0 Unported identifier",
+      "title": "Wikidata: CC BY 3.0 Unported identifier",
       "url": "https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q14947546&props=labels&languages=en&format=json",
       "locator": "English label identifies Q14947546 as Creative Commons Attribution 3.0 Unported.",
       "accessed": "2026-10-17"

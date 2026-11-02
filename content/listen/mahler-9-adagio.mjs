@@ -3,7 +3,7 @@ export default {
   composer: 'mahler',
   order: 23,
   work: 'Symphony No. 9',
-  movement: 'IV. Adagio — Sehr langsam und noch zurückhaltend',
+  movement: 'IV. Adagio, Sehr langsam und noch zurückhaltend',
   set: { id: 'mahler-symphony-9', title: 'Symphony No. 9', part: 4, of: 4 },
   year: '1909–10',
   key: 'D♭ major',

@@ -3,7 +3,7 @@
   "work": {
     "title": "Ballade No. 2 in F major, Op. 38",
     "catalogue": "Op. 38",
-    "movement": "Andantino — Presto con fuoco",
+    "movement": "Andantino, Presto con fuoco",
     "version": {
       "value": null,
       "status": "unknown",
@@ -63,7 +63,7 @@
   },
   "transfer": {
     "credits": {
-      "value": "Musopen — Set Chopin Free project",
+      "value": "Musopen: Set Chopin Free project",
       "status": "documented",
       "sourceIds": [
         "source"

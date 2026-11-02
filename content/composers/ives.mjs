@@ -54,7 +54,7 @@ export default {
   ],
   score: [
     { kicker: 'Polytonality', title: 'Two tunes in two different keys', abc: `X:1
-T:Independent keys — invented schematic
+T:Independent keys: invented schematic
 M:4/4
 L:1/4
 Q:1/4=100
@@ -68,7 +68,7 @@ V:2
 %%MIDI program 71
 ^F, ^A, ^C ^F | ^D ^C ^A, ^F, | ^G, ^A, ^C ^E | ^F4 |]`, caption: 'A schematic with two invented tunes, one in C major above one in F♯ major. Each line is consistent in its own key; sounded together, their notes clash. Neither player changes key.' },
     { kicker: 'Competing pulses', title: 'Three-against-four polyrhythm', abc: `X:2
-T:Three against four — invented schematic
+T:Three against four: invented schematic
 M:12/8
 L:1/8
 Q:1/4=96
@@ -86,12 +86,12 @@ V:2
     { relation: 'editorial-comparison',
       type: 'painting', frame: 'gilt', file: 'File:Winslow Homer - Snap the Whip (Butler Institute of American Art).jpg', artist: 'Winslow Homer', title: 'Snap the Whip', date: '1872', medium: 'Oil on canvas', collection: 'Butler Institute of American Art, Youngstown, Ohio', note: `<p>Homer’s schoolboys hold hands and run until the end of the chain breaks away. The rural game belongs beside the picnic and the children’s play in <i>Putnam’s Camp</i>, where a whole group is also caught up in a single activity. The little red schoolhouse stands behind them.</p>` },
     { relation: 'shared-context',
-      type: 'poem', author: 'Ralph Waldo Emerson', title: 'Self-Reliance — excerpt', date: '1841', lang: 'English', original: `The virtue in most request is conformity. Self-reliance is its aversion. …
+      type: 'poem', author: 'Ralph Waldo Emerson', title: 'Self-Reliance: excerpt', date: '1841', lang: 'English', original: `The virtue in most request is conformity. Self-reliance is its aversion. …
 Whoso would be a man must be a nonconformist.
 He who would gather immortal palms must not be hindered by the name of goodness, but must explore if it be goodness.
 Nothing is at last sacred but the integrity of our own mind.`, note: `<p>Ives devoted the first movement of <i>Concord</i> and a long chapter of his accompanying essays to Emerson. These sentences from <i>Self-Reliance</i> help explain the attraction. In the sonata, short phrases interrupt one another and return changed. The excerpt is prose.</p>` },
     { relation: 'shared-context',
-      type: 'poem', author: 'Henry David Thoreau', title: 'Walden, “Sounds” — excerpt', date: '1854', lang: 'English', original: `The whistle of the locomotive penetrates my woods summer and winter, sounding like the scream of a hawk sailing over some farmer’s yard, informing me that many restless city merchants are arriving within the circle of the town, or adventurous country traders from the other side.`, note: `<p>In the prose chapter ‘Sounds’ in <i>Walden</i>, Thoreau wrote of hearing the train inside his woods and compared it with a hawk. In <i>Concord</i>, Ives referred both to the writer’s ear and to his flute-playing. Near the end of the last movement an optional flute enters above the piano’s repeating figure.</p>` },
+      type: 'poem', author: 'Henry David Thoreau', title: 'Walden, “Sounds”: excerpt', date: '1854', lang: 'English', original: `The whistle of the locomotive penetrates my woods summer and winter, sounding like the scream of a hawk sailing over some farmer’s yard, informing me that many restless city merchants are arriving within the circle of the town, or adventurous country traders from the other side.`, note: `<p>In the prose chapter ‘Sounds’ in <i>Walden</i>, Thoreau wrote of hearing the train inside his woods and compared it with a hawk. In <i>Concord</i>, Ives referred both to the writer’s ear and to his flute-playing. Near the end of the last movement an optional flute enters above the piano’s repeating figure.</p>` },
   ],
   recordings: [
     { work: 'Concord Sonata', performers: 'Pierre-Laurent Aimard', year: '2004', label: 'Warner Classics', note: 'A first choice for the sonata’s large contrasts, with forceful ragtime in <i>Hawthorne</i> and room given to the quieter phrases. Emmanuel Pahud plays the flute part. The coupling is a selection of songs with Susan Graham.' },
@@ -100,9 +100,9 @@ Nothing is at last sacred but the integrity of our own mind.`, note: `<p>Ives de
   ],
   lineage: { from: ['George Ives', 'Horatio Parker', 'beethoven', 'brahms', 'American Protestant hymnody', 'Ragtime and town bands'], to: ['Henry Cowell', 'Elliott Carter', 'cage', 'adams', 'Charles Ruggles'], note: `<p>George Ives supplied the experiments, Parker the symphonic training and Danbury the tunes. Henry Cowell helped the scores reach musicians, and Ives in turn spent his insurance money supporting new music. The inheritance can be heard in passages where independent parts move at different beats, and where a familiar song is quoted in a concert work.</p>` },
   reading: [
-    'Jan Swafford, <i>Charles Ives: A Life with Music</i> (Norton, 1996) — the musical career alongside the family and insurance business.',
-    'J. Peter Burkholder, <i>All Made of Tunes: Charles Ives and the Uses of Musical Borrowing</i> (Yale, 1995) — distinguishes the different structural jobs done by quotations.',
-    'Kyle Gann, <i>Charles Ives’s Concord: Essays after a Sonata</i> (Illinois, 2017) — a detailed reading of the sonata and its literary materials.',
-    '<a href="https://charlesives.org/ives-man-his-life">Charles Ives Society: biography by Jan Swafford</a>; <a href="https://charlesives.org/node/6616">Kyle Gann’s illustrated guide to the <i>Concord</i></a> — includes a chronology separating composition, publication, revision and performance.',
+    'Jan Swafford, <i>Charles Ives: A Life with Music</i> (Norton, 1996): the musical career alongside the family and insurance business.',
+    'J. Peter Burkholder, <i>All Made of Tunes: Charles Ives and the Uses of Musical Borrowing</i> (Yale, 1995): distinguishes the different structural jobs done by quotations.',
+    'Kyle Gann, <i>Charles Ives’s Concord: Essays after a Sonata</i> (Illinois, 2017): a detailed reading of the sonata and its literary materials.',
+    '<a href="https://charlesives.org/ives-man-his-life">Charles Ives Society: biography by Jan Swafford</a>; <a href="https://charlesives.org/node/6616">Kyle Gann’s illustrated guide to the <i>Concord</i></a>: includes a chronology separating composition, publication, revision and performance.',
   ],
 };

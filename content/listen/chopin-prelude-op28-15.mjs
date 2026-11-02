@@ -3,7 +3,7 @@ export default {
   "composer": "chopin",
   "order": 10,
   "work": "Prelude in D♭ major, Op. 28 No. 15",
-  "movement": "Sostenuto — Raindrop",
+  "movement": "Sostenuto, Raindrop",
   "year": "completed 1839",
   "key": "D♭ major",
   "forces": "Piano",

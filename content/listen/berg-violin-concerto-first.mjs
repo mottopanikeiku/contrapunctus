@@ -6,7 +6,7 @@ export default {
   composer: 'berg',
   order: 3,
   work: 'Violin Concerto',
-  movement: 'I. Andante — Allegretto',
+  movement: 'I. Andante, Allegretto',
   year: '1935',
   key: '',
   forces: 'Solo violin and orchestra',

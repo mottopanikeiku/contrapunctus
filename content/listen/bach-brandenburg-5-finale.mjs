@@ -33,7 +33,7 @@ export default {
   orchestra: {
     ensemble: ['flutes', 'solo-violin', 'harpsichord', 'violins-1', 'violas', 'cellos', 'basses'],
     basis: 'score-proportion',
-    source: { title: 'Bach, Brandenburg Concerto No. 5, BWV 1050 — Bach-Gesellschaft full score (1871)', url: 'https://s9.imslp.org/files/imglnks/usimg/e/ed/IMSLP02043-BWV1050.pdf', locator: 'III. Allegro, printed pp. 152–164: solo violin begins, flute answers, then the harpsichord enters, left hand before right. Ripieno strings join later. The opening music returns in full at bar 233.' },
+    source: { title: 'Bach, Brandenburg Concerto No. 5, BWV 1050: Bach-Gesellschaft full score (1871)', url: 'https://s9.imslp.org/files/imglnks/usimg/e/ed/IMSLP02043-BWV1050.pdf', locator: 'III. Allegro, printed pp. 152–164: solo violin begins, flute answers, then the harpsichord enters, left hand before right. Ripieno strings join later. The opening music returns in full at bar 233.' },
     timeline: [
       { t: 0, playing: ['solo-violin'], lead: ['solo-violin'], note: 'The solo violin begins alone with the dotted subject.' },
       { t: 3, playing: ['solo-violin', 'flutes'], lead: ['flutes', 'solo-violin'], note: 'The flute answers the violin, and the two soloists continue together.' },

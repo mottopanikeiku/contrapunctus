@@ -56,16 +56,16 @@ export default {
     { year: '1935', title: 'Violin Concerto', forces: 'Violin and orchestra', note: 'Written for Louis Krasner in memory of Manon Gropius, in two movements divided into four sections. A Carinthian folk song and Bach’s harmonisation of <i>Es ist genug</i> appear within the twelve-note writing.' },
   ],
   score: [
-    { kicker: 'Violin Concerto — row schematic', title: 'Four chords on the open strings', abc: `X:1
-T:Berg concerto row — pitch schematic
+    { kicker: 'Violin Concerto: row schematic', title: 'Four chords on the open strings', abc: `X:1
+T:Berg concerto row: pitch schematic
 M:3/4
 L:1/4
 Q:1/4=84
 K:C
 %%MIDI program 40
 G _B d | ^f a c | e ^g b | ^c' _e' f' |]`, caption: 'Pitch schematic: the concerto’s row in equal crotchets, with illustrative octave placement. G–B♭–D forms G minor; D–F♯–A, D major; A–C–E, A minor; E–G♯–B, E major. Each triad begins on one of the violin’s open strings. The final four notes, B–C♯–E♭–F, rise by whole tones.' },
-    { kicker: 'Chorale and concerto — pitch schematic', title: 'Chorale beginning at the end of the row', abc: `X:2
-T:Whole-tone opening — pitch comparison
+    { kicker: 'Chorale and concerto: pitch schematic', title: 'Chorale beginning at the end of the row', abc: `X:2
+T:Whole-tone opening: pitch comparison
 M:4/4
 L:1/4
 Q:1/4=66
@@ -77,7 +77,7 @@ K:C
     { relation: 'documented-encounter',
       type: 'painting', frame: 'lacquer', file: 'File:Arnold Schönberg Alban Berg 1910.jpg', artist: 'Arnold Schoenberg', title: 'Portrait of Alban Berg', date: '1910', medium: 'Oil on canvas', collection: 'Wien Museum, Vienna', note: `<p>Schoenberg painted Berg in 1910, the year his pupil finished the String Quartet, Op. 3, and his formal lessons. The canvas is almost 1.8 metres high and shows Berg as a tall, leaning figure. In a recorded reminiscence in 1949, Schoenberg recalled the nineteen-year-old who had first come to him as “extremely timid”.</p>` },
     { relation: 'documented-use',
-      type: 'poem', author: 'Charles Baudelaire', title: 'De profundis clamavi — opening quatrain', date: '1857; text from the 1861 edition', lang: 'French', translator: 'Our translation', original: `J’implore ta pitié, Toi, l’unique que j’aime,
+      type: 'poem', author: 'Charles Baudelaire', title: 'De profundis clamavi: opening quatrain', date: '1857; text from the 1861 edition', lang: 'French', translator: 'Our translation', original: `J’implore ta pitié, Toi, l’unique que j’aime,
 Du fond du gouffre obscur où mon cœur est tombé.
 C’est un univers morne à l’horizon plombé,
 Où nagent dans la nuit l’horreur et le blasphème ;`, translation: `I implore your pity, You, the only one I love,
@@ -92,9 +92,9 @@ Where horror and blasphemy swim in the night;`, note: `<p>Baudelaire’s speaker
   ],
   lineage: { from: ['schoenberg', 'mahler', 'wagner', 'Alexander Zemlinsky', 'Georg Büchner'], to: ['britten', 'kurtag', 'boulez', 'Hans Werner Henze'], note: `<p>Schoenberg taught Berg to build a movement from small musical ideas; Mahler’s waltzes and march climaxes return in the Three Orchestral Pieces. [[britten|Britten]] wanted to study with Berg, but his parents refused permission. [[boulez|Boulez]] conducted Berg’s music, and in 1979 brought Cerha’s completed <i>Lulu</i> to the Paris stage with Teresa Stratas in the title role.</p>` },
   reading: [
-    'Douglas Jarman, <i>The Music of Alban Berg</i> (Faber, 1979) — close analysis of the rows, numerical structures and theatrical forms.',
-    'Anthony Pople, <i>Berg: Violin Concerto</i> (Cambridge, 1991) — the concerto’s sources, quotations and serial construction.',
-    'George Perle, <i>The Operas of Alban Berg</i>, 2 vols (California, 1980–85) — separate studies of <i>Wozzeck</i> and <i>Lulu</i>.',
-    '<a href="https://www.bso.org/works/berg-violin-concerto">Boston Symphony Orchestra: Violin Concerto</a> — the commission, Manon Gropius and the quoted materials; <a href="https://sammlung.wienmuseum.at/en/object/1209-portraet-alban-berg/">Wien Museum: Schoenberg’s portrait</a> — the painting’s collection record.',
+    'Douglas Jarman, <i>The Music of Alban Berg</i> (Faber, 1979): close analysis of the rows, numerical structures and theatrical forms.',
+    'Anthony Pople, <i>Berg: Violin Concerto</i> (Cambridge, 1991): the concerto’s sources, quotations and serial construction.',
+    'George Perle, <i>The Operas of Alban Berg</i>, 2 vols (California, 1980–85): separate studies of <i>Wozzeck</i> and <i>Lulu</i>.',
+    '<a href="https://www.bso.org/works/berg-violin-concerto">Boston Symphony Orchestra: Violin Concerto</a>: the commission, Manon Gropius and the quoted materials; <a href="https://sammlung.wienmuseum.at/en/object/1209-portraet-alban-berg/">Wien Museum: Schoenberg’s portrait</a>: the painting’s collection record.',
   ],
 };

@@ -3,7 +3,7 @@
   "work": {
     "title": "Symphony No. 6 in B minor “Pathétique”",
     "catalogue": "Op. 74",
-    "movement": "IV. Finale — Adagio lamentoso",
+    "movement": "IV. Finale, Adagio lamentoso",
     "version": {
       "value": null,
       "status": "unknown",
@@ -116,7 +116,7 @@
       "note": "The composition notice identifies Tchaikovsky’s death in 1893; it is not the recording licence."
     },
     "recording": {
-      "value": "territorial — Commons explicitly applies PD-EU-audio to the sound recording.",
+      "value": "territorial: Commons explicitly applies PD-EU-audio to the sound recording.",
       "status": "documented",
       "sourceIds": [
         "commons",
@@ -130,21 +130,21 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Furtwängler Pathétique finale",
+      "title": "Wikimedia Commons: Furtwängler Pathétique finale",
       "url": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_-_Path%C3%A9tique_-_Wilhelm_Furtw%C3%A4ngler_-_IV._Finale_-_Adagio_lamentoso.ogg",
       "locator": "Current revision oldid 1222244534: Summary, carrier and venue; Copyright information explicitly separates recording=PD-EU-audio from composition; file history reversion on 29 May 2026. Current audio analysed at 609.3 seconds; stale structured-data duration 631.08 seconds is not used.",
       "accessed": "2026-10-17"
     },
     {
       "id": "archive-unavailable",
-      "title": "Internet Archive — linked source item, now dark",
+      "title": "Internet Archive: linked source item, now dark",
       "url": "https://archive.org/metadata/TCHAIKOVSKYSymphonyNo.6Pathetique-NEWTRANSFER",
       "locator": "Checked 17 October 2026: metadata contains is_dark:true and no descriptive metadata or files; details page 404; direct item metadata XML 403. These unsuccessful accesses do not establish a licence.",
       "accessed": "2026-10-17"
     },
     {
       "id": "work",
-      "title": "Tchaikovsky Research — Symphony No. 6",
+      "title": "Tchaikovsky Research: Symphony No. 6",
       "url": "https://en.tchaikovsky-research.net/pages/Symphony_No._6",
       "locator": "Composition and Letter 4865 for the planned long Adagio and private programme; first performance and publication chronology. Used for facts, not as an audio source.",
       "accessed": "2026-10-17"

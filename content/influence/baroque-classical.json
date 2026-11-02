@@ -416,12 +416,12 @@
    "exhibit": {
     "from": {
      "label": "Vivaldi, RV 522, I, bars 1–2: first violin, original A minor; editorial playback tempo",
-     "abc": "X:1\nT:Vivaldi — RV 522, I, bars 1–2\nM:4/4\nL:1/16\nQ:1/4=84\nK:Am\n%%MIDI program 40\na4 ^g4 a=gfe dcBA | e2 E2 E^F^GA ^G2 AB c2 cd |]",
+     "abc": "X:1\nT:Vivaldi: RV 522, I, bars 1–2\nM:4/4\nL:1/16\nQ:1/4=84\nK:Am\n%%MIDI program 40\na4 ^g4 a=gfe dcBA | e2 E2 E^F^GA ^G2 AB c2 cd |]",
      "checked": "https://cdn.imslp.org/images/thumb/pdfs/7d/c263c987ea182a010aebf5b040d622a1686992b6.png"
     },
     "to": {
      "label": "Bach, BWV 593, I, bars 1–2: uppermost organ line only, inner voices omitted; original A minor; editorial playback tempo",
-     "abc": "X:1\nT:Bach — BWV 593, I, bars 1–2\nM:4/4\nL:1/16\nQ:1/4=84\nK:Am\n%%MIDI program 19\na4 ^g4 a=gfe dcBA | e2 E2 E^F^GA ^G2 AB c2 cd |]",
+     "abc": "X:1\nT:Bach: BWV 593, I, bars 1–2\nM:4/4\nL:1/16\nQ:1/4=84\nK:Am\n%%MIDI program 19\na4 ^g4 a=gfe dcBA | e2 E2 E^F^GA ^G2 AB c2 cd |]",
      "checked": "https://cdn.imslp.org/images/thumb/pdfs/97/44c107a0ccb7669977efff4b96b77922fe96949c.png"
     }
    }

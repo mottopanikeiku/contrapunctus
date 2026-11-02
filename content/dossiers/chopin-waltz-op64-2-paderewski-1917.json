@@ -143,28 +143,28 @@
   "sources": [
     {
       "id": "source",
-      "title": "Wikimedia Commons — recording file",
+      "title": "Wikimedia Commons: recording file",
       "url": "https://commons.wikimedia.org/wiki/File:Paderewski_-_Steinway_grand_piano.ogg",
       "locator": "Recording attribution, source, date, licence and transfer description; not the upload date.",
       "accessed": "2026-10-17"
     },
     {
       "id": "discography",
-      "title": "APR — complete Victor recordings catalogue",
+      "title": "APR: complete Victor recordings catalogue",
       "url": "https://www.europadisc.co.uk/classical/128588/Paderewski_-_The_American_Recordings_%28The_Complete_Victor_Recordings%2C_1914-31%29.htm",
       "locator": "CD1 track8: Waltz Op64/2, C19923-2, Victor74539, 23 May 1917, New York.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rubato",
-      "title": "Paderewski — Tempo Rubato (1909)",
+      "title": "Paderewski: Tempo Rubato (1909)",
       "url": "https://polishmusic.usc.edu/research/publications/polish-music-journal/vol4no1/paderewski-tempo-rubato/",
       "locator": "Defines interpretative flexibility and explicitly discusses dances; not a claim that every beat in this file has been measured.",
       "accessed": "2026-10-17"
     },
     {
       "id": "term",
-      "title": "US Copyright Office — pre 1972 sound recordings",
+      "title": "US Copyright Office: pre 1972 sound recordings",
       "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
       "locator": "Recordings first published before 1923 and the annual expiration schedule for 1923–1946 publications; as of 2026 the cutoff is 1925.",
       "accessed": "2026-10-17"

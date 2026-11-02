@@ -3,7 +3,7 @@ export default {
   "composer": "wagner",
   "order": 20,
   "work": "Tristan und Isolde, WWV 90",
-  "movement": "Liebestod — “Mild und leise”",
+  "movement": "Liebestod: “Mild und leise”",
   "year": "1857–59",
   "key": "B major",
   "forces": "Soprano and orchestra",
@@ -22,7 +22,7 @@ export default {
   },
   "set": {
     "id": "wagner-tristan-excerpts",
-    "title": "Tristan und Isolde — Prelude and Liebestod",
+    "title": "Tristan und Isolde: Prelude and Liebestod",
     "part": 2,
     "of": 2, "unit": "excerpts" },
   "intro": "Nanny Larsen-Todsen sings the Liebestod, “Mild und leise”, from <i>Tristan und Isolde</i>, WWV 90, in which Isolde looks at Tristan’s body and sees him smiling. Muted strings and harp figures accompany her, and the music closes in B major.",
@@ -63,7 +63,7 @@ export default {
       "t": 0,
       "kind": "music",
       "title": "Isolde’s first words, muted cellos",
-      "text": "“Mild und leise, wie er lächelt” — “Softly and gently, how he smiles.” Isolde’s first words rise above muted, divided cellos. The bass clarinet has a phrase of its own, and a clarinet and then the horns join it, while the violins rest.",
+      "text": "“Mild und leise, wie er lächelt” (“Softly and gently, how he smiles.”) Isolde’s first words rise above muted, divided cellos. The bass clarinet has a phrase of its own, and a clarinet and then the horns join it, while the violins rest.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Wagner’s Act III text, sung by Isolde over Tristan’s body. Breitkopf & Härtel, Vorspiel und Isoldens Liebestod, plate Part. B. 1544, p. 14: bass clarinet, divided muted cellos, subsequent clarinet and horn entries. Own translation. https://hdl.handle.net/1802/13070."
@@ -72,7 +72,7 @@ export default {
       "t": 76,
       "kind": "world",
       "title": "Isolde’s address to the onlookers",
-      "text": "“Seht ihr, Freunde?” — “Do you see, friends?” Isolde asks the people around Tristan’s body to see what she sees. She describes his eyes opening, his heart swelling and his breath. Tristan has already died.",
+      "text": "“Seht ihr, Freunde?” (“Do you see, friends?”) Isolde asks the people around Tristan’s body to see what she sees. She describes his eyes opening, his heart swelling and his breath. Tristan has already died.",
       "basis": "documented",
       "precision": "passage",
       "evidence": "Wagner’s libretto, Act III, Isolde’s final monologue; Breitkopf excerpt score, pp. 14–18. Own translation of ‘Seht ihr, Freunde?’ The preceding death of Tristan is described in the Act III synopsis at https://en.wikipedia.org/wiki/Tristan_und_Isolde."
@@ -117,7 +117,7 @@ export default {
       "t": 380,
       "kind": "music",
       "title": "Final bars in B major",
-      "text": "Isolde’s last words are “höchste Lust” — “supreme bliss”. The harp continues after the voice stops. The closing music settles in B major, and the last arpeggios are followed by a held chord marked pianissimo.",
+      "text": "Isolde’s last words are “höchste Lust” (“supreme bliss”). The harp continues after the voice stops. The closing music settles in B major, and the last arpeggios are followed by a held chord marked pianissimo.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Wagner’s Act III text, final words of Isolde; own translation. Breitkopf score, pp. 29–30, harp continuation after the vocal release, final B-major chord, pp and fermata."
@@ -192,7 +192,7 @@ export default {
     ],
     "basis": "score-proportion",
     "source": {
-      "title": "Wagner: Vorspiel und Isoldens Liebestod, with vocal part — Breitkopf & Härtel",
+      "title": "Wagner: Vorspiel und Isoldens Liebestod, with vocal part: Breitkopf & Härtel",
       "url": "https://hdl.handle.net/1802/13070",
       "locator": "Printed pp. 14–30; broad score-proportion landmarks, not bar-synchronised entrances."
     },

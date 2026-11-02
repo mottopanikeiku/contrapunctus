@@ -3,7 +3,7 @@
   "work": {
     "title": "Miroirs",
     "catalogue": "M. 43",
-    "movement": "III. Une barque sur l’océan — D’un rythme souple",
+    "movement": "III. Une barque sur l’océan, D’un rythme souple",
     "version": {
       "value": "Original solo-piano version (1904–05)",
       "status": "documented",
@@ -134,35 +134,35 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Maurice Ravel - Miroirs - 3. Une barque sur l'océan.flac",
+      "title": "Wikimedia Commons: File:Maurice Ravel - Miroirs - 3. Une barque sur l'océan.flac",
       "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Miroirs_-_3._Une_barque_sur_l'oc%C3%A9an.flac?oldid=1266820150",
       "locator": "File description: performer, performance date, source, permission and licence template; credit line; file history (uploaded 3 April 2014).",
       "accessed": "2026-10-17"
     },
     {
       "id": "commons-noctuelles",
-      "title": "Wikimedia Commons — File:Maurice Ravel - Miroirs - 1. Noctuelles.flac (sister file of the same set)",
+      "title": "Wikimedia Commons: File:Maurice Ravel - Miroirs - 1. Noctuelles.flac (sister file of the same set)",
       "url": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Miroirs_-_1._Noctuelles.flac?oldid=1285841712",
       "locator": "File description: Polish-language note naming the Lviv National Music Academy in connection with the 2014 performance; performance date 2014-04-01; credit line; permission ticket 2014040310015687.",
       "accessed": "2026-10-17"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — file metadata (API)",
+      "title": "Wikimedia Commons: file metadata (API)",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=timestamp|user|size|sha1|metadata|extmetadata&titles=File:Maurice%20Ravel%20-%20Miroirs%20-%203.%20Une%20barque%20sur%20l'oc%C3%A9an.flac&format=json",
       "locator": "imageinfo: uploader, upload timestamp, size 57536094 bytes, SHA-1 bce2a37e228f27eef2e042767799d31d034e10ad, MIME type and licence fields.",
       "accessed": "2026-10-17"
     },
     {
       "id": "imslp",
-      "title": "IMSLP — Miroirs, M.43 (Ravel, Maurice)",
+      "title": "IMSLP: Miroirs, M.43 (Ravel, Maurice)",
       "url": "https://imslp.org/wiki/Miroirs,_M.43_(Ravel,_Maurice)",
       "locator": "General Information: composition year 1904–05, first publication Paris: E. Demets, 1906, first performance 6 January 1906 (Ricardo Viñes), dedicatees.",
       "accessed": "2026-10-17"
     },
     {
       "id": "composer",
-      "title": "Maurice Ravel — biographical dates",
+      "title": "Maurice Ravel: biographical dates",
       "url": "https://en.wikipedia.org/wiki/Maurice_Ravel",
       "locator": "Lead: composer’s death year (1937).",
       "accessed": "2026-10-17"

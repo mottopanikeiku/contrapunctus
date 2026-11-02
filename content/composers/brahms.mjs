@@ -62,7 +62,7 @@ export default {
   ],
   score: [
     {
-      kicker: 'F–A–F and the Third Symphony — schematic',
+      kicker: 'F–A–F and the Third Symphony: schematic',
       title: 'Motto and inflected third',
       abc: `X:1
 T:FAF motto
@@ -76,7 +76,7 @@ V:1 name="Horn"
       caption: 'A schematic in even note values. F–A–F is the letter motto associated with <i>frei aber froh</i>, “free but happy”. The Third Symphony opens with F–A♭–F, shown in the second bar. The lowered A gives a minor third in a work in F major.',
     },
     {
-      kicker: 'Symphony No. 4, first movement — pitch reduction',
+      kicker: 'Symphony No. 4, first movement: pitch reduction',
       title: 'B–G–E–C–A–F♯–D♯–B',
       abc: `X:2
 T:Chain of thirds
@@ -90,7 +90,7 @@ B2 G2 | e2 c2 | a2 f2 | ^d2 B2 |]`,
       caption: 'A schematic of the Fourth Symphony’s opening pitches, with rhythm simplified and octave placement regularised. Read as a continuous descent, B–G–E–C–A–F♯–D♯–B moves entirely in thirds. In the melody as Brahms wrote it, some of these notes are placed in higher octaves.',
     },
     {
-      kicker: 'Hemiola — schematic',
+      kicker: 'Hemiola: schematic',
       title: 'Three minims across two bars of three',
       abc: `X:3
 T:Hemiola schematic
@@ -157,7 +157,7 @@ for the common thing descends to Orcus without a sound.`,
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Friedrich Hölderlin', title: 'Hyperions Schicksalslied — first stanza', date: '1799; set by Brahms in 1868–71', lang: 'German', translator: 'Our translation',
+      type: 'poem', author: 'Friedrich Hölderlin', title: 'Hyperions Schicksalslied: first stanza', date: '1799; set by Brahms in 1868–71', lang: 'German', translator: 'Our translation',
       original: `Ihr wandelt droben im Licht
 Auf weichem Boden, selige Genien!
 Glänzende Götterlüfte
@@ -184,9 +184,9 @@ touch sacred strings.`,
     note: `<p>[[dvorak|Dvořák]] received encouragement from Brahms and an introduction to Simrock. [[schoenberg|Schoenberg]], in <i>Brahms the Progressive</i>, explained how in Brahms a phrase can keep changing while its smallest intervals remain recognisable. Reger took up Brahms’s use of variation and counterpoint in piano and organ scores of greater density.</p>`,
   },
   reading: [
-    'Michael Musgrave, <i>The Music of Brahms</i> (Routledge & Kegan Paul, 1985) — a score-centred survey of the genres and techniques.',
-    'Malcolm MacDonald, <i>Brahms</i> (Dent, 1990) — a biography that makes room for musical construction.',
-    'Arnold Schoenberg, “Brahms the Progressive”, in <i>Style and Idea</i> — the argument for developing variation, with examples.',
-    'Wesleyan University, <a href="https://brahmsphantasie.research.wesleyan.edu/">Max Klinger and Johannes Brahms: an Artistic Convergence</a> — the images, music and history of the <i>Brahmsphantasie</i>.',
+    'Michael Musgrave, <i>The Music of Brahms</i> (Routledge & Kegan Paul, 1985): a score-centred survey of the genres and techniques.',
+    'Malcolm MacDonald, <i>Brahms</i> (Dent, 1990): a biography that makes room for musical construction.',
+    'Arnold Schoenberg, “Brahms the Progressive”, in <i>Style and Idea</i>: the argument for developing variation, with examples.',
+    'Wesleyan University, <a href="https://brahmsphantasie.research.wesleyan.edu/">Max Klinger and Johannes Brahms: an Artistic Convergence</a>: the images, music and history of the <i>Brahmsphantasie</i>.',
   ],
 };

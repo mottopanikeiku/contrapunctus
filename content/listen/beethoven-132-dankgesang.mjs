@@ -3,7 +3,7 @@ export default {
   composer: 'beethoven',
   order: 9,
   work: 'String Quartet No. 15 in A minor, Op. 132',
-  movement: 'III. Molto adagio — Heiliger Dankgesang',
+  movement: 'III. Molto adagio, Heiliger Dankgesang',
   set: { id: 'beethoven-quartet-15', title: 'String Quartet No. 15, Op. 132', part: 3, of: 5 },
   year: '1825',
   key: 'F Lydian / D major',
@@ -51,7 +51,7 @@ export default {
     ensemble: ['violins-1', 'violins-2', 'violas', 'cellos'],
     basis: 'score-proportion',
     source: {
-      title: 'Beethoven, Op.132 — Breitkopf & Härtel, Beethovens Werke, 1863, plate B.51',
+      title: 'Beethoven, Op.132: Breitkopf & Härtel, Beethovens Werke, 1863, plate B.51',
       url: 'https://www.lvbeethoven.it/wp-content/uploads/2020/10/Opus132.pdf',
       locator: 'Printed pp. 173–179, movement III. Two violins, viola and cello, with one player on each part.',
     },

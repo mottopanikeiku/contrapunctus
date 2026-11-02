@@ -3,7 +3,7 @@ export default {
   "composer": "rimsky-korsakov",
   "order": 6,
   "work": "Scheherazade, Op. 35",
-  "movement": "IV. Festival at Baghdad — The Sea — The Ship Breaks against the Cliff",
+  "movement": "IV. Festival at Baghdad, The Sea, The Ship Breaks against the Cliff",
   "set": {
     "id": "rimsky-scheherazade",
     "title": "Scheherazade, Op. 35",

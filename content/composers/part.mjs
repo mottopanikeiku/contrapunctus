@@ -58,7 +58,7 @@ export default {
   ],
   score: [
     {
-      kicker: 'Tintinnabuli — schematic',
+      kicker: 'Tintinnabuli: schematic',
       title: 'A moving scale and a triad',
       abc: `X:1
 T:M-voice and T-voice - schematic
@@ -77,7 +77,7 @@ A B c d | e d c B | A2 B c | d c B A |]`,
       caption: 'A schematic in A minor. The lower melody uses the scale; for each note, the upper part takes the nearest A, C or E strictly above it. A therefore pairs with C, B with C, and C with E. The chord stays fixed while the distance between the two voices changes.',
     },
     {
-      kicker: 'Augmentation — schematic',
+      kicker: 'Augmentation: schematic',
       title: 'Single descending line at two speeds',
       abc: `X:2
 T:Two speeds of descent - schematic
@@ -130,8 +130,8 @@ but you, our God.`,
     note: `<p>Heino Eller taught Pärt in Tallinn. [[bach|Bach]] supplied the prelude at the centre of <i>Credo</i>. A borrowed chant book later helped Pärt arrive at his own melodic line. The canons of <i>Cantus</i> draw on older [[workshop#counterpoint|counterpoint]]; the pairing of scale and triad was his own invention. Performers took the music further, among them Kremer on the violin, Hillier with the Hilliards and Kaljuste with his Estonian choir. Film-makers have used <i>Fratres</i>, <i>Cantus</i> and <i>Spiegel im Spiegel</i> many times.</p>`,
   },
   reading: [
-    'Paul Hillier, <i>Arvo Pärt</i> (Oxford University Press, 1997) — a performer’s explanation of tintinnabuli and the vocal works.',
-    '<a href="https://www.arvopart.ee/en/arvo-part/biography/">Arvo Pärt Centre biography</a> — the primary chronology, including the years of crisis and emigration.',
-    '<a href="https://www.arvopart.ee/en/arvo-part/work/21/">Arvo Pärt Centre: Da pacem Domine</a> — the commission, Latin text and relation to the Madrid attacks.',
+    'Paul Hillier, <i>Arvo Pärt</i> (Oxford University Press, 1997): a performer’s explanation of tintinnabuli and the vocal works.',
+    '<a href="https://www.arvopart.ee/en/arvo-part/biography/">Arvo Pärt Centre biography</a>: the primary chronology, including the years of crisis and emigration.',
+    '<a href="https://www.arvopart.ee/en/arvo-part/work/21/">Arvo Pärt Centre: Da pacem Domine</a>: the commission, Latin text and relation to the Madrid attacks.',
   ],
 };

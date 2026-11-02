@@ -60,7 +60,7 @@ export default {
   ],
   score: [
     {
-      kicker: 'Thematic transformation — schematic',
+      kicker: 'Thematic transformation: schematic',
       title: 'Thematic transformation',
       abc: `X:1
 T:Transformation schematic
@@ -76,7 +76,7 @@ V:1 name="Piano"
       caption: 'A schematic of thematic transformation. The same rising and falling line moves from D minor into D major, with F becoming F♯. The second version is in a slower triple metre, with longer accented notes.',
     },
     {
-      kicker: 'Symmetrical harmony — schematic',
+      kicker: 'Symmetrical harmony: schematic',
       title: 'The augmented triad: three possible roots',
       abc: `X:2
 T:Augmented triad
@@ -109,7 +109,7 @@ V:1 name="Piano"
     },
     {
       relation: 'documented-use',
-      type: 'poem', author: 'Francesco Petrarca', title: 'Pace non trovo — opening quatrain', date: 'Fourteenth century; Liszt’s Sonetto 104', lang: 'Italian', translator: 'Our translation',
+      type: 'poem', author: 'Francesco Petrarca', title: 'Pace non trovo: opening quatrain', date: 'Fourteenth century; Liszt’s Sonetto 104', lang: 'Italian', translator: 'Our translation',
       original: `Pace non trovo, et non ò da far guerra;
 e temo, et spero; et ardo, et son un ghiaccio;
 e volo sopra ’l cielo, et giaccio in terra;
@@ -132,8 +132,8 @@ I grasp nothing, and embrace the whole world.`,
     note: `<p>Liszt transcribed [[beethoven|Beethoven]]’s symphonies and [[schubert|Schubert]]’s songs for the piano, and drew ideas from Paganini’s violin playing. His symphonic poems gave [[richard-strauss|Strauss]] a starting point; Busoni continued his work as a transcriber, and [[ravel|Ravel]] took up the subject of fountains after him. [[bartok|Bartók]] admired his harmonic experiments but disputed his account of Hungarian musical sources.</p>`,
   },
   reading: [
-    'Alan Walker, <i>Franz Liszt</i>, 3 vols (Cornell, 1983–96) — the detailed biography, with extensive treatment of teaching, patronage and the revisions.',
-    'Kenneth Hamilton, <i>Liszt: Sonata in B Minor</i> (Cambridge, 1996) — a concise guide to the score and its competing formal readings.',
-    'The Liszt Society, <a href="https://www.liszt.org/p/chronology.html">chronology</a> — dates of travels, compositions and first performances.',
+    'Alan Walker, <i>Franz Liszt</i>, 3 vols (Cornell, 1983–96): the detailed biography, with extensive treatment of teaching, patronage and the revisions.',
+    'Kenneth Hamilton, <i>Liszt: Sonata in B Minor</i> (Cambridge, 1996): a concise guide to the score and its competing formal readings.',
+    'The Liszt Society, <a href="https://www.liszt.org/p/chronology.html">chronology</a>: dates of travels, compositions and first performances.',
   ],
 };

@@ -103,7 +103,7 @@ export default {
       "t": 310,
       "kind": "form",
       "title": "Harp glissandos and clarinet solo",
-      "text": "The strings play more softly and the wind phrases become shorter. Harp glissandos rise and fall around a clarinet solo marked <i>très doux</i> — very gentle. In the closing pages, instruments drop out one by one.",
+      "text": "The strings play more softly and the wind phrases become shorter. Harp glissandos rise and fall around a clarinet solo marked <i>très doux</i> (very gentle). In the closing pages, instruments drop out one by one.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Durand full score, printed pp. 218–222, beginning at rehearsal 39: paired harp glissandos, clarinet solo, horns and reduced strings."

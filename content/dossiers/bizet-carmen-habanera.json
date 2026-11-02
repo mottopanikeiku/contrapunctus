@@ -3,7 +3,7 @@
   "work": {
     "title": "Carmen",
     "catalogue": "Macdonald catalogue 9",
-    "movement": "Act I: Habanera — L’amour est un oiseau rebelle",
+    "movement": "Act I: Habanera (L’amour est un oiseau rebelle)",
     "version": {
       "value": "French-language solo recording of the Habanera, with orchestral accompaniment; both verses and the closing refrain",
       "status": "documented",
@@ -99,14 +99,14 @@
     "licenseUrl": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/"
   },
   "sources": [
-    { "id": "ia", "title": "Internet Archive / Great 78 Project — Carmen (Love Is Like a Wood Bird), Geraldine Farrar, GBIA0354066A", "url": "https://archive.org/metadata/78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a/metadata", "locator": "Performer, French-language description, catalogue, transfer credits, technical notes and accession date", "accessed": "2026-10-19" },
-    { "id": "ia-files", "title": "Internet Archive — GBIA0354066A file manifest", "url": "https://archive.org/metadata/78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a/files", "locator": "Preferred friendly-filename FLAC and VBR MP3, derivative chain and durations", "accessed": "2026-10-19" },
-    { "id": "fau", "title": "Florida Atlantic University Recorded Sound Archives — Habanera, Victor 87210", "url": "https://rsa.fau.edu/album/7640", "locator": "Catalogue 87210, matrix B-15474-2, date recorded 9 December 1914, ten-inch single-sided disc", "accessed": "2026-10-19" },
-    { "id": "loc", "title": "Library of Congress National Jukebox — Habanera, matrix B-15474, take 2", "url": "https://www.loc.gov/item/jukebox-11762/?fo=json", "locator": "9 December 1914, New York; Farrar and Walter B. Rogers; Victor 621 reissue of the same matrix", "accessed": "2026-10-19" },
-    { "id": "release", "title": "The Talking Machine World, January 1915 — Record Bulletins for February 1915", "url": "https://www.worldradiohistory.com/Archive-Talking-Machine/10s/Talking-Machine-1915-01.pdf", "locator": "Printed p. 62, PDF p. 62: ‘The February Red Seal Records’, Victor 87210, Carmen–Habañera, Geraldine Farrar, soprano solo in French", "accessed": "2026-10-19" },
-    { "id": "catalogue", "title": "Hugh Macdonald — Bizet Catalogue: Carmen", "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Carmen.html", "locator": "Catalogue 9; composition, Habanera text and Iradier borrowing", "accessed": "2026-10-19" },
-    { "id": "score", "title": "Carmen, vocal score arranged by the composer — Choudens, Paris (archive.org copy catalogued 1883)", "url": "https://archive.org/details/carmenopracomi00bize", "locator": "No. 5, Habanera, printed pp. 49–59, with the footnote on p. 49 acknowledging the Spanish source; digitised copy from the University of North Carolina. The archive catalogues this copy as 1883, not as the 1875 first edition.", "accessed": "2026-10-19" },
-    { "id": "us-law", "title": "U.S. Copyright Office — Classics Protection and Access Act", "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/", "locator": "Term: protection for recordings first published before 1923 ended on 31 December 2021", "accessed": "2026-10-19" }
+    { "id": "ia", "title": "Internet Archive / Great 78 Project: Carmen (Love Is Like a Wood Bird), Geraldine Farrar, GBIA0354066A", "url": "https://archive.org/metadata/78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a/metadata", "locator": "Performer, French-language description, catalogue, transfer credits, technical notes and accession date", "accessed": "2026-10-19" },
+    { "id": "ia-files", "title": "Internet Archive: GBIA0354066A file manifest", "url": "https://archive.org/metadata/78_carmen-love-is-like-a-wood-bird-act-1_geraldine-farrar-bizet_gbia0354066a/files", "locator": "Preferred friendly-filename FLAC and VBR MP3, derivative chain and durations", "accessed": "2026-10-19" },
+    { "id": "fau", "title": "Florida Atlantic University Recorded Sound Archives: Habanera, Victor 87210", "url": "https://rsa.fau.edu/album/7640", "locator": "Catalogue 87210, matrix B-15474-2, date recorded 9 December 1914, ten-inch single-sided disc", "accessed": "2026-10-19" },
+    { "id": "loc", "title": "Library of Congress National Jukebox: Habanera, matrix B-15474, take 2", "url": "https://www.loc.gov/item/jukebox-11762/?fo=json", "locator": "9 December 1914, New York; Farrar and Walter B. Rogers; Victor 621 reissue of the same matrix", "accessed": "2026-10-19" },
+    { "id": "release", "title": "The Talking Machine World, January 1915: Record Bulletins for February 1915", "url": "https://www.worldradiohistory.com/Archive-Talking-Machine/10s/Talking-Machine-1915-01.pdf", "locator": "Printed p. 62, PDF p. 62: ‘The February Red Seal Records’, Victor 87210, Carmen–Habañera, Geraldine Farrar, soprano solo in French", "accessed": "2026-10-19" },
+    { "id": "catalogue", "title": "Hugh Macdonald: Bizet Catalogue: Carmen", "url": "https://hdwlabs.artsci.wustl.edu/bizet/works/Carmen.html", "locator": "Catalogue 9; composition, Habanera text and Iradier borrowing", "accessed": "2026-10-19" },
+    { "id": "score", "title": "Carmen, vocal score arranged by the composer: Choudens, Paris (archive.org copy catalogued 1883)", "url": "https://archive.org/details/carmenopracomi00bize", "locator": "No. 5, Habanera, printed pp. 49–59, with the footnote on p. 49 acknowledging the Spanish source; digitised copy from the University of North Carolina. The archive catalogues this copy as 1883, not as the 1875 first edition.", "accessed": "2026-10-19" },
+    { "id": "us-law", "title": "U.S. Copyright Office: Classics Protection and Access Act", "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/", "locator": "Term: protection for recordings first published before 1923 ended on 31 December 2021", "accessed": "2026-10-19" }
   ],
   "editorial": { "editor": "Contrapunctus research desk", "revised": "2026-10-19" }
 }

@@ -130,7 +130,7 @@
       "note": "The composer died in 1908. This assessment does not cover a later edition or arrangement."
     },
     "recording": {
-      "value": "Rule 1 — CC0 1.0 Universal Public Domain Dedication stated for this recording file",
+      "value": "Rule 1, CC0 1.0 Universal Public Domain Dedication stated for this recording file",
       "status": "documented",
       "sourceIds": [
         "commons"
@@ -143,7 +143,7 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 02 The Story Of The Kalandar Prince.ogg",
+      "title": "Wikimedia Commons: File:Rimsky-Korsakov. Scheherazade, Symphonic Suite, Op. 35 - 02 The Story Of The Kalandar Prince.ogg",
       "url": "https://commons.wikimedia.org/w/index.php?oldid=718302084",
       "locator": "File-description revision: description, source, author, date and recording-specific licensing template.",
       "accessed": "2026-10-17"
@@ -157,7 +157,7 @@
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Scheherazade",
+      "title": "Internet Archive: Scheherazade",
       "url": "https://archive.org/metadata/Sheherazade/metadata",
       "locator": "Description credits orchestra, conductor, violinist, sessions, venue, Victor DM-920 and Bob Varney’s transfer. The licence URL is the historical Creative Commons public-domain dedication.",
       "accessed": "2026-10-17"

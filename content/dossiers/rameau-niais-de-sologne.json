@@ -97,49 +97,49 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Meyer, Les Niais de Sologne",
+      "title": "Wikimedia Commons: Meyer, Les Niais de Sologne",
       "url": "https://commons.wikimedia.org/wiki/File:Jean-Philippe_Rameau_-_Les_Niais_de_Sologne_(Marcelle_Meyer,_1953).flac",
       "locator": "Summary and author/session field, DF 98/99 source credit, licensing, file history, duration and MP3 transcode.",
       "accessed": "2026-10-18"
     },
     {
       "id": "catalogue",
-      "title": "IMSLP — Suite in D major, RCT 3",
+      "title": "IMSLP: Suite in D major, RCT 3",
       "url": "https://imslp.org/wiki/Suite_in_D_major,_RCT_3_(Rameau,_Jean-Philippe)",
       "locator": "General Information: no. 2, Les niais de Sologne with two doubles; 1724 publication and harpsichord scoring.",
       "accessed": "2026-10-18"
     },
     {
       "id": "score",
-      "title": "Rameau — Les Niais de Sologne, Pierre Gouin edition",
+      "title": "Rameau: Les Niais de Sologne, Pierre Gouin edition",
       "url": "https://s9.imslp.org/files/imglnks/usimg/d/df/IMSLP132660-WIMA.e0b8-Rameau_Les_Niais.pdf",
       "locator": "Les Éditions Outremontaises, 2005, after a facsimile of the 1736 edition. Pages 1, 3, 5 and 7 inspected visually: even-note marking, triplets, left-hand semiquavers and closing reprise.",
       "accessed": "2026-10-18"
     },
     {
       "id": "dictionary",
-      "title": "Dictionnaire de l’Académie française — Niais, aise",
+      "title": "Dictionnaire de l’Académie française: Niais, aise",
       "url": "https://www.dictionnaire-academie.fr/article/A1N0043-04",
       "locator": "First edition, 1694, sub-entry under Nid: proverbial niais de Sologne who feigns simplicity and errs to his own advantage.",
       "accessed": "2026-10-18"
     },
     {
       "id": "devine",
-      "title": "Steven Devine — Rameau Pièces de Clavecin, Volume 1",
+      "title": "Steven Devine: Rameau Pièces de Clavecin, Volume 1",
       "url": "https://eclassical.textalk.se/shop/17115/art89/4850889-2fc822-RES10131_booklet_300dpi.pdf",
       "locator": "Resonus RES10131 booklet, p. 4: notes égales, triplets against duplets and the second double’s left-hand writing.",
       "accessed": "2026-10-18"
     },
     {
       "id": "esfahani",
-      "title": "Mahan Esfahani — Rameau Suite in D major",
+      "title": "Mahan Esfahani: Rameau Suite in D major",
       "url": "https://www.hyperion-records.co.uk/dw.asp?dc=W15934_68071&vw=dc",
       "locator": "Hyperion notes, 2014: title’s proverb, first-double triplets, second-double melody in the right hand and passagework in the left.",
       "accessed": "2026-10-18"
     },
     {
       "id": "discography",
-      "title": "Classical Pianists — Marcelle Meyer chronology",
+      "title": "Classical Pianists: Marcelle Meyer chronology",
       "url": "https://classical-pianists.net/viii/marcelle-meyer/chronology/",
       "locator": "MaMe-C#015: Rameau keyboard works, Salle Adyar, 29–30 October 1953, Les Discophiles Français DF 98/99.",
       "accessed": "2026-10-18"

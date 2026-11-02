@@ -3,7 +3,7 @@
   "work": {
     "title": "Symphony No. 5",
     "catalogue": "",
-    "movement": "IV. Adagietto — Sehr langsam",
+    "movement": "IV. Adagietto, Sehr langsam",
     "version": {
       "value": null,
       "status": "unknown",
@@ -123,7 +123,7 @@
       "note": "The composer died in 1911. This is a term calculation, not a worldwide clearance or a statement about an unidentified modern edition."
     },
     "recording": {
-      "value": "Rule 1 — recording licence/release: CC0 1.0 Universal; upstream public-domain recording release.",
+      "value": "Rule 1, recording licence/release: CC0 1.0 Universal; upstream public-domain recording release.",
       "status": "documented",
       "sourceIds": [
         "rights-audit-commons",
@@ -137,49 +137,49 @@
   "sources": [
     {
       "id": "commons",
-      "title": "Wikimedia Commons — Mahler Symphony No. 5, IV. Adagietto.ogg",
+      "title": "Wikimedia Commons: Mahler Symphony No. 5, IV. Adagietto.ogg",
       "url": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_IV._Adagietto.ogg?oldid=525137715",
       "locator": "File-description wikitext: work identification, Summary, Source and Licensing; file format, duration and Transcode status.",
       "accessed": "2026-10-16"
     },
     {
       "id": "commons-data",
-      "title": "Wikimedia Commons — structured and embedded metadata",
+      "title": "Wikimedia Commons: structured and embedded metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_IV._Adagietto.ogg#structureddata",
       "locator": "Structured data and embedded Metadata, inspected separately from the file-description wikitext; claims are not independent corroboration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "archive",
-      "title": "Internet Archive — Mahler Symphony 5",
+      "title": "Internet Archive: Mahler Symphony 5",
       "url": "https://archive.org/metadata/Mahler_Symphony_5",
       "locator": "metadata.creator: Peabody Symphony Orchestra; addeddate and publicdate 19 November 2006. File 04.PSO020103-Mahler-5-IV.mp3: creator/artist Murai/PSO, original 192 kbps MP3; corresponding Ogg is a derivative.",
       "accessed": "2026-10-16"
     },
     {
       "id": "composer",
-      "title": "Gustav Mahler — biographical dates",
+      "title": "Gustav Mahler: biographical dates",
       "url": "https://en.wikipedia.org/wiki/Gustav_Mahler",
       "locator": "Lead paragraph: composer’s death year.",
       "accessed": "2026-10-16"
     },
     {
       "id": "eu-term",
-      "title": "Directive 2006/116/EC — copyright term",
+      "title": "Directive 2006/116/EC: copyright term",
       "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32006L0116",
       "locator": "Articles 1(1) and 8: life plus 70 years, calculated from the following 1 January; national exceptions and editions require separate consideration.",
       "accessed": "2026-10-16"
     },
     {
       "id": "rights-audit-commons",
-      "title": "Wikimedia Commons — sound-recording licence audit: File:Mahler Symphony No. 5, IV. Adagietto.ogg",
+      "title": "Wikimedia Commons: sound-recording licence audit: File:Mahler Symphony No. 5, IV. Adagietto.ogg",
       "url": "https://commons.wikimedia.org/w/api.php?action=query&revids=1177337502%7C1285956118%7C638011151%7C1264375355%7C1118001688%7C1003399466%7C1113441804%7C808915645%7C525137715%7C963510501&prop=revisions&rvprop=content%7Cids&rvslots=main&format=json&formatversion=2",
       "locator": "Opened file-description wikitext for File:Mahler Symphony No. 5, IV. Adagietto.ogg; Summary/Description, Date, Source, Permission and Licensing templates, inspected separately from generic structured copyright status.",
       "accessed": "2026-10-17"
     },
     {
       "id": "rights-audit-upstream-release",
-      "title": "Internet Archive — Mahler Symphony 5",
+      "title": "Internet Archive: Mahler Symphony 5",
       "url": "https://archive.org/metadata/Mahler_Symphony_5/metadata",
       "locator": "Opened metadata.licenseurl: legacy Creative Commons public-domain dedication, not a non-commercial licence; upload/publication dates kept separate from session dates.",
       "accessed": "2026-10-17"

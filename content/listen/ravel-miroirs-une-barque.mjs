@@ -4,7 +4,7 @@ export default {
   "order": 22,
   "set": { "id": "ravel-miroirs", "title": "Miroirs", "part": 3, "of": 5, "unit": "pieces" },
   "work": "Miroirs",
-  "movement": "III. Une barque sur l’océan — D’un rythme souple",
+  "movement": "III. Une barque sur l’océan, D’un rythme souple",
   "year": "1904–05",
   "key": "F♯ minor",
   "forces": "Piano",
@@ -25,7 +25,7 @@ export default {
   "cues": [
     {
       "t": 0, "kind": "music", "title": "Opening, 6/8 and 2/4",
-      "text": "The marking is <i>D’un rythme souple — très enveloppé de pédales</i> (a supple rhythm, wrapped in pedal). The left hand plays rising and falling figures beneath slow, tied notes in the right. Ravel writes two metres together, 6/8 and 2/4.",
+      "text": "The marking is <i>D’un rythme souple, très enveloppé de pédales</i> (a supple rhythm, wrapped in pedal). The left hand plays rising and falling figures beneath slow, tied notes in the right. Ravel writes two metres together, 6/8 and 2/4.",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Demets first edition (1906), Une barque sur l’océan, opening page: paired 6/8 and 2/4 signatures, pedal instruction, arpeggios and tied upper notes. https://commons.wikimedia.org/wiki/File:IMSLP02693-Ravel-Miroirs_DemetsEd.pdf, PDF p. 14.",
     },
@@ -79,7 +79,7 @@ export default {
     },
     {
       "t": 326, "kind": "music", "title": "Tremolo in the bass register",
-      "text": "The writing moves into the lower register, with both staves in the bass clef. A right-hand tremolo sounds above rolling bass notes, and Ravel marks it <i>très fondu</i> — thoroughly blended.",
+      "text": "The writing moves into the lower register, with both staves in the bass clef. A right-hand tremolo sounds above rolling bass notes, and Ravel marks it <i>très fondu</i> (thoroughly blended).",
       "basis": "score-proportion", "precision": "passage",
       "evidence": "Demets first edition (1906), PDF p. 27: both staves in the bass clef, repeated figures and le trémolo très fondu.",
     },

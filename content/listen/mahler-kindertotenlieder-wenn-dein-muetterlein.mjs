@@ -43,7 +43,7 @@ export default {
       "t": 0,
       "kind": "music",
       "title": "Opening, cor anglais and bassoons",
-      "text": "Cor anglais and bassoons play above plucked cellos. Mahler marks the opening “Schwer, dumpf” — heavy, muffled. When Fischer-Dieskau enters, the orchestra has no violins, and they are left out for the whole song.",
+      "text": "Cor anglais and bassoons play above plucked cellos. Mahler marks the opening “Schwer, dumpf” (heavy, muffled). When Fischer-Dieskau enters, the orchestra has no violins, and they are left out for the whole song.",
       "basis": "score-proportion",
       "precision": "passage",
       "evidence": "Mahler, Kindertotenlieder, C. F. Kahnt full score, plate 4460 (1905), p. 33: instrumentation and opening marking; our translation. https://urresearch.rochester.edu/fileDownloadForInstitutionalItem.action?itemId=18417&itemFileId=62425"

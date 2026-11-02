@@ -10,7 +10,7 @@ export default {
   year: '1905',
   key: 'G♭ major',
   forces: 'Harp, flute, clarinet and string quartet',
-  performers: 'Karen Grimsey, harp; Kara Santos, flute; Parker Gaims, clarinet; Sara Matayoshi and Foster Wang, violins; Tam Tran, viola; Clayton Vaughn, cello — United States Marine Band',
+  performers: 'Karen Grimsey, harp; Kara Santos, flute; Parker Gaims, clarinet; Sara Matayoshi and Foster Wang, violins; Tam Tran, viola; Clayton Vaughn, cello; United States Marine Band',
   recorded: '27 March 2022',
   source: { file: 'File:US Marine Band Introduction and Allegro (Ravel).opus' },
   "intro": "Ravel’s Introduction and Allegro is written for harp and six other players. Karen Grimsey plays the harp part with winds and strings from the United States Marine Band, and she plays the long cadenza alone.",
@@ -116,7 +116,7 @@ export default {
     solo: 'harp',
     basis: 'score-proportion',
     source: {
-      title: 'Ravel, Introduction et Allegro — original seven-player full score, Durand, 1906',
+      title: 'Ravel, Introduction et Allegro: original seven-player full score, Durand, 1906',
       url: 'https://commons.wikimedia.org/wiki/File:IMSLP06186-Ravel_-_Introduction_et_Allegro,_score.pdf',
       locator: 'Opening and rehearsals 2, 4, 18 and 20; printed pp. 3, 8, 11, 26–30 and 39. One player takes each of the seven parts.',
     },
