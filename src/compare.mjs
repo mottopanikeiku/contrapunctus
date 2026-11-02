@@ -103,12 +103,12 @@ export async function buildCompare({ out, layout, esc, attr, bySlug, listens, he
   const files = (await readdir(dir).catch((error) => { if (error.code === 'ENOENT') return []; throw error; })).filter((file) => file.endsWith('.json')).sort();
   const programme = new Map(PROG.map((r) => [r.id, r]));
   const envelopes = new Map();
+  const published = await optionalJson(path.join(ROOT, 'content/published.json'));
   const comparisons = [], heldComparisons = [];
   const knownIds = new Set([...listens.map((r) => r.id), ...held]);
   linkIndex = {};
   for (const file of files) {
-    const review = await optionalJson(path.join(ROOT, 'content/plan/reviews', `compare-${path.basename(file, '.json')}.json`));
-    if (review?.verdict !== 'pass') { heldComparisons.push(path.basename(file, '.json')); continue; }
+    if (!published.comparisons.includes(path.basename(file, '.json'))) { heldComparisons.push(path.basename(file, '.json')); continue; }
     const c = await json(path.join(dir, file));
     for (const r of c.recordings ?? []) if (!knownIds.has(r.listen)) throw new Error(`compare/${c.id}: recording does not exist: ${r.listen}`);
     if ((c.recordings ?? []).some((r) => !programme.has(r.listen))) { heldComparisons.push(c.id); continue; }
@@ -132,7 +132,7 @@ export async function buildCompare({ out, layout, esc, attr, bySlug, listens, he
   }
 
   const version = createHash('md5').update(await readFile(path.join(OUT, 'assets/css/compare.css'))).update(await readFile(path.join(OUT, 'assets/js/compare.js'))).digest('hex').slice(0, 8);
-  const page = (id, title, description, body) => layout({ base: '../', page: `compare/${id}` }, { title: `${title} — Contrapunctus`, description, body, dark: true, night: true, nav: 'compare', head: `<link rel="stylesheet" href="../assets/css/compare.css?v=${version}">`, modules: ['compare'] });
+  const page = (id, title, description, body) => layout({ base: '../', page: `compare/${id}` }, { title: `${title} · Contrapunctus`, description, body, dark: true, night: true, nav: 'compare', head: `<link rel="stylesheet" href="../assets/css/compare.css?v=${version}">`, modules: ['compare'] });
   const ornament = '<div class="cmp-rule" aria-hidden="true"><span>𝄞</span></div>';
   const sources = (items) => items.map((s) => `<li><a href="${attr(s.url)}">${esc(s.title)}</a></li>`).join('');
   // A card's year is printed above its heading, so the heading drops the year that ends the label;

@@ -1,4 +1,4 @@
-// Guided journeys: reviewed stories, precomputed exhibits, and one shared player.
+// Guided journeys: stories, precomputed exhibits, and one shared player.
 import { readdir, readFile, unlink } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
@@ -17,13 +17,13 @@ const serialise = (data) => JSON.stringify(data).replaceAll('<', '\u003c');
 export async function buildJourneys({ out, layout, esc, attr, rich, img, art, PROG, ROOT, OUT }) {
   /** Reader-facing text may italicise titles and terms with <i>…</i>; every other tag is escaped. */
   const italic = (s = '') => esc(s).replace(/&lt;(\/?)i&gt;/g, '<$1i>');
+  const published = await optionalJson(path.join(ROOT, 'content/published.json'));
   const programme = new Map(PROG.map((t) => [t.id, t]));
   const files = (await filesIn(path.join(ROOT, 'content/journeys'))).filter((f) => f.endsWith('.json')).sort();
   const journeys = [], held = [];
   for (const file of files) {
     const id = path.basename(file, '.json');
-    const review = await optionalJson(path.join(ROOT, 'content/plan/reviews', `journey-${id}.json`));
-    if (review?.verdict !== 'pass') { held.push(id); continue; }
+    if (!published.journeys.includes(id)) { held.push(id); continue; }
     const j = await json(path.join(ROOT, 'content/journeys', file));
     if (j.id !== id || !/^[a-z0-9][a-z0-9-]*$/.test(id) || !j.stations?.length) throw new Error(`journeys/${id}: matching id and stations required`);
     if (j.stations.some((s) => !programme.has(s.listen?.id) || (s.score && !programme.has(s.score.listen)))) { held.push(id); continue; }
@@ -50,7 +50,7 @@ export async function buildJourneys({ out, layout, esc, attr, rich, img, art, PR
   const crop = (h) => { const s = [h.focus && `--focus:${h.focus}`, h.zoom && `--zoom:${h.zoom}`].filter(Boolean).join(';'); return s ? ` style="${attr(s)}"` : ''; };
   const cards = (ctx, list, level = 3) => `<div class="j-cards">${list.map((j) => `<a class="j-card" href="${ctx.base}journeys/${attr(j.id)}.html"><div class="j-card-art"${crop(j.hero)}>${img(ctx, j.hero.file, j.hero.caption, { sizes: '(max-width: 640px) 92vw, (max-width: 1000px) 45vw, 30vw', thumb: true })}</div><div class="j-card-copy"><span class="j-meta">${j.minutes} minutes · ${j.stations.length} stations</span><h${level}>${esc(j.title)}</h${level}><p>${esc(j.subtitle)}</p><span class="j-card-composers">${esc(composers(j))}</span><span class="j-card-open">Open the journey</span></div></a>`).join('')}</div>`;
   const band = (ctx) => journeys.length ? `<section class="j-band night" aria-labelledby="journey-band-title"><div class="wrap"><header class="j-band-heading"><div><span class="kicker">Recordings, paintings and places</span><h2 id="journey-band-title">Guided journeys</h2></div><a href="${ctx.base}journeys/index.html">All journeys</a></header>${cards(ctx, journeys)}</div></section>` : '';
-  const page = (id, title, description, body) => layout({ base: '../', page: `journeys/${id}` }, { title: `${title} — Contrapunctus`, description, body, dark: true, night: true, nav: 'journeys', head: stylesheet('../'), modules: ['journeys'] });
+  const page = (id, title, description, body) => layout({ base: '../', page: `journeys/${id}` }, { title: `${title} · Contrapunctus`, description, body, dark: true, night: true, nav: 'journeys', head: stylesheet('../'), modules: ['journeys'] });
   const indexCtx = { base: '../', page: 'journeys/index' };
   const index = `<div class="j-index"><header class="j-index-hero">${journeys.length ? `<div class="j-index-painting" aria-hidden="true"${crop(journeys[0].hero)}>${img(indexCtx, journeys[0].hero.file, '', { eager: true, sizes: '100vw' })}</div>` : ''}<div class="wrap"><span class="kicker">Recordings, paintings and places</span><h1>Guided <i>journeys</i></h1><p>Sequences of recording excerpts with commentary, paintings, scores and maps. Each follows a composer, a period or a musical idea.</p><span class="j-meta">Pause at any station · Place saved in this browser</span></div></header><section class="wrap j-index-catalogue" aria-label="Guided journeys">${journeys.length ? cards(indexCtx, journeys, 2) : '<p class="j-empty">No journeys are published yet. The full recordings are in <a href="../hall.html">the Concert Hall</a>.</p>'}</section></div>`;
   await out('journeys/index.html', page('index', 'Guided journeys', 'Recording excerpts with commentary, paintings, scores and maps, following composers, periods and musical ideas.', index));
@@ -90,8 +90,7 @@ export async function buildJourneys({ out, layout, esc, attr, rich, img, art, PR
   }
   async function comparison(id) {
     if (!comparisons.has(id)) {
-      const review = await optionalJson(path.join(ROOT, 'content/plan/reviews', `compare-${id}.json`));
-      const c = review?.verdict === 'pass' ? await optionalJson(path.join(ROOT, 'content/compare', `${id}.json`)) : null;
+      const c = published.comparisons.includes(id) ? await optionalJson(path.join(ROOT, 'content/compare', `${id}.json`)) : null;
       comparisons.set(id, c && c.recordings.every((r) => programme.has(r.listen)) ? c : null);
     }
     const c = comparisons.get(id);

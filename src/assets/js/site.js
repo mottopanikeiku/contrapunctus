@@ -399,7 +399,7 @@ export async function mount(app) {
       tone(ac, base * r, t0, dur, master);
       b.classList.add('on');
       const cents = 1200 * Math.log2(r);
-      out.textContent = `${b.textContent.trim()}: ${base} Hz and ${(base * r).toFixed(2)} Hz — ${cents.toFixed(1)} cents. ${b.dataset.say ?? ''}`;
+      out.textContent = `${b.textContent.trim()}: ${base} Hz and ${(base * r).toFixed(2)} Hz (${cents.toFixed(1)} cents). ${b.dataset.say ?? ''}`;
       setTimeout(() => b.classList.remove('on'), dur * 1000);
     }));
   });

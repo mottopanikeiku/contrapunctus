@@ -72,7 +72,7 @@ export async function mount(app) {
     // The era's accent, mixed toward the ink in room.css so it reads on the dark hall.
     if (t.era?.accent) document.body.style.setProperty('--era', t.era.accent); else document.body.style.removeProperty('--era');
     history.replaceState(history.state, '', `#${t.id}`);
-    document.title = `${c.name} — ${t.work} · The Concert Hall`;
+    document.title = `${c.name}: ${t.work} · The Concert Hall`;
     if (t.era?.hero) {
       const front = ui.backdrop[backdropFront];
       const src = new URL(t.era.hero, app.root).href;
@@ -480,7 +480,7 @@ export async function mount(app) {
         blocks.forEach((b, k) => { b.classList.toggle('on', k === i); b.classList.toggle('past', k < i); });
         arcEls.forEach((a) => a.classList.toggle('on', +a.dataset.a === i || +a.dataset.b === i));
         const s = secs[i];
-        nowL.textContent = s ? (s.m && !s.label.startsWith(s.m) ? `${s.m} · ${s.label}` : s.label) : '—';
+        nowL.textContent = s ? (s.m && !s.label.startsWith(s.m) ? `${s.m} · ${s.label}` : s.label) : '–';
         nowN.textContent = s?.mNote ?? '';
       },
     };
@@ -579,7 +579,7 @@ export async function mount(app) {
     svg.innerHTML = html;
     const now = document.createElement('div');
     now.className = 'stage-now';
-    now.innerHTML = '<span class="sn-k">Melody</span><span class="sn-lead">—</span><span class="sn-note"></span>';
+    now.innerHTML = '<span class="sn-k">Melody</span><span class="sn-lead">–</span><span class="sn-note"></span>';
     setCap(score ? 'Lit sections are playing; the brightest has the melody' : 'Who plays in each passage; the brightest has the melody',
       escapeHtml(score
         ? 'Each section lights while its written part sounds (from the score, aligned automatically to this recording; not yet checked by ear). The brightest sections have the melody.'
@@ -614,7 +614,7 @@ export async function mount(app) {
         }
         if (e !== lastEntry || score) {
           const names = [...lead].map((id) => NAME[id] ?? id);
-          text(leadEl, names.length ? names.join(', ') : '—');
+          text(leadEl, names.length ? names.join(', ') : '–');
           if (e !== lastEntry) { noteEl.textContent = e?.note ?? ''; lastEntry = e; }
         }
       },
@@ -670,7 +670,7 @@ export async function mount(app) {
     const c = track.composer;
     const portrait = c.portrait ? new URL(c.portrait, app.root).href : '';
     ui.tabComposer.innerHTML = `<div class="bio-head">${portrait ? `<img src="${portrait}" alt="" style="object-position:${c.focus}">` : '<span></span>'}<div><h2>${c.name}</h2><span class="dates">${c.dates}</span></div></div>
-<p class="epi">${c.epithet}</p>${c.quote ? `<blockquote>“${c.quote.text}”<br><small>— ${c.quote.source}</small></blockquote>` : ''}${c.background}
+<p class="epi">${c.epithet}</p>${c.quote ? `<blockquote>“${c.quote.text}”<br><small>${c.quote.source}</small></blockquote>` : ''}${c.background}
 <dl><div><dt>Born</dt><dd>${c.born}</dd></div>${c.died ? `<div><dt>Died</dt><dd>${c.died}</dd></div>` : ''}${c.facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
 <div class="inherit"></div>
 ${c.page === null ? '' : `<a class="more-link" href="${new URL(c.page ?? `composers/${c.slug}.html`, app.root).href}">${c.era === 'before-bach' || (c.page ?? '').startsWith('origins') ? 'Before Bach: origins of this music' : 'Composer chapter: life, scores, paintings'}</a>`}`;
@@ -696,12 +696,12 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
     // An empty value reads "Unknown" (or "Not applicable"), as on the Sources page, never a bare dash.
     const field = (f) => {
       const value = f.value || (f.status === 'not applicable' ? 'Not applicable' : 'Unknown');
-      const note = f.value ? `${f.statusText}${f.note ? ` — ${escapeHtml(f.note)}` : ''}` : escapeHtml(f.note ?? '');
+      const note = f.value ? `${f.statusText}${f.note ? `: ${escapeHtml(f.note)}` : ''}` : escapeHtml(f.note ?? '');
       return `<div class="st-${f.status.replace(' ', '-')}"><dt>${f.label}</dt><dd>${escapeHtml(value)}${f.src.length ? ` <sup>${f.src.join(',')}</sup>` : ''}${note ? `<small>${note}</small>` : ''}${f.alts.map((a) => `<small class="alt">or: ${escapeHtml(a)}</small>`).join('')}</dd></div>`;
     };
     const dossier = d ? `<p class="dossier-key" aria-hidden="true"><span class="st-documented">Documented</span><span class="st-inferred">Inferred</span><span class="st-disputed">Disputed</span><span>Unknown</span></p><dl class="dossier">${d.fields.map(field).join('')}</dl>
 <p class="credit">${escapeHtml(d.credit)}${d.licenseUrl ? ` · <a href="${d.licenseUrl}" target="_blank" rel="noopener">licence</a>` : ''}</p>
-<ol class="sources">${d.sources.map((s) => `<li><a href="${s.url}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a>${s.locator ? ` — ${escapeHtml(s.locator)}` : ''}</li>`).join('')}</ol>`
+<ol class="sources">${d.sources.map((s) => `<li><a href="${s.url}" target="_blank" rel="noopener">${escapeHtml(s.title)}</a>${s.locator ? `: ${escapeHtml(s.locator)}` : ''}</li>`).join('')}</ol>`
       : `<dl class="dossier"><div><dt>Performers</dt><dd>${escapeHtml(t.performers)}</dd></div><div><dt>Recording</dt><dd><a href="${t.sourcePage}" target="_blank" rel="noopener">${host(t.sourcePage)}</a> · ${escapeHtml(t.license)}</dd></div></dl>`;
     const cite = `${t.composer.name}, <i>${escapeHtml(t.work)}</i>${t.movement ? `, ${escapeHtml(t.movement)}` : ''}. ${escapeHtml(t.performers)}. Audio: <a href="${t.sourcePage}" target="_blank" rel="noopener">${host(t.sourcePage)}</a>. Notes: Contrapunctus, ${location.href.split('#')[0]}#${t.id}.`;
     ui.tabPiece.innerHTML = `<h2>${t.work}${t.movement ? `<small>${t.movement}</small>` : ''}</h2>
@@ -962,7 +962,7 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
       sectionIdx = s;
       $$('span', ui.tlSections).forEach((el, k) => el.classList.toggle('on', k === s));
       const sec = track.sections[s];
-      text(ui.nsLabel, sec?.label ?? '—');
+      text(ui.nsLabel, sec?.label ?? '–');
       text(ui.nsNote, sec?.mNote ?? '');
     }
     const nextSec = track.sections[s + 1];
@@ -984,8 +984,8 @@ ${mine.out?.length ? `<p class="ih-k">Influence of ${escapeHtml(c.short ?? c.nam
     for (let p = 0; p < 12; p++) chroma[p] *= 0.5;
     for (const n of notes) chroma[n[2] % 12] = Math.min(1, chroma[n[2] % 12] + 0.6);
     const low = notes.reduce((a, n) => (a == null || n[2] < a ? n[2] : a), null);
-    html(ui.bass, low == null ? '—' : `${NAMES[low % 12]}<small style="font-size:.6em;opacity:.6">${Math.floor(low / 12) - 1}</small>`);
-    text(ui.top, notes.length ? [...new Set(notes.map((n) => NAMES[n[2] % 12]))].slice(0, 5).join(' · ') : '—');
+    html(ui.bass, low == null ? '–' : `${NAMES[low % 12]}<small style="font-size:.6em;opacity:.6">${Math.floor(low / 12) - 1}</small>`);
+    text(ui.top, notes.length ? [...new Set(notes.map((n) => NAMES[n[2] % 12]))].slice(0, 5).join(' · ') : '–');
     const ch = (score.chords ?? []).find((c) => c.t0 <= t && c.t1 > t);
     text(ui.chord, ch ? ch.label : '');
     chordTones = [...new Set(notes.map((n) => n[2] % 12))];

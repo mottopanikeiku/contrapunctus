@@ -1,10 +1,8 @@
 # Contrapunctus
 
-An illustrated atlas of 80 classical composers, with historical recordings, scores, paintings and maps.
+An illustrated atlas of 80 classical composers, with historical recordings, scores, paintings and maps. I built it as a static site; it's live at [mottopanikeiku.github.io/contrapunctus](https://mottopanikeiku.github.io/contrapunctus/).
 
 [![The Contrapunctus home page over Vermeer's The Music Lesson](assets/hero.webp)](https://mottopanikeiku.github.io/contrapunctus/)
-
-**[Open the atlas: mottopanikeiku.github.io/contrapunctus](https://mottopanikeiku.github.io/contrapunctus/)**
 
 <p>
 <img alt="The Concert Hall playing Gregorian chant over a spectrogram" src="assets/hall.webp" width="32%">
@@ -14,12 +12,12 @@ An illustrated atlas of 80 classical composers, with historical recordings, scor
 
 ## What's in it
 
-- [The Concert Hall](https://mottopanikeiku.github.io/contrapunctus/hall.html): 386 recordings, about 48 hours, played in birth order from plainchant on. Notes appear as the music reaches them, and some pieces follow an engraved score bar by bar.
-- [The Web of Influence](https://mottopanikeiku.github.io/contrapunctus/influence.html): 343 sourced links between composers, teachers, performers, painters and poets.
-- [The Map](https://mottopanikeiku.github.io/contrapunctus/atlas-map.html): where composers lived, travelled and premiered, year by year from 1680 to 1990.
-- [Composers](https://mottopanikeiku.github.io/contrapunctus/composers/index.html): biographies drawn from letters and memoirs, with playable notation examples and related art.
-- [Journeys](https://mottopanikeiku.github.io/contrapunctus/journeys/index.html) and [performer comparisons](https://mottopanikeiku.github.io/contrapunctus/compare/index.html): six guided sequences, and the same passage in different recordings.
-- A workshop on counterpoint through spectralism, a glossary, a timeline and a gallery. Press `/` to search.
+- [Concert Hall](https://mottopanikeiku.github.io/contrapunctus/hall.html): 386 recordings with timed listening notes, some aligned to engraved scores.
+- [Web of Influence](https://mottopanikeiku.github.io/contrapunctus/influence.html): 343 sourced links between composers, teachers, performers, painters and poets.
+- [Map](https://mottopanikeiku.github.io/contrapunctus/atlas-map.html): where composers lived and worked, from 1680 to 1990.
+- [Composers](https://mottopanikeiku.github.io/contrapunctus/composers/index.html): biographies with playable notation examples and related art.
+- [Journeys](https://mottopanikeiku.github.io/contrapunctus/journeys/index.html) and [performer comparisons](https://mottopanikeiku.github.io/contrapunctus/compare/index.html).
+- A workshop, glossary, timeline and gallery. Press `/` to search.
 
 ## Run it
 
@@ -30,7 +28,16 @@ npm ci
 npm run serve
 ```
 
-`npm run build` regenerates `docs/` from `content/` and `src/`, and `npm run validate` checks the content. Edit the sources, not the generated HTML. Writing rules are in [AUTHORING.md](AUTHORING.md), recording notes in [LISTENING.md](LISTENING.md), data formats in [CONTENT.md](CONTENT.md).
+`npm run build` regenerates `docs/` from `content/` and `src/` (it takes a while, mostly image work), and `npm run validate` checks the content. Edit the sources, not the generated HTML.
+
+## Adding a composer
+
+1. Add `content/composers/<slug>.mjs`. Copy `satie.mjs`: name, dates, `era`, `epithet`, `facts`, `life` (HTML, `[[slug|Name]]` links to other composers), `sound`, and a `portrait` that names a Commons file.
+2. Add recordings as `content/listen/<id>.mjs` (see `debussy-faune.mjs`). `node tools/audio.mjs search "<composer> <work>"` finds Commons audio, and `check` shows its licence.
+3. List each recording id in `content/published.json`. Anything not listed is built but kept off the site.
+4. Run `npm run validate`, then `npm run build`.
+
+Quotations stay in the speaker's words and need a source. Everything else is plain prose, and `npm run validate` rejects the usual padding.
 
 ## Credits
 

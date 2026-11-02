@@ -337,5 +337,5 @@ export async function buildInfluence({ out, layout, esc = escape, attr = escape,
     <p class="iw-status" role="status" aria-live="polite"></p><p class="iw-javascript-note">The cards, filters and playable examples need JavaScript.</p>
     <script type="application/json" id="influence-data">${serialise(compact)}</script>
   </div>`;
-  await out('influence.html', layout(ctx, { title: 'The Web of Influence — Contrapunctus', description: 'Borrowed tunes, teachers and encounters between composers, painters and poets, with playable examples and sources.', body, dark: true, night: true, nav: 'influence', head: '<link rel="stylesheet" href="assets/css/influence.css">', modules: ['influence'] }));
+  await out('influence.html', layout(ctx, { title: 'The Web of Influence · Contrapunctus', description: 'Borrowed tunes, teachers and encounters between composers, painters and poets, with playable examples and sources.', body, dark: true, night: true, nav: 'influence', head: '<link rel="stylesheet" href="assets/css/influence.css">', modules: ['influence'] }));
 }

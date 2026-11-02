@@ -27,7 +27,7 @@ const warn = (f, m) => console.log(`warn  ${f}: ${m}`);
 const nonempty = (v) => typeof v === 'string' && !!v.trim();
 const webUrl = (v) => { try { return ['http:', 'https:'].includes(new URL(v).protocol); } catch { return false; } };
 
-// ---------------------------------------------------------------- house style (AUTHORING.md)
+// ---------------------------------------------------------------- house style
 // Reader-facing prose only: notation, file names, URLs, identifiers, sources and poem originals are skipped.
 const PROSE_SKIP = new Set(['abc', 'file', 'url', 'href', 'id', 'slug', 'focus', 'accent', 'glyph', 'kind', 'basis', 'precision', 'status', 'era', 'numeral', 'devices', 'stream', 'page', 'license', 'licenseUrl', 'locator', 'sources', 'source', 'rights', 'reading', 'orchestra', 'lang', 'original', 'translation', 'frame', 'checked', 'archive', 'composer', 'listen', 'alignment', 'aka']);
 const MACHINE = [
@@ -42,7 +42,7 @@ const INSTRUCT = /(?:^\s*|[.!?:;]\s+|—\s*)(?:Listen|Follow|Compare|Notice|Keep
 const quoted = (s, i) => (s.slice(0, i).match(/“/g)?.length ?? 0) > (s.slice(0, i).match(/”/g)?.length ?? 0);
 const instruction = (s) => [...s.matchAll(INSTRUCT)].find((m) => !quoted(s, m.index + m[0].length));
 const NEGATION = /\brather than\b|[,;—]\s*not (?:a|an|the|as|in|by|to|only|merely|simply|just|one|every)\b|\bnot (?:only|merely|simply|just) [^.]{1,80}? but\b/gi;
-// AUTHORING.md "Devices that make prose read as machine-made": instruments and themes given human will, and
+// Instruments and themes given human will, and
 // programme-note pastiche words. Both are allowed inside a quotation (the person quoted chose them).
 const PERSONIFY = /\b(?:piano|orchestra|violins?|violas?|cellos?|basses|double bass|horns?|oboes?|flutes?|clarinets?|bassoons?|trumpets?|trombones?|tuba|timpani|drums?|strings|woodwinds?|winds|brass|harp|organ|choir|chorus|tune|melody|theme|motif|chords?|harmony|key|music|bass line|left hand|right hand|accompaniment)\s+(?:refuses?|insists?|remembers?|discovers?|decides?|hesitates?|persists?|sighs?|breathes?|dreams?|longs?|wants?|tries|knows?|forgets?|gathers? (?:its|their) breath|takes? (?:its|their) time|holds? (?:its|their) ground|has (?:its|their) say|gets? the last word|finds? (?:a|its|their) (?:voice|way|tune|footing|feet))\b/gi;
 const PASTICHE = /\b(?:luminous|radiant|shimmer(?:s|ing)?|glow(?:s|ing)|haunting(?:ly)?|poignant(?:ly)?|wistful(?:ly)?|yearning|aching(?:ly)?|brooding|lush|playful(?:ly)?|mischievous(?:ly)?|delicious(?:ly)?|magical|dreamlike|otherworldly|ethereal|blooms?|blossoms?|conjures?|evokes?)\b/gi;

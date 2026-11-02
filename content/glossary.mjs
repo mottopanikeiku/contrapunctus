@@ -1,4 +1,4 @@
-// Glossary of listening vocabulary (schema: CONTENT.md, “Glossary”).
+// Glossary of listening vocabulary (entries are checked by tools/validate.mjs).
 // Entries are grouped by kind for editing; the default export is one flat array.
 // `hear` pointers use times and bars taken from content/listen/*.mjs (cues, sections, transitions).
 
@@ -193,7 +193,7 @@ const form = [
   {
     slug: 'scherzo', term: 'Scherzo', aka: [], kind: 'form',
     short: 'A scherzo is a lively piece or movement, often in triple time with a contrasting middle section called a trio.',
-    html: `<p><i>Scherzo</i> means ‘joke’, though the music can be fierce. [[haydn|Haydn]]’s Op. 33 string quartets (1781) are the first in which a dance movement is called a scherzo, in place of the minuet. [[beethoven|Beethoven]] made it fast and driving, and later composers kept the plan of an outer section, a trio and a return. [[bruckner|Bruckner]]’s Seventh Symphony has an A minor scherzo marked <i>Sehr schnell</i>, ‘very fast’, in which a trumpet plays a call above a repeated string figure. The F major trio is slower. The scherzo of Ravel’s String Quartet (<i>Assez vif — Très rythmé</i>) opens with a pizzicato theme, and Prokofiev’s Second Piano Sonata has a short Scherzo, <i>Allegro marcato</i>, as its second movement.</p>`,
+    html: `<p><i>Scherzo</i> means ‘joke’, though the music can be fierce. [[haydn|Haydn]]’s Op. 33 string quartets (1781) are the first in which a dance movement is called a scherzo, in place of the minuet. [[beethoven|Beethoven]] made it fast and driving, and later composers kept the plan of an outer section, a trio and a return. [[bruckner|Bruckner]]’s Seventh Symphony has an A minor scherzo marked <i>Sehr schnell</i>, ‘very fast’, in which a trumpet plays a call above a repeated string figure. The F major trio is slower. The scherzo of Ravel’s String Quartet (<i>Assez vif, Très rythmé</i>) opens with a pizzicato theme, and Prokofiev’s Second Piano Sonata has a short Scherzo, <i>Allegro marcato</i>, as its second movement.</p>`,
     hear: [
       { listen: 'bruckner-7-scherzo', t: 0, note: 'A scherzo in A minor, marked Sehr schnell. A repeated figure runs beneath the themes and links the sections.' },
       { listen: 'ravel-quartet-scherzo', t: 0, note: 'First theme plucked, second bowed; changing technique alters the character without another player.' },

@@ -107,18 +107,18 @@ export async function buildReturnLab({ out, layout, esc, attr, listens, bySlug, 
   const head = `<link rel="stylesheet" href="../assets/css/returnlab.css?v=${version}">`;
   const ctx = { base: '../', page: 'return-lab' };
   const page = (title, description, body, image) => layout(ctx, {
-    title: `${title} — Contrapunctus`, description, body, dark: true, night: true, accent: '#c9a65a', nav: 'hall', head, modules: ['returnlab'], ogImage: image,
+    title: `${title} · Contrapunctus`, description, body, dark: true, night: true, accent: '#c9a65a', nav: 'hall', head, modules: ['returnlab'], ogImage: image,
   });
   const painting = (track) => track?.era?.hero ? `<figure class="rl-backdrop"><img src="../${attr(track.era.hero)}" alt="" fetchpriority="high"><figcaption>${esc(track.era.heroArtist)}, <cite>${esc(track.era.heroTitle)}</cite></figcaption></figure>` : '';
   const cameo = (track) => track.composer.portrait ? `<span class="rl-cameo"><img src="../${attr(track.composer.portrait)}" alt="" style="object-position:${attr(track.composer.focus ?? '50% 30%')}" loading="lazy" width="96" height="120"></span>` : '';
   const sources = (c) => c.sources.map((s) => `<li><a href="${attr(s.url)}">${esc(s.title)}</a></li>`).join('');
-  const barLabel = (bar) => bar ? `${esc(bar.n)}${bar.occ > 1 ? ` (${bar.occ})` : ''}` : '—';
+  const barLabel = (bar) => bar ? `${esc(bar.n)}${bar.occ > 1 ? ` (${bar.occ})` : ''}` : '–';
 
   for (const [index, { c, track, comp, data: d }] of list.entries()) {
     const percent = Math.round((d.sharedB / d.sharedA - 1) * 100);
-    const measured = d.shared ? `The ${d.shared} matching bars take ${d.sharedB.toFixed(1)} seconds on return and ${d.sharedA.toFixed(1)} seconds the first time${percent ? ` — ${Math.abs(percent)}% ${percent > 0 ? 'longer' : 'shorter'}` : ', the same to the nearest whole per cent'}.` : 'These passages have no matching bars to compare.';
+    const measured = d.shared ? `The ${d.shared} matching bars take ${d.sharedB.toFixed(1)} seconds on return and ${d.sharedA.toFixed(1)} seconds the first time${percent ? `, ${Math.abs(percent)}% ${percent > 0 ? 'longer' : 'shorter'}` : ', the same to the nearest whole per cent'}.` : 'These passages have no matching bars to compare.';
     const sideButton = (key) => `<button class="play rl-play" type="button" data-rl-play="${key}" disabled><span><b>${key} · ${esc(d[key].label)}</b><small class="num">${fmt(d[key].start)}–${fmt(d[key].end)} · ${d[key].bars} bars</small></span></button>`;
-    const dataRows = d.pairs.map((p, i) => `<tr><th scope="row">${i + 1}</th><td>${barLabel(p.a)}</td><td>${p.a ? p.a.d.toFixed(2) : '—'}</td><td>${p.a?.lvl != null ? p.a.lvl.toFixed(3) : '—'}</td><td>${barLabel(p.b)}</td><td>${p.b ? p.b.d.toFixed(2) : '—'}</td><td>${p.b?.lvl != null ? p.b.lvl.toFixed(3) : '—'}</td></tr>`).join('');
+    const dataRows = d.pairs.map((p, i) => `<tr><th scope="row">${i + 1}</th><td>${barLabel(p.a)}</td><td>${p.a ? p.a.d.toFixed(2) : '–'}</td><td>${p.a?.lvl != null ? p.a.lvl.toFixed(3) : '–'}</td><td>${barLabel(p.b)}</td><td>${p.b ? p.b.d.toFixed(2) : '–'}</td><td>${p.b?.lvl != null ? p.b.lvl.toFixed(3) : '–'}</td></tr>`).join('');
     const body = `<article class="rl-page">
 <header class="rl-hero">${painting(track)}<div class="wrap rl-heading">
   <p class="crumbs"><a href="index.html">The Return Lab</a><span aria-hidden="true"> / </span><a href="../composers/${attr(comp.slug)}.html">${esc(comp.name)}</a></p>
