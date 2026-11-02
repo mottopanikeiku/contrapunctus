@@ -37,7 +37,7 @@ npm run serve
 3. List each recording id in `content/published.json`. Anything not listed is built but kept off the site.
 4. Run `npm run validate`, then `npm run build`.
 
-Quotations stay in the speaker's words and need a source. Everything else is plain prose, and `npm run validate` rejects the usual padding.
+Quotations stay in the speaker's words and need a source. `npm run validate` parses every score, checks each recording's licence on Commons or the Internet Archive, and rejects influence links without a source. CI runs it on every push.
 
 ## Credits
 
@@ -46,4 +46,4 @@ Quotations stay in the speaker's words and need a source. Everything else is pla
 - Scores use encodings from Mutopia, OpenScore and the Fryderyk Chopin Institute's Chopin First Editions Online, each under its own licence.
 - [abcjs](https://abcjs.net) (MIT) renders the notation examples, the fonts are SIL OFL, and map outlines are public-domain [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/).
 
-The repository has no project-wide licence. The media and third-party licences above apply to their own files.
+The code in `src/` and `tools/` is [MIT](LICENSE), apart from the vendored abcjs, the score encodings in `tools/align/sources/` and the Natural Earth files. Texts, images and recordings keep the individual credits above.
