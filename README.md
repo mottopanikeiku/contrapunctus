@@ -1,6 +1,6 @@
 # Contrapunctus
 
-An illustrated atlas of 80 classical composers, with historical recordings, scores, paintings and maps. I built it as a static site; it's live at [mottopanikeiku.github.io/contrapunctus](https://mottopanikeiku.github.io/contrapunctus/).
+Contrapunctus is an illustrated atlas of 80 classical composers, with historical recordings, scores, paintings and maps. I built it as a static site, and it's live at [mottopanikeiku.github.io/contrapunctus](https://mottopanikeiku.github.io/contrapunctus/).
 
 [![The Contrapunctus home page over Vermeer's The Music Lesson](assets/hero.webp)](https://mottopanikeiku.github.io/contrapunctus/)
 
@@ -17,11 +17,11 @@ An illustrated atlas of 80 classical composers, with historical recordings, scor
 - [Map](https://mottopanikeiku.github.io/contrapunctus/atlas-map.html): where composers lived and worked, from 1680 to 1990.
 - [Composers](https://mottopanikeiku.github.io/contrapunctus/composers/index.html): biographies with playable notation examples and related art.
 - [Journeys](https://mottopanikeiku.github.io/contrapunctus/journeys/index.html) and [performer comparisons](https://mottopanikeiku.github.io/contrapunctus/compare/index.html).
-- A workshop, glossary, timeline and gallery. Press `/` to search.
+- A workshop, glossary, timeline and gallery, plus site search on the `/` key.
 
 ## Run it
 
-Node 22.12 or newer. The finished site is checked in under `docs/`, and GitHub Pages serves that folder straight from `main`.
+The finished site is checked in under `docs/`, which GitHub Pages serves straight from `main`, and running it locally needs Node 22.12 or newer:
 
 ```sh
 npm ci
@@ -32,12 +32,12 @@ npm run serve
 
 ## Adding a composer
 
-1. Add `content/composers/<slug>.mjs`. Copy `satie.mjs`: name, dates, `era`, `epithet`, `facts`, `life` (HTML, `[[slug|Name]]` links to other composers), `sound`, and a `portrait` that names a Commons file.
+1. Add `content/composers/<slug>.mjs`, copying the fields from `satie.mjs`: name, dates, `era`, `epithet`, `facts`, `life` (HTML, `[[slug|Name]]` links to other composers), `sound`, and a `portrait` that names a Commons file.
 2. Add recordings as `content/listen/<id>.mjs` (see `debussy-faune.mjs`). `node tools/audio.mjs search "<composer> <work>"` finds Commons audio, and `check` shows its licence.
-3. List each recording id in `content/published.json`. Anything not listed is built but kept off the site.
+3. List each recording id in `content/published.json`, because anything not listed is built but kept off the site.
 4. Run `npm run validate`, then `npm run build`.
 
-Quotations stay in the speaker's words and need a source. `npm run validate` parses every score, checks each recording's licence on Commons or the Internet Archive, and rejects influence links without a source. CI runs it on every push.
+Quotations stay in the speaker's words and need a source. `npm run validate` parses every score, checks each recording's licence on Commons or the Internet Archive and rejects influence links without a source, and CI runs it on every push.
 
 ## Credits
 

@@ -1,8 +1,8 @@
 export default {
   kicker: 'An illustrated atlas of composers · Bach to the present',
-  tagline: 'Classical composers, historical recordings and scores, with the paintings and poems connected with the music.',
+  tagline: 'It brings together classical composers, historical recordings and scores, and the paintings and poems connected with the music.',
   description: 'An illustrated atlas of classical composers from Bach to the present, with historical recordings, timed listening notes, playable scores, maps and musical connections.',
-  colophon: 'Dates follow the standard biographies; catalogue numbers follow the thematic catalogues (BWV, K., D., Op.). Sources appear on each page.',
+  colophon: 'Dates follow the standard biographies and catalogue numbers follow the thematic catalogues (BWV, K., D., Op.), while each page gives its own sources.',
 
 
   heroSlides: [
@@ -24,16 +24,16 @@ export default {
 
 
   erasTitle: 'Bach to the present in seven chapters',
-  erasLede: 'Paintings and music from each period, with accounts of changes in harmony, form and instruments.',
+  erasLede: 'Each chapter pairs paintings and music from its period with accounts of changes in harmony, form and instruments.',
 
   programmesTitle: 'Evenings',
-  programmesLede: 'A selection of recordings to play in order, with listening notes and available scores. Playback stops at the end of the evening.',
+  programmesLede: 'Each evening is a selection of recordings that play in order, with listening notes and available scores, and playback stops when the evening ends.',
   lifelinesLede: 'Bach died the year Haydn turned eighteen. Brahms heard Mahler conduct <i>Don Giovanni</i> in Budapest in 1890 and praised it. Rachmaninoff outlived Ravel and Mahler, dying two years before Bartók.',
-  timelineLede: 'Lifespans of every composer in the atlas, set against the events and artworks of their times, drawn to scale. Schubert lived thirty-one years, Mozart thirty-five, Lili Boulanger twenty-four.',
-  galleryLede: 'Paintings, drawings, prints and poems from the atlas, hung salon-style. Each one links to the music it is associated with.',
+  timelineLede: 'The lifespans of every composer in the atlas are drawn to scale here against the events and artworks of their times. Schubert lived thirty-one years, Mozart thirty-five and Lili Boulanger twenty-four.',
+  galleryLede: 'Paintings, drawings, prints and poems from the atlas hang here salon-style, and each one links to the music it is associated with.',
 
   about: {
-    lede: 'An illustrated atlas of Western art music, built around playable recordings and readable scores.',
+    lede: 'This illustrated atlas of Western art music is built around playable recordings and readable scores.',
     html: `<p class="dropcap">Contrapunctus is an atlas of Western art music in seven chapters, from Bach to the present, with a prologue that reaches back to plainchant.</p>
 <h2><span class="sc">The recordings</span>Public domain and Creative Commons</h2>
 <p>The Concert Hall draws public-domain and Creative Commons recordings from Wikimedia Commons and the Internet Archive. These include Nikisch conducting Beethoven in 1913, Rachmaninoff playing Rachmaninoff and Stravinsky conducting <i>The Rite of Spring</i>. For much of the music written since 1945, the chapters link to the labels’ and artists’ own channels. Recording details list the performers, dates, locations and sources.</p>

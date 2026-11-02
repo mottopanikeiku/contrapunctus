@@ -103,7 +103,7 @@ export const tours = [
 ];
 
 export const paths = [
-  { title: 'New listeners', intro: 'The Hall, the score view, joins, the Web of Influence and a guided journey.', lessons: ['hall-welcome', 'score-satie', 'hall-joins', 'influence-thread', 'vienna-journey'] },
-  { title: 'Players and score readers', intro: 'Views of the music, performer comparisons, the Return Lab, score examples and the glossary.', lessons: ['hall-views', 'compare-switching', 'return-lab', 'evidence-room', 'glossary-search'] },
-  { title: 'Historians and archivists', intro: 'Recording sources, the Map, the Web of Influence, citation and performer comparisons.', lessons: ['recording-sources', 'map-mahler', 'influence-thread', 'composer-citation', 'compare-switching'] },
+  { title: 'New listeners', intro: 'This path covers the Hall, the score view, joins, the Web of Influence and a guided journey.', lessons: ['hall-welcome', 'score-satie', 'hall-joins', 'influence-thread', 'vienna-journey'] },
+  { title: 'Players and score readers', intro: 'This path covers views of the music, performer comparisons, the Return Lab, score examples and the glossary.', lessons: ['hall-views', 'compare-switching', 'return-lab', 'evidence-room', 'glossary-search'] },
+  { title: 'Historians and archivists', intro: 'This path covers recording sources, the Map, the Web of Influence, citation and performer comparisons.', lessons: ['recording-sources', 'map-mahler', 'influence-thread', 'composer-citation', 'compare-switching'] },
 ];
